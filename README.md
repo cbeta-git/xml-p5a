@@ -1,4 +1,4 @@
-# xml-p5a
+# XML-P5a
 2019 年開始新的 CBETA XML P5a 版本
 
 此為 CBETA 內部工作中使用的 XML 經文版本，不建議大眾使用。
