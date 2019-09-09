@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X78n1554">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1554 五家正宗贊</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1554 五家正宗贊</title>
@@ -11,101 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.21 $<date>$Date: 2009/04/22 09:05:38 $</date></edition>
-	</editionStmt>
-	<extent>4卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/22 09:05:38 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 78, No. 1554</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, Text as provided by Anonymous, Taiwan</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，台灣某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>4卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">78</idno>.<idno type="no">1554</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">五家正宗贊</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, Text as provided by Anonymous, Taiwan</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，台灣某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2003-09-05T17:53:56">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT (2003-08-11)</change>
-<!--
-$Log: X78n1554.xml,v $
-Revision 1.21  2009/04/22 09:05:38  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.20  2008/10/02 09:05:13  eva
-modified: 經文修訂
-
-Revision 1.19  2008/07/29 04:11:45  amtbgrace
-modified:  [通用字] 經文修訂 [[打-丁+咢]>愕]
-
-Revision 1.18  2007/09/12 05:55:56  amtbgrace
-modified: 校注插入 XML 作業完成
-
-Revision 1.17  2007/03/27 06:46:57  amtbgrace
-modified: [組字修訂] 2007.03.25
-
-Revision 1.16  2007/01/03 03:22:34  amtbgrace
-modified: [經文修訂] [[钁-(目*目)+賏]>钁]
-
-Revision 1.15  2006/10/26 08:04:35  amtbgrace
-modified:組字重複。刪除 CB02373 [〦/(刀*ㄚ*(留-刀-田))/韭]，改用 CB17572 [虀-卄]。
-
-Revision 1.14  2004/11/15 11:18:39  amtbgrace
-modified: 跑chk_mcode.pl  將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.13  2004/09/09 10:02:36  moved
-modified：經文修訂 2004-09-09：p0593c09 [髏髑>髑髏]
-
-Revision 1.12  2004/07/16 09:13:25  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.11  2004/05/25 02:52:50  moved
-modified：修訂簡單標記</L></Q> 轉錯 </div> 的位置
-
-Revision 1.10  2004/04/26 03:48:52  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.9  2004/04/20 08:44:58  maha
-「版本日期」標記修訂
-
-Revision 1.8  2004/04/20 03:27:38  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.7  2004/04/02 09:01:25  moved
-modified：p0616c09 的 CB04777 [牛*字] 改成系統字「牸」
-
-Revision 1.6  2004/03/16 02:21:44  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.5  2003/10/13 05:31:32  moved
-modified：「巳」勘誤為「己」
-
-Revision 1.4  2003/09/24 03:05:53  moved
-modified：<note type="inline"> 取代成 <note place="inline">
-
-Revision 1.3  2003/09/17 01:40:20  moved
-modified：mulu 修訂
-
-Revision 1.2  2003/09/09 08:54:38  moved
-modified：mulu 修訂
-
--->
-</revisionDesc>
+		<change when="2003-09-05T17:53:56">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT (2003-08-11)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X86n1607">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1607 居士分燈錄</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1607 居士分燈錄</title>
@@ -11,98 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.19 $<date>$Date: 2009/04/22 09:07:34 $</date></edition>
-	</editionStmt>
-	<extent>2卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/22 09:07:34 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 86, No. 1607</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, Input by Cai Ning Jun</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，蔡寧君大德輸入</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>2卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">86</idno>.<idno type="no">1607</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">居士分燈錄</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, Input by Cai Ning Jun</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，蔡寧君大德輸入</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2003-11-05T18:02:10">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT (2003-08-11)</change>
-<!--
-$Log: X86n1607.xml,v $
-Revision 1.19  2009/04/22 09:07:34  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.18  2008/08/04 07:55:06  eva
-modified: 經文修訂 [[穫-禾+瓜]>[爪*隻]]
-
-Revision 1.17  2008/08/04 06:33:40  eva
-modified: 經文修訂 [[之-、]>之]
-
-Revision 1.16  2008/04/02 04:03:26  amtbgrace
-modified: [經文修訂] 汩沒 p0584b11
-
-Revision 1.15  2007/09/20 09:21:51  amtbgrace
-modified:校注插入 XML 作業
-
-Revision 1.14  2005/08/30 06:59:57  eva
-modified: 經文修訂
-
-Revision 1.13  2004/11/15 11:21:30  amtbgrace
-modified: 跑chk_mcode.pl  將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.12  2004/09/07 12:01:11  moved
-modified：X78b-87a 新增句讀
-
-Revision 1.11  2004/09/01 09:23:50  moved
-modified：經文修訂 p0613b03 段落"P" 改作 強迫分行"k"
-
-Revision 1.10  2004/07/16 09:13:34  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.9  2004/06/25 03:43:03  moved
-modified：附文的 mulu type="其他" 修改成 mulu type="附文"
-
-Revision 1.8  2004/04/26 03:51:04  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.7  2004/04/20 08:45:44  maha
-「版本日期」標記修訂
-
-Revision 1.6  2004/04/20 03:28:10  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.5  2004/03/16 02:22:13  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.4  2003/11/07 09:07:23  moved
-modified
-
-Revision 1.3  2003/11/07 08:24:33  moved
-modified：normal比對修訂
-
-Revision 1.2  2003/11/07 06:46:32  moved
-modified
-
-Revision 1.1  2003/11/05 09:47:34  ray
-new from basicx
-
--->
-</revisionDesc>
+		<change when="2003-11-05T18:02:10">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT (2003-08-11)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X63n1241">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1241 證道歌註</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1241 證道歌註</title>
@@ -11,80 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.13 $<date>$Date: 2009/06/29 10:15:01 $</date></edition>
-	</editionStmt>
-	<extent>1卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/06/29 10:15:01 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 63, No. 1241</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>1卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">63</idno>.<idno type="no">1241</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">證道歌註</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2004-08-05T10:36:34">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-<!--
-$Log: X63n1241.xml,v $
-Revision 1.13  2009/06/29 10:15:01  amtbgrace
-經文修訂。修訂筆數共71筆，請看信件主旨為：[經文修訂] X63n1241《證道歌註》 2009/6/26 maha 所寄之信。
-
-Revision 1.12  2009/06/26 08:25:37  amtbgrace
-經文修訂。p0278a11,a14, p0280c21  [靻>靼]
-
-Revision 1.11  2009/06/15 03:23:43  amtbgrace
-經文修訂：p0264a09 新增句號 ,p0277a16 精[>進] ,p0279c19 [蒙>象]
-
-Revision 1.10  2009/04/22 09:02:07  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.9  2007/09/04 09:31:49  eva
-modified: 校注作業完成
-
-Revision 1.8  2005/11/30 06:34:39  amtbgrace
-modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
-
-Revision 1.7  2004/12/02 10:00:27  amtbgrace
-modified: X63~X73 XML新增句讀
-
-Revision 1.6  2004/11/25 12:44:19  amtbgrace
-modified: [CBETA] [經文修訂] X63
-
-Revision 1.5  2004/11/15 11:14:10  amtbgrace
-modified: 跑chk_mcode.pl  將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.4  2004/08/30 11:37:41  moved
-modified：normal 比對修訂
-
-Revision 1.3  2004/08/20 11:06:57  moved
-modified：目錄檢查修訂
-
-Revision 1.2  2004/08/17 11:49:19  moved
-modified：note.txt 備註修訂
-
-Revision 1.1  2004/08/05 06:23:30  ray
-由 basicx 產生自簡單標記版
-
--->
-</revisionDesc>
+		<change when="2004-08-05T10:36:34">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

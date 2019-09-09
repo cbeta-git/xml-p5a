@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X64n1261">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1261 祖庭事苑</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1261 祖庭事苑</title>
@@ -11,125 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.37 $<date>$Date: 2010/10/25 08:46:23 $</date></edition>
-	</editionStmt>
-	<extent>8卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2010/10/25 08:46:23 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 64, No. 1261</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, Text as provided by Anonymous, Taiwan</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，台灣某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>8卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">64</idno>.<idno type="no">1261</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">祖庭事苑</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, Text as provided by Anonymous, Taiwan</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，台灣某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2004-08-05T11:40:51">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-<!--
-$Log: X64n1261.xml,v $
-Revision 1.37  2010/10/25 08:46:23  amtbgrace
-modified: 圖檔檔名修改
-
-Revision 1.36  2010/07/28 08:26:37  eva
-modified: 經文修訂
-
-Revision 1.35  2010/05/31 08:10:14  amtbgrace
-modified: 按 2010/4/14 maha 來信修訂（主旨為: [經文修訂] RE: 經文上網前的比對問題 - 通用詞修訂）
-
-Revision 1.34  2009/06/26 08:26:10  amtbgrace
-經文修訂。p0393c19, p0424a21  [靻>靼]
-
-Revision 1.33  2009/04/22 09:02:18  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.32  2008/12/04 08:38:19  amtbgrace
-modified: 序文 的 type xml 標記修訂。
-
-Revision 1.31  2008/11/05 03:16:39  amtbgrace
-modified: 經文修訂 p0395a08 [楗>揵]陟
-
-Revision 1.30  2008/09/22 05:17:59  amtbgrace
-modified: [通用字1015] 修訂 5_[[魯*瓦]>甑]  p0377c09、p0398a08
-
-Revision 1.29  2008/08/12 00:46:04  amtbgrace
-modified: [經文修訂]  [泒>派]
-
-Revision 1.28  2008/08/04 07:52:28  eva
-modified: 經文修訂 [[穫-禾+瓜]>[爪*隻]]
-
-Revision 1.27  2008/07/31 03:59:58  amtbgrace
-modified: [通用字] 經文修訂 [[門@于]>閈]]、[[門@出]>閩]
-
-Revision 1.26  2008/07/30 01:40:24  amtbgrace
-modified: ：[通用字] 經文修訂 [[強-弓+目]>[目*(山/虫)]]
-
-Revision 1.25  2008/06/19 07:32:42  eva
-modified: [[耳*丐]>[目*丐]]
-
-Revision 1.24  2008/06/04 09:02:57  amtbgrace
-modified: [經文修訂] 黃[[薛/木]>蘗]」
-
-Revision 1.23  2007/12/12 07:42:57  eva
-modified: 經文修訂
-
-Revision 1.22  2007/09/06 09:46:57  eva
-modified: 校注作業完成
-
-Revision 1.21  2007/08/30 08:25:54  amtbgrace
-modified:  [經文修訂] [戌>戍]
-
-Revision 1.20  2006/03/09 07:09:25  amtbgrace
-modified: 組字重覆取代
-
-Revision 1.19  2005/12/26 02:21:55  amtbgrace
-modified: 行首圈點修訂 p0427a23
-
-Revision 1.18  2005/11/30 06:34:40  amtbgrace
-modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
-
-Revision 1.17  2004/11/15 11:14:42  amtbgrace
-modified: 跑chk_mcode.pl  將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.16  2004/10/19 09:14:28  moved
-modified：[缺字CBa修訂]：CBa0120改成CB07894:p0399c03
-
-Revision 1.15  2004/10/18 05:43:42  moved
-modified：[經文修訂] 組字重覆：CB15854 改成CB14530:p0364a18
-
-Revision 1.14  2004/09/10 05:52:55  moved
-modified：p0371b01 [菰-子+瓜] 改為系統字「蓏」
-
-Revision 1.13  2004/08/13 02:53:52  moved
-modified
-
-Revision 1.12  2004/08/11 12:12:19  moved
-modified
-
-Revision 1.11  2004/08/10 11:30:27  moved
-modified
-
-Revision 1.10  2004/08/05 06:17:08  ray
-重新由 basicx 產生
-
--->
-</revisionDesc>
+		<change when="2004-08-05T11:40:51">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X83n1578">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1578 指月錄</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1578 指月錄</title>
@@ -11,173 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.45 $<date>$Date: 2011/02/24 06:06:38 $</date></edition>
-	</editionStmt>
-	<extent>32卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2011/02/24 06:06:38 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 83, No. 1578</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>32卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">83</idno>.<idno type="no">1578</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">指月錄</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2003-10-14T16:44:58">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT (2003-08-11)</change>
-<!--
-$Log: X83n1578.xml,v $
-Revision 1.45  2011/02/24 06:06:38  maha
-按 2011/2/18 maha 來信修訂（主旨為: [經文修訂] [[暴-(日/共)+天]>忝]）
-
-Revision 1.44  2011/02/22 04:22:39  maha
-按 2011/2/10 maha 來信修訂（主旨為: [經文修訂] [閒>間]、[ㄙ>[云-二]]）
-
-Revision 1.43  2010/10/25 08:49:44  amtbgrace
-modified: 圖檔檔名修改
-
-Revision 1.42  2010/09/27 03:41:23  amtbgrace
-modified: 按 2010/7/20 maha 來信修訂（主旨為:  [經文修訂] 五燈會元 VS 五燈嚴統）
-
-Revision 1.41  2010/05/07 07:03:55  amtbgrace
-modified: 按 2010/4/26 maha 來信修訂（主旨為: [經文修訂]  [塵>麈]談）
-
-Revision 1.40  2010/03/12 07:10:23  amtbgrace
-modified: 經文修訂   如[[凵@人]>囚]免獄
-
-Revision 1.39  2009/06/26 08:28:21  amtbgrace
-經文修訂。p0466c01  [靻>靼]
-
-Revision 1.38  2009/04/22 09:06:56  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.37  2009/03/23 07:01:55  amtbgrace
-modified: 依比對修訂
-
-Revision 1.36  2008/10/02 09:06:43  eva
-modified: 經文修訂
-
-Revision 1.35  2008/10/02 08:38:53  eva
-modified: 經文修訂
-
-Revision 1.34  2008/09/19 02:02:10  amtbgrace
-modified: 經文修訂  p0469c13、p0469c14  [[酉*孛]>酵]
-
-Revision 1.33  2008/09/03 01:55:10  amtbgrace
-modified: 經文修訂 p0520c17 [扺>抵]
-
-Revision 1.32  2008/08/07 08:14:39  eva
-modified: 經文修訂 [[婺-矛+牙]>婺]
-
-Revision 1.31  2008/08/04 07:54:34  eva
-modified: 經文修訂 [[穫-禾+瓜]>[爪*隻]]
-
-Revision 1.30  2008/08/04 06:11:53  eva
-modified: 經文修訂 [[睊-月+虫]>[目*(山/一/虫)]]
-
-Revision 1.29  2008/07/31 04:02:14  amtbgrace
-modified: [通用字] 經文修訂  [[王*闌]>爛]]
-
-Revision 1.28  2008/06/20 09:16:20  eva
-modified: 經文修訂
-
-Revision 1.27  2008/06/19 03:01:28  eva
-modified:  [[嫡-女]>商]量
-
-Revision 1.26  2007/12/12 07:40:30  amtbgrace
-modified: 經文修訂 [[券-刀+力]>券]
-
-Revision 1.25  2007/09/27 07:17:47  eva
-modified: 校注作業完成
-
-Revision 1.24  2007/01/04 10:06:16  eva
-modified: 大比對修訂
-
-Revision 1.23  2007/01/03 04:10:36  eva
-modified: [經文修訂] [[療-(日/小)+土]>瘞]
-
-Revision 1.22  2006/10/12 05:46:02  amtbgrace
-modifid: [經文修訂] 荷擔大法盡在子[射>躬]
-
-Revision 1.21  2006/10/11 03:21:11  amtbgrace
-modified: [經文修訂] 兜[牽>率]
-
-Revision 1.20  2005/11/30 06:34:56  amtbgrace
-modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
-
-Revision 1.19  2005/09/20 06:05:13  eva
-modified: 經文修訂
-
-Revision 1.18  2004/11/15 11:20:33  amtbgrace
-modified: 跑chk_mcode.pl  將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.17  2004/11/11 05:14:17  eva
-modified: 取消 CB01327 [來/貝] 改成 賚
-
-Revision 1.16  2004/07/16 09:13:30  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.15  2004/04/26 03:50:32  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.14  2004/04/20 08:45:26  maha
-「版本日期」標記修訂
-
-Revision 1.13  2004/04/20 03:27:56  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.12  2004/03/16 02:22:02  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.11  2004/03/10 03:28:16  eva
-modified: 經文修訂
-
-Revision 1.10  2004/01/06 03:01:03  moved
-modified：p0704c15的CB01274[木*霸]改作 CB01665 [標-示+(革*月)]
-
-Revision 1.9  2003/11/06 08:41:29  eva
-modified: 經文修訂
-
-Revision 1.8  2003/10/17 08:31:29  eva
-modified: 修訂mulu
-
-Revision 1.7  2003/10/16 08:36:24  eva
-modified: normal比對修訂
-
-Revision 1.6  2003/10/16 07:16:35  eva
-modified: 修改重複標題
-
-Revision 1.5  2003/10/16 03:40:36  eva
-modified: 修改mulu
-
-Revision 1.4  2003/10/15 09:51:04  eva
-modified: 修訂mulu
-
-Revision 1.3  2003/10/15 08:16:13  eva
-modified: 修訂mulu
-
-Revision 1.2  2003/10/14 08:33:42  ray
-new from basicx
-
--->
-</revisionDesc>
+		<change when="2003-10-14T16:44:58">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT (2003-08-11)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

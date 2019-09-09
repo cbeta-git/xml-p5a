@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X21n0384">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 384 地藏本願經科註</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 384 地藏本願經科註</title>
@@ -11,89 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.16 $<date>$Date: 2012/02/20 03:32:28 $</date></edition>
-	</editionStmt>
-	<extent>6卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/02/20 03:32:28 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 21, No. 384</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, Text as provided by Electronic Buddhadharma Society (EBS)</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，佛教電腦資訊庫功德會提供</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>6卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">21</idno>.<idno type="no">384</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">地藏本願經科註</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, Text as provided by Electronic Buddhadharma Society (EBS)</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，佛教電腦資訊庫功德會提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-06-30T11:17:07">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-<!--
-$Log: X21n0384.xml,v $
-Revision 1.16  2012/02/20 03:32:28  amtbgrace
-經文修訂：p0751a12 又[當>常] , p0751a19 不[間>問]貴賤
-
-Revision 1.15  2011/08/30 05:10:22  amtbgrace
-經文修訂：p0739b07 [傳>傅]枝
-
-Revision 1.14  2010/10/25 08:39:24  amtbgrace
-modified: 圖檔檔名修改
-
-Revision 1.13  2010/05/27 03:04:25  amtbgrace
-modified: 按 2010/4/30 maha 來信修訂（主旨為: [經文修訂] 麴糱 vs 麴櫱 vs 麴蘗）
-
-Revision 1.12  2009/06/25 06:13:31  amtbgrace
-經文修訂。p0674b22, p0756c09 [巳>己]
-
-Revision 1.11  2009/04/22 08:53:15  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.10  2009/03/20 11:13:59  eva
-modified: 大比對修訂
-
-Revision 1.9  2008/09/02 09:31:21  eva
-modified: 經文修訂 [淊淊>滔滔]
-
-Revision 1.8  2008/08/04 04:00:53  amtbgrace
-modified: [通用字] 經文修訂  p0767b01　[[泳-永+匯]>[泳-永+(匚@隹)]]
-
-Revision 1.7  2007/12/13 06:39:11  amtbgrace
-modified: 經文修訂:   [蠢>憃]
-
-Revision 1.6  2007/07/06 03:34:53  eva
-modified: 校注作業完成
-
-Revision 1.5  2007/04/13 03:01:51  amtbgrace
-modified: [經文修訂]   [成>我]所分身
-
-Revision 1.4  2007/01/03 05:27:42  eva
-modified: [經文修訂] [[跳-兆+尃]>[跳-兆+專]]
-
-Revision 1.3  2006/07/14 09:07:19  amtbgrace
-modified: 經文修訂：毀[咨>呰]
-
-Revision 1.2  2006/07/14 09:05:10  amtbgrace
-modified: normal 比對修訂
-
-Revision 1.1  2006/06/30 03:24:09  ray
-basicx 程式 轉自 簡單標記版
-
--->
-</revisionDesc>
+		<change when="2006-06-30T11:17:07">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

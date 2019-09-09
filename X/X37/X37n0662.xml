@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X37n0662">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 662 涅槃經疏三德指歸</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 662 涅槃經疏三德指歸</title>
@@ -11,92 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.17 $<date>$Date: 2012/03/23 07:59:13 $</date></edition>
-	</editionStmt>
-	<extent>19卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/03/23 07:59:13 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 37, No. 662</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>19卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">37</idno>.<idno type="no">662</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">涅槃經疏三德指歸</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-10-03T12:00:05">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-<!--
-$Log: X37n0662.xml,v $
-Revision 1.17  2012/03/23 07:59:13  eva
-modified: 經文修訂
-
-Revision 1.16  2012/03/02 09:46:45  amtbgrace
-經文修訂：p0596c21 無增無[滅>減]
-
-Revision 1.15  2011/07/27 08:32:06  amtbgrace
- [經文修訂] 野[于>干] p0528c22
-
-Revision 1.14  2011/05/19 02:14:41  amtbgrace
-modified: [經文修訂 ] p0592a01 阿[蓍>耆]達王
-
-Revision 1.13  2010/10/25 08:42:18  amtbgrace
-modified: 圖檔檔名修改
-
-Revision 1.12  2010/03/12 08:42:21  amtbgrace
-modified: 經文修訂  琉[琉>璃]
-
-Revision 1.11  2009/04/22 08:56:20  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.10  2008/06/19 09:02:15  amtbgrace
-modified: 經文修訂 p0368a08 [[火*且]>炟]
-
-Revision 1.9  2007/07/10 02:14:07  amtbgrace
-modified: 校注檔修訂 [謚>諡]
-
-Revision 1.8  2007/07/06 02:42:25  amtbgrace
-modified: 校注插入 XML
-
-Revision 1.7  2007/01/19 08:25:58  eva
-modified: xml 與 cbr 大比對修訂
-
-Revision 1.6  2007/01/03 02:18:01  amtbgrace
-modified: [經文修訂] [其/水] → [其/木]
-
-Revision 1.5  2006/10/26 07:59:44  amtbgrace
-modified: 組字重複，刪除 CB01492 [(穀-禾)/牛]，改用 CB17769 [愨-心+牛]。
-
-Revision 1.4  2006/10/19 02:37:42  amtbgrace
-modified: 依 nromal 比對修訂
-
-Revision 1.3  2006/10/16 09:33:26  amtbgrace
-modified: hh 檢查目錄及修訂
-
-Revision 1.2  2006/10/11 08:46:40  amtbgrace
-modified：跑卷檢查
-
-Revision 1.1  2006/10/03 05:33:49  duncan
-10/3  轉自basicx ok
-
--->
-</revisionDesc>
+		<change when="2006-10-03T12:00:05">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
