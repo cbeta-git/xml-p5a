@@ -11,172 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.26 $<date>$Date: 2009/04/23 07:59:46 $</date>新式標點版</edition>
-	</editionStmt>
-	<extent>3卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/23 07:59:46 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 18, No. 893b</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, CBETA OCR Group, Punctuated text as provided by Ms. Huang Jin-Ai</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，CBETA 自行掃瞄辨識，黃金愛大德提供新式標點</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">18</idno>.<idno type="no">893b</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">蘇悉地羯羅經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, CBETA OCR Group, Punctuated text as provided by Ms. Huang Jin-Ai</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，CBETA 自行掃瞄辨識，黃金愛大德提供新式標點</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-01-05T17:54:13">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
-<!--
-$Log: T18n0893b.xml,v $
-Revision 1.26  2009/04/23 07:59:46  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.25  2007/05/03 08:09:37  saywhat
-p0651a24 器[血>皿]
-
-Revision 1.24  2006/05/19 09:03:24  saywhat
-雙圈 改成 anchor 標記
-
-Revision 1.23  2006/04/12 21:55:28  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.21  2006/01/04 09:21:08  saywhat
-p0634a27 [口*縛][曰>日]囉
-
-Revision 1.20  2005/10/26 14:37:28  saywhat
-resp="resp=CBETA  =>  resp="CBETA
-
-Revision 1.19  2005/10/26 09:30:02  saywhat
-p0654b10 袈[娑>裟]
-
-Revision 1.18  2005/04/24 14:16:00  saywhat
-[0633001] 【原】麗本 => 【原】宋本
-
-Revision 1.17  2004/11/15 06:34:39  saywhat
-◎。 => 。◎
-
-Revision 1.16  2004/11/14 03:17:20  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.15  2004/10/17 11:34:28  saywhat
-段落前加入圈點
-
-Revision 1.14  2004/10/07 04:35:06  saywhat
-p0655b21 [[佫-口+里]>[鯈-魚+里]]
-
-Revision 1.13  2004/06/23 05:50:46  saywhat
-修訂</byline></div>，將</div>移到前一卷
-
-Revision 1.12  2004/04/20 08:38:37  maha
-「版本日期」標記修訂
-
-Revision 1.11  2004/04/20 03:25:21  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.10  2004/01/02 05:53:42  maha
-<note mod>裡的corr2app
-
-Revision 1.9  2003/11/21 01:16:38  saywhat
-mod [0633015] to a,b
-
-Revision 1.8  2003/11/09 23:18:44  saywhat
-＊→ app [0633015b]
-
-Revision 1.7  2003/06/26 02:50:39  saywhat
-<corr>→<app>
-
-Revision 1.6  2003/06/23 06:13:21  saywhat
-[＊]校勘插入XML
-
-Revision 1.5  2003/06/16 03:11:01  saywhat
-修訂「疑似對應的＊校勘」
-
-Revision 1.4  2003/06/02 05:30:08  saywhat
-CVS與2003/04版比對修訂
-
-Revision 1.3  2003/05/22 06:36:01  ray
-app版100字以上長行加標點
-
-Revision 1.2  2003/05/12 08:35:15  saywhat
-modified star
-
-Revision 1.1.1.1  2003/05/05 04:09:07  ray
-recover cvs
-
-Revision 1.19  2002/12/04 01:47:43  saywhat
-校勘插入處理
-
-Revision 1.18  2002/11/04 10:44:26  ray
-tei.2 => TEI.2
-
-Revision 1.17  2002/10/21 08:11:40  ray
-移動 <anchor>+<note>, <anchor>+雙圈
-
-Revision 1.16  2002/10/07 13:09:55  moved
-modified
-
-Revision 1.15  2002/07/29 09:44:58  vinking
-modified lang
-
-Revision 1.14  2002/06/19 09:46:42  saywhat
-T18 經文修訂 20020605(maha).txt
-
-Revision 1.13  2002/04/08 08:58:25  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.12  2001/11/05 06:12:57  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.11  2001/07/26 09:42:08  vinking
-modified for rtf
-
-Revision 1.10  2001/07/24 06:52:29  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.9  2001/05/25 08:58:13  ray
-經號統一為四碼
-
-Revision 1.8  2001/04/01 08:17:48  ray
-CB00380 => CB00308
-
-Revision 1.7  2001/03/30 05:48:10  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.6  2001/03/25 09:09:21  ray
-add <milestone>
-
-Revision 1.5  2001/02/07 06:53:45  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.4  2001/02/03 07:43:30  chris
-Added keywords $Revision: 1.26 $, $Date: 2009/04/23 07:59:46 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-01-05T17:54:13">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

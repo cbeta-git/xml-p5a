@@ -11,101 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.26 $<date>$Date: 2012/11/22 08:16:49 $</date></edition>
-	</editionStmt>
-	<extent>10卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/11/22 08:16:49 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 54, No. 2130</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>10卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">54</idno>.<idno type="no">2130</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">翻梵語</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2001-03-06T14:34:39">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-<!--
-$Log: T54n2130.xml,v $
-Revision 1.26  2012/11/22 08:16:49  eva
-modified: CB07742 改作 怵
-
-Revision 1.25  2012/03/01 06:49:58  amtbgrace
-經文修訂：p1020c02 頻鞞[波>娑]羅(譯曰洗尼者軍頻鞞者謨[波>娑]羅者
-
-Revision 1.24  2011/12/26 08:16:19  amtbgrace
-modified: 經文修訂 p1006c18,19 那[刺>剌]陀
-
-Revision 1.23  2011/04/21 10:02:13  amtbgrace
-modified: [經文修訂] [旡>[一/尢]]
-
-Revision 1.22  2010/03/12 14:25:19  eva
-modified: 經文修訂
-
-Revision 1.21  2009/04/23 08:14:15  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.20  2008/11/05 09:17:39  saywhat
-p1032a0 [楗>揵]陟
-
-Revision 1.19  2008/08/04 13:24:39  saywhat
-p1054b13 一念[項>頃]
-
-Revision 1.18  2007/12/05 05:03:01  saywhat
-p1034a17 沙[桴>捊]世界
-
-Revision 1.17  2007/08/31 05:50:07  saywhat
-p1015a11 [第>弟]子
-
-Revision 1.16  2006/04/12 22:00:18  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.14  2005/02/20 07:36:51  saywhat
-修訂檔頭的日期
-
-Revision 1.13  2004/12/15 07:14:52  saywhat
-行尾的<div1 type="w">移到下一行行首
-
-Revision 1.12  2004/11/14 03:18:22  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.11  2004/11/06 14:19:27  saywhat
-段落前加入圈點
-
-Revision 1.10  2004/07/16 09:13:08  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.9  2004/04/20 08:44:21  maha
-「版本日期」標記修訂
-
-Revision 1.8  2004/02/27 01:27:27  ray
-add cvs log
-
--->
-</revisionDesc>
+		<change when="2001-03-06T14:34:39">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

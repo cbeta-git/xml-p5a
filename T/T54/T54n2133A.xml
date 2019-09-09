@@ -1,117 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T54n2133A">
 <teiHeader>
-        <fileDesc>
-                <titleStmt>
-                        <title>Taishō Tripiṭaka, Electronic version, No. 2133A 梵語千字文</title>
-                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2133A 梵語千字文</title>
-                        <author>唐 義淨撰</author>
-                        <respStmt>
-                                <resp>Electronic Version by</resp>
-                                <name>CBETA</name>
-                        </respStmt>
-                </titleStmt>
-        <editionStmt>
-                <edition>$Revision: 1.25 $<date>$Date: 2010/12/17 10:12:10 $</date></edition>
-        </editionStmt>
-        <extent>1卷</extent>
-        <publicationStmt>
-                <distributor>
-                        <name>中華電子佛典協會 (CBETA)</name>
-                        <address>
-                                <addrLine>service@cbeta.org</addrLine>
-                        </address>
-                </distributor>
-                <availability>
-                        <p>Available for non-commercial use when distributed with this header intact.</p>
-                </availability>
-                <date>$Date: 2010/12/17 10:12:10 $</date>
-        </publicationStmt>
-        <sourceDesc>
-                <bibl>Taishō Tripiṭaka Vol. 54, No. 2133A</bibl>
-        </sourceDesc>
-</fileDesc>
-<encodingDesc>
-        <projectDesc>
-                <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-        </projectDesc>
-</encodingDesc>
-<profileDesc>
+	<fileDesc>
+		<titleStmt>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2133A 梵語千字文</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2133A 梵語千字文</title>
+			<author>唐 義淨撰</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>1卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">54</idno>.<idno type="no">2133A</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">梵語千字文</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="san-tr"/>
 			<language ident="sa-Sidd">Sanskrit-Siddam</language>
 			<language ident="sa">Sanskrit</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-        <change when="2001-03-06T14:34:42">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-<!--
-$Log: T54n2133A.xml,v $
-Revision 1.25  2010/12/17 10:12:10  eva
-modified: 標記修訂
-
-Revision 1.24  2009/04/23 08:14:16  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.23  2007/01/05 03:55:55  saywhat
-rend裡的空格改以margin-left表示
-
-Revision 1.22  2006/04/12 22:00:20  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.20  2006/03/26 04:52:45  saywhat
-SD-A65A=>SD-E3AD, SD-AF72=>SD-D9FA
-
-Revision 1.19  2005/11/30 06:34:22  amtbgrace
-modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
-
-Revision 1.18  2005/02/20 07:36:51  saywhat
-修訂檔頭的日期
-
-Revision 1.17  2004/12/19 11:25:54  saywhat
-p1194c17 SD-A656 => SD-A5CD; p1194c26,c29 SD-A65E => SD-A5D5
-
-Revision 1.16  2004/12/19 04:26:28  saywhat
-p1190a22 added <div1>&<mulu>
-
-Revision 1.15  2004/12/11 09:12:37  saywhat
-移動</p></div1>至p1196b06
-
-Revision 1.14  2004/11/14 03:18:22  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.13  2004/11/06 14:19:27  saywhat
-段落前加入圈點
-
-Revision 1.12  2004/11/04 00:40:24  saywhat
-p1197a14 added <p rend="margin-left:1em">
-
-Revision 1.11  2004/07/16 09:13:09  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.10  2004/06/16 02:56:20  saywhat
-修訂<div1 type="xu">包含<juan>的問題
-
-Revision 1.9  2004/04/20 08:44:23  maha
-「版本日期」標記修訂
-
-Revision 1.8  2004/04/20 03:27:24  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.7  2004/03/16 02:21:31  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.6  2004/02/27 01:27:28  ray
-add cvs log
-
--->
-</revisionDesc>
+		<change when="2001-03-06T14:34:42">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
@@ -213,7 +172,7 @@ add cvs log
 <lb n="1191a16" ed="T"/>
 <lb n="1191a17" ed="T"/><p xml:id="pT54p1191a1701"><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC6"/><g ref="#SD-CDF9"/><g ref="#SD-A4DA"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">激</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E3CF"/><g ref="#SD-A557"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">揚</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E444"/><g ref="#SD-A656"/><g ref="#SD-A6A9"/><g ref="#SD-A5FD"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">理</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-B6BC"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">致</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-A6B4"/><g ref="#SD-A5FD"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">文</cb:t></cb:tt>
 <lb n="1191a18" ed="T"/>
-<lb n="1191a19" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC6"/><g ref="#SD-CDB6"/><g ref="#SD-A5F3"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">參</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191001" resp="Taisho" place="foot text" type="orig">uparopara?</note><foreign cb:cert="?" n="1191001" cb:resp="Taisho" xml:lang="sa" cb:place="foot">uparopara</foreign><g ref="#SD-E3FD"/><g ref="#SD-A5B9"/><g ref="#SD-A5FE"/><g ref="#SD-A5B5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">疊</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A557"/><g ref="#SD-A64A"/><g ref="#SD-A67C"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">席</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-AABC"/><g ref="#SD-E0A4"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">聰</cb:t></cb:tt>
+<lb n="1191a19" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC6"/><g ref="#SD-CDB6"/><g ref="#SD-A5F3"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">參</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191001" resp="Taisho" place="foot text" type="orig">uparopara?</note><foreign cert="unknown" n="1191001" cb:resp="Taisho" xml:lang="sa" cb:place="foot">uparopara</foreign><g ref="#SD-E3FD"/><g ref="#SD-A5B9"/><g ref="#SD-A5FE"/><g ref="#SD-A5B5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">疊</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A557"/><g ref="#SD-A64A"/><g ref="#SD-A67C"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">席</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-AABC"/><g ref="#SD-E0A4"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">聰</cb:t></cb:tt>
 <lb n="1191a20" ed="T"/>
 <lb n="1191a21" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-A559"/><g ref="#SD-A948"/><g ref="#SD-CA57"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">過</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CBEB"/><g ref="#SD-CD4D"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">閱</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A47C"/><g ref="#SD-AF5A"/><g ref="#SD-A5FD"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">肆</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E3BB"/><g ref="#SD-CF6D"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">市</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E043"/><g ref="#SD-A67B"/><g ref="#SD-A5FD"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">玉</cb:t></cb:tt>
 <lb n="1191a22" ed="T"/>
@@ -223,7 +182,7 @@ add cvs log
 <lb n="1191a26" ed="T"/>
 <lb n="1191a27" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-A848"/><g ref="#SD-A564"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">非</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-AABC"/><g ref="#SD-A658"/><g ref="#SD-A4B6"/><g ref="#SD-A5F1"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">提</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-D1B8"/><g ref="#SD-A5E5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">撕</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E1F0"/><g ref="#SD-B5A5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">愚</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E0A4"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">智</cb:t></cb:tt>
 <lb n="1191a28" ed="T"/>
-<lb n="1191a29" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A441"/><g ref="#SD-A440"/><g ref="#SD-E3B0"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">紙</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B5"/><g ref="#SD-A559"/><g ref="#SD-A557"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">落</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-AABC"/><g ref="#SD-A656"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">浮</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B9"/><g ref="#SD-E1B5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">花</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A441"/><g ref="#SD-A440"/><g ref="#SD-E444"/><note n="1191002" resp="Taisho" place="foot text" type="orig">śrokā?</note><foreign cb:cert="?" n="1191002" cb:resp="Taisho" xml:lang="sa" cb:place="foot">śrokā</foreign></cb:t><cb:t xml:lang="zh-Hant">詩</cb:t></cb:tt>
+<lb n="1191a29" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A441"/><g ref="#SD-A440"/><g ref="#SD-E3B0"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">紙</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B5"/><g ref="#SD-A559"/><g ref="#SD-A557"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">落</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-AABC"/><g ref="#SD-A656"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">浮</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B9"/><g ref="#SD-E1B5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">花</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A441"/><g ref="#SD-A440"/><g ref="#SD-E444"/><note n="1191002" resp="Taisho" place="foot text" type="orig">śrokā?</note><foreign cert="unknown" n="1191002" cb:resp="Taisho" xml:lang="sa" cb:place="foot">śrokā</foreign></cb:t><cb:t xml:lang="zh-Hant">詩</cb:t></cb:tt>
 <lb n="1191a30" ed="T"/>
 <pb n="1191b" xml:id="T54.2133A.1191b" ed="T"/>
 <lb n="1191b01" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5AB"/><g ref="#SD-E1B5"/><g ref="#SD-E364"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">成</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5E5"/><g ref="#SD-E3C6"/><g ref="#SD-A570"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">含</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E0BC"/><g ref="#SD-A5FE"/><g ref="#SD-A458"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">翠</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A440"/><g ref="#SD-A64B"/><g ref="#SD-A5E5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">筆</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-E3BA"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">不</cb:t></cb:tt>
@@ -240,7 +199,7 @@ add cvs log
 <lb n="1191b12" ed="T"/>
 <lb n="1191b13" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A47E"/><g ref="#SD-CA56"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">思</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A44C"/><g ref="#SD-C9FD"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">片</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-AABD"/><g ref="#SD-B6BC"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">淑</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A4B6"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">仁</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-B065"/><g ref="#SD-A5E7"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">君<note place="inline">主</note></cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B9"/><g ref="#SD-E1F3"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">子</cb:t></cb:tt>
 <lb n="1191b14" ed="T"/>
-<lb n="1191b15" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5E5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">匪</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5DA"/><g ref="#SD-A4B6"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">器</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5DA"/><g ref="#SD-A458"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">寸</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A658"/><g ref="#SD-E2CD"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">伎</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191003" resp="Taisho" place="foot text" type="orig">ma jugupsā?</note><foreign cb:cert="?" n="1191003" cb:resp="Taisho" xml:lang="sa" cb:place="foot">ma jugupsā</foreign><g ref="#SD-A5E5"/><g ref="#SD-E3BA"/><g ref="#SD-A948"/><g ref="#SD-A45C"/><g ref="#SD-A465"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">勿　嫌</cb:t></cb:tt>
+<lb n="1191b15" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5E5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">匪</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5DA"/><g ref="#SD-A4B6"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">器</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5DA"/><g ref="#SD-A458"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">寸</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A658"/><g ref="#SD-E2CD"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">伎</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191003" resp="Taisho" place="foot text" type="orig">ma jugupsā?</note><foreign cert="unknown" n="1191003" cb:resp="Taisho" xml:lang="sa" cb:place="foot">ma jugupsā</foreign><g ref="#SD-A5E5"/><g ref="#SD-E3BA"/><g ref="#SD-A948"/><g ref="#SD-A45C"/><g ref="#SD-A465"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">勿　嫌</cb:t></cb:tt>
 <lb n="1191b16" ed="T"/>
 <lb n="1191b17" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A44C"/><g ref="#SD-B5A5"/><g ref="#SD-A4DA"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">固</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E1DA"/><g ref="#SD-E267"/><g ref="#SD-E36C"/><g ref="#SD-A5FD"/><g ref="#SD-E36D"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">難</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E441"/><g ref="#SD-A5E5"/><g ref="#SD-CA56"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">周<note place="inline">普</note></cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E441"/><g ref="#SD-A5E5"/><g ref="#SD-CA56"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">備</cb:t></cb:tt>
 <lb n="1191b18" ed="T"/>
@@ -250,7 +209,7 @@ add cvs log
 <lb n="1191b22" ed="T"/>
 <lb n="1191b23" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A45C"/><g ref="#SD-E0C3"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">祕</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC9"/><g ref="#SD-A47E"/><g ref="#SD-A557"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">銓</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A55B"/><g ref="#SD-A8B2"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">衝</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-E0E1"/><g ref="#SD-D9FA"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">信</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CDB7"/><g ref="#SD-A557"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">立</cb:t></cb:tt>
 <lb n="1191b24" ed="T"/>
-<lb n="1191b25" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A4B6"/><g ref="#SD-A5A9"/><g ref="#SD-E3BA"/><g ref="#SD-A5E5"/><g ref="#SD-A5AD"/><g ref="#SD-A8D6"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">人</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-A5DB"/><g ref="#SD-AABC"/><g ref="#SD-E441"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">誠</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A440"/><g ref="#SD-CD4B"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">哉</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191004" resp="Taisho" place="foot text" type="orig">na tāvat?</note><foreign cb:cert="?" n="1191004" cb:resp="Taisho" xml:lang="sa" cb:place="foot">na tāvat</foreign><g ref="#SD-A5A9"/><g ref="#SD-E3BA"/><g ref="#SD-A558"/><g ref="#SD-A656"/><g ref="#SD-E077"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">未</cb:t></cb:tt>
+<lb n="1191b25" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A4B6"/><g ref="#SD-A5A9"/><g ref="#SD-E3BA"/><g ref="#SD-A5E5"/><g ref="#SD-A5AD"/><g ref="#SD-A8D6"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">人</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-A5DB"/><g ref="#SD-AABC"/><g ref="#SD-E441"/><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">誠</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A440"/><g ref="#SD-CD4B"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">哉</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191004" resp="Taisho" place="foot text" type="orig">na tāvat?</note><foreign cert="unknown" n="1191004" cb:resp="Taisho" xml:lang="sa" cb:place="foot">na tāvat</foreign><g ref="#SD-A5A9"/><g ref="#SD-E3BA"/><g ref="#SD-A558"/><g ref="#SD-A656"/><g ref="#SD-E077"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">未</cb:t></cb:tt>
 <lb n="1191b26" ed="T"/>
 <lb n="1191b27" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-AB75"/><g ref="#SD-A656"/><g ref="#SD-A559"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">淪</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B5"/><g ref="#SD-A559"/><g ref="#SD-A557"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">墜</cb:t></cb:tt></p>
 <lb n="1191b28" ed="T"/>
@@ -271,7 +230,7 @@ add cvs log
 <lb n="1191c12" ed="T"/>
 <lb n="1191c13" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-A656"/><g ref="#SD-CC70"/><g ref="#SD-CA6E"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">謀</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A658"/><g ref="#SD-E361"/><g ref="#SD-A659"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">宣</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A658"/><g ref="#SD-A5AA"/><g ref="#SD-E1CC"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">敗</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-CA56"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">臨</cb:t></cb:tt>
 <lb n="1191c14" ed="T"/>
-<lb n="1191c15" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191005" resp="Taisho" place="foot text" type="orig">dvandva?</note><foreign cb:cert="?" n="1191005" cb:resp="Taisho" xml:lang="sa" cb:place="foot">dvandva</foreign><g ref="#SD-AF59"/><g ref="#SD-E37D"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">敵</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A440"/><g ref="#SD-A570"/><g ref="#SD-A47E"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">慮</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B5"/><g ref="#SD-A5FD"/><g ref="#SD-A5E5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">微</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A4B6"/><g ref="#SD-A5F1"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">勝</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A440"/><g ref="#SD-E37E"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">懷</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5E5"/><g ref="#SD-A6A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">大</cb:t></cb:tt>
+<lb n="1191c15" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><note n="1191005" resp="Taisho" place="foot text" type="orig">dvandva?</note><foreign cert="unknown" n="1191005" cb:resp="Taisho" xml:lang="sa" cb:place="foot">dvandva</foreign><g ref="#SD-AF59"/><g ref="#SD-E37D"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">敵</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A440"/><g ref="#SD-A570"/><g ref="#SD-A47E"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">慮</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B5"/><g ref="#SD-A5FD"/><g ref="#SD-A5E5"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">微</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A4B6"/><g ref="#SD-A5F1"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">勝</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A440"/><g ref="#SD-E37E"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">懷</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5E5"/><g ref="#SD-A6A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">大</cb:t></cb:tt>
 <lb n="1191c16" ed="T"/>
 <lb n="1191c17" ed="T"/><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5D9"/><g ref="#SD-A5F1"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">懼</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A56F"/><g ref="#SD-A570"/><g ref="#SD-A5E7"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">雖</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-B064"/><g ref="#SD-E3A1"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">劣</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5A9"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">莫</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B5"/><g ref="#SD-A640"/><g ref="#SD-A5D9"/><g ref="#SD-A656"/><g ref="#SD-E355"/></cb:t><cb:t xml:lang="zh-Hant">欺</cb:t></cb:tt>
 <lb n="1191c18" ed="T"/>

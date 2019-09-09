@@ -11,200 +11,64 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.32 $<date>$Date: 2010/10/28 07:57:19 $</date>新式標點版</edition>
-	</editionStmt>
-	<extent>30卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2010/10/28 07:57:19 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 22, No. 1421</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA, Punctuated text as provided by Nanlin Monastery</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，南林尼僧苑提供新式標點</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>30卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">22</idno>.<idno type="no">1421</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">彌沙塞部和醯五分律</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA, Punctuated text as provided by Nanlin Monastery</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，南林尼僧苑提供新式標點</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="pi">Pali</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="1999-05-12T22:08:41">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/5/12)</change>
-<!--
-$Log: T22n1421.xml,v $
-Revision 1.32  2010/10/28 07:57:19  eva
-modified: resp CBETA．eva  修訂成 CBETA.eva
-
-Revision 1.31  2010/05/26 08:23:04  amtbgrace
-modified: 按 2010/4/29 maha 來信修訂（主旨為: [經文修訂] 一[搏>摶]、[搏>摶]取……）
-
-Revision 1.30  2010/05/14 04:00:52  amtbgrace
-modified: 按 2010/4/26 maha 來信修訂（主旨為: [經文修訂] [搏>摶]飯）
-
-Revision 1.29  2009/04/23 08:02:04  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.28  2008/12/01 11:41:53  saywhat
-修訂 cf1
-
-Revision 1.27  2007/08/08 08:32:26  saywhat
-p0149c22 聽隨意食若為比丘殺 => 聽隨意食。若為比丘殺
-
-Revision 1.26  2007/01/03 09:32:54  saywhat
-p0138a21 [[跳-兆+尃]>[跳-兆+專]]
-
-Revision 1.25  2006/10/26 07:46:21  saywhat
-p0151b13 刪除 CB01492 [(穀-禾)/牛]，改用 CB17769 [愨-心+牛]
-
-Revision 1.24  2006/05/19 14:37:44  saywhat
-雙圈 改成 anchor 標記
-
-Revision 1.23  2006/04/12 21:56:05  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.21  2006/03/03 02:07:07  saywhat
-type="ping" => type="pin"
-
-Revision 1.20  2006/01/05 05:28:04  saywhat
-[0004008],[0020017]  轉寫 ~N => &Ntilde;
-
-Revision 1.19  2006/01/05 05:07:12  saywhat
-[0034003]  轉寫 UU => &Umacron;
-
-Revision 1.18  2004/11/15 08:09:55  saywhat
-◎。 => 。◎
-
-Revision 1.17  2004/11/14 03:17:28  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.16  2004/10/13 04:28:38  saywhat
-段落前加入圈點
-
-Revision 1.15  2004/09/22 03:10:20  saywhat
-p0068c11 [業>葉], p0189b26 [蛝>蜋]
-
-Revision 1.14  2004/05/12 04:04:35  saywhat
-經號的<head> → <head type="no">
-
-Revision 1.13  2004/04/20 08:39:20  maha
-「版本日期」標記修訂
-
-Revision 1.12  2004/04/17 09:32:56  saywhat
-圈點移到[0108019]前
-
-Revision 1.11  2004/04/17 03:42:45  saywhat
-[0190011] lem裡的圈點移到校勘前
-
-Revision 1.10  2004/03/16 02:18:55  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.9  2004/01/02 05:54:04  maha
-<note mod>裡的corr2app
-
-Revision 1.8  2003/06/25 06:24:24  eva
-modified: 執行 corr2app.pl
-
-Revision 1.7  2003/06/25 05:43:05  eva
-modified: copy corr2app 前備份
-
-Revision 1.5  2003/06/19 10:21:53  eva
-modified: 跑parser修訂標記
-
-Revision 1.4  2003/06/19 03:45:03  eva
-modified: 插入星號校勘
-
-Revision 1.3  2003/05/30 08:20:22  eva
-modified: 修訂漏[＊]校勘
-
-Revision 1.2  2003/05/05 06:24:57  eva
-modified
-
-Revision 1.26  2002/12/25 06:43:12  eva
-modified
-
-Revision 1.25  2002/12/05 12:31:22  eva
-modified
-
-Revision 1.24  2002/11/04 10:46:57  ray
-tei.2 => TEI.2
-
-Revision 1.23  2002/10/21 08:14:02  ray
-移動 <anchor>+<note>, <anchor>+雙圈
-
-Revision 1.22  2002/10/07 13:13:46  moved
-modified
-
-Revision 1.21  2002/07/29 09:57:50  vinking
-modified lang
-
-Revision 1.20  2002/07/24 08:53:23  vinking
-modified
-
-Revision 1.19  2002/06/04 09:37:57  eva
-modified
-
-Revision 1.18  2002/04/08 09:13:11  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.17  2002/03/06 04:06:21  vinking
-modified CBa0026 TO CB13416
-
-Revision 1.16  2001/11/05 06:14:39  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.15  2001/10/30 07:17:58  vinking
-modified 重複
-
-Revision 1.14  2001/07/27 07:12:38  ray
-去除多餘的 <author>
-
-Revision 1.13  2001/07/24 06:54:02  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.12  2001/06/26 10:08:35  vinking
-added jhead
-
-Revision 1.11  2001/06/12 09:52:52  ray
-卷首資訊 <head> 加 type="ping"
-
-Revision 1.9  2001/04/01 08:18:49  ray
-CB00380 => CB00308
-
-Revision 1.8  2001/03/30 05:58:27  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.7  2001/03/25 09:21:50  ray
-add <milestone>
-
-Revision 1.6  2001/02/07 06:58:35  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.5  2001/02/03 07:48:25  chris
-Added keywords $Revision: 1.32 $, $Date: 2010/10/28 07:57:19 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="1999-05-12T22:08:41">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/5/12)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
@@ -11154,7 +11018,7 @@ Added comment  for Emacs
 <lb n="0123b14" ed="T"/>佛言：「應與客食。」</p><p xml:id="pT22p0123b1407" cb:place="inline">既與，著其手中，不與器物，
 <lb n="0123b15" ed="T"/><note n="0123008" resp="Taisho" type="orig" place="foot text">便＝復【宋】【元】【宮】【聖】</note><note n="0123008" resp="CBETA" type="mod">復【CB】【麗-CB】【宋】【元】【宮】【聖】，便【大】</note><app n="0123008"><lem resp="CBETA.maha" wit="【CB】【麗-CB】">復<note type="cf1">K22n0895_p1154a14</note></lem><rdg wit="【大】">便</rdg><rdg resp="Taisho" wit="【宋】【元】【宮】【聖】">復</rdg></app>譏訶言：「諸比丘作小兒遇我。」以是白佛，
 <lb n="0123b16" ed="T"/>佛言：「應與器物下食。食竟，上座、若上座等，為
-<lb n="0123b17" ed="T"/>說<note n="0123009" resp="Taisho" type="orig" place="foot text">法呪～Dhammapada(?)</note><note n="0123009" resp="CBETA" type="mod">法呪【大】，～Dhammapada(?)</note><cb:tt n="0123009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">法呪</cb:t><cb:t cert="?" resp="Taisho" xml:lang="pi" place="foot">Dhammapada</cb:t></cb:tt>願。」</p><p xml:id="pT22p0123b1705" cb:place="inline">客去後，若四人、若過四人，應廣布
+<lb n="0123b17" ed="T"/>說<note n="0123009" resp="Taisho" type="orig" place="foot text">法呪～Dhammapada(?)</note><note n="0123009" resp="CBETA" type="mod">法呪【大】，～Dhammapada(?)</note><cb:tt n="0123009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">法呪</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="pi" place="foot">Dhammapada</cb:t></cb:tt>願。」</p><p xml:id="pT22p0123b1705" cb:place="inline">客去後，若四人、若過四人，應廣布
 <lb n="0123b18" ed="T"/>薩。若二人、若三人，應相向說淨言：「今僧十四
 <lb n="0123b19" ed="T"/>日、十五日布薩。我某甲比丘清淨，長老憶持！」
 <lb n="0123b20" ed="T"/>如<note n="0123010" resp="Taisho" type="orig" place="foot text">是＝上【聖】</note><note n="0123010" resp="CBETA" type="mod">是【大】，上【聖】</note><app n="0123010"><lem wit="【大】">是</lem><rdg resp="Taisho" wit="【聖】">上</rdg></app>三說。若一人應小待，若有人來共布
@@ -12232,7 +12096,7 @@ Added comment  for Emacs
 <lb n="0135b10" ed="T"/><lg xml:id="lgT22p0135b1001" style="margin-left:1em;text-indent:-1em"><l>「戒定慧解脫，</l><l>我今如是覺，</l>
 <lb n="0135b11" ed="T"/><l>已盡諸苦<note n="0135014" resp="Taisho" type="orig" place="foot text">源＝原【聖】</note><note n="0135014" resp="CBETA" type="mod">源【大】，原【聖】</note><app n="0135014"><lem wit="【大】">源</lem><rdg resp="Taisho" wit="【聖】">原</rdg></app>，</l><l>故為汝等說。」</l></lg>
 <lb n="0135b12" ed="T"/><p xml:id="pT22p0135b1201">時佛將五百比丘遊行<note n="0135015" resp="Taisho" type="orig" place="foot text">～Vajjī.</note><foreign n="0135015" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Vajjī.</foreign>跋耆國，欲到<note n="0135016" resp="Taisho" type="orig" place="foot text">～Vesālī.</note><foreign n="0135016" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Vesālī.</foreign>毘舍離
-<lb n="0135b13" ed="T"/>城。彼有婬女名<note n="0135017" resp="Taisho" type="orig" place="foot text">～Ambapālī.(?)</note><foreign cb:cert="?" n="0135017" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Ambapālī.</foreign>阿范和利，聞佛世尊有大名
+<lb n="0135b13" ed="T"/>城。彼有婬女名<note n="0135017" resp="Taisho" type="orig" place="foot text">～Ambapālī.(?)</note><foreign cert="unknown" n="0135017" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Ambapālī.</foreign>阿范和利，聞佛世尊有大名
 <lb n="0135b14" ed="T"/>德號：如來、應供、等正覺。所可說法初中後善，
 <lb n="0135b15" ed="T"/>具足清白，梵行之相，遊行諸國將到此城。歎
 <lb n="0135b16" ed="T"/>言：「善哉，我願欲見！」即嚴四馬車從五百妓女，
@@ -13241,7 +13105,7 @@ Added comment  for Emacs
 <lb n="0146b28" ed="T"/><p xml:id="pT22p0146b2801">佛在毘舍離。</p><p xml:id="pT22p0146b2806" cb:place="inline">有一住處下濕，著皮革屣，臭爛
 <lb n="0146b29" ed="T"/>虫生。諸比丘以是白佛，佛言：「聽諸比丘作
 <pb n="0146c" ed="T" xml:id="T22.1421.0146c"/>
-<lb n="0146c01" ed="T"/><note n="0146017" resp="Taisho" type="orig" place="foot text">～Babbaja.</note><foreign n="0146017" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Babbaja.</foreign>婆婆<note n="0146018" resp="Taisho" type="orig" place="foot text">草＝革【宋】【宮】</note><note n="0146018" resp="CBETA" type="mod">草【大】，革【宋】【宮】</note><app n="0146018"><lem wit="【大】">草</lem><rdg resp="Taisho" wit="【宋】【宮】">革</rdg></app>、迦尸草、<note n="0146019" resp="Taisho" type="orig" place="foot text">～Muñja.</note><foreign n="0146019" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Muñja.</foreign>文柔草、<note n="0146020" resp="Taisho" type="orig" place="foot text">～Kusa(?)</note><foreign cb:cert="?" n="0146020" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Kusa</foreign>鳩尸草等<note n="0146021" resp="Taisho" type="orig" place="foot text">屧＝欒【宮】＊，變【聖】＊</note><note n="0146021" resp="CBETA" type="mod">屧【大】＊，欒【宮】＊，變【聖】＊</note><app n="0146021"><lem wit="【大】">屧</lem><rdg resp="Taisho" wit="【宮】">欒</rdg><rdg resp="Taisho" wit="【聖】">變</rdg></app>。」</p><p xml:id="pT22p0146c0115" cb:place="inline">諸
+<lb n="0146c01" ed="T"/><note n="0146017" resp="Taisho" type="orig" place="foot text">～Babbaja.</note><foreign n="0146017" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Babbaja.</foreign>婆婆<note n="0146018" resp="Taisho" type="orig" place="foot text">草＝革【宋】【宮】</note><note n="0146018" resp="CBETA" type="mod">草【大】，革【宋】【宮】</note><app n="0146018"><lem wit="【大】">草</lem><rdg resp="Taisho" wit="【宋】【宮】">革</rdg></app>、迦尸草、<note n="0146019" resp="Taisho" type="orig" place="foot text">～Muñja.</note><foreign n="0146019" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Muñja.</foreign>文柔草、<note n="0146020" resp="Taisho" type="orig" place="foot text">～Kusa(?)</note><foreign cert="unknown" n="0146020" cb:resp="Taisho" xml:lang="pi" cb:place="foot">Kusa</foreign>鳩尸草等<note n="0146021" resp="Taisho" type="orig" place="foot text">屧＝欒【宮】＊，變【聖】＊</note><note n="0146021" resp="CBETA" type="mod">屧【大】＊，欒【宮】＊，變【聖】＊</note><app n="0146021"><lem wit="【大】">屧</lem><rdg resp="Taisho" wit="【宮】">欒</rdg><rdg resp="Taisho" wit="【聖】">變</rdg></app>。」</p><p xml:id="pT22p0146c0115" cb:place="inline">諸
 <lb n="0146c02" ed="T"/>比丘<note n="0146022" resp="Taisho" type="orig" place="foot text">著＝者【聖】</note><note n="0146022" resp="CBETA" type="mod">著【大】，者【聖】</note><app n="0146022"><lem wit="【大】">著</lem><rdg resp="Taisho" wit="【聖】">者</rdg></app>，水從下出漬脚。以是白佛，佛言：「聽
 <lb n="0146c03" ed="T"/>用生皮底下。」</p><p xml:id="pT22p0146c0306" cb:place="inline">有諸比丘畜<note n="0146023" resp="Taisho" type="orig" place="foot text">著＝者【宮】</note><note n="0146023" resp="CBETA" type="mod">著【大】，者【宮】</note><app n="0146023"><lem wit="【大】">著</lem><rdg resp="Taisho" wit="【宮】">者</rdg></app>木屐、木<app type="star" corresp="#0146021"><lem wit="【大】">屧</lem><rdg resp="Taisho" wit="【宮】">欒</rdg><rdg resp="Taisho" wit="【聖】">變</rdg></app>，於
 <lb n="0146c04" ed="T"/>僧坊內行作聲，亂諸比丘坐禪。復有一比丘

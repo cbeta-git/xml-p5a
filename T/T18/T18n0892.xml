@@ -11,125 +11,64 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 07:59:45 $</date></edition>
-	</editionStmt>
-	<extent>5卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/23 07:59:45 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 18, No. 892</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>5卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">18</idno>.<idno type="no">892</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">佛說大悲空智金剛大教王儀軌經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-01-05T17:54:12">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
-<!--
-$Log: T18n0892.xml,v $
-Revision 1.10  2009/04/23 07:59:45  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.9  2006/04/12 21:55:27  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.7  2006/03/03 01:40:58  saywhat
-type="ping" => type="pin"
-
-Revision 1.6  2004/10/17 11:34:28  saywhat
-段落前加入圈點
-
-Revision 1.5  2004/06/23 05:44:38  saywhat
-修訂</byline></div>，將</div>移到前一卷
-
-Revision 1.4  2004/04/20 08:38:37  maha
-「版本日期」標記修訂
-
-Revision 1.3  2003/08/11 09:34:26  ray
-app版100字以上長行斷詞
-
-Revision 1.2  2003/06/26 02:50:39  saywhat
-<corr>→<app>
-
-Revision 1.1.1.1  2003/05/05 04:09:07  ray
-recover cvs
-
-Revision 1.20  2003/01/23 04:03:36  saywhat
-`s → &sacute;
-
-Revision 1.19  2002/12/04 01:47:42  saywhat
-校勘插入處理
-
-Revision 1.18  2002/11/04 10:44:25  ray
-tei.2 => TEI.2
-
-Revision 1.17  2002/10/07 13:09:55  moved
-modified
-
-Revision 1.16  2002/07/29 09:44:58  vinking
-modified lang
-
-Revision 1.15  2002/04/08 08:58:24  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.14  2001/11/05 06:12:56  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.13  2001/07/24 06:52:28  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.12  2001/06/22 08:16:27  vinking
-CD7  修訂
-
-Revision 1.11  2001/06/12 09:52:44  ray
-卷首資訊 <head> 加 type="ping"
-
-Revision 1.9  2001/05/25 08:58:12  ray
-經號統一為四碼
-
-Revision 1.8  2001/04/01 08:17:46  ray
-CB00380 => CB00308
-
-Revision 1.7  2001/03/30 05:48:09  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.6  2001/03/25 09:09:21  ray
-add <milestone>
-
-Revision 1.5  2001/02/07 06:53:42  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.4  2001/02/03 07:43:27  chris
-Added keywords $Revision: 1.10 $, $Date: 2009/04/23 07:59:45 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-01-05T17:54:12">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
@@ -176,7 +115,7 @@ Added comment  for Emacs
 <lb n="0588a10" ed="T"/>者謂善方便。阿嚩底者是中說。離能取所取。
 <lb n="0588a11" ed="T"/>又此三種即是住持不動清淨智月。彼三十
 <lb n="0588a12" ed="T"/>二種血脈者。謂一者<note n="0588002" resp="Taisho" place="foot text" type="orig">不可破壞 abhedyā.</note><cb:tt n="0588002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">不可破壞</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">abhedyā.</cb:t></cb:tt>。二者<note n="0588003" resp="Taisho" place="foot text" type="orig">微妙色 sūkṣma-rūpa.</note><cb:tt n="0588003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">微妙
-<lb n="0588a13" ed="T"/>色</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">sūkṣma-rūpa.</cb:t></cb:tt>相。三者<note n="0588004" resp="Taisho" place="foot text" type="orig">天 divyā.</note><cb:tt n="0588004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">天</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">divyā.</cb:t></cb:tt>。四者<note n="0588005" resp="Taisho" place="foot text" type="orig">左邊際 ātamātra(?)</note><cb:tt n="0588005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">左邊際</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">ātamātra</cb:t></cb:tt>。五者<note n="0588006" resp="Taisho" place="foot text" type="orig">短 vāmana(?)</note><cb:tt n="0588006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">短</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">vāmana</cb:t></cb:tt>。六者
+<lb n="0588a13" ed="T"/>色</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">sūkṣma-rūpa.</cb:t></cb:tt>相。三者<note n="0588004" resp="Taisho" place="foot text" type="orig">天 divyā.</note><cb:tt n="0588004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">天</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">divyā.</cb:t></cb:tt>。四者<note n="0588005" resp="Taisho" place="foot text" type="orig">左邊際 ātamātra(?)</note><cb:tt n="0588005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">左邊際</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">ātamātra</cb:t></cb:tt>。五者<note n="0588006" resp="Taisho" place="foot text" type="orig">短 vāmana(?)</note><cb:tt n="0588006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">短</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">vāmana</cb:t></cb:tt>。六者
 <lb n="0588a14" ed="T"/><note n="0588007" resp="Taisho" place="foot text" type="orig">kṛmajā.</note><foreign n="0588007" cb:resp="Taisho" xml:lang="sa" cb:place="foot">kṛmajā.</foreign>酤摩惹。七者<note n="0588008" resp="Taisho" place="foot text" type="orig">性 bhavakī.</note><cb:tt n="0588008" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">性</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">bhavakī.</cb:t></cb:tt>。八者<note n="0588009" resp="Taisho" place="foot text" type="orig">sekā.</note><foreign n="0588009" cb:resp="Taisho" xml:lang="sa" cb:place="foot">sekā.</foreign>施迦。九者<note n="0588010" resp="Taisho" place="foot text" type="orig">過失 doṣā.</note><cb:tt n="0588010" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">過失</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">doṣā.</cb:t></cb:tt>。十
 <lb n="0588a15" ed="T"/>者<note n="0588011" resp="Taisho" place="foot text" type="orig">aviṣṭhā.</note><foreign n="0588011" cb:resp="Taisho" xml:lang="sa" cb:place="foot">aviṣṭhā.</foreign>阿尾吒。十一者<note n="0588012" resp="Taisho" place="foot text" type="orig">本母 mātarā.</note><cb:tt n="0588012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">本母</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">mātarā.</cb:t></cb:tt>。十二者<note n="0588013" resp="Taisho" place="foot text" type="orig">savarī.</note><foreign n="0588013" cb:resp="Taisho" xml:lang="sa" cb:place="foot">savarī.</foreign>設哩嚩
 <lb n="0588a16" ed="T"/>梨。十三者<note n="0588014" resp="Taisho" place="foot text" type="orig">清涼</note>清涼。十四者<note n="0588015" resp="Taisho" place="foot text" type="orig">焰熾 ūṣmā.</note><cb:tt n="0588015" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">焰熾</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">ūṣmā.</cb:t></cb:tt>。十五者<note n="0588016" resp="Taisho" place="foot text" type="orig">lalanā.</note><foreign n="0588016" cb:resp="Taisho" xml:lang="sa" cb:place="foot">lalanā.</foreign>羅
@@ -194,7 +133,7 @@ Added comment  for Emacs
 <lb n="0588a28" ed="T"/>業及<note n="0588034" resp="Taisho" place="foot text" type="orig">E-vam-ma-yā.</note><foreign n="0588034" cb:resp="Taisho" xml:lang="sa" cb:place="foot">E-vam-ma-yā.</foreign>伊鑁摩野。謂伊者<note n="0588035" resp="Taisho" place="foot text" type="orig">佛眼母菩薩 locanādevī.</note><cb:tt n="0588035" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">佛眼母菩薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">locanādevī.</cb:t></cb:tt>鑁者
 <lb n="0588a29" ed="T"/><note n="0588036" resp="Taisho" place="foot text" type="orig">摩摩枳 māmakī.</note><cb:tt n="0588036" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">摩摩枳</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">māmakī.</cb:t></cb:tt>菩薩。摩者<note n="0588037" resp="Taisho" place="foot text" type="orig">白衣菩薩 paṇḍarādevī.</note><cb:tt n="0588037" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">白衣菩薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">paṇḍarādevī.</cb:t></cb:tt>。野者<note n="0588038" resp="Taisho" place="foot text" type="orig">多羅菩薩 tārīnī(tāranī?)</note><cb:tt n="0588038" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">多羅菩
 <pb n="0588b" xml:id="T18.0892.0588b" ed="T"/>
-<lb n="0588b01" ed="T"/>薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">tārīnī</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">tāranī</cb:t></cb:tt>。又復法身輪者具八輻相。報身輪者具十
+<lb n="0588b01" ed="T"/>薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">tārīnī</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">tāranī</cb:t></cb:tt>。又復法身輪者具八輻相。報身輪者具十
 <lb n="0588b02" ed="T"/>六輻。化身輪者具蓮華相六十四葉。大藥輪
 <lb n="0588b03" ed="T"/>者具三十二幅。建此輪者如是次第有四剎
 <lb n="0588b04" ed="T"/>那。謂莊嚴果報作觀離相。依四聖諦謂苦集

@@ -11,170 +11,64 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.30 $<date>$Date: 2009/04/23 08:00:01 $</date></edition>
-	</editionStmt>
-	<extent>1卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/23 08:00:01 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 19, No. 944B</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>1卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">19</idno>.<idno type="no">944B</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">大佛頂大陀羅尼</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa-Sidd">Sanskrit-Siddam</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-01-27T11:50:58">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
-<!--
-$Log: T19n0944B.xml,v $
-Revision 1.30  2009/04/23 08:00:01  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.29  2009/03/23 03:22:22  saywhat
-p0105a16 SD-A572=>SD-CA71
-
-Revision 1.28  2008/10/31 01:29:13  saywhat
-p0104b03 SD-E2EF=>SD-E0AB
-
-Revision 1.27  2008/10/27 14:10:17  saywhat
-p0105b07 SD-A66F => SD-E25A
-
-Revision 1.26  2008/10/07 02:26:36  saywhat
-p0104b06 SD-DA79=>SD-DA7B
-
-Revision 1.25  2008/08/19 02:51:28  saywhat
-p0105b05 SD-CC40=>SD-CC58
-
-Revision 1.24  2007/10/28 15:37:30  saywhat
-modified siddham E044=>E4F1
-
-Revision 1.23  2007/08/19 14:07:36  saywhat
-p0103c15 A65E=>A5D5, p0104b13 E0CB=>E0C3, ...,p0105b08 A9C3=>A9C5
-
-Revision 1.22  2007/06/10 13:28:00  saywhat
-p0104b06 SD-B752=>SD-B7D4 ; p104b28-29 [SD-CFC5>SD-A67A]
-
-Revision 1.21  2007/06/05 04:50:50  saywhat
-p0104a19 SD-BBB1=>SD-B7A9, ..., p0105b10-15 SD-A656 SD-AFB5=>SD-A5CD SD-CAA6, p0105b17 SD-A656=>SD-A5CD
-
-Revision 1.20  2007/05/30 13:53:27  saywhat
-p0104b19 SD-CA70(ndi)=>SD-CA6E(nda)
-
-Revision 1.19  2007/05/15 02:04:47  saywhat
-p0103c12 SD-A4C2=>SD-CFCB
-
-Revision 1.18  2007/05/08 04:04:47  saywhat
-p104b10,c17,c19 SD-AB51(vra)=>SD-AAD4(bra); p104b10 SD-E0C3=>SD-E0CB
-
-Revision 1.17  2007/05/07 10:09:29  saywhat
-p0103c12 SD-C0CA=>SD-E47C
-
-Revision 1.16  2007/05/06 02:22:44  saywhat
-p0103c08 SD-B6BD=>SD-B6C4
-
-Revision 1.15  2007/05/01 03:15:04  saywhat
-p0103c03 SD-A656=>SD-A5CD
-
-Revision 1.14  2007/05/01 03:13:04  saywhat
-p0103b26,c03,c10 SD-A452=>SD-B052
-
-Revision 1.13  2007/04/16 03:27:12  saywhat
-p0102c26 SD-A66F=>SD-E25A,p0103a29 SD-AB51=>SD-AAD4,...,p0104c04,c07 SD-A4DE=>SD-E046
-
-Revision 1.12  2006/04/12 21:55:31  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.10  2006/03/22 03:28:35  saywhat
-p0104c09 SD-A65A=>SD-E0C1
-
-Revision 1.9  2006/03/16 10:26:31  saywhat
-&SD-A65A;&SD-AF72;（vu dvaa）=> &SD-E3AD;&SD-D9FA;（bu ddhaa）
-
-Revision 1.8  2006/01/17 14:38:45  saywhat
-p0103b19, p0104c05 delete space
-
-Revision 1.7  2004/12/22 05:13:57  saywhat
-p0102c28 SD-A65E => SD-A5D5
-
-Revision 1.6  2004/10/18 01:53:08  saywhat
-p0104b30 delete SD-A5C3, p0104c26 added SD-A5F7
-
-Revision 1.5  2004/10/14 16:25:33  saywhat
-段落前加入圈點
-
-Revision 1.4  2004/09/10 04:01:22  saywhat
-刪除空的 juan close
-
-Revision 1.3  2004/04/20 08:38:42  maha
-「版本日期」標記修訂
-
-Revision 1.2  2003/10/16 06:25:46  saywhat
-modified siddham
-
-Revision 1.1.1.1  2003/05/05 04:09:10  ray
-recover cvs
-
-Revision 1.17  2002/11/27 11:26:17  saywhat
-校勘插入處理
-
-Revision 1.16  2002/11/04 10:44:53  ray
-tei.2 => TEI.2
-
-Revision 1.15  2002/07/29 09:56:06  vinking
-modified lang
-
-Revision 1.14  2002/04/08 09:03:08  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.13  2001/07/24 06:52:40  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.12  2001/05/25 08:59:06  ray
-經號統一為四碼
-
-Revision 1.11  2001/04/16 09:39:10  ray
-p0105b18, SD-A5AB; => &SD-A5AB;
-
-Revision 1.10  2001/03/25 09:12:54  ray
-add <milestone>
-
-Revision 1.9  2001/03/06 02:33:08  RAY
-<lb n="0104c05"/>..&SD-A2B0..沒有這個字,以空格取代
-by csy
-
-Revision 1.8  2001/02/07 06:54:22  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.7  2001/02/03 07:44:17  chris
-Added keywords $Revision: 1.30 $, $Date: 2009/04/23 08:00:01 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-01-27T11:50:58">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

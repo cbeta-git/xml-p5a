@@ -11,208 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.36 $<date>$Date: 2011/02/22 04:21:50 $</date></edition>
-	</editionStmt>
-	<extent>6卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2011/02/22 04:21:50 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 48, No. 2006</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>6卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">48</idno>.<idno type="no">2006</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">人天眼目</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-09-14T11:10:21">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-<!--
-$Log: T48n2006.xml,v $
-Revision 1.36  2011/02/22 04:21:50  maha
-按 2011/2/10 maha 來信修訂（主旨為: [經文修訂] [閒>間]、[ㄙ>[云-二]]）
-
-Revision 1.35  2010/10/28 07:18:36  eva
-modified: resp CBETA．eva  修訂成 CBETA.eva
-
-Revision 1.34  2010/10/25 08:25:53  amtbgrace
-modified: 圖檔檔名修改
-
-Revision 1.33  2009/07/21 10:29:03  eva
-modified: 經文修訂
-
-Revision 1.32  2009/04/23 08:12:48  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.31  2008/07/29 12:19:53  saywhat
-p0312b27 眼[[強-弓+目][強-弓+目]>[目*(山/虫)][目*(山/虫)]]
-
-Revision 1.30  2007/01/04 12:58:04  saywhat
-p0319a10,...,p0334b28 rend裡的空格改以margin-left表示
-
-Revision 1.29  2006/04/12 21:59:00  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.27  2006/03/08 06:59:05  saywhat
-CI0010 改成 琅&CB04712;
-
-Revision 1.26  2006/01/03 15:26:18  saywhat
-p0323a13 無[無>病]
-
-Revision 1.25  2005/11/30 09:03:18  saywhat
-移除 <mulu label> 裡的半形括弧
-
-Revision 1.24  2004/11/14 03:18:09  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.23  2004/11/03 11:15:34  saywhat
-段落前加入圈點
-
-Revision 1.22  2004/11/01 10:01:43  saywhat
-p0319c13,c20, p0320a07,a14 moved <lg>
-
-Revision 1.21  2004/11/01 04:36:58  saywhat
-p0316c18~p0325b05 added <div2><head>
-
-Revision 1.20  2004/11/01 03:29:02  saywhat
-修訂行尾的</l><l>
-
-Revision 1.19  2004/07/16 09:12:56  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.18  2004/04/28 08:39:30  saywhat
-<lg type="abnormal" place="inline"><l rend="text-indent:1em"> 改成 <lg type="abnormal" place="inline"><l>
-
-Revision 1.17  2004/04/24 04:29:43  saywhat
-<l rend="margin-left  改成 <l rend="text-indent
-
-Revision 1.16  2004/04/23 07:59:04  saywhat
-修訂不規則偈誦
-
-Revision 1.15  2004/04/20 08:43:04  maha
-「版本日期」標記修訂
-
-Revision 1.14  2004/04/20 03:26:52  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.13  2004/03/16 02:20:48  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.12  2004/01/02 05:55:31  maha
-<note mod>裡的corr2app
-
-Revision 1.11  2003/11/13 08:39:33  eva
-modified: normal比對修訂
-
-Revision 1.10  2003/11/10 14:39:01  saywhat
-p0305b01 corr→app
-
-Revision 1.9  2003/11/10 01:21:42  saywhat
-mod [0330026]
-
-Revision 1.8  2003/07/18 02:46:42  ray
-app版100字以上長行斷詞
-
-Revision 1.7  2003/06/25 06:26:59  eva
-modified: 執行 corr2app.pl
-
-Revision 1.6  2003/06/25 05:45:28  eva
-modified: copy corr2app 前備份
-
-Revision 1.4  2003/06/19 03:47:30  eva
-modified: 插入星號校勘
-
-Revision 1.3  2003/06/06 05:33:19  eva
-modified: 修訂漏[＊]校勘
-
-Revision 1.2  2003/05/05 06:32:24  eva
-modified
-
-Revision 1.34  2002/12/09 07:39:29  eva
-modified
-
-Revision 1.33  2002/12/06 10:15:49  eva
-modified
-
-Revision 1.32  2002/12/05 12:38:32  eva
-modified
-
-Revision 1.31  2002/11/04 10:59:08  ray
-tei.2 => TEI.2
-
-Revision 1.30  2002/10/21 08:21:38  ray
-移動 <anchor>+<note>, <anchor>+雙圈
-
-Revision 1.29  2002/10/07 13:29:11  moved
-modified
-
-Revision 1.28  2002/07/29 10:16:01  vinking
-modified lang
-
-Revision 1.27  2002/07/05 06:12:19  vinking
-no message
-
-Revision 1.26  2002/07/01 02:58:31  vinking
-no message
-
-Revision 1.25  2002/05/31 08:09:37  eva
-modified
-
-Revision 1.24  2002/04/08 09:43:41  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.23  2001/12/10 07:19:24  vinking
-modified heaven CD8
-
-Revision 1.22  2001/11/05 06:20:54  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.21  2001/07/24 07:01:04  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.20  2001/07/05 11:14:03  saywhat
-modified App1
-
-Revision 1.19  2001/04/07 10:33:36  ray
-no message
-
-Revision 1.18  2001/03/30 06:33:11  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.17  2001/03/25 10:42:52  ray
-add <milestone>
-
-Revision 1.16  2001/02/07 07:27:00  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.15  2001/02/03 08:09:07  chris
-Added keywords $Revision: 1.36 $, $Date: 2011/02/22 04:21:50 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-09-14T11:10:21">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

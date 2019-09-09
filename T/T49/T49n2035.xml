@@ -11,370 +11,64 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.57 $<date>$Date: 2012/11/07 08:06:02 $</date></edition>
-	</editionStmt>
-	<extent>54卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/11/07 08:06:02 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 49, No. 2035</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>54卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">49</idno>.<idno type="no">2035</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">佛祖統紀</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa-Sidd">Sanskrit-Siddam</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-10-23T09:56:22">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-<!--
-$Log: T49n2035.xml,v $
-Revision 1.57  2012/11/07 08:06:02  eva
-modified: mulu label 修訂
-
-Revision 1.56  2012/03/27 08:56:51  eva
-modified: 經文修訂
-
-Revision 1.55  2010/10/25 08:26:13  amtbgrace
-modified: 圖檔檔名修改
-
-Revision 1.54  2010/05/27 03:00:02  amtbgrace
-modified: 按 2010/4/30 maha 來信修訂（主旨為: [經文修訂] 麴糱 vs 麴櫱 vs 麴蘗）
-
-Revision 1.53  2010/05/19 09:47:42  amtbgrace
-modified: 按 2010/4/29 maha 來信修訂（主旨為: [經文修訂] 陳[搏>摶]）
-
-Revision 1.52  2010/05/14 06:55:52  amtbgrace
-modified: 按 2010/4/26,28 maha 來信修訂（主旨為: [經文修訂] [搏>摶]食 - 1及2）
-
-Revision 1.51  2010/03/18 08:15:31  eva
-modified: 大比對修訂
-
-Revision 1.50  2009/10/27 09:00:01  eva
-modified: 經文修訂
-
-Revision 1.49  2009/06/24 07:58:35  amtbgrace
-經文修訂。p0363c13 [幽>豳]
-
-Revision 1.48  2009/04/23 08:13:01  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.47  2009/03/23 05:40:34  saywhat
-p0131c05-p0220a20,p0422c14-p0423a23,p0416b24-p0417a19 修訂空格差異
-
-Revision 1.46  2008/08/29 08:45:15  saywhat
-p0346a28[[方*番]>旛], p0391b26[[卄/滲]>藻]
-
-Revision 1.45  2008/06/07 01:27:02  saywhat
-p0171b20,p0467c06 [[糸*夆]>絳]
-
-Revision 1.44  2007/12/13 10:27:20  saywhat
-p0403c05 [瑩>塋]域
-
-Revision 1.43  2007/12/12 15:26:37  saywhat
-p0347c06 劉[蚪>虯]
-
-Revision 1.42  2007/11/23 09:22:58  saywhat
-p0315a08 [刺>剌]
-
-Revision 1.41  2006/05/27 07:32:27  saywhat
-p0158c20-21 delete <p>
-
-Revision 1.40  2006/05/20 02:47:19  saywhat
-雙圈 改成 anchor 標記
-
-Revision 1.39  2006/04/12 21:59:09  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.37  2006/02/27 14:07:21  saywhat
-p0133a13-b04 移除空的 item
-
-Revision 1.36  2006/01/12 07:09:15  saywhat
-modified p0158c16-c25四處十六會圖; 將行尾的<row><cell>移到行首
-
-Revision 1.35  2006/01/04 02:23:24  saywhat
-p0217c26[跌>趺], p0294c03[辛>幸], p0362b29[歡>歎], p0320c07[明>加]
-
-Revision 1.34  2005/12/02 03:15:36  saywhat
-p0148d02 modified FigT49p0148_01
-
-Revision 1.33  2005/11/30 06:34:13  amtbgrace
-modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
-
-Revision 1.32  2005/10/26 15:09:20  saywhat
-resp="resp=CBETA  =>  resp="CBETA
-
-Revision 1.31  2005/10/22 02:32:30  saywhat
-p0229c19 [暝>瞑]目
-
-Revision 1.30  2005/08/28 07:22:15  saywhat
-p0371b19,p0465b10 [刺>剌]
-
-Revision 1.29  2005/08/04 01:18:07  saywhat
-p0256b06 [已>己]
-
-Revision 1.28  2005/05/08 02:15:21  saywhat
-行中<p> => <p place="inline">
-
-Revision 1.27  2005/05/01 11:43:22  saywhat
-行中 </head><p>　 => </head><p place="inline">
-
-Revision 1.26  2004/12/09 14:34:15  saywhat
-移動<milestone>位置至<lb n="0140b08"/>,<lb n="0408b18"/>之後
-
-Revision 1.25  2004/11/15 13:25:04  saywhat
-◎。 => 。◎
-
-Revision 1.24  2004/11/14 03:18:10  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.23  2004/11/11 13:08:08  saywhat
-CB01327 [來/貝]=>賚
-
-Revision 1.22  2004/11/08 10:17:04  saywhat
-p0248c19, p0249b19~20 modified 圈點
-
-Revision 1.21  2004/11/07 08:25:51  saywhat
-段落前加入圈點
-
-Revision 1.20  2004/11/07 03:22:38  saywhat
-p0325a21~p0437a18 modified <div> ; <p> =><head>
-
-Revision 1.19  2004/10/13 03:17:45  saywhat
-p0412c19 [七>匕]
-
-Revision 1.18  2004/09/09 03:29:06  saywhat
-刪除空的 juan close
-
-Revision 1.17  2004/09/02 08:40:21  saywhat
-CB16612 => CB15953
-
-Revision 1.16  2004/09/02 05:06:49  saywhat
-p0439b07,p0442a29  礡 => CB16612
-
-Revision 1.15  2004/07/16 09:12:58  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.14  2004/06/30 04:17:47  saywhat
-刪除label裡的雙圈；修訂 div &  juan。
-
-Revision 1.13  2004/04/20 08:43:14  maha
-「版本日期」標記修訂
-
-Revision 1.12  2004/04/20 03:26:56  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.11  2004/03/16 02:20:53  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.10  2004/01/05 12:19:42  saywhat
-p0404a04, p0465c23【[　>甲]】改成[>【甲】]
-
-Revision 1.9  2004/01/02 05:55:34  maha
-<note mod>裡的corr2app
-
-Revision 1.8  2003/07/31 01:12:41  ray
-配合 cutxml 調整 </div><pb><lb><milestone><div> 位置
-
-Revision 1.7  2003/07/18 07:17:04  ray
-app版100字以上長行斷詞
-
-Revision 1.6  2003/06/25 06:43:53  moved
-執行 corr2app.pl v0.3.1
-
-Revision 1.4  2003/06/23 05:10:01  moved
-＊校勘插入 xml 作業
-
-Revision 1.3  2003/06/05 10:02:52  moved
-cvs 修復前比對
-
-Revision 1.2  2003/05/29 03:40:43  moved
-cvs 修復後比對修訂：p158c「四處十六會圖」
-
-Revision 1.1.1.1  2003/05/05 04:10:37  ray
-recover cvs
-
-Revision 1.59  2002/12/09 03:43:43  moved
-modified
-
-Revision 1.58  2002/11/22 06:19:34  vinking
-modified
-
-Revision 1.57  2002/11/18 10:20:56  moved
-modified
-
-Revision 1.56  2002/11/04 10:59:33  ray
-tei.2 => TEI.2
-
-Revision 1.55  2002/10/21 08:21:57  ray
-移動 <anchor>+<note>, <anchor>+雙圈
-
-Revision 1.54  2002/10/07 13:29:37  moved
-modified
-
-Revision 1.53  2002/07/29 09:45:26  vinking
-modified lang
-
-Revision 1.52  2002/07/05 06:12:21  vinking
-no message
-
-Revision 1.51  2002/07/01 02:58:33  vinking
-no message
-
-Revision 1.50  2002/06/07 09:42:14  moved
-modified
-
-Revision 1.49  2002/04/08 09:44:25  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.48  2001/12/12 02:42:54  ray
-改 <milestone> 的屬性 n
-
-Revision 1.47  2001/12/11 10:25:54  saywhat
-added siddham
-
-Revision 1.46  2001/12/10 10:39:08  vinking
-modified heaven CD8
-
-Revision 1.45  2001/12/10 07:19:41  vinking
-modified heaven CD8
-
-Revision 1.44  2001/11/05 06:21:10  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.43  2001/07/24 07:01:20  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.42  2001/07/11 08:24:20  vinking
-modified for CD7 alphs 2 normal, app, hh
-
-Revision 1.41  2001/06/20 10:35:51  vinking
-added
-
-Revision 1.40  2001/06/20 04:09:40  vinking
-cd7 修訂
-
-Revision 1.39  2001/06/19 09:53:27  vinking
-修訂行號
-
-Revision 1.38  2001/06/11 03:56:55  vinking
-modified p250-p258 東土十七祖表修訂
-
-Revision 1.37  2001/06/08 10:05:33  vinking
-p254-p255東山神照
-
-Revision 1.36  2001/06/07 04:19:21  vinking
-modified p250-257 表
-
-Revision 1.35  2001/05/31 02:43:34  vinking
- [CD] HH檢測報告-22(禪宗類-1)－－修訂
-
-Revision 1.34  2001/05/31 02:41:40  vinking
- [CD] HH檢測報告-22(禪宗類-1)－－修訂
-
-Revision 1.33  2001/05/28 10:27:47  eva
-modified normal
-
-Revision 1.32  2001/05/24 10:05:05  eva
-modified normal
-
-Revision 1.31  2001/05/24 03:45:15  ray
-no message
-
-Revision 1.30  2001/05/23 10:19:51  eva
-modified normal
-
-Revision 1.29  2001/05/22 11:47:55  eva
-modified normal
-
-Revision 1.28  2001/05/21 10:28:02  eva
-modified normal
-
-Revision 1.27  2001/05/18 08:52:43  eva
-modified normal
-
-Revision 1.26  2001/04/13 03:59:21  ray
-p158c四處十六會圖, 參照續藏75卷397, 修正.
-
-Revision 1.25  2001/04/11 14:49:09  moved
-modified normal
-
-Revision 1.24  2001/04/08 10:50:45  moved
-modified normal
-
-Revision 1.23  2001/04/07 10:29:25  moved
-modified normal
-
-Revision 1.22  2001/04/07 10:00:41  vinking
-modified <div>
-
-Revision 1.21  2001/04/05 11:34:36  vinking
-modified normal T54
-
-Revision 1.20  2001/04/04 08:33:37  vinking
-modified <list>
-
-Revision 1.19  2001/04/02 10:00:11  vinking
-modified <div>
-
-Revision 1.18  2001/04/01 08:13:32  ray
-CB00380 => CB00308
-
-Revision 1.17  2001/04/01 07:55:23  vinking
-no message
-
-Revision 1.16  2001/03/31 11:20:20  vinking
-compared T49
-
-Revision 1.15  2001/03/30 06:40:55  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.14  2001/03/26 04:06:05  ray
-add <milestone>
-
-Revision 1.13  2001/03/26 02:38:42  ray
-p250 東土十七祖傳承表用 <list>
-
-Revision 1.12  2001/03/26 02:37:04  vinking
-MODIFIED CB00308 -> CB00308
-
-Revision 1.11  2001/03/19 08:41:48  ray
-add heads(from lines)
-<lb n="0316d17"/>add table
-by CSY
-
-Revision 1.10  2001/02/07 07:30:25  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.9  2001/02/03 08:09:59  chris
-Added keywords $Revision: 1.57 $, $Date: 2012/11/07 08:06:02 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-10-23T09:56:22">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

@@ -11,182 +11,64 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.28 $<date>$Date: 2011/03/03 08:47:17 $</date>新式標點版</edition>
-	</editionStmt>
-	<extent>3卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2011/03/03 08:47:17 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 19, No. 982</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Ms. Chen Hui-Zhen</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，陳惠珍大德提供新式標點</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">19</idno>.<idno type="no">982</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">佛母大孔雀明王經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Ms. Chen Hui-Zhen</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，陳惠珍大德提供新式標點</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-01-27T11:51:07">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
-<!--
-$Log: T19n0982.xml,v $
-Revision 1.28  2011/03/03 08:47:17  amtbgrace
-modified: 按大比對差異結果修訂
-
-Revision 1.27  2011/03/02 11:03:10  amtbgrace
-modified: 按大比對差異結果修訂
-
-Revision 1.26  2011/02/23 08:21:20  maha
-按 2011/2/18 maha 來信修訂（主旨為: [經文修訂] T19n0982_p0417c07-11 咒語分句）
-
-Revision 1.25  2011/02/22 04:35:53  maha
-按 2011/2/16 maha 來信修訂（主旨為: [句讀修訂] Re: FW: 加句點方便讀誦）
-
-Revision 1.24  2011/02/15 04:21:39  eva
-modified: 經文修訂
-
-Revision 1.23  2009/04/23 08:00:04  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.22  2008/11/30 05:58:49  saywhat
-修訂 cf1
-
-Revision 1.21  2006/05/19 09:14:20  saywhat
-雙圈 改成 anchor 標記
-
-Revision 1.20  2006/04/12 21:55:35  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.18  2006/01/07 04:06:20  saywhat
-[0418002] namo`rhat => namo'rhat , [0424098] mekha`a => mekhala
-
-Revision 1.17  2004/11/14 03:17:22  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.16  2004/10/14 16:25:33  saywhat
-段落前加入圈點
-
-Revision 1.15  2004/09/21 10:43:05  saywhat
-p0419a26 [四>五], p0419b01 [六>七]
-
-Revision 1.14  2004/06/18 06:36:12  saywhat
-修訂 juan, div & mulu位置
-
-Revision 1.13  2004/04/30 04:50:52  saywhat
-p0415b22, c12 <p type="Wdharani"> → <p type="dharani">
-
-Revision 1.12  2004/04/20 08:38:46  maha
-「版本日期」標記修訂
-
-Revision 1.11  2004/03/16 02:18:43  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.10  2004/01/02 05:53:48  maha
-<note mod>裡的corr2app
-
-Revision 1.9  2003/12/04 08:18:25  ray
-<rdg> 版本重複處理
-
-Revision 1.8  2003/07/21 08:11:53  ray
-app版100字以上長行斷詞
-
-Revision 1.7  2003/06/26 02:51:14  saywhat
-<corr>→<app>
-
-Revision 1.6  2003/06/23 06:14:02  saywhat
-[＊]校勘插入XML
-
-Revision 1.5  2003/06/02 05:30:22  saywhat
-CVS與2003/04版比對修訂
-
-Revision 1.4  2003/05/20 10:09:47  ray
-app版100字以上長行加標點
-
-Revision 1.3  2003/05/20 10:08:32  ray
-app版100字以上長行加標點
-
-Revision 1.2  2003/05/12 08:35:24  saywhat
-modified star
-
-Revision 1.1.1.1  2003/05/05 04:09:15  ray
-recover cvs
-
-Revision 1.20  2003/03/10 05:01:55  saywhat
-移動todo type=i位置
-
-Revision 1.19  2003/01/23 04:03:36  saywhat
-`s → &sacute;
-
-Revision 1.18  2002/12/25 08:27:49  saywhat
-【三】＊取代
-
-Revision 1.17  2002/11/27 11:26:25  saywhat
-校勘插入處理
-
-Revision 1.16  2002/11/04 10:44:57  ray
-tei.2 => TEI.2
-
-Revision 1.15  2002/10/21 08:12:20  ray
-移動 <anchor>+<note>, <anchor>+雙圈
-
-Revision 1.14  2002/10/07 13:10:57  moved
-modified
-
-Revision 1.13  2002/07/29 09:56:10  vinking
-modified lang
-
-Revision 1.12  2002/07/25 11:25:06  saywhat
-maha 經文修訂 20020621
-
-Revision 1.11  2002/04/08 09:03:12  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.10  2001/11/05 06:13:20  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.9  2001/07/24 06:52:48  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.8  2001/05/25 08:59:11  ray
-經號統一為四碼
-
-Revision 1.7  2001/03/30 06:45:13  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.6  2001/03/25 09:12:59  ray
-add <milestone>
-
-Revision 1.5  2001/02/07 06:54:48  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.4  2001/02/03 07:44:45  chris
-Added keywords $Revision: 1.28 $, $Date: 2011/03/03 08:47:17 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-01-27T11:51:07">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
@@ -372,7 +254,7 @@ Added comment  for Emacs
 <lb n="0417b06" ed="T"/><l><note n="0417037" resp="Taisho" type="orig" place="foot text">無熱惱池，anavatapta.</note><note n="0417037" resp="CBETA" type="mod">無熱惱池 anavatapta.</note><cb:tt n="0417037" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無熱惱池</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">anavatapta.</cb:t></cb:tt><note n="0417038" resp="Taisho" type="orig" place="foot text">varuṇa.</note><foreign n="0417038" cb:resp="Taisho" xml:lang="sa" cb:place="foot">varuṇa.</foreign>嚩嚕拏，</l><l><note n="0417039" resp="Taisho" type="orig" place="foot text">manjuruka.</note><foreign n="0417039" cb:resp="Taisho" xml:lang="sa" cb:place="foot">manjuruka.</foreign>曼<note n="0417040" resp="Taisho" type="orig" place="foot text">娜＝闍ィ【丙】</note><note n="0417040" resp="CBETA" type="mod">娜【大】，闍【校異-丙】</note><app n="0417040"><lem wit="【大】">娜</lem><rdg resp="Taisho" wit="【丙】" type="variantRemark">闍</rdg></app>洛迦<note n="0417041" resp="Taisho" type="orig" place="foot text">takṣaka.</note><foreign n="0417041" cb:resp="Taisho" xml:lang="sa" cb:place="foot">takṣaka.</foreign>德叉迦，</l>
 <lb n="0417b07" ed="T"/><l><note n="0417042" resp="Taisho" type="orig" place="foot text">nanda, upananda.</note><foreign n="0417042" cb:resp="Taisho" xml:lang="sa" cb:place="foot">nanda, upananda.</foreign>難陀鄔波難陀龍，</l><l>我常於彼興慈意。</l>
 <lb n="0417b08" ed="T"/><l><note n="0417043" resp="Taisho" type="orig" place="foot text">無邊，ananta.</note><note n="0417043" resp="CBETA" type="mod">無邊 ananta.</note><cb:tt n="0417043" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無邊</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">ananta.</cb:t></cb:tt>龍王我慈念，</l><l><note n="0417044" resp="Taisho" type="orig" place="foot text">vāsu-mukha.</note><foreign n="0417044" cb:resp="Taisho" xml:lang="sa" cb:place="foot">vāsu-mukha.</foreign>嚩蘇目佉亦起慈，</l>
-<lb n="0417b09" ed="T"/><l><note n="0417045" resp="Taisho" type="orig" place="foot text">aparājita.</note><foreign n="0417045" cb:resp="Taisho" xml:lang="sa" cb:place="foot">aparājita.</foreign>無能勝龍常起慈，</l><l><note n="0417046" resp="Taisho" type="orig" place="foot text">chitvāsta(?)</note><foreign cb:cert="?" n="0417046" cb:resp="Taisho" xml:lang="sa" cb:place="foot">chitvāsta</foreign>𡃃嚩龍王我慈念，</l>
+<lb n="0417b09" ed="T"/><l><note n="0417045" resp="Taisho" type="orig" place="foot text">aparājita.</note><foreign n="0417045" cb:resp="Taisho" xml:lang="sa" cb:place="foot">aparājita.</foreign>無能勝龍常起慈，</l><l><note n="0417046" resp="Taisho" type="orig" place="foot text">chitvāsta(?)</note><foreign cert="unknown" n="0417046" cb:resp="Taisho" xml:lang="sa" cb:place="foot">chitvāsta</foreign>𡃃嚩龍王我慈念，</l>
 <lb n="0417b10" ed="T"/><l><note n="0417047" resp="Taisho" type="orig" place="foot text">mahā-manasvī.</note><foreign n="0417047" cb:resp="Taisho" xml:lang="sa" cb:place="foot">mahā-manasvī.</foreign>大麼娜斯我慈念，</l><l><note n="0417048" resp="Taisho" type="orig" place="foot text">manasvī.</note><foreign n="0417048" cb:resp="Taisho" xml:lang="sa" cb:place="foot">manasvī.</foreign>小麼娜斯亦起慈，</l>
 <lb n="0417b11" ed="T"/><l><note n="0417049" resp="Taisho" type="orig" place="foot text">apalāla.</note><foreign n="0417049" cb:resp="Taisho" xml:lang="sa" cb:place="foot">apalāla.</foreign>阿鉢<app type="star" corresp="#0417030"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【宋】【元】【明】">囉</rdg></app><note n="0417050" resp="Taisho" type="orig" place="foot text">〔羅〕－【三】</note><note n="0417050" resp="CBETA" type="mod">羅【大】，〔－〕【宋】【元】【明】</note><app n="0417050"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app><note n="0417051" resp="Taisho" type="orig" place="foot text">kālaka, 迦＋（鉢）【三】</note><note n="0417051" resp="CBETA" type="mod">迦【大】，迦鉢【宋】【元】【明】，迦洛迦 kālaka</note><app n="0417051"><lem wit="【大】"><cb:tt n="0417051" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">迦洛迦</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">kālaka</cb:t></cb:tt></lem><rdg resp="Taisho" wit="【宋】【元】【明】">迦鉢洛迦</rdg></app>，</l><l><note n="0417052" resp="Taisho" type="orig" place="foot text">bhogava.</note><foreign n="0417052" cb:resp="Taisho" xml:lang="sa" cb:place="foot">bhogava.</foreign>有財<note n="0417053" resp="Taisho" type="orig" place="foot text">śravaṇeraka.</note><foreign n="0417053" cb:resp="Taisho" xml:lang="sa" cb:place="foot">śravaṇeraka.</foreign>沙彌龍王等，</l>
 <lb n="0417b12" ed="T"/><l><note n="0417054" resp="Taisho" type="orig" place="foot text">dadhimukha.</note><foreign n="0417054" cb:resp="Taisho" xml:lang="sa" cb:place="foot">dadhimukha.</foreign>捺地穆佉及<note n="0417055" resp="Taisho" type="orig" place="foot text">maṇi.</note><foreign n="0417055" cb:resp="Taisho" xml:lang="sa" cb:place="foot">maṇi.</foreign>麼抳，</l><l><note n="0417056" resp="Taisho" type="orig" place="foot text">白蓮華，puṇḍarīka.</note><note n="0417056" resp="CBETA" type="mod">白蓮華 puṇḍarīka.</note><cb:tt n="0417056" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">白蓮華</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">puṇḍarīka.</cb:t></cb:tt>龍及<note n="0417057" resp="Taisho" type="orig" place="foot text">方主，diśāṁpati.</note><note n="0417057" resp="CBETA" type="mod">方主 diśāṁpati.</note><cb:tt n="0417057" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">方主</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">diśāṁpati.</cb:t></cb:tt>，</l>
@@ -769,14 +651,14 @@ Added comment  for Emacs
 <lb n="0423a23" ed="T"/><l><note n="0423041" resp="Taisho" type="orig" place="foot text">大黑，mahākāla.</note><note n="0423041" resp="CBETA" type="mod">大黑 mahākāla.</note><cb:tt n="0423041" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大黑</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">mahākāla.</cb:t></cb:tt>藥叉王，</l><l><note n="0423042" resp="Taisho" type="orig" place="foot text">bārāṇasī.</note><foreign n="0423042" cb:resp="Taisho" xml:lang="sa" cb:place="foot">bārāṇasī.</foreign>婆羅拏斯國；</l>
 <lb n="0423a24" ed="T"/><l>藥叉名<note n="0423043" resp="Taisho" type="orig" place="foot text">善現，sudarśaṇa.</note><note n="0423043" resp="CBETA" type="mod">善現 sudarśaṇa.</note><cb:tt n="0423043" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善現</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">sudarśaṇa.</cb:t></cb:tt>，</l><l>住於<note n="0423044" resp="Taisho" type="orig" place="foot text">campā.</note><foreign n="0423044" cb:resp="Taisho" xml:lang="sa" cb:place="foot">campā.</foreign>占波城；</l>
 <lb n="0423a25" ed="T"/><l><note n="0423045" resp="Taisho" type="orig" place="foot text">viṣṇu.</note><foreign n="0423045" cb:resp="Taisho" xml:lang="sa" cb:place="foot">viṣṇu.</foreign>吠史怒藥叉，</l><l>住在<note n="0423046" resp="Taisho" type="orig" place="foot text">dhvārakā.</note><foreign n="0423046" cb:resp="Taisho" xml:lang="sa" cb:place="foot">dhvārakā.</foreign>墮羅國；</l>
-<lb n="0423a26" ed="T"/><l><note n="0423047" resp="Taisho" type="orig" place="foot text">varuṇa(?)</note><foreign cb:cert="?" n="0423047" cb:resp="Taisho" xml:lang="sa" cb:place="foot">varuṇa</foreign>馱羅抳藥叉，</l><l>住<note n="0423048" resp="Taisho" type="orig" place="foot text">於＝在ィ【丙】</note><note n="0423048" resp="CBETA" type="mod">於【大】，在【校異-丙】</note><app n="0423048"><lem wit="【大】">於</lem><rdg resp="Taisho" wit="【丙】" type="variantRemark">在</rdg></app><note n="0423049" resp="Taisho" type="orig" place="foot text">護門國，dhvārapāli.</note><note n="0423049" resp="CBETA" type="mod">護門國 dhvārapāli.</note><cb:tt n="0423049" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">護門國</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">dhvārapāli.</cb:t></cb:tt>；</l>
+<lb n="0423a26" ed="T"/><l><note n="0423047" resp="Taisho" type="orig" place="foot text">varuṇa(?)</note><foreign cert="unknown" n="0423047" cb:resp="Taisho" xml:lang="sa" cb:place="foot">varuṇa</foreign>馱羅抳藥叉，</l><l>住<note n="0423048" resp="Taisho" type="orig" place="foot text">於＝在ィ【丙】</note><note n="0423048" resp="CBETA" type="mod">於【大】，在【校異-丙】</note><app n="0423048"><lem wit="【大】">於</lem><rdg resp="Taisho" wit="【丙】" type="variantRemark">在</rdg></app><note n="0423049" resp="Taisho" type="orig" place="foot text">護門國，dhvārapāli.</note><note n="0423049" resp="CBETA" type="mod">護門國 dhvārapāli.</note><cb:tt n="0423049" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">護門國</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">dhvārapāli.</cb:t></cb:tt>；</l>
 <lb n="0423a27" ed="T"/><l><note n="0423050" resp="Taisho" type="orig" place="foot text">可畏形，vibhīṣaṇa.</note><note n="0423050" resp="CBETA" type="mod">可畏形 vibhīṣaṇa.</note><cb:tt n="0423050" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">可畏形</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">vibhīṣaṇa.</cb:t></cb:tt>藥叉，</l><l>住於<note n="0423051" resp="Taisho" type="orig" place="foot text">銅色國，tāmraparṇṇī.</note><note n="0423051" resp="CBETA" type="mod">銅色國 tāmraparṇṇī.</note><cb:tt n="0423051" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">銅色國</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">tāmraparṇṇī.</cb:t></cb:tt>；</l>
 <lb n="0423a28" ed="T"/><l><note n="0423052" resp="Taisho" type="orig" place="foot text">marddana.</note><foreign n="0423052" cb:resp="Taisho" xml:lang="sa" cb:place="foot">marddana.</foreign>末達那藥叉，</l><l><note n="0423053" resp="Taisho" type="orig" place="foot text">uragā.</note><foreign n="0423053" cb:resp="Taisho" xml:lang="sa" cb:place="foot">uragā.</foreign>烏洛迦城住；</l>
 <lb n="0423a29" ed="T"/><l><note n="0423054" resp="Taisho" type="orig" place="foot text">āṭavaka. 呵＝阿【三】</note><note n="0423054" resp="CBETA" type="mod">呵【大】，阿【宋】【元】【明】，āṭavaka.</note><foreign n="0423054" cb:resp="Taisho" xml:lang="sa" cb:place="foot">āṭavaka.</foreign><app n="0423054"><lem wit="【大】">呵</lem><rdg resp="Taisho" wit="【宋】【元】【明】">阿</rdg></app>吒薄俱將，</l><l>曠野林中住；</l>
 <pb n="0423b" ed="T" xml:id="T19.0982.0423b"/>
 <lb n="0423b01" ed="T"/><l><note n="0423055" resp="Taisho" type="orig" place="foot text">kapila.</note><foreign n="0423055" cb:resp="Taisho" xml:lang="sa" cb:place="foot">kapila.</foreign>劫比羅藥叉，</l><l>住於<note n="0423056" resp="Taisho" type="orig" place="foot text">多稻城，bahudhānyaka.</note><note n="0423056" resp="CBETA" type="mod">多稻城 bahudhānyaka.</note><cb:tt n="0423056" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">多稻城</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">bahudhānyaka.</cb:t></cb:tt>；</l>
-<lb n="0423b02" ed="T"/><l><note n="0423057" resp="Taisho" type="orig" place="foot text">vasutrāta.</note><foreign n="0423057" cb:resp="Taisho" xml:lang="sa" cb:place="foot">vasutrāta.</foreign>護世大藥叉，</l><l><note n="0423058" resp="Taisho" type="orig" place="foot text">urjjayanī(?)</note><foreign cb:cert="?" n="0423058" cb:resp="Taisho" xml:lang="sa" cb:place="foot">urjjayanī</foreign>嗢逝尼國住；</l>
-<lb n="0423b03" ed="T"/><l><note n="0423b0301" resp="CBETA" type="add">韈【CB】，<g ref="#CB03706"/>【大】</note><app n="0423b0301"><lem wit="【CB】" resp="CBETA.Shao-Yun">韈</lem><rdg wit="【大】"><g ref="#CB03706"/></rdg></app>蘇步底神，</l><l><note n="0423059" resp="Taisho" type="orig" place="foot text">aravanti(?)</note><foreign cb:cert="?" n="0423059" cb:resp="Taisho" xml:lang="sa" cb:place="foot">aravanti</foreign>阿羅挽底<note n="0423060" resp="Taisho" type="orig" place="foot text">住＝國【三】</note><note n="0423060" resp="CBETA" type="mod">住【大】，國【宋】【元】【明】</note><app n="0423060"><lem wit="【大】">住</lem><rdg resp="Taisho" wit="【宋】【元】【明】">國</rdg></app>；</l>
+<lb n="0423b02" ed="T"/><l><note n="0423057" resp="Taisho" type="orig" place="foot text">vasutrāta.</note><foreign n="0423057" cb:resp="Taisho" xml:lang="sa" cb:place="foot">vasutrāta.</foreign>護世大藥叉，</l><l><note n="0423058" resp="Taisho" type="orig" place="foot text">urjjayanī(?)</note><foreign cert="unknown" n="0423058" cb:resp="Taisho" xml:lang="sa" cb:place="foot">urjjayanī</foreign>嗢逝尼國住；</l>
+<lb n="0423b03" ed="T"/><l><note n="0423b0301" resp="CBETA" type="add">韈【CB】，<g ref="#CB03706"/>【大】</note><app n="0423b0301"><lem wit="【CB】" resp="CBETA.Shao-Yun">韈</lem><rdg wit="【大】"><g ref="#CB03706"/></rdg></app>蘇步底神，</l><l><note n="0423059" resp="Taisho" type="orig" place="foot text">aravanti(?)</note><foreign cert="unknown" n="0423059" cb:resp="Taisho" xml:lang="sa" cb:place="foot">aravanti</foreign>阿羅挽底<note n="0423060" resp="Taisho" type="orig" place="foot text">住＝國【三】</note><note n="0423060" resp="CBETA" type="mod">住【大】，國【宋】【元】【明】</note><app n="0423060"><lem wit="【大】">住</lem><rdg resp="Taisho" wit="【宋】【元】【明】">國</rdg></app>；</l>
 <lb n="0423b04" ed="T"/><l><note n="0423061" resp="Taisho" type="orig" place="foot text">bharuka.</note><foreign n="0423061" cb:resp="Taisho" xml:lang="sa" cb:place="foot">bharuka.</foreign>水天藥叉神，</l><l><note n="0423062" resp="Taisho" type="orig" place="foot text">bharukaccha.</note><foreign n="0423062" cb:resp="Taisho" xml:lang="sa" cb:place="foot">bharukaccha.</foreign>婆盧羯泚國；</l>
 <lb n="0423b05" ed="T"/><l><note n="0423063" resp="Taisho" type="orig" place="foot text">nanda.</note><foreign n="0423063" cb:resp="Taisho" xml:lang="sa" cb:place="foot">nanda.</foreign>歡喜大藥叉，</l><l>住於<note n="0423064" resp="Taisho" type="orig" place="foot text">歡喜城，nandapura.</note><note n="0423064" resp="CBETA" type="mod">歡喜城 nandapura.</note><cb:tt n="0423064" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">歡喜城</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">nandapura.</cb:t></cb:tt>；</l>
 <lb n="0423b06" ed="T"/><l><note n="0423065" resp="Taisho" type="orig" place="foot text">持鬘，mālyadhara.</note><note n="0423065" resp="CBETA" type="mod">持鬘 mālyadhara.</note><cb:tt n="0423065" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">持鬘</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">mālyadhara.</cb:t></cb:tt>藥叉神，</l><l>住在<note n="0423066" resp="Taisho" type="orig" place="foot text">agrodaka.</note><foreign n="0423066" cb:resp="Taisho" xml:lang="sa" cb:place="foot">agrodaka.</foreign>勝水國；</l>
@@ -809,7 +691,7 @@ Added comment  for Emacs
 <lb n="0423c03" ed="T"/><l><note n="0423122" resp="Taisho" type="orig" place="foot text">能摧他，pramardana.</note><note n="0423122" resp="CBETA" type="mod">能摧他 pramardana.</note><cb:tt n="0423122" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">能摧他</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">pramardana.</cb:t></cb:tt>藥叉，</l><l>住<note n="0423123" resp="Taisho" type="orig" place="foot text">gandhāra. 建＝健【三】</note><note n="0423123" resp="CBETA" type="mod">建【大】，健【宋】【元】【明】，建陀羅 gandhāra.</note><app n="0423123"><lem wit="【大】"><cb:tt n="0423123" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">建陀<app type="star" corresp="#0423069"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【宋】【元】【明】">囉</rdg></app></cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">gandhāra.</cb:t></cb:tt></lem><rdg resp="Taisho" wit="【宋】【元】【明】">健陀羅</rdg></app>國；</l>
 <lb n="0423c04" ed="T"/><l><note n="0423124" resp="Taisho" type="orig" place="foot text">能壞，prabhañjana.</note><note n="0423124" resp="CBETA" type="mod">能壞 prabhañjana.</note><cb:tt n="0423124" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">能壞</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">prabhañjana.</cb:t></cb:tt>大藥叉，</l><l><note n="0423125" resp="Taisho" type="orig" place="foot text">takṣaśilā.</note><foreign n="0423125" cb:resp="Taisho" xml:lang="sa" cb:place="foot">takṣaśilā.</foreign>得叉尸羅住；</l>
 <lb n="0423c05" ed="T"/><l><note n="0423126" resp="Taisho" type="orig" place="foot text">驢皮，kharaposta.</note><note n="0423126" resp="CBETA" type="mod">驢皮 kharaposta.</note><cb:tt n="0423126" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">驢皮</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">kharaposta.</cb:t></cb:tt>藥叉神，</l><l>在於<note n="0423127" resp="Taisho" type="orig" place="foot text">吐山，daśaśaila.</note><note n="0423127" resp="CBETA" type="mod">吐山 daśaśaila.</note><cb:tt n="0423127" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">吐山</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">daśaśaila.</cb:t></cb:tt>住；</l>
-<lb n="0423c06" ed="T"/><l><note n="0423128" resp="Taisho" type="orig" place="foot text">三蜜，trigupta(oguhya?)</note><note n="0423128" resp="CBETA" type="mod">三蜜 trigupta(oguhya?)</note><cb:tt n="0423128" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三蜜</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">trigupta</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">oguhya</cb:t></cb:tt>藥叉<note n="0423129" resp="Taisho" type="orig" place="foot text">主＝住ィ【丙】</note><note n="0423129" resp="CBETA" type="mod">主【大】，住【校異-丙】</note><app n="0423129"><lem wit="【大】">主</lem><rdg resp="Taisho" wit="【丙】" type="variantRemark">住</rdg></app>，</l><l><note n="0423130" resp="Taisho" type="orig" place="foot text">hanumātīra.</note><foreign n="0423130" cb:resp="Taisho" xml:lang="sa" cb:place="foot">hanumātīra.</foreign>阿努波河側；</l>
+<lb n="0423c06" ed="T"/><l><note n="0423128" resp="Taisho" type="orig" place="foot text">三蜜，trigupta(oguhya?)</note><note n="0423128" resp="CBETA" type="mod">三蜜 trigupta(oguhya?)</note><cb:tt n="0423128" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三蜜</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">trigupta</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">oguhya</cb:t></cb:tt>藥叉<note n="0423129" resp="Taisho" type="orig" place="foot text">主＝住ィ【丙】</note><note n="0423129" resp="CBETA" type="mod">主【大】，住【校異-丙】</note><app n="0423129"><lem wit="【大】">主</lem><rdg resp="Taisho" wit="【丙】" type="variantRemark">住</rdg></app>，</l><l><note n="0423130" resp="Taisho" type="orig" place="foot text">hanumātīra.</note><foreign n="0423130" cb:resp="Taisho" xml:lang="sa" cb:place="foot">hanumātīra.</foreign>阿努波河側；</l>
 <pb n="0424a" ed="T" xml:id="T19.0982.0424a"/>
 <lb n="0424a01" ed="T"/><l><note n="0424001" resp="Taisho" type="orig" place="foot text">發光明，prabharkara.</note><note n="0424001" resp="CBETA" type="mod">發光明 prabharkara.</note><cb:tt n="0424001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">發光明</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">prabharkara.</cb:t></cb:tt>藥叉，</l><l><note n="0424002" resp="Taisho" type="orig" place="foot text">raurka.</note><foreign n="0424002" cb:resp="Taisho" xml:lang="sa" cb:place="foot">raurka.</foreign>盧鹿迦城住；</l>
 <lb n="0424a02" ed="T"/><l><note n="0424003" resp="Taisho" type="orig" place="foot text">喜長，nandīcavardana.</note><note n="0424003" resp="CBETA" type="mod">喜長 nandīcavardana.</note><cb:tt n="0424003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">喜長</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">nandīcavardana.</cb:t></cb:tt>藥叉神，</l><l><note n="0424004" resp="Taisho" type="orig" place="foot text">nandivardana.</note><foreign n="0424004" cb:resp="Taisho" xml:lang="sa" cb:place="foot">nandivardana.</foreign>呬<note n="0424005" resp="Taisho" type="orig" place="foot text">〔形孕反〕－【明】</note><note n="0424005" resp="CBETA" type="mod">形孕反【大】，〔－〕【明】</note><app n="0424005"><lem wit="【大】"><note place="inline">形孕反</note></lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>隅摧國住；</l>
@@ -837,7 +719,7 @@ Added comment  for Emacs
 <lb n="0424a24" ed="T"/><l><note n="0424050" resp="Taisho" type="orig" place="foot text">賢耳，bhadrakarṇa.</note><note n="0424050" resp="CBETA" type="mod">賢耳 bhadrakarṇa.</note><cb:tt n="0424050" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">賢耳</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">bhadrakarṇa.</cb:t></cb:tt>大藥叉，</l><l><note n="0424051" resp="Taisho" type="orig" place="foot text">taḍiskandha.</note><foreign n="0424051" cb:resp="Taisho" xml:lang="sa" cb:place="foot">taḍiskandha.</foreign>怛胝肩國住；</l>
 <lb n="0424a25" ed="T"/><l><note n="0424052" resp="Taisho" type="orig" place="foot text">勝財，dhanāpaha.</note><note n="0424052" resp="CBETA" type="mod">勝財 dhanāpaha.</note><cb:tt n="0424052" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">勝財</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">dhanāpaha.</cb:t></cb:tt>藥叉神，</l><l>住居陸滿國；</l>
 <lb n="0424a26" ed="T"/><l><note n="0424053" resp="Taisho" type="orig" place="foot text">氣力，bala.</note><note n="0424053" resp="CBETA" type="mod">氣力 bala.</note><cb:tt n="0424053" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">氣力</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">bala.</cb:t></cb:tt>大藥叉，</l><l><note n="0424054" resp="Taisho" type="orig" place="foot text">vairāmaka.</note><foreign n="0424054" cb:resp="Taisho" xml:lang="sa" cb:place="foot">vairāmaka.</foreign>毘囉莫迦住；</l>
-<lb n="0424a27" ed="T"/><l><note n="0424055" resp="Taisho" type="orig" place="foot text">喜見，priyadarśana.</note><note n="0424055" resp="CBETA" type="mod">喜見 priyadarśana.</note><cb:tt n="0424055" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">喜見</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">priyadarśana.</cb:t></cb:tt>藥叉神，</l><l>住<note n="0424056" resp="Taisho" type="orig" place="foot text">avatī(avantī?)</note><foreign cb:cert="?" n="0424056" cb:resp="Taisho" xml:lang="sa" cb:place="foot">avatī(avantī?)</foreign>阿般底國；</l>
+<lb n="0424a27" ed="T"/><l><note n="0424055" resp="Taisho" type="orig" place="foot text">喜見，priyadarśana.</note><note n="0424055" resp="CBETA" type="mod">喜見 priyadarśana.</note><cb:tt n="0424055" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">喜見</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">priyadarśana.</cb:t></cb:tt>藥叉神，</l><l>住<note n="0424056" resp="Taisho" type="orig" place="foot text">avatī(avantī?)</note><foreign cert="unknown" n="0424056" cb:resp="Taisho" xml:lang="sa" cb:place="foot">avatī(avantī?)</foreign>阿般底國；</l>
 <lb n="0424a28" ed="T"/><l><note n="0424057" resp="Taisho" type="orig" place="foot text">śikhaṇḍī.</note><foreign n="0424057" cb:resp="Taisho" xml:lang="sa" cb:place="foot">śikhaṇḍī.</foreign>尸<note n="0424058" resp="Taisho" type="orig" place="foot text">騫＝賽【三】</note><note n="0424058" resp="CBETA" type="mod">騫【大】，賽【宋】【元】【明】</note><app n="0424058"><lem wit="【大】">騫</lem><rdg resp="Taisho" wit="【宋】【元】【明】">賽</rdg></app><note n="0424059" resp="Taisho" type="orig" place="foot text">馱＝馳ィ【丙】</note><note n="0424059" resp="CBETA" type="mod">馱【大】，馳【校異-丙】</note><app n="0424059"><lem wit="【大】">馱</lem><rdg resp="Taisho" wit="【丙】" type="variantRemark">馳</rdg></app>藥叉，</l><l>住在<note n="0424060" resp="Taisho" type="orig" place="foot text">牛摧，gomardana.</note><note n="0424060" resp="CBETA" type="mod">牛摧 gomardana.</note><cb:tt n="0424060" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">牛摧</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">gomardana.</cb:t></cb:tt>國；</l>
 <lb n="0424a29" ed="T"/><l><note n="0424061" resp="Taisho" type="orig" place="foot text">愛合掌，añjalipriya.</note><note n="0424061" resp="CBETA" type="mod">愛合掌 añjalipriya.</note><cb:tt n="0424061" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">愛合掌</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">añjalipriya.</cb:t></cb:tt>藥叉，</l><l>住居<note n="0424062" resp="Taisho" type="orig" place="foot text">vaidiśa.</note><foreign n="0424062" cb:resp="Taisho" xml:lang="sa" cb:place="foot">vaidiśa.</foreign>吠儞勢；</l>
 <pb n="0424b" ed="T" xml:id="T19.0982.0424b"/>
@@ -1043,7 +925,7 @@ Added comment  for Emacs
 <lb n="0427a23" ed="T"/><p xml:id="pT19p0427a2301">「復次阿難陀！汝當稱念，多聞天王兄弟軍將名
 <lb n="0427a24" ed="T"/>號，此等<note n="0427022" resp="Taisho" type="orig" place="foot text">擁＝常【三】</note><note n="0427022" resp="CBETA" type="mod">擁【大】，常【宋】【元】【明】</note><app n="0427022"><lem wit="【大】">擁</lem><rdg resp="Taisho" wit="【宋】【元】【明】">常</rdg></app>護一切有情，為除災禍、厄難、憂
 <lb n="0427a25" ed="T"/>苦，遊行世間，作大利益，其名曰：</p>
-<lb n="0427a26" ed="T"/><p xml:id="pT19p0427a2601">「<note n="0427023" resp="Taisho" type="orig" place="foot text">indra.</note><foreign n="0427023" cb:resp="Taisho" xml:lang="sa" cb:place="foot">indra.</foreign>印捺囉<note place="inline">二合</note><note place="inline">一</note>　<note n="0427024" resp="Taisho" type="orig" place="foot text">soma.</note><foreign n="0427024" cb:resp="Taisho" xml:lang="sa" cb:place="foot">soma.</foreign>素摩<app type="star" corresp="#0426008"><lem wit="【大】"><note place="inline">引</note></lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app><note place="inline">二</note>　<note n="0427025" resp="Taisho" type="orig" place="foot text">varaṇa(varuna?)</note><foreign cb:cert="?" n="0427025" cb:resp="Taisho" xml:lang="sa" cb:place="foot">varaṇa(varuna?)</foreign>嚩嚕拏<app type="star" corresp="#0427009"><lem wit="【大】"><note place="inline">入</note></lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app><note place="inline">三</note>　<note n="0427026" resp="Taisho" type="orig" place="foot text">prajāpati.</note><foreign n="0427026" cb:resp="Taisho" xml:lang="sa" cb:place="foot">prajāpati.</foreign>鉢囉
+<lb n="0427a26" ed="T"/><p xml:id="pT19p0427a2601">「<note n="0427023" resp="Taisho" type="orig" place="foot text">indra.</note><foreign n="0427023" cb:resp="Taisho" xml:lang="sa" cb:place="foot">indra.</foreign>印捺囉<note place="inline">二合</note><note place="inline">一</note>　<note n="0427024" resp="Taisho" type="orig" place="foot text">soma.</note><foreign n="0427024" cb:resp="Taisho" xml:lang="sa" cb:place="foot">soma.</foreign>素摩<app type="star" corresp="#0426008"><lem wit="【大】"><note place="inline">引</note></lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app><note place="inline">二</note>　<note n="0427025" resp="Taisho" type="orig" place="foot text">varaṇa(varuna?)</note><foreign cert="unknown" n="0427025" cb:resp="Taisho" xml:lang="sa" cb:place="foot">varaṇa(varuna?)</foreign>嚩嚕拏<app type="star" corresp="#0427009"><lem wit="【大】"><note place="inline">入</note></lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app><note place="inline">三</note>　<note n="0427026" resp="Taisho" type="orig" place="foot text">prajāpati.</note><foreign n="0427026" cb:resp="Taisho" xml:lang="sa" cb:place="foot">prajāpati.</foreign>鉢囉
 <lb n="0427a27" ed="T"/><note place="inline">二合</note><note n="0427027" resp="Taisho" type="orig" place="foot text">惹＋（引）細註【三】</note><note n="0427027" resp="CBETA" type="mod">惹【大】，惹<note place="inline">引</note>【宋】【元】【明】</note><app n="0427027"><lem wit="【大】">惹</lem><rdg resp="Taisho" wit="【宋】【元】【明】">惹<note place="inline">引</note></rdg></app>跛底<note place="inline"><note n="0427028" resp="Taisho" type="orig" place="foot text">入＋（聲）【明】</note><note n="0427028" resp="CBETA" type="mod">入【大】，入聲【明】</note><app n="0427028"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note><note place="inline">四</note>　
 <note n="0427029" resp="Taisho" type="orig" place="foot text">（㘑四）＋婆【宋】【元】，bharadvāja.</note><note n="0427029" resp="CBETA" type="mod">婆【大】，㘑四婆【宋】【元】，bharadvāja.</note><foreign n="0427029" cb:resp="Taisho" xml:lang="sa" cb:place="foot">bharadvāja.</foreign>
 <app n="0427029"><lem wit="【大】">婆</lem><rdg resp="Taisho" wit="【宋】【元】">㘑四婆</rdg></app><note place="inline">
@@ -1160,7 +1042,7 @@ Added comment  for Emacs
 <note n="0427072" resp="Taisho" type="orig" place="foot text">citrasena.</note>
 <foreign n="0427072" cb:resp="Taisho" xml:lang="sa" cb:place="foot">citrasena.</foreign>唧怛囉<note place="inline">二合</note>細曩<note place="inline">二十九</note>　
 <note n="0427073" resp="Taisho" type="orig" place="foot text">giva(?)</note>
-<foreign cb:cert="?" n="0427073" cb:resp="Taisho" xml:lang="sa" cb:place="foot">giva</foreign>濕嚩<note place="inline">二合</note>
+<foreign cert="unknown" n="0427073" cb:resp="Taisho" xml:lang="sa" cb:place="foot">giva</foreign>濕嚩<note place="inline">二合</note>
 <note n="0427074" resp="Taisho" type="orig" place="foot text">gandharva.</note>
 <foreign n="0427074" cb:resp="Taisho" xml:lang="sa" cb:place="foot">gandharva.</foreign>彥達
 <lb n="0427b09" ed="T"/>嚩<note place="inline">三十</note>　
@@ -1536,7 +1418,7 @@ Added comment  for Emacs
 <lb n="0432a22" ed="T"/>　<note n="0432045" resp="Taisho" type="orig" place="foot text">象頭，hastśīrṣa.</note><note n="0432045" resp="CBETA" type="mod">象頭 hastśīrṣa.</note><cb:tt n="0432045" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">象頭</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">hastśīrṣa.</cb:t></cb:tt>龍王　濕力龍王　歡喜龍王　<note n="0432046" resp="Taisho" type="orig" place="foot text">奇妙，citra.</note><note n="0432046" resp="CBETA" type="mod">奇妙 citra.</note><cb:tt n="0432046" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">奇妙</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">citra.</cb:t></cb:tt>龍
 <lb n="0432a23" ed="T"/>王　<note n="0432047" resp="Taisho" type="orig" place="foot text">妙眼，citrākṣa.</note><note n="0432047" resp="CBETA" type="mod">妙眼 citrākṣa.</note><cb:tt n="0432047" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙眼</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">citrākṣa.</cb:t></cb:tt>龍王　<note n="0432048" resp="Taisho" type="orig" place="foot text">妙軍，citrasena.</note><note n="0432048" resp="CBETA" type="mod">妙軍 citrasena.</note><cb:tt n="0432048" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙軍</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">citrasena.</cb:t></cb:tt>龍王　護嚕拏龍王　<note n="0432049" resp="Taisho" type="orig" place="foot text">namuci.</note><foreign n="0432049" cb:resp="Taisho" xml:lang="sa" cb:place="foot">namuci.</foreign>那母
 <lb n="0432a24" ed="T"/>止龍王　<note n="0432050" resp="Taisho" type="orig" place="foot text">muci.</note><foreign n="0432050" cb:resp="Taisho" xml:lang="sa" cb:place="foot">muci.</foreign>母止龍王　<note n="0432051" resp="Taisho" type="orig" place="foot text">mucilinda.</note><foreign n="0432051" cb:resp="Taisho" xml:lang="sa" cb:place="foot">mucilinda.</foreign>母止隣陀龍王　<note n="0432052" resp="Taisho" type="orig" place="foot text">rāvaṇa，羅娑＝囉婆【三】</note><note n="0432052" resp="CBETA" type="mod">羅娑【大】，囉婆【宋】【元】【明】，羅娑拏 rāvaṇa</note><app n="0432052"><lem wit="【大】"><cb:tt n="0432052" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">羅娑拏</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">rāvaṇa</cb:t></cb:tt></lem><rdg resp="Taisho" wit="【宋】【元】【明】">囉婆拏</rdg></app>
-<lb n="0432a25" ed="T"/>龍王　<note n="0432053" resp="Taisho" type="orig" place="foot text">rāghava，羅＝囉【三】＊</note><note n="0432053" resp="CBETA" type="mod">羅【大】＊，囉【宋】＊【元】＊【明】＊，羅笈婆 rāghava</note><cb:tt n="0432053" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant"><app n="0432053"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【宋】【元】【明】">囉</rdg></app>笈婆</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">rāghava</cb:t></cb:tt>龍<note n="0432054" resp="Taisho" type="orig" place="foot text">王＋（囉笈婆子龍王）【三】</note><note n="0432054" resp="CBETA" type="mod">王【大】，王囉笈婆子龍王【宋】【元】【明】</note><app n="0432054"><lem wit="【大】">王</lem><rdg resp="Taisho" wit="【宋】【元】【明】">王囉笈婆子龍王</rdg></app>　<note n="0432055" resp="Taisho" type="orig" place="foot text">hari(?)</note><foreign cb:cert="?" n="0432055" cb:resp="Taisho" xml:lang="sa" cb:place="foot">hari</foreign>室<app type="star" corresp="#0422038"><lem wit="【大】">里</lem><rdg resp="Taisho" wit="【宋】【元】【明】">哩</rdg></app>龍王　<note n="0432056" resp="Taisho" type="orig" place="foot text">山孤，girika.</note><note n="0432056" resp="CBETA" type="mod">山孤 girika.</note><cb:tt n="0432056" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">山孤</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">girika.</cb:t></cb:tt>龍王
+<lb n="0432a25" ed="T"/>龍王　<note n="0432053" resp="Taisho" type="orig" place="foot text">rāghava，羅＝囉【三】＊</note><note n="0432053" resp="CBETA" type="mod">羅【大】＊，囉【宋】＊【元】＊【明】＊，羅笈婆 rāghava</note><cb:tt n="0432053" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant"><app n="0432053"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【宋】【元】【明】">囉</rdg></app>笈婆</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">rāghava</cb:t></cb:tt>龍<note n="0432054" resp="Taisho" type="orig" place="foot text">王＋（囉笈婆子龍王）【三】</note><note n="0432054" resp="CBETA" type="mod">王【大】，王囉笈婆子龍王【宋】【元】【明】</note><app n="0432054"><lem wit="【大】">王</lem><rdg resp="Taisho" wit="【宋】【元】【明】">王囉笈婆子龍王</rdg></app>　<note n="0432055" resp="Taisho" type="orig" place="foot text">hari(?)</note><foreign cert="unknown" n="0432055" cb:resp="Taisho" xml:lang="sa" cb:place="foot">hari</foreign>室<app type="star" corresp="#0422038"><lem wit="【大】">里</lem><rdg resp="Taisho" wit="【宋】【元】【明】">哩</rdg></app>龍王　<note n="0432056" resp="Taisho" type="orig" place="foot text">山孤，girika.</note><note n="0432056" resp="CBETA" type="mod">山孤 girika.</note><cb:tt n="0432056" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">山孤</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">girika.</cb:t></cb:tt>龍王
 <lb n="0432a26" ed="T"/>　<note n="0432057" resp="Taisho" type="orig" place="foot text">lamburu.</note><foreign n="0432057" cb:resp="Taisho" xml:lang="sa" cb:place="foot">lamburu.</foreign>濫母嚕龍王　<note n="0432058" resp="Taisho" type="orig" place="foot text">有蠱，krimi.</note><note n="0432058" resp="CBETA" type="mod">有蠱 krimi.</note><cb:tt n="0432058" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">有蠱</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">krimi.</cb:t></cb:tt>龍王　<note n="0432059" resp="Taisho" type="orig" place="foot text">無邊，ananta.</note><note n="0432059" resp="CBETA" type="mod">無邊 ananta.</note><cb:tt n="0432059" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無邊</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">ananta.</cb:t></cb:tt>龍王　<note n="0432060" resp="Taisho" type="orig" place="foot text">kataka.</note><foreign n="0432060" cb:resp="Taisho" xml:lang="sa" cb:place="foot">kataka.</foreign>羯諾迦
 <lb n="0432a27" ed="T"/>龍王　<note n="0432061" resp="Taisho" type="orig" place="foot text">hastikataka.</note><foreign n="0432061" cb:resp="Taisho" xml:lang="sa" cb:place="foot">hastikataka.</foreign>象羯磋龍王　黃色龍王　赤色龍王　白
 <lb n="0432a28" ed="T"/>色龍王　<note n="0432062" resp="Taisho" type="orig" place="foot text">elapatra.</note><foreign n="0432062" cb:resp="Taisho" xml:lang="sa" cb:place="foot">elapatra.</foreign>𧫦囉葉龍王　<note n="0432063" resp="Taisho" type="orig" place="foot text">śaṁkha.</note><foreign n="0432063" cb:resp="Taisho" xml:lang="sa" cb:place="foot">śaṁkha.</foreign>商佉龍王　<note n="0432064" resp="Taisho" type="orig" place="foot text">aparāla.</note><foreign n="0432064" cb:resp="Taisho" xml:lang="sa" cb:place="foot">aparāla.</foreign>阿跛<app type="star" corresp="#0432053"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【宋】【元】【明】">囉</rdg></app>龍
@@ -1572,9 +1454,9 @@ Added comment  for Emacs
 <note n="0432130" resp="CBETA" type="mod">難【大】，〔－〕【宋】【元】【明】</note>
 <app n="0432130"><lem wit="【大】">難</lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app>勝龍王　
 <note n="0432131" resp="Taisho" type="orig" place="foot text">valluka(?)</note>
-<foreign cb:cert="?" n="0432131" cb:resp="Taisho" xml:lang="sa" cb:place="foot">valluka</foreign>末攞迦龍王　
+<foreign cert="unknown" n="0432131" cb:resp="Taisho" xml:lang="sa" cb:place="foot">valluka</foreign>末攞迦龍王　
 <note n="0432132" resp="Taisho" type="orig" place="foot text">alluka(?)</note>
-<foreign cb:cert="?" n="0432132" cb:resp="Taisho" xml:lang="sa" cb:place="foot">alluka</foreign>阿嚕迦龍王　
+<foreign cert="unknown" n="0432132" cb:resp="Taisho" xml:lang="sa" cb:place="foot">alluka</foreign>阿嚕迦龍王　
 <note n="0432133" resp="Taisho" type="orig" place="foot text">ela.</note>
 <foreign n="0432133" cb:resp="Taisho" xml:lang="sa" cb:place="foot">ela.</foreign>𧫦
 <lb n="0432b19" ed="T"/><app type="star" corresp="#0432053"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【宋】【元】【明】">囉</rdg></app>龍王　
@@ -1913,7 +1795,7 @@ Added comment  for Emacs
 <note n="0436034" resp="Taisho" type="orig" place="foot text">vimalā.</note>
 <foreign n="0436034" cb:resp="Taisho" xml:lang="sa" cb:place="foot">vimalā.</foreign>尾麼<app type="star" corresp="#0435015"><lem wit="【大】">囉</lem><rdg resp="Taisho" wit="【甲】">羅</rdg></app>河王　
 <note n="0436035" resp="Taisho" type="orig" place="foot text">梵本缺，godāvarī. ?</note>
-<foreign cb:cert="?" n="0436035" cb:resp="Taisho" xml:lang="sa" cb:place="foot">godāvarī.</foreign>
+<foreign cert="unknown" n="0436035" cb:resp="Taisho" xml:lang="sa" cb:place="foot">godāvarī.</foreign>
 <note n="0436035" place="foot" type="rest">梵本缺</note>遇娜嚩
 <lb n="0436a17" ed="T"/><note n="0436036" resp="Taisho" type="orig" place="foot text">哩＝里【甲】</note><note n="0436036" resp="CBETA" type="mod">哩【大】，里【甲】</note>
 <app n="0436036"><lem wit="【大】">哩</lem><rdg resp="Taisho" wit="【甲】">里</rdg></app>河王　
@@ -2170,7 +2052,7 @@ Added comment  for Emacs
 <note n="0437037" resp="Taisho" type="orig" place="foot text">pulastya.</note>
 <foreign n="0437037" cb:resp="Taisho" xml:lang="sa" cb:place="foot">pulastya.</foreign>補攞悉底耶大仙　鹿頭大仙　
 <note n="0437038" resp="Taisho" type="orig" place="foot text">yamāgni(?).</note>
-<foreign cb:cert="?" n="0437038" cb:resp="Taisho" xml:lang="sa" cb:place="foot">yamāgni.</foreign>焰
+<foreign cert="unknown" n="0437038" cb:resp="Taisho" xml:lang="sa" cb:place="foot">yamāgni.</foreign>焰
 <lb n="0437b12" ed="T"/>摩火大仙　
 <note n="0437039" resp="Taisho" type="orig" place="foot text">洲子，vaisaṁpāya.</note>
 <note n="0437039" resp="CBETA" type="mod">洲子 vaisaṁpāya.</note>
@@ -2236,7 +2118,7 @@ Added comment  for Emacs
 <app n="0437059"><lem wit="【大】"><cb:tt n="0437059" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">阿羅禰彌</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">aranemīni</cb:t></cb:tt></lem><rdg resp="Taisho" wit="【宋】【元】【明】">摩羅禰彌</rdg></app>大仙　
 <note n="0437060" resp="Taisho" type="orig" place="foot text">鎮星，śanaiśvara.(?)</note>
 <note n="0437060" resp="CBETA" type="mod">鎮星 śanaiśvara.(?)</note>
-<cb:tt n="0437060" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">鎮星</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">śanaiśvara.</cb:t></cb:tt>大
+<cb:tt n="0437060" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">鎮星</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">śanaiśvara.</cb:t></cb:tt>大
 <lb n="0437b21" ed="T"/>仙　
 <note n="0437061" resp="Taisho" type="orig" place="foot text">辰星，budha.</note>
 <note n="0437061" resp="CBETA" type="mod">辰星 budha.</note>

@@ -1,154 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T12n0375"><teiHeader><fileDesc>
-<titleStmt>
-<title>Taishō Tripiṭaka, Electronic version, No. 375 大般涅槃經</title>
-<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 375 大般涅槃經</title>
-<author>宋 慧嚴等依泥洹經加之</author>
-<respStmt>
-<resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.52 $<date>$Date: 2012/08/27 03:14:39 $</date>新式標點版</edition></editionStmt>
-<extent>36卷</extent>
-<publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
-<address><addrLine>service@cbeta.org</addrLine></address>
-</distributor>
-<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2012/08/27 03:14:39 $</date></publicationStmt>
-<sourceDesc><bibl>Taishō Tripiṭaka Vol. 12, No. 375</bibl></sourceDesc></fileDesc>
-<encodingDesc><projectDesc>
-<p>This is a very preliminary format-conversion.</p>
-<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Punctuated text as provided by Mao Pei-Jun and Liao Yu-An and Liao Yu-Ci, Others</p>
-<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，蕭鎮國大德輸入，維習安大德提供之高麗藏 CD 經文，毛佩君、廖予安、廖予慈大德提供新式標點，其他</p>
-</projectDesc>
-</encodingDesc>
-<profileDesc>
-                <langUsage>
-                        <language ident="zh">Chinese</language>
-                        <language ident="en">English</language>
-                </langUsage>
-        </profileDesc>
-        <revisionDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T12n0375">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taishō Tripiṭaka, Electronic version, No. 375 大般涅槃經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 375 大般涅槃經</title>
+			<author>宋 慧嚴等依泥洹經加之</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>36卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">12</idno>.<idno type="no">375</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address><addrLine>service@cbeta.org</addrLine></address>
+			</distributor>
+			<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">大般涅槃經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p>This is a very preliminary format-conversion.</p>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Punctuated text as provided by Mao Pei-Jun and Liao Yu-An and Liao Yu-Ci, Others</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，蕭鎮國大德輸入，維習安大德提供之高麗藏 CD 經文，毛佩君、廖予安、廖予慈大德提供新式標點，其他</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+			<language ident="en">English</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-<change when="1999-06-30T19:35:31">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
-<!--
-$Log: T12n0375.xml,v $
-Revision 1.52  2012/08/27 03:14:39  maha
-修訂新標小圓點及著重號
-
-Revision 1.51  2012/05/24 08:06:46  eva
-modified: 上傳 新式標點版
-
-Revision 1.50  2012/04/30 09:27:52  eva
-modified: 新標 pushsign 前置作業標記及內文修訂
-
-Revision 1.49  2012/04/17 06:40:58  amtbgrace
-modified: p0692b18 [聞>問], p0694b18-19 思[議>義], p0823b23 見[已>己],
-
-Revision 1.48  2009/05/26 05:25:28  amtbgrace
-modified: 依原書修訂，p0654b08 烏 直接修改為 鳥
-
-Revision 1.47  2009/05/24 09:23:43  saywhat
-<note mod> added 【麗-CB】
-
-Revision 1.46  2009/04/23 07:58:02  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.45  2009/02/21 13:20:33  saywhat
-wit=【磧砂-CB】,【麗-CB】=>【磧砂】,【麗】
-
-Revision 1.44  2008/11/20 12:28:40  saywhat
-修訂 cf 格式
-
-Revision 1.43  2008/09/09 02:40:26  saywhat
-p0630a07 想。者=>想者
-
-Revision 1.42  2007/08/31 00:39:21  saywhat
-p0669c27 [[阿-可+(嶙-山)]>憐]愍
-
-Revision 1.41  2007/01/03 15:04:19  saywhat
-p0675b22 [[跳-兆+尃]>[跳-兆+專]]
-
-Revision 1.40  2007/01/02 16:54:26  saywhat
-p0649c18 [[钁-(目*目)+賏]>钁]
-
-Revision 1.39  2006/09/19 01:45:35  saywhat
-p0750a09「已」改作「己」
-
-Revision 1.38  2006/05/19 08:27:42  saywhat
-雙圈 改成 anchor 標記
-
-Revision 1.37  2006/04/12 21:54:41  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.35  2006/03/07 14:28:01  saywhat
-組字重複取代
-
-Revision 1.34  2006/03/02 16:31:45  saywhat
-type="ping" => type="pin"
-
-Revision 1.33  2006/01/07 02:33:50  saywhat
-檔頭修訂： 北美某大德提供 Text as provided by Anonymous from USA => 其他, Others
-
-Revision 1.32  2006/01/02 06:17:12  saywhat
-p0758c20 涅[樂>槃]
-
-Revision 1.31  2005/11/19 13:59:28  saywhat
-p0786a25 屋[字>宇]
-
-Revision 1.30  2005/05/09 09:12:10  saywhat
-p0824b04 [切>切不必悉有。善男子。色界雖有非一切]
-
-Revision 1.29  2004/11/20 04:02:30  saywhat
-書面校對修訂
-
-Revision 1.28  2004/11/15 05:40:24  saywhat
-◎。 => 。◎
-
-Revision 1.27  2004/11/14 08:41:20  saywhat
-p0688c17 modified 圈點
-
-Revision 1.26  2004/11/14 03:17:09  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.25  2004/10/30 00:49:53  saywhat
-修訂磧砂藏代號 G=>Q
-
-Revision 1.24  2004/10/12 13:45:36  saywhat
-段落前加入圈點
-
-Revision 1.23  2004/09/20 10:18:49  saywhat
-p0694a14 [振>掁]
-
-Revision 1.22  2004/09/17 04:08:37  saywhat
-修訂cf
-
-Revision 1.21  2004/06/23 03:36:37  saywhat
-修訂</byline></div>，將</div>移到前一卷
-
-Revision 1.20  2004/06/08 04:16:33  saywhat
-組字式修訂成CB碼, 修訂cf參考資料
-
-Revision 1.19  2004/04/20 08:37:43  maha
-「版本日期」標記修訂
-
-Revision 1.18  2004/03/24 07:18:10  saywhat
-mod [0654019] <note mod>
-
-Revision 1.17  2004/03/24 06:54:41  saywhat
-p0654c04 ＊校勘 added type="repeat"
-
-Revision 1.16  2004/03/16 02:18:19  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.15  2004/03/12 12:47:04  saywhat
-修訂[0831003],[0846013]<rdg>版本重複
-
-Revision 1.14  2004/02/27 00:38:06  ray
-add cvs log
-
--->
- </revisionDesc>
+		<change when="1999-06-30T19:35:31">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

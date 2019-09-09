@@ -1,109 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T08n0229"><teiHeader><fileDesc>
-<titleStmt>
-<title>Taishō Tripiṭaka, Electronic version, No. 229 佛說佛母寶德藏般若波羅蜜經</title>
-<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 229 佛說佛母寶德藏般若波羅蜜經</title>
-<author>宋 法賢譯</author>
-<respStmt>
-<resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.31 $<date>$Date: 2012/08/27 03:14:20 $</date>新式標點版</edition></editionStmt>
-<extent>3卷</extent>
-<publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
-<address><addrLine>service@cbeta.org</addrLine></address>
-</distributor>
-<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2012/08/27 03:14:20 $</date></publicationStmt>
-<sourceDesc><bibl>Taishō Tripiṭaka Vol. 8, No. 229</bibl></sourceDesc></fileDesc>
-<encodingDesc><projectDesc>
-<p xml:lang="en" cb:type="ly">Tripitaka Koreana as provided by Mr. Christian Wittern / proofread by Electronic Buddhadharma Society (EBS), CBETA OCR Group, Punctuated text as provided by CBETA, Others</p>
-<p xml:lang="zh-Hant" cb:type="ly">維習安大德提供之高麗藏 CD 經文／佛教電腦資訊庫功德會校對，CBETA 自行掃瞄辨識，CBETA 提供新式標點，其他</p>
-</projectDesc>
-</encodingDesc>
-<profileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T08n0229">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taishō Tripiṭaka, Electronic version, No. 229 佛說佛母寶德藏般若波羅蜜經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 229 佛說佛母寶德藏般若波羅蜜經</title>
+			<author>宋 法賢譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">8</idno>.<idno type="no">229</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address><addrLine>service@cbeta.org</addrLine></address>
+			</distributor>
+			<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">佛說佛母寶德藏般若波羅蜜經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Tripitaka Koreana as provided by Mr. Christian Wittern / proofread by Electronic Buddhadharma Society (EBS), CBETA OCR Group, Punctuated text as provided by CBETA, Others</p>
+			<p xml:lang="zh-Hant" cb:type="ly">維習安大德提供之高麗藏 CD 經文／佛教電腦資訊庫功德會校對，CBETA 自行掃瞄辨識，CBETA 提供新式標點，其他</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-<change when="1999-07-21T18:35:37">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
-<!--
-$Log: T08n0229.xml,v $
-Revision 1.31  2012/08/27 03:14:20  maha
-修訂新標小圓點及著重號
-
-Revision 1.30  2011/07/26 07:41:02  eva
-modified: 取消 CBETA 修訂, resp 審定者、執行者、提供者
-
-Revision 1.29  2011/06/07 08:05:51  eva
-modified: 經文修訂
-
-Revision 1.28  2011/06/07 06:32:50  eva
-modified: 經文修訂
-
-Revision 1.27  2009/05/23 13:06:15  saywhat
-[0680008] <note mod> added 【麗-CB】
-
-Revision 1.26  2009/04/23 07:57:08  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.25  2008/10/02 15:09:57  saywhat
-修訂 cf 格式
-
-Revision 1.24  2007/12/14 15:38:54  saywhat
-CBETA提供新式標點 => CBETA 提供新式標點
-
-Revision 1.23  2007/07/07 01:25:33  saywhat
-p0681c11,p0683c25 修訂遺漏偈頌標點
-
-Revision 1.22  2007/03/13 15:25:52  saywhat
-新標提供者 "CTPP" 改作 "CBETA"
-
-Revision 1.21  2007/01/17 07:16:07  saywhat
-p0680b24  n="0680010"改成"0680008"
-
-Revision 1.20  2006/11/20 00:17:29  saywhat
-p0680b24[難>雖], p0680b25[墜>墮]
-
-Revision 1.19  2006/05/19 08:00:03  saywhat
-雙圈 改成 anchor 標記
-
-Revision 1.18  2006/04/12 21:54:27  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.16  2006/01/08 12:58:10  saywhat
-modified <lg> ; <l>『  =>  <l rend="text-indent:0em">『
-
-Revision 1.15  2005/12/27 02:09:09  saywhat
-新式標點版
-
-Revision 1.14  2004/12/18 13:12:56  saywhat
-行尾的<lg>移到下一行行首
-
-Revision 1.13  2004/11/14 03:17:03  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.12  2004/10/30 01:15:51  saywhat
-修訂磧砂藏代號 G=>Q
-
-Revision 1.11  2004/10/11 10:52:38  saywhat
-段落前加入圈點
-
-Revision 1.10  2004/04/20 08:37:19  maha
-「版本日期」標記修訂
-
-Revision 1.9  2004/03/16 02:18:05  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.8  2004/02/27 05:56:55  ray
-add cvs log
-
--->
- </revisionDesc>
+		<change when="1999-07-21T18:35:37">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

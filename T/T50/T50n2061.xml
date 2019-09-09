@@ -11,259 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.51 $<date>$Date: 2012/11/08 06:14:13 $</date></edition>
-	</editionStmt>
-	<extent>30卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/11/08 06:14:13 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 50, No. 2061</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>30卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">50</idno>.<idno type="no">2061</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">宋高僧傳</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-10-03T14:39:37">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-<!--
-$Log: T50n2061.xml,v $
-Revision 1.51  2012/11/08 06:14:13  eva
-modified: P5 valid 標記修訂
-
-Revision 1.50  2012/10/23 05:52:33  amtbgrace
-經文修訂: 李[又>乂] p0732b26, p0710c29, p0863c25
-
-Revision 1.49  2012/05/28 05:28:25  amtbgrace
-modified:  經文修訂 20120528
-
-Revision 1.48  2012/05/18 06:15:25  amtbgrace
-經文修訂 20120518
-
-Revision 1.47  2012/05/08 07:36:35  amtbgrace
-20120508 經文修訂
-
-Revision 1.46  2012/04/17 07:53:00  amtbgrace
-modified: p0838a04 三尼各施
-
-Revision 1.45  2012/03/27 08:56:59  eva
-modified: 經文修訂
-
-Revision 1.44  2012/03/09 07:59:01  amtbgrace
-經文修訂：p0790c02 [摶>搏]攫
-
-Revision 1.43  2011/08/26 06:24:40  amtbgrace
-經文修訂：p0774a09 超[片>岸]
-
-Revision 1.42  2011/08/26 06:23:08  amtbgrace
-經文修訂：p0774a09 超[片>岸]
-
-Revision 1.41  2010/10/26 04:18:21  eva
-modified: 修訂錯誤標點
-
-Revision 1.40  2010/10/25 08:33:54  amtbgrace
-modified: 圖檔檔名修改
-
-Revision 1.39  2010/09/24 07:11:18  amtbgrace
-[modified: 按 2010/7/20 maha 來信修訂（主旨為:  [經文修訂] 五燈會元 VS 五燈嚴統）
-
-Revision 1.38  2010/07/28 08:26:20  eva
-modified: 經文修訂
-
-Revision 1.37  2010/05/07 06:48:58  amtbgrace
-modified: 按 2010/4/23 maha 來信修訂（主旨為: [經文修訂]  [塵>麈]拂）
-
-Revision 1.36  2010/05/07 04:26:09  amtbgrace
-modified: 按 2010/4/23 maha 來信修訂（主旨為: [經文修訂] 揮[塵>麈] - 1）
-
-Revision 1.35  2009/10/27 09:00:18  eva
-modified: 經文修訂
-
-Revision 1.34  2009/10/26 08:11:39  eva
-modified: 希[澡>操]
-
-Revision 1.33  2009/04/23 08:13:17  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.32  2008/11/27 15:36:02  saywhat
-p0737a09,p0896b06 delete cf1="none"
-
-Revision 1.31  2008/09/25 03:17:40  saywhat
-p0767c07[[泳-永+防]>泐], p0841c20[[面*責]。[面*責]>[面*貴]。[面*貴]]
-
-Revision 1.30  2008/08/29 09:14:55  saywhat
-p0757c14,p0760b13,p0841c18,p0847c22,p0861a04 [[方*番]>旛] ; p0753a03[[名*隹]>雒]
-
-Revision 1.29  2008/08/16 05:08:41  saywhat
-p0740b17 [泒>派]
-
-Revision 1.28  2008/07/21 08:46:31  saywhat
-p0763c26 歲盈數[千>十]
-
-Revision 1.27  2008/06/27 09:16:53  saywhat
-p0786c25 [戒>屆]
-
-Revision 1.26  2007/10/21 06:17:29  saywhat
-修訂目錄，第三層架構開頭都少了 "第一篇"
-
-Revision 1.25  2007/05/03 08:14:08  saywhat
-p0839b07 器[血>皿]
-
-Revision 1.24  2007/04/11 04:20:14  saywhat
-p0752a17,p0840a13 02958[潸-月+日] 改作 14698[漜-土+日]
-
-Revision 1.23  2007/01/03 01:33:57  saywhat
-p0843c03-c04,c06 [[钁-(目*目)+賏]>钁]
-
-Revision 1.22  2006/04/12 21:59:22  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.20  2006/03/07 15:44:23  saywhat
-組字重複取代
-
-Revision 1.19  2006/01/04 10:41:49  saywhat
-p0722c29 [口*縛][曰>日]羅
-
-Revision 1.18  2005/08/31 05:57:27  saywhat
-p0712a20 祆=>祅
-
-Revision 1.17  2004/11/14 03:18:13  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.16  2004/11/11 13:11:13  saywhat
-CB01327 [來/貝]=>賚
-
-Revision 1.15  2004/11/04 14:40:29  saywhat
-段落前加入圈點
-
-Revision 1.14  2004/09/27 04:43:36  saywhat
-p0728c05 壺=>壼, p0737a09 [壺>壼], p0896b06 [壺>壼]
-
-Revision 1.13  2004/09/02 08:31:11  saywhat
-CB16612 => CB15953
-
-Revision 1.12  2004/09/02 05:32:13  saywhat
-p0832b20  礡 => CB16612
-
-Revision 1.11  2004/07/16 09:13:00  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.10  2004/06/10 15:16:58  saywhat
-<pb>後的</p>或</div>移到上一行
-
-Revision 1.9  2004/04/20 08:43:30  maha
-「版本日期」標記修訂
-
-Revision 1.8  2004/03/16 02:21:02  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.7  2004/01/02 05:55:41  maha
-<note mod>裡的corr2app
-
-Revision 1.6  2003/07/24 03:11:25  moved
-汨汩用字修訂
-
-Revision 1.5  2003/06/25 06:44:20  moved
-執行 corr2app.pl v0.3.1
-
-Revision 1.3  2003/06/23 05:18:53  moved
-＊校勘插入 xml 作業
-
-Revision 1.2  2003/05/26 04:03:35  moved
-「找不到對應的校勘」作業
-
-Revision 1.1.1.1  2003/05/05 04:10:41  ray
-recover cvs
-
-Revision 1.31  2002/12/06 03:09:03  moved
-modified
-
-Revision 1.30  2002/11/04 11:00:13  ray
-tei.2 => TEI.2
-
-Revision 1.29  2002/10/07 13:30:19  moved
-modified
-
-Revision 1.28  2002/07/29 09:45:52  vinking
-modified lang
-
-Revision 1.27  2002/07/01 02:58:42  vinking
-no message
-
-Revision 1.26  2002/06/25 00:50:16  moved
-modified
-
-Revision 1.25  2002/04/08 09:45:15  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.24  2001/11/05 06:21:35  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.23  2001/07/24 07:01:47  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.22  2001/05/31 03:14:27  saywhat
-modified htmlhelp
-
-Revision 1.21  2001/05/14 10:36:24  vinking
-內部比對修訂
-
-Revision 1.20  2001/05/11 12:26:59  vinking
-modified gaiji
-
-Revision 1.19  2001/04/10 07:02:19  vinking
-modified mulu level(lac)
-
-Revision 1.18  2001/04/06 11:40:27  moved
-modified normal
-
-Revision 1.17  2001/03/30 06:46:14  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.16  2001/03/29 09:33:04  moved
-modified normal
-
-Revision 1.15  2001/03/25 11:20:38  ray
-add <milestone>
-
-Revision 1.14  2001/03/25 10:55:12  ray
-add <milestone>
-
-Revision 1.13  2001/03/15 06:10:41  ray
-CBx0662 => CI0003
-
-Revision 1.12  2001/02/07 07:35:52  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.11  2001/02/03 08:11:20  chris
-Added keywords $Revision: 1.51 $, $Date: 2012/11/08 06:14:13 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-10-03T14:39:37">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

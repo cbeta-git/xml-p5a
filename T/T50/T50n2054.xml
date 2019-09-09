@@ -11,154 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.16 $<date>$Date: 2012/03/27 08:56:59 $</date></edition>
-	</editionStmt>
-	<extent>1卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/03/27 08:56:59 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 50, No. 2054</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>1卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">50</idno>.<idno type="no">2054</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">唐大薦福寺故寺主翻經大德法藏和尚傳</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-10-03T14:39:27">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-<!--
-$Log: T50n2054.xml,v $
-Revision 1.16  2012/03/27 08:56:59  eva
-modified: 經文修訂
-
-Revision 1.15  2009/04/23 08:13:15  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.14  2007/01/03 01:32:20  saywhat
-p0284c11 [[钁-(目*目)+賏]>钁]
-
-Revision 1.13  2006/04/12 21:59:18  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.11  2005/11/30 09:04:13  saywhat
-移除 <mulu label> 裡的半形括弧
-
-Revision 1.10  2004/11/14 03:18:12  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.9  2004/11/04 14:40:28  saywhat
-段落前加入圈點
-
-Revision 1.8  2004/09/16 09:28:23  saywhat
-<div type="w"> 改用 <mulu type="附文">
-
-Revision 1.7  2004/07/16 09:12:59  moved
-modified：執行 margin.pl，加入 em 單位。
-
-Revision 1.6  2004/06/10 14:40:53  saywhat
-<pb>後的</p>或</div>移到上一行
-
-Revision 1.5  2004/04/20 08:43:24  maha
-「版本日期」標記修訂
-
-Revision 1.4  2003/07/18 07:38:39  ray
-app版100字以上長行斷詞
-
-Revision 1.3  2003/06/25 06:44:18  moved
-執行 corr2app.pl v0.3.1
-
-Revision 1.1.1.1  2003/05/05 04:10:40  ray
-recover cvs
-
-Revision 1.24  2002/12/06 03:08:34  moved
-modified
-
-Revision 1.23  2002/11/04 11:00:07  ray
-tei.2 => TEI.2
-
-Revision 1.22  2002/07/29 09:45:52  vinking
-modified lang
-
-Revision 1.21  2002/04/08 09:45:11  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.20  2001/12/15 09:48:43  vinking
-modified [cd 8] alpha 3 app1 比對
-
-Revision 1.19  2001/11/05 06:21:29  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.18  2001/07/24 07:01:40  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.17  2001/06/28 06:28:04  vinking
-modified for app
-
-Revision 1.16  2001/05/15 07:40:45  vinking
-比對修訂
-
-Revision 1.15  2001/05/14 10:36:19  vinking
-內部比對修訂
-
-Revision 1.14  2001/05/11 12:26:56  vinking
-modified gaiji
-
-Revision 1.13  2001/04/06 11:40:18  moved
-modified normal
-
-Revision 1.12  2001/03/30 06:46:04  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.11  2001/03/29 09:32:59  moved
-modified normal
-
-Revision 1.10  2001/03/28 13:08:51  moved
-modified normal
-
-Revision 1.9  2001/03/27 00:46:35  moved
-modified normal
-
-Revision 1.8  2001/03/26 03:40:55  moved
-conflict
-
-Revision 1.7  2001/03/25 11:20:33  ray
-add <milestone>
-
-Revision 1.6  2001/03/25 10:55:06  ray
-add <milestone>
-
-Revision 1.5  2001/02/07 07:34:31  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.4  2001/02/03 08:10:58  chris
-Added keywords $Revision: 1.16 $, $Date: 2012/03/27 08:56:59 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-10-03T14:39:27">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

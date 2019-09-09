@@ -11,142 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.17 $<date>$Date: 2011/02/24 08:23:07 $</date></edition>
-	</editionStmt>
-	<extent>6卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2011/02/24 08:23:07 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 39, No. 1785</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>6卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">39</idno>.<idno type="no">1785</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">金光明經文句</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-04-28T10:39:27">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-<!--
-$Log: T39n1785.xml,v $
-Revision 1.17  2011/02/24 08:23:07  maha
-按 2011/2/18 maha 來信修訂（主旨為: [經文修訂] 迎[侯>候]、等[侯>候]、恭[侯>候]、時[侯>候]）
-
-Revision 1.16  2009/04/23 08:10:38  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.15  2006/05/26 08:33:16  saywhat
-p0051c22 [已>己]所修治
-
-Revision 1.14  2006/05/20 01:44:29  saywhat
-雙圈 改成 anchor 標記
-
-Revision 1.13  2006/04/12 21:57:57  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.11  2004/11/15 11:23:30  saywhat
-◎。 => 。◎
-
-Revision 1.10  2004/11/14 03:17:55  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.9  2004/10/28 15:25:17  saywhat
-段落前加入圈點
-
-Revision 1.8  2004/06/24 07:12:42  saywhat
-修訂</byline></div>，將</div>移到前一卷
-
-Revision 1.7  2004/04/20 08:41:48  maha
-「版本日期」標記修訂
-
-Revision 1.6  2004/03/16 02:20:14  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.5  2004/01/02 05:54:58  maha
-<note mod>裡的corr2app
-
-Revision 1.4  2003/06/23 06:19:12  saywhat
-[＊]校勘插入XML
-
-Revision 1.3  2003/06/09 03:42:22  saywhat
-修訂「疑似對應的＊校勘」
-
-Revision 1.2  2003/05/05 06:50:10  saywhat
-modified star
-
-Revision 1.23  2002/11/27 11:23:26  saywhat
-校勘插入處理
-
-Revision 1.22  2002/11/04 10:55:07  ray
-tei.2 => TEI.2
-
-Revision 1.21  2002/10/21 08:18:58  ray
-移動 <anchor>+<note>, <anchor>+雙圈
-
-Revision 1.20  2002/10/07 13:22:54  moved
-modified
-
-Revision 1.19  2002/07/29 10:12:16  vinking
-modified lang
-
-Revision 1.18  2002/05/23 11:26:12  saywhat
-modified footnote
-
-Revision 1.17  2002/05/20 09:56:59  saywhat
-T39 經文修訂 20020510.txt by maha
-
-Revision 1.16  2002/04/08 09:36:13  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.15  2001/11/05 06:18:30  ray
-<note type="foot"> => <note place="foot">
-<note type="inline"> => <note place="inline">
-
-Revision 1.14  2001/07/24 06:58:41  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.13  2001/06/29 10:53:55  eva
-modified normal
-
-Revision 1.12  2001/04/07 08:26:15  ray
-no message
-
-Revision 1.11  2001/03/30 06:23:40  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.10  2001/03/25 10:19:16  ray
-add <milestone>
-
-Revision 1.9  2001/02/07 07:11:09  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.8  2001/02/03 08:02:07  chris
-Added keywords $Revision: 1.17 $, $Date: 2011/02/24 08:23:07 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="2000-04-28T10:39:27">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

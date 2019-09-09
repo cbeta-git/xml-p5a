@@ -1,133 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns:cb="http://www.cbeta.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="T14n0541">
 <teiHeader>
-        <fileDesc>
-                <titleStmt>
-                        <title>Taishō Tripiṭaka, Electronic version, No. 541 佛說佛大僧大經</title>
-                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 541 佛說佛大僧大經</title>
-                        <author>劉宋 沮渠京聲譯</author>
-                        <respStmt>
-                                <resp>Electronic Version by</resp>
-                                <name>CBETA</name>
-                        </respStmt>
-                </titleStmt>
-        <editionStmt>
-                <edition>$Revision: 1.15 $<date>$Date: 2012/08/27 03:14:53 $</date>新式標點版</edition>
-        </editionStmt>
-        <extent>1卷</extent>
-        <publicationStmt>
-                <distributor>
-                        <name>中華電子佛典協會 (CBETA)</name>
-                        <address>
-                                <addrLine>service@cbeta.org</addrLine>
-                        </address>
-                </distributor>
-                <availability>
-                        <p>Available for non-commercial use when distributed with this header intact.</p>
-                </availability>
-                <date>$Date: 2012/08/27 03:14:53 $</date>
-        </publicationStmt>
-        <sourceDesc>
-                <bibl>Taishō Tripiṭaka Vol. 14, No. 541</bibl>
-        </sourceDesc>
-</fileDesc>
-<encodingDesc>
-        <projectDesc>
-                <p cb:type="ly" xml:lang="en">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
-                <p cb:type="ly" xml:lang="zh-Hant">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點，張革豐大德提供新式標點重校</p>
-        </projectDesc>
-</encodingDesc>
-<profileDesc>
+	<fileDesc>
+		<titleStmt>
+			<title>Taishō Tripiṭaka, Electronic version, No. 541 佛說佛大僧大經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 541 佛說佛大僧大經</title>
+			<author>劉宋 沮渠京聲譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>1卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">14</idno>.<idno type="no">541</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">佛說佛大僧大經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p cb:type="ly" xml:lang="en">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
+			<p cb:type="ly" xml:lang="zh-Hant">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點，張革豐大德提供新式標點重校</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-        <change when="1999-10-12T08:43:18">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
-<!--
-$Log: T14n0541.xml,v $
-Revision 1.15  2012/08/27 03:14:53  maha
-修訂新標小圓點及著重號
-
-Revision 1.14  2009/04/23 07:58:36  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.13  2009/03/06 14:21:53  saywhat
-新式標點版
-
-Revision 1.12  2009/02/18 11:19:11  saywhat
-TK修訂：p0827a21[渧>涕], p0827c09[惶惶>煌煌], p0828c21[悲>慈]
-
-Revision 1.11  2006/04/12 21:54:54  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.9  2006/03/07 14:36:46  saywhat
-組字重複取代
-
-Revision 1.8  2004/10/13 03:39:27  saywhat
-段落前加入圈點
-
-Revision 1.7  2004/09/14 00:54:12  saywhat
-<trailer> => <juan fun="close"><jhead>
-
-Revision 1.6  2004/04/20 08:38:06  maha
-「版本日期」標記修訂
-
-Revision 1.5  2003/06/25 06:40:11  moved
-執行 corr2app.pl v0.3.1
-
-Revision 1.3  2003/06/23 04:00:34  moved
-＊校勘插入 xml 作業
-
-Revision 1.2  2003/05/26 11:28:47  moved
-「【三】＊」取代
-
-Revision 1.1.1.1  2003/05/05 04:08:52  ray
-recover cvs
-
-Revision 1.17  2002/12/05 05:24:10  saywhat
-校勘插入處理
-
-Revision 1.16  2002/11/04 10:40:46  ray
-tei.2 => TEI.2
-
-Revision 1.15  2002/10/07 13:07:11  moved
-modified
-
-Revision 1.14  2002/07/29 09:54:20  vinking
-modified lang
-
-Revision 1.13  2002/04/04 07:27:00  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.12  2001/10/31 03:51:53  ray
-maha 給的插入校勘符號
-
-Revision 1.9  2001/07/24 06:51:09  ray
-add 作者、譯者 <author> 卷數 <extent>
-
-Revision 1.8  2001/05/25 08:55:39  ray
-經號統一為四碼
-
-Revision 1.7  2001/03/30 06:37:09  ray
-缺字CB碼由四碼增長為五碼
-
-Revision 1.6  2001/03/25 09:01:47  ray
-add <milestone>
-
-Revision 1.5  2001/02/07 06:49:52  chris
-Fixed problem with comment in the previous checkin
-
-Revision 1.4  2001/02/03 07:39:21  chris
-Added keywords $Revision: 1.15 $, $Date: 2012/08/27 03:14:53 $ and $Log.
-Added comment  for Emacs
-
--->
- </revisionDesc>
+		<change when="1999-10-12T08:43:18">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

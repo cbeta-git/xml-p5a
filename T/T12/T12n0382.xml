@@ -1,28 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T12n0382"><teiHeader><fileDesc>
-<titleStmt>
-<title>Taishō Tripiṭaka, Electronic version, No. 382 集一切福德三昧經</title>
-<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 382 集一切福德三昧經</title>
-<author>姚秦 鳩摩羅什譯</author>
-<respStmt>
-<resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.15 $<date>$Date: 2012/08/27 03:14:41 $</date>新式標點版</edition></editionStmt>
-<extent>3卷</extent>
-<publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
-<address><addrLine>service@cbeta.org</addrLine></address>
-</distributor>
-<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2012/08/27 03:14:41 $</date></publicationStmt>
-<sourceDesc><bibl>Taishō Tripiṭaka Vol. 12, No. 382</bibl></sourceDesc></fileDesc>
-<encodingDesc><projectDesc>
-<p>This is a very preliminary format-conversion.</p>
-<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Punctuated text as provided by Mao Pei-Jun and Liao Yu-An, Others</p>
-<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，毛佩君、廖予安大德提供新式標點，其他</p>
-</projectDesc>
-</encodingDesc>
-<profileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T12n0382">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taishō Tripiṭaka, Electronic version, No. 382 集一切福德三昧經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 382 集一切福德三昧經</title>
+			<author>姚秦 鳩摩羅什譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">12</idno>.<idno type="no">382</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address><addrLine>service@cbeta.org</addrLine></address>
+			</distributor>
+			<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">集一切福德三昧經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p>This is a very preliminary format-conversion.</p>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Punctuated text as provided by Mao Pei-Jun and Liao Yu-An, Others</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，毛佩君、廖予安大德提供新式標點，其他</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 			<language ident="en">English</language>
 		</langUsage>
 	</profileDesc>
@@ -30,41 +63,8 @@
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="1999-06-30T19:36:18">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
-<!--
-$Log: T12n0382.xml,v $
-Revision 1.15  2012/08/27 03:14:41  maha
-修訂新標小圓點及著重號
-
-Revision 1.14  2009/04/23 07:58:03  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.13  2009/03/09 14:11:46  saywhat
-p0990a02[娑>婆],p0993c27[誦>調],p0994b26[生>在],p1000c26[俱>共],p1000c27[共>俱]
-
-Revision 1.12  2009/03/05 09:46:04  saywhat
-新式標點版
-
-Revision 1.11  2006/04/12 21:54:42  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.9  2006/01/07 02:33:51  saywhat
-檔頭修訂： 北美某大德提供 Text as provided by Anonymous from USA => 其他, Others
-
-Revision 1.8  2004/11/14 03:17:10  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.7  2004/10/12 13:45:36  saywhat
-段落前加入圈點
-
-Revision 1.6  2004/04/20 08:37:46  maha
-「版本日期」標記修訂
-
-Revision 1.5  2004/02/27 00:38:07  ray
-add cvs log
-
--->
- </revisionDesc>
+		<change when="1999-06-30T19:36:18">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>

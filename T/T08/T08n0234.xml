@@ -1,102 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T08n0234" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
-<titleStmt>
-<title>Taishō Tripiṭaka, Electronic version, No. 234 佛說濡首菩薩無上清淨分衛經</title>
-<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 234 佛說濡首菩薩無上清淨分衛經</title>
-<author>宋 翔公譯</author>
-<respStmt>
-<resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.30 $<date>$Date: 2012/08/27 03:14:20 $</date>新式標點版</edition></editionStmt>
-<extent>2卷</extent>
-<publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
-<address><addrLine>service@cbeta.org</addrLine></address>
-</distributor>
-<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2012/08/27 03:14:20 $</date></publicationStmt>
-<sourceDesc><bibl>Taishō Tripiṭaka Vol. 8, No. 234</bibl></sourceDesc></fileDesc>
-<encodingDesc><projectDesc>
-<p xml:lang="en" cb:type="ly">Tripitaka Koreana as provided by Mr. Christian Wittern / proofread by Electronic Buddhadharma Society (EBS), CBETA OCR Group, Punctuated text as provided by CBETA, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng, Others</p>
-<p cb:type="ly" xml:lang="zh-Hant">維習安大德提供之高麗藏 CD 經文／佛教電腦資訊庫功德會校對，CBETA 自行掃瞄辨識，CBETA 提供新式標點，張革豐大德提供新式標點重校，其他</p>
-</projectDesc>
-</encodingDesc>
-<profileDesc>
-                <langUsage>
-                        <language ident="en">English</language>
-                        <language ident="zh">Chinese</language>
-                </langUsage>
-        </profileDesc>
-        <revisionDesc>
+<TEI xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T08n0234" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taishō Tripiṭaka, Electronic version, No. 234 佛說濡首菩薩無上清淨分衛經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 234 佛說濡首菩薩無上清淨分衛經</title>
+			<author>宋 翔公譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>2卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">8</idno>.<idno type="no">234</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address><addrLine>service@cbeta.org</addrLine></address>
+			</distributor>
+			<availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">佛說濡首菩薩無上清淨分衛經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Tripitaka Koreana as provided by Mr. Christian Wittern / proofread by Electronic Buddhadharma Society (EBS), CBETA OCR Group, Punctuated text as provided by CBETA, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng, Others</p>
+			<p cb:type="ly" xml:lang="zh-Hant">維習安大德提供之高麗藏 CD 經文／佛教電腦資訊庫功德會校對，CBETA 自行掃瞄辨識，CBETA 提供新式標點，張革豐大德提供新式標點重校，其他</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-<change when="1999-07-21T18:35:43">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
-<!--
-$Log: T08n0234.xml,v $
-Revision 1.30  2012/08/27 03:14:20  maha
-修訂新標小圓點及著重號
-
-Revision 1.29  2009/05/23 13:09:31  saywhat
-<note mod> added 【麗-CB】
-
-Revision 1.28  2009/04/23 07:57:08  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.27  2009/02/21 13:46:37  saywhat
-p0741b02 wit=【磧砂-CB】=>【磧砂】
-
-Revision 1.26  2008/10/02 15:21:58  saywhat
-修訂 cf 格式
-
-Revision 1.25  2007/12/14 15:38:54  saywhat
-CBETA提供新式標點 => CBETA 提供新式標點
-
-Revision 1.24  2007/03/13 15:25:52  saywhat
-新標提供者 "CTPP" 改作 "CBETA"
-
-Revision 1.23  2006/11/20 01:55:12  saywhat
-p0741a21,...,p0747b16 依高麗藏修訂經文
-
-Revision 1.22  2006/04/12 21:54:27  saywhat
-lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
-
-Revision 1.20  2006/01/02 03:44:49  saywhat
-p0746a06 答曰；「  =>  答曰：「
-
-Revision 1.19  2005/12/26 03:03:15  saywhat
-修訂檔頭資料提供者，「其它」放在最後
-
-Revision 1.18  2005/10/26 12:42:19  saywhat
-p0741a22 added 」 ,  p0745c21，=>「
-
-Revision 1.17  2005/08/17 08:29:01  saywhat
-新式標點版
-
-Revision 1.16  2004/11/14 03:17:03  maha
-將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
-
-Revision 1.15  2004/10/30 01:15:51  saywhat
-修訂磧砂藏代號 G=>Q
-
-Revision 1.14  2004/10/11 10:52:38  saywhat
-段落前加入圈點
-
-Revision 1.13  2004/04/20 08:37:20  maha
-「版本日期」標記修訂
-
-Revision 1.12  2004/03/21 03:09:50  saywhat
-p0744b23 del </app>
-
-Revision 1.11  2004/03/16 02:18:05  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.10  2004/03/14 03:13:11  saywhat
-mod [0744014],[0748023] app → note
-
-Revision 1.9  2004/02/27 05:56:56  ray
-add cvs log
-
--->
- </revisionDesc>
+		<change when="1999-07-21T18:35:43">CW (ed.) converted to XML with CBXML.BAT (99/6/30)</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
