@@ -12,42 +12,61 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/02</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/02</date>XML TEI P5a</edition>
 		</editionStmt>
-        <extent>2卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 13, No. 13</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>2卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">13</idno>.<idno type="no">13</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">太虛大師年譜</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
 	</encodingDesc>
-    <profileDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
@@ -7077,12 +7096,9 @@
 <lb n="0496a06" ed="Y"/><lb n="0501a12" ed="Y" type="old"/>勝後之平和世界〉</title>（<title level="j">新中華</title>八月號）；<title level="a">〈人群政制與佛教僧制〉</title>（<title level="j">時代精神</title>
 <lb n="0496a07" ed="Y"/><lb n="0501a13" ed="Y" type="old"/>）。又講「佛教徒應參與中國和世界的新文化建設」，了參記。於文化政治<pb n="0502a" ed="Y" xml:id="Y13.0013.0502a.old" type="old"/>
 <lb n="0496a08" ed="Y"/><lb n="0502a01" ed="Y" type="old"/>，多所論及。論平和世界，原則為：</p>
-
 <lb n="0496a09" ed="Y"/><lb n="0502a02" ed="Y" type="old"/><quote type="寬鬆引文"><list rend="no-marker"><item xml:id="itemY13p0496a0901"><p xml:id="pY13p0496a0901" style="margin-left:1em;text-indent:-1em">『世界人類之利益為第一；</p></item>
 <lb n="0496a10" ed="Y"/><lb n="0502a03" ed="Y" type="old"/><item xml:id="itemY13p0496a1001"><p xml:id="pY13p0496a1001" style="margin-left:1em">國家民族之利益為第二；</p></item>
 <lb n="0496a11" ed="Y"/><lb n="0502a04" ed="Y" type="old"/><item xml:id="itemY13p0496a1101"><p xml:id="pY13p0496a1101" style="margin-left:1em">個人家屬之利益為第三』。<note n="0496001" resp="周怡曄" type="add">《太虛大師全書 第十五編<space quantity="1" unit="chars"/>時論》「世界人類之利益為第一國家民族之利益為第二──這是戰後，故不違反戰時國家民族之至上。個人家屬之利益為第三」<ref target="vol:24;page:p286" type="taixu">(ref taixu::vol:24;page:p286)</ref></note></p></item></list></quote>
-
-
 <lb n="0496a12" ed="Y"/><lb n="0502a05" ed="Y" type="old"/><p xml:id="pY13p0496a1201" style="margin-left:2em">時滇緬路中斷，西藏之對國府，日見頑梗。中央有武力解決之意，大師乃作
 <lb n="0496a13" ed="Y"/><lb n="0502a06" ed="Y" type="old"/><title level="a">〈西藏問題之適當解決〉</title>（文）。</p>
 <pb n="0497a" ed="Y" xml:id="Y13.0013.0497a"/>

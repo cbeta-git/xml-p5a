@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="J29nB234">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B234 一初元禪師語錄</title>
 			<title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B234 一初元禪師語錄</title>
@@ -11,68 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.9 $<date>$Date: 2012/06/27 08:14:15 $</date></edition>
-	</editionStmt>
-	<extent>2卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/06/27 08:14:15 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Jiaxing Canon (Shinwenfeng Edition) Vol. 29, No. B234</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>2卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">J</idno>.<idno type="vol">29</idno>.<idno type="no">B234</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
+				<title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
+				<title level="m" xml:lang="zh-Hant">一初元禪師語錄</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【嘉興】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2008-12-24T15:31:53">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-<!--
-$Log: J29nB234.xml,v $
-Revision 1.9  2012/06/27 08:14:15  amtbgrace
-modified: 修改嘉興藏的英文為 Jiaxing Canon
-
-Revision 1.8  2011/03/08 09:32:53  eva
-modified: Jiaxing Canon 修改成 Jiaxing Canon
-
-Revision 1.7  2010/06/07 10:29:38  eva
-modified: [經文修訂] [鳥>烏]石
-
-Revision 1.6  2010/05/07 06:52:28  amtbgrace
-modified: 按 2010/4/26 maha 來信修訂（主旨為: [經文修訂]  [塵>麈]拂）
-
-Revision 1.5  2009/04/22 08:39:49  amtbgrace
-modified: 檔頭編碼由 big5 改為 cp950。
-
-Revision 1.4  2009/03/06 06:38:04  eva
-modified: JiaXingZang 修改成 Jiaxing Canon
-
-Revision 1.3  2009/01/05 06:28:20  amtbgrace
-modified: 依 hh 目錄，修訂 lable 內容。
-
-Revision 1.2  2008/12/31 05:39:59  amtbgrace
-modified: 修訂錯誤標記
-
-Revision 1.1  2008/12/25 07:41:01  amtbgrace
-modified: BM 轉 XML
-
--->
-</revisionDesc>
+		<change when="2008-12-24T15:31:53">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>

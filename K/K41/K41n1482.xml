@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="K41n1482">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Tripiṭaka Koreana (Shinwenfeng Edition), Electronic version, No. 1482 大乘中觀釋論(第10卷-第18卷)</title>
 			<title xml:lang="zh-Hant">高麗大藏經（新文豐版）數位版, No. 1482 大乘中觀釋論(第10卷-第18卷)</title>
@@ -11,59 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.6 $<date>$Date: 2011/04/18 10:34:27 $</date></edition>
-	</editionStmt>
-	<extent>9卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2011/04/18 10:34:27 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Tripiṭaka Koreana (Shinwenfeng Edition) Vol. 41, No. 1482</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Research Institute of Tripitaka Koreana(RITK), Input by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">高麗大藏經研究所提供，CBETA 人工輸入</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>9卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">K</idno>.<idno type="vol">41</idno>.<idno type="no">1482</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Tripiṭaka Koreana (Shinwenfeng Edition)</title>
+				<title level="s" xml:lang="zh-Hant">高麗大藏經（新文豐版）</title>
+				<title level="m" xml:lang="zh-Hant">大乘中觀釋論(第10卷-第18卷)</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Research Institute of Tripitaka Koreana(RITK), Input by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">高麗大藏經研究所提供，CBETA 人工輸入</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【麗】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2010-06-03T13:08:49">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-<!--
-$Log: K41n1482.xml,v $
-Revision 1.6  2011/04/18 10:34:27  eva
-modified: 修訂 title
-
-Revision 1.5  2010/11/16 06:32:58  amtbgrace
-modified: 修改高麗藏 source 為: 高麗大藏經研究所提供，CBETA 人工輸入
-
-Revision 1.4  2010/06/09 03:59:23  amtbgrace
-modified: 修改高麗藏英文經名為 Tripitaka Koreana
-
-Revision 1.3  2010/06/04 08:35:17  amtbgrace
-modified: 依 normal 比對結果修訂
-
-Revision 1.2  2010/06/04 03:46:06  amtbgrace
-no message
-
-Revision 1.1  2010/06/03 05:53:42  amtbgrace
-modified: 執行 basicx.bat  將 bm 轉 xml
-
--->
-</revisionDesc>
+		<change when="2010-06-03T13:08:49">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="10"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="K32n1064">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Tripiṭaka Koreana (Shinwenfeng Edition), Electronic version, No. 1064 新譯大方廣佛華嚴經音義</title>
 			<title xml:lang="zh-Hant">高麗大藏經（新文豐版）數位版, No. 1064 新譯大方廣佛華嚴經音義</title>
@@ -11,56 +11,63 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.5 $<date>$Date: 2012/02/23 01:57:58 $</date></edition>
-	</editionStmt>
-	<extent>2卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/02/23 01:57:58 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Tripiṭaka Koreana (Shinwenfeng Edition) Vol. 32, No. 1064</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-	</projectDesc>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>XML TEI P5a</edition>
+		</editionStmt>
+		<extent>2卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">K</idno>.<idno type="vol">32</idno>.<idno type="no">1064</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine>service@cbeta.org</addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Tripiṭaka Koreana (Shinwenfeng Edition)</title>
+				<title level="s" xml:lang="zh-Hant">高麗大藏經（新文豐版）</title>
+				<title level="m" xml:lang="zh-Hant">新譯大方廣佛華嚴經音義</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【麗】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2010-08-20T14:40:10">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-<!--
-$Log: K32n1064.xml,v $
-Revision 1.5  2012/02/23 01:57:58  amtbgrace
-modified: 按 20120105 maha 來信修訂（主旨為: [經文修訂] 所作已辦 - 營辦, 能辦一切）
-
-Revision 1.4  2011/01/26 09:17:37  amtbgrace
-modified: 依BM修改 no nor 標記。
-
-Revision 1.3  2011/01/18 03:22:54  amtbgrace
-modified: 修改卷數與作者名
-
-Revision 1.2  2010/08/20 10:15:12  eva
-modified: HH目錄修訂
-
-Revision 1.1  2010/08/20 09:26:43  eva
-BM 轉 XML 標記作業上傳
-
--->
-</revisionDesc>
+		<change when="2010-08-20T14:40:10">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
+	</revisionDesc>
 </teiHeader>
 <text cb:behaviour="no-norm"><body>
 <milestone unit="juan" n="1"/>
