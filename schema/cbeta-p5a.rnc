@@ -2204,7 +2204,7 @@ tei_l =
   
   ## (verse line) contains a single, possibly incomplete, line of verse.
   element l {
-    tei_macro.paraContent,
+    (tei_macro.paraContent | tei_caesura)*,
     att.global.attributes,
     
     ## specifies whether or not the line is metrically complete. 
@@ -4723,6 +4723,14 @@ tei_g =
     attribute ref { xsd:anyURI }?,
     empty
   }
+
+tei_caesura =
+
+  element caesura {
+    att.global.attributes,
+    empty
+  }
+
 tei_char =
   
   ## (character) provides descriptive information about a character. 
