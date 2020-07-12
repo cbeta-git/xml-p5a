@@ -4139,6 +4139,7 @@ tei_lem =
   element lem {
     (text
      | tei_lg
+     | tei_caesura
      | tei_model.divLike
      | tei_head
      | tei_item
@@ -4159,6 +4160,7 @@ tei_rdg =
   ## (reading) contains a single reading within a textual variation.
   element rdg {
     (text
+     | tei_caesura
      | tei_l
      | tei_model.gLike
      | tei_model.phrase
