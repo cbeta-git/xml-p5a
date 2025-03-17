@@ -10,3 +10,9 @@ https://github.com/cbeta-org/xml-p5
 要使用 2019-01-08 之前的 P5a 版本請至
 
 https://github.com/cbeta-git/xml-p5a-2018
+
+# 版權宣告
+
+版權說明請參考
+
+https://www.cbeta.org/copyright.php
