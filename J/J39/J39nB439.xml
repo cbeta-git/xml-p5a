@@ -2,117 +2,189 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="J39nB439">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
-			<title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
-			<title level="m" xml:lang="zh-Hant">高峰三山來禪師疏語</title>
-			<title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B439 高峰三山來禪師疏語</title>
-			<title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B439 高峰三山來禪師疏語</title>
-			<author>清 燈來撰　性統編（依駒本印）</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>3卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">J</idno>.<idno type="vol">39</idno>.<idno type="no">B439</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>嘉興大藏經（新文豐版）</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【嘉興】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2009-02-26T10:18:04">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
+      <title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
+      <title level="m" xml:lang="zh-Hant">高峰三山來禪師疏語</title>
+      <title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B439 高峰三山來禪師疏語</title>
+      <title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B439 高峰三山來禪師疏語</title>
+      <author>清 燈來撰　性統編（依駒本印）</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">J</idno>.<idno type="vol">39</idno>.<idno type="no">B439</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>嘉興大藏經（新文豐版）</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【嘉興】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2009-02-26T10:18:04">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0255a" ed="J" xml:id="J39.B439.0255a"/>
 <lb n="0255a01" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">目次</cb:mulu><head>高峰三山來禪師疏語目次</head>
-<lb n="0255a02" ed="J"/><list rend="no-marker"><item xml:id="itemJ39p0255a0201">卷上
-<lb n="0255a03" ed="J"/><list rend="no-marker"><item xml:id="itemJ39p0255a0301">元旦表</item><item xml:id="itemJ39p0255a0304">上元表</item>
-<lb n="0255a04" ed="J"/><item xml:id="itemJ39p0255a0401">中元表</item><item xml:id="itemJ39p0255a0404">下元表</item>
-<lb n="0255a05" ed="J"/><item xml:id="itemJ39p0255a0501">慶佛誕表</item><item xml:id="itemJ39p0255a0505">佛成道表</item>
-<lb n="0255a06" ed="J"/><item xml:id="itemJ39p0255a0601">結制進表</item><item xml:id="itemJ39p0255a0605">解制謝表<note place="inline">二</note></item>
-<lb n="0255a07" ed="J"/><item xml:id="itemJ39p0255a0701">解制意<note place="inline">二</note></item><item xml:id="itemJ39p0255a0705">懺期表</item>
-<lb n="0255a08" ed="J"/><item xml:id="itemJ39p0255a0801">諷華嚴經表<note place="inline">二</note></item><item xml:id="itemJ39p0255a0807">諷法華經表</item>
-<lb n="0255a09" ed="J"/><item xml:id="itemJ39p0255a0901">禮梁皇懺表</item><item xml:id="itemJ39p0255a0906">然天燭意</item>
-<lb n="0255a10" ed="J"/><item xml:id="itemJ39p0255a1001">建盂蘭會意<note place="inline">二</note></item><item xml:id="itemJ39p0255a1007">建盂蘭會表</item>
-<lb n="0255a11" ed="J"/><item xml:id="itemJ39p0255a1101">諷藥師經表</item><item xml:id="itemJ39p0255a1106">諷金剛經表</item>
-<lb n="0255a12" ed="J"/><item xml:id="itemJ39p0255a1201">進彌陀佛表</item><item xml:id="itemJ39p0255a1206">慶觀音誕表</item>
-<lb n="0255a13" ed="J"/><item xml:id="itemJ39p0255a1301">進地藏表</item></list></item>
-<lb n="0255a14" ed="J"/><item xml:id="itemJ39p0255a1401">卷中
-<lb n="0255a15" ed="J"/><list rend="no-marker"><item xml:id="itemJ39p0255a1501">文昌表</item><item xml:id="itemJ39p0255a1504">祝聖帝表</item>
-<lb n="0255a16" ed="J"/><item xml:id="itemJ39p0255a1601">韋馱表</item><item xml:id="itemJ39p0255a1604">瑜伽表</item>
-<lb n="0255a17" ed="J"/><item xml:id="itemJ39p0255a1701">修因表</item><item xml:id="itemJ39p0255a1704">酬願表</item>
-<lb n="0255a18" ed="J"/><item xml:id="itemJ39p0255a1801">填還寄庫表</item><item xml:id="itemJ39p0255a1806">燃天燭表</item>
-<lb n="0255a19" ed="J"/><item xml:id="itemJ39p0255a1901">祈禱平安意</item><item xml:id="itemJ39p0255a1906">懺經意</item>
-<lb n="0255a20" ed="J"/><item xml:id="itemJ39p0255a2001">悔過修因意</item><item xml:id="itemJ39p0255a2006">賑濟孤<unclear/>意</item>
-<lb n="0255a21" ed="J"/><item xml:id="itemJ39p0255a2101">利幽意</item><item xml:id="itemJ39p0255a2104">彌陀會意</item>
-<lb n="0255a22" ed="J"/><item xml:id="itemJ39p0255a2201">薦師弟意</item><item xml:id="itemJ39p0255a2205">禳虎意</item>
-<lb n="0255a23" ed="J"/><item xml:id="itemJ39p0255a2301">祈雨意<note place="inline">二</note></item><item xml:id="itemJ39p0255a2305">薦師弟意</item>
-<lb n="0255a24" ed="J"/><item xml:id="itemJ39p0255a2401">表盤米意</item><item xml:id="itemJ39p0255a2405">禳蟲蝗意</item>
-<lb n="0255a25" ed="J"/><item xml:id="itemJ39p0255a2501">請水意</item><item xml:id="itemJ39p0255a2504">寄名禳關意</item>
-<lb n="0255a26" ed="J"/><item xml:id="itemJ39p0255a2601">釋子修因表</item></list></item>
-<lb n="0255a27" ed="J"/><item xml:id="itemJ39p0255a2701">卷下
-<lb n="0255a28" ed="J"/><list rend="no-marker"><item xml:id="itemJ39p0255a2801">朔望祝延</item><item xml:id="itemJ39p0255a2805"><note place="inline">增修</note>祝韋馱</item>
-<lb n="0255a29" ed="J"/><item xml:id="itemJ39p0255a2901"><note place="inline">增修</note>祝伽藍</item><item xml:id="itemJ39p0255a2906"><note place="inline">增修</note>祝祖師</item>
-<lb n="0255a30" ed="J"/><item xml:id="itemJ39p0255a3001"><note place="inline">增修</note>祝監齋</item><item xml:id="itemJ39p0255a3006"><note place="inline">補</note>囑孤魂</item>
+<lb n="0255a02" ed="J"/><list rend="no-marker">
+  <item xml:id="itemJ39p0255a0201">卷上
+<lb n="0255a03" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ39p0255a0301">元旦表</item>
+    <item xml:id="itemJ39p0255a0304">上元表</item>
+<lb n="0255a04" ed="J"/>
+    <item xml:id="itemJ39p0255a0401">中元表</item>
+    <item xml:id="itemJ39p0255a0404">下元表</item>
+<lb n="0255a05" ed="J"/>
+    <item xml:id="itemJ39p0255a0501">慶佛誕表</item>
+    <item xml:id="itemJ39p0255a0505">佛成道表</item>
+<lb n="0255a06" ed="J"/>
+    <item xml:id="itemJ39p0255a0601">結制進表</item>
+    <item xml:id="itemJ39p0255a0605">解制謝表<note place="inline">二</note></item>
+<lb n="0255a07" ed="J"/>
+    <item xml:id="itemJ39p0255a0701">解制意<note place="inline">二</note></item>
+    <item xml:id="itemJ39p0255a0705">懺期表</item>
+<lb n="0255a08" ed="J"/>
+    <item xml:id="itemJ39p0255a0801">諷華嚴經表<note place="inline">二</note></item>
+    <item xml:id="itemJ39p0255a0807">諷法華經表</item>
+<lb n="0255a09" ed="J"/>
+    <item xml:id="itemJ39p0255a0901">禮梁皇懺表</item>
+    <item xml:id="itemJ39p0255a0906">然天燭意</item>
+<lb n="0255a10" ed="J"/>
+    <item xml:id="itemJ39p0255a1001">建盂蘭會意<note place="inline">二</note></item>
+    <item xml:id="itemJ39p0255a1007">建盂蘭會表</item>
+<lb n="0255a11" ed="J"/>
+    <item xml:id="itemJ39p0255a1101">諷藥師經表</item>
+    <item xml:id="itemJ39p0255a1106">諷金剛經表</item>
+<lb n="0255a12" ed="J"/>
+    <item xml:id="itemJ39p0255a1201">進彌陀佛表</item>
+    <item xml:id="itemJ39p0255a1206">慶觀音誕表</item>
+<lb n="0255a13" ed="J"/>
+    <item xml:id="itemJ39p0255a1301">進地藏表</item>
+  </list></item>
+<lb n="0255a14" ed="J"/>
+  <item xml:id="itemJ39p0255a1401">卷中
+<lb n="0255a15" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ39p0255a1501">文昌表</item>
+    <item xml:id="itemJ39p0255a1504">祝聖帝表</item>
+<lb n="0255a16" ed="J"/>
+    <item xml:id="itemJ39p0255a1601">韋馱表</item>
+    <item xml:id="itemJ39p0255a1604">瑜伽表</item>
+<lb n="0255a17" ed="J"/>
+    <item xml:id="itemJ39p0255a1701">修因表</item>
+    <item xml:id="itemJ39p0255a1704">酬願表</item>
+<lb n="0255a18" ed="J"/>
+    <item xml:id="itemJ39p0255a1801">填還寄庫表</item>
+    <item xml:id="itemJ39p0255a1806">燃天燭表</item>
+<lb n="0255a19" ed="J"/>
+    <item xml:id="itemJ39p0255a1901">祈禱平安意</item>
+    <item xml:id="itemJ39p0255a1906">懺經意</item>
+<lb n="0255a20" ed="J"/>
+    <item xml:id="itemJ39p0255a2001">悔過修因意</item>
+    <item xml:id="itemJ39p0255a2006">賑濟孤<unclear/>意</item>
+<lb n="0255a21" ed="J"/>
+    <item xml:id="itemJ39p0255a2101">利幽意</item>
+    <item xml:id="itemJ39p0255a2104">彌陀會意</item>
+<lb n="0255a22" ed="J"/>
+    <item xml:id="itemJ39p0255a2201">薦師弟意</item>
+    <item xml:id="itemJ39p0255a2205">禳虎意</item>
+<lb n="0255a23" ed="J"/>
+    <item xml:id="itemJ39p0255a2301">祈雨意<note place="inline">二</note></item>
+    <item xml:id="itemJ39p0255a2305">薦師弟意</item>
+<lb n="0255a24" ed="J"/>
+    <item xml:id="itemJ39p0255a2401">表盤米意</item>
+    <item xml:id="itemJ39p0255a2405">禳蟲蝗意</item>
+<lb n="0255a25" ed="J"/>
+    <item xml:id="itemJ39p0255a2501">請水意</item>
+    <item xml:id="itemJ39p0255a2504">寄名禳關意</item>
+<lb n="0255a26" ed="J"/>
+    <item xml:id="itemJ39p0255a2601">釋子修因表</item>
+  </list></item>
+<lb n="0255a27" ed="J"/>
+  <item xml:id="itemJ39p0255a2701">卷下
+<lb n="0255a28" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ39p0255a2801">朔望祝延</item>
+    <item xml:id="itemJ39p0255a2805"><note place="inline">增修</note>祝韋馱</item>
+<lb n="0255a29" ed="J"/>
+    <item xml:id="itemJ39p0255a2901"><note place="inline">增修</note>祝伽藍</item>
+    <item xml:id="itemJ39p0255a2906"><note place="inline">增修</note>祝祖師</item>
+<lb n="0255a30" ed="J"/>
+    <item xml:id="itemJ39p0255a3001"><note place="inline">增修</note>祝監齋</item>
+    <item xml:id="itemJ39p0255a3006"><note place="inline">補</note>囑孤魂</item>
 <pb n="0255b" ed="J" xml:id="J39.B439.0255b"/>
-<lb n="0255b01" ed="J"/><item xml:id="itemJ39p0255b0101"><note place="inline">補</note>元旦</item><item xml:id="itemJ39p0255b0104"><note place="inline">補</note>上元</item>
-<lb n="0255b02" ed="J"/><item xml:id="itemJ39p0255b0201"><note place="inline">補</note>中元</item><item xml:id="itemJ39p0255b0204"><note place="inline">補</note>下元</item>
-<lb n="0255b03" ed="J"/><item xml:id="itemJ39p0255b0301"><note place="inline">補</note>祝佛誕</item><item xml:id="itemJ39p0255b0305"><note place="inline">補</note>佛成道</item>
-<lb n="0255b04" ed="J"/><item xml:id="itemJ39p0255b0401"><note place="inline">補</note>祝堂頭誕期</item><item xml:id="itemJ39p0255b0407"><note place="inline">補</note>祝檀信誕期</item>
-<lb n="0255b05" ed="J"/><item xml:id="itemJ39p0255b0501"><note place="inline">增補</note>掛鐘板語</item><item xml:id="itemJ39p0255b0507"><note place="inline">增補</note>摘鐘板語</item>
-<lb n="0255b06" ed="J"/><item xml:id="itemJ39p0255b0601"><note place="inline">附補</note>檀信祈福白意</item><item xml:id="itemJ39p0255b0609">寄名禳關意</item>
-<lb n="0255b07" ed="J"/><item xml:id="itemJ39p0255b0701">寄名脫白意</item><item xml:id="itemJ39p0255b0706">檀信諷經白意</item>
-<lb n="0255b08" ed="J"/><item xml:id="itemJ39p0255b0801">檀信諷經畢白意</item></list></item></list></cb:div>
+<lb n="0255b01" ed="J"/>
+    <item xml:id="itemJ39p0255b0101"><note place="inline">補</note>元旦</item>
+    <item xml:id="itemJ39p0255b0104"><note place="inline">補</note>上元</item>
+<lb n="0255b02" ed="J"/>
+    <item xml:id="itemJ39p0255b0201"><note place="inline">補</note>中元</item>
+    <item xml:id="itemJ39p0255b0204"><note place="inline">補</note>下元</item>
+<lb n="0255b03" ed="J"/>
+    <item xml:id="itemJ39p0255b0301"><note place="inline">補</note>祝佛誕</item>
+    <item xml:id="itemJ39p0255b0305"><note place="inline">補</note>佛成道</item>
+<lb n="0255b04" ed="J"/>
+    <item xml:id="itemJ39p0255b0401"><note place="inline">補</note>祝堂頭誕期</item>
+    <item xml:id="itemJ39p0255b0407"><note place="inline">補</note>祝檀信誕期</item>
+<lb n="0255b05" ed="J"/>
+    <item xml:id="itemJ39p0255b0501"><note place="inline">增補</note>掛鐘板語</item>
+    <item xml:id="itemJ39p0255b0507"><note place="inline">增補</note>摘鐘板語</item>
+<lb n="0255b06" ed="J"/>
+    <item xml:id="itemJ39p0255b0601"><note place="inline">附補</note>檀信祈福白意</item>
+    <item xml:id="itemJ39p0255b0609">寄名禳關意</item>
+<lb n="0255b07" ed="J"/>
+    <item xml:id="itemJ39p0255b0701">寄名脫白意</item>
+    <item xml:id="itemJ39p0255b0706">檀信諷經白意</item>
+<lb n="0255b08" ed="J"/>
+    <item xml:id="itemJ39p0255b0801">檀信諷經畢白意</item>
+  </list></item>
+</list></cb:div>
 <lb n="0255b09" ed="J"/>
 <lb n="0255b10" ed="J"/>
 <lb n="0255b11" ed="J"/>
@@ -463,7 +535,11 @@
 <lb n="0259a15" ed="J"/>因之延壽。感慈悲之無量，期悃曲之能伸。建作道場，
 <lb n="0259a16" ed="J"/>揚為佛事。某誠惶誠恐，稽首頓首上言：竊惟多纏業
 <lb n="0259a17" ed="J"/>障，未滌愆尤。六根六塵，逐因緣而搆<unclear/>；十手十目，聽
-<lb n="0259a18" ed="J"/>楷視於幽微。每積垢而不知，致罹<unclear/>面罔覺悔，<note n="0259a1801" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0259a1801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app><unclear/>
+<lb n="0259a18" ed="J"/>楷視於幽微。每積垢而不知，致罹<unclear/>面罔覺悔，<note 
+n="0259a1801" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0259a1801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app><unclear/>
 <lb n="0259a19" ed="J"/>晚懺猶謂運。茲蓋恭叩藥師如來金蓮座下，菩薩發
 <lb n="0259a20" ed="J"/>願，大覺證身。相現琉璃，四八莊嚴恒具足；道兼明行，
 <lb n="0259a21" ed="J"/>十三誓願總圓成。拔諸苦於網羅，畫眾生而安立。其
@@ -576,7 +652,11 @@
 <lb n="0260b23" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">祝聖帝秩</cb:mulu><head>祝聖帝秩</head>
 <lb n="0260b24" ed="J"/><p xml:id="pJ39p0260b2401"><unclear/>以正氣參天，萬古綱常懸日月；英風蓋地，千秋<unclear/>
 <lb n="0260b25" ed="J"/><unclear/>鎮河山。丕亦漢室之長城，允矣劉家之砫石。丹心
-<lb n="0260b26" ed="J"/><note n="0260b2601" resp="CBETA" type="add">事【CB】，<unclear/>【嘉興】</note><app n="0260b2601"><lem resp="CBETA.maha" wit="【CB】">事</lem><rdg wit="【嘉興】"><unclear/></rdg></app>死，赤函如生。某誠懽誠忭，稽首頓首上言。竊惟世
+<lb n="0260b26" ed="J"/><note 
+n="0260b2601" resp="CBETA" type="add">事【CB】，<unclear/>【嘉興】</note><app n="0260b2601">
+  <lem resp="CBETA.maha" wit="【CB】">事</lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app>死，赤函如生。某誠懽誠忭，稽首頓首上言。竊惟世
 <lb n="0260b27" ed="J"/>寧皆空，人生總幻。所不朽者，止此忠臣義士之名；孰
 <lb n="0260b28" ed="J"/>為留焉，惟茲闢地開天之業。果精誠之可貫，自壯烈
 <lb n="0260b29" ed="J"/>之能傳。慨彼狼心狗行之徒，多作賣國欺君之事。肝
@@ -670,7 +750,11 @@
 <lb n="0261b24" ed="J"/>覆載於何窮；日照月臨，被光明於無量。親恩未報，君
 <lb n="0261b25" ed="J"/>德罔酬。兼日用而積愆，矧夢魂而多疚。以此自惕，用
 <lb n="0261b26" ed="J"/>是思修。茲蓋恭叩釋迦如來金蓮座下，其人稱聖，於
-<lb n="0261b27" ed="J"/>法為王。搭<note n="0261b2701" resp="CBETA" type="add">梯【CB】，挮【嘉興-CB】</note><app n="0261b2701"><lem resp="CBETA.maha" wit="【CB】">梯</lem><rdg wit="【嘉興-CB】">挮</rdg></app>設航，痛娑婆飄零之無息；呈橈舞棹，嗟
+<lb n="0261b27" ed="J"/>法為王。搭<note 
+n="0261b2701" resp="CBETA" type="add">梯【CB】，挮【嘉興-CB】</note><app n="0261b2701">
+  <lem resp="CBETA.maha" wit="【CB】">梯</lem>
+  <rdg wit="【嘉興-CB】">挮</rdg>
+</app>設航，痛娑婆飄零之無息；呈橈舞棹，嗟
 <lb n="0261b28" ed="J"/>苦海流蕩以何窮。作方便而指迷，使皈依而襲福。但
 <lb n="0261b29" ed="J"/>慳貪之可破，般般都教行來；就因果之當崇，種種隨
 <lb n="0261b30" ed="J"/>伊做去。某誠孚一念，慮感三生。恐過現未之愆尤，無
@@ -724,11 +808,16 @@
 <lb n="0262a16" ed="J"/>之戰兢，方擇自新之路。諷經禮懺，以其實不以其文；
 <lb n="0262a17" ed="J"/>雪罪消愆，慎於來勿追於往。伏願慈光遍照，慧日長
 <lb n="0262a18" ed="J"/>舒。憫蠢蠢之愚忱，曲垂洞鑒；納區區之肫念，俯察淵
-<lb n="0262a19" ed="J"/>微。俾夙業以冰消，<note n="0262a1901" resp="CBETA.poyung" type="add" cb:provider="趙文平 (2021-07-27)" note_key="J39.0262a19.08">CBETA 按：《維摩經略疏垂裕記》卷10：「《方言》云「錫，瀃盡也。」而字通三體，賜儩澌俱訓盡也。古經作賜、不須輒改。」（T38n1779_p0844b18-19）</note>賜新禧而駢集。某無任激切悚惶
+<lb n="0262a19" ed="J"/>微。俾夙業以冰消，<note 
+n="0262a1901" resp="CBETA.poyung" type="add" cb:provider="趙文平 (2021-07-27)" note_key="J39.0262a19.08">CBETA 按：《維摩經略疏垂裕記》卷10：「《方言》云「錫，瀃盡也。」而字通三體，賜儩澌俱訓盡也。古經作賜、不須輒改。」（T38n1779_p0844b18-19）</note>賜新禧而駢集。某無任激切悚惶
 <lb n="0262a20" ed="J"/>之至，謹意。</p></cb:div>
 <lb n="0262a21" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">悔過修因意</cb:mulu><head>悔過修因意</head>
 <lb n="0262a22" ed="J"/><p xml:id="pJ39p0262a2201">伏以理欲殊途，幾希嚴於清夜；天人異路，關捩轉自
-<lb n="0262a23" ed="J"/>淵微。慎獨迺能<note n="0262a2301" resp="CBETA" type="add" note_key="J39.0262a23.07">禔【CB】，褆【嘉興】</note><app n="0262a2301"><lem resp="CBETA.ting" wit="【CB】">禔</lem><rdg wit="【嘉興】">褆</rdg></app>躬，崇修爰以襲祉。凡衷俯竭，慧日
+<lb n="0262a23" ed="J"/>淵微。慎獨迺能<note 
+n="0262a2301" resp="CBETA" type="add" note_key="J39.0262a23.07">禔【CB】，褆【嘉興】</note><app n="0262a2301">
+  <lem resp="CBETA.ting" wit="【CB】">禔</lem>
+  <rdg wit="【嘉興】">褆</rdg>
+</app>躬，崇修爰以襲祉。凡衷俯竭，慧日
 <lb n="0262a24" ed="J"/>高懸。某言念生當叔季，世值凌夷。險阻倍嘗，聽流離
 <lb n="0262a25" ed="J"/>於東西南北；艱難歷試，經挫折於水火兵戈。隨日月
 <lb n="0262a26" ed="J"/>之升沉，苦韶華而征邁。鮮修善業，未布功勳。忽履薄
@@ -892,7 +981,11 @@
 <lb n="0263c29" ed="J"/>師惟號令；須臾成搏擊，波臣海若共追隨。一怒致九
 <lb n="0263c30" ed="J"/>年之憂，片慈普萬方之潤。伏願山澤通氣，風水成功。
 <pb n="0264a" ed="J" xml:id="J39.B439.0264a"/>
-<lb n="0264a01" ed="J"/>混混源泉，每<note n="0264a0101" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0264a0101"><lem resp="CBETA.maha" wit="【CB】">羨</lem><rdg wit="【嘉興】">羡</rdg></app>盈坷而後進；茫茫晝夜，咸嘆逝者之
+<lb n="0264a01" ed="J"/>混混源泉，每<note 
+n="0264a0101" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0264a0101">
+  <lem resp="CBETA.maha" wit="【CB】">羨</lem>
+  <rdg wit="【嘉興】">羡</rdg>
+</app>盈坷而後進；茫茫晝夜，咸嘆逝者之
 <lb n="0264a02" ed="J"/>如斯。任汲取於渴飲饑飧，隨分給於爐煙灶火。四境
 <lb n="0264a03" ed="J"/>齊沾，千家俱利。某等無任激切肫懇之至，謹意。</p></cb:div>
 <lb n="0264a04" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄名禳關意</cb:mulu><head>寄名禳關意</head>
@@ -907,7 +1000,11 @@
 <lb n="0264a13" ed="J"/>無名而寄名；雖非僧呼為僧，就假相而變相。伏願慈
 <lb n="0264a14" ed="J"/>光<unclear/>廕，悲願昭蘇，至德栽培，壽域弘開於紫極；金輪
 <lb n="0264a15" ed="J"/>運轉，福星朗耀於中天。欣桃實之敷榮，喜椒花之應
-<lb n="0264a16" ed="J"/>瑞，長誇彩鳳，永<note n="0264a1601" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0264a1601"><lem resp="CBETA.maha" wit="【CB】">羨</lem><rdg wit="【嘉興】">羡</rdg></app>石麟。某無任激切肫懇之至，謹意。</p></cb:div>
+<lb n="0264a16" ed="J"/>瑞，長誇彩鳳，永<note 
+n="0264a1601" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0264a1601">
+  <lem resp="CBETA.maha" wit="【CB】">羨</lem>
+  <rdg wit="【嘉興】">羡</rdg>
+</app>石麟。某無任激切肫懇之至，謹意。</p></cb:div>
 <lb n="0264a17" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">釋子修因表</cb:mulu><head>釋子修因表</head>
 <lb n="0264a18" ed="J"/><p xml:id="pJ39p0264a1801">伏以法雨滂沱，沾濡無岐於二諦；慈雲靉靆，氤氳總
 <lb n="0264a19" ed="J"/>出乎三尊。蒙茲廕覆之餘，滌此塵緣之垢。惟虔頂禮，
@@ -941,7 +1038,11 @@
 <lb n="0264c04" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">朔望祝延</cb:mulu><head>朔望祝延</head>
 <lb n="0264c05" ed="J"/><p xml:id="pJ39p0264c0501"><note place="inline">讚</note>寶鼎爇名香，普遍十方，虔誠奉獻法中王。端為皇
 <lb n="0264c06" ed="J"/>王祝聖壽，地久天長。</p>
-<lb n="0264c07" ed="J"/><p xml:id="pJ39p0264c0701" style="margin-left:1em">南無香雲蓋菩<note n="0264c0701" resp="CBETA" type="add">薩【CB】，<unclear/>【嘉興】</note><app n="0264c0701"><lem resp="CBETA.maha" wit="【CB】">薩</lem><rdg wit="【嘉興】"><unclear/></rdg></app><note place="inline">三稱</note>。</p>
+<lb n="0264c07" ed="J"/><p xml:id="pJ39p0264c0701" style="margin-left:1em">南無香雲蓋菩<note 
+n="0264c0701" resp="CBETA" type="add">薩【CB】，<unclear/>【嘉興】</note><app n="0264c0701">
+  <lem resp="CBETA.maha" wit="【CB】">薩</lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app><note place="inline">三稱</note>。</p>
 <lb n="0264c08" ed="J"/><p xml:id="pJ39p0264c0801">藥師如來！藥師如來！皇帝萬歲！藥師如來！</p>
 <lb n="0264c09" ed="J"/><p xml:id="pJ39p0264c0901">大圓滿覺，應跡西乾。心包太虛，量周沙界。佛之聖德，
 <lb n="0264c10" ed="J"/>難盡讚揚。<note place="inline">入鄉貰</note>住居傳。靈山道脈，幾十幾世。婆伽沙
@@ -1024,7 +1125,11 @@
 <lb n="0265b25" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">元旦</cb:mulu><head><note place="inline">補</note>元旦</head>
 <lb n="0265b26" ed="J"/><p xml:id="pJ39p0265b2601">藥師如來！藥師如來！皇帝萬歲！藥師如來！</p>
 <lb n="0265b27" ed="J"/><p xml:id="pJ39p0265b2701">元和初啟，歲曆維新。雲堂傳爆竹之聲，雪嶺破梅花
-<lb n="0265b28" ed="J"/>之面。<note n="0265b2801" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0265b2801"><lem resp="CBETA.maha" wit="【CB】">佳</lem><rdg wit="【嘉興】">隹</rdg></app>辰堪羨，聖德宜揚。<note place="inline">入鄉貫同前</note>伏願乾綱獨握，泰
+<lb n="0265b28" ed="J"/>之面。<note 
+n="0265b2801" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0265b2801">
+  <lem resp="CBETA.maha" wit="【CB】">佳</lem>
+  <rdg wit="【嘉興】">隹</rdg>
+</app>辰堪羨，聖德宜揚。<note place="inline">入鄉貫同前</note>伏願乾綱獨握，泰
 <lb n="0265b29" ed="J"/>運弘開。仁風廣播於寰中，化日長舒於宇內。當陽出
 <lb n="0265b30" ed="J"/>治，法行健以同天；繼位臨民，資乾元而首物。人人稱
 <pb n="0265c" ed="J" xml:id="J39.B439.0265c"/>
@@ -1037,7 +1142,11 @@
 <lb n="0265c07" ed="J"/>午夜。祥光普映，景福頻彰。<note place="inline">入鄉貫同前</note>伏願位隆乾極，德
 <lb n="0265c08" ed="J"/>配離明。體元善以長人四海，樂陽春之有腳；洽重熙
 <lb n="0265c09" ed="J"/>而昭化萬邦，仰光被於無窮。乃知賜福不止於天官，
-<lb n="0265c10" ed="J"/>故爾懽騰宜伸於<note n="0265c1001" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0265c1001"><lem resp="CBETA.maha" wit="【CB】">佳</lem><rdg wit="【嘉興】">隹</rdg></app>節。更冀齋心奉佛，潔志明宗。求
+<lb n="0265c10" ed="J"/>故爾懽騰宜伸於<note 
+n="0265c1001" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0265c1001">
+  <lem resp="CBETA.maha" wit="【CB】">佳</lem>
+  <rdg wit="【嘉興】">隹</rdg>
+</app>節。更冀齋心奉佛，潔志明宗。求
 <lb n="0265c11" ed="J"/>酬價於師僧，襆頭自頂門整起；示積錢於輔弼，明珠
 <lb n="0265c12" ed="J"/>從掌上輪來。庶重道在乎一人，而薰修遍於四野。叢
 <lb n="0265c13" ed="J"/>林寢盛，法席常安。仰勞大眾<note place="inline">云云</note>。</p></cb:div>
@@ -1055,7 +1164,15 @@
 <lb n="0265c25" ed="J"/><p xml:id="pJ39p0265c2501">藥師如來！藥師如來！皇帝萬歲！藥師如來！</p>
 <lb n="0265c26" ed="J"/><p xml:id="pJ39p0265c2601">槐楠甫改，霜雪頻仍。倏爾春動小陽，胡焉冬臨大冶。
 <lb n="0265c27" ed="J"/>厄由斯解，慶自此生。<note place="inline">入鄉貫同前</note>伏願恩波浩蕩，膏澤滂
-<lb n="0265c28" ed="J"/>流。<note n="0265c2801" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0265c2801"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>溺<note n="0265c2802" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0265c2802"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>饑，每切吉凶而同患；欲立欲達，恒資化育
+<lb n="0265c28" ed="J"/>流。<note 
+n="0265c2801" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0265c2801">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>溺<note 
+n="0265c2802" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0265c2802">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>饑，每切吉凶而同患；欲立欲達，恒資化育
 <lb n="0265c29" ed="J"/>以均調。庶樂利在於域中，而聖明尊乎天上。痌瘝俱
 <lb n="0265c30" ed="J"/>釋，雲日齊瞻。更冀德邁冬官，令傳北陸。紅爐火熟，毋
 <pb n="0266a" ed="J" xml:id="J39.B439.0266a"/>
@@ -1067,7 +1184,11 @@
 <lb n="0266a06" ed="J"/><p xml:id="pJ39p0266a0601">朱明司令，赤帝乘權。澤品物以光流，彙群儀而嘉會。
 <lb n="0266a07" ed="J"/>時當聖誕，禮合颺言。<note place="inline">入鄉貫同前</note>伏願弘仁普洽，至德咸
 <lb n="0266a08" ed="J"/>孚。乘六龍以御天，秉一中而作則。齊而治，治而平，繕
-<lb n="0266a09" ed="J"/>修本於一<note n="0266a0901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0266a0901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>；庶則富，富則教，撫綏暨乎萬邦。更冀道
+<lb n="0266a09" ed="J"/>修本於一<note 
+n="0266a0901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0266a0901">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>；庶則富，富則教，撫綏暨乎萬邦。更冀道
 <lb n="0266a10" ed="J"/>合無言，德純不顯。獨稱尊於人間天上，宛同維衛之
 <lb n="0266a11" ed="J"/>降靈；或問道於林下水邊，多布祗園而攝化。方隅鎮
 <lb n="0266a12" ed="J"/>靜，雲鶴無憂。仰勞大眾<note place="inline">云云</note>。</p></cb:div>
@@ -1099,7 +1220,11 @@
 <lb n="0266b07" ed="J"/>合三無。群倫推首出之尊，萬國仰咸寧之化。正以義，
 <lb n="0266b08" ed="J"/>育以仁，處處秉<unclear/>溫秋肅；瞻如雲，就如日，人人歌帝
 <lb n="0266b09" ed="J"/>德皇風。既不愆不泄不忘，自而又而康而壽。更冀誕
-<lb n="0266b10" ed="J"/>生檀越，時烹在髓。<unclear/>嘆椒<note n="0266b1001" resp="CBETA" type="add">花【CB】，<unclear/>【嘉興】</note><app n="0266b1001"><lem resp="CBETA.maha" wit="【CB】">花</lem><rdg wit="【嘉興】"><unclear/></rdg></app><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>三<unclear/>
+<lb n="0266b10" ed="J"/>生檀越，時烹在髓。<unclear/>嘆椒<note 
+n="0266b1001" resp="CBETA" type="add">花【CB】，<unclear/>【嘉興】</note><app n="0266b1001">
+  <lem resp="CBETA.maha" wit="【CB】">花</lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>三<unclear/>
 <lb n="0266b11" ed="J"/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>
 <lb n="0266b12" ed="J"/>留<unclear/><unclear/>給孤長者。長住人間一眾，懽瞻三生<unclear/><unclear/>。<unclear/>
 <lb n="0266b13" ed="J"/><unclear/>大眾<note place="inline">云云</note>。</p></cb:div>
@@ -1118,8 +1243,16 @@
 <lb n="0266b26" ed="J"/><unclear/><unclear/>，成始成終幸爾期。<unclear/>周圓，且教一齊教不如。<unclear/>
 <lb n="0266b27" ed="J"/>放下一句合作麼生？堂前不必多拈弄，但許知音側
 <lb n="0266b28" ed="J"/>耳聽。」</p>
-<lb n="0266b29" ed="J"/><p xml:id="pJ39p0266b2901"><note place="inline">讚</note>聲沉響寂暗裡傳，<unclear/>希<unclear/><unclear/><unclear/><unclear/><unclear/>。終<note n="0266b2901" resp="CBETA" type="add">始【CB】，<unclear/>【嘉興】</note><app n="0266b2901"><lem resp="CBETA.maha" wit="【CB】">始</lem><rdg wit="【嘉興】"><unclear/></rdg></app>絕言
-<lb n="0266b30" ed="J"/>詮敲擊，<unclear/>捐<note n="0266b3001" resp="CBETA" type="add">撒【CB】，<unclear/>【嘉興】</note><app n="0266b3001"><lem resp="CBETA.maha" wit="【CB】">撒</lem><rdg wit="【嘉興】"><unclear/></rdg></app>手到長<unclear/>。</p>
+<lb n="0266b29" ed="J"/><p xml:id="pJ39p0266b2901"><note place="inline">讚</note>聲沉響寂暗裡傳，<unclear/>希<unclear/><unclear/><unclear/><unclear/><unclear/>。終<note 
+n="0266b2901" resp="CBETA" type="add">始【CB】，<unclear/>【嘉興】</note><app n="0266b2901">
+  <lem resp="CBETA.maha" wit="【CB】">始</lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app>絕言
+<lb n="0266b30" ed="J"/>詮敲擊，<unclear/>捐<note 
+n="0266b3001" resp="CBETA" type="add">撒【CB】，<unclear/>【嘉興】</note><app n="0266b3001">
+  <lem resp="CBETA.maha" wit="【CB】">撒</lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app>手到長<unclear/>。</p>
 <pb n="0266c" ed="J" xml:id="J39.B439.0266c"/>
 <lb n="0266c01" ed="J"/><p xml:id="pJ39p0266c0101">南無圓滿藏菩薩摩訶薩摩訶般若波羅蜜。</p></cb:div>
 <lb n="0266c02" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">檀信祈禍白意</cb:mulu><head><note place="inline">增補</note>檀信祈禍白意</head>
@@ -1146,7 +1279,11 @@
 <lb n="0266c23" ed="J"/>庶類咸被慈光，群倫總依悲念。靈通感應，德洽中孚。
 <lb n="0266c24" ed="J"/>某言念塵情擾擾，世事紜紜。無奈何哉，日紛馳於俗
 <lb n="0266c25" ed="J"/>累；最喫緊者，時係念於箕裘。曾以<unclear/>索之男，投禮至
-<lb n="0266c26" ed="J"/>尊之座。叨蒙庇祐，<note n="0266c2601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0266c2601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>度沖齡。值茲稍長之年，漸當成
+<lb n="0266c26" ed="J"/>尊之座。叨蒙庇祐，<note 
+n="0266c2601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0266c2601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>度沖齡。值茲稍長之年，漸當成
 <lb n="0266c27" ed="J"/>立之候。炳然寶炬，敬設齋筵。傾葵赤而達蓮臺，冀青
 <lb n="0266c28" ed="J"/>眸之永盻；竭凡衷而薦葑菲，期紺目以遙觀。昔緣無
 <lb n="0266c29" ed="J"/>名而寄名，今則告白而脫白。伏願金雞放赦，彩鳳啣

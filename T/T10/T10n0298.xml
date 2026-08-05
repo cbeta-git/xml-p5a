@@ -1,85 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T10n0298" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:cb="http://www.cbeta.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10n0298">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">大方廣普賢所說經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 298 大方廣普賢所說經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 298 大方廣普賢所說經</title>
-			<author>唐 實叉難陀譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">10</idno>.<idno type="no">298</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, CBETA OCR Group, Punctuated text as provided by Guo-Fu, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，CBETA 自行掃瞄辨識，果赴提供新式標點，張革豐大德提供新式標點重校</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="1999-05-07T18:10:20">
-			CW (ed.) converted to XML with CBXML.BAT (99/4/29)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">大方廣普賢所說經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 298 大方廣普賢所說經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 298 大方廣普賢所說經</title>
+      <author>唐 實叉難陀譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">10</idno>.<idno type="no">298</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, CBETA OCR Group, Punctuated text as provided by Guo-Fu, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，CBETA 自行掃瞄辨識，果赴提供新式標點，張革豐大德提供新式標點重校</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="1999-05-07T18:10:20">
+      CW (ed.) converted to XML with CBXML.BAT (99/4/29)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb xml:id="T10.0298.0883a" ed="T" n="0883a"/>
 <lb ed="T" n="0883a01"/>
 <lb n="0883a02" ed="T"/><cb:docNumber>No. 298</cb:docNumber>
-<lb ed="T" n="0883a03"/><cb:juan fun="open" n="001"><cb:mulu n="1" type="卷"/><cb:jhead><title>大方廣普賢所說經</title><note n="0883001" type="orig" place="foot text" resp="Taisho">〔一卷〕－【三】【宮】</note><note n="0883001" type="mod" resp="CBETA">一卷【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0883001"><lem wit="【大】">一卷</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho"><space quantity="0"/></rdg></app></cb:jhead></cb:juan>
+<lb ed="T" n="0883a03"/><cb:juan fun="open" n="001"><cb:mulu n="1" type="卷"/><cb:jhead><title>大方廣普賢所說經</title><note 
+n="0883001" type="orig" place="foot text" resp="Taisho">〔一卷〕－【三】【宮】</note><note 
+n="0883001" type="mod" resp="CBETA">一卷【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0883001">
+  <lem wit="【大】">一卷</lem>
+  <rdg wit="【宋】【元】【明】【宮】" resp="Taisho"><space quantity="0"/></rdg>
+</app></cb:jhead></cb:juan>
 <lb n="0883a04" ed="T"/>
-<lb n="0883a05" ed="T"/><byline>唐于闐<note resp="Taisho" place="foot text" n="0883002" type="orig">三藏＋（法師）【三】【宮】</note><note resp="CBETA" n="0883002" type="mod">三藏【大】，三藏法師【宋】【元】【明】【宮】</note><app n="0883002"><lem wit="【大】">三藏</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">三藏法師</rdg></app>實叉難陀譯</byline>
-<lb ed="T" n="0883a06"/><cb:div type="jing"><p xml:id="pT10p0883a0601">如是我聞：</p><p cb:place="inline" xml:id="pT10p0883a0605">一時佛在如來神力所持之處，與
+<lb n="0883a05" ed="T"/><byline>唐于闐<note 
+resp="Taisho" place="foot text" n="0883002" type="orig">三藏＋（法師）【三】【宮】</note><note 
+resp="CBETA" n="0883002" type="mod">三藏【大】，三藏法師【宋】【元】【明】【宮】</note><app n="0883002">
+  <lem wit="【大】">三藏</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】【宮】">三藏法師</rdg>
+</app>實叉難陀譯</byline>
+<lb ed="T" n="0883a06"/><cb:div type="jing"><p xml:id="pT10p0883a0601">如是我聞：</p>
+<p cb:place="inline" xml:id="pT10p0883a0605">一時佛在如來神力所持之處，與
 <lb n="0883a07" ed="T"/>十不可說不可說百千億那由他佛剎微塵
 <lb ed="T" n="0883a08"/>等菩薩摩訶薩俱，前後圍繞，而為說法——皆已
 <lb ed="T" n="0883a09"/>成就普賢之行——普賢菩薩摩訶薩而為上首。</p>
@@ -104,10 +115,13 @@
 <lb n="0883a28" ed="T"/>未、來無量世界，及彼諸佛，現坐道場，為化眾
 <lb n="0883a29" ed="T"/>生，轉妙法輪，諸菩薩眾供養如來，淨修一切
 <pb n="0883b" ed="T" xml:id="T10.0298.0883b"/>
-<lb n="0883b01" ed="T"/>波羅蜜行，常無斷絕。</p><p xml:id="pT10p0883b0109" cb:place="inline">爾時眾會，咸作是念：「此
+<lb n="0883b01" ed="T"/>波羅蜜行，常無斷絕。</p>
+<p xml:id="pT10p0883b0109" cb:place="inline">爾時眾會，咸作是念：「此
 <lb n="0883b02" ed="T"/>諸菩薩，從何世界諸佛所來？」即共請問普賢
-<lb n="0883b03" ed="T"/>菩薩。</p><p xml:id="pT10p0883b0303" cb:place="inline">時普賢菩薩，普告一切菩薩眾言：「諸佛
-<lb n="0883b04" ed="T"/>子！汝等各自推其來處。」</p><p xml:id="pT10p0883b0410" cb:place="inline">時無礙眼菩薩，則入
+<lb n="0883b03" ed="T"/>菩薩。</p>
+<p xml:id="pT10p0883b0303" cb:place="inline">時普賢菩薩，普告一切菩薩眾言：「諸佛
+<lb n="0883b04" ed="T"/>子！汝等各自推其來處。」</p>
+<p xml:id="pT10p0883b0410" cb:place="inline">時無礙眼菩薩，則入
 <lb ed="T" n="0883b05"/>普迅疾三昧、遍至三昧、明照法界三昧、具一
 <lb n="0883b06" ed="T"/>切神通三昧、了一切境界三昧、現一切眾生
 <lb n="0883b07" ed="T"/>身神通三昧、知一切佛剎三昧，入如是等十
@@ -118,10 +132,12 @@
 <lb n="0883b12" ed="T"/>入菩薩三昧，皆不能見，亦復如是。咸從定起，
 <lb ed="T" n="0883b13"/>白普賢菩薩言：「我等各入十阿僧祇百千億
 <lb n="0883b14" ed="T"/>那由他菩薩三昧，了不能見彼諸菩薩所從
-<lb n="0883b15" ed="T"/>來處。」</p><p xml:id="pT10p0883b1503" cb:place="inline">普賢菩薩復告之言：「彼所從來諸佛國
+<lb n="0883b15" ed="T"/>來處。」</p>
+<p xml:id="pT10p0883b1503" cb:place="inline">普賢菩薩復告之言：「彼所從來諸佛國
 <lb ed="T" n="0883b16"/>土，甚深廣大極難可見，汝等今可更共推求。」</p>
 <lb ed="T" n="0883b17"/><p xml:id="pT10p0883b1701">時諸菩薩，一一復入十佛剎微塵等菩薩三
-<lb ed="T" n="0883b18"/>昧，求亦不見，各以其事，重白普賢。</p><p xml:id="pT10p0883b1814" cb:place="inline">爾時，普
+<lb ed="T" n="0883b18"/>昧，求亦不見，各以其事，重白普賢。</p>
+<p xml:id="pT10p0883b1814" cb:place="inline">爾時，普
 <lb n="0883b19" ed="T"/>賢菩薩，從座而起，上昇虛空，右繞世尊，無數
 <lb n="0883b20" ed="T"/>匝已，即於空中，普觀眾會，作如是言：「諸佛
 <lb n="0883b21" ed="T"/>子！汝觀佛身，無礙莊嚴，三世平等，法界諸
@@ -131,15 +147,25 @@
 <lb n="0883b25" ed="T"/>應住普境界眼、盡虛空界清淨慧眼、了一切
 <lb ed="T" n="0883b26"/>境廣大智眼，又應普請十方一切諸佛護念，
 <lb n="0883b27" ed="T"/>皆應一心，離一切處、一切依止、一切執著、一
-<lb n="0883b28" ed="T"/>切諸有，觀如來身，應入十<note type="orig" n="0883003" place="foot text" resp="Taisho">力＝方【三】【宮】</note><note resp="CBETA" n="0883003" type="mod">力【大】，方【宋】【元】【明】【宮】</note><app n="0883003"><lem wit="【大】">力</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">方</rdg></app>微細境界，於
-<lb ed="T" n="0883b29"/>一境界，了達一切無盡境界，觀如來身。」</p><p xml:id="pT10p0883b2916" cb:place="inline">時諸
+<lb n="0883b28" ed="T"/>切諸有，觀如來身，應入十<note 
+type="orig" n="0883003" place="foot text" resp="Taisho">力＝方【三】【宮】</note><note 
+resp="CBETA" n="0883003" type="mod">力【大】，方【宋】【元】【明】【宮】</note><app n="0883003">
+  <lem wit="【大】">力</lem>
+  <rdg wit="【宋】【元】【明】【宮】" resp="Taisho">方</rdg>
+</app>微細境界，於
+<lb ed="T" n="0883b29"/>一境界，了達一切無盡境界，觀如來身。」</p>
+<p xml:id="pT10p0883b2916" cb:place="inline">時諸
 <pb n="0883c" ed="T" xml:id="T10.0298.0883c"/>
 <lb ed="T" n="0883c01"/>菩薩，敬順其教，咸向如來，頭面作禮，一心瞻
 <lb ed="T" n="0883c02"/>仰。忽見世尊毘盧遮那，雙足輪中有世界，名
 <lb ed="T" n="0883c03"/>法界輪，其土有佛，名法界莊嚴王，住世說法；
 <lb ed="T" n="0883c04"/>彼普光藏菩薩摩訶薩，與十不可說不可說
 <lb n="0883c05" ed="T"/>百千億那由他佛剎微塵等菩薩摩訶薩俱，
-<lb n="0883c06" ed="T"/>從彼佛剎，來此會坐。於雙<note n="0883c0601" resp="CBETA" type="add"><g ref="#CB00567"/>【CB】，<g ref="#CB00571"/>【大】</note><app n="0883c0601"><lem wit="【CB】" resp="CBETA.maha"><g ref="#CB00567"/></lem><rdg wit="【大】"><g ref="#CB00571"/></rdg></app>中，有世界名無
+<lb n="0883c06" ed="T"/>從彼佛剎，來此會坐。於雙<note 
+n="0883c0601" resp="CBETA" type="add"><g ref="#CB00567"/>【CB】，<g ref="#CB00571"/>【大】</note><app n="0883c0601">
+  <lem wit="【CB】" resp="CBETA.maha"><g ref="#CB00567"/></lem>
+  <rdg wit="【大】"><g ref="#CB00571"/></rdg>
+</app>中，有世界名無
 <lb ed="T" n="0883c07"/>礙藏，其土有佛名無礙淨光，住世說法；彼甚
 <lb ed="T" n="0883c08"/>深藏菩薩摩訶薩，與十不可說不可說百千
 <lb ed="T" n="0883c09"/>億那由他佛剎微塵等菩薩摩訶薩俱，從彼
@@ -155,7 +181,12 @@
 <lb ed="T" n="0883c19"/>藏，其土有佛，名毘盧遮那威德莊嚴王，住世
 <lb n="0883c20" ed="T"/>說法；彼金剛藏菩薩摩訶薩，與十不可說不
 <lb n="0883c21" ed="T"/>可說百千億那由他佛剎微塵等菩薩摩訶薩
-<lb n="0883c22" ed="T"/><note resp="Taisho" type="orig" n="0883004" place="foot text">〔俱〕－【三】【宮】</note><note n="0883004" type="mod" resp="CBETA">俱【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0883004"><lem wit="【大】">俱</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】"><space quantity="0"/></rdg></app>，從彼佛剎，來此會坐。於其心中，有世界
+<lb n="0883c22" ed="T"/><note 
+resp="Taisho" type="orig" n="0883004" place="foot text">〔俱〕－【三】【宮】</note><note 
+n="0883004" type="mod" resp="CBETA">俱【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0883004">
+  <lem wit="【大】">俱</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】【宮】"><space quantity="0"/></rdg>
+</app>，從彼佛剎，來此會坐。於其心中，有世界
 <lb n="0883c23" ed="T"/>名勝光藏，其土有佛名妙相莊嚴藏，住世說
 <lb ed="T" n="0883c24"/>法；彼普音不動威光藏菩薩摩訶薩，與十不
 <lb ed="T" n="0883c25"/>可說不可說百千億那由他佛剎微塵等菩薩
@@ -173,20 +204,34 @@
 <lb ed="T" n="0884a07"/>世無盡智，住世說法；彼普現眾像威光藏菩
 <lb ed="T" n="0884a08"/>薩摩訶薩，與十不可說不可說百千億那由
 <lb ed="T" n="0884a09"/>他佛剎微塵等菩薩摩訶薩俱，從彼佛剎，來
-<lb ed="T" n="0884a10"/>此會坐。<note resp="Taisho" place="foot text" n="0884001" type="orig">〔於〕－【三】【宮】</note><note resp="CBETA" type="mod" n="0884001">於【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0884001"><lem wit="【大】">於</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】"><space quantity="0"/></rdg></app>其頭中，有世界名覆持不散，其土
+<lb ed="T" n="0884a10"/>此會坐。<note 
+resp="Taisho" place="foot text" n="0884001" type="orig">〔於〕－【三】【宮】</note><note 
+resp="CBETA" type="mod" n="0884001">於【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0884001">
+  <lem wit="【大】">於</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】【宮】"><space quantity="0"/></rdg>
+</app>其頭中，有世界名覆持不散，其土
 <lb ed="T" n="0884a11"/>有佛名寶花積，住世說法；彼十力清淨威光
 <lb ed="T" n="0884a12"/>藏菩薩摩訶薩，與十不可說不可說百千億
 <lb n="0884a13" ed="T"/>那由他佛剎微塵等菩薩摩訶薩俱，從彼佛
-<lb n="0884a14" ed="T"/>剎，來此會坐。</p><p xml:id="pT10p0884a1406" cb:place="inline">時諸菩薩，既見如是無盡世界
+<lb n="0884a14" ed="T"/>剎，來此會坐。</p>
+<p xml:id="pT10p0884a1406" cb:place="inline">時諸菩薩，既見如是無盡世界
 <lb ed="T" n="0884a15"/>如來道場菩薩眾會佛神變已，一一皆得法
 <lb n="0884a16" ed="T"/>界藏三昧等十佛剎微塵數諸大三昧，一切
 <lb ed="T" n="0884a17"/>法地陀羅尼等十佛剎微塵數諸陀羅尼，離
 <lb n="0884a18" ed="T"/>垢藏般若波羅蜜等十佛剎微塵數諸波羅
-<lb ed="T" n="0884a19"/>蜜，力電光等十佛剎微塵數一切智電光。</p><p cb:place="inline" xml:id="pT10p0884a1917">時
+<lb ed="T" n="0884a19"/>蜜，力電光等十佛剎微塵數一切智電光。</p>
+<p cb:place="inline" xml:id="pT10p0884a1917">時
 <lb ed="T" n="0884a20"/>普賢菩薩，復告大眾：「諸佛子！此法唯是行普
 <lb n="0884a21" ed="T"/>賢行，為善知識所攝受者，乃得聞見。是故汝
-<lb n="0884a22" ed="T"/>等，於此法門，作金剛心，增上意樂，<note place="foot text" n="0884002" type="orig" resp="Taisho">說＝護【三】【宮】</note><note type="mod" n="0884002" resp="CBETA">護【CB】【磧-CB】【宋】【元】【明】【宮】，說【大】</note><app n="0884002"><lem wit="【CB】【磧-CB】" resp="CBETA.maha">護<note type="cf1">Q08_p0337a22</note></lem><rdg wit="【大】">說</rdg><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">護</rdg></app>持讀
-<lb ed="T" n="0884a23"/>誦，勿令忘失。」</p><p cb:place="inline" xml:id="pT10p0884a2306">說此法時，彼諸菩薩摩訶薩等，
+<lb n="0884a22" ed="T"/>等，於此法門，作金剛心，增上意樂，<note 
+place="foot text" n="0884002" type="orig" resp="Taisho">說＝護【三】【宮】</note><note 
+type="mod" n="0884002" resp="CBETA">護【CB】【磧-CB】【宋】【元】【明】【宮】，說【大】</note><app n="0884002">
+  <lem wit="【CB】【磧-CB】" resp="CBETA.maha">護<note type="cf1">Q08_p0337a22</note></lem>
+  <rdg wit="【大】">說</rdg>
+  <rdg wit="【宋】【元】【明】【宮】" resp="Taisho">護</rdg>
+</app>持讀
+<lb ed="T" n="0884a23"/>誦，勿令忘失。」</p>
+<p cb:place="inline" xml:id="pT10p0884a2306">說此法時，彼諸菩薩摩訶薩等，
 <lb ed="T" n="0884a24"/>歡喜信受。</p></cb:div>
 <lb n="0884a25" ed="T"/><cb:juan fun="close" n="001"><cb:jhead><title>大方廣普賢所說經</title></cb:jhead></cb:juan>
 </body></text></TEI>

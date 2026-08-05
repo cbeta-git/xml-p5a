@@ -2,85 +2,102 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1418">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛說一切如來安像三昧儀軌經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1418 佛說一切如來安像三昧儀軌經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1418 佛說一切如來安像三昧儀軌經</title>
-			<author>宋 施護譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1418</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:55">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛說一切如來安像三昧儀軌經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1418 佛說一切如來安像三昧儀軌經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1418 佛說一切如來安像三昧儀軌經</title>
+      <author>宋 施護譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1418</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:55">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0933b" ed="T" xml:id="T21.1418.0933b"/>
 <lb n="0933b01" ed="T"/>
-<lb n="0933b02" ed="T"/><cb:docNumber>No. 1418</cb:docNumber><cb:div type="jing">
-<lb n="0933b03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0933001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說一切如來安像三昧儀
+<lb n="0933b02" ed="T"/><cb:docNumber>No. 1418</cb:docNumber>
+<cb:div type="jing">
+<lb n="0933b03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0933001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說一切如來安像三昧儀
 <lb n="0933b04" ed="T"/>軌經</cb:jhead></cb:juan>
 <lb n="0933b05" ed="T"/>
-<lb n="0933b06" ed="T"/><byline cb:type="Translator"><note n="0933002" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】</note><note n="0933002" resp="CBETA" type="mod">西【大】，宋西【明】</note><app n="0933002"><lem wit="【大】">西</lem><rdg resp="Taisho" wit="【明】">宋西</rdg></app>天<note n="0933003" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】</note><note n="0933003" resp="CBETA" type="mod">譯經【大】，〔－〕【明】</note><app n="0933003"><lem wit="【大】">譯經</lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>三藏朝散大夫試鴻臚少卿
-<lb n="0933b07" ed="T"/>傳法大師<note n="0933004" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】</note><note n="0933004" resp="CBETA" type="mod">臣【大】，〔－〕【明】</note><app n="0933004"><lem wit="【大】">臣</lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>施護奉　詔譯</byline>
+<lb n="0933b06" ed="T"/><byline cb:type="Translator"><note 
+n="0933002" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】</note><note 
+n="0933002" resp="CBETA" type="mod">西【大】，宋西【明】</note><app n="0933002">
+  <lem wit="【大】">西</lem>
+  <rdg resp="Taisho" wit="【明】">宋西</rdg>
+</app>天<note 
+n="0933003" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】</note><note 
+n="0933003" resp="CBETA" type="mod">譯經【大】，〔－〕【明】</note><app n="0933003">
+  <lem wit="【大】">譯經</lem>
+  <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
+</app>三藏朝散大夫試鴻臚少卿
+<lb n="0933b07" ed="T"/>傳法大師<note 
+n="0933004" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】</note><note 
+n="0933004" resp="CBETA" type="mod">臣【大】，〔－〕【明】</note><app n="0933004">
+  <lem wit="【大】">臣</lem>
+  <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
+</app>施護奉　詔譯</byline>
 <lb n="0933b08" ed="T"/><p xml:id="pT21p0933b0801">爾時世尊入三摩地，名一切如來金剛安像
 <lb n="0933b09" ed="T"/>三昧。從三昧起，說彼塑畫雕造莊嚴一切佛
 <lb n="0933b10" ed="T"/>及諸賢聖之眾、安像慶讚儀軌之法。欲造佛
@@ -102,7 +119,12 @@
 <lb n="0933b26" ed="T"/><p xml:id="pT21p0933b2601">爾時有一菩薩而白佛言：「世尊！佛身無相猶
 <lb n="0933b27" ed="T"/>若虛空遍一切處，云何今說令安佛像？」佛言：
 <lb n="0933b28" ed="T"/>「汝今諦聽，我為久修行者說彼法身無相無
-<lb n="0933b29" ed="T"/>為遍一切處猶<note n="0933005" resp="Taisho" type="orig" place="foot text">在＝若【明】</note><note n="0933005" resp="CBETA" type="mod">在【大】，若【明】</note><app n="0933005"><lem wit="【大】">在</lem><rdg resp="Taisho" wit="【明】">若</rdg></app>虛空，本自寂然不生不
+<lb n="0933b29" ed="T"/>為遍一切處猶<note 
+n="0933005" resp="Taisho" type="orig" place="foot text">在＝若【明】</note><note 
+n="0933005" resp="CBETA" type="mod">在【大】，若【明】</note><app n="0933005">
+  <lem wit="【大】">在</lem>
+  <rdg resp="Taisho" wit="【明】">若</rdg>
+</app>虛空，本自寂然不生不
 <pb n="0933c" ed="T" xml:id="T21.1418.0933c"/>
 <lb n="0933c01" ed="T"/>滅，云何安像？今為初發心眾生令彼得福，作
 <lb n="0933c02" ed="T"/>如是說安像慶讚結淨之法。欲建曼拏羅，先
@@ -117,9 +139,24 @@
 <lb n="0933c11" ed="T"/>香水燈果依法儀軌獻閼伽香燈，獻已入定
 <lb n="0933c12" ed="T"/>心離疑念，誦此真言三遍：</p>
 <lb n="0933c13" ed="T"/><p xml:id="pT21p0933c1301" cb:type="dharani">「三摩野薩怛鑁」</p>
-<lb n="0933c14" ed="T"/><p xml:id="pT21p0933c1401" cb:type="dharani">「<note n="0933006" resp="Taisho" type="orig" place="foot text">〔三摩野薩怛<g ref="#CB04337"/>〕－【明】</note><note n="0933006" resp="CBETA" type="mod">三摩野薩怛鑁【大】，〔－〕【明】</note><app n="0933006"><lem wit="【大】">三摩野薩怛鑁</lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>」</p>
+<lb n="0933c14" ed="T"/><p xml:id="pT21p0933c1401" cb:type="dharani">「<note 
+n="0933006" resp="Taisho" type="orig" place="foot text">〔三摩野薩怛<g ref="#CB04337"/>〕－【明】</note><note 
+n="0933006" resp="CBETA" type="mod">三摩野薩怛鑁【大】，〔－〕【明】</note><app n="0933006">
+  <lem wit="【大】">三摩野薩怛鑁</lem>
+  <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
+</app>」</p>
 <lb n="0933c15" ed="T"/><p xml:id="pT21p0933c1501">「誦此真言已而啟請言：『如一切佛安住覩史
-<lb n="0933c16" ed="T"/>陀天，亦如佛在摩<note n="0933007" resp="Taisho" type="orig" place="foot text">邪＝耶【三】</note><note n="0933007" resp="CBETA" type="mod">邪【大】，耶【宋】【元】【明】</note><app n="0933007"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>夫人胎<note n="0933008" resp="Taisho" type="orig" place="foot text">藏＝臟【明】</note><note n="0933008" resp="CBETA" type="mod">藏【大】，臟【明】</note><app n="0933008"><lem wit="【大】">藏</lem><rdg resp="Taisho" wit="【明】">臟</rdg></app>，願佛慈悲
+<lb n="0933c16" ed="T"/>陀天，亦如佛在摩<note 
+n="0933007" resp="Taisho" type="orig" place="foot text">邪＝耶【三】</note><note 
+n="0933007" resp="CBETA" type="mod">邪【大】，耶【宋】【元】【明】</note><app n="0933007">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>夫人胎<note 
+n="0933008" resp="Taisho" type="orig" place="foot text">藏＝臟【明】</note><note 
+n="0933008" resp="CBETA" type="mod">藏【大】，臟【明】</note><app n="0933008">
+  <lem wit="【大】">藏</lem>
+  <rdg resp="Taisho" wit="【明】">臟</rdg>
+</app>，願佛慈悲
 <lb n="0933c17" ed="T"/>住此亦然。願佛恒住，弟子某甲為發菩提心，
 <lb n="0933c18" ed="T"/>受此香花供養。』請佛像已，復與施主弟子受
 <lb n="0933c19" ed="T"/>戒。所有供養儀則等，一切須依阿闍梨言教
@@ -142,8 +179,17 @@
 <lb n="0934a06" ed="T"/>刷子洗刷令淨，然用歌讚妓樂令童女歌舞
 <lb n="0934a07" ed="T"/>等。復誦香油真言：</p>
 <lb n="0934a08" ed="T"/><p xml:id="pT21p0934a0801" cb:type="dharani">「唵薩哩嚩<note place="inline">二合</note>怛他誐多迦野尾戍馱儞<note place="inline">引</note>娑
-<lb n="0934a09" ed="T"/>嚩<note place="inline">二合</note>賀<note n="0934001" resp="Taisho" type="orig" place="foot text">〔引〕－【元】</note><note n="0934001" resp="CBETA" type="mod">引【大】，〔－〕【元】</note><app n="0934001"><lem wit="【大】"><note place="inline">引</note></lem><rdg resp="Taisho" wit="【元】"><space quantity="0"/></rdg></app>」</p>
-<lb n="0934a10" ed="T"/><p xml:id="pT21p0934a1001">「若賢瓶用五或八，以白檀香塗之，種種香<note n="0934a1001" resp="CBETA" type="add">水【CB】，氷【大】</note><app n="0934a1001"><lem resp="CBETA" wit="【CB】">水</lem><rdg wit="【大】">氷</rdg></app>
+<lb n="0934a09" ed="T"/>嚩<note place="inline">二合</note>賀<note 
+n="0934001" resp="Taisho" type="orig" place="foot text">〔引〕－【元】</note><note 
+n="0934001" resp="CBETA" type="mod">引【大】，〔－〕【元】</note><app n="0934001">
+  <lem wit="【大】"><note place="inline">引</note></lem>
+  <rdg resp="Taisho" wit="【元】"><space quantity="0"/></rdg>
+</app>」</p>
+<lb n="0934a10" ed="T"/><p xml:id="pT21p0934a1001">「若賢瓶用五或八，以白檀香塗之，種種香<note 
+n="0934a1001" resp="CBETA" type="add">水【CB】，氷【大】</note><app n="0934a1001">
+  <lem resp="CBETA" wit="【CB】">水</lem>
+  <rdg wit="【大】">氷</rdg>
+</app>
 <lb n="0934a11" ed="T"/>滿彼瓶中而即加持。復令童女合線，染成五
 <lb n="0934a12" ed="T"/>色上好新鮮，纏瓶周迴。復用五寶、五藥花菓
 <lb n="0934a13" ed="T"/>等入於賢瓶。誦最勝佛頂真言或白傘蓋真
@@ -160,7 +206,12 @@
 <lb n="0934a24" ed="T"/><p xml:id="pT21p0934a2401" cb:type="dharani">「唵薩哩嚩<note place="inline">二合</note>怛他<note place="inline">引</note>誐哆<note place="inline">引</note>鼻詵<note place="inline">引</note>迦三摩野
 <lb n="0934a25" ed="T"/>室哩<note place="inline">二合</note>曳<note place="inline">引</note>吽」</p>
 <lb n="0934a26" ed="T"/><p xml:id="pT21p0934a2601">「若是畫像功德，以鏡照彼所畫功德，用前五
-<lb n="0934a27" ed="T"/>種淨水<note n="0934002" resp="Taisho" type="orig" place="foot text">寫＝瀉【明】</note><note n="0934002" resp="CBETA" type="mod">寫【大】，瀉【明】</note><app n="0934002"><lem wit="【大】">寫</lem><rdg resp="Taisho" wit="【明】">瀉</rdg></app>於鏡上，沐浴鏡中影像。若前金銀
+<lb n="0934a27" ed="T"/>種淨水<note 
+n="0934002" resp="Taisho" type="orig" place="foot text">寫＝瀉【明】</note><note 
+n="0934002" resp="CBETA" type="mod">寫【大】，瀉【明】</note><app n="0934002">
+  <lem wit="【大】">寫</lem>
+  <rdg resp="Taisho" wit="【明】">瀉</rdg>
+</app>於鏡上，沐浴鏡中影像。若前金銀
 <lb n="0934a28" ed="T"/>等像及所畫㡧像
 <lb n="0934a29" ed="T"/>沐浴畢已，即誦著衣真言：</p>
 <pb n="0934b" ed="T" xml:id="T21.1418.0934b"/>
@@ -178,47 +229,100 @@
 <lb n="0934b12" ed="T"/><p xml:id="pT21p0934b1201">「次誦獻塗香真言：</p>
 <lb n="0934b13" ed="T"/><p xml:id="pT21p0934b1301" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>巘弟<note place="inline">引</note>娑嚩<note place="inline">二合引</note>賀<note place="inline">引</note>」</p>
 <lb n="0934b14" ed="T"/><p xml:id="pT21p0934b1401">「次誦安莊嚴真言：</p>
-<lb n="0934b15" ed="T"/><p xml:id="pT21p0934b1501" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>婆囉拏尾部瑟尼娑嚩<note place="inline">二合</note><note n="0934003" resp="Taisho" type="orig" place="foot text">賀＋（引）夾註【宋】【元】</note><note n="0934003" resp="CBETA" type="mod">賀【大】，賀<note place="inline">引</note>【宋】【元】</note><app n="0934003"><lem wit="【大】">賀</lem><rdg resp="Taisho" wit="【宋】【元】">賀<note place="inline">引</note></rdg></app>」</p>
-<lb n="0934b16" ed="T"/><p xml:id="pT21p0934b1601">「誦此真言已，依灌頂儀入曼拏<note n="0934004" resp="Taisho" type="orig" place="foot text">羅＝囉【明】＊</note><note n="0934004" resp="CBETA" type="mod">羅【大】＊，囉【明】＊</note><app n="0934004"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【明】">囉</rdg></app>，與佛像誦
+<lb n="0934b15" ed="T"/><p xml:id="pT21p0934b1501" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>婆囉拏尾部瑟尼娑嚩<note place="inline">二合</note><note 
+n="0934003" resp="Taisho" type="orig" place="foot text">賀＋（引）夾註【宋】【元】</note><note 
+n="0934003" resp="CBETA" type="mod">賀【大】，賀<note place="inline">引</note>【宋】【元】</note><app n="0934003">
+  <lem wit="【大】">賀</lem>
+  <rdg resp="Taisho" wit="【宋】【元】">賀<note place="inline">引</note></rdg>
+</app>」</p>
+<lb n="0934b16" ed="T"/><p xml:id="pT21p0934b1601">「誦此真言已，依灌頂儀入曼拏<note 
+n="0934004" resp="Taisho" type="orig" place="foot text">羅＝囉【明】＊</note><note 
+n="0934004" resp="CBETA" type="mod">羅【大】＊，囉【明】＊</note><app n="0934004">
+  <lem wit="【大】">羅</lem>
+  <rdg resp="Taisho" wit="【明】">囉</rdg>
+</app>，與佛像誦
 <lb n="0934b17" ed="T"/>本尊三昧真言：</p>
 <lb n="0934b18" ed="T"/><p xml:id="pT21p0934b1801" cb:type="dharani">「唵吽怛落仡哩惡」</p>
-<lb n="0934b19" ed="T"/><p xml:id="pT21p0934b1901">「誦此真言已，如是戴冠，<note n="0934005" resp="Taisho" type="orig" place="foot text">面東＝而樂【明】</note><note n="0934005" resp="CBETA" type="mod">面東【大】，而樂【明】</note><app n="0934005"><lem wit="【大】">面東</lem><rdg resp="Taisho" wit="【明】">而樂</rdg></app>安置佛像，令彼
+<lb n="0934b19" ed="T"/><p xml:id="pT21p0934b1901">「誦此真言已，如是戴冠，<note 
+n="0934005" resp="Taisho" type="orig" place="foot text">面東＝而樂【明】</note><note 
+n="0934005" resp="CBETA" type="mod">面東【大】，而樂【明】</note><app n="0934005">
+  <lem wit="【大】">面東</lem>
+  <rdg resp="Taisho" wit="【明】">而樂</rdg>
+</app>安置佛像，令彼
 <lb n="0934b20" ed="T"/>施主得大福利。</p>
 <lb n="0934b21" ed="T"/><p xml:id="pT21p0934b2101">「次用香花等供養。先誦獻花真言：</p>
 <lb n="0934b22" ed="T"/><p xml:id="pT21p0934b2201" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>補瑟閉<note place="inline">二合引</note>吽」</p>
 <lb n="0934b23" ed="T"/><p xml:id="pT21p0934b2301">「誦此真言已，白言：『此花最上，或水中生或陸
-<lb n="0934b24" ed="T"/>地生，我今<note n="0934006" resp="Taisho" type="orig" place="foot text">志＝至【元】＊</note><note n="0934006" resp="CBETA" type="mod">志【大】＊，至【元】＊</note><app n="0934006"><lem wit="【大】">志</lem><rdg resp="Taisho" wit="【元】">至</rdg></app>心供養，願佛納受。』</p>
+<lb n="0934b24" ed="T"/>地生，我今<note 
+n="0934006" resp="Taisho" type="orig" place="foot text">志＝至【元】＊</note><note 
+n="0934006" resp="CBETA" type="mod">志【大】＊，至【元】＊</note><app n="0934006">
+  <lem wit="【大】">志</lem>
+  <rdg resp="Taisho" wit="【元】">至</rdg>
+</app>心供養，願佛納受。』</p>
 <lb n="0934b25" ed="T"/><p xml:id="pT21p0934b2501">「次誦獻香真言：</p>
 <lb n="0934b26" ed="T"/><p xml:id="pT21p0934b2601" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>度閉」</p>
 <lb n="0934b27" ed="T"/><p xml:id="pT21p0934b2701">「誦此真言已，白言：『此香最上，或自然香或和
-<lb n="0934b28" ed="T"/>合香，我今<app type="star" corresp="#0934006"><lem wit="【大】">志</lem><rdg resp="Taisho" wit="【元】">至</rdg></app>心供養，願佛納受。』</p>
+<lb n="0934b28" ed="T"/>合香，我今<app type="star" corresp="#0934006">
+  <lem wit="【大】">志</lem>
+  <rdg resp="Taisho" wit="【元】">至</rdg>
+</app>心供養，願佛納受。』</p>
 <lb n="0934b29" ed="T"/><p xml:id="pT21p0934b2901">「次誦塗香真言：</p>
 <pb n="0934c" ed="T" xml:id="T21.1418.0934c"/>
 <lb n="0934c01" ed="T"/><p xml:id="pT21p0934c0101" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>巘弟<note place="inline">引</note>娑嚩<note place="inline">二合</note>賀」</p>
 <lb n="0934c02" ed="T"/><p xml:id="pT21p0934c0201">「誦此真言已，白言：『此是塗香最上殊勝，願佛
-<lb n="0934c03" ed="T"/>納受。』」</p><p xml:id="pT21p0934c0303" cb:place="inline">「次誦燈真言：</p>
+<lb n="0934c03" ed="T"/>納受。』」</p>
+<p xml:id="pT21p0934c0303" cb:place="inline">「次誦燈真言：</p>
 <lb n="0934c04" ed="T"/><p xml:id="pT21p0934c0401" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>禰閉<note place="inline">引</note>娑嚩<note place="inline">二合</note>賀」</p>
 <lb n="0934c05" ed="T"/><p xml:id="pT21p0934c0501">「誦此真言已，白言：『此是燈供養，或酥燈或油
-<lb n="0934c06" ed="T"/>燈，光明破暗。我今<app type="star" corresp="#0934006"><lem wit="【大】">志</lem><rdg resp="Taisho" wit="【元】">至</rdg></app>心供養，願佛納受，消
+<lb n="0934c06" ed="T"/>燈，光明破暗。我今<app type="star" corresp="#0934006">
+  <lem wit="【大】">志</lem>
+  <rdg resp="Taisho" wit="【元】">至</rdg>
+</app>心供養，願佛納受，消
 <lb n="0934c07" ed="T"/>除一切愚暗。』</p>
 <lb n="0934c08" ed="T"/><p xml:id="pT21p0934c0801">「次誦食真言：</p>
 <lb n="0934c09" ed="T"/><p xml:id="pT21p0934c0901" cb:type="dharani">「唵賓努波<note place="inline">引</note>旦鉢囉<note place="inline">二合</note>底仡哩<note place="inline">二合</note>恨曩娑嚩
 <lb n="0934c10" ed="T"/><note place="inline">二合</note>賀」</p>
 <lb n="0934c11" ed="T"/><p xml:id="pT21p0934c1101">「誦此真言已，白言：『此是食供養最上飲食，色香
-<lb n="0934c12" ed="T"/>美味一切具足。我今<app type="star" corresp="#0934006"><lem wit="【大】">志</lem><rdg resp="Taisho" wit="【元】">至</rdg></app>心供養，願佛納受。』</p>
+<lb n="0934c12" ed="T"/>美味一切具足。我今<app type="star" corresp="#0934006">
+  <lem wit="【大】">志</lem>
+  <rdg resp="Taisho" wit="【元】">至</rdg>
+</app>心供養，願佛納受。』</p>
 <lb n="0934c13" ed="T"/><p xml:id="pT21p0934c1301">「如是供養儀則既已周備，復為佛像開眼之
 <lb n="0934c14" ed="T"/>光明，如點眼相似，即誦開眼光真言二道：</p>
-<lb n="0934c15" ed="T"/><p xml:id="pT21p0934c1501" cb:type="dharani">「唵作芻作芻三滿<note n="0934007" resp="Taisho" type="orig" place="foot text">哆＝多【明】</note><note n="0934007" resp="CBETA" type="mod">哆【大】，多【明】</note><app n="0934007"><lem wit="【大】">哆</lem><rdg resp="Taisho" wit="【明】">多</rdg></app>　作芻尾戍馱儞<note place="inline">引</note>娑
+<lb n="0934c15" ed="T"/><p xml:id="pT21p0934c1501" cb:type="dharani">「唵作芻作芻三滿<note 
+n="0934007" resp="Taisho" type="orig" place="foot text">哆＝多【明】</note><note 
+n="0934007" resp="CBETA" type="mod">哆【大】，多【明】</note><app n="0934007">
+  <lem wit="【大】">哆</lem>
+  <rdg resp="Taisho" wit="【明】">多</rdg>
+</app>　作芻尾戍馱儞<note place="inline">引</note>娑
 <lb n="0934c16" ed="T"/>嚩賀」</p>
 <lb n="0934c17" ed="T"/><p xml:id="pT21p0934c1701" cb:type="dharani">「唵儞<note place="inline">引</note>怛囉<note place="inline">二合</note>波吒路<note place="inline">引</note>波賀<note place="inline">引</note>囉拏呬凌
 <lb n="0934c18" ed="T"/><note place="inline">二合</note>」</p>
 <lb n="0934c19" ed="T"/><p xml:id="pT21p0934c1901">「次誦佛入定真言：</p>
-<lb n="0934c20" ed="T"/><p xml:id="pT21p0934c2001" cb:type="dharani">「唵禰<note n="0934008" resp="Taisho" type="orig" place="foot text"><g ref="#CB14625"/>＝<g ref="#CB14651"/>【明】</note><note n="0934008" resp="CBETA" type="mod"><g ref="#CB04330"/>【大】，<g ref="#CB14651"/>【明】</note><app n="0934008"><lem wit="【大】"><g ref="#CB04330"/></lem><rdg resp="Taisho" wit="【明】"><g ref="#CB14651"/></rdg></app><note place="inline">切身</note>儞<note place="inline">引</note>曩三摩<note place="inline">引</note>地<note n="0934009" resp="Taisho" type="orig" place="foot text"><g ref="#CB04110"/>＝<g ref="#CB03806"/>【明】</note><note n="0934009" resp="CBETA" type="mod"><g ref="#CB04110"/>【大】，<g ref="#CB03806"/>【明】</note><app n="0934009"><lem wit="【大】"><g ref="#CB04110"/></lem><rdg resp="Taisho" wit="【明】"><g ref="#CB03806"/></rdg></app><note place="inline">切身</note>曩必哩
+<lb n="0934c20" ed="T"/><p xml:id="pT21p0934c2001" cb:type="dharani">「唵禰<note 
+n="0934008" resp="Taisho" type="orig" place="foot text"><g ref="#CB14625"/>＝<g ref="#CB14651"/>【明】</note><note 
+n="0934008" resp="CBETA" type="mod"><g ref="#CB04330"/>【大】，<g ref="#CB14651"/>【明】</note><app n="0934008">
+  <lem wit="【大】"><g ref="#CB04330"/></lem>
+  <rdg resp="Taisho" wit="【明】"><g ref="#CB14651"/></rdg>
+</app><note place="inline">切身</note>儞<note place="inline">引</note>曩三摩<note place="inline">引</note>地<note 
+n="0934009" resp="Taisho" type="orig" place="foot text"><g ref="#CB04110"/>＝<g ref="#CB03806"/>【明】</note><note 
+n="0934009" resp="CBETA" type="mod"><g ref="#CB04110"/>【大】，<g ref="#CB03806"/>【明】</note><app n="0934009">
+  <lem wit="【大】"><g ref="#CB04110"/></lem>
+  <rdg resp="Taisho" wit="【明】"><g ref="#CB03806"/></rdg>
+</app><note place="inline">切身</note>曩必哩
 <lb n="0934c21" ed="T"/><note place="inline">二合</note>拏儞娑嚩<note place="inline">二合</note>賀」</p>
-<lb n="0934c22" ed="T"/><p xml:id="pT21p0934c2201">「誦此真言已，復令施主、弟子入曼拏<app type="star" corresp="#0934004"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【明】">囉</rdg></app>。阿闍
+<lb n="0934c22" ed="T"/><p xml:id="pT21p0934c2201">「誦此真言已，復令施主、弟子入曼拏<app type="star" corresp="#0934004">
+  <lem wit="【大】">羅</lem>
+  <rdg resp="Taisho" wit="【明】">囉</rdg>
+</app>。阿闍
 <lb n="0934c23" ed="T"/>梨白言：『汝今請我安慶佛像，我今為汝所作
 <lb n="0934c24" ed="T"/>儀軌悉皆周畢，宜應灌頂。』誦此真言：</p>
-<lb n="0934c25" ed="T"/><p xml:id="pT21p0934c2501" cb:type="dharani">「<note n="0934010" resp="Taisho" type="orig" place="foot text">（唵）＋三【宋】【元】</note><note n="0934010" resp="CBETA" type="mod">三【大】，唵三【宋】【元】</note><app n="0934010"><lem wit="【大】">三</lem><rdg resp="Taisho" wit="【宋】【元】">唵三</rdg></app>摩野薩怛鑁」</p>
+<lb n="0934c25" ed="T"/><p xml:id="pT21p0934c2501" cb:type="dharani">「<note 
+n="0934010" resp="Taisho" type="orig" place="foot text">（唵）＋三【宋】【元】</note><note 
+n="0934010" resp="CBETA" type="mod">三【大】，唵三【宋】【元】</note><app n="0934010">
+  <lem wit="【大】">三</lem>
+  <rdg resp="Taisho" wit="【宋】【元】">唵三</rdg>
+</app>摩野薩怛鑁」</p>
 <lb n="0934c26" ed="T"/><p xml:id="pT21p0934c2601">「次作護摩，或一千或五百或二百五十遍。若
 <lb n="0934c27" ed="T"/>護摩爐宜四方作，用有白乳汁者，濕柴入於
 <lb n="0934c28" ed="T"/>爐內。復用酥酪蜜及五穀合和用作護摩，能
@@ -226,7 +330,8 @@
 <pb n="0935a" ed="T" xml:id="T21.1418.0935a"/>
 <lb n="0935a01" ed="T"/>真言：</p>
 <lb n="0935a02" ed="T"/><p xml:id="pT21p0935a0201" cb:type="dharani">「唵嚩日囉<note place="inline">二合</note>喻世<note place="inline">引</note>娑嚩<note place="inline">二合</note>賀」</p>
-<lb n="0935a03" ed="T"/><p xml:id="pT21p0935a0301">「此是作護摩真言。」</p><p xml:id="pT21p0935a0308" cb:place="inline">「次誦增壽真言：</p>
+<lb n="0935a03" ed="T"/><p xml:id="pT21p0935a0301">「此是作護摩真言。」</p>
+<p xml:id="pT21p0935a0308" cb:place="inline">「次誦增壽真言：</p>
 <lb n="0935a04" ed="T"/><p xml:id="pT21p0935a0401" cb:type="dharani">「阿誐蹉賀哩賓誐羅禰鉢哆<note place="inline">二合</note>𡁠賀嚩<note place="inline">二合</note>路
 <lb n="0935a05" ed="T"/><note place="inline">引</note>呬哆<note place="inline">引</note>乞叉<note place="inline">二合</note>禰<note place="inline">引</note>呬那那<note place="inline">引</note>波野伊難左
 <lb n="0935a06" ed="T"/>彌<note place="inline">引</note>迦哩焰<note place="inline">二合</note>俱嚕娑嚩<note place="inline">二合</note>賀」</p>
@@ -236,7 +341,12 @@
 <lb n="0935a10" ed="T"/><p xml:id="pT21p0935a1001">「此是息災增益真言。</p>
 <lb n="0935a11" ed="T"/><p xml:id="pT21p0935a1101">「次為火天於護摩爐安置座位，作其觀想，觀
 <lb n="0935a12" ed="T"/>護摩爐三分之中空其一分，為火天座位。</p>
-<lb n="0935a13" ed="T"/><p xml:id="pT21p0935a1301" cb:type="dharani">「唵酥鉢囉<note place="inline">二合</note>底瑟<note n="0935001" resp="Taisho" type="orig" place="foot text">姹＝吒【明】</note><note n="0935001" resp="CBETA" type="mod">姹【大】，吒【明】</note><app n="0935001"><lem wit="【大】">姹</lem><rdg resp="Taisho" wit="【明】">吒</rdg></app><note place="inline">二合</note>哆嚩日囉<note place="inline">二合</note>娑嚩
+<lb n="0935a13" ed="T"/><p xml:id="pT21p0935a1301" cb:type="dharani">「唵酥鉢囉<note place="inline">二合</note>底瑟<note 
+n="0935001" resp="Taisho" type="orig" place="foot text">姹＝吒【明】</note><note 
+n="0935001" resp="CBETA" type="mod">姹【大】，吒【明】</note><app n="0935001">
+  <lem wit="【大】">姹</lem>
+  <rdg resp="Taisho" wit="【明】">吒</rdg>
+</app><note place="inline">二合</note>哆嚩日囉<note place="inline">二合</note>娑嚩
 <lb n="0935a14" ed="T"/><note place="inline">二合</note>賀」</p>
 <lb n="0935a15" ed="T"/><p xml:id="pT21p0935a1501">「此是安置火天真言。</p>
 <lb n="0935a16" ed="T"/><p xml:id="pT21p0935a1601">「次以香花等獻護世及伊舍那天，即誦護世
@@ -246,7 +356,12 @@
 <lb n="0935a20" ed="T"/>來廣作佛事，供養多不如法。所來梵天天子
 <lb n="0935a21" ed="T"/>并諸天眾等，為其施主依此儀軌於一切處
 <lb n="0935a22" ed="T"/>作大息災增益，往彼佛剎。復有請召，願賜降
-<lb n="0935a23" ed="T"/>臨。地水火風神等<note n="0935002" resp="Taisho" type="orig" place="foot text">往＝住【明】</note><note n="0935002" resp="CBETA" type="mod">往【大】，住【明】</note><app n="0935002"><lem wit="【大】">往</lem><rdg resp="Taisho" wit="【明】">住</rdg></app>本界中，發善心愛敬
+<lb n="0935a23" ed="T"/>臨。地水火風神等<note 
+n="0935002" resp="Taisho" type="orig" place="foot text">往＝住【明】</note><note 
+n="0935002" resp="CBETA" type="mod">往【大】，住【明】</note><app n="0935002">
+  <lem wit="【大】">往</lem>
+  <rdg resp="Taisho" wit="【明】">住</rdg>
+</app>本界中，發善心愛敬
 <lb n="0935a24" ed="T"/>所安佛像，經百千劫護持施主及子孫眷屬，
 <lb n="0935a25" ed="T"/>並阿闍梨一切弟子普獲吉祥。』</p>
 <lb n="0935a26" ed="T"/><p xml:id="pT21p0935a2601">「若作壇法吉時者，正月二月三月四月五月
@@ -263,7 +378,12 @@
 <lb n="0935b07" ed="T"/>水星、金星，吉善第一。若此三星和合直日，作
 <lb n="0935b08" ed="T"/>安像慶讚儀則得最上福。若前第三第七第
 <lb n="0935b09" ed="T"/>六第十及第十一星，此五星若與月合，同用
-<lb n="0935b10" ed="T"/>大吉。若第二第六第十及<note n="0935003" resp="Taisho" type="orig" place="foot text">〔第〕－【明】</note><note n="0935003" resp="CBETA" type="mod">第【大】，〔－〕【明】</note><app n="0935003"><lem wit="【大】">第</lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>十一星與水星
+<lb n="0935b10" ed="T"/>大吉。若第二第六第十及<note 
+n="0935003" resp="Taisho" type="orig" place="foot text">〔第〕－【明】</note><note 
+n="0935003" resp="CBETA" type="mod">第【大】，〔－〕【明】</note><app n="0935003">
+  <lem wit="【大】">第</lem>
+  <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
+</app>十一星與水星
 <lb n="0935b11" ed="T"/>合，同用大吉。若第二第七第九及第十一星
 <lb n="0935b12" ed="T"/>與木星合，同用作召請結淨最善大吉。若第
 <lb n="0935b13" ed="T"/>六第七第十星與金星合，同用大吉。若第一
@@ -286,5 +406,10 @@
 <pb n="0935c" ed="T" xml:id="T21.1418.0935c"/>
 <lb n="0935c01" ed="T"/>即收壇物。若五色粉送入河中，用衢摩邪淨
 <lb n="0935c02" ed="T"/>水洗拭壇地，如法結淨功德成就。」</p>
-<lb n="0935c03" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><note n="0935004" resp="Taisho" type="orig" place="foot text">（佛說）＋一【明】</note><note n="0935004" resp="CBETA" type="mod">一【大】，佛說一【明】</note><app n="0935004"><lem wit="【大】">一</lem><rdg resp="Taisho" wit="【明】">佛說一</rdg></app>切如來安像三昧儀軌經</cb:jhead></cb:juan></cb:div>
+<lb n="0935c03" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><note 
+n="0935004" resp="Taisho" type="orig" place="foot text">（佛說）＋一【明】</note><note 
+n="0935004" resp="CBETA" type="mod">一【大】，佛說一【明】</note><app n="0935004">
+  <lem wit="【大】">一</lem>
+  <rdg resp="Taisho" wit="【明】">佛說一</rdg>
+</app>切如來安像三昧儀軌經</cb:jhead></cb:juan></cb:div>
 </body></text></TEI>

@@ -2,85 +2,86 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="D09n8790">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Selections from the Taipei National Central Library Buddhist Rare Book Collection</title>
-			<title level="s" xml:lang="zh-Hant">國家圖書館善本佛典</title>
-			<title level="m" xml:lang="zh-Hant">佛性觀（前殘）</title>
-			<title>Selections from the Taipei National Central Library Buddhist Rare Book Collection, Electronic version, No. 8790 佛性觀（前殘）</title>
-			<title xml:lang="zh-Hant">國家圖書館善本佛典數位版, No. 8790 佛性觀（前殘）</title>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">D</idno>.<idno type="vol">9</idno>.<idno type="no">8790</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>國家圖書館善本佛典</bibl>
-			<msDesc>
-				<msIdentifier>
-					<settlement>Taipei</settlement>
-					<repository>National Central Library</repository>
-					<idno>Vol. 9, No. 8790</idno>
-				</msIdentifier>
-			</msDesc>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【國圖】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2011-06-10T09:08:58">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Selections from the Taipei National Central Library Buddhist Rare Book Collection</title>
+      <title level="s" xml:lang="zh-Hant">國家圖書館善本佛典</title>
+      <title level="m" xml:lang="zh-Hant">佛性觀（前殘）</title>
+      <title>Selections from the Taipei National Central Library Buddhist Rare Book Collection, Electronic version, No. 8790 佛性觀（前殘）</title>
+      <title xml:lang="zh-Hant">國家圖書館善本佛典數位版, No. 8790 佛性觀（前殘）</title>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">D</idno>.<idno type="vol">9</idno>.<idno type="no">8790</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>國家圖書館善本佛典</bibl>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Taipei</settlement>
+          <repository>National Central Library</repository>
+          <idno>Vol. 9, No. 8790</idno>
+        </msIdentifier>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【國圖】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2011-06-10T09:08:58">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="D" xml:id="D09.8790.0001a" n="0001a"/>
-<lb ed="D" n="0001a01"/><cb:mulu type="卷" n="1"/><cb:div><p xml:id="pD09p0001a0101">名想或名㱕或名<unclear/>…<unclear/>
+<lb ed="D" n="0001a01"/><cb:mulu type="卷" n="1"/>
+<cb:div><p xml:id="pD09p0001a0101">名想或名㱕或名<unclear/>…<unclear/>
 <lb ed="D" n="0001a02"/>見之分齊者見有多種或有聞見比
 <lb ed="D" n="0001a03"/>見證見至見相貌見了了見若就<g ref="#CB21868"/>
 <lb ed="D" n="0001a04"/>夫分齊<g ref="#CB22072"/>以正因仏性<g ref="#CB00844"/>然別故或是
@@ -92,7 +93,11 @@
 <lb ed="D" n="0002a03"/><g ref="#CB30274"/>所以自性波若名為中道故論云㝎有
 <lb ed="D" n="0002a04"/>即着常㝎无即着断般若波羅蜜猶
 <lb ed="D" n="0002a05"/>如大火聚四邊不可觸遠離於四句云何
-<lb ed="D" n="0002a06"/>可見夫眼見者即是色法仏性非色<note n="0002a0601" resp="CBETA" type="add">如何【CB】，<unclear/><unclear/>【國圖】</note><app n="0002a0601"><lem wit="【CB】" resp="CBETA.maha">如何</lem><rdg wit="【國圖】"><unclear/><unclear/></rdg></app>
+<lb ed="D" n="0002a06"/>可見夫眼見者即是色法仏性非色<note 
+n="0002a0601" resp="CBETA" type="add">如何【CB】，<unclear/><unclear/>【國圖】</note><app n="0002a0601">
+  <lem wit="【CB】" resp="CBETA.maha">如何</lem>
+  <rdg wit="【國圖】"><unclear/><unclear/></rdg>
+</app>
 <lb ed="D" n="0002a07"/>得見荅但无言之法必待言詮无名相法
 <lb ed="D" n="0002a08"/>寄名相<g ref="#CB22072"/>見體終湏約相得𣅀自可<g ref="#CB22027"/>
 <lb ed="D" n="0002a09"/>詮豈可懸頭即生疑或既知<g ref="#CB21868"/>夫得見
@@ -103,7 +108,11 @@
 <lb ed="D" n="0003a02"/>然云何不見今欲見者湏去人法二執寂
 <lb ed="D" n="0003a03"/>照分明破彼名相除其妄念合於中道
 <lb ed="D" n="0003a04"/>理事俱融聞其不聞見其不見即可見也
-<lb ed="D" n="0003a05"/>故涅槃經云見不見聞不聞<g ref="#CB21717"/>信<g ref="#CB21985"/>驗之<note n="0003a0501" resp="CBETA" type="add">今【CB】，<unclear/>【國圖】</note><app n="0003a0501"><lem wit="【CB】" resp="CBETA.maha">今</lem><rdg wit="【國圖】"><unclear/></rdg></app>
+<lb ed="D" n="0003a05"/>故涅槃經云見不見聞不聞<g ref="#CB21717"/>信<g ref="#CB21985"/>驗之<note 
+n="0003a0501" resp="CBETA" type="add">今【CB】，<unclear/>【國圖】</note><app n="0003a0501">
+  <lem wit="【CB】" resp="CBETA.maha">今</lem>
+  <rdg wit="【國圖】"><unclear/></rdg>
+</app>
 <lb ed="D" n="0003a06"/>就見性分齊復有多種或有癈緣談體
 <lb ed="D" n="0003a07"/>見謂蕳真異妄見見體不見相或有以
 <lb ed="D" n="0003a08"/>體<g ref="#CB30130"/>緣見謂以真収妄真妄俱真四大五
@@ -226,7 +235,11 @@
 <lb ed="D" n="0012a09"/>言不稱法性所以常行誹謗語乃至能成七種大<g ref="#CB02167"/>
 <lb ed="D" n="0012a10"/>趣向兩遍十方一切阿鼻地獄若作仏性觀即十二種顛
 <lb ed="D" n="0012a11"/>倒常滅不起其八種仏性功徳善根運運增長又禪師
-<lb ed="D" n="0012a12"/>集錄云作此如來蔵仏八種仏法觀者即得无始<note n="0012a1201" resp="CBETA" type="add">已【CB】，巳【國圖】</note><app n="0012a1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【國圖】">巳</rdg></app>來
+<lb ed="D" n="0012a12"/>集錄云作此如來蔵仏八種仏法觀者即得无始<note 
+n="0012a1201" resp="CBETA" type="add">已【CB】，巳【國圖】</note><app n="0012a1201">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【國圖】">巳</rdg>
+</app>來
 <lb ed="D" n="0012a13"/>一切𢙣頓断永與生死別即淂入𦬇位<g ref="#CB30130"/>一仏国至仏国
 <lb ed="D" n="0012a14"/>乃至成仏又裴公云<g ref="#CB28904"/>除往𢙣入大位遍遊淨𠛴遠結
 <pb ed="D" xml:id="D09.8790.0013a" n="0013a"/>
@@ -238,15 +251,26 @@
 <lb ed="D" n="0013a06"/>闍郍智功徳五除自我愛過生大悲愛他功徳又此
 <lb ed="D" n="0013a07"/>仏性觀月燈經名諸法體性平<g ref="#CB21717"/>无戲論三昧
 <lb ed="D" n="0013a08"/>經中<g ref="#CB22072"/>偈讚云。</p>
-<lb ed="D" n="0013a09"/><lg type="regular" xml:id="lgD09p0013a0901"><l>仏眼所見諸眾生<caesura/>假使一時成仏道</l>
-<lb ed="D" n="0013a10"/><l>彼一一仏各壽命<caesura/>二万億<g ref="#CB21092"/>難思刧</l>
-<lb ed="D" n="0013a11"/><l>彼仏各有无量頭<caesura/>猶如大海諸沙<g ref="#CB21092"/></l>
-<lb ed="D" n="0013a12"/><l>一頭各有无量舌<caesura/>其<g ref="#CB21092"/>亦如大海沙</l>
+<lb ed="D" n="0013a09"/><lg type="regular" xml:id="lgD09p0013a0901">
+  <l>仏眼所見諸眾生<caesura/>假使一時成仏道</l>
+<lb ed="D" n="0013a10"/>
+  <l>彼一一仏各壽命<caesura/>二万億<g ref="#CB21092"/>難思刧</l>
+<lb ed="D" n="0013a11"/>
+  <l>彼仏各有无量頭<caesura/>猶如大海諸沙<g ref="#CB21092"/></l>
+<lb ed="D" n="0013a12"/>
+  <l>一頭各有无量舌<caesura/>其<g ref="#CB21092"/>亦如大海沙</l>
 <pb ed="D" xml:id="D09.8790.0014a" n="0014a"/>
-<lb ed="D" n="0014a01"/><l>彼一一仏各稱揚<caesura/>持㝎一偈之功徳</l>
-<lb ed="D" n="0014a02"/><l><g ref="#CB22072"/>其少分不能𥁞<caesura/>何况書冩及受持</l></lg>
+<lb ed="D" n="0014a01"/>
+  <l>彼一一仏各稱揚<caesura/>持㝎一偈之功徳</l>
+<lb ed="D" n="0014a02"/>
+  <l><g ref="#CB22072"/>其少分不能𥁞<caesura/>何况書冩及受持</l>
+</lg>
 <lb ed="D" n="0014a03"/><p xml:id="pD09p0014a0301">以上經論文義驗之故知故作仏性觀功徳利益
 <lb ed="D" n="0014a04"/>不可思議既有如<g ref="#CB02167"/>益應求應學此就一往讚其
-<lb ed="D" n="0014a05"/>仏性功徳利益如是若𢴃能破苐三階<note n="0014a0501" resp="CBETA" type="add">邪【CB】，耶【國圖】</note><app n="0014a0501"><lem wit="【CB】" resp="CBETA.maha">邪</lem><rdg wit="【國圖】">耶</rdg></app>見顛倒
+<lb ed="D" n="0014a05"/>仏性功徳利益如是若𢴃能破苐三階<note 
+n="0014a0501" resp="CBETA" type="add">邪【CB】，耶【國圖】</note><app n="0014a0501">
+  <lem wit="【CB】" resp="CBETA.maha">邪</lem>
+  <rdg wit="【國圖】">耶</rdg>
+</app>見顛倒
 <lb ed="D" n="0014a06"/>眾生金<g ref="#CB12919"/>偏病此之利益更何可論。</p></cb:div>
 </body></text></TEI>

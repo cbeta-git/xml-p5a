@@ -2,89 +2,95 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T20n1194">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">妙吉祥平等觀門大教王經略出護摩儀</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1194 妙吉祥平等觀門大教王經略出護摩儀</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1194 妙吉祥平等觀門大教王經略出護摩儀</title>
-			<author>宋 慈賢譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1194</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-24T11:15:23">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">妙吉祥平等觀門大教王經略出護摩儀</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1194 妙吉祥平等觀門大教王經略出護摩儀</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1194 妙吉祥平等觀門大教王經略出護摩儀</title>
+      <author>宋 慈賢譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1194</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-24T11:15:23">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0934a11" ed="T"/>
 <lb n="0934a12" ed="T"/>
 <lb n="0934a13" ed="T"/><cb:docNumber>No. 1194</cb:docNumber>
-<lb n="0934a14" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0934001" resp="Taisho" type="orig" place="foot text">【原】明本</note>妙吉祥平等觀門大教王經略出
+<lb n="0934a14" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0934001" resp="Taisho" type="orig" place="foot text">【原】明本</note>妙吉祥平等觀門大教王經略出
 <lb n="0934a15" ed="T"/>護摩儀</cb:jhead></cb:juan>
 <lb n="0934a16" ed="T"/>
 <lb n="0934a17" ed="T"/><byline cb:type="Translator">宋大契丹國師中天竺摩竭陀國
 <lb n="0934a18" ed="T"/>三藏法師慈賢譯</byline>
-<lb n="0934a19" ed="T"/><cb:div type="jing"><lg xml:id="lgT20p0934a1901" type="regular"><l>歸命一切佛，<caesura/>諸大菩薩眾！</l>
-<lb n="0934a20" ed="T"/><l>我今說護摩，<caesura/>種種之儀式。</l>
-<lb n="0934a21" ed="T"/><l>先誦於真言，<caesura/>加持其鍬钁，</l>
-<lb n="0934a22" ed="T"/><l>後應廣分別。<caesura/>加持真言曰：</l></lg>
+<lb n="0934a19" ed="T"/><cb:div type="jing"><lg xml:id="lgT20p0934a1901" type="regular">
+  <l>歸命一切佛，<caesura/>諸大菩薩眾！</l>
+<lb n="0934a20" ed="T"/>
+  <l>我今說護摩，<caesura/>種種之儀式。</l>
+<lb n="0934a21" ed="T"/>
+  <l>先誦於真言，<caesura/>加持其鍬钁，</l>
+<lb n="0934a22" ed="T"/>
+  <l>後應廣分別。<caesura/>加持真言曰：</l>
+</lg>
 <lb n="0934a23" ed="T"/><p xml:id="pT20p0934a2301" cb:type="dharani">「唵<note place="inline">引</note>𩕳佉曩嚩蘇弟<note place="inline">二</note>　娑嚩<note place="inline">二合</note>賀」</p>
 <lb n="0934a24" ed="T"/><p xml:id="pT20p0934a2401">誦此真言加持鍬钁，掘護摩爐。於掘爐前，先
 <lb n="0934a25" ed="T"/>取河水盛淨器中，誦本部佛真言加持，以水

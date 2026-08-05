@@ -2,82 +2,83 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T19n0959">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">頂輪王大曼荼羅灌頂儀軌</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 959 頂輪王大曼荼羅灌頂儀軌</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 959 頂輪王大曼荼羅灌頂儀軌</title>
-			<author>唐 <g ref="#CB00003"/>弘集</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">19</idno>.<idno type="no">959</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="sa-Sidd">Sanskrit-Siddam</language>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-27T11:51:04">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">頂輪王大曼荼羅灌頂儀軌</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 959 頂輪王大曼荼羅灌頂儀軌</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 959 頂輪王大曼荼羅灌頂儀軌</title>
+      <author>唐 <g ref="#CB00003"/>弘集</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">19</idno>.<idno type="no">959</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="sa-Sidd">Sanskrit-Siddam</language>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-27T11:51:04">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0327c19" ed="T"/>
 <lb n="0327c20" ed="T"/>
 <lb n="0327c21" ed="T"/><cb:docNumber>No. 959</cb:docNumber>
-<lb n="0327c22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><note n="0327012" resp="Taisho" type="orig" place="foot text">【原】東寺三密藏古寫本</note><cb:jhead>頂輪王大曼荼羅灌頂儀軌</cb:jhead></cb:juan>
+<lb n="0327c22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><note 
+n="0327012" resp="Taisho" type="orig" place="foot text">【原】東寺三密藏古寫本</note><cb:jhead>頂輪王大曼荼羅灌頂儀軌</cb:jhead></cb:juan>
 <lb n="0327c23" ed="T"/>
 <lb n="0327c24" ed="T"/><byline cb:type="corrector">舊名　阿迦　<g ref="#CB03442"/>㗚婆　<g ref="#CB00003"/>弘
 <lb n="0327c25" ed="T"/>新名　薩縛　娑　底迦　吉祥</byline>
@@ -176,10 +177,15 @@
 <lb n="0329a04" ed="T"/>慶聲讚徐徐不絕。取中瓶水加持一百八遍。
 <lb n="0329a05" ed="T"/>教弟子結佛頂印安於頂上<note place="inline">餘如灌頂儀中廣說</note>，然須吹䗍
 <lb n="0329a06" ed="T"/>擊鼓作諸音樂等。</p>
-<lb n="0329a07" ed="T"/><lg xml:id="lgT19p0329a0701" type="regular"><l>我今依經說，<caesura/>輪王畫像法，</l>
-<lb n="0329a08" ed="T"/><l>近人具眾流，<caesura/>作法方可為，</l>
-<lb n="0329a09" ed="T"/><l>如經廣稱述，<caesura/>白疊須頓方，</l>
-<lb n="0329a10" ed="T"/><l>五肘或三肘。</l></lg>
+<lb n="0329a07" ed="T"/><lg xml:id="lgT19p0329a0701" type="regular">
+  <l>我今依經說，<caesura/>輪王畫像法，</l>
+<lb n="0329a08" ed="T"/>
+  <l>近人具眾流，<caesura/>作法方可為，</l>
+<lb n="0329a09" ed="T"/>
+  <l>如經廣稱述，<caesura/>白疊須頓方，</l>
+<lb n="0329a10" ed="T"/>
+  <l>五肘或三肘。</l>
+</lg>
 <lb n="0329a11" ed="T"/><p xml:id="pT19p0329a1101">畫聖者像，先從大海踊出須彌山王，四寶所
 <lb n="0329a12" ed="T"/>成<note place="inline">先北金、東白銀、南吠瑠璃色青色、西頗胝迦寶色紅色</note>，於山上坐白蓮華，
 <lb n="0329a13" ed="T"/>身白金色，正受入最勝王三摩地，結跏趺坐。
@@ -206,16 +212,27 @@
 <lb n="0329b04" ed="T"/>從額配之</note>　阿字<note place="inline">金剛寶地，大悲地界所執持故</note>　微字<note place="inline">功德乳海所資𨳝故</note>　囉字
 <lb n="0329b05" ed="T"/><note place="inline">三昧惠炬所溫育故</note>　吽字<note place="inline">除障智風所開發故</note>　欠字<note place="inline">無邊性空不障礙故</note>。</p>
 <lb n="0329b06" ed="T"/><p xml:id="pT19p0329b0601">　五支先布已，次說瑜伽相：</p>
-<lb n="0329b07" ed="T"/><lg xml:id="lgT19p0329b0701" type="regular"><l>阿字真金色，<caesura/>普現金剛輪，</l>
-<lb n="0329b08" ed="T"/><l>加持於下體，<caesura/>說名瑜伽座。</l>
-<lb n="0329b09" ed="T"/><l>微字素月光，<caesura/>匪於霧聚中，</l>
-<lb n="0329b10" ed="T"/><l>加持於齊上，<caesura/>是名大悲海。</l>
-<lb n="0329b11" ed="T"/><l>囉字初日暉，<caesura/>形赤在三角，</l>
-<lb n="0329b12" ed="T"/><l>加持於心位，<caesura/>稱為智火威。</l>
-<lb n="0329b13" ed="T"/><l>吽字劫火焰，<caesura/>塗玄若風輪，</l>
-<lb n="0329b14" ed="T"/><l>加持白毫際，<caesura/>名為自在力。</l>
-<lb n="0329b15" ed="T"/><l>欠字由大空，<caesura/>含容一切色，</l>
-<lb n="0329b16" ed="T"/><l>加持於頂上，<caesura/>故號無等人。</l></lg>
+<lb n="0329b07" ed="T"/><lg xml:id="lgT19p0329b0701" type="regular">
+  <l>阿字真金色，<caesura/>普現金剛輪，</l>
+<lb n="0329b08" ed="T"/>
+  <l>加持於下體，<caesura/>說名瑜伽座。</l>
+<lb n="0329b09" ed="T"/>
+  <l>微字素月光，<caesura/>匪於霧聚中，</l>
+<lb n="0329b10" ed="T"/>
+  <l>加持於齊上，<caesura/>是名大悲海。</l>
+<lb n="0329b11" ed="T"/>
+  <l>囉字初日暉，<caesura/>形赤在三角，</l>
+<lb n="0329b12" ed="T"/>
+  <l>加持於心位，<caesura/>稱為智火威。</l>
+<lb n="0329b13" ed="T"/>
+  <l>吽字劫火焰，<caesura/>塗玄若風輪，</l>
+<lb n="0329b14" ed="T"/>
+  <l>加持白毫際，<caesura/>名為自在力。</l>
+<lb n="0329b15" ed="T"/>
+  <l>欠字由大空，<caesura/>含容一切色，</l>
+<lb n="0329b16" ed="T"/>
+  <l>加持於頂上，<caesura/>故號無等人。</l>
+</lg>
 <lb n="0329b17" ed="T"/><p xml:id="pT19p0329b1701">次五支從地水火風空配成及壇。</p>
 <lb n="0329b18" ed="T"/><p xml:id="pT19p0329b1801">阿字想座下，金剛座已成，色相如黃金，即戒
 <lb n="0329b19" ed="T"/>義也。其壇相方，曼荼囉亦耳。微字想於臍，色

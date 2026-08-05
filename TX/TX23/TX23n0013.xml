@@ -2,85 +2,96 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="TX23n0013">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Collected Works of Master Taixu</title>
-			<title level="s" xml:lang="zh-Hant">太虛大師全書</title>
-			<title level="m" xml:lang="zh-Hant">太虛大師全書．第十三編　宗用論(第122卷-第139卷)</title>
-			<title>Collected Works of Master Taixu, Electronic version, No. 13 太虛大師全書．第十三編　宗用論(第122卷-第139卷)</title>
-			<title xml:lang="zh-Hant">太虛大師全書數位版, No. 13 太虛大師全書．第十三編　宗用論(第122卷-第139卷)</title>
-			<author>民國 釋太虛著</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>18卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">TX</idno>.<idno type="vol">23</idno>.<idno type="no">13</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>太虛大師全書</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
-			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【太虛】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2022-06-16">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Collected Works of Master Taixu</title>
+      <title level="s" xml:lang="zh-Hant">太虛大師全書</title>
+      <title level="m" xml:lang="zh-Hant">太虛大師全書．第十三編　宗用論(第122卷-第139卷)</title>
+      <title>Collected Works of Master Taixu, Electronic version, No. 13 太虛大師全書．第十三編　宗用論(第122卷-第139卷)</title>
+      <title xml:lang="zh-Hant">太虛大師全書數位版, No. 13 太虛大師全書．第十三編　宗用論(第122卷-第139卷)</title>
+      <author>民國 釋太虛著</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>18卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">TX</idno>.<idno type="vol">23</idno>.<idno type="no">13</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>太虛大師全書</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
+      <p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【太虛】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2022-06-16">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="122"/>
 <pb ed="TX" xml:id="TX23.0013.1333a" n="1333a"/>
-<lb ed="TX" n="1333a01"/><cb:div type="other"><cb:mulu type="其他" level="1">教育</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">教育新見</cb:mulu><head>教育新見</head>
+<lb ed="TX" n="1333a01"/><cb:div type="other"><cb:mulu type="其他" level="1">教育</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">教育新見</cb:mulu><head>教育新見</head>
 <lb ed="TX" n="1333a02"/><byline cb:type="other">——四年在普陀作——</byline>
-<lb ed="TX" n="1333a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX23p1333a0301"><p xml:id="pTX23p1333a0301" style="margin-left:4em;text-indent:-2em">一　緒言</p></item>
-<lb ed="TX" n="1333a04"/><item xml:id="itemTX23p1333a0401"><p xml:id="pTX23p1333a0401" style="margin-left:4em;text-indent:-2em">二　教育之名義</p></item>
-<lb ed="TX" n="1333a05"/><item xml:id="itemTX23p1333a0501"><p xml:id="pTX23p1333a0501" style="margin-left:4em;text-indent:-2em">三　教育之主義</p></item>
-<lb ed="TX" n="1333a06"/><item xml:id="itemTX23p1333a0601"><p xml:id="pTX23p1333a0601" style="margin-left:4em;text-indent:-2em">四　教育之方針</p></item>
-<lb ed="TX" n="1333a07"/><item xml:id="itemTX23p1333a0701"><p xml:id="pTX23p1333a0701" style="margin-left:4em;text-indent:-2em">五　教育之程序</p></item>
-<lb ed="TX" n="1333a08"/><item xml:id="itemTX23p1333a0801"><p xml:id="pTX23p1333a0801" style="margin-left:4em;text-indent:-2em">六　教育之學科</p></item>
-<lb ed="TX" n="1333a09"/><item xml:id="itemTX23p1333a0901"><p xml:id="pTX23p1333a0901" style="margin-left:4em;text-indent:-2em">七　大同世界圓滿生活之教育</p></item>
-<lb ed="TX" n="1333a10"/><item xml:id="itemTX23p1333a1001"><p xml:id="pTX23p1333a1001" style="margin-left:4em;text-indent:-2em">八　結論</p></item></list></cb:div>
+<lb ed="TX" n="1333a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX23p1333a0301"><p xml:id="pTX23p1333a0301" style="margin-left:4em;text-indent:-2em">一　緒言</p></item>
+<lb ed="TX" n="1333a04"/>
+  <item xml:id="itemTX23p1333a0401"><p xml:id="pTX23p1333a0401" style="margin-left:4em;text-indent:-2em">二　教育之名義</p></item>
+<lb ed="TX" n="1333a05"/>
+  <item xml:id="itemTX23p1333a0501"><p xml:id="pTX23p1333a0501" style="margin-left:4em;text-indent:-2em">三　教育之主義</p></item>
+<lb ed="TX" n="1333a06"/>
+  <item xml:id="itemTX23p1333a0601"><p xml:id="pTX23p1333a0601" style="margin-left:4em;text-indent:-2em">四　教育之方針</p></item>
+<lb ed="TX" n="1333a07"/>
+  <item xml:id="itemTX23p1333a0701"><p xml:id="pTX23p1333a0701" style="margin-left:4em;text-indent:-2em">五　教育之程序</p></item>
+<lb ed="TX" n="1333a08"/>
+  <item xml:id="itemTX23p1333a0801"><p xml:id="pTX23p1333a0801" style="margin-left:4em;text-indent:-2em">六　教育之學科</p></item>
+<lb ed="TX" n="1333a09"/>
+  <item xml:id="itemTX23p1333a0901"><p xml:id="pTX23p1333a0901" style="margin-left:4em;text-indent:-2em">七　大同世界圓滿生活之教育</p></item>
+<lb ed="TX" n="1333a10"/>
+  <item xml:id="itemTX23p1333a1001"><p xml:id="pTX23p1333a1001" style="margin-left:4em;text-indent:-2em">八　結論</p></item>
+</list></cb:div>
 <lb ed="TX" n="1333a11"/>
 <lb ed="TX" n="1333a12"/><cb:div type="other"><cb:mulu type="其他" level="3">一　緒言</cb:mulu><head>一　緒言</head>
 <lb ed="TX" n="1333a13"/><p xml:id="pTX23p1333a1301" style="margin-left:0em;text-indent:2em">大塊噫氣，翏翏無方，卒然而怒號萬竅，其質不同，其所受不同，其受不同，其
@@ -766,7 +777,11 @@
 <lb ed="TX" n="1383a07"/>之聲名文句身聚，所詮物理事義依之，而不是所詮也；所詮依之，故呼火未嘗得水，
 <lb ed="TX" n="1383a08"/>非即所詮，故呼火未嘗燒口。不徒文字，亦攝語言，且兼世界各種文語而言。蓋文字
 <lb ed="TX" n="1383a09"/>固依語言而起，藉語言而通，然亦非止代表語言。喻以數學上術語，語言者如點，文
-<lb ed="TX" n="1383a10"/>字者如線，故文詞傳久遠，而語言不然。但此科不在求文字之彣彰華<note n="1383a1001" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1383a1001"><lem wit="【太虛】">釆</lem><rdg resp="CBETA" type="cbetaRemark">采</rdg></app>，貴在治理能
+<lb ed="TX" n="1383a10"/>字者如線，故文詞傳久遠，而語言不然。但此科不在求文字之彣彰華<note 
+n="1383a1001" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1383a1001">
+  <lem wit="【太虛】">釆</lem>
+  <rdg resp="CBETA" type="cbetaRemark">采</rdg>
+</app>，貴在治理能
 <lb ed="TX" n="1383a11"/>詮之文器而能如量楷持所詮之義理也。字書學、近人多稱小學；大概言之，則字形、
 <lb ed="TX" n="1383a12"/>字音、字訓是也，謂之字及字聚，或名及名聚——此所謂字，唯取字母，華文字與名
 <pb ed="TX" xml:id="TX23.0013.1384a" n="1384a"/>
@@ -786,7 +801,11 @@
 <lb ed="TX" n="1385a01"/>，二者、現在各個人之感念。是故不徒以聞量為極，而記載亦兼乎評論也。然固以藏
 <lb ed="TX" n="1385a02"/>往而不得據以推來；藏往者、所以興情感而豐情識也。文學譬之醫學，字書則物理學
 <lb ed="TX" n="1385a03"/>也，詞章則製藥學也，疏證則藥品之陳列也，歷史則醫方之編集也。詩歌雖亦一種文
-<lb ed="TX" n="1385a04"/>體，然在文學，譬器用品中之瓶，多取瓶用。在美學則不徒重文<note n="1385a0401" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1385a0401"><lem wit="【太虛】">釆</lem><rdg resp="CBETA" type="cbetaRemark">采</rdg></app>，而尤重音節，如
+<lb ed="TX" n="1385a04"/>體，然在文學，譬器用品中之瓶，多取瓶用。在美學則不徒重文<note 
+n="1385a0401" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1385a0401">
+  <lem wit="【太虛】">釆</lem>
+  <rdg resp="CBETA" type="cbetaRemark">采</rdg>
+</app>，而尤重音節，如
 <lb ed="TX" n="1385a05"/>珍玩品中之瓶，取供陳之美觀，不必取其用。希臘美術，古時以鏤塑術為大宗；即中
 <lb ed="TX" n="1385a06"/>華之摹刻、金石學等，亦應屬之雕鏤術。技擊、即柔術、劍術等，故以雜藝概其凡而
 <lb ed="TX" n="1385a07"/>等取之。美學中餘者可知。宗者、總持——有學者以哲學為科學之總和，義亦符合—
@@ -833,7 +852,11 @@
 <lb ed="TX" n="1388a09"/>學總表天竺宗學，故以內外別之。外之六派，雖非佛學，而佛學中固多引之而為破斥
 <lb ed="TX" n="1388a10"/>。且中華佛藏中，向譯有天竺佛學外最高之勝論、數論二派宗本義，而在日本學佛者
 <lb ed="TX" n="1388a11"/>，新近更有譯；且其精義，佛學固皆挾有之——然六派中吠檀陀派，其先亦本是一
-<lb ed="TX" n="1388a12"/>神教或二神教，唯近世則大放異<note n="1388a1201" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1388a1201"><lem wit="【太虛】">釆</lem><rdg resp="CBETA" type="cbetaRemark">采</rdg></app>，完全脫離舊義，同乎近世歐哲之說明神義或高過
+<lb ed="TX" n="1388a12"/>神教或二神教，唯近世則大放異<note 
+n="1388a1201" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1388a1201">
+  <lem wit="【太虛】">釆</lem>
+  <rdg resp="CBETA" type="cbetaRemark">采</rdg>
+</app>，完全脫離舊義，同乎近世歐哲之說明神義或高過
 <pb ed="TX" xml:id="TX23.0013.1389a" n="1389a"/>
 <lb ed="TX" n="1389a01"/>之。餘有四派皆無神。此六派中，亦雜神話或事學等，神話無研究地，故當與學術分
 <lb ed="TX" n="1389a02"/>別之——，故得舉佛學概之。勝論、數論，其義皆高過希臘諸哲遠甚；歐學、昔之大
@@ -1074,7 +1097,8 @@
 <lb ed="TX" n="1407a03"/>此則吾一人心中之觀念耳；更微析之，與年俱化，此特吾心今日之觀念耳。勤而行之
 <lb ed="TX" n="1407a04"/>，是在上士！而吾及吾人現在各各客觀中所實有之中華民國國民，其所當張施之教育
 <lb ed="TX" n="1407a05"/>，則從幼學程度而增進之焉耳！邦人君子，其儻得吾心之同然歟？如曰不然，任之自
-<lb ed="TX" n="1407a06"/>取。</p></cb:div><byline cb:type="other">（見道學論衡）</byline></cb:div>
+<lb ed="TX" n="1407a06"/>取。</p></cb:div>
+<byline cb:type="other">（見道學論衡）</byline></cb:div>
 <milestone unit="juan" n="123"/>
 <pb ed="TX" xml:id="TX23.0013.1408a" n="1408a"/>
 <lb ed="TX" n="1408a01"/><cb:div type="other"><cb:mulu type="其他" level="2">論教育</cb:mulu><head>論教育</head>
@@ -1125,7 +1149,8 @@
 <lb ed="TX" n="1411a08"/>故能得各教育之利而不受其弊，乃能得真富強、真倫理、真天國，乃至無上菩提之圓
 <lb ed="TX" n="1411a09"/>滿目的矣。</p>
 <lb ed="TX" n="1411a10"/><p xml:id="pTX23p1411a1001" style="margin-left:0em;text-indent:2em">上來所講，佛化為上。雖然、法不自法，宏之在人，惟望爾等出院後，本菩薩心
-<lb ed="TX" n="1411a11"/>，行菩薩行，將所學之法普及全人類，以濟教育之弊，是則吾之夙願遂矣！</p><byline cb:type="other">（滿智記
+<lb ed="TX" n="1411a11"/>，行菩薩行，將所學之法普及全人類，以濟教育之弊，是則吾之夙願遂矣！</p>
+<byline cb:type="other">（滿智記
 <lb ed="TX" n="1411a12"/>）（見海刊五卷七期）</byline></cb:div>
 <milestone unit="juan" n="124"/>
 <pb ed="TX" xml:id="TX23.0013.1412a" n="1412a"/>
@@ -1181,7 +1206,8 @@
 <lb ed="TX" n="1415a12"/>，一方喚起全人類世界小中大學之教員與學生皆同情於此之運動。全世界之教育界，
 <pb ed="TX" xml:id="TX23.0013.1416a" n="1416a"/>
 <lb ed="TX" n="1416a01"/>若能以堅決一致之主張，下百年樹人之工夫，則百年之後，大同的道德教育行，而和
-<lb ed="TX" n="1416a02"/>平世界亦造成矣！</p><byline cb:type="other">（見海刊九卷五期）</byline></cb:div>
+<lb ed="TX" n="1416a02"/>平世界亦造成矣！</p>
+<byline cb:type="other">（見海刊九卷五期）</byline></cb:div>
 <milestone unit="juan" n="125"/>
 <pb ed="TX" xml:id="TX23.0013.1417a" n="1417a"/>
 <lb ed="TX" n="1417a01"/><cb:div type="other"><cb:mulu type="其他" level="2">全國教育會議提議案</cb:mulu><head>全國教育會議提議案</head>
@@ -1388,7 +1414,8 @@
 <lb ed="TX" n="1433a05"/>改良發達佛寺之僧務。這是現今各處辦僧教育的、所應深深注意的。要之、辦僧教育
 <lb ed="TX" n="1433a06"/>，一方面須認清「造成住持佛教的僧寶」之宗旨以求貫澈；一方面又須適應現今寺院
 <lb ed="TX" n="1433a07"/>僧伽的實際生活以求逐漸的推進。果能這個樣子以辦僧教育，才可以算做一件的功德
-<lb ed="TX" n="1433a08"/>。不然，那又未免與辦現今一般教育的、一樣是罪過了！</p><byline cb:type="other">（見海刊十二卷八期）</byline></cb:div>
+<lb ed="TX" n="1433a08"/>。不然，那又未免與辦現今一般教育的、一樣是罪過了！</p>
+<byline cb:type="other">（見海刊十二卷八期）</byline></cb:div>
 <milestone unit="juan" n="127"/>
 <pb ed="TX" xml:id="TX23.0013.1434a" n="1434a"/>
 <lb ed="TX" n="1434a01"/><cb:div type="other"><cb:mulu type="其他" level="2">釋迦牟尼的教育</cb:mulu><head>釋迦牟尼的教育</head>
@@ -1500,7 +1527,8 @@
 <lb ed="TX" n="1442a05"/>現實。</p>
 <lb ed="TX" n="1442a06"/><p xml:id="pTX23p1442a0601" style="margin-left:0em;text-indent:2em">釋迦牟尼的教育，確具足這兩大方針——主旨的貫徹與現實的適應，而又有實施
 <lb ed="TX" n="1442a07"/>辦法的。所以、我今天提出來與在座的各位討論，也無非希望喚起中國教育界的注意
-<lb ed="TX" n="1442a08"/>，大家來共同參酌，以建設現代中國健全的教育。</p><byline cb:type="other">二〇，一，二三。（芝峰記）（見
+<lb ed="TX" n="1442a08"/>，大家來共同參酌，以建設現代中國健全的教育。</p>
+<byline cb:type="other">二〇，一，二三。（芝峰記）（見
 <lb ed="TX" n="1442a09"/>海刊十二卷八期）</byline></cb:div>
 <milestone unit="juan" n="128"/>
 <pb ed="TX" xml:id="TX23.0013.1443a" n="1443a"/>
@@ -1579,7 +1607,8 @@
 <lb ed="TX" n="1448a09"/>？當於五明處求。五明就是：聲明、因明、工巧明、醫藥明、內明；等於現在的社會
 <lb ed="TX" n="1448a10"/>科學、自然科學和哲學。要成滿菩提佛果，就是要從不離群眾學術中尋求。</p>
 <lb ed="TX" n="1448a11"/><p xml:id="pTX23p1448a1101" style="margin-left:0em;text-indent:2em">概括起來說：教育不出智、德、體三育，佛法亦不出戒、定、慧三學；如此、佛
-<lb ed="TX" n="1448a12"/>法就是教育的三育，三育的育教也可通於佛法，故特將此意提出，供各位的參考！</p><byline cb:type="other">（
+<lb ed="TX" n="1448a12"/>法就是教育的三育，三育的育教也可通於佛法，故特將此意提出，供各位的參考！</p>
+<byline cb:type="other">（
 <pb ed="TX" xml:id="TX23.0013.1449a" n="1449a"/>
 <lb ed="TX" n="1449a01"/>葦舫記）（見海刊二十五卷七八期合刊）</byline></cb:div>
 <milestone unit="juan" n="129"/>
@@ -1625,10 +1654,12 @@
 <lb ed="TX" n="1453a01"/><p xml:id="pTX23p1453a0101" style="margin-left:0em;text-indent:2em">總之、任孤兒教育者，必能體慈悲之旨而具有慈母心腸者；能根據教育原理以發
 <lb ed="TX" n="1453a02"/>揮其精神；能了解分別各個孤兒之品性，而實施其教育之方針；能在孤兒中立真摯誠
 <lb ed="TX" n="1453a03"/>毅之品格為之模範；能負積極之責任，使孤兒出院後對於立身處世之原則有充分之準
-<lb ed="TX" n="1453a04"/>備者，庶幾可矣！</p><byline cb:type="other">（見海刊八卷七期）</byline></cb:div></cb:div>
+<lb ed="TX" n="1453a04"/>備者，庶幾可矣！</p>
+<byline cb:type="other">（見海刊八卷七期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="130"/>
 <pb ed="TX" xml:id="TX23.0013.1454a" n="1454a"/>
-<lb ed="TX" n="1454a01"/><cb:div type="other"><cb:mulu type="其他" level="1">健康</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">家齊國治天下平之大本原</cb:mulu><head>家齊國治天下平之大本原</head>
+<lb ed="TX" n="1454a01"/><cb:div type="other"><cb:mulu type="其他" level="1">健康</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">家齊國治天下平之大本原</cb:mulu><head>家齊國治天下平之大本原</head>
 <lb ed="TX" n="1454a02"/><byline cb:type="other">——七年秋作——</byline>
 <lb ed="TX" n="1454a03"/><p xml:id="pTX23p1454a0301" style="margin-left:0em;text-indent:2em">孔氏之門，有大學之道，將以親民而先之以明明德。親民者，齊家、治國、平天
 <lb ed="TX" n="1454a04"/>下也。明明德者，修身也。故曰：「自天子以至庶人，壹是皆以修身為本」。夫修身
@@ -1660,7 +1691,8 @@
 <lb ed="TX" n="1456a05"/>？然之數者，僅能修治物身，且於物身亦未能完全修治也。不知身者固兼夫知身、意
 <lb ed="TX" n="1456a06"/>身、心身而言，統修乎物、知、意、心之全，乃得謂之修治其身耳。必焉調和其體氣
 <lb ed="TX" n="1456a07"/>，融化其物欲，安固其情性，精濬其神靈，然後一身粹美，萬事順成。茲述其要於此
-<lb ed="TX" n="1456a08"/>，勤而行之，是在上士。</p><byline cb:type="other">（見覺社叢書第一期）</byline>
+<lb ed="TX" n="1456a08"/>，勤而行之，是在上士。</p>
+<byline cb:type="other">（見覺社叢書第一期）</byline>
 <lb ed="TX" n="1456a09"/><p xml:id="pTX23p1456a0901" style="margin-left:6em;text-indent:-4em">（附註）此下備述調身調息調心之修身法，以編入佛教救世主義，今略之。</p></cb:div>
 <milestone unit="juan" n="131"/>
 <pb ed="TX" xml:id="TX23.0013.1457a" n="1457a"/>
@@ -1724,7 +1756,11 @@
 <lb ed="TX" n="1461a07"/>品，且能療人之病。如對病人說一句話，使病者得精神之愉快，病即消除。故耶穌說
 <lb ed="TX" n="1461a08"/>人腳無病，病腳者即能行路。此他無，因其有禪定之力，故獲此等之功效，亦無若何
 <lb ed="TX" n="1461a09"/>之希奇也。總上二種醫藥，俱非究竟。假使入無色定，尚不免舊病復生，況其餘乎？</p>
-<lb ed="TX" n="1461a10"/><p xml:id="pTX23p1461a1001" style="margin-left:0em;text-indent:2em">三、以究竟的無身界、受用身治：究竟使人身不自然的病斷除盡<note n="1461a1001" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1461a1001"><lem wit="【太虛】">凈</lem><rdg resp="CBETA" type="cbetaRemark">淨</rdg></app>，不復萌生，
+<lb ed="TX" n="1461a10"/><p xml:id="pTX23p1461a1001" style="margin-left:0em;text-indent:2em">三、以究竟的無身界、受用身治：究竟使人身不自然的病斷除盡<note 
+n="1461a1001" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1461a1001">
+  <lem wit="【太虛】">凈</lem>
+  <rdg resp="CBETA" type="cbetaRemark">淨</rdg>
+</app>，不復萌生，
 <lb ed="TX" n="1461a11"/>須是無身如小乘涅槃。無身無病，惟非我人初心本願。要得金剛身無諸病患，獨有大
 <lb ed="TX" n="1461a12"/>乘佛果受用身，所謂四智菩提身，究竟清淨盡未來際也。</p>
 <pb ed="TX" xml:id="TX23.0013.1462a" n="1462a"/>
@@ -1775,7 +1811,8 @@
 <lb ed="TX" n="1465a07"/>無心位。不過、非我人所欲得有心無病之本願，惟大乘聖道心——登地菩薩——以上
 <lb ed="TX" n="1465a08"/>，此等病既不復發生，漸獲究竟佛果聖道四智菩提心。不獨對於心的不自然病不起，
 <lb ed="TX" n="1465a09"/>即身的自然、不自然與心的自然病，皆根本拔除，且圓滿成就乎身心上不思議之大用
-<lb ed="TX" n="1465a10"/>矣。</p><byline cb:type="other">（象賢記）（見海刊七卷四期）</byline></cb:div>
+<lb ed="TX" n="1465a10"/>矣。</p>
+<byline cb:type="other">（象賢記）（見海刊七卷四期）</byline></cb:div>
 <milestone unit="juan" n="132"/>
 <pb ed="TX" xml:id="TX23.0013.1466a" n="1466a"/>
 <lb ed="TX" n="1466a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學與醫學</cb:mulu><head>佛學與醫學</head>
@@ -1833,7 +1870,8 @@
 <lb ed="TX" n="1470a02"/>一切自然現象都不起衝突，而成功所謂極樂世界矣。因此、我敢說宇宙的一切，都是
 <lb ed="TX" n="1470a03"/>醫學的對象；一切的知識，都是醫學的知識，一切的法則，都是醫學的法則；一切的
 <lb ed="TX" n="1470a04"/>功用，都是醫學的功用。佛學應病與藥，當然也就是廣義醫學。拉雜的說一點，還請
-<lb ed="TX" n="1470a05"/>諸位指教！</p><byline cb:type="other">（濮季南記）（見海刊二十三卷三四期合刊）</byline></cb:div>
+<lb ed="TX" n="1470a05"/>諸位指教！</p>
+<byline cb:type="other">（濮季南記）（見海刊二十三卷三四期合刊）</byline></cb:div>
 <milestone unit="juan" n="133"/>
 <pb ed="TX" xml:id="TX23.0013.1471a" n="1471a"/>
 <lb ed="TX" n="1471a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學之心理衛生</cb:mulu><head>佛學之心理衛生</head>
@@ -1883,7 +1921,11 @@
 <lb ed="TX" n="1474a07"/>恐懼，過度疑人，視人生如苦役，目現實若虛無，對事則懈惰敷衍，對人則傾
 <lb ed="TX" n="1474a08"/>軋嫉忌，或則自卑無地 Inferiority Complex 或則自視過高 Superiority Complex
 <lb ed="TX" n="1474a09"/> 皆是。或謂此等現象乃環境所造成，然而飛機轟炸，人所共畏，乃或則在轟炸
-<lb ed="TX" n="1474a10"/>中往來自若，神色不變，或則倉皇驚走，手足失措。天者人之所共戴，而<note n="1474a1001" resp="CBETA" type="add" rend="hide">杞【CB】，𣏌【太虛】</note><app n="1474a1001"><lem wit="【太虛】">𣏌</lem><rdg resp="CBETA" type="cbetaRemark">杞</rdg></app>人
+<lb ed="TX" n="1474a10"/>中往來自若，神色不變，或則倉皇驚走，手足失措。天者人之所共戴，而<note 
+n="1474a1001" resp="CBETA" type="add" rend="hide">杞【CB】，𣏌【太虛】</note><app n="1474a1001">
+  <lem wit="【太虛】">𣏌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">杞</rdg>
+</app>人
 <lb ed="TX" n="1474a11"/>則憂天之墜，皇皇不可終日。此種心理失常之現象，決不能全諉之社會環境。
 <lb ed="TX" n="1474a12"/>舉此一例，可概其餘。</p>
 <pb ed="TX" xml:id="TX23.0013.1475a" n="1475a"/>
@@ -1954,7 +1996,11 @@
 <lb ed="TX" n="1480a06"/>甚關係。但一究其實，則相關之處甚多，今請分述如下：</p>
 <lb ed="TX" n="1480a07"/><p xml:id="pTX23p1480a0701" style="margin-left:0em;text-indent:2em">一、佛學原理與國術原理之一致　國術以鍛鍊身體使健全無疾病為原理。佛學亦
 <lb ed="TX" n="1480a08"/>以鍛鍊心身使健全無疾病為原理。惟其入手之處則不同，國術以鍊身為入手，鍛鍊身
-<lb ed="TX" n="1480a09"/>體而<note n="1480a0901" resp="CBETA" type="add" rend="hide">祛【CB】，袪【太虛】</note><app n="1480a0901"><lem wit="【太虛】">袪</lem><rdg resp="CBETA" type="cbetaRemark">祛</rdg></app>風寒濕熱虛弱癆傷等症；佛學則先從精神方面著手，從心至身，使心身健康而
+<lb ed="TX" n="1480a09"/>體而<note 
+n="1480a0901" resp="CBETA" type="add" rend="hide">祛【CB】，袪【太虛】</note><app n="1480a0901">
+  <lem wit="【太虛】">袪</lem>
+  <rdg resp="CBETA" type="cbetaRemark">祛</rdg>
+</app>風寒濕熱虛弱癆傷等症；佛學則先從精神方面著手，從心至身，使心身健康而
 <lb ed="TX" n="1480a10"/>解脫老病等苦。人類精神上有種種疾病，一若肉體上之風寒濕熱。其病維何？即貪、
 <lb ed="TX" n="1480a11"/>瞋、癡、慢等。此貪等病，由於六根、六塵所感起之七情、六慾，其痛苦殆又甚於風
 <pb ed="TX" xml:id="TX23.0013.1481a" n="1481a"/>
@@ -2058,11 +2104,13 @@
 <lb ed="TX" n="1488a07"/>亦不能作中流砥柱，為時代之表式。今欲求中國民族之重興，中國佛教之復振，必須
 <lb ed="TX" n="1488a08"/>提倡健強術。為士者恢復其固有之尚武精神，學佛者振作其大雄大力之精神，乃能復
 <lb ed="TX" n="1488a09"/>興民族，重光佛日！茲故略說二者之關係如上，深望諸君能了此復興民族與佛教之重
-<lb ed="TX" n="1488a10"/>任，努力振作，提倡健強術，民族、佛教實利賴之！此則予講此題之微意也！</p><byline cb:type="other">（法智
+<lb ed="TX" n="1488a10"/>任，努力振作，提倡健強術，民族、佛教實利賴之！此則予講此題之微意也！</p>
+<byline cb:type="other">（法智
 <lb ed="TX" n="1488a11"/>、傳戒合記）（見海刊十二卷十一期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="135"/>
 <pb ed="TX" xml:id="TX23.0013.1489a" n="1489a"/>
-<lb ed="TX" n="1489a01"/><cb:div type="other"><cb:mulu type="其他" level="1">文藝</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">六離合辭例釋義</cb:mulu><head>六離合辭例釋義</head>
+<lb ed="TX" n="1489a01"/><cb:div type="other"><cb:mulu type="其他" level="1">文藝</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">六離合辭例釋義</cb:mulu><head>六離合辭例釋義</head>
 <lb ed="TX" n="1489a02"/><byline cb:type="other">——七年秋作——</byline>
 <lb ed="TX" n="1489a03"/><cb:div type="other"><cb:mulu type="其他" level="3">一　六離合釋法原文</cb:mulu><head>一　六離合釋法原文</head>
 <lb ed="TX" n="1489a04"/><p xml:id="pTX23p1489a0401" style="margin-left:0em;text-indent:2em">西方釋名，有其六種：一、依主，二、持業，三、有財，四、相違，五、帶數，
@@ -2171,7 +2219,8 @@
 <lb ed="TX" n="1496a05"/><p xml:id="pTX23p1496a0501" style="margin-left:0em;text-indent:2em">八、喜怒哀樂愛惡欲之七，即是情，故曰持業帶數。</p>
 <lb ed="TX" n="1496a06"/><p xml:id="pTX23p1496a0601" style="margin-left:0em;text-indent:2em">九、天之才、地之才、人之才之三才，故為依士帶數。</p>
 <lb ed="TX" n="1496a07"/><p xml:id="pTX23p1496a0701" style="margin-left:0em;text-indent:2em">十、一十百千，並立不關相屬，故名相違。又即是數，故為相違帶數。</p>
-<lb ed="TX" n="1496a08"/><p xml:id="pTX23p1496a0801" style="margin-left:0em;text-indent:2em">其餘概可准知。「相違帶數」、「鄰近帶數」二類，今依義新立也。</p></cb:div><byline cb:type="other">（見覺社叢
+<lb ed="TX" n="1496a08"/><p xml:id="pTX23p1496a0801" style="margin-left:0em;text-indent:2em">其餘概可准知。「相違帶數」、「鄰近帶數」二類，今依義新立也。</p></cb:div>
+<byline cb:type="other">（見覺社叢
 <lb ed="TX" n="1496a09"/>書一期）</byline></cb:div>
 <milestone unit="juan" n="136"/>
 <pb ed="TX" xml:id="TX23.0013.1497a" n="1497a"/>
@@ -2226,18 +2275,27 @@
 <lb ed="TX" n="1500a11"/>生之三民主義史觀，方足統攝過去、把握現在、刱造將來而可大可久。夫三民主義之
 <lb ed="TX" n="1500a12"/>體系既如是精深而廣博，則發揚三民主義主要工具之文藝，安可無此「我們所需要之
 <pb ed="TX" xml:id="TX23.0013.1501a" n="1501a"/>
-<lb ed="TX" n="1501a01"/>文藝政策」哉？是誠全國文藝界未可掉以輕心，而當以審慎出之者也！</p><byline cb:type="other">（見文藝先鋒
+<lb ed="TX" n="1501a01"/>文藝政策」哉？是誠全國文藝界未可掉以輕心，而當以審慎出之者也！</p>
+<byline cb:type="other">（見文藝先鋒
 <lb ed="TX" n="1501a02"/>二卷四期）</byline></cb:div>
 <milestone unit="juan" n="137"/>
 <pb ed="TX" xml:id="TX23.0013.1502a" n="1502a"/>
 <lb ed="TX" n="1502a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛法與美</cb:mulu><head>佛法與美</head>
 <lb ed="TX" n="1502a02"/><byline cb:type="other">——十七年冬在法國巴黎佛教美術會講——</byline>
-<lb ed="TX" n="1502a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX23p1502a0301"><p xml:id="pTX23p1502a0301" style="margin-left:4em;text-indent:-2em">一　美與佛的教訓</p></item>
-<lb ed="TX" n="1502a04"/><item xml:id="itemTX23p1502a0401"><p xml:id="pTX23p1502a0401" style="margin-left:4em;text-indent:-2em">二　佛陀法界之人生美</p></item>
-<lb ed="TX" n="1502a05"/><item xml:id="itemTX23p1502a0501"><p xml:id="pTX23p1502a0501" style="margin-left:4em;text-indent:-2em">三　佛陀法界之自然美</p></item>
-<lb ed="TX" n="1502a06"/><item xml:id="itemTX23p1502a0601"><p xml:id="pTX23p1502a0601" style="margin-left:4em;text-indent:-2em">四　從佛法中流布到人間的文學美</p></item>
-<lb ed="TX" n="1502a07"/><item xml:id="itemTX23p1502a0701"><p xml:id="pTX23p1502a0701" style="margin-left:4em;text-indent:-2em">五　從佛法中流布到人間的藝術美</p></item>
-<lb ed="TX" n="1502a08"/><item xml:id="itemTX23p1502a0801"><p xml:id="pTX23p1502a0801" style="margin-left:4em;text-indent:-2em">六　結論</p></item></list></cb:div>
+<lb ed="TX" n="1502a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX23p1502a0301"><p xml:id="pTX23p1502a0301" style="margin-left:4em;text-indent:-2em">一　美與佛的教訓</p></item>
+<lb ed="TX" n="1502a04"/>
+  <item xml:id="itemTX23p1502a0401"><p xml:id="pTX23p1502a0401" style="margin-left:4em;text-indent:-2em">二　佛陀法界之人生美</p></item>
+<lb ed="TX" n="1502a05"/>
+  <item xml:id="itemTX23p1502a0501"><p xml:id="pTX23p1502a0501" style="margin-left:4em;text-indent:-2em">三　佛陀法界之自然美</p></item>
+<lb ed="TX" n="1502a06"/>
+  <item xml:id="itemTX23p1502a0601"><p xml:id="pTX23p1502a0601" style="margin-left:4em;text-indent:-2em">四　從佛法中流布到人間的文學美</p></item>
+<lb ed="TX" n="1502a07"/>
+  <item xml:id="itemTX23p1502a0701"><p xml:id="pTX23p1502a0701" style="margin-left:4em;text-indent:-2em">五　從佛法中流布到人間的藝術美</p></item>
+<lb ed="TX" n="1502a08"/>
+  <item xml:id="itemTX23p1502a0801"><p xml:id="pTX23p1502a0801" style="margin-left:4em;text-indent:-2em">六　結論</p></item>
+</list></cb:div>
 <lb ed="TX" n="1502a09"/>
 <lb ed="TX" n="1502a10"/><cb:div type="other"><cb:mulu type="其他" level="3">一　美與佛的教訓</cb:mulu><head>一　美與佛的教訓</head>
 <lb ed="TX" n="1502a11"/><p xml:id="pTX23p1502a1101" style="margin-left:0em;text-indent:2em">佛陀教誡諸弟子，作不淨觀，觀人的身命，以及萬有的身命，皆為不淨，使之厭
@@ -2313,10 +2371,18 @@
 <pb ed="TX" xml:id="TX23.0013.1508a" n="1508a"/>
 <lb ed="TX" n="1508a01"/>般聽眾對於佛陀之稱讚歌誦，猶未具體表現於文學。已而有第一次、第二次、第三次
 <lb ed="TX" n="1508a02"/>之三藏結集，尚傳持於口誦，及著為質樸說理之經、律、論等。佛滅後五百年，有大
-<lb ed="TX" n="1508a03"/>詩人馬鳴，著佛本行讚，文<note n="1508a0301" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1508a0301"><lem wit="【太虛】">釆</lem><rdg resp="CBETA" type="cbetaRemark">采</rdg></app>斐然，為一般印度人所傳誦；於是佛教遂於印度民族中
+<lb ed="TX" n="1508a03"/>詩人馬鳴，著佛本行讚，文<note 
+n="1508a0301" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="1508a0301">
+  <lem wit="【太虛】">釆</lem>
+  <rdg resp="CBETA" type="cbetaRemark">采</rdg>
+</app>斐然，為一般印度人所傳誦；於是佛教遂於印度民族中
 <lb ed="TX" n="1508a04"/>，發生偉大之美的文學。已而大乘之法華經、華嚴經、及稱讚諸佛淨土經等次第流傳
 <lb ed="TX" n="1508a05"/>，在印度文學中乃呈深博雄麗之奇觀。傳入中國，於中國濃厚之文學風氣中，演生為
-<lb ed="TX" n="1508a06"/>天台宗、華嚴宗、<note n="1508a0601" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1508a0601"><lem wit="【太虛】">凈</lem><rdg resp="CBETA" type="cbetaRemark">淨</rdg></app>土宗諸派之學說，類皆臻文學作品之上乘，其影響於中國六朝、
+<lb ed="TX" n="1508a06"/>天台宗、華嚴宗、<note 
+n="1508a0601" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1508a0601">
+  <lem wit="【太虛】">凈</lem>
+  <rdg resp="CBETA" type="cbetaRemark">淨</rdg>
+</app>土宗諸派之學說，類皆臻文學作品之上乘，其影響於中國六朝、
 <lb ed="TX" n="1508a07"/>隋、唐以來之學者殊鉅。尤以中國之禪宗文學為最奇特：一方則超脫一切經、律、論
 <lb ed="TX" n="1508a08"/>、疏之學說拘束，直探赤裸裸地佛陀真覺界；一方則應用風光景物，細語麤言顯第一
 <lb ed="TX" n="1508a09"/>義。故既用當時的通俗話，以表其當時妙悟之真理，刱成極優美之語體文學，又刱成
@@ -2329,24 +2395,39 @@
 <lb ed="TX" n="1509a03"/>觴於佛陀住世之時，若祗洹精舍、竹林精舍等，屋宇之建築，以及靈鷲山等巖窟之禪
 <lb ed="TX" n="1509a04"/>室，今已為發掘古物者之所稱道。他若佛史上有名的旃檀佛像的彫刻，比邱等讀誦之
 <lb ed="TX" n="1509a05"/>有音律為節，起居之有樂器相應，而壁畫亦發其端者。其後、與希臘、波斯等美術相
-<lb ed="TX" n="1509a06"/>影響，先有表現佛<note n="1509a0601" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1509a0601"><lem wit="【太虛】">凈</lem><rdg resp="CBETA" type="cbetaRemark">淨</rdg></app>土之宮殿建築、形像彫塑，而佛教之音樂、圖畫等，亦以之日滋
+<lb ed="TX" n="1509a06"/>影響，先有表現佛<note 
+n="1509a0601" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1509a0601">
+  <lem wit="【太虛】">凈</lem>
+  <rdg resp="CBETA" type="cbetaRemark">淨</rdg>
+</app>土之宮殿建築、形像彫塑，而佛教之音樂、圖畫等，亦以之日滋
 <lb ed="TX" n="1509a07"/>。中國承之，有梵唄等音樂，及諸塔像、圖畫等，後期演為真言宗的風尚，其四曼陀
 <lb ed="TX" n="1509a08"/>羅之陳設，三密相應之儀軌，尤完全以組織的調和的之建築，彫塑、圖畫等藝術，以
 <lb ed="TX" n="1509a09"/>為體達其理觀，摹寫其實證之工具。至今攷徵之，由印度傳於西藏之佛教藝術，及由
 <lb ed="TX" n="1509a10"/>中國傳於日本之佛教藝術，為全世界之研究東方藝術者，所稱美無窮者也！</p></cb:div>
 <lb ed="TX" n="1509a11"/><cb:div type="other"><cb:mulu type="其他" level="3">六　結論</cb:mulu><head>六　結論</head>
 <pb ed="TX" xml:id="TX23.0013.1510a" n="1510a"/>
-<lb ed="TX" n="1510a01"/><p xml:id="pTX23p1510a0101" style="margin-left:0em;text-indent:2em">然佛法之文藝美，乃出於佛智相應之最清<note n="1510a0101" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1510a0101"><lem wit="【太虛】">凈</lem><rdg resp="CBETA" type="cbetaRemark">淨</rdg></app>法界等流者，應從佛教之文藝流，而
+<lb ed="TX" n="1510a01"/><p xml:id="pTX23p1510a0101" style="margin-left:0em;text-indent:2em">然佛法之文藝美，乃出於佛智相應之最清<note 
+n="1510a0101" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1510a0101">
+  <lem wit="【太虛】">凈</lem>
+  <rdg resp="CBETA" type="cbetaRemark">淨</rdg>
+</app>法界等流者，應從佛教之文藝流，而
 <lb ed="TX" n="1510a02"/>探索其源，勿逐流而忘源，方合於佛法表現諸美之宗旨，是則所應鄭重申明於研究佛
-<lb ed="TX" n="1510a03"/>教美術諸君之前者也。</p></cb:div><byline cb:type="other">（見海刊第九卷第十二期）</byline></cb:div>
+<lb ed="TX" n="1510a03"/>教美術諸君之前者也。</p></cb:div>
+<byline cb:type="other">（見海刊第九卷第十二期）</byline></cb:div>
 <milestone unit="juan" n="138"/>
 <pb ed="TX" xml:id="TX23.0013.1511a" n="1511a"/>
 <lb ed="TX" n="1511a01"/><cb:div type="other"><cb:mulu type="其他" level="2">美術與佛學</cb:mulu><head>美術與佛學</head>
 <lb ed="TX" n="1511a02"/><byline cb:type="other">——十八年十一月在長沙華中美術專校講——</byline>
-<lb ed="TX" n="1511a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX23p1511a0301"><p xml:id="pTX23p1511a0301" style="margin-left:4em;text-indent:-2em">一　我之美術觀</p></item>
-<lb ed="TX" n="1511a04"/><item xml:id="itemTX23p1511a0401"><p xml:id="pTX23p1511a0401" style="margin-left:4em;text-indent:-2em">二　佛學與美術</p></item>
-<lb ed="TX" n="1511a05"/><item xml:id="itemTX23p1511a0501"><p xml:id="pTX23p1511a0501" style="margin-left:4em;text-indent:-2em">三　佛教美術在美術界之位置</p></item>
-<lb ed="TX" n="1511a06"/><item xml:id="itemTX23p1511a0601"><p xml:id="pTX23p1511a0601" style="margin-left:4em;text-indent:-2em">四　在今日中國提倡美術之功效</p></item></list></cb:div>
+<lb ed="TX" n="1511a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX23p1511a0301"><p xml:id="pTX23p1511a0301" style="margin-left:4em;text-indent:-2em">一　我之美術觀</p></item>
+<lb ed="TX" n="1511a04"/>
+  <item xml:id="itemTX23p1511a0401"><p xml:id="pTX23p1511a0401" style="margin-left:4em;text-indent:-2em">二　佛學與美術</p></item>
+<lb ed="TX" n="1511a05"/>
+  <item xml:id="itemTX23p1511a0501"><p xml:id="pTX23p1511a0501" style="margin-left:4em;text-indent:-2em">三　佛教美術在美術界之位置</p></item>
+<lb ed="TX" n="1511a06"/>
+  <item xml:id="itemTX23p1511a0601"><p xml:id="pTX23p1511a0601" style="margin-left:4em;text-indent:-2em">四　在今日中國提倡美術之功效</p></item>
+</list></cb:div>
 <lb ed="TX" n="1511a07"/>
 <lb ed="TX" n="1511a08"/><cb:div type="other"><cb:mulu type="其他" level="3">一　我之美術觀</cb:mulu><head>一　我之美術觀</head>
 <lb ed="TX" n="1511a09"/><p xml:id="pTX23p1511a0901" style="margin-left:0em;text-indent:2em">甲、美術之來源：美術由工藝、文學二要素所構成；工藝產生乎科學，文學源出
@@ -2388,7 +2469,11 @@
 <lb ed="TX" n="1514a01"/>中，一切憂鬱悲憤因以忘失，所謂美術能超脫現實之世界者是。故西洋人謂美術可以
 <lb ed="TX" n="1514a02"/>代替宗教，但最高之美術雖可使人忘失憂患，可云有宗教之一分作用，以信仰宗教者
 <lb ed="TX" n="1514a03"/>，有別一之美滿世界、為其精神之所寄托，美術亦復如是但以言。信佛教，則絕然不
-<lb ed="TX" n="1514a04"/>同。以佛教是由根本了解宇宙人生之真相，出離悲苦——即現實之世界，成真<note n="1514a0401" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1514a0401"><lem wit="【太虛】">凈</lem><rdg resp="CBETA" type="cbetaRemark">淨</rdg></app>無障
+<lb ed="TX" n="1514a04"/>同。以佛教是由根本了解宇宙人生之真相，出離悲苦——即現實之世界，成真<note 
+n="1514a0401" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="1514a0401">
+  <lem wit="【太虛】">凈</lem>
+  <rdg resp="CBETA" type="cbetaRemark">淨</rdg>
+</app>無障
 <lb ed="TX" n="1514a05"/>礙真如法界，一切痛苦永消。美術雖有想像之美滿世界為其精神所寄托，但自然界之
 <lb ed="TX" n="1514a06"/>一切苦仍存而不失。故謂有普遍宗教之一分作用則可，謂能與佛教同一之結果者不可。</p></cb:div>
 <lb ed="TX" n="1514a07"/><cb:div type="other"><cb:mulu type="其他" level="3">二　佛學與美術</cb:mulu><head>二　佛學與美術</head>
@@ -2433,7 +2518,8 @@
 <lb ed="TX" n="1517a07"/>本生活充實起來，創造新的美術不可。新的美術出現，則人之精神高尚生活有以寄托
 <lb ed="TX" n="1517a08"/>，行為亦善，行為善則粗暴憂患自除，粗暴憂患除則中國亦成安寧之中國。若擬成此
 <lb ed="TX" n="1517a09"/>安寧之中國，在現代非保存國粹不可，保存國粹尤重保存佛教所有之造像、法物等，
-<lb ed="TX" n="1517a10"/>不要輕易毀棄。諸位有心盡力於美術者，當注意在斯。</p></cb:div><byline cb:type="other">（紹奘記）（見海刊十一卷一
+<lb ed="TX" n="1517a10"/>不要輕易毀棄。諸位有心盡力於美術者，當注意在斯。</p></cb:div>
+<byline cb:type="other">（紹奘記）（見海刊十一卷一
 <lb ed="TX" n="1517a11"/>期）</byline></cb:div>
 <milestone unit="juan" n="139"/>
 <pb ed="TX" xml:id="TX23.0013.1518a" n="1518a"/>
@@ -2491,5 +2577,6 @@
 <lb ed="TX" n="1522a01"/>各種的形像，皆含有深義。</p>
 <lb ed="TX" n="1522a02"/><p xml:id="pTX23p1522a0201" style="margin-left:0em;text-indent:2em">這樣說來，美術即是由自心覺悟，而用各種方法表顯出來，使他人也能得同樣的
 <lb ed="TX" n="1522a03"/>覺悟，這就是佛教藝術的真義。所以，由佛教產生美術，而美術亦可通達到佛教的實
-<lb ed="TX" n="1522a04"/>際。</p><byline cb:type="other">二十三年九月二十日。（葦舫記）（見海刊十五卷十期）</byline></cb:div></cb:div>
+<lb ed="TX" n="1522a04"/>際。</p>
+<byline cb:type="other">二十三年九月二十日。（葦舫記）（見海刊十五卷十期）</byline></cb:div></cb:div>
 </body></text></TEI>

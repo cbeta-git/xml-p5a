@@ -2,84 +2,86 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1353">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">東方最勝燈王陀羅尼經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1353 東方最勝燈王陀羅尼經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1353 東方最勝燈王陀羅尼經</title>
-			<author>隋 闍那崛多譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1353</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:49">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">東方最勝燈王陀羅尼經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1353 東方最勝燈王陀羅尼經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1353 東方最勝燈王陀羅尼經</title>
+      <author>隋 闍那崛多譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1353</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:49">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0866a08" ed="T"/>
 <lb n="0866a09" ed="T"/>
 <lb n="0866a10" ed="T"/><cb:div type="jing"><cb:docNumber>No. 1353 [Nos. 1351, 1352, 1354, 1355]</cb:docNumber>
-<lb n="0866a11" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0866002" resp="Taisho" type="orig" place="foot text">【原】麗本，此經宋元明三本俱缺</note>東方最勝燈王陀羅尼經</cb:jhead></cb:juan>
+<lb n="0866a11" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0866002" resp="Taisho" type="orig" place="foot text">【原】麗本，此經宋元明三本俱缺</note>東方最勝燈王陀羅尼經</cb:jhead></cb:juan>
 <lb n="0866a12" ed="T"/>
 <lb n="0866a13" ed="T"/><byline cb:type="Translator">大隋北印度三藏闍那崛多譯</byline>
-<lb n="0866a14" ed="T"/><p xml:id="pT21p0866a1401">如是我聞：</p><p xml:id="pT21p0866a1405" cb:place="inline">一時佛在舍衛國祇陀林中孤獨
+<lb n="0866a14" ed="T"/><p xml:id="pT21p0866a1401">如是我聞：</p>
+<p xml:id="pT21p0866a1405" cb:place="inline">一時佛在舍衛國祇陀林中孤獨
 <lb n="0866a15" ed="T"/>精舍，與大比丘僧千二百五十人俱，大菩薩
 <lb n="0866a16" ed="T"/>眾四萬人俱。娑婆世界主梵天王、釋提桓因，
 <lb n="0866a17" ed="T"/>四大天王，提頭賴吒天王、毘留勒叉天王、毘
@@ -87,7 +89,11 @@
 <lb n="0866a19" ed="T"/>大將軍。如是等諸天八萬四千呵利多，將其
 <lb n="0866a20" ed="T"/>子及眷屬，悉來會坐。</p>
 <lb n="0866a21" ed="T"/><p xml:id="pT21p0866a2101">爾時去此佛世界過十萬億佛土，有世界名眾
-<lb n="0866a22" ed="T"/>華，佛號最勝燈王如來等正覺，<note n="0866a2201" resp="CBETA" type="add">今【CB】【麗-CB】，本【大】</note><app n="0866a2201"><lem resp="CBETA.maha" wit="【CB】【麗-CB】">今<note type="cf1">K12n0349_p0062a13</note><note type="cf2">T21n1336_p0602c12</note></lem><rdg wit="【大】">本</rdg></app>現在說法。
+<lb n="0866a22" ed="T"/>華，佛號最勝燈王如來等正覺，<note 
+n="0866a2201" resp="CBETA" type="add">今【CB】【麗-CB】，本【大】</note><app n="0866a2201">
+  <lem resp="CBETA.maha" wit="【CB】【麗-CB】">今<note type="cf1">K12n0349_p0062a13</note><note type="cf2">T21n1336_p0602c12</note></lem>
+  <rdg wit="【大】">本</rdg>
+</app>現在說法。
 <lb n="0866a23" ed="T"/>遣二菩薩，一名大光、二名無量光，而告之曰：
 <lb n="0866a24" ed="T"/>「善男子！汝持此陀羅尼句，至娑婆世界與釋
 <lb n="0866a25" ed="T"/>迦牟尼佛。此呪多所饒益，能令眾生長夜安
@@ -143,7 +149,11 @@
 <lb n="0866c15" ed="T"/>十九億諸佛之所共說，若有違犯此呪及持
 <lb n="0866c16" ed="T"/>呪者奪其精氣，即為侵毀是諸佛已。」</p>
 <lb n="0866c17" ed="T"/><p xml:id="pT21p0866c1701">爾時釋迦牟尼佛告諸大眾：「我今亦欲說陀
-<lb n="0866c18" ed="T"/>羅尼句，用饒益眾生，令獲善利、色力名<note n="0866c1801" resp="CBETA" type="add">譽【CB】【麗-CB】，警【大】</note><app n="0866c1801"><lem resp="CBETA.maha" wit="【CB】【麗-CB】">譽<note type="cf1">K12n0349_p0063a11</note><note type="cf2">T21n1353_p0866a26</note></lem><rdg wit="【大】">警</rdg></app>。」即
+<lb n="0866c18" ed="T"/>羅尼句，用饒益眾生，令獲善利、色力名<note 
+n="0866c1801" resp="CBETA" type="add">譽【CB】【麗-CB】，警【大】</note><app n="0866c1801">
+  <lem resp="CBETA.maha" wit="【CB】【麗-CB】">譽<note type="cf1">K12n0349_p0063a11</note><note type="cf2">T21n1353_p0866a26</note></lem>
+  <rdg wit="【大】">警</rdg>
+</app>。」即
 <lb n="0866c19" ed="T"/>說呪曰：</p>
 <lb n="0866c20" ed="T"/><p xml:id="pT21p0866c2001" cb:type="dharani">「阿<g ref="#CB02256"/>　婆<g ref="#CB02256"/>　㖠<g ref="#CB02256"/>　拘㖠<g ref="#CB02256"/>　單祇　過單
 <lb n="0866c21" ed="T"/>祇　羅𣹜隷　樓漏隷　嗘隷　郫隷　押隷
@@ -187,26 +197,47 @@
 <lb n="0867a29" ed="T"/>摩隷　襜摩隷娑波呵」</p>
 <pb n="0867b" ed="T" xml:id="T21.1353.0867b"/>
 <lb n="0867b01" ed="T"/><p xml:id="pT21p0867b0101">爾時世尊即說偈言：</p>
-<lb n="0867b02" ed="T"/><lg xml:id="lgT21p0867b0201" type="regular" style="margin-left:1em;text-indent:-1em"><l>「此陀羅尼經，<caesura/>諸佛先已說，</l>
-<lb n="0867b03" ed="T"/><l>我今亦演暢，<caesura/>饒益諸眾生。</l>
-<lb n="0867b04" ed="T"/><l>若人信樂心，<caesura/>聞持如是呪，</l>
-<lb n="0867b05" ed="T"/><l>能增於辯才，<caesura/>其所往來處，</l>
-<lb n="0867b06" ed="T"/><l>不遭諸厄難，<caesura/>無有人非人，</l>
-<lb n="0867b07" ed="T"/><l>鳩槃富單那，<caesura/>不能作惱害，</l>
-<lb n="0867b08" ed="T"/><l>誦持此呪故。<caesura/>不為他所殺，</l>
-<lb n="0867b09" ed="T"/><l>誦持此呪故。<caesura/>天魔王波旬，</l>
-<lb n="0867b10" ed="T"/><l>欲界中特尊，<caesura/>不能作留難，</l>
-<lb n="0867b11" ed="T"/><l>誦持此經故。<caesura/>父母及兄弟，</l>
-<lb n="0867b12" ed="T"/><l>眷屬及親厚，<caesura/>不逢諸衰禍，</l>
-<lb n="0867b13" ed="T"/><l>誦持此經故。<caesura/>於百千億劫，</l>
-<lb n="0867b14" ed="T"/><l>造作不善業，<caesura/>十惡及五逆，</l>
-<lb n="0867b15" ed="T"/><l>七日能令滅，<caesura/>誦持此呪故。</l>
-<lb n="0867b16" ed="T"/><l>菩薩於億劫，<caesura/>積集諸功德，</l>
-<lb n="0867b17" ed="T"/><l>七日能令勝，<caesura/>誦持此呪故。</l>
-<lb n="0867b18" ed="T"/><l>四大天王尊，<caesura/>毘頭羅提頭，</l>
-<lb n="0867b19" ed="T"/><l>博叉毘留茶，<caesura/>大臣眾眷屬，</l>
-<lb n="0867b20" ed="T"/><l>歡喜而讚歎，<caesura/>恭敬常守護，</l>
-<lb n="0867b21" ed="T"/><l>誦持此呪故。」</l></lg>
+<lb n="0867b02" ed="T"/><lg xml:id="lgT21p0867b0201" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「此陀羅尼經，<caesura/>諸佛先已說，</l>
+<lb n="0867b03" ed="T"/>
+  <l>我今亦演暢，<caesura/>饒益諸眾生。</l>
+<lb n="0867b04" ed="T"/>
+  <l>若人信樂心，<caesura/>聞持如是呪，</l>
+<lb n="0867b05" ed="T"/>
+  <l>能增於辯才，<caesura/>其所往來處，</l>
+<lb n="0867b06" ed="T"/>
+  <l>不遭諸厄難，<caesura/>無有人非人，</l>
+<lb n="0867b07" ed="T"/>
+  <l>鳩槃富單那，<caesura/>不能作惱害，</l>
+<lb n="0867b08" ed="T"/>
+  <l>誦持此呪故。<caesura/>不為他所殺，</l>
+<lb n="0867b09" ed="T"/>
+  <l>誦持此呪故。<caesura/>天魔王波旬，</l>
+<lb n="0867b10" ed="T"/>
+  <l>欲界中特尊，<caesura/>不能作留難，</l>
+<lb n="0867b11" ed="T"/>
+  <l>誦持此經故。<caesura/>父母及兄弟，</l>
+<lb n="0867b12" ed="T"/>
+  <l>眷屬及親厚，<caesura/>不逢諸衰禍，</l>
+<lb n="0867b13" ed="T"/>
+  <l>誦持此經故。<caesura/>於百千億劫，</l>
+<lb n="0867b14" ed="T"/>
+  <l>造作不善業，<caesura/>十惡及五逆，</l>
+<lb n="0867b15" ed="T"/>
+  <l>七日能令滅，<caesura/>誦持此呪故。</l>
+<lb n="0867b16" ed="T"/>
+  <l>菩薩於億劫，<caesura/>積集諸功德，</l>
+<lb n="0867b17" ed="T"/>
+  <l>七日能令勝，<caesura/>誦持此呪故。</l>
+<lb n="0867b18" ed="T"/>
+  <l>四大天王尊，<caesura/>毘頭羅提頭，</l>
+<lb n="0867b19" ed="T"/>
+  <l>博叉毘留茶，<caesura/>大臣眾眷屬，</l>
+<lb n="0867b20" ed="T"/>
+  <l>歡喜而讚歎，<caesura/>恭敬常守護，</l>
+<lb n="0867b21" ed="T"/>
+  <l>誦持此呪故。」</l>
+</lg>
 <lb n="0867b22" ed="T"/><p xml:id="pT21p0867b2201">佛說此經已，舍利弗及諸比丘，一切世間天、
 <lb n="0867b23" ed="T"/>人、阿修羅等，聞佛所說，皆大歡喜頂戴奉行，
 <lb n="0867b24" ed="T"/>作禮而去。</p>

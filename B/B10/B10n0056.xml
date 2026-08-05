@@ -2,80 +2,85 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="B10n0056">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Supplement to the Dazangjing</title>
-			<title level="s" xml:lang="zh-Hant">大藏經補編</title>
-			<title level="m" xml:lang="zh-Hant">西藏法寶貫珠</title>
-			<title>Supplement to the Dazangjing, Electronic version, No. 56 西藏法寶貫珠</title>
-			<title xml:lang="zh-Hant">大藏經補編數位版, No. 56 西藏法寶貫珠</title>
-			<author>達瓦桑杜譯英　伊文思溫慈編註　趙洪鑄譯漢</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">B</idno>.<idno type="vol">10</idno>.<idno type="no">56</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大藏經補編</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【補編】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2015-02-26">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Supplement to the Dazangjing</title>
+      <title level="s" xml:lang="zh-Hant">大藏經補編</title>
+      <title level="m" xml:lang="zh-Hant">西藏法寶貫珠</title>
+      <title>Supplement to the Dazangjing, Electronic version, No. 56 西藏法寶貫珠</title>
+      <title xml:lang="zh-Hant">大藏經補編數位版, No. 56 西藏法寶貫珠</title>
+      <author>達瓦桑杜譯英　伊文思溫慈編註　趙洪鑄譯漢</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">B</idno>.<idno type="vol">10</idno>.<idno type="no">56</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大藏經補編</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【補編】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2015-02-26">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="B" xml:id="B10.0056.0124a" n="0124a"/>
-<lb ed="B" n="0124a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>西藏法寶貫珠（古德寶訓　學佛勝法）</cb:jhead></cb:juan><byline cb:type="translator">藏德喀齊達瓦桑杜喇嘛譯英</byline>
+<lb ed="B" n="0124a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>西藏法寶貫珠（古德寶訓　學佛勝法）</cb:jhead></cb:juan>
+<byline cb:type="translator">藏德喀齊達瓦桑杜喇嘛譯英</byline>
 <lb ed="B" n="0124a02"/><byline cb:type="editor">美國伊文思溫慈博士編註</byline>
 <lb ed="B" n="0124a03"/><byline cb:type="translator">趙洪鑄居士譯漢</byline>
 <lb ed="B" n="0124a04"/><cb:div type="other"><cb:mulu type="其他" level="1">編者導言</cb:mulu><head>編者導言</head>
-<lb ed="B" n="0124a05"/><cb:div type="other"><cb:mulu type="其他" level="2">（一）書之纂集者與其同門法侶</cb:mulu><head><note n="0124a0501" resp="CBETA" type="add"><!-- check:檢查括號是否保留 -->（一）【CB】，［－］【補編】</note><app n="0124a0501"><lem wit="【CB】" resp="CBETA.maha">（一）</lem><rdg wit="【補編】"><space quantity="0"/></rdg></app>書之纂集者與其同門法侶</head>
+<lb ed="B" n="0124a05"/><cb:div type="other"><cb:mulu type="其他" level="2">（一）書之纂集者與其同門法侶</cb:mulu><head><note 
+n="0124a0501" resp="CBETA" type="add"><!-- check:檢查括號是否保留 -->（一）【CB】，［－］【補編】</note><app n="0124a0501">
+  <lem wit="【CB】" resp="CBETA.maha">（一）</lem>
+  <rdg wit="【補編】"><space quantity="0"/></rdg>
+</app>書之纂集者與其同門法侶</head>
 <lb ed="B" n="0124a06"/><p xml:id="pB10p0124a0601" style="margin-left:0em;text-indent:2em">本書彙集密教訓語，按二十八門分列，為古德密拉熱巴尊者傳鉢人瓦波拉傑上師所纂集。時在西曆
 <lb ed="B" n="0124a07"/>十二世紀之中葉，上師為藏東瓦波省人，稱為瓦波拉傑者，名以地顯也。誕生於西曆一千〇七十七年，
 <lb ed="B" n="0124a08"/>示寂於一千一百五十二年。書中別稱為岡波巴上師，蓋指師為西藏崇法統治者隆贊崗波王之轉生也。王
@@ -117,324 +122,662 @@
 <lb ed="B" n="0126a02"/>教為國教尊釋迦為主教）其書經已故匈牙利學者柯思馬德堪洛譯成歐西文字，書中舉主教之全名為阿難
 <lb ed="B" n="0126a03"/>達雅舍利賢。書之編著約當主教在藏東名省釋迦寺內隱修之時。</p>
 <lb ed="B" n="0126a04"/><p xml:id="pB10p0126a0401" style="margin-left:0em;text-indent:2em">下列雅言數則，經按柯氏所譯加以校正，備與本書之訓語作一比較。</p>
-<lb ed="B" n="0126a05"/><lg type="regular" xml:id="lgB10p0126a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">雞伏於塒<caesura/>卵產自增<caesura/>孔雀處靜<caesura/>翠屏益麗<caesura/>馴善之馬<caesura/>其行也疾<caesura/>至人寂德</l>
-<lb ed="B" n="0126a06"/><l style="text-indent:3em">斯之謂聖<caesura/>聞譽勿喜<caesura/>聞毀勿慮<caesura/>度德量力<caesura/>君子所尚<caesura/>世尊所在<caesura/>眾生形絀</l>
-<lb ed="B" n="0126a07"/><l style="text-indent:3em">譬諸日升<caesura/>明星掩沒<caesura/>愚人自詡<caesura/>智者藏拙<caesura/>莖草浮水<caesura/>妙寶下沉<caesura/>器小之人</l>
-<lb ed="B" n="0126a08"/><l style="text-indent:3em">心生分別<caesura/>何者為友<caesura/>其誰為敵<caesura/>局量恢宏<caesura/>博愛為首<caesura/>誰何裨助<caesura/>正未可知</l>
-<lb ed="B" n="0126a09"/><l style="text-indent:3em">君子譬寶<caesura/>其質不變<caesura/>小人持稱<caesura/>起落無定<caesura/>多言致禍<caesura/>沉默遠災<caesura/>嬰武善語</l>
-<lb ed="B" n="0126a10"/><l style="text-indent:3em">囚于籠中<caesura/>鳥不能言<caesura/>翱翔自如</l></lg>
-<lb ed="B" n="0126a11"/><lg type="regular" xml:id="lgB10p0126a1101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">至大財富<caesura/>厥惟布施<caesura/>至極法樂<caesura/>心證如如<caesura/>最美身飾<caesura/>經驗宏富<caesura/>最勝法侶</l>
-<lb ed="B" n="0126a12"/><l style="text-indent:3em">無有貪欲<caesura/>凡庸之人<caesura/>得榜顯要<caesura/>亦致富貴<caesura/>一滴之水<caesura/>通於湖沼<caesura/>何虞乾涸</l>
-<lb ed="B" n="0126a13"/><l style="text-indent:3em">語如傳人<caesura/>勿及仇讎<caesura/>終恐反唇<caesura/>虛谷回響<caesura/>將任大事<caesura/>必徵忠信<caesura/>如焚山林</l>
-<lb ed="B" n="0126a14"/><l style="text-indent:3em">當憑風力<caesura/>心在禪關<caesura/>乏師指引<caesura/>雖暫致功<caesura/>終無實效<caesura/>如鎔金銀<caesura/>離火復堅</l></lg>
+<lb ed="B" n="0126a05"/><lg type="regular" xml:id="lgB10p0126a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">雞伏於塒<caesura/>卵產自增<caesura/>孔雀處靜<caesura/>翠屏益麗<caesura/>馴善之馬<caesura/>其行也疾<caesura/>至人寂德</l>
+<lb ed="B" n="0126a06"/>
+  <l style="text-indent:3em">斯之謂聖<caesura/>聞譽勿喜<caesura/>聞毀勿慮<caesura/>度德量力<caesura/>君子所尚<caesura/>世尊所在<caesura/>眾生形絀</l>
+<lb ed="B" n="0126a07"/>
+  <l style="text-indent:3em">譬諸日升<caesura/>明星掩沒<caesura/>愚人自詡<caesura/>智者藏拙<caesura/>莖草浮水<caesura/>妙寶下沉<caesura/>器小之人</l>
+<lb ed="B" n="0126a08"/>
+  <l style="text-indent:3em">心生分別<caesura/>何者為友<caesura/>其誰為敵<caesura/>局量恢宏<caesura/>博愛為首<caesura/>誰何裨助<caesura/>正未可知</l>
+<lb ed="B" n="0126a09"/>
+  <l style="text-indent:3em">君子譬寶<caesura/>其質不變<caesura/>小人持稱<caesura/>起落無定<caesura/>多言致禍<caesura/>沉默遠災<caesura/>嬰武善語</l>
+<lb ed="B" n="0126a10"/>
+  <l style="text-indent:3em">囚于籠中<caesura/>鳥不能言<caesura/>翱翔自如</l>
+</lg>
+<lb ed="B" n="0126a11"/><lg type="regular" xml:id="lgB10p0126a1101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">至大財富<caesura/>厥惟布施<caesura/>至極法樂<caesura/>心證如如<caesura/>最美身飾<caesura/>經驗宏富<caesura/>最勝法侶</l>
+<lb ed="B" n="0126a12"/>
+  <l style="text-indent:3em">無有貪欲<caesura/>凡庸之人<caesura/>得榜顯要<caesura/>亦致富貴<caesura/>一滴之水<caesura/>通於湖沼<caesura/>何虞乾涸</l>
+<lb ed="B" n="0126a13"/>
+  <l style="text-indent:3em">語如傳人<caesura/>勿及仇讎<caesura/>終恐反唇<caesura/>虛谷回響<caesura/>將任大事<caesura/>必徵忠信<caesura/>如焚山林</l>
+<lb ed="B" n="0126a14"/>
+  <l style="text-indent:3em">當憑風力<caesura/>心在禪關<caesura/>乏師指引<caesura/>雖暫致功<caesura/>終無實效<caesura/>如鎔金銀<caesura/>離火復堅</l>
+</lg>
 <lb ed="B" n="0126a15"/><p xml:id="pB10p0126a1501" style="margin-left:0em;text-indent:2em">善闡大乘之龍樹菩薩所著「智慧品頌」類似雅言之集譯人喀齊達瓦桑杜喇嘛自藏文譯英茲亦摘錄
 <lb ed="B" n="0126a16"/>數則如左</p>
-<lb ed="B" n="0126a17"/><lg type="regular" xml:id="lgB10p0126a1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">既悟實相<caesura/>何須上師<caesura/>病魔若除<caesura/>何用醫為<caesura/>已登彼岸<caesura/>無筏何傷<caesura/>星者通函</l>
-<lb ed="B" n="0126a18"/><l style="text-indent:3em">善能占算<caesura/>星月運行<caesura/>不察己身<caesura/>家庭失和<caesura/>婦德有虧<caesura/>飲食睡臥<caesura/>男女居室</l>
-<lb ed="B" n="0126a19"/><l style="text-indent:3em">煩惱熾盛<caesura/>人獸皆同<caesura/>人類顯勝<caesura/>學佛修持<caesura/>正信退失<caesura/>與獸何異<caesura/>知也無涯</l>
-<lb ed="B" n="0126a20"/><l style="text-indent:3em">歲不我與<caesura/>人生世間<caesura/>壽命幾何<caesura/>及時信奉<caesura/>勝妙佛道<caesura/>如雁啜水<caesura/>自有醍醐</l>
+<lb ed="B" n="0126a17"/><lg type="regular" xml:id="lgB10p0126a1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">既悟實相<caesura/>何須上師<caesura/>病魔若除<caesura/>何用醫為<caesura/>已登彼岸<caesura/>無筏何傷<caesura/>星者通函</l>
+<lb ed="B" n="0126a18"/>
+  <l style="text-indent:3em">善能占算<caesura/>星月運行<caesura/>不察己身<caesura/>家庭失和<caesura/>婦德有虧<caesura/>飲食睡臥<caesura/>男女居室</l>
+<lb ed="B" n="0126a19"/>
+  <l style="text-indent:3em">煩惱熾盛<caesura/>人獸皆同<caesura/>人類顯勝<caesura/>學佛修持<caesura/>正信退失<caesura/>與獸何異<caesura/>知也無涯</l>
+<lb ed="B" n="0126a20"/>
+  <l style="text-indent:3em">歲不我與<caesura/>人生世間<caesura/>壽命幾何<caesura/>及時信奉<caesura/>勝妙佛道<caesura/>如雁啜水<caesura/>自有醍醐</l>
 <pb ed="B" xml:id="B10.0056.0127a" n="0127a"/>
-<lb ed="B" n="0127a01"/><l style="text-indent:3em">眾星燦爛<caesura/>日亦明耀<caesura/>日落崦嵫<caesura/>長夜冥冥<caesura/>工巧之明<caesura/>衣食所寄<caesura/>內學超世</l>
-<lb ed="B" n="0127a02"/><l style="text-indent:3em">庶謂之明<caesura/>己所不欲<caesura/>勿施於人</l></lg>
-<lb ed="B" n="0127a03"/><lg type="regular" xml:id="lgB10p0127a0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">水面波紋<caesura/>最易消失<caesura/>愚人所為<caesura/>何以異此<caesura/>仁者行事<caesura/>意義雖小<caesura/>譬諸刻石</l>
-<lb ed="B" n="0127a04"/><l style="text-indent:3em">經久不磨<caesura/>如獲友情<caesura/>明哲雅馴<caesura/>知足忠誠<caesura/>縱生囹圄<caesura/>勝居王位<caesura/>有臣驕橫</l></lg>
+<lb ed="B" n="0127a01"/>
+  <l style="text-indent:3em">眾星燦爛<caesura/>日亦明耀<caesura/>日落崦嵫<caesura/>長夜冥冥<caesura/>工巧之明<caesura/>衣食所寄<caesura/>內學超世</l>
+<lb ed="B" n="0127a02"/>
+  <l style="text-indent:3em">庶謂之明<caesura/>己所不欲<caesura/>勿施於人</l>
+</lg>
+<lb ed="B" n="0127a03"/><lg type="regular" xml:id="lgB10p0127a0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">水面波紋<caesura/>最易消失<caesura/>愚人所為<caesura/>何以異此<caesura/>仁者行事<caesura/>意義雖小<caesura/>譬諸刻石</l>
+<lb ed="B" n="0127a04"/>
+  <l style="text-indent:3em">經久不磨<caesura/>如獲友情<caesura/>明哲雅馴<caesura/>知足忠誠<caesura/>縱生囹圄<caesura/>勝居王位<caesura/>有臣驕橫</l>
+</lg>
 <lb ed="B" n="0127a05"/><p xml:id="pB10p0127a0501" style="margin-left:0em;text-indent:2em">藏中復有「智者樂海」一書，亦屬諸雅言一類，茲就喀齊達瓦桑杜喇嘛之英譯本節錄數則於後，
 <lb ed="B" n="0127a06"/>藏文原本係譯人門徒在剛渡地方所繕，或錄自木刻本，或轉抄較古之本，原編者何人，以未舉名，則不
 <lb ed="B" n="0127a07"/>可考矣。</p>
-<lb ed="B" n="0127a08"/><lg type="regular" xml:id="lgB10p0127a0801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">大乘利他<caesura/>無上妙法<caesura/>捷經逕通<caesura/>勝者聖土<caesura/>循是以往<caesura/>駛馬難及<caesura/>自利之人</l>
-<lb ed="B" n="0127a09"/><l style="text-indent:3em">其何能知<caesura/>來世福報<caesura/>出自布施<caesura/>一生歡樂<caesura/>賴有淨行<caesura/>有容乃大<caesura/>當銘座右</l>
-<lb ed="B" n="0127a10"/><l style="text-indent:3em">功成業就<caesura/>惟勤為先<caesura/>禪關參透<caesura/>染心轉淨<caesura/>般若利器<caesura/>眾敵為摧<caesura/>敵臨死難</l>
-<lb ed="B" n="0127a11"/><l style="text-indent:3em">勿以自喜<caesura/>大如帝釋<caesura/>亦無自矜<caesura/>言語過多<caesura/>中心難藏</l></lg>
-<lb ed="B" n="0127a12"/><lg type="regular" xml:id="lgB10p0127a1201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">欲人欽仰<caesura/>必自謙和<caesura/>揚人美德<caesura/>朋來千里<caesura/>昂首自高<caesura/>勿與爭辯<caesura/>人有幸運</l>
-<lb ed="B" n="0127a13"/><l style="text-indent:3em">勿與競勝<caesura/>志懷雪恥<caesura/>未可輕蔑<caesura/>威權在握<caesura/>焉能拂逆<caesura/>相習相沿<caesura/>苟非良規</l>
-<lb ed="B" n="0127a14"/><l style="text-indent:3em">棄之勿惜<caesura/>良法美意<caesura/>雖出仇讎<caesura/>用之勿疑<caesura/>鴆毒殺身<caesura/>縱為母賜<caesura/>未可輒吞</l>
-<lb ed="B" n="0127a15"/><l style="text-indent:3em">黃金有價<caesura/>餽自仇人<caesura/>受之用傷<caesura/>心有所圖<caesura/>語宜從容<caesura/>肩負鴻業<caesura/>行忌操切</l>
-<lb ed="B" n="0127a16"/><l style="text-indent:3em">奉教虔誠<caesura/>不應嫉視<caesura/>行為狠惡<caesura/>勿與咨謀<caesura/>叢林苾蒭<caesura/>或匿邪姦<caesura/>深山百藥</l>
-<lb ed="B" n="0127a17"/><l style="text-indent:3em">不無毒草<caesura/>世人輕忽<caesura/>拔山之勇<caesura/>臨事始知<caesura/>舉羽猶重<caesura/>事偶成就<caesura/>歸功於己</l>
-<lb ed="B" n="0127a18"/><l style="text-indent:3em">小有差池<caesura/>諉過於人<caesura/>人具才德<caesura/>我惟吹求<caesura/>心性若此<caesura/>鴉雀何異<caesura/>宣揚正法</l>
-<lb ed="B" n="0127a19"/><l style="text-indent:3em">度化不信<caesura/>如見毒蛇<caesura/>食之以乳<caesura/>滌布污池<caesura/>百濯莫潔<caesura/>愚闇無知<caesura/>胸無邱壑</l>
-<lb ed="B" n="0127a20"/><l style="text-indent:3em">心意雖誠<caesura/>不合理智<caesura/>任爾譽人<caesura/>終失尊敬<caesura/>人生瑕玷<caesura/>其惟愚昧<caesura/>欲去愚昧</l>
+<lb ed="B" n="0127a08"/><lg type="regular" xml:id="lgB10p0127a0801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">大乘利他<caesura/>無上妙法<caesura/>捷經逕通<caesura/>勝者聖土<caesura/>循是以往<caesura/>駛馬難及<caesura/>自利之人</l>
+<lb ed="B" n="0127a09"/>
+  <l style="text-indent:3em">其何能知<caesura/>來世福報<caesura/>出自布施<caesura/>一生歡樂<caesura/>賴有淨行<caesura/>有容乃大<caesura/>當銘座右</l>
+<lb ed="B" n="0127a10"/>
+  <l style="text-indent:3em">功成業就<caesura/>惟勤為先<caesura/>禪關參透<caesura/>染心轉淨<caesura/>般若利器<caesura/>眾敵為摧<caesura/>敵臨死難</l>
+<lb ed="B" n="0127a11"/>
+  <l style="text-indent:3em">勿以自喜<caesura/>大如帝釋<caesura/>亦無自矜<caesura/>言語過多<caesura/>中心難藏</l>
+</lg>
+<lb ed="B" n="0127a12"/><lg type="regular" xml:id="lgB10p0127a1201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">欲人欽仰<caesura/>必自謙和<caesura/>揚人美德<caesura/>朋來千里<caesura/>昂首自高<caesura/>勿與爭辯<caesura/>人有幸運</l>
+<lb ed="B" n="0127a13"/>
+  <l style="text-indent:3em">勿與競勝<caesura/>志懷雪恥<caesura/>未可輕蔑<caesura/>威權在握<caesura/>焉能拂逆<caesura/>相習相沿<caesura/>苟非良規</l>
+<lb ed="B" n="0127a14"/>
+  <l style="text-indent:3em">棄之勿惜<caesura/>良法美意<caesura/>雖出仇讎<caesura/>用之勿疑<caesura/>鴆毒殺身<caesura/>縱為母賜<caesura/>未可輒吞</l>
+<lb ed="B" n="0127a15"/>
+  <l style="text-indent:3em">黃金有價<caesura/>餽自仇人<caesura/>受之用傷<caesura/>心有所圖<caesura/>語宜從容<caesura/>肩負鴻業<caesura/>行忌操切</l>
+<lb ed="B" n="0127a16"/>
+  <l style="text-indent:3em">奉教虔誠<caesura/>不應嫉視<caesura/>行為狠惡<caesura/>勿與咨謀<caesura/>叢林苾蒭<caesura/>或匿邪姦<caesura/>深山百藥</l>
+<lb ed="B" n="0127a17"/>
+  <l style="text-indent:3em">不無毒草<caesura/>世人輕忽<caesura/>拔山之勇<caesura/>臨事始知<caesura/>舉羽猶重<caesura/>事偶成就<caesura/>歸功於己</l>
+<lb ed="B" n="0127a18"/>
+  <l style="text-indent:3em">小有差池<caesura/>諉過於人<caesura/>人具才德<caesura/>我惟吹求<caesura/>心性若此<caesura/>鴉雀何異<caesura/>宣揚正法</l>
+<lb ed="B" n="0127a19"/>
+  <l style="text-indent:3em">度化不信<caesura/>如見毒蛇<caesura/>食之以乳<caesura/>滌布污池<caesura/>百濯莫潔<caesura/>愚闇無知<caesura/>胸無邱壑</l>
+<lb ed="B" n="0127a20"/>
+  <l style="text-indent:3em">心意雖誠<caesura/>不合理智<caesura/>任爾譽人<caesura/>終失尊敬<caesura/>人生瑕玷<caesura/>其惟愚昧<caesura/>欲去愚昧</l>
 <pb ed="B" xml:id="B10.0056.0128a" n="0128a"/>
-<lb ed="B" n="0128a01"/><l style="text-indent:3em">須憑智慧<caesura/>精進求慧<caesura/>勿稍躊躇<caesura/>上師訓語<caesura/>學而不習<caesura/>如人燃燈<caesura/>自掩其目</l>
-<lb ed="B" n="0128a02"/><l style="text-indent:3em">世人咸期<caesura/>明日之來<caesura/>試問何人<caesura/>目睹其臨<caesura/>生物渺小<caesura/>不能自助<caesura/>與人無害</l>
-<lb ed="B" n="0128a03"/><l style="text-indent:3em">殺之不武</l></lg>
+<lb ed="B" n="0128a01"/>
+  <l style="text-indent:3em">須憑智慧<caesura/>精進求慧<caesura/>勿稍躊躇<caesura/>上師訓語<caesura/>學而不習<caesura/>如人燃燈<caesura/>自掩其目</l>
+<lb ed="B" n="0128a02"/>
+  <l style="text-indent:3em">世人咸期<caesura/>明日之來<caesura/>試問何人<caesura/>目睹其臨<caesura/>生物渺小<caesura/>不能自助<caesura/>與人無害</l>
+<lb ed="B" n="0128a03"/>
+  <l style="text-indent:3em">殺之不武</l>
+</lg>
 <lb ed="B" n="0128a04"/><p xml:id="pB10p0128a0401" style="margin-left:0em;text-indent:2em">上來雅言中諺語箴言兼而有之，蓋藏土曾深受印度文化之影響，故此類文學之重要與豐富，按諸
 <lb ed="B" n="0128a05"/>上文不難概見。斯篇導言僅對本書作一簡略之介紹，但書中所傳喀覺宗如上師之智言慧偈學人，正可藉
 <lb ed="B" n="0128a06"/>是以通悟也。</p>
-<lb ed="B" n="0128a07"/><lg xml:id="lgB10p0128a0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">摘自「靜寂心聲」</l>
-<lb ed="B" n="0128a08"/><l style="text-indent:3em">心為惡賊<caesura/>殘害實相<caesura/>願我門徒<caesura/>慧劍誅之<caesura/>大悲之王<caesura/>一再垂示<caesura/>眾生皆苦</l>
-<lb ed="B" n="0128a09"/><l style="text-indent:3em">樂於何有<caesura/>舉世悲呼<caesura/>寧能獨善<caesura/>見人患目<caesura/>淚出痛苦<caesura/>急為拭除<caesura/>勿任日曝</l>
-<lb ed="B" n="0128a10"/><l style="text-indent:3em">欲求耳觸<caesura/>最初聲塵<caesura/>必須回復<caesura/>已失嬰身<caesura/>前塵影事<caesura/>應即忘之<caesura/>慎毋回願</l>
-<lb ed="B" n="0128a11"/><l style="text-indent:3em">反受其惑<caesura/>嗟乎眾生<caesura/>賴耶恒持<caesura/>不可斷滅<caesura/>任為聖賢<caesura/>此識長隨<caesura/>亦復奚益</l>
-<lb ed="B" n="0128a12"/><l style="text-indent:3em">精進放逸<caesura/>爾兼有之<caesura/>身受激蕩<caesura/>心應輕安<caesura/>性如澗水<caesura/>明耀澄清<caesura/>畢生利人</l>
-<lb ed="B" n="0128a13"/><l style="text-indent:3em">第一大事<caesura/>無度修持<caesura/>猶在其次<caesura/>不升暘谷<caesura/>亦燦銀河<caesura/>正道惟一<caesura/>人盡可至</l>
-<lb ed="B" n="0128a14"/><l style="text-indent:3em">行道有別<caesura/>殊途同臻<caesura/>勿任六賊<caesura/>游戱心田<caesura/>求慧佛子<caesura/>爾試自問<caesura/>人生諸苦</l>
-<lb ed="B" n="0128a15"/><l style="text-indent:3em">已未體會<caesura/>恒者不變<caesura/>切應了悟</l></lg></cb:div></cb:div>
+<lb ed="B" n="0128a07"/><lg xml:id="lgB10p0128a0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">摘自「靜寂心聲」</l>
+<lb ed="B" n="0128a08"/>
+  <l style="text-indent:3em">心為惡賊<caesura/>殘害實相<caesura/>願我門徒<caesura/>慧劍誅之<caesura/>大悲之王<caesura/>一再垂示<caesura/>眾生皆苦</l>
+<lb ed="B" n="0128a09"/>
+  <l style="text-indent:3em">樂於何有<caesura/>舉世悲呼<caesura/>寧能獨善<caesura/>見人患目<caesura/>淚出痛苦<caesura/>急為拭除<caesura/>勿任日曝</l>
+<lb ed="B" n="0128a10"/>
+  <l style="text-indent:3em">欲求耳觸<caesura/>最初聲塵<caesura/>必須回復<caesura/>已失嬰身<caesura/>前塵影事<caesura/>應即忘之<caesura/>慎毋回願</l>
+<lb ed="B" n="0128a11"/>
+  <l style="text-indent:3em">反受其惑<caesura/>嗟乎眾生<caesura/>賴耶恒持<caesura/>不可斷滅<caesura/>任為聖賢<caesura/>此識長隨<caesura/>亦復奚益</l>
+<lb ed="B" n="0128a12"/>
+  <l style="text-indent:3em">精進放逸<caesura/>爾兼有之<caesura/>身受激蕩<caesura/>心應輕安<caesura/>性如澗水<caesura/>明耀澄清<caesura/>畢生利人</l>
+<lb ed="B" n="0128a13"/>
+  <l style="text-indent:3em">第一大事<caesura/>無度修持<caesura/>猶在其次<caesura/>不升暘谷<caesura/>亦燦銀河<caesura/>正道惟一<caesura/>人盡可至</l>
+<lb ed="B" n="0128a14"/>
+  <l style="text-indent:3em">行道有別<caesura/>殊途同臻<caesura/>勿任六賊<caesura/>游戱心田<caesura/>求慧佛子<caesura/>爾試自問<caesura/>人生諸苦</l>
+<lb ed="B" n="0128a15"/>
+  <l style="text-indent:3em">已未體會<caesura/>恒者不變<caesura/>切應了悟</l>
+</lg></cb:div></cb:div>
 <lb ed="B" n="0128a16"/><cb:div type="other"><cb:mulu type="其他" level="1">歸敬頌</cb:mulu><head>歸敬頌</head>
-<lb ed="B" n="0128a17"/><lg xml:id="lgB10p0128a1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">虔誠稽首<caesura style="text-indent:1em;"/>寶貴上師</l></lg></cb:div>
+<lb ed="B" n="0128a17"/><lg xml:id="lgB10p0128a1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">虔誠稽首<caesura style="text-indent:1em;"/>寶貴上師</l>
+</lg></cb:div>
 <lb ed="B" n="0128a18"/><cb:div type="other"><cb:mulu type="其他" level="1">開卷偈</cb:mulu><head>開卷偈</head>
-<lb ed="B" n="0128a19"/><lg type="regular" xml:id="lgB10p0128a1901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">佛子某某<caesura/>至誠歸敬<caesura/>喀覺聖系<caesura/>賢德眾師<caesura/>上師榮光<caesura/>明淨普輝<caesura/>上師恩德</l>
-<lb ed="B" n="0128a20"/><l style="text-indent:3em">如海不竭<caesura/>上師慈愛<caesura/>無有既極<caesura/>普及三界<caesura/>三時有情<caesura/>某今具願<caesura/>遵依上師</l>
+<lb ed="B" n="0128a19"/><lg type="regular" xml:id="lgB10p0128a1901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">佛子某某<caesura/>至誠歸敬<caesura/>喀覺聖系<caesura/>賢德眾師<caesura/>上師榮光<caesura/>明淨普輝<caesura/>上師恩德</l>
+<lb ed="B" n="0128a20"/>
+  <l style="text-indent:3em">如海不竭<caesura/>上師慈愛<caesura/>無有既極<caesura/>普及三界<caesura/>三時有情<caesura/>某今具願<caesura/>遵依上師</l>
 <pb ed="B" xml:id="B10.0056.0129a" n="0129a"/>
-<lb ed="B" n="0129a01"/><l style="text-indent:3em">恩賜寶訓<caesura/>脫離可佈<caesura/>深廣難渡<caesura/>生死苦海<caesura/>聖系上師<caesura/>深恩大慈<caesura/>輾轉燈傳</l>
-<lb ed="B" n="0129a02"/><l style="text-indent:3em">岡波巴尊<caesura/>至貴訓語<caesura/>學佛勝德<caesura/>法寶貫珠<caesura/>如有佛子<caesura/>具願同求<caesura/>至言聖偈</l>
-<lb ed="B" n="0129a03"/><l style="text-indent:3em">此中筆錄<caesura/>足供參悟</l></lg></cb:div>
+<lb ed="B" n="0129a01"/>
+  <l style="text-indent:3em">恩賜寶訓<caesura/>脫離可佈<caesura/>深廣難渡<caesura/>生死苦海<caesura/>聖系上師<caesura/>深恩大慈<caesura/>輾轉燈傳</l>
+<lb ed="B" n="0129a02"/>
+  <l style="text-indent:3em">岡波巴尊<caesura/>至貴訓語<caesura/>學佛勝德<caesura/>法寶貫珠<caesura/>如有佛子<caesura/>具願同求<caesura/>至言聖偈</l>
+<lb ed="B" n="0129a03"/>
+  <l style="text-indent:3em">此中筆錄<caesura/>足供參悟</l>
+</lg></cb:div>
 <lb ed="B" n="0129a04"/><cb:div type="other"><cb:mulu type="其他" level="1">修持訓語二十八門</cb:mulu><head>修持訓語二十八門</head>
 <lb ed="B" n="0129a05"/><cb:div type="other"><cb:mulu type="其他" level="2">（一）悔恨十因</cb:mulu><head>（一）悔恨十因</head>
-<lb ed="B" n="0129a06"/><lg xml:id="lgB10p0129a0601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">行者尋求<caesura/>解脫大道<caesura/>正徧佛智<caesura/>應先觀察<caesura/>悔恨十因<caesura/>既已賦得<caesura/>福力所感</l>
-<lb ed="B" n="0129a07"/><l style="text-indent:3em">自在無礙<caesura/>難得人身<caesura/>如任蹉跎<caesura/>空過一生<caesura/>報盡之時<caesura/>悔恨何及</l>
-<lb ed="B" n="0129a08"/><l style="text-indent:3em">既已賦得<caesura/>福力所感<caesura/>清淨自在<caesura/>難得人身<caesura/>生前所為<caesura/>未合梵行<caesura/>報盡之時</l>
-<lb ed="B" n="0129a09"/><l style="text-indent:3em">終必悔恨</l></lg>
-<lb ed="B" n="0129a10"/><lg type="regular" xml:id="lgB10p0129a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">末法人壽<caesura/>修短無定<caesura/>終朝追逐<caesura/>塵世利名<caesura/>報盡之時<caesura/>悔恨已遲<caesura/>心本無生</l>
-<lb ed="B" n="0129a11"/><l style="text-indent:3em">性同法身<caesura/>人世幻海<caesura/>勿為所吞<caesura/>如被吸引<caesura/>必成悔恨<caesura/>神聖上師<caesura/>導行正道</l>
-<lb ed="B" n="0129a12"/><l style="text-indent:3em">未能證覺<caesura/>先與分離<caesura/>一旦報盡<caesura/>悔恨莫及<caesura/>信願猶筏<caesura/>渡登彼岸<caesura/>恣行欲樂</l>
-<lb ed="B" n="0129a13"/><l style="text-indent:3em">正信必失<caesura/>舟筏如毀<caesura/>悔恨何及<caesura/>勝妙佛法<caesura/>傳自聖德<caesura/>毅然鬻賣<caesura/>視若貨物</l>
-<lb ed="B" n="0129a14"/><l style="text-indent:3em">正途阻塞<caesura/>悔恨奚益<caesura/>塵世眾生<caesura/>咸我父母<caesura/>厭惡離棄<caesura/>若不相識<caesura/>正道必阻</l>
-<lb ed="B" n="0129a15"/><l style="text-indent:3em">悔恨不及<caesura/>青春之時<caesura/>正好修持<caesura/>身語意善<caesura/>世俗漠視<caesura/>時機消失<caesura/>悔恨莫及</l></lg></cb:div>
+<lb ed="B" n="0129a06"/><lg xml:id="lgB10p0129a0601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">行者尋求<caesura/>解脫大道<caesura/>正徧佛智<caesura/>應先觀察<caesura/>悔恨十因<caesura/>既已賦得<caesura/>福力所感</l>
+<lb ed="B" n="0129a07"/>
+  <l style="text-indent:3em">自在無礙<caesura/>難得人身<caesura/>如任蹉跎<caesura/>空過一生<caesura/>報盡之時<caesura/>悔恨何及</l>
+<lb ed="B" n="0129a08"/>
+  <l style="text-indent:3em">既已賦得<caesura/>福力所感<caesura/>清淨自在<caesura/>難得人身<caesura/>生前所為<caesura/>未合梵行<caesura/>報盡之時</l>
+<lb ed="B" n="0129a09"/>
+  <l style="text-indent:3em">終必悔恨</l>
+</lg>
+<lb ed="B" n="0129a10"/><lg type="regular" xml:id="lgB10p0129a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">末法人壽<caesura/>修短無定<caesura/>終朝追逐<caesura/>塵世利名<caesura/>報盡之時<caesura/>悔恨已遲<caesura/>心本無生</l>
+<lb ed="B" n="0129a11"/>
+  <l style="text-indent:3em">性同法身<caesura/>人世幻海<caesura/>勿為所吞<caesura/>如被吸引<caesura/>必成悔恨<caesura/>神聖上師<caesura/>導行正道</l>
+<lb ed="B" n="0129a12"/>
+  <l style="text-indent:3em">未能證覺<caesura/>先與分離<caesura/>一旦報盡<caesura/>悔恨莫及<caesura/>信願猶筏<caesura/>渡登彼岸<caesura/>恣行欲樂</l>
+<lb ed="B" n="0129a13"/>
+  <l style="text-indent:3em">正信必失<caesura/>舟筏如毀<caesura/>悔恨何及<caesura/>勝妙佛法<caesura/>傳自聖德<caesura/>毅然鬻賣<caesura/>視若貨物</l>
+<lb ed="B" n="0129a14"/>
+  <l style="text-indent:3em">正途阻塞<caesura/>悔恨奚益<caesura/>塵世眾生<caesura/>咸我父母<caesura/>厭惡離棄<caesura/>若不相識<caesura/>正道必阻</l>
+<lb ed="B" n="0129a15"/>
+  <l style="text-indent:3em">悔恨不及<caesura/>青春之時<caesura/>正好修持<caesura/>身語意善<caesura/>世俗漠視<caesura/>時機消失<caesura/>悔恨莫及</l>
+</lg></cb:div>
 <lb ed="B" n="0129a16"/><cb:div type="other"><cb:mulu type="其他" level="2">（二）十事必須</cb:mulu><head>（二）十事必須</head>
-<lb ed="B" n="0129a17"/><lg type="regular" xml:id="lgB10p0129a1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">度己之能<caesura/>欲有所為<caesura/>循道精進<caesura/>實為必須<caesura/>切實奉行<caesura/>法師訓示<caesura/>篤信精勤</l>
-<lb ed="B" n="0129a18"/><l style="text-indent:3em">實在必須<caesura/>學人慎勿<caesura/>悞投上師<caesura/>本身功過<caesura/>尤須自知<caesura/>欲求心與<caesura/>上師相應</l>
-<lb ed="B" n="0129a19"/><l style="text-indent:3em">須具勝慧<caesura/>信無動搖<caesura/>欲求滌治<caesura/>身語意業<caesura/>遇事必須<caesura/>內心警惕<caesura/>周詳審察</l>
-<lb ed="B" n="0129a20"/><l style="text-indent:3em">至極謙和<caesura/>心具宏願<caesura/>期求成就<caesura/>決定無疑<caesura/>勇猛堅固<caesura/>如願脫離<caesura/>輪迴束縛</l>
+<lb ed="B" n="0129a17"/><lg type="regular" xml:id="lgB10p0129a1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">度己之能<caesura/>欲有所為<caesura/>循道精進<caesura/>實為必須<caesura/>切實奉行<caesura/>法師訓示<caesura/>篤信精勤</l>
+<lb ed="B" n="0129a18"/>
+  <l style="text-indent:3em">實在必須<caesura/>學人慎勿<caesura/>悞投上師<caesura/>本身功過<caesura/>尤須自知<caesura/>欲求心與<caesura/>上師相應</l>
+<lb ed="B" n="0129a19"/>
+  <l style="text-indent:3em">須具勝慧<caesura/>信無動搖<caesura/>欲求滌治<caesura/>身語意業<caesura/>遇事必須<caesura/>內心警惕<caesura/>周詳審察</l>
+<lb ed="B" n="0129a20"/>
+  <l style="text-indent:3em">至極謙和<caesura/>心具宏願<caesura/>期求成就<caesura/>決定無疑<caesura/>勇猛堅固<caesura/>如願脫離<caesura/>輪迴束縛</l>
 <pb ed="B" xml:id="B10.0056.0130a" n="0130a"/>
-<lb ed="B" n="0130a01"/><l style="text-indent:3em">急須遣除<caesura/>貪愛宿習<caesura/>如求人世<caesura/>出世功德<caesura/>生具正信<caesura/>兼有正行<caesura/>以此迴向</l>
-<lb ed="B" n="0130a02"/><l style="text-indent:3em">普利眾生<caesura/>急須勤修<caesura/>精進不懈<caesura/>於念於行<caesura/>慈愛悲憫<caesura/>心應永繫<caesura/>利樂有情</l>
-<lb ed="B" n="0130a03"/><l style="text-indent:3em">聞道勝解<caesura/>智慧生起<caesura/>應悟萬象<caesura/>一法所印<caesura/>勿再妄誕<caesura/>色法為真</l></lg></cb:div>
+<lb ed="B" n="0130a01"/>
+  <l style="text-indent:3em">急須遣除<caesura/>貪愛宿習<caesura/>如求人世<caesura/>出世功德<caesura/>生具正信<caesura/>兼有正行<caesura/>以此迴向</l>
+<lb ed="B" n="0130a02"/>
+  <l style="text-indent:3em">普利眾生<caesura/>急須勤修<caesura/>精進不懈<caesura/>於念於行<caesura/>慈愛悲憫<caesura/>心應永繫<caesura/>利樂有情</l>
+<lb ed="B" n="0130a03"/>
+  <l style="text-indent:3em">聞道勝解<caesura/>智慧生起<caesura/>應悟萬象<caesura/>一法所印<caesura/>勿再妄誕<caesura/>色法為真</l>
+</lg></cb:div>
 <lb ed="B" n="0130a04"/><cb:div type="other"><cb:mulu type="其他" level="2">（三）十事應為</cb:mulu><head>（三）十事應為</head>
-<lb ed="B" n="0130a05"/><lg type="regular" xml:id="lgB10p0130a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">如值法師<caesura/>賦有聖力<caesura/>徧具智慧<caesura/>應求依止<caesura/>閉關隱修<caesura/>地宜愉適<caesura/>清寂幽靜</l>
-<lb ed="B" n="0130a06"/><l style="text-indent:3em">咸應自易<caesura/>當擇友侶<caesura/>信仰修習<caesura/>一如己身<caesura/>堪以托心<caesura/>饕餮惡業<caesura/>應知戒免</l>
-<lb ed="B" n="0130a07"/><l style="text-indent:3em">時食適體<caesura/>便應知足<caesura/>各宗大德<caesura/>說法微妙<caesura/>悉應研習<caesura/>心毋偏倚<caesura/>醫方觀星</l>
-<lb ed="B" n="0130a08"/><l style="text-indent:3em">占算兆相<caesura/>利濟人生<caesura/>修習何害<caesura/>節制飲食<caesura/>持戒精嚴<caesura/>調伏身體<caesura/>行之勿疑</l>
-<lb ed="B" n="0130a09"/><l style="text-indent:3em">虔誠修持<caesura/>覺性增長<caesura/>授徒應擇<caesura/>信堅心順<caesura/>渴求智慧<caesura/>似有宿根<caesura/>行坐食臥</l>
-<lb ed="B" n="0130a10"/><l style="text-indent:3em">各具威儀<caesura/>心應作意<caesura/>保持勿失</l></lg></cb:div>
+<lb ed="B" n="0130a05"/><lg type="regular" xml:id="lgB10p0130a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">如值法師<caesura/>賦有聖力<caesura/>徧具智慧<caesura/>應求依止<caesura/>閉關隱修<caesura/>地宜愉適<caesura/>清寂幽靜</l>
+<lb ed="B" n="0130a06"/>
+  <l style="text-indent:3em">咸應自易<caesura/>當擇友侶<caesura/>信仰修習<caesura/>一如己身<caesura/>堪以托心<caesura/>饕餮惡業<caesura/>應知戒免</l>
+<lb ed="B" n="0130a07"/>
+  <l style="text-indent:3em">時食適體<caesura/>便應知足<caesura/>各宗大德<caesura/>說法微妙<caesura/>悉應研習<caesura/>心毋偏倚<caesura/>醫方觀星</l>
+<lb ed="B" n="0130a08"/>
+  <l style="text-indent:3em">占算兆相<caesura/>利濟人生<caesura/>修習何害<caesura/>節制飲食<caesura/>持戒精嚴<caesura/>調伏身體<caesura/>行之勿疑</l>
+<lb ed="B" n="0130a09"/>
+  <l style="text-indent:3em">虔誠修持<caesura/>覺性增長<caesura/>授徒應擇<caesura/>信堅心順<caesura/>渴求智慧<caesura/>似有宿根<caesura/>行坐食臥</l>
+<lb ed="B" n="0130a10"/>
+  <l style="text-indent:3em">各具威儀<caesura/>心應作意<caesura/>保持勿失</l>
+</lg></cb:div>
 <lb ed="B" n="0130a11"/><cb:div type="other"><cb:mulu type="其他" level="2">（四）十事避離</cb:mulu><head>（四）十事避離</head>
-<lb ed="B" n="0130a12"/><lg type="regular" xml:id="lgB10p0130a1201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">上師心向<caesura/>世俗名利<caesura/>避勿依止<caesura/>友伴法侶<caesura/>阻害參悟<caesura/>避勿相與<caesura/>禪房雜居</l>
-<lb ed="B" n="0130a13"/><l style="text-indent:3em">擾及心性<caesura/>避離為宜<caesura/>飲食資生<caesura/>取之有道<caesura/>勿行詐盜<caesura/>事如擾心<caesura/>又阻覺性</l>
-<lb ed="B" n="0130a14"/><l style="text-indent:3em">棄而勿為<caesura/>舉止輕忽<caesura/>啟人卑視<caesura/>急早遮止<caesura/>無益行動<caesura/>避免為宜<caesura/>隱己之過</l>
-<lb ed="B" n="0130a15"/><l style="text-indent:3em">揚人之惡<caesura/>避而勿為<caesura/>飲食衣服<caesura/>不合於體<caesura/>應知捨棄<caesura/>愛因貪起<caesura/>急因遮止</l></lg></cb:div>
+<lb ed="B" n="0130a12"/><lg type="regular" xml:id="lgB10p0130a1201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">上師心向<caesura/>世俗名利<caesura/>避勿依止<caesura/>友伴法侶<caesura/>阻害參悟<caesura/>避勿相與<caesura/>禪房雜居</l>
+<lb ed="B" n="0130a13"/>
+  <l style="text-indent:3em">擾及心性<caesura/>避離為宜<caesura/>飲食資生<caesura/>取之有道<caesura/>勿行詐盜<caesura/>事如擾心<caesura/>又阻覺性</l>
+<lb ed="B" n="0130a14"/>
+  <l style="text-indent:3em">棄而勿為<caesura/>舉止輕忽<caesura/>啟人卑視<caesura/>急早遮止<caesura/>無益行動<caesura/>避免為宜<caesura/>隱己之過</l>
+<lb ed="B" n="0130a15"/>
+  <l style="text-indent:3em">揚人之惡<caesura/>避而勿為<caesura/>飲食衣服<caesura/>不合於體<caesura/>應知捨棄<caesura/>愛因貪起<caesura/>急因遮止</l>
+</lg></cb:div>
 <lb ed="B" n="0130a16"/><cb:div type="other"><cb:mulu type="其他" level="2">（五）十事勿避</cb:mulu><head>（五）十事勿避</head>
-<lb ed="B" n="0130a17"/><lg type="regular" xml:id="lgB10p0130a1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">念念造像<caesura/>無非真心<caesura/>流露之相<caesura/>不應避之<caesura/>心行起滅<caesura/>顯係實相<caesura/>跳盪表徵</l>
-<lb ed="B" n="0130a18"/><l style="text-indent:3em">不應避之<caesura/>情欲泯智<caesura/>人復藉之<caesura/>回憶聖智<caesura/>脫離情欲<caesura/>是以情欲<caesura/>不應避之</l></lg>
+<lb ed="B" n="0130a17"/><lg type="regular" xml:id="lgB10p0130a1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">念念造像<caesura/>無非真心<caesura/>流露之相<caesura/>不應避之<caesura/>心行起滅<caesura/>顯係實相<caesura/>跳盪表徵</l>
+<lb ed="B" n="0130a18"/>
+  <l style="text-indent:3em">不應避之<caesura/>情欲泯智<caesura/>人復藉之<caesura/>回憶聖智<caesura/>脫離情欲<caesura/>是以情欲<caesura/>不應避之</l>
+</lg>
 <lb ed="B" n="0130a19"/><p xml:id="pB10p0130a1901" style="margin-left:0em;text-indent:2em">（飽經人生方知情欲幻妄非真）</p>
-<lb ed="B" n="0130a20"/><lg type="regular" xml:id="lgB10p0130a2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">以財佈施<caesura/>如溉福田<caesura/>智慧增上<caesura/>不應避之<caesura/>疾病貧困<caesura/>猶如上師<caesura/>啟迪信心</l>
+<lb ed="B" n="0130a20"/><lg type="regular" xml:id="lgB10p0130a2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">以財佈施<caesura/>如溉福田<caesura/>智慧增上<caesura/>不應避之<caesura/>疾病貧困<caesura/>猶如上師<caesura/>啟迪信心</l>
 <pb ed="B" xml:id="B10.0056.0131a" n="0131a"/>
-<lb ed="B" n="0131a01"/><l style="text-indent:3em">不應避之<caesura/>人遇仇敵<caesura/>或值災禍<caesura/>心易向道<caesura/>不應避之<caesura/>凡有所獲<caesura/>不求而至</l>
-<lb ed="B" n="0131a02"/><l style="text-indent:3em">必為天賜<caesura/>不應避之<caesura/>事之審辨<caesura/>貴用理智<caesura/>譬諸益友<caesura/>不應避之<caesura/>身心善業</l>
-<lb ed="B" n="0131a03"/><l style="text-indent:3em">儘力所能<caesura/>虔誠修持<caesura/>不必避之<caesura/>自惟力微<caesura/>于人少助<caesura/>助人之心<caesura/>仍不應避</l></lg></cb:div>
+<lb ed="B" n="0131a01"/>
+  <l style="text-indent:3em">不應避之<caesura/>人遇仇敵<caesura/>或值災禍<caesura/>心易向道<caesura/>不應避之<caesura/>凡有所獲<caesura/>不求而至</l>
+<lb ed="B" n="0131a02"/>
+  <l style="text-indent:3em">必為天賜<caesura/>不應避之<caesura/>事之審辨<caesura/>貴用理智<caesura/>譬諸益友<caesura/>不應避之<caesura/>身心善業</l>
+<lb ed="B" n="0131a03"/>
+  <l style="text-indent:3em">儘力所能<caesura/>虔誠修持<caesura/>不必避之<caesura/>自惟力微<caesura/>于人少助<caesura/>助人之心<caesura/>仍不應避</l>
+</lg></cb:div>
 <lb ed="B" n="0131a04"/><cb:div type="other"><cb:mulu type="其他" level="2">（六）十事應知</cb:mulu><head>（六）十事應知</head>
-<lb ed="B" n="0131a05"/><lg type="regular" xml:id="lgB10p0131a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">應知一切<caesura/>目睹色塵<caesura/>如幻不實<caesura/>心離真心<caesura/>無有自性<caesura/>應知無常<caesura/>心有所思</l>
-<lb ed="B" n="0131a06"/><l style="text-indent:3em">應知生自<caesura/>等無間緣<caesura/>身語色法<caesura/>亦屬四大<caesura/>應知非常<caesura/>應知苦惱<caesura/>宿業所感</l>
-<lb ed="B" n="0131a07"/><l style="text-indent:3em">其何能免<caesura/>愁苦之餘<caesura/>心必向道<caesura/>應知愁苦<caesura/>無異上師<caesura/>塵世利名<caesura/>應知無常</l>
-<lb ed="B" n="0131a08"/><l style="text-indent:3em">貪著不捨<caesura/>必阻覺性<caesura/>人有災禍<caesura/>向道心生<caesura/>應知災禍<caesura/>亦為上師<caesura/>應知塵世</l>
-<lb ed="B" n="0131a09"/><l style="text-indent:3em">無有一物<caesura/>有其自心<caesura/>應知世間<caesura/>一切色塵<caesura/>待緣而生</l></lg></cb:div>
+<lb ed="B" n="0131a05"/><lg type="regular" xml:id="lgB10p0131a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">應知一切<caesura/>目睹色塵<caesura/>如幻不實<caesura/>心離真心<caesura/>無有自性<caesura/>應知無常<caesura/>心有所思</l>
+<lb ed="B" n="0131a06"/>
+  <l style="text-indent:3em">應知生自<caesura/>等無間緣<caesura/>身語色法<caesura/>亦屬四大<caesura/>應知非常<caesura/>應知苦惱<caesura/>宿業所感</l>
+<lb ed="B" n="0131a07"/>
+  <l style="text-indent:3em">其何能免<caesura/>愁苦之餘<caesura/>心必向道<caesura/>應知愁苦<caesura/>無異上師<caesura/>塵世利名<caesura/>應知無常</l>
+<lb ed="B" n="0131a08"/>
+  <l style="text-indent:3em">貪著不捨<caesura/>必阻覺性<caesura/>人有災禍<caesura/>向道心生<caesura/>應知災禍<caesura/>亦為上師<caesura/>應知塵世</l>
+<lb ed="B" n="0131a09"/>
+  <l style="text-indent:3em">無有一物<caesura/>有其自心<caesura/>應知世間<caesura/>一切色塵<caesura/>待緣而生</l>
+</lg></cb:div>
 <lb ed="B" n="0131a10"/><cb:div type="other"><cb:mulu type="其他" level="2">（七）十事應習</cb:mulu><head>（七）十事應習</head>
-<lb ed="B" n="0131a11"/><lg type="regular" xml:id="lgB10p0131a1101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">學佛貴在<caesura/>如實了知<caesura/>實踐佛道<caesura/>勿學群生<caesura/>侈談佛法<caesura/>毫不修習<caesura/>離鄉遠居</l>
-<lb ed="B" n="0131a12"/><l style="text-indent:3em">應依正智<caesura/>如實修習<caesura/>出離貪著</l></lg><p xml:id="pB10p0131a1213" style="margin-left:0em;text-indent:2em" cb:place="inline">（戒戀故鄉也——按密法人于命盡之時如仍貪戀塵世即
+<lb ed="B" n="0131a11"/><lg type="regular" xml:id="lgB10p0131a1101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">學佛貴在<caesura/>如實了知<caesura/>實踐佛道<caesura/>勿學群生<caesura/>侈談佛法<caesura/>毫不修習<caesura/>離鄉遠居</l>
+<lb ed="B" n="0131a12"/>
+  <l style="text-indent:3em">應依正智<caesura/>如實修習<caesura/>出離貪著</l>
+</lg>
+<p xml:id="pB10p0131a1213" style="margin-left:0em;text-indent:2em" cb:place="inline">（戒戀故鄉也——按密法人于命盡之時如仍貪戀塵世即
 <lb ed="B" n="0131a13"/>難超脫投生佛土）</p>
-<lb ed="B" n="0131a14"/><lg type="regular" xml:id="lgB10p0131a1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">既擇上師<caesura/>速棄我慢<caesura/>信奉教法<caesura/>修習勿疑<caesura/>聞法禪參<caesura/>心靈啟明<caesura/>速證實相</l>
-<lb ed="B" n="0131a15"/><l style="text-indent:3em">勿謂已悟<caesura/>心靈妙明<caesura/>萬勿怠忽<caesura/>益加修習<caesura/>念持勿失<caesura/>洞徹性地<caesura/>靜住正念</l>
-<lb ed="B" n="0131a16"/><l style="text-indent:3em">塵世榮華<caesura/>棄之何惜<caesura/>如實悟徹<caesura/>決棄人寰<caesura/>身語意三<caesura/>勿任放縱<caesura/>應持三願</l>
-<lb ed="B" n="0131a17"/><l style="text-indent:3em">甘守貧困<caesura/>保持潔行<caesura/>信心不退<caesura/>心既決定<caesura/>成就大事<caesura/>應捨自利<caesura/>普惠群生</l>
-<lb ed="B" n="0131a18"/><l style="text-indent:3em">既已進修<caesura/>真言密乘<caesura/>應修三重<caesura/>大曼陀羅<caesura/>身語意三<caesura/>勿令染污</l></lg><p xml:id="pB10p0131a1825" style="margin-left:0em;text-indent:2em" cb:place="inline">（三重大曼陀羅為
+<lb ed="B" n="0131a14"/><lg type="regular" xml:id="lgB10p0131a1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">既擇上師<caesura/>速棄我慢<caesura/>信奉教法<caesura/>修習勿疑<caesura/>聞法禪參<caesura/>心靈啟明<caesura/>速證實相</l>
+<lb ed="B" n="0131a15"/>
+  <l style="text-indent:3em">勿謂已悟<caesura/>心靈妙明<caesura/>萬勿怠忽<caesura/>益加修習<caesura/>念持勿失<caesura/>洞徹性地<caesura/>靜住正念</l>
+<lb ed="B" n="0131a16"/>
+  <l style="text-indent:3em">塵世榮華<caesura/>棄之何惜<caesura/>如實悟徹<caesura/>決棄人寰<caesura/>身語意三<caesura/>勿任放縱<caesura/>應持三願</l>
+<lb ed="B" n="0131a17"/>
+  <l style="text-indent:3em">甘守貧困<caesura/>保持潔行<caesura/>信心不退<caesura/>心既決定<caesura/>成就大事<caesura/>應捨自利<caesura/>普惠群生</l>
+<lb ed="B" n="0131a18"/>
+  <l style="text-indent:3em">既已進修<caesura/>真言密乘<caesura/>應修三重<caesura/>大曼陀羅<caesura/>身語意三<caesura/>勿令染污</l>
+</lg>
+<p xml:id="pB10p0131a1825" style="margin-left:0em;text-indent:2em" cb:place="inline">（三重大曼陀羅為
 <lb ed="B" n="0131a19"/>供養本續中所修身語意業主尊）亦即印度靈熱瑜珈法所謂流布身語意之靈力——之論壇</p>
-<lb ed="B" n="0131a20"/><lg type="regular" xml:id="lgB10p0131a2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">少年之時<caesura/>亟早皈依<caesura/>淹通法理<caesura/>淨行上師<caesura/>勤學教法<caesura/>如實修習<caesura/>世俗凡夫</l>
+<lb ed="B" n="0131a20"/><lg type="regular" xml:id="lgB10p0131a2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">少年之時<caesura/>亟早皈依<caesura/>淹通法理<caesura/>淨行上師<caesura/>勤學教法<caesura/>如實修習<caesura/>世俗凡夫</l>
 <pb ed="B" xml:id="B10.0056.0132a" n="0132a"/>
-<lb ed="B" n="0132a01"/><l style="text-indent:3em">不能宣談<caesura/>性空妙諦<caesura/>勿與往還</l></lg></cb:div>
+<lb ed="B" n="0132a01"/>
+  <l style="text-indent:3em">不能宣談<caesura/>性空妙諦<caesura/>勿與往還</l>
+</lg></cb:div>
 <lb ed="B" n="0132a02"/><cb:div type="other"><cb:mulu type="其他" level="2">（八）十事精勤</cb:mulu><head>（八）十事精勤</head>
-<lb ed="B" n="0132a03"/><lg type="regular" xml:id="lgB10p0132a0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">初入沙門<caesura/>應于教法<caesura/>聽聞勿怠<caesura/>精勤靜慮<caesura/>心有所悟<caesura/>應即靜參<caesura/>安住其境</l>
-<lb ed="B" n="0132a04"/><l style="text-indent:3em">精勤勿懈<caesura/>所居幽寂<caesura/>精勤禪坐<caesura/>以俟心念<caesura/>密法調伏<caesura/>心念起落<caesura/>不能控制</l>
-<lb ed="B" n="0132a05"/><l style="text-indent:3em">力事調伏<caesura/>精勤勿懈<caesura/>禪坐之際<caesura/>偶覺沉掉<caesura/>應即作意<caesura/>努力勿懈<caesura/>精勤禪定</l>
-<lb ed="B" n="0132a06"/><l style="text-indent:3em">以證三昧<caesura/>冥寂平衡<caesura/>如如之境<caesura/>既證如是<caesura/>三昧耶地<caesura/>精勤執持<caesura/>任意出入</l>
-<lb ed="B" n="0132a07"/><l style="text-indent:3em">危難瀕臨<caesura/>精勤忍辱<caesura/>身語意三<caesura/>毫不為動<caesura/>貪著愛戀<caesura/>意志復弱<caesura/>精勤力除</l>
-<lb ed="B" n="0132a08"/><l style="text-indent:3em">勿使流露<caesura/>仁愛悲憫<caesura/>力薄難起<caesura/>努力心向<caesura/>圓覺大道</l></lg></cb:div>
+<lb ed="B" n="0132a03"/><lg type="regular" xml:id="lgB10p0132a0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">初入沙門<caesura/>應于教法<caesura/>聽聞勿怠<caesura/>精勤靜慮<caesura/>心有所悟<caesura/>應即靜參<caesura/>安住其境</l>
+<lb ed="B" n="0132a04"/>
+  <l style="text-indent:3em">精勤勿懈<caesura/>所居幽寂<caesura/>精勤禪坐<caesura/>以俟心念<caesura/>密法調伏<caesura/>心念起落<caesura/>不能控制</l>
+<lb ed="B" n="0132a05"/>
+  <l style="text-indent:3em">力事調伏<caesura/>精勤勿懈<caesura/>禪坐之際<caesura/>偶覺沉掉<caesura/>應即作意<caesura/>努力勿懈<caesura/>精勤禪定</l>
+<lb ed="B" n="0132a06"/>
+  <l style="text-indent:3em">以證三昧<caesura/>冥寂平衡<caesura/>如如之境<caesura/>既證如是<caesura/>三昧耶地<caesura/>精勤執持<caesura/>任意出入</l>
+<lb ed="B" n="0132a07"/>
+  <l style="text-indent:3em">危難瀕臨<caesura/>精勤忍辱<caesura/>身語意三<caesura/>毫不為動<caesura/>貪著愛戀<caesura/>意志復弱<caesura/>精勤力除</l>
+<lb ed="B" n="0132a08"/>
+  <l style="text-indent:3em">勿使流露<caesura/>仁愛悲憫<caesura/>力薄難起<caesura/>努力心向<caesura/>圓覺大道</l>
+</lg></cb:div>
 <lb ed="B" n="0132a09"/><cb:div type="other"><cb:mulu type="其他" level="2">（九）十事奮發</cb:mulu><head>（九）十事奮發</head>
-<lb ed="B" n="0132a10"/><lg type="regular" xml:id="lgB10p0132a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">反躬自省<caesura/>辛<note n="0132a1001" resp="CBETA" type="add">巳【CB】，已【補編】</note><app n="0132a1001"><lem wit="【CB】" resp="CBETA.maha">巳</lem><rdg wit="【補編】">已</rdg></app>賦得<caesura/>自在無礙<caesura/>難得人身<caesura/>何不奮發<caesura/>依止三寶<caesura/>反躬思惟</l>
-<lb ed="B" n="0132a11"/><l style="text-indent:3em">死生無常<caesura/>應知奮發<caesura/>終身篤信<caesura/>自惟所為<caesura/>必自食果<caesura/>悔莫能贖<caesura/>應知奮發</l>
-<lb ed="B" n="0132a12"/><l style="text-indent:3em">力避不正<caesura/>勿染邪惡<caesura/>思惟輪迴<caesura/>流轉之苦<caesura/>應知奮發<caesura/>求謀解脫<caesura/>思惟眾生</l>
-<lb ed="B" n="0132a13"/><l style="text-indent:3em">備嘗痛苦<caesura/>應知奮發<caesura/>證覺滅苦<caesura/>思惟凡心<caesura/>顛倒幻妄<caesura/>應知奮發<caesura/>聞思五道</l>
-<lb ed="B" n="0132a14"/><l style="text-indent:3em">思惟妄覺<caesura/>根除不易<caesura/>應知奮發<caesura/>靜參不息<caesura/>思惟末法<caesura/>人欲橫流<caesura/>應知奮發</l>
-<lb ed="B" n="0132a15"/><l style="text-indent:3em">立求對治<caesura/>思惟末法<caesura/>災苦無量<caesura/>應知奮發<caesura/>精勤求道<caesura/>思惟人生<caesura/>蹉跎無益</l>
-<lb ed="B" n="0132a16"/><l style="text-indent:3em">應知奮發<caesura/>勤習正法</l></lg></cb:div>
+<lb ed="B" n="0132a10"/><lg type="regular" xml:id="lgB10p0132a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">反躬自省<caesura/>辛<note 
+n="0132a1001" resp="CBETA" type="add">巳【CB】，已【補編】</note><app n="0132a1001">
+    <lem wit="【CB】" resp="CBETA.maha">巳</lem>
+    <rdg wit="【補編】">已</rdg>
+  </app>賦得<caesura/>自在無礙<caesura/>難得人身<caesura/>何不奮發<caesura/>依止三寶<caesura/>反躬思惟</l>
+<lb ed="B" n="0132a11"/>
+  <l style="text-indent:3em">死生無常<caesura/>應知奮發<caesura/>終身篤信<caesura/>自惟所為<caesura/>必自食果<caesura/>悔莫能贖<caesura/>應知奮發</l>
+<lb ed="B" n="0132a12"/>
+  <l style="text-indent:3em">力避不正<caesura/>勿染邪惡<caesura/>思惟輪迴<caesura/>流轉之苦<caesura/>應知奮發<caesura/>求謀解脫<caesura/>思惟眾生</l>
+<lb ed="B" n="0132a13"/>
+  <l style="text-indent:3em">備嘗痛苦<caesura/>應知奮發<caesura/>證覺滅苦<caesura/>思惟凡心<caesura/>顛倒幻妄<caesura/>應知奮發<caesura/>聞思五道</l>
+<lb ed="B" n="0132a14"/>
+  <l style="text-indent:3em">思惟妄覺<caesura/>根除不易<caesura/>應知奮發<caesura/>靜參不息<caesura/>思惟末法<caesura/>人欲橫流<caesura/>應知奮發</l>
+<lb ed="B" n="0132a15"/>
+  <l style="text-indent:3em">立求對治<caesura/>思惟末法<caesura/>災苦無量<caesura/>應知奮發<caesura/>精勤求道<caesura/>思惟人生<caesura/>蹉跎無益</l>
+<lb ed="B" n="0132a16"/>
+  <l style="text-indent:3em">應知奮發<caesura/>勤習正法</l>
+</lg></cb:div>
 <lb ed="B" n="0132a17"/><cb:div type="other"><cb:mulu type="其他" level="2">（十）十事違失</cb:mulu><head>（十）十事違失</head>
-<lb ed="B" n="0132a18"/><lg type="regular" xml:id="lgB10p0132a1801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">信心薄弱<caesura/>智力堅強<caesura/>徒托空言<caesura/>寧非違失<caesura/>信心堅強<caesura/>智力薄弱<caesura/>失之知淺</l>
-<lb ed="B" n="0132a19"/><l style="text-indent:3em">自是其是<caesura/>心雖奮發<caesura/>未經開示<caesura/>悟入迷途<caesura/>其何能免<caesura/>聞思未充<caesura/>修習禪坐</l>
-<lb ed="B" n="0132a20"/><l style="text-indent:3em">迷墮幻境<caesura/>終成違失<caesura/>未能徹底<caesura/>了悟正法<caesura/>未得謂得<caesura/>自慢之失<caesura/>心不利他</l>
+<lb ed="B" n="0132a18"/><lg type="regular" xml:id="lgB10p0132a1801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">信心薄弱<caesura/>智力堅強<caesura/>徒托空言<caesura/>寧非違失<caesura/>信心堅強<caesura/>智力薄弱<caesura/>失之知淺</l>
+<lb ed="B" n="0132a19"/>
+  <l style="text-indent:3em">自是其是<caesura/>心雖奮發<caesura/>未經開示<caesura/>悟入迷途<caesura/>其何能免<caesura/>聞思未充<caesura/>修習禪坐</l>
+<lb ed="B" n="0132a20"/>
+  <l style="text-indent:3em">迷墮幻境<caesura/>終成違失<caesura/>未能徹底<caesura/>了悟正法<caesura/>未得謂得<caesura/>自慢之失<caesura/>心不利他</l>
 <pb ed="B" xml:id="B10.0056.0133a" n="0133a"/>
-<lb ed="B" n="0133a01"/><l style="text-indent:3em">大悲不生<caesura/>超脫自度<caesura/>違失莫大<caesura/>若不了悟<caesura/>心非色法<caesura/>逐流迷海<caesura/>終悔違失</l>
-<lb ed="B" n="0133a02"/><l style="text-indent:3em">若不捨棄<caesura/>名利奢望<caesura/>為所支配<caesura/>自陷違失<caesura/>凡俗輕信<caesura/>群集讚揚<caesura/>沾沾自喜</l>
-<lb ed="B" n="0133a03"/><l style="text-indent:3em">反成違失<caesura/>時序嘉會<caesura/>異術炫俗<caesura/>誇矜法力<caesura/>違失何疑</l></lg></cb:div>
+<lb ed="B" n="0133a01"/>
+  <l style="text-indent:3em">大悲不生<caesura/>超脫自度<caesura/>違失莫大<caesura/>若不了悟<caesura/>心非色法<caesura/>逐流迷海<caesura/>終悔違失</l>
+<lb ed="B" n="0133a02"/>
+  <l style="text-indent:3em">若不捨棄<caesura/>名利奢望<caesura/>為所支配<caesura/>自陷違失<caesura/>凡俗輕信<caesura/>群集讚揚<caesura/>沾沾自喜</l>
+<lb ed="B" n="0133a03"/>
+  <l style="text-indent:3em">反成違失<caesura/>時序嘉會<caesura/>異術炫俗<caesura/>誇矜法力<caesura/>違失何疑</l>
+</lg></cb:div>
 <lb ed="B" n="0133a04"/><cb:div type="other"><cb:mulu type="其他" level="2">（十一）相似十悟</cb:mulu><head>（十一）相似十悟</head>
-<lb ed="B" n="0133a05"/><lg type="regular" xml:id="lgB10p0133a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">願望之切<caesura/>悞為信心<caesura/>愛戀之心<caesura/>悞為慈憫<caesura/>心流止息<caesura/>悞為禪寂<caesura/>偶觸色塵</l>
-<lb ed="B" n="0133a06"/><l style="text-indent:3em">悞為十相<caesura/>瞥見實相<caesura/>悞為圓證<caesura/>侈談信佛<caesura/>略不修習<caesura/>凡俗不察<caesura/>悞為篤信</l>
-<lb ed="B" n="0133a07"/><l style="text-indent:3em">瑜珈行者<caesura/>雖脫俗習<caesura/>未能掃除<caesura/>六欲七情<caesura/>世俗不察<caesura/>悞尊為師<caesura/>利己之行</l>
-<lb ed="B" n="0133a08"/><l style="text-indent:3em">悞為普濟<caesura/>好使詐偽<caesura/>悞為機智<caesura/>眩世欺俗<caesura/>悞為賢哲</l></lg></cb:div>
+<lb ed="B" n="0133a05"/><lg type="regular" xml:id="lgB10p0133a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">願望之切<caesura/>悞為信心<caesura/>愛戀之心<caesura/>悞為慈憫<caesura/>心流止息<caesura/>悞為禪寂<caesura/>偶觸色塵</l>
+<lb ed="B" n="0133a06"/>
+  <l style="text-indent:3em">悞為十相<caesura/>瞥見實相<caesura/>悞為圓證<caesura/>侈談信佛<caesura/>略不修習<caesura/>凡俗不察<caesura/>悞為篤信</l>
+<lb ed="B" n="0133a07"/>
+  <l style="text-indent:3em">瑜珈行者<caesura/>雖脫俗習<caesura/>未能掃除<caesura/>六欲七情<caesura/>世俗不察<caesura/>悞尊為師<caesura/>利己之行</l>
+<lb ed="B" n="0133a08"/>
+  <l style="text-indent:3em">悞為普濟<caesura/>好使詐偽<caesura/>悞為機智<caesura/>眩世欺俗<caesura/>悞為賢哲</l>
+</lg></cb:div>
 <lb ed="B" n="0133a09"/><cb:div type="other"><cb:mulu type="其他" level="2">（十二）十事無悞</cb:mulu><head>（十二）十事無悞</head>
-<lb ed="B" n="0133a10"/><lg type="regular" xml:id="lgB10p0133a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">佛門比丘<caesura/>摒絕一切<caesura/>棄家投荒<caesura/>寧能謂悞<caesura/>敬事法師<caesura/>不為違悞<caesura/>聞思修道</l>
-<lb ed="B" n="0133a11"/><l style="text-indent:3em">不為違悞<caesura/>老高行謙<caesura/>不得謂悞<caesura/>識遠願堅<caesura/>非為違悞<caesura/>智卓不誇<caesura/>不成為悞</l>
-<lb ed="B" n="0133a12"/><l style="text-indent:3em">博學勤思<caesura/>自無違悞<caesura/>法理深湛<caesura/>智通幽玄<caesura/>遠離我慢<caesura/>終無違悞<caesura/>一生隱修</l>
-<lb ed="B" n="0133a13"/><l style="text-indent:3em">寧為違悞<caesura/>憑藉智巧<caesura/>施惠于人<caesura/>不尚自利<caesura/>寧能謂悞</l></lg></cb:div>
+<lb ed="B" n="0133a10"/><lg type="regular" xml:id="lgB10p0133a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">佛門比丘<caesura/>摒絕一切<caesura/>棄家投荒<caesura/>寧能謂悞<caesura/>敬事法師<caesura/>不為違悞<caesura/>聞思修道</l>
+<lb ed="B" n="0133a11"/>
+  <l style="text-indent:3em">不為違悞<caesura/>老高行謙<caesura/>不得謂悞<caesura/>識遠願堅<caesura/>非為違悞<caesura/>智卓不誇<caesura/>不成為悞</l>
+<lb ed="B" n="0133a12"/>
+  <l style="text-indent:3em">博學勤思<caesura/>自無違悞<caesura/>法理深湛<caesura/>智通幽玄<caesura/>遠離我慢<caesura/>終無違悞<caesura/>一生隱修</l>
+<lb ed="B" n="0133a13"/>
+  <l style="text-indent:3em">寧為違悞<caesura/>憑藉智巧<caesura/>施惠于人<caesura/>不尚自利<caesura/>寧能謂悞</l>
+</lg></cb:div>
 <lb ed="B" n="0133a14"/><cb:div type="other"><cb:mulu type="其他" level="2">（十三）十三悲果</cb:mulu><head>（十三）十三悲果</head>
-<lb ed="B" n="0133a15"/><lg type="regular" xml:id="lgB10p0133a1501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">賦得人身<caesura/>不重聖道<caesura/>寶山空回<caesura/>失策堪悲<caesura/>身入佛門<caesura/>猶戀紅塵<caesura/>飛蛾撲火</l>
-<lb ed="B" n="0133a16"/><l style="text-indent:3em">失策堪悲<caesura/>身依賢德<caesura/>無學如故<caesura/>渴死湖濱<caesura/>失策堪悲<caesura/>淹通戒律<caesura/>障重未除</l>
-<lb ed="B" n="0133a17"/><l style="text-indent:3em">病不服藥<caesura/>失策堪悲<caesura/>空言佛法<caesura/>不自修持<caesura/>如鳥善禱<caesura/>失策堪悲<caesura/>贓物佈施</l>
-<lb ed="B" n="0133a18"/><l style="text-indent:3em">如火燃水<caesura/>水不能熱<caesura/>失策堪悲<caesura/>殺生獻神<caesura/>如以己肉<caesura/>奉養親母<caesura/>失榮堪悲</l>
-<lb ed="B" n="0133a19"/><l style="text-indent:3em">忍辱為己<caesura/>不顧人益<caesura/>猶貓嚙鼠<caesura/>失策堪悲<caesura/>廣種福田<caesura/>僅為利名<caesura/>捨寶取石</l>
-<lb ed="B" n="0133a20"/><l style="text-indent:3em">失策堪悲<caesura/>多聞不思<caesura/>譬之醫師<caesura/>自患痼病<caesura/>失策堪悲<caesura/>精諳戒律<caesura/>不知禪參</l>
+<lb ed="B" n="0133a15"/><lg type="regular" xml:id="lgB10p0133a1501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">賦得人身<caesura/>不重聖道<caesura/>寶山空回<caesura/>失策堪悲<caesura/>身入佛門<caesura/>猶戀紅塵<caesura/>飛蛾撲火</l>
+<lb ed="B" n="0133a16"/>
+  <l style="text-indent:3em">失策堪悲<caesura/>身依賢德<caesura/>無學如故<caesura/>渴死湖濱<caesura/>失策堪悲<caesura/>淹通戒律<caesura/>障重未除</l>
+<lb ed="B" n="0133a17"/>
+  <l style="text-indent:3em">病不服藥<caesura/>失策堪悲<caesura/>空言佛法<caesura/>不自修持<caesura/>如鳥善禱<caesura/>失策堪悲<caesura/>贓物佈施</l>
+<lb ed="B" n="0133a18"/>
+  <l style="text-indent:3em">如火燃水<caesura/>水不能熱<caesura/>失策堪悲<caesura/>殺生獻神<caesura/>如以己肉<caesura/>奉養親母<caesura/>失榮堪悲</l>
+<lb ed="B" n="0133a19"/>
+  <l style="text-indent:3em">忍辱為己<caesura/>不顧人益<caesura/>猶貓嚙鼠<caesura/>失策堪悲<caesura/>廣種福田<caesura/>僅為利名<caesura/>捨寶取石</l>
+<lb ed="B" n="0133a20"/>
+  <l style="text-indent:3em">失策堪悲<caesura/>多聞不思<caesura/>譬之醫師<caesura/>自患痼病<caesura/>失策堪悲<caesura/>精諳戒律<caesura/>不知禪參</l>
 <pb ed="B" xml:id="B10.0056.0134a" n="0134a"/>
-<lb ed="B" n="0134a01"/><l style="text-indent:3em">寶莊無鑰<caesura/>失策堪悲<caesura/>法師未深<caesura/>妄自擾人<caesura/>如盲導盲<caesura/>失策堪悲<caesura/>方入初禪</l>
-<lb ed="B" n="0134a02"/><l style="text-indent:3em">意謂四禪<caesura/>悞銅為金<caesura/>失策堪悲</l></lg></cb:div>
+<lb ed="B" n="0134a01"/>
+  <l style="text-indent:3em">寶莊無鑰<caesura/>失策堪悲<caesura/>法師未深<caesura/>妄自擾人<caesura/>如盲導盲<caesura/>失策堪悲<caesura/>方入初禪</l>
+<lb ed="B" n="0134a02"/>
+  <l style="text-indent:3em">意謂四禪<caesura/>悞銅為金<caesura/>失策堪悲</l>
+</lg></cb:div>
 <lb ed="B" n="0134a03"/><cb:div type="other"><cb:mulu type="其他" level="2">（十四）十五玷缺</cb:mulu><head>（十四）十五玷缺</head>
-<lb ed="B" n="0134a04"/><lg type="regular" xml:id="lgB10p0134a0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">閉關靜慮<caesura/>俗念縈繞<caesura/>如是修道<caesura/>顯懈玷缺<caesura/>主持蘭若<caesura/>惟為己利<caesura/>不念僧眾</l>
-<lb ed="B" n="0134a05"/><l style="text-indent:3em">顯有玷缺<caesura/>繩人以戒<caesura/>不自守持<caesura/>如是修道<caesura/>顯有玷缺<caesura/>心既向道<caesura/>猶復執着</l>
-<lb ed="B" n="0134a06"/><l style="text-indent:3em">愛憎妄念<caesura/>顯有玷缺<caesura/>捨棄人世<caesura/>身入佛門<caesura/>心貪功德<caesura/>顯有玷缺<caesura/>瞥見實相</l>
-<lb ed="B" n="0134a07"/><l style="text-indent:3em">心不堅信<caesura/>以待證實<caesura/>顯有玷缺<caesura/>將登正途<caesura/>不能舉步<caesura/>如是行道<caesura/>顯有玷缺</l>
-<lb ed="B" n="0134a08"/><l style="text-indent:3em">一心修道<caesura/>猶不滅除<caesura/>不當行為<caesura/>顯有玷缺<caesura/>修士明知<caesura/>禪院之中<caesura/>衣食資生</l>
-<lb ed="B" n="0134a09"/><l style="text-indent:3em">供養無缺<caesura/>猶豫不入<caesura/>顯有玷缺<caesura/>修道之人<caesura/>驅邪治病<caesura/>故顯神道<caesura/>顯有玷缺</l>
-<lb ed="B" n="0134a10"/><l style="text-indent:3em">修道之人<caesura/>如以聖法<caesura/>易收財物<caesura/>顯有玷缺<caesura/>具願修道<caesura/>巧于自譽<caesura/>意在眨人</l>
-<lb ed="B" n="0134a11"/><l style="text-indent:3em">顯有玷缺<caesura/>修道之人<caesura/>高談法理<caesura/>自無高行<caesura/>顯有玷缺<caesura/>法侶同處<caesura/>不能靜居</l>
-<lb ed="B" n="0134a12"/><l style="text-indent:3em">凡俗之間<caesura/>不自檢束<caesura/>如是行道<caesura/>顯有玷缺<caesura/>修道之人<caesura/>於勞於逸<caesura/>心生差別</l>
-<lb ed="B" n="0134a13"/><l style="text-indent:3em">顯有玷缺</l></lg></cb:div>
+<lb ed="B" n="0134a04"/><lg type="regular" xml:id="lgB10p0134a0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">閉關靜慮<caesura/>俗念縈繞<caesura/>如是修道<caesura/>顯懈玷缺<caesura/>主持蘭若<caesura/>惟為己利<caesura/>不念僧眾</l>
+<lb ed="B" n="0134a05"/>
+  <l style="text-indent:3em">顯有玷缺<caesura/>繩人以戒<caesura/>不自守持<caesura/>如是修道<caesura/>顯有玷缺<caesura/>心既向道<caesura/>猶復執着</l>
+<lb ed="B" n="0134a06"/>
+  <l style="text-indent:3em">愛憎妄念<caesura/>顯有玷缺<caesura/>捨棄人世<caesura/>身入佛門<caesura/>心貪功德<caesura/>顯有玷缺<caesura/>瞥見實相</l>
+<lb ed="B" n="0134a07"/>
+  <l style="text-indent:3em">心不堅信<caesura/>以待證實<caesura/>顯有玷缺<caesura/>將登正途<caesura/>不能舉步<caesura/>如是行道<caesura/>顯有玷缺</l>
+<lb ed="B" n="0134a08"/>
+  <l style="text-indent:3em">一心修道<caesura/>猶不滅除<caesura/>不當行為<caesura/>顯有玷缺<caesura/>修士明知<caesura/>禪院之中<caesura/>衣食資生</l>
+<lb ed="B" n="0134a09"/>
+  <l style="text-indent:3em">供養無缺<caesura/>猶豫不入<caesura/>顯有玷缺<caesura/>修道之人<caesura/>驅邪治病<caesura/>故顯神道<caesura/>顯有玷缺</l>
+<lb ed="B" n="0134a10"/>
+  <l style="text-indent:3em">修道之人<caesura/>如以聖法<caesura/>易收財物<caesura/>顯有玷缺<caesura/>具願修道<caesura/>巧于自譽<caesura/>意在眨人</l>
+<lb ed="B" n="0134a11"/>
+  <l style="text-indent:3em">顯有玷缺<caesura/>修道之人<caesura/>高談法理<caesura/>自無高行<caesura/>顯有玷缺<caesura/>法侶同處<caesura/>不能靜居</l>
+<lb ed="B" n="0134a12"/>
+  <l style="text-indent:3em">凡俗之間<caesura/>不自檢束<caesura/>如是行道<caesura/>顯有玷缺<caesura/>修道之人<caesura/>於勞於逸<caesura/>心生差別</l>
+<lb ed="B" n="0134a13"/>
+  <l style="text-indent:3em">顯有玷缺</l>
+</lg></cb:div>
 <lb ed="B" n="0134a14"/><cb:div type="other"><cb:mulu type="其他" level="2">（十五）十二事不可少</cb:mulu><head>（十五）十二事不可少</head>
-<lb ed="B" n="0134a15"/><lg type="regular" xml:id="lgB10p0134a1501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">不可少者<caesura/>能知之智<caesura/>用以悟道<caesura/>適合需要<caesura/>不可少者<caesura/>厭世之心<caesura/>初入佛門</l>
-<lb ed="B" n="0134a16"/><l style="text-indent:3em">即應奮發<caesura/>不可少者<caesura/>大德上師<caesura/>堪能引趣<caesura/>解脫正道<caesura/>不可少者<caesura/>精勤修法</l>
-<lb ed="B" n="0134a17"/><l style="text-indent:3em">兼具堅忍<caesura/>不受邪誘<caesura/>不可少者<caesura/>修善補過<caesura/>精進不懈<caesura/>身潔意淨<caesura/>語無不善</l>
-<lb ed="B" n="0134a18"/><l style="text-indent:3em">三願具足<caesura/>不可少者<caesura/>玄妙法理<caesura/>博大精深<caesura/>攝智無量<caesura/>不可少者<caesura/>修習禪定</l>
-<lb ed="B" n="0134a19"/><l style="text-indent:3em">堪能心住<caesura/>觀照不釋<caesura/>不可少者<caesura/>裨居勤修<caesura/>身語意善<caesura/>助入正道<caesura/>不可少者</l>
-<lb ed="B" n="0134a20"/><l style="text-indent:3em">上師妙法<caesura/>不僅了解<caesura/>應以實習<caesura/>不可少者<caesura/>上師開示<caesura/>勝妙密諦<caesura/>藉以避免</l>
+<lb ed="B" n="0134a15"/><lg type="regular" xml:id="lgB10p0134a1501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">不可少者<caesura/>能知之智<caesura/>用以悟道<caesura/>適合需要<caesura/>不可少者<caesura/>厭世之心<caesura/>初入佛門</l>
+<lb ed="B" n="0134a16"/>
+  <l style="text-indent:3em">即應奮發<caesura/>不可少者<caesura/>大德上師<caesura/>堪能引趣<caesura/>解脫正道<caesura/>不可少者<caesura/>精勤修法</l>
+<lb ed="B" n="0134a17"/>
+  <l style="text-indent:3em">兼具堅忍<caesura/>不受邪誘<caesura/>不可少者<caesura/>修善補過<caesura/>精進不懈<caesura/>身潔意淨<caesura/>語無不善</l>
+<lb ed="B" n="0134a18"/>
+  <l style="text-indent:3em">三願具足<caesura/>不可少者<caesura/>玄妙法理<caesura/>博大精深<caesura/>攝智無量<caesura/>不可少者<caesura/>修習禪定</l>
+<lb ed="B" n="0134a19"/>
+  <l style="text-indent:3em">堪能心住<caesura/>觀照不釋<caesura/>不可少者<caesura/>裨居勤修<caesura/>身語意善<caesura/>助入正道<caesura/>不可少者</l>
+<lb ed="B" n="0134a20"/>
+  <l style="text-indent:3em">上師妙法<caesura/>不僅了解<caesura/>應以實習<caesura/>不可少者<caesura/>上師開示<caesura/>勝妙密諦<caesura/>藉以避免</l>
 <pb ed="B" xml:id="B10.0056.0135a" n="0135a"/>
-<lb ed="B" n="0135a01"/><l style="text-indent:3em">走入岐途<caesura/>不染邪惡<caesura/>不墮陷阱<caesura/>不值危難<caesura/>不可少者<caesura/>命終報盡<caesura/>信心不退</l>
-<lb ed="B" n="0135a02"/><l style="text-indent:3em">心惟寧靜<caesura/>不可少者<caesura/>如實精習<caesura/>殊妙密法<caesura/>徹悟心靈<caesura/>身語意業<caesura/>轉凡成聖</l></lg></cb:div>
+<lb ed="B" n="0135a01"/>
+  <l style="text-indent:3em">走入岐途<caesura/>不染邪惡<caesura/>不墮陷阱<caesura/>不值危難<caesura/>不可少者<caesura/>命終報盡<caesura/>信心不退</l>
+<lb ed="B" n="0135a02"/>
+  <l style="text-indent:3em">心惟寧靜<caesura/>不可少者<caesura/>如實精習<caesura/>殊妙密法<caesura/>徹悟心靈<caesura/>身語意業<caesura/>轉凡成聖</l>
+</lg></cb:div>
 <lb ed="B" n="0135a03"/><cb:div type="other"><cb:mulu type="其他" level="2">（十六）君子十徵</cb:mulu><head>（十六）君子十徵</head>
-<lb ed="B" n="0135a04"/><lg type="regular" xml:id="lgB10p0135a0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">不倨不嫉<caesura/>君子之徵<caesura/>知足寡欲<caesura/>君子之徵<caesura/>遠離欺偽<caesura/>君子之徵<caesura/>篤信因果</l>
-<lb ed="B" n="0135a05"/><l style="text-indent:3em">慎修其身<caesura/>如保其目<caesura/>君子之徵<caesura/>守約重諾<caesura/>君子之徵<caesura/>善惟友情<caesura/>一視同仁</l>
-<lb ed="B" n="0135a06"/><l style="text-indent:3em">心無偏倚<caesura/>君子之徵<caesura/>於人惡行<caesura/>心常慈憫<caesura/>不生嗔怒<caesura/>君子之徵<caesura/>功屬諸人</l>
-<lb ed="B" n="0135a07"/><l style="text-indent:3em">敗則自任<caesura/>處世若此<caesura/>君子之徵<caesura/>言行超俗<caesura/>君子之徵<caesura/>潔行虔信<caesura/>守願不貳</l>
-<lb ed="B" n="0135a08"/><l style="text-indent:3em">兼無矜誇<caesura/>君子之徵</l></lg></cb:div>
+<lb ed="B" n="0135a04"/><lg type="regular" xml:id="lgB10p0135a0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">不倨不嫉<caesura/>君子之徵<caesura/>知足寡欲<caesura/>君子之徵<caesura/>遠離欺偽<caesura/>君子之徵<caesura/>篤信因果</l>
+<lb ed="B" n="0135a05"/>
+  <l style="text-indent:3em">慎修其身<caesura/>如保其目<caesura/>君子之徵<caesura/>守約重諾<caesura/>君子之徵<caesura/>善惟友情<caesura/>一視同仁</l>
+<lb ed="B" n="0135a06"/>
+  <l style="text-indent:3em">心無偏倚<caesura/>君子之徵<caesura/>於人惡行<caesura/>心常慈憫<caesura/>不生嗔怒<caesura/>君子之徵<caesura/>功屬諸人</l>
+<lb ed="B" n="0135a07"/>
+  <l style="text-indent:3em">敗則自任<caesura/>處世若此<caesura/>君子之徵<caesura/>言行超俗<caesura/>君子之徵<caesura/>潔行虔信<caesura/>守願不貳</l>
+<lb ed="B" n="0135a08"/>
+  <l style="text-indent:3em">兼無矜誇<caesura/>君子之徵</l>
+</lg></cb:div>
 <lb ed="B" n="0135a09"/><cb:div type="other"><cb:mulu type="其他" level="2">（十七）十事無益</cb:mulu><head>（十七）十事無益</head>
-<lb ed="B" n="0135a10"/><lg type="regular" xml:id="lgB10p0135a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">人類色身<caesura/>如幻無常<caesura/>重視不捨<caesura/>實無裨益<caesura/>赤手空拳<caesura/>離絕人世<caesura/>命盡之後</l>
-<lb ed="B" n="0135a11"/><l style="text-indent:3em">軀殼亦棄<caesura/>重勞心力<caesura/>艱苦備嘗<caesura/>企返人間<caesura/>實無裨益<caesura/>子嗣雖眾<caesura/>不諳佛法</l>
-<lb ed="B" n="0135a12"/><l style="text-indent:3em">報盡之時<caesura/>不能相助<caesura/>生前䑛犢<caesura/>遺留財寶<caesura/>不耕福田<caesura/>實無裨益<caesura/>命盡獨行</l>
-<lb ed="B" n="0135a13"/><l style="text-indent:3em">捨棄親友<caesura/>不於生前<caesura/>開示妙法<caesura/>助入正道<caesura/>徒知施惠<caesura/>取悅於人<caesura/>抑又何益</l>
-<lb ed="B" n="0135a14"/><l style="text-indent:3em">子嗣自身<caesura/>死亦不免<caesura/>所遺財物<caesura/>終必不保<caesura/>遺產雖豐<caesura/>毫無裨益<caesura/>軀殼脫去</l>
-<lb ed="B" n="0135a15"/><l style="text-indent:3em">家亦捐棄<caesura/>馳求名利<caesura/>有何裨益<caesura/>善願不守<caesura/>終入輪迴<caesura/>受苦難出<caesura/>況在空門</l>
-<lb ed="B" n="0135a16"/><l style="text-indent:3em">不修淨行<caesura/>究有何益<caesura/>聞想不修<caesura/>臨終之時<caesura/>神力相助<caesura/>亦無裨益<caesura/>心不謙和</l>
-<lb ed="B" n="0135a17"/><l style="text-indent:3em">復乏虔信<caesura/>覺性不長<caesura/>依止上師<caesura/>為時雖久<caesura/>亦無裨益<caesura/>一切現象<caesura/>變幻不定</l>
-<lb ed="B" n="0135a18"/><l style="text-indent:3em">塵世生活<caesura/>非常不實<caesura/>乃猶追逐<caesura/>世間利名<caesura/>不求聖智<caesura/>實無裨益</l></lg></cb:div>
+<lb ed="B" n="0135a10"/><lg type="regular" xml:id="lgB10p0135a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">人類色身<caesura/>如幻無常<caesura/>重視不捨<caesura/>實無裨益<caesura/>赤手空拳<caesura/>離絕人世<caesura/>命盡之後</l>
+<lb ed="B" n="0135a11"/>
+  <l style="text-indent:3em">軀殼亦棄<caesura/>重勞心力<caesura/>艱苦備嘗<caesura/>企返人間<caesura/>實無裨益<caesura/>子嗣雖眾<caesura/>不諳佛法</l>
+<lb ed="B" n="0135a12"/>
+  <l style="text-indent:3em">報盡之時<caesura/>不能相助<caesura/>生前䑛犢<caesura/>遺留財寶<caesura/>不耕福田<caesura/>實無裨益<caesura/>命盡獨行</l>
+<lb ed="B" n="0135a13"/>
+  <l style="text-indent:3em">捨棄親友<caesura/>不於生前<caesura/>開示妙法<caesura/>助入正道<caesura/>徒知施惠<caesura/>取悅於人<caesura/>抑又何益</l>
+<lb ed="B" n="0135a14"/>
+  <l style="text-indent:3em">子嗣自身<caesura/>死亦不免<caesura/>所遺財物<caesura/>終必不保<caesura/>遺產雖豐<caesura/>毫無裨益<caesura/>軀殼脫去</l>
+<lb ed="B" n="0135a15"/>
+  <l style="text-indent:3em">家亦捐棄<caesura/>馳求名利<caesura/>有何裨益<caesura/>善願不守<caesura/>終入輪迴<caesura/>受苦難出<caesura/>況在空門</l>
+<lb ed="B" n="0135a16"/>
+  <l style="text-indent:3em">不修淨行<caesura/>究有何益<caesura/>聞想不修<caesura/>臨終之時<caesura/>神力相助<caesura/>亦無裨益<caesura/>心不謙和</l>
+<lb ed="B" n="0135a17"/>
+  <l style="text-indent:3em">復乏虔信<caesura/>覺性不長<caesura/>依止上師<caesura/>為時雖久<caesura/>亦無裨益<caesura/>一切現象<caesura/>變幻不定</l>
+<lb ed="B" n="0135a18"/>
+  <l style="text-indent:3em">塵世生活<caesura/>非常不實<caesura/>乃猶追逐<caesura/>世間利名<caesura/>不求聖智<caesura/>實無裨益</l>
+</lg></cb:div>
 <lb ed="B" n="0135a19"/><cb:div type="other"><cb:mulu type="其他" level="2">（十八）十事苦惱自招</cb:mulu><head>（十八）十事苦惱自招</head>
-<lb ed="B" n="0135a20"/><lg type="regular" xml:id="lgB10p0135a2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">入主家政<caesura/>支持乏術<caesura/>譬食毒草<caesura/>苦惱自招<caesura/>一生作惡<caesura/>不奉佛法<caesura/>如躍懸崖</l>
+<lb ed="B" n="0135a20"/><lg type="regular" xml:id="lgB10p0135a2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">入主家政<caesura/>支持乏術<caesura/>譬食毒草<caesura/>苦惱自招<caesura/>一生作惡<caesura/>不奉佛法<caesura/>如躍懸崖</l>
 <pb ed="B" xml:id="B10.0056.0136a" n="0136a"/>
-<lb ed="B" n="0136a01"/><l style="text-indent:3em">苦惱自招<caesura/>一生作偽<caesura/>如於飲食<caesura/>自置毒物<caesura/>苦惱自招<caesura/>主持禪院<caesura/>心無定力</l>
-<lb ed="B" n="0136a02"/><l style="text-indent:3em">老弱畜牧<caesura/>苦惱自招<caesura/>志在自利<caesura/>不計群益<caesura/>盲人迷路<caesura/>苦惱自招<caesura/>才力不勝</l>
-<lb ed="B" n="0136a03"/><l style="text-indent:3em">驟荷艱鉅<caesura/>體弱負重<caesura/>苦惱自招<caesura/>驕矜違戒<caesura/>不遵師訓<caesura/>太阿倒持<caesura/>苦惱自招</l>
-<lb ed="B" n="0136a04"/><l style="text-indent:3em">出入市廛<caesura/>不修禪定<caesura/>譬如<note n="0136a0401" resp="CBETA" type="add">麋【CB】，糜【補編】</note><app n="0136a0401"><lem wit="【CB】" resp="CBETA.maha">麋</lem><rdg wit="【補編】">糜</rdg></app>鹿<caesura/>疾馳平原<caesura/>不守山林<caesura/>苦惱自招<caesura/>不求聖智</l>
-<lb ed="B" n="0136a05"/><l style="text-indent:3em">心注利名<caesura/>鷹折其翼<caesura/>苦惱自招<caesura/>世人供養<caesura/>上師三寶<caesura/>妄自取用<caesura/>恬不知恥</l>
-<lb ed="B" n="0136a06"/><l style="text-indent:3em">孩童吞炭<caesura/>苦惱自招</l></lg></cb:div>
+<lb ed="B" n="0136a01"/>
+  <l style="text-indent:3em">苦惱自招<caesura/>一生作偽<caesura/>如於飲食<caesura/>自置毒物<caesura/>苦惱自招<caesura/>主持禪院<caesura/>心無定力</l>
+<lb ed="B" n="0136a02"/>
+  <l style="text-indent:3em">老弱畜牧<caesura/>苦惱自招<caesura/>志在自利<caesura/>不計群益<caesura/>盲人迷路<caesura/>苦惱自招<caesura/>才力不勝</l>
+<lb ed="B" n="0136a03"/>
+  <l style="text-indent:3em">驟荷艱鉅<caesura/>體弱負重<caesura/>苦惱自招<caesura/>驕矜違戒<caesura/>不遵師訓<caesura/>太阿倒持<caesura/>苦惱自招</l>
+<lb ed="B" n="0136a04"/>
+  <l style="text-indent:3em">出入市廛<caesura/>不修禪定<caesura/>譬如<note 
+n="0136a0401" resp="CBETA" type="add">麋【CB】，糜【補編】</note><app n="0136a0401">
+    <lem wit="【CB】" resp="CBETA.maha">麋</lem>
+    <rdg wit="【補編】">糜</rdg>
+  </app>鹿<caesura/>疾馳平原<caesura/>不守山林<caesura/>苦惱自招<caesura/>不求聖智</l>
+<lb ed="B" n="0136a05"/>
+  <l style="text-indent:3em">心注利名<caesura/>鷹折其翼<caesura/>苦惱自招<caesura/>世人供養<caesura/>上師三寶<caesura/>妄自取用<caesura/>恬不知恥</l>
+<lb ed="B" n="0136a06"/>
+  <l style="text-indent:3em">孩童吞炭<caesura/>苦惱自招</l>
+</lg></cb:div>
 <lb ed="B" n="0136a07"/><cb:div type="other"><cb:mulu type="其他" level="2">（十九）十事自益</cb:mulu><head>（十九）十事自益</head>
-<lb ed="B" n="0136a08"/><lg type="regular" xml:id="lgB10p0136a0801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">脫去塵<g ref="#CB00651"/><caesura/>虔修聖法<caesura/>自受饒益<caesura/>離俗出家<caesura/>皈依聖師<caesura/>自受饒益<caesura/>捨棄濁行</l>
-<lb ed="B" n="0136a09"/><l style="text-indent:3em">虔奉聖道<caesura/>聞思修三<caesura/>自受饒益<caesura/>離群獨修<caesura/>自受饒益<caesura/>遠離奢逸<caesura/>堅忍顛沛</l>
-<lb ed="B" n="0136a10"/><l style="text-indent:3em">自受饒益<caesura/>心于少分<caesura/>便爾知足<caesura/>不貪世財<caesura/>自受饒益<caesura/>現世欲樂<caesura/>變遷無常</l>
-<lb ed="B" n="0136a11"/><l style="text-indent:3em">心毋貪戀<caesura/>應求悟證<caesura/>涅槃常樂<caesura/>自受饒益<caesura/>意常堅決<caesura/>不乘人危<caesura/>自受饒益</l>
-<lb ed="B" n="0136a12"/><l style="text-indent:3em">可嗜色法<caesura/>變化不實<caesura/>應知捨棄<caesura/>乘時悟解<caesura/>實相真諦<caesura/>自受饒益<caesura/>身語意業</l>
-<lb ed="B" n="0136a13"/><l style="text-indent:3em">毋任不淨<caesura/>用之于正<caesura/>入世出世<caesura/>功德兼具<caesura/>自受饒益</l></lg></cb:div>
+<lb ed="B" n="0136a08"/><lg type="regular" xml:id="lgB10p0136a0801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">脫去塵<g ref="#CB00651"/><caesura/>虔修聖法<caesura/>自受饒益<caesura/>離俗出家<caesura/>皈依聖師<caesura/>自受饒益<caesura/>捨棄濁行</l>
+<lb ed="B" n="0136a09"/>
+  <l style="text-indent:3em">虔奉聖道<caesura/>聞思修三<caesura/>自受饒益<caesura/>離群獨修<caesura/>自受饒益<caesura/>遠離奢逸<caesura/>堅忍顛沛</l>
+<lb ed="B" n="0136a10"/>
+  <l style="text-indent:3em">自受饒益<caesura/>心于少分<caesura/>便爾知足<caesura/>不貪世財<caesura/>自受饒益<caesura/>現世欲樂<caesura/>變遷無常</l>
+<lb ed="B" n="0136a11"/>
+  <l style="text-indent:3em">心毋貪戀<caesura/>應求悟證<caesura/>涅槃常樂<caesura/>自受饒益<caesura/>意常堅決<caesura/>不乘人危<caesura/>自受饒益</l>
+<lb ed="B" n="0136a12"/>
+  <l style="text-indent:3em">可嗜色法<caesura/>變化不實<caesura/>應知捨棄<caesura/>乘時悟解<caesura/>實相真諦<caesura/>自受饒益<caesura/>身語意業</l>
+<lb ed="B" n="0136a13"/>
+  <l style="text-indent:3em">毋任不淨<caesura/>用之于正<caesura/>入世出世<caesura/>功德兼具<caesura/>自受饒益</l>
+</lg></cb:div>
 <lb ed="B" n="0136a14"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十）十事最勝</cb:mulu><head>（二十）十事最勝</head>
-<lb ed="B" n="0136a15"/><lg type="regular" xml:id="lgB10p0136a1501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">鈍根之人<caesura/>信受因果<caesura/>最為勝妙<caesura/>法界流出<caesura/>見不可見<caesura/>一切色法<caesura/>中根之人</l>
-<lb ed="B" n="0136a16"/><l style="text-indent:3em">悟證性空<caesura/>最為勝妙<caesura/>能知所知<caesura/>能知之識<caesura/>三者不離<caesura/>利根之人<caesura/>澈底悟證</l>
-<lb ed="B" n="0136a17"/><l style="text-indent:3em">最為勝妙<caesura/>鈍根之人<caesura/>禪定一物<caesura/>心不猶豫<caesura/>最為勝妙<caesura/>色心二法<caesura/>不一不異</l>
-<lb ed="B" n="0136a18"/><l style="text-indent:3em">中根之人<caesura/>修習禪定<caesura/>心注不釋<caesura/>最為勝妙<caesura/>利根人士<caesura/>禪定觀照<caesura/>心住常寂</l>
-<lb ed="B" n="0136a19"/><l style="text-indent:3em">妄念不起<caesura/>能所俱遣<caesura/>最為勝妙<caesura/>鈍根之人<caesura/>日常生活<caesura/>切合因果<caesura/>最為勝妙</l>
-<lb ed="B" n="0136a20"/><l style="text-indent:3em">一切客塵<caesura/>視同夢景<caesura/>或同幻化<caesura/>中根人士<caesura/>如是修持<caesura/>最為勝妙<caesura/>利根人士</l>
+<lb ed="B" n="0136a15"/><lg type="regular" xml:id="lgB10p0136a1501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">鈍根之人<caesura/>信受因果<caesura/>最為勝妙<caesura/>法界流出<caesura/>見不可見<caesura/>一切色法<caesura/>中根之人</l>
+<lb ed="B" n="0136a16"/>
+  <l style="text-indent:3em">悟證性空<caesura/>最為勝妙<caesura/>能知所知<caesura/>能知之識<caesura/>三者不離<caesura/>利根之人<caesura/>澈底悟證</l>
+<lb ed="B" n="0136a17"/>
+  <l style="text-indent:3em">最為勝妙<caesura/>鈍根之人<caesura/>禪定一物<caesura/>心不猶豫<caesura/>最為勝妙<caesura/>色心二法<caesura/>不一不異</l>
+<lb ed="B" n="0136a18"/>
+  <l style="text-indent:3em">中根之人<caesura/>修習禪定<caesura/>心注不釋<caesura/>最為勝妙<caesura/>利根人士<caesura/>禪定觀照<caesura/>心住常寂</l>
+<lb ed="B" n="0136a19"/>
+  <l style="text-indent:3em">妄念不起<caesura/>能所俱遣<caesura/>最為勝妙<caesura/>鈍根之人<caesura/>日常生活<caesura/>切合因果<caesura/>最為勝妙</l>
+<lb ed="B" n="0136a20"/>
+  <l style="text-indent:3em">一切客塵<caesura/>視同夢景<caesura/>或同幻化<caesura/>中根人士<caesura/>如是修持<caesura/>最為勝妙<caesura/>利根人士</l>
 <pb ed="B" xml:id="B10.0056.0137a" n="0137a"/>
-<lb ed="B" n="0137a01"/><l style="text-indent:3em">蠲盡俗慮<caesura/>不貪業果<caesura/>最為妙勝<caesura/>三根人士<caesura/>漸次消除<caesura/>欲障我見<caesura/>修持功候</l>
-<lb ed="B" n="0137a02"/><l style="text-indent:3em">顯有進步<caesura/>最為妙勝</l></lg></cb:div>
+<lb ed="B" n="0137a01"/>
+  <l style="text-indent:3em">蠲盡俗慮<caesura/>不貪業果<caesura/>最為妙勝<caesura/>三根人士<caesura/>漸次消除<caesura/>欲障我見<caesura/>修持功候</l>
+<lb ed="B" n="0137a02"/>
+  <l style="text-indent:3em">顯有進步<caesura/>最為妙勝</l>
+</lg></cb:div>
 <lb ed="B" n="0137a03"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十一）十事迷誤堪悲</cb:mulu><head>（二十一）十事迷誤堪悲</head>
-<lb ed="B" n="0137a04"/><lg type="regular" xml:id="lgB10p0137a0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">欣慕盲從<caesura/>炫奇自高<caesura/>邪說外道<caesura/>不求依止<caesura/>依佛實教<caesura/>宜法上師<caesura/>如是修行</l>
-<lb ed="B" n="0137a05"/><l style="text-indent:3em">迷誤堪悲<caesura/>心猶執著<caesura/>虛妄世法<caesura/>不求聖德<caesura/>開示妙法<caesura/>如是修行<caesura/>迷誤堪悲</l>
-<lb ed="B" n="0137a06"/><l style="text-indent:3em">多端籌謀<caesura/>永住三有<caesura/>不悟人生<caesura/>晞同朝露<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>自未見道</l>
-<lb ed="B" n="0137a07"/><l style="text-indent:3em">為眾說法<caesura/>不知禪坐<caesura/>靜參實相<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>廣積財寶<caesura/>慳吝不捨</l>
-<lb ed="B" n="0137a08"/><l style="text-indent:3em">不肯佈施<caesura/>不供三寶<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>三業放佚<caesura/>略無羞愧<caesura/>不知守願</l>
-<lb ed="B" n="0137a09"/><l style="text-indent:3em">重修身心<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>一生歲月<caesura/>不知參悟<caesura/>馳念世欲<caesura/>煩惱轉盛</l>
-<lb ed="B" n="0137a10"/><l style="text-indent:3em">如是修行<caesura/>迷誤堪悲<caesura/>躬自不正<caesura/>而欲正人<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>念念競得</l>
-<lb ed="B" n="0137a11"/><l style="text-indent:3em">濁世威權<caesura/>不知修長<caesura/>內在災力<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>環境適于<caesura/>增進靈慧</l>
-<lb ed="B" n="0137a12"/><l style="text-indent:3em">慵懶漠視<caesura/>不知策發<caesura/>如是修行<caesura/>迷誤堪悲</l></lg></cb:div>
+<lb ed="B" n="0137a04"/><lg type="regular" xml:id="lgB10p0137a0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">欣慕盲從<caesura/>炫奇自高<caesura/>邪說外道<caesura/>不求依止<caesura/>依佛實教<caesura/>宜法上師<caesura/>如是修行</l>
+<lb ed="B" n="0137a05"/>
+  <l style="text-indent:3em">迷誤堪悲<caesura/>心猶執著<caesura/>虛妄世法<caesura/>不求聖德<caesura/>開示妙法<caesura/>如是修行<caesura/>迷誤堪悲</l>
+<lb ed="B" n="0137a06"/>
+  <l style="text-indent:3em">多端籌謀<caesura/>永住三有<caesura/>不悟人生<caesura/>晞同朝露<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>自未見道</l>
+<lb ed="B" n="0137a07"/>
+  <l style="text-indent:3em">為眾說法<caesura/>不知禪坐<caesura/>靜參實相<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>廣積財寶<caesura/>慳吝不捨</l>
+<lb ed="B" n="0137a08"/>
+  <l style="text-indent:3em">不肯佈施<caesura/>不供三寶<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>三業放佚<caesura/>略無羞愧<caesura/>不知守願</l>
+<lb ed="B" n="0137a09"/>
+  <l style="text-indent:3em">重修身心<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>一生歲月<caesura/>不知參悟<caesura/>馳念世欲<caesura/>煩惱轉盛</l>
+<lb ed="B" n="0137a10"/>
+  <l style="text-indent:3em">如是修行<caesura/>迷誤堪悲<caesura/>躬自不正<caesura/>而欲正人<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>念念競得</l>
+<lb ed="B" n="0137a11"/>
+  <l style="text-indent:3em">濁世威權<caesura/>不知修長<caesura/>內在災力<caesura/>如是修行<caesura/>迷誤堪悲<caesura/>環境適于<caesura/>增進靈慧</l>
+<lb ed="B" n="0137a12"/>
+  <l style="text-indent:3em">慵懶漠視<caesura/>不知策發<caesura/>如是修行<caesura/>迷誤堪悲</l>
+</lg></cb:div>
 <lb ed="B" n="0137a13"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十二）十事需要</cb:mulu><head>（二十二）十事需要</head>
-<lb ed="B" n="0137a14"/><lg type="regular" xml:id="lgB10p0137a1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">眾生不覺<caesura/>流轉生死<caesura/>學佛之初<caesura/>欲期解脫<caesura/>應瀰厭惡<caesura/>輪迴之苦<caesura/>譬之<note n="0137a1401" resp="CBETA" type="add">麋【CB】，糜【補編】</note><app n="0137a1401"><lem wit="【CB】" resp="CBETA.maha">麋</lem><rdg wit="【補編】">糜</rdg></app>鹿</l>
-<lb ed="B" n="0137a15"/><l style="text-indent:3em">逃避園囿<caesura/>入道之初<caesura/>切需精進<caesura/>捨命不惜<caesura/>如農勤耘<caesura/>命盡前夕<caesura/>躬耕不輟</l>
-<lb ed="B" n="0137a16"/><l style="text-indent:3em">初求菩提<caesura/>心應喜悅<caesura/>如欣事成<caesura/>溥利群生<caesura/>學佛應戒<caesura/>虛擇光景<caesura/>如救箭傷</l>
-<lb ed="B" n="0137a17"/><l style="text-indent:3em">時機莫失<caesura/>母失獨子<caesura/>悲念難釋<caesura/>學佛貴能<caesura/>一念澄寂<caesura/>學佛應戒<caesura/>逐物意移</l>
-<lb ed="B" n="0137a18"/><l style="text-indent:3em">猶如羊群<caesura/>為敵刦失<caesura/>牧人心知<caesura/>亡羊難追（心無羊念也）</l></lg>
-<lb ed="B" n="0137a19"/><lg type="regular" xml:id="lgB10p0137a1901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">學佛先須<caesura/>渴求正法<caesura/>譬如饑者<caesura/>切望佳餚<caesura/>學佛應恃<caesura/>一己智力<caesura/>譬如力士</l>
-<lb ed="B" n="0137a20"/><l style="text-indent:3em">發見妙寶<caesura/>自信勇武<caesura/>足以保持<caesura/>學佛應悟<caesura/>心色不二<caesura/>如人妄語<caesura/>知為不實</l>
+<lb ed="B" n="0137a14"/><lg type="regular" xml:id="lgB10p0137a1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">眾生不覺<caesura/>流轉生死<caesura/>學佛之初<caesura/>欲期解脫<caesura/>應瀰厭惡<caesura/>輪迴之苦<caesura/>譬之<note 
+n="0137a1401" resp="CBETA" type="add">麋【CB】，糜【補編】</note><app n="0137a1401">
+    <lem wit="【CB】" resp="CBETA.maha">麋</lem>
+    <rdg wit="【補編】">糜</rdg>
+  </app>鹿</l>
+<lb ed="B" n="0137a15"/>
+  <l style="text-indent:3em">逃避園囿<caesura/>入道之初<caesura/>切需精進<caesura/>捨命不惜<caesura/>如農勤耘<caesura/>命盡前夕<caesura/>躬耕不輟</l>
+<lb ed="B" n="0137a16"/>
+  <l style="text-indent:3em">初求菩提<caesura/>心應喜悅<caesura/>如欣事成<caesura/>溥利群生<caesura/>學佛應戒<caesura/>虛擇光景<caesura/>如救箭傷</l>
+<lb ed="B" n="0137a17"/>
+  <l style="text-indent:3em">時機莫失<caesura/>母失獨子<caesura/>悲念難釋<caesura/>學佛貴能<caesura/>一念澄寂<caesura/>學佛應戒<caesura/>逐物意移</l>
+<lb ed="B" n="0137a18"/>
+  <l style="text-indent:3em">猶如羊群<caesura/>為敵刦失<caesura/>牧人心知<caesura/>亡羊難追（心無羊念也）</l>
+</lg>
+<lb ed="B" n="0137a19"/><lg type="regular" xml:id="lgB10p0137a1901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">學佛先須<caesura/>渴求正法<caesura/>譬如饑者<caesura/>切望佳餚<caesura/>學佛應恃<caesura/>一己智力<caesura/>譬如力士</l>
+<lb ed="B" n="0137a20"/>
+  <l style="text-indent:3em">發見妙寶<caesura/>自信勇武<caesura/>足以保持<caesura/>學佛應悟<caesura/>心色不二<caesura/>如人妄語<caesura/>知為不實</l>
 <pb ed="B" xml:id="B10.0056.0138a" n="0138a"/>
-<lb ed="B" n="0138a01"/><l style="text-indent:3em">了了見心<caesura/>惟一歸宿<caesura/>如諸倦鳥<caesura/>飛自遠方<caesura/>見桅自信<caesura/>可以棲止</l></lg></cb:div>
+<lb ed="B" n="0138a01"/>
+  <l style="text-indent:3em">了了見心<caesura/>惟一歸宿<caesura/>如諸倦鳥<caesura/>飛自遠方<caesura/>見桅自信<caesura/>可以棲止</l>
+</lg></cb:div>
 <lb ed="B" n="0138a02"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十三）十事無須</cb:mulu><head>（二十三）十事無須</head>
-<lb ed="B" n="0138a03"/><lg xml:id="lgB10p0138a0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">如已悟證<caesura/>心性唯空<caesura/>聞道修道<caesura/>不再需要</l></lg><p xml:id="pB10p0138a0317" style="margin-left:0em;text-indent:2em" cb:place="inline">（宗鏡錄云：只為眾生不了唯心，妄生外境，以不實故，
+<lb ed="B" n="0138a03"/><lg xml:id="lgB10p0138a0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">如已悟證<caesura/>心性唯空<caesura/>聞道修道<caesura/>不再需要</l>
+</lg>
+<p xml:id="pB10p0138a0317" style="margin-left:0em;text-indent:2em" cb:place="inline">（宗鏡錄云：只為眾生不了唯心，妄生外境，以不實故，
 <lb ed="B" n="0138a04"/>所以諸佛出世，若有一法是實，則諸佛終不出世，所說方便教門，不為知者說，但為未知者破執除疑
 <lb ed="B" n="0138a05"/>以形言教，若執喪疑消，則無道可得，無言可說。）</p>
-<lb ed="B" n="0138a06"/><lg xml:id="lgB10p0138a0601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">如已證得<caesura/>自性清淨<caesura/>贖滅罪根<caesura/>不再需要</l></lg><p xml:id="pB10p0138a0617" style="margin-left:0em;text-indent:2em" cb:place="inline">（觀普賢菩薩行法經云：如是法相不生不滅，何者是罪，
+<lb ed="B" n="0138a06"/><lg xml:id="lgB10p0138a0601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">如已證得<caesura/>自性清淨<caesura/>贖滅罪根<caesura/>不再需要</l>
+</lg>
+<p xml:id="pB10p0138a0617" style="margin-left:0em;text-indent:2em" cb:place="inline">（觀普賢菩薩行法經云：如是法相不生不滅，何者是罪，
 <lb ed="B" n="0138a07"/>何者是福；我心自空，罪福無主。又金光明經疏云：所觀之罪，非復是罪，罪即實相；所觀之福，福
 <lb ed="B" n="0138a08"/>即非福，福即實相；純是實相，是名大懺悔也。）</p>
-<lb ed="B" n="0138a09"/><lg xml:id="lgB10p0138a0901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">心已安住<caesura/>湛寂之境<caesura/>贖滅罪根<caesura/>亦不需要<note place="inline">見前註</note></l></lg><lg xml:id="lgB10p0138a0920" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">如已證得<caesura/>無垢實相<caesura/>思道修道<caesura/>不再需要（蓋已臻
-<lb ed="B" n="0138a10"/>勝果矣）</l></lg><lg xml:id="lgB10p0138a1004" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">如已悟證<caesura/>心念如幻<caesura/>捨念樂住<caesura/>不再需要（捨念樂住者第三禪也）</l></lg><lg xml:id="lgB10p0138a1029" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">欲障瀰重<caesura/>證為不實<caesura/>尋
-<lb ed="B" n="0138a11"/>求對治</l><l style="text-indent:2em">不再需要</l></lg><lg xml:id="lgB10p0138a1108" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">森羅萬象<caesura/>證為幻化<caesura/>取捨妄情<caesura/>自不需要</l></lg><lg xml:id="lgB10p0138a1124" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">苦難與樂<caesura/>唯為盡性<caesura/>妄求多福<caesura/>有
-<lb ed="B" n="0138a12"/>何需要</l></lg><lg xml:id="lgB10p0138a1204" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">悟證本識<caesura/>性本無生<caesura/>遷移本識<caesura/>自無必要</l></lg><lg xml:id="lgB10p0138a1220" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">凡有所為<caesura/>莫非利他<caesura/>心切自利<caesura/>不再需要</l></lg></cb:div>
+<lb ed="B" n="0138a09"/><lg xml:id="lgB10p0138a0901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">心已安住<caesura/>湛寂之境<caesura/>贖滅罪根<caesura/>亦不需要<note place="inline">見前註</note></l>
+</lg>
+<lg xml:id="lgB10p0138a0920" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">如已證得<caesura/>無垢實相<caesura/>思道修道<caesura/>不再需要（蓋已臻
+<lb ed="B" n="0138a10"/>勝果矣）</l>
+</lg>
+<lg xml:id="lgB10p0138a1004" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">如已悟證<caesura/>心念如幻<caesura/>捨念樂住<caesura/>不再需要（捨念樂住者第三禪也）</l>
+</lg>
+<lg xml:id="lgB10p0138a1029" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">欲障瀰重<caesura/>證為不實<caesura/>尋
+<lb ed="B" n="0138a11"/>求對治</l>
+  <l style="text-indent:2em">不再需要</l>
+</lg>
+<lg xml:id="lgB10p0138a1108" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">森羅萬象<caesura/>證為幻化<caesura/>取捨妄情<caesura/>自不需要</l>
+</lg>
+<lg xml:id="lgB10p0138a1124" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">苦難與樂<caesura/>唯為盡性<caesura/>妄求多福<caesura/>有
+<lb ed="B" n="0138a12"/>何需要</l>
+</lg>
+<lg xml:id="lgB10p0138a1204" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">悟證本識<caesura/>性本無生<caesura/>遷移本識<caesura/>自無必要</l>
+</lg>
+<lg xml:id="lgB10p0138a1220" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">凡有所為<caesura/>莫非利他<caesura/>心切自利<caesura/>不再需要</l>
+</lg></cb:div>
 <lb ed="B" n="0138a13"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十四）十事更勝</cb:mulu><head>（二十四）十事更勝</head>
-<lb ed="B" n="0138a14"/><lg xml:id="lgB10p0138a1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">一生賦得<caesura/>自在無礙<caesura/>福感人身<caesura/>勝彼業感<caesura/>無量無邊<caesura/>他輪迴身<caesura/>一位聖德</l>
-<lb ed="B" n="0138a15"/><l style="text-indent:3em">勝彼無量<caesura/>不奉佛法<caesura/>背覺合塵<caesura/>密義一句<caesura/>勝彼無量<caesura/>顯了教法<caesura/>禪關瞥見</l>
-<lb ed="B" n="0138a16"/><l style="text-indent:3em">剎那聖智<caesura/>勝彼聞思<caesura/>勝解無量<caesura/>最極少分<caesura/>利他功德<caesura/>勝彼無量<caesura/>利己功德</l>
-<lb ed="B" n="0138a17"/><l style="text-indent:3em">剎那可證<caesura/>三昧耶地<caesura/>心念湛寂<caesura/>勝彼無量<caesura/>三昧耶地<caesura/>心念未泯<caesura/>剎那所證</l>
-<lb ed="B" n="0138a18"/><l style="text-indent:3em">涅槃之樂<caesura/>勝彼任何<caesura/>色欲之樂<caesura/>少分善業<caesura/>不圖利己<caesura/>勝彼無量<caesura/>利己事業</l>
-<lb ed="B" n="0138a19"/><l style="text-indent:3em">捨棄一切</l>
-<lb ed="B" n="0138a20"/><l style="text-indent:3em">世俗所尚<caesura/>勝彼佈施<caesura/>廣大財寶</l></lg><p xml:id="pB10p0138a2013" style="margin-left:0em;text-indent:2em" cb:place="inline">（一切二字普攝家庭宗族友侶財產名譽壽命健康等等）</p>
+<lb ed="B" n="0138a14"/><lg xml:id="lgB10p0138a1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">一生賦得<caesura/>自在無礙<caesura/>福感人身<caesura/>勝彼業感<caesura/>無量無邊<caesura/>他輪迴身<caesura/>一位聖德</l>
+<lb ed="B" n="0138a15"/>
+  <l style="text-indent:3em">勝彼無量<caesura/>不奉佛法<caesura/>背覺合塵<caesura/>密義一句<caesura/>勝彼無量<caesura/>顯了教法<caesura/>禪關瞥見</l>
+<lb ed="B" n="0138a16"/>
+  <l style="text-indent:3em">剎那聖智<caesura/>勝彼聞思<caesura/>勝解無量<caesura/>最極少分<caesura/>利他功德<caesura/>勝彼無量<caesura/>利己功德</l>
+<lb ed="B" n="0138a17"/>
+  <l style="text-indent:3em">剎那可證<caesura/>三昧耶地<caesura/>心念湛寂<caesura/>勝彼無量<caesura/>三昧耶地<caesura/>心念未泯<caesura/>剎那所證</l>
+<lb ed="B" n="0138a18"/>
+  <l style="text-indent:3em">涅槃之樂<caesura/>勝彼任何<caesura/>色欲之樂<caesura/>少分善業<caesura/>不圖利己<caesura/>勝彼無量<caesura/>利己事業</l>
+<lb ed="B" n="0138a19"/>
+  <l style="text-indent:3em">捨棄一切</l>
+<lb ed="B" n="0138a20"/>
+  <l style="text-indent:3em">世俗所尚<caesura/>勝彼佈施<caesura/>廣大財寶</l>
+</lg>
+<p xml:id="pB10p0138a2013" style="margin-left:0em;text-indent:2em" cb:place="inline">（一切二字普攝家庭宗族友侶財產名譽壽命健康等等）</p>
 <pb ed="B" xml:id="B10.0056.0139a" n="0139a"/>
-<lb ed="B" n="0139a01"/><lg xml:id="lgB10p0139a0101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">一生修道<caesura/>勝彼迫逐<caesura/>塵世利名<caesura/>無量數刼</l></lg></cb:div>
+<lb ed="B" n="0139a01"/><lg xml:id="lgB10p0139a0101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">一生修道<caesura/>勝彼迫逐<caesura/>塵世利名<caesura/>無量數刼</l>
+</lg></cb:div>
 <lb ed="B" n="0139a02"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十五）十事無別</cb:mulu><head>（二十五）十事無別</head>
-<lb ed="B" n="0139a03"/><lg type="regular" xml:id="lgB10p0139a0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">人於梵行<caesura/>誠篤修持<caesura/>入世出世<caesura/>了無差別<caesura/>人如證得<caesura/>超世正智<caesura/>禪坐與否</l>
-<lb ed="B" n="0139a04"/><l style="text-indent:3em">了無差別<caesura/>人於塵欲<caesura/>不起貪著<caesura/>苦行與否<caesura/>了無差別<caesura/>心證實相<caesura/>寂居山顛</l>
-<lb ed="B" n="0139a05"/><l style="text-indent:3em">行脚十方<caesura/>了無差別<caesura/>鑒徹本原<caesura/>於世欲樂<caesura/>貪不貪著<caesura/>了無差別<caesura/>具足大悲</l>
-<lb ed="B" n="0139a06"/><l style="text-indent:3em">靜處獨參<caesura/>施惠人群<caesura/>了無差別<caesura/>尊敬上師<caesura/>信心不搖<caesura/>依止與否<caesura/>了無差別</l>
-<lb ed="B" n="0139a07"/><l style="text-indent:3em">聞法之後<caesura/>頓生勝解<caesura/>身世否泰<caesura/>了無差別<caesura/>絕世修真<caesura/>其於世法<caesura/>隨俗與否</l>
-<lb ed="B" n="0139a08"/><l style="text-indent:3em">了無差別<caesura/>既證勝惠<caesura/>神通變化<caesura/>能與不能<caesura/>了無差別</l></lg></cb:div>
+<lb ed="B" n="0139a03"/><lg type="regular" xml:id="lgB10p0139a0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">人於梵行<caesura/>誠篤修持<caesura/>入世出世<caesura/>了無差別<caesura/>人如證得<caesura/>超世正智<caesura/>禪坐與否</l>
+<lb ed="B" n="0139a04"/>
+  <l style="text-indent:3em">了無差別<caesura/>人於塵欲<caesura/>不起貪著<caesura/>苦行與否<caesura/>了無差別<caesura/>心證實相<caesura/>寂居山顛</l>
+<lb ed="B" n="0139a05"/>
+  <l style="text-indent:3em">行脚十方<caesura/>了無差別<caesura/>鑒徹本原<caesura/>於世欲樂<caesura/>貪不貪著<caesura/>了無差別<caesura/>具足大悲</l>
+<lb ed="B" n="0139a06"/>
+  <l style="text-indent:3em">靜處獨參<caesura/>施惠人群<caesura/>了無差別<caesura/>尊敬上師<caesura/>信心不搖<caesura/>依止與否<caesura/>了無差別</l>
+<lb ed="B" n="0139a07"/>
+  <l style="text-indent:3em">聞法之後<caesura/>頓生勝解<caesura/>身世否泰<caesura/>了無差別<caesura/>絕世修真<caesura/>其於世法<caesura/>隨俗與否</l>
+<lb ed="B" n="0139a08"/>
+  <l style="text-indent:3em">了無差別<caesura/>既證勝惠<caesura/>神通變化<caesura/>能與不能<caesura/>了無差別</l>
+</lg></cb:div>
 <lb ed="B" n="0139a09"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十六）聖法十德</cb:mulu><head>（二十六）聖法十德</head>
-<lb ed="B" n="0139a10"/><lg type="regular" xml:id="lgB10p0139a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">十善業道<caesura/>六波羅密<caesura/>實相圓覺<caesura/>微妙法理<caesura/>苦等四諦<caesura/>禪定四地<caesura/>無色四界</l>
-<lb ed="B" n="0139a11"/><l style="text-indent:3em">密法生西<caesura/>即生成就<caesura/>種種教法<caesura/>隨緣應機<caesura/>宏佈人間<caesura/>莫非聖法<caesura/>希有功德</l>
-<lb ed="B" n="0139a12"/><l style="text-indent:3em">人世覺者<caesura/>系出天演<caesura/>或出梵門<caesura/>四大天王<caesura/>欲界六天<caesura/>十七色天<caesura/>無色四天</l>
-<lb ed="B" n="0139a13"/><l style="text-indent:3em">如是人天<caesura/>出自輪迴<caesura/>不復沉淪<caesura/>莫非聖法<caesura/>希有功德<caesura/>塵世成就<caesura/>或為預流</l>
-<lb ed="B" n="0139a14"/><l style="text-indent:3em">或為一來<caesura/>或為不還<caesura/>或阿羅漢<caesura/>或一切知<caesura/>足證聖法<caesura/>希有功德<caesura/>證得菩提</l>
-<lb ed="B" n="0139a15"/><l style="text-indent:3em">轉生世界<caesura/>壞刼之前<caesura/>度盡眾生<caesura/>足證聖法<caesura/>希有功德<caesura/>大乘菩薩<caesura/>宏大悲願</l>
-<lb ed="B" n="0139a16"/><l style="text-indent:3em">智燈廣照<caesura/>威力加持<caesura/>世界有情<caesura/>咸獲超脫<caesura/>足證聖法<caesura/>希有功德<caesura/>生前悲行</l>
-<lb ed="B" n="0139a17"/><l style="text-indent:3em">縱極微小<caesura/>死臨中有<caesura/>亦足自拔<caesura/>足證聖法<caesura/>希有功德<caesura/>素有惡行<caesura/>忽爾悔悟</l>
-<lb ed="B" n="0139a18"/><l style="text-indent:3em">出家成聖<caesura/>為世宗仰<caesura/>足證聖法<caesura/>希有功德<caesura/>惡業熾盛<caesura/>命盡之後<caesura/>受苦無盡</l>
-<lb ed="B" n="0139a19"/><l style="text-indent:3em">如是等人<caesura/>悔悟向道<caesura/>亦證涅槃<caesura/>足證聖法<caesura/>希有功德<caesura/>一念起信<caesura/>一心修禪</l>
-<lb ed="B" n="0139a20"/><l style="text-indent:3em">緇衣加身<caesura/>為世尊敬<caesura/>足證聖法<caesura/>希有功德<caesura/>絕俗修真<caesura/>出家靜參<caesura/>得人依止</l>
+<lb ed="B" n="0139a10"/><lg type="regular" xml:id="lgB10p0139a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">十善業道<caesura/>六波羅密<caesura/>實相圓覺<caesura/>微妙法理<caesura/>苦等四諦<caesura/>禪定四地<caesura/>無色四界</l>
+<lb ed="B" n="0139a11"/>
+  <l style="text-indent:3em">密法生西<caesura/>即生成就<caesura/>種種教法<caesura/>隨緣應機<caesura/>宏佈人間<caesura/>莫非聖法<caesura/>希有功德</l>
+<lb ed="B" n="0139a12"/>
+  <l style="text-indent:3em">人世覺者<caesura/>系出天演<caesura/>或出梵門<caesura/>四大天王<caesura/>欲界六天<caesura/>十七色天<caesura/>無色四天</l>
+<lb ed="B" n="0139a13"/>
+  <l style="text-indent:3em">如是人天<caesura/>出自輪迴<caesura/>不復沉淪<caesura/>莫非聖法<caesura/>希有功德<caesura/>塵世成就<caesura/>或為預流</l>
+<lb ed="B" n="0139a14"/>
+  <l style="text-indent:3em">或為一來<caesura/>或為不還<caesura/>或阿羅漢<caesura/>或一切知<caesura/>足證聖法<caesura/>希有功德<caesura/>證得菩提</l>
+<lb ed="B" n="0139a15"/>
+  <l style="text-indent:3em">轉生世界<caesura/>壞刼之前<caesura/>度盡眾生<caesura/>足證聖法<caesura/>希有功德<caesura/>大乘菩薩<caesura/>宏大悲願</l>
+<lb ed="B" n="0139a16"/>
+  <l style="text-indent:3em">智燈廣照<caesura/>威力加持<caesura/>世界有情<caesura/>咸獲超脫<caesura/>足證聖法<caesura/>希有功德<caesura/>生前悲行</l>
+<lb ed="B" n="0139a17"/>
+  <l style="text-indent:3em">縱極微小<caesura/>死臨中有<caesura/>亦足自拔<caesura/>足證聖法<caesura/>希有功德<caesura/>素有惡行<caesura/>忽爾悔悟</l>
+<lb ed="B" n="0139a18"/>
+  <l style="text-indent:3em">出家成聖<caesura/>為世宗仰<caesura/>足證聖法<caesura/>希有功德<caesura/>惡業熾盛<caesura/>命盡之後<caesura/>受苦無盡</l>
+<lb ed="B" n="0139a19"/>
+  <l style="text-indent:3em">如是等人<caesura/>悔悟向道<caesura/>亦證涅槃<caesura/>足證聖法<caesura/>希有功德<caesura/>一念起信<caesura/>一心修禪</l>
+<lb ed="B" n="0139a20"/>
+  <l style="text-indent:3em">緇衣加身<caesura/>為世尊敬<caesura/>足證聖法<caesura/>希有功德<caesura/>絕俗修真<caesura/>出家靜參<caesura/>得人依止</l>
 <pb ed="B" xml:id="B10.0056.0140a" n="0140a"/>
-<lb ed="B" n="0140a01"/><l style="text-indent:3em">恭敬恭養<caesura/>足證聖法<caesura/>希有功德</l></lg></cb:div>
+<lb ed="B" n="0140a01"/>
+  <l style="text-indent:3em">恭敬恭養<caesura/>足證聖法<caesura/>希有功德</l>
+</lg></cb:div>
 <lb ed="B" n="0140a02"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十七）十事喻說</cb:mulu><head>（二十七）十事喻說</head>
-<lb ed="B" n="0140a03"/><lg xml:id="lgB10p0140a0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">根本實相<caesura/>不落言銓<caesura/>所謂實相<caesura/>引喻以況<caesura/>既無所行<caesura/>亦無能行<caesura/>所謂行道</l>
-<lb ed="B" n="0140a04"/><l style="text-indent:3em">引喻以況<caesura/>既無所見<caesura/>亦無能見<caesura/>所謂見性<caesura/>引喻以況<caesura/>心信淨相<caesura/>能所俱遣</l>
-<lb ed="B" n="0140a05"/><l style="text-indent:3em">所謂信相<caesura/>引喻以況<caesura/>欣證本心<caesura/>能所俱遣<caesura/>所謂本心<caesura/>引喻以況<caesura/>守願不貳</l>
-<lb ed="B" n="0140a06"/><l style="text-indent:3em">既無所守<caesura/>亦無能守<caesura/>引喻以況<caesura/>二重功德（二重者入世出世也）<caesura/>既無所積</l>
-<lb ed="B" n="0140a07"/><l style="text-indent:3em">亦無能積<caesura/>引喻以況<caesura/>既無所作<caesura/>亦無能作<caesura/>業報二障（二障煩惱與所知也）</l>
-<lb ed="B" n="0140a08"/><l style="text-indent:3em">既無所棄<caesura/>亦無能棄<caesura/>所謂塵世<caesura/>引喻以況<caesura/>既無所受<caesura/>亦無能受<caesura/>造因受果</l>
-<lb ed="B" n="0140a09"/><l style="text-indent:3em">引喻以況</l></lg></cb:div>
+<lb ed="B" n="0140a03"/><lg xml:id="lgB10p0140a0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">根本實相<caesura/>不落言銓<caesura/>所謂實相<caesura/>引喻以況<caesura/>既無所行<caesura/>亦無能行<caesura/>所謂行道</l>
+<lb ed="B" n="0140a04"/>
+  <l style="text-indent:3em">引喻以況<caesura/>既無所見<caesura/>亦無能見<caesura/>所謂見性<caesura/>引喻以況<caesura/>心信淨相<caesura/>能所俱遣</l>
+<lb ed="B" n="0140a05"/>
+  <l style="text-indent:3em">所謂信相<caesura/>引喻以況<caesura/>欣證本心<caesura/>能所俱遣<caesura/>所謂本心<caesura/>引喻以況<caesura/>守願不貳</l>
+<lb ed="B" n="0140a06"/>
+  <l style="text-indent:3em">既無所守<caesura/>亦無能守<caesura/>引喻以況<caesura/>二重功德（二重者入世出世也）<caesura/>既無所積</l>
+<lb ed="B" n="0140a07"/>
+  <l style="text-indent:3em">亦無能積<caesura/>引喻以況<caesura/>既無所作<caesura/>亦無能作<caesura/>業報二障（二障煩惱與所知也）</l>
+<lb ed="B" n="0140a08"/>
+  <l style="text-indent:3em">既無所棄<caesura/>亦無能棄<caesura/>所謂塵世<caesura/>引喻以況<caesura/>既無所受<caesura/>亦無能受<caesura/>造因受果</l>
+<lb ed="B" n="0140a09"/>
+  <l style="text-indent:3em">引喻以況</l>
+</lg></cb:div>
 <lb ed="B" n="0140a10"/><cb:div type="other"><cb:mulu type="其他" level="2">（二十八）妙悟十樂</cb:mulu><head>（二十八）妙悟十樂</head>
-<lb ed="B" n="0140a11"/><lg type="regular" xml:id="lgB10p0140a1101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">有情之心<caesura/>不離真心<caesura/>如是妙悟<caesura/>是為大樂<caesura/>根本實相<caesura/>超絕言說<caesura/>如是妙悟</l>
-<lb ed="B" n="0140a12"/><l style="text-indent:3em">是為大樂<caesura/>實相超念<caesura/>不可比量<caesura/>輪迴差別<caesura/>無有自性<caesura/>如是妙悟<caesura/>是為大樂</l>
-<lb ed="B" n="0140a13"/><l style="text-indent:3em">法爾真心<caesura/>於念不動<caesura/>如是妙悟<caesura/>是為大樂<caesura/>法身境界<caesura/>心色不二<caesura/>不落言銓</l>
-<lb ed="B" n="0140a14"/><l style="text-indent:3em">不可思議<caesura/>如是妙悟<caesura/>是為大樂<caesura/>報身之像<caesura/>悲心反映<caesura/>超絕生死<caesura/>無有變易</l>
-<lb ed="B" n="0140a15"/><l style="text-indent:3em">如是妙悟<caesura/>是為大樂<caesura/>應身之像<caesura/>菩薩轉生<caesura/>心色於彼<caesura/>不起差別<caesura/>如是妙悟</l>
-<lb ed="B" n="0140a16"/><l style="text-indent:3em">是為大樂<caesura/>法輪常轉<caesura/>劣我論減<caesura/>如是妙悟<caesura/>是為大樂<caesura/>菩薩悲願<caesura/>無量無邊</l>
-<lb ed="B" n="0140a17"/><l style="text-indent:3em">圓滿具足<caesura/>無有少分<caesura/>如是妙悟<caesura/>是為大樂<caesura/>諸佛實踐<caesura/>解脫大道<caesura/>常住不變</l>
-<lb ed="B" n="0140a18"/><l style="text-indent:3em">隨緣可臻<caesura/>如是妙悟<caesura/>是為大樂</l></lg></cb:div></cb:div>
+<lb ed="B" n="0140a11"/><lg type="regular" xml:id="lgB10p0140a1101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">有情之心<caesura/>不離真心<caesura/>如是妙悟<caesura/>是為大樂<caesura/>根本實相<caesura/>超絕言說<caesura/>如是妙悟</l>
+<lb ed="B" n="0140a12"/>
+  <l style="text-indent:3em">是為大樂<caesura/>實相超念<caesura/>不可比量<caesura/>輪迴差別<caesura/>無有自性<caesura/>如是妙悟<caesura/>是為大樂</l>
+<lb ed="B" n="0140a13"/>
+  <l style="text-indent:3em">法爾真心<caesura/>於念不動<caesura/>如是妙悟<caesura/>是為大樂<caesura/>法身境界<caesura/>心色不二<caesura/>不落言銓</l>
+<lb ed="B" n="0140a14"/>
+  <l style="text-indent:3em">不可思議<caesura/>如是妙悟<caesura/>是為大樂<caesura/>報身之像<caesura/>悲心反映<caesura/>超絕生死<caesura/>無有變易</l>
+<lb ed="B" n="0140a15"/>
+  <l style="text-indent:3em">如是妙悟<caesura/>是為大樂<caesura/>應身之像<caesura/>菩薩轉生<caesura/>心色於彼<caesura/>不起差別<caesura/>如是妙悟</l>
+<lb ed="B" n="0140a16"/>
+  <l style="text-indent:3em">是為大樂<caesura/>法輪常轉<caesura/>劣我論減<caesura/>如是妙悟<caesura/>是為大樂<caesura/>菩薩悲願<caesura/>無量無邊</l>
+<lb ed="B" n="0140a17"/>
+  <l style="text-indent:3em">圓滿具足<caesura/>無有少分<caesura/>如是妙悟<caesura/>是為大樂<caesura/>諸佛實踐<caesura/>解脫大道<caesura/>常住不變</l>
+<lb ed="B" n="0140a18"/>
+  <l style="text-indent:3em">隨緣可臻<caesura/>如是妙悟<caesura/>是為大樂</l>
+</lg></cb:div></cb:div>
 <lb ed="B" n="0140a19"/><cb:div type="other"><cb:mulu type="其他" level="1">結述</cb:mulu><head>結述</head>
-<lb ed="B" n="0140a20"/><lg type="regular" xml:id="lgB10p0140a2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">上來所攝<caesura/>清淨梵語<caesura/>出自聖德<caesura/>偉大上師<caesura/>或度母等<caesura/>諸菩薩說<caesura/>人間上師</l>
+<lb ed="B" n="0140a20"/><lg type="regular" xml:id="lgB10p0140a2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">上來所攝<caesura/>清淨梵語<caesura/>出自聖德<caesura/>偉大上師<caesura/>或度母等<caesura/>諸菩薩說<caesura/>人間上師</l>
 <pb ed="B" xml:id="B10.0056.0141a" n="0141a"/>
-<lb ed="B" n="0141a01"/><l style="text-indent:3em">燃燈智尊<caesura/>佛祖佛子<caesura/>北地雪嶺<caesura/>傳燈不絕<caesura/>後次迦當<caesura/>宗系上師<caesura/>復次本宗</l>
-<lb ed="B" n="0141a02"/><l style="text-indent:3em">瑜珈之王<caesura/>密拉熱巴<caesura/>紹承佛父<caesura/>慕爾巴尊<caesura/>譽滿天竺<caesura/>那落巴尊<caesura/>梅屈利巴</l>
-<lb ed="B" n="0141a03"/><l style="text-indent:3em">智光普照<caesura/>明同日月<caesura/>復次各宗<caesura/>傳鉢上師</l></lg></cb:div>
+<lb ed="B" n="0141a01"/>
+  <l style="text-indent:3em">燃燈智尊<caesura/>佛祖佛子<caesura/>北地雪嶺<caesura/>傳燈不絕<caesura/>後次迦當<caesura/>宗系上師<caesura/>復次本宗</l>
+<lb ed="B" n="0141a02"/>
+  <l style="text-indent:3em">瑜珈之王<caesura/>密拉熱巴<caesura/>紹承佛父<caesura/>慕爾巴尊<caesura/>譽滿天竺<caesura/>那落巴尊<caesura/>梅屈利巴</l>
+<lb ed="B" n="0141a03"/>
+  <l style="text-indent:3em">智光普照<caesura/>明同日月<caesura/>復次各宗<caesura/>傳鉢上師</l>
+</lg></cb:div>
 <lb ed="B" n="0141a04"/><cb:div type="other"><cb:mulu type="其他" level="1">書後迴向</cb:mulu><head>書後迴向</head>
 <lb ed="B" n="0141a05"/><p xml:id="pB10p0141a0501" style="margin-left:0em;text-indent:2em">本書為淹通迦當及大手印西宗教法之妙德禪喇嘛所手錄，藏人咸信，岡波巴大師纂集本書傳諸世人，曾
 <lb ed="B" n="0141a06"/>具宏願如左：</p>
-<lb ed="B" n="0141a07"/><lg type="regular" xml:id="lgB10p0141a0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:3em">願諸未來<caesura/>學佛修行<caesura/>追憶老衲<caesura/>恨未面見<caesura/>策發修習<caesura/>學佛勝法<caesura/>法寶貫珠</l>
-<lb ed="B" n="0141a08"/><l style="text-indent:3em">解脫妙道<caesura/>復次進修<caesura/>其他經論<caesura/>悉皆成益<caesura/>功同親授<caesura/>願藉本書<caesura/>宏闡聖德</l>
-<lb ed="B" n="0141a09"/><l style="text-indent:3em">願藉本書<caesura/>廣植信根<caesura/>圓滿吉祥</l></lg></cb:div>
+<lb ed="B" n="0141a07"/><lg type="regular" xml:id="lgB10p0141a0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:3em">願諸未來<caesura/>學佛修行<caesura/>追憶老衲<caesura/>恨未面見<caesura/>策發修習<caesura/>學佛勝法<caesura/>法寶貫珠</l>
+<lb ed="B" n="0141a08"/>
+  <l style="text-indent:3em">解脫妙道<caesura/>復次進修<caesura/>其他經論<caesura/>悉皆成益<caesura/>功同親授<caesura/>願藉本書<caesura/>宏闡聖德</l>
+<lb ed="B" n="0141a09"/>
+  <l style="text-indent:3em">願藉本書<caesura/>廣植信根<caesura/>圓滿吉祥</l>
+</lg></cb:div>
 </body></text></TEI>

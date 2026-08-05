@@ -2,84 +2,86 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T38n1770">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">本願藥師經古迹</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1770 本願藥師經古迹</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1770 本願藥師經古迹</title>
-			<author>新羅 太賢撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>2卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">38</idno>.<idno type="no">1770</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-04-24T16:17:41">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">本願藥師經古迹</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1770 本願藥師經古迹</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1770 本願藥師經古迹</title>
+      <author>新羅 太賢撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">38</idno>.<idno type="no">1770</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-04-24T16:17:41">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0257a" ed="T" xml:id="T38.1770.0257a"/>
 <lb n="0257a01" ed="T"/>
 <lb n="0257a02" ed="T"/><cb:docNumber>No. 1770 [cf. No. 450]</cb:docNumber>
-<lb n="0257a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0257001" resp="Taisho" type="orig" place="foot text">【原】延寶三年刊大谷大學藏本，【甲】大日本續藏經</note>本願藥師經古迹上</cb:jhead></cb:juan>
+<lb n="0257a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0257001" resp="Taisho" type="orig" place="foot text">【原】延寶三年刊大谷大學藏本，【甲】大日本續藏經</note>本願藥師經古迹上</cb:jhead></cb:juan>
 <lb n="0257a04" ed="T"/>
 <lb n="0257a05" ed="T"/><byline cb:type="author">青丘沙門太賢撰</byline>
-<lb n="0257a06" ed="T"/><cb:div type="jing"><p xml:id="pT38p0257a0601">藥師瑠璃光如來本願功德經。</p><p xml:id="pT38p0257a0613" cb:place="inline">此經略以三
+<lb n="0257a06" ed="T"/><cb:div type="jing"><p xml:id="pT38p0257a0601">藥師瑠璃光如來本願功德經。</p>
+<p xml:id="pT38p0257a0613" cb:place="inline">此經略以三
 <lb n="0257a07" ed="T"/>門分別：一者題名、二者教攝、三者本文。一題
 <lb n="0257a08" ed="T"/>名者，經有三名：一、說藥師琉璃光如來本願
 <lb n="0257a09" ed="T"/>功德經；二、說十二神將饒益有情結願神呪；
@@ -107,7 +109,8 @@
 <lb n="0257b01" ed="T"/><p xml:id="pT38p0257b0101">如是我聞：一時薄伽梵遊化諸國至廣嚴城住
 <lb n="0257b02" ed="T"/>樂音樹下，與大苾芻眾八千人俱，菩薩摩訶薩
 <lb n="0257b03" ed="T"/>三萬六千，及國王大臣、婆羅門居士、天龍夜叉
-<lb n="0257b04" ed="T"/>人非人等，無量大眾恭敬圍遶而為說法。</p><p xml:id="pT38p0257b0417" cb:place="inline">述
+<lb n="0257b04" ed="T"/>人非人等，無量大眾恭敬圍遶而為說法。</p>
+<p xml:id="pT38p0257b0417" cb:place="inline">述
 <lb n="0257b05" ed="T"/>曰：本文有三，一說經因起分、二對問廣說分、
 <lb n="0257b06" ed="T"/>三聞名喜行分。此初也。如是我聞等，如常應
 <lb n="0257b07" ed="T"/>知。薄伽梵者，含六義名：一自在義，永不繫屬
@@ -126,7 +129,8 @@
 <lb n="0257b20" ed="T"/>袒一肩右膝著地向薄伽梵曲躬合掌白言：世
 <lb n="0257b21" ed="T"/>尊！唯願演說如是相類諸佛名號及本大願殊
 <lb n="0257b22" ed="T"/>勝功德，令諸聞者業障消除，為欲利樂像法轉
-<lb n="0257b23" ed="T"/>時諸有情故。</p><p xml:id="pT38p0257b2306" cb:place="inline">述曰：自下對問廣說分。此有
+<lb n="0257b23" ed="T"/>時諸有情故。</p>
+<p xml:id="pT38p0257b2306" cb:place="inline">述曰：自下對問廣說分。此有
 <lb n="0257b24" ed="T"/>五義：一菩薩請問成就、二法王讚許成就、三
 <lb n="0257b25" ed="T"/>大眾樂聞成就、四如來說法成就、五夜叉報
 <lb n="0257b26" ed="T"/>恩成就。此初也。於此有三：一請因緣門，如經
@@ -152,7 +156,8 @@
 <lb n="0257c16" ed="T"/>室利！汝以大悲勸請我說諸佛名號本願功德，
 <lb n="0257c17" ed="T"/>為拔業障所纏有情，利益安樂像法轉時諸有
 <lb n="0257c18" ed="T"/>情故。汝今諦聽極善思惟，當為汝說。曼殊室利
-<lb n="0257c19" ed="T"/>言：唯然願說，我等樂聞。</p><p xml:id="pT38p0257c1910" cb:place="inline">述曰：此中有二。一
+<lb n="0257c19" ed="T"/>言：唯然願說，我等樂聞。</p>
+<p xml:id="pT38p0257c1910" cb:place="inline">述曰：此中有二。一
 <lb n="0257c20" ed="T"/>法王讚許成就，如經「爾時世尊乃至當為汝
 <lb n="0257c21" ed="T"/>說」故。所聞可記，初言善哉。應時宜故，重言善
 <lb n="0257c22" ed="T"/>哉。欲令審文，故言諦聽。令解義故，言善思惟。
@@ -161,13 +166,15 @@
 <lb n="0257c25" ed="T"/><p xml:id="pT38p0257c2501">佛告曼殊室利：東方去此過十殑伽沙等佛土，
 <lb n="0257c26" ed="T"/>有世界名淨瑠璃，佛號藥師瑠璃光如來、應、正
 <lb n="0257c27" ed="T"/>等覺、明行圓滿、善逝、世間解、無上丈夫、調御士、
-<lb n="0257c28" ed="T"/>天人師、佛、薄伽梵。</p><p xml:id="pT38p0257c2808" cb:place="inline">述曰：第四如來說法成
+<lb n="0257c28" ed="T"/>天人師、佛、薄伽梵。</p>
+<p xml:id="pT38p0257c2808" cb:place="inline">述曰：第四如來說法成
 <lb n="0257c29" ed="T"/>就。此有二門：一正答所請門、二勸物利益門。
 <pb n="0258a" ed="T" xml:id="T38.1770.0258a"/>
 <lb n="0258a01" ed="T"/>初亦有三，答三問故。此初也。廣釋十號，如《瑜
 <lb n="0258a02" ed="T"/>伽》等。</p>
 <lb n="0258a03" ed="T"/><p xml:id="pT38p0258a0301">曼殊室利！彼世尊藥師瑠璃光如來本行菩薩
-<lb n="0258a04" ed="T"/>道時，發十二大願，令諸有情所求皆得。</p><p xml:id="pT38p0258a0416" cb:place="inline">述
+<lb n="0258a04" ed="T"/>道時，發十二大願，令諸有情所求皆得。</p>
+<p xml:id="pT38p0258a0416" cb:place="inline">述
 <lb n="0258a05" ed="T"/>曰：答第二問中有三：略標、廣說、總結故。此初
 <lb n="0258a06" ed="T"/>也。《阿脩羅經》云「琉璃光菩薩遇智勝佛初發
 <lb n="0258a07" ed="T"/>總願，寶頂佛所始發別願。」《十方諸佛現前經》
@@ -212,9 +219,15 @@
 <lb n="0258b16" ed="T"/>菩提時，若諸有情貧無衣服，蚊虻寒熱晝夜逼
 <lb n="0258b17" ed="T"/>惱；若聞我名專念受持，如其所好即得種種上
 <lb n="0258b18" ed="T"/>妙衣服，亦得一切寶莊嚴具、華鬘塗香、鼓樂眾
-<lb n="0258b19" ed="T"/>伎，隨心所翫皆令滿足。</p><p xml:id="pT38p0258b1910" cb:place="inline">述曰：廣說門中有
+<lb n="0258b19" ed="T"/>伎，隨心所翫皆令滿足。</p>
+<p xml:id="pT38p0258b1910" cb:place="inline">述曰：廣說門中有
 <lb n="0258b20" ed="T"/>六對門。一饒益淨穢門，即初二願，淨土一切
-<lb n="0258b21" ed="T"/>如我身故，乃至世界中間幽冥眾生皆<note n="0258001" resp="Taisho" type="orig" place="foot text">逐＝遂ヵ【甲】</note><note n="0258001" resp="CBETA" type="mod">逐【大】，遂【考偽-甲】</note><app n="0258001"><lem resp="Taisho" wit="【大】">逐</lem><rdg resp="Taisho" wit="【甲】" type="correctionRemark">遂</rdg></app>意
+<lb n="0258b21" ed="T"/>如我身故，乃至世界中間幽冥眾生皆<note 
+n="0258001" resp="Taisho" type="orig" place="foot text">逐＝遂ヵ【甲】</note><note 
+n="0258001" resp="CBETA" type="mod">逐【大】，遂【考偽-甲】</note><app n="0258001">
+  <lem resp="Taisho" wit="【大】">逐</lem>
+  <rdg resp="Taisho" wit="【甲】" type="correctionRemark">遂</rdg>
+</app>意
 <lb n="0258b22" ed="T"/>故。二世出世間門，即次二願，以人天乘無所
 <lb n="0258b23" ed="T"/>乏故，乃至行邪道者隨其種姓安住三乘菩
 <lb n="0258b24" ed="T"/>提道中，不定二乘皆以大乘而安立故。三存
@@ -234,7 +247,8 @@
 <lb n="0258c08" ed="T"/>六志食與衣門，即次二願，以食法味而建立
 <lb n="0258c09" ed="T"/>故、以妙衣等而令滿足故。</p>
 <lb n="0258c10" ed="T"/><p xml:id="pT38p0258c1001">曼殊室利！是為彼世尊藥師瑠璃光如來、應、正
-<lb n="0258c11" ed="T"/>等覺行菩薩道時所發十二微妙上願。</p><p xml:id="pT38p0258c1116" cb:place="inline">述
+<lb n="0258c11" ed="T"/>等覺行菩薩道時所發十二微妙上願。</p>
+<p xml:id="pT38p0258c1116" cb:place="inline">述
 <lb n="0258c12" ed="T"/>曰：總結也。</p>
 <lb n="0258c13" ed="T"/><p xml:id="pT38p0258c1301">復次曼殊室利！彼世尊藥師瑠璃光如來行菩
 <lb n="0258c14" ed="T"/>薩道時所發大願及彼佛土功德莊嚴，我若一
@@ -245,7 +259,8 @@
 <lb n="0258c19" ed="T"/>薩摩訶薩，一名日光遍照、二名月光遍照，是彼
 <lb n="0258c20" ed="T"/>無量無數菩薩眾之上首，悉能持彼世尊藥師
 <lb n="0258c21" ed="T"/>瑠璃光如來正法寶藏。是故曼殊室利！諸有信
-<lb n="0258c22" ed="T"/>心善男子善女人等，應當願生彼佛世界。</p><p xml:id="pT38p0258c2217" cb:place="inline">述
+<lb n="0258c22" ed="T"/>心善男子善女人等，應當願生彼佛世界。</p>
+<p xml:id="pT38p0258c2217" cb:place="inline">述
 <lb n="0258c23" ed="T"/>曰：答後問也。於中有二：初本處莊嚴功德成
 <lb n="0258c24" ed="T"/>就、後外方聞名功德成就。此初也。言所發大
 <lb n="0258c25" ed="T"/>願佛土莊嚴說不能盡者，顯如大願果亦無
@@ -271,7 +286,8 @@
 <lb n="0259a15" ed="T"/>從彼處沒還生人中，得宿命念，畏惡趣苦不樂
 <lb n="0259a16" ed="T"/>欲樂，好行惠施讚歎施者，一切所有悉無貪惜。
 <lb n="0259a17" ed="T"/>漸次尚能以頭目手足血肉身分施來求者，況
-<lb n="0259a18" ed="T"/>餘財物。</p><p xml:id="pT38p0259a1804" cb:place="inline">述曰：此即第二外方聞名功德成
+<lb n="0259a18" ed="T"/>餘財物。</p>
+<p xml:id="pT38p0259a1804" cb:place="inline">述曰：此即第二外方聞名功德成
 <lb n="0259a19" ed="T"/>就。於中有五，令諸聞者除施戒修十善業道
 <lb n="0259a20" ed="T"/>往生樂處五種障故。今此初段，顯除施性福
 <lb n="0259a21" ed="T"/>業障。此有三門：一顯障自性門，如經「不識善
@@ -296,7 +312,8 @@
 <lb n="0259b10" ed="T"/>正見精進善調意樂，便能捨家趣於非家，如來
 <lb n="0259b11" ed="T"/>法中受持學處無有毀犯，正見多聞解甚深義，
 <lb n="0259b12" ed="T"/>離增上慢不謗正法，不為魔伴，漸次修行諸菩
-<lb n="0259b13" ed="T"/>薩行，速得圓滿。</p><p xml:id="pT38p0259b1307" cb:place="inline">述曰：此顯能除戒性福業
+<lb n="0259b13" ed="T"/>薩行，速得圓滿。</p>
+<p xml:id="pT38p0259b1307" cb:place="inline">述曰：此顯能除戒性福業
 <lb n="0259b14" ed="T"/>障。此亦三門，如前應知。初門有三：一攝律儀
 <lb n="0259b15" ed="T"/>戒障，如經「破尸羅軌則」故。言尸羅者，別解脫
 <lb n="0259b16" ed="T"/>戒。言軌則者，於往來等正知而住。二攝善法
@@ -325,13 +342,18 @@
 <lb n="0259c09" ed="T"/><p xml:id="pT38p0259c0901">復次曼殊室利！若諸有情好喜乖離，更相鬪訟
 <lb n="0259c10" ed="T"/>惱亂自他，以身語意造作增長種種惡業，展轉
 <lb n="0259c11" ed="T"/>常為不饒益事、互相謀害，告召山林樹塚等神，
-<lb n="0259c12" ed="T"/>殺諸眾生取其血肉祭祀藥叉邏剎<note n="0259c1201" resp="CBETA" type="add">娑【CB】，婆【大】</note><app n="0259c1201"><lem resp="CBETA.maha" wit="【CB】">娑</lem><rdg wit="【大】">婆</rdg></app>等，書怨
+<lb n="0259c12" ed="T"/>殺諸眾生取其血肉祭祀藥叉邏剎<note 
+n="0259c1201" resp="CBETA" type="add">娑【CB】，婆【大】</note><app n="0259c1201">
+  <lem resp="CBETA.maha" wit="【CB】">娑</lem>
+  <rdg wit="【大】">婆</rdg>
+</app>等，書怨
 <lb n="0259c13" ed="T"/>人名作其形像以惡呪術而呪咀之，厭媚蠱道
 <lb n="0259c14" ed="T"/>呪起屍鬼令斷彼命及壞其身。是諸有情若得
 <lb n="0259c15" ed="T"/>聞此藥師瑠璃光如來名號，彼諸惡事悉不能
 <lb n="0259c16" ed="T"/>害，一切展轉皆起慈心利益安樂，無損惱意及
 <lb n="0259c17" ed="T"/>嫌恨心，各各歡悅，於自所受生於喜足，不相侵
-<lb n="0259c18" ed="T"/>淩互為饒益。</p><p xml:id="pT38p0259c1806" cb:place="inline">述曰：此顯能除十善業道障。
+<lb n="0259c18" ed="T"/>淩互為饒益。</p>
+<p xml:id="pT38p0259c1806" cb:place="inline">述曰：此顯能除十善業道障。
 <lb n="0259c19" ed="T"/>亦有三門：初障自性者，如經「好喜乖離乃至
 <lb n="0259c20" ed="T"/>增長種種惡業」故。好喜乖離，意三業道悉能
 <lb n="0259c21" ed="T"/>令他離所欲故。更相鬪訟，語四業道理不相
@@ -354,7 +376,8 @@
 <lb n="0260a08" ed="T"/>十善道；或生剎帝利、婆羅門、居士大家，多饒財
 <lb n="0260a09" ed="T"/>寶倉庫盈溢，形相端嚴眷屬具足，聰明智慧，勇
 <lb n="0260a10" ed="T"/>健威猛如大力士。若是女人，得聞世尊藥師如
-<lb n="0260a11" ed="T"/>來名號至心受持，於後不復更受女身。</p><p xml:id="pT38p0260a1116" cb:place="inline">述
+<lb n="0260a11" ed="T"/>來名號至心受持，於後不復更受女身。</p>
+<p xml:id="pT38p0260a1116" cb:place="inline">述
 <lb n="0260a12" ed="T"/>曰：此顯能除往生樂處障。此復有二：第一顯
 <lb n="0260a13" ed="T"/>除淨處樂生障，如經「生極樂世界」故。此中受
 <lb n="0260a14" ed="T"/>持八分齊戒經年月者，邁師云：「經一年者，謂
@@ -376,7 +399,12 @@
 <pb n="0260b" ed="T" xml:id="T38.1770.0260b"/>
 <lb n="0260b01" ed="T"/>於天上」等故。此復有四，生天、輪王、貴勝、男身，
 <lb n="0260b02" ed="T"/>如文可解。</p>
-<lb n="0260b03" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>本願藥師經古迹上<note n="0260001" resp="Taisho" type="orig" place="foot text">〔終〕－【甲】</note><note n="0260001" resp="CBETA" type="mod">終【大】，〔－〕【甲】</note><app n="0260001"><lem wit="【大】"><note place="inline">終</note></lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app></cb:jhead></cb:juan>
+<lb n="0260b03" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>本願藥師經古迹上<note 
+n="0260001" resp="Taisho" type="orig" place="foot text">〔終〕－【甲】</note><note 
+n="0260001" resp="CBETA" type="mod">終【大】，〔－〕【甲】</note><app n="0260001">
+  <lem wit="【大】"><note place="inline">終</note></lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app></cb:jhead></cb:juan>
 <milestone n="2" unit="juan"/>
 <lb n="0260b04" ed="T"/>
 <lb n="0260b05" ed="T"/>
@@ -395,7 +423,8 @@
 <lb n="0260b18" ed="T"/>此經寶流行之處，有能受持，以彼世尊藥師瑠
 <lb n="0260b19" ed="T"/>璃光如來本願功德及聞名號，當知是處無復
 <lb n="0260b20" ed="T"/>橫死，亦復不為諸惡鬼神奪其精氣，設已奪者
-<lb n="0260b21" ed="T"/>還得如故身心安樂。</p><p xml:id="pT38p0260b2109" cb:place="inline">述曰：大段第二勸物
+<lb n="0260b21" ed="T"/>還得如故身心安樂。</p>
+<p xml:id="pT38p0260b2109" cb:place="inline">述曰：大段第二勸物
 <lb n="0260b22" ed="T"/>利益門。此有五門：一誓願警覺門，如經「我當
 <lb n="0260b23" ed="T"/>誓於像法轉時方便令聞如來名號，由於此經
 <lb n="0260b24" ed="T"/>受持供養天眾守護無災橫」故。</p>
@@ -426,7 +455,8 @@
 <lb n="0260c19" ed="T"/>有女人臨當產時受於極苦，若能至心稱名禮
 <lb n="0260c20" ed="T"/>讚、恭敬供養彼如來者，眾苦皆除，所生之子身
 <lb n="0260c21" ed="T"/>分具足形色端正，見者歡喜，利根聰明安穩少
-<lb n="0260c22" ed="T"/>病，無有非人奪其精氣。</p><p xml:id="pT38p0260c2210" cb:place="inline">述曰：此即第二如
+<lb n="0260c22" ed="T"/>病，無有非人奪其精氣。</p>
+<p xml:id="pT38p0260c2210" cb:place="inline">述曰：此即第二如
 <lb n="0260c23" ed="T"/>來述成門。於中有二：初明供養、後說獲益。供
 <lb n="0260c24" ed="T"/>養有三：一財物供養，如經「造立形像乃至莊
 <lb n="0260c25" ed="T"/>嚴其處」故。二正行供養，如經「七日受戒乃至
@@ -463,7 +493,8 @@
 <lb n="0261a26" ed="T"/>聞世尊藥師瑠璃光如來名號復難於是。阿難！
 <lb n="0261a27" ed="T"/>彼藥師瑠璃光如來，無量菩薩行、無量巧方便、
 <lb n="0261a28" ed="T"/>無量廣大願，我若一劫若一劫餘而廣說者，劫
-<lb n="0261a29" ed="T"/>可速盡，彼佛行願善巧方便無有盡也。</p><p xml:id="pT38p0261a2916" cb:place="inline">述
+<lb n="0261a29" ed="T"/>可速盡，彼佛行願善巧方便無有盡也。</p>
+<p xml:id="pT38p0261a2916" cb:place="inline">述
 <pb n="0261b" ed="T" xml:id="T38.1770.0261b"/>
 <lb n="0261b01" ed="T"/>曰：此第三毀信損益門。此有四門：一佛語決
 <lb n="0261b02" ed="T"/>定門，如經「如我稱揚乃至諸佛所言無有異
@@ -488,12 +519,17 @@
 <lb n="0261b21" ed="T"/>知善不善業所得果報。由自證見業果報故，乃
 <lb n="0261b22" ed="T"/>至命難亦不造作諸惡之業。是故淨信善男子
 <lb n="0261b23" ed="T"/>善女人等，皆應受持藥師瑠璃光如來名號，隨
-<lb n="0261b24" ed="T"/>力所能恭敬供養。</p><p xml:id="pT38p0261b2408" cb:place="inline">述曰：此是第四開像資
+<lb n="0261b24" ed="T"/>力所能恭敬供養。</p>
+<p xml:id="pT38p0261b2408" cb:place="inline">述曰：此是第四開像資
 <lb n="0261b25" ed="T"/>助門。此有二門：一資助所為門、二資助勝利
 <lb n="0261b26" ed="T"/>門。初所為者，如經「像法轉時乃至而處斷之」
 <lb n="0261b27" ed="T"/>故。言琰魔者，唐云靜息，曉悟罪人止眾惡故。
 <lb n="0261b28" ed="T"/>即由此義，雖鬼界攝亦名法王。謂由業力，病
-<lb n="0261b29" ed="T"/>人意識現四相分：一琰魔使、二<note n="0261b2901" resp="CBETA" type="add" note_key="T38.0261b29.13">己【CB】，已【大】</note><app n="0261b2901"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">己</lem><rdg wit="【大】">已</rdg></app>神識、三琰
+<lb n="0261b29" ed="T"/>人意識現四相分：一琰魔使、二<note 
+n="0261b2901" resp="CBETA" type="add" note_key="T38.0261b29.13">己【CB】，已【大】</note><app n="0261b2901">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>神識、三琰
 <pb n="0261c" ed="T" xml:id="T38.1770.0261c"/>
 <lb n="0261c01" ed="T"/>魔王、四俱生神。傳說本識與身，故名俱生。神
 <lb n="0261c02" ed="T"/>能熏習，言具書持表於法王，故言授與。由業
@@ -529,9 +565,14 @@
 <lb n="0262a02" ed="T"/>有暴惡藥叉等神惱有情者，一切惡相皆即隱
 <lb n="0262a03" ed="T"/>沒，而剎帝利灌頂王等壽命色力無病自在皆
 <lb n="0262a04" ed="T"/>得增益。阿難！若帝后妃主、儲君王子、大臣輔相、
-<lb n="0262a05" ed="T"/>中宮<note n="0262a0501" resp="CBETA" type="add">婇【CB】，綵【大】</note><app n="0262a0501"><lem resp="CBETA" wit="【CB】">婇</lem><rdg wit="【大】">綵</rdg></app>女、百官梨庶為病所苦及餘厄難，亦應
+<lb n="0262a05" ed="T"/>中宮<note 
+n="0262a0501" resp="CBETA" type="add">婇【CB】，綵【大】</note><app n="0262a0501">
+  <lem resp="CBETA" wit="【CB】">婇</lem>
+  <rdg wit="【大】">綵</rdg>
+</app>女、百官梨庶為病所苦及餘厄難，亦應
 <lb n="0262a06" ed="T"/>造立五色神幡、燃燈續明、放諸生命、散雜色華、
-<lb n="0262a07" ed="T"/>燒眾名香，病得除愈，眾難解脫。</p><p xml:id="pT38p0262a0713" cb:place="inline">述曰：自下
+<lb n="0262a07" ed="T"/>燒眾名香，病得除愈，眾難解脫。</p>
+<p xml:id="pT38p0262a0713" cb:place="inline">述曰：自下
 <lb n="0262a08" ed="T"/>第五問答釋難門。於中有二：一問答故、二釋
 <lb n="0262a09" ed="T"/>難故。此初也。答中有二：初約病難答，如經「救
 <lb n="0262a10" ed="T"/>脫菩薩言乃至廣說」故。此中所說就其邊際，
@@ -568,11 +609,16 @@
 <lb n="0262b11" ed="T"/>阿難？彼琰魔王主領世間名藉之記，若諸有情
 <lb n="0262b12" ed="T"/>不孝五逆、破辱三寶、壞君臣法、毀於信戒，琰魔
 <lb n="0262b13" ed="T"/>法王隨罪輕重考而罰之。是故我今勸諸有情，
-<lb n="0262b14" ed="T"/>燃燈造幡、放生修福，令度苦厄不遭眾難。</p><p xml:id="pT38p0262b1417" cb:place="inline">述
+<lb n="0262b14" ed="T"/>燃燈造幡、放生修福，令度苦厄不遭眾難。</p>
+<p xml:id="pT38p0262b1417" cb:place="inline">述
 <lb n="0262b15" ed="T"/>曰：此即釋難門。於中有五：一難、二決、三徵、四
 <lb n="0262b16" ed="T"/>解、五結。決意者，九種橫死皆不定業，宿業相
 <lb n="0262b17" ed="T"/>似等流果故、若有助福得延長故。言終不能
-<lb n="0262b18" ed="T"/>得者，夫殺生短命、食肉病多，而斷他命延<note n="0262b1801" resp="CBETA" type="add" note_key="T38.0262b18.17">己【CB】，已【大】</note><app n="0262b1801"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">己</lem><rdg wit="【大】">已</rdg></app>
+<lb n="0262b18" ed="T"/>得者，夫殺生短命、食肉病多，而斷他命延<note 
+n="0262b1801" resp="CBETA" type="add" note_key="T38.0262b18.17">己【CB】，已【大】</note><app n="0262b1801">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>
 <lb n="0262b19" ed="T"/>壽乎？得病雖輕，損滅壽業、橫死入獄，此中意
 <lb n="0262b20" ed="T"/>也。結意者，若不延命，屬琰魔故，文相可知。</p>
 <lb n="0262b21" ed="T"/><p xml:id="pT38p0262b2101">爾時眾中有十二藥叉大將俱在會坐，所謂宮
@@ -592,7 +638,8 @@
 <lb n="0262c05" ed="T"/>亦應讀誦此經，以五色縷結我名字，得如願已
 <lb n="0262c06" ed="T"/>然後解結。爾時世尊讚諸藥叉大將言：善哉善
 <lb n="0262c07" ed="T"/>哉！大藥叉將！汝等念報世尊藥師瑠璃光如來
-<lb n="0262c08" ed="T"/>恩德者，常應如是利益安樂一切有情。</p><p xml:id="pT38p0262c0816" cb:place="inline">述
+<lb n="0262c08" ed="T"/>恩德者，常應如是利益安樂一切有情。</p>
+<p xml:id="pT38p0262c0816" cb:place="inline">述
 <lb n="0262c09" ed="T"/>曰：此下第五藥叉大將獲益報恩成就。此中
 <lb n="0262c10" ed="T"/>有三：初經家列名、次藥叉誓願、後如來讚許，
 <lb n="0262c11" ed="T"/>文相可知。</p>
@@ -603,7 +650,8 @@
 <lb n="0262c16" ed="T"/>說是語已，諸菩薩摩訶薩及大聲聞，國王大臣、
 <lb n="0262c17" ed="T"/>婆羅門居士、天、龍、藥叉、健達縛、阿素洛、揭路羅、
 <lb n="0262c18" ed="T"/>緊㮏洛、莫呼洛伽、人非人等一切大眾，聞佛所
-<lb n="0262c19" ed="T"/>說皆大歡喜，信受奉行。</p><p xml:id="pT38p0262c1910" cb:place="inline">述曰：此下第三聞
+<lb n="0262c19" ed="T"/>說皆大歡喜，信受奉行。</p>
+<p xml:id="pT38p0262c1910" cb:place="inline">述曰：此下第三聞
 <lb n="0262c20" ed="T"/>名喜行分。言應如是持者，答第二問。應如三
 <lb n="0262c21" ed="T"/>名所詮之法而受持故。</p>
 <lb n="0262c22" ed="T"/><p xml:id="pT38p0262c2201">藥師瑠璃光如來本願功德經</p>

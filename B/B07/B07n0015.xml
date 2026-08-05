@@ -2,79 +2,80 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="B07n0015">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Supplement to the Dazangjing</title>
-			<title level="s" xml:lang="zh-Hant">大藏經補編</title>
-			<title level="m" xml:lang="zh-Hant">南傳羯臘摩經</title>
-			<title>Supplement to the Dazangjing, Electronic version, No. 15 南傳羯臘摩經</title>
-			<title xml:lang="zh-Hant">大藏經補編數位版, No. 15 南傳羯臘摩經</title>
-			<author>丘寶光．徐鄂雲同譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">B</idno>.<idno type="vol">7</idno>.<idno type="no">15</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大藏經補編</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【補編】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2012-04-18T15:05:57">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Supplement to the Dazangjing</title>
+      <title level="s" xml:lang="zh-Hant">大藏經補編</title>
+      <title level="m" xml:lang="zh-Hant">南傳羯臘摩經</title>
+      <title>Supplement to the Dazangjing, Electronic version, No. 15 南傳羯臘摩經</title>
+      <title xml:lang="zh-Hant">大藏經補編數位版, No. 15 南傳羯臘摩經</title>
+      <author>丘寶光．徐鄂雲同譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">B</idno>.<idno type="vol">7</idno>.<idno type="no">15</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大藏經補編</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【補編】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2012-04-18T15:05:57">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="B" xml:id="B07.0015.0025a" n="0025a"/>
-<lb ed="B" n="0025a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>南傳羯臘摩經</cb:jhead></cb:juan><byline cb:type="translator">民國丘寶光、徐鄂雲同譯</byline>
+<lb ed="B" n="0025a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>南傳羯臘摩經</cb:jhead></cb:juan>
+<byline cb:type="translator">民國丘寶光、徐鄂雲同譯</byline>
 <lb ed="B" n="0025a02"/>
 <lb ed="B" n="0025a03"/><cb:div><p xml:id="pB07p0025a0301">一時．佛率領徒眾．至羯臘摩人所居鄉村．此方人民．久聞佛陀巍德聖潔．智慧無邊．爾時．村民集合．虔誠敬禮．而白佛
 <lb ed="B" n="0025a04"/>言．世尊．外道與婆羅門徒．多番頻來．闡釋所宗．自炫互謗．各用其極．我等迷亂．莫辨是非．今我村民．得聞聖教．惟願佛
@@ -84,7 +85,11 @@
 <lb ed="B" n="0025a08"/><p xml:id="pB07p0025a0801">復次．任何傳說．不可輕信．眾口鑠金．非足徵實．</p>
 <lb ed="B" n="0025a09"/><p xml:id="pB07p0025a0901">復次．書籍．文稿．著．述．校．註．謂出先賢．投誠服膺．奇思異說．引人幻想．疑作神怪．天機策劃．毋為輕信．毋受眩惑．</p>
 <lb ed="B" n="0025a10"/><p xml:id="pB07p0025a1001">復次．凡百事物．勿從臆度．事逢偶然．未知演變．執始為終．擅作論斷．一事未決．妄談二三．比論類推．因應萬千．見器範
-<lb ed="B" n="0025a11"/>水．信世有垣．樹影<note n="0025a1101" resp="CBETA" type="add">婆【CB】，娑【補編】</note><app n="0025a1101"><lem wit="【CB】" resp="CBETA.maha">婆</lem><rdg wit="【補編】">娑</rdg></app>娑．彌樓山在．市舍人構．眾生神造．──諸如此類．俱不足信．</p>
+<lb ed="B" n="0025a11"/>水．信世有垣．樹影<note 
+n="0025a1101" resp="CBETA" type="add">婆【CB】，娑【補編】</note><app n="0025a1101">
+  <lem wit="【CB】" resp="CBETA.maha">婆</lem>
+  <rdg wit="【補編】">娑</rdg>
+</app>娑．彌樓山在．市舍人構．眾生神造．──諸如此類．俱不足信．</p>
 <lb ed="B" n="0025a12"/><p xml:id="pB07p0025a1201">復次．毋持偏見．自傲風習．衣服妝飾．語言文物．俱成國粹．遠勝他國．</p>
 <lb ed="B" n="0025a13"/><p xml:id="pB07p0025a1301">復次．毋憑直覺．遽信其人．如爾所見．貌相動人．斷為智巧．且堪倚憑．如爾所見．有勢有能．冠絕羣倫．所言俱信．或自忖
 <lb ed="B" n="0025a14"/>度．偌大貴人．應寄信仰．若非至賢．王不眷恩．陟此高位．</p>

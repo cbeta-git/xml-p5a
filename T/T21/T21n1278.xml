@@ -2,82 +2,84 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1278">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">迦樓羅及諸天密言經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1278 迦樓羅及諸天密言經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1278 迦樓羅及諸天密言經</title>
-			<author>唐 般若力譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1278</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="sa-Sidd">Sanskrit-Siddam</language>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:33">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">迦樓羅及諸天密言經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1278 迦樓羅及諸天密言經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1278 迦樓羅及諸天密言經</title>
+      <author>唐 般若力譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1278</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="sa-Sidd">Sanskrit-Siddam</language>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:33">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0331a03" ed="T"/>
 <lb n="0331a04" ed="T"/>
-<lb n="0331a05" ed="T"/><cb:docNumber>No. 1278</cb:docNumber><cb:div type="other">
-<lb n="0331a06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0331004" resp="Taisho" type="orig" place="foot text">【原】承安三年寫東寺三密藏本</note><title>迦樓羅及諸天密言經</title>一卷</cb:jhead></cb:juan>
+<lb n="0331a05" ed="T"/><cb:docNumber>No. 1278</cb:docNumber>
+<cb:div type="other">
+<lb n="0331a06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0331004" resp="Taisho" type="orig" place="foot text">【原】承安三年寫東寺三密藏本</note><title>迦樓羅及諸天密言經</title>一卷</cb:jhead></cb:juan>
 <lb n="0331a07" ed="T"/>
 <lb n="0331a08" ed="T"/><byline cb:type="Translator">罽賓國三藏大德般若力譯</byline>
 <lb n="0331a09" ed="T"/><p xml:id="pT21p0331a0901">迦樓羅者，天竺方言，唐云金翅鳥，蓋非敵體
@@ -104,9 +106,17 @@
 <pb n="0331b" ed="T" xml:id="T21.1278.0331b"/>
 <lb n="0331b01" ed="T"/>淡水海傍。復說地水火風空五大之神而所
 <lb n="0331b02" ed="T"/>共成，此身各有所施。</p></cb:div>
-<lb n="0331b03" ed="T"/><cb:div type="other"><cb:mulu n="2" level="1" type="其他">1 辦事印</cb:mulu><head><title>迦樓羅</title><note n="0331b0301" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0331b0301"><lem resp="CBETA" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>事印第一</head>
+<lb n="0331b03" ed="T"/><cb:div type="other"><cb:mulu n="2" level="1" type="其他">1 辦事印</cb:mulu><head><title>迦樓羅</title><note 
+n="0331b0301" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0331b0301">
+  <lem resp="CBETA" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>事印第一</head>
 <lb n="0331b04" ed="T"/><p xml:id="pT21p0331b0401">二手虛心合掌，交指初分左押右即成。此印
-<lb n="0331b05" ed="T"/>能<note n="0331b0501" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0331b0501"><lem resp="CBETA" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>一切事，眾印之首，能出生諸印。凡欲結
+<lb n="0331b05" ed="T"/>能<note 
+n="0331b0501" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0331b0501">
+  <lem resp="CBETA" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>一切事，眾印之首，能出生諸印。凡欲結
 <lb n="0331b06" ed="T"/>契，先宜作之。</p></cb:div>
 <lb n="0331b07" ed="T"/><cb:div type="other"><cb:mulu n="3" level="1" type="其他">2 嘴印</cb:mulu><head><title>迦樓羅</title>嘴印第二</head>
 <lb n="0331b08" ed="T"/><p xml:id="pT21p0331b0801">二手屈大指小指左押右苾入掌，餘六指各
@@ -306,7 +316,8 @@
 <lb n="0333b22" ed="T"/><p xml:id="pT21p0333b2201">此天其耳如兌，因之立名。其密言但誦得即
 <lb n="0333b23" ed="T"/>驗，便可行用。若遇地毒，密於其人耳中誦此
 <lb n="0333b24" ed="T"/>密言三五遍即差。又結莾羯囉印、或大印、或
-<lb n="0333b25" ed="T"/>薩波等三，即散彼身上，即大除愈。</p></cb:div><cb:div type="other"><cb:mulu n="2" level="2" type="其他">迦樓羅部摩訶跛娜荼龍王心密言</cb:mulu><head>迦樓羅部
+<lb n="0333b25" ed="T"/>薩波等三，即散彼身上，即大除愈。</p></cb:div>
+<cb:div type="other"><cb:mulu n="2" level="2" type="其他">迦樓羅部摩訶跛娜荼龍王心密言</cb:mulu><head>迦樓羅部
 <lb n="0333b26" ed="T"/>摩訶跛娜荼龍王心密言</head>
 <lb n="0333b27" ed="T"/><p xml:id="pT21p0333b2701" cb:type="dharani">唵<note place="inline">一</note>　摩訶跛娜麼<note place="inline">二合</note><note place="inline">二</note>　娑典喪<note place="inline">三</note>　涅尾沙<note place="inline">四</note>　索</p>
 <lb n="0333b28" ed="T"/><p xml:id="pT21p0333b2801">此龍王有大威力，能制眾毒。今演心密言。先
@@ -350,7 +361,12 @@
 <lb n="0334a06" ed="T"/><cb:div type="other"><cb:mulu n="4" level="2" type="其他">迦樓羅畫像法</cb:mulu><head>迦樓羅畫像法</head>
 <lb n="0334a07" ed="T"/><p xml:id="pT21p0334a0701">畫迦樓羅像者，應肘量渫善圖畫之。其匠清
 <lb n="0334a08" ed="T"/>淨沐浴，色不用皮膠。當作尊儀，其身分自臍
-<lb n="0334a09" ed="T"/>已上如天王形，<note n="0334001" resp="Taisho" type="orig" place="foot text">唯＝喉ヵ【原】</note><note n="0334001" resp="CBETA" type="mod">唯【大】，喉【考偽-原】</note><app n="0334001"><lem resp="Taisho" wit="【大】">唯</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">喉</rdg></app>鼻若鷹嘴而作綠色，自
+<lb n="0334a09" ed="T"/>已上如天王形，<note 
+n="0334001" resp="Taisho" type="orig" place="foot text">唯＝喉ヵ【原】</note><note 
+n="0334001" resp="CBETA" type="mod">唯【大】，喉【考偽-原】</note><app n="0334001">
+  <lem resp="Taisho" wit="【大】">唯</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">喉</rdg>
+</app>鼻若鷹嘴而作綠色，自
 <lb n="0334a10" ed="T"/>臍已下亦如於鷹䗍駱，寶冠，髮𩬞披肩，臂腕
 <lb n="0334a11" ed="T"/>皆有寶冠環釧天衣瓔珞，通身金色，翅如
 <lb n="0334a12" ed="T"/>鳥而兩向舒，其尾向下散。四臂，二正手結大
@@ -568,7 +584,8 @@
 <lb n="0336b14" ed="T"/><p xml:id="pT21p0336b1401" cb:type="dharani">唵<note place="inline">一</note>　欠<note place="inline">二</note>　娑嚩訶</p>
 <lb n="0336b15" ed="T"/><p xml:id="pT21p0336b1501">腹密言曰：</p>
 <lb n="0336b16" ed="T"/><p xml:id="pT21p0336b1601" cb:type="dharani">唵<note place="inline">一</note>　驗<note place="inline">二</note>　娑嚩訶</p>
-<lb n="0336b17" ed="T"/><p xml:id="pT21p0336b1701">已前三道密言，准前以大指摩其處而誦。</p><p xml:id="pT21p0336b1717" cb:place="inline">指
+<lb n="0336b17" ed="T"/><p xml:id="pT21p0336b1701">已前三道密言，准前以大指摩其處而誦。</p>
+<p xml:id="pT21p0336b1717" cb:place="inline">指
 <lb n="0336b18" ed="T"/>陰囊密言：</p>
 <lb n="0336b19" ed="T"/><p xml:id="pT21p0336b1901" cb:type="dharani">唵<note place="inline">一</note>　喃<note place="inline">二</note>　娑嚩訶</p>
 <lb n="0336b20" ed="T"/><p xml:id="pT21p0336b2001">指兩足密言：</p>
@@ -579,8 +596,13 @@
 <lb n="0336b25" ed="T"/><p xml:id="pT21p0336b2501">加持大指密言：</p>
 <lb n="0336b26" ed="T"/><p xml:id="pT21p0336b2601" cb:type="dharani">唵<note place="inline">一</note>　句嚕<note place="inline">二合</note>句嚕<note place="inline">二合</note>句嚕<note place="inline">二合</note>娑嚩訶</p>
 <lb n="0336b27" ed="T"/><p xml:id="pT21p0336b2701">以右手成拳，舒大指，用前密言加持七遍，乃
-<lb n="0336b28" ed="T"/>任行用，柱諸支分摩之。</p><p xml:id="pT21p0336b2810" cb:place="inline">被甲密言：</p>
-<lb n="0336b29" ed="T"/><p xml:id="pT21p0336b2901" cb:type="dharani">唵<note place="inline">一</note>　步嚕嚩<note n="0336b2901" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0336b2901"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>迦也<note place="inline">二</note>　滿馱滿馱<note place="inline">三</note>　迦嚩
+<lb n="0336b28" ed="T"/>任行用，柱諸支分摩之。</p>
+<p xml:id="pT21p0336b2810" cb:place="inline">被甲密言：</p>
+<lb n="0336b29" ed="T"/><p xml:id="pT21p0336b2901" cb:type="dharani">唵<note place="inline">一</note>　步嚕嚩<note 
+n="0336b2901" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0336b2901">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>迦也<note place="inline">二</note>　滿馱滿馱<note place="inline">三</note>　迦嚩
 <pb n="0336c" ed="T" xml:id="T21.1278.0336c"/>
 <lb n="0336c01" ed="T"/>者<note place="inline">四</note>　伽嚕拏<note place="inline">引</note>妨跛野底<note place="inline">三</note>　娑嚩訶</p>
 <lb n="0336c02" ed="T"/><p xml:id="pT21p0336c0201">如前右手成拳，以大指轉柱兩肩、當心及兩
@@ -590,9 +612,11 @@
 <lb n="0336c06" ed="T"/>摩訶帝惹<note place="inline">三</note>　尾曩多<note place="inline">引</note>矩攞曩拏<note place="inline">四</note>　囉佉叉囉
 <lb n="0336c07" ed="T"/>佉叉<note place="inline">二合</note>摩訶麼攞<note place="inline">六</note>　娑婆訶</p>
 <lb n="0336c08" ed="T"/><p xml:id="pT21p0336c0801">誦此密言已，即同被甲，一切天魔惡鬼不能
-<lb n="0336c09" ed="T"/>破之。</p><p xml:id="pT21p0336c0903" cb:place="inline">成金剛身密言：</p>
+<lb n="0336c09" ed="T"/>破之。</p>
+<p xml:id="pT21p0336c0903" cb:place="inline">成金剛身密言：</p>
 <lb n="0336c10" ed="T"/><p xml:id="pT21p0336c1001" cb:type="dharani">曩莫馺多馺多<note place="inline">一</note>　抱擬儞<note place="inline">二</note>　吽<note place="inline">三</note>　佉<note place="inline">四</note></p>
-<lb n="0336c11" ed="T"/><p xml:id="pT21p0336c1101">誦此密言，行者身如金剛。</p><p xml:id="pT21p0336c1111" cb:place="inline">八龍王被甲密言：</p>
+<lb n="0336c11" ed="T"/><p xml:id="pT21p0336c1101">誦此密言，行者身如金剛。</p>
+<p xml:id="pT21p0336c1111" cb:place="inline">八龍王被甲密言：</p>
 <lb n="0336c12" ed="T"/><p xml:id="pT21p0336c1201" cb:type="dharani">曩莫吠摩<note place="inline">一</note>　嚩夜<note place="inline">二合</note>比儞<note place="inline">二</note>　婀瑟吒<note place="inline">二合</note>那伽
 <lb n="0336c13" ed="T"/>矩攞<note place="inline">引</note>儞<note place="inline">三</note>　翳計矩路娑<note place="inline">引</note>寧馱野<note place="inline">二合</note>跛哩迦
 <lb n="0336c14" ed="T"/>攞跛野<note place="inline">二合</note>娑嚩訶</p>
@@ -852,7 +876,11 @@
 <lb n="0339b28" ed="T"/>壇尊位。准前蓮花臺白，變白乃存病者於其
 <lb n="0339b29" ed="T"/>臺上裸形而立。空中有水精瓶，甘露充滿，涓
 <pb n="0339c" ed="T" xml:id="T21.1278.0339c"/>
-<lb n="0339c01" ed="T"/>然注<note n="0339c0101" resp="CBETA" type="add" note_key="T21.0339c01.03">沾【CB】，沽【大】</note><app n="0339c0101"><lem wit="【CB】" resp="CBETA.shin">沾</lem><rdg wit="【大】">沽</rdg></app>病者。當觀縛字在病者額，又一嚩字
+<lb n="0339c01" ed="T"/>然注<note 
+n="0339c0101" resp="CBETA" type="add" note_key="T21.0339c01.03">沾【CB】，沽【大】</note><app n="0339c0101">
+  <lem wit="【CB】" resp="CBETA.shin">沾</lem>
+  <rdg wit="【大】">沽</rdg>
+</app>病者。當觀縛字在病者額，又一嚩字
 <lb n="0339c02" ed="T"/>縛在在其足下，兩耳各想一嚩字，觀姹字環
 <lb n="0339c03" ed="T"/>繞其首，所疾皆愈，福如帝尺。其嚩字天王名
 <lb n="0339c04" ed="T"/>麼囕婆，通身白色，□手三日，執銀胡瓶，盛滿

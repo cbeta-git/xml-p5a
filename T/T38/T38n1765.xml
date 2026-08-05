@@ -2,83 +2,90 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T38n1765">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">大般涅槃經玄義</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1765 大般涅槃經玄義</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1765 大般涅槃經玄義</title>
-			<author>隋 灌頂撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>2卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">38</idno>.<idno type="no">1765</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-04-24T16:17:35">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">大般涅槃經玄義</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1765 大般涅槃經玄義</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1765 大般涅槃經玄義</title>
+      <author>隋 灌頂撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">38</idno>.<idno type="no">1765</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-04-24T16:17:35">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0001a" ed="T" xml:id="T38.1765.0001a"/>
 <lb n="0001a01" ed="T"/>
-<lb n="0001a02" ed="T"/><cb:docNumber>No. 1765 [cf. Nos. 375, 1766, 1767]</cb:docNumber><cb:div type="jing">
-<lb n="0001a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0001001" resp="Taisho" type="orig" place="foot text">【原】明崇禎十一年刊增上寺報恩藏本，【甲】明曆二年刊龍谷大學藏本</note>大般涅槃經玄義卷上</cb:jhead></cb:juan>
+<lb n="0001a02" ed="T"/><cb:docNumber>No. 1765 [cf. Nos. 375, 1766, 1767]</cb:docNumber>
+<cb:div type="jing">
+<lb n="0001a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0001001" resp="Taisho" type="orig" place="foot text">【原】明崇禎十一年刊增上寺報恩藏本，【甲】明曆二年刊龍谷大學藏本</note>大般涅槃經玄義卷上</cb:jhead></cb:juan>
 <lb n="0001a04" ed="T"/>
-<lb n="0001a05" ed="T"/><byline cb:type="author"><note n="0001002" resp="Taisho" type="orig" place="foot text">〔隋〕－【甲】＊</note><note n="0001002" resp="CBETA" type="mod">隋【大】＊，〔－〕【甲】＊</note><app n="0001002"><lem wit="【大】">隋</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>天台沙門灌頂撰</byline>
+<lb n="0001a05" ed="T"/><byline cb:type="author"><note 
+n="0001002" resp="Taisho" type="orig" place="foot text">〔隋〕－【甲】＊</note><note 
+n="0001002" resp="CBETA" type="mod">隋【大】＊，〔－〕【甲】＊</note><app n="0001002">
+  <lem wit="【大】">隋</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>天台沙門灌頂撰</byline>
 <lb n="0001a06" ed="T"/><p xml:id="pT38p0001a0601">夫正道幽寂無始無終、妙理虛玄非新非故，
 <lb n="0001a07" ed="T"/>無始而言其始者，謂之無明生死；無終而語
 <lb n="0001a08" ed="T"/>其終者，即是種智涅槃。無明生死本自有之，
@@ -97,7 +104,12 @@
 <lb n="0001a21" ed="T"/>但眾生利鈍不同，是以大聖赴緣之教亦有
 <lb n="0001a22" ed="T"/>頓漸之別。頓則譬於忍辱之草，牛食即得醍
 <lb n="0001a23" ed="T"/>醐；漸則五味階級次第圓滿，或有不定根緣，
-<lb n="0001a24" ed="T"/>為赴此<note n="0001003" resp="Taisho" type="orig" place="foot text">機＝机【甲】＊</note><note n="0001003" resp="CBETA" type="mod">機【大】＊，机【甲】＊</note><app n="0001003"><lem wit="【大】">機</lem><rdg resp="Taisho" wit="【甲】">机</rdg></app>所說教門非頓非漸，喻之置毒於
+<lb n="0001a24" ed="T"/>為赴此<note 
+n="0001003" resp="Taisho" type="orig" place="foot text">機＝机【甲】＊</note><note 
+n="0001003" resp="CBETA" type="mod">機【大】＊，机【甲】＊</note><app n="0001003">
+  <lem wit="【大】">機</lem>
+  <rdg resp="Taisho" wit="【甲】">机</rdg>
+</app>所說教門非頓非漸，喻之置毒於
 <lb n="0001a25" ed="T"/>乳也。皆是能仁妙窮權實巧赴根緣，化他利
 <lb n="0001a26" ed="T"/>物罄無乖爽。今此大經為欲開通往昔教門、
 <lb n="0001a27" ed="T"/>顯發如來方便密義，故於娑羅雙樹大師子
@@ -136,7 +148,11 @@
 <pb n="0001c" ed="T" xml:id="T38.1765.0001c"/>
 <lb n="0001c01" ed="T"/>以當其教；名含體攝常宗毒用極教之相也。</p>
 <lb n="0001c02" ed="T"/><p xml:id="pT38p0001c0201">玄義開為五重：</p>
-<lb n="0001c03" ed="T"/><p xml:id="pT38p0001c0301">一釋名、二釋體、<note n="0001c0301" resp="CBETA" type="add">三【CB】，二【大】</note><app n="0001c0301"><lem resp="CBETA" wit="【CB】">三</lem><rdg wit="【大】">二</rdg></app>釋宗、四釋用、
+<lb n="0001c03" ed="T"/><p xml:id="pT38p0001c0301">一釋名、二釋體、<note 
+n="0001c0301" resp="CBETA" type="add">三【CB】，二【大】</note><app n="0001c0301">
+  <lem resp="CBETA" wit="【CB】">三</lem>
+  <rdg wit="【大】">二</rdg>
+</app>釋宗、四釋用、
 <lb n="0001c04" ed="T"/>五釋教</p>
 <lb n="0001c05" ed="T"/><p xml:id="pT38p0001c0501">釋名又五：謂翻、通、無、假、絕。翻者四說，謂無、有、
 <lb n="0001c06" ed="T"/>亦有亦無、非有非無。初言無者，天竺五處不
@@ -159,7 +175,12 @@
 <lb n="0001c23" ed="T"/>或訓長息、或訓止住之息、或訓暫時消息、或
 <lb n="0001c24" ed="T"/>訓報示消息，若據一失諸，故不可翻。四云：一
 <lb n="0001c25" ed="T"/>名多義，如先陀婆一名四實，關涉處多，不可
-<lb n="0001c26" ed="T"/>翻也。五云：<note n="0001004" resp="Taisho" type="orig" place="foot text">秖＝秪【甲】＊</note><note n="0001004" resp="CBETA" type="mod">秖【大】＊，秪【甲】＊</note><app n="0001004"><lem wit="【大】">秖</lem><rdg resp="Taisho" wit="【甲】">秪</rdg></app>先陀婆一語隨時各用，智臣善
+<lb n="0001c26" ed="T"/>翻也。五云：<note 
+n="0001004" resp="Taisho" type="orig" place="foot text">秖＝秪【甲】＊</note><note 
+n="0001004" resp="CBETA" type="mod">秖【大】＊，秪【甲】＊</note><app n="0001004">
+  <lem wit="【大】">秖</lem>
+  <rdg resp="Taisho" wit="【甲】">秪</rdg>
+</app>先陀婆一語隨時各用，智臣善
 <lb n="0001c27" ed="T"/>解契會王心。涅槃亦爾，初出言涅槃，涅槃即
 <lb n="0001c28" ed="T"/>生也；將逝言涅槃，涅槃即滅也。但此無密語
 <lb n="0001c29" ed="T"/>翻彼密義，故言無翻也。二云有翻者，梁武云：
@@ -206,7 +227,8 @@
 <lb n="0002b10" ed="T"/>有餘、度是無餘，有餘涅槃既未究竟，止可是
 <lb n="0002b11" ed="T"/>滅，無餘永免方得是度。四云：滅是本有今無
 <lb n="0002b12" ed="T"/>之義，而加之以度者是永免之名，欲明凡夫
-<lb n="0002b13" ed="T"/>之死亦得是滅而非永免，不得稱度。</p><p xml:id="pT38p0002b1315" cb:place="inline">觀師難
+<lb n="0002b13" ed="T"/>之死亦得是滅而非永免，不得稱度。</p>
+<p xml:id="pT38p0002b1315" cb:place="inline">觀師難
 <lb n="0002b14" ed="T"/>初解云：若生死之法滅無，生死之人附何而
 <lb n="0002b15" ed="T"/>度？若生死假人轉得成佛，生死之法何不轉
 <lb n="0002b16" ed="T"/>為涅槃？今研初解是何等義？若依聲聞法者，
@@ -227,7 +249,8 @@
 <lb n="0002c01" ed="T"/>義也。若就佛法者，滅之與度，不縱不橫無二
 <lb n="0002c02" ed="T"/>無別。彼師分滅異度，離法論人，如此往推，非
 <lb n="0002c03" ed="T"/>圓教義也。既非小、非共，非菩薩、非佛，並非
-<lb n="0002c04" ed="T"/>先聖之法言，則不敢道也<note place="inline">云云</note>。</p><p xml:id="pT38p0002c0413" cb:place="inline">今研第二解。
+<lb n="0002c04" ed="T"/>先聖之法言，則不敢道也<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0002c0413" cb:place="inline">今研第二解。
 <lb n="0002c05" ed="T"/>若以滅目無、以度目有者，若受此有無，猶是
 <lb n="0002c06" ed="T"/>苦諦；執此有無，猶是集諦；修此有無，猶是道
 <lb n="0002c07" ed="T"/>諦；盡此有無，猶是滅諦。滅諦之真尚不可以
@@ -247,17 +270,34 @@
 <lb n="0002c21" ed="T"/>云何以二邊釋中道大涅槃？如此往推，則非
 <lb n="0002c22" ed="T"/>菩薩法也。若以滅目無、以度目有，有不關無、
 <lb n="0002c23" ed="T"/>無不關有，滅非是度、度異於滅，縱橫狼藉，劫
-<lb n="0002c24" ed="T"/>掠群牛不解<note n="0002001" resp="Taisho" type="orig" place="foot text">鑽＝攢【甲】</note><note n="0002001" resp="CBETA" type="mod">鑽【大】，攢【甲】</note><app n="0002001"><lem wit="【大】">鑽</lem><rdg resp="Taisho" wit="【甲】">攢</rdg></app>搖，漿猶難得，況酥醍醐。如此
-<lb n="0002c25" ed="T"/>往<note n="0002002" resp="Taisho" type="orig" place="foot text">〔推〕－【甲】</note><note n="0002002" resp="CBETA" type="mod">推【大】，〔－〕【甲】</note><app n="0002002"><lem wit="【大】">推</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>則非佛法。既非小乘、非共乘、非菩薩
-<lb n="0002c26" ed="T"/>乘、非佛乘，是何等義邪<note place="inline">云云</note>？</p><p xml:id="pT38p0002c2612" cb:place="inline">今研第三解。若
-<lb n="0002c27" ed="T"/>有餘涅槃既<note n="0002003" resp="Taisho" type="orig" place="foot text">未＝永【甲】</note><note n="0002003" resp="CBETA" type="mod">未【大】，永【甲】</note><app n="0002003"><lem wit="【大】">未</lem><rdg resp="Taisho" wit="【甲】">永</rdg></app>究竟止可是滅，無餘永免方
+<lb n="0002c24" ed="T"/>掠群牛不解<note 
+n="0002001" resp="Taisho" type="orig" place="foot text">鑽＝攢【甲】</note><note 
+n="0002001" resp="CBETA" type="mod">鑽【大】，攢【甲】</note><app n="0002001">
+  <lem wit="【大】">鑽</lem>
+  <rdg resp="Taisho" wit="【甲】">攢</rdg>
+</app>搖，漿猶難得，況酥醍醐。如此
+<lb n="0002c25" ed="T"/>往<note 
+n="0002002" resp="Taisho" type="orig" place="foot text">〔推〕－【甲】</note><note 
+n="0002002" resp="CBETA" type="mod">推【大】，〔－〕【甲】</note><app n="0002002">
+  <lem wit="【大】">推</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>則非佛法。既非小乘、非共乘、非菩薩
+<lb n="0002c26" ed="T"/>乘、非佛乘，是何等義邪<note place="inline">云云</note>？</p>
+<p xml:id="pT38p0002c2612" cb:place="inline">今研第三解。若
+<lb n="0002c27" ed="T"/>有餘涅槃既<note 
+n="0002003" resp="Taisho" type="orig" place="foot text">未＝永【甲】</note><note 
+n="0002003" resp="CBETA" type="mod">未【大】，永【甲】</note><app n="0002003">
+  <lem wit="【大】">未</lem>
+  <rdg resp="Taisho" wit="【甲】">永</rdg>
+</app>究竟止可是滅，無餘永免方
 <lb n="0002c28" ed="T"/>得稱度者，亦應滅度四住非是究竟滅度，塵
 <lb n="0002c29" ed="T"/>沙方得稱度；又滅度塵沙亦非究竟，滅度無
 <pb n="0003a" ed="T" xml:id="T38.1765.0003a"/>
 <lb n="0003a01" ed="T"/>明方得稱度；又滅度無明亦非究竟滅度，究
 <lb n="0003a02" ed="T"/>竟滅度方得稱度。以後望前，前非究竟，第二
 <lb n="0003a03" ed="T"/>第三亦非究竟。何得以初番滅度釋大涅槃<note place="inline">云
-<lb n="0003a04" ed="T"/>云</note>？</p><p xml:id="pT38p0003a0402" cb:place="inline">今研第四解。凡夫已有還無得是滅，亦應
+<lb n="0003a04" ed="T"/>云</note>？</p>
+<p xml:id="pT38p0003a0402" cb:place="inline">今研第四解。凡夫已有還無得是滅，亦應
 <lb n="0003a05" ed="T"/>凡夫從此至彼便應是度。若凡夫非度，凡夫
 <lb n="0003a06" ed="T"/>亦復非滅。若聖人已有還無亦得是滅，聖人
 <lb n="0003a07" ed="T"/>從此至彼復應是度。若凡聖俱度俱滅，若為
@@ -266,7 +306,9 @@
 <lb n="0003a10" ed="T"/>云何以此釋大涅槃？若具研四解，應作四四
 <lb n="0003a11" ed="T"/>十六番，今但十番而已，餘皆可知。明哲自解，
 <lb n="0003a12" ed="T"/>何俟多言。時人以開善為長故薳研之，餘人
-<lb n="0003a13" ed="T"/>置而不言耳。</p><p xml:id="pT38p0003a1306" cb:place="inline">翻名，已如前說。</p><p xml:id="pT38p0003a1312" cb:place="inline">釋其大義者，大
+<lb n="0003a13" ed="T"/>置而不言耳。</p>
+<p xml:id="pT38p0003a1306" cb:place="inline">翻名，已如前說。</p>
+<p xml:id="pT38p0003a1312" cb:place="inline">釋其大義者，大
 <lb n="0003a14" ed="T"/>有三義：一理大、二智大、三用大。《釋論》謂大、多、
 <lb n="0003a15" ed="T"/>勝，大取包廣、多取含攝、勝取秀出。今言法
 <lb n="0003a16" ed="T"/>身法界遍一切處，是廣大義；報身智境照發
@@ -279,7 +321,10 @@
 <lb n="0003a23" ed="T"/>極，故名圓滅。方便滅者，權巧妙能，逗必會、取
 <lb n="0003a24" ed="T"/>必克，故名方便滅。如是三滅即三解脫，無縛
 <lb n="0003a25" ed="T"/>無脫是性淨解脫、因果畢竟是圓淨解脫、
-<lb n="0003a26" ed="T"/>巧順<app type="star" corresp="#0001003"><lem wit="【大】">機</lem><rdg resp="Taisho" wit="【甲】">机</rdg></app>宜無染無累是方便淨解脫。於一滅
+<lb n="0003a26" ed="T"/>巧順<app type="star" corresp="#0001003">
+  <lem wit="【大】">機</lem>
+  <rdg resp="Taisho" wit="【甲】">机</rdg>
+</app>宜無染無累是方便淨解脫。於一滅
 <lb n="0003a27" ed="T"/>字三脫具足，不縱不橫不可思議，故名三點，
 <lb n="0003a28" ed="T"/>三點者即大涅槃。釋槃那為度，度有三義，謂
 <lb n="0003a29" ed="T"/>實相究竟度、智究竟度、事究竟度。實相度者，
@@ -309,7 +354,8 @@
 <lb n="0003b23" ed="T"/>智三智、三智一智，所以名一面三目；涅槃亦
 <lb n="0003b24" ed="T"/>耳。一脫三脫、三脫一脫，所以名為伊字三點；
 <lb n="0003b25" ed="T"/>涅槃亦爾。體意及事，不得相離、不得相混，不
-<lb n="0003b26" ed="T"/>可言言、不可思思，故名大涅槃。</p><p xml:id="pT38p0003b2613" cb:place="inline">二、釋通名者，
+<lb n="0003b26" ed="T"/>可言言、不可思思，故名大涅槃。</p>
+<p xml:id="pT38p0003b2613" cb:place="inline">二、釋通名者，
 <lb n="0003b27" ed="T"/>涅槃之名遍布諸處，安樂一意亘十法界皆
 <lb n="0003b28" ed="T"/>稱安樂。〈梵行品〉云「寒地獄中若遇熱風以之
 <lb n="0003b29" ed="T"/>為樂，熱地獄中若遇寒風以之為樂，如是安
@@ -355,7 +401,8 @@
 <lb n="0004a09" ed="T"/>乘有餘無餘對佛而得是有餘涅槃者，自地
 <lb n="0004a10" ed="T"/>獄已上至菩薩已還例應如此。若諸涅槃皆
 <lb n="0004a11" ed="T"/>不可得然，二乘安是？故知欝多羅之說不可
-<lb n="0004a12" ed="T"/>依也。</p><p xml:id="pT38p0004a1203" cb:place="inline">問：安樂之名通十法界，佛性四德名復
+<lb n="0004a12" ed="T"/>依也。</p>
+<p xml:id="pT38p0004a1203" cb:place="inline">問：安樂之名通十法界，佛性四德名復
 <lb n="0004a13" ed="T"/>云何？答：經云「一切諸法中，悉有安樂性。」「一切
 <lb n="0004a14" ed="T"/>眾生，悉有佛性。」豈非佛性通耶？文云「二十五
 <lb n="0004a15" ed="T"/>有，有我不耶？答言有我。」寱言刀刀。又楊樹黃
@@ -365,7 +412,12 @@
 <lb n="0004a19" ed="T"/>道以安身適性為安樂，猶起煩惱惡因，招生
 <lb n="0004a20" ed="T"/>死苦果，安樂義不成。要斷煩惱，使苦樂不復
 <lb n="0004a21" ed="T"/>隨身、憂喜不復隨心，得有餘無餘灰身滅智，
-<lb n="0004a22" ed="T"/>隔別生死入<note n="0004001" resp="Taisho" type="orig" place="foot text">于＝於【甲】</note><note n="0004001" resp="CBETA" type="mod">于【大】，於【甲】</note><app n="0004001"><lem wit="【大】">于</lem><rdg resp="Taisho" wit="【甲】">於</rdg></app>涅槃者，則與六道別也。菩薩
+<lb n="0004a22" ed="T"/>隔別生死入<note 
+n="0004001" resp="Taisho" type="orig" place="foot text">于＝於【甲】</note><note 
+n="0004001" resp="CBETA" type="mod">于【大】，於【甲】</note><app n="0004001">
+  <lem wit="【大】">于</lem>
+  <rdg resp="Taisho" wit="【甲】">於</rdg>
+</app>涅槃者，則與六道別也。菩薩
 <lb n="0004a23" ed="T"/>從初心為一切眾生觀涅槃行道，望二乘是
 <lb n="0004a24" ed="T"/>別、望佛猶通，即是亦通亦別也。諸佛究竟大
 <lb n="0004a25" ed="T"/>般涅槃，非六道之通、非二乘之別，即非通非
@@ -378,9 +430,19 @@
 <lb n="0004b02" ed="T"/>隨其流處有種種名，或辛或酸。故知三界四
 <lb n="0004b03" ed="T"/>倒但是病而非藥。為治此病，說四非常倒瀉
 <lb n="0004b04" ed="T"/>斯病，病去惑盡，名入涅槃。文云「三種病中無
-<lb n="0004b05" ed="T"/>三種藥，<note n="0004002" resp="Taisho" type="orig" place="foot text">〔三種藥〕－【甲】</note><note n="0004002" resp="CBETA" type="mod">三種藥【大】，〔－〕【甲】</note><app n="0004002"><lem wit="【大】">三種藥</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>中無三種病。」此小涅槃，但藥
+<lb n="0004b05" ed="T"/>三種藥，<note 
+n="0004002" resp="Taisho" type="orig" place="foot text">〔三種藥〕－【甲】</note><note 
+n="0004002" resp="CBETA" type="mod">三種藥【大】，〔－〕【甲】</note><app n="0004002">
+  <lem wit="【大】">三種藥</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>中無三種病。」此小涅槃，但藥
 <lb n="0004b06" ed="T"/>而非病。雖復病去而藥不亡，還執此藥而復
-<lb n="0004b07" ed="T"/>成病。文云「其<note n="0004003" resp="Taisho" type="orig" place="foot text">後＝復【甲】</note><note n="0004003" resp="CBETA" type="mod">後【大】，復【甲】</note><app n="0004003"><lem wit="【大】">後</lem><rdg resp="Taisho" wit="【甲】">復</rdg></app>不久王復得病。」當知四非
+<lb n="0004b07" ed="T"/>成病。文云「其<note 
+n="0004003" resp="Taisho" type="orig" place="foot text">後＝復【甲】</note><note 
+n="0004003" resp="CBETA" type="mod">後【大】，復【甲】</note><app n="0004003">
+  <lem wit="【大】">後</lem>
+  <rdg resp="Taisho" wit="【甲】">復</rdg>
+</app>不久王復得病。」當知四非
 <lb n="0004b08" ed="T"/>常亦藥亦病也。治此病故，還用常樂我淨而
 <lb n="0004b09" ed="T"/>倒瀉之，故斥無常病，說於新伊是勝三修，不
 <lb n="0004b10" ed="T"/>同凡夫之倒病、不同二乘之偏藥，故名非藥
@@ -398,7 +460,8 @@
 <lb n="0004b22" ed="T"/>故非小，無四德故非大。例前應就理為非小
 <lb n="0004b23" ed="T"/>非大，互顯令易解耳。前一番從地獄已上料
 <lb n="0004b24" ed="T"/>揀，次一番從外道已上料揀，次一番從二乘
-<lb n="0004b25" ed="T"/>已上料揀。</p><p xml:id="pT38p0004b2505" cb:place="inline">問：如此料揀，六道二乘既非安樂，
+<lb n="0004b25" ed="T"/>已上料揀。</p>
+<p xml:id="pT38p0004b2505" cb:place="inline">問：如此料揀，六道二乘既非安樂，
 <lb n="0004b26" ed="T"/>何故強說為涅槃耶？答：通有四悉檀因緣故
 <lb n="0004b27" ed="T"/>則作通說，云何更別問耶？所以作通說者，為
 <lb n="0004b28" ed="T"/>悅眾生故、引導生善故、破壞諸惡故、顯昔第
@@ -408,7 +471,8 @@
 <lb n="0004c02" ed="T"/>說佛菩薩安樂。又不離俗而有真中，尚得即
 <lb n="0004c03" ed="T"/>俗即真即中，何意不得六道說通安樂是涅
 <lb n="0004c04" ed="T"/>槃耶？龍樹云：因緣所生法，即空即假即中，是
-<lb n="0004c05" ed="T"/>其義也。</p><p xml:id="pT38p0004c0504" cb:place="inline">三、釋無名者，先出舊解。一云：真如實
+<lb n="0004c05" ed="T"/>其義也。</p>
+<p xml:id="pT38p0004c0504" cb:place="inline">三、釋無名者，先出舊解。一云：真如實
 <lb n="0004c06" ed="T"/>際等是真諦名，佛果涅槃常樂我淨等是俗
 <lb n="0004c07" ed="T"/>諦名。而言涅槃無名者，無生死患累之名，而
 <lb n="0004c08" ed="T"/>有美妙之名也。引互無為證，涅槃無生死之
@@ -424,8 +488,14 @@
 <lb n="0004c18" ed="T"/>美妙之名者，斷奠是三藏有門，能通是有、所
 <lb n="0004c19" ed="T"/>通是非有。何得用小乘能通釋大涅槃所通？
 <lb n="0004c20" ed="T"/>指荒塗為寶所、認魚目是明珠，大無所以。若
-<lb n="0004c21" ed="T"/>言真諦涅槃皆無名者，<app type="star" corresp="#0001004"><lem wit="【大】">秖</lem><rdg resp="Taisho" wit="【甲】">秪</rdg></app>是三藏空門。若言
-<lb n="0004c22" ed="T"/>真諦無名佛果涅槃猶是續待二假者，<app type="star" corresp="#0001004"><lem wit="【大】">秖</lem><rdg resp="Taisho" wit="【甲】">秪</rdg></app>是
+<lb n="0004c21" ed="T"/>言真諦涅槃皆無名者，<app type="star" corresp="#0001004">
+  <lem wit="【大】">秖</lem>
+  <rdg resp="Taisho" wit="【甲】">秪</rdg>
+</app>是三藏空門。若言
+<lb n="0004c22" ed="T"/>真諦無名佛果涅槃猶是續待二假者，<app type="star" corresp="#0001004">
+  <lem wit="【大】">秖</lem>
+  <rdg resp="Taisho" wit="【甲】">秪</rdg>
+</app>是
 <lb n="0004c23" ed="T"/>三藏亦有亦無門。復應有計非有非無門者，
 <lb n="0004c24" ed="T"/>未見其人也。然三藏涅槃既非數法，尚不是
 <lb n="0004c25" ed="T"/>一，何得有四？四者能通之門耳，不可以能通
@@ -435,14 +505,20 @@
 <lb n="0004c29" ed="T"/>通為別所通，那得以別能通釋圓所通？將此
 <pb n="0005a" ed="T" xml:id="T38.1765.0005a"/>
 <lb n="0005a01" ed="T"/>望之，節節無意窈然大遠，故不用此無名釋
-<lb n="0005a02" ed="T"/>大涅槃<note place="inline">云云</note>。</p><p xml:id="pT38p0005a0206" cb:place="inline">問：古來傳譯什師命世，升堂入
+<lb n="0005a02" ed="T"/>大涅槃<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0005a0206" cb:place="inline">問：古來傳譯什師命世，升堂入
 <lb n="0005a03" ed="T"/>室一肇而已。肇作《涅槃無名論》，其詞虛豁洋
 <lb n="0005a04" ed="T"/>洋滿耳，世人翫味卷不釋手，意復云何？答：高
 <lb n="0005a05" ed="T"/>僧盛德日月在懷，既不親承其門難見，鑽仰
 <lb n="0005a06" ed="T"/>遺文管窺而已。觀其旨趣，不出四句。其論云
 <lb n="0005a07" ed="T"/>「有餘無餘涅槃者，良是出處之異號、應物之
 <lb n="0005a08" ed="T"/>假名。若無聖人，知無者誰？若無聖人，誰與道
-<lb n="0005a09" ed="T"/><note n="0005001" resp="Taisho" type="orig" place="foot text">遊＝游【甲】＊</note><note n="0005001" resp="CBETA" type="mod">遊【大】＊，游【甲】＊</note><app n="0005001"><lem wit="【大】">遊</lem><rdg resp="Taisho" wit="【甲】">游</rdg></app>？」即其有句也。「寂寥虛豁，不可以形名得；微
+<lb n="0005a09" ed="T"/><note 
+n="0005001" resp="Taisho" type="orig" place="foot text">遊＝游【甲】＊</note><note 
+n="0005001" resp="CBETA" type="mod">遊【大】＊，游【甲】＊</note><app n="0005001">
+  <lem wit="【大】">遊</lem>
+  <rdg resp="Taisho" wit="【甲】">游</rdg>
+</app>？」即其有句也。「寂寥虛豁，不可以形名得；微
 <lb n="0005a10" ed="T"/>妙無相，不可以有心知。豈有名於其間哉？」即
 <lb n="0005a11" ed="T"/>其無句也。「果有其所以不有，故不可得而有；
 <lb n="0005a12" ed="T"/>有其所以不無，故不可得而無耳。恍忽窈冥
@@ -488,7 +564,12 @@
 <lb n="0005b22" ed="T"/>獲有餘無餘涅槃之名也。又無三乘共行十
 <lb n="0005b23" ed="T"/>地有門得道，獲有餘無餘涅槃之名也；亦無
 <lb n="0005b24" ed="T"/>空門、亦空亦有門、非空非有門得道，獲有餘
-<lb n="0005b25" ed="T"/>無餘涅槃之名也。又無別教有門得<note n="0005002" resp="Taisho" type="orig" place="foot text">道＋（獲）【甲】</note><note n="0005002" resp="CBETA" type="mod">道【大】，道獲【甲】</note><app n="0005002"><lem wit="【大】">道</lem><rdg resp="Taisho" wit="【甲】">道獲</rdg></app>常住
+<lb n="0005b25" ed="T"/>無餘涅槃之名也。又無別教有門得<note 
+n="0005002" resp="Taisho" type="orig" place="foot text">道＋（獲）【甲】</note><note 
+n="0005002" resp="CBETA" type="mod">道【大】，道獲【甲】</note><app n="0005002">
+  <lem wit="【大】">道</lem>
+  <rdg resp="Taisho" wit="【甲】">道獲</rdg>
+</app>常住
 <lb n="0005b26" ed="T"/>涅槃之名也；亦無空門、亦空亦有門、非空非
 <lb n="0005b27" ed="T"/>有門得道，獲常住涅槃之名也。無如是等諸
 <lb n="0005b28" ed="T"/>方便之名，從所離故，故言無名；從所得故，故
@@ -506,7 +587,8 @@
 <lb n="0005c10" ed="T"/>無名？疑誤後生，今所不用也。故〈梵行品〉云「無
 <lb n="0005c11" ed="T"/>緣慈者，不緣眾生亦不緣法，緣於如來，故名
 <lb n="0005c12" ed="T"/>無緣。」今亦例此，無六道之名、無四聖之名，而
-<lb n="0005c13" ed="T"/>有祕藏涅槃之名，故言涅槃無名也。</p><p xml:id="pT38p0005c1315" cb:place="inline">四、釋假
+<lb n="0005c13" ed="T"/>有祕藏涅槃之名，故言涅槃無名也。</p>
+<p xml:id="pT38p0005c1315" cb:place="inline">四、釋假
 <lb n="0005c14" ed="T"/>名者。〈德王〉初云：「涅槃非名非相，云何而言可
 <lb n="0005c15" ed="T"/>得見聞？不可見故無相，不可聞故無名。佛以
 <lb n="0005c16" ed="T"/>佛眼佛耳尚不見聞，況復下地及與凡夫而
@@ -529,7 +611,12 @@
 <lb n="0006a03" ed="T"/>是佛祕藏，是法假施設。於佛師上更復分別
 <lb n="0006a04" ed="T"/>法身般若解脫三點，是受假施設。於三點上
 <lb n="0006a05" ed="T"/>更立名字大般涅槃，是名假施設。或復呼為
-<lb n="0006a06" ed="T"/>洲渚窟宅、或復呼為乳<note n="0006001" resp="Taisho" type="orig" place="foot text">糜＝麋【甲】</note><note n="0006001" resp="CBETA" type="mod">糜【大】，麋【甲】</note><app n="0006001"><lem wit="【大】">糜</lem><rdg resp="Taisho" wit="【甲】">麋</rdg></app>妙味、或復呼為醍
+<lb n="0006a06" ed="T"/>洲渚窟宅、或復呼為乳<note 
+n="0006001" resp="Taisho" type="orig" place="foot text">糜＝麋【甲】</note><note 
+n="0006001" resp="CBETA" type="mod">糜【大】，麋【甲】</note><app n="0006001">
+  <lem wit="【大】">糜</lem>
+  <rdg resp="Taisho" wit="【甲】">麋</rdg>
+</app>妙味、或復呼為醍
 <lb n="0006a07" ed="T"/>醐上藥、或復呼為一闡提、或復呼為一破戒
 <lb n="0006a08" ed="T"/>明鏡。譬說虛空不可得無障礙，如是豈非名
 <lb n="0006a09" ed="T"/>假施設？當知從地獄已上至佛已還皆言安
@@ -558,7 +645,8 @@
 <lb n="0006b02" ed="T"/>得利益已，寧復執名而起諍乎？假立有名既
 <lb n="0006b03" ed="T"/>爾，假立無名、假立亦有亦無名、假立非有非
 <lb n="0006b04" ed="T"/>無名亦如是<note place="inline">云云</note>。應說將跨來因緣<note place="inline">云云</note>。又如
-<lb n="0006b05" ed="T"/>治噎法<note place="inline">云云</note>。</p><p xml:id="pT38p0006b0506" cb:place="inline">五、釋絕名者。有人以無釋絕，亡
+<lb n="0006b05" ed="T"/>治噎法<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0006b0506" cb:place="inline">五、釋絕名者。有人以無釋絕，亡
 <lb n="0006b06" ed="T"/>有而存無，無則不絕。非今所用。有人以離釋
 <lb n="0006b07" ed="T"/>絕，言涅槃之中無有諸有。此尚非小乘義，亦
 <lb n="0006b08" ed="T"/>所不用。有人以滅釋絕，言滅諸煩惱悉無所
@@ -618,7 +706,12 @@
 <lb n="0007a02" ed="T"/>若謂法界微妙一法即三法、三法即一法，此
 <lb n="0007a03" ed="T"/>就亦有亦無門絕名也。若謂法界不可思議，
 <lb n="0007a04" ed="T"/>此就非有非無門絕名也。此皆方便道。若謂
-<lb n="0007a05" ed="T"/>開示悟入，如以金<note n="0007001" resp="Taisho" type="orig" place="foot text">鎞抉＝錕決【甲】</note><note n="0007001" resp="CBETA" type="mod">鎞抉【大】，錕決【甲】</note><app n="0007001"><lem wit="【大】">鎞抉</lem><rdg resp="Taisho" wit="【甲】">錕決</rdg></app>其眼膜，二指三指
+<lb n="0007a05" ed="T"/>開示悟入，如以金<note 
+n="0007001" resp="Taisho" type="orig" place="foot text">鎞抉＝錕決【甲】</note><note 
+n="0007001" resp="CBETA" type="mod">鎞抉【大】，錕決【甲】</note><app n="0007001">
+  <lem wit="【大】">鎞抉</lem>
+  <rdg resp="Taisho" wit="【甲】">錕決</rdg>
+</app>其眼膜，二指三指
 <lb n="0007a06" ed="T"/>了了分明，是名究竟絕言。言滿法界而無一
 <lb n="0007a07" ed="T"/>言、心滿法界而無一念，是為圓教絕名意也。
 <lb n="0007a08" ed="T"/>然諸經絕名，其旨非一。《華嚴》云「如執虛空風，
@@ -652,9 +745,15 @@
 <lb n="0007b06" ed="T"/>槃者尚非是一，云何為四？四者門也，門以
 <lb n="0007b07" ed="T"/>標理，有種種名。如天帝釋有千種名，解脫亦
 <lb n="0007b08" ed="T"/>爾，多諸名字。〈名字功德品〉云「涅槃是名，其餘
-<lb n="0007b09" ed="T"/>稱歎是則為字。」若爾，涅槃是總，而當<app type="star" corresp="#0001003"><lem wit="【大】">機</lem><rdg resp="Taisho" wit="【甲】">机</rdg></app>立
+<lb n="0007b09" ed="T"/>稱歎是則為字。」若爾，涅槃是總，而當<app type="star" corresp="#0001003">
+  <lem wit="【大】">機</lem>
+  <rdg resp="Taisho" wit="【甲】">机</rdg>
+</app>立
 <lb n="0007b10" ed="T"/>之為名，三點等及餘一切皆屬於字。若法身
-<lb n="0007b11" ed="T"/>當<app type="star" corresp="#0001003"><lem wit="【大】">機</lem><rdg resp="Taisho" wit="【甲】">机</rdg></app>是總已復為名，涅槃及一切物已復屬
+<lb n="0007b11" ed="T"/>當<app type="star" corresp="#0001003">
+  <lem wit="【大】">機</lem>
+  <rdg resp="Taisho" wit="【甲】">机</rdg>
+</app>是總已復為名，涅槃及一切物已復屬
 <lb n="0007b12" ed="T"/>字。若爾，更互無定。雖復無定，今既定以涅槃
 <lb n="0007b13" ed="T"/>為名，若定不定、若總若別皆無待對，悉是不
 <lb n="0007b14" ed="T"/>可思議、悉是大絕，故名絕大涅槃也。</p>
@@ -682,7 +781,10 @@
 <lb n="0007c06" ed="T"/>外尚非小涅槃門，況小涅槃體？尚非小涅槃
 <lb n="0007c07" ed="T"/>門體，焉得是共別涅槃門體？尚不是共別門
 <lb n="0007c08" ed="T"/>體，何得是大涅槃體耶？經云「是諸人等，春陽
-<lb n="0007c09" ed="T"/>之月，乘船<app type="star" corresp="#0005001"><lem wit="【大】">遊</lem><rdg resp="Taisho" wit="【甲】">游</rdg></app>戲，失瑠璃寶。即共入水，競捉
+<lb n="0007c09" ed="T"/>之月，乘船<app type="star" corresp="#0005001">
+  <lem wit="【大】">遊</lem>
+  <rdg resp="Taisho" wit="【甲】">游</rdg>
+</app>戲，失瑠璃寶。即共入水，競捉
 <lb n="0007c10" ed="T"/>瓦石歡喜持出，謂瑠璃珠，都非真寶，是珠澄
 <lb n="0007c11" ed="T"/>渟清淨故在水中。猶如仰觀虛空月形超然
 <lb n="0007c12" ed="T"/>獨遠，非眾人所執，亦非眾盲所觸。」古來復約
@@ -744,7 +846,8 @@
 <lb n="0008b07" ed="T"/>德、三約一諦、四約不生不生、五約正性。初論
 <lb n="0008b08" ed="T"/>性淨，總指一部；次論法身，指《哀歎》；次論一諦，
 <lb n="0008b09" ed="T"/>指《聖行》。次論不生，指《德王》。次論正性，指《師子
-<lb n="0008b10" ed="T"/>吼》、《迦葉》等。不可備引，斑駁略周耳。</p><p xml:id="pT38p0008b1014" cb:place="inline">性淨者，淨
+<lb n="0008b10" ed="T"/>吼》、《迦葉》等。不可備引，斑駁略周耳。</p>
+<p xml:id="pT38p0008b1014" cb:place="inline">性淨者，淨
 <lb n="0008b11" ed="T"/>有三種：一方便淨、二圓淨、三性淨。方便淨
 <lb n="0008b12" ed="T"/>者，嘔和善巧權能逗物，住首楞嚴建于大義，
 <lb n="0008b13" ed="T"/>或一閻浮提、或一四天下、或一大千界、或十
@@ -778,9 +881,16 @@
 <lb n="0008c11" ed="T"/>以當其體；指於圓淨，即是其宗；方便善巧，以
 <lb n="0008c12" ed="T"/>為其用；作此分別，即是其教。雖復分別，都是
 <lb n="0008c13" ed="T"/>一法，所謂大乘大般涅槃。若得此意，無俟多
-<lb n="0008c14" ed="T"/>言。其未解者，更重復說耳。</p><p xml:id="pT38p0008c1411" cb:place="inline">二、約法身德者，德
+<lb n="0008c14" ed="T"/>言。其未解者，更重復說耳。</p>
+<p xml:id="pT38p0008c1411" cb:place="inline">二、約法身德者，德
 <lb n="0008c15" ed="T"/>有三種：一法身德、二般若德、三解脫德。法身
-<lb n="0008c16" ed="T"/>者，即是金剛<note n="0008001" resp="Taisho" type="orig" place="foot text">竪＝堅【甲】</note><note n="0008001" resp="CBETA" type="mod" note_key="T38.0008c16.06">堅【CB】【金藏乙-CB】【甲】，竪【大】</note><app n="0008001"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">堅<note type="cf1">AC5490_002_0004a05</note></lem><rdg wit="【大】">竪</rdg><rdg resp="Taisho" wit="【甲】">堅</rdg></app>固之體，非色即色、非色非非
+<lb n="0008c16" ed="T"/>者，即是金剛<note 
+n="0008001" resp="Taisho" type="orig" place="foot text">竪＝堅【甲】</note><note 
+n="0008001" resp="CBETA" type="mod" note_key="T38.0008c16.06">堅【CB】【金藏乙-CB】【甲】，竪【大】</note><app n="0008001">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">堅<note type="cf1">AC5490_002_0004a05</note></lem>
+  <rdg wit="【大】">竪</rdg>
+  <rdg resp="Taisho" wit="【甲】">堅</rdg>
+</app>固之體，非色即色、非色非非
 <lb n="0008c17" ed="T"/>色，而名為真善妙色，真故非色、善故即色、妙
 <lb n="0008c18" ed="T"/>故非色非非色。又真即是空、善即是假、妙即
 <lb n="0008c19" ed="T"/>是中，例一切法亦復如是。以是義故，名為佛
@@ -789,7 +899,12 @@
 <lb n="0008c22" ed="T"/>涅槃明淨之鏡。此鏡一照一切照，照中故是
 <lb n="0008c23" ed="T"/>鏡、照真故是淨、照俗故是明。明故則像亮假
 <lb n="0008c24" ed="T"/>顯、淨故瑕盡真顯、鏡故體圓中顯，三智一心
-<lb n="0008c25" ed="T"/>中得，故言明<note n="0008002" resp="Taisho" type="orig" place="foot text">〔淨〕－【甲】</note><note n="0008002" resp="CBETA" type="mod">淨【大】，〔－〕【甲】</note><app n="0008002"><lem wit="【大】">淨</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>鏡。攝一切法，故稱調御。是佛
+<lb n="0008c25" ed="T"/>中得，故言明<note 
+n="0008002" resp="Taisho" type="orig" place="foot text">〔淨〕－【甲】</note><note 
+n="0008002" resp="CBETA" type="mod">淨【大】，〔－〕【甲】</note><app n="0008002">
+  <lem wit="【大】">淨</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>鏡。攝一切法，故稱調御。是佛
 <lb n="0008c26" ed="T"/>智藏，名般若德也。解脫德者，即是如來自在
 <lb n="0008c27" ed="T"/>解脫。其性廣博無縛無脫，是廣博義。體縛即
 <lb n="0008c28" ed="T"/>脫，是遠離義。調伏眾生，是無創疣義。如是解
@@ -805,8 +920,14 @@
 <lb n="0009a08" ed="T"/>不縱不橫，以當其體。般若攝一切法，如一面
 <lb n="0009a09" ed="T"/>三目，以當其宗。解脫攝一切法，如三點伊，以
 <lb n="0009a10" ed="T"/>當其用。如此敷演，即是其教。非但經體義明，
-<lb n="0009a11" ed="T"/>餘義亦顯<note place="inline">云云</note>。</p><p xml:id="pT38p0009a1107" cb:place="inline">三、約一諦者，世人解諦，或境
-<lb n="0009a12" ed="T"/>或智或教，非無此義。今用理釋<note n="0009001" resp="Taisho" type="orig" place="foot text">諦＝詳【甲】</note><note n="0009001" resp="CBETA" type="mod">諦【大】，詳【甲】</note><app n="0009001"><lem wit="【大】">諦</lem><rdg resp="Taisho" wit="【甲】">詳</rdg></app>，理當即境
+<lb n="0009a11" ed="T"/>餘義亦顯<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0009a1107" cb:place="inline">三、約一諦者，世人解諦，或境
+<lb n="0009a12" ed="T"/>或智或教，非無此義。今用理釋<note 
+n="0009001" resp="Taisho" type="orig" place="foot text">諦＝詳【甲】</note><note 
+n="0009001" resp="CBETA" type="mod">諦【大】，詳【甲】</note><app n="0009001">
+  <lem wit="【大】">諦</lem>
+  <rdg resp="Taisho" wit="【甲】">詳</rdg>
+</app>，理當即境
 <lb n="0009a13" ed="T"/>正，境正即智教皆正以理釋諦其義為允。有
 <lb n="0009a14" ed="T"/>四種四諦：一、生滅四諦。集是能生、苦是所生，
 <lb n="0009a15" ed="T"/>能生生所生、所生還生能生，苦集迴轉，生死
@@ -817,19 +938,26 @@
 <lb n="0009a20" ed="T"/>苦集。既無所壞，亦無能壞，故稱無生四諦。論
 <lb n="0009a21" ed="T"/>其相者，解苦無苦而有真諦，集道滅亦如是，
 <lb n="0009a22" ed="T"/>如經。三、無量四諦者，分別校計苦集滅道有
-<lb n="0009a23" ed="T"/>無量相，非諸聲聞緣覺所知，如經。</p><p xml:id="pT38p0009a2314" cb:place="inline">四、一實四
+<lb n="0009a23" ed="T"/>無量相，非諸聲聞緣覺所知，如經。</p>
+<p xml:id="pT38p0009a2314" cb:place="inline">四、一實四
 <lb n="0009a24" ed="T"/>諦者，解苦無苦而有於實，乃至解滅無滅而
 <lb n="0009a25" ed="T"/>有於實。實者，非苦、非苦因、非苦盡、非苦對，
 <lb n="0009a26" ed="T"/>而是一實，乃至滅亦如是，是名一實四諦，具
 <lb n="0009a27" ed="T"/>如經。非離生滅四諦別有一實四諦，即達生
 <lb n="0009a28" ed="T"/>滅而是一實四諦。無生無量，亦復如是。一中
-<lb n="0009a29" ed="T"/>有無量、無量中有<note n="0009002" resp="Taisho" type="orig" place="foot text">〔一〕－【甲】</note><note n="0009002" resp="CBETA" type="mod">一【大】，〔－〕【甲】</note><app n="0009002"><lem wit="【大】">一</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>，不可思議、不可說示，強
+<lb n="0009a29" ed="T"/>有無量、無量中有<note 
+n="0009002" resp="Taisho" type="orig" place="foot text">〔一〕－【甲】</note><note 
+n="0009002" resp="CBETA" type="mod">一【大】，〔－〕【甲】</note><app n="0009002">
+  <lem wit="【大】">一</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>，不可思議、不可說示，強
 <pb n="0009b" ed="T" xml:id="T38.1765.0009b"/>
 <lb n="0009b01" ed="T"/>欲分別令易解故，總唱一實四諦，即是名也。
 <lb n="0009b02" ed="T"/>取一滅諦即是其體，故《勝鬘》云「一依者，即一滅
 <lb n="0009b03" ed="T"/>諦也。」道諦以當其宗，取道諦所治以當其用，
 <lb n="0009b04" ed="T"/>調御心喜。說此真諦，即名為教。雖差別說，只
-<lb n="0009b05" ed="T"/>是一無差別法耳<note place="inline">此中遺一章</note>。</p><p xml:id="pT38p0009b0513" cb:place="inline">五、約正性者，性有五
+<lb n="0009b05" ed="T"/>是一無差別法耳<note place="inline">此中遺一章</note>。</p>
+<p xml:id="pT38p0009b0513" cb:place="inline">五、約正性者，性有五
 <lb n="0009b06" ed="T"/>種，謂正性、因性、因因性、果性、果果性。正性者，
 <lb n="0009b07" ed="T"/>非因非因因、非果非果果，是名正性。因性者，
 <lb n="0009b08" ed="T"/>十二因緣。因因性者，十二因緣所生智慧。果
@@ -844,11 +972,17 @@
 <lb n="0009b17" ed="T"/>因性為用，作此分別五性為教。雖復分別，只
 <lb n="0009b18" ed="T"/>是一法，更無差別。若人能如此解者，非但識
 <lb n="0009b19" ed="T"/>體，於名宗用教觸事冷然。為未解者更論宗
-<lb n="0009b20" ed="T"/>耳。</p><p xml:id="pT38p0009b2002" cb:place="inline">第三、明涅槃宗者，有人言：宗體不異。是義
+<lb n="0009b20" ed="T"/>耳。</p>
+<p xml:id="pT38p0009b2002" cb:place="inline">第三、明涅槃宗者，有人言：宗體不異。是義
 <lb n="0009b21" ed="T"/>不然。何者？若論至理，二即不二、不二即二，
 <lb n="0009b22" ed="T"/>此則宜然。若論名事，不二不可為二、二不可
 <lb n="0009b23" ed="T"/>為不二，既立宗體，寧得是同？宗者要也，修行
-<lb n="0009b24" ed="T"/>喉<note n="0009003" resp="Taisho" type="orig" place="foot text"><g ref="#CB04402"/>＝襟【甲】</note><note n="0009003" resp="CBETA" type="mod"><g ref="#CB04402"/>【大】，襟【甲】</note><app n="0009003"><lem wit="【大】"><g ref="#CB04402"/></lem><rdg resp="Taisho" wit="【甲】">襟</rdg></app>莫過因果。此經明因，略有三種：一、破
+<lb n="0009b24" ed="T"/>喉<note 
+n="0009003" resp="Taisho" type="orig" place="foot text"><g ref="#CB04402"/>＝襟【甲】</note><note 
+n="0009003" resp="CBETA" type="mod"><g ref="#CB04402"/>【大】，襟【甲】</note><app n="0009003">
+  <lem wit="【大】"><g ref="#CB04402"/></lem>
+  <rdg resp="Taisho" wit="【甲】">襟</rdg>
+</app>莫過因果。此經明因，略有三種：一、破
 <lb n="0009b25" ed="T"/>無常修常。如〈哀歎品〉以常樂我斥諸比丘無
 <lb n="0009b26" ed="T"/>常苦無我虛偽不真，宜應捨離。今當為汝說
 <lb n="0009b27" ed="T"/>勝三修。此是破無常修於常，能得常果顯於
@@ -859,14 +993,16 @@
 <lb n="0009c02" ed="T"/>食，四眾安住祕密藏中即是甘嗜。又云「如
 <lb n="0009c03" ed="T"/>來體之，是故為常。」體者履也，履而行之。法
 <lb n="0009c04" ed="T"/>常故佛亦常；亦是法非常非無常，故佛亦
-<lb n="0009c05" ed="T"/>非常非無常也。</p><p xml:id="pT38p0009c0507" cb:place="inline">問：初為純陀直說一常，次
+<lb n="0009c05" ed="T"/>非常非無常也。</p>
+<p xml:id="pT38p0009c0507" cb:place="inline">問：初為純陀直說一常，次
 <lb n="0009c06" ed="T"/>明常住二字，次斥諸比丘云勝三修。何意
 <lb n="0009c07" ed="T"/>增減？答：皆是今昔相對。昔說四非常，總是
 <lb n="0009c08" ed="T"/>一無常；今論四德總是一常，舉總常破總
 <lb n="0009c09" ed="T"/>無常耳。昔說生死無常而復流動，今以常
 <lb n="0009c10" ed="T"/>破生死、以住破流動，故舉二字以破二耳。
 <lb n="0009c11" ed="T"/>諸比丘置事緣理，但修三想；今舉勝理破劣
-<lb n="0009c12" ed="T"/>理，但用三修<note place="inline">云云</note>。</p><p xml:id="pT38p0009c1208" cb:place="inline">二者、以大涅槃心修，從淺
+<lb n="0009c12" ed="T"/>理，但用三修<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0009c1208" cb:place="inline">二者、以大涅槃心修，從淺
 <lb n="0009c13" ed="T"/>至深次第行學。如〈聖行〉中專行五行，初謂戒
 <lb n="0009c14" ed="T"/>定慧。居家如牢獄、梵行若虛空。從頭至足，其
 <lb n="0009c15" ed="T"/>中唯有髮毛爪齒大小腸胃，觀察八苦五盛
@@ -877,12 +1013,18 @@
 <lb n="0009c20" ed="T"/>淺至深，成因克果，顯非因非果，始終莫不以
 <lb n="0009c21" ed="T"/>常為宗。〈德王品〉中亦如是，初觀四大如篋、五
 <lb n="0009c22" ed="T"/>陰如害、六塵如賊，愛如怨詐、煩惱如河，八
-<lb n="0009c23" ed="T"/><note n="0009004" resp="Taisho" type="orig" place="foot text">正＝五【甲】</note><note n="0009004" resp="CBETA" type="mod">正【大】，五【甲】</note><app n="0009004"><lem wit="【大】">正</lem><rdg resp="Taisho" wit="【甲】">五</rdg></app>如筏，運手動足截流而去，得到彼岸。戒
+<lb n="0009c23" ed="T"/><note 
+n="0009004" resp="Taisho" type="orig" place="foot text">正＝五【甲】</note><note 
+n="0009004" resp="CBETA" type="mod">正【大】，五【甲】</note><app n="0009004">
+  <lem wit="【大】">正</lem>
+  <rdg resp="Taisho" wit="【甲】">五</rdg>
+</app>如筏，運手動足截流而去，得到彼岸。戒
 <lb n="0009c24" ed="T"/>定如動足、智慧如運手，涅槃是彼岸。〈師子吼〉
 <lb n="0009c25" ed="T"/>中亦如是，初從少欲知足，乃至住大涅槃。又
 <lb n="0009c26" ed="T"/>善修戒，不見戒因戒果戒一戒二等，是名善
 <lb n="0009c27" ed="T"/>修；定慧等亦復如是。原始要終，皆宗常住，
-<lb n="0009c28" ed="T"/>以常為宗明矣。</p><p xml:id="pT38p0009c2807" cb:place="inline">三者、如〈聖行〉中云「復有一行
+<lb n="0009c28" ed="T"/>以常為宗明矣。</p>
+<p xml:id="pT38p0009c2807" cb:place="inline">三者、如〈聖行〉中云「復有一行
 <lb n="0009c29" ed="T"/>是如來行，所謂大乘大般涅槃。」大乘即是修
 <pb n="0010a" ed="T" xml:id="T38.1765.0010a"/>
 <lb n="0010a01" ed="T"/>因，涅槃即是得果。大乘為因，何所不運；大涅
@@ -894,7 +1036,8 @@
 <lb n="0010a07" ed="T"/>從漸入頓次第別意也。後、即無常而修於常，
 <lb n="0010a08" ed="T"/>即圓頓人也。雖三不同，悉以常為因，歸宗常
 <lb n="0010a09" ed="T"/>果、住大涅槃，等無有異。故文云「因雖無常，
-<lb n="0010a10" ed="T"/>而果是常。」即第二番意也。餘例可知<note place="inline">云云</note>。</p><p xml:id="pT38p0010a1017" cb:place="inline">問：
+<lb n="0010a10" ed="T"/>而果是常。」即第二番意也。餘例可知<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0010a1017" cb:place="inline">問：
 <lb n="0010a11" ed="T"/>明體一章即識五意，明宗亦爾否？答：例然。宗
 <lb n="0010a12" ed="T"/>有三義：一宗本、二宗要、三宗助。宗本者，諸
 <lb n="0010a13" ed="T"/>行皆以大涅槃心為本，本立道生。如無綱目
@@ -906,7 +1049,8 @@
 <lb n="0010a19" ed="T"/>或行助、或道助。由助得力，故言宗助。總此
 <lb n="0010a20" ed="T"/>三宗是釋名，專論宗本即體意，專明宗要即
 <lb n="0010a21" ed="T"/>宗意，專明宗助即用意，分別此三異餘法門
-<lb n="0010a22" ed="T"/>即教意。</p><p xml:id="pT38p0010a2204" cb:place="inline">第四、釋涅槃用者，為三：一本用、二當
+<lb n="0010a22" ed="T"/>即教意。</p>
+<p xml:id="pT38p0010a2204" cb:place="inline">第四、釋涅槃用者，為三：一本用、二當
 <lb n="0010a23" ed="T"/>用、三自在起用。本用者，先出舊解。靈味小亮
 <lb n="0010a24" ed="T"/>云：生死之中本有真神之性，如弊帛裹黃金、
 <lb n="0010a25" ed="T"/>像墮在深泥。天眼者捉取，淨洗開裹，黃金像
@@ -922,7 +1066,12 @@
 <lb n="0010b05" ed="T"/>謝種覺起，名為始有。始有之理本已有之，引
 <lb n="0010b06" ed="T"/>〈如來性〉貧女額珠、闇室等證本有，引〈師子〉
 <lb n="0010b07" ed="T"/>〈迦葉〉明乳中無酪，但酪從乳生，故言有酪；酪
-<lb n="0010b08" ed="T"/>非本有，必假醪暖。種植胡麻，<note n="0010001" resp="Taisho" type="orig" place="foot text">答＝合【甲】</note><note n="0010001" resp="CBETA" type="mod">答【大】，合【甲】</note><app n="0010001"><lem wit="【大】">答</lem><rdg resp="Taisho" wit="【甲】">合</rdg></app>言有油；
+<lb n="0010b08" ed="T"/>非本有，必假醪暖。種植胡麻，<note 
+n="0010001" resp="Taisho" type="orig" place="foot text">答＝合【甲】</note><note 
+n="0010001" resp="CBETA" type="mod">答【大】，合【甲】</note><app n="0010001">
+  <lem wit="【大】">答</lem>
+  <rdg resp="Taisho" wit="【甲】">合</rdg>
+</app>言有油；
 <lb n="0010b09" ed="T"/>油須擣壓乃可得耳。又引〈佛性〉「三世眾生未
 <lb n="0010b10" ed="T"/>來當有清淨莊嚴之身。」此證當有。雙取二文，
 <lb n="0010b11" ed="T"/>意與瑤師不異。又引木石之流無有成佛之
@@ -962,7 +1111,8 @@
 <lb n="0010c15" ed="T"/>有常用攝一切法，何得無三門用？三門亦攝
 <lb n="0010c16" ed="T"/>一切法，何得無本有常用？文云「大般涅槃是
 <lb n="0010c17" ed="T"/>諸佛法界」，即其義也。是為圓教赴緣論此四
-<lb n="0010c18" ed="T"/>用大獲利益，不同舊義<note place="inline">云云</note>。</p><p xml:id="pT38p0010c1812" cb:place="inline">二、當有用者，先出
+<lb n="0010c18" ed="T"/>用大獲利益，不同舊義<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0010c1812" cb:place="inline">二、當有用者，先出
 <lb n="0010c19" ed="T"/>舊解。解有三：一云、理出萬惑之外，須除惑都
 <lb n="0010c20" ed="T"/>盡乃可見之。譬十重紙裹柱，雖除九重終不
 <lb n="0010c21" ed="T"/>見柱，併盡乃見。二、引《漸備經》明一切智慧皆
@@ -995,7 +1145,12 @@
 <lb n="0011a18" ed="T"/>勝千故，一人當千。又云「譬如大地草木為眾
 <lb n="0011a19" ed="T"/>生用，我法亦爾」，當知用同草木，比大力士，故
 <lb n="0011a20" ed="T"/>知用不一也。舊論照境之用不同，問：俗有三
-<lb n="0011a21" ed="T"/>世流動、<note n="0011001" resp="Taisho" type="orig" place="foot text">萬＝莫【甲】</note><note n="0011001" resp="CBETA" type="mod">萬【大】，莫【甲】</note><app n="0011001"><lem wit="【大】">萬</lem><rdg resp="Taisho" wit="【甲】">莫</rdg></app>境去來，佛智若為照之？若逐境去
+<lb n="0011a21" ed="T"/>世流動、<note 
+n="0011001" resp="Taisho" type="orig" place="foot text">萬＝莫【甲】</note><note 
+n="0011001" resp="CBETA" type="mod">萬【大】，莫【甲】</note><app n="0011001">
+  <lem wit="【大】">萬</lem>
+  <rdg resp="Taisho" wit="【甲】">莫</rdg>
+</app>境去來，佛智若為照之？若逐境去
 <lb n="0011a22" ed="T"/>來則生滅無常，若不逐境去來則不與境相
 <lb n="0011a23" ed="T"/>稱。由此一問，七解不同。冶城嵩云：佛智乃無
 <lb n="0011a24" ed="T"/>大期死滅，猶有念念流動逐境去來。此人臨
@@ -1041,10 +1196,16 @@
 <lb n="0011c04" ed="T"/>幻人。若爾，佛雖知俗不可冥俗，佛雖冥真不
 <lb n="0011c05" ed="T"/>可同真。不應作如此冥真冥俗義。冥真不出
 <lb n="0011c06" ed="T"/>二乘，冥俗不出凡夫境界，云何得是佛智用
-<lb n="0011c07" ed="T"/>耶<note place="inline">云云</note>。</p><p xml:id="pT38p0011c0704" cb:place="inline">三、自在起用。用遍法界，廣不可委。文
+<lb n="0011c07" ed="T"/>耶<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0011c0704" cb:place="inline">三、自在起用。用遍法界，廣不可委。文
 <lb n="0011c08" ed="T"/>云「譬如大地一切草木為眾生用，我法亦爾。」
 <lb n="0011c09" ed="T"/>當知勝用無量無邊。且約三種：一不可思議
-<lb n="0011c10" ed="T"/>用、二二鳥雙<note n="0011002" resp="Taisho" type="orig" place="foot text">遊＝游【甲】＊</note><note n="0011002" resp="CBETA" type="mod">遊【大】＊，游【甲】＊</note><app n="0011002"><lem wit="【大】">遊</lem><rdg resp="Taisho" wit="【甲】">游</rdg></app>用、三善惡邪正雙攝用。不
+<lb n="0011c10" ed="T"/>用、二二鳥雙<note 
+n="0011002" resp="Taisho" type="orig" place="foot text">遊＝游【甲】＊</note><note 
+n="0011002" resp="CBETA" type="mod">遊【大】＊，游【甲】＊</note><app n="0011002">
+  <lem wit="【大】">遊</lem>
+  <rdg resp="Taisho" wit="【甲】">游</rdg>
+</app>用、三善惡邪正雙攝用。不
 <lb n="0011c11" ed="T"/>可思議用者，舊釋有七：一云、令他見須彌入
 <lb n="0011c12" ed="T"/>芥子，其實不入，唯應度者乃能見之。此解不
 <lb n="0011c13" ed="T"/>可。若不入者，何謂神通？二解實入，但佛神力
@@ -1076,7 +1237,12 @@
 <lb n="0012a09" ed="T"/>議芥子之微小，是名以不思議之大入於不
 <lb n="0012a10" ed="T"/>思議之小。住首楞嚴能建大義，如經廣說<note place="inline">云云</note>。
 <lb n="0012a11" ed="T"/>一往明不思議用在於道後，其理實通。乃至
-<lb n="0012a12" ed="T"/>善惡邪正等<note n="0012001" resp="Taisho" type="orig" place="foot text">例＝列【甲】</note><note n="0012001" resp="CBETA" type="mod">例【大】，列【甲】</note><app n="0012001"><lem wit="【大】">例</lem><rdg resp="Taisho" wit="【甲】">列</rdg></app>如是。所謂四趣是邪，人天為
+<lb n="0012a12" ed="T"/>善惡邪正等<note 
+n="0012001" resp="Taisho" type="orig" place="foot text">例＝列【甲】</note><note 
+n="0012001" resp="CBETA" type="mod">例【大】，列【甲】</note><app n="0012001">
+  <lem wit="【大】">例</lem>
+  <rdg resp="Taisho" wit="【甲】">列</rdg>
+</app>如是。所謂四趣是邪，人天為
 <lb n="0012a13" ed="T"/>正；又三界是邪，二乘為正；又二乘偏邪，菩薩
 <lb n="0012a14" ed="T"/>為正<note place="inline">云云</note>。邪正兩用，亦遍法界。四趣是惡，人天
 <lb n="0012a15" ed="T"/>是善；又三界悉是惡，二乘是善；又二乘是惡，
@@ -1086,14 +1252,28 @@
 <lb n="0012a19" ed="T"/>用者，俱亡二邊，如〈鳥喻品〉中說，即是一時雙
 <lb n="0012a20" ed="T"/>用也。前後倒瀉，即是異時偏用。宜一時即並
 <lb n="0012a21" ed="T"/>用、宜前後即單用，不必一種，用自在故。善惡
-<lb n="0012a22" ed="T"/>雙用，如〈迦葉品〉中說。善<note n="0012002" resp="Taisho" type="orig" place="foot text">星＝皇【甲】</note><note n="0012002" resp="CBETA" type="mod">星【大】，皇【甲】</note><app n="0012002"><lem wit="【大】">星</lem><rdg resp="Taisho" wit="【甲】">皇</rdg></app>至惡，尚能攝受令
+<lb n="0012a22" ed="T"/>雙用，如〈迦葉品〉中說。善<note 
+n="0012002" resp="Taisho" type="orig" place="foot text">星＝皇【甲】</note><note 
+n="0012002" resp="CBETA" type="mod">星【大】，皇【甲】</note><app n="0012002">
+  <lem wit="【大】">星</lem>
+  <rdg resp="Taisho" wit="【甲】">皇</rdg>
+</app>至惡，尚能攝受令
 <lb n="0012a23" ed="T"/>得出家，況復善者寧當不攝？或雙用或前後
 <lb n="0012a24" ed="T"/><note place="inline">云云</note>。三、邪正善惡俱攝者，〈陳如品〉中說。邪即
 <lb n="0012a25" ed="T"/>外道，正即陳如弘廣。邪即諸魔，正即阿難。平
-<lb n="0012a26" ed="T"/>等皆攝，巧施妙用，<app type="star" corresp="#0011002"><lem wit="【大】">遊</lem><rdg resp="Taisho" wit="【甲】">游</rdg></app>諸世間作大利益。若
-<lb n="0012a27" ed="T"/>見此意，即是自在之用，善巧四隨稱<note n="0012003" resp="Taisho" type="orig" place="foot text">機＝机【甲】＊</note><note n="0012003" resp="CBETA" type="mod">機【大】＊，机【甲】＊</note><app n="0012003"><lem wit="【大】">機</lem><rdg resp="Taisho" wit="【甲】">机</rdg></app>利益。
+<lb n="0012a26" ed="T"/>等皆攝，巧施妙用，<app type="star" corresp="#0011002">
+  <lem wit="【大】">遊</lem>
+  <rdg resp="Taisho" wit="【甲】">游</rdg>
+</app>諸世間作大利益。若
+<lb n="0012a27" ed="T"/>見此意，即是自在之用，善巧四隨稱<note 
+n="0012003" resp="Taisho" type="orig" place="foot text">機＝机【甲】＊</note><note 
+n="0012003" resp="CBETA" type="mod">機【大】＊，机【甲】＊</note><app n="0012003">
+  <lem wit="【大】">機</lem>
+  <rdg resp="Taisho" wit="【甲】">机</rdg>
+</app>利益。
 <lb n="0012a28" ed="T"/>住首楞嚴種種示現不動法性，其見聞者無
-<lb n="0012a29" ed="T"/>不蒙益。此義可知，不俟多說<note place="inline">云云</note>。</p><p xml:id="pT38p0012a2914" cb:place="inline">問：此一章
+<lb n="0012a29" ed="T"/>不蒙益。此義可知，不俟多說<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0012a2914" cb:place="inline">問：此一章
 <pb n="0012b" ed="T" xml:id="T38.1765.0012b"/>
 <lb n="0012b01" ed="T"/>五意云何？答：例前可解。若總論三用，即釋名
 <lb n="0012b02" ed="T"/>意。若專本用，即是體意。若專當用，即是宗意。
@@ -1127,18 +1307,26 @@
 <pb n="0012c" ed="T" xml:id="T38.1765.0012c"/>
 <lb n="0012c01" ed="T"/>教者革凡成聖，亦革聖成無上道；佛教如上
 <lb n="0012c02" ed="T"/>品牛乳，從佛教者即得安住祕密藏中。當知
-<lb n="0012c03" ed="T"/>涅槃教乳最上最妙。</p><p xml:id="pT38p0012c0309" cb:place="inline">問：何故於一乳中多種
+<lb n="0012c03" ed="T"/>涅槃教乳最上最妙。</p>
+<p xml:id="pT38p0012c0309" cb:place="inline">問：何故於一乳中多種
 <lb n="0012c04" ed="T"/>分別？答：此經意爾。如本有一偈，四出證義，明
 <lb n="0012c05" ed="T"/>無差別差別等。例作此，說之無咎。又《德王》中
 <lb n="0012c06" ed="T"/>不聞聞不生生等皆作四句，今亦例爾，邪乳
 <lb n="0012c07" ed="T"/>名乳乳、二乘名乳不乳、菩薩名不乳乳、佛是
-<lb n="0012c08" ed="T"/>非乳非不乳。意高例盡，子何須惑。</p><p xml:id="pT38p0012c0814" cb:place="inline">二、字者，世
+<lb n="0012c08" ed="T"/>非乳非不乳。意高例盡，子何須惑。</p>
+<p xml:id="pT38p0012c0814" cb:place="inline">二、字者，世
 <lb n="0012c09" ed="T"/>亦二字，出世亦二字，上上出世亦二字，今文
 <lb n="0012c10" ed="T"/>亦二字。二字既通，復須分別。世二字者，如《瑞
 <lb n="0012c11" ed="T"/>應》云「太子乘羊車，詣師學書。師教二字，謂梵
 <lb n="0012c12" ed="T"/>佉婁。」此二字應詮世間禮樂醫方技藝治政
 <lb n="0012c13" ed="T"/>之法，故是世間二字也。又云梵字，應如《金光
-<lb n="0012c14" ed="T"/>明》中說出欲論，明修梵法歎梵<note n="0012004" resp="Taisho" type="orig" place="foot text">執＝報【甲】</note><note n="0012004" resp="CBETA" type="mod" note_key="T38.0012c14.13">報【CB】【金藏乙-CB】【甲】，執【大】</note><app n="0012004"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">報<note type="cf1">AC5490_002_0015a13</note></lem><rdg wit="【大】">執</rdg><rdg resp="Taisho" wit="【甲】">報</rdg></app>故，是出欲
+<lb n="0012c14" ed="T"/>明》中說出欲論，明修梵法歎梵<note 
+n="0012004" resp="Taisho" type="orig" place="foot text">執＝報【甲】</note><note 
+n="0012004" resp="CBETA" type="mod" note_key="T38.0012c14.13">報【CB】【金藏乙-CB】【甲】，執【大】</note><app n="0012004">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">報<note type="cf1">AC5490_002_0015a13</note></lem>
+  <rdg wit="【大】">執</rdg>
+  <rdg resp="Taisho" wit="【甲】">報</rdg>
+</app>故，是出欲
 <lb n="0012c15" ed="T"/>論也。佉婁字，應是無量勝論，明十善法，歎釋
 <lb n="0012c16" ed="T"/>天報。善能攻惡，故言勝論。總而言之，世間二
 <lb n="0012c17" ed="T"/>字也。謝靈運云：「梵佉婁是人名，其撮諸廣字
@@ -1167,7 +1355,8 @@
 <lb n="0013a10" ed="T"/>二字，於諸字中最尊最勝，其義可知。又結為
 <lb n="0013a11" ed="T"/>四句：二乘無常是半非滿，一乘是滿非半，若
 <lb n="0013a12" ed="T"/>斥小帶小等是亦半亦滿，若世間非半又非
-<lb n="0013a13" ed="T"/>滿。大意可知<note place="inline">云云</note>。</p><p xml:id="pT38p0013a1308" cb:place="inline">三、三修者，有邪三修、劣三修、
+<lb n="0013a13" ed="T"/>滿。大意可知<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0013a1308" cb:place="inline">三、三修者，有邪三修、劣三修、
 <lb n="0013a14" ed="T"/>勝三修。邪三修，謂世間顛倒，隨邪師教，見相
 <lb n="0013a15" ed="T"/>似相續謂為常，適意可悅謂為樂，轉動運為
 <lb n="0013a16" ed="T"/>謂是我。愚惑所覆如執掣電，如蛾如蠶追求
@@ -1179,11 +1368,15 @@
 <lb n="0013a22" ed="T"/>色無色染、無明掉慢疑。如諸迹中象迹為最，
 <lb n="0013a23" ed="T"/>於諸想中無常為最，如經廣說，是名劣三修。
 <lb n="0013a24" ed="T"/>勝三修者，依佛勝教，破於劣修，謂常樂我法
-<lb n="0013a25" ed="T"/>身常恒無有變易，<app type="star" corresp="#0011002"><lem wit="【大】">遊</lem><rdg resp="Taisho" wit="【甲】">游</rdg></app>諸覺華歡娛受樂，具八
+<lb n="0013a25" ed="T"/>身常恒無有變易，<app type="star" corresp="#0011002">
+  <lem wit="【大】">遊</lem>
+  <rdg resp="Taisho" wit="【甲】">游</rdg>
+</app>諸覺華歡娛受樂，具八
 <lb n="0013a26" ed="T"/>自在無能遏絕。如是修者，入祕密藏，名勝三
 <lb n="0013a27" ed="T"/>修。又邪修是世伊，劣修是故伊，勝修是新伊。
 <lb n="0013a28" ed="T"/>大涅槃理即非新非故伊，今經即是新伊，勝
-<lb n="0013a29" ed="T"/>修最尊最上之教也。</p><p xml:id="pT38p0013a2909" cb:place="inline">四、四教者，此該佛一化，
+<lb n="0013a29" ed="T"/>修最尊最上之教也。</p>
+<p xml:id="pT38p0013a2909" cb:place="inline">四、四教者，此該佛一化，
 <pb n="0013b" ed="T" xml:id="T38.1765.0013b"/>
 <lb n="0013b01" ed="T"/>名相理趣別有疏本<note place="inline">云云</note>。三藏教者，謂戒定慧
 <lb n="0013b02" ed="T"/>藏。為彼嬰兒梯隥出苦，畏憚長遠止息化城，
@@ -1213,7 +1406,8 @@
 <lb n="0013b26" ed="T"/>藏，通是雜藏，別是菩薩藏，圓是佛藏。上能攝
 <lb n="0013b27" ed="T"/>下，佛藏第一也。若例四句，三藏是聞聞，通是
 <lb n="0013b28" ed="T"/>聞不聞，別是不聞聞，圓是不聞不聞。乃至生
-<lb n="0013b29" ed="T"/>生等例可解。</p><p xml:id="pT38p0013b2906" cb:place="inline">五、五味者，即五種牛味，正譬說
+<lb n="0013b29" ed="T"/>生等例可解。</p>
+<p xml:id="pT38p0013b2906" cb:place="inline">五、五味者，即五種牛味，正譬說
 <pb n="0013c" ed="T" xml:id="T38.1765.0013c"/>
 <lb n="0013c01" ed="T"/>教次第，不應以淺深意取。若謂初淺後深，是
 <lb n="0013c02" ed="T"/>義不然。文云「醫占王病定須服乳」，又云「如得
@@ -1230,9 +1424,18 @@
 <lb n="0013c13" ed="T"/>牛。從牛出乳，譬佛初說也。即寂滅道場，從法
 <lb n="0013c14" ed="T"/>界體流出法界法教諸菩薩，如日初出先照
 <lb n="0013c15" ed="T"/>高山，故言從牛出乳也。次從乳出酪者，為
-<lb n="0013c16" ed="T"/>小<app type="star" corresp="#0012003"><lem wit="【大】">機</lem><rdg resp="Taisho" wit="【甲】">机</rdg></app>不堪，如聾如瘂，隱其無量神德，示丈
+<lb n="0013c16" ed="T"/>小<app type="star" corresp="#0012003">
+  <lem wit="【大】">機</lem>
+  <rdg resp="Taisho" wit="【甲】">机</rdg>
+</app>不堪，如聾如瘂，隱其無量神德，示丈
 <lb n="0013c17" ed="T"/>六身、覆如來藏，但說三藏，以貧所樂法，隨宜
-<lb n="0013c18" ed="T"/>方便令<note n="0013001" resp="Taisho" type="orig" place="foot text">章＝草【甲】</note><note n="0013001" resp="CBETA" type="mod" note_key="T38.0013c18.04">革【CB】【金藏乙-CB】，章【大】，草【甲】</note><app n="0013001"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">革<note type="cf1">AC5490_002_0018a12</note></lem><rdg wit="【大】">章</rdg><rdg resp="Taisho" wit="【甲】">草</rdg></app>凡成聖，故《華嚴》大後，次說三藏之
+<lb n="0013c18" ed="T"/>方便令<note 
+n="0013001" resp="Taisho" type="orig" place="foot text">章＝草【甲】</note><note 
+n="0013001" resp="CBETA" type="mod" note_key="T38.0013c18.04">革【CB】【金藏乙-CB】，章【大】，草【甲】</note><app n="0013001">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">革<note type="cf1">AC5490_002_0018a12</note></lem>
+  <rdg wit="【大】">章</rdg>
+  <rdg resp="Taisho" wit="【甲】">草</rdg>
+</app>凡成聖，故《華嚴》大後，次說三藏之
 <lb n="0013c19" ed="T"/>小，如從乳後即有於酪也。次從酪出生酥者，
 <lb n="0013c20" ed="T"/>譬三藏之後以大訶小，挫其取證敗種壞根無
 <lb n="0013c21" ed="T"/>生無用。先與後奪，如亨酪作生酥也。次從生
@@ -1256,7 +1459,8 @@
 <lb n="0014a09" ed="T"/>玄》中說。又從增一至五，總諸說者，即釋名意。
 <lb n="0014a10" ed="T"/>若專五所以，是體意。若專五所以，設諸名相，
 <lb n="0014a11" ed="T"/>是宗意。若專對破，是用意。若分別其相，是教
-<lb n="0014a12" ed="T"/>意。準前可知，不復委釋<note place="inline">云云</note>。</p><p xml:id="pT38p0014a1212" cb:place="inline">二、經來緣起，又
+<lb n="0014a12" ed="T"/>意。準前可知，不復委釋<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0014a1212" cb:place="inline">二、經來緣起，又
 <lb n="0014a13" ed="T"/>二：一經緣起、二疏緣起。經緣起者，有雙卷、六
 <lb n="0014a14" ed="T"/>卷、大本。雙卷明八十入滅，不辨常住，蓋小緣
 <lb n="0014a15" ed="T"/>所感三藏教也。六卷與大本皆明常住，俱是
@@ -1290,32 +1494,63 @@
 <lb n="0014b13" ed="T"/>不聞涅槃，恐其言為謬。經錄稱謝靈運足品，
 <lb n="0014b14" ed="T"/>相承信用。初三人欲刪略百句解脫，俱夢黑
 <lb n="0014b15" ed="T"/>神威猛責數剛切：「汝以凡庸改聖人言義，其
-<lb n="0014b16" ed="T"/>過大矣。若不止者，以金剛杵<note n="0014001" resp="Taisho" type="orig" place="foot text">〔碎〕－【甲】</note><note n="0014001" resp="CBETA" type="mod">碎【大】，〔－〕【甲】</note><app n="0014001"><lem wit="【大】">碎</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>之如塵。」因不
+<lb n="0014b16" ed="T"/>過大矣。若不止者，以金剛杵<note 
+n="0014001" resp="Taisho" type="orig" place="foot text">〔碎〕－【甲】</note><note 
+n="0014001" resp="CBETA" type="mod">碎【大】，〔－〕【甲】</note><app n="0014001">
+  <lem wit="【大】">碎</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>之如塵。」因不
 <lb n="0014b17" ed="T"/>敢刪略，但去質存華，如「啼泣面目腫」改為「戀
 <lb n="0014b18" ed="T"/>慕增悲慟」，如「嗚啑我口」改為「如愛子法」，故其
 <lb n="0014b19" ed="T"/>文璀璨，皆此例焉。經者，通名也，如《法華疏》說。
-<lb n="0014b20" ed="T"/>序品第一者，亦如彼<note place="inline">云云</note>。</p><p xml:id="pT38p0014b2011" cb:place="inline">二、疏緣起者，余以童
+<lb n="0014b20" ed="T"/>序品第一者，亦如彼<note place="inline">云云</note>。</p>
+<p xml:id="pT38p0014b2011" cb:place="inline">二、疏緣起者，余以童
 <lb n="0014b21" ed="T"/>年給侍攝靜，攝靜授《大涅槃》。誦將欲半，走雖
 <lb n="0014b22" ed="T"/>不敏，願聞旨趣，於是負笈天台，心欣藍染。登
 <lb n="0014b23" ed="T"/>山甫爾，仍逢出谷，不惟菲薄奉從帝庭。師既
-<lb n="0014b24" ed="T"/>香<note n="0014002" resp="Taisho" type="orig" place="foot text">塗＝途【甲】＊</note><note n="0014002" resp="CBETA" type="mod">塗【大】＊，途【甲】＊</note><app n="0014002"><lem wit="【大】">塗</lem><rdg resp="Taisho" wit="【甲】">途</rdg></app>二宮、光曜七眾，道俗參請門堂交絡，
+<lb n="0014b24" ed="T"/>香<note 
+n="0014002" resp="Taisho" type="orig" place="foot text">塗＝途【甲】＊</note><note 
+n="0014002" resp="CBETA" type="mod">塗【大】＊，途【甲】＊</note><app n="0014002">
+  <lem wit="【大】">塗</lem>
+  <rdg resp="Taisho" wit="【甲】">途</rdg>
+</app>二宮、光曜七眾，道俗參請門堂交絡，
 <lb n="0014b25" ed="T"/>雖欽渴甘露如俟河清，詎可得乎。甞面請斯
 <lb n="0014b26" ed="T"/>典，降旨垂許，有期無日。逮金陵土崩、師徒雨
-<lb n="0014b27" ed="T"/>散，後會<note n="0014003" resp="Taisho" type="orig" place="foot text">匡＝<g ref="#CB06051"/>【甲】</note><note n="0014003" resp="CBETA" type="mod">匡【大】，<g ref="#CB06051"/>【甲】</note><app n="0014003"><lem wit="【大】">匡</lem><rdg resp="Taisho" wit="【甲】"><g ref="#CB06051"/></rdg></app>嶺，復屬虔劉。爰西向江陵，仍遭
+<lb n="0014b27" ed="T"/>散，後會<note 
+n="0014003" resp="Taisho" type="orig" place="foot text">匡＝<g ref="#CB06051"/>【甲】</note><note 
+n="0014003" resp="CBETA" type="mod">匡【大】，<g ref="#CB06051"/>【甲】</note><app n="0014003">
+  <lem wit="【大】">匡</lem>
+  <rdg resp="Taisho" wit="【甲】"><g ref="#CB06051"/></rdg>
+</app>嶺，復屬虔劉。爰西向江陵，仍遭
 <lb n="0014b28" ed="T"/>霧露。勅徵師江浦，頂疾滯豫章，始舉颿南湖。
 <lb n="0014b29" ed="T"/>已聞東還台嶽，秋至佛隴，冬逢人滅。歎伊余
 <pb n="0014c" ed="T" xml:id="T38.1765.0014c"/>
 <lb n="0014c01" ed="T"/>之法障，奚可勝言。昔五百群盲七迴追佛，祇
 <lb n="0014c02" ed="T"/>洹一狗聽兩鍾鳴，唯疆唯沈無見無得。入山
-<lb n="0014c03" ed="T"/>出谷，<note n="0014c0301" resp="CBETA" type="add" note_key="T38.0014c03.03">乘陵【CB】，浮墜【大】</note><app n="0014c0301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">乘陵</lem><rdg wit="【大】">浮墜</rdg></app>泝江，希聞斯典竟不獲聞。日既隱
+<lb n="0014c03" ed="T"/>出谷，<note 
+n="0014c0301" resp="CBETA" type="add" note_key="T38.0014c03.03">乘陵【CB】，浮墜【大】</note><app n="0014c0301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">乘陵</lem>
+  <rdg wit="【大】">浮墜</rdg>
+</app>泝江，希聞斯典竟不獲聞。日既隱
 <lb n="0014c04" ed="T"/>於重崖、盲龜眠於海底，馮光想木，詎可得乎。
 <lb n="0014c05" ed="T"/>余乃掃墓植樹，更伏灰場，口誦石偈，思愆畢
-<lb n="0014c06" ed="T"/>世。事不由<note n="0014c0601" resp="CBETA" type="add" note_key="T38.0014c06.05">己【CB】【金藏乙-CB】，已【大】</note><app n="0014c0601"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">己<note type="cf1">AC5490_002_0020a24</note></lem><rdg wit="【大】">已</rdg></app>，迫不得止，戴函負封西考闕庭，
+<lb n="0014c06" ed="T"/>世。事不由<note 
+n="0014c0601" resp="CBETA" type="add" note_key="T38.0014c06.05">己【CB】【金藏乙-CB】，已【大】</note><app n="0014c0601">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">己<note type="cf1">AC5490_002_0020a24</note></lem>
+  <rdg wit="【大】">已</rdg>
+</app>，迫不得止，戴函負封西考闕庭，
 <lb n="0014c07" ed="T"/>私去公還經塗八載，日嚴諍論追入咸陽，值
 <lb n="0014c08" ed="T"/>桃林水奔而夜亡其伴，又被讒為巫，收往幽
 <lb n="0014c09" ed="T"/>薊。乘氷濟北，馬陷身存，臨危履薄生行死地，
-<lb n="0014c10" ed="T"/>悼<note n="0014c1001" resp="CBETA" type="add" note_key="T38.0014c10.02">慄【CB】【金藏乙-CB】，慓【大】</note><app n="0014c1001"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.ting">慄<note type="cf1">AC5490_002_0021a01</note></lem><rdg wit="【大】">慓</rdg></app>兢兢寧可盡言。昔裹糧千里，擔簦於東
-<lb n="0014c11" ed="T"/>南；負罪三讒，驅馳於西北。若聽若思，二<app type="star" corresp="#0014002"><lem wit="【大】">塗</lem><rdg resp="Taisho" wit="【甲】">途</rdg></app>俱
+<lb n="0014c10" ed="T"/>悼<note 
+n="0014c1001" resp="CBETA" type="add" note_key="T38.0014c10.02">慄【CB】【金藏乙-CB】，慓【大】</note><app n="0014c1001">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.ting">慄<note type="cf1">AC5490_002_0021a01</note></lem>
+  <rdg wit="【大】">慓</rdg>
+</app>兢兢寧可盡言。昔裹糧千里，擔簦於東
+<lb n="0014c11" ed="T"/>南；負罪三讒，驅馳於西北。若聽若思，二<app type="star" corresp="#0014002">
+  <lem wit="【大】">塗</lem>
+  <rdg resp="Taisho" wit="【甲】">途</rdg>
+</app>俱
 <lb n="0014c12" ed="T"/>喪。情不能已，尋諸舊疏，將疏勘經，不與文會，
 <lb n="0014c13" ed="T"/>怏怏終日恒若病諸，效群盲之觸象、學獨夢
 <lb n="0014c14" ed="T"/>之談刀，以大業十年十月十日廬于天台之
@@ -1330,18 +1565,42 @@
 <lb n="0014c23" ed="T"/>重厲微誠，更往遂安披尋補削，復值軍火，食
 <lb n="0014c24" ed="T"/>息無寧，乃卜安洲。安洲者，微瀾四繞，絕人獸
 <lb n="0014c25" ed="T"/>之蹤；峯連偉括，兼二山之美。左臨水鏡，澄徹
-<lb n="0014c26" ed="T"/>鑒心；右帶<note n="0014004" resp="Taisho" type="orig" place="foot text">蕖＝渠【甲】</note><note n="0014004" resp="CBETA" type="mod">蕖【大】，渠【甲】</note><app n="0014004"><lem wit="【大】">蕖</lem><rdg resp="Taisho" wit="【甲】">渠</rdg></app>池，紅葩悅目。修竹冷風勝白牙
-<lb n="0014c27" ed="T"/>團扇，蔞<note n="0014005" resp="Taisho" type="orig" place="foot text">蒨＝蔳【甲】</note><note n="0014005" resp="CBETA" type="mod">蒨【大】，蔳【甲】</note><app n="0014005"><lem wit="【大】">蒨</lem><rdg resp="Taisho" wit="【甲】">蔳</rdg></app>翠草加戴氏重席。雲霞鏤糅於松
+<lb n="0014c26" ed="T"/>鑒心；右帶<note 
+n="0014004" resp="Taisho" type="orig" place="foot text">蕖＝渠【甲】</note><note 
+n="0014004" resp="CBETA" type="mod">蕖【大】，渠【甲】</note><app n="0014004">
+  <lem wit="【大】">蕖</lem>
+  <rdg resp="Taisho" wit="【甲】">渠</rdg>
+</app>池，紅葩悅目。修竹冷風勝白牙
+<lb n="0014c27" ed="T"/>團扇，蔞<note 
+n="0014005" resp="Taisho" type="orig" place="foot text">蒨＝蔳【甲】</note><note 
+n="0014005" resp="CBETA" type="mod">蒨【大】，蔳【甲】</note><app n="0014005">
+  <lem wit="【大】">蒨</lem>
+  <rdg resp="Taisho" wit="【甲】">蔳</rdg>
+</app>翠草加戴氏重席。雲霞鏤糅於松
 <lb n="0014c28" ed="T"/>桂，五彩羞其繪圖；猨<g ref="#CB02486"/>和韻於蟬蛙，八音陋
 <lb n="0014c29" ed="T"/>其絃管。雅有高致，豐趣冥倫。仍蒔粟拾薪，勤
 <pb n="0015a" ed="T" xml:id="T38.1765.0015a"/>
 <lb n="0015a01" ed="T"/>兼曉夜。暨染筆已來凡歷五載，何年不遭軍
 <lb n="0015a02" ed="T"/>火、何月不見干戈，菜食水齎、氷床雪被，孤居
-<lb n="0015a03" ed="T"/>獨處夢抽思<note n="0015001" resp="Taisho" type="orig" place="foot text">乙＝一【甲】</note><note n="0015001" resp="CBETA" type="mod">乙【大】，一【甲】</note><app n="0015001"><lem wit="【大】">乙</lem><rdg resp="Taisho" wit="【甲】">一</rdg></app>。詞既野質，意不會文，其玄義
+<lb n="0015a03" ed="T"/>獨處夢抽思<note 
+n="0015001" resp="Taisho" type="orig" place="foot text">乙＝一【甲】</note><note 
+n="0015001" resp="CBETA" type="mod">乙【大】，一【甲】</note><app n="0015001">
+  <lem wit="【大】">乙</lem>
+  <rdg resp="Taisho" wit="【甲】">一</rdg>
+</app>。詞既野質，意不會文，其玄義
 <lb n="0015a04" ed="T"/>一卷、釋文十二卷，用紙七百張。有崖易迨、空
 <lb n="0015a05" ed="T"/>海難遍，盲寱偏知，敢稱圓識？特是不負本懷。
-<lb n="0015a06" ed="T"/>遽茲石火，卷舒常住之卷，酬報乎身手；<note n="0015002" resp="Taisho" type="orig" place="foot text">讚＝贊【甲】</note><note n="0015002" resp="CBETA" type="mod">讚【大】，贊【甲】</note><app n="0015002"><lem wit="【大】">讚</lem><rdg resp="Taisho" wit="【甲】">贊</rdg></app>
-<lb n="0015a07" ed="T"/>歎解脫之法，仰謝於心口。<note n="0015a0701" resp="CBETA" type="add" note_key="T38.0015a07.11">麃【CB】，麁【大】</note><app n="0015a0701"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">麃</lem><rdg wit="【大】">麁</rdg></app>耘毒草，微養藥
+<lb n="0015a06" ed="T"/>遽茲石火，卷舒常住之卷，酬報乎身手；<note 
+n="0015002" resp="Taisho" type="orig" place="foot text">讚＝贊【甲】</note><note 
+n="0015002" resp="CBETA" type="mod">讚【大】，贊【甲】</note><app n="0015002">
+  <lem wit="【大】">讚</lem>
+  <rdg resp="Taisho" wit="【甲】">贊</rdg>
+</app>
+<lb n="0015a07" ed="T"/>歎解脫之法，仰謝於心口。<note 
+n="0015a0701" resp="CBETA" type="add" note_key="T38.0015a07.11">麃【CB】，麁【大】</note><app n="0015a0701">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">麃</lem>
+  <rdg wit="【大】">麁</rdg>
+</app>耘毒草，微養藥
 <lb n="0015a08" ed="T"/>王，螳𧑃螢熠，非能抗曜也。</p>
 <lb n="0015a09" ed="T"/><cb:juan n="002" fun="close"><cb:jhead>大般涅槃經玄義卷下</cb:jhead></cb:juan></cb:div>
 </body></text></TEI>

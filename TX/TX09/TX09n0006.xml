@@ -2,89 +2,106 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="TX09n0006">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Collected Works of Master Taixu</title>
-			<title level="s" xml:lang="zh-Hant">太虛大師全書</title>
-			<title level="m" xml:lang="zh-Hant">太虛大師全書．第六編　法相唯識學(第16卷-第49卷)</title>
-			<title>Collected Works of Master Taixu, Electronic version, No. 6 太虛大師全書．第六編　法相唯識學(第16卷-第49卷)</title>
-			<title xml:lang="zh-Hant">太虛大師全書數位版, No. 6 太虛大師全書．第六編　法相唯識學(第16卷-第49卷)</title>
-			<author>民國 釋太虛著</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>34卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">TX</idno>.<idno type="vol">9</idno>.<idno type="no">6</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>太虛大師全書</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
-			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【太虛】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2021-09-09">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Collected Works of Master Taixu</title>
+      <title level="s" xml:lang="zh-Hant">太虛大師全書</title>
+      <title level="m" xml:lang="zh-Hant">太虛大師全書．第六編　法相唯識學(第16卷-第49卷)</title>
+      <title>Collected Works of Master Taixu, Electronic version, No. 6 太虛大師全書．第六編　法相唯識學(第16卷-第49卷)</title>
+      <title xml:lang="zh-Hant">太虛大師全書數位版, No. 6 太虛大師全書．第六編　法相唯識學(第16卷-第49卷)</title>
+      <author>民國 釋太虛著</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>34卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">TX</idno>.<idno type="vol">9</idno>.<idno type="no">6</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>太虛大師全書</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
+      <p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【太虛】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2021-09-09">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="16"/>
 <pb ed="TX" xml:id="TX09.0006.0899a" n="0899a"/>
 <lb ed="TX" n="0899a01"/><cb:div type="other"><cb:div type="other"><cb:mulu type="其他" level="2">八識規矩頌講錄</cb:mulu><head>八識規矩頌講錄</head>
 <lb ed="TX" n="0899a02"/><byline cb:type="other">——二十年八月在北平華北居士林講——</byline>
-<lb ed="TX" n="0899a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p0899a0301">開題</item>
-<lb ed="TX" n="0899a04"/><item xml:id="itemTX09p0899a0401">釋頌
-<lb ed="TX" n="0899a05"/><list rend="no-marker"><item xml:id="itemTX09p0899a0501">一　順轉雜染分
-<lb ed="TX" n="0899a06"/><list rend="no-marker"><item xml:id="itemTX09p0899a0601">甲　第六識</item>
-<lb ed="TX" n="0899a07"/><item xml:id="itemTX09p0899a0701">乙　前五識</item>
-<lb ed="TX" n="0899a08"/><item xml:id="itemTX09p0899a0801">丙　第八識</item>
-<lb ed="TX" n="0899a09"/><item xml:id="itemTX09p0899a0901">丁　第七識</item></list></item>
-<lb ed="TX" n="0899a10"/><item xml:id="itemTX09p0899a1001">二　逆轉清淨分
-<lb ed="TX" n="0899a11"/><list rend="no-marker"><item xml:id="itemTX09p0899a1101">甲　第六識</item>
-<lb ed="TX" n="0899a12"/><item xml:id="itemTX09p0899a1201">乙　第七識</item>
-<lb ed="TX" n="0899a13"/><item xml:id="itemTX09p0899a1301">丙　第八識</item>
-<lb ed="TX" n="0899a14"/><item xml:id="itemTX09p0899a1401">丁　前五識</item></list></item></list></item></list></cb:div>
+<lb ed="TX" n="0899a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p0899a0301">開題</item>
+<lb ed="TX" n="0899a04"/>
+  <item xml:id="itemTX09p0899a0401">釋頌
+<lb ed="TX" n="0899a05"/><list rend="no-marker">
+    <item xml:id="itemTX09p0899a0501">一　順轉雜染分
+<lb ed="TX" n="0899a06"/><list rend="no-marker">
+      <item xml:id="itemTX09p0899a0601">甲　第六識</item>
+<lb ed="TX" n="0899a07"/>
+      <item xml:id="itemTX09p0899a0701">乙　前五識</item>
+<lb ed="TX" n="0899a08"/>
+      <item xml:id="itemTX09p0899a0801">丙　第八識</item>
+<lb ed="TX" n="0899a09"/>
+      <item xml:id="itemTX09p0899a0901">丁　第七識</item>
+    </list></item>
+<lb ed="TX" n="0899a10"/>
+    <item xml:id="itemTX09p0899a1001">二　逆轉清淨分
+<lb ed="TX" n="0899a11"/><list rend="no-marker">
+      <item xml:id="itemTX09p0899a1101">甲　第六識</item>
+<lb ed="TX" n="0899a12"/>
+      <item xml:id="itemTX09p0899a1201">乙　第七識</item>
+<lb ed="TX" n="0899a13"/>
+      <item xml:id="itemTX09p0899a1301">丙　第八識</item>
+<lb ed="TX" n="0899a14"/>
+      <item xml:id="itemTX09p0899a1401">丁　前五識</item>
+    </list></item>
+  </list></item>
+</list></cb:div>
 <lb ed="TX" n="0899a15"/>
 <lb ed="TX" n="0899a16"/><cb:div type="other"><cb:mulu type="其他" level="3">開題</cb:mulu><head><seg rend="border">開　題</seg></head>
 <lb ed="TX" n="0899a17"/><p xml:id="pTX09p0899a1701" style="margin-left:0em;text-indent:2em">八識規矩頌，將八識分成四類說明：第一類是前五識，第二類是第六識，第三類
@@ -572,7 +589,8 @@
 <pb ed="TX" xml:id="TX09.0006.0937a" n="0937a"/>
 <lb ed="TX" n="0937a01"/>，所以要信三寶力，發弘誓願，由信願力修四攝、六度，成就與聞、思、修慧相應
 <lb ed="TX" n="0937a02"/>的信心，然後得入初發心住。既入初住，就是賢位菩薩了。既入了賢位，那就有進
-<lb ed="TX" n="0937a03"/>無退，按步就班的可直趣大乘菩提了！</p></cb:div></cb:div></cb:div></cb:div><byline cb:type="other">（胡繼歐記）<note place="inline">見海刊十三卷七期</note></byline></cb:div>
+<lb ed="TX" n="0937a03"/>無退，按步就班的可直趣大乘菩提了！</p></cb:div></cb:div></cb:div></cb:div>
+<byline cb:type="other">（胡繼歐記）<note place="inline">見海刊十三卷七期</note></byline></cb:div>
 <milestone unit="juan" n="17"/>
 <pb ed="TX" xml:id="TX09.0006.0938a" n="0938a"/>
 <lb ed="TX" n="0938a01"/><cb:div type="other"><cb:mulu type="其他" level="2">大乘法苑義林唯識章講錄</cb:mulu><head>大乘法苑義林唯識章講錄</head>
@@ -720,7 +738,8 @@
 <lb ed="TX" n="0942a28"/>　　　　　　丙三　結成</p></cb:div>
 <lb ed="TX" n="0942a29"/>
 <pb ed="TX" xml:id="TX09.0006.0943a" n="0943a"/>
-<lb ed="TX" n="0943a01"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX09p0943a0101" style="margin-left:0em;text-indent:2em">今日講此唯識章者，此章出大乘法苑義林中。大乘法苑義林，乃唐窺基大師所著
+<lb ed="TX" n="0943a01"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX09p0943a0101" style="margin-left:0em;text-indent:2em">今日講此唯識章者，此章出大乘法苑義林中。大乘法苑義林，乃唐窺基大師所著
 <lb ed="TX" n="0943a02"/>。基師為玄奘法師高足，學德絕倫，著述百部，倡唯識宗學，平生傑作，在此義林。
 <lb ed="TX" n="0943a03"/>所詮要義，有唯識章；章者猶篇也，此唯識章義林中之一篇也。章中小字，智周法師
 <lb ed="TX" n="0943a04"/>抉擇之記，凡理之未顯，難之未釋者，智師則記釋之復為抉擇，故云抉擇記焉。今略
@@ -1647,7 +1666,11 @@
 <lb ed="TX" n="1011a07"/>云心意識了之四，名雖有別，義實通也。</p>
 <lb ed="TX" n="1011a08"/><p xml:id="pTX09p1011a0801" style="margin-left:1em;text-indent:2em">順世外道，印度學術中之一派，其主義如今之唯物論。彼執萬有之存在，是由
 <lb ed="TX" n="1011a09"/>物質極微和合而成，極微質異，所成亦別。心理作用、精神現象，不過物質之有機
-<lb ed="TX" n="1011a10"/>體，受外界之激<note n="1011a1001" resp="CBETA" type="add" rend="hide" note_key="TX09.1011a10.07">刺【CB】，剌【太虛】</note><app n="1011a1001"><lem wit="【太虛】">剌</lem><rdg resp="CBETA" type="cbetaRemark">刺</rdg></app>，現起神經原子之反應作用而已。近世行為派之心理學，均執是
+<lb ed="TX" n="1011a10"/>體，受外界之激<note 
+n="1011a1001" resp="CBETA" type="add" rend="hide" note_key="TX09.1011a10.07">刺【CB】，剌【太虛】</note><app n="1011a1001">
+  <lem wit="【太虛】">剌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">刺</rdg>
+</app>，現起神經原子之反應作用而已。近世行為派之心理學，均執是
 <lb ed="TX" n="1011a11"/>說。清辨論師依般若義，立一切法皆是真如性境，餘為幻有。今簡此義，故說唯識
 <lb ed="TX" n="1011a12"/>。依主無失者，八識心王變現諸法，故名曰主。境依主有，說依主無失。</p></cb:div></cb:div>
 <pb ed="TX" xml:id="TX09.0006.1012a" n="1012a"/>
@@ -2670,59 +2693,124 @@
 <lb ed="TX" n="1089a01"/><p xml:id="pTX09p1089a0101" cb:type="pre">　　　　　　　　┌生空觀──┐
 <lb ed="TX" n="1089a02"/>　　　　唯識觀─┤　　　　　└───非唯識觀
 <lb ed="TX" n="1089a03"/>　　　　　　　　└法空觀</p></cb:div></cb:div></cb:div>
-<lb ed="TX" n="1089a04"/><cb:div type="other"><cb:mulu type="其他" level="6">丙三　結成</cb:mulu><head>丙<note n="1089a0401" resp="CBETA" type="add" rend="hide">三【CB】，四【太虛】</note><app n="1089a0401"><lem wit="【CB】" resp="CBETA">三</lem><rdg wit="【太虛】">四</rdg></app>　結成</head>
+<lb ed="TX" n="1089a04"/><cb:div type="other"><cb:mulu type="其他" level="6">丙三　結成</cb:mulu><head>丙<note 
+n="1089a0401" resp="CBETA" type="add" rend="hide">三【CB】，四【太虛】</note><app n="1089a0401">
+  <lem wit="【CB】" resp="CBETA">三</lem>
+  <rdg wit="【太虛】">四</rdg>
+</app>　結成</head>
 <lb ed="TX" n="1089a05"/><cb:div type="orig"><p xml:id="pTX09p1089a0501" style="margin-left:0em;text-indent:2em">總相而言，唯識通二空觀。論但說法觀為唯識觀者，據決定故。復說諸空互相攝
 <lb ed="TX" n="1089a06"/>者，如空章說。</p></cb:div>
 <lb ed="TX" n="1089a07"/><cb:div type="commentary"><p xml:id="pTX09p1089a0701" style="margin-left:1em;text-indent:2em">但法空為唯識觀，就決定義說。其空空相攝，如空章中。今按義林之中，空章
-<lb ed="TX" n="1089a08"/>缺矣。</p></cb:div></cb:div></cb:div></cb:div></cb:div><byline cb:type="other">（法舫記）<note place="inline">見海刊十一卷一至四期</note></byline></cb:div>
+<lb ed="TX" n="1089a08"/>缺矣。</p></cb:div></cb:div></cb:div></cb:div></cb:div>
+<byline cb:type="other">（法舫記）<note place="inline">見海刊十一卷一至四期</note></byline></cb:div>
 <milestone unit="juan" n="18"/>
 <pb ed="TX" xml:id="TX09.0006.1090a" n="1090a"/>
 <lb ed="TX" n="1090a01"/><cb:div type="other"><cb:mulu type="其他" level="2">因明概論</cb:mulu><head>因明概論</head>
 <lb ed="TX" n="1090a02"/><byline cb:type="other">——十一年初秋在武昌中華大學講義——</byline>
-<lb ed="TX" n="1090a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1090a0301">第一章　何謂因明
-<lb ed="TX" n="1090a04"/><list rend="no-marker"><item xml:id="itemTX09p1090a0401">第一節　因明之名義</item>
-<lb ed="TX" n="1090a05"/><item xml:id="itemTX09p1090a0501">第二節　因明之宗旨</item></list></item>
-<lb ed="TX" n="1090a06"/><item xml:id="itemTX09p1090a0601">第二章　因明之綱目</item>
-<lb ed="TX" n="1090a07"/><item xml:id="itemTX09p1090a0701">第三章　因明之解析
-<lb ed="TX" n="1090a08"/><list rend="no-marker"><item xml:id="itemTX09p1090a0801">第一節　能立
-<lb ed="TX" n="1090a09"/><list rend="no-marker"><item xml:id="itemTX09p1090a0901">第一項　宗支</item>
-<lb ed="TX" n="1090a10"/><item xml:id="itemTX09p1090a1001">第二項　因支</item>
-<lb ed="TX" n="1090a11"/><item xml:id="itemTX09p1090a1101">第三項　喻支</item>
-<lb ed="TX" n="1090a12"/><item xml:id="itemTX09p1090a1201">第四項　結成</item></list></item>
-<lb ed="TX" n="1090a13"/><item xml:id="itemTX09p1090a1301">第二節　能破、似立、似破
-<lb ed="TX" n="1090a14"/><list rend="no-marker"><item xml:id="itemTX09p1090a1401">第一項　能破</item>
-<lb ed="TX" n="1090a15"/><item xml:id="itemTX09p1090a1501">第二項　似立
-<lb ed="TX" n="1090a16"/><list rend="no-marker"><item xml:id="itemTX09p1090a1601">第一目　分釋論文
-<lb ed="TX" n="1090a17"/><list rend="no-marker"><item xml:id="itemTX09p1090a1701">一　宗過
-<lb ed="TX" n="1090a18"/><list rend="no-marker"><item xml:id="itemTX09p1090a1801">甲　標名</item>
-<lb ed="TX" n="1090a19"/><item xml:id="itemTX09p1090a1901">乙　釋例</item>
-<lb ed="TX" n="1090a20"/><item xml:id="itemTX09p1090a2001">丙　結類</item></list></item>
+<lb ed="TX" n="1090a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1090a0301">第一章　何謂因明
+<lb ed="TX" n="1090a04"/><list rend="no-marker">
+    <item xml:id="itemTX09p1090a0401">第一節　因明之名義</item>
+<lb ed="TX" n="1090a05"/>
+    <item xml:id="itemTX09p1090a0501">第二節　因明之宗旨</item>
+  </list></item>
+<lb ed="TX" n="1090a06"/>
+  <item xml:id="itemTX09p1090a0601">第二章　因明之綱目</item>
+<lb ed="TX" n="1090a07"/>
+  <item xml:id="itemTX09p1090a0701">第三章　因明之解析
+<lb ed="TX" n="1090a08"/><list rend="no-marker">
+    <item xml:id="itemTX09p1090a0801">第一節　能立
+<lb ed="TX" n="1090a09"/><list rend="no-marker">
+      <item xml:id="itemTX09p1090a0901">第一項　宗支</item>
+<lb ed="TX" n="1090a10"/>
+      <item xml:id="itemTX09p1090a1001">第二項　因支</item>
+<lb ed="TX" n="1090a11"/>
+      <item xml:id="itemTX09p1090a1101">第三項　喻支</item>
+<lb ed="TX" n="1090a12"/>
+      <item xml:id="itemTX09p1090a1201">第四項　結成</item>
+    </list></item>
+<lb ed="TX" n="1090a13"/>
+    <item xml:id="itemTX09p1090a1301">第二節　能破、似立、似破
+<lb ed="TX" n="1090a14"/><list rend="no-marker">
+      <item xml:id="itemTX09p1090a1401">第一項　能破</item>
+<lb ed="TX" n="1090a15"/>
+      <item xml:id="itemTX09p1090a1501">第二項　似立
+<lb ed="TX" n="1090a16"/><list rend="no-marker">
+        <item xml:id="itemTX09p1090a1601">第一目　分釋論文
+<lb ed="TX" n="1090a17"/><list rend="no-marker">
+          <item xml:id="itemTX09p1090a1701">一　宗過
+<lb ed="TX" n="1090a18"/><list rend="no-marker">
+            <item xml:id="itemTX09p1090a1801">甲　標名</item>
+<lb ed="TX" n="1090a19"/>
+            <item xml:id="itemTX09p1090a1901">乙　釋例</item>
+<lb ed="TX" n="1090a20"/>
+            <item xml:id="itemTX09p1090a2001">丙　結類</item>
+          </list></item>
 <pb ed="TX" xml:id="TX09.0006.1091a" n="1091a"/>
-<lb ed="TX" n="1091a01"/><item xml:id="itemTX09p1091a0101">二　因過
-<lb ed="TX" n="1091a02"/><list rend="no-marker"><item xml:id="itemTX09p1091a0201">甲　標類
-<lb ed="TX" n="1091a03"/><list rend="no-marker"><item xml:id="itemTX09p1091a0301">１　不成因過</item>
-<lb ed="TX" n="1091a04"/><item xml:id="itemTX09p1091a0401">２　不定因過</item>
-<lb ed="TX" n="1091a05"/><item xml:id="itemTX09p1091a0501">３　相違因過</item></list></item></list></item>
-<lb ed="TX" n="1091a06"/><item xml:id="itemTX09p1091a0601">三　喻過
-<lb ed="TX" n="1091a07"/><list rend="no-marker"><item xml:id="itemTX09p1091a0701">甲　總標</item>
-<lb ed="TX" n="1091a08"/><item xml:id="itemTX09p1091a0801">乙　分釋
-<lb ed="TX" n="1091a09"/><list rend="no-marker"><item xml:id="itemTX09p1091a0901">１　似同法喻</item>
-<lb ed="TX" n="1091a10"/><item xml:id="itemTX09p1091a1001">２　似異法喻</item></list></item></list></item></list></item>
-<lb ed="TX" n="1091a11"/><item xml:id="itemTX09p1091a1101">第二目　結論諸過</item></list></item>
-<lb ed="TX" n="1091a12"/><item xml:id="itemTX09p1091a1201">第三項　似破</item></list></item>
-<lb ed="TX" n="1091a13"/><item xml:id="itemTX09p1091a1301">第三節　現量、比量
-<lb ed="TX" n="1091a14"/><list rend="no-marker"><item xml:id="itemTX09p1091a1401">第一項　並標</item>
-<lb ed="TX" n="1091a15"/><item xml:id="itemTX09p1091a1501">第二項　分釋
-<lb ed="TX" n="1091a16"/><list rend="no-marker"><item xml:id="itemTX09p1091a1601">第一目　現量</item>
-<lb ed="TX" n="1091a17"/><item xml:id="itemTX09p1091a1701">第二目　比量</item>
-<lb ed="TX" n="1091a18"/><item xml:id="itemTX09p1091a1801">第三目　雙結</item></list></item></list></item>
-<lb ed="TX" n="1091a19"/><item xml:id="itemTX09p1091a1901">第四節　似現、似比
-<lb ed="TX" n="1091a20"/><list rend="no-marker"><item xml:id="itemTX09p1091a2001">第一項　似現</item>
-<lb ed="TX" n="1091a21"/><item xml:id="itemTX09p1091a2101">第二項　似比</item></list></item></list></item>
-<lb ed="TX" n="1091a22"/><item xml:id="itemTX09p1091a2201">第四章　泛論因明
-<lb ed="TX" n="1091a23"/><list rend="no-marker"><item xml:id="itemTX09p1091a2301">第一節　因明之歷史</item>
-<lb ed="TX" n="1091a24"/><item xml:id="itemTX09p1091a2401">第二節　新舊因明之異點</item>
-<lb ed="TX" n="1091a25"/><item xml:id="itemTX09p1091a2501">第三節　因明與邏輯之比較</item></list></item></list></cb:div>
+<lb ed="TX" n="1091a01"/>
+          <item xml:id="itemTX09p1091a0101">二　因過
+<lb ed="TX" n="1091a02"/><list rend="no-marker">
+            <item xml:id="itemTX09p1091a0201">甲　標類
+<lb ed="TX" n="1091a03"/><list rend="no-marker">
+              <item xml:id="itemTX09p1091a0301">１　不成因過</item>
+<lb ed="TX" n="1091a04"/>
+              <item xml:id="itemTX09p1091a0401">２　不定因過</item>
+<lb ed="TX" n="1091a05"/>
+              <item xml:id="itemTX09p1091a0501">３　相違因過</item>
+            </list></item>
+          </list></item>
+<lb ed="TX" n="1091a06"/>
+          <item xml:id="itemTX09p1091a0601">三　喻過
+<lb ed="TX" n="1091a07"/><list rend="no-marker">
+            <item xml:id="itemTX09p1091a0701">甲　總標</item>
+<lb ed="TX" n="1091a08"/>
+            <item xml:id="itemTX09p1091a0801">乙　分釋
+<lb ed="TX" n="1091a09"/><list rend="no-marker">
+              <item xml:id="itemTX09p1091a0901">１　似同法喻</item>
+<lb ed="TX" n="1091a10"/>
+              <item xml:id="itemTX09p1091a1001">２　似異法喻</item>
+            </list></item>
+          </list></item>
+        </list></item>
+<lb ed="TX" n="1091a11"/>
+        <item xml:id="itemTX09p1091a1101">第二目　結論諸過</item>
+      </list></item>
+<lb ed="TX" n="1091a12"/>
+      <item xml:id="itemTX09p1091a1201">第三項　似破</item>
+    </list></item>
+<lb ed="TX" n="1091a13"/>
+    <item xml:id="itemTX09p1091a1301">第三節　現量、比量
+<lb ed="TX" n="1091a14"/><list rend="no-marker">
+      <item xml:id="itemTX09p1091a1401">第一項　並標</item>
+<lb ed="TX" n="1091a15"/>
+      <item xml:id="itemTX09p1091a1501">第二項　分釋
+<lb ed="TX" n="1091a16"/><list rend="no-marker">
+        <item xml:id="itemTX09p1091a1601">第一目　現量</item>
+<lb ed="TX" n="1091a17"/>
+        <item xml:id="itemTX09p1091a1701">第二目　比量</item>
+<lb ed="TX" n="1091a18"/>
+        <item xml:id="itemTX09p1091a1801">第三目　雙結</item>
+      </list></item>
+    </list></item>
+<lb ed="TX" n="1091a19"/>
+    <item xml:id="itemTX09p1091a1901">第四節　似現、似比
+<lb ed="TX" n="1091a20"/><list rend="no-marker">
+      <item xml:id="itemTX09p1091a2001">第一項　似現</item>
+<lb ed="TX" n="1091a21"/>
+      <item xml:id="itemTX09p1091a2101">第二項　似比</item>
+    </list></item>
+  </list></item>
+<lb ed="TX" n="1091a22"/>
+  <item xml:id="itemTX09p1091a2201">第四章　泛論因明
+<lb ed="TX" n="1091a23"/><list rend="no-marker">
+    <item xml:id="itemTX09p1091a2301">第一節　因明之歷史</item>
+<lb ed="TX" n="1091a24"/>
+    <item xml:id="itemTX09p1091a2401">第二節　新舊因明之異點</item>
+<lb ed="TX" n="1091a25"/>
+    <item xml:id="itemTX09p1091a2501">第三節　因明與邏輯之比較</item>
+  </list></item>
+</list></cb:div>
 <lb ed="TX" n="1091a26"/>
 <pb ed="TX" xml:id="TX09.0006.1092a" n="1092a"/>
 <lb ed="TX" n="1092a01"/><cb:div type="other"><cb:mulu type="其他" level="3">第一章　何謂因明</cb:mulu><head>第一章　何謂因明</head>
@@ -2808,10 +2896,15 @@
 <lb ed="TX" n="1098a03"/>所欲成立之宗義，然後用因、喻以成之，乃有所為。不然、則因、喻不猶無的放矢
 <lb ed="TX" n="1098a04"/>耶？此先言宗體所依以構成之成分有二：一為極成之有法，一為極成之能別，謂之
 <lb ed="TX" n="1098a05"/>宗依。此二宗依，各有四名。茲列舉之如下：</p>
-<lb ed="TX" n="1098a06"/><list rend="no-marker"><item xml:id="itemTX09p1098a0601"><p xml:id="pTX09p1098a0601" style="margin-left:4em;text-indent:-2em">一、有法　　　　　法</p></item>
-<lb ed="TX" n="1098a07"/><item xml:id="itemTX09p1098a0701"><p xml:id="pTX09p1098a0701" style="margin-left:4em;text-indent:-2em">二、所別　　　　　能別</p></item>
-<lb ed="TX" n="1098a08"/><item xml:id="itemTX09p1098a0801"><p xml:id="pTX09p1098a0801" style="margin-left:4em;text-indent:-2em">三、自性　　　　　差別</p></item>
-<lb ed="TX" n="1098a09"/><item xml:id="itemTX09p1098a0901"><p xml:id="pTX09p1098a0901" style="margin-left:4em;text-indent:-2em">四、前陳　　　　　後陳</p></item></list>
+<lb ed="TX" n="1098a06"/><list rend="no-marker">
+  <item xml:id="itemTX09p1098a0601"><p xml:id="pTX09p1098a0601" style="margin-left:4em;text-indent:-2em">一、有法　　　　　法</p></item>
+<lb ed="TX" n="1098a07"/>
+  <item xml:id="itemTX09p1098a0701"><p xml:id="pTX09p1098a0701" style="margin-left:4em;text-indent:-2em">二、所別　　　　　能別</p></item>
+<lb ed="TX" n="1098a08"/>
+  <item xml:id="itemTX09p1098a0801"><p xml:id="pTX09p1098a0801" style="margin-left:4em;text-indent:-2em">三、自性　　　　　差別</p></item>
+<lb ed="TX" n="1098a09"/>
+  <item xml:id="itemTX09p1098a0901"><p xml:id="pTX09p1098a0901" style="margin-left:4em;text-indent:-2em">四、前陳　　　　　後陳</p></item>
+</list>
 <lb ed="TX" n="1098a10"/><p xml:id="pTX09p1098a1001" style="margin-left:1em;text-indent:2em">然前陳於有法之義為最勝，後陳於能別之義為最勝，故獨用有法、能別二名耳
 <lb ed="TX" n="1098a11"/>。論中亦間用所別、法、自性、差別等，頗不一例。法以軌生他解，任持自相為義
 <lb ed="TX" n="1098a12"/>。前陳一名，雖能任持自相，未能軌生他解，但能有於法而未足云法，故曰有法。
@@ -3373,7 +3466,8 @@
 <lb ed="TX" n="1141a04"/><cb:div type="orig"><p xml:id="pTX09p1141a0401" style="margin-left:0em;text-indent:2em">且止是事。已宣少句義，為始立方隅；其間理非理，妙辯於餘處。</p></cb:div></cb:div></cb:div></cb:div>
 <lb ed="TX" n="1141a05"/><cb:div type="other"><cb:mulu type="其他" level="3">第四章　汎論因明</cb:mulu><head>第四章　汎論因明</head>
 <lb ed="TX" n="1141a06"/><cb:div type="other"><cb:mulu type="其他" level="4">第一節　因明之歷史</cb:mulu><head>第一節　因明之歷史</head>
-<lb ed="TX" n="1141a07"/><cb:div type="other"><cb:mulu type="其他" level="5">一　因明之創始</cb:mulu><head>一　因明之創始</head><cb:div type="commentary"><p xml:id="pTX09p1141a0707" style="margin-left:1em;text-indent:2em" cb:place="inline">因明之創始者名足目，為印度六大哲學派第二尼牙耶派之開
+<lb ed="TX" n="1141a07"/><cb:div type="other"><cb:mulu type="其他" level="5">一　因明之創始</cb:mulu><head>一　因明之創始</head>
+<cb:div type="commentary"><p xml:id="pTX09p1141a0707" style="margin-left:1em;text-indent:2em" cb:place="inline">因明之創始者名足目，為印度六大哲學派第二尼牙耶派之開
 <lb ed="TX" n="1141a08"/>祖。其時代疏稱劫初，據今世學者之考證，劫初當即有史之初，大約在今五千年以
 <lb ed="TX" n="1141a09"/>前也。當時、足目於因明論如何研求發明創立，雖不可詳，然依從來傳說，則九句
 <lb ed="TX" n="1141a10"/>因、十四過類，實創自彼。九句因者，就論法之應用，以考訂因之正否者。十四過
@@ -3383,7 +3477,8 @@
 <lb ed="TX" n="1142a01"/>三支作法，而如實論中仍援用五分作法也。故足目所創者，不但為古因明之全，抑
 <lb ed="TX" n="1142a02"/>且為新因明所出。其功勳較希臘演繹論開祖之亞里斯多德，過無不及；而早於亞里
 <lb ed="TX" n="1142a03"/>斯多德者殆三千年，其開化之早，實足驚人也。</p></cb:div></cb:div>
-<lb ed="TX" n="1142a04"/><cb:div type="other"><cb:mulu type="其他" level="5">二　因明之革新</cb:mulu><head>二　因明之革新</head><cb:div type="commentary"><p xml:id="pTX09p1142a0407" style="margin-left:1em;text-indent:2em" cb:place="inline">因明綱領，成自足目，則因明固外道之學，非佛教之論也。
+<lb ed="TX" n="1142a04"/><cb:div type="other"><cb:mulu type="其他" level="5">二　因明之革新</cb:mulu><head>二　因明之革新</head>
+<cb:div type="commentary"><p xml:id="pTX09p1142a0407" style="margin-left:1em;text-indent:2em" cb:place="inline">因明綱領，成自足目，則因明固外道之學，非佛教之論也。
 <lb ed="TX" n="1142a05"/>顧吾謂因明實由佛學以完成之者，不唯疏稱因明源惟佛說，而改革成新因明以流傳
 <lb ed="TX" n="1142a06"/>及今世者，實成就於佛教徒之手也。於佛之說，在解深密經亦略見端倪。逮于龍樹
 <lb ed="TX" n="1142a07"/>，著有方便心論及迴諍論，彌勒瑜伽師地之十五卷，無著顯揚之第十卷，雜集之十
@@ -3395,7 +3490,8 @@
 <pb ed="TX" xml:id="TX09.0006.1143a" n="1143a"/>
 <lb ed="TX" n="1143a01"/>僅因明正理門之一論；其門弟商羯羅主紹宏斯學，著為因明入正理論，實為新因明
 <lb ed="TX" n="1143a02"/>之標準；則今此所依以講論者也。</p></cb:div></cb:div>
-<lb ed="TX" n="1143a03"/><cb:div type="other"><cb:mulu type="其他" level="5">三　因明之流傳</cb:mulu><head>三　因明之流傳</head><cb:div type="commentary"><p xml:id="pTX09p1143a0307" style="margin-left:1em;text-indent:2em" cb:place="inline">自足目迄龍樹之前，史不可考。龍樹以來佛教諸論師，漸多
+<lb ed="TX" n="1143a03"/><cb:div type="other"><cb:mulu type="其他" level="5">三　因明之流傳</cb:mulu><head>三　因明之流傳</head>
+<cb:div type="commentary"><p xml:id="pTX09p1143a0307" style="margin-left:1em;text-indent:2em" cb:place="inline">自足目迄龍樹之前，史不可考。龍樹以來佛教諸論師，漸多
 <lb ed="TX" n="1143a04"/>注重因明；其傳述及應用之處，往往可見。逮于陳那之後，若護法、清辯諸論師，
 <lb ed="TX" n="1143a05"/>尤皆極深研幾，用為建立言論之準，大有非因明不能下一筆吐一詞之勢焉！故今欲
 <lb ed="TX" n="1143a06"/>讀成唯識及掌珍等論，非諳因明必不能讀；故吾謂因明與佛學有不相離之勢也。唐
@@ -3442,7 +3538,8 @@
 <lb ed="TX" n="1146a08"/>德創立，不論為何事物，皆取之規定入吾人之思想軌則中者也；略同於因明論中自
 <lb ed="TX" n="1146a09"/>悟之比量。與因明目的在立言悟他，故注重發明立言所據之因者，不同。今比較以
 <lb ed="TX" n="1146a10"/>見其不同之處。分二條說明之：</p></cb:div>
-<lb ed="TX" n="1146a11"/><cb:div type="other"><cb:mulu type="其他" level="5">一　形式之不同</cb:mulu><cb:div type="commentary">一　形式之不同
+<lb ed="TX" n="1146a11"/><cb:div type="other"><cb:mulu type="其他" level="5">一　形式之不同</cb:mulu>
+<cb:div type="commentary">一　形式之不同
 <pb ed="TX" xml:id="TX09.0006.1147a" n="1147a"/>
 <lb ed="TX" n="1147a01"/><p xml:id="pTX09p1147a0101" cb:type="pre">　　　　　　　　　　　┌大前提（同喻體）凡炭素物皆可燃
 <lb ed="TX" n="1147a02"/>　　　　通常的邏輯論式┤小前提（因）　　金剛石是炭素物
@@ -3464,54 +3561,104 @@
 <lb ed="TX" n="1148a04"/>歸納論所批駁而無以自完也。蓋合歸納、演繹，祗當得因明之自悟比量，未能悟他
 <lb ed="TX" n="1148a05"/>；況彼演繹與歸納又各成偏枯而不一致耶！然則據此不同之點，因明與邏輯勝劣之
 <lb ed="TX" n="1148a06"/>數，已大可知矣。</p></cb:div></cb:div>
-<lb ed="TX" n="1148a07"/><cb:div type="other"><cb:mulu type="其他" level="5">二　性質之不同</cb:mulu><head>二　性質之不同</head><cb:div type="commentary"><p xml:id="pTX09p1148a0707" style="margin-left:1em;text-indent:2em" cb:place="inline">隅舉如下：一、邏輯僅考理之法式，因明兼立言之規則。二
+<lb ed="TX" n="1148a07"/><cb:div type="other"><cb:mulu type="其他" level="5">二　性質之不同</cb:mulu><head>二　性質之不同</head>
+<cb:div type="commentary"><p xml:id="pTX09p1148a0707" style="margin-left:1em;text-indent:2em" cb:place="inline">隅舉如下：一、邏輯僅考理之法式，因明兼立言之規則。二
 <lb ed="TX" n="1148a08"/>、邏輯用假擬演繹斷案，因明用實證解決問題。三、邏輯以範己觀察於物所生之思
 <lb ed="TX" n="1148a09"/>想為目的，因明以令他決了於我所立之宗義為目的。四、邏輯非如因明之含有歸納
-<lb ed="TX" n="1148a10"/>方法。五、邏輯非如因明之注重立論過失。</p></cb:div></cb:div></cb:div></cb:div><byline cb:type="other">（佛學院印行）</byline>
+<lb ed="TX" n="1148a10"/>方法。五、邏輯非如因明之注重立論過失。</p></cb:div></cb:div></cb:div></cb:div>
+<byline cb:type="other">（佛學院印行）</byline>
 <lb ed="TX" n="1148a11"/><p xml:id="pTX09p1148a1101" style="margin-left:6em;text-indent:-4em">（附註）本論實即因明入正理論之解說，惟文段略有移易耳。</p></cb:div></cb:div>
 <milestone unit="juan" n="19"/>
 <pb ed="TX" xml:id="TX09.0006.1149a" n="1149a"/>
-<lb ed="TX" n="1149a01"/><cb:div type="other"><cb:mulu type="其他" level="1">義繹</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">法相唯識學概論</cb:mulu><head>法相唯識學概論</head>
+<lb ed="TX" n="1149a01"/><cb:div type="other"><cb:mulu type="其他" level="1">義繹</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">法相唯識學概論</cb:mulu><head>法相唯識學概論</head>
 <lb ed="TX" n="1149a02"/><byline cb:type="other">——二十一年十二月在廈大文哲學會講——</byline>
-<lb ed="TX" n="1149a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1149a0301">一　法相唯識學之略釋
-<lb ed="TX" n="1149a04"/><list rend="no-marker"><item xml:id="itemTX09p1149a0401">甲　何謂法</item>
-<lb ed="TX" n="1149a05"/><item xml:id="itemTX09p1149a0501">乙　何謂相</item>
-<lb ed="TX" n="1149a06"/><item xml:id="itemTX09p1149a0601">丙　何謂法相</item>
-<lb ed="TX" n="1149a07"/><item xml:id="itemTX09p1149a0701">丁　何謂法相唯識</item></list></item>
-<lb ed="TX" n="1149a08"/><item xml:id="itemTX09p1149a0801">二　法相唯識學之由起
-<lb ed="TX" n="1149a09"/><list rend="no-marker"><item xml:id="itemTX09p1149a0901">甲　出發於究真之要求者
-<lb ed="TX" n="1149a10"/><list rend="no-marker"><item xml:id="itemTX09p1149a1001">１　迷信之神話與設想之玄談</item>
-<lb ed="TX" n="1149a11"/><item xml:id="itemTX09p1149a1101">２　實驗之科學與執法之小乘</item>
-<lb ed="TX" n="1149a12"/><item xml:id="itemTX09p1149a1201">３　法性之本空與唯識之轉依</item></list></item>
-<lb ed="TX" n="1149a13"/><item xml:id="itemTX09p1149a1301">乙　出發於存善之要求者
-<lb ed="TX" n="1149a14"/><list rend="no-marker"><item xml:id="itemTX09p1149a1401">１　天神之永生與自我之獨存</item>
-<lb ed="TX" n="1149a15"/><item xml:id="itemTX09p1149a1501">２　質散之斷滅與生空之解脫</item>
-<lb ed="TX" n="1149a16"/><item xml:id="itemTX09p1149a1601">３　本空之常如與唯識之轉依</item></list></item></list></item>
-<lb ed="TX" n="1149a17"/><item xml:id="itemTX09p1149a1701">三　法相唯識學之成立
-<lb ed="TX" n="1149a18"/><list rend="no-marker"><item xml:id="itemTX09p1149a1801">甲　其餘唯心論不成立之故
-<lb ed="TX" n="1149a19"/><list rend="no-marker"><item xml:id="itemTX09p1149a1901">１　主觀唯心論之不成立</item>
-<lb ed="TX" n="1149a20"/><item xml:id="itemTX09p1149a2001">２　客觀唯心論之不成立</item>
+<lb ed="TX" n="1149a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1149a0301">一　法相唯識學之略釋
+<lb ed="TX" n="1149a04"/><list rend="no-marker">
+    <item xml:id="itemTX09p1149a0401">甲　何謂法</item>
+<lb ed="TX" n="1149a05"/>
+    <item xml:id="itemTX09p1149a0501">乙　何謂相</item>
+<lb ed="TX" n="1149a06"/>
+    <item xml:id="itemTX09p1149a0601">丙　何謂法相</item>
+<lb ed="TX" n="1149a07"/>
+    <item xml:id="itemTX09p1149a0701">丁　何謂法相唯識</item>
+  </list></item>
+<lb ed="TX" n="1149a08"/>
+  <item xml:id="itemTX09p1149a0801">二　法相唯識學之由起
+<lb ed="TX" n="1149a09"/><list rend="no-marker">
+    <item xml:id="itemTX09p1149a0901">甲　出發於究真之要求者
+<lb ed="TX" n="1149a10"/><list rend="no-marker">
+      <item xml:id="itemTX09p1149a1001">１　迷信之神話與設想之玄談</item>
+<lb ed="TX" n="1149a11"/>
+      <item xml:id="itemTX09p1149a1101">２　實驗之科學與執法之小乘</item>
+<lb ed="TX" n="1149a12"/>
+      <item xml:id="itemTX09p1149a1201">３　法性之本空與唯識之轉依</item>
+    </list></item>
+<lb ed="TX" n="1149a13"/>
+    <item xml:id="itemTX09p1149a1301">乙　出發於存善之要求者
+<lb ed="TX" n="1149a14"/><list rend="no-marker">
+      <item xml:id="itemTX09p1149a1401">１　天神之永生與自我之獨存</item>
+<lb ed="TX" n="1149a15"/>
+      <item xml:id="itemTX09p1149a1501">２　質散之斷滅與生空之解脫</item>
+<lb ed="TX" n="1149a16"/>
+      <item xml:id="itemTX09p1149a1601">３　本空之常如與唯識之轉依</item>
+    </list></item>
+  </list></item>
+<lb ed="TX" n="1149a17"/>
+  <item xml:id="itemTX09p1149a1701">三　法相唯識學之成立
+<lb ed="TX" n="1149a18"/><list rend="no-marker">
+    <item xml:id="itemTX09p1149a1801">甲　其餘唯心論不成立之故
+<lb ed="TX" n="1149a19"/><list rend="no-marker">
+      <item xml:id="itemTX09p1149a1901">１　主觀唯心論之不成立</item>
+<lb ed="TX" n="1149a20"/>
+      <item xml:id="itemTX09p1149a2001">２　客觀唯心論之不成立</item>
 <pb ed="TX" xml:id="TX09.0006.1150a" n="1150a"/>
-<lb ed="TX" n="1150a01"/><item xml:id="itemTX09p1150a0101">３　意志唯心論之不成立</item>
-<lb ed="TX" n="1150a02"/><item xml:id="itemTX09p1150a0201">４　經驗唯心論之不成立</item>
-<lb ed="TX" n="1150a03"/><item xml:id="itemTX09p1150a0301">５　直覺唯心論之不成立</item>
-<lb ed="TX" n="1150a04"/><item xml:id="itemTX09p1150a0401">６　存疑唯心論之不成立</item></list></item>
-<lb ed="TX" n="1150a05"/><item xml:id="itemTX09p1150a0501">乙　法相唯識學能成立之故
-<lb ed="TX" n="1150a06"/><list rend="no-marker"><item xml:id="itemTX09p1150a0601">１　獨頭意識與同時六識——虛實問題</item>
-<lb ed="TX" n="1150a07"/><item xml:id="itemTX09p1150a0701">２　同時六識與第八識變——象質問題</item>
-<lb ed="TX" n="1150a08"/><item xml:id="itemTX09p1150a0801">３　自識所變與他識共變——自共問題</item>
-<lb ed="TX" n="1150a09"/><item xml:id="itemTX09p1150a0901">４　第八識見與第七識見——自他問題</item>
-<lb ed="TX" n="1150a10"/><item xml:id="itemTX09p1150a1001">５　八心王法與諸心所法——總別問題</item>
-<lb ed="TX" n="1150a11"/><item xml:id="itemTX09p1150a1101">６　能緣二分與所緣三分——心境問題</item>
-<lb ed="TX" n="1150a12"/><item xml:id="itemTX09p1150a1201">７　第八識種與前七識現——因果問題</item>
-<lb ed="TX" n="1150a13"/><item xml:id="itemTX09p1150a1301">８　第八識現與一切法種——存滅問題</item>
-<lb ed="TX" n="1150a14"/><item xml:id="itemTX09p1150a1401">９　一切法種與一切法現——同異問題</item>
-<lb ed="TX" n="1150a15"/><item xml:id="itemTX09p1150a1501">10　前六識業與八六識報——生死問題</item>
-<lb ed="TX" n="1150a16"/><item xml:id="itemTX09p1150a1601">11　諸法無性與諸法自性——空有問題</item>
-<lb ed="TX" n="1150a17"/><item xml:id="itemTX09p1150a1701">12　唯識法相與唯識法性——真幻問題</item>
-<lb ed="TX" n="1150a18"/><item xml:id="itemTX09p1150a1801">13　染唯識界與淨唯識界——凡聖問題</item>
-<lb ed="TX" n="1150a19"/><item xml:id="itemTX09p1150a1901">14　淨唯識行與淨唯識果——修證問題</item></list></item></list></item>
-<lb ed="TX" n="1150a20"/><item xml:id="itemTX09p1150a2001">四　法相唯識學之利益</item></list></cb:div>
+<lb ed="TX" n="1150a01"/>
+      <item xml:id="itemTX09p1150a0101">３　意志唯心論之不成立</item>
+<lb ed="TX" n="1150a02"/>
+      <item xml:id="itemTX09p1150a0201">４　經驗唯心論之不成立</item>
+<lb ed="TX" n="1150a03"/>
+      <item xml:id="itemTX09p1150a0301">５　直覺唯心論之不成立</item>
+<lb ed="TX" n="1150a04"/>
+      <item xml:id="itemTX09p1150a0401">６　存疑唯心論之不成立</item>
+    </list></item>
+<lb ed="TX" n="1150a05"/>
+    <item xml:id="itemTX09p1150a0501">乙　法相唯識學能成立之故
+<lb ed="TX" n="1150a06"/><list rend="no-marker">
+      <item xml:id="itemTX09p1150a0601">１　獨頭意識與同時六識——虛實問題</item>
+<lb ed="TX" n="1150a07"/>
+      <item xml:id="itemTX09p1150a0701">２　同時六識與第八識變——象質問題</item>
+<lb ed="TX" n="1150a08"/>
+      <item xml:id="itemTX09p1150a0801">３　自識所變與他識共變——自共問題</item>
+<lb ed="TX" n="1150a09"/>
+      <item xml:id="itemTX09p1150a0901">４　第八識見與第七識見——自他問題</item>
+<lb ed="TX" n="1150a10"/>
+      <item xml:id="itemTX09p1150a1001">５　八心王法與諸心所法——總別問題</item>
+<lb ed="TX" n="1150a11"/>
+      <item xml:id="itemTX09p1150a1101">６　能緣二分與所緣三分——心境問題</item>
+<lb ed="TX" n="1150a12"/>
+      <item xml:id="itemTX09p1150a1201">７　第八識種與前七識現——因果問題</item>
+<lb ed="TX" n="1150a13"/>
+      <item xml:id="itemTX09p1150a1301">８　第八識現與一切法種——存滅問題</item>
+<lb ed="TX" n="1150a14"/>
+      <item xml:id="itemTX09p1150a1401">９　一切法種與一切法現——同異問題</item>
+<lb ed="TX" n="1150a15"/>
+      <item xml:id="itemTX09p1150a1501">10　前六識業與八六識報——生死問題</item>
+<lb ed="TX" n="1150a16"/>
+      <item xml:id="itemTX09p1150a1601">11　諸法無性與諸法自性——空有問題</item>
+<lb ed="TX" n="1150a17"/>
+      <item xml:id="itemTX09p1150a1701">12　唯識法相與唯識法性——真幻問題</item>
+<lb ed="TX" n="1150a18"/>
+      <item xml:id="itemTX09p1150a1801">13　染唯識界與淨唯識界——凡聖問題</item>
+<lb ed="TX" n="1150a19"/>
+      <item xml:id="itemTX09p1150a1901">14　淨唯識行與淨唯識果——修證問題</item>
+    </list></item>
+  </list></item>
+<lb ed="TX" n="1150a20"/>
+  <item xml:id="itemTX09p1150a2001">四　法相唯識學之利益</item>
+</list></cb:div>
 <lb ed="TX" n="1150a21"/>
 <pb ed="TX" xml:id="TX09.0006.1151a" n="1151a"/>
 <lb ed="TX" n="1151a01"/><cb:div type="other"><cb:mulu type="其他" level="3">一　法相唯識學之略釋</cb:mulu><head>一　法相唯識學之略釋</head>
@@ -4080,7 +4227,11 @@
 <lb ed="TX" n="1193a12"/>同時六識之所緣境，非單依主觀可以轉變，并須托六識外存在之境作所緣緣之刺戟；
 <pb ed="TX" xml:id="TX09.0006.1194a" n="1194a"/>
 <lb ed="TX" n="1194a01"/>準此而言，豈非與新實在論或唯物論無異乎？但須知此間所言同時六識，略同實驗主
-<lb ed="TX" n="1194a02"/>義之純粹經驗，經驗本身即感覺，感覺即心識，謂須境之<note n="1194a0201" resp="CBETA" type="add" rend="hide" note_key="TX09.1194a02.23">刺【CB】，剌【太虛】</note><app n="1194a0201"><lem wit="【太虛】">剌</lem><rdg resp="CBETA" type="cbetaRemark">刺</rdg></app>戟，不過就純粹經驗之說
+<lb ed="TX" n="1194a02"/>義之純粹經驗，經驗本身即感覺，感覺即心識，謂須境之<note 
+n="1194a0201" resp="CBETA" type="add" rend="hide" note_key="TX09.1194a02.23">刺【CB】，剌【太虛】</note><app n="1194a0201">
+  <lem wit="【太虛】">剌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">刺</rdg>
+</app>戟，不過就純粹經驗之說
 <lb ed="TX" n="1194a03"/>明上而言，此種所經驗的仍在純粹經驗之中。感覺可作兩面解釋：一面為能知識之知
 <lb ed="TX" n="1194a04"/>識，一面為所知識之境相；能為見分，所為相分。因此事實上感覺之有感於是而有所
 <lb ed="TX" n="1194a05"/>知識，均不離純粹感覺心識之外，故仍是唯識。此種不離純粹經驗六識覺到之現象之
@@ -4333,7 +4484,8 @@
 <lb ed="TX" n="1213a05"/>行，證唯識果，再由較高之唯識行，又成較高之唯識果；故真正之進化，即在此唯識
 <lb ed="TX" n="1213a06"/>之修證中而已。然徒言進化，若無究竟圓滿之境，則漫無標準，進化之義亦不成立。
 <lb ed="TX" n="1213a07"/>今於此分兩段言之：</p>
-<lb ed="TX" n="1213a08"/><cb:div type="other"><cb:mulu type="其他" level="6">（一）四尋思引四如實智與五重唯識觀</cb:mulu><head>（一）四尋思引四如實智與五重唯識觀</head><p xml:id="pTX09p1213a0816" style="margin-left:0em;text-indent:2em" cb:place="inline">四尋思引四如實智與五重唯識觀，即明
+<lb ed="TX" n="1213a08"/><cb:div type="other"><cb:mulu type="其他" level="6">（一）四尋思引四如實智與五重唯識觀</cb:mulu><head>（一）四尋思引四如實智與五重唯識觀</head>
+<p xml:id="pTX09p1213a0816" style="margin-left:0em;text-indent:2em" cb:place="inline">四尋思引四如實智與五重唯識觀，即明
 <lb ed="TX" n="1213a09"/>由心理改變心理，次由心理改變而到生理改變，再由心理生理改變而到物理改變；及
 <lb ed="TX" n="1213a10"/>至宇宙之現象，皆即無分別之真如，而成為自他互融彼此無礙之宇宙。換言之，即成
 <lb ed="TX" n="1213a11"/>為不可思議之事事無礙法界也。然此改造入手，首由心理之訓練，即先從意識上改造
@@ -4361,37 +4513,45 @@
 <lb ed="TX" n="1215a07"/>而有，澈底追究則如幻如化而無決定，由此究竟真實，唯法性平等真如，捨相依相對
 <lb ed="TX" n="1215a08"/>之虛妄相，乃為真實存在，此第五重遣法相而證法性也。至第五重證真如法性，乃初
 <lb ed="TX" n="1215a09"/>成淨唯識界，以後仍用此五重觀數數修習增進，乃證圓滿二轉依果。</p></cb:div>
-<lb ed="TX" n="1215a10"/><cb:div type="other"><cb:mulu type="其他" level="6">（二）大般涅槃與四智菩提</cb:mulu><head>（二）大般涅槃與四智菩提</head><p xml:id="pTX09p1215a1011" style="margin-left:0em;text-indent:2em" cb:place="inline">涅槃、圓寂義。染唯識轉為淨唯識，得大般涅槃，
+<lb ed="TX" n="1215a10"/><cb:div type="other"><cb:mulu type="其他" level="6">（二）大般涅槃與四智菩提</cb:mulu><head>（二）大般涅槃與四智菩提</head>
+<p xml:id="pTX09p1215a1011" style="margin-left:0em;text-indent:2em" cb:place="inline">涅槃、圓寂義。染唯識轉為淨唯識，得大般涅槃，
 <lb ed="TX" n="1215a11"/>涅槃所成為四智菩提。菩提、正覺義。前五識成為成所作事智，第六意識成妙觀察智
 <lb ed="TX" n="1215a12"/>，第七末那識成平等性智，第八阿賴耶識成大圓鏡智；即將雜染界之八識，成為正覺
 <pb ed="TX" xml:id="TX09.0006.1216a" n="1216a"/>
 <lb ed="TX" n="1216a01"/>界之四智也。以上二段，可知法相唯識學，確可由凡入聖，而證明法相唯識學之能成
 <lb ed="TX" n="1216a02"/>立。</p></cb:div></cb:div></cb:div></cb:div>
 <lb ed="TX" n="1216a03"/><cb:div type="other"><cb:mulu type="其他" level="3">四　法相唯識學之利益</cb:mulu><head>四　法相唯識學之利益</head>
-<lb ed="TX" n="1216a04"/><cb:div type="other"><cb:mulu type="其他" level="4">甲　破除我法之謬執</cb:mulu><head>甲　破除我法之謬執</head><p xml:id="pTX09p1216a0409" style="margin-left:0em;text-indent:2em" cb:place="inline">我法皆從遍計執而生，因計有主觀之自我名為我執，計有
+<lb ed="TX" n="1216a04"/><cb:div type="other"><cb:mulu type="其他" level="4">甲　破除我法之謬執</cb:mulu><head>甲　破除我法之謬執</head>
+<p xml:id="pTX09p1216a0409" style="margin-left:0em;text-indent:2em" cb:place="inline">我法皆從遍計執而生，因計有主觀之自我名為我執，計有
 <lb ed="TX" n="1216a05"/>客觀之宇宙名為法執。因我則有非我，於是生於種種之貪，貪不遂故則生瞋，貪瞋依
 <lb ed="TX" n="1216a06"/>以癡、慢，世界之苦惱，乃皆從此我法二執而生也。學法相唯識，明諸法皆眾緣所成
 <lb ed="TX" n="1216a07"/>，唯識所現，則執我之觀念既破，而為我所有之法亦空矣。</p></cb:div>
-<lb ed="TX" n="1216a08"/><cb:div type="other"><cb:mulu type="其他" level="4">乙　斷盡生法之惑障</cb:mulu><head>乙　斷盡生法之惑障</head><p xml:id="pTX09p1216a0809" style="margin-left:0em;text-indent:2em" cb:place="inline">生、指有情眾生之人生，法、指宇宙萬物等。因我執不破
+<lb ed="TX" n="1216a08"/><cb:div type="other"><cb:mulu type="其他" level="4">乙　斷盡生法之惑障</cb:mulu><head>乙　斷盡生法之惑障</head>
+<p xml:id="pTX09p1216a0809" style="margin-left:0em;text-indent:2em" cb:place="inline">生、指有情眾生之人生，法、指宇宙萬物等。因我執不破
 <lb ed="TX" n="1216a09"/>，則生貪、瞋、癡之煩惱障，法執未除，則生所知之障。明法相唯識學，則能得到最
 <lb ed="TX" n="1216a10"/>究竟人生宇宙之真相，以如實了知故，乃不生煩惱及所知之障也。</p></cb:div>
-<lb ed="TX" n="1216a11"/><cb:div type="other"><cb:mulu type="其他" level="4">丙　解脫變壞之業報</cb:mulu><head>丙　解脫變壞之業報</head><p xml:id="pTX09p1216a1109" style="margin-left:0em;text-indent:2em" cb:place="inline">生死從我法謬執所生惑障，發生種種思想行為之業，因有
+<lb ed="TX" n="1216a11"/><cb:div type="other"><cb:mulu type="其他" level="4">丙　解脫變壞之業報</cb:mulu><head>丙　解脫變壞之業報</head>
+<p xml:id="pTX09p1216a1109" style="margin-left:0em;text-indent:2em" cb:place="inline">生死從我法謬執所生惑障，發生種種思想行為之業，因有
 <lb ed="TX" n="1216a12"/>限量之業招有限量之報，則有生死。譬如專制君國之朝代，終有消滅之時，以其業有
 <pb ed="TX" xml:id="TX09.0006.1217a" n="1217a"/>
 <lb ed="TX" n="1217a01"/>盡而報必壞也。能將我法謬執去掉，則能解脫變壞之業報，而成為四智菩提不思議業
 <lb ed="TX" n="1217a02"/>之圓滿報。佛學所謂了脫生死，即指此而言。</p></cb:div>
-<lb ed="TX" n="1217a03"/><cb:div type="other"><cb:mulu type="其他" level="4">丁　滿足心性之意願</cb:mulu><head>丁　滿足心性之意願</head><p xml:id="pTX09p1217a0309" style="margin-left:0em;text-indent:2em" cb:place="inline">人生皆有止於至善之要求，如不止於至善，則不能滿足心
+<lb ed="TX" n="1217a03"/><cb:div type="other"><cb:mulu type="其他" level="4">丁　滿足心性之意願</cb:mulu><head>丁　滿足心性之意願</head>
+<p xml:id="pTX09p1217a0309" style="margin-left:0em;text-indent:2em" cb:place="inline">人生皆有止於至善之要求，如不止於至善，則不能滿足心
 <lb ed="TX" n="1217a04"/>性之意願，猶之千江萬湖之水，不流至大海皆不能得到最後之歸宿。四智菩提之大圓
 <lb ed="TX" n="1217a05"/>滿覺，才是至善之地；能將諸法性相如如了知，能轉一切染成一切善，人生意志之願
 <lb ed="TX" n="1217a06"/>望，才能滿足。</p></cb:div>
-<lb ed="TX" n="1217a07"/><cb:div type="other"><cb:mulu type="其他" level="4">戊　成就永久之安樂</cb:mulu><head>戊　成就永久之安樂</head><p xml:id="pTX09p1217a0709" style="margin-left:0em;text-indent:2em" cb:place="inline">安樂有久暫之殊，小康太平時代，或近代為最大多數人謀
+<lb ed="TX" n="1217a07"/><cb:div type="other"><cb:mulu type="其他" level="4">戊　成就永久之安樂</cb:mulu><head>戊　成就永久之安樂</head>
+<p xml:id="pTX09p1217a0709" style="margin-left:0em;text-indent:2em" cb:place="inline">安樂有久暫之殊，小康太平時代，或近代為最大多數人謀
 <lb ed="TX" n="1217a08"/>最大幸福之社會主義國家，皆有限業力所成之有限安樂而非永久。蓋世界一治一亂，
 <lb ed="TX" n="1217a09"/>人生苦樂相尋，況國家不能有存而無亡，人生世界不能有成而無壞，僅以目前為限，
 <lb ed="TX" n="1217a10"/>尚何價值之足云！故必至淨唯識之四智，成大菩提，方成就永久之安樂。</p></cb:div>
-<lb ed="TX" n="1217a11"/><cb:div type="other"><cb:mulu type="其他" level="4">己　證得無礙之清淨</cb:mulu><head>己　證得無礙之清淨</head><p xml:id="pTX09p1217a1109" style="margin-left:0em;text-indent:2em" cb:place="inline">無礙之清淨，即真自由也，絕對善也。通常所謂自由，因
+<lb ed="TX" n="1217a11"/><cb:div type="other"><cb:mulu type="其他" level="4">己　證得無礙之清淨</cb:mulu><head>己　證得無礙之清淨</head>
+<p xml:id="pTX09p1217a1109" style="margin-left:0em;text-indent:2em" cb:place="inline">無礙之清淨，即真自由也，絕對善也。通常所謂自由，因
 <lb ed="TX" n="1217a12"/>受根塵有限之牽制，皆成為束縛而無真實自由之可言；若能修無漏清淨行，得成淨唯
 <pb ed="TX" xml:id="TX09.0006.1218a" n="1218a"/>
-<lb ed="TX" n="1218a01"/>識界，轉識成智之時，即證得無礙之清淨，所謂我淨是也。</p></cb:div></cb:div><byline cb:type="other">（虞德元記）<note place="inline">見海刊十
+<lb ed="TX" n="1218a01"/>識界，轉識成智之時，即證得無礙之清淨，所謂我淨是也。</p></cb:div></cb:div>
+<byline cb:type="other">（虞德元記）<note place="inline">見海刊十
 <lb ed="TX" n="1218a02"/>四卷三、四期</note></byline></cb:div>
 <milestone unit="juan" n="20"/>
 <pb ed="TX" xml:id="TX09.0006.1219a" n="1219a"/>
@@ -4588,19 +4748,30 @@
 <lb ed="TX" n="1232a07"/><p xml:id="pTX09p1232a0701" style="margin-left:0em;text-indent:2em">觀此統攝分類表及其說明，可知百法論該攝宇宙萬有，罄盡無遺矣。持斯論以研
 <lb ed="TX" n="1232a08"/>覈觀察乎萬物，物將何遁者！</p>
 <lb ed="TX" n="1232a09"/><p xml:id="pTX09p1232a0901" style="margin-left:0em;text-indent:2em">作者初研究唯識學，文雖大致可觀，而名相間有錯誤之處，未及詳審，請閱者
-<lb ed="TX" n="1232a10"/>指教之！</p><byline cb:type="other"><note place="inline">見海刊一卷五期</note></byline></cb:div>
+<lb ed="TX" n="1232a10"/>指教之！</p>
+<byline cb:type="other"><note place="inline">見海刊一卷五期</note></byline></cb:div>
 <milestone unit="juan" n="21"/>
 <pb ed="TX" xml:id="TX09.0006.1233a" n="1233a"/>
 <lb ed="TX" n="1233a01"/><cb:div type="other"><cb:mulu type="其他" level="2">阿陀那識論</cb:mulu><head>阿陀那識論</head>
 <lb ed="TX" n="1233a02"/><byline cb:type="other">——十四年十一月在東亞佛教大會教義研究部提出——</byline>
-<lb ed="TX" n="1233a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1233a0301">一　出名</item>
-<lb ed="TX" n="1233a04"/><item xml:id="itemTX09p1233a0401">二　界義</item>
-<lb ed="TX" n="1233a05"/><item xml:id="itemTX09p1233a0501">三　釋名</item>
-<lb ed="TX" n="1233a06"/><item xml:id="itemTX09p1233a0601">四　出體</item>
-<lb ed="TX" n="1233a07"/><item xml:id="itemTX09p1233a0701">五　會釋</item>
-<lb ed="TX" n="1233a08"/><item xml:id="itemTX09p1233a0801">六　破謬</item>
-<lb ed="TX" n="1233a09"/><item xml:id="itemTX09p1233a0901">七　立宗</item>
-<lb ed="TX" n="1233a10"/><item xml:id="itemTX09p1233a1001">八　顯用</item></list></cb:div>
+<lb ed="TX" n="1233a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1233a0301">一　出名</item>
+<lb ed="TX" n="1233a04"/>
+  <item xml:id="itemTX09p1233a0401">二　界義</item>
+<lb ed="TX" n="1233a05"/>
+  <item xml:id="itemTX09p1233a0501">三　釋名</item>
+<lb ed="TX" n="1233a06"/>
+  <item xml:id="itemTX09p1233a0601">四　出體</item>
+<lb ed="TX" n="1233a07"/>
+  <item xml:id="itemTX09p1233a0701">五　會釋</item>
+<lb ed="TX" n="1233a08"/>
+  <item xml:id="itemTX09p1233a0801">六　破謬</item>
+<lb ed="TX" n="1233a09"/>
+  <item xml:id="itemTX09p1233a0901">七　立宗</item>
+<lb ed="TX" n="1233a10"/>
+  <item xml:id="itemTX09p1233a1001">八　顯用</item>
+</list></cb:div>
 <lb ed="TX" n="1233a11"/>
 <lb ed="TX" n="1233a12"/><cb:div type="other"><cb:mulu type="其他" level="3">一　出名</cb:mulu><head>一　出名</head>
 <lb ed="TX" n="1233a13"/><p xml:id="pTX09p1233a1301" style="margin-left:0em;text-indent:2em">解深密經云：『阿陀那識甚深細，習氣種子如瀑流；我於凡愚不開演，恐彼分別
@@ -4807,20 +4978,32 @@
 <lb ed="TX" n="1249a03"/>單提根本智證，要悟就悟，不悟則不別為權巧開示，亦失菩薩度生方便。賢首等宗如
 <lb ed="TX" n="1249a04"/>來智境，闊談圓妙，流於玄虛。本論勝用，則在先明阿陀那識，識通聖凡，在人即人
 <lb ed="TX" n="1249a05"/>，直指人心以為發明，即就此識顯一切法，使不墮損減執；以一切法唯識故，皆如幻
-<lb ed="TX" n="1249a06"/>如化，亦不起增益執。二執遮破，悟入非空非有之唯識性，是為本論大用所在。</p></cb:div><byline cb:type="other">（會
+<lb ed="TX" n="1249a06"/>如化，亦不起增益執。二執遮破，悟入非空非有之唯識性，是為本論大用所在。</p></cb:div>
+<byline cb:type="other">（會
 <lb ed="TX" n="1249a07"/>覺記）<note place="inline">見海刊六卷十二期</note></byline></cb:div>
 <milestone unit="juan" n="22"/>
 <pb ed="TX" xml:id="TX09.0006.1250a" n="1250a"/>
 <lb ed="TX" n="1250a01"/><cb:div type="other"><cb:mulu type="其他" level="2">末那十門三位與賴耶十門二位之同異（附註）</cb:mulu><head>末那十門三位與賴耶十門二位之同異（附註）</head>
 <lb ed="TX" n="1250a02"/><byline cb:type="other">——試題總批示略——</byline>
-<lb ed="TX" n="1250a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1250a0301">一　能詮上之同異
-<lb ed="TX" n="1250a04"/><list rend="no-marker"><item xml:id="itemTX09p1250a0401">甲　形式上之對辨</item>
-<lb ed="TX" n="1250a05"/><item xml:id="itemTX09p1250a0501">乙　名次上之對辨</item></list></item>
-<lb ed="TX" n="1250a06"/><item xml:id="itemTX09p1250a0601">二　所詮上之同異
-<lb ed="TX" n="1250a07"/><list rend="no-marker"><item xml:id="itemTX09p1250a0701">甲　法類上之對辨</item>
-<lb ed="TX" n="1250a08"/><item xml:id="itemTX09p1250a0801">乙　義理上之對辨</item></list></item></list></cb:div>
+<lb ed="TX" n="1250a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1250a0301">一　能詮上之同異
+<lb ed="TX" n="1250a04"/><list rend="no-marker">
+    <item xml:id="itemTX09p1250a0401">甲　形式上之對辨</item>
+<lb ed="TX" n="1250a05"/>
+    <item xml:id="itemTX09p1250a0501">乙　名次上之對辨</item>
+  </list></item>
+<lb ed="TX" n="1250a06"/>
+  <item xml:id="itemTX09p1250a0601">二　所詮上之同異
+<lb ed="TX" n="1250a07"/><list rend="no-marker">
+    <item xml:id="itemTX09p1250a0701">甲　法類上之對辨</item>
+<lb ed="TX" n="1250a08"/>
+    <item xml:id="itemTX09p1250a0801">乙　義理上之對辨</item>
+  </list></item>
+</list></cb:div>
 <lb ed="TX" n="1250a09"/>
-<lb ed="TX" n="1250a10"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX09p1250a1001" style="margin-left:0em;text-indent:2em">此題所重不在材料而在條理，遇此種繁雜之思想，必有精密之方法，乃能分析綜
+<lb ed="TX" n="1250a10"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX09p1250a1001" style="margin-left:0em;text-indent:2em">此題所重不在材料而在條理，遇此種繁雜之思想，必有精密之方法，乃能分析綜
 <lb ed="TX" n="1250a11"/>合而組織表顯之。通觀諸篇，法尊於法義所得較多——密鎪近之，而猶有相混。滿智
 <lb ed="TX" n="1250a12"/>能分為名目及義理二綱，是其勝處，惜內容錯誤尚多！會覺——能學、翠華、性林近
 <lb ed="TX" n="1250a13"/>之，按同及異等四綱以數列舉，頗有長處。若善樸之祇在門名之次第上逐條言同，致
@@ -4885,21 +5068,32 @@
 <lb ed="TX" n="1255a05"/>，又同而異。三、末那三位，賴耶二位雖異，而皆是明識之通於因果染淨義者，故異
 <lb ed="TX" n="1255a06"/>而同。雖同明識通因果染淨義，而末那淨義通大小乘因果位，謂唯法執相應位，有小
 <lb ed="TX" n="1255a07"/>乘學無學淨位，佛前平等性智現前位為菩薩淨位，賴耶淨義則惟佛果，又同而異。此
-<lb ed="TX" n="1255a08"/>條可如法尊所表。</p></cb:div></cb:div><byline cb:type="other"><note place="inline">見海刊五卷四期</note></byline>
+<lb ed="TX" n="1255a08"/>條可如法尊所表。</p></cb:div></cb:div>
+<byline cb:type="other"><note place="inline">見海刊五卷四期</note></byline>
 <lb ed="TX" n="1255a09"/><p xml:id="pTX09p1255a0901" style="margin-left:6em;text-indent:-4em">（附註）海刊原題為『對於末那十門三位與賴耶十門二位之同異一題各試卷之總批』
 <lb ed="TX" n="1255a10"/>，法相唯識學中改作『對於唯識試題之總批』，今改此題。</p></cb:div>
 <milestone unit="juan" n="23"/>
 <pb ed="TX" xml:id="TX09.0006.1256a" n="1256a"/>
 <lb ed="TX" n="1256a01"/><cb:div type="other"><cb:mulu type="其他" level="2">能知的地位差別上之所知諸法</cb:mulu><head>能知的地位差別上之所知諸法</head>
 <lb ed="TX" n="1256a02"/><byline cb:type="other">——十五年初夏在佛學院講——</byline>
-<lb ed="TX" n="1256a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1256a0301">一　引言</item>
-<lb ed="TX" n="1256a04"/><item xml:id="itemTX09p1256a0401">二　吾人的能知上所知之天地人物</item>
-<lb ed="TX" n="1256a05"/><item xml:id="itemTX09p1256a0501">三　五趣有情各類能知上所知之宇宙</item>
-<lb ed="TX" n="1256a06"/><item xml:id="itemTX09p1256a0601">四　三乘共慧上之所知蘊等</item>
-<lb ed="TX" n="1256a07"/><item xml:id="itemTX09p1256a0701">五　大乘根本智之現證真如</item>
-<lb ed="TX" n="1256a08"/><item xml:id="itemTX09p1256a0801">六　大乘後得智之唯識如幻諸法</item>
-<lb ed="TX" n="1256a09"/><item xml:id="itemTX09p1256a0901">七　佛智之圓融法界</item>
-<lb ed="TX" n="1256a10"/><item xml:id="itemTX09p1256a1001">八　結論</item></list></cb:div>
+<lb ed="TX" n="1256a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1256a0301">一　引言</item>
+<lb ed="TX" n="1256a04"/>
+  <item xml:id="itemTX09p1256a0401">二　吾人的能知上所知之天地人物</item>
+<lb ed="TX" n="1256a05"/>
+  <item xml:id="itemTX09p1256a0501">三　五趣有情各類能知上所知之宇宙</item>
+<lb ed="TX" n="1256a06"/>
+  <item xml:id="itemTX09p1256a0601">四　三乘共慧上之所知蘊等</item>
+<lb ed="TX" n="1256a07"/>
+  <item xml:id="itemTX09p1256a0701">五　大乘根本智之現證真如</item>
+<lb ed="TX" n="1256a08"/>
+  <item xml:id="itemTX09p1256a0801">六　大乘後得智之唯識如幻諸法</item>
+<lb ed="TX" n="1256a09"/>
+  <item xml:id="itemTX09p1256a0901">七　佛智之圓融法界</item>
+<lb ed="TX" n="1256a10"/>
+  <item xml:id="itemTX09p1256a1001">八　結論</item>
+</list></cb:div>
 <lb ed="TX" n="1256a11"/>
 <lb ed="TX" n="1256a12"/><cb:div type="other"><cb:mulu type="其他" level="3">一　引言</cb:mulu><head>一　引言</head>
 <lb ed="TX" n="1256a13"/><p xml:id="pTX09p1256a1301" style="margin-left:0em;text-indent:2em">今年本定上期講成唯識論，因各處宏法因緣之牽涉，遂爾擱置。不能在此為大眾
@@ -5128,7 +5322,8 @@
 <pb ed="TX" xml:id="TX09.0006.1274a" n="1274a"/>
 <lb ed="TX" n="1274a01"/>即吾人現前所知之天地人物，一切皆是而同時一切皆非，亦可統名「法界淨智宗」。
 <lb ed="TX" n="1274a02"/>此所言大意，即明大乘佛法之總要也。以此觀察，可得大乘佛法上之概略，亦一以簡
-<lb ed="TX" n="1274a03"/>御繁之一法門歟！諸生其自勉於廣大深微之佛法藏耳！</p></cb:div><byline cb:type="other">（善長記）<note place="inline">見海刊七卷二期</note></byline></cb:div>
+<lb ed="TX" n="1274a03"/>御繁之一法門歟！諸生其自勉於廣大深微之佛法藏耳！</p></cb:div>
+<byline cb:type="other">（善長記）<note place="inline">見海刊七卷二期</note></byline></cb:div>
 <milestone unit="juan" n="24"/>
 <pb ed="TX" xml:id="TX09.0006.1275a" n="1275a"/>
 <lb ed="TX" n="1275a01"/><cb:div type="other"><cb:mulu type="其他" level="2">人心所緣有為現行境之本質與影像關係</cb:mulu><head>人心所緣有為現行境之本質與影像關係</head>
@@ -5210,7 +5405,8 @@
 <lb ed="TX" n="1279a11"/>是一切種能持之本識及見相所依之自證，皆屬現行。故世俗體之是一或非一，與同種
 <lb ed="TX" n="1279a12"/>生或別種生無涉。可別種生而體一者，若光——色種、熱——觸種、別種而生一火體
 <lb ed="TX" n="1279a13"/>；可同種生而體異者，若光光同種而生諸燈體。悟此、則景昌極之相見別種辨，不攻
-<lb ed="TX" n="1279a14"/>而自破矣！</p><byline cb:type="other"><note place="inline">見海刊四卷八期</note></byline></cb:div>
+<lb ed="TX" n="1279a14"/>而自破矣！</p>
+<byline cb:type="other"><note place="inline">見海刊四卷八期</note></byline></cb:div>
 <milestone unit="juan" n="26"/>
 <pb ed="TX" xml:id="TX09.0006.1280a" n="1280a"/>
 <lb ed="TX" n="1280a01"/><cb:div type="other"><cb:mulu type="其他" level="2">見相別種辨釋難</cb:mulu><head>見相別種辨釋難</head>
@@ -5282,7 +5478,8 @@
 <lb ed="TX" n="1285a03"/>與繆君之唯識今釋等，均表推重。惟對於操戈以圖內亂之舉，不能默爾，稍為設遮。
 <lb ed="TX" n="1285a04"/>君等乍遊佛法之門，能執利器——名相分別——以防禦邪外，固所樂聞。若將深入堂
 <lb ed="TX" n="1285a05"/>奧，則當捨干戈而從容趣入之，未應持械以衝牆倒壁為事也、否則、增自之惑，益人
-<lb ed="TX" n="1285a06"/>之迷，兩害無利，何取多言！質之君等以為何如？</p><byline cb:type="other"><note place="inline">見海刊四卷十期</note></byline>
+<lb ed="TX" n="1285a06"/>之迷，兩害無利，何取多言！質之君等以為何如？</p>
+<byline cb:type="other"><note place="inline">見海刊四卷十期</note></byline>
 <lb ed="TX" n="1285a07"/><cb:div type="other"><cb:mulu type="其他" level="3">附　景幼南先生難閱相見別種辨來函</cb:mulu><head>附　景幼南先生難閱相見別種辨來函</head>
 <lb ed="TX" n="1285a08"/><p xml:id="pTX09p1285a0801" style="margin-left:1em;text-indent:2em">（前略）貴社云：『可別種生而體一者，若光熱別種而生一火體，可同種生而
 <lb ed="TX" n="1285a09"/>體異者，若光光同種而生諸燈體』。於茲可見貴社中人，不但對於同種之義未能了
@@ -5330,9 +5527,13 @@
 <milestone unit="juan" n="27"/>
 <pb ed="TX" xml:id="TX09.0006.1289a" n="1289a"/>
 <lb ed="TX" n="1289a01"/><cb:div type="other"><cb:mulu type="其他" level="2">種子法爾熏生頌</cb:mulu><head>種子法爾熏生頌</head>
-<lb ed="TX" n="1289a02"/><list rend="no-marker"><item xml:id="itemTX09p1289a0201">一、法爾唯無覆，熏生通三性，無記通善惡，善通有無漏。</item>
-<lb ed="TX" n="1289a03"/><item xml:id="itemTX09p1289a0301">二、有覆通三性，無覆唯無記，有漏通無覆，無漏唯是善。</item>
-<lb ed="TX" n="1289a04"/><item xml:id="itemTX09p1289a0401">三、有覆始終有，無覆終無始，有為無漏種，有始而無終。</item></list>
+<lb ed="TX" n="1289a02"/><list rend="no-marker">
+  <item xml:id="itemTX09p1289a0201">一、法爾唯無覆，熏生通三性，無記通善惡，善通有無漏。</item>
+<lb ed="TX" n="1289a03"/>
+  <item xml:id="itemTX09p1289a0301">二、有覆通三性，無覆唯無記，有漏通無覆，無漏唯是善。</item>
+<lb ed="TX" n="1289a04"/>
+  <item xml:id="itemTX09p1289a0401">三、有覆始終有，無覆終無始，有為無漏種，有始而無終。</item>
+</list>
 <lb ed="TX" n="1289a05"/><byline cb:type="other"><note place="inline">見海刊四卷十一期</note></byline></cb:div>
 <milestone unit="juan" n="28"/>
 <pb ed="TX" xml:id="TX09.0006.1290a" n="1290a"/>
@@ -5357,11 +5558,18 @@
 <pb ed="TX" xml:id="TX09.0006.1292a" n="1292a"/>
 <lb ed="TX" n="1292a01"/><cb:div type="other"><cb:mulu type="其他" level="2">四大種之研究</cb:mulu><head>四大種之研究</head>
 <lb ed="TX" n="1292a02"/><byline cb:type="other">——十三年下學期在武昌佛學院講——</byline>
-<lb ed="TX" n="1292a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1292a0301">一　佛典地水火風之四大種與通俗所謂地水火風有何區別</item>
-<lb ed="TX" n="1292a04"/><item xml:id="itemTX09p1292a0401">二　四大種是種子是現行若是現行云何名種</item>
-<lb ed="TX" n="1292a05"/><item xml:id="itemTX09p1292a0501">三　四大種為何識所緣</item>
-<lb ed="TX" n="1292a06"/><item xml:id="itemTX09p1292a0601">四　四大種之大類區別有幾</item>
-<lb ed="TX" n="1292a07"/><item xml:id="itemTX09p1292a0701">五　身意二識所緣之四大種有大小久暫之限量賴耶所緣亦如是否</item></list></cb:div>
+<lb ed="TX" n="1292a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1292a0301">一　佛典地水火風之四大種與通俗所謂地水火風有何區別</item>
+<lb ed="TX" n="1292a04"/>
+  <item xml:id="itemTX09p1292a0401">二　四大種是種子是現行若是現行云何名種</item>
+<lb ed="TX" n="1292a05"/>
+  <item xml:id="itemTX09p1292a0501">三　四大種為何識所緣</item>
+<lb ed="TX" n="1292a06"/>
+  <item xml:id="itemTX09p1292a0601">四　四大種之大類區別有幾</item>
+<lb ed="TX" n="1292a07"/>
+  <item xml:id="itemTX09p1292a0701">五　身意二識所緣之四大種有大小久暫之限量賴耶所緣亦如是否</item>
+</list></cb:div>
 <lb ed="TX" n="1292a08"/>
 <lb ed="TX" n="1292a09"/><cb:div type="other"><cb:mulu type="其他" level="3">一　佛典地、水、火、風，之四大種，與通俗所謂地，水、火、風，有何區別？</cb:mulu><head>一　佛典地、水、火、風，之四大種，與通俗所謂地，水、火、風，有何區別？</head>
 <lb ed="TX" n="1292a10"/><p xml:id="pTX09p1292a1001" style="margin-left:0em;text-indent:2em">四大種、即堅、濕、煖、動之四性。種、乃能生義，大、乃普遍義；四大種者，
@@ -5461,7 +5669,8 @@
 <lb ed="TX" n="1300a01"/>異熟空時，則萬有之真境豁然開朗，顯現於大圓鏡中矣，故是現量。此即從華嚴之理
 <lb ed="TX" n="1300a02"/>法界觀，及天台三觀之空觀入手者。禪宗之參話頭，不涉解路，欲從前六及第八之現
 <lb ed="TX" n="1300a03"/>量上頓得相應，無階級可由，頗難契入。能究唯識之教，直觀吾人現行賴耶心相，本
-<lb ed="TX" n="1300a04"/>為事事無礙之佛智境，則頓依佛慧圓觀實相矣。學者於是當精進焉！</p></cb:div><byline cb:type="other">（研究員記，法
+<lb ed="TX" n="1300a04"/>為事事無礙之佛智境，則頓依佛慧圓觀實相矣。學者於是當精進焉！</p></cb:div>
+<byline cb:type="other">（研究員記，法
 <lb ed="TX" n="1300a05"/>芳編）<note place="inline">見海刊五卷十一期</note></byline></cb:div>
 <milestone unit="juan" n="31"/>
 <pb ed="TX" xml:id="TX09.0006.1301a" n="1301a"/>
@@ -5524,12 +5733,14 @@
 <lb ed="TX" n="1305a06"/>隨其經論之文義而融會之。如天台止觀云：陰者、陰蓋善法，此就因得名。又、陰是
 <lb ed="TX" n="1305a07"/>積集生死重沓，此就果得名。又仁王云：不可說識生諸有情色心二法，色名色蘊，心
 <lb ed="TX" n="1305a08"/>名四蘊；皆積聚性，隱覆真實。如此等文，可見天台用法性陰而融法相之蘊，其根據
-<lb ed="TX" n="1305a09"/>仍在陰義也。</p><byline cb:type="other">（法芳記）<note place="inline">見廬山學三之十一</note></byline></cb:div>
+<lb ed="TX" n="1305a09"/>仍在陰義也。</p>
+<byline cb:type="other">（法芳記）<note place="inline">見廬山學三之十一</note></byline></cb:div>
 <milestone unit="juan" n="32"/>
 <pb ed="TX" xml:id="TX09.0006.1306a" n="1306a"/>
 <lb ed="TX" n="1306a01"/><cb:div type="other"><cb:mulu type="其他" level="2">法與人之研究</cb:mulu><head>法與人之研究</head>
 <lb ed="TX" n="1306a02"/><byline cb:type="other">——二十年四月在南京覺林講——</byline>
-<lb ed="TX" n="1306a03"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX09p1306a0301" style="margin-left:0em;text-indent:2em">今天的講題是法與人之研究。下面分為二段：一段是法之研究，一段是人之研究
+<lb ed="TX" n="1306a03"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX09p1306a0301" style="margin-left:0em;text-indent:2em">今天的講題是法與人之研究。下面分為二段：一段是法之研究，一段是人之研究
 <lb ed="TX" n="1306a04"/>。本來佛學的大旨，就是說明「法空所顯真理」及「人空所顯真理」，所有佛學皆不
 <lb ed="TX" n="1306a05"/>出此二。現因要講佛學大意，所以提出這個題目。</p>
 <lb ed="TX" n="1306a06"/><p xml:id="pTX09p1306a0601" style="margin-left:0em;text-indent:2em">要了解法空所顯真理，又了解人空所顯真理，須要從「人」及「法」上加一番研
@@ -5841,7 +6052,8 @@
 <lb ed="TX" n="1330a07"/>，人各具有，當視各人之心理為出發點：自由活動，改善向上。有此自由創造活動之
 <lb ed="TX" n="1330a08"/>力，故有其豐富之意義，與廣大之價值，而人生之希望亦無窮！人之研究竟。</p>
 <lb ed="TX" n="1330a09"/><p xml:id="pTX09p1330a0901" style="margin-left:0em;text-indent:2em">茲請總結一語：學佛，乃證明人空、法空所顯之真理；達到宇宙人生究竟之至善
-<lb ed="TX" n="1330a10"/>！</p></cb:div><byline cb:type="other">（胡法智記）<note place="inline">見海刊十二卷十號</note></byline>
+<lb ed="TX" n="1330a10"/>！</p></cb:div>
+<byline cb:type="other">（胡法智記）<note place="inline">見海刊十二卷十號</note></byline>
 <lb ed="TX" n="1330a11"/><p xml:id="pTX09p1330a1101" style="margin-left:6em;text-indent:-4em">（附註）海刊題作：「法空人空與唯識」，今復原題之舊。</p></cb:div>
 <milestone unit="juan" n="33"/>
 <pb ed="TX" xml:id="TX09.0006.1331a" n="1331a"/>
@@ -5880,17 +6092,26 @@
 <lb ed="TX" n="1333a08"/>如不可說相用，遂以非難起信論真如無明相熏之義，何不觀於歐陽居士唯識抉擇談云
 <lb ed="TX" n="1333a09"/>：『雖則涅槃而是無住，不住生死，不住涅槃，盡未來際，作諸功德』。然作功德乃
 <lb ed="TX" n="1333a10"/>名無住，而相寂然仍名涅槃，涅槃即是無為，無為即是真如，圓詮了義，詎可不一致
-<lb ed="TX" n="1333a11"/>思耶？</p><byline cb:type="other">（唐大圓記）<note place="inline">見海刊四卷六期</note></byline></cb:div>
+<lb ed="TX" n="1333a11"/>思耶？</p>
+<byline cb:type="other">（唐大圓記）<note place="inline">見海刊四卷六期</note></byline></cb:div>
 <milestone unit="juan" n="34"/>
 <pb ed="TX" xml:id="TX09.0006.1334a" n="1334a"/>
 <lb ed="TX" n="1334a01"/><cb:div type="other"><cb:mulu type="其他" level="2">唯識觀大綱</cb:mulu><head>唯識觀大綱</head>
 <lb ed="TX" n="1334a02"/><byline cb:type="other">——十一年三月在漢陽歸元寺說——</byline>
-<lb ed="TX" n="1334a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1334a0301">一　引論</item>
-<lb ed="TX" n="1334a04"/><item xml:id="itemTX09p1334a0401">二　五位百法之唯識觀</item>
-<lb ed="TX" n="1334a05"/><item xml:id="itemTX09p1334a0501">三　依真有幻全幻即真之唯識觀</item>
-<lb ed="TX" n="1334a06"/><item xml:id="itemTX09p1334a0601">四　悟妄求真真覺妄空之唯識觀</item>
-<lb ed="TX" n="1334a07"/><item xml:id="itemTX09p1334a0701">五　空雲一處夢醒一心之唯識觀</item>
-<lb ed="TX" n="1334a08"/><item xml:id="itemTX09p1334a0801">六　五重層次之唯識觀</item></list></cb:div>
+<lb ed="TX" n="1334a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1334a0301">一　引論</item>
+<lb ed="TX" n="1334a04"/>
+  <item xml:id="itemTX09p1334a0401">二　五位百法之唯識觀</item>
+<lb ed="TX" n="1334a05"/>
+  <item xml:id="itemTX09p1334a0501">三　依真有幻全幻即真之唯識觀</item>
+<lb ed="TX" n="1334a06"/>
+  <item xml:id="itemTX09p1334a0601">四　悟妄求真真覺妄空之唯識觀</item>
+<lb ed="TX" n="1334a07"/>
+  <item xml:id="itemTX09p1334a0701">五　空雲一處夢醒一心之唯識觀</item>
+<lb ed="TX" n="1334a08"/>
+  <item xml:id="itemTX09p1334a0801">六　五重層次之唯識觀</item>
+</list></cb:div>
 <lb ed="TX" n="1334a09"/>
 <lb ed="TX" n="1334a10"/><cb:div type="other"><cb:mulu type="其他" level="3">一　引論</cb:mulu><head>一　引論</head>
 <lb ed="TX" n="1334a11"/><p xml:id="pTX09p1334a1101" style="margin-left:0em;text-indent:2em">若修唯識觀，當與唯識各經論之彌勒等菩薩，天親等論師，所發信願相同，始能
@@ -6074,7 +6295,8 @@
 <lb ed="TX" n="1348a12"/><cb:div type="other"><cb:mulu type="其他" level="3">五　空雲一處夢醒一心之唯識觀</cb:mulu><head>五　空雲一處夢醒一心之唯識觀</head>
 <pb ed="TX" xml:id="TX09.0006.1349a" n="1349a"/>
 <lb ed="TX" n="1349a01"/><p xml:id="pTX09p1349a0101" style="margin-left:0em;text-indent:2em">合上二觀以喻明之：</p>
-<lb ed="TX" n="1349a02"/><cb:div type="other"><cb:mulu type="其他" level="4">一　喻依真有幻全幻即真</cb:mulu><head>一　喻依真有幻全幻即真</head><p xml:id="pTX09p1349a0211" style="margin-left:0em;text-indent:2em" cb:place="inline">謂依空有雲，全雲即空，雲之有非自有，依空有也。
+<lb ed="TX" n="1349a02"/><cb:div type="other"><cb:mulu type="其他" level="4">一　喻依真有幻全幻即真</cb:mulu><head>一　喻依真有幻全幻即真</head>
+<p xml:id="pTX09p1349a0211" style="margin-left:0em;text-indent:2em" cb:place="inline">謂依空有雲，全雲即空，雲之有非自有，依空有也。
 <lb ed="TX" n="1349a03"/>無雲之空，喻一真心。不起根識身器全如虛空，根識身器起如空中生雲，頓呈昏闇之
 <lb ed="TX" n="1349a04"/>相。然雲不從虛空生而從汽生，喻根識身器不從真如生，而從阿陀那識一切種生也。
 <lb ed="TX" n="1349a05"/>汽由波動而凝聚為雲，即本識由末那無明之動而現諸蘊、界焉。夫雲之為幻，原無實
@@ -6089,7 +6311,8 @@
 <lb ed="TX" n="1350a01"/>若身若土，皆同幻現，諸佛證真、真可容幻，眾生在幻、幻亦含真。真幻不二、則真
 <lb ed="TX" n="1350a02"/>性即是幻性，空雲不二、則空處即是雲處；幻即同真，真即同幻，真幻相含，幻幻相
 <lb ed="TX" n="1350a03"/>含，所謂真俗不二之理事無礙、事事無礙觀是也。</p></cb:div>
-<lb ed="TX" n="1350a04"/><cb:div type="other"><cb:mulu type="其他" level="4">二　喻悟妄求真真覺妄空</cb:mulu><head>二　喻悟妄求真真覺妄空</head><p xml:id="pTX09p1350a0411" style="margin-left:0em;text-indent:2em" cb:place="inline">謂悟夢求醒，醒覺夢空。如觀現醒之物，皆同夢境，
+<lb ed="TX" n="1350a04"/><cb:div type="other"><cb:mulu type="其他" level="4">二　喻悟妄求真真覺妄空</cb:mulu><head>二　喻悟妄求真真覺妄空</head>
+<p xml:id="pTX09p1350a0411" style="margin-left:0em;text-indent:2em" cb:place="inline">謂悟夢求醒，醒覺夢空。如觀現醒之物，皆同夢境，
 <lb ed="TX" n="1350a05"/>則夢中之物，亦同醒境。夢不知夢，是為妄中執妄，醒定執醒，亦復未出妄中。醒境
 <lb ed="TX" n="1350a06"/>夢境，不離一心，是一心直貫世出世間，總持十法界而不可以區別者也。試以夢為喻
 <lb ed="TX" n="1350a07"/>：初地菩薩、知夢未離夢相，七地以上菩薩、夢醒未離醒相，從金剛後心至佛地、方
@@ -6108,7 +6331,8 @@
 <lb ed="TX" n="1351a07"/><p xml:id="pTX09p1351a0701" style="margin-left:0em;text-indent:2em">上來反覆推闡唯識觀之理，不外於從妄而顯真、即真而空幻，以歸到真幻一心、
 <lb ed="TX" n="1351a08"/>一心真幻之實相。是實相雖一，而觀非無漸次。茲更依古德所擬之五重唯識觀，提出
 <lb ed="TX" n="1351a09"/>重宣此義。</p>
-<lb ed="TX" n="1351a10"/><cb:div type="other"><cb:mulu type="其他" level="4">一　遣虛存實唯識觀</cb:mulu><head>一　遣虛存實唯識觀</head><p xml:id="pTX09p1351a1009" style="margin-left:0em;text-indent:2em" cb:place="inline">云何遣虛存實？即遣遍計所執之虛妄，而存依他、圓成之
+<lb ed="TX" n="1351a10"/><cb:div type="other"><cb:mulu type="其他" level="4">一　遣虛存實唯識觀</cb:mulu><head>一　遣虛存實唯識觀</head>
+<p xml:id="pTX09p1351a1009" style="margin-left:0em;text-indent:2em" cb:place="inline">云何遣虛存實？即遣遍計所執之虛妄，而存依他、圓成之
 <lb ed="TX" n="1351a11"/>實有也。前已云遍計所執，如認夢為實境，如執雲為固體，唯是虛妄；依他起性，如
 <lb ed="TX" n="1351a12"/>心現夢，如雲浮空，幻不離真而無自體。此云遣遍計執之虛，而存依他、圓成之實者
 <pb ed="TX" xml:id="TX09.0006.1352a" n="1352a"/>
@@ -6116,20 +6340,24 @@
 <lb ed="TX" n="1352a02"/>方為實，對虛說實，是為空有相對之唯識觀。復次、二諦又為性相二門，相依性而常
 <lb ed="TX" n="1352a03"/>顯，性離相而常住。起信論云：『一心生滅門』即是依他起性，『一心真如門』即是
 <lb ed="TX" n="1352a04"/>圓成實性；二者皆不離乎一心，此唯識所以成立也。</p></cb:div>
-<lb ed="TX" n="1352a05"/><cb:div type="other"><cb:mulu type="其他" level="4">二　捨濫留純唯識觀</cb:mulu><head>二　捨濫留純唯識觀</head><p xml:id="pTX09p1352a0509" style="margin-left:0em;text-indent:2em" cb:place="inline">一切諸法皆不離識，識分心、境，境別內、外。上云遣虛
+<lb ed="TX" n="1352a05"/><cb:div type="other"><cb:mulu type="其他" level="4">二　捨濫留純唯識觀</cb:mulu><head>二　捨濫留純唯識觀</head>
+<p xml:id="pTX09p1352a0509" style="margin-left:0em;text-indent:2em" cb:place="inline">一切諸法皆不離識，識分心、境，境別內、外。上云遣虛
 <lb ed="TX" n="1352a06"/>，僅遣去心外之虛妄執境，此云捨濫，乃將心內之相分境一並捨去，較為更進一層。
 <lb ed="TX" n="1352a07"/>然心外本無境，凡所緣皆心內相分，能緣皆是見分，悉統於百法之中。今就百法捨去
 <lb ed="TX" n="1352a08"/>十一色法，二十四不相應法，六變相所緣之無為法；所留者，為八識心王及五十一心
 <lb ed="TX" n="1352a09"/>所。留能緣心，捨所緣境，是為能所相對之唯識觀。</p></cb:div>
-<lb ed="TX" n="1352a10"/><cb:div type="other"><cb:mulu type="其他" level="4">三　攝末歸本唯識觀</cb:mulu><head>三　攝末歸本唯識觀</head><p xml:id="pTX09p1352a1009" style="margin-left:0em;text-indent:2em" cb:place="inline">心心所法各分本末，本者、心之自體，末者、自體上所現
+<lb ed="TX" n="1352a10"/><cb:div type="other"><cb:mulu type="其他" level="4">三　攝末歸本唯識觀</cb:mulu><head>三　攝末歸本唯識觀</head>
+<p xml:id="pTX09p1352a1009" style="margin-left:0em;text-indent:2em" cb:place="inline">心心所法各分本末，本者、心之自體，末者、自體上所現
 <lb ed="TX" n="1352a11"/>之相分、見分。上雖已捨相分，猶存見分之用，此則攝彼相見二分歸就識心之體。心
 <lb ed="TX" n="1352a12"/>體云何？即自證分也。謂攝取識心上之相分、見分，而歸於自證分。以鞭辟入裏，較
 <pb ed="TX" xml:id="TX09.0006.1353a" n="1353a"/>
 <lb ed="TX" n="1353a01"/>上二重更進一層也。是為體用相對之唯識觀。</p></cb:div>
-<lb ed="TX" n="1353a02"/><cb:div type="other"><cb:mulu type="其他" level="4">四　隱劣顯勝唯識觀</cb:mulu><head>四　隱劣顯勝唯識觀</head><p xml:id="pTX09p1353a0209" style="margin-left:0em;text-indent:2em" cb:place="inline">心王心所勝劣懸殊，心王為勝、心所為劣，以心所原為心
+<lb ed="TX" n="1353a02"/><cb:div type="other"><cb:mulu type="其他" level="4">四　隱劣顯勝唯識觀</cb:mulu><head>四　隱劣顯勝唯識觀</head>
+<p xml:id="pTX09p1353a0209" style="margin-left:0em;text-indent:2em" cb:place="inline">心王心所勝劣懸殊，心王為勝、心所為劣，以心所原為心
 <lb ed="TX" n="1353a03"/>王之所管領也。就勝義說，顯主體之心王而隱屬性之心所，亦由博而約、從粗而精之
 <lb ed="TX" n="1353a04"/>理，以便作觀耳。至此又去五十一心所，僅存八識心王，是為王所相對之唯識觀。</p></cb:div>
-<lb ed="TX" n="1353a05"/><cb:div type="other"><cb:mulu type="其他" level="4">五　遣相證性唯識觀</cb:mulu><head>五　遣相證性唯識觀</head><p xml:id="pTX09p1353a0509" style="margin-left:0em;text-indent:2em" cb:place="inline">心王雖尊，有事有理：事者、差別之相用，必須遣之；理
+<lb ed="TX" n="1353a05"/><cb:div type="other"><cb:mulu type="其他" level="4">五　遣相證性唯識觀</cb:mulu><head>五　遣相證性唯識觀</head>
+<p xml:id="pTX09p1353a0509" style="margin-left:0em;text-indent:2em" cb:place="inline">心王雖尊，有事有理：事者、差別之相用，必須遣之；理
 <lb ed="TX" n="1353a06"/>者、無差別之法性，必須證之。是為事理相對，事盡理顯，智無所得，入真唯識之唯
 <lb ed="TX" n="1353a07"/>識觀。</p>
 <lb ed="TX" n="1353a08"/><p xml:id="pTX09p1353a0801" style="margin-left:0em;text-indent:2em">上五重唯識觀，總核其理性可約為三義：一、周遍計度為唯識之虛妄法，屬妄執
@@ -6141,7 +6369,8 @@
 <lb ed="TX" n="1354a01"/>三重、為證得世俗兼攝道理勝義，第四重、為真實世俗兼攝證得勝義，第五重、為真
 <lb ed="TX" n="1354a02"/>實勝義。所云「虛妄」、是應離捨。「道理」、是當了悟通達。「證得」、是有修行
 <lb ed="TX" n="1354a03"/>，有成功者。「真實」、是無對待，無變易者。隨何一法，無不如是，諸法本性，是
-<lb ed="TX" n="1354a04"/>唯識性。循此觀想，夫亦可以悟唯識而證真如矣。</p></cb:div></cb:div><byline cb:type="other">（孫紹基、趙曾儔合記）<note place="inline">佛學院
+<lb ed="TX" n="1354a04"/>唯識性。循此觀想，夫亦可以悟唯識而證真如矣。</p></cb:div></cb:div>
+<byline cb:type="other">（孫紹基、趙曾儔合記）<note place="inline">佛學院
 <lb ed="TX" n="1354a05"/>印單行本</note></byline></cb:div>
 <milestone unit="juan" n="35"/>
 <pb ed="TX" xml:id="TX09.0006.1355a" n="1355a"/>
@@ -6163,12 +6392,14 @@
 <lb ed="TX" n="1356a04"/>若身若器等，莫不是五位諸法之一聚識故，而無拘局一隅之弊，其殊勝四。</p>
 <lb ed="TX" n="1356a05"/><p xml:id="pTX09p1356a0501" style="margin-left:0em;text-indent:2em">故作此觀，但明此理，無論何人皆可作之，無論何處皆可作之。他藥雖妙，每可
 <lb ed="TX" n="1356a06"/>由藥生病，獨此一藥，增益、損減之執，煩惱、所知之障，病無不治，更無從藥生病
-<lb ed="TX" n="1356a07"/>之虞，故為獨一無二大妙觀門！諸有智者，應勤修習！</p><byline cb:type="other"><note place="inline">見海刊五卷五期</note></byline></cb:div>
+<lb ed="TX" n="1356a07"/>之虞，故為獨一無二大妙觀門！諸有智者，應勤修習！</p>
+<byline cb:type="other"><note place="inline">見海刊五卷五期</note></byline></cb:div>
 <milestone unit="juan" n="36"/>
 <pb ed="TX" xml:id="TX09.0006.1357a" n="1357a"/>
 <lb ed="TX" n="1357a01"/><cb:div type="other"><cb:mulu type="其他" level="2">唯識之淨土</cb:mulu><head>唯識之淨土</head>
 <lb ed="TX" n="1357a02"/><byline cb:type="other">——十五年春在上海世界佛教居士林講——</byline>
-<lb ed="TX" n="1357a03"/><cb:div type="other"><cb:mulu type="其他" level="3">一　一切法中之識法</cb:mulu><head>一　一切法中之識法</head><p xml:id="pTX09p1357a0309" style="margin-left:0em;text-indent:2em" cb:place="inline">將以唯識明淨土，且先略說唯識義：欲知唯識義，應了一
+<lb ed="TX" n="1357a03"/><cb:div type="other"><cb:mulu type="其他" level="3">一　一切法中之識法</cb:mulu><head>一　一切法中之識法</head>
+<p xml:id="pTX09p1357a0309" style="margin-left:0em;text-indent:2em" cb:place="inline">將以唯識明淨土，且先略說唯識義：欲知唯識義，應了一
 <lb ed="TX" n="1357a04"/>切法。一切法者，有為、無為攝盡，其義繁廣，茲但簡談：</p>
 <lb ed="TX" n="1357a05"/><p xml:id="pTX09p1357a0501" style="margin-left:0em;text-indent:2em">有為者、有生滅作用義，無為者，無生滅作用義。有為法：一、假，假託他法顯
 <lb ed="TX" n="1357a06"/>明分位等差別相故。二、實，復二：曰色，曰心。色亦二：一、有對色，眼等根塵相
@@ -6183,7 +6414,8 @@
 <lb ed="TX" n="1358a04"/>深微細，不易了知。故深密云：『阿陀那（賴耶）識甚深細，一切種子如暴流，我於
 <lb ed="TX" n="1358a05"/>凡愚不開演，恐彼分別執為我』。如是八識，即百法五位中第一心法，亦即所謂識法
 <lb ed="TX" n="1358a06"/>也。</p></cb:div>
-<lb ed="TX" n="1358a07"/><cb:div type="other"><cb:mulu type="其他" level="3">二　一切法何以皆唯是識</cb:mulu><head>二　一切法何以皆唯是識</head><p xml:id="pTX09p1358a0711" style="margin-left:0em;text-indent:2em" cb:place="inline">問：八識即是識易解，心所亦唯識耶？答：八識心王
+<lb ed="TX" n="1358a07"/><cb:div type="other"><cb:mulu type="其他" level="3">二　一切法何以皆唯是識</cb:mulu><head>二　一切法何以皆唯是識</head>
+<p xml:id="pTX09p1358a0711" style="margin-left:0em;text-indent:2em" cb:place="inline">問：八識即是識易解，心所亦唯識耶？答：八識心王
 <lb ed="TX" n="1358a08"/>，稱自性唯識，心所乃心作用，決定與心相應而起，故亦唯識。問：根等能對塵等，
 <lb ed="TX" n="1358a09"/>應非唯識？答：根等係第八識變現之相分，復為第八識執受為自體者，故亦唯識。問
 <lb ed="TX" n="1358a10"/>：諸色等法，應非唯識，譬居士林設海寧路，在黃浦灘識不現故。答：此亦前五依托
@@ -6193,28 +6425,38 @@
 <lb ed="TX" n="1359a01"/>為自識相分而現，以是義故，諸色法等亦依識變，故亦唯是識。問：空間、時間等，
 <lb ed="TX" n="1359a02"/>亦唯識耶？答：彼皆色心等上分位之相，當亦唯識。問：諸無為法應非唯識？以無生
 <lb ed="TX" n="1359a03"/>滅故。答：有為法相用之體性，即無為法，故亦唯識。由是故一切所有皆唯識。</p></cb:div>
-<lb ed="TX" n="1359a04"/><cb:div type="other"><cb:mulu type="其他" level="3">三　淨穢器世間與第八識前六識</cb:mulu><head>三　淨穢器世間與第八識前六識</head><p xml:id="pTX09p1359a0414" style="margin-left:0em;text-indent:2em" cb:place="inline">淨者清淨，穢即劫等五濁，土者器世間。此淨
+<lb ed="TX" n="1359a04"/><cb:div type="other"><cb:mulu type="其他" level="3">三　淨穢器世間與第八識前六識</cb:mulu><head>三　淨穢器世間與第八識前六識</head>
+<p xml:id="pTX09p1359a0414" style="margin-left:0em;text-indent:2em" cb:place="inline">淨者清淨，穢即劫等五濁，土者器世間。此淨
 <lb ed="TX" n="1359a05"/>穢器世間，均唯識變，即第八相分；前五識托之變為色等五塵，是為依報。現此境時
 <lb ed="TX" n="1359a06"/>，第六隨前五分別物我等差別。而有情第七識，與此器世間無關，故此不列。</p></cb:div>
-<lb ed="TX" n="1359a07"/><cb:div type="other"><cb:mulu type="其他" level="3">四　有情染識上之穢土與佛菩薩淨識上之淨土</cb:mulu><head>四　有情染識上之穢土與佛菩薩淨識上之淨土</head><p xml:id="pTX09p1359a0720" style="margin-left:0em;text-indent:2em" cb:place="inline">識有染淨，所變亦異，故土不同
+<lb ed="TX" n="1359a07"/><cb:div type="other"><cb:mulu type="其他" level="3">四　有情染識上之穢土與佛菩薩淨識上之淨土</cb:mulu><head>四　有情染識上之穢土與佛菩薩淨識上之淨土</head>
+<p xml:id="pTX09p1359a0720" style="margin-left:0em;text-indent:2em" cb:place="inline">識有染淨，所變亦異，故土不同
 <lb ed="TX" n="1359a08"/>。三界、五趣有漏識變有漏穢土；諸佛菩薩清淨識變清淨淨土。問：淨土既由識變，
 <lb ed="TX" n="1359a09"/>應是虛幻？答：唯識不礙有他心，淨土是佛菩薩清淨識變，與當前穢土是有非無，相
 <lb ed="TX" n="1359a10"/>同。</p></cb:div>
-<lb ed="TX" n="1359a11"/><cb:div type="other"><cb:mulu type="其他" level="3">五　念佛人心上所托佛菩薩本質淨土與自心相分淨土</cb:mulu><head>五　念佛人心上所托佛菩薩本質淨土與自心相分淨土</head><p xml:id="pTX09p1359a1123" style="margin-left:0em;text-indent:2em" cb:place="inline">念佛人求生西方，先依經
+<lb ed="TX" n="1359a11"/><cb:div type="other"><cb:mulu type="其他" level="3">五　念佛人心上所托佛菩薩本質淨土與自心相分淨土</cb:mulu><head>五　念佛人心上所托佛菩薩本質淨土與自心相分淨土</head>
+<p xml:id="pTX09p1359a1123" style="margin-left:0em;text-indent:2em" cb:place="inline">念佛人求生西方，先依經
 <lb ed="TX" n="1359a12"/>教信有西方依正莊嚴，即此為佛菩薩無漏識上所現本質淨土。復托之變為自心上所緣
 <pb ed="TX" xml:id="TX09.0006.1360a" n="1360a"/>
 <lb ed="TX" n="1360a01"/>相分淨土，互為增上，乃現所了極樂世界。</p></cb:div>
-<lb ed="TX" n="1360a02"/><cb:div type="other"><cb:mulu type="其他" level="3">六　往生與自他共變淨土</cb:mulu><head>六　往生與自他共變淨土</head><p xml:id="pTX09p1360a0211" style="margin-left:0em;text-indent:2em" cb:place="inline">依佛菩薩悲願力所現依正莊嚴為增上緣，起自心清淨
+<lb ed="TX" n="1360a02"/><cb:div type="other"><cb:mulu type="其他" level="3">六　往生與自他共變淨土</cb:mulu><head>六　往生與自他共變淨土</head>
+<p xml:id="pTX09p1360a0211" style="margin-left:0em;text-indent:2em" cb:place="inline">依佛菩薩悲願力所現依正莊嚴為增上緣，起自心清淨
 <lb ed="TX" n="1360a03"/>心而變起自心淨土。此自心淨土與彌陀淨土，清淨相應，成為共變淨土，故得往生極
-<lb ed="TX" n="1360a04"/>樂淨土中。攝持於彌陀願力故，即得永不退轉於阿耨多羅三藐三菩提。</p></cb:div><byline cb:type="other">（王錫光記）
+<lb ed="TX" n="1360a04"/>樂淨土中。攝持於彌陀願力故，即得永不退轉於阿耨多羅三藐三菩提。</p></cb:div>
+<byline cb:type="other">（王錫光記）
 <lb ed="TX" n="1360a05"/><note place="inline">見上海居士林林刊十三期</note></byline></cb:div>
 <milestone unit="juan" n="37"/>
 <pb ed="TX" xml:id="TX09.0006.1361a" n="1361a"/>
 <lb ed="TX" n="1361a01"/><cb:div type="other"><cb:mulu type="其他" level="2">兜率淨土與十方淨土之比觀</cb:mulu><head>兜率淨土與十方淨土之比觀</head>
 <lb ed="TX" n="1361a02"/><byline cb:type="other">——二十五年四月在奉化雪竇寺講——</byline>
-<lb ed="TX" n="1361a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1361a0301">一　概說</item>
-<lb ed="TX" n="1361a04"/><item xml:id="itemTX09p1361a0401">二　十方淨土</item>
-<lb ed="TX" n="1361a05"/><item xml:id="itemTX09p1361a0501">三　兜率淨土</item></list></cb:div>
+<lb ed="TX" n="1361a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1361a0301">一　概說</item>
+<lb ed="TX" n="1361a04"/>
+  <item xml:id="itemTX09p1361a0401">二　十方淨土</item>
+<lb ed="TX" n="1361a05"/>
+  <item xml:id="itemTX09p1361a0501">三　兜率淨土</item>
+</list></cb:div>
 <lb ed="TX" n="1361a06"/>
 <lb ed="TX" n="1361a07"/><cb:div type="other"><cb:mulu type="其他" level="3">一　概說</cb:mulu><head>一　概說</head>
 <lb ed="TX" n="1361a08"/><p xml:id="pTX09p1361a0801" style="margin-left:0em;text-indent:2em">現在特別提出「兜率淨土與十方淨土」比觀一下：</p>
@@ -6251,7 +6493,8 @@
 <pb ed="TX" xml:id="TX09.0006.1364a" n="1364a"/>
 <lb ed="TX" n="1364a01"/>，是由人修習十善福德成辦，即是使人類德業增勝，社會進化成為清淨安樂；因此可
 <lb ed="TX" n="1364a02"/>早感彌勒下生成佛，亦為刱造人間淨土也。以上講十方淨土與兜率淨土之比觀，大約
-<lb ed="TX" n="1364a03"/>如是。</p></cb:div><byline cb:type="other">（智定記）<note place="inline">見海刊十七卷第六期</note></byline></cb:div>
+<lb ed="TX" n="1364a03"/>如是。</p></cb:div>
+<byline cb:type="other">（智定記）<note place="inline">見海刊十七卷第六期</note></byline></cb:div>
 <milestone unit="juan" n="38"/>
 <pb ed="TX" xml:id="TX09.0006.1365a" n="1365a"/>
 <lb ed="TX" n="1365a01"/><cb:div type="other"><cb:mulu type="其他" level="2">慈宗的名義</cb:mulu><head>慈宗的名義</head>
@@ -6261,7 +6504,11 @@
 <lb ed="TX" n="1365a05"/>戒本以軌其行，彌勒上生經以明其果，叫做慈宗三要。在敘文有幾句話：「遠稽乾竺
 <lb ed="TX" n="1365a06"/>，仰慈氏之德風；邇徵大唐，續慈恩之芳燄；歸宗有在，故曰慈宗」。是定這個慈宗
 <lb ed="TX" n="1365a07"/>名義的緣起。在平常看起來，慈宗似乎就是慈恩宗，其實不然，慈恩宗是唐高宗皇帝
-<lb ed="TX" n="1365a08"/>建大慈恩寺於<note n="1365a0801" resp="CBETA" type="add" rend="hide" note_key="TX09.1365a08.07">陝【CB】，陜【太虛】</note><app n="1365a0801"><lem wit="【太虛】">陜</lem><rdg resp="CBETA" type="cbetaRemark">陝</rdg></app>西長安，時玄奘三藏大宏新譯經論，高宗請玄奘法師住持大慈恩寺，
+<lb ed="TX" n="1365a08"/>建大慈恩寺於<note 
+n="1365a0801" resp="CBETA" type="add" rend="hide" note_key="TX09.1365a08.07">陝【CB】，陜【太虛】</note><app n="1365a0801">
+  <lem wit="【太虛】">陜</lem>
+  <rdg resp="CBETA" type="cbetaRemark">陝</rdg>
+</app>西長安，時玄奘三藏大宏新譯經論，高宗請玄奘法師住持大慈恩寺，
 <lb ed="TX" n="1365a09"/>其高足窺基法師繼起，都稱慈恩大師；主弘法相唯識教觀，此慈恩宗之所由立名也。
 <lb ed="TX" n="1365a10"/>但與慈宗雖不無小異，亦實有密切關係，然慈宗最重要者在宗奉慈氏菩薩，以上生內
 <pb ed="TX" xml:id="TX09.0006.1366a" n="1366a"/>
@@ -6307,13 +6554,15 @@
 <lb ed="TX" n="1369a01"/>齊限；大略可分五乘、三乘、一乘，及一乘的境、行、果的區別。也有經論可為共不
 <lb ed="TX" n="1369a02"/>共佛法總綱要之概論者，慈宗即以此共不共法總明一切佛法義理淺深之意旨，故慈宗
 <lb ed="TX" n="1369a03"/>就是一切佛法的總樞機。也就是從釋迦佛大圓覺海中，流布於世上以度生成佛之佛法
-<lb ed="TX" n="1369a04"/>全體大用、皆會歸宗依於當來下生慈氏佛，謂之曰慈宗也。</p><byline cb:type="other">（智定記）<note place="inline">見海刊十七卷
+<lb ed="TX" n="1369a04"/>全體大用、皆會歸宗依於當來下生慈氏佛，謂之曰慈宗也。</p>
+<byline cb:type="other">（智定記）<note place="inline">見海刊十七卷
 <lb ed="TX" n="1369a05"/>第六期</note></byline>
 <lb ed="TX" n="1369a06"/><p xml:id="pTX09p1369a0601" style="margin-left:6em;text-indent:-4em">（附註）此文原為「兜率淨土與十方淨土之比觀」的第四節，今離出獨立，題目仍
 <lb ed="TX" n="1369a07"/>舊。</p></cb:div></cb:div>
 <milestone unit="juan" n="39"/>
 <pb ed="TX" xml:id="TX09.0006.1371a" n="1371a"/>
-<lb ed="TX" n="1371a01"/><cb:div type="other"><cb:mulu type="其他" level="1">旁通抉擇</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">佛法總抉擇談</cb:mulu><head>佛法總抉擇談</head>
+<lb ed="TX" n="1371a01"/><cb:div type="other"><cb:mulu type="其他" level="1">旁通抉擇</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">佛法總抉擇談</cb:mulu><head>佛法總抉擇談</head>
 <lb ed="TX" n="1371a02"/><byline cb:type="other">——十一年十二月作——</byline>
 <lb ed="TX" n="1371a03"/><p xml:id="pTX09p1371a0301" style="margin-left:0em;text-indent:2em">昔基師既著唯識料簡，於法苑義林復有總料簡章之作。頃獲讀竟無居士之唯識抉
 <lb ed="TX" n="1371a04"/>擇談，十之八九，與吾意吻合無間。然以之專談唯識一宗，雖無不可，而置之佛法總
@@ -6374,7 +6623,11 @@
 <lb ed="TX" n="1375a09"/>　　　　　　　　　　　　　　　└等流真如……（即攝論之生境清淨）…密宗</p>
 <lb ed="TX" n="1375a10"/><p xml:id="pTX09p1375a1001" style="margin-left:0em;text-indent:2em">然此三宗雖皆統一切法無遺，其以方便施設言教，則於所托三性各有擴大縮小之
 <lb ed="TX" n="1375a11"/>異。般若宗最擴大遍計執性而縮小餘二性，凡名想之所及皆攝入遍計執，唯以絕言無
-<lb ed="TX" n="1375a12"/>得為依他起、圓成實故。故此宗說三性，遍計固<note n="1375a1201" resp="CBETA" type="add" rend="hide" note_key="TX09.1375a12.19">遍【CB】，偏【太虛】</note><app n="1375a1201"><lem wit="【太虛】">偏</lem><rdg resp="CBETA" type="cbetaRemark">遍</rdg></app>計，依他、圓成亦屬在遍計也。唯
+<lb ed="TX" n="1375a12"/>得為依他起、圓成實故。故此宗說三性，遍計固<note 
+n="1375a1201" resp="CBETA" type="add" rend="hide" note_key="TX09.1375a12.19">遍【CB】，偏【太虛】</note><app n="1375a1201">
+  <lem wit="【太虛】">偏</lem>
+  <rdg resp="CBETA" type="cbetaRemark">遍</rdg>
+</app>計，依他、圓成亦屬在遍計也。唯
 <pb ed="TX" xml:id="TX09.0006.1376a" n="1376a"/>
 <lb ed="TX" n="1376a01"/>識宗最擴大依他起性而縮小餘二性，以佛果有為無漏及遍計執之所遍計者皆攝入依他
 <lb ed="TX" n="1376a02"/>起，唯以由能遍計而起之能執、所執、為遍計執，及唯以無為體為真如故。故此宗說
@@ -6483,19 +6736,29 @@
 <lb ed="TX" n="1384a03"/><p xml:id="pTX09p1384a0301" style="margin-left:0em;text-indent:2em">其十談中，餘說大都契同，間有一二處亦可以前文會之，故不復一一。比年遊目
 <lb ed="TX" n="1384a04"/>佛法藏者日多，往往因智起愚，自生顛倒分別以蔽其明！蓋其心習側重於是，即落窠
 <lb ed="TX" n="1384a05"/>臼，執此為是，斥餘為非，不能砉然四解，說法無礙！得吾說以通之，庶幾裂疑網於
-<lb ed="TX" n="1384a06"/>重重。</p><byline cb:type="other"><note place="inline">見海刊三卷十二期</note></byline></cb:div>
+<lb ed="TX" n="1384a06"/>重重。</p>
+<byline cb:type="other"><note place="inline">見海刊三卷十二期</note></byline></cb:div>
 <milestone unit="juan" n="40"/>
 <pb ed="TX" xml:id="TX09.0006.1385a" n="1385a"/>
 <lb ed="TX" n="1385a01"/><cb:div type="other"><cb:mulu type="其他" level="2">三重法界觀</cb:mulu><head>三重法界觀</head>
 <lb ed="TX" n="1385a02"/><byline cb:type="other">——十一年春作——</byline>
-<lb ed="TX" n="1385a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1385a0301">一　三重法界義</item>
-<lb ed="TX" n="1385a04"/><item xml:id="itemTX09p1385a0401">二　觀聖教三學</item>
-<lb ed="TX" n="1385a05"/><item xml:id="itemTX09p1385a0501">三　觀佛華三法</item>
-<lb ed="TX" n="1385a06"/><item xml:id="itemTX09p1385a0601">四　觀法相三性</item>
-<lb ed="TX" n="1385a07"/><item xml:id="itemTX09p1385a0701">五　觀天台諦觀</item>
-<lb ed="TX" n="1385a08"/><item xml:id="itemTX09p1385a0801">六　觀賢首法界</item></list></cb:div>
+<lb ed="TX" n="1385a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1385a0301">一　三重法界義</item>
+<lb ed="TX" n="1385a04"/>
+  <item xml:id="itemTX09p1385a0401">二　觀聖教三學</item>
+<lb ed="TX" n="1385a05"/>
+  <item xml:id="itemTX09p1385a0501">三　觀佛華三法</item>
+<lb ed="TX" n="1385a06"/>
+  <item xml:id="itemTX09p1385a0601">四　觀法相三性</item>
+<lb ed="TX" n="1385a07"/>
+  <item xml:id="itemTX09p1385a0701">五　觀天台諦觀</item>
+<lb ed="TX" n="1385a08"/>
+  <item xml:id="itemTX09p1385a0801">六　觀賢首法界</item>
+</list></cb:div>
 <lb ed="TX" n="1385a09"/>
-<lb ed="TX" n="1385a10"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX09p1385a1001" style="margin-left:0em;text-indent:2em">華嚴宗立四重法界：一、理，二、事，三、理事無礙，四、事事無礙，而統以一
+<lb ed="TX" n="1385a10"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX09p1385a1001" style="margin-left:0em;text-indent:2em">華嚴宗立四重法界：一、理，二、事，三、理事無礙，四、事事無礙，而統以一
 <lb ed="TX" n="1385a11"/>真法界。今以其所言者未切符心境，另立三重法界為法本，回互交絡以觀其義。</p></cb:div>
 <lb ed="TX" n="1385a12"/><cb:div type="other"><cb:mulu type="其他" level="3">一　三重法界義</cb:mulu><head>一　三重法界義</head>
 <lb ed="TX" n="1385a13"/><p xml:id="pTX09p1385a1301" style="margin-left:0em;text-indent:2em">何謂三重法界？一、物我法界，二、心緣法界，三、性如法界。</p>
@@ -6634,7 +6897,8 @@
 <lb ed="TX" n="1395a02"/>體，無用能礙於用，諸浮現世間者皆是。「心緣」者，果所由起之實用，非體能緣於
 <lb ed="TX" n="1395a03"/>體，無相能起於相，諸世間轉依者皆是。「性如」者，非業非果之真體，非相不住於
 <lb ed="TX" n="1395a04"/>相，無用不捨於用。若能心不隨物，心契乎性，則「物我」覆礙空，「性如」朗顯，
-<lb ed="TX" n="1395a05"/>「心緣」自在！成佛之要，無捷於此。</p></cb:div></cb:div><byline cb:type="other"><note place="inline">見海刊三卷四期</note></byline></cb:div>
+<lb ed="TX" n="1395a05"/>「心緣」自在！成佛之要，無捷於此。</p></cb:div></cb:div>
+<byline cb:type="other"><note place="inline">見海刊三卷四期</note></byline></cb:div>
 <milestone unit="juan" n="41"/>
 <pb ed="TX" xml:id="TX09.0006.1396a" n="1396a"/>
 <lb ed="TX" n="1396a01"/><cb:div type="other"><cb:mulu type="其他" level="2">對辨唯識圓覺宗</cb:mulu><head>對辨唯識圓覺宗</head>
@@ -6779,7 +7043,8 @@
 <lb ed="TX" n="1406a12"/>所云之法性；然辨即性所起之相，必如彼所云之法相。</p>
 <pb ed="TX" xml:id="TX09.0006.1407a" n="1407a"/>
 <lb ed="TX" n="1407a01"/><p xml:id="pTX09p1407a0101" style="margin-left:0em;text-indent:2em">此在古師設此為揀，已無當矣！後師依之衍為八重對揀，每重五義，從初對揀性
-<lb ed="TX" n="1407a02"/>相至八對揀同別，更屬繳繞無已！故今一切斷之，統立一唯識圓覺宗。</p><byline cb:type="other"><note place="inline">見海刊三卷五期
+<lb ed="TX" n="1407a02"/>相至八對揀同別，更屬繳繞無已！故今一切斷之，統立一唯識圓覺宗。</p>
+<byline cb:type="other"><note place="inline">見海刊三卷五期
 <lb ed="TX" n="1407a03"/></note></byline></cb:div>
 <milestone unit="juan" n="42"/>
 <pb ed="TX" xml:id="TX09.0006.1408a" n="1408a"/>
@@ -6805,7 +7070,11 @@
 <lb ed="TX" n="1409a06"/>或佛果緣起，可參考緣起抉擇論——以釋此論，雖亦可通，究多未符之處，不能解人
 <lb ed="TX" n="1409a07"/>疑惑。成唯識論明境，多依異生心境而說，以揆此論立說之依據點，亦非恰當；故唯
 <lb ed="TX" n="1409a08"/>識家若古之慧沼、今之歐陽竟無等，每致駁難。予解此論，嘗著略釋、別說二書。今
-<lb ed="TX" n="1409a09"/>以時人依據成唯識論，對於此論頗多非撥，而主張此論之賢首家說，又不足<note n="1409a0901" resp="CBETA" type="add" rend="hide" note_key="TX09.1409a09.31">祛【CB】，袪【太虛】</note><app n="1409a0901"><lem wit="【太虛】">袪</lem><rdg resp="CBETA" type="cbetaRemark">祛</rdg></app>除其迷
+<lb ed="TX" n="1409a09"/>以時人依據成唯識論，對於此論頗多非撥，而主張此論之賢首家說，又不足<note 
+n="1409a0901" resp="CBETA" type="add" rend="hide" note_key="TX09.1409a09.31">祛【CB】，袪【太虛】</note><app n="1409a0901">
+  <lem wit="【太虛】">袪</lem>
+  <rdg resp="CBETA" type="cbetaRemark">祛</rdg>
+</app>除其迷
 <lb ed="TX" n="1409a10"/>謬，乃從成唯識論尋得此論立說之依據點，示全論之宗脈，裂千古之疑網，擇要以言
 <pb ed="TX" xml:id="TX09.0006.1410a" n="1410a"/>
 <lb ed="TX" n="1410a01"/>，不復詳其章句。</p>
@@ -7307,7 +7576,8 @@
 <lb ed="TX" n="1447a04"/>說法之意；三論是依法空觀智令空一切分別；禪宗是依自證現量境界掃除一切名言；
 <lb ed="TX" n="1447a05"/>乃至此論目的，則在開示菩薩心境，令不定聚眾生得成大乘正信。能善知此諸經論宗
 <lb ed="TX" n="1447a06"/>旨者，則於古人言教，可以無諍。餘義易知，不復委釋。釋尊成佛二千九百五十二年
-<lb ed="TX" n="1447a07"/>，日，沙門太虛作。</p></cb:div><byline cb:type="other"><note place="inline">佛學院單行本</note></byline></cb:div>
+<lb ed="TX" n="1447a07"/>，日，沙門太虛作。</p></cb:div>
+<byline cb:type="other"><note place="inline">佛學院單行本</note></byline></cb:div>
 <milestone unit="juan" n="44"/>
 <pb ed="TX" xml:id="TX09.0006.1448a" n="1448a"/>
 <lb ed="TX" n="1448a01"/><cb:div type="other"><cb:mulu type="其他" level="2">答起信論唯識釋質疑</cb:mulu><head>答起信論唯識釋質疑</head>
@@ -7383,11 +7653,13 @@
 <lb ed="TX" n="1453a08"/><p xml:id="pTX09p1453a0801" style="margin-left:0em;text-indent:2em">雖然、起信為馬鳴作，吾與歐陽居士同承認者。內院師資破斥過當，吾乃為釋以
 <lb ed="TX" n="1453a09"/>通其難。實乃吾非馬鳴，寧曰：必知馬鳴論意！唯以疑難不絕，則吾之解釋亦相與無
 <lb ed="TX" n="1453a10"/>窮。有味哉！歐陽君「馬鳴八地語略難知」之言！勇於攻難此論者，殆未知其難知耳
-<lb ed="TX" n="1453a11"/>！殆初得法喜，說之過詳耳！日將月諸，庶幾近之！</p><byline cb:type="other"><note place="inline">見海刊七卷六期</note></byline></cb:div>
+<lb ed="TX" n="1453a11"/>！殆初得法喜，說之過詳耳！日將月諸，庶幾近之！</p>
+<byline cb:type="other"><note place="inline">見海刊七卷六期</note></byline></cb:div>
 <milestone unit="juan" n="45"/>
 <pb ed="TX" xml:id="TX09.0006.1454a" n="1454a"/>
 <lb ed="TX" n="1454a01"/><cb:div type="other"><cb:mulu type="其他" level="2">竟無居士學說質疑</cb:mulu><head>竟無居士學說質疑</head>
-<lb ed="TX" n="1454a02"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX09p1454a0201" style="margin-left:0em;text-indent:2em">予並世所知識者，最心折歐陽竟無居士與章太炎居士之學問。曩昔讀太炎居士齊
+<lb ed="TX" n="1454a02"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX09p1454a0201" style="margin-left:0em;text-indent:2em">予並世所知識者，最心折歐陽竟無居士與章太炎居士之學問。曩昔讀太炎居士齊
 <lb ed="TX" n="1454a03"/>物論釋，於所說「上推緣生第一因不可得之自然」義，「器世間——若土水等——有
 <lb ed="TX" n="1454a04"/>末那識身識」義，與其他較小之二三義——菿漢微言等尚未及讀——，意頗非之。第
 <lb ed="TX" n="1454a05"/>以章君乃旁及佛言耳，故置之未有論。今不幸於竟無先生之所說，亦未能無所回惑！
@@ -7452,22 +7724,38 @@
 <lb ed="TX" n="1458a13"/>空慧，依唯識說明法相而成立唯識，應名空慧宗、唯識宗，不應名破相宗、法相宗也
 <pb ed="TX" xml:id="TX09.0006.1459a" n="1459a"/>
 <lb ed="TX" n="1459a01"/>。然此二宗，於依他起性上或偏說不壞有之空，或偏說不礙空之有，聊區別為大乘空
-<lb ed="TX" n="1459a02"/>宗大乘有宗，斯無不可！</p></cb:div><byline cb:type="other"><note place="inline">見海刊三卷六期</note></byline></cb:div>
+<lb ed="TX" n="1459a02"/>宗大乘有宗，斯無不可！</p></cb:div>
+<byline cb:type="other"><note place="inline">見海刊三卷六期</note></byline></cb:div>
 <milestone unit="juan" n="46"/>
 <pb ed="TX" xml:id="TX09.0006.1460a" n="1460a"/>
 <lb ed="TX" n="1460a01"/><cb:div type="other"><cb:mulu type="其他" level="2">論法相必宗唯識</cb:mulu><head>論法相必宗唯識</head>
 <lb ed="TX" n="1460a02"/><byline cb:type="other">——十四年夏在廬山講——</byline>
-<lb ed="TX" n="1460a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX09p1460a0301">一　出定義</item>
-<lb ed="TX" n="1460a04"/><item xml:id="itemTX09p1460a0401">二　遮彼計
-<lb ed="TX" n="1460a05"/><list rend="no-marker"><item xml:id="itemTX09p1460a0501">甲　判一本十支為二宗之非
-<lb ed="TX" n="1460a06"/><list rend="no-marker"><item xml:id="itemTX09p1460a0601">１　出今說理由之非</item>
-<lb ed="TX" n="1460a07"/><item xml:id="itemTX09p1460a0701">２　出今說判別之非</item></list></item>
-<lb ed="TX" n="1460a08"/><item xml:id="itemTX09p1460a0801">乙　括小乘佛智為法相之非
-<lb ed="TX" n="1460a09"/><list rend="no-marker"><item xml:id="itemTX09p1460a0901">１　出今說之大意</item>
-<lb ed="TX" n="1460a10"/><item xml:id="itemTX09p1460a1001">２　正明今說之非</item></list></item></list></item>
-<lb ed="TX" n="1460a11"/><item xml:id="itemTX09p1460a1101">三　結正義</item></list></cb:div>
+<lb ed="TX" n="1460a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX09p1460a0301">一　出定義</item>
+<lb ed="TX" n="1460a04"/>
+  <item xml:id="itemTX09p1460a0401">二　遮彼計
+<lb ed="TX" n="1460a05"/><list rend="no-marker">
+    <item xml:id="itemTX09p1460a0501">甲　判一本十支為二宗之非
+<lb ed="TX" n="1460a06"/><list rend="no-marker">
+      <item xml:id="itemTX09p1460a0601">１　出今說理由之非</item>
+<lb ed="TX" n="1460a07"/>
+      <item xml:id="itemTX09p1460a0701">２　出今說判別之非</item>
+    </list></item>
+<lb ed="TX" n="1460a08"/>
+    <item xml:id="itemTX09p1460a0801">乙　括小乘佛智為法相之非
+<lb ed="TX" n="1460a09"/><list rend="no-marker">
+      <item xml:id="itemTX09p1460a0901">１　出今說之大意</item>
+<lb ed="TX" n="1460a10"/>
+      <item xml:id="itemTX09p1460a1001">２　正明今說之非</item>
+    </list></item>
+  </list></item>
+<lb ed="TX" n="1460a11"/>
+  <item xml:id="itemTX09p1460a1101">三　結正義</item>
+</list></cb:div>
 <lb ed="TX" n="1460a12"/>
-<lb ed="TX" n="1460a13"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX09p1460a1301" style="margin-left:0em;text-indent:2em">識所唯法，法相而已。是故稱法相即括唯識，談唯識即攝法相。此義也，奘基以
+<lb ed="TX" n="1460a13"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX09p1460a1301" style="margin-left:0em;text-indent:2em">識所唯法，法相而已。是故稱法相即括唯識，談唯識即攝法相。此義也，奘基以
 <lb ed="TX" n="1460a14"/>還，無異議者；近人別法相與唯識為二宗，判若鴻溝，徒生支節，無當聖言。爰立自
 <lb ed="TX" n="1460a15"/>宗與之商榷。</p></cb:div>
 <lb ed="TX" n="1460a16"/><cb:div type="other"><cb:mulu type="其他" level="3">一　出定義</cb:mulu><head>一　出定義</head>
@@ -7500,7 +7788,8 @@
 <pb ed="TX" xml:id="TX09.0006.1463a" n="1463a"/>
 <lb ed="TX" n="1463a01"/>為入道。約緣生理建立法相宗；以後得攝根本，以如幻有詮教相，以六善巧為入道』
 <lb ed="TX" n="1463a02"/>。就彼立言，條而論之。</p>
-<lb ed="TX" n="1463a03"/><cb:div type="other"><cb:mulu type="其他" level="6">（一）緣起理對緣生理</cb:mulu><head>（一）緣起理對緣生理</head><p xml:id="pTX09p1463a0309" style="margin-left:0em;text-indent:2em" cb:place="inline">雜集論敘云：『緣起義是唯識義，故緣其因，說種子相
+<lb ed="TX" n="1463a03"/><cb:div type="other"><cb:mulu type="其他" level="6">（一）緣起理對緣生理</cb:mulu><head>（一）緣起理對緣生理</head>
+<p xml:id="pTX09p1463a0309" style="margin-left:0em;text-indent:2em" cb:place="inline">雜集論敘云：『緣起義是唯識義，故緣其因，說種子相
 <lb ed="TX" n="1463a04"/>。緣生義是法相義，故究其果，說成就相』。然種現因果不即不離，緣之所起，即從
 <lb ed="TX" n="1463a05"/>緣所生之一切法，究明一切法能起之緣，即唯識之理顯。據此二理，正見施設法相，
 <lb ed="TX" n="1463a06"/>必宗唯識，不應離唯識而另立法相宗。復次、宗者、謂所尊、所崇、所主、所尚，若
@@ -7511,11 +7800,13 @@
 <lb ed="TX" n="1463a11"/>則唯識是誰之宗？離唯識則法相以誰為宗？緣起理是明法相之宗，緣生理是明識宗之
 <lb ed="TX" n="1463a12"/>法，何得別為二宗？</p></cb:div>
 <pb ed="TX" xml:id="TX09.0006.1464a" n="1464a"/>
-<lb ed="TX" n="1464a01"/><cb:div type="other"><cb:mulu type="其他" level="6">（二）根本攝後得對後得攝根本</cb:mulu><head>（二）根本攝後得對後得攝根本</head><p xml:id="pTX09p1464a0113" style="margin-left:0em;text-indent:2em" cb:place="inline">根本智屬唯識，後得智屬法相，由根本攝後得
+<lb ed="TX" n="1464a01"/><cb:div type="other"><cb:mulu type="其他" level="6">（二）根本攝後得對後得攝根本</cb:mulu><head>（二）根本攝後得對後得攝根本</head>
+<p xml:id="pTX09p1464a0113" style="margin-left:0em;text-indent:2em" cb:place="inline">根本智屬唯識，後得智屬法相，由根本攝後得
 <lb ed="TX" n="1464a02"/>，則法相宗乎唯識；依後得顯根本，即法相而彰唯識。據此亦但能見其宗一，不能別
 <lb ed="TX" n="1464a03"/>立為二。且後得智所施設之法相，皆由緣真如後，模仿所起之能所分別相。以是法相
 <lb ed="TX" n="1464a04"/>諸法，皆唯有識。</p></cb:div>
-<lb ed="TX" n="1464a05"/><cb:div type="other"><cb:mulu type="其他" level="6">（三）四尋思入道對六善巧入道</cb:mulu><head>（三）四尋思入道對六善巧入道</head><p xml:id="pTX09p1464a0513" style="margin-left:0em;text-indent:2em" cb:place="inline">證唯識性，以四尋思為入道，由四尋思引得四
+<lb ed="TX" n="1464a05"/><cb:div type="other"><cb:mulu type="其他" level="6">（三）四尋思入道對六善巧入道</cb:mulu><head>（三）四尋思入道對六善巧入道</head>
+<p xml:id="pTX09p1464a0513" style="margin-left:0em;text-indent:2em" cb:place="inline">證唯識性，以四尋思為入道，由四尋思引得四
 <lb ed="TX" n="1464a06"/>如實智。真實品云：『云何了知如是分別？謂由四種尋思，四如實智故。云何名為四
 <lb ed="TX" n="1464a07"/>種尋思？一者、名尋思，二者、事尋思，三者、自性假立尋思，四者、差別假立尋思
 <lb ed="TX" n="1464a08"/>』。四尋思所引如實智者：『謂諸菩薩，於事尋思唯有事已，觀見一切色等想事，性
@@ -7527,7 +7818,8 @@
 <lb ed="TX" n="1465a01"/>之樞紐也。而六善巧之蘊、處、界、食、諦、緣、諸法，皆為後智所分別之幻有法相
 <lb ed="TX" n="1465a02"/>，以之入道，但是依教入理之道；不宗唯識之四尋思觀，不能從行證果入真見道，故
 <lb ed="TX" n="1465a03"/>法相必宗唯識。</p></cb:div>
-<lb ed="TX" n="1465a04"/><cb:div type="other"><cb:mulu type="其他" level="6">（四）唯有識觀心對如幻有詮教</cb:mulu><head>（四）唯有識觀心對如幻有詮教</head><p xml:id="pTX09p1465a0413" style="margin-left:0em;text-indent:2em" cb:place="inline">唯識為唯有識以觀心，是觀即行，行必證果。
+<lb ed="TX" n="1465a04"/><cb:div type="other"><cb:mulu type="其他" level="6">（四）唯有識觀心對如幻有詮教</cb:mulu><head>（四）唯有識觀心對如幻有詮教</head>
+<p xml:id="pTX09p1465a0413" style="margin-left:0em;text-indent:2em" cb:place="inline">唯識為唯有識以觀心，是觀即行，行必證果。
 <lb ed="TX" n="1465a05"/>法相以如幻有而詮教，教但顯理，理必起行，方能證果。凡舉一宗，皆具教理行果：
 <lb ed="TX" n="1465a06"/>唯識之教理即法相，法相之行果即唯識。且宗也者，正指統持教所明理之一集中點以
 <lb ed="TX" n="1465a07"/>言。故由法相教理，反博歸約而起行趨果者，正在唯識。唯識為唯有識以觀心，是故
@@ -7559,13 +7851,15 @@
 <lb ed="TX" n="1467a07"/>。茲舉小乘之法執，及大乘法性空慧，與華嚴法界辨別之。</p></cb:div>
 <lb ed="TX" n="1467a08"/><cb:div type="other"><cb:mulu type="其他" level="5">２　正明今說之非</cb:mulu><head>２　正明今說之非</head>
 <lb ed="TX" n="1467a09"/><p xml:id="pTX09p1467a0901" style="margin-left:0em;text-indent:2em">總上所出大意，姑分三段論之：</p>
-<lb ed="TX" n="1467a10"/><cb:div type="other"><cb:mulu type="其他" level="6">（一）空前之法執非法相</cb:mulu><head>（一）空前之法執非法相</head><p xml:id="pTX09p1467a1010" style="margin-left:0em;text-indent:2em" cb:place="inline">真實品敘云：『法相之體，即三自性，攝一切盡。五
+<lb ed="TX" n="1467a10"/><cb:div type="other"><cb:mulu type="其他" level="6">（一）空前之法執非法相</cb:mulu><head>（一）空前之法執非法相</head>
+<p xml:id="pTX09p1467a1010" style="margin-left:0em;text-indent:2em" cb:place="inline">真實品敘云：『法相之體，即三自性，攝一切盡。五
 <lb ed="TX" n="1467a11"/>法之法，但說依圓；相、名之相，唯依他起。……法相之法，法相之相，都無不通，
 <lb ed="TX" n="1467a12"/>都無不詳』。是故五法、三相是法相。雖然、五法也，三相也，皆菩薩空後安立。然
 <pb ed="TX" xml:id="TX09.0006.1468a" n="1468a"/>
 <lb ed="TX" n="1468a01"/>二乘之阿毗達磨，足證此空後所施設乎？縱覽婆沙、俱舍，都無是理。是故二乘法執
 <lb ed="TX" n="1468a02"/>之法，是法相唯識之所破，非可濫同唯識之如幻有。</p></cb:div>
-<lb ed="TX" n="1468a03"/><cb:div type="other"><cb:mulu type="其他" level="6">（二）遮破法執之空慧非法相</cb:mulu><head>（二）遮破法執之空慧非法相</head><p xml:id="pTX09p1468a0312" style="margin-left:0em;text-indent:2em" cb:place="inline">余嘗於中國大乘八家，觀其詮表宗依之相類者，
+<lb ed="TX" n="1468a03"/><cb:div type="other"><cb:mulu type="其他" level="6">（二）遮破法執之空慧非法相</cb:mulu><head>（二）遮破法執之空慧非法相</head>
+<p xml:id="pTX09p1468a0312" style="margin-left:0em;text-indent:2em" cb:place="inline">余嘗於中國大乘八家，觀其詮表宗依之相類者，
 <lb ed="TX" n="1468a04"/>判為三宗：一者、法性空慧宗，二者、法相唯識宗，三者、法界真淨宗。蓋遮執空慧
 <lb ed="TX" n="1468a05"/>，即此中之法性空慧。所謂遮執，即遣諸法相、名、分別，乃至能遣亦遣故，正智、
 <lb ed="TX" n="1468a06"/>如如亦不安立，入畢竟空，起法空慧，而直契一切法之平等體性。故此性言，即體性
@@ -7573,7 +7867,8 @@
 <lb ed="TX" n="1468a08"/>禪宗之離言契證故，亦屬此類。第以言遣言，故空慧立宗。而法相之相，由後得分別
 <lb ed="TX" n="1468a09"/>施設，乃相用之相，非體相之相。而體相離言，乃假空慧以遮執，是法性之宗空慧，
 <lb ed="TX" n="1468a10"/>空慧亦空。而相用之相，更非體性之相。故法性空慧宗，與法相唯識宗，二應有別。</p></cb:div>
-<lb ed="TX" n="1468a11"/><cb:div type="other"><cb:mulu type="其他" level="6">（三）安立非安立之圓融法界非法相</cb:mulu><head>（三）安立非安立之圓融法界非法相</head><p xml:id="pTX09p1468a1115" style="margin-left:0em;text-indent:2em" cb:place="inline">此圓融法界，即吾所判三宗中之法界真淨
+<lb ed="TX" n="1468a11"/><cb:div type="other"><cb:mulu type="其他" level="6">（三）安立非安立之圓融法界非法相</cb:mulu><head>（三）安立非安立之圓融法界非法相</head>
+<p xml:id="pTX09p1468a1115" style="margin-left:0em;text-indent:2em" cb:place="inline">此圓融法界，即吾所判三宗中之法界真淨
 <lb ed="TX" n="1468a12"/>宗。余於佛法總抉擇談立此為真如宗，蓋就起信論言，以起信總一切淨法名真如故，
 <pb ed="TX" xml:id="TX09.0006.1469a" n="1469a"/>
 <lb ed="TX" n="1469a01"/>今當正名為法界真淨宗。法、是一切諸法，即安立世俗諦，及非安立第一義諦。界、
@@ -7598,7 +7893,8 @@
 <lb ed="TX" n="1470a06"/>設之法為法相。</p>
 <lb ed="TX" n="1470a07"/><p xml:id="pTX09p1470a0701" style="margin-left:0em;text-indent:2em">近人不明能宗之教相，與所宗之宗趣，務於名相求精，承流不返，分而又分，浸
 <lb ed="TX" n="1470a08"/>假而唯識與法相裂為楚漢！浸假而唯識古學今學判若霄壤！不可不有以正之，以免蹈
-<lb ed="TX" n="1470a09"/>性相爭執之故轍！此余講此之微意也。</p></cb:div><byline cb:type="other">（滿智記）<note place="inline">見海刊六卷八期</note></byline></cb:div>
+<lb ed="TX" n="1470a09"/>性相爭執之故轍！此余講此之微意也。</p></cb:div>
+<byline cb:type="other">（滿智記）<note place="inline">見海刊六卷八期</note></byline></cb:div>
 <milestone unit="juan" n="47"/>
 <pb ed="TX" xml:id="TX09.0006.1471a" n="1471a"/>
 <lb ed="TX" n="1471a01"/><cb:div type="other"><cb:mulu type="其他" level="2">釋會覺質疑</cb:mulu><head>釋會覺質疑</head>
@@ -7688,7 +7984,8 @@
 <lb ed="TX" n="1477a10"/>誠亦有書多條說法相者，然不離法相所宗；亦有書多說法所宗者，然亦不離條說法相
 <lb ed="TX" n="1477a11"/>也。</p>
 <lb ed="TX" n="1477a12"/><p xml:id="pTX09p1477a1201" style="margin-left:0em;text-indent:2em">總觀彼攝論大義，關於分法相與唯識為二宗之根據，不外右之二端；餘可思准，
-<lb ed="TX" n="1477a13"/>故不一一。</p><byline cb:type="other"><note place="inline">見海刊九卷三期</note></byline></cb:div>
+<lb ed="TX" n="1477a13"/>故不一一。</p>
+<byline cb:type="other"><note place="inline">見海刊九卷三期</note></byline></cb:div>
 <milestone unit="juan" n="49"/>
 <pb ed="TX" xml:id="TX09.0006.1478a" n="1478a"/>
 <lb ed="TX" n="1478a01"/><cb:div type="other"><cb:mulu type="其他" level="2">閱「辨法相與唯識」</cb:mulu><head>閱「辨法相與唯識」</head>
@@ -7775,12 +8072,14 @@
 <lb ed="TX" n="1484a06"/>主張一色一香無非中道，法法具足三千諸法，也還是這個唯心說與心色平等說的
 <lb ed="TX" n="1484a07"/>差別。所以，單從無著、世親的論典來談法相與唯識，歐陽氏的分宗、能看出它
 <lb ed="TX" n="1484a08"/>的差別，虛大師的法相必宗唯識、能看出它的一致，都有相對的正確。但若從整
-<lb ed="TX" n="1484a09"/>個佛法來說：那應該：唯識必是法相的；法相不必宗唯識』。</p><byline cb:type="other"><note place="inline">印順法師講，向尚
+<lb ed="TX" n="1484a09"/>個佛法來說：那應該：唯識必是法相的；法相不必宗唯識』。</p>
+<byline cb:type="other"><note place="inline">印順法師講，向尚
 <lb ed="TX" n="1484a10"/>記</note></byline>
 <lb ed="TX" n="1484a11"/><p xml:id="pTX09p1484a1101" style="margin-left:0em;text-indent:2em">漢院員生研究會，由此成果，循以發展，是可喜事。但此文結論，仍限於空宗見
 <lb ed="TX" n="1484a12"/>，故未能以唯識還唯識——余不必宗唯識，但談唯識則宗唯識見談。</p>
 <pb ed="TX" xml:id="TX09.0006.1485a" n="1485a"/>
-<lb ed="TX" n="1485a01"/><cb:div type="other"><cb:mulu type="其他" level="3">一　法相必是不離識而唯識的</cb:mulu><head>一　法相必是不離識而唯識的</head><p xml:id="pTX09p1485a0113" style="margin-left:0em;text-indent:2em" cb:place="inline">以唯識見談唯識，則法相是已離法執而證二空後
+<lb ed="TX" n="1485a01"/><cb:div type="other"><cb:mulu type="其他" level="3">一　法相必是不離識而唯識的</cb:mulu><head>一　法相必是不離識而唯識的</head>
+<p xml:id="pTX09p1485a0113" style="margin-left:0em;text-indent:2em" cb:place="inline">以唯識見談唯識，則法相是已離法執而證二空後
 <lb ed="TX" n="1485a02"/>，識（智）上所變所現的（識及所現俱通性相染淨，識非限三界心心所，所現亦非限
 <lb ed="TX" n="1485a03"/>三界染法。「虛妄分別有」，亦先從異生所共心境發為論端耳）。王恩洋法相論以「
 <lb ed="TX" n="1485a04"/>無我唯法，無法但相」談法相，亦即明法相是我空、法空所顯；但更應說一句法相唯
@@ -7790,7 +8089,8 @@
 <lb ed="TX" n="1485a08"/>所變現而不離識，則皆為「法執」而非「法相」也。此吾於「法相必宗唯識」一文中
 <lb ed="TX" n="1485a09"/>，對於法執不得混同法相曾有辨明者。必明不離識變、識現乃為法相，故法相必皆是
 <lb ed="TX" n="1485a10"/>唯識也。</p></cb:div>
-<lb ed="TX" n="1485a11"/><cb:div type="other"><cb:mulu type="其他" level="3">二　從無著等論言法相應宗唯識</cb:mulu><head>二　從無著等論言法相應宗唯識</head><p xml:id="pTX09p1485a1114" style="margin-left:0em;text-indent:2em" cb:place="inline">唯識正是從所知的一切都與心識有關係說，更
+<lb ed="TX" n="1485a11"/><cb:div type="other"><cb:mulu type="其他" level="3">二　從無著等論言法相應宗唯識</cb:mulu><head>二　從無著等論言法相應宗唯識</head>
+<p xml:id="pTX09p1485a1114" style="margin-left:0em;text-indent:2em" cb:place="inline">唯識正是從所知的一切都與心識有關係說，更
 <lb ed="TX" n="1485a12"/>加以都是識所變緣或所顯現的優勝性上說唯。唯識諸論典從無說識不從四緣生的。故
 <pb ed="TX" xml:id="TX09.0006.1486a" n="1486a"/>
 <lb ed="TX" n="1486a01"/>說識絕對性，不是唯識師的主張太過，便是空論師的故為歪曲唯識義以肆攻擊耳。識
@@ -7799,7 +8099,8 @@
 <lb ed="TX" n="1486a04"/>唯識時，則一切法相必宗唯識了。後期空論師以自執有離識的空相與色法等，反之亦
 <lb ed="TX" n="1486a05"/>計唯識宗的識是離空離境之絕對性的，遂與諍辯。總由未證二空，住法執中執空執識
 <lb ed="TX" n="1486a06"/>，故於證二空後所顯法相唯識不能通達也。</p></cb:div>
-<lb ed="TX" n="1486a07"/><cb:div type="other"><cb:mulu type="其他" level="3">三　從全部佛法言諸法不必宗唯識</cb:mulu><head>三　從全部佛法言諸法不必宗唯識</head><p xml:id="pTX09p1486a0715" style="margin-left:0em;text-indent:2em" cb:place="inline">但云余不必宗唯識者，以法相雖皆不離識，
+<lb ed="TX" n="1486a07"/><cb:div type="other"><cb:mulu type="其他" level="3">三　從全部佛法言諸法不必宗唯識</cb:mulu><head>三　從全部佛法言諸法不必宗唯識</head>
+<p xml:id="pTX09p1486a0715" style="margin-left:0em;text-indent:2em" cb:place="inline">但云余不必宗唯識者，以法相雖皆不離識，
 <lb ed="TX" n="1486a08"/>同時一切法相亦皆不離一一法相（一色一香皆為法界），尤其一切法相皆自性空，皆
 <lb ed="TX" n="1486a09"/>即空假中；故由一切法性空而入法性空慧宗，由一切法皆即空假中而入法界圓覺宗，
 <lb ed="TX" n="1486a10"/>亦無不可。故吾以法性空慧、法相唯識、法界圓覺三宗皆了義，皆究竟也。空宗由一
@@ -7808,5 +8109,6 @@
 <pb ed="TX" xml:id="TX09.0006.1487a" n="1487a"/>
 <lb ed="TX" n="1487a01"/>常識或科學，未達哲學。哲學即究竟了義之謂）：不過從所依教門，一為常識哲學，
 <lb ed="TX" n="1487a02"/>一為科學哲學，一為玄學哲學。牽制以常識或科學或玄學而不通徹，遂為所限，每生
-<lb ed="TX" n="1487a03"/>偏蔽。</p></cb:div><byline cb:type="other">二月六日，在渝寓。<note place="inline">見海刊二十七卷第四期</note></byline></cb:div></cb:div>
+<lb ed="TX" n="1487a03"/>偏蔽。</p></cb:div>
+<byline cb:type="other">二月六日，在渝寓。<note place="inline">見海刊二十七卷第四期</note></byline></cb:div></cb:div>
 </body></text></TEI>

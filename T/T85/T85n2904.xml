@@ -2,82 +2,84 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T85n2904">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">七千佛神符經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2904 七千佛神符經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2904 七千佛神符經</title>
-			<author/>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">85</idno>.<idno type="no">2904</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2001-01-31T11:46:39">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">七千佛神符經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2904 七千佛神符經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2904 七千佛神符經</title>
+      <author/>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">85</idno>.<idno type="no">2904</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2001-01-31T11:46:39">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="1446a02" ed="T"/>
 <lb n="1446a03" ed="T"/><cb:docNumber>No. 2904</cb:docNumber>
-<lb n="1446a04" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="1446001" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 2708, 首題新加</note>佛說七千佛神符經</cb:jhead></cb:juan>
+<lb n="1446a04" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="1446001" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 2708, 首題新加</note>佛說七千佛神符經</cb:jhead></cb:juan>
 <lb n="1446a05" ed="T"/>
-<lb n="1446a06" ed="T"/><cb:div type="jing"><p xml:id="pT85p1446a0601"><note n="1446002" resp="Taisho" place="foot text" type="orig">首缺</note>人身延年益算。年一百二十歲。甲辰□□□
+<lb n="1446a06" ed="T"/><cb:div type="jing"><p xml:id="pT85p1446a0601"><note 
+n="1446002" resp="Taisho" place="foot text" type="orig">首缺</note>人身延年益算。年一百二十歲。甲辰□□□
 <lb n="1446a07" ed="T"/>□益算。七千佛守護人身。令不見惡□□□
 <lb n="1446a08" ed="T"/>□救我益算。七千佛為護人身斷諸□□□□
 <lb n="1446a09" ed="T"/>甲子。從佛益算人身命盡之者。□□□□千
@@ -110,10 +112,18 @@
 <lb n="1446b05" ed="T"/>散滅急急如律令。</p>
 <lb n="1446b06" ed="T"/><p xml:id="pT85p1446b0601">將軍在子。六月壬子朔二十日癸丑開白。千
 <lb n="1446b07" ed="T"/>佛神符保請百年。若月衰日衰。若歲衰時衰。
-<lb n="1446b08" ed="T"/>日忌當<note n="1446b0801" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b0801"><lem wit="【CB】" resp="CBETA">佩</lem><rdg wit="【大】"><g ref="#CB01887"/></rdg></app>符之後無有衰忌。千佛符厭令其人
+<lb n="1446b08" ed="T"/>日忌當<note 
+n="1446b0801" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b0801">
+  <lem wit="【CB】" resp="CBETA">佩</lem>
+  <rdg wit="【大】"><g ref="#CB01887"/></rdg>
+</app>符之後無有衰忌。千佛符厭令其人
 <lb n="1446b09" ed="T"/>過災度難延年益算。受符以後壽命延長。七
 <lb n="1446b10" ed="T"/>千佛神符請命。願受一百二十歲。得算備
-<lb n="1446b11" ed="T"/>足符。生之身。<note n="1446b1101" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b1101"><lem wit="【CB】" resp="CBETA">佩</lem><rdg wit="【大】"><g ref="#CB01887"/></rdg></app>符之後。諸佛生我。諸經載
+<lb n="1446b11" ed="T"/>足符。生之身。<note 
+n="1446b1101" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b1101">
+  <lem wit="【CB】" resp="CBETA">佩</lem>
+  <rdg wit="【大】"><g ref="#CB01887"/></rdg>
+</app>符之後。諸佛生我。諸經載
 <lb n="1446b12" ed="T"/>我。光明照我。陰陽長我。四時養我。五大將
 <lb n="1446b13" ed="T"/>我。五雲蓋我。菩薩護我。六百甲子覆我。五帝
 <lb n="1446b14" ed="T"/>助我。五音樂我。五兵衛我。星辰格我。五絲
@@ -121,7 +131,11 @@
 <lb n="1446b16" ed="T"/>扶我。玉女侍我。青龍引我。白虎狹我。守公
 <lb n="1446b17" ed="T"/>候使人受我。五姓敬我。萬姓榮我。長者順我。
 <lb n="1446b18" ed="T"/>鄉里媚我。弓箭刀兵盜賊離我。虎狼蚖蛇避
-<lb n="1446b19" ed="T"/>我。五毒蠱道避我之身。<note n="1446b1901" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b1901"><lem wit="【CB】" resp="CBETA">佩</lem><rdg wit="【大】"><g ref="#CB01887"/></rdg></app>符之後天開四通。
+<lb n="1446b19" ed="T"/>我。五毒蠱道避我之身。<note 
+n="1446b1901" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b1901">
+  <lem wit="【CB】" resp="CBETA">佩</lem>
+  <rdg wit="【大】"><g ref="#CB01887"/></rdg>
+</app>符之後天開四通。
 <lb n="1446b20" ed="T"/>百鬼不從。墮水不沒。刀兵不傷。出入吉良。不
 <lb n="1446b21" ed="T"/>逢禍殃。四方五岳將軍所護。無道備具。保
 <lb n="1446b22" ed="T"/>宣在前。賢懷敬我。良藥與我。神符護我。百鬼
@@ -131,7 +145,11 @@
 <lb n="1446b26" ed="T"/>厭山林社稷之鬼。符厭遊天之鬼。符厭赤舌
 <lb n="1446b27" ed="T"/>之鬼。符厭比舍五土注之鬼。符厭日遊土氣
 <lb n="1446b28" ed="T"/>之鬼。符厭星死之鬼。符厭客死之鬼。符厭兵
-<lb n="1446b29" ed="T"/>死獄死之鬼。弟子<note n="1446b2901" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b2901"><lem wit="【CB】" resp="CBETA">佩</lem><rdg wit="【大】"><g ref="#CB01887"/></rdg></app>千佛符之後。四出行來。
+<lb n="1446b29" ed="T"/>死獄死之鬼。弟子<note 
+n="1446b2901" resp="CBETA" type="add">佩【CB】，<g ref="#CB01887"/>【大】</note><app n="1446b2901">
+  <lem wit="【CB】" resp="CBETA">佩</lem>
+  <rdg wit="【大】"><g ref="#CB01887"/></rdg>
+</app>千佛符之後。四出行來。
 <lb n="1446b30" ed="T"/>千道無窮。萬道無難。臥不惡夢。所求常得。所
 <pb n="1446c" xml:id="T85.2904.1446c" ed="T"/>
 <lb n="1446c01" ed="T"/>願從心。千佛法正如符。所勅急急如律令。</p>

@@ -2,85 +2,92 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T02n0131">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛說婆羅門避死經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 131 佛說婆羅門避死經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 131 佛說婆羅門避死經</title>
-			<author>後漢 安世高譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">2</idno>.<idno type="no">131</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo / proofread twice by Mr. Chang Wen-Ming, Text as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供／張文明大德二校，維習安大德提供，北美某大德提供，法雨道場提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="1999-08-10T22:38:17">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛說婆羅門避死經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 131 佛說婆羅門避死經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 131 佛說婆羅門避死經</title>
+      <author>後漢 安世高譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">2</idno>.<idno type="no">131</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo / proofread twice by Mr. Chang Wen-Ming, Text as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供／張文明大德二校，維習安大德提供，北美某大德提供，法雨道場提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="1999-08-10T22:38:17">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0854b" ed="T" xml:id="T02.0131.0854b"/>
 <lb n="0854b01" ed="T"/>
 <lb n="0854b02" ed="T"/>
-<lb n="0854b03" ed="T"/><cb:docNumber>No. 131 [No. 125(31.4)]</cb:docNumber><cb:div type="jing">
+<lb n="0854b03" ed="T"/><cb:docNumber>No. 131 [No. 125(31.4)]</cb:docNumber>
+<cb:div type="jing">
 <lb n="0854b04" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><title>佛說婆羅門避死經</title></cb:jhead></cb:juan>
 <lb n="0854b05" ed="T"/>
-<lb n="0854b06" ed="T"/><byline cb:type="Translator">後漢<note n="0854001" resp="Taisho" type="orig" place="foot text">安息沙門＝三藏法師【三】</note><note n="0854001" resp="CBETA" type="mod">安息沙門【大】，三藏法師【宋】【元】【明】</note><app n="0854001"><lem wit="【大】">安息沙門</lem><rdg resp="Taisho" wit="【宋】【元】【明】">三藏法師</rdg></app>安世高譯</byline>
-<lb n="0854b07" ed="T"/><p xml:id="pT02p0854b0701">聞如是：</p><p xml:id="pT02p0854b0704" cb:place="inline">一時，婆伽婆在舍衛城祇樹給孤獨
+<lb n="0854b06" ed="T"/><byline cb:type="Translator">後漢<note 
+n="0854001" resp="Taisho" type="orig" place="foot text">安息沙門＝三藏法師【三】</note><note 
+n="0854001" resp="CBETA" type="mod">安息沙門【大】，三藏法師【宋】【元】【明】</note><app n="0854001">
+  <lem wit="【大】">安息沙門</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">三藏法師</rdg>
+</app>安世高譯</byline>
+<lb n="0854b07" ed="T"/><p xml:id="pT02p0854b0701">聞如是：</p>
+<p xml:id="pT02p0854b0704" cb:place="inline">一時，婆伽婆在舍衛城祇樹給孤獨
 <lb n="0854b08" ed="T"/>園。爾時，世尊告諸比丘：「昔有四婆羅門仙人，
 <lb n="0854b09" ed="T"/>精進修善法五通，常恐畏死。時，四婆羅門仙
 <lb n="0854b10" ed="T"/>人，精進修善法五通，便作是念：『我等當住何
@@ -91,15 +98,19 @@
 <lb n="0854b15" ed="T"/>即於海中命過。第三婆羅門，精進修善法，有
 <lb n="0854b16" ed="T"/>大威勢五通，畏死便入山腹，即於彼命終。彼
 <lb n="0854b17" ed="T"/>第四婆羅門，精進修善法五通，有大威勢，畏
-<lb n="0854b18" ed="T"/>死便入地，『我於彼當脫不死。』便於地命過。</p><p xml:id="pT02p0854b1817" cb:place="inline">「時
+<lb n="0854b18" ed="T"/>死便入地，『我於彼當脫不死。』便於地命過。</p>
+<p xml:id="pT02p0854b1817" cb:place="inline">「時
 <lb n="0854b19" ed="T"/>世尊以天眼見清淨無瑕，觀彼四婆羅門精
 <lb n="0854b20" ed="T"/>進修善法，有大威勢五通畏死，一人處虛空
 <lb n="0854b21" ed="T"/>於彼命過，一人入海亦於彼命過，一人入山
 <lb n="0854b22" ed="T"/>腹於彼命過，一人入地於彼命過。爾時，世尊
 <lb n="0854b23" ed="T"/>見彼四婆羅門精進修善法五通有大威勢，
 <lb n="0854b24" ed="T"/>便說偈言：</p>
-<lb n="0854b25" ed="T"/><lg type="regular" xml:id="lgT02p0854b2501" style="margin-left:1em;text-indent:-1em"><l>「非空非海中，<caesura/>非入山石間，</l>
-<lb n="0854b26" ed="T"/><l>無有地方所，<caesura/>脫之不受死。」</l></lg>
+<lb n="0854b25" ed="T"/><lg type="regular" xml:id="lgT02p0854b2501" style="margin-left:1em;text-indent:-1em">
+  <l>「非空非海中，<caesura/>非入山石間，</l>
+<lb n="0854b26" ed="T"/>
+  <l>無有地方所，<caesura/>脫之不受死。」</l>
+</lg>
 <lb n="0854b27" ed="T"/><p xml:id="pT02p0854b2701">爾時，比丘聞佛所說，歡喜奉行。</p>
 <lb n="0854b28" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>佛說婆羅門避死經</cb:jhead></cb:juan></cb:div>
 </body></text></TEI>

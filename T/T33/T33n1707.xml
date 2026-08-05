@@ -2,81 +2,82 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T33n1707">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">仁王般若經疏</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1707 仁王般若經疏</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1707 仁王般若經疏</title>
-			<author>隋 吉藏撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>3卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">33</idno>.<idno type="no">1707</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-03-28T11:44:15">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">仁王般若經疏</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1707 仁王般若經疏</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1707 仁王般若經疏</title>
+      <author>隋 吉藏撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">33</idno>.<idno type="no">1707</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-03-28T11:44:15">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0314b" ed="T" xml:id="T33.1707.0314b"/>
 <lb n="0314b01" ed="T"/>
 <lb n="0314b02" ed="T"/><cb:docNumber>No. 1707 [cf. No. 245]</cb:docNumber>
-<lb n="0314b03" ed="T"/><cb:juan n="001a" fun="open"><cb:mulu n="1a" type="卷">上一</cb:mulu><cb:jhead><note n="0314001" resp="Taisho" type="orig" place="foot text">【原】寬文元年刊宗教大學藏本</note>仁王般若經疏卷上一</cb:jhead></cb:juan>
+<lb n="0314b03" ed="T"/><cb:juan n="001a" fun="open"><cb:mulu n="1a" type="卷">上一</cb:mulu><cb:jhead><note 
+n="0314001" resp="Taisho" type="orig" place="foot text">【原】寬文元年刊宗教大學藏本</note>仁王般若經疏卷上一</cb:jhead></cb:juan>
 <lb n="0314b04" ed="T"/>
 <lb n="0314b05" ed="T"/><byline cb:type="author">吉藏法師撰</byline>
 <lb n="0314b06" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">1 序品</cb:mulu><head>佛說仁王護國般若波羅蜜經序品第一</head>
@@ -125,7 +126,8 @@
 <lb n="0314c19" ed="T"/>定說，更增其住著，所以不定出沒，動其生死
 <lb n="0314c20" ed="T"/>根栽，令得逈悟正法，故不定之說為益厚矣。
 <lb n="0314c21" ed="T"/>若學者定執經論一文以成一家之義，為謬甚
-<lb n="0314c22" ed="T"/>矣。</p><p xml:id="pT33p0314c2202" cb:place="inline">問：五部八部內何者攝也？答：五部如此經
+<lb n="0314c22" ed="T"/>矣。</p>
+<p xml:id="pT33p0314c2202" cb:place="inline">問：五部八部內何者攝也？答：五部如此經
 <lb n="0314c23" ed="T"/>說，八部者《大品》、《小品》、《光讚》、《放光》、《文殊問》、《金剛般
 <lb n="0314c24" ed="T"/>若》、《道行》、《天王問般若》。此《仁王問般若》是《天王
 <lb n="0314c25" ed="T"/>問般若》攝。人王亦是天王也，故知《天王問般
@@ -164,7 +166,8 @@
 <lb n="0315a28" ed="T"/>以般若不可思議故。」不生不滅者，是中道之
 <lb n="0315a29" ed="T"/>異名、不思議寂滅之別稱，亦名佛性，即十方
 <pb n="0315b" ed="T" xml:id="T33.1707.0315b"/>
-<lb n="0315b01" ed="T"/>佛母。一大事者，即其事也。</p><p xml:id="pT33p0315b0111" cb:place="inline">問：宗體有何差別？
+<lb n="0315b01" ed="T"/>佛母。一大事者，即其事也。</p>
+<p xml:id="pT33p0315b0111" cb:place="inline">問：宗體有何差別？
 <lb n="0315b02" ed="T"/>答：諸法本來寂滅，何宗何體？今欲為緣顯示，
 <lb n="0315b03" ed="T"/>於無名相中假名相說，分為異也。若就通門，
 <lb n="0315b04" ed="T"/>宗亦是體、體亦是宗。今約別門，輪輞喻宗，內
@@ -244,7 +247,8 @@
 <lb n="0316a18" ed="T"/>時」明聞經時節；四明佛化主；五明住處，明說
 <lb n="0316a19" ed="T"/>聽有方；六辨同聞，證不虛謬。然此六事，不可
 <lb n="0316a20" ed="T"/>一向屬阿難。</p>
-<lb n="0316a21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0316a2101">如是我聞：</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0316a2105">「如是我聞」得一向屬阿難。「一時」
+<lb n="0316a21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0316a2101">如是我聞：</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0316a2105">「如是我聞」得一向屬阿難。「一時」
 <lb n="0316a22" ed="T"/>已下，義有兩兼。若阿難結集法藏，遺旨令安，屬
 <lb n="0316a23" ed="T"/>經後；當說經時，非可無時處徒眾，以此而望，
 <lb n="0316a24" ed="T"/>即屬經前也。此是無名相中一時假名分別，
@@ -274,7 +278,8 @@
 <lb n="0316b18" ed="T"/>恐人不信阿難，以人廢道也。我與無我性無
 <lb n="0316b19" ed="T"/>有二，為世俗故說我耳。聞亦如是，耳根聲塵
 <lb n="0316b20" ed="T"/>及以耳識，三處無間和合亦不聞。今言聞者，
-<lb n="0316b21" ed="T"/>不聞聞也。</p><p xml:id="pT33p0316b2105" cb:place="inline">問：阿難是佛得道夜半生，年二十
+<lb n="0316b21" ed="T"/>不聞聞也。</p>
+<p xml:id="pT33p0316b2105" cb:place="inline">問：阿難是佛得道夜半生，年二十
 <lb n="0316b22" ed="T"/>五始來事佛。佛自成道所說甚多，其人並不
 <lb n="0316b23" ed="T"/>在坐，而悉稱我聞者，其義如何？答：《報恩經》第
 <lb n="0316b24" ed="T"/>六卷具述阿難乞諸願「所未聞經願佛重說」，
@@ -289,7 +294,13 @@
 <lb n="0316c03" ed="T"/>知不？』答曰：『不知。』又問：『我處在龍宮為諸龍說
 <lb n="0316c04" ed="T"/>法，汝知不？』答曰：『不知。』又問：『我昔處胎轉妙法
 <lb n="0316c05" ed="T"/>輪，汝知不？』答曰：『不知。』如是問竟，佛告阿難：『汝
-<lb n="0316c06" ed="T"/>今諦聽，我當為汝一一解<note n="0316001" resp="Taisho" type="orig" place="foot text">脫＝說？</note><note n="0316001" resp="CBETA" type="mod" note_key="T33.0316c06.11">說【CB】【卍續-CB】【考偽-大】，脫【大】</note><app n="0316001"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">說<note type="cf1">X26n0511_p0004a02</note></lem><rdg wit="【大】">脫</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">說</rdg></app>。』如來口密一時
+<lb n="0316c06" ed="T"/>今諦聽，我當為汝一一解<note 
+n="0316001" resp="Taisho" type="orig" place="foot text">脫＝說？</note><note 
+n="0316001" resp="CBETA" type="mod" note_key="T33.0316c06.11">說【CB】【卍續-CB】【考偽-大】，脫【大】</note><app n="0316001">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">說<note type="cf1">X26n0511_p0004a02</note></lem>
+  <rdg wit="【大】">脫</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">說</rdg>
+</app>。』如來口密一時
 <lb n="0316c07" ed="T"/>併授，阿難得佛覺三昧，一時併領。」阿難得佛覺
 <lb n="0316c08" ed="T"/>三昧，出《舍利弗問經》「阿難修悟不忘禪，宿習
 <lb n="0316c09" ed="T"/>總持，得佛覺三昧也。」若依《金剛仙論》，明三種
@@ -297,10 +308,12 @@
 <lb n="0316c11" ed="T"/>中乘阿難，即阿難陀婆羅，持中乘法藏；三小
 <lb n="0316c12" ed="T"/>乘阿難，即名阿難賢，持小乘法藏。今此經理
 <lb n="0316c13" ed="T"/>玄相寂、因圓果滿，廣大如法界、究竟如虛空，
-<lb n="0316c14" ed="T"/>故云阿難海稱我聞也。</p><p xml:id="pT33p0316c1410" cb:place="inline">問：《大智論》云「諸法皆
+<lb n="0316c14" ed="T"/>故云阿難海稱我聞也。</p>
+<p xml:id="pT33p0316c1410" cb:place="inline">問：《大智論》云「諸法皆
 <lb n="0316c15" ed="T"/>無」，云何稱我？答：雖知諸法皆無，隨俗故，世流
 <lb n="0316c16" ed="T"/>布語假名為我，故無過也。</p></cb:div>
-<lb n="0316c17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0316c1701">一時佛住王舍城。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0316c1708">一時者，即說經之時，如說
+<lb n="0316c17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0316c1701">一時佛住王舍城。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0316c1708">一時者，即說經之時，如說
 <lb n="0316c18" ed="T"/>《涅槃》，二月十五日。此經，三十年正月八日為
 <lb n="0316c19" ed="T"/>時。時有三種：一三摩耶時，即長時；二迦羅時，
 <lb n="0316c20" ed="T"/>是短時；三佉樓時，是不長不短時。今言時者，
@@ -337,8 +350,14 @@
 <lb n="0317a21" ed="T"/>吞併諸國，獲八萬四千王置五山內，立城治
 <lb n="0317a22" ed="T"/>化。以多王所舍，故云王舍城。諸因緣非一，不
 <lb n="0317a23" ed="T"/>能具述。</p></cb:div>
-<lb n="0317a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0317a2401">耆闍崛山中。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0317a2406">耆闍崛山中者，王舍城有六
-<lb n="0317a25" ed="T"/>精舍：一竹園精舍，在平地，迦<note n="0317001" resp="Taisho" type="orig" place="foot text">園＝蘭？</note><note n="0317001" resp="CBETA" type="mod">園【大】，蘭【考偽-大】</note><app n="0317001"><lem resp="Taisho" wit="【大】">園</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">蘭</rdg></app>陀長者之所
+<lb n="0317a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0317a2401">耆闍崛山中。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0317a2406">耆闍崛山中者，王舍城有六
+<lb n="0317a25" ed="T"/>精舍：一竹園精舍，在平地，迦<note 
+n="0317001" resp="Taisho" type="orig" place="foot text">園＝蘭？</note><note 
+n="0317001" resp="CBETA" type="mod">園【大】，蘭【考偽-大】</note><app n="0317001">
+  <lem resp="Taisho" wit="【大】">園</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">蘭</rdg>
+</app>陀長者之所
 <lb n="0317a26" ed="T"/>造，去城西北三十里；二少力獨上山精舍；三
 <lb n="0317a27" ed="T"/>七葉穴山精舍；四四天王穴山精舍；五蛇穴精
 <lb n="0317a28" ed="T"/>舍；六祇闍崛山精舍，此翻鷲頭山，耆闍名鷲，
@@ -348,7 +367,8 @@
 <lb n="0317b02" ed="T"/>獸來食，多集諸鷲鳥，故云鷲頭山也。五山者，
 <lb n="0317b03" ed="T"/>東方象頭、南方馬頭、西方羊頭、北方師子頭、中
 <lb n="0317b04" ed="T"/>央鷲頭也。</p></cb:div>
-<lb n="0317b05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0317b0501">與大比丘眾八百萬億學無學皆阿羅漢。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0317b0517">與
+<lb n="0317b05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0317b0501">與大比丘眾八百萬億學無學皆阿羅漢。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0317b0517">與
 <lb n="0317b06" ed="T"/>大比丘眾者，第六列同聞眾。夫一切經初列眾，
 <lb n="0317b07" ed="T"/>不出四種：一者影嚮眾、二者結緣眾、三者發
 <lb n="0317b08" ed="T"/>起眾、四者當機眾也。一影嚮眾者，如分身諸佛
@@ -366,7 +386,11 @@
 <lb n="0317b20" ed="T"/>故先列聲聞也。就聲聞眾中有五段：一舉大
 <lb n="0317b21" ed="T"/>比丘眾名、二列數、三出位、四歎德、五總結。與之
 <lb n="0317b22" ed="T"/>言共。大者名勝，亦云多。比丘五義，如《智度論》，
-<lb n="0317b23" ed="T"/>一名乞士、二名破煩惱、三名號比丘、<note n="0317b2301" resp="CBETA" type="add" note_key="T33.0317b23.15">四【CB】，匹【大】</note><app n="0317b2301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">四<note type="cf1">T33n1707_p0317b27</note></lem><rdg wit="【大】">匹</rdg></app>受戒名
+<lb n="0317b23" ed="T"/>一名乞士、二名破煩惱、三名號比丘、<note 
+n="0317b2301" resp="CBETA" type="add" note_key="T33.0317b23.15">四【CB】，匹【大】</note><app n="0317b2301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">四<note type="cf1">T33n1707_p0317b27</note></lem>
+  <rdg wit="【大】">匹</rdg>
+</app>受戒名
 <lb n="0317b24" ed="T"/>比丘、五名怖魔。乞士者，清淨活命，如舍利弗
 <lb n="0317b25" ed="T"/>因緣說也。破惡者，比名惡，丘名能，能破惡故
 <lb n="0317b26" ed="T"/>名比丘。三名號比丘，如胡漢夷處各各有號，
@@ -378,10 +402,15 @@
 <lb n="0317c02" ed="T"/>二阿羅漢名不生、三阿樓佉名殺賊。通徒一
 <lb n="0317c03" ed="T"/>一皆有三義。下三果人何故皆名羅漢？亦分
 <lb n="0317c04" ed="T"/>有三義，又舉勝以歎。</p></cb:div>
-<lb n="0317c05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0317c0501">有為功德、無為功德。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0317c0509">有為功德下，第四歎德。
+<lb n="0317c05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0317c0501">有為功德、無為功德。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0317c0509">有為功德下，第四歎德。
 <lb n="0317c06" ed="T"/>有為功德無為功德者，有為舉智德，無為是舉
 <lb n="0317c07" ed="T"/>斷德。若約境，道諦是有為，滅諦是無為。施
-<lb n="0317c08" ed="T"/>功名功，歸<note n="0317c0801" resp="CBETA" type="add" note_key="T33.0317c08.05">己【CB】，已【大】</note><app n="0317c0801"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己<note type="cf1">T33n1705_p0258c19</note></lem><rdg wit="【大】">已</rdg></app>曰德，故名功德也。</p></cb:div>
+<lb n="0317c08" ed="T"/>功名功，歸<note 
+n="0317c0801" resp="CBETA" type="add" note_key="T33.0317c08.05">己【CB】，已【大】</note><app n="0317c0801">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己<note type="cf1">T33n1705_p0258c19</note></lem>
+  <rdg wit="【大】">已</rdg>
+</app>曰德，故名功德也。</p></cb:div>
 <lb n="0317c09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0317c0901">無學十智、有學八智、有學六智、三根、十六心行。</p></cb:div>
 <lb n="0317c10" ed="T"/><cb:div type="commentary"><p xml:id="pT33p0317c1001">無學十智者，四諦法比等智、他心及盡、無生，
 <lb n="0317c11" ed="T"/>此第四果方具。有學八智者，是那含人，除盡、
@@ -407,7 +436,8 @@
 <lb n="0318a01" ed="T"/>十六諦。又解：亦可斷見道惑十六心，謂八忍、
 <lb n="0318a02" ed="T"/>八智是也。若依三藏法師所出十六心者，三十
 <lb n="0318a03" ed="T"/>心合為四、登地有十、金剛心、佛地，合十六也。</p></cb:div>
-<lb n="0318a04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0318a0401">法假虛實觀、受假虛實觀、名假虛實觀。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0318a0416">言法
+<lb n="0318a04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0318a0401">法假虛實觀、受假虛實觀、名假虛實觀。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0318a0416">言法
 <lb n="0318a05" ed="T"/>假觀者，五陰等法，是名法假。五陰成眾生，是
 <lb n="0318a06" ed="T"/>為受假。取上二假上名，是名名假。無體藉他，
 <lb n="0318a07" ed="T"/>名之為假。法假虛實觀者，相形解也，法假是
@@ -435,7 +465,8 @@
 <lb n="0318a29" ed="T"/>死逼迫名苦，不虛名諦。業及煩惱名集，不虛
 <pb n="0318b" ed="T" xml:id="T33.1707.0318b"/>
 <lb n="0318b01" ed="T"/>名諦。寂泊名滅，不虛名諦。八道分名道，不虛
-<lb n="0318b02" ed="T"/>名諦。</p><p xml:id="pT33p0318b0203" cb:place="inline">問：云何名諦？答：有人言以境為諦。若爾，
+<lb n="0318b02" ed="T"/>名諦。</p>
+<p xml:id="pT33p0318b0203" cb:place="inline">問：云何名諦？答：有人言以境為諦。若爾，
 <lb n="0318b03" ed="T"/>一切牛馬畜生亦應有諦。今解不爾，智照如
 <lb n="0318b04" ed="T"/>實名之為諦，故《思益經》云「知苦無生、集無和
 <lb n="0318b05" ed="T"/>合，於畢竟滅法中無生無滅，於一切法平等，
@@ -443,11 +474,20 @@
 <lb n="0318b07" ed="T"/>二因、現在五果，現在三因、未來二果，故云十二
 <lb n="0318b08" ed="T"/>也。無量功德皆成就下，第五總結也。</p></cb:div>
 <lb n="0318b09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0318b0901">復有八百萬億大仙緣覺，非斷非常四諦十二
-<lb n="0318b10" ed="T"/>緣皆成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0318b1005">復有八百萬下，第二列緣覺眾，有
+<lb n="0318b10" ed="T"/>緣皆成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0318b1005">復有八百萬下，第二列緣覺眾，有
 <lb n="0318b11" ed="T"/>四：初舉數、二標名、三歎德、四總結。初八百萬
 <lb n="0318b12" ed="T"/>者，舉數也。二標名，有三別：初大仙緣覺者，昔
-<lb n="0318b13" ed="T"/>因中作國王，將諸<note n="0318b1301" resp="CBETA" type="add">婇【CB】，綵【大】</note><app n="0318b1301"><lem resp="CBETA" wit="【CB】">婇</lem><rdg wit="【大】">綵</rdg></app>女入園遊戲竟，暫時睡
-<lb n="0318b14" ed="T"/>息。未睡之間，樹林精妙色葉蓊欝，忽爾<note n="0318b1401" resp="CBETA" type="add">婇【CB】，綵【大】</note><app n="0318b1401"><lem resp="CBETA" wit="【CB】">婇</lem><rdg wit="【大】">綵</rdg></app>女
+<lb n="0318b13" ed="T"/>因中作國王，將諸<note 
+n="0318b1301" resp="CBETA" type="add">婇【CB】，綵【大】</note><app n="0318b1301">
+  <lem resp="CBETA" wit="【CB】">婇</lem>
+  <rdg wit="【大】">綵</rdg>
+</app>女入園遊戲竟，暫時睡
+<lb n="0318b14" ed="T"/>息。未睡之間，樹林精妙色葉蓊欝，忽爾<note 
+n="0318b1401" resp="CBETA" type="add">婇【CB】，綵【大】</note><app n="0318b1401">
+  <lem resp="CBETA" wit="【CB】">婇</lem>
+  <rdg wit="【大】">綵</rdg>
+</app>女
 <lb n="0318b15" ed="T"/>毀壞。王即思惟：我不久亦當如此。以外況內
 <lb n="0318b16" ed="T"/>即成大辟支佛，故名大仙緣覺。二佛去世後，
 <lb n="0318b17" ed="T"/>閑居靜室結跏趺坐，獨悟思惟，忽然成道，名
@@ -458,15 +498,18 @@
 <lb n="0318b22" ed="T"/>德。觀十二因緣過去二因緣成現在五果，非
 <lb n="0318b23" ed="T"/>斷；現在三因緣入未來，非常。又從緣生，故非
 <lb n="0318b24" ed="T"/>斷；生已滅，故非常。又因緣相續有，非斷；即法無
-<lb n="0318b25" ed="T"/>自性，非常。皆成就者，第四總結也。</p><p xml:id="pT33p0318b2514" cb:place="inline">問：緣覺出
+<lb n="0318b25" ed="T"/>自性，非常。皆成就者，第四總結也。</p>
+<p xml:id="pT33p0318b2514" cb:place="inline">問：緣覺出
 <lb n="0318b26" ed="T"/>無佛世，無師自悟，今何故列為同聞眾？答：諸
 <lb n="0318b27" ed="T"/>大仙人在雪山中悟因緣以得道，今聞如來放
-<lb n="0318b28" ed="T"/>光動地，尋光而來，故阿難即列為同聞也。</p><p xml:id="pT33p0318b2817" cb:place="inline">第
+<lb n="0318b28" ed="T"/>光動地，尋光而來，故阿難即列為同聞也。</p>
+<p xml:id="pT33p0318b2817" cb:place="inline">第
 <lb n="0318b29" ed="T"/>三菩薩眾，有五：初列數、二標名、三位地、四歎德、
 <pb n="0318c" ed="T" xml:id="T33.1707.0318c"/>
 <lb n="0318c01" ed="T"/>五總結。</p></cb:div>
 <lb n="0318c02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0318c0201">復有九百萬億菩薩摩訶薩，皆阿羅漢實智功
-<lb n="0318c03" ed="T"/>德、方便智功德。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0318c0307">九百萬億者，列數。九千萬為
+<lb n="0318c03" ed="T"/>德、方便智功德。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0318c0307">九百萬億者，列數。九千萬為
 <lb n="0318c04" ed="T"/>九百億。菩薩摩訶薩下，二標名。摩訶薩，翻為
 <lb n="0318c05" ed="T"/>大道心眾生，應云摩訶菩提薩埵。此言大道
 <lb n="0318c06" ed="T"/>心眾生，以義訓釋。亦云開士，以道開物故也。
@@ -477,10 +520,15 @@
 <lb n="0318c11" ed="T"/>漢也。實智功德下，第四歎德。實智者，實相
 <lb n="0318c12" ed="T"/>般若。方便智者，方便般若。此實方便實，此方
 <lb n="0318c13" ed="T"/>便實方便也。亦云：鑒虛照實名實智，清淨功
-<lb n="0318c14" ed="T"/>用不著名方便智。功德者，施功名功，歸<note n="0318c1401" resp="CBETA" type="add" note_key="T33.0318c14.16">己【CB】，已【大】</note><app n="0318c1401"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己<note type="cf1">T33n1705_p0258c19</note></lem><rdg wit="【大】">已</rdg></app>曰
+<lb n="0318c14" ed="T"/>用不著名方便智。功德者，施功名功，歸<note 
+n="0318c1401" resp="CBETA" type="add" note_key="T33.0318c14.16">己【CB】，已【大】</note><app n="0318c1401">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己<note type="cf1">T33n1705_p0258c19</note></lem>
+  <rdg wit="【大】">已</rdg>
+</app>曰
 <lb n="0318c15" ed="T"/>德。亦云：忘功遺德，故云功德也。</p></cb:div>
 <lb n="0318c16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0318c1601">行獨大乘，四眼、五通、三達、十力、四無量心、四辯、
-<lb n="0318c17" ed="T"/>四攝、金剛滅定，一切功德皆成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0318c1714">行獨大乘
+<lb n="0318c17" ed="T"/>四攝、金剛滅定，一切功德皆成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0318c1714">行獨大乘
 <lb n="0318c18" ed="T"/>者，不雜二乘名行獨大乘。又菩薩有二種：一
 <lb n="0318c19" ed="T"/>者三乘化、二者純大乘。演讚其純大乘，故云行
 <lb n="0318c20" ed="T"/>獨大乘。四眼者，肉、天、慧、法。以菩薩在因，未得
@@ -510,7 +558,8 @@
 <lb n="0319a14" ed="T"/>剛力，碎身舍利是；金剛三昧，金剛滅定是。一
 <lb n="0319a15" ed="T"/>切功德皆成就者，第五總結也。</p></cb:div>
 <lb n="0319a16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0319a1601">復有千萬億五戒賢者，皆行阿羅漢，十地迴向，
-<lb n="0319a17" ed="T"/>五分法身具足，無量功德皆成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0319a1714">第四明五
+<lb n="0319a17" ed="T"/>五分法身具足，無量功德皆成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0319a1714">第四明五
 <lb n="0319a18" ed="T"/>戒賢者眾，有四：初列數、二標名、三歎德、四總
 <lb n="0319a19" ed="T"/>結也。初千萬億，舉數。五戒賢者，標名。如提婆
 <lb n="0319a20" ed="T"/>波利等問佛：「何不為我說四六戒？」佛答：「五戒
@@ -539,7 +588,8 @@
 <lb n="0319b15" ed="T"/>四總結也。</p></cb:div>
 <lb n="0319b16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0319b1601">復有十千五戒清信女，皆行阿羅漢，十地皆成
 <lb n="0319b17" ed="T"/>就，始生功德、住生功德、終生功德，三十生功德
-<lb n="0319b18" ed="T"/>皆成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0319b1804">第五復明清信女眾，有四：初舉數、
+<lb n="0319b18" ed="T"/>皆成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0319b1804">第五復明清信女眾，有四：初舉數、
 <lb n="0319b19" ed="T"/>二標名、三歎德、四總結。初十千者，舉數。清信
 <lb n="0319b20" ed="T"/>女者，標名。外國云優婆夷，此云清信女，夷者名
 <lb n="0319b21" ed="T"/>女。皆行阿羅漢者、十地等，如上說。始生，入地
@@ -548,7 +598,8 @@
 <lb n="0319b24" ed="T"/>三十生也。皆成就者，第四總結也。</p></cb:div>
 <lb n="0319b25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0319b2501">復有十億七賢居士，德行具足，二十二品、十一
 <lb n="0319b26" ed="T"/>切入、八除入、八解脫、三慧、十六諦、四諦四三二
-<lb n="0319b27" ed="T"/>一品觀，得九十忍，一切功德皆成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0319b2715">第六明
+<lb n="0319b27" ed="T"/>一品觀，得九十忍，一切功德皆成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0319b2715">第六明
 <lb n="0319b28" ed="T"/>七賢居士眾，亦四：初列數、二標名、三歎德、四
 <pb n="0319c" ed="T" xml:id="T33.1707.0319c"/>
 <lb n="0319c01" ed="T"/>總結。初列數，有十億者，十千為一萬，十萬為
@@ -591,7 +642,11 @@
 <lb n="0320a08" ed="T"/>法從二十二品至四三二一合八十一品，從
 <lb n="0320a09" ed="T"/>此法出四禪、四空、滅定合九十忍也。一切功
 <lb n="0320a10" ed="T"/>德下，第四總結也。</p></cb:div>
-<lb n="0320a11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320a1101">復有萬萬億九梵，三淨、三光、三<note n="0320a1101" resp="CBETA" type="add" note_key="T33.0320a11.13">梵【CB】，［－］【大】</note><app n="0320a1101"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">梵<note type="cf1">T08n0245_p0825a25</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>，五喜樂天，天定
+<lb n="0320a11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320a1101">復有萬萬億九梵，三淨、三光、三<note 
+n="0320a1101" resp="CBETA" type="add" note_key="T33.0320a11.13">梵【CB】，［－］【大】</note><app n="0320a1101">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">梵<note type="cf1">T08n0245_p0825a25</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>，五喜樂天，天定
 <lb n="0320a12" ed="T"/>功德定味常樂神通，十八生處功德皆成就。</p></cb:div>
 <lb n="0320a13" ed="T"/><cb:div type="commentary"><p xml:id="pT33p0320a1301">第七列梵眾，有四：初總標數、二別列名數、三歎
 <lb n="0320a14" ed="T"/>德、四總結。初以萬數萬故，故云萬萬億也。三
@@ -608,7 +663,8 @@
 <lb n="0320a25" ed="T"/>常樂神通者，修得神通、報得神通二種也。十
 <lb n="0320a26" ed="T"/>八生處功德皆成就，總結上四禪十八天也。</p></cb:div>
 <lb n="0320a27" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320a2701">復有億億六欲諸天子，十善果報神通功德皆
-<lb n="0320a28" ed="T"/>成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0320a2803">第八列欲界六天眾，有四：初列數、二
+<lb n="0320a28" ed="T"/>成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0320a2803">第八列欲界六天眾，有四：初列數、二
 <lb n="0320a29" ed="T"/>列名、三歎德、四總結。初億億者，億億重數也。
 <pb n="0320b" ed="T" xml:id="T33.1707.0320b"/>
 <lb n="0320b01" ed="T"/>六欲天下，第二列名。四天王，東方提頭賴吒，
@@ -622,7 +678,8 @@
 <lb n="0320b09" ed="T"/>十惡即為十善，得六天報故云十善報也。功
 <lb n="0320b10" ed="T"/>德皆成就下，第四總結也。</p></cb:div>
 <lb n="0320b11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320b1101">復有十六大國王，各各有一萬二萬乃至十萬
-<lb n="0320b12" ed="T"/>眷屬，五戒十善、三歸功德，清信行具足。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0320b1216">第九
+<lb n="0320b12" ed="T"/>眷屬，五戒十善、三歸功德，清信行具足。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0320b1216">第九
 <lb n="0320b13" ed="T"/>列人王眾，亦有四：初列數、二明眷屬、三歎德、四
 <lb n="0320b14" ed="T"/>總結。初云十六國者，列數也。各各下，明眷屬
 <lb n="0320b15" ed="T"/>也。五戒十善下，三歎德。三歸功德者，佛未出
@@ -631,14 +688,17 @@
 <lb n="0320b18" ed="T"/>歸敬正三寶。清信行者，四信成就，故云清信
 <lb n="0320b19" ed="T"/>也。又普得大乘正信，名清信也。言具足者，佛
 <lb n="0320b20" ed="T"/>法僧戒四信隨分具足也。</p></cb:div>
-<lb n="0320b21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320b2101">復有五道一切眾生。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0320b2109">第十列五道眾。或聖慈
+<lb n="0320b21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320b2101">復有五道一切眾生。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0320b2109">第十列五道眾。或聖慈
 <lb n="0320b22" ed="T"/>力得來法會，應列六道。修羅，鬼道攝故也。</p></cb:div>
-<lb n="0320b23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320b2301">復有他方不可量眾。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0320b2309">第十一列他方聖眾。文
+<lb n="0320b23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320b2301">復有他方不可量眾。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0320b2309">第十一列他方聖眾。文
 <lb n="0320b24" ed="T"/>相可知也。</p></cb:div>
 <lb n="0320b25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320b2501">復有變十方淨土現百億高座，化百億須彌寶
 <lb n="0320b26" ed="T"/>華，各各座前華上有無量化佛，有無量菩薩、比
 <lb n="0320b27" ed="T"/>丘、八部大眾，各各坐寶蓮華，華上皆有無量國
-<lb n="0320b28" ed="T"/>土。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0320b2802">第十二列變化眾。此是不思議菩薩，故能
+<lb n="0320b28" ed="T"/>土。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0320b2802">第十二列變化眾。此是不思議菩薩，故能
 <lb n="0320b29" ed="T"/>變十方淨土及佛眾等來至此土。就文為三：
 <pb n="0320c" ed="T" xml:id="T33.1707.0320c"/>
 <lb n="0320c01" ed="T"/>一明不思議力能變土；二有無量下，明不思
@@ -650,11 +710,19 @@
 <lb n="0320c07" ed="T"/>一剎利眾、二沙門眾、三婆羅門、四四天王眾、五
 <lb n="0320c08" ed="T"/>三十三天眾、六六欲天眾、七魔眾、八梵眾。又
 <lb n="0320c09" ed="T"/>言龍鬼八部者，一乾闥婆、二毘舍闍，此二屬提
-<lb n="0320c10" ed="T"/>頭賴吒天王；三名鳩盤荼、四名<note n="0320c1001" resp="CBETA" type="add">薜【CB】，薛【大】</note><app n="0320c1001"><lem resp="CBETA.maha" wit="【CB】">薜<note type="cf1">T54n2128_p0357a10</note><note type="cf2">T54n2128_p0615b02</note></lem><rdg wit="【大】">薛</rdg></app>荔多，此二
+<lb n="0320c10" ed="T"/>頭賴吒天王；三名鳩盤荼、四名<note 
+n="0320c1001" resp="CBETA" type="add">薜【CB】，薛【大】</note><app n="0320c1001">
+  <lem resp="CBETA.maha" wit="【CB】">薜<note type="cf1">T54n2128_p0357a10</note><note type="cf2">T54n2128_p0615b02</note></lem>
+  <rdg wit="【大】">薛</rdg>
+</app>荔多，此二
 <lb n="0320c11" ed="T"/>屬毘留勒叉天王；五龍、六富單那，此二屬毘
 <lb n="0320c12" ed="T"/>留博叉天王；七名夜叉、八名羅剎，此二屬毘
 <lb n="0320c13" ed="T"/>沙門天王。</p></cb:div>
-<lb n="0320c14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320c1401">一一國土，佛<note n="0320c1401" resp="CBETA" type="add" note_key="T33.0320c14.06">及【CB】，乃【大】</note><app n="0320c1401"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">及<note type="cf1">T08n0245_p0825b05</note></lem><rdg wit="【大】">乃</rdg></app>大眾如今無異。一一國土中一
+<lb n="0320c14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0320c1401">一一國土，佛<note 
+n="0320c1401" resp="CBETA" type="add" note_key="T33.0320c14.06">及【CB】，乃【大】</note><app n="0320c1401">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">及<note type="cf1">T08n0245_p0825b05</note></lem>
+  <rdg wit="【大】">乃</rdg>
+</app>大眾如今無異。一一國土中一
 <lb n="0320c15" ed="T"/>一佛及大眾，各各說般若波羅蜜，他方大眾及
 <lb n="0320c16" ed="T"/>化眾、此三界中眾，十二大眾皆來集會，坐九劫
 <lb n="0320c17" ed="T"/>蓮華座，其會方廣九百五十里，大眾僉然而坐。</p></cb:div>
@@ -666,7 +734,8 @@
 <lb n="0320c23" ed="T"/>二眾。言十二眾者，總結前三眾。九劫蓮華者，
 <lb n="0320c24" ed="T"/>九層華座也。廣九百五十里者，如雙林法會
 <lb n="0320c25" ed="T"/>十二由旬能容巨眾；今會亦爾，雖復局狹而
-<lb n="0320c26" ed="T"/>容甚多也。大眾僉然而坐者，皆坐聽法也。</p><p xml:id="pT33p0320c2617" cb:place="inline">問：
+<lb n="0320c26" ed="T"/>容甚多也。大眾僉然而坐者，皆坐聽法也。</p>
+<p xml:id="pT33p0320c2617" cb:place="inline">問：
 <lb n="0320c27" ed="T"/>何故諸天有不聞法者、三途而來受道？答：天
 <lb n="0320c28" ed="T"/>台智者言：於此《涅槃經》於戒緩者不名為緩，
 <lb n="0320c29" ed="T"/>於乘緩者乃名為緩。於此作四句分別，自
@@ -677,7 +746,8 @@
 <lb n="0321a04" ed="T"/>途，以其過去世修慧，故為聲光所招。俱急、俱
 <lb n="0321a05" ed="T"/>緩可知。</p></cb:div>
 <lb n="0321a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0321a0601">爾時十號三明大滅諦金剛智釋迦牟尼佛，初
-<lb n="0321a07" ed="T"/>年月八日方坐十地入大寂室三昧。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0321a0715">爾時十
+<lb n="0321a07" ed="T"/>年月八日方坐十地入大寂室三昧。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0321a0715">爾時十
 <lb n="0321a08" ed="T"/>號者，自此下次釋說經時節。就中有七段：第一
 <lb n="0321a09" ed="T"/>明如來入三昧分、第二放光、第三現華、第四地
 <lb n="0321a10" ed="T"/>動、第五疑問、第六作樂歎佛并召十方眾來集、
@@ -709,7 +779,8 @@
 <lb n="0321b06" ed="T"/>思而說耶？</p></cb:div>
 <lb n="0321b07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0321b0701">思緣放大光明照三界中，復於頂上出千寶蓮
 <lb n="0321b08" ed="T"/>華，華上至非想非非想天，光亦復爾，乃至他方
-<lb n="0321b09" ed="T"/>恒河沙諸佛國土。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0321b0908">文云思緣者，最大教起
+<lb n="0321b09" ed="T"/>恒河沙諸佛國土。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0321b0908">文云思緣者，最大教起
 <lb n="0321b10" ed="T"/>緣大智明察，故云思緣也。又解思緣者，欲說
 <lb n="0321b11" ed="T"/>般若，思無相義。緣者，緣如、法性理也。放大光
 <lb n="0321b12" ed="T"/>明下，說經時節中第二明放光。大光明者是
@@ -725,7 +796,8 @@
 <lb n="0321b22" ed="T"/>至他方者，非但照此方，亦遍十方也。恒河沙
 <lb n="0321b23" ed="T"/>佛國者，表化道相通也。</p></cb:div>
 <lb n="0321b24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0321b2401">時無色界雨無量變大香華、香如車輪、華如須
-<lb n="0321b25" ed="T"/>彌山王，如雲而下。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0321b2508">時無色界者，有人解云：無
+<lb n="0321b25" ed="T"/>彌山王，如雲而下。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0321b2508">時無色界者，有人解云：無
 <lb n="0321b26" ed="T"/>色界雖無麁色，有其細色。今解不然。色無色
 <lb n="0321b27" ed="T"/>相而無色不色，故云無色界。色欲諸天既聞
 <lb n="0321b28" ed="T"/>般若，歡喜雨華供養。就中有三：初無色界天
@@ -735,12 +807,14 @@
 <lb n="0321c02" ed="T"/>車輪、三華如須彌山，如雲而下。</p></cb:div>
 <lb n="0321c03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0321c0301">十八梵天王雨百變異色華，六欲諸天雨無量
 <lb n="0321c04" ed="T"/>色華。其佛座前自然生九百萬億劫華，上至非
-<lb n="0321c05" ed="T"/>想非非想天。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0321c0506">十八下，第二色界天雨百變異
+<lb n="0321c05" ed="T"/>想非非想天。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0321c0506">十八下，第二色界天雨百變異
 <lb n="0321c06" ed="T"/>色華；第三欲界天雨華中，初明無量華、次明
 <lb n="0321c07" ed="T"/>華生九百萬億劫華、次明華所及處也。初放
 <lb n="0321c08" ed="T"/>光欲令眾生破闇得明，次現華欲令眾生修
 <lb n="0321c09" ed="T"/>因得果也。</p></cb:div>
-<lb n="0321c10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0321c1001">是時世界其地六種震動。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0321c1011">是時世界其地六
+<lb n="0321c10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0321c1001">是時世界其地六種震動。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0321c1011">是時世界其地六
 <lb n="0321c11" ed="T"/>種者，第四神力動地。何故動地？欲動眾生有
 <lb n="0321c12" ed="T"/>所得心，令悟無所得般若也。六動者，東涌西
 <lb n="0321c13" ed="T"/>沒、西涌東沒、南涌北沒、北涌南沒、邊涌中
@@ -753,12 +827,14 @@
 <lb n="0321c20" ed="T"/>
 <lb n="0321c21" ed="T"/><byline cb:type="author">吉藏法師撰</byline>
 <lb n="0321c22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0321c2201">爾時諸大眾俱共僉然生疑，各相謂言：「四無所
-<lb n="0321c23" ed="T"/>畏、十八不共法、」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0321c2307">爾時諸大眾俱共僉然下，
+<lb n="0321c23" ed="T"/>畏、十八不共法、」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0321c2307">爾時諸大眾俱共僉然下，
 <lb n="0321c24" ed="T"/>說經時節中第五疑問分。就文有四別：初大
 <lb n="0321c25" ed="T"/>眾同疑；各相謂言下，第二發言論辨；前已為
 <lb n="0321c26" ed="T"/>我等下，第三序其疑事；時十六大國王下，第
 <lb n="0321c27" ed="T"/>四明如來事不可知。初文云僉然者，咸皆然
-<lb n="0321c28" ed="T"/>也。第二論辨，各相謂言者，互相諮<note n="0321c2801" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)" type="add" note_key="T33.0321c28.14">CBETA 按：《廣韻．魂韻》：「門，問也。」</note>門也。四無
+<lb n="0321c28" ed="T"/>也。第二論辨，各相謂言者，互相諮<note 
+n="0321c2801" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)" type="add" note_key="T33.0321c28.14">CBETA 按：《廣韻．魂韻》：「門，問也。」</note>門也。四無
 <lb n="0321c29" ed="T"/>畏者，欲出其疑情，先舉佛德，故明四無畏也。
 <pb n="0322a" ed="T" xml:id="T33.1707.0322a"/>
 <lb n="0322a01" ed="T"/>一一切智、二漏盡、三盡苦道、四說障道。通名
@@ -773,7 +849,8 @@
 <lb n="0322a10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0322a1001">「五眼法身大覺世尊，前已為我等大眾二十九
 <lb n="0322a11" ed="T"/>年說《摩訶般若波羅蜜》、《金剛般若波羅蜜》、《天王
 <lb n="0322a12" ed="T"/>問般若波羅蜜》、《光讚般若波羅蜜》，今日如來放
-<lb n="0322a13" ed="T"/>大光明，斯作何事？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0322a1308">五眼者，如來一眼即究竟
+<lb n="0322a13" ed="T"/>大光明，斯作何事？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0322a1308">五眼者，如來一眼即究竟
 <lb n="0322a14" ed="T"/>諸道，何須此五？將境即智，故有此五。肉眼者，
 <lb n="0322a15" ed="T"/>照金剛已還一切諸法皆盡。天眼者，照如來
 <lb n="0322a16" ed="T"/>果第一義諦，名為障外。慧眼者，照常無常等
@@ -792,7 +869,8 @@
 <lb n="0322a29" ed="T"/><cb:div type="orig"><p xml:id="pT33p0322a2901">時十六大國王中，舍衛國主波斯匿王，名曰月
 <pb n="0322b" ed="T" xml:id="T33.1707.0322b"/>
 <lb n="0322b01" ed="T"/>光，德行十地、六度、三十七品、四不壞淨，行摩訶
-<lb n="0322b02" ed="T"/>衍化。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0322b0203">時十六大國下，第四明如來事不可知。
+<lb n="0322b02" ed="T"/>衍化。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0322b0203">時十六大國下，第四明如來事不可知。
 <lb n="0322b03" ed="T"/>文有二：初出波斯匿王名；德行下，歎德。初釋
 <lb n="0322b04" ed="T"/>名者，且明二因緣：若依父母立名曰勝軍，與
 <lb n="0322b05" ed="T"/>如來同日而生，後人大雄略能破強敵，凡所
@@ -815,7 +893,8 @@
 <lb n="0322b22" ed="T"/>弘大乘也。</p></cb:div>
 <lb n="0322b23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0322b2301">次第問居士寶蓋、法淨名等八百人，復問須菩
 <lb n="0322b24" ed="T"/>提、舍利弗等五千人，復問彌勒、師子吼等十千
-<lb n="0322b25" ed="T"/>人，無能答者。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0322b2506">次第問者，請決所疑也。居士
+<lb n="0322b25" ed="T"/>人，無能答者。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0322b2506">次第問者，請決所疑也。居士
 <lb n="0322b26" ed="T"/>寶蓋乃至師子吼等十千人無能答者，如來
 <lb n="0322b27" ed="T"/>放光，不知欲說何等法？非下位所知，如來出
 <lb n="0322b28" ed="T"/>定會當自說，所以不答也。</p></cb:div>
@@ -828,7 +907,8 @@
 <lb n="0322c05" ed="T"/>北方虛空性菩薩，共百千萬億大眾俱，來入此
 <lb n="0322c06" ed="T"/>大會；西方善住菩薩，共十恒河沙大眾俱，來入
 <lb n="0322c07" ed="T"/>此大會；六方亦復如是。作樂亦然，亦復共作無
-<lb n="0322c08" ed="T"/>量音樂覺悟如來。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0322c0808">時波斯匿王下，說經時序
+<lb n="0322c08" ed="T"/>量音樂覺悟如來。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0322c0808">時波斯匿王下，說經時序
 <lb n="0322c09" ed="T"/>中第六明月光及諸天等作樂歎佛，召集十
 <lb n="0322c10" ed="T"/>方眾來聞經。就中有三：初月光作八萬種音
 <lb n="0322c11" ed="T"/>樂；二十八梵下，諸天作樂歎佛；三彼他方下，
@@ -838,7 +918,8 @@
 <lb n="0322c15" ed="T"/>機感佛耳。</p></cb:div>
 <lb n="0322c16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0322c1601">佛即知時，得眾生根，即從定起，方坐蓮華師子
 <lb n="0322c17" ed="T"/>座上，如金剛山王。大眾歡喜，各各現無量神通，
-<lb n="0322c18" ed="T"/>地及虛空大眾而住。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0322c1809">佛即知時下，說經時序
+<lb n="0322c18" ed="T"/>地及虛空大眾而住。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0322c1809">佛即知時下，說經時序
 <lb n="0322c19" ed="T"/>中第七明如來起三昧分。知時者，大乘法可
 <lb n="0322c20" ed="T"/>說之時。得眾生根者，知物機熟也。即從定起
 <lb n="0322c21" ed="T"/>者，明如來善深達緣起、善識物機，欲現大用故
@@ -856,10 +937,15 @@
 <lb n="0323a03" ed="T"/>金剛山王也。大眾歡喜各各現無量神通者，
 <lb n="0323a04" ed="T"/>上見如來入定廣現神力，情疑不決故，所以不
 <lb n="0323a05" ed="T"/>喜；今見出定，坐師子座將欲說法，決我等疑、
-<lb n="0323a06" ed="T"/>生我等解，慶利之深故名喜也。地<note n="0323a0601" resp="CBETA" type="add" note_key="T33.0323a06.14">及【CB】，乃【大】</note><app n="0323a0601"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">及<note type="cf1">T33n1707_p0322c18</note></lem><rdg wit="【大】">乃</rdg></app>虛空大
+<lb n="0323a06" ed="T"/>生我等解，慶利之深故名喜也。地<note 
+n="0323a0601" resp="CBETA" type="add" note_key="T33.0323a06.14">及【CB】，乃【大】</note><app n="0323a0601">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">及<note type="cf1">T33n1707_p0322c18</note></lem>
+  <rdg wit="【大】">乃</rdg>
+</app>虛空大
 <lb n="0323a07" ed="T"/>眾而住者，有神通者在空中停，無神通者在
 <lb n="0323a08" ed="T"/>地也。</p></cb:div>
-<lb n="0323a09" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">2 觀空品</cb:mulu><head>仁王護國般若波羅蜜經觀空品第二</head><p xml:id="pT33p0323a0916" cb:place="inline">上來
+<lb n="0323a09" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">2 觀空品</cb:mulu><head>仁王護國般若波羅蜜經觀空品第二</head>
+<p xml:id="pT33p0323a0916" cb:place="inline">上來
 <lb n="0323a10" ed="T"/>至此明序分，自此下明正說分。序義既周，正
 <lb n="0323a11" ed="T"/>宗宜顯，所以明正說也。就正宗文中，品雖有
 <lb n="0323a12" ed="T"/>六，義約為四：第一前之三品明能護波若亦
@@ -884,7 +970,8 @@
 <lb n="0323b01" ed="T"/>時波斯匿王下，散華供養。</p></cb:div>
 <lb n="0323b02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0323b0201">爾時佛告大眾：「知十六大國王意欲問護國土
 <lb n="0323b03" ed="T"/>因緣，吾今先為諸菩薩說護佛果因緣、護十地
-<lb n="0323b04" ed="T"/>行因緣。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0323b0404">爾時佛告大眾者，將欲為說，所以聖
+<lb n="0323b04" ed="T"/>行因緣。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0323b0404">爾時佛告大眾者，將欲為說，所以聖
 <lb n="0323b05" ed="T"/>命也。十六大國王意欲問護國土因緣者，王
 <lb n="0323b06" ed="T"/>者本欲令七難不起、妖災消滅，境土清夷、萬
 <lb n="0323b07" ed="T"/>民安樂，此王者本意。此則生下外護經文，即
@@ -894,7 +981,8 @@
 <lb n="0323b11" ed="T"/>護十地行者，生下〈教化品〉護因經文。</p></cb:div>
 <lb n="0323b12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0323b1201">「諦聽諦聽，善思念之，如法修行。」時波斯匿王言：
 <lb n="0323b13" ed="T"/>「善！大事因緣故。」即散百億種色華，變成百億寶
-<lb n="0323b14" ed="T"/>帳蓋諸大眾。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0323b1406">諦聽下，三明勅聽許說。將欲
+<lb n="0323b14" ed="T"/>帳蓋諸大眾。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0323b1406">諦聽下，三明勅聽許說。將欲
 <lb n="0323b15" ed="T"/>為說，先誡約時眾諦聽者，即聞慧也。善思念
 <lb n="0323b16" ed="T"/>之，即思慧也。如法修行，即修慧也。時波斯匿
 <lb n="0323b17" ed="T"/>王下，四散華供養。王言善者，述成如來所說
@@ -905,7 +993,8 @@
 <lb n="0323b22" ed="T"/>小華成寶帳也。蓋諸大眾者，表慈悲普覆
 <lb n="0323b23" ed="T"/>也。</p></cb:div>
 <lb n="0323b24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0323b2401">爾時大王復起作禮，白佛言：「世尊！一切菩薩云
-<lb n="0323b25" ed="T"/>何護佛果？云何護十地行因緣？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0323b2513">爾時大王復
+<lb n="0323b25" ed="T"/>何護佛果？云何護十地行因緣？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0323b2513">爾時大王復
 <lb n="0323b26" ed="T"/>起作禮下，品中大段第二月光諮問護果義。
 <lb n="0323b27" ed="T"/>就中有三問答，即為三別：初一問答明生法二
 <lb n="0323b28" ed="T"/>空本來寂滅與佛果無二。第二問眾生不可得，
@@ -913,16 +1002,24 @@
 <pb n="0323c" ed="T" xml:id="T33.1707.0323c"/>
 <lb n="0323c01" ed="T"/>空。智若是有，可辨照用；智既虛寂，云何可辨
 <lb n="0323c02" ed="T"/>照？答：法尚體空，何況於智。初問答中，初問、後
-<lb n="0323c03" ed="T"/>答。就問中二句：初月光<note n="0323001" resp="Taisho" type="orig" place="foot text">清＝請ヵ【原】</note><note n="0323001" resp="CBETA" type="mod" note_key="T33.0323c03.10">請【CB】【卍續-CB】【考偽-原】，清【大】</note><app n="0323001"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">請<note type="cf1">X26n0511_p0011c21</note></lem><rdg wit="【大】">清</rdg><rdg resp="Taisho" wit="【原】" type="correctionRemark">請</rdg></app>二一切菩薩下，出
+<lb n="0323c03" ed="T"/>答。就問中二句：初月光<note 
+n="0323001" resp="Taisho" type="orig" place="foot text">清＝請ヵ【原】</note><note 
+n="0323001" resp="CBETA" type="mod" note_key="T33.0323c03.10">請【CB】【卍續-CB】【考偽-原】，清【大】</note><app n="0323001">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">請<note type="cf1">X26n0511_p0011c21</note></lem>
+  <rdg wit="【大】">清</rdg>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">請</rdg>
+</app>二一切菩薩下，出
 <lb n="0323c04" ed="T"/>所請之事。初請中，大王復起作禮者，月光既
 <lb n="0323c05" ed="T"/>為扣玄之主，將欲興問，先表虔敬也。第二所
 <lb n="0323c06" ed="T"/>請事中，初句請護佛果、後句請護十地行。</p></cb:div>
 <lb n="0323c07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0323c0701">佛言：「菩薩化四生，不觀色如、受想行識如，眾生
 <lb n="0323c08" ed="T"/>我人常樂我淨如、知見壽者如、菩薩如、六度四
-<lb n="0323c09" ed="T"/>攝一切行如、二諦如。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0323c0909">佛言云下，第二佛答，中
+<lb n="0323c09" ed="T"/>攝一切行如、二諦如。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0323c0909">佛言云下，第二佛答，中
 <lb n="0323c10" ed="T"/>二：初總標化四生；二從不觀色如下，別約諸
 <lb n="0323c11" ed="T"/>科，釋生法二空不可得，同於如義，與佛果無
-<lb n="0323c12" ed="T"/>二無別。</p><p xml:id="pT33p0323c1204" cb:place="inline">問：月光既稱問護佛果因緣，佛應答
+<lb n="0323c12" ed="T"/>二無別。</p>
+<p xml:id="pT33p0323c1204" cb:place="inline">問：月光既稱問護佛果因緣，佛應答
 <lb n="0323c13" ed="T"/>佛果事，何故云化四生耶？答：諸師云云，不能
 <lb n="0323c14" ed="T"/>具出。今云欲示因果不二，明眾生畢竟空與
 <lb n="0323c15" ed="T"/>佛無別。故《淨名經》云「眾生如、彌勒如，一如無
@@ -987,7 +1084,8 @@
 <lb n="0324b14" ed="T"/>法而有差別」。見自他皆無為，即以無為為菩
 <lb n="0324b15" ed="T"/>薩體也。</p></cb:div>
 <lb n="0324b16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0324b1601">白佛言：「若諸法爾者，菩薩護化眾生，為化眾生
-<lb n="0324b17" ed="T"/>耶？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0324b1702">白佛言下，第二問答。月光重請前義，眾
+<lb n="0324b17" ed="T"/>耶？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0324b1702">白佛言下，第二問答。月光重請前義，眾
 <lb n="0324b18" ed="T"/>生尚不可得，云何可化就？文有二：初問、次答。
 <lb n="0324b19" ed="T"/>問中有三：初領上義。若諸法爾者，牒前也。二
 <lb n="0324b20" ed="T"/>舉疑事。菩薩護化眾生者，王雖聞上說四生
@@ -998,7 +1096,8 @@
 <lb n="0324b25" ed="T"/>故生疑也。</p></cb:div>
 <lb n="0324b26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0324b2601">「大王！法性色受想行識常樂我淨，不住色、不住
 <lb n="0324b27" ed="T"/>非色、不住非非色，乃至受想行識亦不住非非
-<lb n="0324b28" ed="T"/>住。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0324b2802">大王下，第二答。文有五別：初約悟入以
+<lb n="0324b28" ed="T"/>住。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0324b2802">大王下，第二答。文有五別：初約悟入以
 <lb n="0324b29" ed="T"/>答，若就諸佛菩薩心，本無所化及能化；二約
 <pb n="0324c" ed="T" xml:id="T33.1707.0324c"/>
 <lb n="0324c01" ed="T"/>出用，隨世諦故，有可化眾生耳；三還結歸悟
@@ -1039,7 +1138,11 @@
 <lb n="0325a06" ed="T"/>神及世間亦常無常是事實，餘妄語，是見依
 <lb n="0325a07" ed="T"/>色。神及世間非常非無常是事實，餘妄語，是
 <lb n="0325a08" ed="T"/>見依色。色上有四句，受想行識上亦各具四
-<lb n="0325a09" ed="T"/>句，合有二十句。世界<note n="0325a0901" resp="CBETA" type="add" note_key="T33.0325a09.09">有【CB】，無【大】</note><app n="0325a0901"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">有<note type="cf1">T25n1509_p0074c11</note></lem><rdg wit="【大】">無</rdg></app>邊無邊，亦歷五陰有
+<lb n="0325a09" ed="T"/>句，合有二十句。世界<note 
+n="0325a0901" resp="CBETA" type="add" note_key="T33.0325a09.09">有【CB】，無【大】</note><app n="0325a0901">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">有<note type="cf1">T25n1509_p0074c11</note></lem>
+  <rdg wit="【大】">無</rdg>
+</app>邊無邊，亦歷五陰有
 <lb n="0325a10" ed="T"/>二十句。死後如去不如去，歷五陰復二十句。
 <lb n="0325a11" ed="T"/>合六十句。身即神、身異神，復有二句，合為六
 <lb n="0325a12" ed="T"/>十二見也。第五結，若能隨俗名字見，實無
@@ -1049,8 +1152,14 @@
 <lb n="0325a16" ed="T"/>也。</p></cb:div>
 <lb n="0325a17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0325a1701">白佛言：「般若波羅蜜有法非非法，摩訶衍云何
 <lb n="0325a18" ed="T"/>照？」「大王！摩訶衍見非非法，法若非非法，是名非
-<lb n="0325a19" ed="T"/>非法空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0325a1904">白佛言般若波羅蜜下，第三明智照。
-<lb n="0325a20" ed="T"/>文問答為二。問云：<note n="0325001" resp="Taisho" type="orig" place="foot text">波＝般？</note><note n="0325001" resp="CBETA" type="mod">波【大】，般【考偽-大】</note><app n="0325001"><lem resp="Taisho" wit="【大】">波</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">般</rdg></app>若為是有法、為是無法？
+<lb n="0325a19" ed="T"/>非法空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0325a1904">白佛言般若波羅蜜下，第三明智照。
+<lb n="0325a20" ed="T"/>文問答為二。問云：<note 
+n="0325001" resp="Taisho" type="orig" place="foot text">波＝般？</note><note 
+n="0325001" resp="CBETA" type="mod">波【大】，般【考偽-大】</note><app n="0325001">
+  <lem resp="Taisho" wit="【大】">波</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">般</rdg>
+</app>若為是有法、為是無法？
 <lb n="0325a21" ed="T"/>若是有法，可辨照用；般若既非有，云何照用？
 <lb n="0325a22" ed="T"/>非非法者，應云非有非無；但此經簡略，故直
 <lb n="0325a23" ed="T"/>云非非法也。一非非有、二非非無，摩訶衍既
@@ -1077,7 +1186,8 @@
 <lb n="0325b14" ed="T"/>者無相。聖智非無有照，照之者無心。故以無
 <lb n="0325b15" ed="T"/>心之智照無相之宗也，境智俱寂也。」</p></cb:div>
 <lb n="0325b16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0325b1601">「法性空，色受想行識空，十二入空，十八界空，六
-<lb n="0325b17" ed="T"/>大法空，四諦空，十二緣空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0325b1711">法性下，第二別歷
+<lb n="0325b17" ed="T"/>大法空，四諦空，十二緣空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0325b1711">法性下，第二別歷
 <lb n="0325b18" ed="T"/>諸科以明空，顯護佛果之般若也。文有二：初
 <lb n="0325b19" ed="T"/>約法明空，顯成實智義；二內空下，更舉十二
 <lb n="0325b20" ed="T"/>空結上空義。初約法明空有二：初就色釋空；
@@ -1102,7 +1212,8 @@
 <lb n="0325c09" ed="T"/>其義甚深。又十二因緣者，明十二因緣本來
 <lb n="0325c10" ed="T"/>寂滅，非二乘所知故也。</p></cb:div>
 <lb n="0325c11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0325c1101">「是法即生即住即滅，即有即空，剎那剎那亦如
-<lb n="0325c12" ed="T"/>是法生法住法滅。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0325c1208">是法即生者，牒上色等諸
+<lb n="0325c12" ed="T"/>是法生法住法滅。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0325c1208">是法即生者，牒上色等諸
 <lb n="0325c13" ed="T"/>法集起故生。即住者，有為暫時逕停名住。即
 <lb n="0325c14" ed="T"/>滅者，不起即滅也。即有即空者，集起故即有，
 <lb n="0325c15" ed="T"/>自體空故即空。故《淨名經》云「亦生亦老亦滅」。
@@ -1110,7 +1221,8 @@
 <lb n="0325c17" ed="T"/>亦如是下，就心辨空。法生法住法滅者，釋心
 <lb n="0325c18" ed="T"/>法亦具三相也。</p></cb:div>
 <lb n="0325c19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0325c1901">「何以故？九十剎那為一念，一念中一剎那經九
-<lb n="0325c20" ed="T"/>百生滅，乃至色一切法亦如是。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0325c2013">何以故下，釋
+<lb n="0325c20" ed="T"/>百生滅，乃至色一切法亦如是。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0325c2013">何以故下，釋
 <lb n="0325c21" ed="T"/>上色心空故也。九十剎那為一念<note place="inline">乃至</note>一切法
 <lb n="0325c22" ed="T"/>亦如是，上廣辨其色、略辨其心，今就內廣明
 <lb n="0325c23" ed="T"/>其心、略釋其色空，聖人善巧廣略互舉。若依
@@ -1128,14 +1240,16 @@
 <lb n="0326a05" ed="T"/>無住之住不知何以目之，強名為空，即是護
 <lb n="0326a06" ed="T"/>佛果也。一切法亦如是者，結上色心空也。</p></cb:div>
 <lb n="0326a07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0326a0701">「以般若波羅蜜空故，不見緣、不見諦，乃至一切
-<lb n="0326a08" ed="T"/>法空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0326a0803">以般若波羅蜜空故不見緣不見諦者，
+<lb n="0326a08" ed="T"/>法空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0326a0803">以般若波羅蜜空故不見緣不見諦者，
 <lb n="0326a09" ed="T"/>上舉法以明智空，今舉智以明法空。不見緣
 <lb n="0326a10" ed="T"/>者，心空也。不見諦者，境空也。又解：不見緣者
 <lb n="0326a11" ed="T"/>十二緣也，不見諦者四諦也。乃至一切法空，
 <lb n="0326a12" ed="T"/>總結釋空也。約法明空竟。內空下，次更舉空
 <lb n="0326a13" ed="T"/>結上諸空。上別、此總，即顯成總別皆空。若能
 <lb n="0326a14" ed="T"/>了悟諸法本來空，是名真護佛果也。若依《大
-<lb n="0326a15" ed="T"/>論》明十八空，先總。</p><p xml:id="pT33p0326a1508" cb:place="inline">問：若廣說諸法無量，空隨
+<lb n="0326a15" ed="T"/>論》明十八空，先總。</p>
+<p xml:id="pT33p0326a1508" cb:place="inline">問：若廣說諸法無量，空隨
 <lb n="0326a16" ed="T"/>諸法亦應無量。略說應一空，所謂一切法空。
 <lb n="0326a17" ed="T"/>今何以但說十八空？答：若略說即事不周，若
 <lb n="0326a18" ed="T"/>廣說即事繁。如服藥少則病不除，多則更增
@@ -1144,8 +1258,13 @@
 <lb n="0326a21" ed="T"/>說十八空正得其中，今辨十二亦如是。</p></cb:div>
 <lb n="0326a22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0326a2201">「內空、外空、內外空、有為空、無為空、無始空、性空、
 <lb n="0326a23" ed="T"/>第一義空、般若波羅蜜空、因空、佛果空、空空故
-<lb n="0326a24" ed="T"/>空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0326a2402">內空者，所謂內六入無神我。外空者，外
-<lb n="0326a25" ed="T"/>六塵無我所。內外空者，內外<note n="0326a2501" resp="CBETA" type="add" note_key="T33.0326a25.12">［－］【CB】，外【大】</note><app n="0326a2501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">T37n1764_p0757b15</note></lem><rdg wit="【大】">外</rdg></app>合觀皆無我
+<lb n="0326a24" ed="T"/>空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0326a2402">內空者，所謂內六入無神我。外空者，外
+<lb n="0326a25" ed="T"/>六塵無我所。內外空者，內外<note 
+n="0326a2501" resp="CBETA" type="add" note_key="T33.0326a25.12">［－］【CB】，外【大】</note><app n="0326a2501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">T37n1764_p0757b15</note></lem>
+  <rdg wit="【大】">外</rdg>
+</app>合觀皆無我
 <lb n="0326a26" ed="T"/>我所。有為空者，色心因緣和合生諸陰界入
 <lb n="0326a27" ed="T"/>等無所有。無為空者，虛空、數滅、非數滅也。亦
 <lb n="0326a28" ed="T"/>應有有為無為合觀，文略故也。無始空者，將
@@ -1163,7 +1282,8 @@
 <lb n="0326b10" ed="T"/>寂，名因空。佛果空者，十力<note place="inline">乃至</note>十八不共法
 <lb n="0326b11" ed="T"/>等空，名佛果空也。空空故空者，《釋論》云「空空
 <lb n="0326b12" ed="T"/>者，先以法空破內外等法，後以此空破是諸
-<lb n="0326b13" ed="T"/>空，是名空空。」</p><p xml:id="pT33p0326b1306" cb:place="inline">問：空與空空有何等異？答：空破
+<lb n="0326b13" ed="T"/>空，是名空空。」</p>
+<p xml:id="pT33p0326b1306" cb:place="inline">問：空與空空有何等異？答：空破
 <lb n="0326b14" ed="T"/>五陰，空空破空。如服藥能破病，病破已藥亦
 <lb n="0326b15" ed="T"/>應出，若藥不出即復是病。以空滅諸煩惱病，
 <lb n="0326b16" ed="T"/>恐空復為患，是故以空捨空，故名空空也。</p></cb:div>
@@ -1185,7 +1305,8 @@
 <lb n="0326c02" ed="T"/>今具列諸有，故云乃至六道一切有也。</p></cb:div>
 <lb n="0326c03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0326c0301">「善男子！若菩薩見法眾生我人知見者，斯人行
 <lb n="0326c04" ed="T"/>世間不異於世間，於諸法而不動、不到、不滅、無
-<lb n="0326c05" ed="T"/>相無無相，一切法亦如也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0326c0511">善男子若菩薩見
+<lb n="0326c05" ed="T"/>相無無相，一切法亦如也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0326c0511">善男子若菩薩見
 <lb n="0326c06" ed="T"/>法眾生下，答中第三舉失顯得。文有二：初舉
 <lb n="0326c07" ed="T"/>失；二於諸法下，顯得。初舉失者，若執我想未
 <lb n="0326c08" ed="T"/>忘著法之心彌動重者，斯人同於世情，故不
@@ -1200,7 +1321,8 @@
 <lb n="0326c17" ed="T"/>相。一切法亦如也者，明一切法同一無所得
 <lb n="0326c18" ed="T"/>也。</p></cb:div>
 <lb n="0326c19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0326c1901">「諸佛法僧亦如也，即是初地一念心具足八萬
-<lb n="0326c20" ed="T"/>四千般若波羅蜜。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0326c2008">諸佛法僧亦如也者，類同
+<lb n="0326c20" ed="T"/>四千般若波羅蜜。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0326c2008">諸佛法僧亦如也者，類同
 <lb n="0326c21" ed="T"/>上釋。即是初地一念心具足八萬四千波羅
 <lb n="0326c22" ed="T"/>蜜者，是無為法中而有差別，無所得一念具
 <lb n="0326c23" ed="T"/>足一切。今言八萬四千者，是一途法門耳。一
@@ -1215,7 +1337,8 @@
 <lb n="0327a02" ed="T"/>亦對八萬四千諸塵勞門。</p></cb:div>
 <lb n="0327a03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0327a0301">「即載名摩訶衍，即滅為金剛，亦名定，亦名一切
 <lb n="0327a04" ed="T"/>行，如《光讚般若波羅蜜》中說。大王！是經名味句，
-<lb n="0327a05" ed="T"/>百佛千佛百千萬佛說名味句。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0327a0513">即載名摩訶
+<lb n="0327a05" ed="T"/>百佛千佛百千萬佛說名味句。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0327a0513">即載名摩訶
 <lb n="0327a06" ed="T"/>衍者，若據其照用目為般若，論其運載名之
 <lb n="0327a07" ed="T"/>為衍。能運人向佛，故云載名摩訶衍。即滅為
 <lb n="0327a08" ed="T"/>金剛者，能破煩惱，名即滅為金剛。離散亂故
@@ -1231,7 +1354,8 @@
 <lb n="0327a18" ed="T"/><cb:div type="orig"><p xml:id="pT33p0327a1801">「於恒河沙三千大千國土中盛無量七寶，施三
 <lb n="0327a19" ed="T"/>千大千國土中眾生皆得七賢四果，不如於此
 <lb n="0327a20" ed="T"/>經中起一念信，何況解一句者。句非句非非句，
-<lb n="0327a21" ed="T"/>故般若非句、句非般若，般若亦非菩薩。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0327a2116">於恒
+<lb n="0327a21" ed="T"/>故般若非句、句非般若，般若亦非菩薩。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0327a2116">於恒
 <lb n="0327a22" ed="T"/>河沙三千大千國土<note place="inline">乃至</note>不如於此經中起一
 <lb n="0327a23" ed="T"/>念信者，此正舉校量。初明財施三千；後皆得
 <lb n="0327a24" ed="T"/>七賢四果下，明法施四果。不如於此經中起
@@ -1246,7 +1370,8 @@
 <lb n="0327b03" ed="T"/>別也，此是無別之別也。</p></cb:div>
 <lb n="0327b04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0327b0401">「何以故？十地三十生空故，始生、住生、終生不可
 <lb n="0327b05" ed="T"/>得，地地中三生空故，亦非薩婆若、非摩訶衍空
-<lb n="0327b06" ed="T"/>故。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0327b0602">何以故下，釋上人法皆空。十地三十生
+<lb n="0327b06" ed="T"/>故。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0327b0602">何以故下，釋上人法皆空。十地三十生
 <lb n="0327b07" ed="T"/>空故者，分波若為十分，即十地也，一地有三
 <lb n="0327b08" ed="T"/>生，合為三十生也。十地既空，所以般若即空
 <lb n="0327b09" ed="T"/>也。亦非薩波若非摩訶衍空故者，非薩波若
@@ -1255,7 +1380,8 @@
 <lb n="0327b12" ed="T"/>空故者，如上釋也。</p></cb:div>
 <lb n="0327b13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0327b1301">「大王！若菩薩見境見智、見說見受者，非聖見也，
 <lb n="0327b14" ed="T"/>倒想見法凡夫人也。見三界者，眾生果報之名
-<lb n="0327b15" ed="T"/>也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0327b1502">大王菩薩見境見智下，答中第五結上
+<lb n="0327b15" ed="T"/>也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0327b1502">大王菩薩見境見智下，答中第五結上
 <lb n="0327b16" ed="T"/>舉非顯是。就文有二：初舉非；從六識下，明顯
 <lb n="0327b17" ed="T"/>是。舉非中見境見智者，上明境智俱空，今菩
 <lb n="0327b18" ed="T"/>薩若有見境智之別者，非聖見也。見境者是
@@ -1267,7 +1393,8 @@
 <lb n="0327b24" ed="T"/>為果報也。</p></cb:div>
 <lb n="0327b25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0327b2501">「六識起無量欲無窮名為欲界藏空，惑色所起
 <lb n="0327b26" ed="T"/>業果名為色界藏空，惑心所起業果名為無色
-<lb n="0327b27" ed="T"/>界藏空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0327b2704">二從六識起無量下，結顯是明空義。
+<lb n="0327b27" ed="T"/>界藏空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0327b2704">二從六識起無量下，結顯是明空義。
 <lb n="0327b28" ed="T"/>就文有二：初明染法空；二薩波若下，明淨法
 <lb n="0327b29" ed="T"/>空。前中初明分段生死，明三界藏空。根本無
 <pb n="0327c" ed="T" xml:id="T33.1707.0327c"/>
@@ -1278,12 +1405,19 @@
 <lb n="0327c05" ed="T"/>生。色界之中具有五陰，色最強，故言色也。若
 <lb n="0327c06" ed="T"/>論其業，不動行也。若論果報，猶屬分段。惑心
 <lb n="0327c07" ed="T"/>所起業果名為無色界藏空者，無色界唯有
-<lb n="0327c08" ed="T"/>四眾，闕無色<note n="0327001" resp="Taisho" type="orig" place="foot text">界＝象ィ，＝眾ィ【原】</note><note n="0327001" resp="CBETA" type="mod">界【大】，象【校異-原】，眾【校異-原】</note><app n="0327001"><lem wit="【大】">界</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">象</rdg><rdg resp="Taisho" wit="【原】" type="variantRemark">眾</rdg></app>，故云心也。若論煩惱，有愛住
+<lb n="0327c08" ed="T"/>四眾，闕無色<note 
+n="0327001" resp="Taisho" type="orig" place="foot text">界＝象ィ，＝眾ィ【原】</note><note 
+n="0327001" resp="CBETA" type="mod">界【大】，象【校異-原】，眾【校異-原】</note><app n="0327001">
+  <lem wit="【大】">界</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">象</rdg>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">眾</rdg>
+</app>，故云心也。若論煩惱，有愛住
 <lb n="0327c09" ed="T"/>地；若論其業，不動行；若論果報，猶屬分段。若
 <lb n="0327c10" ed="T"/>論依報，欲色二界辨有宮殿住處，無色界唯
 <lb n="0327c11" ed="T"/>心寂漠，無宮殿也。</p></cb:div>
 <lb n="0327c12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0327c1201">「三界空，三界根本無明藏亦空；三地九生滅，前
-<lb n="0327c13" ed="T"/>三界中餘無明習果報空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0327c1311">三界空者，總結上
+<lb n="0327c13" ed="T"/>三界中餘無明習果報空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0327c1311">三界空者，總結上
 <lb n="0327c14" ed="T"/>三界皆空也。三界根本無明藏亦空者，明變
 <lb n="0327c15" ed="T"/>易生死體空，有二：先明因空、次明果空。根本
 <lb n="0327c16" ed="T"/>無明藏是因空。無明猶如大地，能生煩惱，故
@@ -1301,7 +1435,8 @@
 <lb n="0327c28" ed="T"/>也。</p></cb:div>
 <lb n="0327c29" ed="T"/><cb:div type="orig"><p xml:id="pT33p0327c2901">「金剛菩薩得理盡三昧，故惑果生滅空，有果空，
 <pb n="0328a" ed="T" xml:id="T33.1707.0328a"/>
-<lb n="0328a01" ed="T"/>因空故空，薩婆若亦空，滅果空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0328a0113">金剛菩薩得
+<lb n="0328a01" ed="T"/>因空故空，薩婆若亦空，滅果空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0328a0113">金剛菩薩得
 <lb n="0328a02" ed="T"/>理盡三昧者，十地菩薩照窮因盡，故云理盡
 <lb n="0328a03" ed="T"/>也。惑果生滅空者，微習故云惑，惑者一切煩
 <lb n="0328a04" ed="T"/>惱。果者，是三界與界外一切果也。生滅空者，
@@ -1313,14 +1448,16 @@
 <lb n="0328a10" ed="T"/>雖眾，不出此二也。又薩婆若亦空者，明菩提
 <lb n="0328a11" ed="T"/>空；滅果空者，明涅槃空。</p></cb:div>
 <lb n="0328a12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0328a1201">「惑前已空，故佛得三無為果，智緣滅、非智緣滅、
-<lb n="0328a13" ed="T"/>虛空、薩婆若果空也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0328a1309">惑前已空故者，如來已
+<lb n="0328a13" ed="T"/>虛空、薩婆若果空也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0328a1309">惑前已空故者，如來已
 <lb n="0328a14" ed="T"/>出眾惑之外，故云惑前已空。又解：未斷煩惱
 <lb n="0328a15" ed="T"/>時本來寂滅，故云惑前已空。佛得三無為果
 <lb n="0328a16" ed="T"/>者，總舉三德也。智緣滅者，名數緣滅無為；非
 <lb n="0328a17" ed="T"/>智緣滅者，非數緣滅無為；虛空者，法性虛空
 <lb n="0328a18" ed="T"/>無為。薩婆若果空者，明佛果體空。</p></cb:div>
 <lb n="0328a19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0328a1901">「善男子！若有修習聽說無聽無說，如虛空法、同
-<lb n="0328a20" ed="T"/>法性聽、同說同一切法皆如也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0328a2013">善男子若有
+<lb n="0328a20" ed="T"/>法性聽、同說同一切法皆如也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0328a2013">善男子若有
 <lb n="0328a21" ed="T"/>修習聽說下，答中第六勸行信受持護佛果
 <lb n="0328a22" ed="T"/>義。就文有二：初正勸信，明聽說同如虛空；次
 <lb n="0328a23" ed="T"/>大王下，總結答前問。初文云聽說同如虛空
@@ -1334,14 +1471,16 @@
 <lb n="0328b01" ed="T"/>切法皆如也。</p></cb:div>
 <lb n="0328b02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0328b0201">「大王！菩薩修護佛果為若此，護般若波羅蜜者
 <lb n="0328b03" ed="T"/>為護薩婆，若十力、十八不共法、五眼、五分法身、
-<lb n="0328b04" ed="T"/>四無量心，一切功德果為若此。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0328b0413">大王菩薩修
+<lb n="0328b04" ed="T"/>四無量心，一切功德果為若此。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0328b0413">大王菩薩修
 <lb n="0328b05" ed="T"/>護佛果為若此者，總結，答上護果義也。護般
 <lb n="0328b06" ed="T"/>若波羅蜜者為護薩婆若者，廣舉其因，為成其
 <lb n="0328b07" ed="T"/>果。欲明因無別因，由果故因；果無別果，由因
 <lb n="0328b08" ed="T"/>故果，是故護因即為護果。十八不共法<note place="inline">乃至</note>
 <lb n="0328b09" ed="T"/>五分法身者，廣舉果德由因得也。</p></cb:div>
 <lb n="0328b10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0328b1001">佛說法時，無量人眾皆得法眼淨、性地、信地，有
-<lb n="0328b11" ed="T"/>百千人皆得大空菩薩大行。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0328b1112">佛說法時無量
+<lb n="0328b11" ed="T"/>百千人皆得大空菩薩大行。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0328b1112">佛說法時無量
 <lb n="0328b12" ed="T"/>人下，品中第三大段明諸人悟道。法眼淨者，
 <lb n="0328b13" ed="T"/>小乘見道。初證四諦明白，故云法眼淨也。今
 <lb n="0328b14" ed="T"/>說大乘，何以得小果者？說是其一，但受悟不
@@ -1370,7 +1509,8 @@
 <lb n="0328c12" ed="T"/>十地自利行相、二問利他行化相、三問所化
 <lb n="0328c13" ed="T"/>眾生德行相貌。</p>
 <lb n="0328c14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0328c1401">白佛言：「世尊！護十地行菩薩，云何行可行？云何
-<lb n="0328c15" ed="T"/>行化眾生？以何相眾生可化？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0328c1512">初段中護十地
+<lb n="0328c15" ed="T"/>行化眾生？以何相眾生可化？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0328c1512">初段中護十地
 <lb n="0328c16" ed="T"/>者，牒所修十地位也。言云何行可行者，問何
 <lb n="0328c17" ed="T"/>等行法可依之修行，成十地得自行。第二問
 <lb n="0328c18" ed="T"/>云何行化眾生者，問菩薩行化用何等法化
@@ -1378,7 +1518,8 @@
 <lb n="0328c20" ed="T"/>眾生之體相。</p></cb:div>
 <lb n="0328c21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0328c2101">佛言：「大王！五忍是菩薩法：伏忍上中下、信忍上
 <lb n="0328c22" ed="T"/>中下、順忍上中下、無生忍上中下、寂滅忍上下，
-<lb n="0328c23" ed="T"/>名為諸佛菩薩修般若波羅蜜。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0328c2313">佛言下，第二
+<lb n="0328c23" ed="T"/>名為諸佛菩薩修般若波羅蜜。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0328c2313">佛言下，第二
 <lb n="0328c24" ed="T"/>答前三問，即為三段：初從五忍是菩薩法下，
 <lb n="0328c25" ed="T"/>說十四忍具足，答初問自行；從白佛言云何
 <lb n="0328c26" ed="T"/>菩薩本業清淨乃至諸鬼神現身修行般若，答
@@ -1402,7 +1543,8 @@
 <lb n="0329a14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0329a1401">「善男子！初發相信恒河沙眾生修行伏忍，於三
 <lb n="0329a15" ed="T"/>寶中生習種性十心：信心、精進心、念心、慧心、定
 <lb n="0329a16" ed="T"/>心、施心、戒心、護心、願心、迴向心，是為菩薩能少
-<lb n="0329a17" ed="T"/>分化眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0329a1705">善男子下，第二廣分別十四忍。
+<lb n="0329a17" ed="T"/>分化眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0329a1705">善男子下，第二廣分別十四忍。
 <lb n="0329a18" ed="T"/>開五忍為十四忍。初明習種性名習忍，即有
 <lb n="0329a19" ed="T"/>三段：初標修忍人；二別列十種心；三是為菩
 <lb n="0329a20" ed="T"/>薩下，明化眾生功能。文言初發相信恒河沙
@@ -1416,7 +1558,8 @@
 <lb n="0329a28" ed="T"/>所謂四意止，身、受、心、法，不淨、苦、無常、無我也；三
 <lb n="0329a29" ed="T"/>意止；三善根，慈、施、慧也。三意止，所謂三世，過去
 <pb n="0329b" ed="T" xml:id="T33.1707.0329b"/>
-<lb n="0329b01" ed="T"/>因忍、現在因果忍、未來果忍也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0329b0113">超過二乘地
+<lb n="0329b01" ed="T"/>因忍、現在因果忍、未來果忍也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0329b0113">超過二乘地
 <lb n="0329b02" ed="T"/>者，此是大乘之解，故過二乘。成大乘法身種
 <lb n="0329b03" ed="T"/>子，名為聖胎也。次第二明中忍性種性。文有
 <lb n="0329b04" ed="T"/>三：初總舉性種十心；二所謂下，別列十心；三
@@ -1433,7 +1576,8 @@
 <lb n="0329b15" ed="T"/>地，所謂觀色識想受行，得戒忍、知見忍、定忍、慧
 <lb n="0329b16" ed="T"/>忍、解脫忍，觀三界因果，空忍、無願忍、無想忍，觀
 <lb n="0329b17" ed="T"/>二諦虛實一切法無常名無常忍、一切法空得
-<lb n="0329b18" ed="T"/>無生忍。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0329b1804">是菩薩亦能化一切眾生者，第三明
+<lb n="0329b18" ed="T"/>無生忍。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0329b1804">是菩薩亦能化一切眾生者，第三明
 <lb n="0329b19" ed="T"/>中忍功能。觀五陰無我，故已過我人等想。觀
 <lb n="0329b20" ed="T"/>三世因果非常非斷，故外道等不能破壞。此
 <lb n="0329b21" ed="T"/>經性種性在十解、十行，依《華嚴》十住為習種、
@@ -1450,7 +1594,8 @@
 <lb n="0329c02" ed="T"/>百身千身萬身，神通無量功德，常以十五心為
 <lb n="0329c03" ed="T"/>首，四攝法、四無量心、四弘願、三解脫門。是菩薩
 <lb n="0329c04" ed="T"/>從善覺地至於薩婆若，以此十五心為一切行
-<lb n="0329c05" ed="T"/>根本種子。又順忍菩薩，所謂見勝現法。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0329c0516">是菩
+<lb n="0329c05" ed="T"/>根本種子。又順忍菩薩，所謂見勝現法。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0329c0516">是菩
 <lb n="0329c06" ed="T"/>薩下，結上忍功能化眾生德。十堅心，結自利
 <lb n="0329c07" ed="T"/>德。作轉輪王下，結化他德。此經明名道種性，
 <lb n="0329c08" ed="T"/>華嚴名十迴向，一名救護一切眾生離眾生相
@@ -1501,7 +1646,8 @@
 <lb n="0330a23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0330a2301">「能斷三界心等煩惱縛故，現一身於十方佛國
 <lb n="0330a24" ed="T"/>中，無量不可說神通化眾生。又無生忍菩薩，所
 <lb n="0330a25" ed="T"/>謂遠不動觀慧，亦斷三界心色等習煩惱故，現
-<lb n="0330a26" ed="T"/>不可說不可說功德神通。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0330a2611">文云斷三界心煩
+<lb n="0330a26" ed="T"/>不可說不可說功德神通。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0330a2611">文云斷三界心煩
 <lb n="0330a27" ed="T"/>惱縛者，此之三位能觀三界心諦無生無所
 <lb n="0330a28" ed="T"/>得，不取心相，知心無生，故能斷迷心煩惱。通
 <lb n="0330a29" ed="T"/>論亦斷迷色惑，今從多故，但斷迷心耳。此是
@@ -1532,7 +1678,8 @@
 <lb n="0330b24" ed="T"/>初禪王，八地為二禪王，九地為三禪王。此等
 <lb n="0330b25" ed="T"/>皆是菩薩無生自在，不可定執也。</p></cb:div>
 <lb n="0330b26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0330b2601">「復次寂滅忍，佛與菩薩同用此忍，入金剛三昧
-<lb n="0330b27" ed="T"/>下忍中行名為菩薩。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0330b2709">第五明寂滅忍。寂者是
+<lb n="0330b27" ed="T"/>下忍中行名為菩薩。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0330b2709">第五明寂滅忍。寂者是
 <lb n="0330b28" ed="T"/>定，滅者是慧。寂而常照、照而常寂，故名寂滅
 <lb n="0330b29" ed="T"/>忍。文有五：初明位地分齊；二入金剛三昧下，
 <pb n="0330c" ed="T" xml:id="T33.1707.0330c"/>
@@ -1550,7 +1697,8 @@
 <lb n="0330c12" ed="T"/>心習無明，盡相為金剛，盡相無相為薩婆若，超
 <lb n="0330c13" ed="T"/>度世諦第一義諦之外為第十一地，薩云若覺
 <lb n="0330c14" ed="T"/>非有非無湛然清淨常住不變，同真際、等法性，
-<lb n="0330c15" ed="T"/>無緣大悲教化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0330c1511">上忍中行名為薩
+<lb n="0330c15" ed="T"/>無緣大悲教化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0330c1511">上忍中行名為薩
 <lb n="0330c16" ed="T"/>婆若者，解脫道果位所攝名為上忍位。薩婆
 <lb n="0330c17" ed="T"/>若者，此云一切智。此忍因果位別，唯分上下二
 <lb n="0330c18" ed="T"/>品；前之四忍同是因位，故各分三品。此無差
@@ -1604,7 +1752,8 @@
 <lb n="0331b06" ed="T"/>五歎果異因中，言我常語一切眾生斷三界煩
 <lb n="0331b07" ed="T"/>惱果報盡名為佛者，斷盡分段、變易二種也。</p></cb:div>
 <lb n="0331b08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0331b0801">「自性清淨名覺薩云若性，是眾生本業、是諸佛
-<lb n="0331b09" ed="T"/>菩薩本所修行五忍中十四忍具足。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0331b0915">自性清
+<lb n="0331b09" ed="T"/>菩薩本所修行五忍中十四忍具足。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0331b0915">自性清
 <lb n="0331b10" ed="T"/>淨者，煩惱既盡，體無暇摷也，此是斷德也。名
 <lb n="0331b11" ed="T"/>覺薩云若者，此云一切智，是其智德也。第六
 <lb n="0331b12" ed="T"/>舉因顯果。文云眾生本業是諸佛菩薩本所修
@@ -1616,7 +1765,8 @@
 <lb n="0331b18" ed="T"/>修百法門，二諦平等心化一切眾生。若菩薩住
 <lb n="0331b19" ed="T"/>千佛國中，作忉利天王，修千法門，十善道化一
 <lb n="0331b20" ed="T"/>切眾生。若菩薩住十萬佛國中作炎天王，修十
-<lb n="0331b21" ed="T"/>萬法門，四禪定化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0331b2112">白佛言下，答第
+<lb n="0331b21" ed="T"/>萬法門，四禪定化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0331b2112">白佛言下，答第
 <lb n="0331b22" ed="T"/>二利他行相。問文有二：初騰前問。月光去前問
 <lb n="0331b23" ed="T"/>既遠，今更重發起。云何菩薩本業清淨者，十
 <lb n="0331b24" ed="T"/>地是菩薩本業。菩薩以慈悲智慧於生死涅
@@ -1652,7 +1802,8 @@
 <lb n="0331c24" ed="T"/>所解法門。四禪定化一切眾生下，明利他行
 <lb n="0331c25" ed="T"/>相，以禪定益物也。</p></cb:div>
 <lb n="0331c26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0331c2601">「若菩薩住百億佛國中，作兜率天王，修百億法
-<lb n="0331c27" ed="T"/>門，行道品化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0331c2710">四地四者，初若菩薩
+<lb n="0331c27" ed="T"/>門，行道品化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0331c2710">四地四者，初若菩薩
 <lb n="0331c28" ed="T"/>住百億下，明所化土。二作兜率下，明增上生相。
 <lb n="0331c29" ed="T"/>故《地經》云「作琰魔天王」，《瓔珞經》同此經為兜
 <pb n="0332a" ed="T" xml:id="T33.1707.0332a"/>
@@ -1660,7 +1811,8 @@
 <lb n="0332a02" ed="T"/>道品化一切眾生下，明利他行相，以道品化眾
 <lb n="0332a03" ed="T"/>生也。</p></cb:div>
 <lb n="0332a04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0332a0401">「若菩薩住千億佛國中，作化樂天王，修千億法
-<lb n="0332a05" ed="T"/>門，二諦四諦八諦化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0332a0513">五地四者，初
+<lb n="0332a05" ed="T"/>門，二諦四諦八諦化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0332a0513">五地四者，初
 <lb n="0332a06" ed="T"/>若菩薩住千億下，明所化土。二作化樂天王
 <lb n="0332a07" ed="T"/>下，明增上生相。故《地經》作兜率天王，《瓔珞經》亦
 <lb n="0332a08" ed="T"/>同此經為化樂天王。三修千億法門下，明所
@@ -1673,14 +1825,16 @@
 <lb n="0332a15" ed="T"/>覺煩惱滅，故善知盡無生諦。此之八名與《瓔
 <lb n="0332a16" ed="T"/>珞經》十六諦中八名相似，未詳所出。</p></cb:div>
 <lb n="0332a17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0332a1701">「若菩薩住十萬億佛國中，作他化天王，修十萬
-<lb n="0332a18" ed="T"/>億法門，十二因緣智化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0332a1814">六地四者，
+<lb n="0332a18" ed="T"/>億法門，十二因緣智化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0332a1814">六地四者，
 <lb n="0332a19" ed="T"/>初住十萬億佛國下，明所化土。二作他化天
 <lb n="0332a20" ed="T"/>王下，明增上生相。《地經》云「作化樂天王」，瓔珞
 <lb n="0332a21" ed="T"/>經同此經云「作他化天王」。三修十萬億法下，
 <lb n="0332a22" ed="T"/>明所知法門。四十二緣下，明利他行相，自知
 <lb n="0332a23" ed="T"/>十二教化令知。</p></cb:div>
 <lb n="0332a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0332a2401">「若菩薩住百萬億佛國中，作初禪王，修百萬億
-<lb n="0332a25" ed="T"/>法門，方便智願智化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0332a2513">七地四者，初
+<lb n="0332a25" ed="T"/>法門，方便智願智化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0332a2513">七地四者，初
 <lb n="0332a26" ed="T"/>住百萬億下，明所化土。二作初禪王下，明增
 <lb n="0332a27" ed="T"/>上生相。《地經》作他化天王，《瓔珞經》千色光慧
 <lb n="0332a28" ed="T"/>瓔珞作梵天王。三修百萬億法門下，明所知
@@ -1688,15 +1842,22 @@
 <pb n="0332b" ed="T" xml:id="T33.1707.0332b"/>
 <lb n="0332b01" ed="T"/>生。</p></cb:div>
 <lb n="0332b02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0332b0201">「若菩薩住百萬微塵數佛國中，作二禪梵王，修
-<lb n="0332b03" ed="T"/>百萬微塵數法門，雙照方便<note n="0332001" resp="Taisho" type="orig" place="foot text">禪＝神？</note><note n="0332001" resp="CBETA" type="mod">禪【大】，神【考偽-大】</note><app n="0332001"><lem resp="Taisho" wit="【大】">禪</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">神</rdg></app>通智化一切
-<lb n="0332b04" ed="T"/>眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0332b0403">八地四者，初住百萬下，明所化土。二
+<lb n="0332b03" ed="T"/>百萬微塵數法門，雙照方便<note 
+n="0332001" resp="Taisho" type="orig" place="foot text">禪＝神？</note><note 
+n="0332001" resp="CBETA" type="mod">禪【大】，神【考偽-大】</note><app n="0332001">
+  <lem resp="Taisho" wit="【大】">禪</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">神</rdg>
+</app>通智化一切
+<lb n="0332b04" ed="T"/>眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0332b0403">八地四者，初住百萬下，明所化土。二
 <lb n="0332b05" ed="T"/>作二禪梵王下，明增上生相。《地經》云「作梵王，
 <lb n="0332b06" ed="T"/>王一千界」，《瓔珞經》梵師子瓔珞光光天王。三
 <lb n="0332b07" ed="T"/>修百萬下，明所知法門。四雙照方便下，明利
 <lb n="0332b08" ed="T"/>他行相，以神通化眾生也。</p></cb:div>
 <lb n="0332b09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0332b0901">「若菩薩住百萬億阿僧祇微塵數佛國中，作三
 <lb n="0332b10" ed="T"/>禪大梵王，修百萬億阿僧祇微塵數法門，四無
-<lb n="0332b11" ed="T"/>閡智化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0332b1108">九地四者，初住百萬億下，
+<lb n="0332b11" ed="T"/>閡智化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0332b1108">九地四者，初住百萬億下，
 <lb n="0332b12" ed="T"/>明所化土。二作三禪王下，明增上生相。《地經》
 <lb n="0332b13" ed="T"/>作梵王，王二千界，《瓔珞》云「作淨居天王」。三修
 <lb n="0332b14" ed="T"/>百萬億下，明所知法門。四四無礙智下，明利
@@ -1720,7 +1881,8 @@
 <lb n="0332c02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0332c0201">爾時百萬億恒河沙大眾各從座起，散無量不
 <lb n="0332c03" ed="T"/>可思議華，燒無量不可思議香，供養釋迦牟尼
 <lb n="0332c04" ed="T"/>佛及無量大菩薩，合掌聽波斯匿王說般若波
-<lb n="0332c05" ed="T"/>羅蜜，今於佛前以偈讚曰：</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0332c0511">爾時百萬億下，大
+<lb n="0332c05" ed="T"/>羅蜜，今於佛前以偈讚曰：</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0332c0511">爾時百萬億下，大
 <lb n="0332c06" ed="T"/>段第三大眾慶蒙法利供養。文五：初設供養；
 <lb n="0332c07" ed="T"/>二今於佛前下，明月光讚佛所說十一地行相
 <lb n="0332c08" ed="T"/>能利眾生；三時諸大眾聞月光下，明眾聞月
@@ -1739,7 +1901,8 @@
 <lb n="0332c21" ed="T"/>為眾說，時眾得道百萬億。時六天人出家道，成
 <lb n="0332c22" ed="T"/>比丘眾菩薩行，五忍功德妙法門，十四正士能
 <lb n="0332c23" ed="T"/>諦了。三賢十聖忍中行，唯佛一人能盡源，佛眾
-<lb n="0332c24" ed="T"/>法海三寶藏，無量功德攝在中。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0332c2413">八辯者，依《梵
+<lb n="0332c24" ed="T"/>法海三寶藏，無量功德攝在中。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0332c2413">八辯者，依《梵
 <lb n="0332c25" ed="T"/>摩喻經》，一最好、二易了、三調和、四柔濡、五不
 <lb n="0332c26" ed="T"/>誤、六不妄、七尊慧、八深遠。洪者，大音也。第二
 <lb n="0332c27" ed="T"/>從時眾下一行半，明眾獲益無量。天無出家
@@ -1766,7 +1929,8 @@
 <lb n="0333a18" ed="T"/><cb:div type="orig"><p xml:id="pT33p0333a1801">「十善菩薩發大心，長別三界苦輪海，中下品善
 <lb n="0333a19" ed="T"/>粟散王，上品十善鐵輪王。習種銅輪二天下，銀
 <lb n="0333a20" ed="T"/>輪三天性種性，道種堅德轉輪王，七寶金光四
-<lb n="0333a21" ed="T"/>天下。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0333a2103">十善菩薩即是第一頌外凡夫。發一
+<lb n="0333a21" ed="T"/>天下。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0333a2103">十善菩薩即是第一頌外凡夫。發一
 <lb n="0333a22" ed="T"/>念菩提心故，破無始有輪，故云長別三界苦輪
 <lb n="0333a23" ed="T"/>海也。十信雖未出三界，已發大心求出三界，
 <lb n="0333a24" ed="T"/>已能離三惡道，文總言長別也。《瓔珞經》爾時住
@@ -1812,7 +1976,8 @@
 <lb n="0333c04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0333c0401">「離達開士忉利王，現形六道千國土，無緣無相
 <lb n="0333c05" ed="T"/>第三諦，無無無生無二照。明慧空照炎天王，應
 <lb n="0333c06" ed="T"/>形萬國導群生，忍心無二三諦中，出有入無變
-<lb n="0333c07" ed="T"/>化生。善覺離明三道人，能滅三界色煩惱。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0333c0717">開
+<lb n="0333c07" ed="T"/>化生。善覺離明三道人，能滅三界色煩惱。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0333c0717">開
 <lb n="0333c08" ed="T"/>士者，菩薩大士也。忉利者，地中王。次句明所
 <lb n="0333c09" ed="T"/>化土廣狹。次句無緣者，無有內心緣也。無相
 <lb n="0333c10" ed="T"/>者，無有二諦相，離此緣相名第三諦。又云無
@@ -1833,7 +1998,8 @@
 <lb n="0333c25" ed="T"/>大精進，兜率天王遊億國，實智緣寂方便道，達
 <lb n="0333c26" ed="T"/>無生照空有了。勝慧三諦自達明，化樂天王百
 <lb n="0333c27" ed="T"/>億國，空空諦觀無二相，變化六道入無間。法現
-<lb n="0333c28" ed="T"/>開士自在王，無二無照達理空。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0333c2813">身口色者，變
+<lb n="0333c28" ed="T"/>開士自在王，無二無照達理空。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0333c2813">身口色者，變
 <lb n="0333c29" ed="T"/>化色也。觀色同法性，故無遺照。炎慧下，第四
 <pb n="0334a" ed="T" xml:id="T33.1707.0334a"/>
 <lb n="0334a01" ed="T"/>段，八行，誦上四地已上順忍。就八行有二段：
@@ -1854,7 +2020,8 @@
 <lb n="0334a16" ed="T"/>也。</p></cb:div>
 <lb n="0334a17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0334a1701">「三諦現前大智光，照千億土教一切。炎勝法現
 <lb n="0334a18" ed="T"/>無相定，能洗三界迷心惑，空慧寂然無緣觀，還
-<lb n="0334a19" ed="T"/>觀心空無量報。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0334a1907">三諦者，即是第三諦。現前者，
+<lb n="0334a19" ed="T"/>觀心空無量報。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0334a1907">三諦者，即是第三諦。現前者，
 <lb n="0334a20" ed="T"/>即是大智現前也。照千億土下，即是所化土。
 <lb n="0334a21" ed="T"/>炎勝下二行四句，即總誦上結句。初句四字
 <lb n="0334a22" ed="T"/>頌上三地名，炎是四地，勝是五地，現是六地；
@@ -1866,7 +2033,8 @@
 <lb n="0334a28" ed="T"/>一生在，進入等觀法流地，始入無緣金剛忍，三
 <lb n="0334a29" ed="T"/>界報形永不受。觀第三義無二照，二十一生空
 <pb n="0334b" ed="T" xml:id="T33.1707.0334b"/>
-<lb n="0334b01" ed="T"/>寂行，三界愛習順道定，遠達正士獨諦了。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0334b0117">遠
+<lb n="0334b01" ed="T"/>寂行，三界愛習順道定，遠達正士獨諦了。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0334b0117">遠
 <lb n="0334b02" ed="T"/>達下，第五段，有十行偈，頌上七地已上無生忍。
 <lb n="0334b03" ed="T"/>分為三段：前五行頌上七地無生忍下品，次
 <lb n="0334b04" ed="T"/>三行頌上八地無生忍中品，次兩行頌上九地
@@ -1889,7 +2057,8 @@
 <lb n="0334b21" ed="T"/>薩了功用無相，故言獨諦了。</p></cb:div>
 <lb n="0334b22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0334b2201">「等觀菩薩二禪王，變生法身無量光，入百恒土
 <lb n="0334b23" ed="T"/>化一切，圓照三世恒劫事，返照樂虛無盡源，於
-<lb n="0334b24" ed="T"/>第三諦常寂然。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0334b2407">等觀下，三行六句，頌上八地，
+<lb n="0334b24" ed="T"/>第三諦常寂然。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0334b2407">等觀下，三行六句，頌上八地，
 <lb n="0334b25" ed="T"/>即為六別。初句明二禪王者，明利他人。八地
 <lb n="0334b26" ed="T"/>菩薩忘功息相，雙觀二諦遍修萬行，入大法
 <lb n="0334b27" ed="T"/>流水齊觀空有，故云等觀。第二句明八地已
@@ -1902,14 +2071,16 @@
 <lb n="0334c04" ed="T"/>名為虛，無始皆苦名無盡源。第六句中道第
 <lb n="0334c05" ed="T"/>一義諦不遷，故云常寂然也。</p></cb:div>
 <lb n="0334c06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0334c0601">「慧光開士三禪王，能於千恒一時現，常在無為
-<lb n="0334c07" ed="T"/>空寂行，恒沙佛藏一念了。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0334c0711">慧光開士下，二行
+<lb n="0334c07" ed="T"/>空寂行，恒沙佛藏一念了。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0334c0711">慧光開士下，二行
 <lb n="0334c08" ed="T"/>偈四句頌上九地。初句三禪王者，明利他人。
 <lb n="0334c09" ed="T"/>第二句一時者，明利他身。第三句歎無功用
 <lb n="0334c10" ed="T"/>行。第四句歎無功用智教，故云一念了。</p></cb:div>
 <lb n="0334c11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0334c1101">「灌頂菩薩四禪王，於億恒土化群生，始入金剛
 <lb n="0334c12" ed="T"/>一切了，二十九生永已度。寂滅忍中下忍觀，一
 <lb n="0334c13" ed="T"/>轉妙覺常湛然，等慧灌頂三品士，除前餘習無
-<lb n="0334c14" ed="T"/>明緣，無明習相故煩惱，二諦理窮一切盡。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0334c1417">灌
+<lb n="0334c14" ed="T"/>明緣，無明習相故煩惱，二諦理窮一切盡。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0334c1417">灌
 <lb n="0334c15" ed="T"/>頂菩薩下，第六段有八行，頌上寂滅忍。有兩
 <lb n="0334c16" ed="T"/>段：初五行頌十地寂滅忍下品，後三行頌寂
 <lb n="0334c17" ed="T"/>滅忍上品。前五行十句。灌頂者，在十三法師
@@ -1931,7 +2102,8 @@
 <lb n="0335a03" ed="T"/>境智俱寂，故云理窮一切盡。</p></cb:div>
 <lb n="0335a04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0335a0401">「圓智無相三界王，三十生盡等大覺，大寂無為
 <lb n="0335a05" ed="T"/>金剛藏，一切報盡無極悲。第一義諦常安穩，窮
-<lb n="0335a06" ed="T"/>源盡性妙智存。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0335a0607">圓智無相下，第二三行頌佛
+<lb n="0335a06" ed="T"/>源盡性妙智存。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0335a0607">圓智無相下，第二三行頌佛
 <lb n="0335a07" ed="T"/>地上忍，即為六別。圓智者，境盡智無名圓智，
 <lb n="0335a08" ed="T"/>即是一切種智。三界王者，無上法王亦十三
 <lb n="0335a09" ed="T"/>王外，佛是法輪王。三十生盡者，十地各三生
@@ -1949,7 +2121,8 @@
 <lb n="0335a21" ed="T"/>量光，常口說法非無義，心智寂滅無緣照。人中
 <lb n="0335a22" ed="T"/>師子為眾說，大眾歡喜散金華，百億萬土六大
 <lb n="0335a23" ed="T"/>動，含生之生受妙報。天尊快說十四王，是故我
-<lb n="0335a24" ed="T"/>今略歎佛。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0335a2405">三賢十聖下，大段第三，八行，總
+<lb n="0335a24" ed="T"/>今略歎佛。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0335a2405">三賢十聖下，大段第三，八行，總
 <lb n="0335a25" ed="T"/>結五忍中有三：初兩行明淨土分齊，第二一
 <lb n="0335a26" ed="T"/>行歎如來三業功德，後之五行歎三業益物。
 <lb n="0335a27" ed="T"/>初句云三賢十聖住果報者，住分段、變易報土
@@ -1978,7 +2151,8 @@
 <lb n="0335b20" ed="T"/>梵王、十恒河沙鬼神王，乃至三趣，得無生法忍；
 <lb n="0335b21" ed="T"/>八部阿須輪王，現轉鬼身，天上受道，三生入正
 <lb n="0335b22" ed="T"/>位者，或四生五生乃至十生得入正位證聖人
-<lb n="0335b23" ed="T"/>性，得一切無量果報。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0335b2309">時諸大眾下，第三明大
+<lb n="0335b23" ed="T"/>性，得一切無量果報。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0335b2309">時諸大眾下，第三明大
 <lb n="0335b24" ed="T"/>眾聞法得益。長行有三段：初明諸天人得益；
 <lb n="0335b25" ed="T"/>乃至下，第二三趣獲利；三生下，第三得道延
 <lb n="0335b26" ed="T"/>促不同、獲益遲疾。初明天王得無生忍。就別，
@@ -2010,7 +2184,11 @@
 <lb n="0335c22" ed="T"/>是下，第二略述；第三從善男子下訖有心得無
 <lb n="0335c23" ed="T"/>心得，廣述；第四從是以波若功德下訖不可
 <lb n="0335c24" ed="T"/>思議，歎波若忘言離著，如風空中行；第五從
-<lb n="0335c25" ed="T"/>善男子此功德藏訖功德，<note n="0335c2501" resp="CBETA" type="add" note_key="T33.0335c25.11">校【CB】，狹【大】</note><app n="0335c2501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem><rdg wit="【大】">狹</rdg></app>量月光所說與
+<lb n="0335c25" ed="T"/>善男子此功德藏訖功德，<note 
+n="0335c2501" resp="CBETA" type="add" note_key="T33.0335c25.11">校【CB】，狹【大】</note><app n="0335c2501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem>
+  <rdg wit="【大】">狹</rdg>
+</app>量月光所說與
 <lb n="0335c26" ed="T"/>十三法師所說勝劣。第一發迹中有二：初告
 <lb n="0335c27" ed="T"/>天上得道賢聖眾；二善男子下，發月光迹。四
 <lb n="0335c28" ed="T"/>住者，十地明義即第四炎地，八住即第八不動
@@ -2021,7 +2199,8 @@
 <lb n="0336a03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0336a0301">「如汝所解得真義說，不可思議、不可度量，唯佛
 <lb n="0336a04" ed="T"/>與佛乃知斯事。善男子！其所說十四般若波羅
 <lb n="0336a05" ed="T"/>蜜，三忍地地上中下三十忍，一切行藏、一切佛
-<lb n="0336a06" ed="T"/>藏不可思議。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0336a0606">如汝所解者，稱其義也。不可
+<lb n="0336a06" ed="T"/>藏不可思議。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0336a0606">如汝所解者，稱其義也。不可
 <lb n="0336a07" ed="T"/>思議者，無得正觀異名也。不可度量者，非二
 <lb n="0336a08" ed="T"/>乘下位之境界也。唯佛與佛者，第二引佛證
 <lb n="0336a09" ed="T"/>誠月光所說。善男子下，第三廣述，文有四：初
@@ -2039,7 +2218,8 @@
 <lb n="0336a21" ed="T"/>證無所得，名不可思議。</p></cb:div>
 <lb n="0336a22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0336a2201">「何以故？一切諸佛是中生、是中滅、是中化，而無
 <lb n="0336a23" ed="T"/>生無滅無化；無自無他、第一無二、非化非不化、
-<lb n="0336a24" ed="T"/>非相非無相、無來無去，如虛空故。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0336a2414">何以故下，
+<lb n="0336a24" ed="T"/>非相非無相、無來無去，如虛空故。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0336a2414">何以故下，
 <lb n="0336a25" ed="T"/>第二廣述十四忍功能。文有二：初約出用、次
 <lb n="0336a26" ed="T"/>約悟入。初約出用者，諸法本自不生、今亦不
 <lb n="0336a27" ed="T"/>滅，以因緣故，於無分別中為眾生說有生滅。
@@ -2088,7 +2268,8 @@
 <lb n="0336c10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0336c1001">「無三寶、無聖人、無六道，如虛空故。般若無知無
 <lb n="0336c11" ed="T"/>見、不行不緣、不因不受、不得一切照相故行道
 <lb n="0336c12" ed="T"/>相，斯行道相如虛空故。法相如是，何可有心得
-<lb n="0336c13" ed="T"/>無心得？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0336c1304">第四段明凡聖空。無三寶無聖人
+<lb n="0336c13" ed="T"/>無心得？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0336c1304">第四段明凡聖空。無三寶無聖人
 <lb n="0336c14" ed="T"/>名聖空，無六道名凡空。第五段明智空，文云
 <lb n="0336c15" ed="T"/>波若無知，波若名智慧，今言無知者，絕於知
 <lb n="0336c16" ed="T"/>相，故言無知，不可定智慧。審波若下諸句例
@@ -2103,7 +2284,8 @@
 <lb n="0336c25" ed="T"/>法中行而行，不可境中行而行，不可解中行而
 <lb n="0336c26" ed="T"/>行，是故般若不可思議。而一切諸佛菩薩於中
 <lb n="0336c27" ed="T"/>行，故亦不可思議。一切諸如來於幻化無住法
-<lb n="0336c28" ed="T"/>中化，亦不可思議。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0336c2808">是以波若下，大段第四明
+<lb n="0336c28" ed="T"/>中化，亦不可思議。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0336c2808">是以波若下，大段第四明
 <lb n="0336c29" ed="T"/>波若忘言離著。就中有二：初依空起行、第二
 <pb n="0337a" ed="T" xml:id="T33.1707.0337a"/>
 <lb n="0337a01" ed="T"/>歎說。就起行中有四句：初明不可得眾生中
@@ -2117,9 +2299,22 @@
 <lb n="0337a09" ed="T"/>頂開士說是功德，百千億分中如王所說、如海
 <lb n="0337a10" ed="T"/>一渧。我今略述分義功德，有大利益一切眾生，
 <lb n="0337a11" ed="T"/>亦為過去來今無量諸如來之所述可，三賢十
-<lb n="0337a12" ed="T"/>聖讚歎無量是月光王分義功德。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0337a1214">善男子下，
-<lb n="0337a13" ed="T"/>大段第五<note n="0337a1301" resp="CBETA" type="add" note_key="T33.0337a13.05">校【CB】，狹【大】</note><app n="0337a1301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem><rdg wit="【大】">狹</rdg></app>量說中有二。一正<note n="0337a1302" resp="CBETA" type="add" note_key="T33.0337a13.13">校【CB】，狹【大】</note><app n="0337a1302"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem><rdg wit="【大】">狹</rdg></app>量第二我
-<lb n="0337a14" ed="T"/>今下歎說利益。初就<note n="0337a1401" resp="CBETA" type="add" note_key="T33.0337a14.09">校【CB】，狹【大】</note><app n="0337a1401"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem><rdg wit="【大】">狹</rdg></app>量中歎月光所說功
+<lb n="0337a12" ed="T"/>聖讚歎無量是月光王分義功德。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0337a1214">善男子下，
+<lb n="0337a13" ed="T"/>大段第五<note 
+n="0337a1301" resp="CBETA" type="add" note_key="T33.0337a13.05">校【CB】，狹【大】</note><app n="0337a1301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem>
+  <rdg wit="【大】">狹</rdg>
+</app>量說中有二。一正<note 
+n="0337a1302" resp="CBETA" type="add" note_key="T33.0337a13.13">校【CB】，狹【大】</note><app n="0337a1302">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem>
+  <rdg wit="【大】">狹</rdg>
+</app>量第二我
+<lb n="0337a14" ed="T"/>今下歎說利益。初就<note 
+n="0337a1401" resp="CBETA" type="add" note_key="T33.0337a14.09">校【CB】，狹【大】</note><app n="0337a1401">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">校<note type="cf1">T33n1707_p0337a22</note></lem>
+  <rdg wit="【大】">狹</rdg>
+</app>量中歎月光所說功
 <lb n="0337a15" ed="T"/>德如大海水，十地菩薩說如海一滴。又解：不
 <lb n="0337a16" ed="T"/>然，月光所說如海一滴，十地菩薩說如大海
 <lb n="0337a17" ed="T"/>水，以是勝故，經言灌頂開士說是功德百千
@@ -2133,8 +2328,13 @@
 <lb n="0337a25" ed="T"/>切諸佛菩薩不由此門得薩婆若者，無有是處。
 <lb n="0337a26" ed="T"/>何以故？一切諸佛及菩薩無異路故。是故一切
 <lb n="0337a27" ed="T"/>諸善男子，若有人聞諸忍法門，信忍、止忍、堅忍、
-<lb n="0337a28" ed="T"/>善覺忍、離達忍、明慧忍、炎慧忍、勝慧<note n="0337a2801" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337a2801"><lem resp="CBETA" wit="【CB】">忍</lem><rdg wit="【大】">𢖫</rdg></app>、法現忍、
-<lb n="0337a29" ed="T"/>遠達忍、等覺忍、慧光忍、灌頂忍、圓覺忍者。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0337a2917">善
+<lb n="0337a28" ed="T"/>善覺忍、離達忍、明慧忍、炎慧忍、勝慧<note 
+n="0337a2801" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337a2801">
+  <lem resp="CBETA" wit="【CB】">忍</lem>
+  <rdg wit="【大】">𢖫</rdg>
+</app>、法現忍、
+<lb n="0337a29" ed="T"/>遠達忍、等覺忍、慧光忍、灌頂忍、圓覺忍者。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0337a2917">善
 <pb n="0337b" ed="T" xml:id="T33.1707.0337b"/>
 <lb n="0337b01" ed="T"/>男子是十四法門下，大段第五，牒上所說結
 <lb n="0337b02" ed="T"/>勸修學。就中有三：第一明三世同修，顯行要
@@ -2144,23 +2344,44 @@
 <lb n="0337b06" ed="T"/>佛菩薩不由下，明上同修同說所以；三何以
 <lb n="0337b07" ed="T"/>故下，傳釋上同修意，以無異道故。若有人聞
 <lb n="0337b08" ed="T"/>下，第二歎益勸修。就中有二：初更列十四忍
-<lb n="0337b09" ed="T"/>名；二是人超過下，歎經功能。初列十四<note n="0337b0901" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b0901"><lem resp="CBETA" wit="【CB】">忍</lem><rdg wit="【大】">𢖫</rdg></app>名，
+<lb n="0337b09" ed="T"/>名；二是人超過下，歎經功能。初列十四<note 
+n="0337b0901" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b0901">
+  <lem resp="CBETA" wit="【CB】">忍</lem>
+  <rdg wit="【大】">𢖫</rdg>
+</app>名，
 <lb n="0337b10" ed="T"/>一信忍，謂習種性；二止忍，謂性種性；三堅忍，謂
 <lb n="0337b11" ed="T"/>道種性；四善覺忍，謂初地；五離達忍，謂二地；六
 <lb n="0337b12" ed="T"/>明慧忍，謂三地；七炎慧忍，謂四地；八勝慧忍，謂
-<lb n="0337b13" ed="T"/>五地；九法現<note n="0337b1301" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b1301"><lem resp="CBETA" wit="【CB】">忍</lem><rdg wit="【大】">𢖫</rdg></app>，謂六地；十遠達忍，謂七地；十一
-<lb n="0337b14" ed="T"/>等覺<note n="0337b1401" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b1401"><lem resp="CBETA" wit="【CB】">忍</lem><rdg wit="【大】">𢖫</rdg></app>，謂八地；十二慧光忍，謂九地；十三灌頂
-<lb n="0337b15" ed="T"/><note n="0337b1501" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b1501"><lem resp="CBETA" wit="【CB】">忍</lem><rdg wit="【大】">𢖫</rdg></app>，謂第十地；十四圓覺忍，謂佛地如來萬德。</p></cb:div>
+<lb n="0337b13" ed="T"/>五地；九法現<note 
+n="0337b1301" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b1301">
+  <lem resp="CBETA" wit="【CB】">忍</lem>
+  <rdg wit="【大】">𢖫</rdg>
+</app>，謂六地；十遠達忍，謂七地；十一
+<lb n="0337b14" ed="T"/>等覺<note 
+n="0337b1401" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b1401">
+  <lem resp="CBETA" wit="【CB】">忍</lem>
+  <rdg wit="【大】">𢖫</rdg>
+</app>，謂八地；十二慧光忍，謂九地；十三灌頂
+<lb n="0337b15" ed="T"/><note 
+n="0337b1501" resp="CBETA" type="add">忍【CB】，𢖫【大】</note><app n="0337b1501">
+  <lem resp="CBETA" wit="【CB】">忍</lem>
+  <rdg wit="【大】">𢖫</rdg>
+</app>，謂第十地；十四圓覺忍，謂佛地如來萬德。</p></cb:div>
 <lb n="0337b16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0337b1601">「是人超過百劫千劫無量恒河沙生生苦難，入
 <lb n="0337b17" ed="T"/>此法門現身得報。」時諸眾中有十億同名虛空
 <lb n="0337b18" ed="T"/>藏海菩薩，歡喜法樂，各各散華於虛空中，變成
 <lb n="0337b19" ed="T"/>無量華臺，上有無量大眾說十四正行。十八梵、
 <lb n="0337b20" ed="T"/>六欲天王亦散寶華，各坐虛空臺上說十四正
 <lb n="0337b21" ed="T"/>行，受持讀誦解其義理，無量諸鬼神現身修行
-<lb n="0337b22" ed="T"/>般若波羅蜜。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0337b2206">是人超過下，第二明歎經功能。
+<lb n="0337b22" ed="T"/>般若波羅蜜。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0337b2206">是人超過下，第二明歎經功能。
 <lb n="0337b23" ed="T"/>第二歎益勸修訖。第三時諸下，大眾聞法獲
 <lb n="0337b24" ed="T"/>益散華供養。文有三：初菩薩歡喜供養。十四
-<lb n="0337b25" ed="T"/>忍，名十四正行；二十八梵天<note n="0337b2501" resp="CBETA" type="add">歡【CB】，勸【大】</note><app n="0337b2501"><lem resp="CBETA.maha" wit="【CB】">歡</lem><rdg wit="【大】">勸</rdg></app>喜供養；三無
+<lb n="0337b25" ed="T"/>忍，名十四正行；二十八梵天<note 
+n="0337b2501" resp="CBETA" type="add">歡【CB】，勸【大】</note><app n="0337b2501">
+  <lem resp="CBETA.maha" wit="【CB】">歡</lem>
+  <rdg wit="【大】">勸</rdg>
+</app>喜供養；三無
 <lb n="0337b26" ed="T"/>量諸鬼神下，明鬼神供養，略不明餘眾供養。
 <lb n="0337b27" ed="T"/>言十八梵者，初禪有三，謂一梵眾、二梵輔、三大
 <lb n="0337b28" ed="T"/>梵。二禪有三：一小光、二無量光、三光音。三禪
@@ -2176,7 +2397,8 @@
 <lb n="0337c08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0337c0801">佛告大王：「汝先言云何眾生相可化？若以幻化
 <lb n="0337c09" ed="T"/>身見幻化者，是菩薩真行化眾生。眾生識初一
 <lb n="0337c10" ed="T"/>念識異木石，生得善、生得惡，惡為無量惡識本，
-<lb n="0337c11" ed="T"/>善為無量善識本。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0337c1108">第三佛告大王汝先言下，
+<lb n="0337c11" ed="T"/>善為無量善識本。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0337c1108">第三佛告大王汝先言下，
 <lb n="0337c12" ed="T"/>答前所化眾生問。文有三：第一欲答故牒其
 <lb n="0337c13" ed="T"/>問，故云何眾生相可化；第二若以幻化下，正
 <lb n="0337c14" ed="T"/>答；第三時眾下，明得益。就正答中有二：初就
@@ -2215,7 +2437,8 @@
 <lb n="0338a17" ed="T"/>之識熏習之功，各生無量善惡習果也。</p></cb:div>
 <lb n="0338a18" ed="T"/><cb:div type="orig"><p xml:id="pT33p0338a1801">「初一念、金剛終一念於中生不可說、不可說識，
 <lb n="0338a19" ed="T"/>成眾生色心，是眾生根本，色名色蓋，心名識蓋、
-<lb n="0338a20" ed="T"/>想蓋、受蓋、行蓋，蓋者陰覆為用。身名積聚。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0338a2017">初
+<lb n="0338a20" ed="T"/>想蓋、受蓋、行蓋，蓋者陰覆為用。身名積聚。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0338a2017">初
 <lb n="0338a21" ed="T"/>一念金剛終一念於中生不可說不可說識，此
 <lb n="0338a22" ed="T"/>意於生死內既無明緣念，念起生滅心也，故
 <lb n="0338a23" ed="T"/>云不可說識，此明成眾生因也。成眾生色心
@@ -2229,7 +2452,8 @@
 <lb n="0338b01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0338b0101">「大王！此一色法生無量色，眼所得為色、耳所得
 <lb n="0338b02" ed="T"/>為聲、鼻所得為香、舌所得為味、身所得為觸。堅
 <lb n="0338b03" ed="T"/>持名地、水名潤、火名熱、輕動名風。生五識處名
-<lb n="0338b04" ed="T"/>根。如是一色一心有不可思議色心。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0338b0415">此一色
+<lb n="0338b04" ed="T"/>根。如是一色一心有不可思議色心。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0338b0415">此一色
 <lb n="0338b05" ed="T"/>法生無量色者，依《成實》十四種色為色陰，陰
 <lb n="0338b06" ed="T"/>蓋眾生不能得出離生死。初明五塵色，次明
 <lb n="0338b07" ed="T"/>四大色，次明五根色，文相甚顯。如是一色下，
@@ -2237,7 +2461,8 @@
 <lb n="0338b09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0338b0901">「大王！凡夫六識麁，故得假名，青黃方圓等無量
 <lb n="0338b10" ed="T"/>假色法；聖人六識淨，故得實法，色香味觸一切
 <lb n="0338b11" ed="T"/>實色法。眾生者，世諦之名也，若有若無，但生眾
-<lb n="0338b12" ed="T"/>生憶念，名為世諦。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0338b1208">大王凡夫六識下，第四簡
+<lb n="0338b12" ed="T"/>生憶念，名為世諦。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0338b1208">大王凡夫六識下，第四簡
 <lb n="0338b13" ed="T"/>凡聖色麁細分別。凡夫六識總相聚法，故言
 <lb n="0338b14" ed="T"/>得假名上青黃。聖人分別四微等，故言得實。
 <lb n="0338b15" ed="T"/>又云：聖人緣法界六識得真實法也。眾生者
@@ -2252,7 +2477,8 @@
 <lb n="0338b24" ed="T"/>化，幻化見幻化。婆羅門、剎利、毘舍、首陀、神我等
 <lb n="0338b25" ed="T"/>色心，名為幻諦。幻諦法，無佛出世前無名字無
 <lb n="0338b26" ed="T"/>義名幻法。幻化無名字、無體相、無三界名字、無
-<lb n="0338b27" ed="T"/>善惡果報六道名字。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0338b2709">假誑幻化故有乃至六
+<lb n="0338b27" ed="T"/>善惡果報六道名字。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0338b2709">假誑幻化故有乃至六
 <lb n="0338b28" ed="T"/>道亦如幻化，名為無果。以眾生虛妄憶想為
 <lb n="0338b29" ed="T"/>假誑所成，故有人天六道之名。若達此妄本
 <pb n="0338c" ed="T" xml:id="T33.1707.0338c"/>
@@ -2265,7 +2491,8 @@
 <lb n="0338c07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0338c0701">「大王！是故諸佛出現於世，為眾生故說，作三界
 <lb n="0338c08" ed="T"/>六道名字，是名無量名字，如空法、四大法、心法、
 <lb n="0338c09" ed="T"/>色法、相續假法，非一非異，一亦不續、異亦不續，
-<lb n="0338c10" ed="T"/>非一非異，故名續諦。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0338c1009">二大王下，明佛出世為
+<lb n="0338c10" ed="T"/>非一非異，故名續諦。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0338c1009">二大王下，明佛出世為
 <lb n="0338c11" ed="T"/>眾生立一切世界六道無量種種色心等名
 <lb n="0338c12" ed="T"/>字，可知。第二明三假屬世諦。一相續假者，與
 <lb n="0338c13" ed="T"/>成實師異。若見諸法是一，是常見；若見諸法
@@ -2275,7 +2502,8 @@
 <lb n="0338c17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0338c1701">「相待假法，一切名相待，亦名不定相待，如五色
 <lb n="0338c18" ed="T"/>等法、有無一切等法，一切法皆緣成假成，眾生
 <lb n="0338c19" ed="T"/>俱時因果、異時因果，三世善惡一切幻化，是幻
-<lb n="0338c20" ed="T"/>諦眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0338c2004">相待假者有二，亦名別待，亦名通
+<lb n="0338c20" ed="T"/>諦眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0338c2004">相待假者有二，亦名別待，亦名通
 <lb n="0338c21" ed="T"/>待。如長短老少好惡，名為別待，如長待不長。
 <lb n="0338c22" ed="T"/>一切萬物皆不定，不長外隨待一物，故云不
 <lb n="0338c23" ed="T"/>定，亦名通待。緣成假者，即因成假，四塵成四
@@ -2291,7 +2519,8 @@
 <lb n="0339a03" ed="T"/>空中華，十住菩薩諸佛五眼如幻諦而見，菩薩
 <lb n="0339a04" ed="T"/>化眾生為若此。」時諸有無量天子及諸大眾，得
 <lb n="0339a05" ed="T"/>伏忍者、得空無生忍，乃至一地十地不可思議
-<lb n="0339a06" ed="T"/>德行。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0339a0603">第三大王下，明諸佛菩薩五眼，亦名世
+<lb n="0339a06" ed="T"/>德行。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0339a0603">第三大王下，明諸佛菩薩五眼，亦名世
 <lb n="0339a07" ed="T"/>諦。文云若菩薩如上所見眾生幻化，如空中
 <lb n="0339a08" ed="T"/>花，眾生本來無所有，以虛妄而有，譬如空花。
 <lb n="0339a09" ed="T"/>諸佛五眼如幻諦而見，如境而知、如理而知照，
@@ -2320,7 +2549,8 @@
 <lb n="0339b02" ed="T"/>第一義諦中有世諦不，此正是問也。</p></cb:div>
 <lb n="0339b03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0339b0301">爾時波斯匿王白佛言：「第一義諦中有世諦不？
 <lb n="0339b04" ed="T"/>若言無者，智不應二；若言有者；智不應一。一二
-<lb n="0339b05" ed="T"/>之義，其事云何？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0339b0507">若言無者智不應二，方便智、
+<lb n="0339b05" ed="T"/>之義，其事云何？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0339b0507">若言無者智不應二，方便智、
 <lb n="0339b06" ed="T"/>實智。若言有者聖人智不應一。若論其理不
 <lb n="0339b07" ed="T"/>一不二，若定為一，凡夫見俗而應見真。若定
 <lb n="0339b08" ed="T"/>有者，智不應。一此正難也。一二之義其事云
@@ -2328,7 +2558,8 @@
 <lb n="0339b10" ed="T"/>有問，故言一二之其事云何。</p></cb:div>
 <lb n="0339b11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0339b1101">佛告大王：「汝於過去七佛已問一義二義，汝今
 <lb n="0339b12" ed="T"/>無聽我今無說，無聽無說即為一義二義故。諦
-<lb n="0339b13" ed="T"/>聽諦聽，善思念之，如法修行，七佛偈如是。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0339b1317">佛
+<lb n="0339b13" ed="T"/>聽諦聽，善思念之，如法修行，七佛偈如是。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0339b1317">佛
 <lb n="0339b14" ed="T"/>告下，第二佛答也。就答中有三：初長行歎問；
 <lb n="0339b15" ed="T"/>二引七佛偈為證；第三大王下長行，正報其
 <lb n="0339b16" ed="T"/>難。初長行歎問有三：初歎問、二略示義宗、三
@@ -2353,7 +2584,8 @@
 <lb n="0339c05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0339c0501">「無相第一義，無自無他作，因緣本自有，無自無
 <lb n="0339c06" ed="T"/>他作。法性本無性，第一義空如，諸有本有法，三
 <lb n="0339c07" ed="T"/>假集假有。無無諦實無，寂滅第一空，諸法因緣
-<lb n="0339c08" ed="T"/>有，有無義如是。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0339c0807">無相第一義者，此辨真諦也。
+<lb n="0339c08" ed="T"/>有，有無義如是。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0339c0807">無相第一義者，此辨真諦也。
 <lb n="0339c09" ed="T"/>如來說法前後不同，先說世諦後明真諦，此
 <lb n="0339c10" ed="T"/>明從淺入深。自有先說真諦後明俗諦，此明
 <lb n="0339c11" ed="T"/>宗歸有本。無相者，實相之理絕於有無，名為
@@ -2392,7 +2624,8 @@
 <lb n="0340a14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0340a1401">「有無本自二，譬如牛二角，照解見無二，二諦常
 <lb n="0340a15" ed="T"/>不即。解心見不二，求二不可得，非謂二諦一，非
 <lb n="0340a16" ed="T"/>二何可得？於解常自一，於諦常自二，通達此無
-<lb n="0340a17" ed="T"/>二，真入第一義。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0340a1707">有無本自二下，第二有三偈，
+<lb n="0340a17" ed="T"/>二，真入第一義。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0340a1707">有無本自二下，第二有三偈，
 <lb n="0340a18" ed="T"/>就一異約情解以辨二諦不二。初偈略明一
 <lb n="0340a19" ed="T"/>二，第二偈解釋，第三偈結歎。初偈為二：上半
 <lb n="0340a20" ed="T"/>約二情明二諦，下半約觀解明不二。上半初
@@ -2423,7 +2656,8 @@
 <lb n="0340b15" ed="T"/>二真入第一義。</p></cb:div>
 <lb n="0340b16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0340b1601">「世諦幻化起，譬如虛空華，如影三手無，因緣故
 <lb n="0340b17" ed="T"/>誑有。幻化見幻化，眾生名幻諦，幻師見幻法，諦
-<lb n="0340b18" ed="T"/>實則皆無。名為諸佛觀，菩薩觀亦然。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0340b1815">世諦幻
+<lb n="0340b18" ed="T"/>實則皆無。名為諸佛觀，菩薩觀亦然。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0340b1815">世諦幻
 <lb n="0340b19" ed="T"/>化起下，第三有兩偈，約譬明二諦為二。初一
 <lb n="0340b20" ed="T"/>行半，明世諦人法同於幻化；後幻師下半行，
 <lb n="0340b21" ed="T"/>約譬明真諦。世諦幻化起譬如虛空華者，明
@@ -2444,7 +2678,8 @@
 <lb n="0340c06" ed="T"/>生，佛及眾生一而無二。何以故？以眾生空故得
 <lb n="0340c07" ed="T"/>置菩提空，以菩提空故得置眾生空，以一切法
 <lb n="0340c08" ed="T"/>空故空空。何以故？般若無相，二諦虛空。般若空
-<lb n="0340c09" ed="T"/>於無明乃至薩婆若，無自相無他相故。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0340c0916">大王
+<lb n="0340c09" ed="T"/>於無明乃至薩婆若，無自相無他相故。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0340c0916">大王
 <lb n="0340c10" ed="T"/>下，第三正釋其所難，明二諦不二。於中有三：
 <lb n="0340c11" ed="T"/>初舉果對因以明二諦不二；第二五眼下，偏
 <lb n="0340c12" ed="T"/>就果以釋不二；第三菩薩未成佛下，雙結因
@@ -2488,7 +2723,8 @@
 <lb n="0341a20" ed="T"/>非行非不行亦不受，乃至一切法亦不受。菩薩
 <lb n="0341a21" ed="T"/>未成佛時，以菩提為煩惱；菩薩成佛時，以煩惱
 <lb n="0341a22" ed="T"/>為菩提。何以故？於第一義而不二故，諸佛如來
-<lb n="0341a23" ed="T"/>乃至一切法如故。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0341a2308">五眼下，第二偏就果地以
+<lb n="0341a23" ed="T"/>乃至一切法如故。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0341a2308">五眼下，第二偏就果地以
 <lb n="0341a24" ed="T"/>明能見所見不二。文言見無所見者，此見是
 <lb n="0341a25" ed="T"/>無見之見，言無所見者，諸法本來清淨，何所
 <lb n="0341a26" ed="T"/>見耶？而言見者，隨俗故無過。《法華》明佛眼見
@@ -2521,7 +2757,8 @@
 <lb n="0341b23" ed="T"/>如，不誦偈如，無問而自說如，戒經如，譬喻如，法
 <lb n="0341b24" ed="T"/>界如，本事如，方廣如，未曾有如，論義如，是名味
 <lb n="0341b25" ed="T"/>句音聲果文字記句一切如，若取文字者不行
-<lb n="0341b26" ed="T"/>空也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0341b2603">二白佛言下，第二問答，明說法不二。
+<lb n="0341b26" ed="T"/>空也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0341b2603">二白佛言下，第二問答，明說法不二。
 <lb n="0341b27" ed="T"/>有二：初問、後答。就初問中有二意：初問
 <lb n="0341b28" ed="T"/>意言云何上說菩薩於第一義諦中常照二
 <lb n="0341b29" ed="T"/>諦化眾生。第一義諦中有何所化，而言佛
@@ -2571,7 +2808,8 @@
 <lb n="0342a13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0342a1301">「大王！如如文字修諸佛智母，一切眾生性根本
 <lb n="0342a14" ed="T"/>智母，即為薩婆若體；諸佛未成佛，以當佛為智
 <lb n="0342a15" ed="T"/>母，未得為性；已得薩婆若。三乘般若不生不滅，
-<lb n="0342a16" ed="T"/>自性常住，一切眾生以此為覺性故。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0342a1615">大王如
+<lb n="0342a16" ed="T"/>自性常住，一切眾生以此為覺性故。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0342a1615">大王如
 <lb n="0342a17" ed="T"/>如文字下，答問中第二，明三種佛性：初現常
 <lb n="0342a18" ed="T"/>佛性、二當常佛性、三了因佛性。佛性非當現，
 <lb n="0342a19" ed="T"/>而約緣當現不同，故有三種之說。若無依無
@@ -2596,7 +2834,8 @@
 <lb n="0342b08" ed="T"/>性也。</p></cb:div>
 <lb n="0342b09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0342b0901">「若菩薩無受無文字，離文字非非文字修，無修
 <lb n="0342b10" ed="T"/>為修文字者，得般若真性般若波羅蜜。大王！若
-<lb n="0342b11" ed="T"/>菩薩護佛護化眾生護十地行為若此。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0342b1116">若菩
+<lb n="0342b11" ed="T"/>菩薩護佛護化眾生護十地行為若此。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0342b1116">若菩
 <lb n="0342b12" ed="T"/>薩下，答問中第三，出修之方法。有二：初出修方
 <lb n="0342b13" ed="T"/>法，文言無受無文字離文字非非文字修，無
 <lb n="0342b14" ed="T"/>修為修文字者者，以知文字性離，心無所依，
@@ -2608,10 +2847,15 @@
 <lb n="0342b20" ed="T"/>之方法也。護佛者，護果。護十地行者，護因。護
 <lb n="0342b21" ed="T"/>化眾生者，利他行也。</p></cb:div>
 <lb n="0342b22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0342b2201">白佛言：「無量品眾生根，亦無量行，亦無量法門，
-<lb n="0342b23" ed="T"/>為一為二？為無<note n="0342b2301" resp="CBETA" type="add" note_key="T33.0342b23.07">量【CB】【卍續-CB】，最【大】</note><app n="0342b2301"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">量<note type="cf1">X26n0511_p0033b02</note></lem><rdg wit="【大】">最</rdg></app>耶？」「大王！一切法觀門非一非
+<lb n="0342b23" ed="T"/>為一為二？為無<note 
+n="0342b2301" resp="CBETA" type="add" note_key="T33.0342b23.07">量【CB】【卍續-CB】，最【大】</note><app n="0342b2301">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">量<note type="cf1">X26n0511_p0033b02</note></lem>
+  <rdg wit="【大】">最</rdg>
+</app>耶？」「大王！一切法觀門非一非
 <lb n="0342b24" ed="T"/>二，乃至無量一切法，亦非有相非非無相。若菩
 <lb n="0342b25" ed="T"/>薩見眾生見一見二即不見一不見二。一二者，
-<lb n="0342b26" ed="T"/>第一義諦也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0342b2606">白佛言無量品眾生下，第三問
+<lb n="0342b26" ed="T"/>第一義諦也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0342b2606">白佛言無量品眾生下，第三問
 <lb n="0342b27" ed="T"/>答，明法門不二。就中有二：初問、次答。初月光
 <lb n="0342b28" ed="T"/>舉所化眾生無量品，明其人別。根亦無量，明
 <lb n="0342b29" ed="T"/>其根別。行亦無量，明其行別。此三既異，未知
@@ -2642,7 +2886,8 @@
 <lb n="0342c24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0342c2401">「大王！若有若無者，即世諦也。以三諦攝一切法，
 <lb n="0342c25" ed="T"/>空諦、色諦、心諦，故我說一切法不出三諦。我人
 <lb n="0342c26" ed="T"/>知見、五受陰空，乃至一切法空。眾生品品根行
-<lb n="0342c27" ed="T"/>不同，故非一非二法門。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0342c2710">第三大王下，明諸諦
+<lb n="0342c27" ed="T"/>不同，故非一非二法門。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0342c2710">第三大王下，明諸諦
 <lb n="0342c28" ed="T"/>空中有三：初明世諦、次明三諦攝法、三明世
 <lb n="0342c29" ed="T"/>諦終歸空也。初世諦，文云若有若無者，此意
 <pb n="0343a" ed="T" xml:id="T33.1707.0343a"/>
@@ -2663,14 +2908,19 @@
 <lb n="0343a15" ed="T"/>羅蜜，無二無別。汝等大眾受持、讀誦、解說，是經
 <lb n="0343a16" ed="T"/>功德有無量不可說不可說諸佛，一一佛教化
 <lb n="0343a17" ed="T"/>無量不可說眾生，一一眾生皆得成佛，是佛復
-<lb n="0343a18" ed="T"/>教化無量不可說眾生皆得成佛。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0343a1814">大王七佛
+<lb n="0343a18" ed="T"/>教化無量不可說眾生皆得成佛。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0343a1814">大王七佛
 <lb n="0343a19" ed="T"/>下，答中第二段，歎教勸修明經功德。文有六
 <lb n="0343a20" ed="T"/>別：初明諸佛道同；汝等下，第二勸持；有無量
 <lb n="0343a21" ed="T"/>下，第三別列三番佛；是上三佛下，第四總牒
 <lb n="0343a22" ed="T"/>上三佛，明說波若分教多少；況復下，第五校
 <lb n="0343a23" ed="T"/>量；時諸下，第六聞法獲益。第一諸佛道同，文
 <lb n="0343a24" ed="T"/>云七佛所說我今說波若無二無別者，通釋釋
-<lb n="0343a25" ed="T"/>迦為七佛，明<note n="0343a2501" resp="CBETA" type="add" note_key="T33.0343a25.06">己【CB】，已【大】</note><app n="0343a2501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem><rdg wit="【大】">已</rdg></app>所說同於六佛，顯法真正。同
+<lb n="0343a25" ed="T"/>迦為七佛，明<note 
+n="0343a2501" resp="CBETA" type="add" note_key="T33.0343a25.06">己【CB】，已【大】</note><app n="0343a2501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>所說同於六佛，顯法真正。同
 <lb n="0343a26" ed="T"/>無所得，故無二無別。第二勸持，文云汝等大
 <lb n="0343a27" ed="T"/>眾受持。《大智論》解受持云「聞而奉行為受，久
 <lb n="0343a28" ed="T"/>久不失為持。」故云受持。讀誦解義，可解。第三
@@ -2685,7 +2935,8 @@
 <lb n="0343b07" ed="T"/>劫千劫十地等功德，何況受持讀誦解說者功
 <lb n="0343b08" ed="T"/>德，即十方諸佛等無有異。當知是人即是如來，
 <lb n="0343b09" ed="T"/>得佛不久。」時諸大眾聞說是經，十億人得三空
-<lb n="0343b10" ed="T"/>忍，百萬億人得大空忍十地性。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0343b1013">第四是上三
+<lb n="0343b10" ed="T"/>忍，百萬億人得大空忍十地性。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0343b1013">第四是上三
 <lb n="0343b11" ed="T"/>佛下，總牒上三種多佛。一一佛各說八百萬億
 <lb n="0343b12" ed="T"/>偈，顯所說既廣，今分教少多。有三句：初分經
 <lb n="0343b13" ed="T"/>作八百萬億偈；二於一偈中分為千分；三於
@@ -2706,7 +2957,8 @@
 <lb n="0343b28" ed="T"/>護舍宅功德，亦護一切眾生身，即此般若波羅
 <lb n="0343b29" ed="T"/>蜜是護國土，如城塹牆壁刀劍鉾楯。汝應受持，
 <pb n="0343c" ed="T" xml:id="T33.1707.0343c"/>
-<lb n="0343c01" ed="T"/>般若波羅蜜亦復如是。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0343c0110">大王下，答問內第三
+<lb n="0343c01" ed="T"/>般若波羅蜜亦復如是。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0343c0110">大王下，答問內第三
 <lb n="0343c02" ed="T"/>段，定經名字勸持。文有三：初總列經名勸人
 <lb n="0343c03" ed="T"/>受持；復有無量下，第二顯經功能；從汝應下，
 <lb n="0343c04" ed="T"/>第三結勸受持。第一列名內云此經名仁王
@@ -2739,7 +2991,8 @@
 <pb n="0344a" ed="T" xml:id="T33.1707.0344a"/>
 <lb n="0344a01" ed="T"/>化復顯，經之威力使國無災民主獲安，故名為
 <lb n="0344a02" ed="T"/>護。所護是何？題名為國。國者，王化封疆名之
-<lb n="0344a03" ed="T"/>為國。盛辨此義，因以標名，故云護國品。</p><p xml:id="pT33p0344a0316" cb:place="inline">問：何
+<lb n="0344a03" ed="T"/>為國。盛辨此義，因以標名，故云護國品。</p>
+<p xml:id="pT33p0344a0316" cb:place="inline">問：何
 <lb n="0344a04" ed="T"/>故弘此經能護國土？答：其意眾多，今略明三
 <lb n="0344a05" ed="T"/>義，故能護國土。一者般若是佛母，能生諸佛，
 <lb n="0344a06" ed="T"/>今弘宣般若，稱可佛心，為佛神通之所擁護，
@@ -2748,7 +3001,8 @@
 <lb n="0344a09" ed="T"/>大乘，以菩薩神通大故，能令七難不起。三者
 <lb n="0344a10" ed="T"/>此大乘經是十方護法天龍鬼神等之所愛敬，
 <lb n="0344a11" ed="T"/>由講此經，天龍神等悉來聽法，擁護國土，能
-<lb n="0344a12" ed="T"/>除七難災障不起，故能護國也。</p><p xml:id="pT33p0344a1213" cb:place="inline">此品分為五
+<lb n="0344a12" ed="T"/>除七難災障不起，故能護國也。</p>
+<p xml:id="pT33p0344a1213" cb:place="inline">此品分為五
 <lb n="0344a13" ed="T"/>別：初明護國行法；大王昔日下，第二引昔顯
 <lb n="0344a14" ed="T"/>今，明益非虛；大王十六大國下，第三勸物修
 <lb n="0344a15" ed="T"/>行；爾時釋迦下，第四得益；吾今下，第五結。
@@ -2765,7 +3019,8 @@
 <lb n="0344a26" ed="T"/>像，百比丘眾、四大眾七眾共聽是經，請百法師
 <lb n="0344a27" ed="T"/>講般若波羅蜜，百師子吼高座前燃百燈，燒百
 <lb n="0344a28" ed="T"/>和香，百種色華，以用供養三寶。三衣什物供養
-<lb n="0344a29" ed="T"/>法師，小飯中食亦復以時。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0344a2911">初文云告大王者，
+<lb n="0344a29" ed="T"/>法師，小飯中食亦復以時。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0344a2911">初文云告大王者，
 <pb n="0344b" ed="T" xml:id="T33.1707.0344b"/>
 <lb n="0344b01" ed="T"/>誡聽也。吾今者，許為正說。汝當受持下，勸王
 <lb n="0344b02" ed="T"/>修行也。始是答上〈空品〉中問護國土因緣。二
@@ -2797,7 +3052,8 @@
 <lb n="0344b28" ed="T"/><cb:div type="orig"><p xml:id="pT33p0344b2801">「時大王一日二時講讀此經，汝國土中有百部
 <lb n="0344b29" ed="T"/>鬼神，是一一部復有百部，樂聞是經，此諸鬼神
 <pb n="0344c" ed="T" xml:id="T33.1707.0344c"/>
-<lb n="0344c01" ed="T"/>護汝國土。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0344c0105">文云一日二時講者，午前、午後也。
+<lb n="0344c01" ed="T"/>護汝國土。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0344c0105">文云一日二時講者，午前、午後也。
 <lb n="0344c02" ed="T"/>四明善神護國土。文云百部鬼神者，三藏師
 <lb n="0344c03" ed="T"/>云：出《金銀仙人義經》，此經外國不來。此仙人
 <lb n="0344c04" ed="T"/>領諸鬼神，鬼神根本有十部，一一部各有十
@@ -2822,7 +3078,8 @@
 <lb n="0344c23" ed="T"/>來劫國，百姓亡喪，臣君大子王子，王王子百官
 <lb n="0344c24" ed="T"/>共生是非，天地怪異，二十八宿、星道、日月失時
 <lb n="0344c25" ed="T"/>失度，多有賊起。大王！若火難、水難、風難一切諸
-<lb n="0344c26" ed="T"/>難，亦應講讀此經，法用如上說。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0344c2613">第二明七難
+<lb n="0344c26" ed="T"/>難，亦應講讀此經，法用如上說。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0344c2613">第二明七難
 <lb n="0344c27" ed="T"/>正壞國土。七難者，一鬼神難、二賊難、三臣君
 <lb n="0344c28" ed="T"/>太子百官難、四二十八宿難。大王下，三災，合
 <lb n="0344c29" ed="T"/>前為七難。此意由國無三寶，復不講讀大乘，
@@ -2839,11 +3096,16 @@
 <lb n="0345a10" ed="T"/>之一，日一日行一度，一歲一周天；月一日行
 <lb n="0345a11" ed="T"/>十三度十九分之七，行一月一周天。又天道
 <lb n="0345a12" ed="T"/>日月所行乃有無量，大判有三道，謂冬至之
-<lb n="0345a13" ed="T"/>日行於南道，夏至日行於北道，<note n="0345a1301" resp="CBETA" type="add" note_key="T33.0345a13.13">春【CB】【卍續-CB】，奉【大】</note><app n="0345a1301"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">春<note type="cf1">X26n0511_p0036a16</note></lem><rdg wit="【大】">奉</rdg></app>秋二分行
+<lb n="0345a13" ed="T"/>日行於南道，夏至日行於北道，<note 
+n="0345a1301" resp="CBETA" type="add" note_key="T33.0345a13.13">春【CB】【卍續-CB】，奉【大】</note><app n="0345a1301">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">春<note type="cf1">X26n0511_p0036a16</note></lem>
+  <rdg wit="【大】">奉</rdg>
+</app>秋二分行
 <lb n="0345a14" ed="T"/>於中道。護難法用同上，故云如上說也。</p></cb:div>
 <lb n="0345a15" ed="T"/><cb:div type="orig"><p xml:id="pT33p0345a1501">「大王！不但護國，亦有護福，求富貴官位、七寶如
 <lb n="0345a16" ed="T"/>意、行來、求男女、求慧解名聞、求六天果報、人中
-<lb n="0345a17" ed="T"/>九品果樂，亦講讀此經，法用如上說。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0345a1715">大王不
+<lb n="0345a17" ed="T"/>九品果樂，亦講讀此經，法用如上說。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0345a1715">大王不
 <lb n="0345a18" ed="T"/>但護國下，第三明護臣庶等法用。有九種福：
 <lb n="0345a19" ed="T"/>一富、二貴官位、三七寶如意、四行來安穩、五男
 <lb n="0345a20" ed="T"/>女、六慧解、七名聞、八六天果、九人中九品果
@@ -2857,7 +3119,8 @@
 <lb n="0345a28" ed="T"/>鎖撿繫其身、破四重禁、作五逆因、作八難罪、行
 <lb n="0345a29" ed="T"/>六道事一切無量苦難，亦講讀此經，法用如上
 <pb n="0345b" ed="T" xml:id="T33.1707.0345b"/>
-<lb n="0345b01" ed="T"/>說。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0345b0102">大王不但護福亦護眾難下，第四明護難。
+<lb n="0345b01" ed="T"/>說。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0345b0102">大王不但護福亦護眾難下，第四明護難。
 <lb n="0345b02" ed="T"/>難有八：一疾病苦難、二杻難、三械難、四枷難、五
 <lb n="0345b03" ed="T"/>鎖難、六撿繫、七四重五篇等是、八五逆等是。
 <lb n="0345b04" ed="T"/>五逆，殺父、殺母、殺真人羅漢、出佛身血、破和合
@@ -2867,7 +3130,8 @@
 <lb n="0345b08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0345b0801">「大王！昔日有王釋提桓因，為頂生王來上天，上
 <lb n="0345b09" ed="T"/>欲滅其國。時帝釋天王即如七佛法用，敷百高
 <lb n="0345b10" ed="T"/>座，請百法師，講說般若波羅蜜，頂生即退，如《滅
-<lb n="0345b11" ed="T"/>罪經》中說。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0345b1105">大王昔日下，第二大段引昔類今。
+<lb n="0345b11" ed="T"/>罪經》中說。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0345b1105">大王昔日下，第二大段引昔類今。
 <lb n="0345b12" ed="T"/>就中有二：初引帝釋王證成波若能護國土，
 <lb n="0345b13" ed="T"/>如《涅槃經》引出其事也。二從天羅國下，引普
 <lb n="0345b14" ed="T"/>明證波若能護身命。如《十王經》中說五千國
@@ -2883,7 +3147,8 @@
 <lb n="0345b24" ed="T"/>斑足王許之一日。時普明王即依過去七佛法，
 <lb n="0345b25" ed="T"/>請百法師，敷百高座，一日二時講說般若波羅
 <lb n="0345b26" ed="T"/>蜜八千億偈竟，其第一法師為普明王而說偈
-<lb n="0345b27" ed="T"/>言：」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0345b2702">大王昔有天羅下，第二引普明王為證。
+<lb n="0345b27" ed="T"/>言：」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0345b2702">大王昔有天羅下，第二引普明王為證。
 <lb n="0345b28" ed="T"/>文有三：一明難事；二從普明王白斑足下，明
 <lb n="0345b29" ed="T"/>依經修福，明護國行法；三爾時法師下，聞法
 <pb n="0345c" ed="T" xml:id="T33.1707.0345c"/>
@@ -2895,7 +3160,8 @@
 <lb n="0345c06" ed="T"/>中有八偈，為四：初兩偈說無常，次兩偈說苦，
 <lb n="0345c07" ed="T"/>次兩偈說空，次兩偈說無我。</p></cb:div>
 <lb n="0345c08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0345c0801">「『劫燒終訖，乾坤洞燃，須彌巨海，都為灰揚。天龍
-<lb n="0345c09" ed="T"/>福盡，於中彫喪，二儀尚殞，國有何常？』」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0345c0915">乾坤洞
+<lb n="0345c09" ed="T"/>福盡，於中彫喪，二儀尚殞，國有何常？』」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0345c0915">乾坤洞
 <lb n="0345c10" ed="T"/>然者，如造天地。《本起經》說天地壽二百萬劫，
 <lb n="0345c11" ed="T"/>壽盡為劫火燒盡。七日凝住，過七日天下洞
 <lb n="0345c12" ed="T"/>然。劫火去，上至欲界第六天，一劫火盡。他方
@@ -2913,7 +3179,8 @@
 <lb n="0345c24" ed="T"/>實生滅也；五自性無常，有為之法平等不住
 <lb n="0345c25" ed="T"/>也。次兩偈明苦，即明八苦。</p></cb:div>
 <lb n="0345c26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0345c2601">「『生老病死，輪轉無際，事與願違，憂悲為害。欲深
-<lb n="0345c27" ed="T"/>禍重，瘡疣無外，三界皆苦，國有何賴？』」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0345c2715">生等者，
+<lb n="0345c27" ed="T"/>禍重，瘡疣無外，三界皆苦，國有何賴？』」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0345c2715">生等者，
 <lb n="0345c28" ed="T"/>即生苦、老苦、病苦、死苦。輪轉無際者，輪迴即是
 <lb n="0345c29" ed="T"/>行苦。事與願違者，即是求不得苦，亦名愛別
 <pb n="0346a" ed="T" xml:id="T33.1707.0346a"/>
@@ -2925,7 +3192,8 @@
 <lb n="0346a06" ed="T"/>苦，二色界退墮故苦，三無色界不安故苦，四
 <lb n="0346a07" ed="T"/>二乘不一向寂靜故苦。次兩偈明空。</p></cb:div>
 <lb n="0346a08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0346a0801">「『有本自無，因緣成諸，盛者必衰，實者必虛。眾生
-<lb n="0346a09" ed="T"/>蠢蠢，都如幻居，聲響俱空，國土亦如。』」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0346a0915">文云有
+<lb n="0346a09" ed="T"/>蠢蠢，都如幻居，聲響俱空，國土亦如。』」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0346a0915">文云有
 <lb n="0346a10" ed="T"/>本自無者，明自性本來空也。因緣成諸者，明
 <lb n="0346a11" ed="T"/>因緣空也。因緣之法由若空華，但有假名而
 <lb n="0346a12" ed="T"/>無其實也。正觀云因緣生法即是空也。盛者
@@ -2938,7 +3206,8 @@
 <lb n="0346a19" ed="T"/>火輪等。次兩偈明無我，初句就心明無我。心
 <lb n="0346a20" ed="T"/>非形相，故言無形也。</p></cb:div>
 <lb n="0346a21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0346a2101">「『識神無形，假乘四蛇，無眼保養，以為樂車。形無
-<lb n="0346a22" ed="T"/>常主，神無常家，形神尚離，豈有國耶？』」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0346a2215">假乘四
+<lb n="0346a22" ed="T"/>常主，神無常家，形神尚離，豈有國耶？』」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0346a2215">假乘四
 <lb n="0346a23" ed="T"/>蛇者，約色明無我，四蛇譬四大也。無眼保養
 <lb n="0346a24" ed="T"/>以為樂車者，此二句約情明無我。以凡夫無慧
 <lb n="0346a25" ed="T"/>眼，保翫此身以為樂車，如似無目之象，但求
@@ -2950,7 +3219,8 @@
 <lb n="0346b01" ed="T"/>舉類顯國空也。</p></cb:div>
 <lb n="0346b02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0346b0201">「爾時法師說此偈已，時普明王眷屬得法眼空，
 <lb n="0346b03" ed="T"/>王自證得虛空等定，聞法悟解，還至天羅國斑
-<lb n="0346b04" ed="T"/>足王所。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0346b0404">第三聞法悟解。有二：初明自行，次
+<lb n="0346b04" ed="T"/>足王所。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0346b0404">第三聞法悟解。有二：初明自行，次
 <lb n="0346b05" ed="T"/>明化他。自行有二：一眷族得解，二普明自證
 <lb n="0346b06" ed="T"/>虛空等定。次明化他有五。</p></cb:div>
 <lb n="0346b07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0346b0701">「眾中即告九百九十九王言：『就命時到，人人皆
@@ -2970,7 +3240,8 @@
 <lb n="0346b21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0346b2101">「大王！十六大國王修護國之法，法應如是。汝當
 <lb n="0346b22" ed="T"/>受持，天上人中六道眾生皆應受持七佛名味
 <lb n="0346b23" ed="T"/>句，未來世中復有無量小國王欲護國土亦復
-<lb n="0346b24" ed="T"/>爾者，應請法師說般若波羅蜜經名味句。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0346b2417">大
+<lb n="0346b24" ed="T"/>爾者，應請法師說般若波羅蜜經名味句。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0346b2417">大
 <lb n="0346b25" ed="T"/>王十六大國下，品中大段第三勸持。有三：初
 <lb n="0346b26" ed="T"/>勸十六國王受持；二天上人中下，勸六道眾
 <lb n="0346b27" ed="T"/>生受持；三無量小國王下，勸諸小國王受持。
@@ -2981,9 +3252,14 @@
 <lb n="0346c02" ed="T"/>得性空地，復有十八梵得無生法忍、得無生法
 <lb n="0346c03" ed="T"/>樂忍，復有先已學菩薩者證一地二地三地乃
 <lb n="0346c04" ed="T"/>至十地，復有八部阿須輪王得十三昧門、得二
-<lb n="0346c05" ed="T"/>三昧門，得轉鬼身天上正受。在此<note n="0346c0501" resp="CBETA" type="add" note_key="T33.0346c05.14">會【CB】【卍續-CB】，曾【大】</note><app n="0346c0501"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">會<note type="cf1">X26n0511_p0038a10</note></lem><rdg wit="【大】">曾</rdg></app>者皆得自
+<lb n="0346c05" ed="T"/>三昧門，得轉鬼身天上正受。在此<note 
+n="0346c0501" resp="CBETA" type="add" note_key="T33.0346c05.14">會【CB】【卍續-CB】，曾【大】</note><app n="0346c0501">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">會<note type="cf1">X26n0511_p0038a10</note></lem>
+  <rdg wit="【大】">曾</rdg>
+</app>者皆得自
 <lb n="0346c06" ed="T"/>性信乃至無量空信。「吾今略說天等功德不可
-<lb n="0346c07" ed="T"/>具盡。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0346c0703">爾時釋迦牟尼下，品中大段第四明得
+<lb n="0346c07" ed="T"/>具盡。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0346c0703">爾時釋迦牟尼下，品中大段第四明得
 <lb n="0346c08" ed="T"/>益。有六種得益不同：初五百億人得初地；二
 <lb n="0346c09" ed="T"/>六欲天八十萬人得性空地，在四地已上；三
 <lb n="0346c10" ed="T"/>十八梵天得無生忍及法樂忍，在七地以上；
@@ -2995,12 +3271,14 @@
 <lb n="0346c16" ed="T"/>又十信名自性信，種性已上名空信也。吾今
 <lb n="0346c17" ed="T"/>下，品中大段第五總結。略說如此，廣說不可窮
 <lb n="0346c18" ed="T"/>盡也。</p></cb:div>
-<lb n="0346c19" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">6 散華品</cb:mulu><head>仁王護國般若波羅蜜經散華品第六</head><p xml:id="pT33p0346c1916" cb:place="inline">正說
+<lb n="0346c19" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">6 散華品</cb:mulu><head>仁王護國般若波羅蜜經散華品第六</head>
+<p xml:id="pT33p0346c1916" cb:place="inline">正說
 <lb n="0346c20" ed="T"/>六品為四：上三品明能護般若，第二〈護國〉一
 <lb n="0346c21" ed="T"/>品明所護國土已竟，今此品是第三示物供
 <lb n="0346c22" ed="T"/>儀令人供養。十六國王聞上說般若得益眾
 <lb n="0346c23" ed="T"/>多，內心慶喜散華供養，因以題名，故云散華
-<lb n="0346c24" ed="T"/>品。</p><p xml:id="pT33p0346c2402" cb:place="inline">問：供養多種，今何故散華？答：供養雖多，不
+<lb n="0346c24" ed="T"/>品。</p>
+<p xml:id="pT33p0346c2402" cb:place="inline">問：供養多種，今何故散華？答：供養雖多，不
 <lb n="0346c25" ed="T"/>出三種：一敬供養，謂香華等；二利供養，謂衣
 <lb n="0346c26" ed="T"/>服等；三修行供養，謂六度四攝等。此品多明
 <lb n="0346c27" ed="T"/>恭供養、修行供養也。此品文為六段：初明十
@@ -3010,10 +3288,15 @@
 <lb n="0347a01" ed="T"/>下，第四現神力；佛現神足下，第五時眾得益；
 <lb n="0347a02" ed="T"/>諦聽諦聽下，第六結。</p></cb:div>
 <lb n="0347a03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347a0301">爾時十六大國王聞佛所說十萬億偈般若波
-<lb n="0347a04" ed="T"/>羅蜜，<note n="0347a0401" resp="CBETA" type="add">歡【CB】，歎【大】</note><app n="0347a0401"><lem resp="CBETA.maha" wit="【CB】">歡<note type="cf1">TW33n1707_p0347a04</note><note type="cf2">T08n0245_p0830c14</note></lem><rdg wit="【大】">歎</rdg></app>喜無量，即散百萬億行華，於虛空中變
+<lb n="0347a04" ed="T"/>羅蜜，<note 
+n="0347a0401" resp="CBETA" type="add">歡【CB】，歎【大】</note><app n="0347a0401">
+  <lem resp="CBETA.maha" wit="【CB】">歡<note type="cf1">TW33n1707_p0347a04</note><note type="cf2">T08n0245_p0830c14</note></lem>
+  <rdg wit="【大】">歎</rdg>
+</app>喜無量，即散百萬億行華，於虛空中變
 <lb n="0347a05" ed="T"/>為一座，十方諸佛共坐一座說般若波羅蜜，無
 <lb n="0347a06" ed="T"/>量大眾共坐一座，持金羅華散釋迦牟尼佛上，
-<lb n="0347a07" ed="T"/>成萬輪華，蓋大眾上。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347a0709">就初散華中有四：初
+<lb n="0347a07" ed="T"/>成萬輪華，蓋大眾上。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347a0709">就初散華中有四：初
 <lb n="0347a08" ed="T"/>散百萬億行華者，地前三十心華。二復散八
 <lb n="0347a09" ed="T"/>萬四千波若波羅蜜華，初地已下十地華。三
 <lb n="0347a10" ed="T"/>復散妙覺華，佛地華也。四諸天人散天華。就
@@ -3021,20 +3304,23 @@
 <lb n="0347a12" ed="T"/>說般若歡喜，即散百萬億行華。二華於空中
 <lb n="0347a13" ed="T"/>變成一座，十方佛共坐一座說般若。三無量
 <lb n="0347a14" ed="T"/>大眾共坐一座，持金羅華散釋迦上。四金羅
-<lb n="0347a15" ed="T"/>華變成萬輪華，蓋大眾也。</p><p xml:id="pT33p0347a1511" cb:place="inline">問：何故一時間諸
+<lb n="0347a15" ed="T"/>華變成萬輪華，蓋大眾也。</p>
+<p xml:id="pT33p0347a1511" cb:place="inline">問：何故一時間諸
 <lb n="0347a16" ed="T"/>華變轉自在如此？答：以般若故，於一無所得
 <lb n="0347a17" ed="T"/>心內作種種名，不可以相心而求。若約勸解，
 <lb n="0347a18" ed="T"/>其事眾多，不可具出。下云諸華，例爾也。</p></cb:div>
 <lb n="0347a19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347a1901">復散八萬四千般若波羅蜜華，於虛空中變成
 <lb n="0347a20" ed="T"/>白雲臺，臺中光明王佛共無量大眾說般若波
 <lb n="0347a21" ed="T"/>羅蜜，臺中大眾持雷吼華，散釋迦牟尼佛及諸
-<lb n="0347a22" ed="T"/>大眾。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347a2203">第二地上行華。文有三：初明散華變
+<lb n="0347a22" ed="T"/>大眾。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347a2203">第二地上行華。文有三：初明散華變
 <lb n="0347a23" ed="T"/>成白雲臺；二明臺中光明王佛說般若；三臺
 <lb n="0347a24" ed="T"/>中大眾持雷吼華散釋迦及大眾也。</p></cb:div>
 <lb n="0347a25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347a2501">復散妙覺華，於虛空中變作金剛城，城中師子
 <lb n="0347a26" ed="T"/>吼王佛共十方佛大菩薩眾論第一義諦，時城
 <lb n="0347a27" ed="T"/>中菩薩持光明華散釋迦牟尼佛上成一華臺，
-<lb n="0347a28" ed="T"/>臺中十方諸佛說不二法。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347a2811">第三佛地散妙覺
+<lb n="0347a28" ed="T"/>臺中十方諸佛說不二法。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347a2811">第三佛地散妙覺
 <lb n="0347a29" ed="T"/>華中，文有五：初明散妙覺華；二華於空中變
 <pb n="0347b" ed="T" xml:id="T33.1707.0347b"/>
 <lb n="0347b01" ed="T"/>作金剛城；三城中師子吼王佛共十方佛大
@@ -3043,22 +3329,26 @@
 <lb n="0347b04" ed="T"/>法也。</p></cb:div>
 <lb n="0347b05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347b0501">及諸天人亦散天華於釋迦牟尼佛上，虛空中
 <lb n="0347b06" ed="T"/>成紫雲蓋，覆三千大千世界，蓋中天人散恒河
-<lb n="0347b07" ed="T"/>沙華如雲而下。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347b0707">第四諸大眾天人散華。有三：
+<lb n="0347b07" ed="T"/>沙華如雲而下。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347b0707">第四諸大眾天人散華。有三：
 <lb n="0347b08" ed="T"/>初散天華釋迦上；二華於空中成紫雲蓋，覆
 <lb n="0347b09" ed="T"/>三千大千世界；三蓋中天人散恒沙華。此等
-<lb n="0347b10" ed="T"/>若就事是敬供養，若約行即修行供養。</p><p xml:id="pT33p0347b1016" cb:place="inline">問：前
+<lb n="0347b10" ed="T"/>若就事是敬供養，若約行即修行供養。</p>
+<p xml:id="pT33p0347b1016" cb:place="inline">問：前
 <lb n="0347b11" ed="T"/>後四番散華變成華蓋等，何故於中有佛說
 <lb n="0347b12" ed="T"/>法、有不說法者？答：諸佛方便，約緣不同，不可
 <lb n="0347b13" ed="T"/>定准。第一明散華供養訖。</p></cb:div>
 <lb n="0347b14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347b1401">時諸國王散華供養已，「願過去佛現在佛未來
 <lb n="0347b15" ed="T"/>佛常說般若波羅蜜，願一切受持者比丘、比丘
-<lb n="0347b16" ed="T"/>尼、信男、信女所求如意，常行般若波羅蜜。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347b1617">時
+<lb n="0347b16" ed="T"/>尼、信男、信女所求如意，常行般若波羅蜜。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347b1617">時
 <lb n="0347b17" ed="T"/>諸下，品中大段第二發願。就文有二：初時諸
 <lb n="0347b18" ed="T"/>天國王願三世諸佛常說般若；二願一切受
 <lb n="0347b19" ed="T"/>持者下，願四眾所求如意，常行無所得般若
 <lb n="0347b20" ed="T"/>也。</p></cb:div>
 <lb n="0347b21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347b2101">佛告大王：「如是如是。如王所說般若波羅蜜，應
-<lb n="0347b22" ed="T"/>說應受，是諸佛母、諸菩薩母，神通生處。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347b2216">佛告
+<lb n="0347b22" ed="T"/>說應受，是諸佛母、諸菩薩母，神通生處。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347b2216">佛告
 <lb n="0347b23" ed="T"/>下，品內大段此第三如來述成。就文有二：初
 <lb n="0347b24" ed="T"/>述可，故云如是如是；二如王所說下，勸應說
 <lb n="0347b25" ed="T"/>應受持，歎般若諸聖之本，有三句：是一切諸
@@ -3070,7 +3360,8 @@
 <lb n="0347c01" ed="T"/>無量毛吼土，無量須彌無量大海入芥子中，一
 <lb n="0347c02" ed="T"/>佛身入無量眾生身、無量眾生身入一佛身，入
 <lb n="0347c03" ed="T"/>六道身、入地水火風身，佛身不可思議、眾生身
-<lb n="0347c04" ed="T"/>不可思議、世界不可思議。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347c0411">時佛為王下，品中
+<lb n="0347c04" ed="T"/>不可思議、世界不可思議。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347c0411">時佛為王下，品中
 <lb n="0347c05" ed="T"/>第四神力現五不思議，即為五別：第一華變
 <lb n="0347c06" ed="T"/>不思議，一華入無量者，少能入多；無量入一
 <lb n="0347c07" ed="T"/>者，多能入少，故皆不思議神力也。二佛土不
@@ -3083,7 +3374,8 @@
 <lb n="0347c14" ed="T"/>沙菩薩現身成佛，三恒河沙八部神王成菩薩
 <lb n="0347c15" ed="T"/>道，十千女人現身得神通三昧。「善男子！是般若
 <lb n="0347c16" ed="T"/>波羅蜜有三世利益，過去已說、現在今說、未來
-<lb n="0347c17" ed="T"/>當說。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347c1703">佛現神足下，品中大段第五明得益。有
+<lb n="0347c17" ed="T"/>當說。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347c1703">佛現神足下，品中大段第五明得益。有
 <lb n="0347c18" ed="T"/>二：初別明四種人得益；二善男子下，總舉波
 <lb n="0347c19" ed="T"/>若有三世利益。別明四眾內，即為四別：一十
 <lb n="0347c20" ed="T"/>方天人得佛華三昧者，此是華嚴三昧，第十
@@ -3091,9 +3383,11 @@
 <lb n="0347c22" ed="T"/>河沙八部神王成菩薩道，初地以上；四十千
 <lb n="0347c23" ed="T"/>女人現身得神通，謂五神通也。善男子下，總
 <lb n="0347c24" ed="T"/>舉般若明三世利益。</p></cb:div>
-<lb n="0347c25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347c2501">「諦聽諦聽，善思念之，如法修行。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0347c2513">諦聽諦聽下，
+<lb n="0347c25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0347c2501">「諦聽諦聽，善思念之，如法修行。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0347c2513">諦聽諦聽下，
 <lb n="0347c26" ed="T"/>品中大段第六勸依三慧結勸修行也。</p></cb:div>
-<lb n="0347c27" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">7 受持品</cb:mulu><head>仁王護國般若波羅蜜經受持品第七</head><p xml:id="pT33p0347c2716" cb:place="inline">此品
+<lb n="0347c27" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">7 受持品</cb:mulu><head>仁王護國般若波羅蜜經受持品第七</head>
+<p xml:id="pT33p0347c2716" cb:place="inline">此品
 <lb n="0347c28" ed="T"/>明十三法師，開而奉行為受，久久不失為持，
 <lb n="0347c29" ed="T"/>因以題名，故言受持品。正說六品為四，今是
 <pb n="0348a" ed="T" xml:id="T33.1707.0348a"/>
@@ -3105,14 +3399,16 @@
 <lb n="0348a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0348a0601">爾時月光心念口言：「見釋迦牟尼佛現無量神
 <lb n="0348a07" ed="T"/>力，亦見千華臺上寶滿佛是一切佛化身主，復
 <lb n="0348a08" ed="T"/>見千華葉世界上佛，其中諸佛各各說般若波
-<lb n="0348a09" ed="T"/>羅蜜。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0348a0903">所言月光者，性月，名波斯匿。而言月
+<lb n="0348a09" ed="T"/>羅蜜。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0348a0903">所言月光者，性月，名波斯匿。而言月
 <lb n="0348a10" ed="T"/>光者，當是受法已後更立光字，故云月光也。
 <lb n="0348a11" ed="T"/>次發言者，見釋迦神力，復見寶滿如來化身佛
 <lb n="0348a12" ed="T"/>主，復見千葉上佛各各說般若，此三處佛為
 <lb n="0348a13" ed="T"/>一為異？</p></cb:div>
 <lb n="0348a14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0348a1401">白佛言：「如是無量般若波羅蜜，不可說、不可解、
 <lb n="0348a15" ed="T"/>不可以識識，云何諸善男子於是經中明了覺
-<lb n="0348a16" ed="T"/>解，如法為一切眾生開空法道？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0348a1613">白佛下，正問。
+<lb n="0348a16" ed="T"/>解，如法為一切眾生開空法道？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0348a1613">白佛下，正問。
 <lb n="0348a17" ed="T"/>就中有二：初正問所說般若甚深無量；次云
 <lb n="0348a18" ed="T"/>何下，結問意。就前正問中有三句歎般若甚
 <lb n="0348a19" ed="T"/>深：一過言說，故云不可說，言語道斷故；二過
@@ -3125,7 +3421,8 @@
 <lb n="0348a26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0348a2601">大牟尼言：「有修行十三觀門諸善男子，為大法
 <lb n="0348a27" ed="T"/>王，從習忍至金剛頂，皆為法師依持建立。汝等
 <lb n="0348a28" ed="T"/>大眾應如佛供養而供養之，應持百萬億天華
-<lb n="0348a29" ed="T"/>天香而以奉上。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0348a2907">大牟尼下，第二佛答。有三：初
+<lb n="0348a29" ed="T"/>天香而以奉上。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0348a2907">大牟尼下，第二佛答。有三：初
 <pb n="0348b" ed="T" xml:id="T33.1707.0348b"/>
 <lb n="0348b01" ed="T"/>正答問；佛告月光我滅度後下，第二勸持；時
 <lb n="0348b02" ed="T"/>諸大眾及阿須輪王下，第三明時眾得益。就
@@ -3147,7 +3444,8 @@
 <lb n="0348b18" ed="T"/>五情、五受、男、女、意、命等有無量罪過故，即發無
 <lb n="0348b19" ed="T"/>上菩提心，常修三界一切念念皆不淨，故得不
 <lb n="0348b20" ed="T"/>淨忍觀門，住在佛家，修六和敬，所謂三業、同戒、
-<lb n="0348b21" ed="T"/>同見、同學行八萬四千波羅蜜道。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0348b2114">善男子其
+<lb n="0348b21" ed="T"/>同見、同學行八萬四千波羅蜜道。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0348b2114">善男子其
 <lb n="0348b22" ed="T"/>法師下，第二廣答十三忍，即為十三段。就初
 <lb n="0348b23" ed="T"/>習忍有三：第一內凡伏忍。初習忍，十住也。第
 <lb n="0348b24" ed="T"/>二善男子習忍下，舉失顯得，更解三十心前
@@ -3181,7 +3479,8 @@
 <lb n="0348c22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0348c2201">「善男子！習忍以前行十善菩薩有退有進，譬如
 <lb n="0348c23" ed="T"/>輕毛隨風東西，是諸菩薩亦復如是，雖以十千
 <lb n="0348c24" ed="T"/>劫行十正道發三菩提心，乃當入習忍位，亦常
-<lb n="0348c25" ed="T"/>學三伏忍法，而不可字名。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0348c2511">善男子下，習忍內
+<lb n="0348c25" ed="T"/>學三伏忍法，而不可字名。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0348c2511">善男子下，習忍內
 <lb n="0348c26" ed="T"/>大段第二，更解三十心前外凡十善，舉失顯
 <lb n="0348c27" ed="T"/>得也。就文有六句：初法說，明外凡菩薩行十
 <lb n="0348c28" ed="T"/>善由有進退。譬如下，第二舉輕毛喻，善趣見
@@ -3195,17 +3494,30 @@
 <lb n="0349a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0349a0601">「是不定人是定人者，入生空位聖人性故，必不
 <lb n="0349a07" ed="T"/>起五逆、六重、二十八輕，佛法經書作反逆罪言
 <lb n="0349a08" ed="T"/>非佛說，無有是處。能以一阿僧祇劫修伏道忍
-<lb n="0349a09" ed="T"/>行，始得入僧伽陀位。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0349a0909">是定人下，習忍位中第
+<lb n="0349a09" ed="T"/>行，始得入僧伽陀位。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0349a0909">是定人下，習忍位中第
 <lb n="0349a10" ed="T"/>三大段，顯得還結習種忍也。就文有三：初得
 <lb n="0349a11" ed="T"/>生空位，此人得人空無我解也，亦名假名空。
 <lb n="0349a12" ed="T"/>必不起下，第二明離過。五逆如前說。六重者，
 <lb n="0349a13" ed="T"/>四重，加沽酒為五，不說四眾罪過為六。二十
 <lb n="0349a14" ed="T"/>八輕者，出《善生優婆塞經》。第一不供養父母師
-<lb n="0349a15" ed="T"/>長。二者耽樂<note n="0349001" resp="Taisho" type="orig" place="foot text">飯＝飲？</note><note n="0349001" resp="CBETA" type="mod" note_key="T33.0349a15.06">飲【CB】【考偽-大】，飯【大】</note><app n="0349001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">飲<note type="cf1">T33n1708_p0415c18</note><note type="cf2">X41n0728_p0191c06</note></lem><rdg wit="【大】">飯</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">飲</rdg></app>酒。三者不能瞻身病苦。四者
+<lb n="0349a15" ed="T"/>長。二者耽樂<note 
+n="0349001" resp="Taisho" type="orig" place="foot text">飯＝飲？</note><note 
+n="0349001" resp="CBETA" type="mod" note_key="T33.0349a15.06">飲【CB】【考偽-大】，飯【大】</note><app n="0349001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">飲<note type="cf1">T33n1708_p0415c18</note><note type="cf2">X41n0728_p0191c06</note></lem>
+  <rdg wit="【大】">飯</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">飲</rdg>
+</app>酒。三者不能瞻身病苦。四者
 <lb n="0349a16" ed="T"/>有乞食不能隨多少與而令空去。五者若比
 <lb n="0349a17" ed="T"/>丘比丘尼、長老尊宿處，優婆塞等不須禮拜問
 <lb n="0349a18" ed="T"/>訊。六者若見四果犯戒，生憍慢心。七者月月
-<lb n="0349a19" ed="T"/>不能持六<note n="0349002" resp="Taisho" type="orig" place="foot text">齊＝齋？</note><note n="0349002" resp="CBETA" type="mod" note_key="T33.0349a19.05">齋【CB】【考偽-大】，齊【大】</note><app n="0349002"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">齋<note type="cf1">X41n0728_p0191c08</note></lem><rdg wit="【大】">齊</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">齋</rdg></app>、受八支戒。八者四十里有講法
+<lb n="0349a19" ed="T"/>不能持六<note 
+n="0349002" resp="Taisho" type="orig" place="foot text">齊＝齋？</note><note 
+n="0349002" resp="CBETA" type="mod" note_key="T33.0349a19.05">齋【CB】【考偽-大】，齊【大】</note><app n="0349002">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">齋<note type="cf1">X41n0728_p0191c08</note></lem>
+  <rdg wit="【大】">齊</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">齋</rdg>
+</app>、受八支戒。八者四十里有講法
 <lb n="0349a20" ed="T"/>處，不往聽。九者受招提僧臥具床座。十者疑
 <lb n="0349a21" ed="T"/>水有虫，故飲。十一險難之處無伴獨行。十二
 <lb n="0349a22" ed="T"/>無伴獨宿尼寺。十三若為財命打罵奴婢僮
@@ -3227,7 +3539,8 @@
 <lb n="0349b08" ed="T"/>處。以一阿僧祇者，從善趣初心至滿心習種
 <lb n="0349b09" ed="T"/>位，合逕一阿僧祇也。始得入僧伽陀位者，第
 <lb n="0349b10" ed="T"/>三段結習忍位也。外國名僧伽，此方名習種
-<lb n="0349b11" ed="T"/>性。又義翻名為離著地，以不著人我故也。</p><p xml:id="pT33p0349b1117" cb:place="inline">問：
+<lb n="0349b11" ed="T"/>性。又義翻名為離著地，以不著人我故也。</p>
+<p xml:id="pT33p0349b1117" cb:place="inline">問：
 <lb n="0349b12" ed="T"/>習種性更有異名，復有別稱？答：《瓔珞經》明有
 <lb n="0349b13" ed="T"/>六名：在性名習種性，在信名堅信，在忍名信
 <lb n="0349b14" ed="T"/>忍，在慧名聞慧，在定名習相定，在觀名住觀。</p>
@@ -3239,7 +3552,8 @@
 <lb n="0349b20" ed="T"/>分分假偽，但有名、但有受、但有法，不可得，無定
 <lb n="0349b21" ed="T"/>相、無自他相，故修護空觀，亦常行百萬波羅蜜，
 <lb n="0349b22" ed="T"/>念念不去心。以二阿僧祇劫行正道法，住波羅
-<lb n="0349b23" ed="T"/>陀位。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0349b2303">復次性種下，第二明中忍。文有八句：一
+<lb n="0349b23" ed="T"/>陀位。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0349b2303">復次性種下，第二明中忍。文有八句：一
 <lb n="0349b24" ed="T"/>標名、二出行德、三滅惑、四知俗、五修觀、六辨
 <lb n="0349b25" ed="T"/>行多少、七修行時節、八結名。第一標名，文云
 <lb n="0349b26" ed="T"/>性種性也。第二出行德，文云行十慧觀。十慧，
@@ -3263,13 +3577,15 @@
 <lb n="0349c14" ed="T"/>能堅守不失也。從善趣初心至性種位，時逕
 <lb n="0349c15" ed="T"/>二阿僧祇劫也。《瓔珞經》有六名，在性名性種
 <lb n="0349c16" ed="T"/>性，在堅名法堅，在忍名法忍，在慧名思惟慧，
-<lb n="0349c17" ed="T"/>在定名性定，在觀名行觀。</p><p xml:id="pT33p0349c1711" cb:place="inline">問：云何名十行？答：
+<lb n="0349c17" ed="T"/>在定名性定，在觀名行觀。</p>
+<p xml:id="pT33p0349c1711" cb:place="inline">問：云何名十行？答：
 <lb n="0349c18" ed="T"/>一歡喜行，二饒益行，三無瞋恨行，四無盡行，五
 <lb n="0349c19" ed="T"/>離癡亂行，六善現行，七無著行，八尊重行，九
 <lb n="0349c20" ed="T"/>善法行，十真實行也。位內王名銀輪王。</p></cb:div>
 <lb n="0349c21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0349c2101">「復次道種性住堅忍中，觀一切法無生無住無
 <lb n="0349c22" ed="T"/>滅，所謂五受、三界、二諦無自他相，如實性不可
-<lb n="0349c23" ed="T"/>得故，而常入第十第一義諦，心心寂滅。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0349c2316">復次
+<lb n="0349c23" ed="T"/>得故，而常入第十第一義諦，心心寂滅。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0349c2316">復次
 <lb n="0349c24" ed="T"/>道種下，第三明上忍。有六句：初標名、二行德、
 <lb n="0349c25" ed="T"/>三觀解、四為物受生、五修行時節、六結位。第一
 <lb n="0349c26" ed="T"/>標名，名道種性。第二行德，文云住堅忍中，即
@@ -3287,7 +3603,8 @@
 <lb n="0350a08" ed="T"/>滅也。</p></cb:div>
 <lb n="0350a09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0350a0901">「而受生三界。何以？故業習果報未壞盡故，順道
 <lb n="0350a10" ed="T"/>生故。復以三阿僧祇劫，修八萬億波羅蜜，當得
-<lb n="0350a11" ed="T"/>平等聖人地，故住阿毘跋致正位。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0350a1114">第四為物
+<lb n="0350a11" ed="T"/>平等聖人地，故住阿毘跋致正位。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0350a1114">第四為物
 <lb n="0350a12" ed="T"/>受生，文云而受生三界。何以故下，釋受生意。
 <lb n="0350a13" ed="T"/>以業習未盡故，地前三賢菩薩為物受三途
 <lb n="0350a14" ed="T"/>生。以無始願為因，大悲為緣，發願入三途教
@@ -3304,7 +3621,8 @@
 <lb n="0350a25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0350a2501">「復次善覺菩薩摩訶薩，住平等忍，修行四攝念
 <lb n="0350a26" ed="T"/>念不去心，入無相捨，滅三界貪煩惱，於第一義
 <lb n="0350a27" ed="T"/>諦而不二，為法性無為，緣理而滅一切相，故為
-<lb n="0350a28" ed="T"/>智緣滅無相無為。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0350a2808">復次善覺下，次明信忍。就
+<lb n="0350a28" ed="T"/>智緣滅無相無為。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0350a2808">復次善覺下，次明信忍。就
 <lb n="0350a29" ed="T"/>初地又有十段：初標名、二歎地功德、三明空
 <pb n="0350b" ed="T" xml:id="T33.1707.0350b"/>
 <lb n="0350b01" ed="T"/>有兩解、四滅惑、五得二無為、六解法方便、七
@@ -3319,7 +3637,8 @@
 <lb n="0350b10" ed="T"/>智緣滅無相無為，無自他相、無相無無相，故無
 <lb n="0350b11" ed="T"/>量方便皆現前，觀實相方便者，於第一義諦不
 <lb n="0350b12" ed="T"/>沈、不出、不轉、不顛倒，遍學方便者，非證非不證
-<lb n="0350b13" ed="T"/>而一切學。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0350b1305">住初忍下，未來生死不起，即非數
+<lb n="0350b13" ed="T"/>而一切學。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0350b1305">住初忍下，未來生死不起，即非數
 <lb n="0350b14" ed="T"/>緣滅無為。無自無他相者，由自故有他，自無
 <lb n="0350b15" ed="T"/>故他亦無。一無遣自、一無遣他，二無雙遣，故
 <lb n="0350b16" ed="T"/>名無無相也。第六釋法方便，文有六子句：一
@@ -3368,7 +3687,8 @@
 <lb n="0350c29" ed="T"/>行故，入此功德藏門。無三界業習生故，畢故不
 <pb n="0351a" ed="T" xml:id="T33.1707.0351a"/>
 <lb n="0351a01" ed="T"/>造新。以願力故變化生一切淨土，常修捨觀故
-<lb n="0351a02" ed="T"/>登鳩摩羅伽位，以四大寶藏常授與人。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0351a0216">巧用
+<lb n="0351a02" ed="T"/>登鳩摩羅伽位，以四大寶藏常授與人。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0351a0216">巧用
 <lb n="0351a03" ed="T"/>下，明方便智。譬文云如水與波不一不異者，
 <lb n="0351a04" ed="T"/>明動義異濕義，似行義異理義。言不異者，明
 <lb n="0351a05" ed="T"/>波體即水體，似行體即理體。合譬中文云乃
@@ -3393,7 +3713,8 @@
 <lb n="0351a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0351a2401">「復次德慧菩薩，以四無量心滅三有瞋等煩惱，
 <lb n="0351a25" ed="T"/>住中忍中，行一切功德故，以五阿僧祇劫行大
 <lb n="0351a26" ed="T"/>慈觀，心心常現在前，入無相闍波陀羅位，化一
-<lb n="0351a27" ed="T"/>切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0351a2704">德慧下，第二地，文有五別：一標名、
+<lb n="0351a27" ed="T"/>切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0351a2704">德慧下，第二地，文有五別：一標名、
 <lb n="0351a28" ed="T"/>二智斷、三住中忍自行、四修行時節、五結。第一
 <lb n="0351a29" ed="T"/>標名，文云德慧菩薩。第二智斷，文云以四無
 <pb n="0351b" ed="T" xml:id="T33.1707.0351b"/>
@@ -3407,7 +3728,8 @@
 <lb n="0351b08" ed="T"/>世法無來無去無住處，心心寂滅，盡三界癡煩
 <lb n="0351b09" ed="T"/>惱，得三明一切功德觀故，常以六阿僧祇劫集
 <lb n="0351b10" ed="T"/>無量明波羅蜜故，入伽羅陀位，無相行受持一
-<lb n="0351b11" ed="T"/>切法。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0351b1103">明慧下，第三地，文有五別：初標名、二
+<lb n="0351b11" ed="T"/>切法。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0351b1103">明慧下，第三地，文有五別：初標名、二
 <lb n="0351b12" ed="T"/>忍名、三智斷、四進行時節、五結位。第一標名
 <lb n="0351b13" ed="T"/>者，文云明慧道人也。第二標忍名，文云無相
 <lb n="0351b14" ed="T"/>忍中行者，明信忍上品也。言三明者，照三世
@@ -3423,7 +3745,8 @@
 <lb n="0351b24" ed="T"/>
 <lb n="0351b25" ed="T"/><byline cb:type="author">胡吉藏撰</byline>
 <lb n="0351b26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0351b2601">「復次爾炎聖覺達菩薩，修行順法忍，逆五見流，
-<lb n="0351b27" ed="T"/>集無量功德，住須陀洹位。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0351b2711">爾炎地下，明四地，
+<lb n="0351b27" ed="T"/>集無量功德，住須陀洹位。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0351b2711">爾炎地下，明四地，
 <lb n="0351b28" ed="T"/>文有四：初標名、二立忍名、三離障、四進行。初
 <lb n="0351b29" ed="T"/>標名，文云爾炎聖覺達菩薩也。爾炎者，此名
 <pb n="0351c" ed="T" xml:id="T33.1707.0351c"/>
@@ -3458,15 +3781,21 @@
 <lb n="0351c29" ed="T"/><cb:div type="orig"><p xml:id="pT33p0351c2901">「常以天眼、天耳、宿命、他心、身通達，於念念中能
 <pb n="0352a" ed="T" xml:id="T33.1707.0352a"/>
 <lb n="0352a01" ed="T"/>滅三界一切見故，亦以七阿僧祇劫行五神通，
-<lb n="0352a02" ed="T"/>恒河沙波羅蜜常不離心。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0352a0211">天眼等五通者，三
+<lb n="0352a02" ed="T"/>恒河沙波羅蜜常不離心。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0352a0211">天眼等五通者，三
 <lb n="0352a03" ed="T"/>地菩薩在有漏位中修道得五通，四地在無
 <lb n="0352a04" ed="T"/>漏位中得五通，分得漏盡，略而不彰也。三結
-<lb n="0352a05" ed="T"/>離<note n="0352a0501" resp="CBETA" type="add" note_key="T33.0352a05.02">障【CB】，彰【大】</note><app n="0352a0501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">障<note type="cf1">T33n1707_p0351c04</note></lem><rdg wit="【大】">彰</rdg></app>，云滅三界一切見也。第四進行時，文云
+<lb n="0352a05" ed="T"/>離<note 
+n="0352a0501" resp="CBETA" type="add" note_key="T33.0352a05.02">障【CB】，彰【大】</note><app n="0352a0501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">障<note type="cf1">T33n1707_p0351c04</note></lem>
+  <rdg wit="【大】">彰</rdg>
+</app>，云滅三界一切見也。第四進行時，文云
 <lb n="0352a06" ed="T"/>以七阿僧祇也。亦應結名位，文略不出耳。</p></cb:div>
 <lb n="0352a07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0352a0701">「復次勝達菩薩，於順道忍，以四無畏觀那由他
 <lb n="0352a08" ed="T"/>諦，內道論、外道論、藥方、工巧、呪術故，我是一切
 <lb n="0352a09" ed="T"/>智人，滅三界疑等煩惱故，我相已盡，知地地有
-<lb n="0352a10" ed="T"/>所出，故名出道。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0352a1007">勝達下，明五地，文五段：初
+<lb n="0352a10" ed="T"/>所出，故名出道。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0352a1007">勝達下，明五地，文五段：初
 <lb n="0352a11" ed="T"/>標名、二標忍、三明四無畏、四明證果、五修行時
 <lb n="0352a12" ed="T"/>節。第一標名，文云勝達菩薩，即難勝地。第二
 <lb n="0352a13" ed="T"/>釋忍者，文云於順道忍也。五地菩薩修順忍
@@ -3485,7 +3814,8 @@
 <lb n="0352a26" ed="T"/>者，明盡苦道無畏也。</p></cb:div>
 <lb n="0352a27" ed="T"/><cb:div type="orig"><p xml:id="pT33p0352a2701">「有所不出，故名障道。逆三界疑，修集無量功德
 <lb n="0352a28" ed="T"/>故，即入斯陀含位，復習行八阿僧祇劫中行諸
-<lb n="0352a29" ed="T"/>陀羅尼門故，常行無畏觀不去心。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0352a2914">四有所不
+<lb n="0352a29" ed="T"/>陀羅尼門故，常行無畏觀不去心。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0352a2914">四有所不
 <pb n="0352b" ed="T" xml:id="T33.1707.0352b"/>
 <lb n="0352b01" ed="T"/>出者，明說障道無畏也。菩薩別有四無畏，名
 <lb n="0352b02" ed="T"/>出《大智論》：一聞持、二說法、三答難、四斷疑。而
@@ -3503,7 +3833,8 @@
 <lb n="0352b14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0352b1401">「復次常現真實，住順忍中作中道觀，盡三界集
 <lb n="0352b15" ed="T"/>因集業一切煩惱故，觀非有非無一相無相而
 <lb n="0352b16" ed="T"/>無二故，證阿那含位，復於九阿僧祇劫習照明
-<lb n="0352b17" ed="T"/>中道故，樂力生一切佛國土。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0352b1712">常現下，第六現
+<lb n="0352b17" ed="T"/>中道故，樂力生一切佛國土。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0352b1712">常現下，第六現
 <lb n="0352b18" ed="T"/>前地，有六段：一出地名、二住忍修觀、三斷惑、
 <lb n="0352b19" ed="T"/>四證果、五進行、六結中道。第一出名，常現真
 <lb n="0352b20" ed="T"/>實也。第二住忍修觀，云住順忍中作中道觀
@@ -3524,7 +3855,8 @@
 <lb n="0352c05" ed="T"/>道也，以願力故得生一切佛土也。</p></cb:div>
 <lb n="0352c06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0352c0601">「復次玄達菩薩，十阿僧祇劫中修無生法樂忍，
 <lb n="0352c07" ed="T"/>滅三界集因業果，住後身中無量功德行皆成
-<lb n="0352c08" ed="T"/>就。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0352c0802">玄達下，明七地，文有七段：一標地名、二
+<lb n="0352c08" ed="T"/>就。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0352c0802">玄達下，明七地，文有七段：一標地名、二
 <lb n="0352c09" ed="T"/>進行、三辨忍、四離障、五集德、六結位、七地中化
 <lb n="0352c10" ed="T"/>行。第一標名，云玄達菩薩，即遠行地也。第二
 <lb n="0352c11" ed="T"/>進行時，言十阿僧祇者，地中數量多少也。第
@@ -3544,7 +3876,8 @@
 <lb n="0352c25" ed="T"/>成就者，住後身中總明功德不一，故云無量也。</p></cb:div>
 <lb n="0352c26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0352c2601">「無生智、盡智、五分法身皆滿足，住第十地阿羅
 <lb n="0352c27" ed="T"/>漢梵天位，常行三空門觀，百千萬三昧具足，弘
-<lb n="0352c28" ed="T"/>化法藏。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0352c2804">無生智盡智者，別明後身諸功德也。
+<lb n="0352c28" ed="T"/>化法藏。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0352c2804">無生智盡智者，別明後身諸功德也。
 <lb n="0352c29" ed="T"/>且作一種，唯望分段因盡，得名盡智；苦果不
 <pb n="0353a" ed="T" xml:id="T33.1707.0353a"/>
 <lb n="0353a01" ed="T"/>生，名無生智。五分法身者，無漏戒、定、慧、解脫、解
@@ -3559,7 +3892,8 @@
 <lb n="0353a10" ed="T"/>漏定也。弘化者，利益眾生也。</p></cb:div>
 <lb n="0353a11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0353a1101">「復次等覺忍者，住無生忍中，觀心心寂滅而無
 <lb n="0353a12" ed="T"/>相相、無身身、無知知，而用心乘於群方之方，淡
-<lb n="0353a13" ed="T"/>泊住於無住之住。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0353a1308">等覺下，明八地，有五段：一
+<lb n="0353a13" ed="T"/>泊住於無住之住。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0353a1308">等覺下，明八地，有五段：一
 <lb n="0353a14" ed="T"/>標地名、二辨忍、三明無相觀、四結大臣位、五進
 <lb n="0353a15" ed="T"/>行時。第一標地名，云等覺菩薩，謂不動地。第
 <lb n="0353a16" ed="T"/>二釋忍，云住無生忍者，無生忍中品也。第三
@@ -3569,7 +3903,11 @@
 <lb n="0353a20" ed="T"/>身。無知知者，不同七地功用知，而有八地已
 <lb n="0353a21" ed="T"/>上無功用知，明八地雙照萬境不知而知。用
 <lb n="0353a22" ed="T"/>心乘於群方之方者，乘能運載群生，方者情
-<lb n="0353a23" ed="T"/>有趣向名為方。故〈繫辭〉云「<note n="0353a2301" resp="CBETA" type="add" note_key="T33.0353a23.11">方【CB】，［－］【大】</note><app n="0353a2301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">方<note type="cf1">T38n1779_p0771a07</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>以類聚」，無方應化，
+<lb n="0353a23" ed="T"/>有趣向名為方。故〈繫辭〉云「<note 
+n="0353a2301" resp="CBETA" type="add" note_key="T33.0353a23.11">方【CB】，［－］【大】</note><app n="0353a2301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">方<note type="cf1">T38n1779_p0771a07</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>以類聚」，無方應化，
 <lb n="0353a24" ed="T"/>隨物在處，故云群方之方也。雖遍化群方而
 <lb n="0353a25" ed="T"/>不住生死，此是無漏任放，故云淡泊住於無
 <lb n="0353a26" ed="T"/>住也。</p></cb:div>
@@ -3577,7 +3915,8 @@
 <lb n="0353a28" ed="T"/>處非是處乃至一切智十力觀故，而能登摩訶
 <lb n="0353a29" ed="T"/>羅伽位，化一切國土眾生，千阿僧祇劫行十力
 <pb n="0353b" ed="T" xml:id="T33.1707.0353b"/>
-<lb n="0353b01" ed="T"/>法，心心相應，常入見佛三昧。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0353b0112">在有常修空者，
+<lb n="0353b01" ed="T"/>法，心心相應，常入見佛三昧。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0353b0112">在有常修空者，
 <lb n="0353b02" ed="T"/>明在有而不染有，有無礙空。知有非有，故能
 <lb n="0353b03" ed="T"/>空有無礙也。處空常萬化者，寂而常用。空有
 <lb n="0353b04" ed="T"/>不二，故云雙照一切法也。故知是處非是處
@@ -3592,7 +3931,8 @@
 <lb n="0353b13" ed="T"/>眼見一切法，三眼色空見，以大願力常生一切
 <lb n="0353b14" ed="T"/>淨土，萬阿僧祇劫集無量佛光三昧，而能現百
 <lb n="0353b15" ed="T"/>萬億恒河沙諸佛神力，住婆伽梵位，亦常入佛
-<lb n="0353b16" ed="T"/>華三昧。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0353b1604">慧光下，明第九地，有七段：一標地
+<lb n="0353b16" ed="T"/>華三昧。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0353b1604">慧光下，明第九地，有七段：一標地
 <lb n="0353b17" ed="T"/>名、二釋忍、三滅惡、四明四眼照用、五願力受生、
 <lb n="0353b18" ed="T"/>六進行時、七結位。第一標名，云慧光，即善慧
 <lb n="0353b19" ed="T"/>地。慧是般若，光是法身，神變是解脫也。第二
@@ -3615,7 +3955,8 @@
 <lb n="0353c06" ed="T"/>淨地。言佛華三昧者，即首楞嚴定。</p></cb:div>
 <lb n="0353c07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0353c0701">「復次觀佛菩薩住寂滅忍者，從始發心至今，逕
 <lb n="0353c08" ed="T"/>百萬阿僧祇劫，修百萬阿僧祇劫功德故，登一
-<lb n="0353c09" ed="T"/>切法解脫住金剛臺。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0353c0909">觀佛下，明十地。文有三
+<lb n="0353c09" ed="T"/>切法解脫住金剛臺。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0353c0909">觀佛下，明十地。文有三
 <lb n="0353c10" ed="T"/>段：初明地中功能。善男子從習忍至灌頂下，
 <lb n="0353c11" ed="T"/>第二挍量顯勝彰行分齊，簡因異果，亦云見
 <lb n="0353c12" ed="T"/>性不見性異。從常修一切下，第三結勸入位。
@@ -3639,7 +3980,8 @@
 <pb n="0354a" ed="T" xml:id="T33.1707.0354a"/>
 <lb n="0354a01" ed="T"/>漸伏者。慧雖起滅，以能無生無滅，此心若滅則
 <lb n="0354a02" ed="T"/>累無不滅，無生無滅入理盡金剛三昧，同真際、
-<lb n="0354a03" ed="T"/>等法性而未能等無等等。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354a0311">善男子習忍下，第
+<lb n="0354a03" ed="T"/>等法性而未能等無等等。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354a0311">善男子習忍下，第
 <lb n="0354a04" ed="T"/>二段挍量顯勝彰行分齊。文有六句：一簡因
 <lb n="0354a05" ed="T"/>異果、二彰果異因、三釋因異果、四釋果異因、
 <lb n="0354a06" ed="T"/>五結因異果、六結果異因。第一簡因異果者，
@@ -3670,7 +4012,8 @@
 <lb n="0354b01" ed="T"/>也。而未能等無等等者，未與佛同也。</p></cb:div>
 <lb n="0354b02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0354b0201">「譬如有人登大高臺，下觀一切，無不斯了；住理
 <lb n="0354b03" ed="T"/>盡三昧亦復如是。常修一切行，滿功德藏，入婆
-<lb n="0354b04" ed="T"/>伽度位，亦復常住佛慧三昧。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354b0412">譬如下，譬說。云
+<lb n="0354b04" ed="T"/>伽度位，亦復常住佛慧三昧。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354b0412">譬如下，譬說。云
 <lb n="0354b05" ed="T"/>譬如有人登大高臺者，即如來地。三藏師云：
 <lb n="0354b06" ed="T"/>譬有五。一最高，一切頂故。二真實不壞，如佛
 <lb n="0354b07" ed="T"/>果常住難登。三還源，越凡聖故。四自性寂靜，
@@ -3681,7 +4024,8 @@
 <lb n="0354b12" ed="T"/>慧具足，故云佛慧三昧也。</p></cb:div>
 <lb n="0354b13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0354b1301">「善男子！如是諸菩薩皆能一切十方諸如來國
 <lb n="0354b14" ed="T"/>土中化眾生，正說正義，受持讀誦解達實相，如
-<lb n="0354b15" ed="T"/>我今日等無有異。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354b1508">善男子如是下，正答中有
+<lb n="0354b15" ed="T"/>我今日等無有異。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354b1508">善男子如是下，正答中有
 <lb n="0354b16" ed="T"/>三章，初略答、二廣答，二段畢；今第三總結。有
 <lb n="0354b17" ed="T"/>三：初明十三法師能弘化大乘，故云如是諸
 <lb n="0354b18" ed="T"/>菩薩皆能一切十方化導眾生也。正說正義
@@ -3690,7 +4034,8 @@
 <lb n="0354b21" ed="T"/>十三人能化齊佛，故云等無異也。</p></cb:div>
 <lb n="0354b22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0354b2201">佛告波斯匿王：「我當滅度後，法欲滅盡時，諸國
 <lb n="0354b23" ed="T"/>王等皆應受持是般若波羅蜜，大作佛事，一切
-<lb n="0354b24" ed="T"/>國土安立、萬姓快樂，皆由此般若波羅蜜。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354b2417">佛
+<lb n="0354b24" ed="T"/>國土安立、萬姓快樂，皆由此般若波羅蜜。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354b2417">佛
 <lb n="0354b25" ed="T"/>告波斯匿王下，答問中大段第二勸持。文有
 <lb n="0354b26" ed="T"/>七段：第一略舉時節，以明付囑王不付屬餘人
 <lb n="0354b27" ed="T"/>之意。大王吾今下，第二出宣弘經處。其國中
@@ -3702,7 +4047,8 @@
 <lb n="0354c03" ed="T"/>供養。大王吾今下，第七正結勸持經。</p></cb:div>
 <lb n="0354c04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0354c0401">「是故付囑諸國王，不付囑比丘、比丘尼、清信男、
 <lb n="0354c05" ed="T"/>清信女。何以故？無王威力故，故不付囑。汝當受
-<lb n="0354c06" ed="T"/>持讀誦解其義理。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354c0608">第一付囑中有二：初明付
+<lb n="0354c06" ed="T"/>持讀誦解其義理。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354c0608">第一付囑中有二：初明付
 <lb n="0354c07" ed="T"/>囑國王受持般若；二不付囑比丘下，次明無
 <lb n="0354c08" ed="T"/>有王力勢所以不附屬，但令受持讀誦解釋
 <lb n="0354c09" ed="T"/>其義理。付王有二義：一能化難化眾生；二利
@@ -3710,20 +4056,23 @@
 <lb n="0354c11" ed="T"/>付。</p></cb:div>
 <lb n="0354c12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0354c1201">「大王！吾今所化，百億須彌、百億日月，一一須彌
 <lb n="0354c13" ed="T"/>有四天下，其南閻浮提有十六大國、五百中國、
-<lb n="0354c14" ed="T"/>十千小國。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354c1405">第二明弘說般若處所。云大王
+<lb n="0354c14" ed="T"/>十千小國。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354c1405">第二明弘說般若處所。云大王
 <lb n="0354c15" ed="T"/>吾今所化百億須彌山等，總明閻浮提處也。
 <lb n="0354c16" ed="T"/>其南閻浮提下，別明諸國土，初十六大國、次
 <lb n="0354c17" ed="T"/>五百中國、次十千小國。</p></cb:div>
 <lb n="0354c18" ed="T"/><cb:div type="orig"><p xml:id="pT33p0354c1801">「其國土中有七可畏難，一切國王為是難故講
 <lb n="0354c19" ed="T"/>讀般若波羅蜜，七難即滅、七福即生，萬姓安樂、
-<lb n="0354c20" ed="T"/>帝王歡喜。云何為難？」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354c2009">其國土中下，第三明七
+<lb n="0354c20" ed="T"/>帝王歡喜。云何為難？」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354c2009">其國土中下，第三明七
 <lb n="0354c21" ed="T"/>難。文有二：初總明法力能為滅七難、能生七
 <lb n="0354c22" ed="T"/>福。次從云何為難下，別列七難，明經力能滅。
 <lb n="0354c23" ed="T"/>言七難者，一日月失度、二星宿變異、三火災、四
 <lb n="0354c24" ed="T"/>水災、五風災、六旱災、七賊。</p></cb:div>
 <lb n="0354c25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0354c2501">「日月失度，時節返逆，或赤日出、黑日出、二三四
 <lb n="0354c26" ed="T"/>五日出、或日蝕無光、或日輪一重二三四五重
-<lb n="0354c27" ed="T"/>輪現，當變怪時，讀說此經，為一難也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0354c2715">第一日
+<lb n="0354c27" ed="T"/>輪現，當變怪時，讀說此經，為一難也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0354c2715">第一日
 <lb n="0354c28" ed="T"/>月難。內有十四：一明失度，不依常道名失度；
 <lb n="0354c29" ed="T"/>二明時節變逆；三赤日出、四黑日出、五二日
 <pb n="0355a" ed="T" xml:id="T33.1707.0355a"/>
@@ -3734,16 +4083,20 @@
 <lb n="0355a05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0355a0501">「二十八宿失度，金星、彗星、輪星、鬼星、火星、水星、
 <lb n="0355a06" ed="T"/>風星、刀星、南斗北斗、五鎮大星，一切國主星、三
 <lb n="0355a07" ed="T"/>公星、百官星，如是諸星各各變現，亦讀說此經，
-<lb n="0355a08" ed="T"/>為二難也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0355a0805">第二星宿難。二十八者，四方各
+<lb n="0355a08" ed="T"/>為二難也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0355a0805">第二星宿難。二十八者，四方各
 <lb n="0355a09" ed="T"/>有七，四七二十八也。失度者，行不依常道，故
 <lb n="0355a10" ed="T"/>云失度。金星者，太白星也。三藏師云：外國名
 <lb n="0355a11" ed="T"/>天師星。如理行即國豐，失度則儉。彗星者，外
 <lb n="0355a12" ed="T"/>國名閻羅王星，此星隨所出處必有災難也。
 <lb n="0355a13" ed="T"/>輪星者，有暉如輪，若日月五星破輪星中央，則
 <lb n="0355a14" ed="T"/>國土分散。日月五星在輪星右行，則國土安
-<lb n="0355a15" ed="T"/>樂也，左行亦不好也。鬼星者，九月中日<note n="0355001" resp="Taisho" type="orig" place="foot text">原本註曰設或沒歟</note>設
+<lb n="0355a15" ed="T"/>樂也，左行亦不好也。鬼星者，九月中日<note 
+n="0355001" resp="Taisho" type="orig" place="foot text">原本註曰設或沒歟</note>設
 <lb n="0355a16" ed="T"/>在東北，若行駃是過時節，若近上則鬼神來
-<lb n="0355a17" ed="T"/>破國病人。火星者，<note n="0355a1701" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)" type="add" note_key="T33.0355a17.08">CBETA 按：營惑、熒惑，皆火星別名。</note><note n="0355002" resp="Taisho" type="orig" place="foot text">原本註曰營或瑩歟</note>營惑星也，此主賊，若其高
+<lb n="0355a17" ed="T"/>破國病人。火星者，<note 
+n="0355a1701" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)" type="add" note_key="T33.0355a17.08">CBETA 按：營惑、熒惑，皆火星別名。</note><note 
+n="0355002" resp="Taisho" type="orig" place="foot text">原本註曰營或瑩歟</note>營惑星也，此主賊，若其高
 <lb n="0355a18" ed="T"/>則賊起，若下則賊伏。若在子處則下，若在午
 <lb n="0355a19" ed="T"/>為高。水星者，即是濕星，亦是太白星，若在寅
 <lb n="0355a20" ed="T"/>為下，若在申為高。一處三十日行，十二月得
@@ -3770,7 +4123,8 @@
 <lb n="0355b11" ed="T"/>亦說此經也。</p></cb:div>
 <lb n="0355b12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0355b1201">「大火燒國，萬姓燒盡。或鬼火、龍火、天火、山神火、
 <lb n="0355b13" ed="T"/>人火、樹木火、賊火，如是變怪，亦讀說此經，為三
-<lb n="0355b14" ed="T"/>難也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0355b1403">大火燒國下，第三火難。有二：初明七
+<lb n="0355b14" ed="T"/>難也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0355b1403">大火燒國下，第三火難。有二：初明七
 <lb n="0355b15" ed="T"/>種火；二亦讀此經下，明經力能滅火也。七種
 <lb n="0355b16" ed="T"/>火者，鬼火者，鬼瞋眾生為惡火夜起，亦令人熱
 <lb n="0355b17" ed="T"/>病。龍火者，龍瞋雨毒火，令人癰腫，即報得神
@@ -3782,28 +4136,33 @@
 <lb n="0355b23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0355b2301">「大水漂沒百姓，時節返逆，冬雨夏雪，冬時雷電
 <lb n="0355b24" ed="T"/>礔礰、六月雨氷霜雹，雨赤水、黑水、青水，雨土山
 <lb n="0355b25" ed="T"/>石山，雨沙礫石，江河逆流，浮山流石，如是變時
-<lb n="0355b26" ed="T"/>亦讀說此經，為四難也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0355b2610">大水下，第四水難。
+<lb n="0355b26" ed="T"/>亦讀說此經，為四難也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0355b2610">大水下，第四水難。
 <lb n="0355b27" ed="T"/>須水而無，不用處多有。霜雹等悉屬水難。雨
 <lb n="0355b28" ed="T"/>赤水多刀兵，雨黑水為疾病，雨青水多飢餓，
 <lb n="0355b29" ed="T"/>雨土石仙人羅剎瞋；江河逆流海水溢，有賊也。</p></cb:div>
 <pb n="0355c" ed="T" xml:id="T33.1707.0355c"/>
 <lb n="0355c01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0355c0101">「大風吹殺萬姓，國土山河樹木一時滅沒，非時
 <lb n="0355c02" ed="T"/>大風、黑風、赤風、青風、天風、地風、火風、水風，如是
-<lb n="0355c03" ed="T"/>變時亦讀說此經，為五難也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0355c0312">第五風難。亦二：
+<lb n="0355c03" ed="T"/>變時亦讀說此經，為五難也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0355c0312">第五風難。亦二：
 <lb n="0355c04" ed="T"/>初列七風；二亦讀此經下，經力能轉滅也。黑
 <lb n="0355c05" ed="T"/>風者，海邊風，吹黑沙也。赤風者，即赤沙。青風
 <lb n="0355c06" ed="T"/>者，即青沙。天風地風者，天陽地陰也。火風者，
 <lb n="0355c07" ed="T"/>熱風也。</p></cb:div>
 <lb n="0355c08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0355c0801">「天地國土亢陽，炎火洞然，百草亢旱，五穀不登，
 <lb n="0355c09" ed="T"/>土地赫然，萬姓滅盡，如是變時亦讀說此經，為
-<lb n="0355c10" ed="T"/>六難也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0355c1004">天地亢陽下，第六旱難，文相可知。</p></cb:div>
+<lb n="0355c10" ed="T"/>六難也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0355c1004">天地亢陽下，第六旱難，文相可知。</p></cb:div>
 <lb n="0355c11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0355c1101">「四方賊來侵，國內外賊起，火賊、水賊、風賊、鬼賊，
 <lb n="0355c12" ed="T"/>百姓荒亂，刀兵劫起，如是怪時亦讀說此經，為
-<lb n="0355c13" ed="T"/>七難也。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0355c1304">四方賊起下，第七賊難也。</p></cb:div>
+<lb n="0355c13" ed="T"/>七難也。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0355c1304">四方賊起下，第七賊難也。</p></cb:div>
 <lb n="0355c14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0355c1401">「大王！是般若波羅蜜，是諸佛菩薩一切眾生心
 <lb n="0355c15" ed="T"/>識之神本也，一切國王之父母也，亦名神符，亦
 <lb n="0355c16" ed="T"/>名辟鬼珠，亦名如意珠，亦名護國珠，亦名天地
-<lb n="0355c17" ed="T"/>鏡，亦名龍寶神王。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0355c1708">大王般若下，第四歎般若
+<lb n="0355c17" ed="T"/>鏡，亦名龍寶神王。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0355c1708">大王般若下，第四歎般若
 <lb n="0355c18" ed="T"/>之德能滅七難。文有二：初歎般若不可思議；
 <lb n="0355c19" ed="T"/>次佛告大王下，第二明般若既滅七難，勸人供
 <lb n="0355c20" ed="T"/>養也。就初歎般若中有八句：初明般若能為
@@ -3824,7 +4183,8 @@
 <lb n="0356a05" ed="T"/>諸善神，故云龍寶神王也。</p></cb:div>
 <lb n="0356a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0356a0601">佛告大王：「應作九色幡，長九丈；九色華，高二丈；
 <lb n="0356a07" ed="T"/>千枝燈，高五丈；九玉箱、九玉巾，亦作七寶案，以
-<lb n="0356a08" ed="T"/>經卷置上。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0356a0805">佛告大王下，第二明勸人供養中
+<lb n="0356a08" ed="T"/>經卷置上。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0356a0805">佛告大王下，第二明勸人供養中
 <lb n="0356a09" ed="T"/>有二：初事別供養；日日下，次總以華香供養。
 <lb n="0356a10" ed="T"/>就前別中，初列六種供養事，第二出般若而供
 <lb n="0356a11" ed="T"/>養之。初六事者，一幡、二華、三燈、四玉箱、五玉
@@ -3832,7 +4192,8 @@
 <lb n="0356a13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0356a1301">「若王行時，常於其前足一百步，是經常放千光
 <lb n="0356a14" ed="T"/>明，令千里內七難不起、罪過不生。若王住時，作
 <lb n="0356a15" ed="T"/>七寶帳，帳中七寶高座，以經卷置上，日日供養，
-<lb n="0356a16" ed="T"/>散華燒香，如事父母、如事帝釋。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0356a1613">第二供養法
+<lb n="0356a16" ed="T"/>散華燒香，如事父母、如事帝釋。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0356a1613">第二供養法
 <lb n="0356a17" ed="T"/>用，內有五句：初出般若置案上；二王行時以
 <lb n="0356a18" ed="T"/>波若在前；三王行百步，般若放千里光；四令
 <lb n="0356a19" ed="T"/>千里內無七難，得益也；五若住時作七寶座，
@@ -3855,7 +4216,8 @@
 <lb n="0356b06" ed="T"/>彼國；四雷電吼菩薩，手持千寶羅網往護彼國；
 <lb n="0356b07" ed="T"/>五無量力吼菩薩，手持五千劍輪往護彼國。是
 <lb n="0356b08" ed="T"/>五大士、五千大鬼神王於汝國中大作利益，當
-<lb n="0356b09" ed="T"/>立形像而供養之。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0356b0908">大王若未來世下，第六明
+<lb n="0356b09" ed="T"/>立形像而供養之。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0356b0908">大王若未來世下，第六明
 <lb n="0356b10" ed="T"/>能依教而行，當遣五大菩薩為護，勸造像供
 <lb n="0356b11" ed="T"/>養。文有四：初總明未來世五大菩薩常護其
 <lb n="0356b12" ed="T"/>國；二別列五大菩薩名；三五千大神王於汝
@@ -3865,14 +4227,16 @@
 <lb n="0356b16" ed="T"/>衛國、鳩尸那國、鳩睒彌國、鳩留國、罽賓國、彌提
 <lb n="0356b17" ed="T"/>國、伽羅乾國、乾陀衛國、沙陀國、僧伽陀國、健拏
 <lb n="0356b18" ed="T"/>掘闍國、波提國，如是一切諸國王等，皆應受持
-<lb n="0356b19" ed="T"/>般若波羅蜜。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0356b1906">大王吾今下，第七勸受持此經。
+<lb n="0356b19" ed="T"/>般若波羅蜜。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0356b1906">大王吾今下，第七勸受持此經。
 <lb n="0356b20" ed="T"/>文有三：初明付囑諸國王；二列十六國；如是
 <lb n="0356b21" ed="T"/>一切下，第三勸受持。此經但明十七國，那云十
 <lb n="0356b22" ed="T"/>六？答：《大雲經》有十六大國也。</p></cb:div>
 <lb n="0356b23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0356b2301">時諸大眾阿須輪王，聞佛所說未來世中七可
 <lb n="0356b24" ed="T"/>畏難，身毛為竪呼聲大叫而言：「願不生彼國。」時
 <lb n="0356b25" ed="T"/>十六大國王即以國事付弟，出家修道，觀四大
-<lb n="0356b26" ed="T"/>四色勝出相，四大四色不用識空入行相。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0356b2617">時
+<lb n="0356b26" ed="T"/>四色勝出相，四大四色不用識空入行相。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0356b2617">時
 <lb n="0356b27" ed="T"/>諸大眾阿須輪王下，答問中大段第三，明時
 <lb n="0356b28" ed="T"/>眾聞法得益。就文有六：初總明大眾聞說起
 <lb n="0356b29" ed="T"/>願；第二十六國王悟道；第三十八梵天等得
@@ -3895,7 +4259,8 @@
 <lb n="0356c16" ed="T"/>成，故言入行相。</p></cb:div>
 <lb n="0356c17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0356c1701">三十忍初地相，第一義諦九地相，是故大王捨
 <lb n="0356c18" ed="T"/>凡夫身入六住身，捨七報身入八法身，證一切
-<lb n="0356c19" ed="T"/>行般若波羅蜜。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0356c1907">三十忍下，次明實行入道。
+<lb n="0356c19" ed="T"/>行般若波羅蜜。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0356c1907">三十忍下，次明實行入道。
 <lb n="0356c20" ed="T"/>二種假相觀在地前，三十忍在地上。十地各
 <lb n="0356c21" ed="T"/>三心，合有三十忍。言初地相者，即是第一地
 <lb n="0356c22" ed="T"/>也。言第一義諦者，此明初地得第一義諦成，
@@ -3910,7 +4275,8 @@
 <lb n="0357a01" ed="T"/>華、金剛華、緣觀中道華、三十七品華而散佛上，
 <lb n="0357a02" ed="T"/>及九百億大菩薩眾，其餘一切眾證道迹果，散
 <lb n="0357a03" ed="T"/>心空華、心樹華、六波羅蜜華、妙覺華而散佛上
-<lb n="0357a04" ed="T"/>及一切大眾。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0357a0406">十八梵天阿須輪王下，第三明
+<lb n="0357a04" ed="T"/>及一切大眾。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0357a0406">十八梵天阿須輪王下，第三明
 <lb n="0357a05" ed="T"/>諸天得益。就文為二：初三乘觀成，得無生利
 <lb n="0357a06" ed="T"/>益；第二散華供養。此散華中有二：初散五忍
 <lb n="0357a07" ed="T"/>華、二散二乘華。五忍華者，空華、法性華、地前
@@ -3929,7 +4295,8 @@
 <lb n="0357a20" ed="T"/>華。散佛上者，供養也。</p></cb:div>
 <lb n="0357a21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0357a2101">十千菩薩念來世眾生，即證妙覺三昧、圓明三
 <lb n="0357a22" ed="T"/>昧、金剛三昧、世諦三昧、真諦三昧、第一義諦三
-<lb n="0357a23" ed="T"/>昧，此三諦三昧是一切三昧王三昧。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0357a2315">十千菩
+<lb n="0357a23" ed="T"/>昧，此三諦三昧是一切三昧王三昧。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0357a2315">十千菩
 <lb n="0357a24" ed="T"/>薩下，第五明十千菩薩念來世眾生悟解得證
 <lb n="0357a25" ed="T"/>三昧。所言妙覺三昧者，亦名理盡三昧。圓明
 <lb n="0357a26" ed="T"/>三昧者，照理盡故言圓明三昧。金剛三昧者，
@@ -3942,7 +4309,8 @@
 <lb n="0357b03" ed="T"/>法，如王能統領，故名一切王。</p></cb:div>
 <lb n="0357b04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0357b0401">亦得無量諸餘三昧，七財三昧、二十五有三昧、
 <lb n="0357b05" ed="T"/>一切行三昧。復有十億菩薩登金剛頂，現成正
-<lb n="0357b06" ed="T"/>覺。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0357b0602">七財三昧者，一信、二戒、三慚、四愧、五多聞、
+<lb n="0357b06" ed="T"/>覺。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0357b0602">七財三昧者，一信、二戒、三慚、四愧、五多聞、
 <lb n="0357b07" ed="T"/>六智慧、七捨離。二十五有三昧，壞二十五有。
 <lb n="0357b08" ed="T"/>得無垢三昧，能破地獄有。得不退三昧，能破
 <lb n="0357b09" ed="T"/>畜生有。得心樂三昧，能破餓鬼有。得歡喜三
@@ -3951,7 +4319,11 @@
 <lb n="0357b12" ed="T"/>單越有。得如幻三昧，斷閻浮提有。得一切法
 <lb n="0357b13" ed="T"/>不動三昧，斷四天王處有。得難伏三昧，斷三
 <lb n="0357b14" ed="T"/>十三天處有。得悅意三昧，斷炎魔天有。得青
-<lb n="0357b15" ed="T"/>色三昧，斷兜<note n="0357b1501" resp="CBETA" type="add">率【CB】，卒【大】</note><app n="0357b1501"><lem resp="CBETA.maha" wit="【CB】">率</lem><rdg wit="【大】">卒</rdg></app>天有。得黃色三昧，斷化樂天
+<lb n="0357b15" ed="T"/>色三昧，斷兜<note 
+n="0357b1501" resp="CBETA" type="add">率【CB】，卒【大】</note><app n="0357b1501">
+  <lem resp="CBETA.maha" wit="【CB】">率</lem>
+  <rdg wit="【大】">卒</rdg>
+</app>天有。得黃色三昧，斷化樂天
 <lb n="0357b16" ed="T"/>有。得赤色三昧，斷他化自在天有。得白色三
 <lb n="0357b17" ed="T"/>昧，斷初禪有。得種種三昧，斷大梵天有。得雙
 <lb n="0357b18" ed="T"/>三昧，斷二禪有。得雷音三昧，斷三禪有。得住
@@ -3962,7 +4334,8 @@
 <lb n="0357b23" ed="T"/>薩得二十五有三昧壞二十五有。四有四惡趣，
 <lb n="0357b24" ed="T"/>梵王六欲天，四禪及四空，無想五淨居。復有
 <lb n="0357b25" ed="T"/>十億菩薩下，第六十億菩薩成佛。</p></cb:div>
-<lb n="0357b26" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">8 囑累品</cb:mulu><head>仁王護國般若波羅蜜經囑累品第八</head><p xml:id="pT33p0357b2616" cb:place="inline">經有
+<lb n="0357b26" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">8 囑累品</cb:mulu><head>仁王護國般若波羅蜜經囑累品第八</head>
+<p xml:id="pT33p0357b2616" cb:place="inline">經有
 <lb n="0357b27" ed="T"/>三段，今是第三流通分。所言囑累者，明如來
 <lb n="0357b28" ed="T"/>慇懃囑寄國王、累眾菩薩，故云囑累品也。此
 <lb n="0357b29" ed="T"/>品分為四段：第一誡勅月光總勸流通，以明
@@ -3978,7 +4351,8 @@
 <lb n="0357c09" ed="T"/>八百年八千年中，無佛無法無僧、無信男信女，
 <lb n="0357c10" ed="T"/>時此經三寶付囑諸國王四部弟子，受持讀誦
 <lb n="0357c11" ed="T"/>解說其義，為三界眾生開空慧道，修七賢行，十
-<lb n="0357c12" ed="T"/>善行化一切眾生。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0357c1208">所言八十年者，佛滅度後
+<lb n="0357c12" ed="T"/>善行化一切眾生。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0357c1208">所言八十年者，佛滅度後
 <lb n="0357c13" ed="T"/>也。佛滅度後一百年中，五師持法各二十年，
 <lb n="0357c14" ed="T"/>迦葉、阿難、末田地此三人親見佛化，行法如
 <lb n="0357c15" ed="T"/>佛在世，故法不滅。三人逕六十年。第四商那
@@ -4014,8 +4388,13 @@
 <lb n="0358a15" ed="T"/>出家行道，亦復不聽造作佛像形、佛塔形，立統
 <lb n="0358a16" ed="T"/>官制眾安籍記僧，比丘地立、白衣高座，兵奴為
 <lb n="0358a17" ed="T"/>比丘，受別請法，知識比丘共為一心，親善比丘
-<lb n="0358a18" ed="T"/>為作<note n="0358a1801" resp="CBETA" type="add" note_key="T33.0358a18.03">齋【CB】，齊【大】</note><app n="0358a1801"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">齋<note type="cf1">T08n0245_p0833b24</note><note type="cf2">X26n0513_p0187c05</note></lem><rdg wit="【大】">齊</rdg></app>會求福，如外道法，都非吾法。當知爾時
-<lb n="0358a19" ed="T"/>正法將滅不久。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0358a1907">後五濁下，第二七門別誡，即
+<lb n="0358a18" ed="T"/>為作<note 
+n="0358a1801" resp="CBETA" type="add" note_key="T33.0358a18.03">齋【CB】，齊【大】</note><app n="0358a1801">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">齋<note type="cf1">T08n0245_p0833b24</note><note type="cf2">X26n0513_p0187c05</note></lem>
+  <rdg wit="【大】">齊</rdg>
+</app>會求福，如外道法，都非吾法。當知爾時
+<lb n="0358a19" ed="T"/>正法將滅不久。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0358a1907">後五濁下，第二七門別誡，即
 <lb n="0358a20" ed="T"/>為七別：一不得障人出家等；二不得俗官治
 <lb n="0358a21" ed="T"/>僧；三不得繫縛比丘；四不得非法說經，似師
 <lb n="0358a22" ed="T"/>子身內虫；五不得驅使比丘似兵奴法；六明
@@ -4032,25 +4411,32 @@
 <lb n="0358b03" ed="T"/>法興，七正法滅。</p></cb:div>
 <lb n="0358b04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0358b0401">「大王！壞亂吾道是汝等自作，自恃威力制我四
 <lb n="0358b05" ed="T"/>部弟子，百姓疾病無不苦難，是破國因緣，說五
-<lb n="0358b06" ed="T"/>濁罪過窮劫不盡。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0358b0608">大王壞亂吾道下，第二不
+<lb n="0358b06" ed="T"/>濁罪過窮劫不盡。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0358b0608">大王壞亂吾道下，第二不
 <lb n="0358b07" ed="T"/>得俗官治僧。言自恃威力制四部弟子者，五
 <lb n="0358b08" ed="T"/>篇七聚外更作俗法治比丘等，以護法善神
 <lb n="0358b09" ed="T"/>瞋，使令疾病破壞國土，五濁增長也。</p></cb:div>
 <lb n="0358b10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0358b1001">「大王！法末世時，有諸比丘四部弟子，國王大臣
 <lb n="0358b11" ed="T"/>各作非法之行，橫與佛法眾僧作大非法，作諸
 <lb n="0358b12" ed="T"/>罪過，非法非律繫縛比丘如獄囚法，當爾之時
-<lb n="0358b13" ed="T"/>法滅不久。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0358b1305">大王法末世時下，第三不得繫縛
+<lb n="0358b13" ed="T"/>法滅不久。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0358b1305">大王法末世時下，第三不得繫縛
 <lb n="0358b14" ed="T"/>比丘如獄囚法。當戒律法中極，但有驅擯出
 <lb n="0358b15" ed="T"/>家眾；今行俗法，當知法滅不久。</p></cb:div>
 <lb n="0358b16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0358b1601">「大王！我滅度後未來世中，四部弟子，諸小國王
 <lb n="0358b17" ed="T"/>太子王子乃是任持護三寶者，轉更滅破三寶，
 <lb n="0358b18" ed="T"/>如師子身中虫自食師子，非外道也。多壞我佛
 <lb n="0358b19" ed="T"/>法，得大罪過。正教衰薄，民無正行。以漸為惡，其
-<lb n="0358b20" ed="T"/>壽日減至<note n="0358b2001" resp="CBETA" type="add">于【CB】，千【大】</note><app n="0358b2001"><lem resp="CBETA.liyi" wit="【CB】" cb:provider="Ma HongZhou (2020-05-21)">于<note type="cf1">T08n0245_p0833c08</note><note type="cf2">T33n1708_p0427a17</note></lem><rdg wit="【大】">千</rdg></app>百歲。人壞佛教，無復孝子，六親不
+<lb n="0358b20" ed="T"/>壽日減至<note 
+n="0358b2001" resp="CBETA" type="add">于【CB】，千【大】</note><app n="0358b2001">
+  <lem resp="CBETA.liyi" wit="【CB】" cb:provider="Ma HongZhou (2020-05-21)">于<note type="cf1">T08n0245_p0833c08</note><note type="cf2">T33n1708_p0427a17</note></lem>
+  <rdg wit="【大】">千</rdg>
+</app>百歲。人壞佛教，無復孝子，六親不
 <lb n="0358b21" ed="T"/>和，天神不祐，疾疫惡鬼日來侵害。災怪首尾連
 <lb n="0358b22" ed="T"/>禍縱橫，死入地獄餓鬼畜生，若出為人兵奴。果
 <lb n="0358b23" ed="T"/>報如響如影，如人夜書，火滅字存。三界果報亦
-<lb n="0358b24" ed="T"/>復如是。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0358b2404">大王我滅度後下，第四誡四部眾國
+<lb n="0358b24" ed="T"/>復如是。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0358b2404">大王我滅度後下，第四誡四部眾國
 <lb n="0358b25" ed="T"/>王等，皆是任持佛法人，還自破滅，令使國土
 <lb n="0358b26" ed="T"/>諸災競起，皆由破法使之然也。就文有二：初
 <lb n="0358b27" ed="T"/>明非法說經；二正法衰薄下，明其損失。初明
@@ -4063,11 +4449,13 @@
 <lb n="0358c04" ed="T"/>我弟子比丘比丘尼立籍，為官所使，都非我弟
 <lb n="0358c05" ed="T"/>子，是兵奴法。立統官攝僧，典主僧籍，大小僧統
 <lb n="0358c06" ed="T"/>共相攝縛，如獄囚法、兵奴之法。當爾之時，佛法
-<lb n="0358c07" ed="T"/>不久。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0358c0703">大王未來世下，第五誡國王太子四
+<lb n="0358c07" ed="T"/>不久。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0358c0703">大王未來世下，第五誡國王太子四
 <lb n="0358c08" ed="T"/>眾。立籍制約如兵奴法，立統官治人如俗法，
 <lb n="0358c09" ed="T"/>當知佛法滅亦不久。</p></cb:div>
 <lb n="0358c10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0358c1001">「大王！未來世中諸小國王四部弟子，自作此罪，
-<lb n="0358c11" ed="T"/>破國因緣，身自受之，非佛法僧。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0358c1113">大王未來世
+<lb n="0358c11" ed="T"/>破國因緣，身自受之，非佛法僧。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0358c1113">大王未來世
 <lb n="0358c12" ed="T"/>中諸小國下，第六誡小國四眾。明非法得罪，
 <lb n="0358c13" ed="T"/>制之莫為。自作罪過，破壞國土，自身受之，不
 <lb n="0358c14" ed="T"/>關三寶也。</p></cb:div>
@@ -4075,7 +4463,8 @@
 <lb n="0358c16" ed="T"/>常所行道，諸惡比丘多求名利，於國王太子王
 <lb n="0358c17" ed="T"/>子前自說破佛法因緣、破國因緣，其王不別信
 <lb n="0358c18" ed="T"/>聽此語，橫作法制不依佛戒，是為破佛破國因
-<lb n="0358c19" ed="T"/>緣。當爾之時，正法將滅不久。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0358c1912">大王未來世中
+<lb n="0358c19" ed="T"/>緣。當爾之時，正法將滅不久。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0358c1912">大王未來世中
 <lb n="0358c20" ed="T"/>流通此經下，第七誡諸比丘不依七佛教，依
 <lb n="0358c21" ed="T"/>託佛法求世名利，往國王邊自說破佛法因
 <lb n="0358c22" ed="T"/>緣。文有三別：初明比丘等邪說佛法；二其王
@@ -4087,7 +4476,8 @@
 <lb n="0358c28" ed="T"/>弟子出家行道，當如佛教。爾時大眾，十八梵天
 <lb n="0358c29" ed="T"/>王、六欲諸天子皆悉歎言：「當爾之時，世間空虛，
 <pb n="0359a" ed="T" xml:id="T33.1707.0359a"/>
-<lb n="0359a01" ed="T"/>是無佛世。」</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0359a0105">爾時十六國下，品中大段第三，
+<lb n="0359a01" ed="T"/>是無佛世。」</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0359a0105">爾時十六國下，品中大段第三，
 <lb n="0359a02" ed="T"/>諸國王聞佛七誡不制四眾。就文為二：初十
 <lb n="0359a03" ed="T"/>六國王悲歎驚怖，傷己已往愆，依教不制四
 <lb n="0359a04" ed="T"/>眾。第二十八梵天等傷歎云當當爾之時世
@@ -4097,7 +4487,8 @@
 <lb n="0359a08" ed="T"/>億舍利弗、須菩提等，五百億十八梵、六欲諸天、
 <lb n="0359a09" ed="T"/>三界六道阿須輪王等，聞佛所說護佛果因緣、
 <lb n="0359a10" ed="T"/>護國土因緣，歡喜無量，為佛作禮，受持般若波
-<lb n="0359a11" ed="T"/>羅蜜。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0359a1103">爾時無量大眾下，品內大段第四，時
+<lb n="0359a11" ed="T"/>羅蜜。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0359a1103">爾時無量大眾下，品內大段第四，時
 <lb n="0359a12" ed="T"/>眾聞法歡喜奉行。就文有三：初列百億菩薩
 <lb n="0359a13" ed="T"/>眾，第二列百億舍利弗等，第三五百億色欲
 <lb n="0359a14" ed="T"/>二界天、六道阿須輪王等眾，悉奉行也。</p></cb:div></cb:div>

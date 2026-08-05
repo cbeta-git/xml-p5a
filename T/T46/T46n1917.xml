@@ -2,88 +2,90 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T46n1917">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">六妙法門</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1917 六妙法門</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1917 六妙法門</title>
-			<author>隋 智顗說</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">46</idno>.<idno type="no">1917</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Ven. Jue-Guang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，釋覺光法師提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-09-01T14:06:32">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">六妙法門</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1917 六妙法門</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1917 六妙法門</title>
+      <author>隋 智顗說</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">46</idno>.<idno type="no">1917</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Ven. Jue-Guang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，釋覺光法師提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-09-01T14:06:32">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0549a" ed="T" xml:id="T46.1917.0549a"/>
 <lb n="0549a01" ed="T"/>
 <lb n="0549a02" ed="T"/><cb:docNumber>No. 1917</cb:docNumber>
-<lb n="0549a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0549001" resp="Taisho" type="orig" place="foot text">【原】縮刷大藏經</note>六妙法門</cb:jhead></cb:juan>
+<lb n="0549a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0549001" resp="Taisho" type="orig" place="foot text">【原】縮刷大藏經</note>六妙法門</cb:jhead></cb:juan>
 <lb n="0549a04" ed="T"/>
 <lb n="0549a05" ed="T"/><byline cb:type="author">天台大師於都下瓦官寺略出此法門</byline>
 <lb n="0549a06" ed="T"/><cb:div type="jing"><p xml:id="pT46p0549a0601">「六妙門」者，蓋是內行之根本，三乘得道之要
 <lb n="0549a07" ed="T"/>逕。故釋迦初詣道樹，跏趺坐草，內思安般：一、
 <lb n="0549a08" ed="T"/>數，二、隨，三、止，四、觀，五、還，六、淨，因此萬行開
 <lb n="0549a09" ed="T"/>發，降魔成道。當知佛為物軌，示跡若斯，三乘
-<lb n="0549a10" ed="T"/>正士豈不同遊此路？</p><p xml:id="pT46p0549a1009" cb:place="inline">所言「六」者，即是數法，約
+<lb n="0549a10" ed="T"/>正士豈不同遊此路？</p>
+<p xml:id="pT46p0549a1009" cb:place="inline">所言「六」者，即是數法，約
 <lb n="0549a11" ed="T"/>數明禪，故言六也。如佛或約一數辯禪，所謂
 <lb n="0549a12" ed="T"/>一行三昧；或約二數，謂一、止，二、觀；或約三
 <lb n="0549a13" ed="T"/>數，謂三三昧；或約四數，所謂四禪；或約五
@@ -93,13 +95,15 @@
 <lb n="0549a17" ed="T"/>等，乃至百千萬億阿僧祇不可說諸三昧門，
 <lb n="0549a18" ed="T"/>悉是約數說諸禪也。雖數有多少，窮其法相，
 <lb n="0549a19" ed="T"/>莫不悉相收攝，以眾生機悟不同故，有增減
-<lb n="0549a20" ed="T"/>之數分別利物。</p><p xml:id="pT46p0549a2007" cb:place="inline">今言「六」者，即是約數法而標
+<lb n="0549a20" ed="T"/>之數分別利物。</p>
+<p xml:id="pT46p0549a2007" cb:place="inline">今言「六」者，即是約數法而標
 <lb n="0549a21" ed="T"/>章也。「妙」者，其意乃多，若論正意，即是滅諦涅
 <lb n="0549a22" ed="T"/>槃，故滅四行中，言滅、止、妙、離。涅槃非斷非常，
 <lb n="0549a23" ed="T"/>有而難契，無而易得，故言「妙」也。六法能通，故
 <lb n="0549a24" ed="T"/>名為「門」。門雖有六，會妙不殊，故經言：「泥洹真
 <lb n="0549a25" ed="T"/>法寶，眾生從種種門入。」此則通釋六妙門之
-<lb n="0549a26" ed="T"/>大意也。</p><p xml:id="pT46p0549a2604" cb:place="inline">六妙門大意有十：
+<lb n="0549a26" ed="T"/>大意也。</p>
+<p xml:id="pT46p0549a2604" cb:place="inline">六妙門大意有十：
 <lb n="0549a27" ed="T"/>第一、歷別對諸禪六妙門，第二、次第相生六
 <lb n="0549a28" ed="T"/>妙門，第三、隨便宜六妙門，第四、隨對治六
 <lb n="0549a29" ed="T"/>妙門，第五、相攝六妙門，第六、通別六妙門，
@@ -114,19 +118,29 @@
 <lb n="0549b08" ed="T"/>麁煩惱，而亦成就十種細煩惱。知已破折，不
 <lb n="0549b09" ed="T"/>住不著，心得解脫，即證三乘涅槃故。此義
 <lb n="0549b10" ed="T"/>如須跋陀羅，佛教斷非非想處惑，即便獲得
-<lb n="0549b11" ed="T"/>阿羅漢果。「數」為妙門，意在於此也。</p><p xml:id="pT46p0549b1114" cb:place="inline">二者「隨」為
+<lb n="0549b11" ed="T"/>阿羅漢果。「數」為妙門，意在於此也。</p>
+<p xml:id="pT46p0549b1114" cb:place="inline">二者「隨」為
 <lb n="0549b12" ed="T"/>妙門者，行者因隨息故，即能出生十六特勝，
 <lb n="0549b13" ed="T"/>所謂：一、知息入，二、知息出，三、知息長短，四、知
-<lb n="0549b14" ed="T"/>息遍身，五、除諸身行，六、心<note n="0549b1401" resp="CBETA" type="add" note_key="T46.0549b14.11">受【CB】【金藏乙-CB】，爰【大】</note><app n="0549b1401"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-27)">受<note type="cf1">AC5472_001_0003a20</note></lem><rdg wit="【大】">爰</rdg></app>喜，七、心受樂，八、
+<lb n="0549b14" ed="T"/>息遍身，五、除諸身行，六、心<note 
+n="0549b1401" resp="CBETA" type="add" note_key="T46.0549b14.11">受【CB】【金藏乙-CB】，爰【大】</note><app n="0549b1401">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-27)">受<note type="cf1">AC5472_001_0003a20</note></lem>
+  <rdg wit="【大】">爰</rdg>
+</app>喜，七、心受樂，八、
 <lb n="0549b15" ed="T"/>受諸心行，九、心作喜，十、心作攝，十一、心作解
 <lb n="0549b16" ed="T"/>脫，十二、觀無常，十三、觀出散，十四、觀離欲，
 <lb n="0549b17" ed="T"/>十五、觀滅，十六、觀棄捨。云何觀棄捨？此觀破
-<lb n="0549b18" ed="T"/>非想處惑。所以者何？凡夫修非想時，觀有<note n="0549b1801" resp="CBETA" type="add" note_key="T46.0549b18.17">想【CB】【金藏乙-CB】，常【大】</note><app n="0549b1801"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">想<note type="cf1">AC5472_001_0003a23</note><note type="cf2">T46n1917_p0549b20</note><note type="cf3">T46n1916_p0540c24</note></lem><rdg wit="【大】">常</rdg></app>
+<lb n="0549b18" ed="T"/>非想處惑。所以者何？凡夫修非想時，觀有<note 
+n="0549b1801" resp="CBETA" type="add" note_key="T46.0549b18.17">想【CB】【金藏乙-CB】，常【大】</note><app n="0549b1801">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">想<note type="cf1">AC5472_001_0003a23</note><note type="cf2">T46n1917_p0549b20</note><note type="cf3">T46n1916_p0540c24</note></lem>
+  <rdg wit="【大】">常</rdg>
+</app>
 <lb n="0549b19" ed="T"/>處如癕、如瘡，觀無想處如癡也。第一妙定，名
 <lb n="0549b20" ed="T"/>曰「非想」。作是念已，即棄捨有想、無想，名「非
 <lb n="0549b21" ed="T"/>有想非無想」，故知非想即是兩捨之義。今佛
 <lb n="0549b22" ed="T"/>弟子觀行破折，義如前說，是故深觀棄捨，不
-<lb n="0549b23" ed="T"/>著非想，能得涅槃。「隨」為妙門，意在此也。</p><p xml:id="pT46p0549b2316" cb:place="inline">三者
+<lb n="0549b23" ed="T"/>著非想，能得涅槃。「隨」為妙門，意在此也。</p>
+<p xml:id="pT46p0549b2316" cb:place="inline">三者
 <lb n="0549b24" ed="T"/>「止」為妙門者，行者因止心故，即便次第發五
 <lb n="0549b25" ed="T"/>輪禪：一者地輪三昧，即未到地；二者水輪三
 <lb n="0549b26" ed="T"/>昧，即是種種諸禪定善根發也；三者虛空輪
@@ -135,15 +149,18 @@
 <lb n="0549b29" ed="T"/>沙也；五者金剛輪三昧，即是第九無礙道，能
 <pb n="0549c" ed="T" xml:id="T46.1917.0549c"/>
 <lb n="0549c01" ed="T"/>斷三界結使，永盡無餘，證盡智、無生智，入涅
-<lb n="0549c02" ed="T"/>槃。「止」為妙門，意在此也。</p><p xml:id="pT46p0549c0210" cb:place="inline">四者「觀」為妙門者，行
+<lb n="0549c02" ed="T"/>槃。「止」為妙門，意在此也。</p>
+<p xml:id="pT46p0549c0210" cb:place="inline">四者「觀」為妙門者，行
 <lb n="0549c03" ed="T"/>者因修觀故，即能出生九想、八念、十想、八背
 <lb n="0549c04" ed="T"/>捨、八勝處、十一切處、九次第定、師子奮迅三
 <lb n="0549c05" ed="T"/>昧、超越三昧、練禪、十四變化心、三明、六通
 <lb n="0549c06" ed="T"/>及八解脫，得滅受想，即入涅槃。「觀」為妙門，意
-<lb n="0549c07" ed="T"/>在此也。</p><p xml:id="pT46p0549c0704" cb:place="inline">五者「還」為妙門者，行者若用惠行，善
+<lb n="0549c07" ed="T"/>在此也。</p>
+<p xml:id="pT46p0549c0704" cb:place="inline">五者「還」為妙門者，行者若用惠行，善
 <lb n="0549c08" ed="T"/>巧破折，反本還源，是時即便出生空、無想、無
 <lb n="0549c09" ed="T"/>作、三十七品、四諦、十二因緣、中道正觀，因
-<lb n="0549c10" ed="T"/>此得入涅槃。「還」為妙門，意在此也。</p><p xml:id="pT46p0549c1014" cb:place="inline">六者「淨」為
+<lb n="0549c10" ed="T"/>此得入涅槃。「還」為妙門，意在此也。</p>
+<p xml:id="pT46p0549c1014" cb:place="inline">六者「淨」為
 <lb n="0549c11" ed="T"/>妙門者，行者若能體識一切諸法本性清淨，
 <lb n="0549c12" ed="T"/>即便獲得自性禪也。得此禪故，二乘之人定
 <lb n="0549c13" ed="T"/>證涅槃。若是菩薩入鐵輪位，具十信心，修行
@@ -159,19 +176,22 @@
 <lb n="0549c23" ed="T"/>修數，二者證數。修數者，行者調和氣息，不澁
 <lb n="0549c24" ed="T"/>不滑，安詳徐數，從一至十，攝心在數，不令馳
 <lb n="0549c25" ed="T"/>散，是名修數。證數者，覺心任運，從一至十，
-<lb n="0549c26" ed="T"/>不加功力，心住息緣，覺息虛微，心相漸細。</p><p xml:id="pT46p0549c2617" cb:place="inline">患
+<lb n="0549c26" ed="T"/>不加功力，心住息緣，覺息虛微，心相漸細。</p>
+<p xml:id="pT46p0549c2617" cb:place="inline">患
 <lb n="0549c27" ed="T"/>數為麁，意不欲數。爾時行者應當放數修
 <lb n="0549c28" ed="T"/>隨。隨亦有二：一者修隨，二者證隨。修隨者，
 <lb n="0549c29" ed="T"/>捨前數法，一心依隨息之出入，攝心緣息，知
 <pb n="0550a" ed="T" xml:id="T46.1917.0550a"/>
 <lb n="0550a01" ed="T"/>息入出，心住息緣，無分散意。是名修隨。證隨
 <lb n="0550a02" ed="T"/>者，心既微細，安靜不亂，覺息長短，遍身入出，
-<lb n="0550a03" ed="T"/>心息任運相依，意慮恬然凝靜。</p><p xml:id="pT46p0550a0313" cb:place="inline">覺隨為麁，心
+<lb n="0550a03" ed="T"/>心息任運相依，意慮恬然凝靜。</p>
+<p xml:id="pT46p0550a0313" cb:place="inline">覺隨為麁，心
 <lb n="0550a04" ed="T"/>厭欲捨，如人疲極欲眠，不樂眾務。爾時行者
 <lb n="0550a05" ed="T"/>應當捨隨修止。止亦有二：一者修止，二者證
 <lb n="0550a06" ed="T"/>止。修止者，息諸緣慮，不念數隨，凝寂其心，
 <lb n="0550a07" ed="T"/>是名修止。證止者，覺身心泯然入定，不見內
-<lb n="0550a08" ed="T"/>外相貌，定法持心，任運不動。</p><p xml:id="pT46p0550a0812" cb:place="inline">行者是時即
+<lb n="0550a08" ed="T"/>外相貌，定法持心，任運不動。</p>
+<p xml:id="pT46p0550a0812" cb:place="inline">行者是時即
 <lb n="0550a09" ed="T"/>作是念：「今此三昧雖復無為寂靜、安隱快樂，
 <lb n="0550a10" ed="T"/>而無惠方便，不能破壞生死。」復作是念：「今此
 <lb n="0550a11" ed="T"/>定者，皆屬因緣，陰界入法和合而有，虛誑不
@@ -184,7 +204,8 @@
 <lb n="0550a18" ed="T"/>名修觀。證觀者，如是觀時，覺息出入遍諸毛
 <lb n="0550a19" ed="T"/>孔，心眼開明，徹見三十六物及諸虫戶，內外
 <lb n="0550a20" ed="T"/>不淨，剎那變易，心生悲喜，得四念處，破四顛
-<lb n="0550a21" ed="T"/>倒，是名證觀。</p><p xml:id="pT46p0550a2106" cb:place="inline">觀相既發，心緣觀境，分別破
+<lb n="0550a21" ed="T"/>倒，是名證觀。</p>
+<p xml:id="pT46p0550a2106" cb:place="inline">觀相既發，心緣觀境，分別破
 <lb n="0550a22" ed="T"/>折，覺念流動，非真實道。爾時應當捨觀修還。
 <lb n="0550a23" ed="T"/>還亦有二：一者修還，二者證還。修還者，既知
 <lb n="0550a24" ed="T"/>觀從心生，若從折境，此即不會本源。應當反
@@ -199,7 +220,8 @@
 <lb n="0550b03" ed="T"/>有，不有故即空，空故無觀心。若無觀心，豈有
 <lb n="0550b04" ed="T"/>觀境？境智雙亡，還源之要也，是名修還相。證
 <lb n="0550b05" ed="T"/>還相者，心惠開發，不加功力，任運自能破
-<lb n="0550b06" ed="T"/>折，反本還源，是名證還。</p><p xml:id="pT46p0550b0610" cb:place="inline">行者當知，若離境
+<lb n="0550b06" ed="T"/>折，反本還源，是名證還。</p>
+<p xml:id="pT46p0550b0610" cb:place="inline">行者當知，若離境
 <lb n="0550b07" ed="T"/>智，欲歸無境智，不離境智縛，以隨二邊故。爾
 <lb n="0550b08" ed="T"/>時當捨還門，安心淨道。淨亦有二：一者修淨，
 <lb n="0550b09" ed="T"/>二者證淨。修淨者，知色淨故，不起妄想分別，
@@ -211,7 +233,8 @@
 <lb n="0550b15" ed="T"/>昧正受，心無依恃。證淨有二：一者相似證，五
 <lb n="0550b16" ed="T"/>方便相似無漏道惠發；二者真實證，苦法忍
 <lb n="0550b17" ed="T"/>乃至第九無礙道等真無漏惠發也。三界垢
-<lb n="0550b18" ed="T"/>盡，故名證淨。</p><p xml:id="pT46p0550b1806" cb:place="inline">復次，觀眾生空，故名為觀；觀實
+<lb n="0550b18" ed="T"/>盡，故名證淨。</p>
+<p xml:id="pT46p0550b1806" cb:place="inline">復次，觀眾生空，故名為觀；觀實
 <lb n="0550b19" ed="T"/>法空，故名為還；觀平等空，故名為淨。復次，空
 <lb n="0550b20" ed="T"/>三昧相應，故名為觀；無相三昧相應，故名為
 <lb n="0550b21" ed="T"/>還；無作三昧相應，故名為淨。復次，一切外觀
@@ -225,27 +248,39 @@
 <lb n="0550b29" ed="T"/>其心，隨心所便，可以常用。所以者何？若心不
 <pb n="0550c" ed="T" xml:id="T46.1917.0550c"/>
 <lb n="0550c01" ed="T"/>便，修治即無益。是故初坐時，當識調心學數，
-<lb n="0550c02" ed="T"/>次當學隨，復當學<note n="0550c0201" resp="CBETA" type="add" note_key="T46.0550c02.08">止【CB】【金藏乙-CB】，心【大】</note><app n="0550c0201"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-27)">止<note type="cf1">AC5472_001_0007a08</note></lem><rdg wit="【大】">心</rdg></app>、觀、還等，各各經數日。學
+<lb n="0550c02" ed="T"/>次當學隨，復當學<note 
+n="0550c0201" resp="CBETA" type="add" note_key="T46.0550c02.08">止【CB】【金藏乙-CB】，心【大】</note><app n="0550c0201">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-27)">止<note type="cf1">AC5472_001_0007a08</note></lem>
+  <rdg wit="【大】">心</rdg>
+</app>、觀、還等，各各經數日。學
 <lb n="0550c03" ed="T"/>已，復更從數、隨，乃至還、淨，安心修習，復各經
-<lb n="0550c04" ed="T"/>數日。如是數反，行者即應自知心所便宜。</p><p xml:id="pT46p0550c0417" cb:place="inline">若
+<lb n="0550c04" ed="T"/>數日。如是數反，行者即應自知心所便宜。</p>
+<p xml:id="pT46p0550c0417" cb:place="inline">若
 <lb n="0550c05" ed="T"/>心便數，當以數法安心，乃至淨亦如是。隨便
 <lb n="0550c06" ed="T"/>而用，不簡次第。如是安心時，若覺身安息調，
 <lb n="0550c07" ed="T"/>心靜開明，始終安固，當專用此法，必有深
 <lb n="0550c08" ed="T"/>利。若有妨生，心散闇塞，當更隨便轉用餘門。
 <lb n="0550c09" ed="T"/>安即為善，可以長軌。是則略明初學善巧安
-<lb n="0550c10" ed="T"/>心六妙門，是知便宜用心大意。</p><p xml:id="pT46p0550c1013" cb:place="inline">復次，行者心
+<lb n="0550c10" ed="T"/>心六妙門，是知便宜用心大意。</p>
+<p xml:id="pT46p0550c1013" cb:place="inline">復次，行者心
 <lb n="0550c11" ed="T"/>若安穩必有所證。云何為證？所謂得持身及
 <lb n="0550c12" ed="T"/>麁住、細住、欲界、未到地、初禪等種種諸禪定。
 <lb n="0550c13" ed="T"/>得諸定已，若心住不進，當隨定深淺修六妙
-<lb n="0550c14" ed="T"/>門開發。</p><p xml:id="pT46p0550c1404" cb:place="inline">云何名淺定不進，修六門令進？如行
+<lb n="0550c14" ed="T"/>門開發。</p>
+<p xml:id="pT46p0550c1404" cb:place="inline">云何名淺定不進，修六門令進？如行
 <lb n="0550c15" ed="T"/>者初得持身法及麁細住法，經於日月而不
 <lb n="0550c16" ed="T"/>增進，爾時應當細心修數；數若不進，復當
 <lb n="0550c17" ed="T"/>修隨；隨若不進，當細凝心修止；止若不進，當
 <lb n="0550c18" ed="T"/>定中觀陰入界法；觀若不進，當還更反檢心
 <lb n="0550c19" ed="T"/>源；還若不進，當寂然體淨。用此六法，若偏於
-<lb n="0550c20" ed="T"/>一法增進之時，當即善修之。</p><p xml:id="pT46p0550c2012" cb:place="inline">既漸進入深禪
+<lb n="0550c20" ed="T"/>一法增進之時，當即善修之。</p>
+<p xml:id="pT46p0550c2012" cb:place="inline">既漸進入深禪
 <lb n="0550c21" ed="T"/>定，便過數境。數相既謝，進發隨禪。於此定
-<lb n="0550c22" ed="T"/>中，若不<note n="0550c2201" resp="CBETA" type="add" note_key="T46.0550c22.04">增【CB】【金藏乙-CB】，境【大】</note><app n="0550c2201"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi">增<note type="cf1">AC5472_001_0007a25</note></lem><rdg wit="【大】">境</rdg></app>進，當善修隨、止、觀、還、淨等五法。定
+<lb n="0550c22" ed="T"/>中，若不<note 
+n="0550c2201" resp="CBETA" type="add" note_key="T46.0550c22.04">增【CB】【金藏乙-CB】，境【大】</note><app n="0550c2201">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi">增<note type="cf1">AC5472_001_0007a25</note></lem>
+  <rdg wit="【大】">境</rdg>
+</app>進，當善修隨、止、觀、還、淨等五法。定
 <lb n="0550c23" ed="T"/>進漸深，隨境已度，若發止禪，禪若不進，當善
 <lb n="0550c24" ed="T"/>修止及觀、還、淨等四法。止定進漸深，觀心開
 <lb n="0550c25" ed="T"/>發，雖有止法，知從緣生，無有自性。止相已
@@ -261,17 +296,26 @@
 <lb n="0551a05" ed="T"/>真寂虛，心如虛空，無所依倚。爾時淨禪漸深
 <lb n="0551a06" ed="T"/>寂，豁然明朗，發真無漏，證三乘道。此則略
 <lb n="0551a07" ed="T"/>說六妙門隨便宜而用，增長諸禪功德智惠，
-<lb n="0551a08" ed="T"/>乃至入涅槃也。</p><p xml:id="pT46p0551a0807" cb:place="inline">復次，行者於其中間，若有內
+<lb n="0551a08" ed="T"/>乃至入涅槃也。</p>
+<p xml:id="pT46p0551a0807" cb:place="inline">復次，行者於其中間，若有內
 <lb n="0551a09" ed="T"/>外障起，欲除却者，亦當於六門中隨取一
 <lb n="0551a10" ed="T"/>法，一一試用却之。若得差者，即為藥也。治禪
 <lb n="0551a11" ed="T"/>障及禪中魔事、病患，功用六門悉得差也。上
 <lb n="0551a12" ed="T"/>來所說，其意難見。行者若用此法門，當善思
-<lb n="0551a13" ed="T"/><note n="0551a1301" resp="CBETA" type="add">惟【CB】，推【大】</note><app n="0551a1301"><lem wit="【CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">惟<note type="cf1">T46n1917_p0555a03</note></lem><rdg wit="【大】">推</rdg></app>取意，勿妄行也。</p>
+<lb n="0551a13" ed="T"/><note 
+n="0551a1301" resp="CBETA" type="add">惟【CB】，推【大】</note><app n="0551a1301">
+  <lem wit="【CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">惟<note type="cf1">T46n1917_p0555a03</note></lem>
+  <rdg wit="【大】">推</rdg>
+</app>取意，勿妄行也。</p>
 <lb n="0551a14" ed="T"/><p xml:id="pT46p0551a1401">次釋「第四、對治六妙門」。三乘行者修道會真，
 <lb n="0551a15" ed="T"/>悉是除障顯理，無所造作。所以者何？二乘之
 <lb n="0551a16" ed="T"/>人，四住惑除，名得聖果，更無別法；菩薩大
 <lb n="0551a17" ed="T"/>士，破塵沙、無明障盡故，菩提理顯，亦不異修。
-<lb n="0551a18" ed="T"/>此而<note n="0551a1801" resp="CBETA" type="add" note_key="T46.0551a18.03">推【CB】，惟【大】（CBETA 按：原「惟」，中國國圖藏金藏（AC5472）殘，今參考釋智顗《釋禪波羅蜜次第法門》的常用語「此而推之」，修訂作「推」。）</note><app n="0551a1801"><lem wit="【CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-27)">推</lem><rdg wit="【大】">惟</rdg></app>之。若能巧用六門對治，破內外障，即
+<lb n="0551a18" ed="T"/>此而<note 
+n="0551a1801" resp="CBETA" type="add" note_key="T46.0551a18.03">推【CB】，惟【大】（CBETA 按：原「惟」，中國國圖藏金藏（AC5472）殘，今參考釋智顗《釋禪波羅蜜次第法門》的常用語「此而推之」，修訂作「推」。）</note><app n="0551a1801">
+  <lem wit="【CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-27)">推</lem>
+  <rdg wit="【大】">惟</rdg>
+</app>之。若能巧用六門對治，破內外障，即
 <lb n="0551a19" ed="T"/>是修道，即是得道，更無別道。云何功用六門
 <lb n="0551a20" ed="T"/>對治？行者應當知病識藥。云何知病？所謂
 <lb n="0551a21" ed="T"/>三障：一者報障，即是今世不善、麁動、散亂障
@@ -291,7 +335,8 @@
 <lb n="0551b05" ed="T"/>分散意，照息出入，治無記昏睡。心依於息，
 <lb n="0551b06" ed="T"/>治覺觀攀緣。三者於坐禪中，若覺身心急氣
 <lb n="0551b07" ed="T"/>麁，心散流動，爾時行者當用止門，寬身放息，
-<lb n="0551b08" ed="T"/>制心凝寂，止諸憶慮，此為治也。</p><p xml:id="pT46p0551b0813" cb:place="inline">復次，云何煩
+<lb n="0551b08" ed="T"/>制心凝寂，止諸憶慮，此為治也。</p>
+<p xml:id="pT46p0551b0813" cb:place="inline">復次，云何煩
 <lb n="0551b09" ed="T"/>惱障起？云何對治？煩惱有三種。一者於坐禪
 <lb n="0551b10" ed="T"/>中，貪欲煩惱障起。爾時行者當用觀心門中，
 <lb n="0551b11" ed="T"/>九想、初背捨、二勝處、諸不淨門為對治也。
@@ -299,7 +344,8 @@
 <lb n="0551b13" ed="T"/>用觀心門中，慈悲喜捨等為對治也。三者於
 <lb n="0551b14" ed="T"/>坐禪中，愚癡邪見煩惱障起。爾時行者當
 <lb n="0551b15" ed="T"/>用還門，反照十二因緣、三空道品，破折心源，
-<lb n="0551b16" ed="T"/>還歸本性，此為治也。</p><p xml:id="pT46p0551b1609" cb:place="inline">復次，云何對治障道業
+<lb n="0551b16" ed="T"/>還歸本性，此為治也。</p>
+<p xml:id="pT46p0551b1609" cb:place="inline">復次，云何對治障道業
 <lb n="0551b17" ed="T"/>起？業即三種，治法亦三。一者於坐禪中，忽
 <lb n="0551b18" ed="T"/>然垢心昏闇，迷失境界，當知黑闇業障起。爾
 <lb n="0551b19" ed="T"/>時行者，當用淨門中，念方便淨應身三十二
@@ -311,7 +357,8 @@
 <lb n="0551b25" ed="T"/>心，當知悉是過去今世所造惡業障發也。爾
 <lb n="0551b26" ed="T"/>時行者當用淨門中，念法身本淨，不生不滅，
 <lb n="0551b27" ed="T"/>本性清淨，為對治也。此則略說六門對治斷
-<lb n="0551b28" ed="T"/>除三障之相；廣說不異十五種障也。</p><p xml:id="pT46p0551b2815" cb:place="inline">復次，行
+<lb n="0551b28" ed="T"/>除三障之相；廣說不異十五種障也。</p>
+<p xml:id="pT46p0551b2815" cb:place="inline">復次，行
 <lb n="0551b29" ed="T"/>者於坐禪中，若發諸餘禪深定、智惠解脫，有
 <lb n="0551b30" ed="T"/>種種障起，當於六門中，善巧用對治法也。麁
 <pb n="0551c" ed="T" xml:id="T46.1917.0551c"/>
@@ -334,26 +381,32 @@
 <lb n="0551c17" ed="T"/>還、淨等一一皆攝六門，此則六六三十六妙
 <lb n="0551c18" ed="T"/>門。上來雖復種種運用不同，悉有今意，若不
 <lb n="0551c19" ed="T"/>分別，行人不知。此則略說六妙門自體相攝，
-<lb n="0551c20" ed="T"/>一中具六相也。</p><p xml:id="pT46p0551c2007" cb:place="inline">復次，云何名巧修六妙門出
+<lb n="0551c20" ed="T"/>一中具六相也。</p>
+<p xml:id="pT46p0551c2007" cb:place="inline">復次，云何名巧修六妙門出
 <lb n="0551c21" ed="T"/>生勝進相攝相？行者於初調心數息，從一至
 <lb n="0551c22" ed="T"/>十，心不分散，是名數門。當數息時，靜心善
 <lb n="0551c23" ed="T"/>巧，既知息初入、中間經遊至處，乃至入已還
 <lb n="0551c24" ed="T"/>出亦如是，心悉覺知，依隨不亂，亦成就數法，
-<lb n="0551c25" ed="T"/>從一至十，是則數中成就隨門。</p><p xml:id="pT46p0551c2513" cb:place="inline">復次，行者當
+<lb n="0551c25" ed="T"/>從一至十，是則數中成就隨門。</p>
+<p xml:id="pT46p0551c2513" cb:place="inline">復次，行者當
 <lb n="0551c26" ed="T"/>數息時，細心善巧，制心緣數法及息，不令細
 <lb n="0551c27" ed="T"/>微覺觀得起，剎那異念分別不生，是則於數
-<lb n="0551c28" ed="T"/>中成就止門。</p><p xml:id="pT46p0551c2806" cb:place="inline">復次，行者當數息時，成就息念
+<lb n="0551c28" ed="T"/>中成就止門。</p>
+<p xml:id="pT46p0551c2806" cb:place="inline">復次，行者當數息時，成就息念
 <lb n="0551c29" ed="T"/>巧惠方便，用靜鑒之心，照息生滅；兼知身
 <pb n="0552a" ed="T" xml:id="T46.1917.0552a"/>
 <lb n="0552a01" ed="T"/>分、剎那思想、陰入界法，如雲如影，空無自性，
 <lb n="0552a02" ed="T"/>不得人法，是時於數息中成就息念巧惠觀
-<lb n="0552a03" ed="T"/>門。</p><p xml:id="pT46p0552a0302" cb:place="inline">復次，行者當數息時，非但成就觀智，識
+<lb n="0552a03" ed="T"/>門。</p>
+<p xml:id="pT46p0552a0302" cb:place="inline">復次，行者當數息時，非但成就觀智，識
 <lb n="0552a04" ed="T"/>前法虛假，亦復善巧覺了觀照之心無有自
 <lb n="0552a05" ed="T"/>性，虛誑不實，離知覺想，是則於數息中成就
-<lb n="0552a06" ed="T"/>還門。</p><p xml:id="pT46p0552a0603" cb:place="inline">復次，行者當數息時，非但不得所觀、能
+<lb n="0552a06" ed="T"/>還門。</p>
+<p xml:id="pT46p0552a0603" cb:place="inline">復次，行者當數息時，非但不得所觀、能
 <lb n="0552a07" ed="T"/>觀，以惠方便亦不得無能觀、所觀，以本淨法
 <lb n="0552a08" ed="T"/>性，如虛空不可分別故。爾時行者心同法
-<lb n="0552a09" ed="T"/>性，寂然不動，是則於數息中成就淨門。</p><p xml:id="pT46p0552a0916" cb:place="inline">以五
+<lb n="0552a09" ed="T"/>性，寂然不動，是則於數息中成就淨門。</p>
+<p xml:id="pT46p0552a0916" cb:place="inline">以五
 <lb n="0552a10" ed="T"/>門莊嚴數息，隨、止、觀、還、淨，皆亦如是，今不別
 <lb n="0552a11" ed="T"/>說。此則六六三十六，亦名三十六妙門。行
 <lb n="0552a12" ed="T"/>者若能如是善巧修習六妙門者，當知必得
@@ -361,7 +414,8 @@
 <lb n="0552a14" ed="T"/><p xml:id="pT46p0552a1401">次釋「第六、通別六妙門」。所以言通別六門者，
 <lb n="0552a15" ed="T"/>凡夫、外道、二乘、菩薩通觀數息一法，而解惠
 <lb n="0552a16" ed="T"/>不同，是故證涅槃殊別；隨、止、觀、還、淨亦復如
-<lb n="0552a17" ed="T"/>是。</p><p xml:id="pT46p0552a1702" cb:place="inline">所以者何？凡夫鈍根行者，當數息時唯知
+<lb n="0552a17" ed="T"/>是。</p>
+<p xml:id="pT46p0552a1702" cb:place="inline">所以者何？凡夫鈍根行者，當數息時唯知
 <lb n="0552a18" ed="T"/>從一至十，令心安定，欲望此入禪，受諸快樂，
 <lb n="0552a19" ed="T"/>是名於數息中而起魔業，以貪生死故。復次，
 <lb n="0552a20" ed="T"/>如諸利根外道，見心猛盛，見因緣故，當數息
@@ -375,8 +429,13 @@
 <lb n="0552a28" ed="T"/>了息相，隨妄見生分別，即是數息戲論。四邊
 <lb n="0552a29" ed="T"/>火燒，生煩惱處，長夜貪著邪見，造諸邪行，斷
 <pb n="0552b" ed="T" xml:id="T46.1917.0552b"/>
-<lb n="0552b01" ed="T"/>滅善根，不<note n="0552b0101" resp="CBETA" type="add">會【CB】【金藏乙-CB】，曾【大】</note><app n="0552b0101"><lem resp="CBETA.maha CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)" wit="【CB】【金藏乙-CB】">會<note type="cf1">AC5472_001_0010a25</note><note type="cf2">TW46n1917_p0552b01</note></lem><rdg wit="【大】">曾</rdg></app>無生，心行理外，故名外道。如是
-<lb n="0552b02" ed="T"/>二人鈍利雖殊，三界生死輪迴無別。</p><p xml:id="pT46p0552b0215" cb:place="inline">復次，云
+<lb n="0552b01" ed="T"/>滅善根，不<note 
+n="0552b0101" resp="CBETA" type="add">會【CB】【金藏乙-CB】，曾【大】</note><app n="0552b0101">
+  <lem resp="CBETA.maha CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)" wit="【CB】【金藏乙-CB】">會<note type="cf1">AC5472_001_0010a25</note><note type="cf2">TW46n1917_p0552b01</note></lem>
+  <rdg wit="【大】">曾</rdg>
+</app>無生，心行理外，故名外道。如是
+<lb n="0552b02" ed="T"/>二人鈍利雖殊，三界生死輪迴無別。</p>
+<p xml:id="pT46p0552b0215" cb:place="inline">復次，云
 <lb n="0552b03" ed="T"/>何名為聲聞數息相？行者欲速出三界，自求
 <lb n="0552b04" ed="T"/>涅槃故，修數息以調其心。爾時於數息中，不
 <lb n="0552b05" ed="T"/>離四諦正觀。云何於數息中觀四真諦？行
@@ -387,7 +446,8 @@
 <lb n="0552b10" ed="T"/>生，即鈍使、利使諸煩惱結寂然不起，故名為
 <lb n="0552b11" ed="T"/>滅。知苦正惠，能通理無壅，故名為道。若能
 <lb n="0552b12" ed="T"/>如是數息，通達四諦，當知是人必定得聲聞
-<lb n="0552b13" ed="T"/>道，畢故不造新。</p><p xml:id="pT46p0552b1307" cb:place="inline">復次，云何於數息中入緣
+<lb n="0552b13" ed="T"/>道，畢故不造新。</p>
+<p xml:id="pT46p0552b1307" cb:place="inline">復次，云何於數息中入緣
 <lb n="0552b14" ed="T"/>覺道？行者求自然惠，樂獨善寂，深知諸法因
 <lb n="0552b15" ed="T"/>緣。當數息時，即知數息之念即是有支，有緣
 <lb n="0552b16" ed="T"/>取，取緣愛，愛緣受，受緣觸，觸緣六入，六入
@@ -401,7 +461,8 @@
 <lb n="0552b24" ed="T"/>等諸因緣法，皆無根本。既無行等因緣，豈
 <lb n="0552b25" ed="T"/>有今之數息之實？爾時行者深知數息屬因
 <lb n="0552b26" ed="T"/>緣，空無自性，不受、不著，不念、不分別，心如虛
-<lb n="0552b27" ed="T"/>空，寂然不動，豁然無漏心生，成緣覺道。</p><p xml:id="pT46p0552b2716" cb:place="inline">復
+<lb n="0552b27" ed="T"/>空，寂然不動，豁然無漏心生，成緣覺道。</p>
+<p xml:id="pT46p0552b2716" cb:place="inline">復
 <lb n="0552b28" ed="T"/>次，云何名為菩薩數息相？行者為求一切智、
 <lb n="0552b29" ed="T"/>佛智、自然智、無師智、如來知見、力、無所畏，愍
 <pb n="0552c" ed="T" xml:id="T46.1917.0552c"/>
@@ -418,7 +479,8 @@
 <lb n="0552c11" ed="T"/>一切，唯除楊柳，以其軟故。生死大水，亦復
 <lb n="0552c12" ed="T"/>如是，能漂沒一切凡夫之人，唯除菩薩住於
 <lb n="0552c13" ed="T"/>大乘大般涅槃，心柔軟故。」是名大乘行者於
-<lb n="0552c14" ed="T"/>數息中入菩薩位。</p><p xml:id="pT46p0552c1408" cb:place="inline">此則略說數息妙門，凡聖
+<lb n="0552c14" ed="T"/>數息中入菩薩位。</p>
+<p xml:id="pT46p0552c1408" cb:place="inline">此則略說數息妙門，凡聖
 <lb n="0552c15" ed="T"/>大小乘通別之相。數息雖通，須解殊別之相。
 <lb n="0552c16" ed="T"/>當知數息雖同共修，隨其果報差降。餘隨、止、
 <lb n="0552c17" ed="T"/>觀、還、淨一一妙門，凡聖大小乘通別，亦復如
@@ -430,7 +492,8 @@
 <lb n="0552c23" ed="T"/>從假入空觀，得惠眼一切智。慧眼一切智，是
 <lb n="0552c24" ed="T"/>二乘、菩薩共法。今明從空出假旋轉六妙門，
 <lb n="0552c25" ed="T"/>即是法眼道種智。法眼道種智，不與聲聞、辟
-<lb n="0552c26" ed="T"/>支佛共。</p><p xml:id="pT46p0552c2604" cb:place="inline">云何菩薩於數息道中，修從空出
+<lb n="0552c26" ed="T"/>支佛共。</p>
+<p xml:id="pT46p0552c2604" cb:place="inline">云何菩薩於數息道中，修從空出
 <lb n="0552c27" ed="T"/>假觀，起旋轉出一切諸行功德相？所謂菩薩
 <lb n="0552c28" ed="T"/>行者，當數息時，當發大誓願怜愍眾生，雖知
 <lb n="0552c29" ed="T"/>眾生畢竟空，而欲成就眾生，淨佛國土，盡未
@@ -443,13 +506,15 @@
 <lb n="0553a06" ed="T"/>所成就息念，如夢、如幻、如響、如化，雖無實事
 <lb n="0553a07" ed="T"/>可得，而亦分別幻化所作事。菩薩了息，亦
 <lb n="0553a08" ed="T"/>復如是。雖無息性可得，而亦成就息念，從
-<lb n="0553a09" ed="T"/>一至十，了了分明，深心分別如幻息相。</p><p xml:id="pT46p0553a0916" cb:place="inline">以有
+<lb n="0553a09" ed="T"/>一至十，了了分明，深心分別如幻息相。</p>
+<p xml:id="pT46p0553a0916" cb:place="inline">以有
 <lb n="0553a10" ed="T"/>無性如幻息故，即有無性世間、出世間法。所
 <lb n="0553a11" ed="T"/>以者何？無明顛倒，不知息性空故，妄計有
 <lb n="0553a12" ed="T"/>息，即生人法執著、愛見諸行，故名世間。因
 <lb n="0553a13" ed="T"/>有息故，即有陰、界、入等世間苦樂之果。當知
 <lb n="0553a14" ed="T"/>息雖空，亦能成辦一切世間善惡因果、二十
-<lb n="0553a15" ed="T"/>五有諸生死事。</p><p xml:id="pT46p0553a1507" cb:place="inline">復次，息相空中，雖無出世間
+<lb n="0553a15" ed="T"/>五有諸生死事。</p>
+<p xml:id="pT46p0553a1507" cb:place="inline">復次，息相空中，雖無出世間
 <lb n="0553a16" ed="T"/>相，而非不因息分別出世間法。所以者何？不
 <lb n="0553a17" ed="T"/>知息相空故，即無明不了，造世間業；知息空
 <lb n="0553a18" ed="T"/>無所有故，即無無明妄執，一切諸結煩惱無
@@ -463,10 +528,15 @@
 <lb n="0553a26" ed="T"/><p xml:id="pT46p0553a2601">復次，菩薩觀息性空時，不得四諦而亦通達
 <lb n="0553a27" ed="T"/>四諦。所以者何？如上所說世間果者，即是苦
 <lb n="0553a28" ed="T"/>諦；世間因者，即是集諦；出世間果者，即是滅
-<lb n="0553a29" ed="T"/>諦；出世間因者，即是道諦。故觀於息<note n="0553a2901" resp="CBETA" type="add">相【CB】【金藏乙-CB】，想【大】</note><app n="0553a2901"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">相<note type="cf1">AC5472_001_0013a18</note><note type="cf2">T46n1917_p0553a15</note></lem><rdg wit="【大】">想</rdg></app>，不
+<lb n="0553a29" ed="T"/>諦；出世間因者，即是道諦。故觀於息<note 
+n="0553a2901" resp="CBETA" type="add">相【CB】【金藏乙-CB】，想【大】</note><app n="0553a2901">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">相<note type="cf1">AC5472_001_0013a18</note><note type="cf2">T46n1917_p0553a15</note></lem>
+  <rdg wit="【大】">想</rdg>
+</app>，不
 <pb n="0553b" ed="T" xml:id="T46.1917.0553b"/>
 <lb n="0553b01" ed="T"/>見四諦而能了了分別四諦，為聲聞眾生廣
-<lb n="0553b02" ed="T"/>演分別。</p><p xml:id="pT46p0553b0204" cb:place="inline">復次，菩薩了息空中，不見十二因緣
+<lb n="0553b02" ed="T"/>演分別。</p>
+<p xml:id="pT46p0553b0204" cb:place="inline">復次，菩薩了息空中，不見十二因緣
 <lb n="0553b03" ed="T"/>而亦通達十二因緣。所以者何？過去息性空
 <lb n="0553b04" ed="T"/>無所有，妄見有息而生種種顛倒分別，起諸
 <lb n="0553b05" ed="T"/>煩惱，故名無明。無明因緣，則有行、識、名色、六
@@ -474,28 +544,48 @@
 <lb n="0553b07" ed="T"/>皆由不了息如虛空，無所有故。若知息空寂，
 <lb n="0553b08" ed="T"/>即破無明，無明滅故，則十二因緣皆滅。菩薩
 <lb n="0553b09" ed="T"/>如是了息非息，雖不得十二因緣，亦能了了
-<lb n="0553b10" ed="T"/>通達十二因緣，為求緣覺乘人廣演分別。</p><p xml:id="pT46p0553b1017" cb:place="inline">復
+<lb n="0553b10" ed="T"/>通達十二因緣，為求緣覺乘人廣演分別。</p>
+<p xml:id="pT46p0553b1017" cb:place="inline">復
 <lb n="0553b11" ed="T"/>次，菩薩了息無性。爾時尚不見有息，何況於
 <lb n="0553b12" ed="T"/>息道中，見有六蔽及六度法。雖於息性中不
-<lb n="0553b13" ed="T"/>見<note n="0553b1301" resp="CBETA" type="add" note_key="T46.0553b13.02">六【CB】【金藏乙-CB】，〔－〕【大】</note><app n="0553b1301"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">六<note type="cf1">AC5472_001_0014a03</note><note type="cf2">T46n1917_p0553b12-13</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>蔽及六度法，而亦了了通達六蔽、六度。所
+<lb n="0553b13" ed="T"/>見<note 
+n="0553b1301" resp="CBETA" type="add" note_key="T46.0553b13.02">六【CB】【金藏乙-CB】，〔－〕【大】</note><app n="0553b1301">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">六<note type="cf1">AC5472_001_0014a03</note><note type="cf2">T46n1917_p0553b12-13</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>蔽及六度法，而亦了了通達六蔽、六度。所
 <lb n="0553b14" ed="T"/>以者何？行者當數息時，即自了知，若於非息
 <lb n="0553b15" ed="T"/>之中而見息者，是必定成就慳貪蔽法。慳有
 <lb n="0553b16" ed="T"/>四種：一者慳惜財物，見息中有我，為我生慳
 <lb n="0553b17" ed="T"/>故；二者慳身，於息中起身見故；三者慳命，於
-<lb n="0553b18" ed="T"/>息中不了，計有命故；四者<note n="0553b1801" resp="CBETA" type="add" note_key="T46.0553b18.11">慳【CB】【金藏乙-CB】，惱【大】</note><app n="0553b1801"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">慳<note type="cf1">AC5472_001_0014a08</note><note type="cf2">T46n1917_p0553b15-19</note></lem><rdg wit="【大】">惱</rdg></app>法，於息中不了，
-<lb n="0553b19" ed="T"/>即起見執法心生故。</p><p xml:id="pT46p0553b1909" cb:place="inline">行者為破壞如是慳蔽
+<lb n="0553b18" ed="T"/>息中不了，計有命故；四者<note 
+n="0553b1801" resp="CBETA" type="add" note_key="T46.0553b18.11">慳【CB】【金藏乙-CB】，惱【大】</note><app n="0553b1801">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">慳<note type="cf1">AC5472_001_0014a08</note><note type="cf2">T46n1917_p0553b15-19</note></lem>
+  <rdg wit="【大】">惱</rdg>
+</app>法，於息中不了，
+<lb n="0553b19" ed="T"/>即起見執法心生故。</p>
+<p xml:id="pT46p0553b1909" cb:place="inline">行者為破壞如是慳蔽
 <lb n="0553b20" ed="T"/>惡法故，修四種檀波羅密。一者知息空非我，
 <lb n="0553b21" ed="T"/>離息亦無我，既不得我，聚諸財物，何所資給？
-<lb n="0553b22" ed="T"/>爾時慳財之心，<note n="0553b2201" resp="CBETA" type="add" note_key="T46.0553b22.07">〔－〕【CB】【金藏乙-CB】，即便之心【大】</note><app n="0553b2201"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)"><space quantity="0"/><note type="cf1">AC5472_001_0014a10-11</note></lem><rdg wit="【大】">即便之心</rdg></app>即便自息，捨諸珍
+<lb n="0553b22" ed="T"/>爾時慳財之心，<note 
+n="0553b2201" resp="CBETA" type="add" note_key="T46.0553b22.07">〔－〕【CB】【金藏乙-CB】，即便之心【大】</note><app n="0553b2201">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)"><space quantity="0"/><note type="cf1">AC5472_001_0014a10-11</note></lem>
+  <rdg wit="【大】">即便之心</rdg>
+</app>即便自息，捨諸珍
 <lb n="0553b23" ed="T"/>寶如棄涕唾。當知了達息性，即是財施檀波
-<lb n="0553b24" ed="T"/>羅蜜。</p><p xml:id="pT46p0553b2403" cb:place="inline">復次，菩薩知無身性，息等諸法不名
+<lb n="0553b24" ed="T"/>羅蜜。</p>
+<p xml:id="pT46p0553b2403" cb:place="inline">復次，菩薩知無身性，息等諸法不名
 <lb n="0553b25" ed="T"/>為身；離息等法，亦無別身。爾時知身非身，即
 <lb n="0553b26" ed="T"/>破慳身之執。既不慳於身，即能以身為奴僕
 <lb n="0553b27" ed="T"/>給使，如法施與前人。當知了知息非息，即能
-<lb n="0553b28" ed="T"/>具足成就捨身檀波羅蜜。</p><p xml:id="pT46p0553b2811" cb:place="inline">復次，行者若能了
+<lb n="0553b28" ed="T"/>具足成就捨身檀波羅蜜。</p>
+<p xml:id="pT46p0553b2811" cb:place="inline">復次，行者若能了
 <lb n="0553b29" ed="T"/>息性空，不見即息是命、離息有命，既不得命，
 <pb n="0553c" ed="T" xml:id="T46.1917.0553c"/>
-<lb n="0553c01" ed="T"/>破<note n="0553c0101" resp="CBETA" type="add" note_key="T46.0553c01.02">慳【CB】【金藏乙-CB】，性【大】</note><app n="0553c0101"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">慳<note type="cf1">AC5472_001_0014a17</note></lem><rdg wit="【大】">性</rdg></app>命心。爾時即能捨命給施眾生，心無驚
+<lb n="0553c01" ed="T"/>破<note 
+n="0553c0101" resp="CBETA" type="add" note_key="T46.0553c01.02">慳【CB】【金藏乙-CB】，性【大】</note><app n="0553c0101">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">慳<note type="cf1">AC5472_001_0014a17</note></lem>
+  <rdg wit="【大】">性</rdg>
+</app>命心。爾時即能捨命給施眾生，心無驚
 <lb n="0553c02" ed="T"/>畏。當知了達息空，即能具足捨命檀波羅蜜。</p>
 <lb n="0553c03" ed="T"/><p xml:id="pT46p0553c0301">復次，行者若達息空，即不見陰、入、界等諸法，
 <lb n="0553c04" ed="T"/>亦不見世間、出世間種種法相。為破眾生種
@@ -508,32 +598,45 @@
 <lb n="0553c11" ed="T"/>慳、度，而能了了分別慳、度，以不可得故。知息
 <lb n="0553c12" ed="T"/>性空，具足尸羅、羼提、毘梨耶、禪那、般若波羅
 <lb n="0553c13" ed="T"/>蜜，亦復如是。是中應一一廣旋轉諸波羅蜜
-<lb n="0553c14" ed="T"/>相，為求佛道善男子、善女人，開示分別。</p><p xml:id="pT46p0553c1416" cb:place="inline">是即
+<lb n="0553c14" ed="T"/>相，為求佛道善男子、善女人，開示分別。</p>
+<p xml:id="pT46p0553c1416" cb:place="inline">是即
 <lb n="0553c15" ed="T"/>略說於數息門中，修旋轉陀羅尼菩薩所行
 <lb n="0553c16" ed="T"/>無礙方便。菩薩若入是門，直說數息調心，窮
 <lb n="0553c17" ed="T"/>劫不盡，況復於隨、止、觀、還、淨等，種種諸禪，智
 <lb n="0553c18" ed="T"/>惠、神通，四辯、力、無所畏、諸地行願、一切種
 <lb n="0553c19" ed="T"/>智、無盡一切功德，旋轉分別而可盡乎？</p>
 <lb n="0553c20" ed="T"/><p xml:id="pT46p0553c2001">次釋「第八、觀心六妙門」。觀心六妙門者，此為
-<lb n="0553c21" ed="T"/>大根<note n="0553c2101" resp="CBETA" type="add" note_key="T46.0553c21.03">［－］【CB】【金藏乙-CB】，性【大】</note><app n="0553c2101"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.ting" cb:provider="來函：心念不空过 (2023-01-11)"><space quantity="0"/><note type="cf1">AC5472_001_0015a07</note></lem><rdg wit="【大】">性</rdg></app>行人，善識法<note n="0553c2102" resp="CBETA" type="add" note_key="T46.0553c21.08">要【CB】【金藏乙-CB】，惡【大】</note><app n="0553c2102"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.ting" cb:provider="來函：心念不空过 (2023-01-11)">要<note type="cf1">AC5472_001_0015a07</note></lem><rdg wit="【大】">惡</rdg></app>，不由次第，懸照諸法
+<lb n="0553c21" ed="T"/>大根<note 
+n="0553c2101" resp="CBETA" type="add" note_key="T46.0553c21.03">［－］【CB】【金藏乙-CB】，性【大】</note><app n="0553c2101">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.ting" cb:provider="來函：心念不空过 (2023-01-11)"><space quantity="0"/><note type="cf1">AC5472_001_0015a07</note></lem>
+  <rdg wit="【大】">性</rdg>
+</app>行人，善識法<note 
+n="0553c2102" resp="CBETA" type="add" note_key="T46.0553c21.08">要【CB】【金藏乙-CB】，惡【大】</note><app n="0553c2102">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.ting" cb:provider="來函：心念不空过 (2023-01-11)">要<note type="cf1">AC5472_001_0015a07</note></lem>
+  <rdg wit="【大】">惡</rdg>
+</app>，不由次第，懸照諸法
 <lb n="0553c22" ed="T"/>之源。何等為諸法之源？所謂眾生心也。一
 <lb n="0553c23" ed="T"/>切萬法由心而起，若能反觀心性，不可得心
 <lb n="0553c24" ed="T"/>源，即知萬法皆無根本。約此觀心說六妙門，
 <lb n="0553c25" ed="T"/>非如前也。所以者何？如行者初學觀心時，知
 <lb n="0553c26" ed="T"/>一切世間、出世間諸數量法，皆悉從心出，離
 <lb n="0553c27" ed="T"/>心之外更無一法，是則數一切法，皆悉約心
-<lb n="0553c28" ed="T"/>故數。當知心者，即是數門。</p><p xml:id="pT46p0553c2811" cb:place="inline">復次，行者當觀
+<lb n="0553c28" ed="T"/>故數。當知心者，即是數門。</p>
+<p xml:id="pT46p0553c2811" cb:place="inline">復次，行者當觀
 <lb n="0553c29" ed="T"/>心時，知一切數量之法，悉隨心王。若無心
 <pb n="0554a" ed="T" xml:id="T46.1917.0554a"/>
 <lb n="0554a01" ed="T"/>王，即無心數。心王動故，心數亦動。譬如百官
 <lb n="0554a02" ed="T"/>臣民悉皆隨順大王，一切諸數量法依隨心
-<lb n="0554a03" ed="T"/>王，亦復如是。如是觀時，即知心是隨門。</p><p xml:id="pT46p0554a0316" cb:place="inline">復
+<lb n="0554a03" ed="T"/>王，亦復如是。如是觀時，即知心是隨門。</p>
+<p xml:id="pT46p0554a0316" cb:place="inline">復
 <lb n="0554a04" ed="T"/>次，行者當觀心時，知心性常寂，即諸法亦寂，
 <lb n="0554a05" ed="T"/>寂故不念，不念故即不動，不動故名止也。當
-<lb n="0554a06" ed="T"/>知心者，即是止門。</p><p xml:id="pT46p0554a0608" cb:place="inline">復次，行者當觀心時，覺了
+<lb n="0554a06" ed="T"/>知心者，即是止門。</p>
+<p xml:id="pT46p0554a0608" cb:place="inline">復次，行者當觀心時，覺了
 <lb n="0554a07" ed="T"/>心性猶如虛空，無名無相，一切語言道斷，開
 <lb n="0554a08" ed="T"/>無明藏，見真實性，於一切諸法得無著惠。當
-<lb n="0554a09" ed="T"/>知心者，即是觀門。</p><p xml:id="pT46p0554a0908" cb:place="inline">復次，行者當觀心時，既不
+<lb n="0554a09" ed="T"/>知心者，即是觀門。</p>
+<p xml:id="pT46p0554a0908" cb:place="inline">復次，行者當觀心時，既不
 <lb n="0554a10" ed="T"/>得所觀之心，亦不得能觀之智。爾時心如虛
 <lb n="0554a11" ed="T"/>空無所依倚，以無著妙惠，雖不見諸法，而還
 <lb n="0554a12" ed="T"/>通達一切諸法，分別顯示。入諸法界，無所缺
@@ -549,7 +652,8 @@
 <lb n="0554a22" ed="T"/>觀心性，即便具足也。</p>
 <lb n="0554a23" ed="T"/><p xml:id="pT46p0554a2301">次釋「第九、圓觀六妙門」。夫圓觀者，豈得如上
 <lb n="0554a24" ed="T"/>所說，但觀心源具足六妙門，觀餘諸法不得
-<lb n="0554a25" ed="T"/>爾乎？</p><p xml:id="pT46p0554a2503" cb:place="inline">今行者觀一心，見一切心及一切法；觀
+<lb n="0554a25" ed="T"/>爾乎？</p>
+<p xml:id="pT46p0554a2503" cb:place="inline">今行者觀一心，見一切心及一切法；觀
 <lb n="0554a26" ed="T"/>一法，見一切法及一切心。觀菩提，見一切煩
 <lb n="0554a27" ed="T"/>惱生死；觀煩惱生死，見一切菩提涅槃。觀一
 <lb n="0554a28" ed="T"/>佛，見一切眾生及諸佛；觀一眾生，見一切佛
@@ -559,10 +663,15 @@
 <lb n="0554b02" ed="T"/>但於一心中，分別一切十方法界凡聖色心
 <lb n="0554b03" ed="T"/>諸法數量，亦能於一微塵中，通達一切十方
 <lb n="0554b04" ed="T"/>世界諸佛凡聖色心數量法門。是即略說圓
-<lb n="0554b05" ed="T"/>觀數門，隨、止、觀、還、淨等，一一皆亦如是。</p><p xml:id="pT46p0554b0516" cb:place="inline">是數
+<lb n="0554b05" ed="T"/>觀數門，隨、止、觀、還、淨等，一一皆亦如是。</p>
+<p xml:id="pT46p0554b0516" cb:place="inline">是數
 <lb n="0554b06" ed="T"/>微妙，不可思議，非口所宣，非心所測。尚非
 <lb n="0554b07" ed="T"/>諸小菩薩及一乘境界，況諸凡夫？若有利根
-<lb n="0554b08" ed="T"/>大士聞如是<note n="0554b0801" resp="CBETA" type="add" note_key="T46.0554b08.06">諸【CB】【金藏乙-CB】，無【大】</note><app n="0554b0801"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">諸<note type="cf1">AC5472_001_0016a19</note></lem><rdg wit="【大】">無</rdg></app>法，能信解受持，正念思惟，專
+<lb n="0554b08" ed="T"/>大士聞如是<note 
+n="0554b0801" resp="CBETA" type="add" note_key="T46.0554b08.06">諸【CB】【金藏乙-CB】，無【大】</note><app n="0554b0801">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="CBETA 新式標點專案 (2022-05-30)">諸<note type="cf1">AC5472_001_0016a19</note></lem>
+  <rdg wit="【大】">無</rdg>
+</app>法，能信解受持，正念思惟，專
 <lb n="0554b09" ed="T"/>精修習，當知是人，行佛行處，住佛住處，入
 <lb n="0554b10" ed="T"/>如來室，著如來衣，坐如來座，即於此身，必
 <lb n="0554b11" ed="T"/>定當得六根清淨，開佛知見，普現色身，成等
@@ -571,9 +680,11 @@
 <lb n="0554b14" ed="T"/><p xml:id="pT46p0554b1401">次釋「第十、證相六妙門」。前九種六妙門，皆修
 <lb n="0554b15" ed="T"/>因之相，義兼證果，說不具足。今當更分別六
 <lb n="0554b16" ed="T"/>妙門證相。六門有四種：一者次第證，二者互
-<lb n="0554b17" ed="T"/>證，三者旋轉證，四者圓頓證。</p><p xml:id="pT46p0554b1712" cb:place="inline">云何次第證？如
+<lb n="0554b17" ed="T"/>證，三者旋轉證，四者圓頓證。</p>
+<p xml:id="pT46p0554b1712" cb:place="inline">云何次第證？如
 <lb n="0554b18" ed="T"/>上第一歷別對諸禪門及次第相生六妙門
-<lb n="0554b19" ed="T"/>中，已略說次第證相，細尋自知，今不別說。</p><p xml:id="pT46p0554b1917" cb:place="inline">第
+<lb n="0554b19" ed="T"/>中，已略說次第證相，細尋自知，今不別說。</p>
+<p xml:id="pT46p0554b1917" cb:place="inline">第
 <lb n="0554b20" ed="T"/>二、互證。此約第三隨便宜、第四對治、第五相
 <lb n="0554b21" ed="T"/>攝、第六通觀，四種妙門中論證相。所以者何？
 <lb n="0554b22" ed="T"/>此四種妙門，修行方便無定次第，故證亦復
@@ -581,55 +692,70 @@
 <lb n="0554b24" ed="T"/>闇證、隱沒、無記、有垢等法，此禪即是數息證
 <lb n="0554b25" ed="T"/>相之體，而今不定。或有行者於數息中，見身
 <lb n="0554b26" ed="T"/>毛孔虛疎，徹見三十六物。當知於數息中，證
-<lb n="0554b27" ed="T"/>於隨門。</p><p xml:id="pT46p0554b2704" cb:place="inline">復有行者於數息中，證空靜定，以覺
+<lb n="0554b27" ed="T"/>於隨門。</p>
+<p xml:id="pT46p0554b2704" cb:place="inline">復有行者於數息中，證空靜定，以覺
 <lb n="0554b28" ed="T"/>身心寂然，無所緣念。入此定時，雖復淺深
 <lb n="0554b29" ed="T"/>有殊，而皆是空寂之相，當知於數息中，證止
 <pb n="0554c" ed="T" xml:id="T46.1917.0554c"/>
-<lb n="0554c01" ed="T"/>門禪定也。</p><p xml:id="pT46p0554c0105" cb:place="inline">復次，行者當數息時，內外死屍不
+<lb n="0554c01" ed="T"/>門禪定也。</p>
+<p xml:id="pT46p0554c0105" cb:place="inline">復次，行者當數息時，內外死屍不
 <lb n="0554c02" ed="T"/>淨，膖脹爛壞及白骨光明等，定心安隱，當知
-<lb n="0554c03" ed="T"/>於數息中，證觀門禪也。</p><p xml:id="pT46p0554c0310" cb:place="inline">復次，行者當數息
+<lb n="0554c03" ed="T"/>於數息中，證觀門禪也。</p>
+<p xml:id="pT46p0554c0310" cb:place="inline">復次，行者當數息
 <lb n="0554c04" ed="T"/>時，發空無相智慧、三十七品、四諦、十二因緣
 <lb n="0554c05" ed="T"/>等巧惠方便，思覺心起，破折諸法，反本還
-<lb n="0554c06" ed="T"/>源，當知於數息中，證還門禪也。</p><p xml:id="pT46p0554c0613" cb:place="inline">復次，行者
+<lb n="0554c06" ed="T"/>源，當知於數息中，證還門禪也。</p>
+<p xml:id="pT46p0554c0613" cb:place="inline">復次，行者
 <lb n="0554c07" ed="T"/>或於數息之時，身心寂然，不得諸法，妄垢不
 <lb n="0554c08" ed="T"/>生，分別不起，心想寂然，明識法相，無所依
-<lb n="0554c09" ed="T"/>倚，當知於數息中，證淨門禪也。</p><p xml:id="pT46p0554c0913" cb:place="inline">此則略說於
+<lb n="0554c09" ed="T"/>倚，當知於數息中，證淨門禪也。</p>
+<p xml:id="pT46p0554c0913" cb:place="inline">此則略說於
 <lb n="0554c10" ed="T"/>數息中，互發六門禪相，前後不定，未必悉如
 <lb n="0554c11" ed="T"/>今說。餘隨、止、觀、還、淨，一一互證諸禪相，亦如
 <lb n="0554c12" ed="T"/>是。所以有此互證諸禪者，意有二種：一者修
 <lb n="0554c13" ed="T"/>諸禪時互修故，發亦隨互，意如前四種修六
 <lb n="0554c14" ed="T"/>妙門相。二者宿世業緣善根發，是故互發不
-<lb n="0554c15" ed="T"/>定，義如坐禪內方便驗善惡根性中廣說。</p><p xml:id="pT46p0554c1517" cb:place="inline">第
+<lb n="0554c15" ed="T"/>定，義如坐禪內方便驗善惡根性中廣說。</p>
+<p xml:id="pT46p0554c1517" cb:place="inline">第
 <lb n="0554c16" ed="T"/>三、云何名證旋轉六妙門相？此的依第七旋
 <lb n="0554c17" ed="T"/>轉修故發。所謂證相者，即有二種：一者證旋
-<lb n="0554c18" ed="T"/>轉解，二者證旋轉行。</p><p xml:id="pT46p0554c1809" cb:place="inline">云何名為證旋轉解發
+<lb n="0554c18" ed="T"/>轉解，二者證旋轉行。</p>
+<p xml:id="pT46p0554c1809" cb:place="inline">云何名為證旋轉解發
 <lb n="0554c19" ed="T"/>相？行者於數息中，巧惠旋轉修習故，爾時或
-<lb n="0554c20" ed="T"/>證深禪定，或<note n="0554c2001" resp="CBETA" type="add">證【CB】【金藏乙-CB】，說【大】</note><app n="0554c2001"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">證<note type="cf1">AC5472_001_0018a01</note><note type="cf2">X55n0920_p0868b14</note></lem><rdg wit="【大】">說</rdg></app>淺定。於此等定中，豁然心惠
+<lb n="0554c20" ed="T"/>證深禪定，或<note 
+n="0554c2001" resp="CBETA" type="add">證【CB】【金藏乙-CB】，說【大】</note><app n="0554c2001">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">證<note type="cf1">AC5472_001_0018a01</note><note type="cf2">X55n0920_p0868b14</note></lem>
+  <rdg wit="【大】">說</rdg>
+</app>淺定。於此等定中，豁然心惠
 <lb n="0554c21" ed="T"/>開發，旋轉覺識，解真無礙，不由心念，任運旋
 <lb n="0554c22" ed="T"/>轉覺識法門。旋轉有二種：一者總相旋轉解，
 <lb n="0554c23" ed="T"/>二者別相。總相復有二種：一者解真總相，二
 <lb n="0554c24" ed="T"/>者解俗總相。別相復有二種：一者解真別相，
 <lb n="0554c25" ed="T"/>二者解俗別相。於一總相法中，旋轉解一切
-<lb n="0554c26" ed="T"/>法。別相亦爾。</p><p xml:id="pT46p0554c2606" cb:place="inline">云何名為證旋轉行相？行者如
+<lb n="0554c26" ed="T"/>法。別相亦爾。</p>
+<p xml:id="pT46p0554c2606" cb:place="inline">云何名為證旋轉行相？行者如
 <lb n="0554c27" ed="T"/>所解，心不違言，心口相應，法門現前，心行堅
 <lb n="0554c28" ed="T"/>固，任運增長，不由念力，諸善功德自生，諸
 <lb n="0554c29" ed="T"/>惡自息。總相、別相皆如上說，但有相應之異，
 <pb n="0555a" ed="T" xml:id="T46.1917.0555a"/>
-<lb n="0555a01" ed="T"/>入諸法門境界顯現之殊故。</p><p xml:id="pT46p0555a0112" cb:place="inline">今則略出證旋
+<lb n="0555a01" ed="T"/>入諸法門境界顯現之殊故。</p>
+<p xml:id="pT46p0555a0112" cb:place="inline">今則略出證旋
 <lb n="0555a02" ed="T"/>轉行。如一數門，具二種證旋轉故，餘隨、止、觀、
 <lb n="0555a03" ed="T"/>還、淨亦如是。略說不具足者，自善思惟取意，
 <lb n="0555a04" ed="T"/>廣對諸法門也。證旋轉六妙門者，即是得旋
 <lb n="0555a05" ed="T"/>陀羅尼門也。是名無礙辯才，巧惠方便，遮諸
 <lb n="0555a06" ed="T"/>惡令不得起，持諸功德令不漏失。任是法門，
 <lb n="0555a07" ed="T"/>必定不久入菩薩位，成就阿耨多羅三藐三
-<lb n="0555a08" ed="T"/>菩提也。</p><p xml:id="pT46p0555a0804" cb:place="inline">第四云何名為圓證六妙門？行者因
+<lb n="0555a08" ed="T"/>菩提也。</p>
+<p xml:id="pT46p0555a0804" cb:place="inline">第四云何名為圓證六妙門？行者因
 <lb n="0555a09" ed="T"/>第八觀心、第九圓觀，二種六妙門為方便，是
 <lb n="0555a10" ed="T"/>觀成時，即便發圓證也。證有二種：一者解證，
 <lb n="0555a11" ed="T"/>無礙巧惠，不由心念，自然圓證，識法界故，名
 <lb n="0555a12" ed="T"/>解證；二者會證，妙惠朗然開發，明照法界，通
 <lb n="0555a13" ed="T"/>達無礙也。證相有二種：一者相似證相，如《法
 <lb n="0555a14" ed="T"/>華經》中明六根清淨相；二者真實證相，如《華
-<lb n="0555a15" ed="T"/>嚴經》中明初發心圓滿功德智慧相也。</p><p xml:id="pT46p0555a1516" cb:place="inline">云何
+<lb n="0555a15" ed="T"/>嚴經》中明初發心圓滿功德智慧相也。</p>
+<p xml:id="pT46p0555a1516" cb:place="inline">云何
 <lb n="0555a16" ed="T"/>名相似圓證為六妙門？如《法華經》說眼根清
 <lb n="0555a17" ed="T"/>淨中，能一時數十方凡聖色心等法數量，故
 <lb n="0555a18" ed="T"/>名數門。一切色法，隨順於眼根，眼不違色法，
@@ -640,15 +766,25 @@
 <lb n="0555a23" ed="T"/>了無礙，不一不異相故，故名還門。復次，見己
 <lb n="0555a24" ed="T"/>眼根境界，還於十方凡聖眼界中現，故亦名
 <lb n="0555a25" ed="T"/>為還門。雖了了通達，見如是事，而不起妄想
-<lb n="0555a26" ed="T"/>分<note n="0555a2601" resp="CBETA" type="add">別【CB】【金藏乙-CB】，利【大】</note><app n="0555a2601"><lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">別<note type="cf1">AC5472_001_0019a04</note><note type="cf2">T46n1917_p0550b09</note></lem><rdg wit="【大】">利</rdg></app>。知本性常淨，無可染法，不住不著，不起
+<lb n="0555a26" ed="T"/>分<note 
+n="0555a2601" resp="CBETA" type="add">別【CB】【金藏乙-CB】，利【大】</note><app n="0555a2601">
+  <lem wit="【CB】【金藏乙-CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">別<note type="cf1">AC5472_001_0019a04</note><note type="cf2">T46n1917_p0550b09</note></lem>
+  <rdg wit="【大】">利</rdg>
+</app>。知本性常淨，無可染法，不住不著，不起
 <lb n="0555a27" ed="T"/>法愛，故名淨門。此則略說於眼根清淨中，證
 <lb n="0555a28" ed="T"/>相似六妙門相。餘五根亦如是。廣說如《法華
-<lb n="0555a29" ed="T"/>經》明也。</p><p xml:id="pT46p0555a2904" cb:place="inline">云何名真實圓證六妙門？有二種：一
+<lb n="0555a29" ed="T"/>經》明也。</p>
+<p xml:id="pT46p0555a2904" cb:place="inline">云何名真實圓證六妙門？有二種：一
 <pb n="0555b" ed="T" xml:id="T46.1917.0555b"/>
 <lb n="0555b01" ed="T"/>者別對，二、通對。別對者，十住為數門，十行為
-<lb n="0555b02" ed="T"/>隨門，十迴向為止門，十地<note n="0555b0201" resp="CBETA" type="add">為【CB】，所【大】</note><app n="0555b0201"><lem wit="【CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">為<note type="cf1">T46n1917_p0555b01-03</note></lem><rdg wit="【大】">所</rdg></app>觀門，等覺為還
+<lb n="0555b02" ed="T"/>隨門，十迴向為止門，十地<note 
+n="0555b0201" resp="CBETA" type="add">為【CB】，所【大】</note><app n="0555b0201">
+  <lem wit="【CB】" resp="CBETA.liyi" cb:provider="來函：釋覺光 (2022-05-16)">為<note type="cf1">T46n1917_p0555b01-03</note></lem>
+  <rdg wit="【大】">所</rdg>
+</app>觀門，等覺為還
 <lb n="0555b03" ed="T"/>門，妙覺為淨門。二、通對者，有三種證：一者
-<lb n="0555b04" ed="T"/>初證，二者中證，三者究竟證。</p><p xml:id="pT46p0555b0412" cb:place="inline">初證者，有菩薩
+<lb n="0555b04" ed="T"/>初證，二者中證，三者究竟證。</p>
+<p xml:id="pT46p0555b0412" cb:place="inline">初證者，有菩薩
 <lb n="0555b05" ed="T"/>入阿字門，亦名初發心住，得真無生法忍惠。
 <lb n="0555b06" ed="T"/>爾時能於一念心中，數不可說微塵世界諸
 <lb n="0555b07" ed="T"/>佛、菩薩、聲聞、緣覺諸心行及數無量法門，故
@@ -665,8 +801,10 @@
 <lb n="0555b18" ed="T"/>顯真法身，具首楞嚴，明見佛性，住大涅槃，入
 <lb n="0555b19" ed="T"/>法華三昧不思議一實境界也。廣說如《華嚴
 <lb n="0555b20" ed="T"/>經》中所明。是為初地證不可思議真實六妙
-<lb n="0555b21" ed="T"/>門也。</p><p xml:id="pT46p0555b2103" cb:place="inline">中證者，餘九住、十行、十迴向、十地、等
-<lb n="0555b22" ed="T"/>覺地，皆名中證不可思議真實六妙門也。</p><p xml:id="pT46p0555b2217" cb:place="inline">云
+<lb n="0555b21" ed="T"/>門也。</p>
+<p xml:id="pT46p0555b2103" cb:place="inline">中證者，餘九住、十行、十迴向、十地、等
+<lb n="0555b22" ed="T"/>覺地，皆名中證不可思議真實六妙門也。</p>
+<p xml:id="pT46p0555b2217" cb:place="inline">云
 <lb n="0555b23" ed="T"/>何名究竟圓證六妙門？後心菩薩入茶字門，
 <lb n="0555b24" ed="T"/>得一念相應惠，妙覺現前，窮照法界，於六
 <lb n="0555b25" ed="T"/>種法門究竟通達，功用普備，無所缺減，即是

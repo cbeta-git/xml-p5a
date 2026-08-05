@@ -2,85 +2,87 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T45n1900">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛制比丘六物圖</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1900 佛制比丘六物圖</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1900 佛制比丘六物圖</title>
-			<author>宋 元照撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1900</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Beijing Longquan Temple</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，北京龍泉寺提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-08-01T15:07:12">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛制比丘六物圖</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1900 佛制比丘六物圖</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1900 佛制比丘六物圖</title>
+      <author>宋 元照撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1900</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Beijing Longquan Temple</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，北京龍泉寺提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-08-01T15:07:12">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0896c" ed="T" xml:id="T45.1900.0896c"/>
 <lb n="0896c01" ed="T"/>
 <lb n="0896c02" ed="T"/><cb:docNumber>No. 1900</cb:docNumber>
-<lb n="0896c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0896002" resp="Taisho" type="orig" place="foot text">【原】萬治二年刊藥師寺藏本，【甲】德川時代刊宗教大學藏本，【乙】大日本續藏經</note>佛制比丘六物圖</cb:jhead></cb:juan>
+<lb n="0896c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0896002" resp="Taisho" type="orig" place="foot text">【原】萬治二年刊藥師寺藏本，【甲】德川時代刊宗教大學藏本，【乙】大日本續藏經</note>佛制比丘六物圖</cb:jhead></cb:juan>
 <lb n="0896c04" ed="T"/>
 <lb n="0896c05" ed="T"/><byline cb:type="other">大宋元豐三年夏首餘杭沙門元照於天
 <lb n="0896c06" ed="T"/>宮院出</byline>
-<lb n="0896c07" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">1-3 三衣</cb:mulu><cb:div type="other"><cb:mulu level="2" type="其他">1 明三衣為三物</cb:mulu><head>初明三衣為三物</head>
+<lb n="0896c07" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">1-3 三衣</cb:mulu>
+<cb:div type="other"><cb:mulu level="2" type="其他">1 明三衣為三物</cb:mulu><head>初明三衣為三物</head>
 <lb n="0896c08" ed="T"/>
 <lb n="0896c09" ed="T"/><p xml:id="pT45p0896c0901"><note place="inline">此衣九品，且示</note>僧伽梨大衣<note place="inline">上品，餘準減作。</note></p>
 <lb n="0896c10" ed="T"/><p xml:id="pT45p0896c1001"><figure><graphic url="../figures/T/T45p0896_01.gif"/></figure></p>
@@ -133,12 +135,18 @@
 <lb n="0897b03" ed="T"/>要，兼所見聞。還宗舊章，且分十位。援引正
 <lb n="0897b04" ed="T"/>教，庶令事有準承；指斥非濫，所謂不看他
 <lb n="0897b05" ed="T"/>面。</p>
-<lb n="0897b06" ed="T"/><p xml:id="pT45p0897b0601">初、制意。</p><p xml:id="pT45p0897b0604" cb:place="inline">《鈔》云：「何名為制？謂三衣六物，佛制令
+<lb n="0897b06" ed="T"/><p xml:id="pT45p0897b0601">初、制意。</p>
+<p xml:id="pT45p0897b0604" cb:place="inline">《鈔》云：「何名為制？謂三衣六物，佛制令
 <pb n="0897c" ed="T" xml:id="T45.1900.0897c"/>
 <lb n="0897c01" ed="T"/>畜，通諸一化，竝制服用，有違結罪。」《薩婆多》
 <lb n="0897c02" ed="T"/>云：「欲現未曾有法故。一切九十六道無此三
 <lb n="0897c03" ed="T"/>名，為異外道故。」《四分》云：「三世如來，竝著如是
-<lb n="0897c04" ed="T"/>衣。」《僧祇》云：「三衣是賢聖沙門標<note n="0897001" resp="Taisho" type="orig" place="foot text">識＝幟【乙】</note><note n="0897001" resp="CBETA" type="mod">識【大】，幟【乙】</note><app n="0897001"><lem wit="【大】">識</lem><rdg resp="Taisho" wit="【乙】">幟</rdg></app><note place="inline">音志</note>。」《雜含》云：
+<lb n="0897c04" ed="T"/>衣。」《僧祇》云：「三衣是賢聖沙門標<note 
+n="0897001" resp="Taisho" type="orig" place="foot text">識＝幟【乙】</note><note 
+n="0897001" resp="CBETA" type="mod">識【大】，幟【乙】</note><app n="0897001">
+  <lem wit="【大】">識</lem>
+  <rdg resp="Taisho" wit="【乙】">幟</rdg>
+</app><note place="inline">音志</note>。」《雜含》云：
 <lb n="0897c05" ed="T"/>「修四無量，服三法衣。是則慈悲者之服。」《十誦》
 <lb n="0897c06" ed="T"/>云：「以刀截故，知是慚愧人衣。」《華嚴》云：「著袈裟
 <pb n="0897d" ed="T" xml:id="T45.1900.0897d"/>
@@ -153,48 +161,83 @@
 <lb n="0897d09" ed="T"/>斷三毒也。五條（下衣）斷貪身也，七條（中衣）斷
 <lb n="0897d10" ed="T"/>嗔口也，大衣（上衣）斷癡心也。」<note place="inline">世傳七條、偏衫、裙子為三衣者，謬矣。</note>
 <lb n="0897d11" ed="T"/>天台智者制法第一條云：「三衣六物，道具具
-<lb n="0897d12" ed="T"/>足。若衣物有闕，則不同止。」清<note n="0897002" resp="Taisho" type="orig" place="foot text">涼＝淨【乙】</note><note n="0897002" resp="CBETA" type="mod">涼【大】，淨【乙】</note><app n="0897002"><lem wit="【大】">涼</lem><rdg resp="Taisho" wit="【乙】">淨</rdg></app>國師十誓
-<lb n="0897d13" ed="T"/>第一云：「但三衣一鉢，不畜餘長。」</p><p xml:id="pT45p0897d1313" cb:place="inline">歷觀經論，遍
+<lb n="0897d12" ed="T"/>足。若衣物有闕，則不同止。」清<note 
+n="0897002" resp="Taisho" type="orig" place="foot text">涼＝淨【乙】</note><note 
+n="0897002" resp="CBETA" type="mod">涼【大】，淨【乙】</note><app n="0897002">
+  <lem wit="【大】">涼</lem>
+  <rdg resp="Taisho" wit="【乙】">淨</rdg>
+</app>國師十誓
+<lb n="0897d13" ed="T"/>第一云：「但三衣一鉢，不畜餘長。」</p>
+<p xml:id="pT45p0897d1313" cb:place="inline">歷觀經論，遍
 <lb n="0897d14" ed="T"/>覽僧史，乃知聖賢踵跡，華竺同風；今則偏競
 <lb n="0897d15" ed="T"/>學宗，強分彼此。且削髮既無殊態，染衣何苦
 <lb n="0897d16" ed="T"/>分宗？負識高流，一為詳鑑。況大小乘教，竝廣
 <lb n="0897d17" ed="T"/>明袈裟功德，願信教佛子依而奉行。</p></cb:div>
-<lb n="0897d18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">2 釋名</cb:mulu><head>二、釋名</head><p xml:id="pT45p0897d1804" cb:place="inline">有二。</p><p xml:id="pT45p0897d1810" cb:place="inline">初、通名者。總括經律，或名「袈裟」
+<lb n="0897d18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">2 釋名</cb:mulu><head>二、釋名</head>
+<p xml:id="pT45p0897d1804" cb:place="inline">有二。</p>
+<p xml:id="pT45p0897d1810" cb:place="inline">初、通名者。總括經律，或名「袈裟」
 <lb n="0897d19" ed="T"/><note place="inline">從染色為名</note>，或名「道服」，或名「出世服」，或名「法衣」，或名
 <lb n="0897d20" ed="T"/>「離塵服」，或名「消瘦服」<note place="inline">損煩惱故</note>，或名「蓮華服」<note place="inline">離染著故</note>，
 <lb n="0897d21" ed="T"/>或名「間色服」<note place="inline">三色成故</note>，或名「慈悲衣」，或名「福田衣」，
-<lb n="0897d22" ed="T"/>或名「臥具」，亦云「敷具」。<note place="inline">皆謂相同被褥。</note></p><p xml:id="pT45p0897d2215" cb:place="inline">次、別名者。一、梵云
+<lb n="0897d22" ed="T"/>或名「臥具」，亦云「敷具」。<note place="inline">皆謂相同被褥。</note></p>
+<p xml:id="pT45p0897d2215" cb:place="inline">次、別名者。一、梵云
 <lb n="0897d23" ed="T"/>「僧伽梨」，此云「雜碎衣」<note place="inline">條相多故</note>，從用則名「入王宮聚
-<lb n="0897d24" ed="T"/>落衣」<note place="inline">乞食、說法<note n="0897003" resp="Taisho" type="orig" place="foot text">〔時〕－【甲】【乙】</note><note n="0897003" resp="CBETA" type="mod">時【大】，〔－〕【甲】【乙】</note><app n="0897003"><lem wit="【大】">時</lem><rdg resp="Taisho" wit="【甲】【乙】"><space quantity="0"/></rdg></app>時著</note>。二、欝多羅僧，名「中價衣」<note place="inline">謂財直當二衣之間</note>，
+<lb n="0897d24" ed="T"/>落衣」<note place="inline">乞食、說法<note 
+n="0897003" resp="Taisho" type="orig" place="foot text">〔時〕－【甲】【乙】</note><note 
+n="0897003" resp="CBETA" type="mod">時【大】，〔－〕【甲】【乙】</note><app n="0897003">
+  <lem wit="【大】">時</lem>
+  <rdg resp="Taisho" wit="【甲】【乙】"><space quantity="0"/></rdg>
+</app>時著</note>。二、欝多羅僧，名「中價衣」<note place="inline">謂財直當二衣之間</note>，
 <lb n="0897d25" ed="T"/>從用名「入眾衣」<note place="inline">禮誦、齋講時著</note>。三、安陀會，名「下衣」<note place="inline">最居下故，
 <lb n="0897d26" ed="T"/>或下著故</note>，從用名「院內道行雜作衣」<note place="inline">入聚、隨眾則不得著</note>。若從相
 <lb n="0897d27" ed="T"/>者，即五條、七條、九條，乃至二十五條等。義
 <lb n="0897d28" ed="T"/>翻多別，且提一二。</p></cb:div>
-<lb n="0897d29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">3 明求財</cb:mulu><head>三、明求財</head><p xml:id="pT45p0897d2905" cb:place="inline">分二。</p><p xml:id="pT45p0897d2912" cb:place="inline">初、明求乞離過。由是法衣，體
+<lb n="0897d29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">3 明求財</cb:mulu><head>三、明求財</head>
+<p xml:id="pT45p0897d2905" cb:place="inline">分二。</p>
+<p xml:id="pT45p0897d2912" cb:place="inline">初、明求乞離過。由是法衣，體
 <pb n="0898a" ed="T" xml:id="T45.1900.0898a"/>
 <lb n="0898a01" ed="T"/>須清淨。西梵高僧，多捨糞掃衣。今欲如法，但
-<lb n="0898a02" ed="T"/>離<note n="0898001" resp="Taisho" type="orig" place="foot text">邪＝耶【甲】</note><note n="0898001" resp="CBETA" type="mod">邪【大】，耶【甲】</note><app n="0898001"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【甲】">耶</rdg></app>求。《事鈔》云：「興利、販易得者，不成。」《律》云：
+<lb n="0898a02" ed="T"/>離<note 
+n="0898001" resp="Taisho" type="orig" place="foot text">邪＝耶【甲】</note><note 
+n="0898001" resp="CBETA" type="mod">邪【大】，耶【甲】</note><app n="0898001">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【甲】">耶</rdg>
+</app>求。《事鈔》云：「興利、販易得者，不成。」《律》云：
 <lb n="0898a03" ed="T"/>「不以邪命得<note place="inline">下引《疏》釋</note>；激發得<note place="inline">說彼所得，發此令施</note>；現相得<note place="inline">詐現
-<lb n="0898a04" ed="T"/><note n="0898002" resp="Taisho" type="orig" place="foot text">乏少＝之小【乙】</note><note n="0898002" resp="CBETA" type="mod">乏少【大】，之小【乙】</note><app n="0898002"><lem wit="【大】">乏少</lem><rdg resp="Taisho" wit="【乙】">之小</rdg></app>，欲他憐愍</note>；犯捨墮衣<note place="inline">三十諸衣戒等</note>；竝不得作。」《業疏》云：「邪
+<lb n="0898a04" ed="T"/><note 
+n="0898002" resp="Taisho" type="orig" place="foot text">乏少＝之小【乙】</note><note 
+n="0898002" resp="CBETA" type="mod">乏少【大】，之小【乙】</note><app n="0898002">
+  <lem wit="【大】">乏少</lem>
+  <rdg resp="Taisho" wit="【乙】">之小</rdg>
+</app>，欲他憐愍</note>；犯捨墮衣<note place="inline">三十諸衣戒等</note>；竝不得作。」《業疏》云：「邪
 <lb n="0898a05" ed="T"/>命者，言略事含。大而言之，但以邪心，有涉貪
 <lb n="0898a06" ed="T"/>染，為利賣法，禮佛、誦經、斷食諸業，所獲贜
 <lb n="0898a07" ed="T"/>賄，皆名邪命。」今人囊積盈餘，強從他乞；巧言
-<lb n="0898a08" ed="T"/>諂附，餉遺污家。凡此等類，竝號邪利。</p><p xml:id="pT45p0898a0815" cb:place="inline">次、明對
+<lb n="0898a08" ed="T"/>諂附，餉遺污家。凡此等類，竝號邪利。</p>
+<p xml:id="pT45p0898a0815" cb:place="inline">次、明對
 <lb n="0898a09" ed="T"/>貿離過。若本淨財貿得，最善。必有犯，長錢寶，
 <lb n="0898a10" ed="T"/>將貿衣財。準《律》：「犯捨衣，貿得新衣，但悔先罪，
 <lb n="0898a11" ed="T"/>衣體無染，可以例通。若自貿物，不得與白衣
 <lb n="0898a12" ed="T"/>爭價高下，同市道法。遣淨人者，亦無所損。」有
 <lb n="0898a13" ed="T"/>云：「淨財手觸，即為不淨。」此非律制，人妄傳
 <lb n="0898a14" ed="T"/>耳<note place="inline">但犯捉寶，非污財體</note>。</p></cb:div>
-<lb n="0898a15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">4 明財體</cb:mulu><head>四、明財體</head><p xml:id="pT45p0898a1505" cb:place="inline">分二。</p><p xml:id="pT45p0898a1512" cb:place="inline">初、明如法。《律》中猶通絹、布二
+<lb n="0898a15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">4 明財體</cb:mulu><head>四、明財體</head>
+<p xml:id="pT45p0898a1505" cb:place="inline">分二。</p>
+<p xml:id="pT45p0898a1512" cb:place="inline">初、明如法。《律》中猶通絹、布二
 <lb n="0898a16" ed="T"/>物，若準《業疏》諸文，絹亦不許。《疏》云：「世多用絹
 <lb n="0898a17" ed="T"/>紬者，以體由害命，亦通制約。今五天竺及諸
 <lb n="0898a18" ed="T"/>胡僧，俱無用絹作袈裟者。」又云：「以衣為梵服，
 <lb n="0898a19" ed="T"/>行四無量。審知行殺而故服之，義不應也。」《感
-<lb n="0898a20" ed="T"/>通傳》中，天人<note n="0898003" resp="Taisho" type="orig" place="foot text">讚＝贊【甲】</note><note n="0898003" resp="CBETA" type="mod">讚【大】，贊【甲】</note><app n="0898003"><lem wit="【大】">讚</lem><rdg resp="Taisho" wit="【甲】">贊</rdg></app>云：「自佛法東傳，六七百年；
+<lb n="0898a20" ed="T"/>通傳》中，天人<note 
+n="0898003" resp="Taisho" type="orig" place="foot text">讚＝贊【甲】</note><note 
+n="0898003" resp="CBETA" type="mod">讚【大】，贊【甲】</note><app n="0898003">
+  <lem wit="【大】">讚</lem>
+  <rdg resp="Taisho" wit="【甲】">贊</rdg>
+</app>云：「自佛法東傳，六七百年；
 <lb n="0898a21" ed="T"/>南北律師，曾無此意。安用殺生之財，而為慈
 <lb n="0898a22" ed="T"/>悲之服？」廣如《章服儀》明之。義淨《寄歸傳》輒責
-<lb n="0898a23" ed="T"/>為非，蓋大慈深行，非彼所知，固其宜矣。</p><p xml:id="pT45p0898a2316" cb:place="inline">次、簡
+<lb n="0898a23" ed="T"/>為非，蓋大慈深行，非彼所知，固其宜矣。</p>
+<p xml:id="pT45p0898a2316" cb:place="inline">次、簡
 <lb n="0898a24" ed="T"/>非法。然其衣體，須求厚密，離諸華綺。《律》云：
 <lb n="0898a25" ed="T"/>「若細薄、生疎<note place="inline">蕉葛、生紵並不可用</note>、綾羅、錦綺、紗縠、紬綃等，
 <lb n="0898a26" ed="T"/>並非法物。」今多不信佛語，貪服此等諸衣。《智
@@ -208,26 +251,32 @@
 <lb n="0898b04" ed="T"/>相循訛說，慎勿憑之。近見白布為頭絰者，斯
 <lb n="0898b05" ed="T"/>又可怪。法滅之相，代漸多有。識者宜為革
 <lb n="0898b06" ed="T"/>之，則法得少留矣。</p></cb:div>
-<lb n="0898b07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">5 明色相</cb:mulu><head>五、明色相</head><p xml:id="pT45p0898b0705" cb:place="inline">《律》云：「上色染衣不得服，當壞作袈
+<lb n="0898b07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">5 明色相</cb:mulu><head>五、明色相</head>
+<p xml:id="pT45p0898b0705" cb:place="inline">《律》云：「上色染衣不得服，當壞作袈
 <lb n="0898b08" ed="T"/>裟色<note place="inline">此云不正色染</note>，亦名壞色。」即《戒本》中三種染壞，皆
 <lb n="0898b09" ed="T"/>如法也。一者、青色<note place="inline">《僧祇》謂銅青也。今時尼眾青褐，頗得相近</note>；二者、黑
 <lb n="0898b10" ed="T"/>色<note place="inline">謂緇泥涅者。今時禪眾深黲，竝深蒼褐，皆同黑色</note>；三、木蘭色<note place="inline">謂西蜀木蘭，皮可染作赤
-<lb n="0898b11" ed="T"/>黑色。古晉高僧多服此衣，今時海黃染絹，微有相涉。北地淺黃，定是非法</note>。</p><p xml:id="pT45p0898b1129" cb:place="inline">然此三色，名濫
+<lb n="0898b11" ed="T"/>黑色。古晉高僧多服此衣，今時海黃染絹，微有相涉。北地淺黃，定是非法</note>。</p>
+<p xml:id="pT45p0898b1129" cb:place="inline">然此三色，名濫
 <lb n="0898b12" ed="T"/>體別，須離俗中五方正色<note place="inline">謂青、黃、赤、白、黑</note>及五間色<note place="inline">謂緋、
 <lb n="0898b13" ed="T"/>紅、紫、綠、碧，或云磂黃</note>。此等皆非道相，佛竝制斷。《業疏》
 <lb n="0898b14" ed="T"/>云：「法衣順道。錦色斑綺，耀動心神，青黃五
-<lb n="0898b15" ed="T"/>綵，真紫上色，流俗所貪，故齊削也。」</p><p xml:id="pT45p0898b1514" cb:place="inline">末世學
+<lb n="0898b15" ed="T"/>綵，真紫上色，流俗所貪，故齊削也。」</p>
+<p xml:id="pT45p0898b1514" cb:place="inline">末世學
 <lb n="0898b16" ed="T"/>律，特反聖言，冬服綾羅，夏資紗縠。亂朱之
 <lb n="0898b17" ed="T"/>色，不厭鮮華；非法之量，長垂髀膝。況復自樂
 <lb n="0898b18" ed="T"/>色衣，妄稱王制，雖云飾過，深成謗法。祖師所
 <lb n="0898b19" ed="T"/>謂「何慮無惡道分！悲夫！」<note place="inline">《多論》「違王教，得吉」者，謂犯國禁令耳。</note></p></cb:div>
-<lb n="0898b20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">6 明衣量</cb:mulu><head>六、明衣量</head><p xml:id="pT45p0898b2005" cb:place="inline">有二。</p><p xml:id="pT45p0898b2012" cb:place="inline">初、準通文，不定尺寸。《律》云：「度
+<lb n="0898b20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">6 明衣量</cb:mulu><head>六、明衣量</head>
+<p xml:id="pT45p0898b2005" cb:place="inline">有二。</p>
+<p xml:id="pT45p0898b2012" cb:place="inline">初、準通文，不定尺寸。《律》云：「度
 <lb n="0898b21" ed="T"/>身而衣，取足而已。」《五分》肘量不定，佛令隨身
 <lb n="0898b22" ed="T"/>分量，不必依肘。今時衣長一丈二三，言取通
 <lb n="0898b23" ed="T"/>文者，無乃太通乎？又言此是度身者，其身甚
 <lb n="0898b24" ed="T"/>小而衣甚長，無乃度之不細乎？然度身之法，
 <lb n="0898b25" ed="T"/>人多不曉。《業疏》云：「先以衣財，從肩下地，踝上
-<lb n="0898b26" ed="T"/>四指，以為衣身，餘分葉相，足可相稱。」</p><p xml:id="pT45p0898b2615" cb:place="inline">次、明局
+<lb n="0898b26" ed="T"/>四指，以為衣身，餘分葉相，足可相稱。」</p>
+<p xml:id="pT45p0898b2615" cb:place="inline">次、明局
 <lb n="0898b27" ed="T"/>量。《鈔》引通文已，續云：「雖爾，亦須楷準。」故《十誦》、
 <lb n="0898b28" ed="T"/>《僧祇》各有三品之量。今準《薩婆多》中：「三衣，長
 <lb n="0898b29" ed="T"/>五肘、廣三肘。<note place="inline">每肘一尺八寸。準姬周尺，長九尺，廣五尺四寸也。</note>若極大者，
@@ -236,24 +285,29 @@
 <lb n="0898c02" ed="T"/>令依此，亦不至丈二，思之。</note>若極小者，長四肘，廣二肘半。<note place="inline">長七尺二，
 <lb n="0898c03" ed="T"/>廣四尺五。</note>若過量外態說淨，不者，犯捨墮。」《四分》云：
 <lb n="0898c04" ed="T"/>「安陀會，長四肘，廣二肘<note place="inline">長七尺二，廣三尺六</note>。欝多羅
-<lb n="0898c05" ed="T"/>僧，長五肘，廣三肘，僧伽梨，亦然<note place="inline">長九尺，廣五尺四寸</note>。」</p><p xml:id="pT45p0898c0521" cb:place="inline">上
-<lb n="0898c06" ed="T"/>引佛言示量，下引祖教顯非。</p><p xml:id="pT45p0898c0612" cb:place="inline">《章服儀》云：「減量
+<lb n="0898c05" ed="T"/>僧，長五肘，廣三肘，僧伽梨，亦然<note place="inline">長九尺，廣五尺四寸</note>。」</p>
+<p xml:id="pT45p0898c0521" cb:place="inline">上
+<lb n="0898c06" ed="T"/>引佛言示量，下引祖教顯非。</p>
+<p xml:id="pT45p0898c0612" cb:place="inline">《章服儀》云：「減量
 <lb n="0898c07" ed="T"/>而作，同儉約之儀；過限妄增，有成犯之法。文
 <lb n="0898c08" ed="T"/>云：『四肘二肘，不為非法，與佛等量，便結正
 <lb n="0898c09" ed="T"/>篇。』即其證也。」又云：「頃載下流，驕奢其度；至論
 <lb n="0898c10" ed="T"/>儉狹，未見其人。」又云：「衣服立量，減開過制者，
-<lb n="0898c11" ed="T"/>俱抑貪競之情也。」<note place="inline">好大者，請詳此諸文。</note></p><p xml:id="pT45p0898c1116" cb:place="inline">《鈔》文「佛衣戒」云：「佛
+<lb n="0898c11" ed="T"/>俱抑貪競之情也。」<note place="inline">好大者，請詳此諸文。</note></p>
+<p xml:id="pT45p0898c1116" cb:place="inline">《鈔》文「佛衣戒」云：「佛
 <lb n="0898c12" ed="T"/>身倍人。佛長丈六，人則八尺。」佛衣長姬周尺
 <lb n="0898c13" ed="T"/>丈八，廣丈二，常人九尺、六尺也。<note place="inline">有執極量者，　謂佛衣倍人六肘，則
 <lb n="0898c14" ed="T"/>二丈一尺六寸。蓋未讀此文故也。</note>然佛世之人，身多偉大，準前為
 <lb n="0898c15" ed="T"/>量，足覆形軀。今時劫減，人身至大，不過六
 <lb n="0898c16" ed="T"/>尺。而衣長丈二，往往過之，及論廣量，不至五
 <lb n="0898c17" ed="T"/>尺。前垂拕膝，步步吉羅。可謂顛之倒之，於斯
-<lb n="0898c18" ed="T"/>見矣。</p><p xml:id="pT45p0898c1803" cb:place="inline">故《業疏》云：「前垂一角，為象鼻相，人不思
+<lb n="0898c18" ed="T"/>見矣。</p>
+<p xml:id="pT45p0898c1803" cb:place="inline">故《業疏》云：「前垂一角，為象鼻相，人不思
 <lb n="0898c19" ed="T"/>罪，習久謂法。何必如許，煩惱我執，無始常習，
 <lb n="0898c20" ed="T"/>可是聖法耶？聞義即改，從諫若流。斯上人也。」
 <lb n="0898c21" ed="T"/><note place="inline">《疏》文</note>慈訓若此，那不思之？</p></cb:div>
-<lb n="0898c22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">7 明條數多少</cb:mulu><head>七、明條數多少</head><p xml:id="pT45p0898c2207" cb:place="inline">下衣五條，一長一短。中衣七
+<lb n="0898c22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">7 明條數多少</cb:mulu><head>七、明條數多少</head>
+<p xml:id="pT45p0898c2207" cb:place="inline">下衣五條，一長一短。中衣七
 <lb n="0898c23" ed="T"/>條，兩長一短。大衣三品：下品有三，九條、十一
 <lb n="0898c24" ed="T"/>條、十三條，並兩長一短；中品三者，十五、十七、
 <lb n="0898c25" ed="T"/>十九條，並三長一短；上品三者，二十一、二十
@@ -266,10 +320,25 @@
 <lb n="0899a02" ed="T"/>利諸有，表聖增而凡減，喻長多而短少也。」今
 <lb n="0899a03" ed="T"/>時禪門多著九條，或三長、四長，隨意而作，此
 <lb n="0899a04" ed="T"/>非法也。《疏》云：「長短差違，乖慈梵故，隨步越儀，
-<lb n="0899a05" ed="T"/>一一結罪。」矧又色帶長垂，花排細<note n="0899a0501" resp="CBETA" type="add">刺【CB】，剌【大】</note><app n="0899a0501"><lem resp="CBETA" wit="【CB】">刺</lem><rdg wit="【大】">剌</rdg></app>，山水毳
-<lb n="0899a06" ed="T"/>衲，損業廢功。真誠學<note n="0899001" resp="Taisho" type="orig" place="foot text">道＝人【乙】</note><note n="0899001" resp="CBETA" type="mod">道【大】，人【乙】</note><app n="0899001"><lem wit="【大】">道</lem><rdg resp="Taisho" wit="【乙】">人</rdg></app>，不捨寸陰，自非無
-<lb n="0899a07" ed="T"/>所用心，何暇專功於此？</p><p xml:id="pT45p0899a0710" cb:place="inline">次、明條葉之相。《僧祇
-<lb n="0899a08" ed="T"/>律》中：「廣應四指<note place="inline">四寸</note>，<note n="0899002" resp="Taisho" type="orig" place="foot text">挾＝狹【甲】</note><note n="0899002" resp="CBETA" type="mod">挾【大】，狹【甲】</note><app n="0899002"><lem wit="【大】">挾</lem><rdg resp="Taisho" wit="【甲】">狹</rdg></app>如<g ref="#CB00931"/>麥。」《疏》云：「今多廣
+<lb n="0899a05" ed="T"/>一一結罪。」矧又色帶長垂，花排細<note 
+n="0899a0501" resp="CBETA" type="add">刺【CB】，剌【大】</note><app n="0899a0501">
+  <lem resp="CBETA" wit="【CB】">刺</lem>
+  <rdg wit="【大】">剌</rdg>
+</app>，山水毳
+<lb n="0899a06" ed="T"/>衲，損業廢功。真誠學<note 
+n="0899001" resp="Taisho" type="orig" place="foot text">道＝人【乙】</note><note 
+n="0899001" resp="CBETA" type="mod">道【大】，人【乙】</note><app n="0899001">
+  <lem wit="【大】">道</lem>
+  <rdg resp="Taisho" wit="【乙】">人</rdg>
+</app>，不捨寸陰，自非無
+<lb n="0899a07" ed="T"/>所用心，何暇專功於此？</p>
+<p xml:id="pT45p0899a0710" cb:place="inline">次、明條葉之相。《僧祇
+<lb n="0899a08" ed="T"/>律》中：「廣應四指<note place="inline">四寸</note>，<note 
+n="0899002" resp="Taisho" type="orig" place="foot text">挾＝狹【甲】</note><note 
+n="0899002" resp="CBETA" type="mod">挾【大】，狹【甲】</note><app n="0899002">
+  <lem wit="【大】">挾</lem>
+  <rdg resp="Taisho" wit="【甲】">狹</rdg>
+</app>如<g ref="#CB00931"/>麥。」《疏》云：「今多廣
 <lb n="0899a09" ed="T"/>作，澆風扇也。」《章服儀》云：「此見條葉，不附正儀，
 <lb n="0899a10" ed="T"/>三寸四寸，任情開闊，浸以成俗，彌開華蕩之
 <lb n="0899a11" ed="T"/>源」等。又刺綴條葉，須開下邊。《章服儀》云：「裁縫
@@ -277,7 +346,8 @@
 <lb n="0899a13" ed="T"/>一邊，開一邊。」「若兩邊俱縫者，但同縵衣。」世中
 <lb n="0899a14" ed="T"/>相傳，號曰「明孔」，又言「明相」<note place="inline">《律》中天曉，謂之明相</note>，又云「漏塵」
 <lb n="0899a15" ed="T"/>等，俱是訛謬。</p></cb:div>
-<lb n="0899a16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">8 明重數</cb:mulu><head>八、明重數</head><p xml:id="pT45p0899a1605" cb:place="inline">《律》云：「不得細薄。大衣，新者二重。餘
+<lb n="0899a16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">8 明重數</cb:mulu><head>八、明重數</head>
+<p xml:id="pT45p0899a1605" cb:place="inline">《律》云：「不得細薄。大衣，新者二重。餘
 <lb n="0899a17" ed="T"/>二衣，並一重。」《十誦》中：「大衣，故者四重。餘二衣，
 <lb n="0899a18" ed="T"/>並二重。」《薩婆多》中：「大衣，三重。一重新，二重故。」</p>
 <lb n="0899a19" ed="T"/><p xml:id="pT45p0899a1901">次、明重法。然重複之相，諸出不同。若準《多論》：
@@ -292,94 +362,171 @@
 <lb n="0899a28" ed="T"/>非無著著之失。』」<note place="inline">已上《傳》文。然《多論》異此者，但是聞見不等。然天人示法，並謂親承佛世。
 <lb n="0899a29" ed="T"/>此方教文不決之事，如諸經律「座具著肩」，唯此《傳》文令安左臂。又如後引「增座具法」，今皆準用，何獨疑此？況非
 <pb n="0899b" ed="T" xml:id="T45.1900.0899b"/>
-<lb n="0899b01" ed="T"/>割、多重二難，理自顯然。</note></p><p xml:id="pT45p0899b0110" cb:place="inline">三、明成不。《業疏》云：「下二隨時。若是
+<lb n="0899b01" ed="T"/>割、多重二難，理自顯然。</note></p>
+<p xml:id="pT45p0899b0110" cb:place="inline">三、明成不。《業疏》云：「下二隨時。若是
 <lb n="0899b02" ed="T"/>大衣，必須重複。今多單作，是非法服，得行受
 <lb n="0899b03" ed="T"/>持服用得罪。」</p></cb:div>
-<lb n="0899b04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">9 明作衣法</cb:mulu><head>九、明作衣法</head><p xml:id="pT45p0899b0406" cb:place="inline">三衣並須割截。財少難辨，則聽
+<lb n="0899b04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">9 明作衣法</cb:mulu><head>九、明作衣法</head>
+<p xml:id="pT45p0899b0406" cb:place="inline">三衣並須割截。財少難辨，則聽
 <lb n="0899b05" ed="T"/>揲葉。五條一種，復開襵葉。《四分》中：「大衣，五日
 <lb n="0899b06" ed="T"/>不成，尼提、僧吉。」<note place="inline">準《鼻柰耶》：「七條四日，五條二日。」</note>《十誦》：「須却刺，
 <lb n="0899b07" ed="T"/>不得直縫。」前去緣四指，施䩙<note place="inline">音絃鉤也</note>。後去緣八指，
-<lb n="0899b08" ed="T"/>施紐。今時垂臂，前八後四，俱顛倒也。</p><p xml:id="pT45p0899b0815" cb:place="inline">又安鈎
-<lb n="0899b09" ed="T"/><note n="0899003" resp="Taisho" type="orig" place="foot text">約＝紐【甲】【乙】</note><note n="0899003" resp="CBETA" type="mod">約【大】，紐【甲】【乙】</note><app n="0899003"><lem wit="【大】">約</lem><rdg resp="Taisho" wit="【甲】【乙】">紐</rdg></app>處，揲以方物，本在助牢，而目云「壇子」，非
+<lb n="0899b08" ed="T"/>施紐。今時垂臂，前八後四，俱顛倒也。</p>
+<p xml:id="pT45p0899b0815" cb:place="inline">又安鈎
+<lb n="0899b09" ed="T"/><note 
+n="0899003" resp="Taisho" type="orig" place="foot text">約＝紐【甲】【乙】</note><note 
+n="0899003" resp="CBETA" type="mod">約【大】，紐【甲】【乙】</note><app n="0899003">
+  <lem wit="【大】">約</lem>
+  <rdg resp="Taisho" wit="【甲】【乙】">紐</rdg>
+</app>處，揲以方物，本在助牢，而目云「壇子」，非
 <lb n="0899b10" ed="T"/>也。《三千威儀》云：「四角安揲。」《四分》云「挽令角正」
 <lb n="0899b11" ed="T"/>等。世云「四天王」者，亦非也。《四分》：「肩上須揲，障
-<lb n="0899b12" ed="T"/>垢膩處。」</p><p xml:id="pT45p0899b1204" cb:place="inline">次、明正從者。大衣九品，本須割截。衣
+<lb n="0899b12" ed="T"/>垢膩處。」</p>
+<p xml:id="pT45p0899b1204" cb:place="inline">次、明正從者。大衣九品，本須割截。衣
 <lb n="0899b13" ed="T"/>財不足，則開揲葉。二九則成十八種衣。猶不
 <lb n="0899b14" ed="T"/>足者，聽七條為從衣。如是次第，開至縵衣
 <lb n="0899b15" ed="T"/><note place="inline">言縵者，無條相故</note>。三衣正從，各有二十四種。大衣：正有
-<lb n="0899b16" ed="T"/>十八種<note place="inline">割、揲<note n="0899004" resp="Taisho" type="orig" place="foot text">名＝各【甲】【乙】</note><note n="0899004" resp="CBETA" type="mod">名【大】，各【甲】【乙】</note><app n="0899004"><lem wit="【大】">名</lem><rdg resp="Taisho" wit="【甲】【乙】">各</rdg></app>九</note>，從則有六<note place="inline">二七條，三五條，一縵衣</note>。七條：正衣
+<lb n="0899b16" ed="T"/>十八種<note place="inline">割、揲<note 
+n="0899004" resp="Taisho" type="orig" place="foot text">名＝各【甲】【乙】</note><note 
+n="0899004" resp="CBETA" type="mod">名【大】，各【甲】【乙】</note><app n="0899004">
+  <lem wit="【大】">名</lem>
+  <rdg resp="Taisho" wit="【甲】【乙】">各</rdg>
+</app>九</note>，從則有六<note place="inline">二七條，三五條，一縵衣</note>。七條：正衣
 <lb n="0899b17" ed="T"/>有二<note place="inline">割、揲二也</note>，從有二十二<note place="inline">大衣十八，五條三，縵衣一也</note>。五條：正衣
-<lb n="0899b18" ed="T"/>有三<note place="inline">割、揲、<note n="0899005" resp="Taisho" type="orig" place="foot text">襵＝縵【乙】</note><note n="0899005" resp="CBETA" type="mod">襵【大】，縵【乙】</note><app n="0899005"><lem wit="【大】">襵</lem><rdg resp="Taisho" wit="【乙】">縵</rdg></app>也</note>，從有二十一<note place="inline">大衣十八，七條二，縵衣<note n="0899006" resp="Taisho" type="orig" place="foot text">一＋（也）【乙】</note><note n="0899006" resp="CBETA" type="mod">一【大】，一也【乙】</note><app n="0899006"><lem wit="【大】">一</lem><rdg resp="Taisho" wit="【乙】">一也</rdg></app></note>。總計七
+<lb n="0899b18" ed="T"/>有三<note place="inline">割、揲、<note 
+n="0899005" resp="Taisho" type="orig" place="foot text">襵＝縵【乙】</note><note 
+n="0899005" resp="CBETA" type="mod">襵【大】，縵【乙】</note><app n="0899005">
+  <lem wit="【大】">襵</lem>
+  <rdg resp="Taisho" wit="【乙】">縵</rdg>
+</app>也</note>，從有二十一<note place="inline">大衣十八，七條二，縵衣<note 
+n="0899006" resp="Taisho" type="orig" place="foot text">一＋（也）【乙】</note><note 
+n="0899006" resp="CBETA" type="mod">一【大】，一也【乙】</note><app n="0899006">
+  <lem wit="【大】">一</lem>
+  <rdg resp="Taisho" wit="【乙】">一也</rdg>
+</app></note>。總計七
 <lb n="0899b19" ed="T"/>十二品。縵通三用，然本是沙彌衣。《律》制：「沙彌
 <lb n="0899b20" ed="T"/>著二縵衣，一當七條入眾，一當五條作務。」<note place="inline">衣相
-<lb n="0899b21" ed="T"/>未正故，但云「當」。「當」字去呼。</note></p><p xml:id="pT45p0899b2111" cb:place="inline">今時剃髮，即著五條，僣濫大僧，深
+<lb n="0899b21" ed="T"/>未正故，但云「當」。「當」字去呼。</note></p>
+<p xml:id="pT45p0899b2111" cb:place="inline">今時剃髮，即著五條，僣濫大僧，深
 <lb n="0899b22" ed="T"/>乖本制，師長有識，請依聖教。及至受戒，多無
 <lb n="0899b23" ed="T"/>衣鉢，律令師辨，誰復依行？但至臨時，從人借
 <lb n="0899b24" ed="T"/>受瓦盆油鉢、陳朽大衣。沙彌不識是非，闍梨
 <lb n="0899b25" ed="T"/>何曾檢校？《律》云：「若無若借，不名受具。」豈得惜
 <lb n="0899b26" ed="T"/>少許資財，令一生無戒，虛食信施，沈流萬劫？
 <lb n="0899b27" ed="T"/>實可悲痛！雖往者不可諫，而來者猶可追。</p></cb:div>
-<lb n="0899b28" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">10 加法行護</cb:mulu><head>十、加法行護</head><p xml:id="pT45p0899b2806" cb:place="inline">初、加法者。必從次第，先加五條
+<lb n="0899b28" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">10 加法行護</cb:mulu><head>十、加法行護</head>
+<p xml:id="pT45p0899b2806" cb:place="inline">初、加法者。必從次第，先加五條
 <lb n="0899b29" ed="T"/><note place="inline">準《十誦》文</note>：「大德一心念！我比丘某甲，此安陀會，五
 <pb n="0899c" ed="T" xml:id="T45.1900.0899c"/>
 <lb n="0899c01" ed="T"/>條衣受，一長一短，割截衣持。<note place="inline">三說。揲葉、襵葉隨改。</note>」中衣
 <lb n="0899c02" ed="T"/>則云：「此欝多羅，七條衣受，兩長一短，割截衣
 <lb n="0899c03" ed="T"/>持。」大衣則云：「此僧伽梨，二十五條衣受，四長
-<lb n="0899c04" ed="T"/>一短，割截衣持。」餘詞同上。</p><p xml:id="pT45p0899c0411" cb:place="inline">次、明捨法。<note place="inline">準《僧祇》文。</note>「大
+<lb n="0899c04" ed="T"/>一短，割截衣持。」餘詞同上。</p>
+<p xml:id="pT45p0899c0411" cb:place="inline">次、明捨法。<note place="inline">準《僧祇》文。</note>「大
 <lb n="0899c05" ed="T"/>德一心念！我某甲，此安陀會，是我三衣，數先
-<lb n="0899c06" ed="T"/>受持，今捨。<note place="inline">一說。餘二準改。並須求明律者，對首作之。</note>」</p><p xml:id="pT45p0899c0621" cb:place="inline">次、明行護。《十誦》：
+<lb n="0899c06" ed="T"/>受持，今捨。<note place="inline">一說。餘二準改。並須求明律者，對首作之。</note>」</p>
+<p xml:id="pT45p0899c0621" cb:place="inline">次、明行護。《十誦》：
 <lb n="0899c07" ed="T"/>「護三衣如自皮，鉢如眼目。著大衣，不得摙木
 <lb n="0899c08" ed="T"/>石土草。掃地等種種作務，不應為之。」《決正二
 <lb n="0899c09" ed="T"/>部律論》：「著大衣入村，見師僧上座別人，不得
 <lb n="0899c10" ed="T"/>禮。<note place="inline">得禮佛及眾僧。</note>」《十誦》：「所行之處與衣鉢俱，無所顧
 <lb n="0899c11" ed="T"/>戀猶如飛鳥。若不持三衣入聚落，犯罪。」《僧祇》
 <lb n="0899c12" ed="T"/>云：「當如塔想。」祖師云：「諸部竝制隨身，今時但
-<lb n="0899c13" ed="T"/>護宿者，不應教矣。」</p><p xml:id="pT45p0899c1308" cb:place="inline"><note place="inline">於此須明攝護，略分四門。</note></p><p xml:id="pT45p0899c1318" cb:place="inline">初、明衣界。《律》
+<lb n="0899c13" ed="T"/>護宿者，不應教矣。」</p>
+<p xml:id="pT45p0899c1308" cb:place="inline"><note place="inline">於此須明攝護，略分四門。</note></p>
+<p xml:id="pT45p0899c1318" cb:place="inline">初、明衣界。《律》
 <lb n="0899c14" ed="T"/>云：「若人、衣異處越宿，得捨墮罪。此衣須捨
 <lb n="0899c15" ed="T"/>懺。」<note place="inline">言墮罪者，墮眾合地獄一晝夜，當人間歲數十四億四十千歲。</note>《律》明離護，竝約
-<lb n="0899c16" ed="T"/>界論。界有多別，大略分二：</p><p xml:id="pT45p0899c1611" cb:place="inline">一者、作法攝衣界；
-<lb n="0899c17" ed="T"/><note place="inline">謂伽藍中結界，寬於院相，須加攝衣羯磨。結已，除無村聚，通界護衣。</note></p><p xml:id="pT45p0899c1727" cb:place="inline"><note n="0899007" resp="Taisho" type="orig" place="foot text">二＝一【甲】</note><note n="0899007" resp="CBETA" type="mod">二【大】，一【甲】</note><app n="0899007"><lem wit="【大】">二</lem><rdg resp="Taisho" wit="【甲】">一</rdg></app>者、自然護衣
-<lb n="0899c18" ed="T"/>界。本宗、他部總有十五種：</p><p xml:id="pT45p0899c1811" cb:place="inline">僧伽藍界一；<note place="inline">謂垣牆、籬
-<lb n="0899c19" ed="T"/>棚，四面周匝，雖結界處，望不結攝衣，亦號「自然衣界」。</note></p><p xml:id="pT45p0899c1921" cb:place="inline">村界二：<note place="inline">男女所居名村，即俗舍也。四相同
-<lb n="0899c20" ed="T"/>上。準舍界中更有六種別相：</note></p><p xml:id="pT45p0899c2012" cb:place="inline">一者、聚落界，<note place="inline">謂村邑分齊處也。一者別界，如一聚落止有一
+<lb n="0899c16" ed="T"/>界論。界有多別，大略分二：</p>
+<p xml:id="pT45p0899c1611" cb:place="inline">一者、作法攝衣界；
+<lb n="0899c17" ed="T"/><note place="inline">謂伽藍中結界，寬於院相，須加攝衣羯磨。結已，除無村聚，通界護衣。</note></p>
+<p xml:id="pT45p0899c1727" cb:place="inline"><note 
+n="0899007" resp="Taisho" type="orig" place="foot text">二＝一【甲】</note><note 
+n="0899007" resp="CBETA" type="mod">二【大】，一【甲】</note><app n="0899007">
+  <lem wit="【大】">二</lem>
+  <rdg resp="Taisho" wit="【甲】">一</rdg>
+</app>者、自然護衣
+<lb n="0899c18" ed="T"/>界。本宗、他部總有十五種：</p>
+<p xml:id="pT45p0899c1811" cb:place="inline">僧伽藍界一；<note place="inline">謂垣牆、籬
+<lb n="0899c19" ed="T"/>棚，四面周匝，雖結界處，望不結攝衣，亦號「自然衣界」。</note></p>
+<p xml:id="pT45p0899c1921" cb:place="inline">村界二：<note place="inline">男女所居名村，即俗舍也。四相同
+<lb n="0899c20" ed="T"/>上。準舍界中更有六種別相：</note></p>
+<p xml:id="pT45p0899c2012" cb:place="inline">一者、聚落界，<note place="inline">謂村邑分齊處也。一者別界，如一聚落止有一
 <lb n="0899c21" ed="T"/>家，齊聚落外，雞飛及處已外，名異界。二、同界者，謂多聚相涉。《多論》：「四聚中間，車梯四向相及，衣在四聚不失。」《僧
 <lb n="0899c22" ed="T"/>祇》：「臥四聚中，頭足兩手各在一界。衣在頭底，天明頭離，犯捨。手脚相及，不犯。」《多論》：「安衣二界中，身臥二界上，不
-<lb n="0899c23" ed="T"/>失，各有身分故。」</note></p><p xml:id="pT45p0899c2307" cb:place="inline">二者、家界，<note place="inline">謂一聚內有多家者，亦有同別。若父母兄弟同處同業，名同界。異食
-<lb n="0899c24" ed="T"/>異業名別界，即下族界也。</note></p><p xml:id="pT45p0899c2411" cb:place="inline">三者、族界，<note place="inline">謂一家中異食異業，亦有同別。各有住處，則名一界。若在
-<lb n="0899c25" ed="T"/>二處及作食、便利等，眾處皆失。</note></p><p xml:id="pT45p0899c2513" cb:place="inline">四、外道舍，<note place="inline">若同見同論，則同一界。若異見者，身衣二處，及在門
-<lb n="0899c26" ed="T"/>屋中庭，眾處竝失。</note></p><p xml:id="pT45p0899c2608" cb:place="inline">五、遊行營處，<note place="inline">諸戲笑等人暫止之處。若屬一主，名同界。異主，則彼此眾處
-<lb n="0899c27" ed="T"/>等皆失。</note></p><p xml:id="pT45p0899c2704" cb:place="inline">六、重舍；<note place="inline">即多重樓閣等。同主則人衣<note n="0899008" resp="Taisho" type="orig" place="foot text">互＝五【甲】</note><note n="0899008" resp="CBETA" type="mod">互【大】，五【甲】</note><app n="0899008"><lem wit="【大】">互</lem><rdg resp="Taisho" wit="【甲】">五</rdg></app>上下，不失，異主則失。若單樓閣，　《僧祇》：「梯隥道外
-<lb n="0899c28" ed="T"/>二十五肘。」《了論》：「衣在下，身在上者失，反此不失。」</note></p><p xml:id="pT45p0899c2819" cb:place="inline">樹界三：<note place="inline">極小下至與人身等，足蔭加趺，此有五別：</note>
+<lb n="0899c23" ed="T"/>失，各有身分故。」</note></p>
+<p xml:id="pT45p0899c2307" cb:place="inline">二者、家界，<note place="inline">謂一聚內有多家者，亦有同別。若父母兄弟同處同業，名同界。異食
+<lb n="0899c24" ed="T"/>異業名別界，即下族界也。</note></p>
+<p xml:id="pT45p0899c2411" cb:place="inline">三者、族界，<note place="inline">謂一家中異食異業，亦有同別。各有住處，則名一界。若在
+<lb n="0899c25" ed="T"/>二處及作食、便利等，眾處皆失。</note></p>
+<p xml:id="pT45p0899c2513" cb:place="inline">四、外道舍，<note place="inline">若同見同論，則同一界。若異見者，身衣二處，及在門
+<lb n="0899c26" ed="T"/>屋中庭，眾處竝失。</note></p>
+<p xml:id="pT45p0899c2608" cb:place="inline">五、遊行營處，<note place="inline">諸戲笑等人暫止之處。若屬一主，名同界。異主，則彼此眾處
+<lb n="0899c27" ed="T"/>等皆失。</note></p>
+<p xml:id="pT45p0899c2704" cb:place="inline">六、重舍；<note place="inline">即多重樓閣等。同主則人衣<note 
+n="0899008" resp="Taisho" type="orig" place="foot text">互＝五【甲】</note><note 
+n="0899008" resp="CBETA" type="mod">互【大】，五【甲】</note><app n="0899008">
+  <lem wit="【大】">互</lem>
+  <rdg resp="Taisho" wit="【甲】">五</rdg>
+</app>上下，不失，異主則失。若單樓閣，　《僧祇》：「梯隥道外
+<lb n="0899c28" ed="T"/>二十五肘。」《了論》：「衣在下，身在上者失，反此不失。」</note></p>
+<p xml:id="pT45p0899c2819" cb:place="inline">樹界三：<note place="inline">極小下至與人身等，足蔭加趺，此有五別：</note>
 <pb n="0900a" ed="T" xml:id="T45.1900.0900a"/>
 <lb n="0900a01" ed="T"/>一、獨樹，<note place="inline">取日正中影覆處，雨時水不及處。</note>二、相連大林，<note place="inline">《十誦》：「一拘盧舍。」即二里，
 <lb n="0900a02" ed="T"/>六百步。</note>三、四樹小林，<note place="inline">《善見》：「十四肘。」計二丈五尺二寸。</note>四、藤蔓架，<note place="inline">浦萄、瓜瓠
 <lb n="0900a03" ed="T"/>等。《僧祇》：「四面各取二十五肘。」計四丈五尺，謂從人身已去，非架外也。</note>五、明上下；<note place="inline">衣在樹下，身
-<lb n="0900a04" ed="T"/>在上，失衣。若衣在上，身在下，不失，有落義故。</note></p><p xml:id="pT45p0900a0418" cb:place="inline">場界四；<note place="inline">村外空靜、治五穀處，隨場廣狹為限。</note></p><p xml:id="pT45p0900a0435" cb:place="inline">車
-<lb n="0900a05" ed="T"/>界五；<note place="inline">住車，取迴轉處。行車，前後車杖相及，不失，不及則失。</note></p><p xml:id="pT45p0900a0523" cb:place="inline">船界六；<note place="inline">住船，取迴轉處。行船，多
-<lb n="0900a06" ed="T"/>有住處，不通來往，則有別界，反此通護。</note></p><p xml:id="pT45p0900a0616" cb:place="inline">舍界七；<note place="inline">謂村外、空野別舍。《四分》無相。若準《僧祇》，樓閣則
-<lb n="0900a07" ed="T"/>取二十五肘。若準《四分》，庫藏則取四周內地。兩相隨用。</note></p><p xml:id="pT45p0900a0722" cb:place="inline">堂界八；<note place="inline">前多敞露。</note></p><p xml:id="pT45p0900a0729" cb:place="inline">庫界九；<note place="inline">積藏
-<lb n="0900a08" ed="T"/>眾物。</note></p><p xml:id="pT45p0900a0803" cb:place="inline">倉界十；<note place="inline">儲積穀米處。上三竝約內地為界。</note></p><p xml:id="pT45p0900a0819" cb:place="inline">蘭若界十一；<note place="inline">即空逈處，八
-<lb n="0900a09" ed="T"/>樹中間，計五十八步四尺八寸。</note></p><p xml:id="pT45p0900a0913" cb:place="inline">道行界十二；<note place="inline">《善見》：「前後四十九尋。」內計三十九丈二尺。</note></p><p xml:id="pT45p0900a0934" cb:place="inline">
-<lb n="0900a10" ed="T"/>洲界十三；<note place="inline">《善見》：「十四肘內。」計二丈五尺二寸。</note></p><p xml:id="pT45p0900a1018" cb:place="inline">水界十四；<note place="inline">《僧祇》：「水中道行，二十
-<lb n="0900a11" ed="T"/>五肘。」計四丈五尺。若衣在船上，入水即失。若衣在岸上，兩脚入水即失，一脚不失。</note></p><p xml:id="pT45p0900a1132" cb:place="inline">井界十五。
+<lb n="0900a04" ed="T"/>在上，失衣。若衣在上，身在下，不失，有落義故。</note></p>
+<p xml:id="pT45p0900a0418" cb:place="inline">場界四；<note place="inline">村外空靜、治五穀處，隨場廣狹為限。</note></p>
+<p xml:id="pT45p0900a0435" cb:place="inline">車
+<lb n="0900a05" ed="T"/>界五；<note place="inline">住車，取迴轉處。行車，前後車杖相及，不失，不及則失。</note></p>
+<p xml:id="pT45p0900a0523" cb:place="inline">船界六；<note place="inline">住船，取迴轉處。行船，多
+<lb n="0900a06" ed="T"/>有住處，不通來往，則有別界，反此通護。</note></p>
+<p xml:id="pT45p0900a0616" cb:place="inline">舍界七；<note place="inline">謂村外、空野別舍。《四分》無相。若準《僧祇》，樓閣則
+<lb n="0900a07" ed="T"/>取二十五肘。若準《四分》，庫藏則取四周內地。兩相隨用。</note></p>
+<p xml:id="pT45p0900a0722" cb:place="inline">堂界八；<note place="inline">前多敞露。</note></p>
+<p xml:id="pT45p0900a0729" cb:place="inline">庫界九；<note place="inline">積藏
+<lb n="0900a08" ed="T"/>眾物。</note></p>
+<p xml:id="pT45p0900a0803" cb:place="inline">倉界十；<note place="inline">儲積穀米處。上三竝約內地為界。</note></p>
+<p xml:id="pT45p0900a0819" cb:place="inline">蘭若界十一；<note place="inline">即空逈處，八
+<lb n="0900a09" ed="T"/>樹中間，計五十八步四尺八寸。</note></p>
+<p xml:id="pT45p0900a0913" cb:place="inline">道行界十二；<note place="inline">《善見》：「前後四十九尋。」內計三十九丈二尺。</note></p>
+<p xml:id="pT45p0900a0934" cb:place="inline">
+<lb n="0900a10" ed="T"/>洲界十三；<note place="inline">《善見》：「十四肘內。」計二丈五尺二寸。</note></p>
+<p xml:id="pT45p0900a1018" cb:place="inline">水界十四；<note place="inline">《僧祇》：「水中道行，二十
+<lb n="0900a11" ed="T"/>五肘。」計四丈五尺。若衣在船上，入水即失。若衣在岸上，兩脚入水即失，一脚不失。</note></p>
+<p xml:id="pT45p0900a1132" cb:place="inline">井界十五。
 <lb n="0900a12" ed="T"/><note place="inline">《僧祇》：「道行露地，井邊宿，二十五肘。」亦四丈五尺內為界。衣在井中，應繩連垂手入井，不失，與上界別故。餘坑窨亦
-<lb n="0900a13" ed="T"/>然。</note></p><p xml:id="pT45p0900a1302" cb:place="inline">二、明勢分者。作法衣界則無，必須入界，
+<lb n="0900a13" ed="T"/>然。</note></p>
+<p xml:id="pT45p0900a1302" cb:place="inline">二、明勢分者。作法衣界則無，必須入界，
 <lb n="0900a14" ed="T"/>方乃會衣。<note place="inline">勢分是自然，與作法界體異故。</note>十五種自然並隨界
 <lb n="0900a15" ed="T"/>量外例加一十三步，計七丈八尺。<note place="inline">《善見》：「不健不羸人，　盡力
 <lb n="0900a16" ed="T"/>擲石落處。」古德評之：約一十三步為準。</note>但入勢分，即成會衣，不必入
-<lb n="0900a17" ed="T"/>界。<note place="inline">若有染、隔、情三礙在界，　即無勢分。</note></p><p xml:id="pT45p0900a1715" cb:place="inline">三、明四礙。<note place="inline">如上諸界，隨有失衣。</note>一者、染
+<lb n="0900a17" ed="T"/>界。<note place="inline">若有染、隔、情三礙在界，　即無勢分。</note></p>
+<p xml:id="pT45p0900a1715" cb:place="inline">三、明四礙。<note place="inline">如上諸界，隨有失衣。</note>一者、染
 <lb n="0900a18" ed="T"/>礙；<note place="inline">女人在界，恐染淨行，衣須隨身。</note>二者、隔礙；<note place="inline">水陸道斷、門牆阻障等。</note>三者、
 <lb n="0900a19" ed="T"/>情礙；<note place="inline">國王、大臣、幻師、樂人入界，奪失等想，及人家兄弟分隔，各有分齊之處。</note>四者、界
-<lb n="0900a20" ed="T"/>礙。<note place="inline">彼此不相通，如身在道中，衣<note n="0900001" resp="Taisho" type="orig" place="foot text">〔者〕－【甲】【乙】</note><note n="0900001" resp="CBETA" type="mod">者【大】，〔－〕【甲】【乙】</note><app n="0900001"><lem wit="【大】">者</lem><rdg resp="Taisho" wit="【甲】【乙】"><space quantity="0"/></rdg></app>在樹下，即失衣等。</note></p><p xml:id="pT45p0900a2021" cb:place="inline">四者、明失否之相。《律
+<lb n="0900a20" ed="T"/>礙。<note place="inline">彼此不相通，如身在道中，衣<note 
+n="0900001" resp="Taisho" type="orig" place="foot text">〔者〕－【甲】【乙】</note><note 
+n="0900001" resp="CBETA" type="mod">者【大】，〔－〕【甲】【乙】</note><app n="0900001">
+  <lem wit="【大】">者</lem>
+  <rdg resp="Taisho" wit="【甲】【乙】"><space quantity="0"/></rdg>
+</app>在樹下，即失衣等。</note></p>
+<p xml:id="pT45p0900a2021" cb:place="inline">四者、明失否之相。《律
 <lb n="0900a21" ed="T"/>鈔》有三斷：「一者《律》中奪、失、燒、漂、壞五想<note place="inline">即情礙也</note>，
 <lb n="0900a22" ed="T"/>水陸道斷，若賊、惡獸、命、梵等難<note place="inline">此是隔礙</note>。必有上
-<lb n="0900a23" ed="T"/>緣，但失<note n="0900002" resp="Taisho" type="orig" place="foot text">愛＝受【乙】</note><note n="0900002" resp="CBETA" type="mod">愛【大】，受【乙】</note><app n="0900002"><lem wit="【大】">愛</lem><rdg resp="Taisho" wit="【乙】">受</rdg></app>法，不犯捨墮。二者若先慢不護，
+<lb n="0900a23" ed="T"/>緣，但失<note 
+n="0900002" resp="Taisho" type="orig" place="foot text">愛＝受【乙】</note><note 
+n="0900002" resp="CBETA" type="mod">愛【大】，受【乙】</note><app n="0900002">
+  <lem wit="【大】">愛</lem>
+  <rdg resp="Taisho" wit="【乙】">受</rdg>
+</app>法，不犯捨墮。二者若先慢不護，
 <lb n="0900a24" ed="T"/>後雖難緣，失法犯罪。三者若恒懷領受，諸難
 <lb n="0900a25" ed="T"/>忽生，往會不及，亦不失法，亦無有罪。<note place="inline">事須真實，不
 <lb n="0900a26" ed="T"/>可倚濫。</note>」又「問曰：『忘不持衣外行，至夜方覺，取會無
 <lb n="0900a27" ed="T"/>緣，失衣以否？』答：『彼人恒自將隨身，忽忘，例同
 <pb n="0900b" ed="T" xml:id="T45.1900.0900b"/>
-<lb n="0900b01" ed="T"/>長衣開之。』<note place="inline">長衣忘不說淨，不犯，更開十日。</note>」</p><p xml:id="pT45p0900b0117" cb:place="inline">三、明著法。《律》令「齊整
+<lb n="0900b01" ed="T"/>長衣開之。』<note place="inline">長衣忘不說淨，不犯，更開十日。</note>」</p>
+<p xml:id="pT45p0900b0117" cb:place="inline">三、明著法。《律》令「齊整
 <lb n="0900b02" ed="T"/>著三衣」。《三千威儀》：「著時，不得向佛塔、上座、三
 <lb n="0900b03" ed="T"/>師，亦莫背，不得口銜及兩手奮。」《鼻柰耶》：「應挑
 <lb n="0900b04" ed="T"/>著肩上，不得垂臂肘。」此是前制。《感通傳》天人
@@ -392,7 +539,8 @@
 <lb n="0900b11" ed="T"/>如象鼻。』由此始制上安鉤紐，令以衣角達于
 <lb n="0900b12" ed="T"/>左臂，置於腋下，不得令垂，如上過也。」今則宜
 <lb n="0900b13" ed="T"/>從後制，不然搭於肩上，若垂肘臂，定是非法，
-<lb n="0900b14" ed="T"/>以眾學中制罪故也。</p><p xml:id="pT45p0900b1409" cb:place="inline">四、明補浣。《十誦》：「衣服常
+<lb n="0900b14" ed="T"/>以眾學中制罪故也。</p>
+<p xml:id="pT45p0900b1409" cb:place="inline">四、明補浣。《十誦》：「衣服常
 <lb n="0900b15" ed="T"/>須淨潔，如法不爾，則人非人訶。」《善見》：「大衣七
 <lb n="0900b16" ed="T"/>條，廣邊八指，長邊一搩手，內穿，不失受。五條
 <lb n="0900b17" ed="T"/>廣邊四指，長邊一搩手，內穿，不失；餘處穿，如
@@ -409,26 +557,47 @@
 <lb n="0900b28" ed="T"/>
 <lb n="0900b29" ed="T"/><p xml:id="pT45p0900b2901">初、明制意。《僧祇》：「鉢是出家人器，非俗人所
 <pb n="0900c" ed="T" xml:id="T45.1900.0900c"/>
-<lb n="0900c01" ed="T"/><note n="0900003" resp="Taisho" type="orig" place="foot text">室＝宜ィ【原】</note><note n="0900003" resp="CBETA" type="mod">室【大】，宜【校異-原】</note><app n="0900003"><lem wit="【大】">室</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">宜</rdg></app>。」《十誦》云：「鉢是恒沙諸佛標誌，不得惡用。」
+<lb n="0900c01" ed="T"/><note 
+n="0900003" resp="Taisho" type="orig" place="foot text">室＝宜ィ【原】</note><note 
+n="0900003" resp="CBETA" type="mod">室【大】，宜【校異-原】</note><app n="0900003">
+  <lem wit="【大】">室</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">宜</rdg>
+</app>。」《十誦》云：「鉢是恒沙諸佛標誌，不得惡用。」
 <lb n="0900c02" ed="T"/>《善見》云：「三乘聖人皆執瓦鉢，乞食資生，四海
 <lb n="0900c03" ed="T"/>為家，故名比丘。」古德云：「鉢盂無底，非廊廟之
-<lb n="0900c04" ed="T"/>器。」</p><p xml:id="pT45p0900c0402" cb:place="inline">二、釋名者。梵云「鉢多羅」，此名「應器」。有云：「體、
+<lb n="0900c04" ed="T"/>器。」</p>
+<p xml:id="pT45p0900c0402" cb:place="inline">二、釋名者。梵云「鉢多羅」，此名「應器」。有云：「體、
 <lb n="0900c05" ed="T"/>色、量三，皆應法故。」若準《章服儀》云：「堪受供者
 <lb n="0900c06" ed="T"/>用之，名應器。」故知鉢是梵言，此方語簡，省下
-<lb n="0900c07" ed="T"/>二字。</p><p xml:id="pT45p0900c0703" cb:place="inline">三、明體者。《律》云：「大要有二，泥及鐵也。」《五
+<lb n="0900c07" ed="T"/>二字。</p>
+<p xml:id="pT45p0900c0703" cb:place="inline">三、明體者。《律》云：「大要有二，泥及鐵也。」《五
 <lb n="0900c08" ed="T"/>分律》中：「用木鉢，犯偷蘭罪。」《僧祇》云：「是外道標
 <lb n="0900c09" ed="T"/>故，又受垢膩故。」《祖師》云：「今世中有夾紵、漆油
-<lb n="0900c10" ed="T"/>等鉢，竝是非法，義須毀之。」</p><p xml:id="pT45p0900c1011" cb:place="inline">四、明色者。《四分》：「應
+<lb n="0900c10" ed="T"/>等鉢，竝是非法，義須毀之。」</p>
+<p xml:id="pT45p0900c1011" cb:place="inline">四、明色者。《四分》：「應
 <lb n="0900c11" ed="T"/>熏作黑色、赤色。」《僧祇》：「熏作孔雀咽色、鴿色者，
 <lb n="0900c12" ed="T"/>如法。」《善見》：「鐵鉢五熏，土鉢二熏。」《律》中：「聽作熏
-<lb n="0900c13" ed="T"/>鉢鑪」等。<note place="inline">此間多用竹烟，色則易上。</note></p><p xml:id="pT45p0900c1314" cb:place="inline">五、明量者。《四分》中：「大鉢
+<lb n="0900c13" ed="T"/>鉢鑪」等。<note place="inline">此間多用竹烟，色則易上。</note></p>
+<p xml:id="pT45p0900c1314" cb:place="inline">五、明量者。《四分》中：「大鉢
 <lb n="0900c14" ed="T"/>受三斗<note place="inline">姬周三斗，即今唐斗一斗</note>，小者受斗半<note place="inline">即今五升</note>。」中品可
-<lb n="0900c15" ed="T"/>知。<note place="inline">大小之間，有執律文「量腹」之語，不依斗量，非也。《鈔》云：「既號非法，不合<note n="0900004" resp="Taisho" type="orig" place="foot text">愛＝受【甲】【乙】</note><note n="0900004" resp="CBETA" type="mod">愛【大】，受【甲】【乙】</note><app n="0900004"><lem wit="【大】">愛</lem><rdg resp="Taisho" wit="【甲】【乙】">受</rdg></app>淨。」</note></p><p xml:id="pT45p0900c1530" cb:place="inline">六、明加法。
+<lb n="0900c15" ed="T"/>知。<note place="inline">大小之間，有執律文「量腹」之語，不依斗量，非也。《鈔》云：「既號非法，不合<note 
+n="0900004" resp="Taisho" type="orig" place="foot text">愛＝受【甲】【乙】</note><note 
+n="0900004" resp="CBETA" type="mod">愛【大】，受【甲】【乙】</note><app n="0900004">
+  <lem wit="【大】">愛</lem>
+  <rdg resp="Taisho" wit="【甲】【乙】">受</rdg>
+</app>淨。」</note></p>
+<p xml:id="pT45p0900c1530" cb:place="inline">六、明加法。
 <lb n="0900c16" ed="T"/><note place="inline">準《十誦》文：</note>「大德一心念！我某甲，此鉢多羅應量受，常
-<lb n="0900c17" ed="T"/>用故。」<note place="inline">三說。捨法，應云：「先受持，今捨。」一說。</note></p><p xml:id="pT45p0900c1716" cb:place="inline">七、行護。《五百問》云：「一日
+<lb n="0900c17" ed="T"/>用故。」<note place="inline">三說。捨法，應云：「先受持，今捨。」一說。</note></p>
+<p xml:id="pT45p0900c1716" cb:place="inline">七、行護。《五百問》云：「一日
 <lb n="0900c18" ed="T"/>都不用鉢食，犯墮<note place="inline">本宗應吉</note>，重病者開。若出界經
 <lb n="0900c19" ed="T"/>宿，不失受<note place="inline">但得吉罪</note>。」《善見》：「若穿如粟米大，失受。若
-<lb n="0900c20" ed="T"/>以<note n="0900005" resp="Taisho" type="orig" place="foot text">銕＝鐵【乙】</note><note n="0900005" resp="CBETA" type="mod">銕【大】，鐵【乙】</note><app n="0900005"><lem wit="【大】">銕</lem><rdg resp="Taisho" wit="【乙】">鐵</rdg></app>屑補塞已，更須受。」若偏斜破，不成受。</p></cb:div>
+<lb n="0900c20" ed="T"/>以<note 
+n="0900005" resp="Taisho" type="orig" place="foot text">銕＝鐵【乙】</note><note 
+n="0900005" resp="CBETA" type="mod">銕【大】，鐵【乙】</note><app n="0900005">
+  <lem wit="【大】">銕</lem>
+  <rdg resp="Taisho" wit="【乙】">鐵</rdg>
+</app>屑補塞已，更須受。」若偏斜破，不成受。</p></cb:div>
 <lb n="0900c21" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">5 尼師壇</cb:mulu><head>尼師壇第五物</head>
 <lb n="0900c22" ed="T"/><p xml:id="pT45p0900c2201">
 <lb n="0900c23" ed="T"/>
@@ -447,11 +616,13 @@
 <lb n="0901a06" ed="T"/>
 <lb n="0901a07" ed="T"/>
 <lb n="0901a08" ed="T"/>
-<lb n="0901a09" ed="T"/><p xml:id="pT45p0901a0901">初、制意。《四分》中：「為護身、護衣、護僧臥具故。」</p><p xml:id="pT45p0901a0917" cb:place="inline">二、
+<lb n="0901a09" ed="T"/><p xml:id="pT45p0901a0901">初、制意。《四分》中：「為護身、護衣、護僧臥具故。」</p>
+<p xml:id="pT45p0901a0917" cb:place="inline">二、
 <lb n="0901a10" ed="T"/>釋名。梵云「尼師壇」，此云「隨座衣」，亦云「座具」，如
 <lb n="0901a11" ed="T"/>此方隥褥之類。愚者迷名，云因尼師故制。又
 <lb n="0901a12" ed="T"/>不識中間貼，故呼為「壇子」。因合召為「尼師壇」
-<lb n="0901a13" ed="T"/>者，取笑於時，不學故也。</p><p xml:id="pT45p0901a1310" cb:place="inline">三、定量。《四分》：「長佛二
+<lb n="0901a13" ed="T"/>者，取笑於時，不學故也。</p>
+<p xml:id="pT45p0901a1310" cb:place="inline">三、定量。《四分》：「長佛二
 <lb n="0901a14" ed="T"/>搩手，<note place="inline">準《五分》：『佛一搩手。』周尺二尺，則長四尺也。量時尺寸須定，微出量外，律結正犯。</note>廣一
 <lb n="0901a15" ed="T"/>搩手半<note place="inline">即三尺也</note>。」上是本制量。《律》云：「時迦留陀夷
 <lb n="0901a16" ed="T"/>身大，尼師壇小，對佛說之，便聽更增廣、長各
@@ -466,22 +637,33 @@
 <lb n="0901a25" ed="T"/>前教」，非也。</note>然前代但於長頭、廣邊各增一尺，後天
 <lb n="0901a26" ed="T"/>人告祖師云：「縱使四周具貼，不違半搩之文。
 <lb n="0901a27" ed="T"/>但翻譯語略，云『各半搩』耳，十字而論，即是四
-<lb n="0901a28" ed="T"/>周之義。」坐具四貼，由此始矣。</p><p xml:id="pT45p0901a2812" cb:place="inline">四、製造。法色同
+<lb n="0901a28" ed="T"/>周之義。」坐具四貼，由此始矣。</p>
+<p xml:id="pT45p0901a2812" cb:place="inline">四、製造。法色同
 <lb n="0901a29" ed="T"/>袈裟。《十誦》：「新者，二重；故者，四重。不得單作。」
 <pb n="0901b" ed="T" xml:id="T45.1900.0901b"/>
 <lb n="0901b01" ed="T"/>《鼻奈耶》云：「應安緣。」《五分》：「須揲四角。」《四分》：「作新
-<lb n="0901b02" ed="T"/>者，須以故<note n="0901001" resp="Taisho" type="orig" place="foot text">物＝者【乙】</note><note n="0901001" resp="CBETA" type="mod">物【大】，者【乙】</note><app n="0901001"><lem wit="【大】">物</lem><rdg resp="Taisho" wit="【乙】">者</rdg></app>縱廣一搩手揲之。<note place="inline">亦准佛一搩，方二尺也。不
+<lb n="0901b02" ed="T"/>者，須以故<note 
+n="0901001" resp="Taisho" type="orig" place="foot text">物＝者【乙】</note><note 
+n="0901001" resp="CBETA" type="mod">物【大】，者【乙】</note><app n="0901001">
+  <lem wit="【大】">物</lem>
+  <rdg resp="Taisho" wit="【乙】">者</rdg>
+</app>縱廣一搩手揲之。<note place="inline">亦准佛一搩，方二尺也。不
 <lb n="0901b03" ed="T"/>揲入手，犯捨墮罪。若得已成新者，並財體一經身用，則不須揲。</note>」又不得「不截，通取
-<lb n="0901b04" ed="T"/>增量」，此跋闍妄法。</p><p xml:id="pT45p0901b0408" cb:place="inline">五、加法。云：「大德一心念！我
+<lb n="0901b04" ed="T"/>增量」，此跋闍妄法。</p>
+<p xml:id="pT45p0901b0408" cb:place="inline">五、加法。云：「大德一心念！我
 <lb n="0901b05" ed="T"/>某甲，此尼師壇應量作，今受持。」<note place="inline">三說。捨法，改下句云：「今捨。」一說。</note>
 <lb n="0901b06" ed="T"/>《十誦》：「離宿，吉羅。」亦不失法。行用大同鉢耳。</p>
-<lb n="0901b07" ed="T"/><p xml:id="pT45p0901b0701"><note place="inline">寄此略辨祇支、覆肩二衣。</note></p><p xml:id="pT45p0901b0711" cb:place="inline">初、制意者。尼女報弱，故制祇支。披
+<lb n="0901b07" ed="T"/><p xml:id="pT45p0901b0701"><note place="inline">寄此略辨祇支、覆肩二衣。</note></p>
+<p xml:id="pT45p0901b0711" cb:place="inline">初、制意者。尼女報弱，故制祇支。披
 <lb n="0901b08" ed="T"/>於左肩，以襯袈裟。又制覆肩，掩於右膊，用遮
 <lb n="0901b09" ed="T"/>形醜，是故尼眾必持五衣。大僧亦有畜用，但
-<lb n="0901b10" ed="T"/>是聽衣耳。</p><p xml:id="pT45p0901b1005" cb:place="inline">二、釋名者。梵語「僧祇支」，此云「上狹
+<lb n="0901b10" ed="T"/>是聽衣耳。</p>
+<p xml:id="pT45p0901b1005" cb:place="inline">二、釋名者。梵語「僧祇支」，此云「上狹
 <lb n="0901b11" ed="T"/>下廣衣」。<note place="inline">此據《律》文以翻，全乖衣相。若準應法師《音義》，翻云「掩腋衣」，頗得其實</note>覆肩，華
-<lb n="0901b12" ed="T"/>語，末詳梵言。</p><p xml:id="pT45p0901b1206" cb:place="inline">三、明衣相。《僧祇》：「二衣，竝長四肘、
-<lb n="0901b13" ed="T"/>廣二肘。」故知亦同袈裟畟方，但無條葉耳。</p><p xml:id="pT45p0901b1317" cb:place="inline">四、
+<lb n="0901b12" ed="T"/>語，末詳梵言。</p>
+<p xml:id="pT45p0901b1206" cb:place="inline">三、明衣相。《僧祇》：「二衣，竝長四肘、
+<lb n="0901b13" ed="T"/>廣二肘。」故知亦同袈裟畟方，但無條葉耳。</p>
+<p xml:id="pT45p0901b1317" cb:place="inline">四、
 <lb n="0901b14" ed="T"/>明著用。世多紛諍，今為明之。此方往古，並服
 <lb n="0901b15" ed="T"/>祇支。至後魏時，始加右袖，兩邊縫合，謂之偏
 <lb n="0901b16" ed="T"/>衫，截領開裾，猶存本相。故知偏衫左肩即本
@@ -513,13 +695,15 @@
 <lb n="0901c12" ed="T"/><p xml:id="pT45p0901c1201">初、制意。《鈔》云：「物雖輕小，所為極大。出家慈濟，
 <lb n="0901c13" ed="T"/>厥意在此。今上品高行，尚飲用蟲水，況諸不
 <lb n="0901c14" ed="T"/>肖，焉可言哉？」《四分》：「不得無漉袋行半由旬<note place="inline">二十里也</note>。
-<lb n="0901c15" ed="T"/>無者，僧伽梨角漉。」</p><p xml:id="pT45p0901c1508" cb:place="inline">二、漉法者。《薩婆多》云：「欲作
+<lb n="0901c15" ed="T"/>無者，僧伽梨角漉。」</p>
+<p xml:id="pT45p0901c1508" cb:place="inline">二、漉法者。《薩婆多》云：「欲作
 <lb n="0901c16" ed="T"/>住處，先看水中有蟲否。有者，作餘井。猶有者，
 <lb n="0901c17" ed="T"/>捨去。凡用水法應清淨者，如法漉置一器中，
 <lb n="0901c18" ed="T"/>足一日用，令持戒審悉。漉竟，著淨器中，向日
 <lb n="0901c19" ed="T"/>諦視看。故有者，如前說。」<note place="inline">即作餘井捨去。</note>然水陸空界，無
 <lb n="0901c20" ed="T"/>非皆是有情依處。《律》中且據漉囊所得，肉眼
-<lb n="0901c21" ed="T"/>所見，以《論》持犯耳。</p><p xml:id="pT45p0901c2108" cb:place="inline">三、作囊法。《多論》：「取上細㲲
+<lb n="0901c21" ed="T"/>所見，以《論》持犯耳。</p>
+<p xml:id="pT45p0901c2108" cb:place="inline">三、作囊法。《多論》：「取上細㲲
 <lb n="0901c22" ed="T"/>一肘作囊。」<note place="inline">此間宜用密練絹作。</note>《僧祇》：「蟲太細，三重作。」《四分》：
 <lb n="0901c23" ed="T"/>「作漉水袋，如杓形，若三角，若作宏㨯，若作漉
 <lb n="0901c24" ed="T"/>瓶。若患細蟲出，安沙於囊中。漉訖，還著水中。」

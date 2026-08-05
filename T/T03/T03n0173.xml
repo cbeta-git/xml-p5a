@@ -2,85 +2,110 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T03n0173">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">福力太子因緣經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 173 福力太子因緣經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 173 福力太子因緣經</title>
-			<author>宋 施護等譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>4卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">3</idno>.<idno type="no">173</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Fan Zhen-Ye</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，范振業大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="1999-08-10T22:41:26">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">福力太子因緣經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 173 福力太子因緣經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 173 福力太子因緣經</title>
+      <author>宋 施護等譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>4卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">3</idno>.<idno type="no">173</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Fan Zhen-Ye</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，范振業大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="1999-08-10T22:41:26">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0428a13" ed="T"/>
 <lb n="0428a14" ed="T"/><cb:docNumber>No. 173</cb:docNumber>
-<lb n="0428a15" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><title>佛說福力太子因緣經</title>卷<note n="0428009" resp="Taisho" type="orig" place="foot text">第一＝上【明】＊</note><note n="0428009" resp="CBETA" type="mod">第一【大】＊，上【明】＊</note><app n="0428009"><lem wit="【大】">第一</lem><rdg resp="Taisho" wit="【明】">上</rdg></app></cb:jhead></cb:juan>
+<lb n="0428a15" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><title>佛說福力太子因緣經</title>卷<note 
+n="0428009" resp="Taisho" type="orig" place="foot text">第一＝上【明】＊</note><note 
+n="0428009" resp="CBETA" type="mod">第一【大】＊，上【明】＊</note><app n="0428009">
+  <lem wit="【大】">第一</lem>
+  <rdg resp="Taisho" wit="【明】">上</rdg>
+</app></cb:jhead></cb:juan>
 <lb n="0428a16" ed="T"/>
-<lb n="0428a17" ed="T"/><byline cb:type="Translator"><note n="0428010" resp="Taisho" type="orig" place="foot text">西天譯經＝宋西天【明】＊</note><note n="0428010" resp="CBETA" type="mod">西天譯經【大】＊，宋西天【明】＊</note><app n="0428010"><lem wit="【大】">西天譯經</lem><rdg resp="Taisho" wit="【明】">宋西天</rdg></app>三藏朝奉大夫試光祿卿傳
-<lb n="0428a18" ed="T"/>法大師<note n="0428011" resp="Taisho" type="orig" place="foot text">〔賜…臣〕－【明】＊</note><note n="0428011" resp="CBETA" type="mod">賜…臣【大】＊，〔－〕【明】＊</note><app n="0428011" cb:word-count="5"><lem wit="【大】">賜紫沙門臣</lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>施護<note n="0428012" resp="Taisho" type="orig" place="foot text">〔等〕－【明】＊</note><note n="0428012" resp="CBETA" type="mod">等【大】＊，〔－〕【明】＊</note><app n="0428012"><lem wit="【大】">等</lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>奉　詔譯</byline>
+<lb n="0428a17" ed="T"/><byline cb:type="Translator"><note 
+n="0428010" resp="Taisho" type="orig" place="foot text">西天譯經＝宋西天【明】＊</note><note 
+n="0428010" resp="CBETA" type="mod">西天譯經【大】＊，宋西天【明】＊</note><app n="0428010">
+  <lem wit="【大】">西天譯經</lem>
+  <rdg resp="Taisho" wit="【明】">宋西天</rdg>
+</app>三藏朝奉大夫試光祿卿傳
+<lb n="0428a18" ed="T"/>法大師<note 
+n="0428011" resp="Taisho" type="orig" place="foot text">〔賜…臣〕－【明】＊</note><note 
+n="0428011" resp="CBETA" type="mod">賜…臣【大】＊，〔－〕【明】＊</note><app n="0428011" cb:word-count="5">
+  <lem wit="【大】">賜紫沙門臣</lem>
+  <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
+</app>施護<note 
+n="0428012" resp="Taisho" type="orig" place="foot text">〔等〕－【明】＊</note><note 
+n="0428012" resp="CBETA" type="mod">等【大】＊，〔－〕【明】＊</note><app n="0428012">
+  <lem wit="【大】">等</lem>
+  <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
+</app>奉　詔譯</byline>
 <lb n="0428a19" ed="T"/><cb:div type="jing"><p xml:id="pT03p0428a1901">爾時世尊，從本座起，詣安陀林，於一樹下，
-<lb n="0428a20" ed="T"/><note n="0428013" resp="Taisho" type="orig" place="foot text">晝＝書【元】</note><note n="0428013" resp="CBETA" type="mod">晝【大】，書【元】</note><app n="0428013"><lem wit="【大】">晝</lem><rdg resp="Taisho" wit="【元】">書</rdg></app>日棲止，宴寂而坐。是時諸苾芻眾，於其
+<lb n="0428a20" ed="T"/><note 
+n="0428013" resp="Taisho" type="orig" place="foot text">晝＝書【元】</note><note 
+n="0428013" resp="CBETA" type="mod">晝【大】，書【元】</note><app n="0428013">
+  <lem wit="【大】">晝</lem>
+  <rdg resp="Taisho" wit="【元】">書</rdg>
+</app>日棲止，宴寂而坐。是時諸苾芻眾，於其
 <lb n="0428a21" ed="T"/>園林，別會一舍，依次而坐，所謂尊者阿難、
 <lb n="0428a22" ed="T"/>尊者聞二百億、尊者阿泥樓馱、尊者舍利
 <lb n="0428a23" ed="T"/>子，如是等諸苾芻眾，既共集會，乃相謂言：
@@ -103,19 +128,33 @@
 <lb n="0428b10" ed="T"/><p xml:id="pT03p0428b1001">是時世尊在於林中，以淨天耳過於人耳，聞
 <lb n="0428b11" ed="T"/>苾芻眾以如是事集會議論，即從三摩地起，
 <lb n="0428b12" ed="T"/>詣苾芻所。時諸苾芻，前迎世尊，設座奉請。
-<lb n="0428b13" ed="T"/>佛就座已，告苾芻言：「諸苾芻！向<note n="0428014" resp="Taisho" type="orig" place="foot text">〔聞〕欠【明】</note><note n="0428014" resp="CBETA" type="mod">聞【大】，〔－〕【明】</note><app n="0428014"><lem wit="【大】">聞</lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>汝等共
+<lb n="0428b13" ed="T"/>佛就座已，告苾芻言：「諸苾芻！向<note 
+n="0428014" resp="Taisho" type="orig" place="foot text">〔聞〕欠【明】</note><note 
+n="0428014" resp="CBETA" type="mod">聞【大】，〔－〕【明】</note><app n="0428014">
+  <lem wit="【大】">聞</lem>
+  <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
+</app>汝等共
 <lb n="0428b14" ed="T"/>相議言：『世間人眾，何所修作，多獲義利？』初
 <lb n="0428b15" ed="T"/>阿難言，色相修作多獲義利；聞二百億言，精
 <lb n="0428b16" ed="T"/>進修作多獲義利；阿泥樓馱言，工巧修作多
 <lb n="0428b17" ed="T"/>獲義利；舍利子言，智慧修作多獲義利。如是
 <lb n="0428b18" ed="T"/>說已，又起念言：『所說差別，不相齊等，所
 <lb n="0428b19" ed="T"/>謂各各建立最勝。若以此義，往問世尊，佛
-<lb n="0428b20" ed="T"/>必為我隨<note n="0428015" resp="Taisho" type="orig" place="foot text">應＝意【明】</note><note n="0428015" resp="CBETA" type="mod">應【大】，意【明】</note><app n="0428015"><lem wit="【大】">應</lem><rdg resp="Taisho" wit="【明】">意</rdg></app>宣說。如其所說，我等奉持。』是
-<lb n="0428b21" ed="T"/>事云何？」</p><p xml:id="pT03p0428b2104" cb:place="inline">諸苾芻白佛言：「誠哉！世尊！我等向
+<lb n="0428b20" ed="T"/>必為我隨<note 
+n="0428015" resp="Taisho" type="orig" place="foot text">應＝意【明】</note><note 
+n="0428015" resp="CBETA" type="mod">應【大】，意【明】</note><app n="0428015">
+  <lem wit="【大】">應</lem>
+  <rdg resp="Taisho" wit="【明】">意</rdg>
+</app>宣說。如其所說，我等奉持。』是
+<lb n="0428b21" ed="T"/>事云何？」</p>
+<p xml:id="pT03p0428b2104" cb:place="inline">諸苾芻白佛言：「誠哉！世尊！我等向
 <lb n="0428b22" ed="T"/>者為以此緣集會議論，願佛今時開決疑惑。」</p>
 <lb n="0428b23" ed="T"/><p xml:id="pT03p0428b2301">爾時世尊為發此緣，說伽陀曰：</p>
-<lb n="0428b24" ed="T"/><lg type="regular" xml:id="lgT03p0428b2401" style="margin-left:1em;text-indent:-1em"><l>「色相工巧與精進，<caesura/>智慧於中為最勝；</l>
-<lb n="0428b25" ed="T"/><l>若諸有情修福因，<caesura/>所獲福果又極勝。」</l></lg>
+<lb n="0428b24" ed="T"/><lg type="regular" xml:id="lgT03p0428b2401" style="margin-left:1em;text-indent:-1em">
+  <l>「色相工巧與精進，<caesura/>智慧於中為最勝；</l>
+<lb n="0428b25" ed="T"/>
+  <l>若諸有情修福因，<caesura/>所獲福果又極勝。」</l>
+</lg>
 <lb n="0428b26" ed="T"/><p xml:id="pT03p0428b2601">說是伽陀已，復告苾芻言：「諸苾芻，或時有
 <lb n="0428b27" ed="T"/>人，於色相等，若隨修作，非一切種、一切時，
 <lb n="0428b28" ed="T"/>多獲義利。若修福力，於一切種及一切時，
@@ -164,20 +203,36 @@
 <lb n="0429a11" ed="T"/>中，勅令周遍清淨嚴潔所有王城內外，一切
 <lb n="0429a12" ed="T"/>人眾，悉著淨衣及妙嚴飾，各持異香華鬘，
 <lb n="0429a13" ed="T"/>咸來集會。時廣照后，以眾嚴具殊妙嚴飾，
-<lb n="0429a14" ed="T"/>宮嬪、眷屬、侍從<note n="0429001" resp="Taisho" type="orig" place="foot text">圍＝園【明】</note><note n="0429001" resp="CBETA" type="mod">圍【大】，園【明】</note><app n="0429001"><lem wit="【大】">圍</lem><rdg resp="Taisho" wit="【明】">園</rdg></app>繞，出詣眾前，相好莊嚴，
+<lb n="0429a14" ed="T"/>宮嬪、眷屬、侍從<note 
+n="0429001" resp="Taisho" type="orig" place="foot text">圍＝園【明】</note><note 
+n="0429001" resp="CBETA" type="mod">圍【大】，園【明】</note><app n="0429001">
+  <lem wit="【大】">圍</lem>
+  <rdg resp="Taisho" wit="【明】">園</rdg>
+</app>繞，出詣眾前，相好莊嚴，
 <lb n="0429a15" ed="T"/>其猶天女；一切人眾，咸所瞻仰，俱生歡悅。
 <lb n="0429a16" ed="T"/>是時王后，於諸有情，隨起慈心，仰瞻虛空，
 <lb n="0429a17" ed="T"/>以其真實加持力故，說伽陀曰：</p>
-<lb n="0429a18" ed="T"/><lg type="regular" xml:id="lgT03p0429a1801" style="margin-left:2em;text-indent:-2em"><l>「『天主人主及解脫，<caesura/>是三福力若最勝；</l>
-<lb n="0429a19" ed="T"/><l>由此真實我今時，<caesura/>願天速布師子座。』</l></lg>
+<lb n="0429a18" ed="T"/><lg type="regular" xml:id="lgT03p0429a1801" style="margin-left:2em;text-indent:-2em">
+  <l>「『天主人主及解脫，<caesura/>是三福力若最勝；</l>
+<lb n="0429a19" ed="T"/>
+  <l>由此真實我今時，<caesura/>願天速布師子座。』</l>
+</lg>
 <lb n="0429a20" ed="T"/><p xml:id="pT03p0429a2001">「說是伽陀已，即時忽然天降勝妙師子之座
 <lb n="0429a21" ed="T"/>及散妙華；空中諸天，悉皆胥悅。時彼人眾，
 <lb n="0429a22" ed="T"/>見是希有殊特事已，咸生愛樂，俱共歎異，
 <lb n="0429a23" ed="T"/>說伽陀曰：</p>
-<lb n="0429a24" ed="T"/><lg type="regular" xml:id="lgT03p0429a2401" style="margin-left:2em;text-indent:-2em"><l>「『希有大福大力能，<caesura/>一切世間今供養；</l>
-<lb n="0429a25" ed="T"/><l>人間所欲天能成，<caesura/>彼天福力為勝上。』</l></lg>
+<lb n="0429a24" ed="T"/><lg type="regular" xml:id="lgT03p0429a2401" style="margin-left:2em;text-indent:-2em">
+  <l>「『希有大福大力能，<caesura/>一切世間今供養；</l>
+<lb n="0429a25" ed="T"/>
+  <l>人間所欲天能成，<caesura/>彼天福力為勝上。』</l>
+</lg>
 <lb n="0429a26" ed="T"/><p xml:id="pT03p0429a2601">「時廣照后，心生歡喜，處師子座；昇是座已，
-<lb n="0429a27" ed="T"/>即時大地六種震動，其師子座，從地<note n="0429002" resp="Taisho" type="orig" place="foot text">踊＝涌【明】</note><note n="0429002" resp="CBETA" type="mod">踊【大】，涌【明】</note><app n="0429002"><lem wit="【大】">踊</lem><rdg resp="Taisho" wit="【明】">涌</rdg></app>起，
+<lb n="0429a27" ed="T"/>即時大地六種震動，其師子座，從地<note 
+n="0429002" resp="Taisho" type="orig" place="foot text">踊＝涌【明】</note><note 
+n="0429002" resp="CBETA" type="mod">踊【大】，涌【明】</note><app n="0429002">
+  <lem wit="【大】">踊</lem>
+  <rdg resp="Taisho" wit="【明】">涌</rdg>
+</app>起，
 <lb n="0429a28" ed="T"/>住虛空中，高七人量，復有種種殊妙珍寶莊
 <lb n="0429a29" ed="T"/>嚴，露幔覆於座上。彼諸人眾，見是福力瑞相
 <pb n="0429b" ed="T" xml:id="T03.0173.0429b"/>
@@ -187,8 +242,11 @@
 <lb n="0429b04" ed="T"/><p xml:id="pT03p0429b0401">「時眼力王，見是事已，極大歡悅，與諸官屬，
 <lb n="0429b05" ed="T"/>合掌肅恭，依次而坐。</p>
 <lb n="0429b06" ed="T"/><p xml:id="pT03p0429b0601">「爾時廣照后，即說伽陀曰：</p>
-<lb n="0429b07" ed="T"/><lg type="regular" xml:id="lgT03p0429b0701" style="margin-left:2em;text-indent:-2em"><l>「『人當修作諸福因，<caesura/>如彼所作勿間斷；</l>
-<lb n="0429b08" ed="T"/><l>隨其樂欲施作時，<caesura/>由福藏故獲妙樂。』</l></lg>
+<lb n="0429b07" ed="T"/><lg type="regular" xml:id="lgT03p0429b0701" style="margin-left:2em;text-indent:-2em">
+  <l>「『人當修作諸福因，<caesura/>如彼所作勿間斷；</l>
+<lb n="0429b08" ed="T"/>
+  <l>隨其樂欲施作時，<caesura/>由福藏故獲妙樂。』</l>
+</lg>
 <lb n="0429b09" ed="T"/><p xml:id="pT03p0429b0901">「說是伽陀已，空中自然有聲讚言：『汝今善說！
 <lb n="0429b10" ed="T"/>最上善說！』又復空中，奏天微妙可愛音樂。
 <lb n="0429b11" ed="T"/>其眼力王與諸人眾，聞說伽陀，時自然天
@@ -200,7 +258,12 @@
 <lb n="0429b17" ed="T"/>重。廣供奉已，悉皆歡喜。時廣照后，迴入宮
 <lb n="0429b18" ed="T"/>中，既入宮已，彼師子座，空中隨隱。時諸人
 <lb n="0429b19" ed="T"/>眾，顯明觀見，如上瑞相，歡喜讚言：『奇哉福
-<lb n="0429b20" ed="T"/>力，<note n="0429003" resp="Taisho" type="orig" place="foot text">具＝俱【明】</note><note n="0429003" resp="CBETA" type="mod">具【大】，俱【明】</note><app n="0429003"><lem wit="【大】">具</lem><rdg resp="Taisho" wit="【明】">俱</rdg></app>大威德。奇哉福力，是甘美果。』</p>
+<lb n="0429b20" ed="T"/>力，<note 
+n="0429003" resp="Taisho" type="orig" place="foot text">具＝俱【明】</note><note 
+n="0429003" resp="CBETA" type="mod">具【大】，俱【明】</note><app n="0429003">
+  <lem wit="【大】">具</lem>
+  <rdg resp="Taisho" wit="【明】">俱</rdg>
+</app>大威德。奇哉福力，是甘美果。』</p>
 <lb n="0429b21" ed="T"/><p xml:id="pT03p0429b2101">「爾時廣照后，處于宮中，諸所思作，皆悉止
 <lb n="0429b22" ed="T"/>息；乃至其後，滿足十月，日初出時，誕生
 <lb n="0429b23" ed="T"/>太子，色相端嚴，人所樂見；即時大地六種震
@@ -209,7 +272,12 @@
 <lb n="0429b26" ed="T"/>上悅意妙華；處處所有華樹、果樹，開敷結實；
 <lb n="0429b27" ed="T"/>觸處布灑，霏微甘雨；四方徐起，調適和風。
 <lb n="0429b28" ed="T"/>太子生已，安處于地；即時四大天王，以其
-<lb n="0429b29" ed="T"/>威神，忽然地裂，<note n="0429004" resp="Taisho" type="orig" place="foot text">踊＝涌【三】</note><note n="0429004" resp="CBETA" type="mod">踊【大】，涌【宋】【元】【明】</note><app n="0429004"><lem wit="【大】">踊</lem><rdg resp="Taisho" wit="【宋】【元】【明】">涌</rdg></app>出上妙眾寶莊嚴勝師
+<lb n="0429b29" ed="T"/>威神，忽然地裂，<note 
+n="0429004" resp="Taisho" type="orig" place="foot text">踊＝涌【三】</note><note 
+n="0429004" resp="CBETA" type="mod">踊【大】，涌【宋】【元】【明】</note><app n="0429004">
+  <lem wit="【大】">踊</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">涌</rdg>
+</app>出上妙眾寶莊嚴勝師
 <pb n="0429c" ed="T" xml:id="T03.0173.0429c"/>
 <lb n="0429c01" ed="T"/>子座，以奉太子。帝釋天主，以天妙蓋及眾
 <lb n="0429c02" ed="T"/>寶拂，持覆其上。忉利天眾，雨天妙衣及寶
@@ -218,7 +286,12 @@
 <lb n="0429c05" ed="T"/>音樂出妙歌音。毘首羯磨天子，以天神力，
 <lb n="0429c06" ed="T"/>王城內外，除去一切荊棘、沙礫，布以繒帛，
 <lb n="0429c07" ed="T"/>珠瓔莊嚴，豎立微妙眾寶幢幡，遍灑清淨
-<lb n="0429c08" ed="T"/><note n="0429005" resp="Taisho" type="orig" place="foot text">旃＝栴【三】</note><note n="0429005" resp="CBETA" type="mod">旃【大】，栴【宋】【元】【明】</note><app n="0429005"><lem wit="【大】">旃</lem><rdg resp="Taisho" wit="【宋】【元】【明】">栴</rdg></app>檀香水，周匝安置諸妙香瓶，散種種華，
+<lb n="0429c08" ed="T"/><note 
+n="0429005" resp="Taisho" type="orig" place="foot text">旃＝栴【三】</note><note 
+n="0429005" resp="CBETA" type="mod">旃【大】，栴【宋】【元】【明】</note><app n="0429005">
+  <lem wit="【大】">旃</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">栴</rdg>
+</app>檀香水，周匝安置諸妙香瓶，散種種華，
 <lb n="0429c09" ed="T"/>乃至一切悅意施設。復次，有百大象，從曠野
 <lb n="0429c10" ed="T"/>中，自然來入王宮，住於廐舍。復有百牛來
 <lb n="0429c11" ed="T"/>于田里，不以耕耘，自然依時，一切種子，具
@@ -228,13 +301,19 @@
 <lb n="0429c15" ed="T"/>所有一切，怨對有情，於須臾間，慈心相向。</p>
 <lb n="0429c16" ed="T"/><p xml:id="pT03p0429c1601">「爾時太子，以宿命力神通威德，生已即時
 <lb n="0429c17" ed="T"/>觀察四方，說伽陀曰：</p>
-<lb n="0429c18" ed="T"/><lg type="regular" xml:id="lgT03p0429c1801" style="margin-left:2em;text-indent:-2em"><l>「『人當修作諸福因，<caesura/>如彼所作勿間斷；</l>
-<lb n="0429c19" ed="T"/><l>隨其樂欲施作時，<caesura/>由福藏故獲妙樂。』</l></lg>
+<lb n="0429c18" ed="T"/><lg type="regular" xml:id="lgT03p0429c1801" style="margin-left:2em;text-indent:-2em">
+  <l>「『人當修作諸福因，<caesura/>如彼所作勿間斷；</l>
+<lb n="0429c19" ed="T"/>
+  <l>隨其樂欲施作時，<caesura/>由福藏故獲妙樂。』</l>
+</lg>
 <lb n="0429c20" ed="T"/><p xml:id="pT03p0429c2001">「是時空中，別有一類天眾，見此廣大神通威
 <lb n="0429c21" ed="T"/>德希有殊特福力事已，皆生歡悅，深心愛
 <lb n="0429c22" ed="T"/>樂，為其發起福威力故，說伽陀曰：</p>
-<lb n="0429c23" ed="T"/><lg type="regular" xml:id="lgT03p0429c2301" style="margin-left:2em;text-indent:-2em"><l>「『四大王天諸天子，<caesura/>忉利天宮天主等，</l>
-<lb n="0429c24" ed="T"/><l>彼諸福力極可愛，<caesura/>見此勝福復忻樂。』</l></lg>
+<lb n="0429c23" ed="T"/><lg type="regular" xml:id="lgT03p0429c2301" style="margin-left:2em;text-indent:-2em">
+  <l>「『四大王天諸天子，<caesura/>忉利天宮天主等，</l>
+<lb n="0429c24" ed="T"/>
+  <l>彼諸福力極可愛，<caesura/>見此勝福復忻樂。』</l>
+</lg>
 <lb n="0429c25" ed="T"/><p xml:id="pT03p0429c2501">「時眼力王，與其宮嬪、侍衛、眷屬、耆舊臣佐等，
 <lb n="0429c26" ed="T"/>顯觀如是吉祥勝相，咸生歎異，作如是言：『奇
 <lb n="0429c27" ed="T"/>哉！太子，有大福力。奇哉！太子，具大名稱。今人
@@ -249,7 +328,12 @@
 <lb n="0430a06" ed="T"/>『大王！今此太子，現生廣有吉祥福力勝相出
 <lb n="0430a07" ed="T"/>現，是故宜應立名福力。』即時王勅福力為名。</p>
 <lb n="0430a08" ed="T"/><p xml:id="pT03p0430a0801">「爾時王以福力太子，授其八母：二母抱持，
-<lb n="0430a09" ed="T"/>二母乳哺，二母濯浣，二母嬉戲。<note n="0430001" resp="Taisho" type="orig" place="foot text">令＝今【明】</note><note n="0430001" resp="CBETA" type="mod">令【大】，今【明】</note><app n="0430001"><lem wit="【大】">令</lem><rdg resp="Taisho" wit="【明】">今</rdg></app>彼八母，
+<lb n="0430a09" ed="T"/>二母乳哺，二母濯浣，二母嬉戲。<note 
+n="0430001" resp="Taisho" type="orig" place="foot text">令＝今【明】</note><note 
+n="0430001" resp="CBETA" type="mod">令【大】，今【明】</note><app n="0430001">
+  <lem wit="【大】">令</lem>
+  <rdg resp="Taisho" wit="【明】">今</rdg>
+</app>彼八母，
 <lb n="0430a10" ed="T"/>依時養育、乳哺、濯浣及戲翫等，乃至餘諸妙
 <lb n="0430a11" ed="T"/>好樂具，一切供給，受用豐足，願速成長，如
 <lb n="0430a12" ed="T"/>淨蓮華處於池沼。其後太子漸成長已，習學
@@ -258,8 +342,17 @@
 <lb n="0430a15" ed="T"/>子，深信賢善，內心清淨，一切所行，自利利
 <lb n="0430a16" ed="T"/>他，具悲愍者。於法自在，哀拯有情，作諸布
 <lb n="0430a17" ed="T"/>施，無所積集，一切能捨，大捨遍捨，無有少
-<lb n="0430a18" ed="T"/>分而不<note n="0430a1801" resp="CBETA" type="add">捨【CB】，拾【大】</note><app n="0430a1801"><lem wit="【CB】" resp="CBETA.pan">捨</lem><rdg wit="【大】">拾</rdg></app>者。謂若沙門、婆羅門，貧窮孤露、
-<lb n="0430a19" ed="T"/>諸乞丐者，或有來求<note n="0430002" resp="Taisho" type="orig" place="foot text">自＝目【三】</note><note n="0430002" resp="CBETA" type="mod">自【大】，目【宋】【元】【明】</note><app n="0430002"><lem wit="【大】">自</lem><rdg resp="Taisho" wit="【宋】【元】【明】">目</rdg></app>身血肉，是時太子
+<lb n="0430a18" ed="T"/>分而不<note 
+n="0430a1801" resp="CBETA" type="add">捨【CB】，拾【大】</note><app n="0430a1801">
+  <lem wit="【CB】" resp="CBETA.pan">捨</lem>
+  <rdg wit="【大】">拾</rdg>
+</app>者。謂若沙門、婆羅門，貧窮孤露、
+<lb n="0430a19" ed="T"/>諸乞丐者，或有來求<note 
+n="0430002" resp="Taisho" type="orig" place="foot text">自＝目【三】</note><note 
+n="0430002" resp="CBETA" type="mod">自【大】，目【宋】【元】【明】</note><app n="0430002">
+  <lem wit="【大】">自</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">目</rdg>
+</app>身血肉，是時太子
 <lb n="0430a20" ed="T"/>於乞丐人，即起慈心，觀如虛空，乃作是念：
 <lb n="0430a21" ed="T"/>『快哉！我今令其乞者得滿所願，隨即施與，況
 <lb n="0430a22" ed="T"/>復所有金銀珍寶，飲食衣服，塗香華鬘，諸
@@ -267,11 +360,19 @@
 <lb n="0430a24" ed="T"/>出現，得已施彼一切求者，使令意願皆悉圓
 <lb n="0430a25" ed="T"/>滿。』」太子具是德故，名稱遍滿於閻浮提，下
 <lb n="0430a26" ed="T"/>至龍界，上徹梵天，一切普聞。</p>
-<lb n="0430a27" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>佛說福力太子因緣經</title>卷<app type="star" corresp="#0428009"><lem wit="【大】">第一</lem><rdg resp="Taisho" wit="【明】">上</rdg></app></cb:jhead></cb:juan>
+<lb n="0430a27" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>佛說福力太子因緣經</title>卷<app type="star" corresp="#0428009">
+  <lem wit="【大】">第一</lem>
+  <rdg resp="Taisho" wit="【明】">上</rdg>
+</app></cb:jhead></cb:juan>
 <milestone n="2" unit="juan"/>
 <pb n="0430b" ed="T" xml:id="T03.0173.0430b"/>
 <lb n="0430b01" ed="T"/>
-<lb n="0430b02" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="002" type="卷"/><cb:jhead><title>佛說福力太子因緣經</title>卷<note n="0430003" resp="Taisho" type="orig" place="foot text">第二＝中【明】＊</note><note n="0430003" resp="CBETA" type="mod">第二【大】＊，中【明】＊</note><app n="0430003"><lem wit="【大】">第二</lem><rdg resp="Taisho" wit="【明】">中</rdg></app></cb:jhead></cb:juan>
+<lb n="0430b02" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="002" type="卷"/><cb:jhead><title>佛說福力太子因緣經</title>卷<note 
+n="0430003" resp="Taisho" type="orig" place="foot text">第二＝中【明】＊</note><note 
+n="0430003" resp="CBETA" type="mod">第二【大】＊，中【明】＊</note><app n="0430003">
+  <lem wit="【大】">第二</lem>
+  <rdg resp="Taisho" wit="【明】">中</rdg>
+</app></cb:jhead></cb:juan>
 <lb n="0430b03" ed="T"/>
 <lb n="0430b04" ed="T"/><byline cb:type="Translator"><anchor xml:id="fxT03p0430b01"/>西天譯經三藏朝奉大夫試光祿卿
 <lb n="0430b05" ed="T"/>傳法大師<anchor xml:id="fxT03p0430b02"/>賜紫沙門臣施護<anchor xml:id="fxT03p0430b03"/>等奉　詔譯</byline>
@@ -283,14 +384,22 @@
 <lb n="0430b11" ed="T"/>名稱，是悲愍者。我等飢渴，苦惱所逼，願今
 <lb n="0430b12" ed="T"/>餉我，少分飲食。我等宿世，造慳悋因，故此
 <lb n="0430b13" ed="T"/>生中，墮餓鬼界，無數千歲，不得水飲，況復
-<lb n="0430b14" ed="T"/>於食而可見<note n="0430004" resp="Taisho" type="orig" place="foot text">邪＝耶【三】＊</note><note n="0430004" resp="CBETA" type="mod">邪【大】＊，耶【宋】＊【元】＊【明】＊</note><app n="0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？』時福力太子，仰瞻虛空，即
+<lb n="0430b14" ed="T"/>於食而可見<note 
+n="0430004" resp="Taisho" type="orig" place="foot text">邪＝耶【三】＊</note><note 
+n="0430004" resp="CBETA" type="mod">邪【大】＊，耶【宋】＊【元】＊【明】＊</note><app n="0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？』時福力太子，仰瞻虛空，即
 <lb n="0430b15" ed="T"/>起悲念：『快哉！我今若得天降少分飲食，當用
 <lb n="0430b16" ed="T"/>餉此諸餓鬼眾。』是時忽然有多飲食，自天而
 <lb n="0430b17" ed="T"/>降。福力太子，即以此食，餉諸餓鬼。彼餓鬼
 <lb n="0430b18" ed="T"/>眾，宿業力故，悉不能見，咸作是言：『太子！我
 <lb n="0430b19" ed="T"/>昔聞汝是悲愍者，何故今時不以飲食餉於
 <lb n="0430b20" ed="T"/>我等？』太子告言：『我以天降飲食，前授汝等，
-<lb n="0430b21" ed="T"/>云何于今不取食<app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？』餓鬼白言：『太子！我等
+<lb n="0430b21" ed="T"/>云何于今不取食<app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？』餓鬼白言：『太子！我等
 <lb n="0430b22" ed="T"/>宿業力故，悉不能見。』時福力太子，復起是
 <lb n="0430b23" ed="T"/>念：『愍哉！慳悋是不可愛。』乃作是言：『若諸福
 <lb n="0430b24" ed="T"/>報有大力能，以我如是真實語故，令此餓
@@ -302,11 +411,15 @@
 <pb n="0430c" ed="T" xml:id="T03.0173.0430c"/>
 <lb n="0430c01" ed="T"/>清淨歡喜之意；即時命終，皆得生於兜率天
 <lb n="0430c02" ed="T"/>上，旋處空中，白太子言：『太子！我等得生兜
-<lb n="0430c03" ed="T"/>率天上，皆由汝之威神建立。』</p><p xml:id="pT03p0430c0312" cb:place="inline">「福力太子，聞
+<lb n="0430c03" ed="T"/>率天上，皆由汝之威神建立。』</p>
+<p xml:id="pT03p0430c0312" cb:place="inline">「福力太子，聞
 <lb n="0430c04" ed="T"/>此妙善語已，深大慶悅，即時前進詣園林中，
 <lb n="0430c05" ed="T"/>與彼諸兄，共會議言：『世間人眾，何所修作，
 <lb n="0430c06" ed="T"/>多獲義利？』彼色相具足者言：『今此世間色相
-<lb n="0430c07" ed="T"/>行業，若人修作，多獲義利。何故知<app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？謂
+<lb n="0430c07" ed="T"/>行業，若人修作，多獲義利。何故知<app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？謂
 <lb n="0430c08" ed="T"/>若有人，他昔未見，見即歡喜；昔未信重，見
 <lb n="0430c09" ed="T"/>已信重。如我往昔，師尊仙人，亦作是說，若
 <lb n="0430c10" ed="T"/>有具足妙色相者，為人所喜，妙色可觀，瞻奉
@@ -331,7 +444,8 @@
 <lb n="0430c29" ed="T"/>巧行業，若人修作，多獲義利。又復具工巧
 <pb n="0431a" ed="T" xml:id="T03.0173.0431a"/>
 <lb n="0431a01" ed="T"/>者，若王、若臣，若沙門、婆羅門，諸長者等，乃
-<lb n="0431a02" ed="T"/>至下族中人，及諸工巧之者，悉來供獻。』</p><p xml:id="pT03p0431a0216" cb:place="inline">「復
+<lb n="0431a02" ed="T"/>至下族中人，及諸工巧之者，悉來供獻。』</p>
+<p xml:id="pT03p0431a0216" cb:place="inline">「復
 <lb n="0431a03" ed="T"/>次，智慧具足者言：『汝等當知，人所修作，多
 <lb n="0431a04" ed="T"/>獲義利者，且非色相，亦非精進，又非工巧。
 <lb n="0431a05" ed="T"/>何以故？所觀色相，若無智慧，雖復相似而
@@ -369,7 +483,12 @@
 <lb n="0431b07" ed="T"/>者常得多人尊重愛樂；福有善譽，福為人讚。
 <lb n="0431b08" ed="T"/>福常能具諸善法分；福者語言人所信順；福
 <lb n="0431b09" ed="T"/>者常得光澤可愛；福者常出微妙梵音；福者
-<lb n="0431b10" ed="T"/>身<note n="0431001" resp="Taisho" type="orig" place="foot text">胑＝肢【三】</note><note n="0431001" resp="CBETA" type="mod">胑【大】，肢【宋】【元】【明】</note><app n="0431001"><lem wit="【大】">胑</lem><rdg resp="Taisho" wit="【宋】【元】【明】">肢</rdg></app>自然柔軟；福者常發妙善語言；福者
+<lb n="0431b10" ed="T"/>身<note 
+n="0431001" resp="Taisho" type="orig" place="foot text">胑＝肢【三】</note><note 
+n="0431001" resp="CBETA" type="mod">胑【大】，肢【宋】【元】【明】</note><app n="0431001">
+  <lem wit="【大】">胑</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">肢</rdg>
+</app>自然柔軟；福者常發妙善語言；福者
 <lb n="0431b11" ed="T"/>常值良友智人不壞眷屬；福者無病；福者為
 <lb n="0431b12" ed="T"/>人所愛；福獲財利；福者勇猛。又大福者，得
 <lb n="0431b13" ed="T"/>為人王，無不具足，離諸疾病；福者常得富
@@ -384,19 +503,40 @@
 <lb n="0431b22" ed="T"/><p xml:id="pT03p0431b2201">「太子說是諸福事時，四兄異見，修作不同，
 <lb n="0431b23" ed="T"/>於是太子，又復言曰：『我今欲與諸兄潛適他
 <lb n="0431b24" ed="T"/>國，隨所住處，證驗其事。為當色相人多修
-<lb n="0431b25" ed="T"/><app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？或復精進、工巧、智慧福力人多修<app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？』是
+<lb n="0431b25" ed="T"/><app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？或復精進、工巧、智慧福力人多修<app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？』是
 <lb n="0431b26" ed="T"/>時四兄，聞其言已，悉隨所行，不復告白父
-<lb n="0431b27" ed="T"/>王，即適他國。</p><p xml:id="pT03p0431b2706" cb:place="inline">「入一國已，易其<note n="0431002" resp="Taisho" type="orig" place="foot text">裝＝莊【明】</note><note n="0431002" resp="CBETA" type="mod">裝【大】，莊【明】</note><app n="0431002"><lem wit="【大】">裝</lem><rdg resp="Taisho" wit="【明】">莊</rdg></app>飾，各求
+<lb n="0431b27" ed="T"/>王，即適他國。</p>
+<p xml:id="pT03p0431b2706" cb:place="inline">「入一國已，易其<note 
+n="0431002" resp="Taisho" type="orig" place="foot text">裝＝莊【明】</note><note 
+n="0431002" resp="CBETA" type="mod">裝【大】，莊【明】</note><app n="0431002">
+  <lem wit="【大】">裝</lem>
+  <rdg resp="Taisho" wit="【明】">莊</rdg>
+</app>飾，各求
 <lb n="0431b28" ed="T"/>棲止。時色相具足者，以妙色故，人所瞻覩，
 <lb n="0431b29" ed="T"/>皆生悅意，隨獲富盛，受用資養。精進具足
 <pb n="0431c" ed="T" xml:id="T03.0173.0431c"/>
 <lb n="0431c01" ed="T"/>者，以勇力故，能有所取；而忽見一迅流大
-<lb n="0431c02" ed="T"/>河，深廣可怖，中有極大<note n="0431003" resp="Taisho" type="orig" place="foot text">旃＝栴【三】</note><note n="0431003" resp="CBETA" type="mod">旃【大】，栴【宋】【元】【明】</note><app n="0431003"><lem wit="【大】">旃</lem><rdg resp="Taisho" wit="【宋】【元】【明】">栴</rdg></app>檀香樹，彼精進
+<lb n="0431c02" ed="T"/>河，深廣可怖，中有極大<note 
+n="0431003" resp="Taisho" type="orig" place="foot text">旃＝栴【三】</note><note 
+n="0431003" resp="CBETA" type="mod">旃【大】，栴【宋】【元】【明】</note><app n="0431003">
+  <lem wit="【大】">旃</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">栴</rdg>
+</app>檀香樹，彼精進
 <lb n="0431c03" ed="T"/>者，取得其樹，貨易獲利，而成富盛，受用資
 <lb n="0431c04" ed="T"/>養。工巧具足者，以工巧力，隨作諸事，由獲
 <lb n="0431c05" ed="T"/>富盛，受用資養。智慧具足者，以巧智故，能
 <lb n="0431c06" ed="T"/>解勝怨，復能親附有財力者，悅可其意令
-<lb n="0431c07" ed="T"/>生歡喜，隨獲衣<note n="0431c0701" resp="CBETA" type="add">飾【CB】【麗-CB】，食【大】</note><app n="0431c0701"><lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">飾<note type="cf1">K40n1467_p0803c03</note><note type="cf2">T03n0173_p0429c04</note></lem><rdg wit="【大】">食</rdg></app>及財寶等，如所快樂，受
+<lb n="0431c07" ed="T"/>生歡喜，隨獲衣<note 
+n="0431c0701" resp="CBETA" type="add">飾【CB】【麗-CB】，食【大】</note><app n="0431c0701">
+  <lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">飾<note type="cf1">K40n1467_p0803c03</note><note type="cf2">T03n0173_p0429c04</note></lem>
+  <rdg wit="【大】">食</rdg>
+</app>及財寶等，如所快樂，受
 <lb n="0431c08" ed="T"/>用資養。</p>
 <lb n="0431c09" ed="T"/><p xml:id="pT03p0431c0901">「爾時福力太子，隨自勝福大威德力，周行施
 <lb n="0431c10" ed="T"/>作利益福事。一日忽過貧人之舍，乃入其中，
@@ -404,7 +544,10 @@
 <lb n="0431c12" ed="T"/>相出現，金寶財穀，周匝充盈。時彼貧人，見
 <lb n="0431c13" ed="T"/>已驚怪歡喜，思念：『此如是事，昔所未有，由
 <lb n="0431c14" ed="T"/>何所起？從何所來？豈非此人來我舍中，是其
-<lb n="0431c15" ed="T"/>威力之所致<app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？』又念：『我昔極受貧苦，今獲
+<lb n="0431c15" ed="T"/>威力之所致<app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？』又念：『我昔極受貧苦，今獲
 <lb n="0431c16" ed="T"/>勝利，一切豐盈，必由是人來此所致，使我
 <lb n="0431c17" ed="T"/>舍中吉祥相現。此人大福，有大名稱，宜應
 <lb n="0431c18" ed="T"/>於彼尊重供養。』由是尊奉，相續無間。太子
@@ -413,7 +556,12 @@
 <lb n="0431c21" ed="T"/>異人，來入其舍，彼威力故，是舍忽然吉祥
 <lb n="0431c22" ed="T"/>相現。』諸人聞已，於福力太子咸生信重，俱
 <lb n="0431c23" ed="T"/>共讚言：『奇哉！勝福，有大力能。』又以太子福
-<lb n="0431c24" ed="T"/>威力故，於彼方處，華樹<note n="0431004" resp="Taisho" type="orig" place="foot text">果＝樂【宋】</note><note n="0431004" resp="CBETA" type="mod">果【大】，樂【宋】</note><app n="0431004"><lem wit="【大】">果</lem><rdg resp="Taisho" wit="【宋】">樂</rdg></app>樹，開敷結實，時
+<lb n="0431c24" ed="T"/>威力故，於彼方處，華樹<note 
+n="0431004" resp="Taisho" type="orig" place="foot text">果＝樂【宋】</note><note 
+n="0431004" resp="CBETA" type="mod">果【大】，樂【宋】</note><app n="0431004">
+  <lem wit="【大】">果</lem>
+  <rdg resp="Taisho" wit="【宋】">樂</rdg>
+</app>樹，開敷結實，時
 <lb n="0431c25" ed="T"/>令不愆，遍灑甘雨，種子生成，而得滋茂。時
 <lb n="0431c26" ed="T"/>諸人眾，於福力太子，深生愛樂，俱來瞻仰。</p>
 <lb n="0431c27" ed="T"/><p xml:id="pT03p0431c2701">「是時太子，為諸來者普攝其心，故作是念：
@@ -425,10 +573,20 @@
 <lb n="0432a03" ed="T"/>美果。』乃於太子咸生尊重。是時太子，即為
 <lb n="0432a04" ed="T"/>諸人，如其所應，以四攝法，平等攝持，悉令
 <lb n="0432a05" ed="T"/>和合，所謂同一布施、愛語、利行、同事。由是
-<lb n="0432a06" ed="T"/>名稱普聞一切國邑聚落。</p><p xml:id="pT03p0432a0611" cb:place="inline">「乃至後時，太子漸
+<lb n="0432a06" ed="T"/>名稱普聞一切國邑聚落。</p>
+<p xml:id="pT03p0432a0611" cb:place="inline">「乃至後時，太子漸
 <lb n="0432a07" ed="T"/>次到一國中，見其國王治罰一人善醫業者，
-<lb n="0432a08" ed="T"/>勅彼獄官，破其身<note n="0432001" resp="Taisho" type="orig" place="foot text">胑＝肢【三】＊</note><note n="0432001" resp="CBETA" type="mod">胑【大】＊，肢【宋】＊【元】＊【明】＊</note><app n="0432001"><lem wit="【大】">胑</lem><rdg resp="Taisho" wit="【宋】【元】【明】">肢</rdg></app>，斷截手足。流血既多，
-<lb n="0432a09" ed="T"/>楚毒苦惱，是時<note n="0432a0901" resp="CBETA" type="add">被【CB】【麗-CB】，彼【大】</note><app n="0432a0901"><lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">被<note type="cf1">K40n1467_p0804a16</note><note type="cf2">T03n0173_p0432b07</note></lem><rdg wit="【大】">彼</rdg></app>治罰人見太子已，發大
+<lb n="0432a08" ed="T"/>勅彼獄官，破其身<note 
+n="0432001" resp="Taisho" type="orig" place="foot text">胑＝肢【三】＊</note><note 
+n="0432001" resp="CBETA" type="mod">胑【大】＊，肢【宋】＊【元】＊【明】＊</note><app n="0432001">
+  <lem wit="【大】">胑</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">肢</rdg>
+</app>，斷截手足。流血既多，
+<lb n="0432a09" ed="T"/>楚毒苦惱，是時<note 
+n="0432a0901" resp="CBETA" type="add">被【CB】【麗-CB】，彼【大】</note><app n="0432a0901">
+  <lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">被<note type="cf1">K40n1467_p0804a16</note><note type="cf2">T03n0173_p0432b07</note></lem>
+  <rdg wit="【大】">彼</rdg>
+</app>治罰人見太子已，發大
 <lb n="0432a10" ed="T"/>苦聲，啼泣告言：『仁者！救我。仁者！救我。』太子
 <lb n="0432a11" ed="T"/>即時惻愴斯事，乃自思惟：『我今作何方便救
 <lb n="0432a12" ed="T"/>此人苦？』由是念間，忽生智解，如我所有施
@@ -452,31 +610,54 @@
 <pb n="0432b" ed="T" xml:id="T03.0173.0432b"/>
 <lb n="0432b01" ed="T"/>觀察，乃見福力太子作彼最上極難行事，歡
 <lb n="0432b02" ed="T"/>喜歎異。又念：『今此大威德者，作是難事，何
-<lb n="0432b03" ed="T"/>所求<app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？我今宜往證驗其故。』即變婆羅門
+<lb n="0432b03" ed="T"/>所求<app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？我今宜往證驗其故。』即變婆羅門
 <lb n="0432b04" ed="T"/>相自天而降，住太子前告言：『太子！我向見汝
-<lb n="0432b05" ed="T"/>斷自手足，何所為<app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？』太子答言：『仁者！他有
+<lb n="0432b05" ed="T"/>斷自手足，何所為<app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？』太子答言：『仁者！他有
 <lb n="0432b06" ed="T"/>苦惱，即我苦惱；若他快樂，即我快樂。故我
 <lb n="0432b07" ed="T"/>向者見一被治罰人，甚大苦惱，我時乃以真
 <lb n="0432b08" ed="T"/>實力故，棄捨自身手足支分，填續其人所斷
 <lb n="0432b09" ed="T"/>割處，願力真誠，彼獲如故。』</p>
 <lb n="0432b10" ed="T"/><p xml:id="pT03p0432b1001">「是時帝釋天主，愈生歎異，即復本形，告太
 <lb n="0432b11" ed="T"/>子言：『汝今豈非以不實心，或異所求，或退
-<lb n="0432b12" ed="T"/>轉故，捨自身<app type="star" corresp="#0430004"><lem wit="【大】">邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg></app>？』太子白言：『天主！我所棄捨
+<lb n="0432b12" ed="T"/>轉故，捨自身<app type="star" corresp="#0430004">
+  <lem wit="【大】">邪</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">耶</rdg>
+</app>？』太子白言：『天主！我所棄捨
 <lb n="0432b13" ed="T"/>自身手足，無不實心，亦無異求，又非退轉。』
 <lb n="0432b14" ed="T"/>帝釋復言：『汝若然者，云何使我證知是事。』
 <lb n="0432b15" ed="T"/>太子白言：『天主！汝豈不聞，如我所作，皆真
 <lb n="0432b16" ed="T"/>實力。』太子即於一切有情，隨起慈心，觀察
 <lb n="0432b17" ed="T"/>四方以實願力，說伽陀曰：</p>
-<lb n="0432b18" ed="T"/><lg type="regular" xml:id="lgT03p0432b1801" style="margin-left:2em;text-indent:-2em"><l>「『若我所言是真實，<caesura/>貪愛自身為纏縛；</l>
-<lb n="0432b19" ed="T"/><l>真實不退轉今時，<caesura/>願我此身即如故。』</l></lg>
-<lb n="0432b20" ed="T"/><p xml:id="pT03p0432b2001">「說是伽陀已，太子身<app type="star" corresp="#0432001"><lem wit="【大】">胑</lem><rdg resp="Taisho" wit="【宋】【元】【明】">肢</rdg></app>即獲如故。由是空中
+<lb n="0432b18" ed="T"/><lg type="regular" xml:id="lgT03p0432b1801" style="margin-left:2em;text-indent:-2em">
+  <l>「『若我所言是真實，<caesura/>貪愛自身為纏縛；</l>
+<lb n="0432b19" ed="T"/>
+  <l>真實不退轉今時，<caesura/>願我此身即如故。』</l>
+</lg>
+<lb n="0432b20" ed="T"/><p xml:id="pT03p0432b2001">「說是伽陀已，太子身<app type="star" corresp="#0432001">
+  <lem wit="【大】">胑</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">肢</rdg>
+</app>即獲如故。由是空中
 <lb n="0432b21" ed="T"/>遍雨天華，奏天微妙可愛音樂，和風徐起，現
 <lb n="0432b22" ed="T"/>諸瑞相。</p>
-<lb n="0432b23" ed="T"/><cb:juan n="002" fun="close"><cb:jhead><title>佛說福力太子因緣經</title>卷<app type="star" corresp="#0430003"><lem wit="【大】">第二</lem><rdg resp="Taisho" wit="【明】">中</rdg></app></cb:jhead></cb:juan>
+<lb n="0432b23" ed="T"/><cb:juan n="002" fun="close"><cb:jhead><title>佛說福力太子因緣經</title>卷<app type="star" corresp="#0430003">
+  <lem wit="【大】">第二</lem>
+  <rdg resp="Taisho" wit="【明】">中</rdg>
+</app></cb:jhead></cb:juan>
 <milestone n="3" unit="juan"/>
 <pb n="0432c" ed="T" xml:id="T03.0173.0432c"/>
 <lb n="0432c01" ed="T"/>
-<lb n="0432c02" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="003" type="卷"/><cb:jhead><title>佛說福力太子因緣經</title>卷<note n="0432002" resp="Taisho" type="orig" place="foot text">第三＝下【明】＊</note><note n="0432002" resp="CBETA" type="mod">第三【大】＊，下【明】＊</note><app n="0432002"><lem wit="【大】">第三</lem><rdg resp="Taisho" wit="【明】">下</rdg></app></cb:jhead></cb:juan>
+<lb n="0432c02" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="003" type="卷"/><cb:jhead><title>佛說福力太子因緣經</title>卷<note 
+n="0432002" resp="Taisho" type="orig" place="foot text">第三＝下【明】＊</note><note 
+n="0432002" resp="CBETA" type="mod">第三【大】＊，下【明】＊</note><app n="0432002">
+  <lem wit="【大】">第三</lem>
+  <rdg resp="Taisho" wit="【明】">下</rdg>
+</app></cb:jhead></cb:juan>
 <lb n="0432c03" ed="T"/>
 <lb n="0432c04" ed="T"/><byline cb:type="Translator">西天譯經三藏朝奉大夫試光祿卿傳
 <lb n="0432c05" ed="T"/>法大師賜紫沙門臣施護等奉　詔譯</byline>
@@ -509,7 +690,11 @@
 <lb n="0433a02" ed="T"/>於園中，隨處遊賞。又復太子，福威力故，彼有
 <lb n="0433a03" ed="T"/>龍王，忽然從地涌出千葉微妙蓮華，其量廣
 <lb n="0433a04" ed="T"/>大，色香具足，最上可愛。而彼龍王，又以神力
-<lb n="0433a05" ed="T"/><note n="0433a0501" resp="CBETA" type="add">徐【CB】【麗-CB】，除【大】</note><app n="0433a0501"><lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">徐<note type="cf1">K40n1467_p0805b14</note></lem><rdg wit="【大】">除</rdg></app>置太子在蓮華上；爾時太子都無動覺。由
+<lb n="0433a05" ed="T"/><note 
+n="0433a0501" resp="CBETA" type="add">徐【CB】【麗-CB】，除【大】</note><app n="0433a0501">
+  <lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">徐<note type="cf1">K40n1467_p0805b14</note></lem>
+  <rdg wit="【大】">除</rdg>
+</app>置太子在蓮華上；爾時太子都無動覺。由
 <lb n="0433a06" ed="T"/>是漸過食時，日正中分，餘諸樹影悉皆移動，
 <lb n="0433a07" ed="T"/>唯無憂樹影覆太子身，如故不動。又彼園中
 <lb n="0433a08" ed="T"/>諸餘華樹，皆悉傾向，大無憂樹，吉祥勝相，悅
@@ -530,14 +715,24 @@
 <lb n="0433a23" ed="T"/>諸臣佐，聞彼言已，皆生歡喜。即依法儀，悉
 <lb n="0433a24" ed="T"/>備所須，行詣園中，授其灌頂，到已見諸吉祥
 <lb n="0433a25" ed="T"/>勝相。</p>
-<lb n="0433a26" ed="T"/><p xml:id="pT03p0433a2601">「時福力太子，即於微妙大蓮華上，結<note n="0433001" resp="Taisho" type="orig" place="foot text">加＝跏【明】</note><note n="0433001" resp="CBETA" type="mod">加【大】，跏【明】</note><app n="0433001"><lem wit="【大】">加</lem><rdg resp="Taisho" wit="【明】">跏</rdg></app>趺
+<lb n="0433a26" ed="T"/><p xml:id="pT03p0433a2601">「時福力太子，即於微妙大蓮華上，結<note 
+n="0433001" resp="Taisho" type="orig" place="foot text">加＝跏【明】</note><note 
+n="0433001" resp="CBETA" type="mod">加【大】，跏【明】</note><app n="0433001">
+  <lem wit="【大】">加</lem>
+  <rdg resp="Taisho" wit="【明】">跏</rdg>
+</app>趺
 <lb n="0433a27" ed="T"/>坐。以福力開發故，四大天王奉天莊嚴大
 <lb n="0433a28" ed="T"/>師子座，帝釋天主奉天妙蓋及眾寶拂，忉
 <lb n="0433a29" ed="T"/>利諸天奉種種寶嚴飾露幔，散眾寶華如雲
 <pb n="0433b" ed="T" xml:id="T03.0173.0433b"/>
 <lb n="0433b01" ed="T"/>而下。四大王天諸天子眾，雨種種寶，奏天
 <lb n="0433b02" ed="T"/>微妙可愛音樂，及散妙衣。國中園林，周遍
-<lb n="0433b03" ed="T"/>清淨，一切悉無荊棘砂礫。豎立幢<note n="0433002" resp="Taisho" type="orig" place="foot text">幡＝旛【元】【明】</note><note n="0433002" resp="CBETA" type="mod">幡【大】，旛【元】【明】</note><app n="0433002"><lem wit="【大】">幡</lem><rdg resp="Taisho" wit="【元】【明】">旛</rdg></app>珠繒
+<lb n="0433b03" ed="T"/>清淨，一切悉無荊棘砂礫。豎立幢<note 
+n="0433002" resp="Taisho" type="orig" place="foot text">幡＝旛【元】【明】</note><note 
+n="0433002" resp="CBETA" type="mod">幡【大】，旛【元】【明】</note><app n="0433002">
+  <lem wit="【大】">幡</lem>
+  <rdg resp="Taisho" wit="【元】【明】">旛</rdg>
+</app>珠繒
 <lb n="0433b04" ed="T"/>交絡，設妙香瓶，散諸異華與天宮等。帝釋
 <lb n="0433b05" ed="T"/>天主，勅毘首羯磨天子，普於園林，悉令化
 <lb n="0433b06" ed="T"/>出四寶所成廣大樓閣，以備太子隨意受用。
@@ -550,7 +745,12 @@
 <lb n="0433b13" ed="T"/><p xml:id="pT03p0433b1301">「爾時福力王將入王城，帝釋天主等，於其
 <lb n="0433b14" ed="T"/>王前，隨依法儀，作供獻已，隱復天宮。時福
 <lb n="0433b15" ed="T"/>力王，既入城已，善布國政，人民熾盛，安隱
-<lb n="0433b16" ed="T"/>豐樂，息諸鬪諍，却除他敵，悉無賊盜、<note n="0433003" resp="Taisho" type="orig" place="foot text">飢＝饑【三】</note><note n="0433003" resp="CBETA" type="mod">飢【大】，饑【宋】【元】【明】</note><app n="0433003"><lem wit="【大】">飢</lem><rdg resp="Taisho" wit="【宋】【元】【明】">饑</rdg></app>饉、
+<lb n="0433b16" ed="T"/>豐樂，息諸鬪諍，却除他敵，悉無賊盜、<note 
+n="0433003" resp="Taisho" type="orig" place="foot text">飢＝饑【三】</note><note 
+n="0433003" resp="CBETA" type="mod">飢【大】，饑【宋】【元】【明】</note><app n="0433003">
+  <lem wit="【大】">飢</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">饑</rdg>
+</app>饉、
 <lb n="0433b17" ed="T"/>疾病，愛護人民，猶如一子。華果樹林，悉皆
 <lb n="0433b18" ed="T"/>茂盛，時令不愆，稼穡豐阜，雨澤順時，大地
 <lb n="0433b19" ed="T"/>受潤。復次，其後王之四兄，聞斯異事，咸生
@@ -570,64 +770,126 @@
 <lb n="0433c03" ed="T"/>起尊重意，各以所奉。如是集會過二三日，王
 <lb n="0433c04" ed="T"/>為諸兄及彼人眾開發，令知福非福事，說伽
 <lb n="0433c05" ed="T"/>陀曰：</p>
-<lb n="0433c06" ed="T"/><lg type="regular" xml:id="lgT03p0433c0601" style="margin-left:2em;text-indent:-2em"><l>「『無福者墮地獄中，<caesura/>受大苦惱常無間；</l>
-<lb n="0433c07" ed="T"/><l>或墮餓鬼或畜生，<caesura/>受飢渴苦及負重。</l>
-<lb n="0433c08" ed="T"/><l>無福之者壞其身，<caesura/>無福為奴重疲極，</l>
-<lb n="0433c09" ed="T"/><l>無福墮於聾瘂中，<caesura/>無福愚鈍多邪慧。</l>
-<lb n="0433c10" ed="T"/><l>無福之者魑魅著，<caesura/>無福之者醜形容，</l>
-<lb n="0433c11" ed="T"/><l>無福多於下族生，<caesura/>無福心亂人所惡，</l>
-<lb n="0433c12" ed="T"/><l>無福之者多迷惑，<caesura/>無福為他所輕謗，</l>
-<lb n="0433c13" ed="T"/><l>無福之者諸所為，<caesura/>雖復勤力不成就。</l>
-<lb n="0433c14" ed="T"/><l>無福之者身麤澁，<caesura/>悉無威光不可意；</l>
-<lb n="0433c15" ed="T"/><l>無福之人<note n="0433004" resp="Taisho" type="orig" place="foot text">兄＝凡【三】</note><note n="0433004" resp="CBETA" type="mod">兄【大】，凡【宋】【元】【明】</note><app n="0433004"><lem wit="【大】">兄</lem><rdg resp="Taisho" wit="【宋】【元】【明】">凡</rdg></app>所居，<caesura/>草木青潤成枯瘁。</l>
-<lb n="0433c16" ed="T"/><l>無福人所不隨順，<caesura/>外境觸害亦復然；</l>
-<lb n="0433c17" ed="T"/><l>諸惡鬼神羅剎娑，<caesura/>常時侵嬈無福者。</l>
-<lb n="0433c18" ed="T"/><l>無福者用藥治病，<caesura/>返成非藥病增劇；</l>
-<lb n="0433c19" ed="T"/><l>由無福故受貧窮，<caesura/>復為他人所輕慢。</l>
-<lb n="0433c20" ed="T"/><l>無福之人生子息，<caesura/>其性麤惡眾憎嫌；</l>
-<lb n="0433c21" ed="T"/><l>無福者雖眷屬多，<caesura/>常時離散生苦惱。</l>
-<lb n="0433c22" ed="T"/><l>無福者壞於眼目，<caesura/>而復相續諸苦生，</l>
-<lb n="0433c23" ed="T"/><l>多病皆由無福因，<caesura/>小生<note n="0433c2301" resp="CBETA" type="add">疾【CB】【麗-CB】，疲【大】</note><app n="0433c2301"><lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">疾<note type="cf1">K40n1467_p0806c08</note><note type="cf2">T03n0173_p0434a13</note></lem><rdg wit="【大】">疲</rdg></app>病固難差。</l>
-<lb n="0433c24" ed="T"/><l>無福之人多兇惡，<caesura/>無福常發麤惡聲；</l>
-<lb n="0433c25" ed="T"/><l>手指攣拳體不完，<caesura/>語言人多不信順。</l>
-<lb n="0433c26" ed="T"/><l>無福之人諸所有，<caesura/>王官水火盜賊銷；</l>
-<lb n="0433c27" ed="T"/><l>無福唯聞非愛言，<caesura/>觸處常生於驚怖。</l>
-<lb n="0433c28" ed="T"/><l>無福雖居平坦地，<caesura/>隨處旋當荊棘生；</l>
-<lb n="0433c29" ed="T"/><l>設或植種及經商，<caesura/>雖常多作無義利。</l>
+<lb n="0433c06" ed="T"/><lg type="regular" xml:id="lgT03p0433c0601" style="margin-left:2em;text-indent:-2em">
+  <l>「『無福者墮地獄中，<caesura/>受大苦惱常無間；</l>
+<lb n="0433c07" ed="T"/>
+  <l>或墮餓鬼或畜生，<caesura/>受飢渴苦及負重。</l>
+<lb n="0433c08" ed="T"/>
+  <l>無福之者壞其身，<caesura/>無福為奴重疲極，</l>
+<lb n="0433c09" ed="T"/>
+  <l>無福墮於聾瘂中，<caesura/>無福愚鈍多邪慧。</l>
+<lb n="0433c10" ed="T"/>
+  <l>無福之者魑魅著，<caesura/>無福之者醜形容，</l>
+<lb n="0433c11" ed="T"/>
+  <l>無福多於下族生，<caesura/>無福心亂人所惡，</l>
+<lb n="0433c12" ed="T"/>
+  <l>無福之者多迷惑，<caesura/>無福為他所輕謗，</l>
+<lb n="0433c13" ed="T"/>
+  <l>無福之者諸所為，<caesura/>雖復勤力不成就。</l>
+<lb n="0433c14" ed="T"/>
+  <l>無福之者身麤澁，<caesura/>悉無威光不可意；</l>
+<lb n="0433c15" ed="T"/>
+  <l>無福之人<note 
+n="0433004" resp="Taisho" type="orig" place="foot text">兄＝凡【三】</note><note 
+n="0433004" resp="CBETA" type="mod">兄【大】，凡【宋】【元】【明】</note><app n="0433004">
+    <lem wit="【大】">兄</lem>
+    <rdg resp="Taisho" wit="【宋】【元】【明】">凡</rdg>
+  </app>所居，<caesura/>草木青潤成枯瘁。</l>
+<lb n="0433c16" ed="T"/>
+  <l>無福人所不隨順，<caesura/>外境觸害亦復然；</l>
+<lb n="0433c17" ed="T"/>
+  <l>諸惡鬼神羅剎娑，<caesura/>常時侵嬈無福者。</l>
+<lb n="0433c18" ed="T"/>
+  <l>無福者用藥治病，<caesura/>返成非藥病增劇；</l>
+<lb n="0433c19" ed="T"/>
+  <l>由無福故受貧窮，<caesura/>復為他人所輕慢。</l>
+<lb n="0433c20" ed="T"/>
+  <l>無福之人生子息，<caesura/>其性麤惡眾憎嫌；</l>
+<lb n="0433c21" ed="T"/>
+  <l>無福者雖眷屬多，<caesura/>常時離散生苦惱。</l>
+<lb n="0433c22" ed="T"/>
+  <l>無福者壞於眼目，<caesura/>而復相續諸苦生，</l>
+<lb n="0433c23" ed="T"/>
+  <l>多病皆由無福因，<caesura/>小生<note 
+n="0433c2301" resp="CBETA" type="add">疾【CB】【麗-CB】，疲【大】</note><app n="0433c2301">
+    <lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">疾<note type="cf1">K40n1467_p0806c08</note><note type="cf2">T03n0173_p0434a13</note></lem>
+    <rdg wit="【大】">疲</rdg>
+  </app>病固難差。</l>
+<lb n="0433c24" ed="T"/>
+  <l>無福之人多兇惡，<caesura/>無福常發麤惡聲；</l>
+<lb n="0433c25" ed="T"/>
+  <l>手指攣拳體不完，<caesura/>語言人多不信順。</l>
+<lb n="0433c26" ed="T"/>
+  <l>無福之人諸所有，<caesura/>王官水火盜賊銷；</l>
+<lb n="0433c27" ed="T"/>
+  <l>無福唯聞非愛言，<caesura/>觸處常生於驚怖。</l>
+<lb n="0433c28" ed="T"/>
+  <l>無福雖居平坦地，<caesura/>隨處旋當荊棘生；</l>
+<lb n="0433c29" ed="T"/>
+  <l>設或植種及經商，<caesura/>雖常多作無義利。</l>
 <pb n="0434a" ed="T" xml:id="T03.0173.0434a"/>
-<lb n="0434a01" ed="T"/><l>無福者於一切時，<caesura/>所有財寶皆散壞；</l>
-<lb n="0434a02" ed="T"/><l>世間無少顧戀心，<caesura/>實不可愛無善利；</l>
-<lb n="0434a03" ed="T"/><l>諸無福者如是相，<caesura/>智者當知皆破壞。</l>
-<lb n="0434a04" ed="T"/><l>福者所作善護持，<caesura/>於一切時無散失。</l>
-<lb n="0434a05" ed="T"/><l>福者所行不懈倦，<caesura/>常起堅固勇悍心，</l>
-<lb n="0434a06" ed="T"/><l>如蓋覆蔭廣無邊，<caesura/>復能制除諸惡雨。</l>
-<lb n="0434a07" ed="T"/><l>猶犢隨母常飼乳，<caesura/>福者如意善欲同；</l>
-<lb n="0434a08" ed="T"/><l>又如劫樹悅意觀，<caesura/>常獲一切所欲果。</l>
-<lb n="0434a09" ed="T"/><l>福者能具忍辱力，<caesura/>及得悅意大吉祥；</l>
-<lb n="0434a10" ed="T"/><l>信行深固可依從，<caesura/>生生皆具妙色相。</l>
-<lb n="0434a11" ed="T"/><l>福者廣布大名稱，<caesura/>能具多聞及智慧；</l>
-<lb n="0434a12" ed="T"/><l>見者咸生愛樂心，<caesura/>又能獲得聞持念。</l>
-<lb n="0434a13" ed="T"/><l>福者臨終無疾病，<caesura/>臨終亦復歡喜生，</l>
-<lb n="0434a14" ed="T"/><l>極惡境相不現前，<caesura/>遠離驚怖及苦惱。</l>
-<lb n="0434a15" ed="T"/><l>福者臨終受天樂，<caesura/>天宮樓閣現其前；</l>
-<lb n="0434a16" ed="T"/><l>忉利諸天夜摩天，<caesura/>彼彼天人來引接；</l>
-<lb n="0434a17" ed="T"/><l>兜率天宮諸天子，<caesura/>化樂天眾亦復然，</l>
-<lb n="0434a18" ed="T"/><l>他化自在欲界天，<caesura/>咸來衛護於福者。</l>
-<lb n="0434a19" ed="T"/><l>福者猶如大梵王，<caesura/>俱胝天眾皆宗奉，</l>
-<lb n="0434a20" ed="T"/><l>於其一千梵界中，<caesura/>廣大尊勝而自在。</l>
-<lb n="0434a21" ed="T"/><l>福者諸所作皆成，<caesura/>復常處於快樂位，</l>
-<lb n="0434a22" ed="T"/><l>一切皆生愛樂心，<caesura/>乃至外境無觸害。』</l></lg>
+<lb n="0434a01" ed="T"/>
+  <l>無福者於一切時，<caesura/>所有財寶皆散壞；</l>
+<lb n="0434a02" ed="T"/>
+  <l>世間無少顧戀心，<caesura/>實不可愛無善利；</l>
+<lb n="0434a03" ed="T"/>
+  <l>諸無福者如是相，<caesura/>智者當知皆破壞。</l>
+<lb n="0434a04" ed="T"/>
+  <l>福者所作善護持，<caesura/>於一切時無散失。</l>
+<lb n="0434a05" ed="T"/>
+  <l>福者所行不懈倦，<caesura/>常起堅固勇悍心，</l>
+<lb n="0434a06" ed="T"/>
+  <l>如蓋覆蔭廣無邊，<caesura/>復能制除諸惡雨。</l>
+<lb n="0434a07" ed="T"/>
+  <l>猶犢隨母常飼乳，<caesura/>福者如意善欲同；</l>
+<lb n="0434a08" ed="T"/>
+  <l>又如劫樹悅意觀，<caesura/>常獲一切所欲果。</l>
+<lb n="0434a09" ed="T"/>
+  <l>福者能具忍辱力，<caesura/>及得悅意大吉祥；</l>
+<lb n="0434a10" ed="T"/>
+  <l>信行深固可依從，<caesura/>生生皆具妙色相。</l>
+<lb n="0434a11" ed="T"/>
+  <l>福者廣布大名稱，<caesura/>能具多聞及智慧；</l>
+<lb n="0434a12" ed="T"/>
+  <l>見者咸生愛樂心，<caesura/>又能獲得聞持念。</l>
+<lb n="0434a13" ed="T"/>
+  <l>福者臨終無疾病，<caesura/>臨終亦復歡喜生，</l>
+<lb n="0434a14" ed="T"/>
+  <l>極惡境相不現前，<caesura/>遠離驚怖及苦惱。</l>
+<lb n="0434a15" ed="T"/>
+  <l>福者臨終受天樂，<caesura/>天宮樓閣現其前；</l>
+<lb n="0434a16" ed="T"/>
+  <l>忉利諸天夜摩天，<caesura/>彼彼天人來引接；</l>
+<lb n="0434a17" ed="T"/>
+  <l>兜率天宮諸天子，<caesura/>化樂天眾亦復然，</l>
+<lb n="0434a18" ed="T"/>
+  <l>他化自在欲界天，<caesura/>咸來衛護於福者。</l>
+<lb n="0434a19" ed="T"/>
+  <l>福者猶如大梵王，<caesura/>俱胝天眾皆宗奉，</l>
+<lb n="0434a20" ed="T"/>
+  <l>於其一千梵界中，<caesura/>廣大尊勝而自在。</l>
+<lb n="0434a21" ed="T"/>
+  <l>福者諸所作皆成，<caesura/>復常處於快樂位，</l>
+<lb n="0434a22" ed="T"/>
+  <l>一切皆生愛樂心，<caesura/>乃至外境無觸害。』</l>
+</lg>
 <lb n="0434a23" ed="T"/><p xml:id="pT03p0434a2301">「是時諸兄及其人眾，聞伽陀已，於福力王，
 <lb n="0434a24" ed="T"/>心皆信伏，極大歡喜。現世他生，顯明開示，
 <lb n="0434a25" ed="T"/>一向悉知，福力最勝。</p>
 <lb n="0434a26" ed="T"/><p xml:id="pT03p0434a2601">「時福力王，為諸人眾廣說福事，開發心已，
 <lb n="0434a27" ed="T"/>觀察虛空，作是念言：『快哉！我今可能徧於王
-<lb n="0434a28" ed="T"/>城內外，悉<note n="0434001" resp="Taisho" type="orig" place="foot text">雨＝南【明】</note><note n="0434001" resp="CBETA" type="mod">雨【大】，南【明】</note><app n="0434001"><lem wit="【大】">雨</lem><rdg resp="Taisho" wit="【明】">南</rdg></app>種種珍寶衣服。』發是心時，忽
+<lb n="0434a28" ed="T"/>城內外，悉<note 
+n="0434001" resp="Taisho" type="orig" place="foot text">雨＝南【明】</note><note 
+n="0434001" resp="CBETA" type="mod">雨【大】，南【明】</note><app n="0434001">
+  <lem wit="【大】">雨</lem>
+  <rdg resp="Taisho" wit="【明】">南</rdg>
+</app>種種珍寶衣服。』發是心時，忽
 <lb n="0434a29" ed="T"/>有種種殊妙衣服，及悅意華諸妙珍寶，自天
 <pb n="0434b" ed="T" xml:id="T03.0173.0434b"/>
 <lb n="0434b01" ed="T"/>而降，悉皆充滿王城內外。現是相時，人天
 <lb n="0434b02" ed="T"/>胥悅，咸生驚異，悉起廣大淨信之心，俱發
-<lb n="0434b03" ed="T"/>是言：『快哉！天子，有是福力，具大威德。』</p><p xml:id="pT03p0434b0315" cb:place="inline">「復次
+<lb n="0434b03" ed="T"/>是言：『快哉！天子，有是福力，具大威德。』</p>
+<p xml:id="pT03p0434b0315" cb:place="inline">「復次
 <lb n="0434b04" ed="T"/>其後諸小國王，聞是事已，咸起思念：『彼王
 <lb n="0434b05" ed="T"/>有大福力，具大名稱，我今宜應往彼尊奉。』由
 <lb n="0434b06" ed="T"/>是諸王共會一處，各領四兵，所謂象、馬、車、步
@@ -646,11 +908,15 @@
 <lb n="0434b19" ed="T"/>父，汝必深知，我今年耄衰朽若斯，國政甚難，
 <lb n="0434b20" ed="T"/>我不堪任，今付於汝，汝當負荷。』言已即時
 <lb n="0434b21" ed="T"/>卸自寶冠，置於子頂，子如父教，兼統其國。</p>
-<lb n="0434b22" ed="T"/><cb:juan n="003" fun="close"><cb:jhead><title>佛說福力太子因緣經</title>卷<app type="star" corresp="#0432002"><lem wit="【大】">第三</lem><rdg resp="Taisho" wit="【明】">下</rdg></app></cb:jhead></cb:juan>
+<lb n="0434b22" ed="T"/><cb:juan n="003" fun="close"><cb:jhead><title>佛說福力太子因緣經</title>卷<app type="star" corresp="#0432002">
+  <lem wit="【大】">第三</lem>
+  <rdg resp="Taisho" wit="【明】">下</rdg>
+</app></cb:jhead></cb:juan>
 <milestone n="4" unit="juan"/>
 <lb n="0434b23" ed="T"/>
 <lb n="0434b24" ed="T"/>
-<lb n="0434b25" ed="T"/><cb:juan n="004" fun="open"><cb:mulu n="004" type="卷"/><cb:jhead><title><note n="0434002" resp="Taisho" type="orig" place="foot text">此卷三本俱無</note>佛說福力太子因緣經</title>卷第四</cb:jhead></cb:juan>
+<lb n="0434b25" ed="T"/><cb:juan n="004" fun="open"><cb:mulu n="004" type="卷"/><cb:jhead><title><note 
+n="0434002" resp="Taisho" type="orig" place="foot text">此卷三本俱無</note>佛說福力太子因緣經</title>卷第四</cb:jhead></cb:juan>
 <lb n="0434b26" ed="T"/>
 <lb n="0434b27" ed="T"/><byline cb:type="Translator">西天譯經三藏朝奉大夫試光祿卿
 <lb n="0434b28" ed="T"/>傳法大師賜紫沙門臣施護等奉　詔譯</byline>
@@ -658,7 +924,11 @@
 <pb n="0434c" ed="T" xml:id="T03.0173.0434c"/>
 <lb n="0434c01" ed="T"/>國富自在，威德特尊。一切人民，王悉周給珍寶
 <lb n="0434c02" ed="T"/>財物，以十善法普為化導。時閻浮提人民，熾
-<lb n="0434c03" ed="T"/>盛安隱快樂，息諸鬪諍，<note n="0434c0301" resp="CBETA" type="add">却【CB】【麗-CB】，劫【大】</note><app n="0434c0301"><lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">却<note type="cf1">K40n1467_p0807c07</note><note type="cf2">T03n0173_p0433b16</note></lem><rdg wit="【大】">劫</rdg></app>除他敵，悉無盜賊
+<lb n="0434c03" ed="T"/>盛安隱快樂，息諸鬪諍，<note 
+n="0434c0301" resp="CBETA" type="add">却【CB】【麗-CB】，劫【大】</note><app n="0434c0301">
+  <lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">却<note type="cf1">K40n1467_p0807c07</note><note type="cf2">T03n0173_p0433b16</note></lem>
+  <rdg wit="【大】">劫</rdg>
+</app>除他敵，悉無盜賊
 <lb n="0434c04" ed="T"/>飢饉疾疫，亦無貧窮癃殘之者。皆有財寶庫
 <lb n="0434c05" ed="T"/>藏充滿，眷屬廣多如意自在。又復一切方處，
 <lb n="0434c06" ed="T"/>自然除去荊棘砂礫。時令不愆，雨澤溥潤，華
@@ -679,7 +949,8 @@
 <lb n="0434c21" ed="T"/>醫業者，今憍陳如苾芻是。諸苾芻！以是緣故
 <lb n="0434c22" ed="T"/>當知福力，而諸有情於一切時，應廣修作諸
 <lb n="0434c23" ed="T"/>勝行業。故我先說彼福力者，我不見有少法
-<lb n="0434c24" ed="T"/>隨修作已多獲義利。」</p><p xml:id="pT03p0434c2409" cb:place="inline">爾時諸苾芻咸生疑念，
+<lb n="0434c24" ed="T"/>隨修作已多獲義利。」</p>
+<p xml:id="pT03p0434c2409" cb:place="inline">爾時諸苾芻咸生疑念，
 <lb n="0434c25" ed="T"/>俱白佛言：「世尊！彼福力王乃往古世修何行
 <lb n="0434c26" ed="T"/>業感是報應，統王諸國具大名稱，威德特尊
 <lb n="0434c27" ed="T"/>受天人福，諸有所須於思念間一切如應，自
@@ -691,8 +962,11 @@
 <lb n="0435a03" ed="T"/>諸苾芻！汝等當知，一切有情所作行業，皆
 <lb n="0435a04" ed="T"/>非外緣可得，亦非地界、水界、火界、風界所成，
 <lb n="0435a05" ed="T"/>若善、不善隨蘊、處、界起諸行業。」即說伽陀曰：</p>
-<lb n="0435a06" ed="T"/><lg type="regular" xml:id="lgT03p0435a0601" style="margin-left:1em;text-indent:-1em"><l>「假使經百劫，<caesura/>不壞諸業因，</l>
-<lb n="0435a07" ed="T"/><l>因緣和合時，<caesura/>有情隨受果。</l></lg>
+<lb n="0435a06" ed="T"/><lg type="regular" xml:id="lgT03p0435a0601" style="margin-left:1em;text-indent:-1em">
+  <l>「假使經百劫，<caesura/>不壞諸業因，</l>
+<lb n="0435a07" ed="T"/>
+  <l>因緣和合時，<caesura/>有情隨受果。</l>
+</lg>
 <lb n="0435a08" ed="T"/><p xml:id="pT03p0435a0801">「諸苾芻！我念過去久遠世時，有佛出世，號
 <lb n="0435a09" ed="T"/>無能勝如來、應供、正徧知、明行足、善逝、世間解、
 <lb n="0435a10" ed="T"/>無上士、調御丈夫、天人師、佛、世尊。其佛普於
@@ -712,21 +986,31 @@
 <lb n="0435a24" ed="T"/>勝相生清淨心，自念：『我今亦此聽法。』即以諸
 <lb n="0435a25" ed="T"/>物置於一處，合掌諦誠聽受所說。時彼法師
 <lb n="0435a26" ed="T"/>說伽陀曰：</p>
-<lb n="0435a27" ed="T"/><lg type="regular" xml:id="lgT03p0435a2701" style="margin-left:2em;text-indent:-2em"><l>「『人當修作諸福因，<caesura/>如彼所作勿間斷；</l>
-<lb n="0435a28" ed="T"/><l>隨其樂欲施作時，<caesura/>由福藏故獲妙樂。』</l></lg>
+<lb n="0435a27" ed="T"/><lg type="regular" xml:id="lgT03p0435a2701" style="margin-left:2em;text-indent:-2em">
+  <l>「『人當修作諸福因，<caesura/>如彼所作勿間斷；</l>
+<lb n="0435a28" ed="T"/>
+  <l>隨其樂欲施作時，<caesura/>由福藏故獲妙樂。』</l>
+</lg>
 <lb n="0435a29" ed="T"/><p xml:id="pT03p0435a2901">「彼人聞是伽陀已，乃思其言：『由福藏故獲妙
 <pb n="0435b" ed="T" xml:id="T03.0173.0435b"/>
 <lb n="0435b01" ed="T"/>樂者，我往生中不造福因故受貧苦，我今宜
 <lb n="0435b02" ed="T"/>應隨力施作少分福事。』即自惟忖：『我之家財
 <lb n="0435b03" ed="T"/>悉已散蕩，而今但有隨身諸物。是中取五金
-<lb n="0435b04" ed="T"/>錢及㲲一<note n="0435b0401" resp="CBETA" type="add" note_key="T03.0435b04.05">段【CB】，叚【大】</note><app n="0435b0401"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">段<note type="cf1">T03n0173_p0435a19</note></lem><rdg wit="【大】">叚</rdg></app>若行施者，又慮貧劇致殞身命；
+<lb n="0435b04" ed="T"/>錢及㲲一<note 
+n="0435b0401" resp="CBETA" type="add" note_key="T03.0435b04.05">段【CB】，叚【大】</note><app n="0435b0401">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">段<note type="cf1">T03n0173_p0435a19</note></lem>
+  <rdg wit="【大】">叚</rdg>
+</app>若行施者，又慮貧劇致殞身命；
 <lb n="0435b05" ed="T"/>若不布施永壞福因，於他世中而無所託。我
 <lb n="0435b06" ed="T"/>今以何方便能離貧苦存活身命，隨修福事
 <lb n="0435b07" ed="T"/>不壞勝因？然我今者寧受飢貧必營福事，宜
 <lb n="0435b08" ed="T"/>以金錢及㲲衣施。』作是念時，而彼法師又說
 <lb n="0435b09" ed="T"/>伽陀曰：</p>
-<lb n="0435b10" ed="T"/><lg type="regular" xml:id="lgT03p0435b1001" style="margin-left:2em;text-indent:-2em"><l>「『善法應當速疾修，<caesura/>即能息除諸罪業；</l>
-<lb n="0435b11" ed="T"/><l>如是宜修勝福因，<caesura/>一切罪業非所樂。』</l></lg>
+<lb n="0435b10" ed="T"/><lg type="regular" xml:id="lgT03p0435b1001" style="margin-left:2em;text-indent:-2em">
+  <l>「『善法應當速疾修，<caesura/>即能息除諸罪業；</l>
+<lb n="0435b11" ed="T"/>
+  <l>如是宜修勝福因，<caesura/>一切罪業非所樂。』</l>
+</lg>
 <lb n="0435b12" ed="T"/><p xml:id="pT03p0435b1201">「彼人復聞是伽陀已，審思其言『善法速修』，
 <lb n="0435b13" ed="T"/>斯為決定，由是發起清淨施心，以所持蓋覆
 <lb n="0435b14" ed="T"/>法師頂，取其革屣安師足下，散五金錢布於
@@ -742,8 +1026,11 @@
 <lb n="0435b24" ed="T"/>故問言：『仁者！舍中但存我及於子，餘無所有，
 <lb n="0435b25" ed="T"/>豈非我等將亦壞邪？』彼人由是轉增逼迫受
 <lb n="0435b26" ed="T"/>貧窮苦，自省斯緣，說伽陀曰：</p>
-<lb n="0435b27" ed="T"/><lg type="regular" xml:id="lgT03p0435b2701" style="margin-left:2em;text-indent:-2em"><l>「『世間何苦勝貧苦，<caesura/>而貧苦與死苦同；</l>
-<lb n="0435b28" ed="T"/><l>寧當死苦尚甘心，<caesura/>彼貧窮苦不愛樂。』</l></lg>
+<lb n="0435b27" ed="T"/><lg type="regular" xml:id="lgT03p0435b2701" style="margin-left:2em;text-indent:-2em">
+  <l>「『世間何苦勝貧苦，<caesura/>而貧苦與死苦同；</l>
+<lb n="0435b28" ed="T"/>
+  <l>寧當死苦尚甘心，<caesura/>彼貧窮苦不愛樂。』</l>
+</lg>
 <lb n="0435b29" ed="T"/><p xml:id="pT03p0435b2901">「說是伽陀已，吁歎而住。其後一時，彼妻持瓶
 <pb n="0435c" ed="T" xml:id="T03.0173.0435c"/>
 <lb n="0435c01" ed="T"/>詣井以汲，雖復下徹得水，其力不能出之；妻
@@ -752,8 +1039,11 @@
 <lb n="0435c04" ed="T"/>舉；怪而視之，乃見其下有五鐵瓮，滿盛黃金
 <lb n="0435c05" ed="T"/>聯接排置。夫先見已驚異思念，豈非先施今
 <lb n="0435c06" ed="T"/>獲其果？熙怡瞻視，說伽陀曰：</p>
-<lb n="0435c07" ed="T"/><lg type="regular" xml:id="lgT03p0435c0701" style="margin-left:2em;text-indent:-2em"><l>「『奇哉功德現此處，<caesura/>一切過失悉蠲除；</l>
-<lb n="0435c08" ed="T"/><l>今所得由先種生，<caesura/>施者果報知如是。』</l></lg>
+<lb n="0435c07" ed="T"/><lg type="regular" xml:id="lgT03p0435c0701" style="margin-left:2em;text-indent:-2em">
+  <l>「『奇哉功德現此處，<caesura/>一切過失悉蠲除；</l>
+<lb n="0435c08" ed="T"/>
+  <l>今所得由先種生，<caesura/>施者果報知如是。』</l>
+</lg>
 <lb n="0435c09" ed="T"/><p xml:id="pT03p0435c0901">「是時彼妻歡喜問言：『仁者！勝相如是，善語若
 <lb n="0435c10" ed="T"/>斯，其故何邪？』夫為如應廣說其事。</p>
 <lb n="0435c11" ed="T"/><p xml:id="pT03p0435c1101">「復次後時彼得勝博戲者，福力開發現獲斯
@@ -766,7 +1056,11 @@
 <lb n="0435c18" ed="T"/>又復廣營精舍，令彼四方苾芻居止承事供
 <lb n="0435c19" ed="T"/>養，由是名聞流布城邑。其後彼國王忽命終
 <lb n="0435c20" ed="T"/>無紹繼者，時諸臣佐親屬，審知是人有大福
-<lb n="0435c21" ed="T"/>力具大名稱，共議勤<note n="0435c2101" resp="CBETA" type="add">請【CB】【麗-CB】，精【大】</note><app n="0435c2101"><lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">請<note type="cf1">K40n1467_p0809b17</note></lem><rdg wit="【大】">精</rdg></app>紹其王位。時博戲者
+<lb n="0435c21" ed="T"/>力具大名稱，共議勤<note 
+n="0435c2101" resp="CBETA" type="add">請【CB】【麗-CB】，精【大】</note><app n="0435c2101">
+  <lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">請<note type="cf1">K40n1467_p0809b17</note></lem>
+  <rdg wit="【大】">精</rdg>
+</app>紹其王位。時博戲者
 <lb n="0435c22" ed="T"/>即隱本名，人皆稱謂得勝大王。</p>
 <lb n="0435c23" ed="T"/><p xml:id="pT03p0435c2301">「時得勝王現獲如是悅意果報，起猛利心，勝
 <lb n="0435c24" ed="T"/>前布施，作諸福事，修持戒行，其王普為臣佐、
@@ -788,14 +1082,25 @@
 <lb n="0436a10" ed="T"/>象寶、馬寶、珠寶、女寶、主藏神寶、主兵神寶。如
 <lb n="0436a11" ed="T"/>是七寶隨意受用。復有千子，最上色相，勇健
 <lb n="0436a12" ed="T"/>精進能伏他軍，極海邊際大地境界，悉無盜
-<lb n="0436a13" ed="T"/>賊刀<note n="0436a1301" resp="CBETA" type="add">杖【CB】【麗-CB】，仗【大】</note><app n="0436a1301"><lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">杖<note type="cf1">K40n1467_p0809c19</note></lem><rdg wit="【大】">仗</rdg></app>等怖，咸修正法安隱而住。」</p>
+<lb n="0436a13" ed="T"/>賊刀<note 
+n="0436a1301" resp="CBETA" type="add">杖【CB】【麗-CB】，仗【大】</note><app n="0436a1301">
+  <lem resp="CBETA.maha CBETA.say" wit="【CB】【麗-CB】">杖<note type="cf1">K40n1467_p0809c19</note></lem>
+  <rdg wit="【大】">仗</rdg>
+</app>等怖，咸修正法安隱而住。」</p>
 <lb n="0436a14" ed="T"/><p xml:id="pT03p0436a1401">爾時世尊，為諸苾芻說伽陀曰：</p>
-<lb n="0436a15" ed="T"/><lg type="regular" xml:id="lgT03p0436a1501" style="margin-left:1em;text-indent:-1em"><l>「大士如是諸勝因，<caesura/>多生得為勝主宰；</l>
-<lb n="0436a16" ed="T"/><l>由佛普攝於世間，<caesura/>此是諸佛之所說。</l>
-<lb n="0436a17" ed="T"/><l>若得聞是希有事，<caesura/>及此神通廣大緣，</l>
-<lb n="0436a18" ed="T"/><l>造黑業者尚信生，<caesura/>誰諸智者不開覺？</l>
-<lb n="0436a19" ed="T"/><l>是故如是大希有，<caesura/>大威德者隨所求；</l>
-<lb n="0436a20" ed="T"/><l>應當尊重正法門，<caesura/>復常思念諸佛教。」</l></lg>
+<lb n="0436a15" ed="T"/><lg type="regular" xml:id="lgT03p0436a1501" style="margin-left:1em;text-indent:-1em">
+  <l>「大士如是諸勝因，<caesura/>多生得為勝主宰；</l>
+<lb n="0436a16" ed="T"/>
+  <l>由佛普攝於世間，<caesura/>此是諸佛之所說。</l>
+<lb n="0436a17" ed="T"/>
+  <l>若得聞是希有事，<caesura/>及此神通廣大緣，</l>
+<lb n="0436a18" ed="T"/>
+  <l>造黑業者尚信生，<caesura/>誰諸智者不開覺？</l>
+<lb n="0436a19" ed="T"/>
+  <l>是故如是大希有，<caesura/>大威德者隨所求；</l>
+<lb n="0436a20" ed="T"/>
+  <l>應當尊重正法門，<caesura/>復常思念諸佛教。」</l>
+</lg>
 <lb n="0436a21" ed="T"/><p xml:id="pT03p0436a2101">佛告諸苾芻：「如我所說，汝等應當如是修學，
 <lb n="0436a22" ed="T"/>是故常勤愛樂正法，尊重恭敬信奉供養，如
 <lb n="0436a23" ed="T"/>是作已為所依止，如是學者得大利益。」</p>

@@ -2,81 +2,82 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1224">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">金剛童子持念經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1224 金剛童子持念經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1224 金剛童子持念經</title>
-			<author></author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1224</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:27">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">金剛童子持念經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1224 金剛童子持念經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1224 金剛童子持念經</title>
+      <author/>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1224</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:27">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0133b02" ed="T"/>
 <lb n="0133b03" ed="T"/>
 <lb n="0133b04" ed="T"/><cb:div type="jing"><cb:docNumber>No. 1224</cb:docNumber>
-<lb n="0133b05" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0133002" resp="Taisho" type="orig" place="foot text">【原】歷應三年寫東寺寶菩提院三密藏藏本</note><title>金剛童子持念經</title></cb:jhead></cb:juan>
+<lb n="0133b05" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0133002" resp="Taisho" type="orig" place="foot text">【原】歷應三年寫東寺寶菩提院三密藏藏本</note><title>金剛童子持念經</title></cb:jhead></cb:juan>
 <lb n="0133b06" ed="T"/>
 <lb n="0133b07" ed="T"/><p xml:id="pT21p0133b0701">淨三業真言：</p>
 <lb n="0133b08" ed="T"/><p xml:id="pT21p0133b0801" cb:type="dharani">「唵<g ref="#CB02122"/>弟<note place="inline">引</note>䅶戍<note place="inline">引</note>馱曩<note place="inline">引</note>野娑嚩<note place="inline">二合引</note>賀<note place="inline">引</note>」</p>
@@ -86,7 +87,11 @@
 <lb n="0133b12" ed="T"/>右，仰背相著，以二信二惠反相叉安於頂上。
 <lb n="0133b13" ed="T"/>口誦彼真言，身住此儀相，心想自身滿於法
 <lb n="0133b14" ed="T"/>界，二佛菩薩前有己身至誠作禮。真言：</p>
-<lb n="0133b15" ed="T"/><p xml:id="pT21p0133b1501" cb:type="dharani">「唵嚩<note n="0133b1501" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0133b1501"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>尾<note place="inline">微次反短聲</note>多<note place="inline">半音</note>」</p>
+<lb n="0133b15" ed="T"/><p xml:id="pT21p0133b1501" cb:type="dharani">「唵嚩<note 
+n="0133b1501" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0133b1501">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>尾<note place="inline">微次反短聲</note>多<note place="inline">半音</note>」</p>
 <lb n="0133b16" ed="T"/><p xml:id="pT21p0133b1601">如是以三業齊運，禮觀一切聖眾及曼茶羅
 <lb n="0133b17" ed="T"/>本尊像已，即結加趺坐或半加坐，澄定身心，
 <lb n="0133b18" ed="T"/>結佛部三昧耶印。二羽芙蓉合掌，開手如掬
@@ -158,7 +163,11 @@
 <lb n="0134a24" ed="T"/>者化三昧耶決定不安，眾聖陰罰違越，眾聖
 <lb n="0134a25" ed="T"/>言誓故也。即誦軍吒利真言曰：</p>
 <lb n="0134a26" ed="T"/><p xml:id="pT21p0134a2601" cb:type="dharani">「曩謨<note place="inline">引</note>囉怛曩<note place="inline">二合</note>怛囉<note place="inline">二合</note>夜<note place="inline">引</note>野娜莫室戰
-<lb n="0134a27" ed="T"/><note place="inline">二合</note>嚩<note n="0134a2701" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0134a2701"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>播<note place="inline">引</note>緊<note place="inline">奴雅反</note>曳摩賀藥叉細<note place="inline">引</note>曩
+<lb n="0134a27" ed="T"/><note place="inline">二合</note>嚩<note 
+n="0134a2701" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0134a2701">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>播<note place="inline">引</note>緊<note place="inline">奴雅反</note>曳摩賀藥叉細<note place="inline">引</note>曩
 <lb n="0134a28" ed="T"/><note place="inline">引</note>鉢多<note place="inline">上</note>曳唵阿密㗚<note place="inline">二合</note>多軍䋈<note place="inline">上</note>里却却佉
 <lb n="0134a29" ed="T"/><note place="inline">去引</note>呬佉<note place="inline">上同</note>呬<note place="inline">聲異反，上同</note>底瑟咤<note place="inline">二合</note>底瑟姹<note place="inline">二合</note>
 <pb n="0134b" ed="T" xml:id="T21.1224.0134b"/>
@@ -169,7 +178,11 @@
 <lb n="0134b05" ed="T"/><p xml:id="pT21p0134b0501">便結上方金剛網印。即前牆印，以二惠開散
 <lb n="0134b06" ed="T"/>直竪即成。以印頂上右旋三匝，誦真言三遍，
 <lb n="0134b07" ed="T"/>即成金剛網遍覆其上。真言曰：</p>
-<lb n="0134b08" ed="T"/><p xml:id="pT21p0134b0801" cb:type="dharani">「唵嚩<note n="0134b0801" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0134b0801"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>半惹囉吽<note place="inline">引</note>撥吒<note place="inline">半音</note>」</p>
+<lb n="0134b08" ed="T"/><p xml:id="pT21p0134b0801" cb:type="dharani">「唵嚩<note 
+n="0134b0801" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0134b0801">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>半惹囉吽<note place="inline">引</note>撥吒<note place="inline">半音</note>」</p>
 <lb n="0134b09" ed="T"/><p xml:id="pT21p0134b0901">次獻閼伽香水浴聖尊印。用前迎請印，以二
 <lb n="0134b10" ed="T"/>惠各捻二定根下第一文，以印當心平舒如
 <lb n="0134b11" ed="T"/>羸盃形，舉印當額奉獻。若有香水器，即以此
@@ -182,7 +195,11 @@
 <lb n="0134b18" ed="T"/><p xml:id="pT21p0134b1801" cb:type="dharani">「唵阿左羅吽<note place="inline">引</note>」</p>
 <lb n="0134b19" ed="T"/><p xml:id="pT21p0134b1901">次獻蓮花座印。即以前閼伽印，二惠頭向外
 <lb n="0134b20" ed="T"/>開竪相去半寸許如蓮花形。真言曰：</p>
-<lb n="0134b21" ed="T"/><p xml:id="pT21p0134b2101" cb:type="dharani">「唵嚩<note n="0134b2101" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0134b2101"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>羅<note place="inline">二合</note>尾囉<note place="inline">引</note>野娑嚩<note place="inline">二合引</note>賀<note place="inline">引</note>」</p>
+<lb n="0134b21" ed="T"/><p xml:id="pT21p0134b2101" cb:type="dharani">「唵嚩<note 
+n="0134b2101" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0134b2101">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>羅<note place="inline">二合</note>尾囉<note place="inline">引</note>野娑嚩<note place="inline">二合引</note>賀<note place="inline">引</note>」</p>
 <lb n="0134b22" ed="T"/><p xml:id="pT21p0134b2201">次獻五供養，先結塗香印。即前獨股杵印，以
 <lb n="0134b23" ed="T"/>二惠微屈捻二定下第一文，相去一寸許即
 <lb n="0134b24" ed="T"/>成。塗香真言曰：</p>
@@ -225,15 +242,27 @@
 <lb n="0135a01" ed="T"/>遺犯三昧耶禁，或有多生宿業罪障由未消
 <lb n="0135a02" ed="T"/>除，誦金剛部百字真言以補前潛滅除諸
 <lb n="0135a03" ed="T"/>過，得身心清淨與法相應。百字真言曰：</p>
-<lb n="0135a04" ed="T"/><p xml:id="pT21p0135a0401" cb:type="dharani">「唵嚩<note n="0135a0401" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a0401"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>薩多嚩<note place="inline">二合</note><note place="inline">一</note>　三<note place="inline">去</note>摩野麼<note place="inline">鼻努鼻</note>
-<lb n="0135a05" ed="T"/>播<note place="inline">引</note>攞<note place="inline">勒可反</note>野<note place="inline">二</note>　嚩<note n="0135a0501" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a0501"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>薩多嚩<note place="inline">二合</note><note place="inline">三</note>　怛㕹
+<lb n="0135a04" ed="T"/><p xml:id="pT21p0135a0401" cb:type="dharani">「唵嚩<note 
+n="0135a0401" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a0401">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>薩多嚩<note place="inline">二合</note><note place="inline">一</note>　三<note place="inline">去</note>摩野麼<note place="inline">鼻努鼻</note>
+<lb n="0135a05" ed="T"/>播<note place="inline">引</note>攞<note place="inline">勒可反</note>野<note place="inline">二</note>　嚩<note 
+n="0135a0501" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a0501">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>薩多嚩<note place="inline">二合</note><note place="inline">三</note>　怛㕹
 <lb n="0135a06" ed="T"/><note place="inline">二合引</note>努<note place="inline">鼻引</note>跛底瑟姹<note place="inline">二合</note><note place="inline">四</note>　揑哩<note place="inline">二合</note>濯<note place="inline">引</note>銘婆<note place="inline">去</note>
 <lb n="0135a07" ed="T"/>嚩<note place="inline">五</note>　素姤<note place="inline">引</note>數<note place="inline">沙句反引</note>銘婆<note place="inline">去</note>嚩<note place="inline">六</note>　阿努<note place="inline">鼻</note>囉訖姤
 <lb n="0135a08" ed="T"/><note place="inline">二合引</note>銘娑嚩<note place="inline">七</note>　素布<note place="inline">引</note>數<note place="inline">引准前</note>銘婆嚩<note place="inline">八</note>　薩嚩悉
 <lb n="0135a09" ed="T"/>地淫<note place="inline">二合</note>銘鉢囉<note place="inline">二合</note>曳<note place="inline">延結反</note>蹉<note place="inline">倉<g ref="#CB01239"/>反</note><note place="inline">九</note>　薩嚩羯磨素
 <lb n="0135a10" ed="T"/>左銘<note place="inline">十</note>　郎多室哩<note place="inline">二合</note>藥矩嚕<note place="inline">十一</note>　吽<note place="inline">十二</note><note place="inline">引</note>　賀賀
 <lb n="0135a11" ed="T"/>賀賀斛<note place="inline">引</note><note place="inline">十三</note>　娑誐鑁<note place="inline">武敢反</note>薩嚩怛他<g ref="#CB03442"/>多<note place="inline">十四</note>　嚩
-<lb n="0135a12" ed="T"/><note n="0135a1201" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a1201"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>麼<note place="inline">鼻音引</note><g ref="#CB02755"/><note place="inline">引</note>悶左<note place="inline">十五</note>　嚩曰哩<note place="inline">二合引</note>婆
+<lb n="0135a12" ed="T"/><note 
+n="0135a1201" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a1201">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>麼<note place="inline">鼻音引</note><g ref="#CB02755"/><note place="inline">引</note>悶左<note place="inline">十五</note>　嚩曰哩<note place="inline">二合引</note>婆
 <lb n="0135a13" ed="T"/>嚩<note place="inline">十六</note>　摩賀<note place="inline">引</note>三<note place="inline">去</note>麼耶薩多嚩<note place="inline">二合</note>惡<note place="inline">引</note><note place="inline">十七</note><note place="inline"><g ref="#CB01239"/>各反</note>」</p>
 <lb n="0135a14" ed="T"/><p xml:id="pT21p0135a1401">其印二手右押左外相叉作拳，直竪二中指
 <lb n="0135a15" ed="T"/>相合，此名三昧耶印。由結此印加身四處，心、
@@ -247,7 +276,11 @@
 <lb n="0135a23" ed="T"/>竪即成。誦根本真言，以印加身四處。真言
 <lb n="0135a24" ed="T"/>曰：</p>
 <lb n="0135a25" ed="T"/><p xml:id="pT21p0135a2501" cb:type="dharani">「曩謨<note place="inline">引</note>囉怛曩<note place="inline">二</note>　怛<note place="inline">二合</note>野<note place="inline">引</note>野曩莫室戰<note place="inline">二合</note>
-<lb n="0135a26" ed="T"/>拏嚩<note n="0135a2601" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a2601"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>播<note place="inline">引</note>拏<note place="inline">鼻</note>曳摩賀<note place="inline">引</note>藥叉<note place="inline">二合</note>細
+<lb n="0135a26" ed="T"/>拏嚩<note 
+n="0135a2601" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135a2601">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>播<note place="inline">引</note>拏<note place="inline">鼻</note>曳摩賀<note place="inline">引</note>藥叉<note place="inline">二合</note>細
 <lb n="0135a27" ed="T"/>曩鉢多<note place="inline">上</note>曳怛儞也<note place="inline">二合</note>他<note place="inline">去引</note>唵加抳度𩕳吽
 <lb n="0135a28" ed="T"/>撥吒<note place="inline">半音</note>娑嚩<note place="inline">二合</note>賀」</p>
 <lb n="0135a29" ed="T"/><p xml:id="pT21p0135a2901">又結第二根本印。即前最初護身印，是亦名
@@ -255,7 +288,11 @@
 <lb n="0135b01" ed="T"/>獨股杵印，此與多羅菩薩印同。第二根本真
 <lb n="0135b02" ed="T"/>言曰：</p>
 <lb n="0135b03" ed="T"/><p xml:id="pT21p0135b0301" cb:type="dharani">「曩謨囉怛曩<note place="inline">二合</note>夜<note place="inline">引</note>野娜莫室戰<note place="inline">二合</note>拏嚩
-<lb n="0135b04" ed="T"/><note n="0135b0401" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135b0401"><lem resp="CBETA.maha" wit="【CB】">日</lem><rdg wit="【大】">曰</rdg></app>囉<note place="inline">二合</note>播<note place="inline">引</note>拏<note place="inline">鼻</note>曳摩賀<note place="inline">引</note>藥叉細<note place="inline">引</note>曩<note place="inline">引</note>鉢
+<lb n="0135b04" ed="T"/><note 
+n="0135b0401" resp="CBETA" type="add">日【CB】，曰【大】</note><app n="0135b0401">
+  <lem resp="CBETA.maha" wit="【CB】">日</lem>
+  <rdg wit="【大】">曰</rdg>
+</app>囉<note place="inline">二合</note>播<note place="inline">引</note>拏<note place="inline">鼻</note>曳摩賀<note place="inline">引</note>藥叉細<note place="inline">引</note>曩<note place="inline">引</note>鉢
 <lb n="0135b05" ed="T"/>多<note place="inline">上</note>曳<note place="inline">引</note>怛他也<note place="inline">二合</note>他唵度曩尾度曩<note place="inline">引</note>迦抳
 <lb n="0135b06" ed="T"/>矩嚕<note place="inline">二合引</note>馱薩嚩演怛囉<note place="inline">二合</note>抳吽<note place="inline">引</note>」</p>
 <lb n="0135b07" ed="T"/><p xml:id="pT21p0135b0701">次結頭印。即前獨股杵印，以二大指各鉤二

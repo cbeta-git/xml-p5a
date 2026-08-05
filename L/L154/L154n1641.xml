@@ -2,103 +2,134 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="L154n1641">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Qianlong Edition of the Canon (Shinwenfeng Edition)</title>
-			<title level="s" xml:lang="zh-Hant">乾隆大藏經（新文豐版）</title>
-			<title level="m" xml:lang="zh-Hant">大覺普濟能仁琇國師語錄</title>
-			<title>Qianlong Edition of the Canon (Shinwenfeng Edition), Electronic version, No. 1641 大覺普濟能仁琇國師語錄</title>
-			<title xml:lang="zh-Hant">乾隆大藏經（新文豐版）數位版, No. 1641 大覺普濟能仁琇國師語錄</title>
-			<author>清 通琇說 行岳編</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>7卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">L</idno>.<idno type="vol">154</idno>.<idno type="no">1641</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>乾隆大藏經（新文豐版）</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【龍】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2010-10-21T15:01:00">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Qianlong Edition of the Canon (Shinwenfeng Edition)</title>
+      <title level="s" xml:lang="zh-Hant">乾隆大藏經（新文豐版）</title>
+      <title level="m" xml:lang="zh-Hant">大覺普濟能仁琇國師語錄</title>
+      <title>Qianlong Edition of the Canon (Shinwenfeng Edition), Electronic version, No. 1641 大覺普濟能仁琇國師語錄</title>
+      <title xml:lang="zh-Hant">乾隆大藏經（新文豐版）數位版, No. 1641 大覺普濟能仁琇國師語錄</title>
+      <author>清 通琇說 行岳編</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>7卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">L</idno>.<idno type="vol">154</idno>.<idno type="no">1641</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>乾隆大藏經（新文豐版）</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【龍】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2010-10-21T15:01:00">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="L" xml:id="L154.1641.0621a" n="0621a"/>
 <lb ed="L" n="0621a01"/><cb:div type="other"><cb:mulu type="其他" level="1">目錄</cb:mulu><head>大覺普濟能仁玉琳琇國師語錄目錄　幾一</head>
-<lb ed="L" n="0621a02"/><list rend="no-marker"><item xml:id="itemL154p0621a0201">卷第一
-<lb ed="L" n="0621a03"/><list rend="no-marker"><item xml:id="itemL154p0621a0301">上堂<note place="inline">一</note></item></list></item>
-<lb ed="L" n="0621a04"/><item xml:id="itemL154p0621a0401">卷第二
-<lb ed="L" n="0621a05"/><list rend="no-marker"><item xml:id="itemL154p0621a0501">上堂<note place="inline">二</note></item>
-<lb ed="L" n="0621a06"/><item xml:id="itemL154p0621a0601">示眾</item></list></item>
-<lb ed="L" n="0621a07"/><item xml:id="itemL154p0621a0701">卷第三
-<lb ed="L" n="0621a08"/><list rend="no-marker"><item xml:id="itemL154p0621a0801">小叅<note place="inline">一</note></item></list></item>
-<lb ed="L" n="0621a09"/><item xml:id="itemL154p0621a0901">卷第四
-<lb ed="L" n="0621a10"/><list rend="no-marker"><item xml:id="itemL154p0621a1001">小叅<note place="inline">二</note></item></list></item>
-<lb ed="L" n="0621a11"/><item xml:id="itemL154p0621a1101">卷第五
-<lb ed="L" n="0621a12"/><list rend="no-marker"><item xml:id="itemL154p0621a1201">法語</item>
-<lb ed="L" n="0621a13"/><item xml:id="itemL154p0621a1301">客問</item>
-<lb ed="L" n="0621a14"/><item xml:id="itemL154p0621a1401">機緣<note place="inline">一</note></item></list></item>
-<lb ed="L" n="0621a15"/><item xml:id="itemL154p0621a1501">卷第六
+<lb ed="L" n="0621a02"/><list rend="no-marker">
+  <item xml:id="itemL154p0621a0201">卷第一
+<lb ed="L" n="0621a03"/><list rend="no-marker">
+    <item xml:id="itemL154p0621a0301">上堂<note place="inline">一</note></item>
+  </list></item>
+<lb ed="L" n="0621a04"/>
+  <item xml:id="itemL154p0621a0401">卷第二
+<lb ed="L" n="0621a05"/><list rend="no-marker">
+    <item xml:id="itemL154p0621a0501">上堂<note place="inline">二</note></item>
+<lb ed="L" n="0621a06"/>
+    <item xml:id="itemL154p0621a0601">示眾</item>
+  </list></item>
+<lb ed="L" n="0621a07"/>
+  <item xml:id="itemL154p0621a0701">卷第三
+<lb ed="L" n="0621a08"/><list rend="no-marker">
+    <item xml:id="itemL154p0621a0801">小叅<note place="inline">一</note></item>
+  </list></item>
+<lb ed="L" n="0621a09"/>
+  <item xml:id="itemL154p0621a0901">卷第四
+<lb ed="L" n="0621a10"/><list rend="no-marker">
+    <item xml:id="itemL154p0621a1001">小叅<note place="inline">二</note></item>
+  </list></item>
+<lb ed="L" n="0621a11"/>
+  <item xml:id="itemL154p0621a1101">卷第五
+<lb ed="L" n="0621a12"/><list rend="no-marker">
+    <item xml:id="itemL154p0621a1201">法語</item>
+<lb ed="L" n="0621a13"/>
+    <item xml:id="itemL154p0621a1301">客問</item>
+<lb ed="L" n="0621a14"/>
+    <item xml:id="itemL154p0621a1401">機緣<note place="inline">一</note></item>
+  </list></item>
+<lb ed="L" n="0621a15"/>
+  <item xml:id="itemL154p0621a1501">卷第六
 <pb ed="L" xml:id="L154.1641.0621b" n="0621b"/>
-<lb ed="L" n="0621b01"/><list rend="no-marker"><item xml:id="itemL154p0621b0101">機緣<note place="inline">二</note></item>
-<lb ed="L" n="0621b02"/><item xml:id="itemL154p0621b0201">頌古</item>
-<lb ed="L" n="0621b03"/><item xml:id="itemL154p0621b0301">書問</item>
-<lb ed="L" n="0621b04"/><item xml:id="itemL154p0621b0401">像讚</item></list></item>
-<lb ed="L" n="0621b05"/><item xml:id="itemL154p0621b0501">卷第七
-<lb ed="L" n="0621b06"/><list rend="no-marker"><item xml:id="itemL154p0621b0601">詩偈</item>
-<lb ed="L" n="0621b07"/><item xml:id="itemL154p0621b0701">佛事</item>
-<lb ed="L" n="0621b08"/><item xml:id="itemL154p0621b0801">雜著</item>
-<lb ed="L" n="0621b09"/><item xml:id="itemL154p0621b0901">塔銘</item></list></item></list></cb:div>
+<lb ed="L" n="0621b01"/><list rend="no-marker">
+    <item xml:id="itemL154p0621b0101">機緣<note place="inline">二</note></item>
+<lb ed="L" n="0621b02"/>
+    <item xml:id="itemL154p0621b0201">頌古</item>
+<lb ed="L" n="0621b03"/>
+    <item xml:id="itemL154p0621b0301">書問</item>
+<lb ed="L" n="0621b04"/>
+    <item xml:id="itemL154p0621b0401">像讚</item>
+  </list></item>
+<lb ed="L" n="0621b05"/>
+  <item xml:id="itemL154p0621b0501">卷第七
+<lb ed="L" n="0621b06"/><list rend="no-marker">
+    <item xml:id="itemL154p0621b0601">詩偈</item>
+<lb ed="L" n="0621b07"/>
+    <item xml:id="itemL154p0621b0701">佛事</item>
+<lb ed="L" n="0621b08"/>
+    <item xml:id="itemL154p0621b0801">雜著</item>
+<lb ed="L" n="0621b09"/>
+    <item xml:id="itemL154p0621b0901">塔銘</item>
+  </list></item>
+</list></cb:div>
 <lb ed="L" n="0621b10"/>
 <lb ed="L" n="0621b11"/>
 <lb ed="L" n="0621b12"/>
@@ -109,10 +140,18 @@
 <lb ed="L" n="0622a01"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"/><cb:jhead>大覺普濟能仁玉琳琇國師語錄卷第一</cb:jhead></cb:juan>
 <lb ed="L" n="0622a02"/><byline cb:type="editor">嗣法門人行岳編</byline>
 <lb ed="L" n="0622a03"/><cb:div type="other"><cb:mulu type="其他" level="1">上堂一</cb:mulu><head>上堂<note place="inline">一</note></head>
-<lb ed="L" n="0622a04"/><p xml:id="pL154p0622a0401">順治十六年<note n="0622a0401" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0622a0401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>亥閏三月初一日萬善殿
+<lb ed="L" n="0622a04"/><p xml:id="pL154p0622a0401">順治十六年<note 
+n="0622a0401" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0622a0401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>亥閏三月初一日萬善殿
 <lb ed="L" n="0622a05"/>奉
 <lb ed="L" n="0622a06" type="honorific"/>御旨上堂師至座前召眾云會麼若也會得
-<lb ed="L" n="0622a07"/>山僧未離江南陞座說法<note n="0622a0701" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0622a0701"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>竟如或未然
+<lb ed="L" n="0622a07"/>山僧未離江南陞座說法<note 
+n="0622a0701" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0622a0701">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>竟如或未然
 <lb ed="L" n="0622a08"/>看向第二門頭施展去也便登座拈香云
 <lb ed="L" n="0622a09"/>此一瓣香親受靈山記莂焫向爐中祝嚴
 <lb ed="L" n="0622a10" type="honorific"/>佛心天子成等正覺次拈香云此一瓣香華
@@ -164,7 +203,11 @@
 <lb ed="L" n="0623b08"/>如何是恁麼事舉袈裟云如天普葢似地
 <lb ed="L" n="0623b09"/>普擎好風齊着力𥁞向此中吹。</p>
 <lb ed="L" n="0623b10"/><p xml:id="pL154p0623b1001">上堂上首白椎竟問仙客乘雲泛紫畿欣
-<lb ed="L" n="0623b11"/><note n="0623b1101" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0623b1101"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>聖主話玄微五旬金殿垂恩重又許扁
+<lb ed="L" n="0623b11"/><note 
+n="0623b1101" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0623b1101">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>聖主話玄微五旬金殿垂恩重又許扁
 <lb ed="L" n="0623b12"/>舟渡雪谿未審其中祕密還得大家知也
 <lb ed="L" n="0623b13"/>無師云天高地厚進云雷音已震青霄外
 <lb ed="L" n="0623b14"/>四海咸聞第一機師云日光月華問當今
@@ -190,7 +233,11 @@
 <lb ed="L" n="0624b02"/>有一毫空缺處通琇更作麼擔水河頭賣
 <lb ed="L" n="0624b03"/>直如河伯見海若恍然自失耳伏惟大眾
 <lb ed="L" n="0624b04"/>各自珍重下座。</p>
-<lb ed="L" n="0624b05"/><p xml:id="pL154p0624b0501"><note n="0624b0501" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0624b0501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>亥春詔迎入京命住西苑
+<lb ed="L" n="0624b05"/><p xml:id="pL154p0624b0501"><note 
+n="0624b0501" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0624b0501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>亥春詔迎入京命住西苑
 <lb ed="L" n="0624b06" type="honorific"/>世祖問心在七處不在七處師云覓心了不
 <lb ed="L" n="0624b07"/>可得
 <lb ed="L" n="0624b08" type="honorific"/>世祖問悟道的人還有喜怒哀樂也無師云
@@ -220,11 +267,15 @@
 <pb ed="L" xml:id="L154.1641.0625b" n="0625b"/>
 <lb ed="L" n="0625b01"/><p xml:id="pL154p0625b0101">奉
 <lb ed="L" n="0625b02" type="honorific"/>旨進頌。</p>
-<lb ed="L" n="0625b03"/><lg xml:id="lgL154p0625b0301" style="text-indent:0em"><l>深殿焚香永心齋笑坐忘大圓鏡智淨應
-<lb ed="L" n="0625b04"/>物妙無方</l></lg>
+<lb ed="L" n="0625b03"/><lg xml:id="lgL154p0625b0301" style="text-indent:0em">
+  <l>深殿焚香永心齋笑坐忘大圓鏡智淨應
+<lb ed="L" n="0625b04"/>物妙無方</l>
+</lg>
 <lb ed="L" n="0625b05"/><p xml:id="pL154p0625b0501">又。</p>
-<lb ed="L" n="0625b06"/><lg xml:id="lgL154p0625b0601" style="text-indent:0em"><l>慈幃色養適侍坐快談玄法界塵塵佛同
-<lb ed="L" n="0625b07"/>光照大千</l></lg>
+<lb ed="L" n="0625b06"/><lg xml:id="lgL154p0625b0601" style="text-indent:0em">
+  <l>慈幃色養適侍坐快談玄法界塵塵佛同
+<lb ed="L" n="0625b07"/>光照大千</l>
+</lg>
 <lb ed="L" n="0625b08"/><p xml:id="pL154p0625b0801">雨夜奉
 <lb ed="L" n="0625b09" type="honorific"/>旨書。</p>
 <lb ed="L" n="0625b10"/><p xml:id="pL154p0625b1001">僧問趙州如何得不蹉路州云識自本心
@@ -248,7 +299,11 @@
 <lb ed="L" n="0626a12"/><p xml:id="pL154p0626a1201">元旦上堂問答不錄師云追金琢玉繡口
 <lb ed="L" n="0626a13"/>文心自有當行作者轉身掉臂努目撑眉
 <lb ed="L" n="0626a14"/>一任逞俊禪流兩眼對兩眼真金不博鍮
-<lb ed="L" n="0626a15"/>未舉先知早<note n="0626a1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0626a1501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>屬二屬三當陽薦取豈止
+<lb ed="L" n="0626a15"/>未舉先知早<note 
+n="0626a1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0626a1501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>屬二屬三當陽薦取豈止
 <pb ed="L" xml:id="L154.1641.0626b" n="0626b"/>
 <lb ed="L" n="0626b01"/>落七落八諸佛不出世祖師不西來目前
 <lb ed="L" n="0626b02"/>無闍𥠖此間無老僧但有言說都無實義
@@ -371,7 +426,11 @@
 <lb ed="L" n="0630a07"/>不在後大眾與諸佛同證一相三昧山僧
 <lb ed="L" n="0630a08"/>與大眾壽量無殊若也不會父少而子老
 <lb ed="L" n="0630a09"/>舉世所不信擲柱杖下座。</p>
-<lb ed="L" n="0630a10"/><p xml:id="pL154p0630a1001">出坡上堂問歲將終期<note n="0630a1001" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0630a1001"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>半當人脚下事
+<lb ed="L" n="0630a10"/><p xml:id="pL154p0630a1001">出坡上堂問歲將終期<note 
+n="0630a1001" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0630a1001">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>半當人脚下事
 <lb ed="L" n="0630a11"/>請師相為師云三十棒一棒也較不得師
 <lb ed="L" n="0630a12"/>乃云報恩寺裏禪𥁞在衲僧邊搬柴及運
 <lb ed="L" n="0630a13"/>土終日擔橫肩下座。</p>
@@ -428,7 +487,11 @@
 <pb ed="L" xml:id="L154.1641.0632a" n="0632a"/>
 <lb ed="L" n="0632a01"/>報恩柱杖子相見有麼良久云當今之世
 <lb ed="L" n="0632a02"/>頗多唱導之師到處聚三百五百商量佛
-<lb ed="L" n="0632a03"/>法浩浩地不論自<note n="0632a0301" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0632a0301"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>誕日與他人生辰便
+<lb ed="L" n="0632a03"/>法浩浩地不論自<note 
+n="0632a0301" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0632a0301">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>誕日與他人生辰便
 <lb ed="L" n="0632a04"/>唱無生曲調聲震寰區新報恩不是時流
 <lb ed="L" n="0632a05"/>為甚檀越弟兄也攀條例各與三十棒趁
 <lb ed="L" n="0632a06"/>出三門外還怪得也無然而事無一向既
@@ -465,7 +528,11 @@
 <lb ed="L" n="0633a05"/>少即得先師根折釵脚的也道見過磬山
 <lb ed="L" n="0633a06"/>和尚曾受益來蓋先師天覆地載海納山
 <lb ed="L" n="0633a07"/>容之量自然如此而某上座雖是他兒孫
-<lb ed="L" n="0633a08"/>撑立他法門<note n="0633a0801" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0633a0801"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>迥不相似一雙窮相手兩
+<lb ed="L" n="0633a08"/>撑立他法門<note 
+n="0633a0801" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0633a0801">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>迥不相似一雙窮相手兩
 <lb ed="L" n="0633a09"/>個鬼眼睛握根柱杖莫道者裏無一物與
 <lb ed="L" n="0633a10"/>人直饒他處得奇珍異寶而來也與他徹
 <lb ed="L" n="0633a11"/>底掀翻一棒打死直須未跨嶺門便識得
@@ -480,7 +547,11 @@
 <lb ed="L" n="0633b04"/>初宋朝仁祖作殊勝福業特賜瑪瑙鉢與
 <lb ed="L" n="0633b05"/>大覺璉禪師大覺老人感君厚德說真實
 <lb ed="L" n="0633b06"/>義為使者言此鉢不合佛制因對眾焚之
-<lb ed="L" n="0633b07"/>仁祖聞之大喜正所謂打鼓弄琵琶相<note n="0633b0701" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0633b0701"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>
+<lb ed="L" n="0633b07"/>仁祖聞之大喜正所謂打鼓弄琵琶相<note 
+n="0633b0701" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0633b0701">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>
 <lb ed="L" n="0633b08"/>兩會家然而丈夫志氣衝天豈可踐人剩
 <lb ed="L" n="0633b09"/>迹今日叔芳居士作如意佛事施紅羅大
 <lb ed="L" n="0633b10"/>衣報恩又且如何施設豁人正目不附合
@@ -502,7 +573,11 @@
 <lb ed="L" n="0634a10"/>柱杖云一向舉揚大法直教一個個荷包
 <lb ed="L" n="0634a11"/>遙遁何故各人閨閣中物甚難放捨到者
 <lb ed="L" n="0634a12"/>裏不是其人識甚好惡果向報恩柱杖頭
-<lb ed="L" n="0634a13"/>知得落處<note n="0634a1301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0634a1301"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>如作大檀那把平日所愛惜
+<lb ed="L" n="0634a13"/>知得落處<note 
+n="0634a1301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0634a1301">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>如作大檀那把平日所愛惜
 <lb ed="L" n="0634a14"/>所寶重的物傾心布施而亦不作布施之
 <lb ed="L" n="0634a15"/>想然後却令幽谷現瑞枯木放華展淨名
 <pb ed="L" xml:id="L154.1641.0634b" n="0634b"/>
@@ -518,7 +593,11 @@
 <lb ed="L" n="0634b10"/>田受檀那供養未免轉見笑檀那到者裏
 <lb ed="L" n="0634b11"/>有人出來道今日沈居士四十大誕與和
 <lb ed="L" n="0634b12"/>尚賔主交叅財法二施等無差別更有末
-<lb ed="L" n="0634b13"/>後句望和尚一齊布施<note n="0634b1301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0634b1301"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>師以柱杖畫一
+<lb ed="L" n="0634b13"/>後句望和尚一齊布施<note 
+n="0634b1301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0634b1301">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>師以柱杖畫一
 <lb ed="L" n="0634b14"/>畫云小長老八字打開大施門去也驀喝
 <lb ed="L" n="0634b15"/>一喝下座。</p>
 <pb ed="L" xml:id="L154.1641.0635a" n="0635a"/>
@@ -527,7 +606,11 @@
 <lb ed="L" n="0635a03"/>到來聞見共歡愉先師穩坐暗解頤囑託
 <lb ed="L" n="0635a04"/>得人何所虞更要玉琳小阿師當陽指示
 <lb ed="L" n="0635a05"/>第一義憶昔梁王著有為初遇達磨殊不
-<lb ed="L" n="0635a06"/>契<note n="0635a0601" resp="CBETA" type="add">羨【CB】，羡【龍】</note><app n="0635a0601"><lem wit="【CB】" resp="CBETA.maha">羨</lem><rdg wit="【龍】">羡</rdg></app>君般若宿因深轉展不忘此大事舉
+<lb ed="L" n="0635a06"/>契<note 
+n="0635a0601" resp="CBETA" type="add">羨【CB】，羡【龍】</note><app n="0635a0601">
+  <lem wit="【CB】" resp="CBETA.maha">羨</lem>
+  <rdg wit="【龍】">羡</rdg>
+</app>君般若宿因深轉展不忘此大事舉
 <lb ed="L" n="0635a07"/>拂子云顓為此大事也則布施亦是第一
 <lb ed="L" n="0635a08"/>義持戒亦是第一義念佛亦是第一義放
 <lb ed="L" n="0635a09"/>生戒殺亦是第一義齋僧建造亦是第一
@@ -600,7 +683,11 @@
 <lb ed="L" n="0637a12"/>門下還敢高聲也無打一拂云嶽邊頓落
 <lb ed="L" n="0637a13"/>千山勢海上全消萬派聲下座。</p>
 <lb ed="L" n="0637a14"/><p xml:id="pL154p0637a1401">眾坐七畢內外職事請上堂師云敲鐘撾
-<lb ed="L" n="0637a15"/>鼓早<note n="0637a1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0637a1501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>惡水潑人禮拜焚香倍為互相鈍
+<lb ed="L" n="0637a15"/>鼓早<note 
+n="0637a1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0637a1501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>惡水潑人禮拜焚香倍為互相鈍
 <pb ed="L" xml:id="L154.1641.0637b" n="0637b"/>
 <lb ed="L" n="0637b01"/>置旋風打散落第二機重形言語堪作甚
 <lb ed="L" n="0637b02"/>麼然而法無定軌不妨放一線道與大眾
@@ -693,14 +780,50 @@
 <lb ed="L" n="0640a09"/>座。</p>
 <lb ed="L" n="0640a10"/><p xml:id="pL154p0640a1001">祈遠居士請上堂問雲門大師為甚要一
 <lb ed="L" n="0640a11"/>棒打殺釋迦老子師云莫謗雲門好僧喝
-<lb ed="L" n="0640a12"/>師便打師廼云英靈漢子切忌<note n="0640a1201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1201"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠
-<lb ed="L" n="0640a13"/>盆世諦纏擾是<note n="0640a1301" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1301"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠盆佛法支離是
-<lb ed="L" n="0640a14"/><note n="0640a1401" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1401"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠盆叅話頭起疑情是<note n="0640a1402" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1402"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠
-<lb ed="L" n="0640a15"/>盆躭空滯寂是<note n="0640a1501" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1501"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠盆懺罪安心是
+<lb ed="L" n="0640a12"/>師便打師廼云英靈漢子切忌<note 
+n="0640a1201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1201">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠
+<lb ed="L" n="0640a13"/>盆世諦纏擾是<note 
+n="0640a1301" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1301">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠盆佛法支離是
+<lb ed="L" n="0640a14"/><note 
+n="0640a1401" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1401">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠盆叅話頭起疑情是<note 
+n="0640a1402" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1402">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠
+<lb ed="L" n="0640a15"/>盆躭空滯寂是<note 
+n="0640a1501" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640a1501">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠盆懺罪安心是
 <pb ed="L" xml:id="L154.1641.0640b" n="0640b"/>
-<lb ed="L" n="0640b01"/><note n="0640b0101" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0101"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠盆絕學無為是<note n="0640b0102" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0102"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠盆還
-<lb ed="L" n="0640b02"/>有不<note n="0640b0201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0201"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠盆的麼正好出來喫山僧
-<lb ed="L" n="0640b03"/>痛棒且道既是不<note n="0640b0301" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0301"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>頭入膠盆為甚又要
+<lb ed="L" n="0640b01"/><note 
+n="0640b0101" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0101">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠盆絕學無為是<note 
+n="0640b0102" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0102">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠盆還
+<lb ed="L" n="0640b02"/>有不<note 
+n="0640b0201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0201">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠盆的麼正好出來喫山僧
+<lb ed="L" n="0640b03"/>痛棒且道既是不<note 
+n="0640b0301" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0640b0301">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>頭入膠盆為甚又要
 <lb ed="L" n="0640b04"/>喫棒驀卓杖喝一喝云果向山僧棒下瞥
 <lb ed="L" n="0640b05"/>爾知羞得個大休大歇頂後光圓面前路
 <lb ed="L" n="0640b06"/>闢方知本自瀟灑本自超越本自清淨本
@@ -731,7 +854,11 @@
 <lb ed="L" n="0641a15"/>不容僧禮拜師廼卓柱杖云報恩新長老
 <pb ed="L" xml:id="L154.1641.0641b" n="0641b"/>
 <lb ed="L" n="0641b01"/>本來無住握根柱杖倒用橫拈把個斗笠
-<lb ed="L" n="0641b02"/>遮<note n="0641b0201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0641b0201"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>一切人眼孔東西南北少有識者到
+<lb ed="L" n="0641b02"/>遮<note 
+n="0641b0201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0641b0201">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>一切人眼孔東西南北少有識者到
 <lb ed="L" n="0641b03"/>者裏遇着同門老道兄瞞他不得被推向
 <lb ed="L" n="0641b04"/>人前要某舉揚先師現成句子召眾云擲
 <lb ed="L" n="0641b05"/>個蒲團說法隨處驀喝一喝卓杖一下復
@@ -776,7 +903,11 @@
 <lb ed="L" n="0642b12"/>矣富貴放不下則受富貴累才能放不下
 <lb ed="L" n="0642b13"/>則受才能累盛德放不下則受盛德累高
 <lb ed="L" n="0642b14"/>年放不下則受高年累今者無偽老衲世
-<lb ed="L" n="0642b15"/>緣早已周備因信向者箇法門<note n="0642b1501" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0642b1501"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>能一齊
+<lb ed="L" n="0642b15"/>緣早已周備因信向者箇法門<note 
+n="0642b1501" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0642b1501">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>能一齊
 <pb ed="L" xml:id="L154.1641.0643a" n="0643a"/>
 <lb ed="L" n="0643a01"/>放下富貴固非所慕謙和不逞才能忘年
 <lb ed="L" n="0643a02"/>忘德在此深山舊院决欲究竟此道茲遇
@@ -810,9 +941,25 @@
 <lb ed="L" n="0643b14"/>境既到報恩境須識報恩人諸人到者裏
 <lb ed="L" n="0643b15"/>還識得山僧也未須知未離德清與山僧
 <pb ed="L" xml:id="L154.1641.0644a" n="0644a"/>
-<lb ed="L" n="0644a01"/>相見<note n="0644a0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0101"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>竟未上船來請山僧陞座<note n="0644a0102" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0102"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>竟山
-<lb ed="L" n="0644a02"/>僧未離臥室與諸人說法<note n="0644a0201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>竟且道未離
-<lb ed="L" n="0644a03"/>臥室說法<note n="0644a0301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0301"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>竟如今又出來叨呾作麼竪
+<lb ed="L" n="0644a01"/>相見<note 
+n="0644a0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0101">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>竟未上船來請山僧陞座<note 
+n="0644a0102" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0102">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>竟山
+<lb ed="L" n="0644a02"/>僧未離臥室與諸人說法<note 
+n="0644a0201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0201">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>竟且道未離
+<lb ed="L" n="0644a03"/>臥室說法<note 
+n="0644a0301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644a0301">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>竟如今又出來叨呾作麼竪
 <lb ed="L" n="0644a04"/>柱杖云錦上鋪華是山僧尋常用處驀喝
 <lb ed="L" n="0644a05"/>一喝卓柱杖下座。</p>
 <lb ed="L" n="0644a06"/><p xml:id="pL154p0644a0601">到楊家塢阿蘭若眾請上堂師云神光獨
@@ -830,11 +977,23 @@
 <lb ed="L" n="0644b02"/>年成得一道祕密真言不曾輕易吐露今
 <lb ed="L" n="0644b03"/>日本庵行進得度在家弟子沈行豐七十
 <lb ed="L" n="0644b04"/>諸上善人俱會一處便廼布施大眾令於
-<lb ed="L" n="0644b05"/>我此法門未信者信<note n="0644b0501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644b0501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>信者深入未證者
-<lb ed="L" n="0644b06"/>證<note n="0644b0601" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644b0601"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>證者不墮窠落臼廼高聲云趙錢孫
+<lb ed="L" n="0644b05"/>我此法門未信者信<note 
+n="0644b0501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644b0501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>信者深入未證者
+<lb ed="L" n="0644b06"/>證<note 
+n="0644b0601" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0644b0601">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>證者不墮窠落臼廼高聲云趙錢孫
 <lb ed="L" n="0644b07"/>李周吳鄭王馮陳褚衛蔣沈韓楊下座。</p>
 <lb ed="L" n="0644b08"/><p xml:id="pL154p0644b0801">行化歸孫熈室居士請上堂師云求人不
-<lb ed="L" n="0644b09"/>如求<note n="0644b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0644b0901"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>驀擲拂子下座。</p>
+<lb ed="L" n="0644b09"/>如求<note 
+n="0644b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0644b0901">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>驀擲拂子下座。</p>
 <lb ed="L" n="0644b10"/><p xml:id="pL154p0644b1001">入新方丈德清明道蔡封翁暨遠近諸檀
 <lb ed="L" n="0644b11"/>護請上堂問四眾駢臻請揚法要師云今
 <lb ed="L" n="0644b12"/>日入新方丈師廼云把住也法堂前草深
@@ -846,7 +1005,11 @@
 <lb ed="L" n="0645a02"/>境有時奪境不奪人有時人境兩俱奪有
 <lb ed="L" n="0645a03"/>時人境俱不奪高聲召眾云者是什麼所
 <lb ed="L" n="0645a04"/>在驀擲柱杖下座。</p>
-<lb ed="L" n="0645a05"/><p xml:id="pL154p0645a0501">臘八上堂師云遠山青近水碧氣<note n="0645a0501" resp="CBETA" type="add">斂【CB】，歛【龍】</note><app n="0645a0501"><lem wit="【CB】" resp="CBETA.maha">斂</lem><rdg wit="【龍】">歛</rdg></app>天空
+<lb ed="L" n="0645a05"/><p xml:id="pL154p0645a0501">臘八上堂師云遠山青近水碧氣<note 
+n="0645a0501" resp="CBETA" type="add">斂【CB】，歛【龍】</note><app n="0645a0501">
+  <lem wit="【CB】" resp="CBETA.maha">斂</lem>
+  <rdg wit="【龍】">歛</rdg>
+</app>天空
 <lb ed="L" n="0645a06"/>濶<g ref="#CB08887"/>寬得日多境僻來蹤別晚節馨香骨
 <lb ed="L" n="0645a07"/>傲梅卒歲堅持苔裹石白雲閒澹挂松梢
 <lb ed="L" n="0645a08"/>古道坦平堆竹葉山僧一榻坐還眠何期
@@ -855,7 +1018,11 @@
 <lb ed="L" n="0645a11"/>說問答畢師廼云周穆王三年癸未臘八
 <lb ed="L" n="0645a12"/>釋迦文佛睹見明星豁然悟道歎曰奇哉
 <lb ed="L" n="0645a13"/>一切眾生具有如來智慧德相但以妄想
-<lb ed="L" n="0645a14"/>執着不能證得崇禎十二年<note n="0645a1401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0645a1401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>卯臘八玉
+<lb ed="L" n="0645a14"/>執着不能證得崇禎十二年<note 
+n="0645a1401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0645a1401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>卯臘八玉
 <lb ed="L" n="0645a15"/>琳道人望見青山不覺好笑顧左右云汝
 <pb ed="L" xml:id="L154.1641.0645b" n="0645b"/>
 <lb ed="L" n="0645b01"/>等各蹋毘盧頂上行誰能拈些子妄想智
@@ -904,7 +1071,11 @@
 <lb ed="L" n="0646b12"/><p xml:id="pL154p0646b1201">振陵太老師忌日上堂師云山僧昔日芟
 <lb ed="L" n="0646b13"/>染蒙先磬山老和尚執刀三鬀口占有云
 <lb ed="L" n="0646b14"/>一子出家九族昇天若不昇天佛有妄言
-<lb ed="L" n="0646b15"/>山僧出家來業<note n="0646b1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0646b1501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>多載且道先師今日何
+<lb ed="L" n="0646b15"/>山僧出家來業<note 
+n="0646b1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0646b1501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>多載且道先師今日何
 <pb ed="L" xml:id="L154.1641.0647a" n="0647a"/>
 <lb ed="L" n="0647a01"/>在識得落處的出眾相見眾問話畢師廼
 <lb ed="L" n="0647a02"/>云沙界通紅一團火個中毫髮不容存森
@@ -912,12 +1083,20 @@
 <lb ed="L" n="0647a04"/><p xml:id="pL154p0647a0401">誕日上堂師按柱杖云放光現瑞鼓舞小
 <lb ed="L" n="0647a05"/>兒動地雨華助揚末技止止不須說欺侮
 <lb ed="L" n="0647a06"/>殺人數數請敷宣顛狂慕外青蓮華下笑
-<lb ed="L" n="0647a07"/>顏開奴見婢殷勤積雪巖前斷臂舉人<note n="0647a0701" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0647a0701"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>
+<lb ed="L" n="0647a07"/>顏開奴見婢殷勤積雪巖前斷臂舉人<note 
+n="0647a0701" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0647a0701">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>
 <lb ed="L" n="0647a08"/>鬼迷悶現前大眾十二時中各各蹋佛祖
 <lb ed="L" n="0647a09"/>頂𩕳行有不受惑的出來相見問答不錄
 <lb ed="L" n="0647a10"/>師廼云山僧未出母胎已為諸人作大佛
 <lb ed="L" n="0647a11"/>事舉揚大法汝等諸人早已如實知如實
-<lb ed="L" n="0647a12"/>見如實證如實行如實說為甚今日<note n="0647a1201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0647a1201"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>受
+<lb ed="L" n="0647a12"/>見如實證如實行如實說為甚今日<note 
+n="0647a1201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0647a1201">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>受
 <lb ed="L" n="0647a13"/>人處分只為忘脚下却見別山高下座。</p>
 <lb ed="L" n="0647a14"/><p xml:id="pL154p0647a1401">歸院上堂師顧左右云一總都是家裏人
 <lb ed="L" n="0647a15"/>出來同說家裏話問報恩佛灋最希奇一
@@ -993,7 +1172,11 @@
 <lb ed="L" n="0649b05"/>辛勤歲月深散眾欲眠峯頂石捐身助道
 <lb ed="L" n="0649b06"/>是何心仔細看來竭誠為眾的也有肯心
 <lb ed="L" n="0649b07"/>檀護也有只要我輩顓精學道古德云學
-<lb ed="L" n="0649b08"/>道如鑽火<note n="0649b0801" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0649b0801"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>煙未可休直待金星現歸家
+<lb ed="L" n="0649b08"/>道如鑽火<note 
+n="0649b0801" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0649b0801">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>煙未可休直待金星現歸家
 <lb ed="L" n="0649b09"/>始到頭又有云歸家盡是兒孫事祖父從
 <lb ed="L" n="0649b10"/>來不出門你看先聖與麼激揚可知學道
 <lb ed="L" n="0649b11"/>非同小可若不一聞千悟直須一切放下
@@ -1037,7 +1220,15 @@
 <lb ed="L" n="0651a01"/>事門頭不捨一灋勤勤懇懇力行眾行者
 <lb ed="L" n="0651a02"/>皆已成佛道終日著衣不挂一縷<g ref="#CB02133"/>終日
 <lb ed="L" n="0651a03"/>喫飯不齩一粒米孤迥峭巍者皆已成佛
-<lb ed="L" n="0651a04"/>道<note n="0651a0401" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0651a0401"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>茶喫茶<note n="0651a0402" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0651a0402"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>飯喫飯和泥合水者皆已
+<lb ed="L" n="0651a04"/>道<note 
+n="0651a0401" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0651a0401">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>茶喫茶<note 
+n="0651a0402" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0651a0402">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>飯喫飯和泥合水者皆已
 <lb ed="L" n="0651a05"/>成佛道事事無礙七縱八橫者皆已成佛
 <lb ed="L" n="0651a06"/>道矜矜自守重因果罪福者皆已成佛道
 <lb ed="L" n="0651a07"/>驚羣動眾激揚醻唱者皆已成佛道入林
@@ -1133,7 +1324,11 @@
 <lb ed="L" n="0654a01"/>而某上座有時現無邊身說無邊身法有
 <lb ed="L" n="0654a02"/>時現七尺比丘身說七尺比丘身法有時
 <lb ed="L" n="0654a03"/>與大眾遊大寂滅海上無佛祖下無眾生
-<lb ed="L" n="0654a04"/>中無自<note n="0654a0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0654a0401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>正報既爾依報亦然有時隨順
+<lb ed="L" n="0654a04"/>中無自<note 
+n="0654a0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0654a0401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>正報既爾依報亦然有時隨順
 <lb ed="L" n="0654a05"/>眾生七顛八倒向無修學中說修學無迷
 <lb ed="L" n="0654a06"/>悟中說迷悟便乃無制無期中立期立制
 <lb ed="L" n="0654a07"/>無解無結中立解立結結也高挂鉢囊解
@@ -1180,7 +1375,11 @@
 <pb ed="L" xml:id="L154.1641.0655b" n="0655b"/>
 <lb ed="L" n="0655b01"/><p xml:id="pL154p0655b0101">大雪檀越請上堂師拈柱杖云第一句薦
 <lb ed="L" n="0655b02"/>得鶴有九臯難翥翼馬無千里謾追風第
-<lb ed="L" n="0655b03"/>二句薦得左右<note n="0655b0301" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0655b0301"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>源珠回玉轉第三句薦
+<lb ed="L" n="0655b03"/>二句薦得左右<note 
+n="0655b0301" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0655b0301">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>源珠回玉轉第三句薦
 <lb ed="L" n="0655b04"/>得眼睛烏豆換鼻孔草繩穿秪如昨日慕
 <lb ed="L" n="0655b05"/>津居士率眾信士請山僧上堂山僧高聲
 <lb ed="L" n="0655b06"/>應云今日好大雪諸人作麼生薦取問金
@@ -1286,12 +1485,20 @@
 <lb ed="L" n="0658b10"/>癢好進云祗如總不恁麼來和尚又且如
 <lb ed="L" n="0658b11"/>何下手師云晴乾不肯走便打義禮拜起
 <lb ed="L" n="0658b12"/>云杖頭點破歸家路石聽西江水倒流師
-<lb ed="L" n="0658b13"/>云皮下無血如德問千劫難<note n="0658b1301" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0658b1301"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>今朝幸遇
+<lb ed="L" n="0658b13"/>云皮下無血如德問千劫難<note 
+n="0658b1301" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0658b1301">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>今朝幸遇
 <lb ed="L" n="0658b14"/>請師指示師竪柱杖云一句了然超百億
 <lb ed="L" n="0658b15"/>進云弟子不會師云伶俐衲僧寂慧問低
 <pb ed="L" xml:id="L154.1641.0659a" n="0659a"/>
 <lb ed="L" n="0659a01"/>頭不見地仰面不知天踏着關棙子全身
-<lb ed="L" n="0659a02"/>忽獨露師舉柱杖云穿却你鼻孔<note n="0659a0201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0659a0201"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>着你
+<lb ed="L" n="0659a02"/>忽獨露師舉柱杖云穿却你鼻孔<note 
+n="0659a0201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0659a0201">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>着你
 <lb ed="L" n="0659a03"/>眼睛進云過現未來即不問竪窮三際事
 <lb ed="L" n="0659a04"/>如何師云痴獃漢界成問百帀千重關不
 <lb ed="L" n="0659a05"/>住縱橫遍界自昂然師云還喫棒麼成喝
@@ -1342,7 +1549,11 @@
 <lb ed="L" n="0660b02"/>宗旨論宗旨虛擬宗旨一味妄穿妄鑿妄
 <lb ed="L" n="0660b03"/>卜妄度從上綱宗面目儼然何嘗夢見所
 <lb ed="L" n="0660b04"/>以言言會旨步步迷宗即如一等無慚愧
-<lb ed="L" n="0660b05"/>漢妄稱自<note n="0660b0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0660b0501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>亦是臨濟兒孫開口便道垂
+<lb ed="L" n="0660b05"/>漢妄稱自<note 
+n="0660b0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0660b0501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>亦是臨濟兒孫開口便道垂
 <lb ed="L" n="0660b06"/>慈必有法無法不垂慈臨濟宗有玄有要
 <lb ed="L" n="0660b07"/>有權有實有照有用有主有賔而竟把叢
 <lb ed="L" n="0660b08"/>林正務及兩堂課誦皆曰此只是應點故
@@ -1454,8 +1665,16 @@
 <lb ed="L" n="0664a02"/>底行被密菴禪師路見不平把來束作一
 <lb ed="L" n="0664a03"/>團擲在糞掃堆頭一場狼藉雖然密禪師
 <lb ed="L" n="0664a04"/>也該喫三十苕帚柄何故他家各有通霄
-<lb ed="L" n="0664a05"/>路那可鼓是生非尊<note n="0664a0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0664a0501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>慢人乃呵呵大笑
-<lb ed="L" n="0664a06"/>云三足香爐一脚<note n="0664a0601" resp="CBETA" type="add">踢【CB】，踼【龍】</note><app n="0664a0601"><lem wit="【CB】" resp="CBETA.maha">踢</lem><rdg wit="【龍】">踼</rdg></app>翻了還有扶起者麼
+<lb ed="L" n="0664a05"/>路那可鼓是生非尊<note 
+n="0664a0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0664a0501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>慢人乃呵呵大笑
+<lb ed="L" n="0664a06"/>云三足香爐一脚<note 
+n="0664a0601" resp="CBETA" type="add">踢【CB】，踼【龍】</note><app n="0664a0601">
+  <lem wit="【CB】" resp="CBETA.maha">踢</lem>
+  <rdg wit="【龍】">踼</rdg>
+</app>翻了還有扶起者麼
 <lb ed="L" n="0664a07"/>設若有人出手但輕輕與他道死貓頭那
 <lb ed="L" n="0664a08"/>許你正眼覰着。</p>
 <lb ed="L" n="0664a09"/><p xml:id="pL154p0664a0901">示眾舉陸亘大夫問南泉云肇法師也甚
@@ -1472,12 +1691,20 @@
 <lb ed="L" n="0664b04"/>羣但向他道有理不在高聲。</p>
 <lb ed="L" n="0664b05"/><p xml:id="pL154p0664b0501">示眾舉法眼禪師問僧甚處來曰泗州禮
 <lb ed="L" n="0664b06"/>拜大聖來眼曰今年大聖出塔否曰出眼
-<lb ed="L" n="0664b07"/><note n="0664b0701" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0664b0701"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>問旁僧曰汝道伊到泗州不到浮山遠
+<lb ed="L" n="0664b07"/><note 
+n="0664b0701" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0664b0701">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>問旁僧曰汝道伊到泗州不到浮山遠
 <lb ed="L" n="0664b08"/>云者僧到即到泗州只是不見大聖道場
 <lb ed="L" n="0664b09"/>全云者僧見即見大聖不曾識法眼東禪
 <lb ed="L" n="0664b10"/>觀云者僧到也到泗州見也見大聖識也
 <lb ed="L" n="0664b11"/>識法眼秪是自討頭不見師云者一隊老
-<lb ed="L" n="0664b12"/>禿奴病在膏肓只顧道那僧不見誰知<note n="0664b1201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0664b1201"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>
+<lb ed="L" n="0664b12"/>禿奴病在膏肓只顧道那僧不見誰知<note 
+n="0664b1201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0664b1201">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>
 <lb ed="L" n="0664b13"/>是自不識那僧有人出來道和尚恁麼道
 <lb ed="L" n="0664b14"/>也是扶弱不扶彊新報恩隨聲便打且道
 <lb ed="L" n="0664b15"/>是肯他是不肯他。</p>
@@ -1487,7 +1714,11 @@
 <lb ed="L" n="0665a03"/>十年前有老婆心峯云問凡答凡問聖答
 <lb ed="L" n="0665a04"/>聖曰如何是二十年後無老婆心峯云問
 <lb ed="L" n="0665a05"/>凡不答凡問聖不答聖師云個老漢全提
-<lb ed="L" n="0665a06"/>正令獨握綱宗左右<note n="0665a0601" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0665a0601"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>源前後無暌可謂
+<lb ed="L" n="0665a06"/>正令獨握綱宗左右<note 
+n="0665a0601" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0665a0601">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>源前後無暌可謂
 <lb ed="L" n="0665a07"/>得向上鉗錘不落時人窠窟然簡點將來
 <lb ed="L" n="0665a08"/>也是自起自倒。</p>
 <lb ed="L" n="0665a09"/><p xml:id="pL154p0665a0901">示眾舉翠巖真禪師上堂云臨陣抗敵不
@@ -1509,8 +1740,16 @@
 <lb ed="L" n="0665b09"/>問如何是毘盧師法身主觀曰我若向汝
 <lb ed="L" n="0665b10"/>道即別有也曹山舉似洞山山曰好個話
 <lb ed="L" n="0665b11"/>頭秪欠進語何不問為什麼不道曹又去
-<lb ed="L" n="0665b12"/>進前語觀曰若言我道即啞<note n="0665b1201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0665b1201"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>我口若言
-<lb ed="L" n="0665b13"/>我不道即蹇<note n="0665b1301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0665b1301"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>我舌曹山歸舉似洞山山
+<lb ed="L" n="0665b12"/>進前語觀曰若言我道即啞<note 
+n="0665b1201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0665b1201">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>我口若言
+<lb ed="L" n="0665b13"/>我不道即蹇<note 
+n="0665b1301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0665b1301">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>我舌曹山歸舉似洞山山
 <lb ed="L" n="0665b14"/>深肯之師云觀老與麼答話好則好矣然
 <lb ed="L" n="0665b15"/>而也是君子善知識若待曹山再來云為
 <pb ed="L" xml:id="L154.1641.0666a" n="0666a"/>
@@ -1540,7 +1779,11 @@
 <lb ed="L" n="0666b08"/>未明如喪考妣大事已明如喪考妣你看
 <lb ed="L" n="0666b09"/>大事已明尚是如喪考妣况大事未明者
 <lb ed="L" n="0666b10"/>乎所以云<g ref="#CB22128"/>須實<g ref="#CB22128"/>悟須實悟直須廢寢
-<lb ed="L" n="0666b11"/>忘餐向一念未生前識取自<note n="0666b1101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0666b1101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>廣大心體
+<lb ed="L" n="0666b11"/>忘餐向一念未生前識取自<note 
+n="0666b1101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0666b1101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>廣大心體
 <lb ed="L" n="0666b12"/>豈容魔外家亂承當個昭昭靈靈識神為
 <lb ed="L" n="0666b13"/>主人公大事未明如喪考妣人共曉得你
 <lb ed="L" n="0666b14"/>道大事已明為甚亦如喪考妣若透過者
@@ -1566,7 +1809,11 @@
 <lb ed="L" n="0667b02"/>間要行便行佛祖不能知要住便住鬼神
 <lb ed="L" n="0667b03"/>不能覰現前大眾百二十日聚首還曾夢
 <lb ed="L" n="0667b04"/>見山僧也未未論見山僧與否還各各識
-<lb ed="L" n="0667b05"/>得自<note n="0667b0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0667b0501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>麼咄出頭天外看誰是個中人。</p>
+<lb ed="L" n="0667b05"/>得自<note 
+n="0667b0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0667b0501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>麼咄出頭天外看誰是個中人。</p>
 <lb ed="L" n="0667b06"/><p xml:id="pL154p0667b0601">住古杭良渚大雄山示眾舉世尊纔生下
 <lb ed="L" n="0667b07"/>一手指天一手指地周行七步目顧四方
 <lb ed="L" n="0667b08"/>云天上天下惟我獨尊雲門偃云我當時
@@ -1608,7 +1855,11 @@
 <lb ed="L" n="0668b12"/>處堂之燕雀拈柱杖云恁麼也不是不恁
 <lb ed="L" n="0668b13"/>麼也不是放下也不是不放下也不是卓
 <lb ed="L" n="0668b14"/>柱杖云倚天長劍逼人寒是山僧尋常用
-<lb ed="L" n="0668b15"/>處有能向者裏如龍得水似虎<note n="0668b1501" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0668b1501"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>山便乃
+<lb ed="L" n="0668b15"/>處有能向者裏如龍得水似虎<note 
+n="0668b1501" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0668b1501">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>山便乃
 <pb ed="L" xml:id="L154.1641.0669a" n="0669a"/>
 <lb ed="L" n="0669a01"/>分付柱杖子。</p>
 <lb ed="L" n="0669a02"/><p xml:id="pL154p0669a0201">示眾舉傅大士云終日焚香擇火不知身
@@ -1634,9 +1885,17 @@
 <lb ed="L" n="0669b06"/>大廈之危深自愧悔凡吾付授諸子非托
 <lb ed="L" n="0669b07"/>主持本寺或克本院頭首不倦不厭自利
 <lb ed="L" n="0669b08"/>利人儻馳情利養注懷名位學短販自鬻
-<lb ed="L" n="0669b09"/>者聚集數十不如<note n="0669b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0669b0901"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>人誑惑愚瞽南面自
+<lb ed="L" n="0669b09"/>者聚集數十不如<note 
+n="0669b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0669b0901">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>人誑惑愚瞽南面自
 <lb ed="L" n="0669b10"/>尊妄稱長老小<g ref="#CB22128"/>示眾如同兒戲甚至濫
-<lb ed="L" n="0669b11"/>交褻<note n="0669b1101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0669b1101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>惟圖門<g ref="#CB08887"/>熱閙種種不遵山僧常
+<lb ed="L" n="0669b11"/>交褻<note 
+n="0669b1101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0669b1101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>惟圖門<g ref="#CB08887"/>熱閙種種不遵山僧常
 <lb ed="L" n="0669b12"/>住規約者定行追拂嚴𢷤遠近咸知。</p>
 <lb ed="L" n="0669b13"/><p xml:id="pL154p0669b1301">示眾舉先報恩老和尚示眾云今朝四月
 <lb ed="L" n="0669b14"/>半農家秧好看堪笑<g ref="#CB01900"/>禪和一事無可斷
@@ -1649,7 +1908,11 @@
 <lb ed="L" n="0670a05"/>道眼不能明說甚閻羅漢。</p>
 <lb ed="L" n="0670a06"/><p xml:id="pL154p0670a0601">示眾舉有僧持鉢至長者家偶為犬傷長
 <lb ed="L" n="0670a07"/>者因問龍披一縷金翅不吞大師全披法
-<lb ed="L" n="0670a08"/>服為甚<note n="0670a0801" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0670a0801"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>被狗齩禹門幻翁禪師代云如
+<lb ed="L" n="0670a08"/>服為甚<note 
+n="0670a0801" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0670a0801">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>被狗齩禹門幻翁禪師代云如
 <lb ed="L" n="0670a09"/>長者者問無差師拈柱杖云師翁此一轉
 <lb ed="L" n="0670a10"/>語非荊𣗥林中橫身直度逆行順行天不
 <lb ed="L" n="0670a11"/>能知神不能測鑊湯爐炭中成等正覺刀
@@ -1802,7 +2065,11 @@
 <lb ed="L" n="0675a03"/>者一則明日透那一則若恁麼豈不見笑
 <lb ed="L" n="0675a04"/>一時遺臭萬世討甚蓋天蓋地好龐老耶
 <lb ed="L" n="0675a05"/>然而也是當人肯入作家爐韛肯求大手
-<lb ed="L" n="0675a06"/>眼人<note n="0675a0601" resp="CBETA" type="add">鍛【CB】，鍜【龍】</note><app n="0675a0601"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【龍】">鍜</rdg></app>鍊始得你看龐居士見石頭問不
+<lb ed="L" n="0675a06"/>眼人<note 
+n="0675a0601" resp="CBETA" type="add">鍛【CB】，鍜【龍】</note><app n="0675a0601">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【龍】">鍜</rdg>
+</app>鍊始得你看龐居士見石頭問不
 <lb ed="L" n="0675a07"/>與萬法為侶者是什麼人頭驀掩其口於
 <lb ed="L" n="0675a08"/>此有個會處慚惶不少未到大休大歇田
 <lb ed="L" n="0675a09"/>地到江西馬大師處仍舊問云不與萬法
@@ -1889,7 +2156,11 @@
 <lb ed="L" n="0677b10"/>而退百尺竿頭更能進步所以道懸崖撒
 <lb ed="L" n="0677b11"/>手自肯承當絕後再甦欺君不得今人到
 <lb ed="L" n="0677b12"/>千峰絕頂不惟不進步反退轉身來云吾
-<lb ed="L" n="0677b13"/><note n="0677b1301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0677b1301"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>死而得活了以了不可得為究竟以擎
+<lb ed="L" n="0677b13"/><note 
+n="0677b1301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0677b1301">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>死而得活了以了不可得為究竟以擎
 <lb ed="L" n="0677b14"/>拳竪指為透祖師關𥁞是懸崖縮脚種種
 <lb ed="L" n="0677b15"/>自欺去他古人遠之遠矣卓拄杖云有志
 <pb ed="L" xml:id="L154.1641.0678a" n="0678a"/>
@@ -1904,14 +2175,22 @@
 <lb ed="L" n="0678a09"/>不挂一縷<g ref="#CB02133"/>方可隨意穿衣喫飯眼中不
 <lb ed="L" n="0678a10"/>見一畫一竪耳中不聞一語一言方可隨
 <lb ed="L" n="0678a11"/>時寫字看書否則大事未明如喪考妣大
-<lb ed="L" n="0678a12"/>事<note n="0678a1201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0678a1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>明如喪考妣如或生死心不切慎勿
+<lb ed="L" n="0678a12"/>事<note 
+n="0678a1201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0678a1201">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>明如喪考妣如或生死心不切慎勿
 <lb ed="L" n="0678a13"/>出家縱出家慎勿來宗門何以故目下雖
 <lb ed="L" n="0678a14"/>未為生死儻不輕易出家不輕易來宗門
 <lb ed="L" n="0678a15"/>尚知有出家事在尚知有宗門事在有等
 <pb ed="L" xml:id="L154.1641.0678b" n="0678b"/>
 <lb ed="L" n="0678b01"/>造次出家來此宗門隨羣逐隊發意做工
 <lb ed="L" n="0678b02"/>夫如撞采的一般做幾時撞不著便一日
-<lb ed="L" n="0678b03"/>悠忽一日一時怠惰一時自<note n="0678b0301" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0678b0301"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>既然將謂
+<lb ed="L" n="0678b03"/>悠忽一日一時怠惰一時自<note 
+n="0678b0301" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0678b0301">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>既然將謂
 <lb ed="L" n="0678b04"/>他人亦是如此謗大般若苦報無量有志
 <lb ed="L" n="0678b05"/>之士務須確實。</p>
 <lb ed="L" n="0678b06"/><p xml:id="pL154p0678b0601">晚叅師云同居在此不論久叅初學須各
@@ -1920,7 +2199,11 @@
 <lb ed="L" n="0678b09"/>一飲水不得打濕口第二喫飯不得齩著
 <lb ed="L" n="0678b10"/>米第三經行不得撞著露柱。</p>
 <lb ed="L" n="0678b11"/><p xml:id="pL154p0678b1101">元旦知浴領檀越請小叅師云大眾知麼
-<lb ed="L" n="0678b12"/>汝等成佛以來<note n="0678b1201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0678b1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>經無量阿僧祗劫舉足
+<lb ed="L" n="0678b12"/>汝等成佛以來<note 
+n="0678b1201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0678b1201">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>經無量阿僧祗劫舉足
 <lb ed="L" n="0678b13"/>下足其地堅固金剛所成上妙寶輪以為
 <lb ed="L" n="0678b14"/>嚴<g ref="#CB15435"/>寶池瓊閣奇𣗳珍禽樂具充溢無有
 <lb ed="L" n="0678b15"/>苦緣壽命無量光明無量法親無量如或
@@ -1929,7 +2212,11 @@
 <lb ed="L" n="0679a02"/>同諸聖若也根思遲鈍便請一念不生去
 <lb ed="L" n="0679a03"/>如或多知解多愚癡便請淨念相繼去但
 <lb ed="L" n="0679a04"/>辦肯心决不相賺雖然如是且道善財入
-<lb ed="L" n="0679a05"/>樓閣門為甚入<note n="0679a0501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0679a0501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>還閉所以道如來不出
+<lb ed="L" n="0679a05"/>樓閣門為甚入<note 
+n="0679a0501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0679a0501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>還閉所以道如來不出
 <lb ed="L" n="0679a06"/>世祖師不西來汝等成佛已經無量阿僧
 <lb ed="L" n="0679a07"/>祇劫。</p>
 <lb ed="L" n="0679a08"/><p xml:id="pL154p0679a0801">晚叅師云昨夜行者通大眾晚叅山僧傳
@@ -1971,7 +2258,11 @@
 <lb ed="L" n="0680a12"/><p xml:id="pL154p0680a1201">晚叅師云劫火洞然大千俱壞未審者箇
 <lb ed="L" n="0680a13"/>壞不壞壞恁麼則隨他去也隨他去大隨
 <lb ed="L" n="0680a14"/>恁麼答話有甚長處投子望山禮拜眾無
-<lb ed="L" n="0680a15"/>語師云古之學者為<note n="0680a1501" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0680a1501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>以竹篦拍香案便
+<lb ed="L" n="0680a15"/>語師云古之學者為<note 
+n="0680a1501" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0680a1501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>以竹篦拍香案便
 <pb ed="L" xml:id="L154.1641.0680b" n="0680b"/>
 <lb ed="L" n="0680b01"/>歸寢室。</p>
 <lb ed="L" n="0680b02"/><p xml:id="pL154p0680b0201">晚叅師云祖師時時在水桶上出現剛見
@@ -2013,7 +2304,11 @@
 <lb ed="L" n="0681b06"/>云一對無孔鐵鎚進云與麼則二大老料
 <lb ed="L" n="0681b07"/>揀一齊蒙和尚指示去也師云與汝六十
 <lb ed="L" n="0681b08"/>棒問如何是法王正令師云千鈞之弩進
-<lb ed="L" n="0681b09"/>云與麼則人人沾恩個個得力師云<note n="0681b0901" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0681b0901"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>放
+<lb ed="L" n="0681b09"/>云與麼則人人沾恩個個得力師云<note 
+n="0681b0901" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0681b0901">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>放
 <lb ed="L" n="0681b10"/>過居士問不侶萬法不取凡聖事如何師
 <lb ed="L" n="0681b11"/>云佛子受佛戒即入諸佛位師乃云天目
 <lb ed="L" n="0681b12"/>山下無寸土天目山頭無片雲脚跟跐著
@@ -2163,7 +2458,11 @@
 <lb ed="L" n="0686a12"/>真個死大把此生死大事切切在念叅究
 <lb ed="L" n="0686a13"/>一個無意味話頭孜孜不捨叅而不透生
 <lb ed="L" n="0686a14"/>死未了當入室中喫某上座痛棒叅而透
-<lb ed="L" n="0686a15"/>生死<note n="0686a1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0686a1501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>了當入室中喫某上座痛棒為甚
+<lb ed="L" n="0686a15"/>生死<note 
+n="0686a1501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0686a1501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>了當入室中喫某上座痛棒為甚
 <pb ed="L" xml:id="L154.1641.0686b" n="0686b"/>
 <lb ed="L" n="0686b01"/>如此高擎柱杖云棒頭有眼明如日要識
 <lb ed="L" n="0686b02"/>真金火裏看拽杖出堂。</p>
@@ -2214,7 +2513,11 @@
 <lb ed="L" n="0687b15"/>一切人八萬四千毛孔中橫入竪出又豈
 <pb ed="L" xml:id="L154.1641.0688a" n="0688a"/>
 <lb ed="L" n="0688a01"/>可道無佛若作是解更入地獄如箭射兩
-<lb ed="L" n="0688a02"/>相理論不<note n="0688a0201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0688a0201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>小長老夜深欲睡鳴指一下
+<lb ed="L" n="0688a02"/>相理論不<note 
+n="0688a0201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0688a0201">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>小長老夜深欲睡鳴指一下
 <lb ed="L" n="0688a03"/>一齊逐退今日不可不對眾决斷召眾云
 <lb ed="L" n="0688a04"/>若道禮佛還曾見佛也未若道無佛可禮
 <lb ed="L" n="0688a05"/>如何說無佛的道理於此透去一任你道
@@ -2249,8 +2552,16 @@
 <lb ed="L" n="0689a02"/>兒多意氣秪因曾透上頭關便出先師又
 <lb ed="L" n="0689a03"/>喝某亦喝遙聞維那重白椎某廼高聲云
 <lb ed="L" n="0689a04"/>歎死氣吁嗟乎仰山道的誰是知音先師
-<lb ed="L" n="0689a05"/>示寂便欲<note n="0689a0501" resp="CBETA" type="add" note_key="L154.0689a05.05">縛【CB】，縳【龍】</note><app n="0689a0501"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">縛<note type="cf1">L154n1641_p0778b03</note></lem><rdg wit="【龍】">縳</rdg></app>屋萬峯誰意有此不了公案
-<lb ed="L" n="0689a06"/>眾居士等堅請為先師了<note n="0689a0601" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0689a0601"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>某上座既到
+<lb ed="L" n="0689a05"/>示寂便欲<note 
+n="0689a0501" resp="CBETA" type="add" note_key="L154.0689a05.05">縛【CB】，縳【龍】</note><app n="0689a0501">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">縛<note type="cf1">L154n1641_p0778b03</note></lem>
+  <rdg wit="【龍】">縳</rdg>
+</app>屋萬峯誰意有此不了公案
+<lb ed="L" n="0689a06"/>眾居士等堅請為先師了<note 
+n="0689a0601" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0689a0601">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>某上座既到
 <lb ed="L" n="0689a07"/>者裏必欲眾兄弟洞明大法不向他人行
 <lb ed="L" n="0689a08"/>處行若不奮大人志氣不知道出常情向
 <lb ed="L" n="0689a09"/>瞎老禿口角邊覓涕唾喫聽他說黃道黑
@@ -2261,16 +2572,32 @@
 <lb ed="L" n="0689a14"/>透末後牢關未在未在且道知有末後一
 <lb ed="L" n="0689a15"/>著如兜率悅張無𥁞時如何咄雲菴老人
 <pb ed="L" xml:id="L154.1641.0689b" n="0689b"/>
-<lb ed="L" n="0689b01"/>在你脚下且置是事昔日白雲端禪師<note n="0689b0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0689b0101"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>
+<lb ed="L" n="0689b01"/>在你脚下且置是事昔日白雲端禪師<note 
+n="0689b0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0689b0101">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>
 <lb ed="L" n="0689b02"/>肯五祖演悟處廼未幾時忽語之曰有數
 <lb ed="L" n="0689b03"/>禪客自廬山來皆有悟入處教伊說亦說
 <lb ed="L" n="0689b04"/>得有來繇舉因緣問伊亦明得教伊下語
 <lb ed="L" n="0689b05"/>亦下得秪是未在祖於是大疑私自計曰
-<lb ed="L" n="0689b06"/>既悟了說亦說得明亦明得如何<note n="0689b0601" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0689b0601"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>未在
+<lb ed="L" n="0689b06"/>既悟了說亦說得明亦明得如何<note 
+n="0689b0601" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0689b0601">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>未在
 <lb ed="L" n="0689b07"/>遂叅究累日忽然省悟從前寶惜一時放
 <lb ed="L" n="0689b08"/>下走見白雲雲為手舞足蹈祖亦一笑而
-<lb ed="L" n="0689b09"/><note n="0689b0901" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0689b0901"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>如今妄為師範的老禿奴還有個般手
-<lb ed="L" n="0689b10"/>眼<note n="0689b1001" resp="CBETA" type="add">鍛【CB】，鍜【龍】</note><app n="0689b1001"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【龍】">鍜</rdg></app>鍊人麼奔南走北漫稱𠫵學的無慚
+<lb ed="L" n="0689b09"/><note 
+n="0689b0901" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0689b0901">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>如今妄為師範的老禿奴還有個般手
+<lb ed="L" n="0689b10"/>眼<note 
+n="0689b1001" resp="CBETA" type="add">鍛【CB】，鍜【龍】</note><app n="0689b1001">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【龍】">鍜</rdg>
+</app>鍊人麼奔南走北漫稱𠫵學的無慚
 <lb ed="L" n="0689b11"/>愧漢還受得明眼作家如是鉗錘麼若不
 <lb ed="L" n="0689b12"/>識古人者個作畧則馬祖喝黃檗棒興化
 <lb ed="L" n="0689b13"/>罸𢷤一槩意思閒放過為師者見人畧有
@@ -2298,7 +2625,11 @@
 <lb ed="L" n="0690b03"/>座敢保諸人坐也釋迦彌勒左右侍立行
 <lb ed="L" n="0690b04"/>也飲光達磨前後追隨無人無時不向毘
 <lb ed="L" n="0690b05"/>盧頂上行有甚禪可叅有甚道可學秪是
-<lb ed="L" n="0690b06"/>諸人亦有自<note n="0690b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0690b0601"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>放不過的還知病根在甚
+<lb ed="L" n="0690b06"/>諸人亦有自<note 
+n="0690b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0690b0601">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>放不過的還知病根在甚
 <lb ed="L" n="0690b07"/>處麼竪柱杖云人既自放不過柱杖子亦
 <lb ed="L" n="0690b08"/>不放過看取打草驚蛇舉僧問乾峯十方
 <lb ed="L" n="0690b09"/>薄伽梵一路涅槃門未審路頭在甚麼處
@@ -2320,7 +2651,11 @@
 <lb ed="L" n="0691a09"/>雖弘此板彌大徧法界無內無外亘古今
 <lb ed="L" n="0691a10"/>不變不遷晝夜六時出微妙音成殊勝事
 <lb ed="L" n="0691a11"/>聾者聆之耳根圓聞瞽者睹之目根圓見
-<lb ed="L" n="0691a12"/>病者繇之得瘥苦者繇之停酸一切<note n="0691a1201" resp="CBETA" type="add" note_key="L154.0691a12.15">縛【CB】，縳【龍】</note><app n="0691a1201"><lem wit="【CB】" resp="CBETA.shin">縛<note type="cf1">L154n1641_p0623b02</note></lem><rdg wit="【龍】">縳</rdg></app>著
+<lb ed="L" n="0691a12"/>病者繇之得瘥苦者繇之停酸一切<note 
+n="0691a1201" resp="CBETA" type="add" note_key="L154.0691a12.15">縛【CB】，縳【龍】</note><app n="0691a1201">
+  <lem wit="【CB】" resp="CBETA.shin">縛<note type="cf1">L154n1641_p0623b02</note></lem>
+  <rdg wit="【龍】">縳</rdg>
+</app>著
 <lb ed="L" n="0691a13"/>者莫不繇之解脫然而全憑有福慧人一
 <lb ed="L" n="0691a14"/>念信心一念肯心彰著如是不思議事當
 <lb ed="L" n="0691a15"/>知錢居士鑄此報恩禪寺香積堂大板頓
@@ -2393,7 +2728,11 @@
 <lb ed="L" n="0693b02"/>座出來道某甲有個方便罸他向飯籮邊
 <lb ed="L" n="0693b03"/>餓死大海裏渴死師呵呵大笑云上座你
 <lb ed="L" n="0693b04"/>者樣說話慈悲耶惡毒耶擲柱杖云從教
-<lb ed="L" n="0693b05"/>彼禪和自<note n="0693b0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0693b0501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>簡點。</p>
+<lb ed="L" n="0693b05"/>彼禪和自<note 
+n="0693b0501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0693b0501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>簡點。</p>
 <lb ed="L" n="0693b06"/><p xml:id="pL154p0693b0601">元旦小叅問證得虛空時無是無非法請
 <lb ed="L" n="0693b07"/>問虛空作麼生證師云梅清滿谷問新年
 <lb ed="L" n="0693b08"/>頭佛法古人道有道無和尚者裏又如何
@@ -2423,7 +2762,11 @@
 <pb ed="L" xml:id="L154.1641.0694b" n="0694b"/>
 <lb ed="L" n="0694b01"/>處會未免觸途成滯山僧有時一句子無
 <lb ed="L" n="0694b02"/>你諸人用心處諸人若向無用心處會未
-<lb ed="L" n="0694b03"/>免當靣蹉<note n="0694b0301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0694b0301"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>山僧有時一句子八角磨盤
+<lb ed="L" n="0694b03"/>免當靣蹉<note 
+n="0694b0301" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0694b0301">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>山僧有時一句子八角磨盤
 <lb ed="L" n="0694b04"/>空裏走諸人若作八角磨盤空裏走會轉
 <lb ed="L" n="0694b05"/>見白雲萬里所以道一句中具三玄一玄
 <lb ed="L" n="0694b06"/>中具三要有權有實有炤有用千日竝炤
@@ -2443,7 +2786,11 @@
 <lb ed="L" n="0695a04"/>用汝等作麼生會還有人看破臨濟大師
 <lb ed="L" n="0695a05"/>也未聽取山僧頌出舉尾知頭南泉趙州
 <lb ed="L" n="0695a06"/>月來昨夜去矣君候敲空作響遐哉溈仰
-<lb ed="L" n="0695a07"/>不負耽源燒<note n="0695a0701" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0695a0701"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>圓相回互不互石頭滑路
+<lb ed="L" n="0695a07"/>不負耽源燒<note 
+n="0695a0701" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0695a0701">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>圓相回互不互石頭滑路
 <lb ed="L" n="0695a08"/>弗會佛法東西密付人來靣壁手眼通身
 <lb ed="L" n="0695a09"/>高山流水別有知音輥出木球爍破髑髏
 <lb ed="L" n="0695a10"/>収來舊處把櫓看鉤吸𥁞西江全生全殺
@@ -2454,7 +2801,11 @@
 <lb ed="L" n="0695a15"/>云齩人矢橛不是好狗師廼云𥁞十虛渾
 <pb ed="L" xml:id="L154.1641.0695b" n="0695b"/>
 <lb ed="L" n="0695b01"/>成一塊頑鐵多少人自生穿鑿自生喫跌
-<lb ed="L" n="0695b02"/>屈千里<note n="0695b0201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0695b0201"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>同風對靣不相識。</p>
+<lb ed="L" n="0695b02"/>屈千里<note 
+n="0695b0201" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0695b0201">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>同風對靣不相識。</p>
 <lb ed="L" n="0695b03"/><p xml:id="pL154p0695b0301">解冬小叅問答不錄師廼云𥁞大地撮來
 <lb ed="L" n="0695b04"/>粟米大不會打入普請看古人恁麼道如
 <lb ed="L" n="0695b05"/>將百二十斤擔子加在諸人肩上若是承
@@ -2550,7 +2901,11 @@
 <lb ed="L" n="0698a15"/>起妄念既不起妄念如何於諸妄心亦不
 <pb ed="L" xml:id="L154.1641.0698b" n="0698b"/>
 <lb ed="L" n="0698b01"/>息滅此如茫茫大海中渾無著落者是也
-<lb ed="L" n="0698b02"/>有等一知半解得少為足者便道<note n="0698b0201" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0698b0201"><lem wit="【CB】" resp="CBETA.maha">逢</lem><rdg wit="【龍】">逄</rdg></app>飯喫
+<lb ed="L" n="0698b02"/>有等一知半解得少為足者便道<note 
+n="0698b0201" resp="CBETA" type="add">逢【CB】，逄【龍】</note><app n="0698b0201">
+  <lem wit="【CB】" resp="CBETA.maha">逢</lem>
+  <rdg wit="【龍】">逄</rdg>
+</app>飯喫
 <lb ed="L" n="0698b03"/>飯要困便困淫坊酒肆不礙菩提逆行順
 <lb ed="L" n="0698b04"/>行一切不管所謂豁達空撥因果莾莾蕩
 <lb ed="L" n="0698b05"/>蕩招殃禍此如不塟吞舟之腹即墮羅剎
@@ -2569,7 +2924,11 @@
 <lb ed="L" n="0699a02"/>師全身去也。</p>
 <lb ed="L" n="0699a03"/><p xml:id="pL154p0699a0301">晚叅師云看看山僧一口吞却諸上座了
 <lb ed="L" n="0699a04"/>也諸上座還聞得山僧矢臭氣麼良久驀
-<lb ed="L" n="0699a05"/>掩<note n="0699a0501" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0699a0501"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>室門。</p>
+<lb ed="L" n="0699a05"/>掩<note 
+n="0699a0501" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0699a0501">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>室門。</p>
 <lb ed="L" n="0699a06"/><p xml:id="pL154p0699a0601">丙申佛誕小叅師拈柱杖云三年不事事
 <lb ed="L" n="0699a07"/>強起答羣賢未了先師案塔根臥冷煙眾
 <lb ed="L" n="0699a08"/>問話畢師云告汝大眾同此荒寒岑寂叅
@@ -2584,7 +2943,11 @@
 <lb ed="L" n="0699b01"/>內無如是刀高聲召云大眾驀卓柱杖一
 <lb ed="L" n="0699b02"/>時打散。</p>
 <lb ed="L" n="0699b03"/><p xml:id="pL154p0699b0301">結制夜小叅師云告汝內外大眾普請無
-<lb ed="L" n="0699b04"/>動無靜絕情絕解各各圓證自<note n="0699b0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0699b0401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>本來靣
+<lb ed="L" n="0699b04"/>動無靜絕情絕解各各圓證自<note 
+n="0699b0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0699b0401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>本來靣
 <lb ed="L" n="0699b05"/>目從上佛祖是汝兒孫三乘十二分教是
 <lb ed="L" n="0699b06"/>甚拭不淨紙自是不歸歸便得故園風月
 <lb ed="L" n="0699b07"/>有誰爭。</p>
@@ -2603,7 +2966,11 @@
 <lb ed="L" n="0700a04"/>言道有道無心甜口苦告汝諸人莫莾鹵
 <lb ed="L" n="0700a05"/>仔細隄防大雄山下虎。</p>
 <lb ed="L" n="0700a06"/><p xml:id="pL154p0700a0601">歸報恩晚叅師云有人走到拄杖子下來
-<lb ed="L" n="0700a07"/>不與他拄杖子喫有人廻避拄杖子<note n="0700a0701" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0700a0701"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>與
+<lb ed="L" n="0700a07"/>不與他拄杖子喫有人廻避拄杖子<note 
+n="0700a0701" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0700a0701">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>與
 <lb ed="L" n="0700a08"/>他拄杖喫且道喫拄杖子的是不喫拄杖
 <lb ed="L" n="0700a09"/>子的是後堂云知音不必頻頻舉達者須
 <lb ed="L" n="0700a10"/>知暗點頭師休去。</p>
@@ -2616,20 +2983,48 @@
 <lb ed="L" n="0700b01"/>座。</p>
 <lb ed="L" n="0700b02"/><p xml:id="pL154p0700b0201">檀越請小叅問答畢師拈拄杖云學般若
 <lb ed="L" n="0700b03"/>菩薩須識取真子真孫識得真子孫便識
-<lb ed="L" n="0700b04"/>得真父母識得真父母便識得真自<note n="0700b0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b0401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>識
-<lb ed="L" n="0700b05"/>得真自<note n="0700b0501" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0700b0501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>方知無死無生無聚無散無苦
-<lb ed="L" n="0700b06"/>無樂方知本無自<note n="0700b0601" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b0601"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>本無父母本無子孫
+<lb ed="L" n="0700b04"/>得真父母識得真父母便識得真自<note 
+n="0700b0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b0401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>識
+<lb ed="L" n="0700b05"/>得真自<note 
+n="0700b0501" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0700b0501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>方知無死無生無聚無散無苦
+<lb ed="L" n="0700b06"/>無樂方知本無自<note 
+n="0700b0601" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b0601">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>本無父母本無子孫
 <lb ed="L" n="0700b07"/>本無天地本無萬物本無佛祖本無眾生
 <lb ed="L" n="0700b08"/>不妨於此中示有佛祖示有眾生示有天
-<lb ed="L" n="0700b09"/>地示有萬物示有自<note n="0700b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0700b0901"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>示有父母示有子
+<lb ed="L" n="0700b09"/>地示有萬物示有自<note 
+n="0700b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0700b0901">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>示有父母示有子
 <lb ed="L" n="0700b10"/>孫示有生死示有聚散示有苦樂方知示
 <lb ed="L" n="0700b11"/>有苦樂本無苦樂示有聚散本無聚散示
-<lb ed="L" n="0700b12"/>有生死本無生死示有自<note n="0700b1201" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b1201"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>本無自<note n="0700b1202" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b1202"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>示
+<lb ed="L" n="0700b12"/>有生死本無生死示有自<note 
+n="0700b1201" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b1201">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>本無自<note 
+n="0700b1202" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0700b1202">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>示
 <lb ed="L" n="0700b13"/>有父母本無父母示有子孫本無子孫示
 <lb ed="L" n="0700b14"/>有萬物本無萬物示有天地本無天地示
 <lb ed="L" n="0700b15"/>有眾生本無眾生示有佛祖本無佛祖夫
 <pb ed="L" xml:id="L154.1641.0701a" n="0701a"/>
-<lb ed="L" n="0701a01"/>是之謂真佛祖夫是之謂真自<note n="0701a0101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0701a0101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>夫是之
+<lb ed="L" n="0701a01"/>是之謂真佛祖夫是之謂真自<note 
+n="0701a0101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0701a0101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>夫是之
 <lb ed="L" n="0701a02"/>謂真父母夫是之謂真子孫竪拄杖云以
 <lb ed="L" n="0701a03"/>此舉揚般若之力回向法界有情齊圓種
 <lb ed="L" n="0701a04"/>智卓拄杖喝一喝下座。</p>
@@ -2651,7 +3046,11 @@
 <lb ed="L" n="0701b04"/><p xml:id="pL154p0701b0401">丙申冬過大雄晚叅師驀喝一喝眾禮拜
 <lb ed="L" n="0701b05"/>師云半得半失。</p>
 <lb ed="L" n="0701b06"/><p xml:id="pL154p0701b0601">師歸報恩檀越請小叅師云祖師西來別
-<lb ed="L" n="0701b07"/>無奇特秪要當人信得自<note n="0701b0701" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0701b0701"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>是佛見自本
+<lb ed="L" n="0701b07"/>無奇特秪要當人信得自<note 
+n="0701b0701" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0701b0701">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>是佛見自本
 <lb ed="L" n="0701b08"/>來面目祖師門下客若不離心意識絕聖
 <lb ed="L" n="0701b09"/>凡路如何得見本來面目所以祖師又示
 <lb ed="L" n="0701b10"/>人向未生前薦取堪笑堪嗟十箇五雙口
@@ -2694,12 +3093,20 @@
 <lb ed="L" n="0703a05"/>堂外禪坐堂內坐禪值牲問生死到來如
 <lb ed="L" n="0703a06"/>何抵敵師云三世諸佛不知有進云目前
 <lb ed="L" n="0703a07"/>一着子不得縱橫過在甚處師云狸奴白
-<lb ed="L" n="0703a08"/>牯<note n="0703a0801" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0703a0801"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>知有問以大圓覺為我伽藍如何是
+<lb ed="L" n="0703a08"/>牯<note 
+n="0703a0801" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0703a0801">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>知有問以大圓覺為我伽藍如何是
 <lb ed="L" n="0703a09"/>大圓覺師云近前來與汝道僧擬開口師
 <lb ed="L" n="0703a10"/>便喝僧又申問師便打問凢所有相皆是
 <lb ed="L" n="0703a11"/>虗妄為甚有山河大地聲未絕師便打又
 <lb ed="L" n="0703a12"/>僧出師亦打僧退師乃云山僧未出方丈
-<lb ed="L" n="0703a13"/>早<note n="0703a1301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0703a1301"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>知歸猶是不唧𠺕漢更待向前喫棒
+<lb ed="L" n="0703a13"/>早<note 
+n="0703a1301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0703a1301">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>知歸猶是不唧𠺕漢更待向前喫棒
 <lb ed="L" n="0703a14"/>得與麼不知痛癢然而既到者裏且聽山
 <lb ed="L" n="0703a15"/>僧說夢山僧閉門打睡夢坐一道場彷彿
 <pb ed="L" xml:id="L154.1641.0703b" n="0703b"/>
@@ -2781,7 +3188,11 @@
 <lb ed="L" n="0705b12"/>師云好生著力問馬祖一喝百丈三日耳
 <lb ed="L" n="0705b13"/>聾意旨如何師云非汝所言進云黃檗吐
 <lb ed="L" n="0705b14"/>舌又作麼生師云兩重公案問不慕諸聖
-<lb ed="L" n="0705b15"/>不重<note n="0705b1501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0705b1501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>靈還有向上事也無師云有進云
+<lb ed="L" n="0705b15"/>不重<note 
+n="0705b1501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0705b1501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>靈還有向上事也無師云有進云
 <pb ed="L" xml:id="L154.1641.0706a" n="0706a"/>
 <lb ed="L" n="0706a01"/>如何是向上事師云東司頭去撒進云恁
 <lb ed="L" n="0706a02"/>麼則直截去也師云莫惹人掩鼻問大智
@@ -2799,7 +3210,11 @@
 <lb ed="L" n="0706a14"/>禍不入慎家之門各請歸寮眾作禮一僧
 <lb ed="L" n="0706a15"/>云如水乳合師云將謂停囚長智。</p>
 <pb ed="L" xml:id="L154.1641.0706b" n="0706b"/>
-<lb ed="L" n="0706b01"/><p xml:id="pL154p0706b0101">晚叅僧問不慕諸聖不重<note n="0706b0101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0706b0101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>靈時如何師
+<lb ed="L" n="0706b01"/><p xml:id="pL154p0706b0101">晚叅僧問不慕諸聖不重<note 
+n="0706b0101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0706b0101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>靈時如何師
 <lb ed="L" n="0706b02"/>云利刃有蜜不須舐蠱毒之家水莫嘗問
 <lb ed="L" n="0706b03"/>脫體無依倚猶自立邊疆請問和尚過在
 <lb ed="L" n="0706b04"/>甚麼處師云急走過進云撒手千峰外渠
@@ -2813,7 +3228,11 @@
 <lb ed="L" n="0706b12"/>惡的管教一箇箇超佛越祖去情義盡從
 <lb ed="L" n="0706b13"/>貧處斷世人偏向有錢家驀喝一喝卓拄
 <lb ed="L" n="0706b14"/>杖下座。</p>
-<lb ed="L" n="0706b15"/><p xml:id="pL154p0706b1501">戊戌上<note n="0706b1501" resp="CBETA" type="add">巳【CB】，已【龍】</note><app n="0706b1501"><lem wit="【CB】" resp="CBETA.maha">巳</lem><rdg wit="【龍】">已</rdg></app>荊溪眾檀越請師入主磬山小
+<lb ed="L" n="0706b15"/><p xml:id="pL154p0706b1501">戊戌上<note 
+n="0706b1501" resp="CBETA" type="add">巳【CB】，已【龍】</note><app n="0706b1501">
+  <lem wit="【CB】" resp="CBETA.maha">巳</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>荊溪眾檀越請師入主磬山小
 <pb ed="L" xml:id="L154.1641.0707a" n="0707a"/>
 <lb ed="L" n="0707a01"/>叅師竪拂云龜毛拂子利如錐舉出離情
 <lb ed="L" n="0707a02"/>作者知生平不輕全許可拈香須將虎鬚
@@ -2964,7 +3383,11 @@
 <lb ed="L" n="0711b03"/>容針觸瞎千聖頂𩕳眼曹山潦倒強惺惺
 <lb ed="L" n="0711b04"/>驀卓拄杖喝一喝。</p>
 <lb ed="L" n="0711b05"/><p xml:id="pL154p0711b0501">禮塔歸晚叅師云若人識得心大地無寸
-<lb ed="L" n="0711b06"/>土天目代出明心見性祖師因甚<note n="0711b0601" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0711b0601"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【龍】">郤</rdg></app>有許
+<lb ed="L" n="0711b06"/>土天目代出明心見性祖師因甚<note 
+n="0711b0601" resp="CBETA" type="add">卻【CB】，郤【龍】</note><app n="0711b0601">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【龍】">郤</rdg>
+</app>有許
 <lb ed="L" n="0711b07"/>多奇松怪石眾良久師以禪板拍案云人
 <lb ed="L" n="0711b08"/>歸大國方知貴水到瀟湘一樣清。</p>
 <lb ed="L" n="0711b09"/><p xml:id="pL154p0711b0901">晚叅師云敲空作響擊石無聲大眾默坐
@@ -3020,7 +3443,11 @@
 <lb ed="L" n="0713a11"/>奪境師竪起拄杖進云如何是奪境不奪
 <lb ed="L" n="0713a12"/>人師云禮拜著進云如何是人境兩俱奪
 <lb ed="L" n="0713a13"/>師云今日且放過進云如何是人境俱不
-<lb ed="L" n="0713a14"/>奪師云謝汝齊進云料揀<note n="0713a1401" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0713a1401"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>蒙師指示即
+<lb ed="L" n="0713a14"/>奪師云謝汝齊進云料揀<note 
+n="0713a1401" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0713a1401">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>蒙師指示即
 <lb ed="L" n="0713a15"/>今臨濟大師是何面目師便打僧云咦師
 <pb ed="L" xml:id="L154.1641.0713b" n="0713b"/>
 <lb ed="L" n="0713b01"/>又打幾擊著琉璃又僧問西來大意則不
@@ -3087,7 +3514,11 @@
 <lb ed="L" n="0715a14"/>山低。</p>
 <lb ed="L" n="0715a15"/><p xml:id="pL154p0715a1501">佛湼槃日晚叅師召大眾云今日是什麼
 <pb ed="L" xml:id="L154.1641.0715b" n="0715b"/>
-<lb ed="L" n="0715b01"/>日子眾答話畢師廼云三春今<note n="0715b0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0715b0101"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>半箇事
+<lb ed="L" n="0715b01"/>日子眾答話畢師廼云三春今<note 
+n="0715b0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0715b0101">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>半箇事
 <lb ed="L" n="0715b02"/>合如何全身示現日睡眼細摩挲。</p>
 <lb ed="L" n="0715b03"/><p xml:id="pL154p0715b0301">大悲誕晚叅師杖空一下召大眾云敲空
 <lb ed="L" n="0715b04"/>作響擊木無聲會麼。</p>
@@ -3229,7 +3660,11 @@
 <lb ed="L" n="0719b12"/><p xml:id="pL154p0719b1201">解制小叅僧問羅籠不住呼喚不回成什
 <lb ed="L" n="0719b13"/>麼邊事師打云打出你頂門眼進云如是
 <lb ed="L" n="0719b14"/>則信步蹋翻華藏海堂堂徧界任縱橫師
-<lb ed="L" n="0719b15"/>以拄杖擉云<note n="0719b1501" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0719b1501"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>瞎你眼中睛師廼橫按拄
+<lb ed="L" n="0719b15"/>以拄杖擉云<note 
+n="0719b1501" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0719b1501">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>瞎你眼中睛師廼橫按拄
 <pb ed="L" xml:id="L154.1641.0720a" n="0720a"/>
 <lb ed="L" n="0720a01"/>杖云千人萬人中得一人半人得一人半
 <lb ed="L" n="0720a02"/>人方知一切眾生皆具如來智慧德相但
@@ -3329,7 +3764,11 @@
 <pb ed="L" xml:id="L154.1641.0723a" n="0723a"/>
 <lb ed="L" n="0723a01"/>未悟道者如為客未到家一般不見古人
 <lb ed="L" n="0723a02"/>云旅舘寒燈獨不眠客心何事轉悽然故
-<lb ed="L" n="0723a03"/>鄉今夜思千里霜<g ref="#CB06324"/>明朝又一年<note n="0723a0301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0723a0301"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>悟道
+<lb ed="L" n="0723a03"/>鄉今夜思千里霜<g ref="#CB06324"/>明朝又一年<note 
+n="0723a0301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0723a0301">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>悟道
 <lb ed="L" n="0723a04"/>者亦不合睡凡悟道者如生西方一般所
 <lb ed="L" n="0723a05"/>謂如蓮華開似大夢覺從此應無寒暑無
 <lb ed="L" n="0723a06"/>晝夜久悟道者亦不合睡凡久悟道者應
@@ -3472,7 +3911,11 @@
 <lb ed="L" n="0727a15"/>但解制以來不無減舊增新更為申示自
 <pb ed="L" xml:id="L154.1641.0727b" n="0727b"/>
 <lb ed="L" n="0727b01"/>後久居大眾須以尋常家範說與初進諸
-<lb ed="L" n="0727b02"/>賢第一須敦尚戒德<note n="0727b0201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0727b0201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>圓大戒者貴乎身
+<lb ed="L" n="0727b02"/>賢第一須敦尚戒德<note 
+n="0727b0201" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0727b0201">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>圓大戒者貴乎身
 <lb ed="L" n="0727b03"/>心俱淨方受具戒十戒者即須嚴束身口
 <lb ed="L" n="0727b04"/>初出家者須精持五戒五戒為眾戒根本
 <lb ed="L" n="0727b05"/>為一切法之根本也凡半月半月誦戒證
@@ -3626,7 +4069,11 @@
 <lb ed="L" n="0732a14"/><cb:div type="other"><cb:mulu type="其他" level="2">示𡿄侍司</cb:mulu><head>示𡿄侍司</head>
 <lb ed="L" n="0732a15"/><p xml:id="pL154p0732a1501">在堂中不要學佛學法辯古明今當毒眼
 <pb ed="L" xml:id="L154.1641.0732b" n="0732b"/>
-<lb ed="L" n="0732b01"/>孤撑無佛無祖無人無<note n="0732b0101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0732b0101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>放出葢天葢地
+<lb ed="L" n="0732b01"/>孤撑無佛無祖無人無<note 
+n="0732b0101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0732b0101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>放出葢天葢地
 <lb ed="L" n="0732b02"/>志氣來東弗于逮橫身西瞿耶尼展脚南
 <lb ed="L" n="0732b03"/>贍部洲啜飯北鬱單越撒溺語默超越常
 <lb ed="L" n="0732b04"/>情動止迥殊舊習天神捧華無路人鬼覻
@@ -3634,7 +4081,11 @@
 <lb ed="L" n="0732b06"/>刀子也能殺也能活也能照人肝膽也能
 <lb ed="L" n="0732b07"/>穪人伎倆把從上千七百老古錐遺下一
 <lb ed="L" n="0732b08"/>言半句或是作家相見或是出格提持或
-<lb ed="L" n="0732b09"/>嚴密或危險或泥中有<note n="0732b0901" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0732b0901"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>或沙裏無油或
+<lb ed="L" n="0732b09"/>嚴密或危險或泥中有<note 
+n="0732b0901" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0732b0901">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>或沙裏無油或
 <lb ed="L" n="0732b10"/>人目為誵訛或人目為奇特千岐萬別駭
 <lb ed="L" n="0732b11"/>狀奇音逢著箇鈍刀子自然如庖丁之解
 <lb ed="L" n="0732b12"/>牛由基之繞𣗳豈他穿窬擔板亂統支離
@@ -3671,7 +4122,11 @@
 <lb ed="L" n="0733b11"/><p xml:id="pL154p0733b1101">有意味處切忌貪戀絕依倚時努力進步
 <lb ed="L" n="0733b12"/>能如是行必慰我之所望也。</p></cb:div>
 <lb ed="L" n="0733b13"/><cb:div type="other"><cb:mulu type="其他" level="2">示祈遠唐居士</cb:mulu><head>示祈遠唐居士</head>
-<lb ed="L" n="0733b14"/><p xml:id="pL154p0733b1401">工夫做到疑情𤼵不起則<note n="0733b1401" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0733b1401"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>到門頭此時
+<lb ed="L" n="0733b14"/><p xml:id="pL154p0733b1401">工夫做到疑情𤼵不起則<note 
+n="0733b1401" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0733b1401">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>到門頭此時
 <lb ed="L" n="0733b15"/>不用性急不得回顧不得貪戀須連那得
 <pb ed="L" xml:id="L154.1641.0734a" n="0734a"/>
 <lb ed="L" n="0734a01"/>知疑情𤼵不起的念頭亦不起只恁麼去
@@ -3706,7 +4161,11 @@
 <lb ed="L" n="0734b14"/><p xml:id="pL154p0734b1401">言須可行行須可言見說兩到行解相應
 <lb ed="L" n="0734b15"/>無愧屋漏<g ref="#CB00104"/>媺古人。</p>
 <pb ed="L" xml:id="L154.1641.0735a" n="0735a"/>
-<lb ed="L" n="0735a01"/><p xml:id="pL154p0735a0101">衲僧家行事當直遂<note n="0735a0101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0735a0101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>志如此自利如此
+<lb ed="L" n="0735a01"/><p xml:id="pL154p0735a0101">衲僧家行事當直遂<note 
+n="0735a0101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0735a0101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>志如此自利如此
 <lb ed="L" n="0735a02"/>利人難忍能忍難為能為應緣接物不隨
 <lb ed="L" n="0735a03"/>波上下有愧獨知是非毀譽付之何有。</p></cb:div>
 <lb ed="L" n="0735a04"/><cb:div type="other"><cb:mulu type="其他" level="2">示誠先沈居士</cb:mulu><head>示誠先沈居士</head>
@@ -3731,11 +4190,19 @@
 <lb ed="L" n="0735b07"/>竿一擲碧潭渾再擲千峰雷雨腥寄語南
 <lb ed="L" n="0735b08"/>山白額虎我欲推蓬最上層。</p></cb:div>
 <lb ed="L" n="0735b09"/><cb:div type="other"><cb:mulu type="其他" level="2">示韞荊壁上座</cb:mulu><head>示韞荊壁上座</head>
-<lb ed="L" n="0735b10"/><p xml:id="pL154p0735b1001">壁上座多年叅學真切為<note n="0735b1001" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0735b1001"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>不肯輕𤼵躁
+<lb ed="L" n="0735b10"/><p xml:id="pL154p0735b1001">壁上座多年叅學真切為<note 
+n="0735b1001" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0735b1001">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>不肯輕𤼵躁
 <lb ed="L" n="0735b11"/>露迨叅我大雄一見得之累呼入室因命
 <lb ed="L" n="0735b12"/>尅期取證不一日捉敗趙州驚人之句皆
 <lb ed="L" n="0735b13"/>從實地中流出舉古人公案驗之悉能不
-<lb ed="L" n="0735b14"/>為語縛且志願遠大惟視人如<note n="0735b1401" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0735b1401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>豁達大
+<lb ed="L" n="0735b14"/>為語縛且志願遠大惟視人如<note 
+n="0735b1401" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0735b1401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>豁達大
 <lb ed="L" n="0735b15"/>度當為佛祖出氣可耳。</p></cb:div>
 <pb ed="L" xml:id="L154.1641.0736a" n="0736a"/>
 <lb ed="L" n="0736a01"/><cb:div type="other"><cb:mulu type="其他" level="2">示徤禪人</cb:mulu><head>示徤禪人</head>
@@ -3791,7 +4258,11 @@
 <lb ed="L" n="0737b03"/>究竟出世無上妙道當顓為生死始得顓
 <lb ed="L" n="0737b04"/>為生死則博聞強記如慶喜一問十荅如
 <lb ed="L" n="0737b05"/>香嚴百鳥銜華如牛頭千指遶座如夾山
-<lb ed="L" n="0737b06"/>尚須捨<note n="0737b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0737b0601"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>從人况降斯而下者乎不為生
+<lb ed="L" n="0737b06"/>尚須捨<note 
+n="0737b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0737b0601">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>從人况降斯而下者乎不為生
 <lb ed="L" n="0737b07"/>死必尚知見此道不屬知見不為生死必
 <lb ed="L" n="0737b08"/>務功能此道不屬功能不為生死必慕豪
 <lb ed="L" n="0737b09"/>放此道不屬豪放一尚知見務功能慕豪
@@ -3835,7 +4306,11 @@
 <lb ed="L" n="0738b15"/>無真正作家宗師為之打瞎頂門眼奪却
 <pb ed="L" xml:id="L154.1641.0739a" n="0739a"/>
 <lb ed="L" n="0739a01"/>肘後符則雖有實悟自了則可為人則禍
-<lb ed="L" n="0739a02"/>生儻若<note n="0739a0201" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0739a0201"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>見既偏投人又謬自方空豁復
+<lb ed="L" n="0739a02"/>生儻若<note 
+n="0739a0201" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0739a0201">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>見既偏投人又謬自方空豁復
 <lb ed="L" n="0739a03"/>向瞎棒瞎喝下似水合水如空合空謬執
 <lb ed="L" n="0739a04"/>金剛寶劍斬盡一切為實不知我王庫內
 <lb ed="L" n="0739a05"/>無如是刀盲引眾盲江河日下或自入處
@@ -3855,7 +4330,11 @@
 <lb ed="L" n="0739b03"/>自利不全利人不足皆繇不透向上一關
 <lb ed="L" n="0739b04"/>可不惕厲乎第六須修道諦當雖𤼵心諦
 <lb ed="L" n="0739b05"/>當工夫諦當悟處諦當師承諦當末後透
-<lb ed="L" n="0739b06"/>脫諦當更須自<note n="0739b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0739b0601"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>覺察是頓悟頓修根器
+<lb ed="L" n="0739b06"/>脫諦當更須自<note 
+n="0739b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0739b0601">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>覺察是頓悟頓修根器
 <lb ed="L" n="0739b07"/>否是果地善知識否打成一片速於香林
 <lb ed="L" n="0739b08"/>否不走作過涌泉否現業流識淨盡否事
 <lb ed="L" n="0739b09"/>事無礙否行解相應名之為祖試看先宗
@@ -3889,7 +4368,11 @@
 <lb ed="L" n="0740b05"/>如是乎儻把智慧不向他處唐喪猛看破
 <lb ed="L" n="0740b06"/>此身虗幻一息不來即便敗壞此身尚爾
 <lb ed="L" n="0740b07"/>無可把捉身外更有何可留戀努力向天
-<lb ed="L" n="0740b08"/>地未成人物未立自<note n="0740b0801" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0740b0801"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>身心亦無之前一
+<lb ed="L" n="0740b08"/>地未成人物未立自<note 
+n="0740b0801" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0740b0801">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>身心亦無之前一
 <lb ed="L" n="0740b09"/>回證自廣大性體方知自性本自清淨本
 <lb ed="L" n="0740b10"/>自具足本自不生滅自天子以至於庶人
 <lb ed="L" n="0740b11"/>無一不宜為無一不可到豈士大夫而云
@@ -4177,9 +4660,21 @@
 <lb ed="L" n="0749b05"/>滿。</p>
 <lb ed="L" n="0749b06"/><p xml:id="pL154p0749b0601">師問京書記昔日那吒太子析骨還父析
 <lb ed="L" n="0749b07"/>肉還母然後現全身為父母說法大雄今
-<lb ed="L" n="0749b08"/>日開爐上座入爐全身<note n="0749b0801" resp="CBETA" type="add">鍛【CB】，鍜【龍】</note><app n="0749b0801"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【龍】">鍜</rdg></app>過荅得一語我
+<lb ed="L" n="0749b08"/>日開爐上座入爐全身<note 
+n="0749b0801" resp="CBETA" type="add">鍛【CB】，鍜【龍】</note><app n="0749b0801">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【龍】">鍜</rdg>
+</app>過荅得一語我
 <lb ed="L" n="0749b09"/>便肯你進云今日好雨師云眾生顛倒迷
-<lb ed="L" n="0749b10"/><note n="0749b1001" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0749b1001"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>逐物進云者是什麼所在說<note n="0749b1002" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0749b1002"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>說物師
+<lb ed="L" n="0749b10"/><note 
+n="0749b1001" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0749b1001">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>逐物進云者是什麼所在說<note 
+n="0749b1002" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0749b1002">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>說物師
 <lb ed="L" n="0749b11"/>云天帝與東海龍王同時設供上座赴阿
 <lb ed="L" n="0749b12"/>誰請進云一口吞却師云饞嘴禪和又云
 <lb ed="L" n="0749b13"/>天供龍供許你一齊吞禪堂許多大眾向
@@ -4269,10 +4764,18 @@
 <lb ed="L" n="0752b03"/>夢僧無語師云與那僧一阬埋却。</p>
 <lb ed="L" n="0752b04"/><p xml:id="pL154p0752b0401">山西僧問祖師西來直指人心如何是學
 <lb ed="L" n="0752b05"/>人自心師云五臺山頂浪滔天。</p>
-<lb ed="L" n="0752b06"/><p xml:id="pL154p0752b0601">問<note n="0752b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0752b0601"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>事未明如何用心得徹悟去師舉扇
+<lb ed="L" n="0752b06"/><p xml:id="pL154p0752b0601">問<note 
+n="0752b0601" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0752b0601">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>事未明如何用心得徹悟去師舉扇
 <lb ed="L" n="0752b07"/>云扇子十六根骨進云離心意識作麼生
 <lb ed="L" n="0752b08"/>叅師指墜云此是奇南香墜進云向上還
-<lb ed="L" n="0752b09"/>有事也無師云穿却你鼻孔<note n="0752b0901" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0752b0901"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>瞎你眼睛
+<lb ed="L" n="0752b09"/>有事也無師云穿却你鼻孔<note 
+n="0752b0901" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0752b0901">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>瞎你眼睛
 <lb ed="L" n="0752b10"/>眾叅師云諸人從實道看是有眉毛的是
 <lb ed="L" n="0752b11"/>沒眉毛的一僧云有眉毛的師云快須拈
 <lb ed="L" n="0752b12"/>却一僧云眉毛穿却鼻孔師云矢上加尖
@@ -4281,16 +4784,28 @@
 <lb ed="L" n="0752b15"/>舉不顧即差互一僧云是拄杖子師云點
 <pb ed="L" xml:id="L154.1641.0753a" n="0753a"/>
 <lb ed="L" n="0753a01"/>汙了也一僧云謝和尚證明師云順朱填
-<lb ed="L" n="0753a02"/>墨一僧云不會師云<note n="0753a0201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0753a0201"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>破汝眼睛一僧佇
+<lb ed="L" n="0753a02"/>墨一僧云不會師云<note 
+n="0753a0201" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0753a0201">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>破汝眼睛一僧佇
 <lb ed="L" n="0753a03"/>立師云幾人於此茫然一僧禮拜師云一
 <lb ed="L" n="0753a04"/>箭射一羣。</p>
 <lb ed="L" n="0753a05"/><p xml:id="pL154p0753a0501">師問僧十二時中如何用心進云學人不
 <lb ed="L" n="0753a06"/>會師云我正要箇不會的與露柱作伴僧
 <lb ed="L" n="0753a07"/>禮拜立師云一對木頭。</p>
-<lb ed="L" n="0753a08"/><p xml:id="pL154p0753a0801">道信江居士求開示師云你還信得自<note n="0753a0801" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0753a0801"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>
+<lb ed="L" n="0753a08"/><p xml:id="pL154p0753a0801">道信江居士求開示師云你還信得自<note 
+n="0753a0801" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0753a0801">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>
 <lb ed="L" n="0753a09"/>是佛麼進云信得師云信得無眼耳鼻舌
 <lb ed="L" n="0753a10"/>身意麼進云信得師竪拳云喚者箇作什
-<lb ed="L" n="0753a11"/>麼士無語師云了得一切信得自<note n="0753a1101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0753a1101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>。</p>
+<lb ed="L" n="0753a11"/>麼士無語師云了得一切信得自<note 
+n="0753a1101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0753a1101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>。</p>
 <lb ed="L" n="0753a12"/><p xml:id="pL154p0753a1201">火頭問柴盡𦦨絕時如何師云直歲打普
 <lb ed="L" n="0753a13"/>請梆進云大地無寸土向什麼處斫師云
 <lb ed="L" n="0753a14"/>摸摸眉毛看頭擬議師便喝。</p>
@@ -4418,9 +4933,11 @@
 <lb ed="L" n="0757a08"/><cb:div type="orig"><p xml:id="pL154p0757a0801">舉趙州問南泉知有的人向甚處去泉云
 <lb ed="L" n="0757a09"/>山前檀越家作一頭水牯牛去州作禮云
 <lb ed="L" n="0757a10"/>謝師指示泉云昨夜三更月到牕。</p></cb:div>
-<lb ed="L" n="0757a11"/><cb:div type="commentary"><lg xml:id="lgL154p0757a1101" style="text-indent:0em"><l>雪中春色梅梢見黃鳥聲聞意氣新意氣
+<lb ed="L" n="0757a11"/><cb:div type="commentary"><lg xml:id="lgL154p0757a1101" style="text-indent:0em">
+  <l>雪中春色梅梢見黃鳥聲聞意氣新意氣
 <lb ed="L" n="0757a12"/>新誰知黃鳥笑聲頻說與風流明敏者眼
-<lb ed="L" n="0757a13"/>從今日碧華自去年馨</l></lg></cb:div>
+<lb ed="L" n="0757a13"/>從今日碧華自去年馨</l>
+</lg></cb:div>
 <lb ed="L" n="0757a14"/><cb:div type="orig"><p xml:id="pL154p0757a1401">舉歸宗常禪師素與南泉同行忽一日相
 <lb ed="L" n="0757a15"/>別煎茶次南泉問曰從來與師兄商量語
 <pb ed="L" xml:id="L154.1641.0757b" n="0757b"/>
@@ -4429,68 +4946,102 @@
 <lb ed="L" n="0757b03"/>畢竟事作麼生宗打翻茶銚便起泉曰師
 <lb ed="L" n="0757b04"/>兄喫茶了普願未喫宗曰作者箇說話滴
 <lb ed="L" n="0757b05"/>水也難消。</p></cb:div>
-<lb ed="L" n="0757b06"/><cb:div type="commentary"><lg xml:id="lgL154p0757b0601" style="text-indent:0em"><l>賔則始終賔主則始終主金鎚各逞藏鋒
+<lb ed="L" n="0757b06"/><cb:div type="commentary"><lg xml:id="lgL154p0757b0601" style="text-indent:0em">
+  <l>賔則始終賔主則始終主金鎚各逞藏鋒
 <lb ed="L" n="0757b07"/>技父子不傳兄弟同氣和烟搭在玉欄干
-<lb ed="L" n="0757b08"/>上苑垂楊鳥深處</l></lg></cb:div>
+<lb ed="L" n="0757b08"/>上苑垂楊鳥深處</l>
+</lg></cb:div>
 <lb ed="L" n="0757b09"/><cb:div type="orig"><p xml:id="pL154p0757b0901">舉陸亘大夫向南泉云肇法師也甚奇怪
 <lb ed="L" n="0757b10"/>解道天地與我同根萬物與我一體泉指
 <lb ed="L" n="0757b11"/>牡丹華云大夫時人見此一株華如夢相
 <lb ed="L" n="0757b12"/>似。</p></cb:div>
-<lb ed="L" n="0757b13"/><cb:div type="commentary"><lg xml:id="lgL154p0757b1301" style="text-indent:0em"><l>一枝華𤼵十分春覩徹根源把玩新堪<note n="0757b1301" resp="CBETA" type="add">羨【CB】，羡【龍】</note><app n="0757b1301"><lem wit="【CB】" resp="CBETA.maha">羨</lem><rdg wit="【龍】">羡</rdg></app>
-<lb ed="L" n="0757b14"/>大夫打失鼻共來笑傲古今人</l></lg></cb:div>
+<lb ed="L" n="0757b13"/><cb:div type="commentary"><lg xml:id="lgL154p0757b1301" style="text-indent:0em">
+  <l>一枝華𤼵十分春覩徹根源把玩新堪<note 
+n="0757b1301" resp="CBETA" type="add">羨【CB】，羡【龍】</note><app n="0757b1301">
+    <lem wit="【CB】" resp="CBETA.maha">羨</lem>
+    <rdg wit="【龍】">羡</rdg>
+  </app>
+<lb ed="L" n="0757b14"/>大夫打失鼻共來笑傲古今人</l>
+</lg></cb:div>
 <lb ed="L" n="0757b15"/><cb:div type="orig"><p xml:id="pL154p0757b1501">舉僧問疎山禪師如何是法身山云枯椿
 <pb ed="L" xml:id="L154.1641.0758a" n="0758a"/>
 <lb ed="L" n="0758a01"/>如何是法身向上事山云非枯椿。</p></cb:div>
-<lb ed="L" n="0758a02"/><cb:div type="commentary"><lg xml:id="lgL154p0758a0201" style="text-indent:0em"><l>一拳拳倒黃鶴樓一踢踢翻鸚鵡洲有意
-<lb ed="L" n="0758a03"/>氣時添意氣不風流處也風流</l></lg></cb:div>
+<lb ed="L" n="0758a02"/><cb:div type="commentary"><lg xml:id="lgL154p0758a0201" style="text-indent:0em">
+  <l>一拳拳倒黃鶴樓一踢踢翻鸚鵡洲有意
+<lb ed="L" n="0758a03"/>氣時添意氣不風流處也風流</l>
+</lg></cb:div>
 <lb ed="L" n="0758a04"/><cb:div type="orig"><p xml:id="pL154p0758a0401">舉慈明祖師僧問閙中取靜時如何云頭
 <lb ed="L" n="0758a05"/>枕布袋。</p></cb:div>
-<lb ed="L" n="0758a06"/><cb:div type="commentary"><lg xml:id="lgL154p0758a0601" style="text-indent:0em"><l>悟入汾陽鞋穿足裂塞却口門出廣長舌
+<lb ed="L" n="0758a06"/><cb:div type="commentary"><lg xml:id="lgL154p0758a0601" style="text-indent:0em">
+  <l>悟入汾陽鞋穿足裂塞却口門出廣長舌
 <lb ed="L" n="0758a07"/>如鐘在<g ref="#CB12586"/>小大徐疾有扣斯應渾身金石
 <lb ed="L" n="0758a08"/>三玄彈指四看語默易知難會易見難識
-<lb ed="L" n="0758a09"/>蓮棹洛伽雲開兜率</l></lg></cb:div>
+<lb ed="L" n="0758a09"/>蓮棹洛伽雲開兜率</l>
+</lg></cb:div>
 <lb ed="L" n="0758a10"/><cb:div type="orig"><p xml:id="pL154p0758a1001">舉溈山有句無句公案。</p></cb:div>
-<lb ed="L" n="0758a11"/><cb:div type="commentary"><lg xml:id="lgL154p0758a1101" style="text-indent:0em"><l>二八嬌姝閨閤中錦帳珠簾隱玉容癡郎
+<lb ed="L" n="0758a11"/><cb:div type="commentary"><lg xml:id="lgL154p0758a1101" style="text-indent:0em">
+  <l>二八嬌姝閨閤中錦帳珠簾隱玉容癡郎
 <lb ed="L" n="0758a12"/>把玩簾和帳秪堪一笑動悲風至今逐塊
-<lb ed="L" n="0758a13"/>韓盧隊怎識高居赤眼龍</l></lg></cb:div>
+<lb ed="L" n="0758a13"/>韓盧隊怎識高居赤眼龍</l>
+</lg></cb:div>
 <lb ed="L" n="0758a14"/><cb:div type="orig"><p xml:id="pL154p0758a1401">舉本來面目話。</p></cb:div>
-<lb ed="L" n="0758a15"/><cb:div type="commentary"><lg xml:id="lgL154p0758a1501" style="text-indent:0em"><l>者個本來面光明處處徧却之無可却薦
+<lb ed="L" n="0758a15"/><cb:div type="commentary"><lg xml:id="lgL154p0758a1501" style="text-indent:0em">
+  <l>者個本來面光明處處徧却之無可却薦
 <pb ed="L" xml:id="L154.1641.0758b" n="0758b"/>
 <lb ed="L" n="0758b01"/>之無可薦如月麗中天光照滿林澗漢來
 <lb ed="L" n="0758b02"/>漢來形胡來胡來現知即不能知見即不
 <lb ed="L" n="0758b03"/>能見放下便相親趣凑轉成間千七百葛
-<lb ed="L" n="0758b04"/>藤總是個方便</l></lg></cb:div>
+<lb ed="L" n="0758b04"/>藤總是個方便</l>
+</lg></cb:div>
 <lb ed="L" n="0758b05"/><cb:div type="orig"><p xml:id="pL154p0758b0501">舉僧問乾峰十方薄伽梵一路湼槃門未
 <lb ed="L" n="0758b06"/>審路頭在什麼處峰拈拄杖畫一畫云在
 <lb ed="L" n="0758b07"/>者裏僧又問雲門門拈扇子云扇子𨁝跳
 <lb ed="L" n="0758b08"/>上三十三天築著帝釋鼻孔東海鯉魚打
 <lb ed="L" n="0758b09"/>一棒雨似盆傾。</p></cb:div>
-<lb ed="L" n="0758b10"/><cb:div type="commentary"><lg xml:id="lgL154p0758b1001" style="text-indent:0em"><l>桃源住在避秦先覓個漁即問渡船雞犬
-<lb ed="L" n="0758b11"/>桑麻爭笑舞笑人撈摝水中天</l></lg></cb:div>
+<lb ed="L" n="0758b10"/><cb:div type="commentary"><lg xml:id="lgL154p0758b1001" style="text-indent:0em">
+  <l>桃源住在避秦先覓個漁即問渡船雞犬
+<lb ed="L" n="0758b11"/>桑麻爭笑舞笑人撈摝水中天</l>
+</lg></cb:div>
 <lb ed="L" n="0758b12"/><cb:div type="orig"><p xml:id="pL154p0758b1201">舉趙州至一菴主處云有麼有麼主竪起
 <lb ed="L" n="0758b13"/>拳州曰水淺不是泊船處便去又至一菴
 <lb ed="L" n="0758b14"/>主處曰有麼有麼主亦竪起拳州曰有殺
 <lb ed="L" n="0758b15"/>有活有縱有奪便作禮。</p></cb:div>
 <pb ed="L" xml:id="L154.1641.0759a" n="0759a"/>
-<lb ed="L" n="0759a01"/><cb:div type="commentary"><lg xml:id="lgL154p0759a0101" style="text-indent:0em"><l>短棹輕帆狎怒濤東行西止任逍遙去留
-<lb ed="L" n="0759a02"/>不出蘆華岸陸地追尋人自勞</l></lg></cb:div>
+<lb ed="L" n="0759a01"/><cb:div type="commentary"><lg xml:id="lgL154p0759a0101" style="text-indent:0em">
+  <l>短棹輕帆狎怒濤東行西止任逍遙去留
+<lb ed="L" n="0759a02"/>不出蘆華岸陸地追尋人自勞</l>
+</lg></cb:div>
 <lb ed="L" n="0759a03"/><cb:div type="orig"><p xml:id="pL154p0759a0301">舉玄沙禪師普請砍柴次見一虎天龍曰
 <lb ed="L" n="0759a04"/>和尚虎沙云是汝虎。</p></cb:div>
-<lb ed="L" n="0759a05"/><cb:div type="commentary"><lg xml:id="lgL154p0759a0501" style="text-indent:0em"><l>青天白日遇個怪好心告人成自壞從來
-<lb ed="L" n="0759a06"/>賊不入貧家玄沙獨步千峰外</l></lg></cb:div>
+<lb ed="L" n="0759a05"/><cb:div type="commentary"><lg xml:id="lgL154p0759a0501" style="text-indent:0em">
+  <l>青天白日遇個怪好心告人成自壞從來
+<lb ed="L" n="0759a06"/>賊不入貧家玄沙獨步千峰外</l>
+</lg></cb:div>
 <lb ed="L" n="0759a07"/><cb:div type="orig"><p xml:id="pL154p0759a0701">舉鄧隱峰禪師推車次馬祖展脚在路上
-<lb ed="L" n="0759a08"/>坐峰云請師收足祖云<note n="0759a0801" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0759a0801"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>展不縮峰云<note n="0759a0802" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0759a0802"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>
+<lb ed="L" n="0759a08"/>坐峰云請師收足祖云<note 
+n="0759a0801" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0759a0801">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>展不縮峰云<note 
+n="0759a0802" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0759a0802">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>
 <lb ed="L" n="0759a09"/>進不退廼推車碾損祖脚祖歸法堂執斧
 <lb ed="L" n="0759a10"/>子曰適來碾損老僧脚的出來峰便出於
 <lb ed="L" n="0759a11"/>祖前引頸祖廼置斧。</p></cb:div>
-<lb ed="L" n="0759a12"/><cb:div type="commentary"><lg xml:id="lgL154p0759a1201" style="text-indent:0em"><l>清風拂白月白月照清風千古徹人冷嗟
-<lb ed="L" n="0759a13"/>人春夢濃</l></lg></cb:div>
+<lb ed="L" n="0759a12"/><cb:div type="commentary"><lg xml:id="lgL154p0759a1201" style="text-indent:0em">
+  <l>清風拂白月白月照清風千古徹人冷嗟
+<lb ed="L" n="0759a13"/>人春夢濃</l>
+</lg></cb:div>
 <lb ed="L" n="0759a14"/><cb:div type="orig"><p xml:id="pL154p0759a1401">舉芭蕉山慧清禪師上堂拈拄杖云你有
 <lb ed="L" n="0759a15"/>拄杖子我與你拄杖子你無拄杖子我奪
 <pb ed="L" xml:id="L154.1641.0759b" n="0759b"/>
 <lb ed="L" n="0759b01"/>却你拄杖子靠拄杖下座。</p></cb:div>
-<lb ed="L" n="0759b02"/><cb:div type="commentary"><lg xml:id="lgL154p0759b0201" style="text-indent:0em"><l>蕩蕩一條官驛路晨昏曾不禁人行渾家
-<lb ed="L" n="0759b03"/>不是不進步無奈當門荊𣗥生</l></lg></cb:div>
+<lb ed="L" n="0759b02"/><cb:div type="commentary"><lg xml:id="lgL154p0759b0201" style="text-indent:0em">
+  <l>蕩蕩一條官驛路晨昏曾不禁人行渾家
+<lb ed="L" n="0759b03"/>不是不進步無奈當門荊𣗥生</l>
+</lg></cb:div>
 <lb ed="L" n="0759b04"/><cb:div type="orig"><p xml:id="pL154p0759b0401">舉馬祖令人馳書併醬三甕送與百丈丈
 <lb ed="L" n="0759b05"/>令排向法堂前廼上堂眾纔集百丈以拄
 <lb ed="L" n="0759b06"/>杖指醬甕云道得即不打破道不得即打
@@ -4502,32 +5053,54 @@
 <lb ed="L" n="0759b12"/>為諸人頌出堪嗟一眾是疑團打破從教
 <lb ed="L" n="0759b13"/>仔細看若得磬山當座下林間怗怗地相
 <lb ed="L" n="0759b14"/>安。</p></cb:div>
-<lb ed="L" n="0759b15"/><cb:div type="commentary"><lg xml:id="lgL154p0759b1501" style="text-indent:0em"><l>粥飯禪和萬萬千費人鹽醬若為言馬祖
+<lb ed="L" n="0759b15"/><cb:div type="commentary"><lg xml:id="lgL154p0759b1501" style="text-indent:0em">
+  <l>粥飯禪和萬萬千費人鹽醬若為言馬祖
 <pb ed="L" xml:id="L154.1641.0760a" n="0760a"/>
 <lb ed="L" n="0760a01"/>寄來只三甕百丈傾厨倒庫添倒庫添也
-<lb ed="L" n="0760a02"/>徒然一言九鼎能扶起疎鐘高擊冷雲邊</l></lg></cb:div>
+<lb ed="L" n="0760a02"/>徒然一言九鼎能扶起疎鐘高擊冷雲邊</l>
+</lg></cb:div>
 <lb ed="L" n="0760a03"/><cb:div type="orig"><p xml:id="pL154p0760a0301">和普明禪師牧牛頌。</p></cb:div>
 <lb ed="L" n="0760a04"/><cb:div type="commentary"><p cb:type="head3" xml:id="pL154p0760a0401">未牧</p>
-<lb ed="L" n="0760a05"/><lg xml:id="lgL154p0760a0501" style="text-indent:0em"><l>湘之南潭之北頭角分明東觸西觸</l></lg>
+<lb ed="L" n="0760a05"/><lg xml:id="lgL154p0760a0501" style="text-indent:0em">
+  <l>湘之南潭之北頭角分明東觸西觸</l>
+</lg>
 <lb ed="L" n="0760a06"/><p cb:type="head3" xml:id="pL154p0760a0601">初調</p>
-<lb ed="L" n="0760a07"/><lg xml:id="lgL154p0760a0701" style="text-indent:0em"><l>少獲頭多捕尾月下風前盛溺掃矢</l></lg>
+<lb ed="L" n="0760a07"/><lg xml:id="lgL154p0760a0701" style="text-indent:0em">
+  <l>少獲頭多捕尾月下風前盛溺掃矢</l>
+</lg>
 <lb ed="L" n="0760a08"/><p cb:type="head3" xml:id="pL154p0760a0801">受制</p>
-<lb ed="L" n="0760a09"/><lg xml:id="lgL154p0760a0901" style="text-indent:0em"><l>面月白蹄墨黑有索有鉤忍饑受渴</l></lg>
+<lb ed="L" n="0760a09"/><lg xml:id="lgL154p0760a0901" style="text-indent:0em">
+  <l>面月白蹄墨黑有索有鉤忍饑受渴</l>
+</lg>
 <lb ed="L" n="0760a10"/><p cb:type="head3" xml:id="pL154p0760a1001">回首</p>
-<lb ed="L" n="0760a11"/><lg xml:id="lgL154p0760a1101" style="text-indent:0em"><l>遠邪蹊趣正道步步登高山長路杳</l></lg>
+<lb ed="L" n="0760a11"/><lg xml:id="lgL154p0760a1101" style="text-indent:0em">
+  <l>遠邪蹊趣正道步步登高山長路杳</l>
+</lg>
 <lb ed="L" n="0760a12"/><p cb:type="head3" xml:id="pL154p0760a1201">馴伏</p>
-<lb ed="L" n="0760a13"/><lg xml:id="lgL154p0760a1301" style="text-indent:0em"><l>戴寒鴉履芳草毛骨馨香見者道好</l></lg>
+<lb ed="L" n="0760a13"/><lg xml:id="lgL154p0760a1301" style="text-indent:0em">
+  <l>戴寒鴉履芳草毛骨馨香見者道好</l>
+</lg>
 <lb ed="L" n="0760a14"/><p cb:type="head3" xml:id="pL154p0760a1401">無礙</p>
-<lb ed="L" n="0760a15"/><lg xml:id="lgL154p0760a1501" style="text-indent:0em"><l>寒暑安忙閒得故鄉寬廓任出任入</l></lg>
+<lb ed="L" n="0760a15"/><lg xml:id="lgL154p0760a1501" style="text-indent:0em">
+  <l>寒暑安忙閒得故鄉寬廓任出任入</l>
+</lg>
 <pb ed="L" xml:id="L154.1641.0760b" n="0760b"/>
 <lb ed="L" n="0760b01"/><p cb:type="head3" xml:id="pL154p0760b0101">任運</p>
-<lb ed="L" n="0760b02"/><lg xml:id="lgL154p0760b0201" style="text-indent:0em"><l>朝隴畝暮茅簷隨時水草明月同閒</l></lg>
+<lb ed="L" n="0760b02"/><lg xml:id="lgL154p0760b0201" style="text-indent:0em">
+  <l>朝隴畝暮茅簷隨時水草明月同閒</l>
+</lg>
 <lb ed="L" n="0760b03"/><p cb:type="head3" xml:id="pL154p0760b0301">相忘</p>
-<lb ed="L" n="0760b04"/><lg xml:id="lgL154p0760b0401" style="text-indent:0em"><l>刀砍水珠斷貫澹泊寧靜明志致遠</l></lg>
+<lb ed="L" n="0760b04"/><lg xml:id="lgL154p0760b0401" style="text-indent:0em">
+  <l>刀砍水珠斷貫澹泊寧靜明志致遠</l>
+</lg>
 <lb ed="L" n="0760b05"/><p cb:type="head3" xml:id="pL154p0760b0501">獨照</p>
-<lb ed="L" n="0760b06"/><lg xml:id="lgL154p0760b0601" style="text-indent:0em"><l>失却牛撞破壁一箇閒身赤灑灑立</l></lg>
+<lb ed="L" n="0760b06"/><lg xml:id="lgL154p0760b0601" style="text-indent:0em">
+  <l>失却牛撞破壁一箇閒身赤灑灑立</l>
+</lg>
 <lb ed="L" n="0760b07"/><p cb:type="head3" xml:id="pL154p0760b0701">雙冺</p>
-<lb ed="L" n="0760b08"/><lg xml:id="lgL154p0760b0801" style="text-indent:0em"><l>拋靈符瞎正目函乾葢坤火寒雪毒</l></lg></cb:div></cb:div>
+<lb ed="L" n="0760b08"/><lg xml:id="lgL154p0760b0801" style="text-indent:0em">
+  <l>拋靈符瞎正目函乾葢坤火寒雪毒</l>
+</lg></cb:div></cb:div>
 <lb ed="L" n="0760b09"/><cb:div type="other"><cb:mulu type="其他" level="1">書問</cb:mulu><head>書問</head>
 <lb ed="L" n="0760b10"/><cb:div type="other"><cb:mulu type="其他" level="2">復岵瞻戴廷丞</cb:mulu><head>復岵瞻戴廷丞</head>
 <lb ed="L" n="0760b11"/><p xml:id="pL154p0760b1101">在在是居士菩提塲物物是居士正法眼
@@ -4545,7 +5118,11 @@
 <lb ed="L" n="0761a07"/>法幢奉復不覺縷縷。</p></cb:div>
 <lb ed="L" n="0761a08"/><cb:div type="other"><cb:mulu type="其他" level="2">荅王泰卿居士三問</cb:mulu><head>荅王泰卿居士三問</head>
 <lb ed="L" n="0761a09"/><p xml:id="pL154p0761a0901">問為人容易做人難敢問為人之道師云
-<lb ed="L" n="0761a10"/><note n="0761a1001" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0761a1001"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>所不欲勿施於人問何為知生何為知
+<lb ed="L" n="0761a10"/><note 
+n="0761a1001" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0761a1001">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>所不欲勿施於人問何為知生何為知
 <lb ed="L" n="0761a11"/>死師云知所從來為知生知所從去為知
 <lb ed="L" n="0761a12"/>死問臨去時心不顛倒意不散亂在何處
 <lb ed="L" n="0761a13"/>捉摸師云驗在目前師復云居士真為生
@@ -4570,13 +5147,21 @@
 <pb ed="L" xml:id="L154.1641.0762a" n="0762a"/>
 <lb ed="L" n="0762a01"/>相睹居士以為然否雖然刻刻相睹恐蹤
 <lb ed="L" n="0762a02"/>迹愈疎居士其何以自處夢幻空華更莫
-<lb ed="L" n="0762a03"/>把捉須向一念未生前證取自<note n="0762a0301" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0762a0301"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>廣大心
+<lb ed="L" n="0762a03"/>把捉須向一念未生前證取自<note 
+n="0762a0301" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0762a0301">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>廣大心
 <lb ed="L" n="0762a04"/>體與太虗空同量包裹一切而非一切生
 <lb ed="L" n="0762a05"/>滅一切而非生滅方是居士放身命處不
 <lb ed="L" n="0762a06"/>盡。</p></cb:div>
 <lb ed="L" n="0762a07"/><cb:div type="other"><cb:mulu type="其他" level="2">荊山旅堂寄上大慈老人</cb:mulu><head>荊山旅堂寄上大慈老人</head>
 <lb ed="L" n="0762a08"/><p xml:id="pL154p0762a0801">師太年高當一切莫管惟向父母未生前
-<lb ed="L" n="0762a09"/>看取如何是自<note n="0762a0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0762a0901"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>本來面目見得本來面
+<lb ed="L" n="0762a09"/>看取如何是自<note 
+n="0762a0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0762a0901">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>本來面目見得本來面
 <lb ed="L" n="0762a10"/>目便見得佛祖面目便見得一切真子真
 <lb ed="L" n="0762a11"/>孫面目無生無死無苦無樂方是個大自
 <lb ed="L" n="0762a12"/>在老人名之曰佛名之曰祖名之曰圓通
@@ -4584,7 +5169,11 @@
 <lb ed="L" n="0762a14"/>自利也足利人也足不虗來閻浮世界作
 <lb ed="L" n="0762a15"/>一番佛事如不見本來面目則莫道子孫
 <pb ed="L" xml:id="L154.1641.0762b" n="0762b"/>
-<lb ed="L" n="0762b01"/>眷屬冤親好惡便是自<note n="0762b0101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0762b0101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>一個身子縱保
+<lb ed="L" n="0762b01"/>眷屬冤親好惡便是自<note 
+n="0762b0101" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0762b0101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>一個身子縱保
 <lb ed="L" n="0762b02"/>養到百二十歲一息不來便要敗壞四大
 <lb ed="L" n="0762b03"/>各分還看得經麼還念得佛麼還顧得子
 <lb ed="L" n="0762b04"/>孫麼還簡點得冤親麼越簡點越顛倒越
@@ -4593,7 +5182,11 @@
 <lb ed="L" n="0762b07"/>辦道有至性老人决不肯如此果能向未
 <lb ed="L" n="0762b08"/>生前看得身心世界一切不可得不可得
 <lb ed="L" n="0762b09"/>亦不可得本來面目當自見工夫得力或
-<lb ed="L" n="0762b10"/>白松<note n="0762b1001" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0762b1001"><lem wit="【CB】" resp="CBETA.maha">豐</lem><rdg wit="【龍】">豊</rdg></app>或不退勇或退菴重或骨巖峰皆
+<lb ed="L" n="0762b10"/>白松<note 
+n="0762b1001" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0762b1001">
+  <lem wit="【CB】" resp="CBETA.maha">豐</lem>
+  <rdg wit="【龍】">豊</rdg>
+</app>或不退勇或退菴重或骨巖峰皆
 <lb ed="L" n="0762b11"/>可召而示之此四子當能體我意助師太
 <lb ed="L" n="0762b12"/>入道也丁亥十月辛卯比丘男某百拜上
 <lb ed="L" n="0762b13"/>師太老人慈目。</p></cb:div>
@@ -4606,7 +5199,11 @@
 <lb ed="L" n="0763a04"/><cb:div type="other"><cb:mulu type="其他" level="2">與洽西堂</cb:mulu><head>與洽西堂</head>
 <lb ed="L" n="0763a05"/><p xml:id="pL154p0763a0501">刻刻自為廼真為人切弗忙披𡚁垢向第
 <lb ed="L" n="0763a06"/>二門頭與人婆和但整肅堂規俾人光陰
-<lb ed="L" n="0763a07"/>不虗度多隨眾坐幾枝香則利<note n="0763a0701" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0763a0701"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>利他兩
+<lb ed="L" n="0763a07"/>不虗度多隨眾坐幾枝香則利<note 
+n="0763a0701" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0763a0701">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>利他兩
 <lb ed="L" n="0763a08"/>得之矣莊周云觀德人之容使人意消不
 <lb ed="L" n="0763a09"/>其然乎寮中倍宜嚴靜古人見有入房即
 <lb ed="L" n="0763a10"/>起立焚香不以絕物為嫌有志之士直須
@@ -4626,17 +5223,29 @@
 <lb ed="L" n="0763b08"/>喫過量人痛棒且道既悟為甚又要喫棒
 <lb ed="L" n="0763b09"/>今時稱長老者十個有五雙分䟽不下公
 <lb ed="L" n="0763b10"/>能始終不自欺當不以此言為過也。</p></cb:div>
-<lb ed="L" n="0763b11"/><cb:div type="other"><cb:mulu type="其他" level="2">與豐首座</cb:mulu><head>與<note n="0763b1101" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0763b1101"><lem wit="【CB】" resp="CBETA.maha">豐</lem><rdg wit="【龍】">豊</rdg></app>首座</head>
+<lb ed="L" n="0763b11"/><cb:div type="other"><cb:mulu type="其他" level="2">與豐首座</cb:mulu><head>與<note 
+n="0763b1101" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0763b1101">
+  <lem wit="【CB】" resp="CBETA.maha">豐</lem>
+  <rdg wit="【龍】">豊</rdg>
+</app>首座</head>
 <lb ed="L" n="0763b12"/><p xml:id="pL154p0763b1201">每日夜可將四炷香面壁簡點本分端能
 <lb ed="L" n="0763b13"/>至虗至靈至寂至妙無<g ref="#CB02133"/>毫間斷隔礙執
 <lb ed="L" n="0763b14"/>著虧損等否次可以四炷香領眾直教無
-<lb ed="L" n="0763b15"/>人無<note n="0763b1501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0763b1501"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>無動無靜所謂衲僧行處如火消
+<lb ed="L" n="0763b15"/>人無<note 
+n="0763b1501" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0763b1501">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>無動無靜所謂衲僧行處如火消
 <pb ed="L" xml:id="L154.1641.0764a" n="0764a"/>
 <lb ed="L" n="0764a01"/>冰許誰近傍容誰違背再以四炷香博覽
 <lb ed="L" n="0764a02"/>簡點於古人正說反說遠說近說死說活
 <lb ed="L" n="0764a03"/>說麤說細說一一不受瞞一一舉一明三
 <lb ed="L" n="0764a04"/>不死人句下一一秖用遮眼否餘時方可
-<lb ed="L" n="0764a05"/>放叅否則大事未明如喪考妣大事<note n="0764a0501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0764a0501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>明
+<lb ed="L" n="0764a05"/>放叅否則大事未明如喪考妣大事<note 
+n="0764a0501" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0764a0501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>明
 <lb ed="L" n="0764a06"/>如喪考妣當自立志若悠悠忽忽焉能為
 <lb ed="L" n="0764a07"/>有焉能為無真與草木同腐人也孟子曰
 <lb ed="L" n="0764a08"/>恥之於人大矣念之。</p></cb:div>
@@ -4655,7 +5264,11 @@
 <lb ed="L" n="0764b05"/>認七尺之軀為身見聞覺知為心譬如百
 <lb ed="L" n="0764b06"/>千澄清大海棄之而惟認一浮漚目為全
 <lb ed="L" n="0764b07"/>潮窮盡瀛渤則有生有死無苦不生無苦
-<lb ed="L" n="0764b08"/>不死安而不安堪忍而<note n="0764b0801" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0764b0801"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>是可忍也孰不
+<lb ed="L" n="0764b08"/>不死安而不安堪忍而<note 
+n="0764b0801" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0764b0801">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>是可忍也孰不
 <lb ed="L" n="0764b09"/>可忍也奉寄楞嚴一部熟讀此經方知身
 <lb ed="L" n="0764b10"/>心真妄了生死者生而無生死而無死否
 <lb ed="L" n="0764b11"/>則認識為心認妄為真則不惟錯會釋家
@@ -4720,58 +5333,94 @@
 <lb ed="L" n="0766b06"/><p xml:id="pL154p0766b0601">塵勞中知有大事因緣足徵般若因深臹
 <lb ed="L" n="0766b07"/>持十念法門當先萬緣放下執持名號一
 <lb ed="L" n="0766b08"/>心不亂若有念起須看念從何來看徹念
-<lb ed="L" n="0766b09"/>頭起處則親見自<note n="0766b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0766b0901"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>真面目一口吸盡西
-<lb ed="L" n="0766b10"/>江水龐公去人豈遠哉見得自<note n="0766b1001" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0766b1001"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>真面目
+<lb ed="L" n="0766b09"/>頭起處則親見自<note 
+n="0766b0901" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0766b0901">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>真面目一口吸盡西
+<lb ed="L" n="0766b10"/>江水龐公去人豈遠哉見得自<note 
+n="0766b1001" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0766b1001">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>真面目
 <lb ed="L" n="0766b11"/>則見得阿彌陀佛真面目𢹂西方來東土
 <lb ed="L" n="0766b12"/>也得掇東土入西方也得禪淨一致宗教
 <lb ed="L" n="0766b13"/>俱圓豈不真大丈夫所為哉祝望祝望。</p></cb:div></cb:div>
 <lb ed="L" n="0766b14"/><cb:div type="other"><cb:mulu type="其他" level="1">像讚</cb:mulu><head>像讚</head>
 <lb ed="L" n="0766b15"/><cb:div type="other"><cb:mulu type="其他" level="2">磬山先老和尚</cb:mulu><head>磬山先老和尚</head>
 <pb ed="L" xml:id="L154.1641.0767a" n="0767a"/>
-<lb ed="L" n="0767a01"/><lg xml:id="lgL154p0767a0101" style="text-indent:0em"><l>潛磬谷并汾苦寒遷報恩楊岐冰雪生平
+<lb ed="L" n="0767a01"/><lg xml:id="lgL154p0767a0101" style="text-indent:0em">
+  <l>潛磬谷并汾苦寒遷報恩楊岐冰雪生平
 <lb ed="L" n="0767a02"/>不肯人慣用白雲入磨房之機印證小廝
 <lb ed="L" n="0767a03"/>兒誰是普化震臺山之鐸沿流不止問如
-<lb ed="L" n="0767a04"/>何見過於斯許嗣他</l></lg>
+<lb ed="L" n="0767a04"/>何見過於斯許嗣他</l>
+</lg>
 <lb ed="L" n="0767a05"/><p cb:type="head3" xml:id="pL154p0767a0501">又</p>
-<lb ed="L" n="0767a06"/><lg xml:id="lgL154p0767a0601" style="text-indent:0em"><l>山僧事先師未久即獲入室自後愈近愈
+<lb ed="L" n="0767a06"/><lg xml:id="lgL154p0767a0601" style="text-indent:0em">
+  <l>山僧事先師未久即獲入室自後愈近愈
 <lb ed="L" n="0767a07"/>遠如天之不可階愈入愈深如海之不可
-<lb ed="L" n="0767a08"/>汲惟此不能自<note n="0767a0801" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0767a0801"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>者先師嘗掀髯曰類<note n="0767a0802" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0767a0802"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>
-<lb ed="L" n="0767a09"/>後代兒孫切莫造次</l></lg></cb:div>
+<lb ed="L" n="0767a08"/>汲惟此不能自<note 
+n="0767a0801" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0767a0801">
+    <lem wit="【CB】" resp="CBETA.maha">已</lem>
+    <rdg wit="【龍】">巳</rdg>
+  </app>者先師嘗掀髯曰類<note 
+n="0767a0802" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0767a0802">
+    <lem wit="【CB】" resp="CBETA.maha">己</lem>
+    <rdg wit="【龍】">巳</rdg>
+  </app>
+<lb ed="L" n="0767a09"/>後代兒孫切莫造次</l>
+</lg></cb:div>
 <lb ed="L" n="0767a10"/><cb:div type="other"><cb:mulu type="其他" level="2">自讚</cb:mulu><head>自讚</head>
-<lb ed="L" n="0767a11"/><lg xml:id="lgL154p0767a1101" style="text-indent:0em"><l>未出芙蓉城通身佛法既入磬山室滿面
+<lb ed="L" n="0767a11"/><lg xml:id="lgL154p0767a1101" style="text-indent:0em">
+  <l>未出芙蓉城通身佛法既入磬山室滿面
 <lb ed="L" n="0767a12"/>慚惶十餘年前拈條白棒欲人人得知好
 <lb ed="L" n="0767a13"/>惡十餘年後目睹雲霄一任人七顛八倒
 <lb ed="L" n="0767a14"/><g ref="#CB07632"/>毛拂子欲流傳未入門前分付了咄離
-<lb ed="L" n="0767a15"/>婁公輸難分白皂</l></lg>
+<lb ed="L" n="0767a15"/>婁公輸難分白皂</l>
+</lg>
 <pb ed="L" xml:id="L154.1641.0767b" n="0767b"/>
 <lb ed="L" n="0767b01"/><p cb:type="head3" xml:id="pL154p0767b0101">又</p>
-<lb ed="L" n="0767b02"/><lg xml:id="lgL154p0767b0201" style="text-indent:0em"><l>者漢浙東浙西有湖南湖北有三台五臺
+<lb ed="L" n="0767b02"/><lg xml:id="lgL154p0767b0201" style="text-indent:0em">
+  <l>者漢浙東浙西有湖南湖北有三台五臺
 <lb ed="L" n="0767b03"/>有四海八荒有有處共見共聞秖有一處
-<lb ed="L" n="0767b04"/>人不聞見他日好為人點眼</l></lg>
+<lb ed="L" n="0767b04"/>人不聞見他日好為人點眼</l>
+</lg>
 <lb ed="L" n="0767b05"/><p cb:type="head3" xml:id="pL154p0767b0501">又</p>
-<lb ed="L" n="0767b06"/><lg xml:id="lgL154p0767b0601" style="text-indent:0em"><l>若道是潛子未曾著此色衣若道不是潛
+<lb ed="L" n="0767b06"/><lg xml:id="lgL154p0767b0601" style="text-indent:0em">
+  <l>若道是潛子未曾著此色衣若道不是潛
 <lb ed="L" n="0767b07"/>子他人無此麤眉更有些子相似等閒兀
-<lb ed="L" n="0767b08"/>坐無為</l></lg></cb:div>
+<lb ed="L" n="0767b08"/>坐無為</l>
+</lg></cb:div>
 <lb ed="L" n="0767b09"/><cb:div type="other"><cb:mulu type="其他" level="2">阿彌陀佛像讚</cb:mulu><head>阿彌陀佛像讚</head>
-<lb ed="L" n="0767b10"/><lg xml:id="lgL154p0767b1001" style="text-indent:0em"><l>我識阿彌陀塵塵剎剎現藕華如車輪頂
-<lb ed="L" n="0767b11"/>門豁眼看</l></lg></cb:div>
+<lb ed="L" n="0767b10"/><lg xml:id="lgL154p0767b1001" style="text-indent:0em">
+  <l>我識阿彌陀塵塵剎剎現藕華如車輪頂
+<lb ed="L" n="0767b11"/>門豁眼看</l>
+</lg></cb:div>
 <lb ed="L" n="0767b12"/><cb:div type="other"><cb:mulu type="其他" level="2">觀音大士像讚</cb:mulu><head>觀音大士像讚</head>
-<lb ed="L" n="0767b13"/><lg xml:id="lgL154p0767b1301" style="text-indent:0em"><l>虗空昨夜呵呵笑笑我分身萬象中欲識
-<lb ed="L" n="0767b14"/>虗空真面目看取寒趺楊柳風</l></lg>
+<lb ed="L" n="0767b13"/><lg xml:id="lgL154p0767b1301" style="text-indent:0em">
+  <l>虗空昨夜呵呵笑笑我分身萬象中欲識
+<lb ed="L" n="0767b14"/>虗空真面目看取寒趺楊柳風</l>
+</lg>
 <lb ed="L" n="0767b15"/><p cb:type="head3" xml:id="pL154p0767b1501">又</p>
 <pb ed="L" xml:id="L154.1641.0768a" n="0768a"/>
-<lb ed="L" n="0768a01"/><lg xml:id="lgL154p0768a0101" style="text-indent:0em"><l>一根圓通萬德炳著欲圓種智惟稱大士</l></lg>
+<lb ed="L" n="0768a01"/><lg xml:id="lgL154p0768a0101" style="text-indent:0em">
+  <l>一根圓通萬德炳著欲圓種智惟稱大士</l>
+</lg>
 <lb ed="L" n="0768a02"/><p cb:type="head3" xml:id="pL154p0768a0201">又</p>
-<lb ed="L" n="0768a03"/><lg xml:id="lgL154p0768a0301" style="text-indent:0em"><l>未展楮揮墨前觀世音大士彌滿虗空出
+<lb ed="L" n="0768a03"/><lg xml:id="lgL154p0768a0301" style="text-indent:0em">
+  <l>未展楮揮墨前觀世音大士彌滿虗空出
 <lb ed="L" n="0768a04"/>入一切人眉毛眼睛鼻孔唇舌乃至八萬
 <lb ed="L" n="0768a05"/>四千毛孔中東涌西沒及乎展楮揮墨却
 <lb ed="L" n="0768a06"/>走入一楮一墨中去了也求見大士者切
 <lb ed="L" n="0768a07"/>忌觸途成滯向文彩未彰以前薦取方有
 <lb ed="L" n="0768a08"/>喫棒分杲日一輪當午現無勞鐘鼓報新
-<lb ed="L" n="0768a09"/>晴</l></lg></cb:div>
+<lb ed="L" n="0768a09"/>晴</l>
+</lg></cb:div>
 <lb ed="L" n="0768a10"/><cb:div type="other"><cb:mulu type="其他" level="2">達磨祖師像讚</cb:mulu><head>達磨祖師像讚</head>
-<lb ed="L" n="0768a11"/><lg xml:id="lgL154p0768a1101" style="text-indent:0em"><l>萬里來一葦別五番毒九年壁有此體裁
-<lb ed="L" n="0768a12"/>不愁無人立雪</l></lg></cb:div></cb:div>
+<lb ed="L" n="0768a11"/><lg xml:id="lgL154p0768a1101" style="text-indent:0em">
+  <l>萬里來一葦別五番毒九年壁有此體裁
+<lb ed="L" n="0768a12"/>不愁無人立雪</l>
+</lg></cb:div></cb:div>
 <lb ed="L" n="0768a13"/>
 <lb ed="L" n="0768a14"/>
 <lb ed="L" n="0768a15"/><cb:juan fun="close" n="6"><cb:jhead>大覺普濟能仁玉琳琇國師語錄卷第六</cb:jhead></cb:juan>
@@ -4784,368 +5433,604 @@
 <lb ed="L" n="0769a02"/><byline cb:type="editor">嗣法門人行岳編</byline>
 <lb ed="L" n="0769a03"/><cb:div type="other"><cb:mulu type="其他" level="1">詩偈</cb:mulu><head>詩偈</head>
 <lb ed="L" n="0769a04"/><cb:div type="other"><cb:mulu type="其他" level="2">贈履坦禪人兼報天一居士</cb:mulu><head>贈履坦禪人兼報天一居士</head>
-<lb ed="L" n="0769a05"/><lg xml:id="lgL154p0769a0501" style="text-indent:0em"><l>鼎立三峰勢插天嶺門雖闢白雲連飛鴻
-<lb ed="L" n="0769a06"/>傳得人間信石壁難依過別川</l></lg></cb:div>
+<lb ed="L" n="0769a05"/><lg xml:id="lgL154p0769a0501" style="text-indent:0em">
+  <l>鼎立三峰勢插天嶺門雖闢白雲連飛鴻
+<lb ed="L" n="0769a06"/>傳得人間信石壁難依過別川</l>
+</lg></cb:div>
 <lb ed="L" n="0769a07"/><cb:div type="other"><cb:mulu type="其他" level="2">入磬山</cb:mulu><head>入磬山</head>
-<lb ed="L" n="0769a08"/><lg xml:id="lgL154p0769a0801" style="text-indent:0em"><l>隱居風範依然在說法堂前任草生莫謂
-<lb ed="L" n="0769a09"/>門<g ref="#CB08887"/>能閴寂從來此道少人行</l></lg></cb:div>
+<lb ed="L" n="0769a08"/><lg xml:id="lgL154p0769a0801" style="text-indent:0em">
+  <l>隱居風範依然在說法堂前任草生莫謂
+<lb ed="L" n="0769a09"/>門<g ref="#CB08887"/>能閴寂從來此道少人行</l>
+</lg></cb:div>
 <lb ed="L" n="0769a10"/><cb:div type="other"><cb:mulu type="其他" level="2">示退菴重子住敔山</cb:mulu><head>示退菴重子住敔山</head>
-<lb ed="L" n="0769a11"/><lg xml:id="lgL154p0769a1101" style="text-indent:0em"><l>澄江有山孰多僻敔山兩灣蒼翠積澄江
+<lb ed="L" n="0769a11"/><lg xml:id="lgL154p0769a1101" style="text-indent:0em">
+  <l>澄江有山孰多僻敔山兩灣蒼翠積澄江
 <lb ed="L" n="0769a12"/>有水孰多情敔山前後敔水平當年一身
 <lb ed="L" n="0769a13"/>澹如水夜隨明月過深林化山擬作推蓬
 <lb ed="L" n="0769a14"/>室扁舟乘興堪深入汝今為我先去住菴
 <lb ed="L" n="0769a15"/>傍閒地多栽芋忘世情懷爾我同茅鐮鐵
 <pb ed="L" xml:id="L154.1641.0769b" n="0769b"/>
 <lb ed="L" n="0769b01"/>钁振先風得人不在門如市猶憶當年面
-<lb ed="L" n="0769b02"/>壁翁</l></lg></cb:div>
+<lb ed="L" n="0769b02"/>壁翁</l>
+</lg></cb:div>
 <lb ed="L" n="0769b03"/><cb:div type="other"><cb:mulu type="其他" level="2">贈禪人</cb:mulu><head>贈禪人</head>
-<lb ed="L" n="0769b04"/><lg xml:id="lgL154p0769b0401" style="text-indent:0em"><l>見道誰修道忘山好住山雪深巖屋老百
-<lb ed="L" n="0769b05"/>衲一身閒</l></lg>
+<lb ed="L" n="0769b04"/><lg xml:id="lgL154p0769b0401" style="text-indent:0em">
+  <l>見道誰修道忘山好住山雪深巖屋老百
+<lb ed="L" n="0769b05"/>衲一身閒</l>
+</lg>
 <lb ed="L" n="0769b06"/><p cb:type="head3" xml:id="pL154p0769b0601">又</p>
-<lb ed="L" n="0769b07"/><lg xml:id="lgL154p0769b0701" style="text-indent:0em"><l>重巖之下茅屋耽耽有幽人兮雪立冰餐</l></lg>
+<lb ed="L" n="0769b07"/><lg xml:id="lgL154p0769b0701" style="text-indent:0em">
+  <l>重巖之下茅屋耽耽有幽人兮雪立冰餐</l>
+</lg>
 <lb ed="L" n="0769b08"/><p cb:type="head3" xml:id="pL154p0769b0801">又</p>
-<lb ed="L" n="0769b09"/><lg xml:id="lgL154p0769b0901" style="text-indent:0em"><l>好山如畫畫如山紅葉村村杖笠閒看到
-<lb ed="L" n="0769b10"/>桃華成一笑再來雲外訪柴關</l></lg></cb:div>
+<lb ed="L" n="0769b09"/><lg xml:id="lgL154p0769b0901" style="text-indent:0em">
+  <l>好山如畫畫如山紅葉村村杖笠閒看到
+<lb ed="L" n="0769b10"/>桃華成一笑再來雲外訪柴關</l>
+</lg></cb:div>
 <lb ed="L" n="0769b11"/><cb:div type="other"><cb:mulu type="其他" level="2">守塔懷古</cb:mulu><head>守塔懷古</head>
-<lb ed="L" n="0769b12"/><lg xml:id="lgL154p0769b1201" style="text-indent:0em"><l>多年黃葉類形骸此日徘徊誰偶諧麻衣
-<lb ed="L" n="0769b13"/>草履食接氣象骨崖前呼再來</l></lg></cb:div>
+<lb ed="L" n="0769b12"/><lg xml:id="lgL154p0769b1201" style="text-indent:0em">
+  <l>多年黃葉類形骸此日徘徊誰偶諧麻衣
+<lb ed="L" n="0769b13"/>草履食接氣象骨崖前呼再來</l>
+</lg></cb:div>
 <lb ed="L" n="0769b14"/><cb:div type="other"><cb:mulu type="其他" level="2">咏懷</cb:mulu><head>咏懷</head>
-<lb ed="L" n="0769b15"/><lg xml:id="lgL154p0769b1501" style="text-indent:0em"><l>千峰絕頂尖頭屋草薦柴牀火一爐三十
+<lb ed="L" n="0769b15"/><lg xml:id="lgL154p0769b1501" style="text-indent:0em">
+  <l>千峰絕頂尖頭屋草薦柴牀火一爐三十
 <pb ed="L" xml:id="L154.1641.0770a" n="0770a"/>
-<lb ed="L" n="0770a01"/>年中無一事諸方何處覓潛夫</l></lg></cb:div>
+<lb ed="L" n="0770a01"/>年中無一事諸方何處覓潛夫</l>
+</lg></cb:div>
 <lb ed="L" n="0770a02"/><cb:div type="other"><cb:mulu type="其他" level="2">靜夜思</cb:mulu><head>靜夜思</head>
-<lb ed="L" n="0770a03"/><lg xml:id="lgL154p0770a0301" style="text-indent:0em"><l>枝枝葉葉月疎疎密密風誰共蹋流水倚
-<lb ed="L" n="0770a04"/>杖石橋東</l></lg></cb:div>
+<lb ed="L" n="0770a03"/><lg xml:id="lgL154p0770a0301" style="text-indent:0em">
+  <l>枝枝葉葉月疎疎密密風誰共蹋流水倚
+<lb ed="L" n="0770a04"/>杖石橋東</l>
+</lg></cb:div>
 <lb ed="L" n="0770a05"/><cb:div type="other"><cb:mulu type="其他" level="2">題壁</cb:mulu><head>題壁</head>
-<lb ed="L" n="0770a06"/><lg xml:id="lgL154p0770a0601" style="text-indent:0em"><l>星高月曉松雨滿衣西岡危坐嗒然忘歸</l></lg></cb:div>
+<lb ed="L" n="0770a06"/><lg xml:id="lgL154p0770a0601" style="text-indent:0em">
+  <l>星高月曉松雨滿衣西岡危坐嗒然忘歸</l>
+</lg></cb:div>
 <lb ed="L" n="0770a07"/><cb:div type="other"><cb:mulu type="其他" level="2">偶題</cb:mulu><head>偶題</head>
-<lb ed="L" n="0770a08"/><lg xml:id="lgL154p0770a0801" style="text-indent:0em"><l>月浸千山冷風鳴萬木清一聲村外犬客
-<lb ed="L" n="0770a09"/>路有人行</l></lg></cb:div>
+<lb ed="L" n="0770a08"/><lg xml:id="lgL154p0770a0801" style="text-indent:0em">
+  <l>月浸千山冷風鳴萬木清一聲村外犬客
+<lb ed="L" n="0770a09"/>路有人行</l>
+</lg></cb:div>
 <lb ed="L" n="0770a10"/><cb:div type="other"><cb:mulu type="其他" level="2">山居</cb:mulu><head>山居</head>
-<lb ed="L" n="0770a11"/><lg xml:id="lgL154p0770a1101" style="text-indent:0em"><l>荒凉苔壁寺孤冷草堂人雨後舒長望<g ref="#CB08887"/>
-<lb ed="L" n="0770a12"/>泥虎迹新</l></lg></cb:div>
+<lb ed="L" n="0770a11"/><lg xml:id="lgL154p0770a1101" style="text-indent:0em">
+  <l>荒凉苔壁寺孤冷草堂人雨後舒長望<g ref="#CB08887"/>
+<lb ed="L" n="0770a12"/>泥虎迹新</l>
+</lg></cb:div>
 <lb ed="L" n="0770a13"/><cb:div type="other"><cb:mulu type="其他" level="2">烹泉</cb:mulu><head>烹泉</head>
-<lb ed="L" n="0770a14"/><lg xml:id="lgL154p0770a1401" style="text-indent:0em"><l>廣修供養事如何百沸清泉上佛陀早色
-<lb ed="L" n="0770a15"/>爭妍排闥入鶯啼古木梵音多</l></lg></cb:div>
+<lb ed="L" n="0770a14"/><lg xml:id="lgL154p0770a1401" style="text-indent:0em">
+  <l>廣修供養事如何百沸清泉上佛陀早色
+<lb ed="L" n="0770a15"/>爭妍排闥入鶯啼古木梵音多</l>
+</lg></cb:div>
 <pb ed="L" xml:id="L154.1641.0770b" n="0770b"/>
 <lb ed="L" n="0770b01"/><cb:div type="other"><cb:mulu type="其他" level="2">對鏡</cb:mulu><head>對鏡<note place="inline">華山蘭若</note></head>
-<lb ed="L" n="0770b02"/><lg xml:id="lgL154p0770b0201" style="text-indent:0em"><l>對鏡吾非昔捫懷志自新何林一枝別蔭
-<lb ed="L" n="0770b03"/>我雪霜身</l></lg></cb:div>
+<lb ed="L" n="0770b02"/><lg xml:id="lgL154p0770b0201" style="text-indent:0em">
+  <l>對鏡吾非昔捫懷志自新何林一枝別蔭
+<lb ed="L" n="0770b03"/>我雪霜身</l>
+</lg></cb:div>
 <lb ed="L" n="0770b04"/><cb:div type="other"><cb:mulu type="其他" level="2">冬日有懷</cb:mulu><head>冬日有懷<note place="inline">荊山旅堂</note></head>
-<lb ed="L" n="0770b05"/><lg xml:id="lgL154p0770b0501" style="text-indent:0em"><l>空階栢子落饑鳥入門來千尺危巖下梅
-<lb ed="L" n="0770b06"/>花幾𣗳開</l></lg></cb:div>
+<lb ed="L" n="0770b05"/><lg xml:id="lgL154p0770b0501" style="text-indent:0em">
+  <l>空階栢子落饑鳥入門來千尺危巖下梅
+<lb ed="L" n="0770b06"/>花幾𣗳開</l>
+</lg></cb:div>
 <lb ed="L" n="0770b07"/><cb:div type="other"><cb:mulu type="其他" level="2">望臺山</cb:mulu><head>望臺山</head>
-<lb ed="L" n="0770b08"/><lg xml:id="lgL154p0770b0801" style="text-indent:0em"><l>荒濶三千路高閒一萬人當年冰畔石遲
-<lb ed="L" n="0770b09"/>我未歸身</l></lg></cb:div>
+<lb ed="L" n="0770b08"/><lg xml:id="lgL154p0770b0801" style="text-indent:0em">
+  <l>荒濶三千路高閒一萬人當年冰畔石遲
+<lb ed="L" n="0770b09"/>我未歸身</l>
+</lg></cb:div>
 <lb ed="L" n="0770b10"/><cb:div type="other"><cb:mulu type="其他" level="2">舟居</cb:mulu><head>舟居<note place="inline">三却竹林</note></head>
-<lb ed="L" n="0770b11"/><lg xml:id="lgL154p0770b1101" style="text-indent:0em"><l>澹蕩寒煙古木孤懸雪浪輕帆只在尋常
-<lb ed="L" n="0770b12"/>行處杳然萬壑千嵒</l></lg>
+<lb ed="L" n="0770b11"/><lg xml:id="lgL154p0770b1101" style="text-indent:0em">
+  <l>澹蕩寒煙古木孤懸雪浪輕帆只在尋常
+<lb ed="L" n="0770b12"/>行處杳然萬壑千嵒</l>
+</lg>
 <lb ed="L" n="0770b13"/><p cb:type="head3" xml:id="pL154p0770b1301">又</p>
-<lb ed="L" n="0770b14"/><lg xml:id="lgL154p0770b1401" style="text-indent:0em"><l>一葉千谿水三盂六月霜逢人不舞棹高
-<lb ed="L" n="0770b15"/>臥對斜陽</l></lg></cb:div>
+<lb ed="L" n="0770b14"/><lg xml:id="lgL154p0770b1401" style="text-indent:0em">
+  <l>一葉千谿水三盂六月霜逢人不舞棹高
+<lb ed="L" n="0770b15"/>臥對斜陽</l>
+</lg></cb:div>
 <pb ed="L" xml:id="L154.1641.0771a" n="0771a"/>
 <lb ed="L" n="0771a01"/><cb:div type="other"><cb:mulu type="其他" level="2">冬歸草堂</cb:mulu><head>冬歸草堂</head>
-<lb ed="L" n="0771a02"/><lg xml:id="lgL154p0771a0201" style="text-indent:0em"><l>潛形餐栢實放目看梅花何處忘機客同
-<lb ed="L" n="0771a03"/>來灌古畬</l></lg></cb:div>
+<lb ed="L" n="0771a02"/><lg xml:id="lgL154p0771a0201" style="text-indent:0em">
+  <l>潛形餐栢實放目看梅花何處忘機客同
+<lb ed="L" n="0771a03"/>來灌古畬</l>
+</lg></cb:div>
 <lb ed="L" n="0771a04"/><cb:div type="other"><cb:mulu type="其他" level="2">濟寧道中</cb:mulu><head>濟寧道中</head>
-<lb ed="L" n="0771a05"/><lg xml:id="lgL154p0771a0501" style="text-indent:0em"><l>臨溪茅屋臨簷𣗳雞犬依依水國村虞夏
-<lb ed="L" n="0771a06"/>平成風化永江南江北共林園</l></lg></cb:div>
+<lb ed="L" n="0771a05"/><lg xml:id="lgL154p0771a0501" style="text-indent:0em">
+  <l>臨溪茅屋臨簷𣗳雞犬依依水國村虞夏
+<lb ed="L" n="0771a06"/>平成風化永江南江北共林園</l>
+</lg></cb:div>
 <lb ed="L" n="0771a07"/><cb:div type="other"><cb:mulu type="其他" level="2">讀白樂天詩懷扣冰</cb:mulu><head>讀白樂天詩懷扣冰<note place="inline">舟次東昌</note></head>
-<lb ed="L" n="0771a08"/><lg xml:id="lgL154p0771a0801" style="text-indent:0em"><l>池上有小舟舟中虗胡牀我心久忘世愧
-<lb ed="L" n="0771a09"/>未使世忘</l></lg></cb:div>
+<lb ed="L" n="0771a08"/><lg xml:id="lgL154p0771a0801" style="text-indent:0em">
+  <l>池上有小舟舟中虗胡牀我心久忘世愧
+<lb ed="L" n="0771a09"/>未使世忘</l>
+</lg></cb:div>
 <lb ed="L" n="0771a10"/><cb:div type="other"><cb:mulu type="其他" level="2">甲馬營夜泊</cb:mulu><head>甲馬營夜泊</head>
-<lb ed="L" n="0771a11"/><lg xml:id="lgL154p0771a1101" style="text-indent:0em"><l>水上舟如織人間事若蕉無為與無欲誰
-<lb ed="L" n="0771a12"/>共我逍遙</l></lg></cb:div>
+<lb ed="L" n="0771a11"/><lg xml:id="lgL154p0771a1101" style="text-indent:0em">
+  <l>水上舟如織人間事若蕉無為與無欲誰
+<lb ed="L" n="0771a12"/>共我逍遙</l>
+</lg></cb:div>
 <lb ed="L" n="0771a13"/><cb:div type="other"><cb:mulu type="其他" level="2">節食</cb:mulu><head>節食</head>
-<lb ed="L" n="0771a14"/><lg xml:id="lgL154p0771a1401" style="text-indent:0em"><l>寄形天地間飲食唯接氣翛然等個人明
-<lb ed="L" n="0771a15"/>此澹泊意</l></lg></cb:div>
+<lb ed="L" n="0771a14"/><lg xml:id="lgL154p0771a1401" style="text-indent:0em">
+  <l>寄形天地間飲食唯接氣翛然等個人明
+<lb ed="L" n="0771a15"/>此澹泊意</l>
+</lg></cb:div>
 <pb ed="L" xml:id="L154.1641.0771b" n="0771b"/>
 <lb ed="L" n="0771b01"/><cb:div type="other"><cb:mulu type="其他" level="2">龍淵南塢坐月</cb:mulu><head>龍淵南塢坐月</head>
-<lb ed="L" n="0771b02"/><lg xml:id="lgL154p0771b0201" style="text-indent:0em"><l>松𣗳三長四短石臺七高八低坐來夕陽
-<lb ed="L" n="0771b03"/>在𣗳歸去月落峰西</l></lg></cb:div>
+<lb ed="L" n="0771b02"/><lg xml:id="lgL154p0771b0201" style="text-indent:0em">
+  <l>松𣗳三長四短石臺七高八低坐來夕陽
+<lb ed="L" n="0771b03"/>在𣗳歸去月落峰西</l>
+</lg></cb:div>
 <lb ed="L" n="0771b04"/><cb:div type="other"><cb:mulu type="其他" level="2">晝寢</cb:mulu><head>晝寢</head>
-<lb ed="L" n="0771b05"/><lg xml:id="lgL154p0771b0501" style="text-indent:0em"><l>譬如木偶人鼓歇索亦住山僧動與靜請
-<lb ed="L" n="0771b06"/>問諸露柱</l></lg></cb:div>
+<lb ed="L" n="0771b05"/><lg xml:id="lgL154p0771b0501" style="text-indent:0em">
+  <l>譬如木偶人鼓歇索亦住山僧動與靜請
+<lb ed="L" n="0771b06"/>問諸露柱</l>
+</lg></cb:div>
 <lb ed="L" n="0771b07"/><cb:div type="other"><cb:mulu type="其他" level="2">荊溪道中招友</cb:mulu><head>荊溪道中招友</head>
-<lb ed="L" n="0771b08"/><lg xml:id="lgL154p0771b0801" style="text-indent:0em"><l>正是千山紅葉時摩挲石壁好題詩百年
-<lb ed="L" n="0771b09"/>嚼蠟能多味分取松根帶露葵</l></lg></cb:div>
+<lb ed="L" n="0771b08"/><lg xml:id="lgL154p0771b0801" style="text-indent:0em">
+  <l>正是千山紅葉時摩挲石壁好題詩百年
+<lb ed="L" n="0771b09"/>嚼蠟能多味分取松根帶露葵</l>
+</lg></cb:div>
 <lb ed="L" n="0771b10"/><cb:div type="other"><cb:mulu type="其他" level="2">高祖寢堂題壁</cb:mulu><head>高祖寢堂題壁</head>
-<lb ed="L" n="0771b11"/><lg xml:id="lgL154p0771b1101" style="text-indent:0em"><l>牀頭懸瀑布塔頂長苔衣一住不復入高
-<lb ed="L" n="0771b12"/>寒到乃知</l></lg></cb:div>
+<lb ed="L" n="0771b11"/><lg xml:id="lgL154p0771b1101" style="text-indent:0em">
+  <l>牀頭懸瀑布塔頂長苔衣一住不復入高
+<lb ed="L" n="0771b12"/>寒到乃知</l>
+</lg></cb:div>
 <lb ed="L" n="0771b13"/><cb:div type="other"><cb:mulu type="其他" level="2">示眾</cb:mulu><head>示眾</head>
-<lb ed="L" n="0771b14"/><lg xml:id="lgL154p0771b1401" style="text-indent:0em"><l>萬里晴空誰共三春花柳爭遊王孫醉眠
-<lb ed="L" n="0771b15"/>芳草何似潄石枕流</l></lg>
+<lb ed="L" n="0771b14"/><lg xml:id="lgL154p0771b1401" style="text-indent:0em">
+  <l>萬里晴空誰共三春花柳爭遊王孫醉眠
+<lb ed="L" n="0771b15"/>芳草何似潄石枕流</l>
+</lg>
 <pb ed="L" xml:id="L154.1641.0772a" n="0772a"/>
-<lb ed="L" n="0772a01"/><lg xml:id="lgL154p0772a0101" style="text-indent:0em"><l>我有蓮舟一葉沙城芥劫全收高歌唾壺
-<lb ed="L" n="0772a02"/>擊破童稚出沒洪流</l></lg></cb:div>
+<lb ed="L" n="0772a01"/><lg xml:id="lgL154p0772a0101" style="text-indent:0em">
+  <l>我有蓮舟一葉沙城芥劫全收高歌唾壺
+<lb ed="L" n="0772a02"/>擊破童稚出沒洪流</l>
+</lg></cb:div>
 <lb ed="L" n="0772a03"/><cb:div type="other"><cb:mulu type="其他" level="2">山居</cb:mulu><head>山居</head>
-<lb ed="L" n="0772a04"/><lg xml:id="lgL154p0772a0401" style="text-indent:0em"><l>胸中無一事終日坐閒閒睡起摩挲腹山
-<lb ed="L" n="0772a05"/>間與水間</l></lg></cb:div>
+<lb ed="L" n="0772a04"/><lg xml:id="lgL154p0772a0401" style="text-indent:0em">
+  <l>胸中無一事終日坐閒閒睡起摩挲腹山
+<lb ed="L" n="0772a05"/>間與水間</l>
+</lg></cb:div>
 <lb ed="L" n="0772a06"/><cb:div type="other"><cb:mulu type="其他" level="2">高步</cb:mulu><head>高步</head>
-<lb ed="L" n="0772a07"/><lg xml:id="lgL154p0772a0701" style="text-indent:0em"><l>登山造極步自此始有懷君子行遠本邇</l></lg></cb:div>
+<lb ed="L" n="0772a07"/><lg xml:id="lgL154p0772a0701" style="text-indent:0em">
+  <l>登山造極步自此始有懷君子行遠本邇</l>
+</lg></cb:div>
 <lb ed="L" n="0772a08"/><cb:div type="other"><cb:mulu type="其他" level="2">促都監立還山</cb:mulu><head>促都監立還山</head>
-<lb ed="L" n="0772a09"/><lg xml:id="lgL154p0772a0901" style="text-indent:0em"><l>山中有佳月宜人終夜看山中有好風解
+<lb ed="L" n="0772a09"/><lg xml:id="lgL154p0772a0901" style="text-indent:0em">
+  <l>山中有佳月宜人終夜看山中有好風解
 <lb ed="L" n="0772a10"/>衣可盤桓泉鳴千嶂寂松靜一濤寒永日
 <lb ed="L" n="0772a11"/>鳥相喚清秋蟲自紈解𦗟紫芝曲喬木在
 <lb ed="L" n="0772a12"/>層巒活埋與斷壁千古仰金蘭時哉石梁
-<lb ed="L" n="0772a13"/>雉雪飲且霞餐</l></lg></cb:div>
+<lb ed="L" n="0772a13"/>雉雪飲且霞餐</l>
+</lg></cb:div>
 <lb ed="L" n="0772a14"/><cb:div type="other"><cb:mulu type="其他" level="2">普請口占</cb:mulu><head>普請口占</head>
-<lb ed="L" n="0772a15"/><lg xml:id="lgL154p0772a1501" style="text-indent:0em"><l>年來漸覺精神復老去偏知日月閒飽飯
+<lb ed="L" n="0772a15"/><lg xml:id="lgL154p0772a1501" style="text-indent:0em">
+  <l>年來漸覺精神復老去偏知日月閒飽飯
 <pb ed="L" xml:id="L154.1641.0772b" n="0772b"/>
-<lb ed="L" n="0772b01"/>安眠無一事椎鳴隨眾看秋山</l></lg></cb:div>
+<lb ed="L" n="0772b01"/>安眠無一事椎鳴隨眾看秋山</l>
+</lg></cb:div>
 <lb ed="L" n="0772b02"/><cb:div type="other"><cb:mulu type="其他" level="2">枕流臺題石</cb:mulu><head>枕流臺題石</head>
-<lb ed="L" n="0772b03"/><lg xml:id="lgL154p0772b0301" style="text-indent:0em"><l>山中流水寂無聲枯木生花別有春若箇
-<lb ed="L" n="0772b04"/>到來知解絕紅爐分取萬年冰</l></lg></cb:div>
+<lb ed="L" n="0772b03"/><lg xml:id="lgL154p0772b0301" style="text-indent:0em">
+  <l>山中流水寂無聲枯木生花別有春若箇
+<lb ed="L" n="0772b04"/>到來知解絕紅爐分取萬年冰</l>
+</lg></cb:div>
 <lb ed="L" n="0772b05"/><cb:div type="other"><cb:mulu type="其他" level="2">庚戌二月磬山題壁</cb:mulu><head>庚戌二月磬山題壁</head>
-<lb ed="L" n="0772b06"/><lg xml:id="lgL154p0772b0601" style="text-indent:0em"><l>面目分明徧界親偏於此地受恩深三更
-<lb ed="L" n="0772b07"/>月下<g ref="#CB02981"/>徊立恍是當年侍拂巾</l></lg></cb:div>
+<lb ed="L" n="0772b06"/><lg xml:id="lgL154p0772b0601" style="text-indent:0em">
+  <l>面目分明徧界親偏於此地受恩深三更
+<lb ed="L" n="0772b07"/>月下<g ref="#CB02981"/>徊立恍是當年侍拂巾</l>
+</lg></cb:div>
 <lb ed="L" n="0772b08"/><cb:div type="other"><cb:mulu type="其他" level="2">磬山揮麈臺</cb:mulu><head>磬山揮麈臺<note place="inline">先錄法濟十咏之一有此名</note></head>
-<lb ed="L" n="0772b09"/><lg xml:id="lgL154p0772b0901" style="text-indent:0em"><l>松根時獨坐花雨不從栽憶昔別峰侍無
-<lb ed="L" n="0772b10"/>言聲似雷</l></lg></cb:div>
+<lb ed="L" n="0772b09"/><lg xml:id="lgL154p0772b0901" style="text-indent:0em">
+  <l>松根時獨坐花雨不從栽憶昔別峰侍無
+<lb ed="L" n="0772b10"/>言聲似雷</l>
+</lg></cb:div>
 <lb ed="L" n="0772b11"/><cb:div type="other"><cb:mulu type="其他" level="2">庚戌題壁</cb:mulu><head>庚戌題壁<note place="inline">三首</note></head>
-<lb ed="L" n="0772b12"/><lg xml:id="lgL154p0772b1201" style="text-indent:0em"><l>本是矜矜自了僧飽餐安寢別無能酬恩
-<lb ed="L" n="0772b13"/>報祖雄明哲斗室焚香懷古人</l></lg>
-<lb ed="L" n="0772b14"/><lg xml:id="lgL154p0772b1401" style="text-indent:0em"><l>一<g ref="#CB00647"/>霜華半榻雲無求無喜亦無嗔三更
-<lb ed="L" n="0772b15"/>對月開扉坐慚愧焚香侍立人</l></lg>
+<lb ed="L" n="0772b12"/><lg xml:id="lgL154p0772b1201" style="text-indent:0em">
+  <l>本是矜矜自了僧飽餐安寢別無能酬恩
+<lb ed="L" n="0772b13"/>報祖雄明哲斗室焚香懷古人</l>
+</lg>
+<lb ed="L" n="0772b14"/><lg xml:id="lgL154p0772b1401" style="text-indent:0em">
+  <l>一<g ref="#CB00647"/>霜華半榻雲無求無喜亦無嗔三更
+<lb ed="L" n="0772b15"/>對月開扉坐慚愧焚香侍立人</l>
+</lg>
 <pb ed="L" xml:id="L154.1641.0773a" n="0773a"/>
-<lb ed="L" n="0773a01"/><lg xml:id="lgL154p0773a0101" style="text-indent:0em"><l>臥倚青山飯白雲谿聲鳥語共晨昏空庭
-<lb ed="L" n="0773a02"/>有隙栽蘭蕙緘戶無蹊入怨恩</l></lg></cb:div>
+<lb ed="L" n="0773a01"/><lg xml:id="lgL154p0773a0101" style="text-indent:0em">
+  <l>臥倚青山飯白雲谿聲鳥語共晨昏空庭
+<lb ed="L" n="0773a02"/>有隙栽蘭蕙緘戶無蹊入怨恩</l>
+</lg></cb:div>
 <lb ed="L" n="0773a03"/><cb:div type="other"><cb:mulu type="其他" level="2">捲簾</cb:mulu><head>捲簾</head>
-<lb ed="L" n="0773a04"/><lg xml:id="lgL154p0773a0401" style="text-indent:0em"><l>尋常入望驚殊絕何意全身住此中傳語
-<lb ed="L" n="0773a05"/>巖棲木石侶時時放眼識雲松</l></lg></cb:div>
+<lb ed="L" n="0773a04"/><lg xml:id="lgL154p0773a0401" style="text-indent:0em">
+  <l>尋常入望驚殊絕何意全身住此中傳語
+<lb ed="L" n="0773a05"/>巖棲木石侶時時放眼識雲松</l>
+</lg></cb:div>
 <lb ed="L" n="0773a06"/><cb:div type="other"><cb:mulu type="其他" level="2">獨樂園雨後</cb:mulu><head>獨樂園雨後<note place="inline">二首</note></head>
-<lb ed="L" n="0773a07"/><lg xml:id="lgL154p0773a0701" style="text-indent:0em"><l>一谿銀鳳玉龍騰想見霜華此得名步到
-<lb ed="L" n="0773a08"/>上方忘藥石勞他從者請頻頻</l></lg>
-<lb ed="L" n="0773a09"/><lg xml:id="lgL154p0773a0901" style="text-indent:0em"><l>枕流石上枕流臺到者教君悔晚來白鷺
-<lb ed="L" n="0773a10"/>羣飛千磵雪洪鐘大扣萬山雷</l></lg></cb:div>
+<lb ed="L" n="0773a07"/><lg xml:id="lgL154p0773a0701" style="text-indent:0em">
+  <l>一谿銀鳳玉龍騰想見霜華此得名步到
+<lb ed="L" n="0773a08"/>上方忘藥石勞他從者請頻頻</l>
+</lg>
+<lb ed="L" n="0773a09"/><lg xml:id="lgL154p0773a0901" style="text-indent:0em">
+  <l>枕流石上枕流臺到者教君悔晚來白鷺
+<lb ed="L" n="0773a10"/>羣飛千磵雪洪鐘大扣萬山雷</l>
+</lg></cb:div>
 <lb ed="L" n="0773a11"/><cb:div type="other"><cb:mulu type="其他" level="2">巡寮至大義閣</cb:mulu><head>巡寮至大義閣<note place="inline">癸丑燈前</note></head>
-<lb ed="L" n="0773a12"/><lg xml:id="lgL154p0773a1201" style="text-indent:0em"><l>花滿寒庭月滿林巡寮未半欲三更到門
-<lb ed="L" n="0773a13"/>且莫掀簾入愛此樓前布水聲</l></lg></cb:div>
-<lb ed="L" n="0773a14"/><cb:div type="other"><cb:mulu type="其他" level="2">邗江贈虎公至契</cb:mulu><head><note n="0773a1401" resp="CBETA" type="add">邗【CB】，䢴【龍】</note><app n="0773a1401"><lem wit="【CB】" resp="CBETA.maha">邗<note type="cf1">X68n1319_p0545c06</note></lem><rdg wit="【龍】">䢴</rdg></app>江贈虎公至契</head>
-<lb ed="L" n="0773a15"/><lg xml:id="lgL154p0773a1501" style="text-indent:0em"><l>交道江河下於公見古人素心千里月青
+<lb ed="L" n="0773a12"/><lg xml:id="lgL154p0773a1201" style="text-indent:0em">
+  <l>花滿寒庭月滿林巡寮未半欲三更到門
+<lb ed="L" n="0773a13"/>且莫掀簾入愛此樓前布水聲</l>
+</lg></cb:div>
+<lb ed="L" n="0773a14"/><cb:div type="other"><cb:mulu type="其他" level="2">邗江贈虎公至契</cb:mulu><head><note 
+n="0773a1401" resp="CBETA" type="add">邗【CB】，䢴【龍】</note><app n="0773a1401">
+  <lem wit="【CB】" resp="CBETA.maha">邗<note type="cf1">X68n1319_p0545c06</note></lem>
+  <rdg wit="【龍】">䢴</rdg>
+</app>江贈虎公至契</head>
+<lb ed="L" n="0773a15"/><lg xml:id="lgL154p0773a1501" style="text-indent:0em">
+  <l>交道江河下於公見古人素心千里月青
 <pb ed="L" xml:id="L154.1641.0773b" n="0773b"/>
-<lb ed="L" n="0773b01"/>目一山晴</l></lg></cb:div>
+<lb ed="L" n="0773b01"/>目一山晴</l>
+</lg></cb:div>
 <lb ed="L" n="0773b02"/><cb:div type="other"><cb:mulu type="其他" level="2">楚州題壁</cb:mulu><head>楚州題壁</head>
-<lb ed="L" n="0773b03"/><lg xml:id="lgL154p0773b0301" style="text-indent:0em"><l>澹黃微綠拂疏風到處垂楊適我慵覓得
-<lb ed="L" n="0773b04"/>小舠𤓰子大一帆漂渺水雲中</l></lg></cb:div>
+<lb ed="L" n="0773b03"/><lg xml:id="lgL154p0773b0301" style="text-indent:0em">
+  <l>澹黃微綠拂疏風到處垂楊適我慵覓得
+<lb ed="L" n="0773b04"/>小舠𤓰子大一帆漂渺水雲中</l>
+</lg></cb:div>
 <lb ed="L" n="0773b05"/><cb:div type="other"><cb:mulu type="其他" level="2">旅堂</cb:mulu><head>旅堂</head>
-<lb ed="L" n="0773b06"/><lg xml:id="lgL154p0773b0601" style="text-indent:0em"><l>愛柳無如我摩挲玩嵗年旅堂忘岑寂一
-<lb ed="L" n="0773b07"/>𣗳適垂軒</l></lg></cb:div>
+<lb ed="L" n="0773b06"/><lg xml:id="lgL154p0773b0601" style="text-indent:0em">
+  <l>愛柳無如我摩挲玩嵗年旅堂忘岑寂一
+<lb ed="L" n="0773b07"/>𣗳適垂軒</l>
+</lg></cb:div>
 <lb ed="L" n="0773b08"/><cb:div type="other"><cb:mulu type="其他" level="2">開窓</cb:mulu><head>開窓</head>
-<lb ed="L" n="0773b09"/><lg xml:id="lgL154p0773b0901" style="text-indent:0em"><l>風聲雨聲聲聲入耳花色草色色色幽妍</l></lg></cb:div>
+<lb ed="L" n="0773b09"/><lg xml:id="lgL154p0773b0901" style="text-indent:0em">
+  <l>風聲雨聲聲聲入耳花色草色色色幽妍</l>
+</lg></cb:div>
 <lb ed="L" n="0773b10"/><cb:div type="other"><cb:mulu type="其他" level="2">山居</cb:mulu><head>山居</head>
-<lb ed="L" n="0773b11"/><lg xml:id="lgL154p0773b1101" style="text-indent:0em"><l>竹戶風清江入筵道吾一到至今傳逢塲
-<lb ed="L" n="0773b12"/>竿木時思曳戀此華亭雪滿船<note place="inline">菴名船子</note></l></lg></cb:div>
+<lb ed="L" n="0773b11"/><lg xml:id="lgL154p0773b1101" style="text-indent:0em">
+  <l>竹戶風清江入筵道吾一到至今傳逢塲
+<lb ed="L" n="0773b12"/>竿木時思曳戀此華亭雪滿船<note place="inline">菴名船子</note></l>
+</lg></cb:div>
 <lb ed="L" n="0773b13"/><cb:div type="other"><cb:mulu type="其他" level="2">示淳徒病中</cb:mulu><head>示淳徒病中</head>
-<lb ed="L" n="0773b14"/><lg xml:id="lgL154p0773b1401" style="text-indent:0em"><l>接氣三盂粥消閒一縷香石牀黃葉襯何
-<lb ed="L" n="0773b15"/>處得嚴霜</l></lg></cb:div>
+<lb ed="L" n="0773b14"/><lg xml:id="lgL154p0773b1401" style="text-indent:0em">
+  <l>接氣三盂粥消閒一縷香石牀黃葉襯何
+<lb ed="L" n="0773b15"/>處得嚴霜</l>
+</lg></cb:div>
 <pb ed="L" xml:id="L154.1641.0774a" n="0774a"/>
 <lb ed="L" n="0774a01"/><cb:div type="other"><cb:mulu type="其他" level="2">天目雙清莊</cb:mulu><head>天目雙清莊</head>
-<lb ed="L" n="0774a02"/><lg xml:id="lgL154p0774a0201" style="text-indent:0em"><l>兩峰清拍肩雙谿寒共語中有一徑清昔
-<lb ed="L" n="0774a03"/>人此遐舉</l></lg></cb:div>
+<lb ed="L" n="0774a02"/><lg xml:id="lgL154p0774a0201" style="text-indent:0em">
+  <l>兩峰清拍肩雙谿寒共語中有一徑清昔
+<lb ed="L" n="0774a03"/>人此遐舉</l>
+</lg></cb:div>
 <lb ed="L" n="0774a04"/><cb:div type="other"><cb:mulu type="其他" level="2">金沙顧龍山留題宿處絕句</cb:mulu><head>金沙顧龍山留題宿處絕句</head>
-<lb ed="L" n="0774a05"/><lg xml:id="lgL154p0774a0501" style="text-indent:0em"><l>不問江南與江北枯藜為友笠為菴龍山
-<lb ed="L" n="0774a06"/>半日登臨足又蹋春風去去憨</l></lg></cb:div>
+<lb ed="L" n="0774a05"/><lg xml:id="lgL154p0774a0501" style="text-indent:0em">
+  <l>不問江南與江北枯藜為友笠為菴龍山
+<lb ed="L" n="0774a06"/>半日登臨足又蹋春風去去憨</l>
+</lg></cb:div>
 <lb ed="L" n="0774a07"/><cb:div type="other"><cb:mulu type="其他" level="2">言志</cb:mulu><head>言志</head>
-<lb ed="L" n="0774a08"/><lg xml:id="lgL154p0774a0801" style="text-indent:0em"><l>客夢秋山遠閒情黃葉深脚麻松下石過
-<lb ed="L" n="0774a09"/>嶺覓禽音</l></lg></cb:div>
+<lb ed="L" n="0774a08"/><lg xml:id="lgL154p0774a0801" style="text-indent:0em">
+  <l>客夢秋山遠閒情黃葉深脚麻松下石過
+<lb ed="L" n="0774a09"/>嶺覓禽音</l>
+</lg></cb:div>
 <lb ed="L" n="0774a10"/><cb:div type="other"><cb:mulu type="其他" level="2">題壁</cb:mulu><head>題壁</head>
-<lb ed="L" n="0774a11"/><lg xml:id="lgL154p0774a1101" style="text-indent:0em"><l>栢庭霜夜月蘚屋夕陽風岑寂非人境犬
-<lb ed="L" n="0774a12"/>聲東舍東</l></lg></cb:div>
+<lb ed="L" n="0774a11"/><lg xml:id="lgL154p0774a1101" style="text-indent:0em">
+  <l>栢庭霜夜月蘚屋夕陽風岑寂非人境犬
+<lb ed="L" n="0774a12"/>聲東舍東</l>
+</lg></cb:div>
 <lb ed="L" n="0774a13"/><cb:div type="other"><cb:mulu type="其他" level="2">廣武題壁</cb:mulu><head>廣武題壁</head>
-<lb ed="L" n="0774a14"/><lg xml:id="lgL154p0774a1401" style="text-indent:0em"><l>松崖罷聽得梅而樂孤立月庭旅影落落</l></lg></cb:div>
+<lb ed="L" n="0774a14"/><lg xml:id="lgL154p0774a1401" style="text-indent:0em">
+  <l>松崖罷聽得梅而樂孤立月庭旅影落落</l>
+</lg></cb:div>
 <lb ed="L" n="0774a15"/><cb:div type="other"><cb:mulu type="其他" level="2">藕塘題壁</cb:mulu><head>藕塘題壁</head>
 <pb ed="L" xml:id="L154.1641.0774b" n="0774b"/>
-<lb ed="L" n="0774b01"/><lg xml:id="lgL154p0774b0101" style="text-indent:0em"><l>蹋徧秋林步步霜麻衣草履自清狂逢人
-<lb ed="L" n="0774b02"/>𣗳側彽徊立惆悵千峰華政黃</l></lg></cb:div>
+<lb ed="L" n="0774b01"/><lg xml:id="lgL154p0774b0101" style="text-indent:0em">
+  <l>蹋徧秋林步步霜麻衣草履自清狂逢人
+<lb ed="L" n="0774b02"/>𣗳側彽徊立惆悵千峰華政黃</l>
+</lg></cb:div>
 <lb ed="L" n="0774b03"/><cb:div type="other"><cb:mulu type="其他" level="2">大雄山居</cb:mulu><head>大雄山居</head>
-<lb ed="L" n="0774b04"/><lg xml:id="lgL154p0774b0401" style="text-indent:0em"><l>臨海渾無地潛谿却有邨蘿菴在空碧鐘
-<lb ed="L" n="0774b05"/>動月為門</l></lg></cb:div>
+<lb ed="L" n="0774b04"/><lg xml:id="lgL154p0774b0401" style="text-indent:0em">
+  <l>臨海渾無地潛谿却有邨蘿菴在空碧鐘
+<lb ed="L" n="0774b05"/>動月為門</l>
+</lg></cb:div>
 <lb ed="L" n="0774b06"/><cb:div type="other"><cb:mulu type="其他" level="2">懷靜涵老居士</cb:mulu><head>懷靜涵老居士</head>
-<lb ed="L" n="0774b07"/><lg xml:id="lgL154p0774b0701" style="text-indent:0em"><l>落落松根石蒼苔沒欲平江風吹木葉寒
-<lb ed="L" n="0774b08"/>月漾波清</l></lg></cb:div>
+<lb ed="L" n="0774b07"/><lg xml:id="lgL154p0774b0701" style="text-indent:0em">
+  <l>落落松根石蒼苔沒欲平江風吹木葉寒
+<lb ed="L" n="0774b08"/>月漾波清</l>
+</lg></cb:div>
 <lb ed="L" n="0774b09"/><cb:div type="other"><cb:mulu type="其他" level="2">懷五玉弟</cb:mulu><head>懷五玉弟</head>
-<lb ed="L" n="0774b10"/><lg xml:id="lgL154p0774b1001" style="text-indent:0em"><l>江流清日夜今古葉聲乾高臥石牕下一
-<lb ed="L" n="0774b11"/>燈相對寒</l></lg></cb:div>
+<lb ed="L" n="0774b10"/><lg xml:id="lgL154p0774b1001" style="text-indent:0em">
+  <l>江流清日夜今古葉聲乾高臥石牕下一
+<lb ed="L" n="0774b11"/>燈相對寒</l>
+</lg></cb:div>
 <lb ed="L" n="0774b12"/><cb:div type="other"><cb:mulu type="其他" level="2">絕糧</cb:mulu><head>絕糧</head>
-<lb ed="L" n="0774b13"/><lg xml:id="lgL154p0774b1301" style="text-indent:0em"><l>山空水碧千指壁立摩挲布毛縫衣炊食</l></lg></cb:div>
+<lb ed="L" n="0774b13"/><lg xml:id="lgL154p0774b1301" style="text-indent:0em">
+  <l>山空水碧千指壁立摩挲布毛縫衣炊食</l>
+</lg></cb:div>
 <lb ed="L" n="0774b14"/><cb:div type="other"><cb:mulu type="其他" level="2">壬辰歸報恩</cb:mulu><head>壬辰歸報恩</head>
-<lb ed="L" n="0774b15"/><lg xml:id="lgL154p0774b1501" style="text-indent:0em"><l>本是金峰苦行身芒鞵短拄舞還新漫教
+<lb ed="L" n="0774b15"/><lg xml:id="lgL154p0774b1501" style="text-indent:0em">
+  <l>本是金峰苦行身芒鞵短拄舞還新漫教
 <pb ed="L" xml:id="L154.1641.0775a" n="0775a"/>
 <lb ed="L" n="0775a01"/>𣏌𣗥藩吾室指點泥丸光印人水滿蒲谿
 <lb ed="L" n="0775a02"/>流夜月風生菊徑靜芳辰好來和我紫芝
-<lb ed="L" n="0775a03"/>曲大小石頭正法輪</l></lg></cb:div>
+<lb ed="L" n="0775a03"/>曲大小石頭正法輪</l>
+</lg></cb:div>
 <lb ed="L" n="0775a04"/><cb:div type="other"><cb:mulu type="其他" level="2">高齋對月</cb:mulu><head>高齋對月</head>
-<lb ed="L" n="0775a05"/><lg xml:id="lgL154p0775a0501" style="text-indent:0em"><l>嗒焉忘言徙倚夜半皎皎毛髮月明九面</l></lg></cb:div>
+<lb ed="L" n="0775a05"/><lg xml:id="lgL154p0775a0501" style="text-indent:0em">
+  <l>嗒焉忘言徙倚夜半皎皎毛髮月明九面</l>
+</lg></cb:div>
 <lb ed="L" n="0775a06"/><cb:div type="other"><cb:mulu type="其他" level="2">禪者請書</cb:mulu><head>禪者請書</head>
-<lb ed="L" n="0775a07"/><lg xml:id="lgL154p0775a0701" style="text-indent:0em"><l>有一僊兮睡布被裏入被尋伊滿頭尿矢</l></lg>
+<lb ed="L" n="0775a07"/><lg xml:id="lgL154p0775a0701" style="text-indent:0em">
+  <l>有一僊兮睡布被裏入被尋伊滿頭尿矢</l>
+</lg>
 <lb ed="L" n="0775a08"/><p cb:type="head3" xml:id="pL154p0775a0801">又</p>
-<lb ed="L" n="0775a09"/><lg xml:id="lgL154p0775a0901" style="text-indent:0em"><l>扶起法堂拆却佛殿昔許爾聞今便眼見</l></lg>
+<lb ed="L" n="0775a09"/><lg xml:id="lgL154p0775a0901" style="text-indent:0em">
+  <l>扶起法堂拆却佛殿昔許爾聞今便眼見</l>
+</lg>
 <lb ed="L" n="0775a10"/><p cb:type="head3" xml:id="pL154p0775a1001">又</p>
-<lb ed="L" n="0775a11"/><lg xml:id="lgL154p0775a1101" style="text-indent:0em"><l>方寸之𣗳生石柱底放華一葉覆徧大地</l></lg></cb:div>
+<lb ed="L" n="0775a11"/><lg xml:id="lgL154p0775a1101" style="text-indent:0em">
+  <l>方寸之𣗳生石柱底放華一葉覆徧大地</l>
+</lg></cb:div>
 <lb ed="L" n="0775a12"/><cb:div type="other"><cb:mulu type="其他" level="2">荅老母</cb:mulu><head>荅老母</head>
-<lb ed="L" n="0775a13"/><lg xml:id="lgL154p0775a1301" style="text-indent:0em"><l>若欲我度親別無法可度死𥁞世間心當
-<lb ed="L" n="0775a14"/>下同佛祖</l></lg></cb:div>
+<lb ed="L" n="0775a13"/><lg xml:id="lgL154p0775a1301" style="text-indent:0em">
+  <l>若欲我度親別無法可度死𥁞世間心當
+<lb ed="L" n="0775a14"/>下同佛祖</l>
+</lg></cb:div>
 <lb ed="L" n="0775a15"/><cb:div type="other"><cb:mulu type="其他" level="2">江上十方菴慈氏芟染</cb:mulu><head>江上十方菴慈氏芟染</head>
 <pb ed="L" xml:id="L154.1641.0775b" n="0775b"/>
-<lb ed="L" n="0775b01"/><lg xml:id="lgL154p0775b0101" style="text-indent:0em"><l>修行在行不在說萬事應須猛割截者回
+<lb ed="L" n="0775b01"/><lg xml:id="lgL154p0775b0101" style="text-indent:0em">
+  <l>修行在行不在說萬事應須猛割截者回
 <lb ed="L" n="0775b02"/>似斬一握<g ref="#CB02133"/>一斬一切俱了畢頂上圓光
 <lb ed="L" n="0775b03"/>含十虗從今更不重埋沒非是山僧輕度
 <lb ed="L" n="0775b04"/>親十載先師曾記莂剎那具足丈夫儀法
 <lb ed="L" n="0775b05"/>名通光號悟徹不向他人行處行管教步
-<lb ed="L" n="0775b06"/>步蓮華國<note place="inline">通光先磬山親題法名</note></l></lg></cb:div>
+<lb ed="L" n="0775b06"/>步蓮華國<note place="inline">通光先磬山親題法名</note></l>
+</lg></cb:div>
 <lb ed="L" n="0775b07"/><cb:div type="other"><cb:mulu type="其他" level="2">和示峰子</cb:mulu><head>和示峰子</head>
-<lb ed="L" n="0775b08"/><lg xml:id="lgL154p0775b0801" style="text-indent:0em"><l>山月滿檐諸子侍立面黃者黃面黑者黑
+<lb ed="L" n="0775b08"/><lg xml:id="lgL154p0775b0801" style="text-indent:0em">
+  <l>山月滿檐諸子侍立面黃者黃面黑者黑
 <lb ed="L" n="0775b09"/>或撥爐<g ref="#CB01926"/>或研墨汁眼明手快善知時節
-<lb ed="L" n="0775b10"/>擬索枯膓青藜三十</l></lg></cb:div>
+<lb ed="L" n="0775b10"/>擬索枯膓青藜三十</l>
+</lg></cb:div>
 <lb ed="L" n="0775b11"/><cb:div type="other"><cb:mulu type="其他" level="2">題壁</cb:mulu><head>題壁</head>
 <lb ed="L" n="0775b12"/><p xml:id="pL154p0775b1201" style="margin-left:1em">此偈贈一切人不能收取須還山僧。</p>
-<lb ed="L" n="0775b13"/><lg xml:id="lgL154p0775b1301" style="text-indent:0em"><l>萬年冰上久安居却向紅爐放雪飛到處
-<lb ed="L" n="0775b14"/>逢人不相識瘦拳高枕自忘機</l></lg></cb:div>
+<lb ed="L" n="0775b13"/><lg xml:id="lgL154p0775b1301" style="text-indent:0em">
+  <l>萬年冰上久安居却向紅爐放雪飛到處
+<lb ed="L" n="0775b14"/>逢人不相識瘦拳高枕自忘機</l>
+</lg></cb:div>
 <lb ed="L" n="0775b15"/><cb:div type="other"><cb:mulu type="其他" level="2">對鏡</cb:mulu><head>對鏡<note place="inline">有引</note></head>
 <pb ed="L" xml:id="L154.1641.0776a" n="0776a"/>
 <lb ed="L" n="0776a01"/><p xml:id="pL154p0776a0101" style="margin-left:1em">向侍先磬山聞溈山荒寂有願四旬體
 <lb ed="L" n="0776a02"/>胖曳杖往住二十年於茲矣適浴室臨
 <lb ed="L" n="0776a03"/>鏡因有此偈。</p>
-<lb ed="L" n="0776a04"/><lg xml:id="lgL154p0776a0401" style="text-indent:0em"><l>不是溈山舊住僧年來四十骨稜稜金峰
-<lb ed="L" n="0776a05"/>峰下堪鋤石待個英靈剔祖燈</l></lg></cb:div>
+<lb ed="L" n="0776a04"/><lg xml:id="lgL154p0776a0401" style="text-indent:0em">
+  <l>不是溈山舊住僧年來四十骨稜稜金峰
+<lb ed="L" n="0776a05"/>峰下堪鋤石待個英靈剔祖燈</l>
+</lg></cb:div>
 <lb ed="L" n="0776a06"/><cb:div type="other"><cb:mulu type="其他" level="2">自擬</cb:mulu><head>自擬</head>
-<lb ed="L" n="0776a07"/><lg xml:id="lgL154p0776a0701" style="text-indent:0em"><l>有芝東巖東風兩石為屋嵩壁平莫攀龍
-<lb ed="L" n="0776a08"/>山高可逐</l></lg></cb:div>
+<lb ed="L" n="0776a07"/><lg xml:id="lgL154p0776a0701" style="text-indent:0em">
+  <l>有芝東巖東風兩石為屋嵩壁平莫攀龍
+<lb ed="L" n="0776a08"/>山高可逐</l>
+</lg></cb:div>
 <lb ed="L" n="0776a09"/><cb:div type="other"><cb:mulu type="其他" level="2">江上法願菴</cb:mulu><head>江上法願菴</head>
-<lb ed="L" n="0776a10"/><lg xml:id="lgL154p0776a1001" style="text-indent:0em"><l>到處耕荒翻石笋今來坐月友寒烟半間
-<lb ed="L" n="0776a11"/>老屋安親膝五合香粳努力煎</l></lg></cb:div>
+<lb ed="L" n="0776a10"/><lg xml:id="lgL154p0776a1001" style="text-indent:0em">
+  <l>到處耕荒翻石笋今來坐月友寒烟半間
+<lb ed="L" n="0776a11"/>老屋安親膝五合香粳努力煎</l>
+</lg></cb:div>
 <lb ed="L" n="0776a12"/><cb:div type="other"><cb:mulu type="其他" level="2">草堂月</cb:mulu><head>草堂月</head>
-<lb ed="L" n="0776a13"/><lg xml:id="lgL154p0776a1301" style="text-indent:0em"><l>喬林花滿地晴瀬月當天題石貽來哲應
-<lb ed="L" n="0776a14"/>同徹曉禪</l></lg></cb:div>
+<lb ed="L" n="0776a13"/><lg xml:id="lgL154p0776a1301" style="text-indent:0em">
+  <l>喬林花滿地晴瀬月當天題石貽來哲應
+<lb ed="L" n="0776a14"/>同徹曉禪</l>
+</lg></cb:div>
 <lb ed="L" n="0776a15"/><cb:div type="other"><cb:mulu type="其他" level="2">代草堂老人示徒</cb:mulu><head>代草堂老人示徒</head>
 <pb ed="L" xml:id="L154.1641.0776b" n="0776b"/>
-<lb ed="L" n="0776b01"/><lg xml:id="lgL154p0776b0101" style="text-indent:0em"><l>雲開山突突霜重栢蒼蒼倚徙閒<g ref="#CB08887"/>寂寒
-<lb ed="L" n="0776b02"/>籬菊晚香</l></lg></cb:div>
+<lb ed="L" n="0776b01"/><lg xml:id="lgL154p0776b0101" style="text-indent:0em">
+  <l>雲開山突突霜重栢蒼蒼倚徙閒<g ref="#CB08887"/>寂寒
+<lb ed="L" n="0776b02"/>籬菊晚香</l>
+</lg></cb:div>
 <lb ed="L" n="0776b03"/><cb:div type="other"><cb:mulu type="其他" level="2">圍爐得月峯</cb:mulu><head>圍爐得月峯</head>
-<lb ed="L" n="0776b04"/><lg xml:id="lgL154p0776b0401" style="text-indent:0em"><l>三長兩短此坐彼立當年有叟盆池欵客</l></lg></cb:div>
+<lb ed="L" n="0776b04"/><lg xml:id="lgL154p0776b0401" style="text-indent:0em">
+  <l>三長兩短此坐彼立當年有叟盆池欵客</l>
+</lg></cb:div>
 <lb ed="L" n="0776b05"/><cb:div type="other"><cb:mulu type="其他" level="2">西樓題壁</cb:mulu><head>西樓題壁</head>
-<lb ed="L" n="0776b06"/><lg xml:id="lgL154p0776b0601" style="text-indent:0em"><l>架月峰前獨坐時寶峰塔在翠烟西有言
-<lb ed="L" n="0776b07"/>枕筆吟難就山水蒼茫客自知</l></lg></cb:div>
+<lb ed="L" n="0776b06"/><lg xml:id="lgL154p0776b0601" style="text-indent:0em">
+  <l>架月峰前獨坐時寶峰塔在翠烟西有言
+<lb ed="L" n="0776b07"/>枕筆吟難就山水蒼茫客自知</l>
+</lg></cb:div>
 <lb ed="L" n="0776b08"/><cb:div type="other"><cb:mulu type="其他" level="2">中臺書竹</cb:mulu><head>中臺書竹</head>
-<lb ed="L" n="0776b09"/><lg xml:id="lgL154p0776b0901" style="text-indent:0em"><l>翠幢之下或坐或立惟有一閒長年眼碧</l></lg></cb:div>
+<lb ed="L" n="0776b09"/><lg xml:id="lgL154p0776b0901" style="text-indent:0em">
+  <l>翠幢之下或坐或立惟有一閒長年眼碧</l>
+</lg></cb:div>
 <lb ed="L" n="0776b10"/><cb:div type="other"><cb:mulu type="其他" level="2">杖底松風</cb:mulu><head>杖底松風</head>
-<lb ed="L" n="0776b11"/><lg xml:id="lgL154p0776b1101" style="text-indent:0em"><l>疑立海上峰春潮夜來急笑聲落層崖誰
-<lb ed="L" n="0776b12"/>人和月拾</l></lg></cb:div>
+<lb ed="L" n="0776b11"/><lg xml:id="lgL154p0776b1101" style="text-indent:0em">
+  <l>疑立海上峰春潮夜來急笑聲落層崖誰
+<lb ed="L" n="0776b12"/>人和月拾</l>
+</lg></cb:div>
 <lb ed="L" n="0776b13"/><cb:div type="other"><cb:mulu type="其他" level="2">寄羽明居士</cb:mulu><head>寄羽明居士</head>
-<lb ed="L" n="0776b14"/><lg xml:id="lgL154p0776b1401" style="text-indent:0em"><l>信宿金峰頂喜分半芋香荊溪一葦便拂
-<lb ed="L" n="0776b15"/>袖意蒼茫</l></lg></cb:div>
+<lb ed="L" n="0776b14"/><lg xml:id="lgL154p0776b1401" style="text-indent:0em">
+  <l>信宿金峰頂喜分半芋香荊溪一葦便拂
+<lb ed="L" n="0776b15"/>袖意蒼茫</l>
+</lg></cb:div>
 <pb ed="L" xml:id="L154.1641.0777a" n="0777a"/>
 <lb ed="L" n="0777a01"/><cb:div type="other"><cb:mulu type="其他" level="2">草堂晝眠</cb:mulu><head>草堂晝眠</head>
-<lb ed="L" n="0777a02"/><lg xml:id="lgL154p0777a0201" style="text-indent:0em"><l>飯罷松根一榻清波濤萬頃屋頭聲年來
-<lb ed="L" n="0777a03"/>滄海扁舟志起立千巖鳥碎鳴</l></lg></cb:div>
+<lb ed="L" n="0777a02"/><lg xml:id="lgL154p0777a0201" style="text-indent:0em">
+  <l>飯罷松根一榻清波濤萬頃屋頭聲年來
+<lb ed="L" n="0777a03"/>滄海扁舟志起立千巖鳥碎鳴</l>
+</lg></cb:div>
 <lb ed="L" n="0777a04"/><cb:div type="other"><cb:mulu type="其他" level="2">夏夜露坐</cb:mulu><head>夏夜露坐</head>
-<lb ed="L" n="0777a05"/><lg xml:id="lgL154p0777a0501" style="text-indent:0em"><l>星隨夕梵湧月為殘經留寒暑不到處松
-<lb ed="L" n="0777a06"/>根六月秋</l></lg></cb:div>
+<lb ed="L" n="0777a05"/><lg xml:id="lgL154p0777a0501" style="text-indent:0em">
+  <l>星隨夕梵湧月為殘經留寒暑不到處松
+<lb ed="L" n="0777a06"/>根六月秋</l>
+</lg></cb:div>
 <lb ed="L" n="0777a07"/><cb:div type="other"><cb:mulu type="其他" level="2">掃徑</cb:mulu><head>掃徑</head>
-<lb ed="L" n="0777a08"/><lg xml:id="lgL154p0777a0801" style="text-indent:0em"><l>掃出綠雲徑送來銜日山黃花紅葉際杖
-<lb ed="L" n="0777a09"/>笠道人閒</l></lg></cb:div>
+<lb ed="L" n="0777a08"/><lg xml:id="lgL154p0777a0801" style="text-indent:0em">
+  <l>掃出綠雲徑送來銜日山黃花紅葉際杖
+<lb ed="L" n="0777a09"/>笠道人閒</l>
+</lg></cb:div>
 <lb ed="L" n="0777a10"/><cb:div type="other"><cb:mulu type="其他" level="2">早叅罷</cb:mulu><head>早叅罷</head>
-<lb ed="L" n="0777a11"/><lg xml:id="lgL154p0777a1101" style="text-indent:0em"><l>明月入窓三尺雪松風拂簟一天濤夜來
-<lb ed="L" n="0777a12"/>有客中<g ref="#CB08887"/>立不負嵩山折葦勞</l></lg></cb:div>
+<lb ed="L" n="0777a11"/><lg xml:id="lgL154p0777a1101" style="text-indent:0em">
+  <l>明月入窓三尺雪松風拂簟一天濤夜來
+<lb ed="L" n="0777a12"/>有客中<g ref="#CB08887"/>立不負嵩山折葦勞</l>
+</lg></cb:div>
 <lb ed="L" n="0777a13"/><cb:div type="other"><cb:mulu type="其他" level="2">大雄面壁巖夜坐將赴磬山請</cb:mulu><head>大雄面壁巖夜坐將赴磬山請</head>
-<lb ed="L" n="0777a14"/><lg xml:id="lgL154p0777a1401" style="text-indent:0em"><l>愛此一牀月長年臥掩關先師案欲了破
-<lb ed="L" n="0777a15"/>雪問家山</l></lg></cb:div>
+<lb ed="L" n="0777a14"/><lg xml:id="lgL154p0777a1401" style="text-indent:0em">
+  <l>愛此一牀月長年臥掩關先師案欲了破
+<lb ed="L" n="0777a15"/>雪問家山</l>
+</lg></cb:div>
 <pb ed="L" xml:id="L154.1641.0777b" n="0777b"/>
 <lb ed="L" n="0777b01"/><cb:div type="other"><cb:mulu type="其他" level="2">梅軒題柱</cb:mulu><head>梅軒題柱</head>
-<lb ed="L" n="0777b02"/><lg xml:id="lgL154p0777b0201" style="text-indent:0em"><l>此君澹似我我冷此君知風雨應嫌癖落
-<lb ed="L" n="0777b03"/>花坐不移</l></lg></cb:div>
+<lb ed="L" n="0777b02"/><lg xml:id="lgL154p0777b0201" style="text-indent:0em">
+  <l>此君澹似我我冷此君知風雨應嫌癖落
+<lb ed="L" n="0777b03"/>花坐不移</l>
+</lg></cb:div>
 <lb ed="L" n="0777b04"/><cb:div type="other"><cb:mulu type="其他" level="2">贈豫章齊居士</cb:mulu><head>贈豫章齊居士</head>
-<lb ed="L" n="0777b05"/><lg xml:id="lgL154p0777b0501" style="text-indent:0em"><l>解學死心禪世居山谷里春風歸去來湘
-<lb ed="L" n="0777b06"/>江流不已</l></lg></cb:div>
+<lb ed="L" n="0777b05"/><lg xml:id="lgL154p0777b0501" style="text-indent:0em">
+  <l>解學死心禪世居山谷里春風歸去來湘
+<lb ed="L" n="0777b06"/>江流不已</l>
+</lg></cb:div>
 <lb ed="L" n="0777b07"/><cb:div type="other"><cb:mulu type="其他" level="2">松濤</cb:mulu><head>松濤</head>
-<lb ed="L" n="0777b08"/><lg xml:id="lgL154p0777b0801" style="text-indent:0em"><l>松濤堆裏來松濤堆裏住北山松濤濶南
+<lb ed="L" n="0777b08"/><lg xml:id="lgL154p0777b0801" style="text-indent:0em">
+  <l>松濤堆裏來松濤堆裏住北山松濤濶南
 <lb ed="L" n="0777b09"/>山松濤聚境濶勞亦濶境聚閒亦聚不緣
-<lb ed="L" n="0777b10"/>恩未酬誰肯舍此去</l></lg></cb:div>
+<lb ed="L" n="0777b10"/>恩未酬誰肯舍此去</l>
+</lg></cb:div>
 <lb ed="L" n="0777b11"/><cb:div type="other"><cb:mulu type="其他" level="2">示眾</cb:mulu><head>示眾<note place="inline">大士誕舟次下相</note></head>
-<lb ed="L" n="0777b12"/><lg xml:id="lgL154p0777b1201" style="text-indent:0em"><l>萬頃清風透碧紗西來一筏濟人賒同舟
-<lb ed="L" n="0777b13"/>莫自拖泥水放下空拳指指斜</l></lg></cb:div>
+<lb ed="L" n="0777b12"/><lg xml:id="lgL154p0777b1201" style="text-indent:0em">
+  <l>萬頃清風透碧紗西來一筏濟人賒同舟
+<lb ed="L" n="0777b13"/>莫自拖泥水放下空拳指指斜</l>
+</lg></cb:div>
 <lb ed="L" n="0777b14"/><cb:div type="other"><cb:mulu type="其他" level="2">歸草堂</cb:mulu><head>歸草堂</head>
-<lb ed="L" n="0777b15"/><lg xml:id="lgL154p0777b1501" style="text-indent:0em"><l>幻影歸草堂如臨秋水碧慈幃吾所依松
+<lb ed="L" n="0777b15"/><lg xml:id="lgL154p0777b1501" style="text-indent:0em">
+  <l>幻影歸草堂如臨秋水碧慈幃吾所依松
 <pb ed="L" xml:id="L154.1641.0778a" n="0778a"/>
-<lb ed="L" n="0778a01"/>竹吾所宅蕉葉入櫩櫳濃翠濕床席</l></lg></cb:div>
+<lb ed="L" n="0778a01"/>竹吾所宅蕉葉入櫩櫳濃翠濕床席</l>
+</lg></cb:div>
 <lb ed="L" n="0778a02"/><cb:div type="other"><cb:mulu type="其他" level="2">芟松</cb:mulu><head>芟松</head>
-<lb ed="L" n="0778a03"/><lg xml:id="lgL154p0778a0301" style="text-indent:0em"><l>愛山尤愛月芟竹亦芟松此夜西窓坐清
-<lb ed="L" n="0778a04"/>光到曉風</l></lg></cb:div>
+<lb ed="L" n="0778a03"/><lg xml:id="lgL154p0778a0301" style="text-indent:0em">
+  <l>愛山尤愛月芟竹亦芟松此夜西窓坐清
+<lb ed="L" n="0778a04"/>光到曉風</l>
+</lg></cb:div>
 <lb ed="L" n="0778a05"/><cb:div type="other"><cb:mulu type="其他" level="2">旅堂雜咏</cb:mulu><head>旅堂雜咏</head>
-<lb ed="L" n="0778a06"/><lg xml:id="lgL154p0778a0601" style="text-indent:0em"><l>老松一萬𣗳新竹百千竿題遍琅玕碧寒
-<lb ed="L" n="0778a07"/>濤枕上看</l></lg></cb:div>
+<lb ed="L" n="0778a06"/><lg xml:id="lgL154p0778a0601" style="text-indent:0em">
+  <l>老松一萬𣗳新竹百千竿題遍琅玕碧寒
+<lb ed="L" n="0778a07"/>濤枕上看</l>
+</lg></cb:div>
 <lb ed="L" n="0778a08"/><cb:div type="other"><cb:mulu type="其他" level="2">山居</cb:mulu><head>山居</head>
-<lb ed="L" n="0778a09"/><lg xml:id="lgL154p0778a0901" style="text-indent:0em"><l>無念常趺坐多閒時手書海棠開爛熳曳
-<lb ed="L" n="0778a10"/>履步<g ref="#CB08887"/>除</l></lg></cb:div>
+<lb ed="L" n="0778a09"/><lg xml:id="lgL154p0778a0901" style="text-indent:0em">
+  <l>無念常趺坐多閒時手書海棠開爛熳曳
+<lb ed="L" n="0778a10"/>履步<g ref="#CB08887"/>除</l>
+</lg></cb:div>
 <lb ed="L" n="0778a11"/><cb:div type="other"><cb:mulu type="其他" level="2">雪齋歌</cb:mulu><head>雪齋歌<note place="inline">懷徐羣玉</note></head>
-<lb ed="L" n="0778a12"/><lg xml:id="lgL154p0778a1201" style="text-indent:0em"><l>世間少得休心客我學休心休未能何意
-<lb ed="L" n="0778a13"/>賢親有吾子雪齋遙對兩閒人</l></lg></cb:div>
+<lb ed="L" n="0778a12"/><lg xml:id="lgL154p0778a1201" style="text-indent:0em">
+  <l>世間少得休心客我學休心休未能何意
+<lb ed="L" n="0778a13"/>賢親有吾子雪齋遙對兩閒人</l>
+</lg></cb:div>
 <lb ed="L" n="0778a14"/><cb:div type="other"><cb:mulu type="其他" level="2">溪上吟</cb:mulu><head>溪上吟</head>
-<lb ed="L" n="0778a15"/><lg xml:id="lgL154p0778a1501" style="text-indent:0em"><l>望見青山眼便開前生疑此坐禪來千巖
+<lb ed="L" n="0778a15"/><lg xml:id="lgL154p0778a1501" style="text-indent:0em">
+  <l>望見青山眼便開前生疑此坐禪來千巖
 <pb ed="L" xml:id="L154.1641.0778b" n="0778b"/>
-<lb ed="L" n="0778b01"/>絕壁知題石拂蘚披雲榻取回</l></lg></cb:div>
-<lb ed="L" n="0778b02"/><cb:div type="other"><cb:mulu type="其他" level="2">乙巳五月十有七日</cb:mulu><head>乙<note n="0778b0201" resp="CBETA" type="add">巳【CB】，已【龍】</note><app n="0778b0201"><lem wit="【CB】" resp="CBETA.maha">巳</lem><rdg wit="【龍】">已</rdg></app>五月十有七日</head>
-<lb ed="L" n="0778b03"/><lg xml:id="lgL154p0778b0301" style="text-indent:0em"><l>未敢登山侍祖燈傍溪縛屋欲安僧大忘
-<lb ed="L" n="0778b04"/>身世人來此看取懸崖千丈氷</l></lg></cb:div>
+<lb ed="L" n="0778b01"/>絕壁知題石拂蘚披雲榻取回</l>
+</lg></cb:div>
+<lb ed="L" n="0778b02"/><cb:div type="other"><cb:mulu type="其他" level="2">乙巳五月十有七日</cb:mulu><head>乙<note 
+n="0778b0201" resp="CBETA" type="add">巳【CB】，已【龍】</note><app n="0778b0201">
+  <lem wit="【CB】" resp="CBETA.maha">巳</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>五月十有七日</head>
+<lb ed="L" n="0778b03"/><lg xml:id="lgL154p0778b0301" style="text-indent:0em">
+  <l>未敢登山侍祖燈傍溪縛屋欲安僧大忘
+<lb ed="L" n="0778b04"/>身世人來此看取懸崖千丈氷</l>
+</lg></cb:div>
 <lb ed="L" n="0778b05"/><cb:div type="other"><cb:mulu type="其他" level="2">丙午題壁</cb:mulu><head>丙午題壁</head>
-<lb ed="L" n="0778b06"/><lg xml:id="lgL154p0778b0601" style="text-indent:0em"><l>情忘若草木志定素氷霜客悟芭蕉法叅
-<lb ed="L" n="0778b07"/>同絕較量</l></lg></cb:div>
+<lb ed="L" n="0778b06"/><lg xml:id="lgL154p0778b0601" style="text-indent:0em">
+  <l>情忘若草木志定素氷霜客悟芭蕉法叅
+<lb ed="L" n="0778b07"/>同絕較量</l>
+</lg></cb:div>
 <lb ed="L" n="0778b08"/><cb:div type="other"><cb:mulu type="其他" level="2">秉燭踏雪</cb:mulu><head>秉燭踏雪</head>
-<lb ed="L" n="0778b09"/><lg xml:id="lgL154p0778b0901" style="text-indent:0em"><l>愛雪尋廊步臨軒坐擁爐萬年冰畔客習
-<lb ed="L" n="0778b10"/>氣未全除</l></lg></cb:div>
+<lb ed="L" n="0778b09"/><lg xml:id="lgL154p0778b0901" style="text-indent:0em">
+  <l>愛雪尋廊步臨軒坐擁爐萬年冰畔客習
+<lb ed="L" n="0778b10"/>氣未全除</l>
+</lg></cb:div>
 <lb ed="L" n="0778b11"/><cb:div type="other"><cb:mulu type="其他" level="2">洗澗</cb:mulu><head>洗澗</head>
-<lb ed="L" n="0778b12"/><lg xml:id="lgL154p0778b1201" style="text-indent:0em"><l>洗澗水深石出裁溪月冷風高兩堂聊蔽
-<lb ed="L" n="0778b13"/>風雨看取種竹栽桃</l></lg></cb:div>
+<lb ed="L" n="0778b12"/><lg xml:id="lgL154p0778b1201" style="text-indent:0em">
+  <l>洗澗水深石出裁溪月冷風高兩堂聊蔽
+<lb ed="L" n="0778b13"/>風雨看取種竹栽桃</l>
+</lg></cb:div>
 <lb ed="L" n="0778b14"/><cb:div type="other"><cb:mulu type="其他" level="2">夜坐</cb:mulu><head>夜坐</head>
-<lb ed="L" n="0778b15"/><lg xml:id="lgL154p0778b1501" style="text-indent:0em"><l>山影界天碧燈光在竹末誰來千仞巖伴
+<lb ed="L" n="0778b15"/><lg xml:id="lgL154p0778b1501" style="text-indent:0em">
+  <l>山影界天碧燈光在竹末誰來千仞巖伴
 <pb ed="L" xml:id="L154.1641.0779a" n="0779a"/>
-<lb ed="L" n="0779a01"/>我坐晨夕</l></lg></cb:div>
+<lb ed="L" n="0779a01"/>我坐晨夕</l>
+</lg></cb:div>
 <lb ed="L" n="0779a02"/><cb:div type="other"><cb:mulu type="其他" level="2">千丈巖西窓即事</cb:mulu><head>千丈巖西窓即事</head>
-<lb ed="L" n="0779a03"/><lg xml:id="lgL154p0779a0301" style="text-indent:0em"><l>枕間懸瀑布<note n="0779a0301" resp="CBETA" type="add">几【CB】，凡【龍】</note><app n="0779a0301"><lem wit="【CB】" resp="CBETA.maha">几</lem><rdg wit="【龍】">凡</rdg></app>上叠千山絕學忘機客耳
-<lb ed="L" n="0779a04"/>流齒石閒</l></lg></cb:div>
+<lb ed="L" n="0779a03"/><lg xml:id="lgL154p0779a0301" style="text-indent:0em">
+  <l>枕間懸瀑布<note 
+n="0779a0301" resp="CBETA" type="add">几【CB】，凡【龍】</note><app n="0779a0301">
+    <lem wit="【CB】" resp="CBETA.maha">几</lem>
+    <rdg wit="【龍】">凡</rdg>
+  </app>上叠千山絕學忘機客耳
+<lb ed="L" n="0779a04"/>流齒石閒</l>
+</lg></cb:div>
 <lb ed="L" n="0779a05"/><cb:div type="other"><cb:mulu type="其他" level="2">對百合花懷延陵公</cb:mulu><head>對百合花懷延陵公</head>
-<lb ed="L" n="0779a06"/><lg xml:id="lgL154p0779a0601" style="text-indent:0em"><l>獨許空生親見聞滿前香色任縱橫人人
-<lb ed="L" n="0779a07"/>不昧翁真面父子依依亘古今</l></lg></cb:div>
+<lb ed="L" n="0779a06"/><lg xml:id="lgL154p0779a0601" style="text-indent:0em">
+  <l>獨許空生親見聞滿前香色任縱橫人人
+<lb ed="L" n="0779a07"/>不昧翁真面父子依依亘古今</l>
+</lg></cb:div>
 <lb ed="L" n="0779a08"/><cb:div type="other"><cb:mulu type="其他" level="2">西方菴題壁</cb:mulu><head>西方菴題壁</head>
-<lb ed="L" n="0779a09"/><lg xml:id="lgL154p0779a0901" style="text-indent:0em"><l>寤寐泉聲三十年今來到處聽潺湲居山
-<lb ed="L" n="0779a10"/>我不嫌風雨張葢看雲布水懸</l></lg></cb:div>
+<lb ed="L" n="0779a09"/><lg xml:id="lgL154p0779a0901" style="text-indent:0em">
+  <l>寤寐泉聲三十年今來到處聽潺湲居山
+<lb ed="L" n="0779a10"/>我不嫌風雨張葢看雲布水懸</l>
+</lg></cb:div>
 <lb ed="L" n="0779a11"/><cb:div type="other"><cb:mulu type="其他" level="2">樵谿</cb:mulu><head>樵谿</head>
-<lb ed="L" n="0779a12"/><lg xml:id="lgL154p0779a1201" style="text-indent:0em"><l>樵出溪溪水坐平石石峰芒鞋徧四海應
-<lb ed="L" n="0779a13"/>念此山中</l></lg></cb:div>
+<lb ed="L" n="0779a12"/><lg xml:id="lgL154p0779a1201" style="text-indent:0em">
+  <l>樵出溪溪水坐平石石峰芒鞋徧四海應
+<lb ed="L" n="0779a13"/>念此山中</l>
+</lg></cb:div>
 <lb ed="L" n="0779a14"/><cb:div type="other"><cb:mulu type="其他" level="2">龍鬚禮祖</cb:mulu><head>龍鬚禮祖</head>
-<lb ed="L" n="0779a15"/><lg xml:id="lgL154p0779a1501" style="text-indent:0em"><l>禮取龍鬚大徹堂祖翁面目絕遮藏人來
+<lb ed="L" n="0779a15"/><lg xml:id="lgL154p0779a1501" style="text-indent:0em">
+  <l>禮取龍鬚大徹堂祖翁面目絕遮藏人來
 <pb ed="L" xml:id="L154.1641.0779b" n="0779b"/>
-<lb ed="L" n="0779b01"/>何處尋蹤跡<g ref="#CB08887"/>滿六年枕上霜</l></lg></cb:div>
+<lb ed="L" n="0779b01"/>何處尋蹤跡<g ref="#CB08887"/>滿六年枕上霜</l>
+</lg></cb:div>
 <lb ed="L" n="0779b02"/><cb:div type="other"><cb:mulu type="其他" level="2">既望夜叅後</cb:mulu><head>既望夜叅後</head>
-<lb ed="L" n="0779b03"/><lg xml:id="lgL154p0779b0301" style="text-indent:0em"><l>滿堂明月光誰蹋太白霜坐客亦輕擲題
-<lb ed="L" n="0779b04"/>詩破夜香</l></lg></cb:div>
+<lb ed="L" n="0779b03"/><lg xml:id="lgL154p0779b0301" style="text-indent:0em">
+  <l>滿堂明月光誰蹋太白霜坐客亦輕擲題
+<lb ed="L" n="0779b04"/>詩破夜香</l>
+</lg></cb:div>
 <lb ed="L" n="0779b05"/><cb:div type="other"><cb:mulu type="其他" level="2">有懷</cb:mulu><head>有懷</head>
-<lb ed="L" n="0779b06"/><lg xml:id="lgL154p0779b0601" style="text-indent:0em"><l>淡紅淺碧八九𣗳江村茆屋兩三間草履
-<lb ed="L" n="0779b07"/>麻衣食接氣客到平分一味閑</l></lg></cb:div>
+<lb ed="L" n="0779b06"/><lg xml:id="lgL154p0779b0601" style="text-indent:0em">
+  <l>淡紅淺碧八九𣗳江村茆屋兩三間草履
+<lb ed="L" n="0779b07"/>麻衣食接氣客到平分一味閑</l>
+</lg></cb:div>
 <lb ed="L" n="0779b08"/><cb:div type="other"><cb:mulu type="其他" level="2">新秋</cb:mulu><head>新秋</head>
-<lb ed="L" n="0779b09"/><lg xml:id="lgL154p0779b0901" style="text-indent:0em"><l>新秋設藥石橄欖款羣賢苦澁眸雙烱坐
-<lb ed="L" n="0779b10"/>深月滿筵</l></lg></cb:div>
+<lb ed="L" n="0779b09"/><lg xml:id="lgL154p0779b0901" style="text-indent:0em">
+  <l>新秋設藥石橄欖款羣賢苦澁眸雙烱坐
+<lb ed="L" n="0779b10"/>深月滿筵</l>
+</lg></cb:div>
 <lb ed="L" n="0779b11"/><cb:div type="other"><cb:mulu type="其他" level="2">仰止閣題壁</cb:mulu><head>仰止閣題壁</head>
-<lb ed="L" n="0779b12"/><lg xml:id="lgL154p0779b1201" style="text-indent:0em"><l>臥聽松風起啜茗粥短歌鼓腹庶幾知足</l></lg></cb:div>
+<lb ed="L" n="0779b12"/><lg xml:id="lgL154p0779b1201" style="text-indent:0em">
+  <l>臥聽松風起啜茗粥短歌鼓腹庶幾知足</l>
+</lg></cb:div>
 <lb ed="L" n="0779b13"/><cb:div type="other"><cb:mulu type="其他" level="2">辛亥重九後一日示相隨諸子兼懷下常住是年山邑饑</cb:mulu><head>辛亥重九後一日示相隨諸子兼懷
 <lb ed="L" n="0779b14"/>下常住是年山邑饑</head>
-<lb ed="L" n="0779b15"/><lg xml:id="lgL154p0779b1501" style="text-indent:0em"><l>登高三日雨夜來誰有詩兩堂木石侶束
+<lb ed="L" n="0779b15"/><lg xml:id="lgL154p0779b1501" style="text-indent:0em">
+  <l>登高三日雨夜來誰有詩兩堂木石侶束
 <pb ed="L" xml:id="L154.1641.0780a" n="0780a"/>
-<lb ed="L" n="0780a01"/>篾歌紫芝</l></lg></cb:div>
+<lb ed="L" n="0780a01"/>篾歌紫芝</l>
+</lg></cb:div>
 <lb ed="L" n="0780a02"/><cb:div type="other"><cb:mulu type="其他" level="2">荒園</cb:mulu><head>荒園</head>
-<lb ed="L" n="0780a03"/><lg xml:id="lgL154p0780a0301" style="text-indent:0em"><l>翠竹兩竿梅一𣗳梅開竹孕鳥懷春荒園
-<lb ed="L" n="0780a04"/>曳杖日無事揀點生生此性情</l></lg></cb:div>
+<lb ed="L" n="0780a03"/><lg xml:id="lgL154p0780a0301" style="text-indent:0em">
+  <l>翠竹兩竿梅一𣗳梅開竹孕鳥懷春荒園
+<lb ed="L" n="0780a04"/>曳杖日無事揀點生生此性情</l>
+</lg></cb:div>
 <lb ed="L" n="0780a05"/><cb:div type="other"><cb:mulu type="其他" level="2">雄峰有懷</cb:mulu><head>雄峰有懷</head>
-<lb ed="L" n="0780a06"/><lg xml:id="lgL154p0780a0601" style="text-indent:0em"><l>千峰深處三間屋石壁誰人先養松半芋
-<lb ed="L" n="0780a07"/>平分慰饑渴十年雪臥放疎慵</l></lg></cb:div>
+<lb ed="L" n="0780a06"/><lg xml:id="lgL154p0780a0601" style="text-indent:0em">
+  <l>千峰深處三間屋石壁誰人先養松半芋
+<lb ed="L" n="0780a07"/>平分慰饑渴十年雪臥放疎慵</l>
+</lg></cb:div>
 <lb ed="L" n="0780a08"/><cb:div type="other"><cb:mulu type="其他" level="2">無能</cb:mulu><head>無能</head>
-<lb ed="L" n="0780a09"/><lg xml:id="lgL154p0780a0901" style="text-indent:0em"><l>我是無能者人知我不能海天容浩蕩籬
+<lb ed="L" n="0780a09"/><lg xml:id="lgL154p0780a0901" style="text-indent:0em">
+  <l>我是無能者人知我不能海天容浩蕩籬
 <lb ed="L" n="0780a10"/>落任紛更莊笑蠻和觸諧稱鯤化鵬綱宗
-<lb ed="L" n="0780a11"/>綜九鼎若箇振家聲</l></lg></cb:div>
+<lb ed="L" n="0780a11"/>綜九鼎若箇振家聲</l>
+</lg></cb:div>
 <lb ed="L" n="0780a12"/><cb:div type="other"><cb:mulu type="其他" level="2">虀粥</cb:mulu><head>虀粥</head>
-<lb ed="L" n="0780a13"/><lg xml:id="lgL154p0780a1301" style="text-indent:0em"><l>肺腸久與君相洽一旦相逢似故人正脉
-<lb ed="L" n="0780a14"/>危微識法懼他年帶篾與君親</l></lg></cb:div></cb:div>
+<lb ed="L" n="0780a13"/><lg xml:id="lgL154p0780a1301" style="text-indent:0em">
+  <l>肺腸久與君相洽一旦相逢似故人正脉
+<lb ed="L" n="0780a14"/>危微識法懼他年帶篾與君親</l>
+</lg></cb:div></cb:div>
 <lb ed="L" n="0780a15"/><cb:div type="other"><cb:mulu type="其他" level="1">佛事</cb:mulu><head>佛事</head>
 <pb ed="L" xml:id="L154.1641.0780b" n="0780b"/>
 <lb ed="L" n="0780b01"/><cb:div type="other"><cb:mulu type="其他" level="2">在明禪人火</cb:mulu><head>在明禪人火</head>
@@ -5170,7 +6055,11 @@
 <lb ed="L" n="0781a04"/>持藥師名號數日泊然坐脫</note></head>
 <lb ed="L" n="0781a05"/><p xml:id="pL154p0781a0501">生知所止死知所歸豈無俊士於茲徘徊
 <lb ed="L" n="0781a06"/>咄哉行尊庶不虗為出世之人。</p></cb:div>
-<lb ed="L" n="0781a07"/><cb:div type="other"><cb:mulu type="其他" level="2">隱菴顯火</cb:mulu><head>隱菴顯火<note place="inline">顯圜頭勤樸十年如一日歲饑禾麥而園蔬獨<note n="0781a0701" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0781a0701"><lem wit="【CB】" resp="CBETA.maha">豐</lem><rdg wit="【龍】">豊</rdg></app>一
+<lb ed="L" n="0781a07"/><cb:div type="other"><cb:mulu type="其他" level="2">隱菴顯火</cb:mulu><head>隱菴顯火<note place="inline">顯圜頭勤樸十年如一日歲饑禾麥而園蔬獨<note 
+n="0781a0701" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0781a0701">
+  <lem wit="【CB】" resp="CBETA.maha">豐</lem>
+  <rdg wit="【龍】">豊</rdg>
+</app>一
 <lb ed="L" n="0781a08"/>眾頼之</note></head>
 <lb ed="L" n="0781a09"/><p xml:id="pL154p0781a0901">隱菴顯老園頭十年為眾荷鍤不休惟是
 <lb ed="L" n="0781a10"/>歸家一路幾番盤躃門頭吾今助汝一炬
@@ -5191,7 +6080,11 @@
 <lb ed="L" n="0781b09"/>無情俱證究竟堅固大定現前大眾異口
 <lb ed="L" n="0781b10"/>一音同誦首楞嚴王咒。</p></cb:div>
 <lb ed="L" n="0781b11"/><cb:div type="other"><cb:mulu type="其他" level="2">奠雲標岫侍司</cb:mulu><head>奠雲標岫侍司</head>
-<lb ed="L" n="0781b12"/><p xml:id="pL154p0781b1201">泥多佛大水長船高葉落歸根知<note n="0781b1201" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0781b1201"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>力來
+<lb ed="L" n="0781b12"/><p xml:id="pL154p0781b1201">泥多佛大水長船高葉落歸根知<note 
+n="0781b1201" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0781b1201">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>力來
 <lb ed="L" n="0781b13"/>年仔細𤼵春條。</p></cb:div>
 <lb ed="L" n="0781b14"/><cb:div type="other"><cb:mulu type="其他" level="2">崒侍司火</cb:mulu><head>崒侍司火<note place="inline">老成衣鉢</note></head>
 <lb ed="L" n="0781b15"/><p xml:id="pL154p0781b1501">雲開崒侍司諦信真空理四大各有歸斯
@@ -5221,7 +6114,11 @@
 <lb ed="L" n="0782b07"/><p xml:id="pL154p0782b0701">香水湛然滿浴此無垢人吾兄徹始終火
 <lb ed="L" n="0782b08"/>裏洗箇澡。</p></cb:div>
 <lb ed="L" n="0782b09"/><cb:div type="other"><cb:mulu type="其他" level="2">為澹齋化主嚴土善上座火</cb:mulu><head>為澹齋化主嚴土善上座火</head>
-<lb ed="L" n="0782b10"/><p xml:id="pL154p0782b1001">嚴土土嚴寂善善寂萬善<note n="0782b1001" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0782b1001"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>圓善可嘉嘉
+<lb ed="L" n="0782b10"/><p xml:id="pL154p0782b1001">嚴土土嚴寂善善寂萬善<note 
+n="0782b1001" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0782b1001">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>圓善可嘉嘉
 <lb ed="L" n="0782b11"/>善告寂寂不寂再來重理舊<g ref="#CB02133"/>綸嶺梅香
 <lb ed="L" n="0782b12"/>透千江雪。</p></cb:div>
 <lb ed="L" n="0782b13"/><cb:div type="other"><cb:mulu type="其他" level="2">鎮知屋火</cb:mulu><head>鎮知屋火</head>
@@ -5319,7 +6216,11 @@
 <lb ed="L" n="0785b09"/>之恩可也雖然父師母師出離之緣皆頼
 <lb ed="L" n="0785b10"/>師師師乎師乎粉骨碎身未足酧將此身
 <lb ed="L" n="0785b11"/>心奉塵剎潛子苫次草述時乙未九月戊
-<lb ed="L" n="0785b12"/><note n="0785b1201" resp="CBETA" type="add">戌【CB】，戍【龍】</note><app n="0785b1201"><lem wit="【CB】" resp="CBETA.maha">戌</lem><rdg wit="【龍】">戍</rdg></app>。</p></cb:div>
+<lb ed="L" n="0785b12"/><note 
+n="0785b1201" resp="CBETA" type="add">戌【CB】，戍【龍】</note><app n="0785b1201">
+  <lem wit="【CB】" resp="CBETA.maha">戌</lem>
+  <rdg wit="【龍】">戍</rdg>
+</app>。</p></cb:div>
 <lb ed="L" n="0785b13"/><cb:div type="other"><cb:mulu type="其他" level="2">西樓聞雪</cb:mulu><head>西樓聞雪</head>
 <lb ed="L" n="0785b14"/><p xml:id="pL154p0785b1401">潛子早失太山之仰不獲徧任兩序列職
 <lb ed="L" n="0785b15"/>壬辰夏報恩乏住持供先老人方丈重歸
@@ -5329,7 +6230,11 @@
 <lb ed="L" n="0786a03"/>寓監院寮後軒篝燈正當寶峰塔下漏下
 <lb ed="L" n="0786a04"/>三十刻聞雪起立不禁清絕向於磬山有
 <lb ed="L" n="0786a05"/>生平徼幸處千古快心時之句此際是第
-<lb ed="L" n="0786a06"/>二番境界時壬辰十一月癸<note n="0786a0601" resp="CBETA" type="add">巳【CB】，已【龍】</note><app n="0786a0601"><lem wit="【CB】" resp="CBETA.maha">巳</lem><rdg wit="【龍】">已</rdg></app>手書所用
+<lb ed="L" n="0786a06"/>二番境界時壬辰十一月癸<note 
+n="0786a0601" resp="CBETA" type="add">巳【CB】，已【龍】</note><app n="0786a0601">
+  <lem wit="【CB】" resp="CBETA.maha">巳</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>手書所用
 <lb ed="L" n="0786a07"/>破硯猶是二十年前記室舊物并記。</p></cb:div>
 <lb ed="L" n="0786a08"/><cb:div type="other"><cb:mulu type="其他" level="2">報恩旅堂閒書</cb:mulu><head>報恩旅堂閒書</head>
 <lb ed="L" n="0786a09"/><p xml:id="pL154p0786a0901">近日學者有二病一等弄聰明習外學一
@@ -5353,7 +6258,11 @@
 <lb ed="L" n="0786b11"/>甚于貧賤今此如來使人所求如願遂從
 <lb ed="L" n="0786b12"/>此永不退道直至菩提則欲於王臣長者
 <lb ed="L" n="0786b13"/>一切人中作同事攝不乘如來願航何從
-<lb ed="L" n="0786b14"/>濟乎大凡修持須量<note n="0786b1401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0786b1401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>量法直心直行誠
+<lb ed="L" n="0786b14"/>濟乎大凡修持須量<note 
+n="0786b1401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0786b1401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>量法直心直行誠
 <lb ed="L" n="0786b15"/>能厭惡三畍堅志往生則專依阿彌陀經
 <pb ed="L" xml:id="L154.1641.0787a" n="0787a"/>
 <lb ed="L" n="0787a01"/>收攝六根淨念相繼所謂執持名號一心
@@ -5365,7 +6274,11 @@
 <lb ed="L" n="0787a07"/>境不致淪胥者固無如修持藥師願海者
 <lb ed="L" n="0787a08"/>之殊勝難思也癸巳之夏山居不寧偶奉
 <lb ed="L" n="0787a09"/>親歸養江上晏如程君以刻成藥師日課
-<lb ed="L" n="0787a10"/>見示此出人意表是經流傳<note n="0787a1001" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0787a1001"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>久編成日
+<lb ed="L" n="0787a10"/>見示此出人意表是經流傳<note 
+n="0787a1001" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0787a1001">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>久編成日
 <lb ed="L" n="0787a11"/>課未之聞也乃得之吾江之善士為之助
 <lb ed="L" n="0787a12"/>喜信能修持久久不懈知不獨富貴功名
 <lb ed="L" n="0787a13"/>轉女成男離危廸吉如如意珠隨願成就
@@ -5374,7 +6287,11 @@
 <pb ed="L" xml:id="L154.1641.0787b" n="0787b"/>
 <lb ed="L" n="0787b01"/>德船。</p></cb:div>
 <lb ed="L" n="0787b02"/><cb:div type="other"><cb:mulu type="其他" level="2">錄餘杭道中詩</cb:mulu><head>錄餘杭道中詩</head>
-<lb ed="L" n="0787b03"/><p xml:id="pL154p0787b0301">舉目千矛<note n="0787b0301" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0787b0301"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【龍】">剌</rdg></app>淚流若為問路白雲頭大人
+<lb ed="L" n="0787b03"/><p xml:id="pL154p0787b0301">舉目千矛<note 
+n="0787b0301" resp="CBETA" type="add">刺【CB】，剌【龍】</note><app n="0787b0301">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【龍】">剌</rdg>
+</app>淚流若為問路白雲頭大人
 <lb ed="L" n="0787b04"/>君子今何在長歎一聲天地秋餘杭道中
 <lb ed="L" n="0787b05"/>不知誰書此詩於壁題曰行脚紀事非目
 <lb ed="L" n="0787b06"/>擊其中人者不知此詩之悲也。</p></cb:div>
@@ -5391,7 +6308,11 @@
 <lb ed="L" n="0788a01"/>卞玉綴以隋珠供於百寶浮屠之上當夜
 <lb ed="L" n="0788a02"/>夜放千道奇光光中時現二龍𤼵大音聲
 <lb ed="L" n="0788a03"/>金聲玉振千佛萬祖于其音中示生音中
-<lb ed="L" n="0788a04"/>湼槃<note n="0788a0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0788a0401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>丑中秋日手記。</p></cb:div>
+<lb ed="L" n="0788a04"/>湼槃<note 
+n="0788a0401" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0788a0401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>丑中秋日手記。</p></cb:div>
 <lb ed="L" n="0788a05"/><cb:div type="other"><cb:mulu type="其他" level="2">跋大慧頌古</cb:mulu><head>跋大慧頌古</head>
 <lb ed="L" n="0788a06"/><p xml:id="pL154p0788a0601">相體裁衣量水打碓毫髮不差且居門外
 <lb ed="L" n="0788a07"/>昨夜三更月到牕話後人逐塊亂頌無論
@@ -5414,7 +6335,11 @@
 <lb ed="L" n="0788b08"/>之曰可并示峰書狀。</p></cb:div>
 <lb ed="L" n="0788b09"/><cb:div type="other"><cb:mulu type="其他" level="2">潛子傳贊</cb:mulu><head>潛子傳贊</head>
 <lb ed="L" n="0788b10"/><p xml:id="pL154p0788b1001">潛子不知何如人自得法先磬山力以大
-<lb ed="L" n="0788b11"/>法為<note n="0788b1101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0788b1101"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">已</rdg></app>任嗣住報恩數載雖百廢竝舉未
+<lb ed="L" n="0788b11"/>法為<note 
+n="0788b1101" resp="CBETA" type="add">己【CB】，已【龍】</note><app n="0788b1101">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">已</rdg>
+</app>任嗣住報恩數載雖百廢竝舉未
 <lb ed="L" n="0788b12"/>嘗一事營心數千指日環擁叅請未嘗有
 <lb ed="L" n="0788b13"/>一元字脚與人其許入室者愈臻玄奧愈
 <lb ed="L" n="0788b14"/>爽然自失久追隨者多忘身為道高年碩
@@ -5463,8 +6388,16 @@
 <lb ed="L" n="0790a09"/>
 <lb ed="L" n="0790a10"/><cb:juan fun="close" n="7"><cb:jhead>大覺普濟能仁玉琳琇國師語錄卷第七</cb:jhead></cb:juan>
 <lb ed="L" n="0790a11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0790a12"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm">閴</term></form><cb:def><p xml:id="pL154p0790a1202" style="margin-left:1em" cb:place="inline"><note place="inline">苦臭切傾入聲寂靜也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><note n="0790a1201" resp="CBETA" type="add" note_key="L154.0790a12.11">邗【CB】，䢴【龍】</note><app n="0790a1201"><lem wit="【CB】" resp="CBETA.maha" cb:provider="iamone (2019-02-19)">邗</lem><rdg wit="【龍】">䢴</rdg></app></term></form><cb:def><p xml:id="pL154p0790a1212" style="margin-left:1em" cb:place="inline"><note place="inline">河干切音寒地名</note>。</p></cb:def></entry><entry cb:place="inline"><form>崒</form><cb:def><p xml:id="pL154p0790a1220" style="margin-left:1em" cb:place="inline"><note place="inline">秦醉切音萃</note>。</p></cb:def></entry>
-<lb ed="L" n="0790a13"/><entry><form><note n="0790a1301" resp="CBETA" type="add"><term cb:behaviour="no-norm">櫩</term>【CB】，<term cb:behaviour="no-norm"><g ref="#CB22132"/></term>【龍】</note><app n="0790a1301"><lem wit="【CB】" resp="CBETA.maha"><term cb:behaviour="no-norm">櫩</term></lem><rdg wit="【龍】"><term cb:behaviour="no-norm"><g ref="#CB22132"/></term></rdg></app></form><cb:def><p xml:id="pL154p0790a1306" style="margin-left:1em" cb:place="inline"><note place="inline">移<term cb:behaviour="no-norm"><g ref="#CB15691"/></term>切音炎步廊</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0790a12"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm">閴</term></form><cb:def><p xml:id="pL154p0790a1202" style="margin-left:1em" cb:place="inline"><note place="inline">苦臭切傾入聲寂靜也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><note 
+n="0790a1201" resp="CBETA" type="add" note_key="L154.0790a12.11">邗【CB】，䢴【龍】</note><app n="0790a1201">
+  <lem wit="【CB】" resp="CBETA.maha" cb:provider="iamone (2019-02-19)">邗</lem>
+  <rdg wit="【龍】">䢴</rdg>
+</app></term></form><cb:def><p xml:id="pL154p0790a1212" style="margin-left:1em" cb:place="inline"><note place="inline">河干切音寒地名</note>。</p></cb:def></entry><entry cb:place="inline"><form>崒</form><cb:def><p xml:id="pL154p0790a1220" style="margin-left:1em" cb:place="inline"><note place="inline">秦醉切音萃</note>。</p></cb:def></entry>
+<lb ed="L" n="0790a13"/><entry><form><note 
+n="0790a1301" resp="CBETA" type="add"><term cb:behaviour="no-norm">櫩</term>【CB】，<term cb:behaviour="no-norm"><g ref="#CB22132"/></term>【龍】</note><app n="0790a1301">
+  <lem wit="【CB】" resp="CBETA.maha"><term cb:behaviour="no-norm">櫩</term></lem>
+  <rdg wit="【龍】"><term cb:behaviour="no-norm"><g ref="#CB22132"/></term></rdg>
+</app></form><cb:def><p xml:id="pL154p0790a1306" style="margin-left:1em" cb:place="inline"><note place="inline">移<term cb:behaviour="no-norm"><g ref="#CB15691"/></term>切音炎步廊</note>。</p></cb:def></entry></cb:div></cb:div>
 <lb ed="L" n="0790a14"/>
 <lb ed="L" n="0790a15"/>
 <pb ed="L" xml:id="L154.1641.0790b" n="0790b"/>
@@ -5486,7 +6419,11 @@
 <pb ed="L" xml:id="L154.1641.0791a" n="0791a"/>
 <lb ed="L" n="0791a01"/>荊溪爐韝正赤師直造其席依止受具
 <lb ed="L" n="0791a02"/>戒為侍者進則决疑請益立雪不移退
-<lb ed="L" n="0791a03"/>則宴默凝神危坐達旦必欲見道乃<note n="0791a0301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0791a0301"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>
+<lb ed="L" n="0791a03"/>則宴默凝神危坐達旦必欲見道乃<note 
+n="0791a0301" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0791a0301">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>
 <lb ed="L" n="0791a04"/>一日于一口吸盡西江水下瞥見馬祖
 <lb ed="L" n="0791a05"/>用處不覺身心慶快曰佛法落吾手矣
 <lb ed="L" n="0791a06"/>自此遇勘辨𤼵語縱橫自如當機不讓
@@ -5500,7 +6437,11 @@
 <lb ed="L" n="0791a14"/>不從避之凌霄峰絕頂時天龍業已推
 <lb ed="L" n="0791a15"/>出雖欲埋名煙壑而眾莫之許師不得
 <pb ed="L" xml:id="L154.1641.0791b" n="0791b"/>
-<lb ed="L" n="0791b01"/><note n="0791b0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0791b0101"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【龍】">巳</rdg></app>起應之開法筵之日黑白環遶者萬
+<lb ed="L" n="0791b01"/><note 
+n="0791b0101" resp="CBETA" type="add">已【CB】，巳【龍】</note><app n="0791b0101">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>起應之開法筵之日黑白環遶者萬
 <lb ed="L" n="0791b02"/>指莫不霑被化雨隨根沃潤而去丙戌
 <lb ed="L" n="0791b03"/>過大雄樂其山川幽寂就荒煙蔓草葺
 <lb ed="L" n="0791b04"/><g ref="#CB22085"/>為屋有終焉之志然聲光外流逐羶
@@ -5513,7 +6454,11 @@
 <lb ed="L" n="0791b11"/>服焉。</p>
 <lb ed="L" n="0791b12"/><p xml:id="pL154p0791b1201">順治戊戌
 <lb ed="L" n="0791b13" type="honorific"/>世祖皇帝聞師名遣使
-<lb ed="L" n="0791b14" type="honorific"/>詔師<note n="0791b1401" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0791b1401"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【龍】">巳</rdg></app>亥春師應
+<lb ed="L" n="0791b14" type="honorific"/>詔師<note 
+n="0791b1401" resp="CBETA" type="add">己【CB】，巳【龍】</note><app n="0791b1401">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【龍】">巳</rdg>
+</app>亥春師應
 <lb ed="L" n="0791b15" type="honorific"/>詔赴闕見
 <pb ed="L" xml:id="L154.1641.0792a" n="0792a"/>
 <lb ed="L" n="0792a01" type="honorific"/>上於外朝慰勞優渥即
@@ -5524,7 +6469,11 @@
 <lb ed="L" n="0792a06" type="honorific"/>皇情大悅
 <lb ed="L" n="0792a07" type="honorific"/>命近侍傳語恨相見之晚焉
 <lb ed="L" n="0792a08" type="honorific"/>特賜號曰大覺禪師名香法衣之錫殆無虗
-<lb ed="L" n="0792a09"/>日尋以<note n="0792a0901" resp="CBETA" type="add">母【CB】，毋【龍】</note><app n="0792a0901"><lem wit="【CB】" resp="CBETA.maha">母</lem><rdg wit="【龍】">毋</rdg></app>未塟懇乞還山
+<lb ed="L" n="0792a09"/>日尋以<note 
+n="0792a0901" resp="CBETA" type="add">母【CB】，毋【龍】</note><app n="0792a0901">
+  <lem wit="【CB】" resp="CBETA.maha">母</lem>
+  <rdg wit="【龍】">毋</rdg>
+</app>未塟懇乞還山
 <lb ed="L" n="0792a10" type="honorific"/>詔許之出內府金錢助之襄事師受賜歸
 <lb ed="L" n="0792a11"/>以十九飯僧放生而以其一助營塔費
 <lb ed="L" n="0792a12"/>凡畚土運石一一皆身自為之庚子秋
@@ -5549,7 +6498,11 @@
 <lb ed="L" n="0792b15"/>請師雖勉強一赴然旋思歸老舊林亦
 <pb ed="L" xml:id="L154.1641.0793a" n="0793a"/>
 <lb ed="L" n="0793a01"/>未嘗久留也天性至孝十二歲即喪父
-<lb ed="L" n="0793a02"/>得法後別構草堂于報恩之側奉<note n="0793a0201" resp="CBETA" type="add">母【CB】，毋【龍】</note><app n="0793a0201"><lem wit="【CB】" resp="CBETA.maha">母</lem><rdg wit="【龍】">毋</rdg></app>居
+<lb ed="L" n="0793a02"/>得法後別構草堂于報恩之側奉<note 
+n="0793a0201" resp="CBETA" type="add">母【CB】，毋【龍】</note><app n="0793a0201">
+  <lem wit="【CB】" resp="CBETA.maha">母</lem>
+  <rdg wit="【龍】">毋</rdg>
+</app>居
 <lb ed="L" n="0793a03"/>之躬進飲饍母歿斷食禪定者七日行
 <lb ed="L" n="0793a04"/>道不離𣩵次者三年先是師之父振陵
 <lb ed="L" n="0793a05"/>翁與受雲栖大戒深味禪悅臨終染衣
@@ -5571,7 +6524,11 @@
 <lb ed="L" n="0793b05"/>沉迷重障一遭鉗鎚<g ref="#CB07821"/>索無不斷絕焦
 <lb ed="L" n="0793b06"/>芽小草一蒙溉灌身心無不光潤得法
 <lb ed="L" n="0793b07"/>弟子二十餘人皆能傳燈續命接席分
-<lb ed="L" n="0793b08"/>輝者也師廣額<note n="0793b0801" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0793b0801"><lem wit="【CB】" resp="CBETA.maha">豐</lem><rdg wit="【龍】">豊</rdg></app>頤平頂大耳面白玉
+<lb ed="L" n="0793b08"/>輝者也師廣額<note 
+n="0793b0801" resp="CBETA" type="add">豐【CB】，豊【龍】</note><app n="0793b0801">
+  <lem wit="【CB】" resp="CBETA.maha">豐</lem>
+  <rdg wit="【龍】">豊</rdg>
+</app>頤平頂大耳面白玉
 <lb ed="L" n="0793b09"/>色目光烱烱射人宴坐如臨大眾故見
 <lb ed="L" n="0793b10"/>者不威而攝一生不蓄私財即纖細供
 <lb ed="L" n="0793b11"/>養亦不輕受嘗過青縣有苦行僧負斗
@@ -5598,25 +6555,44 @@
 <pb ed="L" xml:id="L154.1641.0794b" n="0794b"/>
 <lb ed="L" n="0794b01" type="honorific"/>聖人敷揚大化者乎謂之優曇鉢花千年一
 <lb ed="L" n="0794b02"/>現良不誣也銘曰。</p>
-<lb ed="L" n="0794b03"/><lg xml:id="lgL154p0794b0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">西來妙旨<caesura style="text-indent:1em;"/>五燈分繼<caesura style="text-indent:1em;"/>震動鏗鍧</l>
-<lb ed="L" n="0794b04"/><l style="text-indent:1em">厥惟臨濟<caesura style="text-indent:1em;"/>國師嗣法<caesura style="text-indent:1em;"/>三十一傳</l>
-<lb ed="L" n="0794b05" type="honorific"/><l style="text-indent:1em">金輪御曆<caesura style="text-indent:1em;"/>佛日中天<caesura style="text-indent:1em;"/>兜率親升</l>
-<lb ed="L" n="0794b06"/><l style="text-indent:1em">演說般若<caesura style="text-indent:1em;"/>光燭大千<caesura style="text-indent:1em;"/>聲施九野</l>
-<lb ed="L" n="0794b07"/><l style="text-indent:1em">應機而出<caesura style="text-indent:1em;"/>乘願以來<caesura style="text-indent:1em;"/>心光內發</l>
-<lb ed="L" n="0794b08"/><l style="text-indent:1em">樓閣門開<caesura style="text-indent:1em;"/>西江一吸<caesura style="text-indent:1em;"/>劈靣全體</l>
-<lb ed="L" n="0794b09"/><l style="text-indent:1em">布袋打失<caesura style="text-indent:1em;"/>凡情𥁞死<caesura style="text-indent:1em;"/>扁舟夜汎</l>
-<lb ed="L" n="0794b10"/><l style="text-indent:1em">水月明融<caesura style="text-indent:1em;"/>直入無見<caesura style="text-indent:1em;"/>爍破虛空</l>
-<lb ed="L" n="0794b11"/><l style="text-indent:1em">六坐道塲<caesura style="text-indent:1em;"/>大施正令<caesura style="text-indent:1em;"/>凡聖皈依</l>
-<lb ed="L" n="0794b12"/><l style="text-indent:1em">天龍恭敬<caesura style="text-indent:1em;"/>顯號榮名<caesura style="text-indent:1em;"/>自
-<lb ed="L" n="0794b13" type="honorific"/>天之祐</l><l style="text-indent:1em">開士何心<caesura style="text-indent:1em;"/>白雲出岫</l>
-<lb ed="L" n="0794b14"/><l style="text-indent:1em">天目高峰<caesura style="text-indent:1em;"/>上摩穹碧<caesura style="text-indent:1em;"/>師錫振飛</l>
-<lb ed="L" n="0794b15"/><l style="text-indent:1em">祖<g ref="#CB08887"/>生色<caesura style="text-indent:1em;"/>寶臺珠網<caesura style="text-indent:1em;"/>彈指立成</l>
+<lb ed="L" n="0794b03"/><lg xml:id="lgL154p0794b0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">西來妙旨<caesura style="text-indent:1em;"/>五燈分繼<caesura style="text-indent:1em;"/>震動鏗鍧</l>
+<lb ed="L" n="0794b04"/>
+  <l style="text-indent:1em">厥惟臨濟<caesura style="text-indent:1em;"/>國師嗣法<caesura style="text-indent:1em;"/>三十一傳</l>
+<lb ed="L" n="0794b05" type="honorific"/>
+  <l style="text-indent:1em">金輪御曆<caesura style="text-indent:1em;"/>佛日中天<caesura style="text-indent:1em;"/>兜率親升</l>
+<lb ed="L" n="0794b06"/>
+  <l style="text-indent:1em">演說般若<caesura style="text-indent:1em;"/>光燭大千<caesura style="text-indent:1em;"/>聲施九野</l>
+<lb ed="L" n="0794b07"/>
+  <l style="text-indent:1em">應機而出<caesura style="text-indent:1em;"/>乘願以來<caesura style="text-indent:1em;"/>心光內發</l>
+<lb ed="L" n="0794b08"/>
+  <l style="text-indent:1em">樓閣門開<caesura style="text-indent:1em;"/>西江一吸<caesura style="text-indent:1em;"/>劈靣全體</l>
+<lb ed="L" n="0794b09"/>
+  <l style="text-indent:1em">布袋打失<caesura style="text-indent:1em;"/>凡情𥁞死<caesura style="text-indent:1em;"/>扁舟夜汎</l>
+<lb ed="L" n="0794b10"/>
+  <l style="text-indent:1em">水月明融<caesura style="text-indent:1em;"/>直入無見<caesura style="text-indent:1em;"/>爍破虛空</l>
+<lb ed="L" n="0794b11"/>
+  <l style="text-indent:1em">六坐道塲<caesura style="text-indent:1em;"/>大施正令<caesura style="text-indent:1em;"/>凡聖皈依</l>
+<lb ed="L" n="0794b12"/>
+  <l style="text-indent:1em">天龍恭敬<caesura style="text-indent:1em;"/>顯號榮名<caesura style="text-indent:1em;"/>自
+<lb ed="L" n="0794b13" type="honorific"/>天之祐</l>
+  <l style="text-indent:1em">開士何心<caesura style="text-indent:1em;"/>白雲出岫</l>
+<lb ed="L" n="0794b14"/>
+  <l style="text-indent:1em">天目高峰<caesura style="text-indent:1em;"/>上摩穹碧<caesura style="text-indent:1em;"/>師錫振飛</l>
+<lb ed="L" n="0794b15"/>
+  <l style="text-indent:1em">祖<g ref="#CB08887"/>生色<caesura style="text-indent:1em;"/>寶臺珠網<caesura style="text-indent:1em;"/>彈指立成</l>
 <pb ed="L" xml:id="L154.1641.0795a" n="0795a"/>
-<lb ed="L" n="0795a01"/><l style="text-indent:1em">隨順世間<caesura style="text-indent:1em;"/>何經何營<caesura style="text-indent:1em;"/>蘧廬終宿</l>
-<lb ed="L" n="0795a02"/><l style="text-indent:1em">曳杖江口<caesura style="text-indent:1em;"/>起滅空幻<caesura style="text-indent:1em;"/>我尚不有</l>
-<lb ed="L" n="0795a03"/><l style="text-indent:1em">坐脫淮上<caesura style="text-indent:1em;"/>遊戲自如<caesura style="text-indent:1em;"/>死生者誰</l>
-<lb ed="L" n="0795a04"/><l style="text-indent:1em">隱現在吾<caesura style="text-indent:1em;"/>六十二年<caesura style="text-indent:1em;"/>悄然無事</l>
-<lb ed="L" n="0795a05"/><l style="text-indent:1em">居士勒銘<caesura style="text-indent:1em;"/>僅有半字</l></lg>
+<lb ed="L" n="0795a01"/>
+  <l style="text-indent:1em">隨順世間<caesura style="text-indent:1em;"/>何經何營<caesura style="text-indent:1em;"/>蘧廬終宿</l>
+<lb ed="L" n="0795a02"/>
+  <l style="text-indent:1em">曳杖江口<caesura style="text-indent:1em;"/>起滅空幻<caesura style="text-indent:1em;"/>我尚不有</l>
+<lb ed="L" n="0795a03"/>
+  <l style="text-indent:1em">坐脫淮上<caesura style="text-indent:1em;"/>遊戲自如<caesura style="text-indent:1em;"/>死生者誰</l>
+<lb ed="L" n="0795a04"/>
+  <l style="text-indent:1em">隱現在吾<caesura style="text-indent:1em;"/>六十二年<caesura style="text-indent:1em;"/>悄然無事</l>
+<lb ed="L" n="0795a05"/>
+  <l style="text-indent:1em">居士勒銘<caesura style="text-indent:1em;"/>僅有半字</l>
+</lg>
 <lb ed="L" n="0795a06"/><p xml:id="pL154p0795a0601">康熈乙丑仲夏
 <lb ed="L" n="0795a07" type="honorific"/>賜進士出身光祿大夫禮部尚書保和殿大
 <lb ed="L" n="0795a08"/>學士加三級宛平王熈薰沐拜撰</p></cb:div>

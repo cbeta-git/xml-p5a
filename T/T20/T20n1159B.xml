@@ -2,83 +2,85 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T20n1159B">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛說地藏菩薩陀羅尼經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1159B 佛說地藏菩薩陀羅尼經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1159B 佛說地藏菩薩陀羅尼經</title>
-			<author></author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1159B</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-24T11:15:17">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛說地藏菩薩陀羅尼經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1159B 佛說地藏菩薩陀羅尼經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1159B 佛說地藏菩薩陀羅尼經</title>
+      <author/>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1159B</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-24T11:15:17">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0655b" ed="T" xml:id="T20.1159B.0655b"/>
 <lb n="0655b01" ed="T"/>
 <lb n="0655b02" ed="T"/><cb:docNumber>No. 1159B</cb:docNumber>
-<lb n="0655b03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0655009" resp="Taisho" type="orig" place="foot text">【原】東寺三密藏古寫本</note>佛說地藏菩薩陀羅尼經</cb:jhead></cb:juan>
+<lb n="0655b03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0655009" resp="Taisho" type="orig" place="foot text">【原】東寺三密藏古寫本</note>佛說地藏菩薩陀羅尼經</cb:jhead></cb:juan>
 <lb n="0655b04" ed="T"/>
-<lb n="0655b05" ed="T"/><cb:div type="jing"><p xml:id="pT20p0655b0501">如是我聞：</p><p xml:id="pT20p0655b0505" cb:place="inline">一時佛在佉羅提耶山牟尼仙所
+<lb n="0655b05" ed="T"/><cb:div type="jing"><p xml:id="pT20p0655b0501">如是我聞：</p>
+<p xml:id="pT20p0655b0505" cb:place="inline">一時佛在佉羅提耶山牟尼仙所
 <lb n="0655b06" ed="T"/>住之處，與大比丘眾俱，無量無數聲聞大眾，
 <lb n="0655b07" ed="T"/>菩薩摩訶薩無量無邊不可稱計，說月藏訖。
 <lb n="0655b08" ed="T"/>爾時南方有大香雲雨大香雨、大華雲雨大
@@ -118,25 +120,46 @@
 <lb n="0655c12" ed="T"/>如是大眾得未曾有：「以何因緣，我等身體今
 <lb n="0655c13" ed="T"/>皆大重不能自勝？」當於爾時有一帝釋名
 <lb n="0655c14" ed="T"/>曰淨有，於大眾中不遠而坐。於是淨有即從
-<lb n="0655c15" ed="T"/>座起，而整衣服右膝著地，合掌向佛以偈<note n="0655c1501" resp="CBETA" type="add">問【CB】，聞【大】</note><app n="0655c1501"><lem resp="CBETA.maha" wit="【CB】">問<note type="cf1">T09n0262_p0040b22</note></lem><rdg wit="【大】">聞</rdg></app>
+<lb n="0655c15" ed="T"/>座起，而整衣服右膝著地，合掌向佛以偈<note 
+n="0655c1501" resp="CBETA" type="add">問【CB】，聞【大】</note><app n="0655c1501">
+  <lem resp="CBETA.maha" wit="【CB】">問<note type="cf1">T09n0262_p0040b22</note></lem>
+  <rdg wit="【大】">聞</rdg>
+</app>
 <lb n="0655c16" ed="T"/>曰：</p>
-<lb n="0655c17" ed="T"/><lg xml:id="lgT20p0655c1701" type="regular" style="margin-left:1em;text-indent:-1em"><l>「實語實見者，<caesura/>實住牟尼尊，</l>
-<lb n="0655c18" ed="T"/><l>久住於法行，<caesura/>唯願演說法。</l>
-<lb n="0655c19" ed="T"/><l>佛為實因緣，<caesura/>能滅眾生苦，</l>
-<lb n="0655c20" ed="T"/><l>何故於此處，<caesura/>而雨種種雨？</l>
-<lb n="0655c21" ed="T"/><l>大眾皆喜悅，<caesura/>心生信安樂，</l>
-<lb n="0655c22" ed="T"/><l>開示諸疑惑，<caesura/>令住於大乘。</l>
-<lb n="0655c23" ed="T"/><l>身難動如地，<caesura/>及一切人天，</l>
-<lb n="0655c24" ed="T"/><l>皆見如是相，<caesura/>大眾悉有疑。</l>
-<lb n="0655c25" ed="T"/><l>兩手各皆出，<caesura/>摩尼寶光明，</l>
-<lb n="0655c26" ed="T"/><l>一切諸衣鬘，<caesura/>雜飾嚴身具。</l>
-<lb n="0655c27" ed="T"/><l>十方之福田，<caesura/>離一切過惡，</l>
-<lb n="0655c28" ed="T"/><l>眾苦得休息，<caesura/>皆因緣救世。</l>
-<lb n="0655c29" ed="T"/><l>一切諸天人，<caesura/>無能說因緣，</l>
+<lb n="0655c17" ed="T"/><lg xml:id="lgT20p0655c1701" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「實語實見者，<caesura/>實住牟尼尊，</l>
+<lb n="0655c18" ed="T"/>
+  <l>久住於法行，<caesura/>唯願演說法。</l>
+<lb n="0655c19" ed="T"/>
+  <l>佛為實因緣，<caesura/>能滅眾生苦，</l>
+<lb n="0655c20" ed="T"/>
+  <l>何故於此處，<caesura/>而雨種種雨？</l>
+<lb n="0655c21" ed="T"/>
+  <l>大眾皆喜悅，<caesura/>心生信安樂，</l>
+<lb n="0655c22" ed="T"/>
+  <l>開示諸疑惑，<caesura/>令住於大乘。</l>
+<lb n="0655c23" ed="T"/>
+  <l>身難動如地，<caesura/>及一切人天，</l>
+<lb n="0655c24" ed="T"/>
+  <l>皆見如是相，<caesura/>大眾悉有疑。</l>
+<lb n="0655c25" ed="T"/>
+  <l>兩手各皆出，<caesura/>摩尼寶光明，</l>
+<lb n="0655c26" ed="T"/>
+  <l>一切諸衣鬘，<caesura/>雜飾嚴身具。</l>
+<lb n="0655c27" ed="T"/>
+  <l>十方之福田，<caesura/>離一切過惡，</l>
+<lb n="0655c28" ed="T"/>
+  <l>眾苦得休息，<caesura/>皆因緣救世。</l>
+<lb n="0655c29" ed="T"/>
+  <l>一切諸天人，<caesura/>無能說因緣，</l>
 <pb n="0656a" ed="T" xml:id="T20.1159B.0656a"/>
-<lb n="0656a01" ed="T"/><l>是誰神通力，<caesura/>而來至此處？</l>
-<lb n="0656a02" ed="T"/><l>為佛諸菩薩？<caesura/>梵摩帝釋等？</l>
-<lb n="0656a03" ed="T"/><l>唯願救世說，<caesura/>神通之因緣。」</l></lg>
+<lb n="0656a01" ed="T"/>
+  <l>是誰神通力，<caesura/>而來至此處？</l>
+<lb n="0656a02" ed="T"/>
+  <l>為佛諸菩薩？<caesura/>梵摩帝釋等？</l>
+<lb n="0656a03" ed="T"/>
+  <l>唯願救世說，<caesura/>神通之因緣。」</l>
+</lg>
 <lb n="0656a04" ed="T"/><p xml:id="pT20p0656a0401">爾時世尊告淨有帝釋言：「如是如是。汝今諦
 <lb n="0656a05" ed="T"/>聽，吾當說之。是地藏菩薩摩訶薩，於無量阿
 <lb n="0656a06" ed="T"/>僧祇劫為五濁惡世成就眾生故而來至此，
@@ -155,7 +178,11 @@
 <lb n="0656a19" ed="T"/>大福田之根本也。捨心無凝，如彼後流救苦
 <lb n="0656a20" ed="T"/>難，如起親友除結使炎之雲蓋，如淨水珠除
 <lb n="0656a21" ed="T"/>穢濁，若起嶮迴示正路。是疲極者安隱林坐，
-<lb n="0656a22" ed="T"/>是四<note n="0656a2201" resp="CBETA" type="add" note_key="T20.0656a22.03">駛【CB】，駃【大】</note><app n="0656a2201"><lem wit="【CB】" resp="CBETA.ting">駛<note type="cf1">QC020n0061_p0132a01</note></lem><rdg wit="【大】">駃</rdg></app>流生死橋梁亦度彼岸無上大船，是
+<lb n="0656a22" ed="T"/>是四<note 
+n="0656a2201" resp="CBETA" type="add" note_key="T20.0656a22.03">駛【CB】，駃【大】</note><app n="0656a2201">
+  <lem wit="【CB】" resp="CBETA.ting">駛<note type="cf1">QC020n0061_p0132a01</note></lem>
+  <rdg wit="【大】">駃</rdg>
+</app>流生死橋梁亦度彼岸無上大船，是
 <lb n="0656a23" ed="T"/>三善根勝妙果報，是諸施者最上大乘。持戒
 <lb n="0656a24" ed="T"/>不動如須彌山，精進難壞猶如金剛，忍辱堅
 <lb n="0656a25" ed="T"/>固亦如大地，總持正法心無三相，禪定莊嚴
@@ -180,76 +207,168 @@
 <lb n="0656b14" ed="T"/>菩薩以神通力俱來至此，悉作聲聞像，在如
 <lb n="0656b15" ed="T"/>來前頂禮佛足，右遶三匝，即為合掌而說偈
 <lb n="0656b16" ed="T"/>言：</p>
-<lb n="0656b17" ed="T"/><lg xml:id="lgT20p0656b1701" type="regular" style="margin-left:1em;text-indent:-1em"><l>「兩足最勝大導師，<caesura/>恒修於慈發善心，</l>
-<lb n="0656b18" ed="T"/><l>能生忍辱如大地，<caesura/>解脫眾生除瞋恚。</l>
-<lb n="0656b19" ed="T"/><l><note n="0656b1901" resp="CBETA" type="add">具【CB】，是【大】</note><app n="0656b1901"><lem resp="CBETA.maha" wit="【CB】">具<note type="cf1">佛教大藏經第58冊p1005a20</note><note type="cf2">T13n0410_p0682a26</note></lem><rdg wit="【大】">是</rdg></app>足最大諸相好，<caesura/>而能嚴飾一切界，</l>
-<lb n="0656b20" ed="T"/><l>能滿一切諸福田，<caesura/>常修實語及大慈，</l>
-<lb n="0656b21" ed="T"/><l>能悉斷除諸受網，<caesura/>皆能如實善安住。</l>
-<lb n="0656b22" ed="T"/><l>捨餘清淨諸佛國，<caesura/>其中眾生具善根，</l>
-<lb n="0656b23" ed="T"/><l>本願欲度濁惡世，<caesura/>成就一切諸眾生。</l>
-<lb n="0656b24" ed="T"/><l>能生堅固懃精進，<caesura/>超過無量諸苦行，</l>
-<lb n="0656b25" ed="T"/><l>常修難行恐怖處，<caesura/>超過無量諸苦行。</l>
-<lb n="0656b26" ed="T"/><l>布施持戒忍精進，<caesura/>修習禪定與智慧，</l>
-<lb n="0656b27" ed="T"/><l>無數諸佛菩薩等，<caesura/>聲聞大眾皆供養，</l>
-<lb n="0656b28" ed="T"/><l>充給飢渴病湯藥，<caesura/>救度一切諸繫縛。</l>
-<lb n="0656b29" ed="T"/><l>我從本來捨身命，<caesura/>為利眾生無貪惜，</l>
+<lb n="0656b17" ed="T"/><lg xml:id="lgT20p0656b1701" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「兩足最勝大導師，<caesura/>恒修於慈發善心，</l>
+<lb n="0656b18" ed="T"/>
+  <l>能生忍辱如大地，<caesura/>解脫眾生除瞋恚。</l>
+<lb n="0656b19" ed="T"/>
+  <l><note 
+n="0656b1901" resp="CBETA" type="add">具【CB】，是【大】</note><app n="0656b1901">
+    <lem resp="CBETA.maha" wit="【CB】">具<note type="cf1">佛教大藏經第58冊p1005a20</note><note type="cf2">T13n0410_p0682a26</note></lem>
+    <rdg wit="【大】">是</rdg>
+  </app>足最大諸相好，<caesura/>而能嚴飾一切界，</l>
+<lb n="0656b20" ed="T"/>
+  <l>能滿一切諸福田，<caesura/>常修實語及大慈，</l>
+<lb n="0656b21" ed="T"/>
+  <l>能悉斷除諸受網，<caesura/>皆能如實善安住。</l>
+<lb n="0656b22" ed="T"/>
+  <l>捨餘清淨諸佛國，<caesura/>其中眾生具善根，</l>
+<lb n="0656b23" ed="T"/>
+  <l>本願欲度濁惡世，<caesura/>成就一切諸眾生。</l>
+<lb n="0656b24" ed="T"/>
+  <l>能生堅固懃精進，<caesura/>超過無量諸苦行，</l>
+<lb n="0656b25" ed="T"/>
+  <l>常修難行恐怖處，<caesura/>超過無量諸苦行。</l>
+<lb n="0656b26" ed="T"/>
+  <l>布施持戒忍精進，<caesura/>修習禪定與智慧，</l>
+<lb n="0656b27" ed="T"/>
+  <l>無數諸佛菩薩等，<caesura/>聲聞大眾皆供養，</l>
+<lb n="0656b28" ed="T"/>
+  <l>充給飢渴病湯藥，<caesura/>救度一切諸繫縛。</l>
+<lb n="0656b29" ed="T"/>
+  <l>我從本來捨身命，<caesura/>為利眾生無貪惜，</l>
 <pb n="0656c" ed="T" xml:id="T20.1159B.0656c"/>
-<lb n="0656c01" ed="T"/><l>常為法故而捨身，<caesura/>皮骨肉血施眾生，</l>
-<lb n="0656c02" ed="T"/><l><note n="0656c0201" resp="CBETA" type="add">己【CB】，已【大】</note><app n="0656c0201"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【大】">已</rdg></app>所得樂皆悉捨，<caesura/>有大慈悲為一切。</l>
-<lb n="0656c03" ed="T"/><l>於諸眾生煩惱網，<caesura/>修行寂滅悉超度，</l>
-<lb n="0656c04" ed="T"/><l>開閉一切六情根，<caesura/>常能遠離於諸欲，</l>
-<lb n="0656c05" ed="T"/><l>修苦無常空無我，<caesura/>亦善觀察於世諦。</l>
-<lb n="0656c06" ed="T"/><l>諸苦所因愛欲本，<caesura/>悉能乾竭諸煩惱，</l>
-<lb n="0656c07" ed="T"/><l>以是義故攝六情，<caesura/>能善斷除一切愛，</l>
-<lb n="0656c08" ed="T"/><l>能修無量大悲門，<caesura/>普給一切諸群生。</l>
-<lb n="0656c09" ed="T"/><l>我要不捨大誓願，<caesura/>而亦不住勝菩提，</l>
-<lb n="0656c10" ed="T"/><l>一切眾生如如相，<caesura/>亦見群盲受苦切，</l>
-<lb n="0656c11" ed="T"/><l>如是思惟為眾生，<caesura/>便能懃修大精進。</l>
-<lb n="0656c12" ed="T"/><l>發超精進施戒忍，<caesura/>修諸禪定及智惠，</l>
-<lb n="0656c13" ed="T"/><l>猶如其母唯一子，<caesura/>而以慈心育養之。</l>
-<lb n="0656c14" ed="T"/><l>汝於眾生亦如是，<caesura/>常能賑給於一切，</l>
-<lb n="0656c15" ed="T"/><l>是故汝速得菩提，<caesura/>度脫一切無量眾。</l>
-<lb n="0656c16" ed="T"/><l>汝本修習菩提時，<caesura/>誓願不捨一眾生，</l>
-<lb n="0656c17" ed="T"/><l>無不便住施戒忍，<caesura/>精進禪定修智惠。</l>
-<lb n="0656c18" ed="T"/><l>常能於彼末世中，<caesura/>求於無上勝菩提，</l>
-<lb n="0656c19" ed="T"/><l>是故救世於<note n="0656c1901" resp="CBETA" type="add">末【CB】，未【大】</note><app n="0656c1901"><lem resp="CBETA.maha" wit="【CB】">末<note type="cf1">T13n0410_p0682b26</note></lem><rdg wit="【大】">未</rdg></app>劫，<caesura/>速得無上最勝道。</l>
-<lb n="0656c20" ed="T"/><l>調伏惡魔夜叉等，<caesura/>諸惡龍神及與人，</l>
-<lb n="0656c21" ed="T"/><l>猶如金剛斷諸結，<caesura/>悉能安住諸聖道。</l>
-<lb n="0656c22" ed="T"/><l>為無量眾而授記，<caesura/>當成菩提無上道，</l>
-<lb n="0656c23" ed="T"/><l>功德最勝明智者，<caesura/>是真福田之大將。</l>
-<lb n="0656c24" ed="T"/><l>於無量界為救世，<caesura/>皆覆一切諸群生，</l>
-<lb n="0656c25" ed="T"/><l>於十方界作福田，<caesura/>名聲遠聞遍一切。</l>
-<lb n="0656c26" ed="T"/><l>是故一切諸菩薩，<caesura/>皆悉能捨於己事，</l>
-<lb n="0656c27" ed="T"/><l>是汝神足而來集，<caesura/>俱詣世尊大牟尼。</l>
-<lb n="0656c28" ed="T"/><l>願令如來特演說，<caesura/>若得聞者皆歡喜，</l>
+<lb n="0656c01" ed="T"/>
+  <l>常為法故而捨身，<caesura/>皮骨肉血施眾生，</l>
+<lb n="0656c02" ed="T"/>
+  <l><note 
+n="0656c0201" resp="CBETA" type="add">己【CB】，已【大】</note><app n="0656c0201">
+    <lem resp="CBETA.maha" wit="【CB】">己</lem>
+    <rdg wit="【大】">已</rdg>
+  </app>所得樂皆悉捨，<caesura/>有大慈悲為一切。</l>
+<lb n="0656c03" ed="T"/>
+  <l>於諸眾生煩惱網，<caesura/>修行寂滅悉超度，</l>
+<lb n="0656c04" ed="T"/>
+  <l>開閉一切六情根，<caesura/>常能遠離於諸欲，</l>
+<lb n="0656c05" ed="T"/>
+  <l>修苦無常空無我，<caesura/>亦善觀察於世諦。</l>
+<lb n="0656c06" ed="T"/>
+  <l>諸苦所因愛欲本，<caesura/>悉能乾竭諸煩惱，</l>
+<lb n="0656c07" ed="T"/>
+  <l>以是義故攝六情，<caesura/>能善斷除一切愛，</l>
+<lb n="0656c08" ed="T"/>
+  <l>能修無量大悲門，<caesura/>普給一切諸群生。</l>
+<lb n="0656c09" ed="T"/>
+  <l>我要不捨大誓願，<caesura/>而亦不住勝菩提，</l>
+<lb n="0656c10" ed="T"/>
+  <l>一切眾生如如相，<caesura/>亦見群盲受苦切，</l>
+<lb n="0656c11" ed="T"/>
+  <l>如是思惟為眾生，<caesura/>便能懃修大精進。</l>
+<lb n="0656c12" ed="T"/>
+  <l>發超精進施戒忍，<caesura/>修諸禪定及智惠，</l>
+<lb n="0656c13" ed="T"/>
+  <l>猶如其母唯一子，<caesura/>而以慈心育養之。</l>
+<lb n="0656c14" ed="T"/>
+  <l>汝於眾生亦如是，<caesura/>常能賑給於一切，</l>
+<lb n="0656c15" ed="T"/>
+  <l>是故汝速得菩提，<caesura/>度脫一切無量眾。</l>
+<lb n="0656c16" ed="T"/>
+  <l>汝本修習菩提時，<caesura/>誓願不捨一眾生，</l>
+<lb n="0656c17" ed="T"/>
+  <l>無不便住施戒忍，<caesura/>精進禪定修智惠。</l>
+<lb n="0656c18" ed="T"/>
+  <l>常能於彼末世中，<caesura/>求於無上勝菩提，</l>
+<lb n="0656c19" ed="T"/>
+  <l>是故救世於<note 
+n="0656c1901" resp="CBETA" type="add">末【CB】，未【大】</note><app n="0656c1901">
+    <lem resp="CBETA.maha" wit="【CB】">末<note type="cf1">T13n0410_p0682b26</note></lem>
+    <rdg wit="【大】">未</rdg>
+  </app>劫，<caesura/>速得無上最勝道。</l>
+<lb n="0656c20" ed="T"/>
+  <l>調伏惡魔夜叉等，<caesura/>諸惡龍神及與人，</l>
+<lb n="0656c21" ed="T"/>
+  <l>猶如金剛斷諸結，<caesura/>悉能安住諸聖道。</l>
+<lb n="0656c22" ed="T"/>
+  <l>為無量眾而授記，<caesura/>當成菩提無上道，</l>
+<lb n="0656c23" ed="T"/>
+  <l>功德最勝明智者，<caesura/>是真福田之大將。</l>
+<lb n="0656c24" ed="T"/>
+  <l>於無量界為救世，<caesura/>皆覆一切諸群生，</l>
+<lb n="0656c25" ed="T"/>
+  <l>於十方界作福田，<caesura/>名聲遠聞遍一切。</l>
+<lb n="0656c26" ed="T"/>
+  <l>是故一切諸菩薩，<caesura/>皆悉能捨於己事，</l>
+<lb n="0656c27" ed="T"/>
+  <l>是汝神足而來集，<caesura/>俱詣世尊大牟尼。</l>
+<lb n="0656c28" ed="T"/>
+  <l>願令如來特演說，<caesura/>若得聞者皆歡喜，</l>
 <pb n="0657a" ed="T" xml:id="T20.1159B.0657a"/>
-<lb n="0657a01" ed="T"/><l>既聞法已懃精進，<caesura/>常得修學菩提道，</l>
-<lb n="0657a02" ed="T"/><l>皆猶於海大將力，<caesura/>當得疾近於菩提，</l>
-<lb n="0657a03" ed="T"/><l>未曾聞見令大集，<caesura/>是故汝等俱來會。</l>
-<lb n="0657a04" ed="T"/><l>有十三億諸夜叉，<caesura/>其為殘害食肉血，</l>
-<lb n="0657a05" ed="T"/><l>疾捨諸惡到於此，<caesura/>安住最勝無上道。</l>
-<lb n="0657a06" ed="T"/><l>有得忍辱陀羅尼，<caesura/>有得最妙諸禪定；</l>
-<lb n="0657a07" ed="T"/><l>有已獲證諸漏盡，<caesura/>無著羅漢人中尊；</l>
-<lb n="0657a08" ed="T"/><l>有能善修四無量；<caesura/>有能住於四攝法；</l>
-<lb n="0657a09" ed="T"/><l>有得最勝四<note n="0657a0901" resp="CBETA" type="add">辯【CB】，辨【大】</note><app n="0657a0901"><lem resp="CBETA" wit="【CB】">辯</lem><rdg wit="【大】">辨</rdg></app>才；<caesura/>復有得修諸忍法；</l>
-<lb n="0657a10" ed="T"/><l>有得三昧首楞嚴；<caesura/>有得虛空智惠眼；</l>
-<lb n="0657a11" ed="T"/><l>有得無生諸法忍，<caesura/>皆因世尊所說法。</l>
-<lb n="0657a12" ed="T"/><l>悉制一切諸異學，<caesura/>九十六種外道等，</l>
-<lb n="0657a13" ed="T"/><l>摧伏一切魔怨已，<caesura/>皆是救世大將力。</l>
-<lb n="0657a14" ed="T"/><l>開閉地獄鬼畜生，<caesura/>利益一切天人眾，</l>
-<lb n="0657a15" ed="T"/><l>是故真實諸眾生，<caesura/>而皆來集佛神力。</l>
-<lb n="0657a16" ed="T"/><l>飢飾疾疫刀兵劫，<caesura/>悉於今日而消滅，</l>
-<lb n="0657a17" ed="T"/><l>若自盲冥失正道，<caesura/>此諸眾生令解脫。</l>
-<lb n="0657a18" ed="T"/><l>無量煩惱狂亂者，<caesura/>皆悉安置寂滅道，</l>
-<lb n="0657a19" ed="T"/><l>令眾悉能捨<note n="0657a1901" resp="CBETA" type="add">己【CB】，已【大】</note><app n="0657a1901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【大】">已</rdg></app>業，<caesura/>為禮如來故至此。</l>
-<lb n="0657a20" ed="T"/><l>無量世界億佛土，<caesura/>皆是救世之所住，</l>
-<lb n="0657a21" ed="T"/><l>名聞十方稱無量，<caesura/>我等聞已故至此。</l>
-<lb n="0657a22" ed="T"/><l>一切種智功德海，<caesura/>得聞如是真實相，</l>
-<lb n="0657a23" ed="T"/><l>度脫一切諸眾生，<caesura/>我令歡喜故敬禮，</l>
-<lb n="0657a24" ed="T"/><l>而於百千億萬劫，<caesura/>常懃修習種種施。</l>
-<lb n="0657a25" ed="T"/><l>我今當學發弘誓，<caesura/>我今來此佛神足，</l>
-<lb n="0657a26" ed="T"/><l>我當修學處濁世，<caesura/>能到第一勝菩提。」</l></lg>
-<lb n="0657a27" ed="T"/><p xml:id="pT20p0657a2701">爾時地藏菩薩摩訶薩以若<note n="0657a2701" resp="CBETA" type="add">干【CB】，于【大】</note><app n="0657a2701"><lem resp="CBETA.maha" wit="【CB】">干<note type="cf1">T13n0410_p0683a05</note></lem><rdg wit="【大】">于</rdg></app>種天華香華瓔
+<lb n="0657a01" ed="T"/>
+  <l>既聞法已懃精進，<caesura/>常得修學菩提道，</l>
+<lb n="0657a02" ed="T"/>
+  <l>皆猶於海大將力，<caesura/>當得疾近於菩提，</l>
+<lb n="0657a03" ed="T"/>
+  <l>未曾聞見令大集，<caesura/>是故汝等俱來會。</l>
+<lb n="0657a04" ed="T"/>
+  <l>有十三億諸夜叉，<caesura/>其為殘害食肉血，</l>
+<lb n="0657a05" ed="T"/>
+  <l>疾捨諸惡到於此，<caesura/>安住最勝無上道。</l>
+<lb n="0657a06" ed="T"/>
+  <l>有得忍辱陀羅尼，<caesura/>有得最妙諸禪定；</l>
+<lb n="0657a07" ed="T"/>
+  <l>有已獲證諸漏盡，<caesura/>無著羅漢人中尊；</l>
+<lb n="0657a08" ed="T"/>
+  <l>有能善修四無量；<caesura/>有能住於四攝法；</l>
+<lb n="0657a09" ed="T"/>
+  <l>有得最勝四<note 
+n="0657a0901" resp="CBETA" type="add">辯【CB】，辨【大】</note><app n="0657a0901">
+    <lem resp="CBETA" wit="【CB】">辯</lem>
+    <rdg wit="【大】">辨</rdg>
+  </app>才；<caesura/>復有得修諸忍法；</l>
+<lb n="0657a10" ed="T"/>
+  <l>有得三昧首楞嚴；<caesura/>有得虛空智惠眼；</l>
+<lb n="0657a11" ed="T"/>
+  <l>有得無生諸法忍，<caesura/>皆因世尊所說法。</l>
+<lb n="0657a12" ed="T"/>
+  <l>悉制一切諸異學，<caesura/>九十六種外道等，</l>
+<lb n="0657a13" ed="T"/>
+  <l>摧伏一切魔怨已，<caesura/>皆是救世大將力。</l>
+<lb n="0657a14" ed="T"/>
+  <l>開閉地獄鬼畜生，<caesura/>利益一切天人眾，</l>
+<lb n="0657a15" ed="T"/>
+  <l>是故真實諸眾生，<caesura/>而皆來集佛神力。</l>
+<lb n="0657a16" ed="T"/>
+  <l>飢飾疾疫刀兵劫，<caesura/>悉於今日而消滅，</l>
+<lb n="0657a17" ed="T"/>
+  <l>若自盲冥失正道，<caesura/>此諸眾生令解脫。</l>
+<lb n="0657a18" ed="T"/>
+  <l>無量煩惱狂亂者，<caesura/>皆悉安置寂滅道，</l>
+<lb n="0657a19" ed="T"/>
+  <l>令眾悉能捨<note 
+n="0657a1901" resp="CBETA" type="add">己【CB】，已【大】</note><app n="0657a1901">
+    <lem resp="CBETA.maha" wit="【CB】">己</lem>
+    <rdg wit="【大】">已</rdg>
+  </app>業，<caesura/>為禮如來故至此。</l>
+<lb n="0657a20" ed="T"/>
+  <l>無量世界億佛土，<caesura/>皆是救世之所住，</l>
+<lb n="0657a21" ed="T"/>
+  <l>名聞十方稱無量，<caesura/>我等聞已故至此。</l>
+<lb n="0657a22" ed="T"/>
+  <l>一切種智功德海，<caesura/>得聞如是真實相，</l>
+<lb n="0657a23" ed="T"/>
+  <l>度脫一切諸眾生，<caesura/>我令歡喜故敬禮，</l>
+<lb n="0657a24" ed="T"/>
+  <l>而於百千億萬劫，<caesura/>常懃修習種種施。</l>
+<lb n="0657a25" ed="T"/>
+  <l>我今當學發弘誓，<caesura/>我今來此佛神足，</l>
+<lb n="0657a26" ed="T"/>
+  <l>我當修學處濁世，<caesura/>能到第一勝菩提。」</l>
+</lg>
+<lb n="0657a27" ed="T"/><p xml:id="pT20p0657a2701">爾時地藏菩薩摩訶薩以若<note 
+n="0657a2701" resp="CBETA" type="add">干【CB】，于【大】</note><app n="0657a2701">
+  <lem resp="CBETA.maha" wit="【CB】">干<note type="cf1">T13n0410_p0683a05</note></lem>
+  <rdg wit="【大】">于</rdg>
+</app>種天華香華瓔
 <lb n="0657a28" ed="T"/>珞而散佛上，所散之華變成寶蓋。是時地藏
 <lb n="0657a29" ed="T"/>菩薩在佛前坐，諦聽受經。諸來會眾見地藏
 <pb n="0657b" ed="T" xml:id="T20.1159B.0657b"/>
@@ -264,7 +383,11 @@
 <lb n="0657b09" ed="T"/><p xml:id="pT20p0657b0901">爾時世尊告渴仰菩薩：「止止！大士！不須是
 <lb n="0657b10" ed="T"/>聞。一切大眾及諸天人，除佛如來無有能知
 <lb n="0657b11" ed="T"/>此善男子功德數量，如來今日必當顯說。
-<lb n="0657b12" ed="T"/>但諸天人愚闇自弊，是族<note n="0657b1201" resp="CBETA" type="add">姓【CB】，性【大】</note><app n="0657b1201"><lem resp="CBETA.maha" wit="【CB】">姓</lem><rdg wit="【大】">性</rdg></app>子成就不可思
+<lb n="0657b12" ed="T"/>但諸天人愚闇自弊，是族<note 
+n="0657b1201" resp="CBETA" type="add">姓【CB】，性【大】</note><app n="0657b1201">
+  <lem resp="CBETA.maha" wit="【CB】">姓</lem>
+  <rdg wit="【大】">性</rdg>
+</app>子成就不可思
 <lb n="0657b13" ed="T"/>議功德首楞嚴三昧，入如來行處得無生法
 <lb n="0657b14" ed="T"/>忍，於諸佛法而得自在，入深法忍已度一
 <lb n="0657b15" ed="T"/>切智海。此善男子遊戲，以師子光三昧登一
@@ -352,7 +475,11 @@
 <lb n="0658b06" ed="T"/>疑憍慢、眠睡等惡皆悉熾盛，能稱地藏菩薩
 <lb n="0658b07" ed="T"/>名號一心歸依者，如是眾苦皆令解脫，安
 <lb n="0658b08" ed="T"/>住涅槃得第一樂。若有眾生為大水濁流猛
-<lb n="0658b09" ed="T"/>火所<note n="0658b0901" resp="CBETA" type="add">［－］【CB】，所【大】</note><app n="0658b0901"><lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/><note type="cf1">T13n0410_p0684b05</note></lem><rdg wit="【大】">所</rdg></app>焚，或隧高巖投身山嶮，或墮樹木及
+<lb n="0658b09" ed="T"/>火所<note 
+n="0658b0901" resp="CBETA" type="add">［－］【CB】，所【大】</note><app n="0658b0901">
+  <lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/><note type="cf1">T13n0410_p0684b05</note></lem>
+  <rdg wit="【大】">所</rdg>
+</app>焚，或隧高巖投身山嶮，或墮樹木及
 <lb n="0658b10" ed="T"/>諸屋舍而身巔覆，有如是等無量怖畏，稱地
 <lb n="0658b11" ed="T"/>藏菩薩名號一心歸依者，有如是等怖畏之
 <lb n="0658b12" ed="T"/>事悉令解脫，安住涅槃得第一樂。若有眾生
@@ -420,14 +547,22 @@
 <lb n="0659a14" ed="T"/>瓔珞、金縷幡蓋以散地藏菩薩上、復以無量
 <lb n="0659a15" ed="T"/>音樂種種讚頌供養地藏菩薩。爾時地藏菩
 <lb n="0659a16" ed="T"/>薩摩訶薩復以此供施修伽陀，即說偈言：</p>
-<lb n="0659a17" ed="T"/><lg xml:id="lgT20p0659a1701" type="regular" style="margin-left:1em;text-indent:-1em"><l>「天人龍神所供養，<caesura/>十方菩薩皆來集，</l>
-<lb n="0659a18" ed="T"/><l>聞有救世大功德，<caesura/>願佛受我最勝供。」</l></lg>
+<lb n="0659a17" ed="T"/><lg xml:id="lgT20p0659a1701" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「天人龍神所供養，<caesura/>十方菩薩皆來集，</l>
+<lb n="0659a18" ed="T"/>
+  <l>聞有救世大功德，<caesura/>願佛受我最勝供。」</l>
+</lg>
 <lb n="0659a19" ed="T"/><p xml:id="pT20p0659a1901">爾時地藏菩薩摩訶薩說是偈已，頂禮佛足。
 <lb n="0659a20" ed="T"/>於是世尊復說偈言：</p>
-<lb n="0659a21" ed="T"/><lg xml:id="lgT20p0659a2101" type="regular" style="margin-left:1em;text-indent:-1em"><l>「欲起堅固淨智者，<caesura/>能滅眾生諸煩惱，</l>
-<lb n="0659a22" ed="T"/><l>令眾得樂如寶手，<caesura/>能斷結納如金剛。</l>
-<lb n="0659a23" ed="T"/><l>汝起大悲諸精進，<caesura/>以是供養最勝尊，</l>
-<lb n="0659a24" ed="T"/><l>其心如海救一切，<caesura/>度諸眾生苦彼岸。」</l></lg>
+<lb n="0659a21" ed="T"/><lg xml:id="lgT20p0659a2101" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「欲起堅固淨智者，<caesura/>能滅眾生諸煩惱，</l>
+<lb n="0659a22" ed="T"/>
+  <l>令眾得樂如寶手，<caesura/>能斷結納如金剛。</l>
+<lb n="0659a23" ed="T"/>
+  <l>汝起大悲諸精進，<caesura/>以是供養最勝尊，</l>
+<lb n="0659a24" ed="T"/>
+  <l>其心如海救一切，<caesura/>度諸眾生苦彼岸。」</l>
+</lg>
 <lb n="0659a25" ed="T"/><p xml:id="pT20p0659a2501">爾時地藏菩薩摩訶薩作禮而起，白佛言：「世
 <lb n="0659a26" ed="T"/>尊！我當濟度此四天下，增長比丘、比丘尼、優
 <lb n="0659a27" ed="T"/>婆塞、優波夷，增長壽命、護念增長壽命，身
@@ -485,7 +620,11 @@
 <lb n="0659c20" ed="T"/>佛法能令流布，廣大無量三界受樂。」</p>
 <lb n="0659c21" ed="T"/><p xml:id="pT20p0659c2101">爾時地藏菩薩廣說如是大記莂經。時佉羅
 <lb n="0659c22" ed="T"/>提耶山六種震動，一切音聲樂不鼓自鳴、雨
-<lb n="0659c23" ed="T"/>眾寶華，一切大眾皆悉戰<note n="0659c2301" resp="CBETA" type="add" note_key="T20.0659c23.11">慄【CB】，慓【大】</note><app n="0659c2301"><lem wit="【CB】" resp="CBETA.ting">慄<note type="cf1">T13n0410_p0686a11</note></lem><rdg wit="【大】">慓</rdg></app>生希有想。</p>
+<lb n="0659c23" ed="T"/>眾寶華，一切大眾皆悉戰<note 
+n="0659c2301" resp="CBETA" type="add" note_key="T20.0659c23.11">慄【CB】，慓【大】</note><app n="0659c2301">
+  <lem wit="【CB】" resp="CBETA.ting">慄<note type="cf1">T13n0410_p0686a11</note></lem>
+  <rdg wit="【大】">慓</rdg>
+</app>生希有想。</p>
 <lb n="0659c24" ed="T"/><p xml:id="pT20p0659c2401">爾時阿難從座而起，偏袒右肩叉手合掌而
 <lb n="0659c25" ed="T"/>白佛言：「世尊！此法之惡當名何經？云何受持？
 <lb n="0659c26" ed="T"/>云何修行？」佛告阿難：「此經名為地藏菩薩誓
@@ -494,7 +633,11 @@
 <pb n="0660a" ed="T" xml:id="T20.1159B.0660a"/>
 <lb n="0660a01" ed="T"/>三昧，如是受持。亦名陀羅尼神呪，如是受持。
 <lb n="0660a02" ed="T"/>修行法用，汝今復聽。」佛告阿難：「若有眾生臨
-<lb n="0660a03" ed="T"/>當<note n="0660a0301" resp="CBETA" type="add" note_key="T20.0660a03.02">刑【CB】，形【大】</note><app n="0660a0301"><lem wit="【CB】" resp="CBETA.ting">刑</lem><rdg wit="【大】">形</rdg></app>戮、杻械枷鎖、疾病困苦、鬼魅所著者，一
+<lb n="0660a03" ed="T"/>當<note 
+n="0660a0301" resp="CBETA" type="add" note_key="T20.0660a03.02">刑【CB】，形【大】</note><app n="0660a0301">
+  <lem wit="【CB】" resp="CBETA.ting">刑</lem>
+  <rdg wit="【大】">形</rdg>
+</app>戮、杻械枷鎖、疾病困苦、鬼魅所著者，一
 <lb n="0660a04" ed="T"/>心敬禮地藏菩薩稱名，至心誦持此呪，懺悔
 <lb n="0660a05" ed="T"/>根本重罪，發菩提心，從今始以盡未來際，不
 <lb n="0660a06" ed="T"/>殺、不盜、不淫、不妄語、不飲酒、不食肉、不食五

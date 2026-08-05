@@ -2,84 +2,98 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1395">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">拔濟苦難陀羅尼經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1395 拔濟苦難陀羅尼經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1395 拔濟苦難陀羅尼經</title>
-			<author>唐 玄奘譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1395</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:52">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">拔濟苦難陀羅尼經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1395 拔濟苦難陀羅尼經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1395 拔濟苦難陀羅尼經</title>
+      <author>唐 玄奘譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1395</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:52">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0912b10" ed="T"/>
 <lb n="0912b11" ed="T"/>
-<lb n="0912b12" ed="T"/><cb:docNumber>No. 1395</cb:docNumber><cb:div type="jing">
-<lb n="0912b13" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0912012" resp="Taisho" type="orig" place="foot text">【原】麗本</note>拔濟苦難陀羅尼<note n="0912013" resp="Taisho" type="orig" place="foot text">經＋（一名勝福往生淨土經）九字【三】，但宋本一作二</note><note n="0912013" resp="CBETA" type="mod">經【大】，經一名勝福往生淨土經【元】【明】，經二名勝福往生淨土經【宋】</note><app n="0912013"><lem wit="【大】">經</lem><rdg resp="Taisho" wit="【元】【明】">經一名勝福往生淨土經</rdg><rdg resp="Taisho" wit="【宋】">經二名勝福往生淨土經</rdg></app></cb:jhead></cb:juan>
+<lb n="0912b12" ed="T"/><cb:docNumber>No. 1395</cb:docNumber>
+<cb:div type="jing">
+<lb n="0912b13" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0912012" resp="Taisho" type="orig" place="foot text">【原】麗本</note>拔濟苦難陀羅尼<note 
+n="0912013" resp="Taisho" type="orig" place="foot text">經＋（一名勝福往生淨土經）九字【三】，但宋本一作二</note><note 
+n="0912013" resp="CBETA" type="mod">經【大】，經一名勝福往生淨土經【元】【明】，經二名勝福往生淨土經【宋】</note><app n="0912013">
+  <lem wit="【大】">經</lem>
+  <rdg resp="Taisho" wit="【元】【明】">經一名勝福往生淨土經</rdg>
+  <rdg resp="Taisho" wit="【宋】">經二名勝福往生淨土經</rdg>
+</app></cb:jhead></cb:juan>
 <lb n="0912b14" ed="T"/>
-<lb n="0912b15" ed="T"/><byline cb:type="Translator"><note n="0912014" resp="Taisho" type="orig" place="foot text">〔大〕－【宋】【明】</note><note n="0912014" resp="CBETA" type="mod">大【大】，〔－〕【宋】【明】</note><app n="0912014"><lem wit="【大】">大</lem><rdg resp="Taisho" wit="【宋】【明】"><space quantity="0"/></rdg></app>唐三藏法師玄奘奉　詔譯</byline>
-<lb n="0912b16" ed="T"/><p xml:id="pT21p0912b1601">如是我聞：</p><p xml:id="pT21p0912b1605" cb:place="inline">一時薄伽梵在室羅筏，住誓多林
+<lb n="0912b15" ed="T"/><byline cb:type="Translator"><note 
+n="0912014" resp="Taisho" type="orig" place="foot text">〔大〕－【宋】【明】</note><note 
+n="0912014" resp="CBETA" type="mod">大【大】，〔－〕【宋】【明】</note><app n="0912014">
+  <lem wit="【大】">大</lem>
+  <rdg resp="Taisho" wit="【宋】【明】"><space quantity="0"/></rdg>
+</app>唐三藏法師玄奘奉　詔譯</byline>
+<lb n="0912b16" ed="T"/><p xml:id="pT21p0912b1601">如是我聞：</p>
+<p xml:id="pT21p0912b1605" cb:place="inline">一時薄伽梵在室羅筏，住誓多林
 <lb n="0912b17" ed="T"/>給孤獨園，與無央數聲聞菩薩摩訶薩俱，及
 <lb n="0912b18" ed="T"/>諸天、人、阿素洛等，無量大眾前後圍繞。</p>
 <lb n="0912b19" ed="T"/><p xml:id="pT21p0912b1901">爾時眾中有一菩薩名不可說功德莊嚴，從
@@ -94,16 +108,39 @@
 <lb n="0912b28" ed="T"/>誦念。陀羅尼曰：</p>
 <lb n="0912b29" ed="T"/><p xml:id="pT21p0912b2901" cb:type="dharani">「羯羯尼羯羯尼　魯折尼魯折尼　咄盧磔尼
 <pb n="0912c" ed="T" xml:id="T21.1395.0912c"/>
-<lb n="0912c01" ed="T"/>咄盧磔尼　怛邏薩尼怛羅薩尼　般<note n="0912c0101" resp="CBETA" type="add" note_key="T21.0912c01.14">剌【CB】【麗-CB】，刺【大】</note><app n="0912c0101"><lem resp="CBETA.liyi" wit="【CB】【麗-CB】">剌<note type="cf1">K13n0446_p1163a21</note></lem><rdg wit="【大】">刺</rdg></app>底喝
-<lb n="0912c02" ed="T"/>那般<note n="0912c0201" resp="CBETA" type="add" note_key="T21.0912c02.03">剌【CB】【麗-CB】，刺【大】</note><app n="0912c0201"><lem resp="CBETA.liyi" wit="【CB】【麗-CB】">剌<note type="cf1">K13n0446_p1163a21</note></lem><rdg wit="【大】">刺</rdg></app>底喝那　薩縛羯莫般藍般邏<note n="0912015" resp="Taisho" type="orig" place="foot text">般＝尼【三】</note><note n="0912015" resp="CBETA" type="mod">般【大】，尼【宋】【元】【明】</note><app n="0912015"><lem wit="【大】">般</lem><rdg resp="Taisho" wit="【宋】【元】【明】">尼</rdg></app>謎
+<lb n="0912c01" ed="T"/>咄盧磔尼　怛邏薩尼怛羅薩尼　般<note 
+n="0912c0101" resp="CBETA" type="add" note_key="T21.0912c01.14">剌【CB】【麗-CB】，刺【大】</note><app n="0912c0101">
+  <lem resp="CBETA.liyi" wit="【CB】【麗-CB】">剌<note type="cf1">K13n0446_p1163a21</note></lem>
+  <rdg wit="【大】">刺</rdg>
+</app>底喝
+<lb n="0912c02" ed="T"/>那般<note 
+n="0912c0201" resp="CBETA" type="add" note_key="T21.0912c02.03">剌【CB】【麗-CB】，刺【大】</note><app n="0912c0201">
+  <lem resp="CBETA.liyi" wit="【CB】【麗-CB】">剌<note type="cf1">K13n0446_p1163a21</note></lem>
+  <rdg wit="【大】">刺</rdg>
+</app>底喝那　薩縛羯莫般藍般邏<note 
+n="0912015" resp="Taisho" type="orig" place="foot text">般＝尼【三】</note><note 
+n="0912015" resp="CBETA" type="mod">般【大】，尼【宋】【元】【明】</note><app n="0912015">
+  <lem wit="【大】">般</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">尼</rdg>
+</app>謎
 <lb n="0912c03" ed="T"/>　莎訶」</p>
 <lb n="0912c04" ed="T"/><p xml:id="pT21p0912c0401">「若有善男子善女人，至誠敬禮不動如來應
 <lb n="0912c05" ed="T"/>正等覺，受持此呪，先所造作五無間業、四重
 <lb n="0912c06" ed="T"/>十惡、毀諸聖賢、謗正法罪皆悉除滅，臨命終
-<lb n="0912c07" ed="T"/>時彼不動佛與諸菩薩來現其前，<note n="0912016" resp="Taisho" type="orig" place="foot text">讚歎＝稱讚【三】</note><note n="0912016" resp="CBETA" type="mod">讚歎【大】，稱讚【宋】【元】【明】</note><app n="0912016"><lem wit="【大】">讚歎</lem><rdg resp="Taisho" wit="【宋】【元】【明】">稱讚</rdg></app>慰喻
+<lb n="0912c07" ed="T"/>時彼不動佛與諸菩薩來現其前，<note 
+n="0912016" resp="Taisho" type="orig" place="foot text">讚歎＝稱讚【三】</note><note 
+n="0912016" resp="CBETA" type="mod">讚歎【大】，稱讚【宋】【元】【明】</note><app n="0912016">
+  <lem wit="【大】">讚歎</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">稱讚</rdg>
+</app>慰喻
 <lb n="0912c08" ed="T"/>令其歡喜，復告之言：『今來迎汝，應隨我往所
 <lb n="0912c09" ed="T"/>從佛國。』彼命終已，決定往生不動如來清淨
-<lb n="0912c10" ed="T"/>佛土。善男子！復有世尊，名滅惡趣<note n="0912017" resp="Taisho" type="orig" place="foot text">王＋（一名大自在勝經）七字【三】</note><note n="0912017" resp="CBETA" type="mod">王【大】，王一名大自在勝經【宋】【元】【明】</note><app n="0912017"><lem wit="【大】">王</lem><rdg resp="Taisho" wit="【宋】【元】【明】">王一名大自在勝經</rdg></app>如來
+<lb n="0912c10" ed="T"/>佛土。善男子！復有世尊，名滅惡趣<note 
+n="0912017" resp="Taisho" type="orig" place="foot text">王＋（一名大自在勝經）七字【三】</note><note 
+n="0912017" resp="CBETA" type="mod">王【大】，王一名大自在勝經【宋】【元】【明】</note><app n="0912017">
+  <lem wit="【大】">王</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">王一名大自在勝經</rdg>
+</app>如來
 <lb n="0912c11" ed="T"/>應正等覺，為欲利樂諸有情故，說陀羅尼令
 <lb n="0912c12" ed="T"/>眾誦念。陀羅尼曰：</p>
 <lb n="0912c13" ed="T"/><p xml:id="pT21p0912c1301" cb:type="dharani">「輸達泥輸達泥　薩縛播波毘輸達泥　戍睇
@@ -112,7 +149,12 @@
 <lb n="0912c16" ed="T"/>來應正等覺，受持此呪，萬四千劫常憶宿命，
 <lb n="0912c17" ed="T"/>所在生處得丈夫身，具足諸根深信因果，善
 <lb n="0912c18" ed="T"/>諸技術、妙解諸論，好行惠施厭捨諸欲，不造
-<lb n="0912c19" ed="T"/>惡業、離諸危怖，具正<note n="0912018" resp="Taisho" type="orig" place="foot text">命＝念【三】</note><note n="0912018" resp="CBETA" type="mod">命【大】，念【宋】【元】【明】</note><app n="0912018"><lem wit="【大】">命</lem><rdg resp="Taisho" wit="【宋】【元】【明】">念</rdg></app>慧眾所愛重，常近善
+<lb n="0912c19" ed="T"/>惡業、離諸危怖，具正<note 
+n="0912018" resp="Taisho" type="orig" place="foot text">命＝念【三】</note><note 
+n="0912018" resp="CBETA" type="mod">命【大】，念【宋】【元】【明】</note><app n="0912018">
+  <lem wit="【大】">命</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">念</rdg>
+</app>慧眾所愛重，常近善
 <lb n="0912c20" ed="T"/>友恒聞正法，求菩提心曾無暫捨，以諸功德
 <lb n="0912c21" ed="T"/>而自莊嚴，具善律儀怖諸惡業，恒無匱乏調
 <lb n="0912c22" ed="T"/>柔樂靜，於天人中常受快樂，速證無上正等

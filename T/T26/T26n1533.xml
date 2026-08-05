@@ -2,97 +2,131 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T26n1533">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">轉法輪經憂波提舍</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1533 轉法輪經憂波提舍</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1533 轉法輪經憂波提舍</title>
-			<author>天親菩薩造　元魏 毘目智仙譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">26</idno>.<idno type="no">1533</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="1999-06-28T20:21:07">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (99/6/28)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">轉法輪經憂波提舍</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1533 轉法輪經憂波提舍</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1533 轉法輪經憂波提舍</title>
+      <author>天親菩薩造　元魏 毘目智仙譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">26</idno>.<idno type="no">1533</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="1999-06-28T20:21:07">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (99/6/28)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb n="0355c" ed="T" xml:id="T26.1533.0355c"/>
 <lb n="0355c01" ed="T"/>
 <lb n="0355c02" ed="T"/><cb:docNumber>No. 1533</cb:docNumber>
-<lb n="0355c03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">憂波提舍翻譯之記</cb:mulu><head><title>轉法輪經</title><note resp="Taisho" n="0355024" place="foot text" type="orig">憂＝優【三】</note><note resp="CBETA" n="0355024" type="mod">憂【大】＊，優【宋】＊【元】＊【明】＊</note><app n="0355024"><lem wit="【大】">憂</lem><rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg></app>波提舍翻譯之記</head>
+<lb n="0355c03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">憂波提舍翻譯之記</cb:mulu><head><title>轉法輪經</title><note 
+resp="Taisho" n="0355024" place="foot text" type="orig">憂＝優【三】</note><note 
+resp="CBETA" n="0355024" type="mod">憂【大】＊，優【宋】＊【元】＊【明】＊</note><app n="0355024">
+  <lem wit="【大】">憂</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg>
+</app>波提舍翻譯之記</head>
 <lb n="0355c04" ed="T"/>
-<lb n="0355c05" ed="T"/><p xml:id="pT26p0355c0501">轉法輪經，如來初說；<app corresp="#0355024" type="star"><lem wit="【大】">憂</lem><rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg></app>波提舍，義門之名，
+<lb n="0355c05" ed="T"/><p xml:id="pT26p0355c0501">轉法輪經，如來初說；<app corresp="#0355024" type="star">
+  <lem wit="【大】">憂</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg>
+</app>波提舍，義門之名，
 <lb n="0355c06" ed="T"/>天親菩薩之所開示。佛說為誰？憍陳如等。義
 <lb n="0355c07" ed="T"/>行此方，必主其人。魏驃騎大將軍開府儀同
 <lb n="0355c08" ed="T"/>三司御史中尉勃海高仲密，善求義方，選真
-<lb n="0355c09" ed="T"/><note resp="Taisho" n="0355025" place="foot text" type="orig">簡＝揀【三】</note><note resp="CBETA" n="0355025" type="mod">簡【大】，揀【宋】【元】【明】</note><app n="0355025"><lem wit="【大】">簡</lem><rdg resp="Taisho" wit="【宋】【元】【明】">揀</rdg></app>偽，故請法師毘目智仙并其弟子瞿曇
-<lb n="0355c10" ed="T"/>流支，於鄴城內在金華寺，出此義門<app corresp="#0355024" type="star"><lem wit="【大】">憂</lem><rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg></app>波提
+<lb n="0355c09" ed="T"/><note 
+resp="Taisho" n="0355025" place="foot text" type="orig">簡＝揀【三】</note><note 
+resp="CBETA" n="0355025" type="mod">簡【大】，揀【宋】【元】【明】</note><app n="0355025">
+  <lem wit="【大】">簡</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">揀</rdg>
+</app>偽，故請法師毘目智仙并其弟子瞿曇
+<lb n="0355c10" ed="T"/>流支，於鄴城內在金華寺，出此義門<app corresp="#0355024" type="star">
+  <lem wit="【大】">憂</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg>
+</app>波提
 <lb n="0355c11" ed="T"/>舍。興和三年歲次大梁建酉之月朔次庚子
 <lb n="0355c12" ed="T"/>十一日譯，三千九百四十二言。沙門曇林對
 <lb n="0355c13" ed="T"/>譯錄記。</p></cb:div>
 <lb n="0355c14" ed="T"/><cb:div type="other">
 <lb n="0355c15" ed="T"/>
-<lb n="0355c16" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead>轉法輪經<app corresp="#0355024" type="star"><lem wit="【大】">憂</lem><rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg></app>波提舍<note resp="Taisho" n="0355026" place="foot text" type="orig">〔有釋…本〕六字－【三】</note><note resp="CBETA" n="0355026" type="mod">（有釋…本）六字【大】，〔－〕【宋】【元】【明】</note><app n="0355026" cb:word-count="6"><lem wit="【大】"><note place="inline">有釋論無經本</note></lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app></cb:jhead></cb:juan>
+<lb n="0355c16" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead>轉法輪經<app corresp="#0355024" type="star">
+  <lem wit="【大】">憂</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">優</rdg>
+</app>波提舍<note 
+resp="Taisho" n="0355026" place="foot text" type="orig">〔有釋…本〕六字－【三】</note><note 
+resp="CBETA" n="0355026" type="mod">（有釋…本）六字【大】，〔－〕【宋】【元】【明】</note><app n="0355026" cb:word-count="6">
+  <lem wit="【大】"><note place="inline">有釋論無經本</note></lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
+</app></cb:jhead></cb:juan>
 <lb n="0355c17" ed="T"/>
 <lb n="0355c18" ed="T"/><byline cb:type="author">天親菩薩造</byline>
-<lb n="0355c19" ed="T"/><byline cb:type="Translator">元魏天竺<note resp="Taisho" n="0355027" place="foot text" type="orig">三藏＋（法師）【三】</note><note resp="CBETA" n="0355027" type="mod">三藏【大】，三藏法師【宋】【元】【明】</note><app n="0355027"><lem wit="【大】">三藏</lem><rdg resp="Taisho" wit="【宋】【元】【明】">三藏法師</rdg></app>毘目智<note resp="Taisho" n="0355028" place="foot text" type="orig">仙＋（等）【三】</note><note resp="CBETA" n="0355028" type="mod">仙【大】，仙等【宋】【元】【明】</note><app n="0355028"><lem wit="【大】">仙</lem><rdg resp="Taisho" wit="【宋】【元】【明】">仙等</rdg></app>譯</byline>
+<lb n="0355c19" ed="T"/><byline cb:type="Translator">元魏天竺<note 
+resp="Taisho" n="0355027" place="foot text" type="orig">三藏＋（法師）【三】</note><note 
+resp="CBETA" n="0355027" type="mod">三藏【大】，三藏法師【宋】【元】【明】</note><app n="0355027">
+  <lem wit="【大】">三藏</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">三藏法師</rdg>
+</app>毘目智<note 
+resp="Taisho" n="0355028" place="foot text" type="orig">仙＋（等）【三】</note><note 
+resp="CBETA" n="0355028" type="mod">仙【大】，仙等【宋】【元】【明】</note><app n="0355028">
+  <lem wit="【大】">仙</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">仙等</rdg>
+</app>譯</byline>
 <lb n="0355c20" ed="T"/><p xml:id="pT26p0355c2001">如是我聞：一時婆伽婆住王舍城耆闍崛山
 <lb n="0355c21" ed="T"/>中，與大比丘僧大菩薩眾俱。爾時世尊告智
 <lb n="0355c22" ed="T"/>員大海樂說辯才菩薩言：智員大海樂說辯
@@ -108,9 +142,29 @@
 <lb n="0356a02" ed="T"/>此修多羅。如來弟子聲聞之人、聲聞弟子、諸
 <lb n="0356a03" ed="T"/>仙人等之所讚歎。此因緣故，我今解釋。云何
 <lb n="0356a04" ed="T"/>解釋？無量功德大牟尼王，何故轉此不可思
-<lb n="0356a05" ed="T"/>議、不可稱量、第一寂靜善無垢輪？<note resp="Taisho" n="0356001" place="foot text" type="orig">一＝二【三】</note><note resp="CBETA" n="0356001" type="mod">一【大】，二【宋】【元】【明】</note><app n="0356001"><lem wit="【大】">一</lem><rdg resp="Taisho" wit="【宋】【元】【明】">二</rdg></app>、以何義
-<lb n="0356a06" ed="T"/><note resp="Taisho" n="0356002" place="foot text" type="orig">故名＝名此【三】</note><note resp="CBETA" n="0356002" type="mod">故名【大】，名此【宋】【元】【明】</note><app n="0356002"><lem wit="【大】">故名</lem><rdg resp="Taisho" wit="【宋】【元】【明】">名此</rdg></app>勝修多羅？<note resp="Taisho" n="0356003" place="foot text" type="orig">二＝三【三】</note><note resp="CBETA" n="0356003" type="mod">二【大】，三【宋】【元】【明】</note><app n="0356003"><lem wit="【大】">二</lem><rdg resp="Taisho" wit="【宋】【元】【明】">三</rdg></app>、以何義故名為世尊？<note resp="Taisho" n="0356004" place="foot text" type="orig">〔本元…法〕六字－【三】</note><note resp="CBETA" n="0356004" type="mod">（本元…法）六字【大】，〔－〕【宋】【元】【明】</note><app n="0356004" cb:word-count="6"><lem wit="【大】"><note place="inline">本元
-<lb n="0356a07" ed="T"/>少第三法</note></lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app>四、如來何故在王舍城耆闍崛山，二種
+<lb n="0356a05" ed="T"/>議、不可稱量、第一寂靜善無垢輪？<note 
+resp="Taisho" n="0356001" place="foot text" type="orig">一＝二【三】</note><note 
+resp="CBETA" n="0356001" type="mod">一【大】，二【宋】【元】【明】</note><app n="0356001">
+  <lem wit="【大】">一</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">二</rdg>
+</app>、以何義
+<lb n="0356a06" ed="T"/><note 
+resp="Taisho" n="0356002" place="foot text" type="orig">故名＝名此【三】</note><note 
+resp="CBETA" n="0356002" type="mod">故名【大】，名此【宋】【元】【明】</note><app n="0356002">
+  <lem wit="【大】">故名</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">名此</rdg>
+</app>勝修多羅？<note 
+resp="Taisho" n="0356003" place="foot text" type="orig">二＝三【三】</note><note 
+resp="CBETA" n="0356003" type="mod">二【大】，三【宋】【元】【明】</note><app n="0356003">
+  <lem wit="【大】">二</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">三</rdg>
+</app>、以何義故名為世尊？<note 
+resp="Taisho" n="0356004" place="foot text" type="orig">〔本元…法〕六字－【三】</note><note 
+resp="CBETA" n="0356004" type="mod">（本元…法）六字【大】，〔－〕【宋】【元】【明】</note><app n="0356004" cb:word-count="6">
+  <lem wit="【大】"><note place="inline">本元
+<lb n="0356a07" ed="T"/>少第三法</note></lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
+</app>四、如來何故在王舍城耆闍崛山，二種
 <lb n="0356a08" ed="T"/>住持轉此法輪不在餘處？五、以何義故名為
 <lb n="0356a09" ed="T"/>如來？六、以何義故名為法輪？七、又復世尊幾
 <lb n="0356a10" ed="T"/>轉幾行而轉法輪？八、又復世尊此中說轉，何
@@ -125,7 +179,12 @@
 <lb n="0356a19" ed="T"/>得，然則世尊何所住持而轉法輪？此須解釋。
 <lb n="0356a20" ed="T"/>十、又復世尊以何義故，捨彼寬博種種勝妙
 <lb n="0356a21" ed="T"/>華樹莊嚴、無量勝人多眾集處，於波羅奈少
-<lb n="0356a22" ed="T"/>人眾處、在波吒離樹影<note resp="Taisho" n="0356005" place="foot text" type="orig">蔭＝廕【三】</note><note resp="CBETA" n="0356005" type="mod">蔭【大】，廕【宋】【元】【明】</note><app n="0356005"><lem wit="【大】">蔭</lem><rdg resp="Taisho" wit="【宋】【元】【明】">廕</rdg></app>下鹿苑之中而轉
+<lb n="0356a22" ed="T"/>人眾處、在波吒離樹影<note 
+resp="Taisho" n="0356005" place="foot text" type="orig">蔭＝廕【三】</note><note 
+resp="CBETA" n="0356005" type="mod">蔭【大】，廕【宋】【元】【明】</note><app n="0356005">
+  <lem wit="【大】">蔭</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">廕</rdg>
+</app>下鹿苑之中而轉
 <lb n="0356a23" ed="T"/>法輪？此之因緣亦須解釋。十一、又復世尊何
 <lb n="0356a24" ed="T"/>處初坐而轉法輪？十二、又復世尊轉法輪時，
 <lb n="0356a25" ed="T"/>幾許眾生捨惡行善？十三、以要言之，示現云
@@ -134,71 +193,131 @@
 <lb n="0356a28" ed="T"/>無垢廣博、不可稱量、不可思議、不可破壞、甚
 <lb n="0356a29" ed="T"/>深不動正覺世尊已說此經，又復今說勝無
 <pb n="0356b" ed="T" xml:id="T26.1533.0356b"/>
-<lb n="0356b01" ed="T"/>垢廣博、不可稱<note resp="Taisho" n="0356006" place="foot text" type="orig">譽＝舉【三】</note><note resp="CBETA" n="0356006" type="mod">譽【大】，舉【宋】【元】【明】</note><app n="0356006"><lem wit="【大】">譽</lem><rdg resp="Taisho" wit="【宋】【元】【明】">舉</rdg></app>？三界眾生所讚世尊，何故
+<lb n="0356b01" ed="T"/>垢廣博、不可稱<note 
+resp="Taisho" n="0356006" place="foot text" type="orig">譽＝舉【三】</note><note 
+resp="CBETA" n="0356006" type="mod">譽【大】，舉【宋】【元】【明】</note><app n="0356006">
+  <lem wit="【大】">譽</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">舉</rdg>
+</app>？三界眾生所讚世尊，何故
 <lb n="0356b02" ed="T"/>說此不可稱量離一切過勝修多羅？此義今
-<lb n="0356b03" ed="T"/>釋。世尊恐彼會中有天、阿修羅、人、龍及夜<note resp="Taisho" n="0356007" place="foot text" type="orig">叉＝又【元】【明】</note><note resp="CBETA" n="0356007" type="mod">叉【大】，又【元】【明】</note><app n="0356007"><lem wit="【大】">叉</lem><rdg resp="Taisho" wit="【元】【明】">又</rdg></app>、
-<lb n="0356b04" ed="T"/>鳩槃<note resp="Taisho" n="0356008" place="foot text" type="orig">茶＝荼【宋】【元】</note><note resp="CBETA" n="0356008" type="mod">茶【大】，荼【宋】【元】</note><app n="0356008"><lem wit="【大】">茶</lem><rdg resp="Taisho" wit="【宋】【元】">荼</rdg></app>等，聞轉法輪心生疑惑，不知世尊
+<lb n="0356b03" ed="T"/>釋。世尊恐彼會中有天、阿修羅、人、龍及夜<note 
+resp="Taisho" n="0356007" place="foot text" type="orig">叉＝又【元】【明】</note><note 
+resp="CBETA" n="0356007" type="mod">叉【大】，又【元】【明】</note><app n="0356007">
+  <lem wit="【大】">叉</lem>
+  <rdg resp="Taisho" wit="【元】【明】">又</rdg>
+</app>、
+<lb n="0356b04" ed="T"/>鳩槃<note 
+resp="Taisho" n="0356008" place="foot text" type="orig">茶＝荼【宋】【元】</note><note 
+resp="CBETA" n="0356008" type="mod">茶【大】，荼【宋】【元】</note><app n="0356008">
+  <lem wit="【大】">茶</lem>
+  <rdg resp="Taisho" wit="【宋】【元】">荼</rdg>
+</app>等，聞轉法輪心生疑惑，不知世尊
 <lb n="0356b05" ed="T"/>幾種住持而轉法輪。世尊觀察眾生疑心，為
 <lb n="0356b06" ed="T"/>斷彼疑，是故為說二種住持而轉法輪。此義
 <lb n="0356b07" ed="T"/>云何？偈言：</p>
-<lb n="0356b08" ed="T"/><lg type="regular" xml:id="lgT26p0356b0801"><l>世間人及天，<caesura/>疑心觀法主；</l>
-<lb n="0356b09" ed="T"/><l>為斷疑義故，<caesura/>說此修多羅。</l></lg>
+<lb n="0356b08" ed="T"/><lg type="regular" xml:id="lgT26p0356b0801">
+  <l>世間人及天，<caesura/>疑心觀法主；</l>
+<lb n="0356b09" ed="T"/>
+  <l>為斷疑義故，<caesura/>說此修多羅。</l>
+</lg>
 <lb n="0356b10" ed="T"/><p xml:id="pT26p0356b1001">又復世尊有大悲力，饒益眾生故說此經。云
 <lb n="0356b11" ed="T"/>何世尊大悲力說此義？今說世尊如是於諸
 <lb n="0356b12" ed="T"/>眾生知無眾生、諸法皆如乾闥婆城，如是知
 <lb n="0356b13" ed="T"/>已眾生住持及法住持已轉法輪。此義云何？
 <lb n="0356b14" ed="T"/>偈言：</p>
-<lb n="0356b15" ed="T"/><lg type="regular" xml:id="lgT26p0356b1501"><l>知世間無我，<caesura/>如幻乾闥婆；</l>
-<lb n="0356b16" ed="T"/><l>眾生法住持，<caesura/>如來大悲說。</l></lg>
+<lb n="0356b15" ed="T"/><lg type="regular" xml:id="lgT26p0356b1501">
+  <l>知世間無我，<caesura/>如幻乾闥婆；</l>
+<lb n="0356b16" ed="T"/>
+  <l>眾生法住持，<caesura/>如來大悲說。</l>
+</lg>
 <lb n="0356b17" ed="T"/><p xml:id="pT26p0356b1701">示現自力，故能說義。世間更無能住持者，唯
 <lb n="0356b18" ed="T"/>佛能作二種住持，更無有人能轉法輪如我
 <lb n="0356b19" ed="T"/>轉者。又復有義，偈言：</p>
-<lb n="0356b20" ed="T"/><lg type="regular" xml:id="lgT26p0356b2001"><l>非是天宮殿、<caesura/>非阿修羅舍、</l>
-<lb n="0356b21" ed="T"/><l>非人處龍宮，<caesura/>有如是眾生，</l>
-<lb n="0356b22" ed="T"/><l>第一不可稱，<caesura/>離過滅三苦，</l>
-<lb n="0356b23" ed="T"/><l>天人恭敬禮，<caesura/>善轉第一輪。</l></lg>
+<lb n="0356b20" ed="T"/><lg type="regular" xml:id="lgT26p0356b2001">
+  <l>非是天宮殿、<caesura/>非阿修羅舍、</l>
+<lb n="0356b21" ed="T"/>
+  <l>非人處龍宮，<caesura/>有如是眾生，</l>
+<lb n="0356b22" ed="T"/>
+  <l>第一不可稱，<caesura/>離過滅三苦，</l>
+<lb n="0356b23" ed="T"/>
+  <l>天人恭敬禮，<caesura/>善轉第一輪。</l>
+</lg>
 <lb n="0356b24" ed="T"/><p xml:id="pT26p0356b2401">又無量苦無量具足，然後乃得阿耨多羅三
 <lb n="0356b25" ed="T"/>藐三菩提故。始行菩薩若聞是已心生怯弱，
 <lb n="0356b26" ed="T"/>如來為欲除彼怯弱，示現此義，無垢淨覺，若
 <lb n="0356b27" ed="T"/>無量苦無量具足，得阿耨多羅三藐三菩提。
 <lb n="0356b28" ed="T"/>無量功德示此法輪。偈言：</p>
-<lb n="0356b29" ed="T"/><lg type="regular" xml:id="lgT26p0356b2901"><l>金珠真珠等，<caesura/>妻子國城施，</l>
+<lb n="0356b29" ed="T"/><lg type="regular" xml:id="lgT26p0356b2901">
+  <l>金珠真珠等，<caesura/>妻子國城施，</l>
 <pb n="0356c" ed="T" xml:id="T26.1533.0356c"/>
-<lb n="0356c01" ed="T"/><l>頭分眼骨髓，<caesura/>手足等施勝。</l>
-<lb n="0356c02" ed="T"/><l>種種苦持戒，<caesura/>希有得佛身，</l>
-<lb n="0356c03" ed="T"/><l>功德不可稱，<caesura/>為疑怯者示。</l></lg>
+<lb n="0356c01" ed="T"/>
+  <l>頭分眼骨髓，<caesura/>手足等施勝。</l>
+<lb n="0356c02" ed="T"/>
+  <l>種種苦持戒，<caesura/>希有得佛身，</l>
+<lb n="0356c03" ed="T"/>
+  <l>功德不可稱，<caesura/>為疑怯者示。</l>
+</lg>
 <lb n="0356c04" ed="T"/><p xml:id="pT26p0356c0401">佛增上意觀眾生心，無量功德而轉法輪。又
 <lb n="0356c05" ed="T"/>復未發菩提心人聲聞緣覺乘，欲入涅槃、舍
 <lb n="0356c06" ed="T"/>大乘住，持此義示現。又復勝意，若有聲聞
 <lb n="0356c07" ed="T"/>緣覺等乘入涅槃舍，則不復轉無上法輪。偈
 <lb n="0356c08" ed="T"/>言：</p>
-<lb n="0356c09" ed="T"/><lg type="regular" xml:id="lgT26p0356c0901"><l>小心離悲等，<caesura/>欲入二涅槃；</l>
-<lb n="0356c10" ed="T"/><l>牟尼說此經，<caesura/>令住第一乘。</l></lg>
+<lb n="0356c09" ed="T"/><lg type="regular" xml:id="lgT26p0356c0901">
+  <l>小心離悲等，<caesura/>欲入二涅槃；</l>
+<lb n="0356c10" ed="T"/>
+  <l>牟尼說此經，<caesura/>令住第一乘。</l>
+</lg>
 <lb n="0356c11" ed="T"/><p xml:id="pT26p0356c1101">又此福人歡喜饒益，此義示現。一切世間最
 <lb n="0356c12" ed="T"/>勝無比轉法輪師，無如我師。偈言：</p>
-<lb n="0356c13" ed="T"/><lg type="regular" xml:id="lgT26p0356c1301"><l>若已歸依佛，<caesura/>今歸當復歸；</l>
-<lb n="0356c14" ed="T"/><l>牟尼喜彼人，<caesura/>說此修多羅。</l></lg>
+<lb n="0356c13" ed="T"/><lg type="regular" xml:id="lgT26p0356c1301">
+  <l>若已歸依佛，<caesura/>今歸當復歸；</l>
+<lb n="0356c14" ed="T"/>
+  <l>牟尼喜彼人，<caesura/>說此修多羅。</l>
+</lg>
 <lb n="0356c15" ed="T"/><p xml:id="pT26p0356c1501">若餘依止外道之人將引饒益，此義示現。無
 <lb n="0356c16" ed="T"/>垢功德莊嚴妙身而轉法輪，汝師非比，汝師
 <lb n="0356c17" ed="T"/>不能令汝獲得無漏善法。偈言：</p>
-<lb n="0356c18" ed="T"/><lg type="regular" xml:id="lgT26p0356c1801"><l>依止惡<note n="0356c1801" resp="CBETA" type="add" note_key="T26.0356c18.04">知【CB】【麗-CB】，智【大】</note><app n="0356c1801"><lem resp="CBETA.maha" wit="【CB】【麗-CB】">知<note type="cf1">K15n0569_p0460c18</note></lem><rdg wit="【大】">智</rdg></app>識，<caesura/>如來見世間，</l>
-<lb n="0356c19" ed="T"/><l>為引彼人故，<caesura/>為說此經寶。</l></lg>
-<lb n="0356c20" ed="T"/><p xml:id="pT26p0356c2001">一切智慢寂靜饒益，示現此義。我一切<note resp="Taisho" n="0356009" place="foot text" type="orig">智＝知【三】</note><note resp="CBETA" n="0356009" type="mod">智【大】，知【宋】【元】【明】</note><app n="0356009"><lem wit="【大】">智</lem><rdg resp="Taisho" wit="【宋】【元】【明】">知</rdg></app>
+<lb n="0356c18" ed="T"/><lg type="regular" xml:id="lgT26p0356c1801">
+  <l>依止惡<note 
+n="0356c1801" resp="CBETA" type="add" note_key="T26.0356c18.04">知【CB】【麗-CB】，智【大】</note><app n="0356c1801">
+    <lem resp="CBETA.maha" wit="【CB】【麗-CB】">知<note type="cf1">K15n0569_p0460c18</note></lem>
+    <rdg wit="【大】">智</rdg>
+  </app>識，<caesura/>如來見世間，</l>
+<lb n="0356c19" ed="T"/>
+  <l>為引彼人故，<caesura/>為說此經寶。</l>
+</lg>
+<lb n="0356c20" ed="T"/><p xml:id="pT26p0356c2001">一切智慢寂靜饒益，示現此義。我一切<note 
+resp="Taisho" n="0356009" place="foot text" type="orig">智＝知【三】</note><note 
+resp="CBETA" n="0356009" type="mod">智【大】，知【宋】【元】【明】</note><app n="0356009">
+  <lem wit="【大】">智</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">知</rdg>
+</app>
 <lb n="0356c21" ed="T"/>今者新轉無上法輪，云何汝是一切智人？偈
 <lb n="0356c22" ed="T"/>言：</p>
-<lb n="0356c23" ed="T"/><lg type="regular" xml:id="lgT26p0356c2301"><l>佛初轉法輪，<caesura/>能除斷常倒；</l>
-<lb n="0356c24" ed="T"/><l>不能轉淨輪，<caesura/>彼非一切智。</l></lg>
+<lb n="0356c23" ed="T"/><lg type="regular" xml:id="lgT26p0356c2301">
+  <l>佛初轉法輪，<caesura/>能除斷常倒；</l>
+<lb n="0356c24" ed="T"/>
+  <l>不能轉淨輪，<caesura/>彼非一切智。</l>
+</lg>
 <lb n="0356c25" ed="T"/><p xml:id="pT26p0356c2501">求廣勝果無上福田饒益，示現不可思議果
 <lb n="0356c26" ed="T"/>報能與。若有能轉無上法輪，布施彼者得大
 <lb n="0356c27" ed="T"/>果報。偈言：</p>
-<lb n="0356c28" ed="T"/><lg type="regular" xml:id="lgT26p0356c2801"><l>若有人能轉，<caesura/>無上正法輪；</l>
-<lb n="0356c29" ed="T"/><l>少施如是人，<caesura/>得無比果報。</l></lg>
+<lb n="0356c28" ed="T"/><lg type="regular" xml:id="lgT26p0356c2801">
+  <l>若有人能轉，<caesura/>無上正法輪；</l>
+<lb n="0356c29" ed="T"/>
+  <l>少施如是人，<caesura/>得無比果報。</l>
+</lg>
 <pb n="0357a" ed="T" xml:id="T26.1533.0357a"/>
 <lb n="0357a01" ed="T"/><p xml:id="pT26p0357a0101">又菩薩行得果饒益，示現此義，世尊說言「我
 <lb n="0357a02" ed="T"/>此法輪能大饒益。已行無量億那由他百千
 <lb n="0357a03" ed="T"/>苦行，能捨難捨。譬如抒海心不休息」。又言「本
 <lb n="0357a04" ed="T"/>生作摩那婆，身及妻子我皆捨施」。又言「本生
-<lb n="0357a05" ed="T"/>作梵<note resp="Taisho" n="0357001" place="foot text" type="orig">得＝德【三】</note><note resp="CBETA" n="0357001" type="mod">得【大】，德【宋】【元】【明】</note><app n="0357001"><lem wit="【大】">得</lem><rdg resp="Taisho" wit="【宋】【元】【明】">德</rdg></app>王，所愛二子我捨布施，心不生悔」。
+<lb n="0357a05" ed="T"/>作梵<note 
+resp="Taisho" n="0357001" place="foot text" type="orig">得＝德【三】</note><note 
+resp="CBETA" n="0357001" type="mod">得【大】，德【宋】【元】【明】</note><app n="0357001">
+  <lem wit="【大】">得</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">德</rdg>
+</app>王，所愛二子我捨布施，心不生悔」。
 <lb n="0357a06" ed="T"/>又言「本生作善牙王，最端正女人中勝妙，名
 <lb n="0357a07" ed="T"/>孫陀利，施婆羅門」。又言「本生作德藏王，得陀
 <lb n="0357a08" ed="T"/>羅尼，我七千年未一脇臥」。又言「本生作不思
@@ -212,17 +331,28 @@
 <lb n="0357a16" ed="T"/>無量苦惱皆悉已作，有大饒益，我已證得」。如
 <lb n="0357a17" ed="T"/>是菩薩種種苦行得果示現，示現饒益。世尊
 <lb n="0357a18" ed="T"/>已說此修多羅。偈言：</p>
-<lb n="0357a19" ed="T"/><lg type="regular" xml:id="lgT26p0357a1901"><l>若如是初因，<caesura/>苦行廣捨身，</l>
-<lb n="0357a20" ed="T"/><l>貧窮乞匃者，<caesura/>隨所應施與。</l>
-<lb n="0357a21" ed="T"/><l>離一切諸過，<caesura/>第一寂靜輪，</l>
-<lb n="0357a22" ed="T"/><l>說不毀第一，<caesura/>是故我今轉。</l></lg>
+<lb n="0357a19" ed="T"/><lg type="regular" xml:id="lgT26p0357a1901">
+  <l>若如是初因，<caesura/>苦行廣捨身，</l>
+<lb n="0357a20" ed="T"/>
+  <l>貧窮乞匃者，<caesura/>隨所應施與。</l>
+<lb n="0357a21" ed="T"/>
+  <l>離一切諸過，<caesura/>第一寂靜輪，</l>
+<lb n="0357a22" ed="T"/>
+  <l>說不毀第一，<caesura/>是故我今轉。</l>
+</lg>
 <lb n="0357a23" ed="T"/><p xml:id="pT26p0357a2301">以何義故名世尊者，堪受供養故名世尊。更
-<lb n="0357a24" ed="T"/>有餘義，如菩提心<note resp="Taisho" n="0357002" place="foot text" type="orig">憂波提舍＝優波提舍【三】下同</note><note resp="CBETA" n="0357002" type="mod">憂波提舍【大】下同，優波提舍【宋】下同【元】下同【明】下同</note><app n="0357002"><lem wit="【大】">憂波提舍</lem><rdg resp="Taisho" wit="【宋】【元】【明】">優波提舍</rdg></app>彼中示現。</p>
+<lb n="0357a24" ed="T"/>有餘義，如菩提心<note 
+resp="Taisho" n="0357002" place="foot text" type="orig">憂波提舍＝優波提舍【三】下同</note><note 
+resp="CBETA" n="0357002" type="mod">憂波提舍【大】下同，優波提舍【宋】下同【元】下同【明】下同</note><app n="0357002">
+  <lem wit="【大】">憂波提舍</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">優波提舍</rdg>
+</app>彼中示現。</p>
 <lb n="0357a25" ed="T"/><p xml:id="pT26p0357a2501">如來何故在王舍城耆闍崛山，二種住持轉
 <lb n="0357a26" ed="T"/>于法輪，不餘處者，難不相應。隨在何處此難
 <lb n="0357a27" ed="T"/>無窮，世尊若在餘處遊行亦有此難，是則無
 <lb n="0357a28" ed="T"/>窮。更有餘義，如菩提心憂波提舍彼處示
-<lb n="0357a29" ed="T"/>現。</p><p cb:place="inline" xml:id="pT26p0357a2902">以何義故名如來者？彼義今說。如實而來
+<lb n="0357a29" ed="T"/>現。</p>
+<p cb:place="inline" xml:id="pT26p0357a2902">以何義故名如來者？彼義今說。如實而來
 <pb n="0357b" ed="T" xml:id="T26.1533.0357b"/>
 <lb n="0357b01" ed="T"/>故名如來。何法名如？涅槃名如。眾生與法彼
 <lb n="0357b02" ed="T"/>二不如。如世尊說「諸比丘！第一聖諦不虛
@@ -240,8 +370,14 @@
 <lb n="0357b14" ed="T"/>法雲等十，此名為如。如彼無上正遍知來故
 <lb n="0357b15" ed="T"/>名如來。如八道來故名如來。以有般若波羅
 <lb n="0357b16" ed="T"/>蜜足方便足來故名如來。或名如去。言如去
-<lb n="0357b17" ed="T"/>者，或以如說故名如去。又如去者，<note resp="Taisho" n="0357003" place="foot text" type="orig">去不＝不去【三】</note><note resp="CBETA" n="0357003" type="mod">去不【大】，不去【宋】【元】【明】</note><app n="0357003"><lem wit="【大】">去不</lem><rdg resp="Taisho" wit="【宋】【元】【明】">不去</rdg></app>復
-<lb n="0357b18" ed="T"/>來故名如去。</p><p cb:place="inline" xml:id="pT26p0357b1806">以何義故名法輪者，彼義今說。
+<lb n="0357b17" ed="T"/>者，或以如說故名如去。又如去者，<note 
+resp="Taisho" n="0357003" place="foot text" type="orig">去不＝不去【三】</note><note 
+resp="CBETA" n="0357003" type="mod">去不【大】，不去【宋】【元】【明】</note><app n="0357003">
+  <lem wit="【大】">去不</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">不去</rdg>
+</app>復
+<lb n="0357b18" ed="T"/>來故名如去。</p>
+<p cb:place="inline" xml:id="pT26p0357b1806">以何義故名法輪者，彼義今說。
 <lb n="0357b19" ed="T"/>法體是輪，故名法輪。譬如世間銅體是瓶，故
 <lb n="0357b20" ed="T"/>名銅瓶；木體為輪，故名木輪。此亦如是，法體
 <lb n="0357b21" ed="T"/>為輪，故名法輪，如是示現。何者是法？謂三十
@@ -259,7 +395,12 @@
 <lb n="0357c03" ed="T"/>輪，離三界故。一切分別不別異輪，以一切法
 <lb n="0357c04" ed="T"/>不分別故。</p>
 <lb n="0357c05" ed="T"/><p xml:id="pT26p0357c0501">世尊復於阿那婆達多龍王修多羅中告龍王
-<lb n="0357c06" ed="T"/>言「賢<note resp="Taisho" n="0357004" place="foot text" type="orig">面＝首【三】</note><note resp="CBETA" n="0357004" type="mod">面【大】，首【宋】【元】【明】</note><app n="0357004"><lem wit="【大】">面</lem><rdg resp="Taisho" wit="【宋】【元】【明】">首</rdg></app>龍王！又法輪者，實不壞行，如是名
+<lb n="0357c06" ed="T"/>言「賢<note 
+resp="Taisho" n="0357004" place="foot text" type="orig">面＝首【三】</note><note 
+resp="CBETA" n="0357004" type="mod">面【大】，首【宋】【元】【明】</note><app n="0357004">
+  <lem wit="【大】">面</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">首</rdg>
+</app>龍王！又法輪者，實不壞行，如是名
 <lb n="0357c07" ed="T"/>輪，三世等故。無自體輪，以離有無二種見
 <lb n="0357c08" ed="T"/>故。又復離輪，身無染故。又不著輪，以離心
 <lb n="0357c09" ed="T"/>意意識等故。無處所輪，以捨一切有行生故。
@@ -271,7 +412,11 @@
 <lb n="0357c15" ed="T"/>輪，不見內外一切物故。又無相輪，以一切相
 <lb n="0357c16" ed="T"/>不分別故。又無願輪，以一切法不攀緣故。又
 <lb n="0357c17" ed="T"/>無為輪，一切言語所說皆空，不可說故」。如是
-<lb n="0357c18" ed="T"/>世尊所說法輪，此等皆是法<note n="0357c1801" resp="CBETA" type="add" note_key="T26.0357c18.12">輪【CB】【麗-CB】，論【大】</note><app n="0357c1801"><lem resp="CBETA.maha" wit="【CB】【麗-CB】">輪<note type="cf1">K15n0569_p0462b03</note></lem><rdg wit="【大】">論</rdg></app>之義。</p>
+<lb n="0357c18" ed="T"/>世尊所說法輪，此等皆是法<note 
+n="0357c1801" resp="CBETA" type="add" note_key="T26.0357c18.12">輪【CB】【麗-CB】，論【大】</note><app n="0357c1801">
+  <lem resp="CBETA.maha" wit="【CB】【麗-CB】">輪<note type="cf1">K15n0569_p0462b03</note></lem>
+  <rdg wit="【大】">論</rdg>
+</app>之義。</p>
 <lb n="0357c19" ed="T"/><p xml:id="pT26p0357c1901">又復世尊幾轉幾行轉法輪者，彼義今說。法
 <lb n="0357c20" ed="T"/>輪三轉，有十二行。此苦聖諦、此集聖諦、此滅
 <lb n="0357c21" ed="T"/>聖諦、此苦滅道聖諦，此第一轉。此苦聖諦
@@ -316,36 +461,69 @@
 <pb n="0358b" ed="T" xml:id="T26.1533.0358b"/>
 <lb n="0358b01" ed="T"/>又復此是世尊方便，諸法無名以名字說。是
 <lb n="0358b02" ed="T"/>故偈言：</p>
-<lb n="0358b03" ed="T"/><lg xml:id="lgT26p0358b0301"><l>一切法無名，<caesura/><note resp="Taisho" n="0358001" place="foot text" type="orig">設＝說【明】</note><note resp="CBETA" n="0358001" type="mod">設【大】，說【明】</note><app n="0358001"><lem wit="【大】">設</lem><rdg resp="Taisho" wit="【明】">說</rdg></app>名以名法。</l></lg>
+<lb n="0358b03" ed="T"/><lg xml:id="lgT26p0358b0301">
+  <l>一切法無名，<caesura/><note 
+resp="Taisho" n="0358001" place="foot text" type="orig">設＝說【明】</note><note 
+resp="CBETA" n="0358001" type="mod">設【大】，說【明】</note><app n="0358001">
+    <lem wit="【大】">設</lem>
+    <rdg resp="Taisho" wit="【明】">說</rdg>
+  </app>名以名法。</l>
+</lg>
 <lb n="0358b04" ed="T"/><p xml:id="pT26p0358b0401">世尊法爾不取眾生，而治眾生為之說法。雖
 <lb n="0358b05" ed="T"/>不取法，而常廣說一切諸法。又復般若波羅
 <lb n="0358b06" ed="T"/>蜜經、無垢名稱修多羅說「為知真諦，故說世
-<lb n="0358b07" ed="T"/>諦，如是無過」。</p><p cb:place="inline" xml:id="pT26p0358b0706">又復世尊以何義故，捨彼寬博
+<lb n="0358b07" ed="T"/>諦，如是無過」。</p>
+<p cb:place="inline" xml:id="pT26p0358b0706">又復世尊以何義故，捨彼寬博
 <lb n="0358b08" ed="T"/>種種勝妙華樹莊嚴、無量勝人多眾集處，於
 <lb n="0358b09" ed="T"/>波羅奈少人眾處、在波吒離樹影蔭下鹿苑
 <lb n="0358b10" ed="T"/>之中而轉法輪？彼義今釋。世尊往昔已於彼
-<lb n="0358b11" ed="T"/>處<note resp="Taisho" n="0358002" place="foot text" type="orig">六＝八【元】【明】</note><note resp="CBETA" n="0358002" type="mod">六【大】，八【元】【明】</note><app n="0358002"><lem wit="【大】">六</lem><rdg resp="Taisho" wit="【元】【明】">八</rdg></app>十千億那由他會廣行布施，又於彼處
+<lb n="0358b11" ed="T"/>處<note 
+resp="Taisho" n="0358002" place="foot text" type="orig">六＝八【元】【明】</note><note 
+resp="CBETA" n="0358002" type="mod">六【大】，八【元】【明】</note><app n="0358002">
+  <lem wit="【大】">六</lem>
+  <rdg resp="Taisho" wit="【元】【明】">八</rdg>
+</app>十千億那由他會廣行布施，又於彼處
 <lb n="0358b12" ed="T"/>已曾供養六十千億那由他佛，又於彼處已
 <lb n="0358b13" ed="T"/>有九十一億千佛轉於法輪，彼處常饒寂靜
 <lb n="0358b14" ed="T"/>仙人。有如是等諸大功德，是故世尊在於彼
 <lb n="0358b15" ed="T"/>處而轉法輪。此義已釋，今復更說。又《廣普經》
 <lb n="0358b16" ed="T"/>有偈說言：</p>
-<lb n="0358b17" ed="T"/><lg type="regular" xml:id="lgT26p0358b1701" style="margin-left:1em;text-indent:-1em"><l>「我六十千億，<caesura/>那由他會施，</l>
-<lb n="0358b18" ed="T"/><l>供六十千億，<caesura/>那由他諸佛。</l>
-<lb n="0358b19" ed="T"/><l>波羅奈處勝，<caesura/>有勝舊仙人，</l>
-<lb n="0358b20" ed="T"/><l>第一天龍等，<caesura/>常讚說法處。</l>
-<lb n="0358b21" ed="T"/><l>九十一億前，<caesura/>我憶無上勝，</l>
-<lb n="0358b22" ed="T"/><l>於此妙林中，<caesura/>轉無上法輪。</l>
-<lb n="0358b23" ed="T"/><l>此有那由他，<caesura/>寂靜勝仙人，</l>
-<lb n="0358b24" ed="T"/><l>常在鹿苑中，<caesura/>故名仙人處。</l>
-<lb n="0358b25" ed="T"/><l>如是勝林中，<caesura/>轉無上法輪。」</l></lg>
+<lb n="0358b17" ed="T"/><lg type="regular" xml:id="lgT26p0358b1701" style="margin-left:1em;text-indent:-1em">
+  <l>「我六十千億，<caesura/>那由他會施，</l>
+<lb n="0358b18" ed="T"/>
+  <l>供六十千億，<caesura/>那由他諸佛。</l>
+<lb n="0358b19" ed="T"/>
+  <l>波羅奈處勝，<caesura/>有勝舊仙人，</l>
+<lb n="0358b20" ed="T"/>
+  <l>第一天龍等，<caesura/>常讚說法處。</l>
+<lb n="0358b21" ed="T"/>
+  <l>九十一億前，<caesura/>我憶無上勝，</l>
+<lb n="0358b22" ed="T"/>
+  <l>於此妙林中，<caesura/>轉無上法輪。</l>
+<lb n="0358b23" ed="T"/>
+  <l>此有那由他，<caesura/>寂靜勝仙人，</l>
+<lb n="0358b24" ed="T"/>
+  <l>常在鹿苑中，<caesura/>故名仙人處。</l>
+<lb n="0358b25" ed="T"/>
+  <l>如是勝林中，<caesura/>轉無上法輪。」</l>
+</lg>
 <lb n="0358b26" ed="T"/><p xml:id="pT26p0358b2601">如是已轉，又為法人如是已轉。</p>
 <lb n="0358b27" ed="T"/><p xml:id="pT26p0358b2701">又復世尊何處初坐而轉法輪？彼義今釋。世
 <lb n="0358b28" ed="T"/>尊坐彼大圓殿處，無量清淨妙色珍寶</p>
 <lb n="0358b29" ed="T"/><p xml:id="pT26p0358b2901">莊嚴師子座上而轉法輪。此何處說？《廣普經》
 <pb n="0358c" ed="T" xml:id="T26.1533.0358c"/>
 <lb n="0358c01" ed="T"/>中如是說言「諸比丘！有諸地天知波羅奈欲
-<lb n="0358c02" ed="T"/>轉法輪有<note resp="Taisho" n="0358003" place="foot text" type="orig">大＝本【三】</note><note resp="CBETA" n="0358003" type="mod">大【大】，本【宋】【元】【明】</note><app n="0358003"><lem wit="【大】">大</lem><rdg resp="Taisho" wit="【宋】【元】【明】">本</rdg></app>饒益，置大圓殿種種莊<note resp="Taisho" n="0358004" place="foot text" type="orig">嚴＝校【三】</note><note resp="CBETA" n="0358004" type="mod">嚴【大】，校【宋】【元】【明】</note><app n="0358004"><lem wit="【大】">嚴</lem><rdg resp="Taisho" wit="【宋】【元】【明】">校</rdg></app>廣
+<lb n="0358c02" ed="T"/>轉法輪有<note 
+resp="Taisho" n="0358003" place="foot text" type="orig">大＝本【三】</note><note 
+resp="CBETA" n="0358003" type="mod">大【大】，本【宋】【元】【明】</note><app n="0358003">
+  <lem wit="【大】">大</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">本</rdg>
+</app>饒益，置大圓殿種種莊<note 
+resp="Taisho" n="0358004" place="foot text" type="orig">嚴＝校【三】</note><note 
+resp="CBETA" n="0358004" type="mod">嚴【大】，校【宋】【元】【明】</note><app n="0358004">
+  <lem wit="【大】">嚴</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">校</rdg>
+</app>廣
 <lb n="0358c03" ed="T"/>博嚴麗，其殿縱廣七百由旬。虛空諸天以蓋
 <lb n="0358c04" ed="T"/>幢幡而為莊嚴。於上空中欲界天子，八十四
 <lb n="0358c05" ed="T"/>千師子之座奉施如來。施如來已，一一請言：
@@ -354,17 +532,36 @@
 <lb n="0358c08" ed="T"/>如是滿足一切諸天子意」。</p>
 <lb n="0358c09" ed="T"/><p xml:id="pT26p0358c0901">又復世尊轉法輪時，幾許眾生捨惡行善？彼
 <lb n="0358c10" ed="T"/>義今釋。憍陳如等有五比丘，復有諸天六十
-<lb n="0358c11" ed="T"/>億數，<note resp="Taisho" n="0358005" place="foot text" type="orig">復＋（有）【三】</note><note resp="CBETA" n="0358005" type="mod">復【大】，復有【宋】【元】【明】</note><app n="0358005"><lem wit="【大】">復</lem><rdg resp="Taisho" wit="【宋】【元】【明】">復有</rdg></app>色界天八十億數，復有八十四千億
+<lb n="0358c11" ed="T"/>億數，<note 
+resp="Taisho" n="0358005" place="foot text" type="orig">復＋（有）【三】</note><note 
+resp="CBETA" n="0358005" type="mod">復【大】，復有【宋】【元】【明】</note><app n="0358005">
+  <lem wit="【大】">復</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">復有</rdg>
+</app>色界天八十億數，復有八十四千億
 <lb n="0358c12" ed="T"/>人。此何處說？彼《廣普經》有偈說言：</p>
-<lb n="0358c13" ed="T"/><lg type="regular" xml:id="lgT26p0358c1301" style="margin-left:1em;text-indent:-1em"><l>「阿若居隣等，<caesura/>如是五比丘，</l>
-<lb n="0358c14" ed="T"/><l>六十億諸天，<caesura/>皆得法眼淨；</l>
-<lb n="0358c15" ed="T"/><l>八十億色天，<caesura/>淨無上法眼；</l>
-<lb n="0358c16" ed="T"/><l>淨勝法眼人，<caesura/>八萬四千億。」</l></lg>
+<lb n="0358c13" ed="T"/><lg type="regular" xml:id="lgT26p0358c1301" style="margin-left:1em;text-indent:-1em">
+  <l>「阿若居隣等，<caesura/>如是五比丘，</l>
+<lb n="0358c14" ed="T"/>
+  <l>六十億諸天，<caesura/>皆得法眼淨；</l>
+<lb n="0358c15" ed="T"/>
+  <l>八十億色天，<caesura/>淨無上法眼；</l>
+<lb n="0358c16" ed="T"/>
+  <l>淨勝法眼人，<caesura/>八萬四千億。」</l>
+</lg>
 <lb n="0358c17" ed="T"/><p xml:id="pT26p0358c1701">以要言之，眾生住持示說眾生，法住持者示
 <lb n="0358c18" ed="T"/>現說法。又復有義：眾生住持，示現令知眾生
 <lb n="0358c19" ed="T"/>心行八萬四千；法住持者，示現令知八萬四
 <lb n="0358c20" ed="T"/>千法聚光明多所饒益。又復有義：眾生住持，
 <lb n="0358c21" ed="T"/>此為示現眾生平等；法住持者，示法平等。又
 <lb n="0358c22" ed="T"/>復此二，世諦示現。</p>
-<lb n="0358c23" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>轉法輪經<note n="0358c2301" resp="CBETA" type="add" note_key="T26.0358c23.05">憂【CB】【麗-CB】，優【大】</note><app n="0358c2301"><lem resp="CBETA.maha" wit="【CB】【麗-CB】">憂<note type="cf1">K15n0569_p0463c16</note></lem><rdg wit="【大】">優</rdg></app>波提舍<note resp="Taisho" n="0358006" place="foot text" type="orig">〔一卷〕－【三】</note><note resp="CBETA" n="0358006" type="mod">一卷【大】，〔－〕【宋】【元】【明】</note><app n="0358006"><lem wit="【大】">一卷</lem><rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg></app></cb:jhead></cb:juan></cb:div>
+<lb n="0358c23" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>轉法輪經<note 
+n="0358c2301" resp="CBETA" type="add" note_key="T26.0358c23.05">憂【CB】【麗-CB】，優【大】</note><app n="0358c2301">
+  <lem resp="CBETA.maha" wit="【CB】【麗-CB】">憂<note type="cf1">K15n0569_p0463c16</note></lem>
+  <rdg wit="【大】">優</rdg>
+</app>波提舍<note 
+resp="Taisho" n="0358006" place="foot text" type="orig">〔一卷〕－【三】</note><note 
+resp="CBETA" n="0358006" type="mod">一卷【大】，〔－〕【宋】【元】【明】</note><app n="0358006">
+  <lem wit="【大】">一卷</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
+</app></cb:jhead></cb:juan></cb:div>
 </body></text></TEI>

@@ -2,79 +2,80 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="B07n0016">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Supplement to the Dazangjing</title>
-			<title level="s" xml:lang="zh-Hant">大藏經補編</title>
-			<title level="m" xml:lang="zh-Hant">南傳大悲經</title>
-			<title>Supplement to the Dazangjing, Electronic version, No. 16 南傳大悲經</title>
-			<title xml:lang="zh-Hant">大藏經補編數位版, No. 16 南傳大悲經</title>
-			<author>法舫譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">B</idno>.<idno type="vol">7</idno>.<idno type="no">16</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大藏經補編</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【補編】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2012-04-18T15:05:57">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Supplement to the Dazangjing</title>
+      <title level="s" xml:lang="zh-Hant">大藏經補編</title>
+      <title level="m" xml:lang="zh-Hant">南傳大悲經</title>
+      <title>Supplement to the Dazangjing, Electronic version, No. 16 南傳大悲經</title>
+      <title xml:lang="zh-Hant">大藏經補編數位版, No. 16 南傳大悲經</title>
+      <author>法舫譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">B</idno>.<idno type="vol">7</idno>.<idno type="no">16</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大藏經補編</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【補編】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2012-04-18T15:05:57">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="B" xml:id="B07.0016.0029a" n="0029a"/>
-<lb ed="B" n="0029a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>南傳大悲經</cb:jhead></cb:juan><byline cb:type="translator">民國法舫師譯</byline>
+<lb ed="B" n="0029a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>南傳大悲經</cb:jhead></cb:juan>
+<byline cb:type="translator">民國法舫師譯</byline>
 <lb ed="B" n="0029a02"/>
 <lb ed="B" n="0029a03"/><cb:div><p xml:id="pB07p0029a0301">如是我聞．一時佛為五百比丘．宣說正法．時諸比丘．於深林中．修習禪觀．被諸劫賊妖魔之所擾亂．而來白佛．</p>
 <lb ed="B" n="0029a04"/><p xml:id="pB07p0029a0401">爾時世尊．告諸比丘．汝等可返本處．修行大悲．愛護一切眾生三昧．猶如兵士．裝備武器．而自無畏．汝等亦然．應當裝
@@ -97,8 +98,16 @@
 <pb ed="B" xml:id="B07.0016.0030a" n="0030a"/>
 <lb ed="B" n="0030a01"/><p xml:id="pB07p0030a0101">依此修持．則被一切眾生特別恭敬．則能消除一切眾生之我見等煩惱．並可解脫一切眾生之生死妄執．而堅固信
 <lb ed="B" n="0030a02"/>念八正道四聖諦之實相．如是修持．自然消滅一切貪妄之苦．而證入最後涅槃．</p>
-<lb ed="B" n="0030a03"/><lg xml:id="lgB07p0030a0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">凡遇一切不祥事．<caesura style="text-indent:1em;"/>憂悲苦惱累人生．<caesura style="text-indent:1em;"/>若念佛陀威德力．<caesura style="text-indent:1em;"/>究竟解脫悉清靜．</l></lg>
-<lb ed="B" n="0030a04"/><lg xml:id="lgB07p0030a0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">凡遇一切不祥事．<caesura style="text-indent:1em;"/>憂悲苦惱累人生．<caesura style="text-indent:1em;"/>若念達摩三藏力．<caesura style="text-indent:1em;"/>究竟解脫悉清靜．</l></lg>
-<lb ed="B" n="0030a05"/><lg xml:id="lgB07p0030a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">凡遇一切不祥事．<caesura style="text-indent:1em;"/>憂悲苦惱累人生．<caesura style="text-indent:1em;"/>若念比丘加持力．<caesura style="text-indent:1em;"/>究竟解脫悉清淨．</l></lg>
-<lb ed="B" n="0030a06"/><lg xml:id="lgB07p0030a0601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">慚愧恐怖諸惡業．<caesura style="text-indent:1em;"/>聞法精進捨國城．<caesura style="text-indent:1em;"/>正信同修戒定慧．<caesura style="text-indent:1em;"/>聖財七寶超世人．</l></lg></cb:div>
+<lb ed="B" n="0030a03"/><lg xml:id="lgB07p0030a0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">凡遇一切不祥事．<caesura style="text-indent:1em;"/>憂悲苦惱累人生．<caesura style="text-indent:1em;"/>若念佛陀威德力．<caesura style="text-indent:1em;"/>究竟解脫悉清靜．</l>
+</lg>
+<lb ed="B" n="0030a04"/><lg xml:id="lgB07p0030a0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">凡遇一切不祥事．<caesura style="text-indent:1em;"/>憂悲苦惱累人生．<caesura style="text-indent:1em;"/>若念達摩三藏力．<caesura style="text-indent:1em;"/>究竟解脫悉清靜．</l>
+</lg>
+<lb ed="B" n="0030a05"/><lg xml:id="lgB07p0030a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">凡遇一切不祥事．<caesura style="text-indent:1em;"/>憂悲苦惱累人生．<caesura style="text-indent:1em;"/>若念比丘加持力．<caesura style="text-indent:1em;"/>究竟解脫悉清淨．</l>
+</lg>
+<lb ed="B" n="0030a06"/><lg xml:id="lgB07p0030a0601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">慚愧恐怖諸惡業．<caesura style="text-indent:1em;"/>聞法精進捨國城．<caesura style="text-indent:1em;"/>正信同修戒定慧．<caesura style="text-indent:1em;"/>聖財七寶超世人．</l>
+</lg></cb:div>
 </body></text></TEI>

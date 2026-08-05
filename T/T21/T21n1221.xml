@@ -2,82 +2,83 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1221">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">青色大金剛藥叉辟鬼魔法</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1221 青色大金剛藥叉辟鬼魔法</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1221 青色大金剛藥叉辟鬼魔法</title>
-			<author>唐 空蜝述</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1221</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="sa-Sidd">Sanskrit-Siddam</language>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:26">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">青色大金剛藥叉辟鬼魔法</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1221 青色大金剛藥叉辟鬼魔法</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1221 青色大金剛藥叉辟鬼魔法</title>
+      <author>唐 空蜝述</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1221</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="sa-Sidd">Sanskrit-Siddam</language>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:26">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0099c03" ed="T"/>
 <lb n="0099c04" ed="T"/>
 <lb n="0099c05" ed="T"/><cb:docNumber>No. 1221</cb:docNumber>
-<lb n="0099c06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><note n="0099044" resp="Taisho" type="orig" place="foot text">【原】東寺寶菩提院三密藏藏本</note><cb:jhead>青色大金剛藥叉辟鬼魔法<note place="inline">亦名辟鬼殊法</note></cb:jhead></cb:juan>
+<lb n="0099c06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><note 
+n="0099044" resp="Taisho" type="orig" place="foot text">【原】東寺寶菩提院三密藏藏本</note><cb:jhead>青色大金剛藥叉辟鬼魔法<note place="inline">亦名辟鬼殊法</note></cb:jhead></cb:juan>
 <lb n="0099c07" ed="T"/>
 <lb n="0099c08" ed="T"/><byline cb:type="author">鮫龍洞阿闍梨位空蜝述</byline>
 <lb n="0099c09" ed="T"/><cb:div type="jing"><p xml:id="pT21p0099c0901">□根本印。二手合掌，以二受指屈入掌中二
@@ -140,7 +141,8 @@
 <lb n="0100b11" ed="T"/>
 <lb n="0100b12" ed="T"/>
 <lb n="0100b13" ed="T"/>
-<lb n="0100b14" ed="T"/><note n="0100b1401" resp="CBETA" type="add">此圖在原書中跨越中、下兩欄。</note><figure><graphic url="../figures/T/T21p0100_01.gif"/></figure></p>
+<lb n="0100b14" ed="T"/><note 
+n="0100b1401" resp="CBETA" type="add">此圖在原書中跨越中、下兩欄。</note><figure><graphic url="../figures/T/T21p0100_01.gif"/></figure></p>
 <lb n="0100b15" ed="T"/>
 <lb n="0100b16" ed="T"/>
 <lb n="0100b17" ed="T"/>
@@ -214,7 +216,11 @@
 <lb n="0101a25" ed="T"/>藥叉執三股刃。此四大藥叉□足爪皆長，利
 <lb n="0101a26" ed="T"/>如釰。首各將八萬□□□叉眷屬護持南閻
 <lb n="0101a27" ed="T"/>浮提一切眾生。□此曼荼羅已，日月蝕時，俄
-<lb n="0101a28" ed="T"/>作一小壇，莊嚴此曼荼羅，隨力所堪<note n="0101a2801" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0101a2801"><lem resp="CBETA" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>備飲
+<lb n="0101a28" ed="T"/>作一小壇，莊嚴此曼荼羅，隨力所堪<note 
+n="0101a2801" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0101a2801">
+  <lem resp="CBETA" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>備飲
 <lb n="0101a29" ed="T"/>食□□□□□□□，待日月復滿之時□□□
 <pb n="0101b" ed="T" xml:id="T21.1221.0101b"/>
 <lb n="0101b01" ed="T"/>□□□□食之者□□□□□若有行□□□

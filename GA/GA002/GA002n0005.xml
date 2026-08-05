@@ -2,78 +2,85 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="GA002n0005">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Zhongguo Fosi Shizhi Huikan</title>
-			<title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
-			<title level="m" xml:lang="zh-Hant">南朝佛寺志</title>
-			<title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 5 南朝佛寺志</title>
-			<title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 5 南朝佛寺志</title>
-			<author>清 孫文川撰　陳作霖編</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>2卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">GA</idno>.<idno type="vol">2</idno>.<idno type="no">5</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>中國佛寺史志彙刊</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
-			<p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【志彙】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2017-04-20">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Zhongguo Fosi Shizhi Huikan</title>
+      <title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
+      <title level="m" xml:lang="zh-Hant">南朝佛寺志</title>
+      <title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 5 南朝佛寺志</title>
+      <title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 5 南朝佛寺志</title>
+      <author>清 孫文川撰　陳作霖編</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">GA</idno>.<idno type="vol">2</idno>.<idno type="no">5</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>中國佛寺史志彙刊</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+      <p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【志彙】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2017-04-20">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="GA" xml:id="GA002.0005.0002a" n="0002a"/>
-<lb ed="GA" n="0002a01"/><cb:mulu type="卷" n="1"/><cb:div type="other"><cb:mulu type="其他" level="1">版本說明</cb:mulu><p xml:id="pGA002p0002a0101" style="margin-left:0em;text-indent:2em"><note n="0002a0101" resp="CBETA" type="add">此「版本說明」一文原為書本開頭無頁碼之插頁，今為標記架構上之需要移到此處，且以 p0002a 為虛擬頁欄碼。</note>南朝（四二〇～五八九）宋齊梁陳均都建康，兩晉佛法隆盛，南朝諸帝亦皆崇奉佛敎，據史書所載，
+<lb ed="GA" n="0002a01"/><cb:mulu type="卷" n="1"/>
+<cb:div type="other"><cb:mulu type="其他" level="1">版本說明</cb:mulu>
+<p xml:id="pGA002p0002a0101" style="margin-left:0em;text-indent:2em"><note 
+n="0002a0101" resp="CBETA" type="add">此「版本說明」一文原為書本開頭無頁碼之插頁，今為標記架構上之需要移到此處，且以 p0002a 為虛擬頁欄碼。</note>南朝（四二〇～五八九）宋齊梁陳均都建康，兩晉佛法隆盛，南朝諸帝亦皆崇奉佛敎，據史書所載，
 <lb ed="GA" n="0002a02"/>東晉明帝（司馬紹）、哀帝（司馬丕）、簡文帝（司馬昱）、孝武帝（司馬昌明）、劉宋武帝（劉
-<lb ed="GA" n="0002a03"/>裕）、明帝（劉彧）、齊武帝（蕭道<note n="0002a0301" resp="CBETA" type="add" note_key="GA002.0002a03.11">賾【CB】，頤【志彙】</note><app n="0002a0301"><lem wit="【CB】" resp="CBETA.ting">賾<note type="cf1">《南齊書》（武英殿二十四史本第3卷第1a頁）</note></lem><rdg wit="【志彙】">頤</rdg></app>），梁武帝（蕭衍）、簡文帝（蕭綱），陳武帝（陳覇先）等
+<lb ed="GA" n="0002a03"/>裕）、明帝（劉彧）、齊武帝（蕭道<note 
+n="0002a0301" resp="CBETA" type="add" note_key="GA002.0002a03.11">賾【CB】，頤【志彙】</note><app n="0002a0301">
+  <lem wit="【CB】" resp="CBETA.ting">賾<note type="cf1">《南齊書》（武英殿二十四史本第3卷第1a頁）</note></lem>
+  <rdg wit="【志彙】">頤</rdg>
+</app>），梁武帝（蕭衍）、簡文帝（蕭綱），陳武帝（陳覇先）等
 <lb ed="GA" n="0002a04"/>帝王造寺講經，捨身奉佛，「上有好者，下必有甚焉」，於是梵宇琳宮，遂遍布江東，形成當日
 <lb ed="GA" n="0002a05"/>南朝首都佛敎建築之燦爛史蹟。唐杜牧「江南春時」詠金陵詩云：『十里鶯啼綠映紅，水村山郭
 <lb ed="GA" n="0002a06"/>酒旗風；南朝四百八十寺，多少樓臺煙雨中。』其盛況可知。楊衍之「洛陽伽藍記」，記北朝佛
@@ -89,31 +96,67 @@
 <lb ed="GA" n="0002a16"/>後來沿革，亦予著錄。茲據國立中央圖書館所藏淸末上元孫氏原刋本景印。</p></cb:div>
 <pb ed="GA" xml:id="GA002.0005.0003a" n="0003a"/>
 <lb ed="GA" n="0003a01"/><cb:div type="other"><cb:mulu type="其他" level="1">凡例</cb:mulu><head>凡例</head>
-<lb ed="GA" n="0003a02"/><list style="margin-left:1em"><item xml:id="itemGA002p0003a0201"><note n="0003a0201" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0003a0201"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>是編為上元孫伯澂先生所蒐采未及排葺而遽歸
+<lb ed="GA" n="0003a02"/><list style="margin-left:1em">
+  <item xml:id="itemGA002p0003a0201"><note 
+n="0003a0201" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0003a0201">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>是編為上元孫伯澂先生所蒐采未及排葺而遽歸
 <lb ed="GA" n="0003a03"/>道山其遺稿在貴池劉聚卿觀察處作霖見面索得
 <lb ed="GA" n="0003a04"/>之於叢殘蠹蝕中編纂成帙閒有辨駁即注其下燈
 <lb ed="GA" n="0003a05"/>窻雨夕目眵手胼閱五月而告竣先生始事之勤與
 <lb ed="GA" n="0003a06"/>未竟之志均可以無憾矣</item>
-<lb ed="GA" n="0003a07"/><item xml:id="itemGA002p0003a0701"><note n="0003a0701" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0003a0701"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>杜樊川金陵詩有云南朝四百八十寺極言寺之多
+<lb ed="GA" n="0003a07"/>
+  <item xml:id="itemGA002p0003a0701"><note 
+n="0003a0701" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0003a0701">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>杜樊川金陵詩有云南朝四百八十寺極言寺之多
 <lb ed="GA" n="0003a08"/>也今蒐集諸書僅得二百二十有六寺尚未及半年
 <lb ed="GA" n="0003a09"/>湮代遠古迹多佚良用慨然志名南朝所以存其實
 <pb ed="GA" xml:id="GA002.0005.0004a" n="0004a"/>
 <lb ed="GA" n="0004a01"/>云</item>
-<lb ed="GA" n="0004a02"/><item xml:id="itemGA002p0004a0201"><note n="0004a0201" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0201"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>寺多同名非確在金陵者概從割愛至六朝以後所
+<lb ed="GA" n="0004a02"/>
+  <item xml:id="itemGA002p0004a0201"><note 
+n="0004a0201" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0201">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>寺多同名非確在金陵者概從割愛至六朝以後所
 <lb ed="GA" n="0004a03"/>創之寺雖極壯麗亦不敢濫登以自亂其例焉</item>
-<lb ed="GA" n="0004a04"/><item xml:id="itemGA002p0004a0401"><note n="0004a0401" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0401"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>寺名有改易者在六朝時則用大字標於下在六朝
+<lb ed="GA" n="0004a04"/>
+  <item xml:id="itemGA002p0004a0401"><note 
+n="0004a0401" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0401">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>寺名有改易者在六朝時則用大字標於下在六朝
 <lb ed="GA" n="0004a05"/>後則用小字注於旁</item>
-<lb ed="GA" n="0004a06"/><item xml:id="itemGA002p0004a0601"><note n="0004a0601" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0601"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>古人著作必推原其所本以楊升菴之博洽尚有杜
+<lb ed="GA" n="0004a06"/>
+  <item xml:id="itemGA002p0004a0601"><note 
+n="0004a0601" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0601">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>古人著作必推原其所本以楊升菴之博洽尚有杜
 <lb ed="GA" n="0004a07"/>撰之疑此攷證一門不可不詳也惟所引各書只取
 <lb ed="GA" n="0004a08"/>與寺相關原文太長者概從刪節</item>
-<lb ed="GA" n="0004a09"/><item xml:id="itemGA002p0004a0901"><note n="0004a0901" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0901"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>慧皎所撰高僧傳中載金陵寺名甚多惜止於梁初
+<lb ed="GA" n="0004a09"/>
+  <item xml:id="itemGA002p0004a0901"><note 
+n="0004a0901" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0004a0901">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>慧皎所撰高僧傳中載金陵寺名甚多惜止於梁初
 <pb ed="GA" xml:id="GA002.0005.0005a" n="0005a"/>
 <lb ed="GA" n="0005a01"/>武帝中年以後及陳皆未收實為缺憾幸許氏建康
 <lb ed="GA" n="0005a02"/>實錄列寺亦眾密於宋梁而疏於吳晉齊陳可以互
 <lb ed="GA" n="0005a03"/>相補綴二書葢是編漁獵之淵藪也</item>
-<lb ed="GA" n="0005a04"/><item xml:id="itemGA002p0005a0401"><note n="0005a0401" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0005a0401"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>南朝諸史與金陵類書下逮名家藝文凡涉及佛寺
+<lb ed="GA" n="0005a04"/>
+  <item xml:id="itemGA002p0005a0401"><note 
+n="0005a0401" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0005a0401">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>南朝諸史與金陵類書下逮名家藝文凡涉及佛寺
 <lb ed="GA" n="0005a05"/>者有見必錄正不獨六朝事迹編類景定至正二志
-<lb ed="GA" n="0005a06"/>金陵梵刹志數種而已</item></list></cb:div>
+<lb ed="GA" n="0005a06"/>金陵梵刹志數種而已</item>
+</list></cb:div>
 <lb ed="GA" n="0005a07"/>
 <lb ed="GA" n="0005a08"/>
 <lb ed="GA" n="0005a09"/>
@@ -129,33 +172,183 @@
 <lb ed="GA" n="0006a09"/>
 <pb ed="GA" xml:id="GA002.0005.0007a" n="0007a"/>
 <lb ed="GA" n="0007a01"/><cb:div type="other"><head>南朝佛寺志卷上目錄</head>
-<lb ed="GA" n="0007a02"/><table cols="4" rend="no-border" style="margin-left:2em"><row><cell>建初寺</cell><cell>長干寺</cell><cell>高座寺</cell><cell>白馬寺</cell></row>
-<lb ed="GA" n="0007a03"/><row><cell>延興寺</cell><cell>建福寺</cell><cell>莊嚴寺</cell><cell>棲禪寺</cell></row>
-<lb ed="GA" n="0007a04"/><row><cell>何皇后尼寺</cell><cell>建興寺</cell><cell>彭城寺</cell><cell>東安寺</cell></row>
-<lb ed="GA" n="0007a05"/><row><cell>祗洹寺</cell><cell>瓦官寺</cell><cell>波提寺</cell><cell>臨秦寺</cell></row>
-<lb ed="GA" n="0007a06"/><row><cell>安樂寺</cell><cell>新亭寺</cell><cell>中寺</cell><cell>冶城寺</cell></row>
-<lb ed="GA" n="0007a07"/><row><cell>太后寺</cell><cell>法王寺</cell><cell>白塔寺</cell><cell>枳園寺</cell></row>
-<lb ed="GA" n="0007a08"/><row><cell>越城寺</cell><cell>開福寺</cell><cell>歸善寺</cell><cell>鬬場寺</cell></row>
-<lb ed="GA" n="0007a09"/><row><cell>崇明寺</cell><cell>延賢寺</cell><cell>青園寺</cell><cell>禪眾寺</cell></row>
+<lb ed="GA" n="0007a02"/><table cols="4" rend="no-border" style="margin-left:2em">
+  <row>
+    <cell>建初寺</cell>
+    <cell>長干寺</cell>
+    <cell>高座寺</cell>
+    <cell>白馬寺</cell>
+  </row>
+<lb ed="GA" n="0007a03"/>
+  <row>
+    <cell>延興寺</cell>
+    <cell>建福寺</cell>
+    <cell>莊嚴寺</cell>
+    <cell>棲禪寺</cell>
+  </row>
+<lb ed="GA" n="0007a04"/>
+  <row>
+    <cell>何皇后尼寺</cell>
+    <cell>建興寺</cell>
+    <cell>彭城寺</cell>
+    <cell>東安寺</cell>
+  </row>
+<lb ed="GA" n="0007a05"/>
+  <row>
+    <cell>祗洹寺</cell>
+    <cell>瓦官寺</cell>
+    <cell>波提寺</cell>
+    <cell>臨秦寺</cell>
+  </row>
+<lb ed="GA" n="0007a06"/>
+  <row>
+    <cell>安樂寺</cell>
+    <cell>新亭寺</cell>
+    <cell>中寺</cell>
+    <cell>冶城寺</cell>
+  </row>
+<lb ed="GA" n="0007a07"/>
+  <row>
+    <cell>太后寺</cell>
+    <cell>法王寺</cell>
+    <cell>白塔寺</cell>
+    <cell>枳園寺</cell>
+  </row>
+<lb ed="GA" n="0007a08"/>
+  <row>
+    <cell>越城寺</cell>
+    <cell>開福寺</cell>
+    <cell>歸善寺</cell>
+    <cell>鬬場寺</cell>
+  </row>
+<lb ed="GA" n="0007a09"/>
+  <row>
+    <cell>崇明寺</cell>
+    <cell>延賢寺</cell>
+    <cell>青園寺</cell>
+    <cell>禪眾寺</cell>
+  </row>
 <pb ed="GA" xml:id="GA002.0005.0008a" n="0008a"/>
-<lb ed="GA" n="0008a01"/><row><cell>護身寺</cell><cell>耆闍寺</cell><cell>招提寺</cell><cell>簡淨寺</cell></row>
-<lb ed="GA" n="0008a02"/><row><cell>天寶寺</cell><cell>長壽寺</cell><cell>祈澤寺</cell><cell>平陸寺</cell></row>
-<lb ed="GA" n="0008a03"/><row><cell>高臺寺</cell><cell>罽賓寺</cell><cell>道林寺</cell><cell>竹林寺</cell></row>
-<lb ed="GA" n="0008a04"/><row><cell>迦毗羅寺</cell><cell>定林寺</cell><cell>嚴林寺</cell><cell>宋興寺</cell></row>
-<lb ed="GA" n="0008a05"/><row><cell>報恩寺</cell><cell>青園尼寺</cell><cell>南園寺</cell><cell>龍華寺</cell></row>
-<lb ed="GA" n="0008a06"/><row><cell>南林寺</cell><cell>永豐寺</cell><cell>崇福寺</cell><cell>宋熙寺</cell></row>
-<lb ed="GA" n="0008a07"/><row><cell>善居寺</cell><cell>竹園寺</cell><cell>鐵索羅寺</cell><cell>上定林寺</cell></row>
-<lb ed="GA" n="0008a08"/><row><cell>靈鷲寺</cell><cell>王國尼寺</cell><cell>延壽寺</cell><cell>烏衣寺</cell></row>
-<lb ed="GA" n="0008a09"/><row><cell>齊福寺</cell><cell>天竺寺</cell><cell>禪岡寺</cell><cell>司徒寺</cell></row>
+<lb ed="GA" n="0008a01"/>
+  <row>
+    <cell>護身寺</cell>
+    <cell>耆闍寺</cell>
+    <cell>招提寺</cell>
+    <cell>簡淨寺</cell>
+  </row>
+<lb ed="GA" n="0008a02"/>
+  <row>
+    <cell>天寶寺</cell>
+    <cell>長壽寺</cell>
+    <cell>祈澤寺</cell>
+    <cell>平陸寺</cell>
+  </row>
+<lb ed="GA" n="0008a03"/>
+  <row>
+    <cell>高臺寺</cell>
+    <cell>罽賓寺</cell>
+    <cell>道林寺</cell>
+    <cell>竹林寺</cell>
+  </row>
+<lb ed="GA" n="0008a04"/>
+  <row>
+    <cell>迦毗羅寺</cell>
+    <cell>定林寺</cell>
+    <cell>嚴林寺</cell>
+    <cell>宋興寺</cell>
+  </row>
+<lb ed="GA" n="0008a05"/>
+  <row>
+    <cell>報恩寺</cell>
+    <cell>青園尼寺</cell>
+    <cell>南園寺</cell>
+    <cell>龍華寺</cell>
+  </row>
+<lb ed="GA" n="0008a06"/>
+  <row>
+    <cell>南林寺</cell>
+    <cell>永豐寺</cell>
+    <cell>崇福寺</cell>
+    <cell>宋熙寺</cell>
+  </row>
+<lb ed="GA" n="0008a07"/>
+  <row>
+    <cell>善居寺</cell>
+    <cell>竹園寺</cell>
+    <cell>鐵索羅寺</cell>
+    <cell>上定林寺</cell>
+  </row>
+<lb ed="GA" n="0008a08"/>
+  <row>
+    <cell>靈鷲寺</cell>
+    <cell>王國尼寺</cell>
+    <cell>延壽寺</cell>
+    <cell>烏衣寺</cell>
+  </row>
+<lb ed="GA" n="0008a09"/>
+  <row>
+    <cell>齊福寺</cell>
+    <cell>天竺寺</cell>
+    <cell>禪岡寺</cell>
+    <cell>司徒寺</cell>
+  </row>
 <pb ed="GA" xml:id="GA002.0005.0009a" n="0009a"/>
-<lb ed="GA" n="0009a01"/><row><cell>法輪寺</cell><cell>南澗寺</cell><cell>大莊嚴寺</cell><cell>幽棲寺</cell></row>
-<lb ed="GA" n="0009a02"/><row><cell>何園寺</cell><cell>靈曜寺</cell><cell>多寶寺</cell><cell>北多寶寺</cell></row>
-<lb ed="GA" n="0009a03"/><row><cell>長樂寺</cell><cell>藥王寺</cell><cell>棲元寺</cell><cell>新安寺</cell></row>
-<lb ed="GA" n="0009a04"/><row><cell>外國寺</cell><cell>禪林寺</cell><cell>湘宮寺</cell><cell>興業寺</cell></row>
-<lb ed="GA" n="0009a05"/><row><cell>永安寺</cell><cell>天保寺</cell><cell>正勝寺</cell><cell>興皇寺</cell></row>
-<lb ed="GA" n="0009a06"/><row><cell>靈根寺</cell><cell>靈基寺</cell><cell>延祚寺</cell><cell>閑心寺</cell></row>
-<lb ed="GA" n="0009a07"/><row><cell>正覺寺</cell><cell>龍淵寺</cell><cell>靈味寺</cell><cell>天王寺</cell></row>
-<lb ed="GA" n="0009a08"/><row><cell>曠野寺</cell><cell>隱靜寺</cell><cell cols="2"/></row></table></cb:div>
+<lb ed="GA" n="0009a01"/>
+  <row>
+    <cell>法輪寺</cell>
+    <cell>南澗寺</cell>
+    <cell>大莊嚴寺</cell>
+    <cell>幽棲寺</cell>
+  </row>
+<lb ed="GA" n="0009a02"/>
+  <row>
+    <cell>何園寺</cell>
+    <cell>靈曜寺</cell>
+    <cell>多寶寺</cell>
+    <cell>北多寶寺</cell>
+  </row>
+<lb ed="GA" n="0009a03"/>
+  <row>
+    <cell>長樂寺</cell>
+    <cell>藥王寺</cell>
+    <cell>棲元寺</cell>
+    <cell>新安寺</cell>
+  </row>
+<lb ed="GA" n="0009a04"/>
+  <row>
+    <cell>外國寺</cell>
+    <cell>禪林寺</cell>
+    <cell>湘宮寺</cell>
+    <cell>興業寺</cell>
+  </row>
+<lb ed="GA" n="0009a05"/>
+  <row>
+    <cell>永安寺</cell>
+    <cell>天保寺</cell>
+    <cell>正勝寺</cell>
+    <cell>興皇寺</cell>
+  </row>
+<lb ed="GA" n="0009a06"/>
+  <row>
+    <cell>靈根寺</cell>
+    <cell>靈基寺</cell>
+    <cell>延祚寺</cell>
+    <cell>閑心寺</cell>
+  </row>
+<lb ed="GA" n="0009a07"/>
+  <row>
+    <cell>正覺寺</cell>
+    <cell>龍淵寺</cell>
+    <cell>靈味寺</cell>
+    <cell>天王寺</cell>
+  </row>
+<lb ed="GA" n="0009a08"/>
+  <row>
+    <cell>曠野寺</cell>
+    <cell>隱靜寺</cell>
+    <cell cols="2"/>
+  </row>
+</table></cb:div>
 <lb ed="GA" n="0009a09"/>
 <pb ed="GA" xml:id="GA002.0005.0010a" n="0010a"/>
 <lb ed="GA" n="0010a01"/>
@@ -169,7 +362,8 @@
 <lb ed="GA" n="0010a09"/>
 <pb ed="GA" xml:id="GA002.0005.0011a" n="0011a"/>
 <lb ed="GA" n="0011a01"/><cb:juan fun="open" n="1"><cb:jhead>南朝佛寺志卷上</cb:jhead></cb:juan>
-<lb ed="GA" n="0011a02"/><byline cb:type="author">上元孫文川伯澂葺述</byline><byline cb:type="editor">江甯陳作霖伯雨編纂</byline>
+<lb ed="GA" n="0011a02"/><byline cb:type="author">上元孫文川伯澂葺述</byline>
+<byline cb:type="editor">江甯陳作霖伯雨編纂</byline>
 <lb ed="GA" n="0011a03"/><cb:div type="other"><cb:mulu type="其他" level="1">吳</cb:mulu><head>吳</head>
 <lb ed="GA" n="0011a04"/><cb:div type="other"><cb:mulu type="其他" level="2">建初寺　大市寺</cb:mulu><head>建初寺　大市寺<note place="inline">法性尼寺　石佛院</note></head>
 <lb ed="GA" n="0011a05"/><p xml:id="pGA002p0011a0501">建初寺在古宮城南七里<note place="inline">當今花盝岡之南</note>吳大帝赤烏十年
@@ -221,7 +415,11 @@
 <lb ed="GA" n="0016a01"/><p xml:id="pGA002p0016a0101" style="margin-left:1em">宋周應合景定建康志吳大帝赤烏十年為西竺康
 <lb ed="GA" n="0016a02"/>僧會建寺名建初宋有鳳翔集此山因建鳳皇臺於
 <lb ed="GA" n="0016a03"/>寺側</p>
-<lb ed="GA" n="0016a04"/><p xml:id="pGA002p0016a0401" style="margin-left:1em">晉京師建初寺支曇籥傳孝武帝<note n="0016a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0016a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>請出都止建初
+<lb ed="GA" n="0016a04"/><p xml:id="pGA002p0016a0401" style="margin-left:1em">晉京師建初寺支曇籥傳孝武帝<note 
+n="0016a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0016a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>請出都止建初
 <lb ed="GA" n="0016a05"/>寺帝從受五戒敬以師禮<note place="inline">傳所謂出都下都皆至京師建康也此六朝人語</note></p>
 <lb ed="GA" n="0016a06"/><p xml:id="pGA002p0016a0601" style="margin-left:1em">晉建康建初寺帛尸黎密傳永嘉中始到中國值亂
 <lb ed="GA" n="0016a07"/>仍過江止建初寺<note place="inline">六朝祚短一人每歴數朝傳標目以晉宋齊梁皆據其卒時言也</note></p>
@@ -299,7 +497,11 @@
 <lb ed="GA" n="0023a09"/>塔分入兩刹下及王侯妃主百姓富室所捨金銀環
 <pb ed="GA" xml:id="GA002.0005.0024a" n="0024a"/>
 <lb ed="GA" n="0024a01"/>釧等珍寶充積十一月二日寺僧又請帝於寺發般
-<lb ed="GA" n="0024a02"/>若經題爾夕二塔俱放光明<note n="0024a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0024a0201"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>鎮東將軍邵陵王綸
+<lb ed="GA" n="0024a02"/>若經題爾夕二塔俱放光明<note 
+n="0024a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0024a0201">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>鎮東將軍邵陵王綸
 <lb ed="GA" n="0024a03"/>製寺大功德碑文</p>
 <lb ed="GA" n="0024a04"/><p xml:id="pGA002p0024a0401" style="margin-left:1em">晉并州竺慧達傳本姓劉名薩阿西河離石人少好
 <lb ed="GA" n="0024a05"/>畋獵年三十一忽如暫死經日還蘇備見地獄苦報
@@ -322,14 +524,22 @@
 <lb ed="GA" n="0026a02"/>悝載像還至長干巷口牛不復行非人力所御乃任
 <lb ed="GA" n="0026a03"/>牛所之徑趣長干寺爾後一年許有臨海漁人張係
 <lb ed="GA" n="0026a04"/>世於海口得銅蓮花趺浮在水上即收送縣縣表上
-<lb ed="GA" n="0026a05"/>臺<note n="0026a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0026a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>使安像足下契然相應後有西域五僧詣悝云
+<lb ed="GA" n="0026a05"/>臺<note 
+n="0026a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0026a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>使安像足下契然相應後有西域五僧詣悝云
 <lb ed="GA" n="0026a06"/>昔於天竺得阿育王像至鄴遭亂藏置河邊王路既
 <lb ed="GA" n="0026a07"/>通尋覓失所近得夢云像已出江東為高悝所得故
 <lb ed="GA" n="0026a08"/>遠涉山海欲一見禮拜耳悝即引至長干五人見像
 <lb ed="GA" n="0026a09"/>欷歔流涕像即放光照於堂內五人云本有圓光今
 <pb ed="GA" xml:id="GA002.0005.0027a" n="0027a"/>
 <lb ed="GA" n="0027a01"/>在遠處亦尋當至迨咸安元年交州合浦縣采珠人
-<lb ed="GA" n="0027a02"/>董宗之於海底得一佛光刺史表上簡文帝<note n="0027a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0027a0201"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>施此
+<lb ed="GA" n="0027a02"/>董宗之於海底得一佛光刺史表上簡文帝<note 
+n="0027a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0027a0201">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>施此
 <lb ed="GA" n="0027a03"/>像孔穴懸同光色一種凡四十餘年東西禪感光趺
 <lb ed="GA" n="0027a04"/>方具達以刹像靈異倍加翹勵後東遊不知所終</p>
 <lb ed="GA" n="0027a05"/><p xml:id="pGA002p0027a0501" style="margin-left:1em">晉於濳青山寺竺法曠傳晉孝武要請出京止於長
@@ -356,7 +566,11 @@
 <lb ed="GA" n="0029a06"/><p xml:id="pGA002p0029a0601" style="margin-left:1em">陳徐陵集有長干寺眾食碑</p>
 <lb ed="GA" n="0029a07"/><p xml:id="pGA002p0029a0701" style="margin-left:1em">明葛寅亮金陵梵刹志大報恩寺即古長干寺在府
 <lb ed="GA" n="0029a08"/>城南門外宋天禧二年改天禧寺寺有阿育王塔祥
-<lb ed="GA" n="0029a09"/>符中賜號聖感元名慈恩旌忠寺明永樂十年<note n="0029a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0029a0901"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>工
+<lb ed="GA" n="0029a09"/>符中賜號聖感元名慈恩旌忠寺明永樂十年<note 
+n="0029a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0029a0901">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>工
 <pb ed="GA" xml:id="GA002.0005.0030a" n="0030a"/>
 <lb ed="GA" n="0030a01"/>部重建至宣德六年始成賜今額增塔為九級八面
 <lb ed="GA" n="0030a02"/>金碧琉璃千奇萬麗</p></cb:div>
@@ -500,7 +714,11 @@
 <pb ed="GA" xml:id="GA002.0005.0044a" n="0044a"/>
 <lb ed="GA" n="0044a01"/>圃造莊嚴寺改此為謝鎮西寺至陳太建元年寺為
 <lb ed="GA" n="0044a02"/>延火所燒後五年豫州刺史程文秀更加修復孝宣
-<lb ed="GA" n="0044a03"/>帝<note n="0044a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0044a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>改興嚴寺至今也</p>
+<lb ed="GA" n="0044a03"/>帝<note 
+n="0044a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0044a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>改興嚴寺至今也</p>
 <lb ed="GA" n="0044a04"/><p xml:id="pGA002p0044a0401" style="margin-left:1em">景定建康志今宮城西北興嚴寺前有溝迤邐至閃
 <lb ed="GA" n="0044a05"/>駕橋<note place="inline">今鴿子橋</note>清化市東乃古運瀆</p>
 <lb ed="GA" n="0044a06"/><p xml:id="pGA002p0044a0601" style="margin-left:1em">宋河西曇無讖傳常遊止塔寺以居士自卑初出彌
@@ -563,7 +781,11 @@
 <lb ed="GA" n="0050a03"/><p xml:id="pGA002p0050a0301" style="margin-left:1em">宋京師彭城寺僧覆傳宋明帝深加器重敕為彭城
 <lb ed="GA" n="0050a04"/>寺主</p>
 <lb ed="GA" n="0050a05"/><p xml:id="pGA002p0050a0501" style="margin-left:1em">齊上定林寺釋道遠傳宋大明中渡江止彭城寺</p>
-<lb ed="GA" n="0050a06"/><p xml:id="pGA002p0050a0601" style="margin-left:1em">齊京師天保寺釋道盛傳宋明帝<note n="0050a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0050a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>令下都止彭城
+<lb ed="GA" n="0050a06"/><p xml:id="pGA002p0050a0601" style="margin-left:1em">齊京師天保寺釋道盛傳宋明帝<note 
+n="0050a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0050a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>令下都止彭城
 <lb ed="GA" n="0050a07"/>寺謝超宗一遇即敬以師禮</p>
 <lb ed="GA" n="0050a08"/><p xml:id="pGA002p0050a0801" style="margin-left:1em">齊琅邪攝山釋法度傳時有彭城寺慧開幼而神氣
 <lb ed="GA" n="0050a09"/>開朗早彰令譽立年便講</p>
@@ -572,7 +794,11 @@
 <lb ed="GA" n="0051a02"/>沈約集齊禪林寺尼淨秀行狀上<note place="inline">稱尼為上猶今稱僧為上也</note>以
 <lb ed="GA" n="0051a03"/>天監五年六月十七日得病苦心悶不下飲彭城寺
 <lb ed="GA" n="0051a04"/>令法師以六月十九日夜得夢見一處謂是兜率天
-<lb ed="GA" n="0051a05"/>上住止嚴麗非世<note n="0051a0501" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0051a0501"><lem wit="【CB】" resp="CBETA.maha">間</lem><rdg wit="【志彙】">閒</rdg></app>比云此是上住處</p>
+<lb ed="GA" n="0051a05"/>上住止嚴麗非世<note 
+n="0051a0501" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0051a0501">
+  <lem wit="【CB】" resp="CBETA.maha">間</lem>
+  <rdg wit="【志彙】">閒</rdg>
+</app>比云此是上住處</p>
 <lb ed="GA" n="0051a06"/><p xml:id="pGA002p0051a0601" style="margin-left:1em">宋京師釋僧亮傳取湘州銅鑄丈六金像唯燄光未
 <lb ed="GA" n="0051a07"/>備宋文帝為造金薄圓光安置彭城寺至宋泰始中
 <lb ed="GA" n="0051a08"/>明帝移湘宮寺</p></cb:div>
@@ -633,7 +859,11 @@
 <lb ed="GA" n="0057a03"/>此寺義勸泰以果竹園六十畝施以為幽冥之佑泰
 <lb ed="GA" n="0057a04"/>從之時祗洹寺又有釋僧濬善三論為宋文所重</p>
 <lb ed="GA" n="0057a05"/><p xml:id="pGA002p0057a0501" style="margin-left:1em">宋祗洹寺求那跋摩傳跋摩以元嘉八年正月達於
-<lb ed="GA" n="0057a06"/>建業文帝勞問殷勤<note n="0057a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0057a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>住祗洹寺供給隆厚俄而於
+<lb ed="GA" n="0057a06"/>建業文帝勞問殷勤<note 
+n="0057a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0057a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>住祗洹寺供給隆厚俄而於
 <lb ed="GA" n="0057a07"/>寺開講法華及十地既終之後趺坐䋲牀似若入定
 <lb ed="GA" n="0057a08"/>即於南林戒壇前依外國闍毘之仍於其處起立白
 <lb ed="GA" n="0057a09"/>塔<note place="inline">案祗洹改名白塔即由於此又至正新志云永明二年齊太祖為此邱法願造寺於地得外國磚為
@@ -660,7 +890,11 @@
 <pb ed="GA" xml:id="GA002.0005.0060a" n="0060a"/>
 <lb ed="GA" n="0060a01"/>誦經十餘萬言蔬食苦行有至德焉</p>
 <lb ed="GA" n="0060a02"/><p xml:id="pGA002p0060a0201" style="margin-left:1em">齊山陰法華寺釋惠基傳初隨慧義法師義嘉其神
-<lb ed="GA" n="0060a03"/>采為啟宋文帝求度出家即<note n="0060a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0060a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>於祗洹寺設會<note place="inline">案高僧傳
+<lb ed="GA" n="0060a03"/>采為啟宋文帝求度出家即<note 
+n="0060a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0060a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>於祗洹寺設會<note place="inline">案高僧傳
 <lb ed="GA" n="0060a04"/>所載高僧止祗洹寺者皆在宋時齊代以下遂無聞焉葢寺已更名故也</note></p>
 <lb ed="GA" n="0060a05"/><p xml:id="pGA002p0060a0501" style="margin-left:1em">齊書五行志宋泰豫元年京師祗洹寺皁莢樹枯死
 <lb ed="GA" n="0060a06"/>昇明末更生枝葉</p>
@@ -683,7 +917,11 @@
 <lb ed="GA" n="0062a03"/>貢玉像顧長康所畫維摩圖謂之三絕而戴顒釋洪造
 <lb ed="GA" n="0062a04"/>像及張僧繇畫壁不與焉晉恭帝步迎佛像過為卑諂
 <lb ed="GA" n="0062a05"/>而齊東昏侯毀玉像為潘<reg>妃</reg>釵釧瀆佛甚矣梁時出寺
-<lb ed="GA" n="0062a06"/>塔舍利<note n="0062a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0062a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>市數百家宅地造諸臺殿並瑞像就建瓦官
+<lb ed="GA" n="0062a06"/>塔舍利<note 
+n="0062a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0062a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>市數百家宅地造諸臺殿並瑞像就建瓦官
 <lb ed="GA" n="0062a07"/>閣高三百四十尺陳太建中雷震毁寺重門無多壞損
 <lb ed="GA" n="0062a08"/>歷代高僧如僧敷道壹道祖慧璩法和慧果僧導寶意
 <lb ed="GA" n="0062a09"/>道𤥎道宗超度慧重道親慧邃輩住持此寺踵相接也
@@ -786,7 +1024,11 @@
 <lb ed="GA" n="0072a06"/>流為學者所重</p>
 <lb ed="GA" n="0072a07"/><p xml:id="pGA002p0072a0701" style="margin-left:1em">齊鍾山靈曜寺釋志道傳時京師瓦官寺有超度者
 <lb ed="GA" n="0072a08"/>亦善十誦及四分著律例七卷云</p>
-<lb ed="GA" n="0072a09"/><p xml:id="pGA002p0072a0901" style="margin-left:1em">齊瓦官寺慧重傳大明六年<note n="0072a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0072a0901"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>於新安寺出家後移
+<lb ed="GA" n="0072a09"/><p xml:id="pGA002p0072a0901" style="margin-left:1em">齊瓦官寺慧重傳大明六年<note 
+n="0072a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0072a0901">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>於新安寺出家後移
 <pb ed="GA" xml:id="GA002.0005.0073a" n="0073a"/>
 <lb ed="GA" n="0073a01"/>止瓦官禪房時瓦官復有慧覺敦慧重之業</p>
 <lb ed="GA" n="0073a02"/><p xml:id="pGA002p0073a0201" style="margin-left:1em">齊齊隆寺釋法饒傳後瓦官寺僧道親祖述宣唱</p>
@@ -862,7 +1104,11 @@
 <lb ed="GA" n="0080a02"/>讀經受業於宣暢二師</p>
 <lb ed="GA" n="0080a03"/><p xml:id="pGA002p0080a0301" style="margin-left:1em">南史周續之傳宋武帝北討世子居守迎續之館於
 <lb ed="GA" n="0080a04"/>安樂寺</p>
-<lb ed="GA" n="0080a05"/><p xml:id="pGA002p0080a0501" style="margin-left:1em">齊書薛淵傳車駕幸安樂寺淵從駕乘虜橋先是<note n="0080a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0080a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>
+<lb ed="GA" n="0080a05"/><p xml:id="pGA002p0080a0501" style="margin-left:1em">齊書薛淵傳車駕幸安樂寺淵從駕乘虜橋先是<note 
+n="0080a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0080a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>
 <lb ed="GA" n="0080a06"/>虜橋不得入仗為有司所奏免官</p>
 <lb ed="GA" n="0080a07"/><p xml:id="pGA002p0080a0701" style="margin-left:1em">景定建康志引名畫錄梁張僧繇金陵安樂寺壁畫
 <lb ed="GA" n="0080a08"/>四龍不點睛每云點之則飛人以為妄誕因請點之
@@ -896,22 +1142,42 @@
 <lb ed="GA" n="0083a06"/>謂故中興禪房猶有龍飛殿焉今之天安寺是也<note place="inline">案高
 <lb ed="GA" n="0083a07"/>僧傳言今皆為梁武帝時</note></p>
 <lb ed="GA" n="0083a08"/><p xml:id="pGA002p0083a0801" style="margin-left:1em">齊京師多寶寺釋頴傳元嘉末出都止新亭寺孝武
-<lb ed="GA" n="0083a09"/>南下改治此寺以穎學業兼明<note n="0083a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0083a0901"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>為都邑僧正</p>
+<lb ed="GA" n="0083a09"/>南下改治此寺以穎學業兼明<note 
+n="0083a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0083a0901">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>為都邑僧正</p>
 <pb ed="GA" xml:id="GA002.0005.0084a" n="0084a"/>
 <lb ed="GA" n="0084a01"/><p xml:id="pGA002p0084a0101" style="margin-left:1em">南史宋文帝諱日羣臣並於中興寺八關齋以食魚
 <lb ed="GA" n="0084a02"/>肉免侍中袁愍孫等官</p>
 <lb ed="GA" n="0084a03"/><p xml:id="pGA002p0084a0301" style="margin-left:1em">又天竺國傳宋前廢帝毁中興諸寺明帝定亂下令
 <lb ed="GA" n="0084a04"/>復修</p>
-<lb ed="GA" n="0084a05"/><p xml:id="pGA002p0084a0501" style="margin-left:1em">宋中興寺求那跋摩傳中興寺成<note n="0084a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0084a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>令移住為開三
+<lb ed="GA" n="0084a05"/><p xml:id="pGA002p0084a0501" style="margin-left:1em">宋中興寺求那跋摩傳中興寺成<note 
+n="0084a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0084a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>令移住為開三
 <lb ed="GA" n="0084a06"/>閒房</p>
 <lb ed="GA" n="0084a07"/><p xml:id="pGA002p0084a0701" style="margin-left:1em">宋壽春石礀寺僧導傳孝武即位遣使徵請翻然應
 <lb ed="GA" n="0084a08"/>詔止於京師中興寺鑾輿降蹕躬出候迎</p>
-<lb ed="GA" n="0084a09"/><p xml:id="pGA002p0084a0901" style="margin-left:1em">宋京師莊嚴寺僧璩傳孝武欽其風聞<note n="0084a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0084a0901"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>出京師為
+<lb ed="GA" n="0084a09"/><p xml:id="pGA002p0084a0901" style="margin-left:1em">宋京師莊嚴寺僧璩傳孝武欽其風聞<note 
+n="0084a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0084a0901">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>出京師為
 <pb ed="GA" xml:id="GA002.0005.0085a" n="0085a"/>
 <lb ed="GA" n="0085a01"/>僧正止於中興寺</p>
 <lb ed="GA" n="0085a02"/><p xml:id="pGA002p0085a0201" style="margin-left:1em">宋上定林寺曇摩蜜多傳初至京師止中興寺</p>
-<lb ed="GA" n="0085a03"/><p xml:id="pGA002p0085a0301" style="margin-left:1em">宋中興寺釋慧覽傳宋孝武起中興寺<note n="0085a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0085a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>令居住</p>
-<lb ed="GA" n="0085a04"/><p xml:id="pGA002p0085a0401" style="margin-left:1em">宋中興寺釋道温傳孝建初被<note n="0085a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0085a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>下都止中興寺大
+<lb ed="GA" n="0085a03"/><p xml:id="pGA002p0085a0301" style="margin-left:1em">宋中興寺釋慧覽傳宋孝武起中興寺<note 
+n="0085a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0085a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>令居住</p>
+<lb ed="GA" n="0085a04"/><p xml:id="pGA002p0085a0401" style="margin-left:1em">宋中興寺釋道温傳孝建初被<note 
+n="0085a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0085a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>下都止中興寺大
 <lb ed="GA" n="0085a05"/>明中敕為都邑僧正</p>
 <lb ed="GA" n="0085a06"/><p xml:id="pGA002p0085a0601" style="margin-left:1em">齊中興寺釋僧印傳東適京師止中興寺復陶思涅
 <lb ed="GA" n="0085a07"/>槃及其餘經典</p>
@@ -923,7 +1189,11 @@
 <lb ed="GA" n="0086a03"/>寺來忽然不見天下無此寺名乃改中興寺為天安
 <lb ed="GA" n="0086a04"/>寺</p>
 <lb ed="GA" n="0086a05"/><p xml:id="pGA002p0086a0501" style="margin-left:1em">齊中興寺釋僧鍾傳南遊京邑止中興寺永明中魏
-<lb ed="GA" n="0086a06"/>使李道固來聘會於寺內帝以鍾有德聲<note n="0086a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0086a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>令酬對</p>
+<lb ed="GA" n="0086a06"/>使李道固來聘會於寺內帝以鍾有德聲<note 
+n="0086a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0086a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>令酬對</p>
 <lb ed="GA" n="0086a07"/><p xml:id="pGA002p0086a0701" style="margin-left:1em">梁武帝集有天安寺蔬圃堂詩其起句云乘和蕩游
 <lb ed="GA" n="0086a08"/>豫此焉聊止息連山去無垠長洲望不極</p>
 <lb ed="GA" n="0086a09"/><p xml:id="pGA002p0086a0901" style="margin-left:1em">瘐肩吾集有蔬圃堂詩其警句云疏林不礙日涸浦
@@ -948,7 +1218,11 @@
 <lb ed="GA" n="0088a08"/>傍超璧水望異狹斜天監十五年上座僧慈等更揆
 <lb ed="GA" n="0088a09"/>日締架赫然霞立</p>
 <pb ed="GA" xml:id="GA002.0005.0089a" n="0089a"/>
-<lb ed="GA" n="0089a01"/><p xml:id="pGA002p0089a0101" style="margin-left:1em">宋中寺釋曇光傳宋明帝聞光唱導<note n="0089a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0089a0101"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>賜三衣瓶鉢
+<lb ed="GA" n="0089a01"/><p xml:id="pGA002p0089a0101" style="margin-left:1em">宋中寺釋曇光傳宋明帝聞光唱導<note 
+n="0089a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0089a0101">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>賜三衣瓶鉢
 <lb ed="GA" n="0089a02"/>後卒於中寺</p>
 <lb ed="GA" n="0089a03"/><p xml:id="pGA002p0089a0301" style="margin-left:1em">齊中寺僧法安傳永明中還都止中寺講涅槃維摩
 <lb ed="GA" n="0089a04"/>十地成實論相繼不絕永泰元年卒於中寺</p>
@@ -1285,7 +1559,11 @@
 <lb ed="GA" n="0122a05"/>寺今廢又志蠶室在縣北七里耆闍寺前紗市中</p>
 <lb ed="GA" n="0122a06"/><p xml:id="pGA002p0122a0601" style="margin-left:1em">齊齊隆寺釋法鏡傳其後耆闍寺道登祖述宣唱</p>
 <lb ed="GA" n="0122a07"/><p xml:id="pGA002p0122a0701" style="margin-left:1em">續高僧耆闍寺安廩傳太清元年始屆揚都武帝敬
-<lb ed="GA" n="0122a08"/>供相接陳永定初請入內殿長承戒範<note n="0122a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0122a0801"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>住耆闍寺
+<lb ed="GA" n="0122a08"/>供相接陳永定初請入內殿長承戒範<note 
+n="0122a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0122a0801">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>住耆闍寺
 <lb ed="GA" n="0122a09"/>馮訥古詩記陳張正見有陪衡陽王遊耆闍寺詩其
 <pb ed="GA" xml:id="GA002.0005.0123a" n="0123a"/>
 <lb ed="GA" n="0123a01"/>警句云兔苑移飛葢春城列玳簪階荒猶累玉地古
@@ -1446,7 +1724,11 @@
 <lb ed="GA" n="0138a06"/>卜山勢以元嘉十二年斬木刊石營建上寺</p>
 <lb ed="GA" n="0138a07"/><p xml:id="pGA002p0138a0701" style="margin-left:1em">宋祗洹求那跋摩傳其年夏在定林下寺安居時有
 <lb ed="GA" n="0138a08"/>信者采花布席跋摩所坐華彩更鮮</p>
-<lb ed="GA" n="0138a09"/><p xml:id="pGA002p0138a0901" style="margin-left:1em">宋定林寺僧鏡傳宋世祖籍甚風采<note n="0138a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0138a0901"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>出京師止定
+<lb ed="GA" n="0138a09"/><p xml:id="pGA002p0138a0901" style="margin-left:1em">宋定林寺僧鏡傳宋世祖籍甚風采<note 
+n="0138a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0138a0901">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>出京師止定
 <pb ed="GA" xml:id="GA002.0005.0139a" n="0139a"/>
 <lb ed="GA" n="0139a01"/>林下寺</p>
 <lb ed="GA" n="0139a02"/><p xml:id="pGA002p0139a0201" style="margin-left:1em">宋河西曇無讖傳又於鍾山定林寺譯出佛母泥洹
@@ -1558,7 +1840,11 @@
 <lb ed="GA" n="0149a08"/><p xml:id="pGA002p0149a0801" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0149a09"/><p xml:id="pGA002p0149a0901" style="margin-left:1em">宋道林寺畺良耶舍傳天竺僧伽羅多哆以宋景平
 <pb ed="GA" xml:id="GA002.0005.0150a" n="0150a"/>
-<lb ed="GA" n="0150a01"/>之末來至京師乞食人<note n="0150a0101" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0150a0101"><lem wit="【CB】" resp="CBETA.maha">間</lem><rdg wit="【志彙】">閒</rdg></app>宴坐林下元嘉十年卜居
+<lb ed="GA" n="0150a01"/>之末來至京師乞食人<note 
+n="0150a0101" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0150a0101">
+  <lem wit="【CB】" resp="CBETA.maha">間</lem>
+  <rdg wit="【志彙】">閒</rdg>
+</app>宴坐林下元嘉十年卜居
 <lb ed="GA" n="0150a02"/>鍾山之陽翦棘開榛造立精舍即宋熙是也</p>
 <lb ed="GA" n="0150a03"/><p xml:id="pGA002p0150a0301" style="margin-left:1em">宋上定林寺曇摩蜜多傳元嘉十九年七月六日卒
 <lb ed="GA" n="0150a04"/>春秋八十有七仍葬於鍾山宋熙寺前</p>
@@ -1840,7 +2126,11 @@
 <pb ed="GA" xml:id="GA002.0005.0178a" n="0178a"/>
 <lb ed="GA" n="0178a01"/>陳永定二年高祖屢幸寺捨身發金光明經題并設無
 <lb ed="GA" n="0178a02"/>碍大會顏晃因甘露降寺中遂獻甘露頌宣帝太建十
-<lb ed="GA" n="0178a03"/>年雷震莊嚴寺露盤逮隋時漸<note n="0178a0301" resp="CBETA" type="add">圮【CB】，圯【志彙】</note><app n="0178a0301"><lem wit="【CB】" resp="CBETA.maha">圮</lem><rdg wit="【志彙】">圯</rdg></app>唐天寶中乃重修云</p>
+<lb ed="GA" n="0178a03"/>年雷震莊嚴寺露盤逮隋時漸<note 
+n="0178a0301" resp="CBETA" type="add">圮【CB】，圯【志彙】</note><app n="0178a0301">
+  <lem wit="【CB】" resp="CBETA.maha">圮</lem>
+  <rdg wit="【志彙】">圯</rdg>
+</app>唐天寶中乃重修云</p>
 <lb ed="GA" n="0178a04"/><p xml:id="pGA002p0178a0401" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0178a05"/><p xml:id="pGA002p0178a0501" style="margin-left:1em">建康實錄宋大明中路太后造莊嚴寺<note place="inline">詳見上謝寺</note>梁天
 <lb ed="GA" n="0178a06"/>監中置小莊嚴寺<note place="inline">詳見下</note></p>
@@ -1850,7 +2140,11 @@
 <pb ed="GA" xml:id="GA002.0005.0179a" n="0179a"/>
 <lb ed="GA" n="0179a01"/>莊嚴寺復有曇濟曇宗等並以學業才力見重一時</p>
 <lb ed="GA" n="0179a02"/><p xml:id="pGA002p0179a0201" style="margin-left:1em">宋京師何園寺釋慧亮傳泰始之初莊嚴大集簡閱
-<lb ed="GA" n="0179a03"/>義士上首千人<note n="0179a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0179a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>亮與斌遞為法主</p>
+<lb ed="GA" n="0179a03"/>義士上首千人<note 
+n="0179a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0179a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>亮與斌遞為法主</p>
 <lb ed="GA" n="0179a04"/><p xml:id="pGA002p0179a0401" style="margin-left:1em">宋京師莊嚴寺釋道慧傳慧以母老欲存資奉乃移
 <lb ed="GA" n="0179a05"/>憩莊嚴寺時莊嚴寺復有元趣僧達並以學解見稱</p>
 <lb ed="GA" n="0179a06"/><p xml:id="pGA002p0179a0601" style="margin-left:1em">梁上定林寺釋法通傳踐迹京師初止莊嚴後憩定
@@ -1942,13 +2236,21 @@
 <lb ed="GA" n="0188a02"/>居之梁任孝恭有多寶寺碑銘</p>
 <lb ed="GA" n="0188a03"/><p xml:id="pGA002p0188a0301" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0188a04"/><p xml:id="pGA002p0188a0401" style="margin-left:1em">齊京師多寶寺釋法穎傳宋元嘉末止新亭寺孝武
-<lb ed="GA" n="0188a05"/>南下改治此寺以穎學業兼明<note n="0188a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0188a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>為都邑僧正後辭
+<lb ed="GA" n="0188a05"/>南下改治此寺以穎學業兼明<note 
+n="0188a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0188a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>為都邑僧正後辭
 <lb ed="GA" n="0188a06"/>任還多寶寺時多寶寺復有僧靜林慧隆</p>
 <lb ed="GA" n="0188a07"/><p xml:id="pGA002p0188a0701" style="margin-left:1em">齊京師湘宮寺釋宏光傳大明末過江初止多寶寺
 <lb ed="GA" n="0188a08"/>每講法華十地聽者盈堂</p>
 <lb ed="GA" n="0188a09"/><p xml:id="pGA002p0188a0901" style="margin-left:1em">梁任孝恭集有多寶寺碑銘其警句云上當星紀下
 <pb ed="GA" xml:id="GA002.0005.0189a" n="0189a"/>
-<lb ed="GA" n="0189a01"/>接蓮峯還瞻朱閣<note n="0189a0101" resp="CBETA" type="add">卻【CB】，郤【志彙】</note><app n="0189a0101"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【志彙】">郤</rdg></app>背青松又云藏韜仙說臺含佛
+<lb ed="GA" n="0189a01"/>接蓮峯還瞻朱閣<note 
+n="0189a0101" resp="CBETA" type="add">卻【CB】，郤【志彙】</note><app n="0189a0101">
+  <lem wit="【CB】" resp="CBETA.maha">卻</lem>
+  <rdg wit="【志彙】">郤</rdg>
+</app>背青松又云藏韜仙說臺含佛
 <lb ed="GA" n="0189a02"/>影葉下秋林烟生春嶺</p></cb:div>
 <lb ed="GA" n="0189a03"/><cb:div type="other"><cb:mulu type="其他" level="2">北多寶寺</cb:mulu><head>北多寶寺</head>
 <lb ed="GA" n="0189a04"/><p xml:id="pGA002p0189a0401">北多寶寺別乎在南者言之也宋釋慧亮慧整齊慧忍
@@ -2016,7 +2318,11 @@
 <lb ed="GA" n="0195a06"/>雞鳴橋北因貴妃子子鸞封新安王故以新安為寺名
 <lb ed="GA" n="0195a07"/>延名僧道猷曇斌法瑤僧遠慧重等以主之落成之日
 <lb ed="GA" n="0195a08"/>百官多施錢帛張融獨䞋百錢以託諷焉及廢帝子業
-<lb ed="GA" n="0195a09"/>殺子鸞毁新安寺驅斥僧徒明帝踐阼<note n="0195a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0195a0901"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>令修復而曇
+<lb ed="GA" n="0195a09"/>殺子鸞毁新安寺驅斥僧徒明帝踐阼<note 
+n="0195a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0195a0901">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>令修復而曇
 <pb ed="GA" xml:id="GA002.0005.0196a" n="0196a"/>
 <lb ed="GA" n="0196a01"/>度繼為寺主後廢帝昱偷狗就與飲酒則非戒律僧矣
 <lb ed="GA" n="0196a02"/>齊有僧道興為竟陵王子良所禮至陳韓子高移官出
@@ -2028,21 +2334,45 @@
 <lb ed="GA" n="0196a08"/>子子鸞封新安王故以新安為寺號前廢帝殺子鸞
 <lb ed="GA" n="0196a09"/>乃毁廢新安寺及天寶中興諸寺驅斥僧徒明帝踐
 <pb ed="GA" xml:id="GA002.0005.0197a" n="0197a"/>
-<lb ed="GA" n="0197a01"/>阼<note n="0197a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0101"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>令修復</p>
+<lb ed="GA" n="0197a01"/>阼<note 
+n="0197a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0101">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>令修復</p>
 <lb ed="GA" n="0197a02"/><p xml:id="pGA002p0197a0201" style="margin-left:1em">又張融傳宋孝武起新安寺僚佐多䞋錢帛融獨䞋
 <lb ed="GA" n="0197a03"/>百錢</p>
-<lb ed="GA" n="0197a04"/><p xml:id="pGA002p0197a0401" style="margin-left:1em">宋京師新安寺釋道猷傳宋文帝<note n="0197a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>臨川郡發遣出
+<lb ed="GA" n="0197a04"/><p xml:id="pGA002p0197a0401" style="margin-left:1em">宋京師新安寺釋道猷傳宋文帝<note 
+n="0197a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>臨川郡發遣出
 <lb ed="GA" n="0197a05"/>京既至即延入宮內大集義僧命猷伸述頓悟及孝
-<lb ed="GA" n="0197a06"/>武時<note n="0197a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>住新安為鎮寺法主</p>
-<lb ed="GA" n="0197a07"/><p xml:id="pGA002p0197a0701" style="margin-left:1em">宋吳興小山釋法瑤傳大明六年<note n="0197a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0701"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>吳興郡禮致上
+<lb ed="GA" n="0197a06"/>武時<note 
+n="0197a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>住新安為鎮寺法主</p>
+<lb ed="GA" n="0197a07"/><p xml:id="pGA002p0197a0701" style="margin-left:1em">宋吳興小山釋法瑤傳大明六年<note 
+n="0197a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0197a0701">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>吳興郡禮致上
 <lb ed="GA" n="0197a08"/>京與道猷同止新安寺使頓漸二悟義各有宗</p>
 <lb ed="GA" n="0197a09"/><p xml:id="pGA002p0197a0901" style="margin-left:1em">宋京師莊嚴寺釋曇斌傳初止新安寺講小品十地
 <pb ed="GA" xml:id="GA002.0005.0198a" n="0198a"/>
 <lb ed="GA" n="0198a01"/>并申頓漸二悟之旨</p>
 <lb ed="GA" n="0198a02"/><p xml:id="pGA002p0198a0201" style="margin-left:1em">齊上定林寺釋僧遠傳宋新安孝敬王子鸞為亡所
-<lb ed="GA" n="0198a03"/>生母殷貴妃造新安寺<note n="0198a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0198a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>選三州招延英哲遠與小
+<lb ed="GA" n="0198a03"/>生母殷貴妃造新安寺<note 
+n="0198a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0198a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>選三州招延英哲遠與小
 <lb ed="GA" n="0198a04"/>山法瑤等俱被徵召皆推遠為玄舉之首</p>
-<lb ed="GA" n="0198a05"/><p xml:id="pGA002p0198a0501" style="margin-left:1em">齊瓦官寺釋僧重傳宋大明六年<note n="0198a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0198a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>於新安寺出家
+<lb ed="GA" n="0198a05"/><p xml:id="pGA002p0198a0501" style="margin-left:1em">齊瓦官寺釋僧重傳宋大明六年<note 
+n="0198a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0198a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>於新安寺出家
 <lb ed="GA" n="0198a06"/>宋京師靈根寺釋僧瑾傳後有沙門曇度續為僧主
 <lb ed="GA" n="0198a07"/>止於新安寺</p>
 <lb ed="GA" n="0198a08"/><p xml:id="pGA002p0198a0801" style="margin-left:1em">宋書後廢帝紀七月七日晚至新安寺偷狗就曇度
@@ -2113,14 +2443,22 @@
 <lb ed="GA" n="0205a03"/>為綱領於是移居焉時湘宮寺又有法鮮比邱與充
 <lb ed="GA" n="0205a04"/>齊名</p>
 <lb ed="GA" n="0205a05"/><p xml:id="pGA002p0205a0501" style="margin-left:1em">齊京師靈根寺釋法瑗傳明帝造湘宮新成大開講
-<lb ed="GA" n="0205a06"/>肆<note n="0205a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0205a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>請瑗當法主</p>
+<lb ed="GA" n="0205a06"/>肆<note 
+n="0205a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0205a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>請瑗當法主</p>
 <lb ed="GA" n="0205a07"/><p xml:id="pGA002p0205a0701" style="margin-left:1em">齊京師何園寺釋慧隆傳宋明帝請於湘宮寺開講
 <lb ed="GA" n="0205a08"/>成實論負帙問道八百餘人</p>
 <lb ed="GA" n="0205a09"/><p xml:id="pGA002p0205a0901" style="margin-left:1em">齊京師太昌寺釋僧宗傳曇凖後居湘宮寺與同寺
 <pb ed="GA" xml:id="GA002.0005.0206a" n="0206a"/>
 <lb ed="GA" n="0206a01"/>法身法真並為當時匠者</p>
 <lb ed="GA" n="0206a02"/><p xml:id="pGA002p0206a0201" style="margin-left:1em">宋中寺釋曇光傳宋明帝於湘宮設會聞光唱導帝
-<lb ed="GA" n="0206a03"/>稱善即<note n="0206a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0206a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>賜三衣瓶鉢</p>
+<lb ed="GA" n="0206a03"/>稱善即<note 
+n="0206a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0206a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>賜三衣瓶鉢</p>
 <lb ed="GA" n="0206a04"/><p xml:id="pGA002p0206a0401" style="margin-left:1em">梁昭明太子集立二諦義湘宮寺僧慧興有諮論</p>
 <lb ed="GA" n="0206a05"/><p xml:id="pGA002p0206a0501" style="margin-left:1em">梁簡文帝集有湘宮寺碑又有湘宮寺智倩法師墓
 <lb ed="GA" n="0206a06"/>碑</p>
@@ -2162,7 +2500,11 @@
 <lb ed="GA" n="0210a02"/><p xml:id="pGA002p0210a0201" style="margin-left:1em">宋書戴法興傳時百姓欲為孝武立寺疑其名巢尚
 <lb ed="GA" n="0210a03"/>之應聲曰宜名天保詩云天保下報上也時服其機
 <lb ed="GA" n="0210a04"/>速</p>
-<lb ed="GA" n="0210a05"/><p xml:id="pGA002p0210a0501" style="margin-left:1em">齊京師天保寺釋僧盛傳下京憩天保寺齊高帝<note n="0210a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0210a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>
+<lb ed="GA" n="0210a05"/><p xml:id="pGA002p0210a0501" style="margin-left:1em">齊京師天保寺釋僧盛傳下京憩天保寺齊高帝<note 
+n="0210a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0210a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>
 <lb ed="GA" n="0210a06"/>代曇度為僧主後沈文季於天保寺設會令陸靜修
 <lb ed="GA" n="0210a07"/>與盛論議盛既理有所長言無暫屈靜修意不獲申
 <lb ed="GA" n="0210a08"/>恧焉而退</p>
@@ -2180,7 +2522,11 @@
 <pb ed="GA" xml:id="GA002.0005.0212a" n="0212a"/>
 <lb ed="GA" n="0212a01"/>泰始六年校長生捨宅為寺名曰正勝請願居之</p></cb:div>
 <lb ed="GA" n="0212a02"/><cb:div type="other"><cb:mulu type="其他" level="2">興皇寺</cb:mulu><head>興皇寺</head>
-<lb ed="GA" n="0212a03"/><p xml:id="pGA002p0212a0301">宋明帝泰始之初創寺於建陽門外<note n="0212a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0212a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>釋道猛為綱領
+<lb ed="GA" n="0212a03"/><p xml:id="pGA002p0212a0301">宋明帝泰始之初創寺於建陽門外<note 
+n="0212a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0212a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>釋道猛為綱領
 <lb ed="GA" n="0212a04"/>名寺曰興皇創造工畢即令於寺開講自宋暨梁道堅
 <lb ed="GA" n="0212a05"/>惠鸞惠敷僧訓道明智藏皆住止此寺釋智稱寶誌亦
 <lb ed="GA" n="0212a06"/>時相往來諸名士劉歊孫瑒傅縡張融則與寺中名德
@@ -2190,9 +2536,17 @@
 <pb ed="GA" xml:id="GA002.0005.0213a" n="0213a"/>
 <lb ed="GA" n="0213a01"/><p xml:id="pGA002p0213a0101" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0213a02"/><p xml:id="pGA002p0213a0201" style="margin-left:1em">宋京師興皇寺釋道猛傳泰始之初帝創寺於建陽
-<lb ed="GA" n="0213a03"/>門外<note n="0213a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0213a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>猛為綱領帝曰夫人能宏道道藉人宏今得
+<lb ed="GA" n="0213a03"/>門外<note 
+n="0213a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0213a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>猛為綱領帝曰夫人能宏道道藉人宏今得
 <lb ed="GA" n="0213a04"/>法師非直道益蒼生亦有光世望可目為興皇由是
-<lb ed="GA" n="0213a05"/>成號及創造工畢<note n="0213a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0213a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>猛於寺開講後有道堅慧鸞慧
+<lb ed="GA" n="0213a05"/>成號及創造工畢<note 
+n="0213a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0213a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>猛於寺開講後有道堅慧鸞慧
 <lb ed="GA" n="0213a06"/>敷僧訓道明並止興皇寺</p>
 <lb ed="GA" n="0213a07"/><p xml:id="pGA002p0213a0701" style="margin-left:1em">齊京師安樂寺釋智稱傳遇穎公於興皇講律發言
 <lb ed="GA" n="0213a08"/>中詣</p>
@@ -2221,8 +2575,16 @@
 <lb ed="GA" n="0216a01"/><p xml:id="pGA002p0216a0101">靈基寺亦釋僧瑾所造也高僧智林敬遺光贊慧韜等
 <lb ed="GA" n="0216a02"/>居之</p>
 <lb ed="GA" n="0216a03"/><p xml:id="pGA002p0216a0301" style="margin-left:1em">攷證</p>
-<lb ed="GA" n="0216a04"/><p xml:id="pGA002p0216a0401" style="margin-left:1em">宋京師靈根寺釋僧瑾傳初止冶城寺孝武<note n="0216a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0216a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>為湘
-<lb ed="GA" n="0216a05"/>王師湘東踐阼是為明帝仍<note n="0216a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0216a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>瑾為天下僧正瑾性
+<lb ed="GA" n="0216a04"/><p xml:id="pGA002p0216a0401" style="margin-left:1em">宋京師靈根寺釋僧瑾傳初止冶城寺孝武<note 
+n="0216a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0216a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>為湘
+<lb ed="GA" n="0216a05"/>王師湘東踐阼是為明帝仍<note 
+n="0216a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0216a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>瑾為天下僧正瑾性
 <lb ed="GA" n="0216a06"/>不蓄金四方奉獻皆充福業起靈根靈基二寺以為
 <lb ed="GA" n="0216a07"/>禪慧棲止</p>
 <lb ed="GA" n="0216a08"/><p xml:id="pGA002p0216a0801" style="margin-left:1em">齊靈根寺釋法瑗傳後齊文惠請居靈根因移彼寺
@@ -2236,7 +2598,11 @@
 <lb ed="GA" n="0217a06"/>經十餘萬言</p>
 <lb ed="GA" n="0217a07"/><p xml:id="pGA002p0217a0701" style="margin-left:1em">梁昭明太子集解二諦義法身義靈根寺僧遷慧令
 <lb ed="GA" n="0217a08"/>並有諮答</p>
-<lb ed="GA" n="0217a09"/><p xml:id="pGA002p0217a0901" style="margin-left:1em">齊高昌郡釋智林傳宋明之初<note n="0217a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0217a0901"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>在所資給發遣至
+<lb ed="GA" n="0217a09"/><p xml:id="pGA002p0217a0901" style="margin-left:1em">齊高昌郡釋智林傳宋明之初<note 
+n="0217a0901" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0217a0901">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>在所資給發遣至
 <pb ed="GA" xml:id="GA002.0005.0218a" n="0218a"/>
 <lb ed="GA" n="0218a01"/>京止靈基寺講說相續</p>
 <lb ed="GA" n="0218a02"/><p xml:id="pGA002p0218a0201" style="margin-left:1em">齊京師中寺釋法安傳時有靈基寺敬遺光贊慧韜
@@ -2270,7 +2636,11 @@
 <pb ed="GA" xml:id="GA002.0005.0221a" n="0221a"/>
 <lb ed="GA" n="0221a01"/><p xml:id="pGA002p0221a0101">正覺寺在新亭宋昇明二年領軍蕭道成築壘於此防
 <lb ed="GA" n="0221a02"/>衛都城及沈攸之既敗乃以軍幕之地置寺齊興尚書
-<lb ed="GA" n="0221a03"/>令王儉為碑徐希秀書之并<note n="0221a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0221a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>釋法悅為寺主焉</p>
+<lb ed="GA" n="0221a03"/>令王儉為碑徐希秀書之并<note 
+n="0221a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0221a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>釋法悅為寺主焉</p>
 <lb ed="GA" n="0221a04"/><p xml:id="pGA002p0221a0401" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0221a05"/><p xml:id="pGA002p0221a0501" style="margin-left:1em">至正金陵新志正覺寺有三其一禪寺<note place="inline">詳見前注</note>其一在
 <lb ed="GA" n="0221a06"/>正西隅其巷呼正覺寺巷乾道志云本在城南新亭
@@ -2282,7 +2652,11 @@
 <lb ed="GA" n="0222a02"/>正覺寺葢嘉慶時水月菴所改今並廢</note></p>
 <lb ed="GA" n="0222a03"/><p xml:id="pGA002p0222a0301" style="margin-left:1em">南史徐爰傳爰子希秀甚有學解亦閑篆隸正覺寺
 <lb ed="GA" n="0222a04"/>碑希秀書也</p>
-<lb ed="GA" n="0222a05"/><p xml:id="pGA002p0222a0501" style="margin-left:1em">齊京師正覺寺釋法悅傳齊末<note n="0222a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0222a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>為僧主止京師正
+<lb ed="GA" n="0222a05"/><p xml:id="pGA002p0222a0501" style="margin-left:1em">齊京師正覺寺釋法悅傳齊末<note 
+n="0222a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0222a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>為僧主止京師正
 <lb ed="GA" n="0222a06"/>覺寺敦修福業四部所歸</p></cb:div>
 <lb ed="GA" n="0222a07"/><cb:div type="other"><cb:mulu type="其他" level="2">龍淵寺</cb:mulu><head>龍淵寺</head>
 <lb ed="GA" n="0222a08"/><p xml:id="pGA002p0222a0801">龍淵寺在小丹陽牛落山宋昇明中僧遠所築之精舍
@@ -2346,49 +2720,249 @@
 <lb ed="GA" n="0228a06"/>
 <lb ed="GA" n="0228a07"/>
 <lb ed="GA" n="0228a08"/>
-<lb ed="GA" n="0228a09"/><cb:juan fun="close" n="1"><cb:jhead>南朝佛寺志卷上</cb:jhead></cb:juan><p xml:id="pGA002p0228a0908" style="margin-left:11em" cb:place="inline">孫毅威陳貽祓同校字</p></cb:div>
+<lb ed="GA" n="0228a09"/><cb:juan fun="close" n="1"><cb:jhead>南朝佛寺志卷上</cb:jhead></cb:juan>
+<p xml:id="pGA002p0228a0908" style="margin-left:11em" cb:place="inline">孫毅威陳貽祓同校字</p></cb:div>
 <milestone unit="juan" n="2"/>
 <pb ed="GA" xml:id="GA002.0005.0229a" n="0229a"/>
-<lb ed="GA" n="0229a01"/><cb:mulu type="卷" n="2"/><cb:div type="other"><head>南朝佛寺志卷下目錄</head>
-<lb ed="GA" n="0229a02"/><table cols="4" rend="no-border" style="margin-left:2em"><row><cell>建元寺</cell><cell>毗那離寺</cell><cell>正觀寺</cell><cell>眾造寺</cell></row>
-<lb ed="GA" n="0229a03"/><row><cell>崇聖寺</cell><cell>孔子寺</cell><cell>大仁寺</cell><cell>興福寺</cell></row>
-<lb ed="GA" n="0229a04"/><row><cell>洞玄寺</cell><cell>山茨寺</cell><cell>太昌寺</cell><cell>隱靈寺</cell></row>
-<lb ed="GA" n="0229a05"/><row><cell>齊安寺</cell><cell>普宏寺</cell><cell>禪靈寺</cell><cell>集善寺</cell></row>
-<lb ed="GA" n="0229a06"/><row><cell>法雲寺</cell><cell>後岡石室寺</cell><cell>棲霞寺</cell><cell>草堂寺</cell></row>
-<lb ed="GA" n="0229a07"/><row><cell>齊隆寺</cell><cell>齊熙寺</cell><cell>齊古寺</cell><cell>勝善寺</cell></row>
-<lb ed="GA" n="0229a08"/><row><cell>法音寺</cell><cell>慧眼寺</cell><cell>智度寺</cell><cell>新林法王寺</cell></row>
-<lb ed="GA" n="0229a09"/><row><cell>永建寺</cell><cell>无垢寺</cell><cell>佛窟寺</cell><cell>仙窟寺</cell></row>
+<lb ed="GA" n="0229a01"/><cb:mulu type="卷" n="2"/>
+<cb:div type="other"><head>南朝佛寺志卷下目錄</head>
+<lb ed="GA" n="0229a02"/><table cols="4" rend="no-border" style="margin-left:2em">
+  <row>
+    <cell>建元寺</cell>
+    <cell>毗那離寺</cell>
+    <cell>正觀寺</cell>
+    <cell>眾造寺</cell>
+  </row>
+<lb ed="GA" n="0229a03"/>
+  <row>
+    <cell>崇聖寺</cell>
+    <cell>孔子寺</cell>
+    <cell>大仁寺</cell>
+    <cell>興福寺</cell>
+  </row>
+<lb ed="GA" n="0229a04"/>
+  <row>
+    <cell>洞玄寺</cell>
+    <cell>山茨寺</cell>
+    <cell>太昌寺</cell>
+    <cell>隱靈寺</cell>
+  </row>
+<lb ed="GA" n="0229a05"/>
+  <row>
+    <cell>齊安寺</cell>
+    <cell>普宏寺</cell>
+    <cell>禪靈寺</cell>
+    <cell>集善寺</cell>
+  </row>
+<lb ed="GA" n="0229a06"/>
+  <row>
+    <cell>法雲寺</cell>
+    <cell>後岡石室寺</cell>
+    <cell>棲霞寺</cell>
+    <cell>草堂寺</cell>
+  </row>
+<lb ed="GA" n="0229a07"/>
+  <row>
+    <cell>齊隆寺</cell>
+    <cell>齊熙寺</cell>
+    <cell>齊古寺</cell>
+    <cell>勝善寺</cell>
+  </row>
+<lb ed="GA" n="0229a08"/>
+  <row>
+    <cell>法音寺</cell>
+    <cell>慧眼寺</cell>
+    <cell>智度寺</cell>
+    <cell>新林法王寺</cell>
+  </row>
+<lb ed="GA" n="0229a09"/>
+  <row>
+    <cell>永建寺</cell>
+    <cell>无垢寺</cell>
+    <cell>佛窟寺</cell>
+    <cell>仙窟寺</cell>
+  </row>
 <pb ed="GA" xml:id="GA002.0005.0230a" n="0230a"/>
-<lb ed="GA" n="0230a01"/><row><cell>虎窟寺</cell><cell>常樂寺</cell><cell>敬業寺</cell><cell>淨居寺</cell></row>
-<lb ed="GA" n="0230a02"/><row><cell>小莊嚴寺</cell><cell>光宅寺</cell><cell>蕭帝寺</cell><cell>明慶寺</cell></row>
-<lb ed="GA" n="0230a03"/><row><cell>涅槃寺</cell><cell>翠微寺</cell><cell>皇宅寺</cell><cell>本業寺</cell></row>
-<lb ed="GA" n="0230a04"/><row><cell>解脫寺</cell><cell>淨名寺</cell><cell>幕府寺</cell><cell>同行寺</cell></row>
-<lb ed="GA" n="0230a05"/><row><cell>法清寺</cell><cell>永慶寺</cell><cell>勸善寺</cell><cell>開善寺</cell></row>
-<lb ed="GA" n="0230a06"/><row><cell>慶雲寺</cell><cell>杜桂寺</cell><cell>觀音寺</cell><cell>資聖寺</cell></row>
-<lb ed="GA" n="0230a07"/><row><cell>佛壇寺</cell><cell>永泰寺</cell><cell>天光寺</cell><cell>建陵寺</cell></row>
-<lb ed="GA" n="0230a08"/><row><cell>棲隱寺</cell><cell>惠日寺</cell><cell>大愛敬寺</cell><cell>神山寺</cell></row>
-<lb ed="GA" n="0230a09"/><row><cell>永明寺</cell><cell>果願尼寺</cell><cell>須陀寺</cell><cell>頭陀寺</cell></row>
+<lb ed="GA" n="0230a01"/>
+  <row>
+    <cell>虎窟寺</cell>
+    <cell>常樂寺</cell>
+    <cell>敬業寺</cell>
+    <cell>淨居寺</cell>
+  </row>
+<lb ed="GA" n="0230a02"/>
+  <row>
+    <cell>小莊嚴寺</cell>
+    <cell>光宅寺</cell>
+    <cell>蕭帝寺</cell>
+    <cell>明慶寺</cell>
+  </row>
+<lb ed="GA" n="0230a03"/>
+  <row>
+    <cell>涅槃寺</cell>
+    <cell>翠微寺</cell>
+    <cell>皇宅寺</cell>
+    <cell>本業寺</cell>
+  </row>
+<lb ed="GA" n="0230a04"/>
+  <row>
+    <cell>解脫寺</cell>
+    <cell>淨名寺</cell>
+    <cell>幕府寺</cell>
+    <cell>同行寺</cell>
+  </row>
+<lb ed="GA" n="0230a05"/>
+  <row>
+    <cell>法清寺</cell>
+    <cell>永慶寺</cell>
+    <cell>勸善寺</cell>
+    <cell>開善寺</cell>
+  </row>
+<lb ed="GA" n="0230a06"/>
+  <row>
+    <cell>慶雲寺</cell>
+    <cell>杜桂寺</cell>
+    <cell>觀音寺</cell>
+    <cell>資聖寺</cell>
+  </row>
+<lb ed="GA" n="0230a07"/>
+  <row>
+    <cell>佛壇寺</cell>
+    <cell>永泰寺</cell>
+    <cell>天光寺</cell>
+    <cell>建陵寺</cell>
+  </row>
+<lb ed="GA" n="0230a08"/>
+  <row>
+    <cell>棲隱寺</cell>
+    <cell>惠日寺</cell>
+    <cell>大愛敬寺</cell>
+    <cell>神山寺</cell>
+  </row>
+<lb ed="GA" n="0230a09"/>
+  <row>
+    <cell>永明寺</cell>
+    <cell>果願尼寺</cell>
+    <cell>須陀寺</cell>
+    <cell>頭陀寺</cell>
+  </row>
 <pb ed="GA" xml:id="GA002.0005.0231a" n="0231a"/>
-<lb ed="GA" n="0231a01"/><row><cell>猛信尼寺</cell><cell>福靜寺</cell><cell>靜福寺</cell><cell>梁眾造寺</cell></row>
-<lb ed="GA" n="0231a02"/><row><cell>建業寺</cell><cell>慈覺寺</cell><cell>善覺寺</cell><cell>同泰寺</cell></row>
-<lb ed="GA" n="0231a03"/><row><cell>北寺</cell><cell>清玄寺</cell><cell>園居尼寺</cell><cell>禪巖寺</cell></row>
-<lb ed="GA" n="0231a04"/><row><cell>法苑寺</cell><cell>大心寺</cell><cell>華嚴寺</cell><cell>方樂寺</cell></row>
-<lb ed="GA" n="0231a05"/><row><cell>東林寺</cell><cell>蔣山頭陀寺</cell><cell>萬福尼寺</cell><cell>本願尼寺</cell></row>
-<lb ed="GA" n="0231a06"/><row><cell>平等寺</cell><cell>普光寺</cell><cell>化成寺</cell><cell>慈恩寺</cell></row>
-<lb ed="GA" n="0231a07"/><row><cell>善業尼寺</cell><cell>寒林寺</cell><cell>金口寺</cell><cell>福興寺</cell></row>
-<lb ed="GA" n="0231a08"/><row><cell>天中寺</cell><cell>一乘寺</cell><cell>歸來寺</cell><cell>飛流寺</cell></row>
-<lb ed="GA" n="0231a09"/><row><cell>甘露鼓寺</cell><cell>梁安寺</cell><cell>宣業寺</cell><cell>福成寺</cell></row>
+<lb ed="GA" n="0231a01"/>
+  <row>
+    <cell>猛信尼寺</cell>
+    <cell>福靜寺</cell>
+    <cell>靜福寺</cell>
+    <cell>梁眾造寺</cell>
+  </row>
+<lb ed="GA" n="0231a02"/>
+  <row>
+    <cell>建業寺</cell>
+    <cell>慈覺寺</cell>
+    <cell>善覺寺</cell>
+    <cell>同泰寺</cell>
+  </row>
+<lb ed="GA" n="0231a03"/>
+  <row>
+    <cell>北寺</cell>
+    <cell>清玄寺</cell>
+    <cell>園居尼寺</cell>
+    <cell>禪巖寺</cell>
+  </row>
+<lb ed="GA" n="0231a04"/>
+  <row>
+    <cell>法苑寺</cell>
+    <cell>大心寺</cell>
+    <cell>華嚴寺</cell>
+    <cell>方樂寺</cell>
+  </row>
+<lb ed="GA" n="0231a05"/>
+  <row>
+    <cell>東林寺</cell>
+    <cell>蔣山頭陀寺</cell>
+    <cell>萬福尼寺</cell>
+    <cell>本願尼寺</cell>
+  </row>
+<lb ed="GA" n="0231a06"/>
+  <row>
+    <cell>平等寺</cell>
+    <cell>普光寺</cell>
+    <cell>化成寺</cell>
+    <cell>慈恩寺</cell>
+  </row>
+<lb ed="GA" n="0231a07"/>
+  <row>
+    <cell>善業尼寺</cell>
+    <cell>寒林寺</cell>
+    <cell>金口寺</cell>
+    <cell>福興寺</cell>
+  </row>
+<lb ed="GA" n="0231a08"/>
+  <row>
+    <cell>天中寺</cell>
+    <cell>一乘寺</cell>
+    <cell>歸來寺</cell>
+    <cell>飛流寺</cell>
+  </row>
+<lb ed="GA" n="0231a09"/>
+  <row>
+    <cell>甘露鼓寺</cell>
+    <cell>梁安寺</cell>
+    <cell>宣業寺</cell>
+    <cell>福成寺</cell>
+  </row>
 <pb ed="GA" xml:id="GA002.0005.0232a" n="0232a"/>
-<lb ed="GA" n="0232a01"/><row><cell>定果寺</cell><cell>靈光寺</cell><cell>履道寺</cell><cell>渴寒寺</cell></row>
-<lb ed="GA" n="0232a02"/><row><cell>山齋寺</cell><cell>到公寺</cell><cell>延賢寺</cell><cell>景公寺</cell></row>
-<lb ed="GA" n="0232a03"/><row><cell>幽巖寺</cell><cell>青山幽巖寺</cell><cell><reg>儀</reg>香尼寺</cell><cell>靈隱寺</cell></row>
-<lb ed="GA" n="0232a04"/><row><cell>宣明寺</cell><cell>天皇寺</cell><cell>懷安寺</cell><cell>慧福尼寺</cell></row>
-<lb ed="GA" n="0232a05"/><row><cell>國勝寺</cell><cell>楊都寺</cell><cell>棲靈寺</cell><cell>大皇寺</cell></row>
-<lb ed="GA" n="0232a06"/><row><cell>寶田寺</cell><cell>證聖寺</cell><cell>寶城寺</cell><cell>義和寺</cell></row>
-<lb ed="GA" n="0232a07"/><row><cell>四无畏寺</cell><cell cols="3"/></row></table></cb:div>
+<lb ed="GA" n="0232a01"/>
+  <row>
+    <cell>定果寺</cell>
+    <cell>靈光寺</cell>
+    <cell>履道寺</cell>
+    <cell>渴寒寺</cell>
+  </row>
+<lb ed="GA" n="0232a02"/>
+  <row>
+    <cell>山齋寺</cell>
+    <cell>到公寺</cell>
+    <cell>延賢寺</cell>
+    <cell>景公寺</cell>
+  </row>
+<lb ed="GA" n="0232a03"/>
+  <row>
+    <cell>幽巖寺</cell>
+    <cell>青山幽巖寺</cell>
+    <cell><reg>儀</reg>香尼寺</cell>
+    <cell>靈隱寺</cell>
+  </row>
+<lb ed="GA" n="0232a04"/>
+  <row>
+    <cell>宣明寺</cell>
+    <cell>天皇寺</cell>
+    <cell>懷安寺</cell>
+    <cell>慧福尼寺</cell>
+  </row>
+<lb ed="GA" n="0232a05"/>
+  <row>
+    <cell>國勝寺</cell>
+    <cell>楊都寺</cell>
+    <cell>棲靈寺</cell>
+    <cell>大皇寺</cell>
+  </row>
+<lb ed="GA" n="0232a06"/>
+  <row>
+    <cell>寶田寺</cell>
+    <cell>證聖寺</cell>
+    <cell>寶城寺</cell>
+    <cell>義和寺</cell>
+  </row>
+<lb ed="GA" n="0232a07"/>
+  <row>
+    <cell>四无畏寺</cell>
+    <cell cols="3"/>
+  </row>
+</table></cb:div>
 <pb ed="GA" xml:id="GA002.0005.0233a" n="0233a"/>
 <lb ed="GA" n="0233a01"/><cb:juan fun="open" n="2"><cb:jhead>南朝佛寺志卷下</cb:jhead></cb:juan>
-<lb ed="GA" n="0233a02"/><byline cb:type="author">上元孫文川伯澂葺述</byline><byline cb:type="editor">江甯陳作霖伯雨編纂</byline>
+<lb ed="GA" n="0233a02"/><byline cb:type="author">上元孫文川伯澂葺述</byline>
+<byline cb:type="editor">江甯陳作霖伯雨編纂</byline>
 <lb ed="GA" n="0233a03"/><cb:div type="other"><cb:mulu type="其他" level="1">齊</cb:mulu><head>齊</head>
 <lb ed="GA" n="0233a04"/><cb:div type="other"><cb:mulu type="其他" level="2">建元寺</cb:mulu><head>建元寺</head>
 <lb ed="GA" n="0233a05"/><p xml:id="pGA002p0233a0501">建元寺齊高帝踐阼時所置故以建元名其寺焉寺在
@@ -2400,11 +2974,23 @@
 <lb ed="GA" n="0234a01"/>東南角度溪有橋名募士橋吳大帝募勇士處</p>
 <lb ed="GA" n="0234a02"/><p xml:id="pGA002p0234a0201" style="margin-left:1em">梁京師靈曜寺釋僧盛傳時有建元寺僧護僧韶齊
 <lb ed="GA" n="0234a03"/>德比譽</p>
-<lb ed="GA" n="0234a04"/><p xml:id="pGA002p0234a0401" style="margin-left:1em">梁簡文帝集有謝<note n="0234a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0234a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>參迎佛啟云臣綱啟主書周昂
-<lb ed="GA" n="0234a05"/>奉宣<note n="0234a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0234a0501"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>旨曲賫恩參臣即到建元寺奉候法身</p></cb:div>
+<lb ed="GA" n="0234a04"/><p xml:id="pGA002p0234a0401" style="margin-left:1em">梁簡文帝集有謝<note 
+n="0234a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0234a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>參迎佛啟云臣綱啟主書周昂
+<lb ed="GA" n="0234a05"/>奉宣<note 
+n="0234a0501" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0234a0501">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>旨曲賫恩參臣即到建元寺奉候法身</p></cb:div>
 <lb ed="GA" n="0234a06"/><cb:div type="other"><cb:mulu type="其他" level="2">毗耶離寺</cb:mulu><head>毗耶離寺</head>
 <lb ed="GA" n="0234a07"/><p xml:id="pGA002p0234a0701">毗耶離寺未詳所在齊建元時西域僧求那毗地來京
-<lb ed="GA" n="0234a08"/>師<note n="0234a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0234a0801"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>使居之</p>
+<lb ed="GA" n="0234a08"/>師<note 
+n="0234a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0234a0801">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>使居之</p>
 <lb ed="GA" n="0234a09"/><p xml:id="pGA002p0234a0901" style="margin-left:1em">攷證</p>
 <pb ed="GA" xml:id="GA002.0005.0235a" n="0235a"/>
 <lb ed="GA" n="0235a01"/><p xml:id="pGA002p0235a0101" style="margin-left:1em">齊建康正觀寺求那毗地傳毗地中天竺人齊建元
@@ -2420,7 +3006,11 @@
 <lb ed="GA" n="0236a01"/>人咸宗事之供獻皆受悉為營法於建業淮側造正
 <lb ed="GA" n="0236a02"/>觀寺以居重閣層門殿堂整飾以中興二年卒於所
 <lb ed="GA" n="0236a03"/>任梁初復有僧伽婆羅者亦外國僧至京師止正觀
-<lb ed="GA" n="0236a04"/>寺今上甚加禮接<note place="inline">案高僧傳係梁時作今上謂梁武帝</note><note n="0236a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0236a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>於正觀寺及
+<lb ed="GA" n="0236a04"/>寺今上甚加禮接<note place="inline">案高僧傳係梁時作今上謂梁武帝</note><note 
+n="0236a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0236a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>於正觀寺及
 <lb ed="GA" n="0236a05"/>壽光殿古雲館中譯出大阿育王經解脫大論等凡
 <lb ed="GA" n="0236a06"/>十部三十三卷</p></cb:div>
 <lb ed="GA" n="0236a07"/><cb:div type="other"><cb:mulu type="其他" level="2">齊眾造寺</cb:mulu><head>齊眾造寺</head>
@@ -2520,7 +3110,11 @@
 <lb ed="GA" n="0246a01"/><cb:div type="other"><cb:mulu type="其他" level="2">禪靈寺</cb:mulu><head>禪靈寺</head>
 <lb ed="GA" n="0246a02"/><p xml:id="pGA002p0246a0201">禪靈寺齊永明七年武皇帝之所造施捨傾貲竟陵文
 <lb ed="GA" n="0246a03"/>宣王嘗稱其信心明照宮人出家者許其入寺焚修蓋
-<lb ed="GA" n="0246a04"/>尼寺也時越州獻自然珠佛像均置剎下<note n="0246a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0246a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>謝瀹為碑
+<lb ed="GA" n="0246a04"/>尼寺也時越州獻自然珠佛像均置剎下<note 
+n="0246a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0246a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>謝瀹為碑
 <lb ed="GA" n="0246a05"/>文徐希秀書之監造者為虎賁中郎將潘敞後因與呂
 <lb ed="GA" n="0246a06"/>文顯私登門樓械繫尚方罰亦重矣賜額曰禪靈識者
 <lb ed="GA" n="0246a07"/>以為有禪授之讖逮東昏侯淫侈剝寺塔寶珥為潘妃
@@ -2537,7 +3131,11 @@
 <lb ed="GA" n="0247a08"/><p xml:id="pGA002p0247a0801" style="margin-left:1em">南齊書祥瑞志永明七年越州獻白珠自然作照惟
 <lb ed="GA" n="0247a09"/>佛像長三寸上起禪靈寺置剎下</p>
 <pb ed="GA" xml:id="GA002.0005.0248a" n="0248a"/>
-<lb ed="GA" n="0248a01"/><p xml:id="pGA002p0248a0101" style="margin-left:1em">又謝瀹傳上起禪靈寺<note n="0248a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0248a0101"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>瀹撰碑文</p>
+<lb ed="GA" n="0248a01"/><p xml:id="pGA002p0248a0101" style="margin-left:1em">又謝瀹傳上起禪靈寺<note 
+n="0248a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0248a0101">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>瀹撰碑文</p>
 <lb ed="GA" n="0248a02"/><p xml:id="pGA002p0248a0201" style="margin-left:1em">又徐爰傳爰子希秀甚有學解並閑篆隸禪靈寺碑
 <lb ed="GA" n="0248a03"/>希秀書也</p>
 <lb ed="GA" n="0248a04"/><p xml:id="pGA002p0248a0401" style="margin-left:1em">南史呂文度傳虎賁中郎將潘敞掌監工作上使造
@@ -2562,7 +3160,11 @@
 <lb ed="GA" n="0250a03"/>為造此寺唐初毁後復置為義章院改法雲寺<note place="inline">此非六朝之法
 <lb ed="GA" n="0250a04"/>雲寺也</note>宋建炎中廢</p>
 <lb ed="GA" n="0250a05"/><p xml:id="pGA002p0250a0501" style="margin-left:1em">攷證</p>
-<lb ed="GA" n="0250a06"/><p xml:id="pGA002p0250a0601" style="margin-left:1em">南齊書豫章王嶷傳王薨後第庫無見錢世祖<note n="0250a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0250a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>
+<lb ed="GA" n="0250a06"/><p xml:id="pGA002p0250a0601" style="margin-left:1em">南齊書豫章王嶷傳王薨後第庫無見錢世祖<note 
+n="0250a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0250a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>
 <lb ed="GA" n="0250a07"/>貨雜物服飾得數百萬起集善寺</p>
 <lb ed="GA" n="0250a08"/><p xml:id="pGA002p0250a0801" style="margin-left:1em">至正金陵新志法雲寺舊在城外東北十里蔣山寺
 <lb ed="GA" n="0250a09"/>西門舊有章義橋圖經云本齊集善寺唐初輔公祏
@@ -2611,7 +3213,8 @@
 <lb ed="GA" n="0255a02"/>葬舍利唐高祖改為功德寺會昌中廢旋復南唐號妙
 <lb ed="GA" n="0255a03"/>因寺宋太平興國中號普雲寺景德初仍為棲霞禪寺
 <lb ed="GA" n="0255a04"/>元祐中改嚴因崇報寺又號虎穴寺然至今人皆呼之
-<lb ed="GA" n="0255a05"/>為棲霞</p><p xml:id="pGA002p0255a0504" cb:place="inline">國朝乾隆中大吏於中峯之左恭建棲霞
+<lb ed="GA" n="0255a05"/>為棲霞</p>
+<p xml:id="pGA002p0255a0504" cb:place="inline">國朝乾隆中大吏於中峯之左恭建棲霞
 <lb ed="GA" n="0255a06"/>行宮以駐清蹕有春雨山房太古堂武夷一曲精廬
 <lb ed="GA" n="0255a07"/>話山亭夕陽樓石梁精舍白下卷阿諸勝南巡篇章
 <lb ed="GA" n="0255a08"/>於茲尤富山巔有銀杏二株蒼蔚奇古實六朝時物咸
@@ -2763,12 +3366,20 @@
 <lb ed="GA" n="0270a04"/><p xml:id="pGA002p0270a0401" style="margin-left:1em">嘉慶上元縣志白雲寺在鍾山頂</p></cb:div>
 <lb ed="GA" n="0270a05"/><cb:div type="other"><cb:mulu type="其他" level="2">法音寺</cb:mulu><head>法音寺</head>
 <lb ed="GA" n="0270a06"/><p xml:id="pGA002p0270a0601">法音寺未詳其所在齊僧慧廓嘗居於是梁時有甘露
-<lb ed="GA" n="0270a07"/>降寺松葉上<note n="0270a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0270a0701"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>賜百官沈約以啟謝焉</p>
+<lb ed="GA" n="0270a07"/>降寺松葉上<note 
+n="0270a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0270a0701">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>賜百官沈約以啟謝焉</p>
 <lb ed="GA" n="0270a08"/><p xml:id="pGA002p0270a0801" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0270a09"/><p xml:id="pGA002p0270a0901" style="margin-left:1em">齊京師建初寺釋僧祐傳法音寺慧廓崇其德業請
 <pb ed="GA" xml:id="GA002.0005.0271a" n="0271a"/>
 <lb ed="GA" n="0271a01"/>事師禮</p>
-<lb ed="GA" n="0271a02"/><p xml:id="pGA002p0271a0201" style="margin-left:1em">沈約謝甘露啟云左右徐儼宣<note n="0271a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0271a0201"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>垂賜法音寺松葉
+<lb ed="GA" n="0271a02"/><p xml:id="pGA002p0271a0201" style="margin-left:1em">沈約謝甘露啟云左右徐儼宣<note 
+n="0271a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0271a0201">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>垂賜法音寺松葉
 <lb ed="GA" n="0271a03"/>上甘露</p></cb:div>
 <lb ed="GA" n="0271a04"/><cb:div type="other"><cb:mulu type="其他" level="2">慧眼寺</cb:mulu><head>慧眼寺</head>
 <lb ed="GA" n="0271a05"/><p xml:id="pGA002p0271a0501">慧眼寺在同夏里<note place="inline">當今之赤石磯南</note>齊時江蒨之所造也蒨嘗
@@ -2779,7 +3390,11 @@
 <pb ed="GA" xml:id="GA002.0005.0272a" n="0272a"/>
 <lb ed="GA" n="0272a01"/>莫解所謂紑叔祿與草堂寺僧智者善往訪之智者
 <lb ed="GA" n="0272a02"/>曰無量壽經云慧眼見真能度彼岸蒨遂捨同夏里
-<lb ed="GA" n="0272a03"/>宅為寺<note n="0272a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0272a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>名慧眼因泄故井水極清冽取以洗眼及
+<lb ed="GA" n="0272a03"/>宅為寺<note 
+n="0272a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0272a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>名慧眼因泄故井水極清冽取以洗眼及
 <lb ed="GA" n="0272a04"/>煮藥蒨疾果瘳</p></cb:div></cb:div>
 <lb ed="GA" n="0272a05"/><cb:div type="other"><cb:mulu type="其他" level="1">梁</cb:mulu><head>梁</head>
 <lb ed="GA" n="0272a06"/><cb:div type="other"><cb:mulu type="其他" level="2">智度寺</cb:mulu><head>智度寺</head>
@@ -2904,7 +3519,11 @@
 <lb ed="GA" n="0284a05"/>罄捨家資迴買此地為立伽藍</p>
 <lb ed="GA" n="0284a06"/><p xml:id="pGA002p0284a0601" style="margin-left:1em">梁正覺寺釋法悅傳悅乃與沙門智靖以天監八年
 <lb ed="GA" n="0284a07"/>五月三日於小莊嚴寺造無景壽佛像長一丈八尺
-<lb ed="GA" n="0284a08"/>悅靖相繼遷化<note n="0284a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0284a0801"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>以像事委僧祐其年九月二十六
+<lb ed="GA" n="0284a08"/>悅靖相繼遷化<note 
+n="0284a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0284a0801">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>以像事委僧祐其年九月二十六
 <lb ed="GA" n="0284a09"/>日移置光宅寺</p>
 <pb ed="GA" xml:id="GA002.0005.0285a" n="0285a"/>
 <lb ed="GA" n="0285a01"/><p xml:id="pGA002p0285a0101" style="margin-left:1em">南史侯景傳百濟使至見城邑邱墟於端門外號泣
@@ -2912,7 +3531,11 @@
 <lb ed="GA" n="0285a03"/><cb:div type="other"><cb:mulu type="其他" level="2">光宅寺</cb:mulu><head>光宅寺</head>
 <lb ed="GA" n="0285a04"/><p xml:id="pGA002p0285a0401">梁武帝故宅在同夏里三橋籬門側<note place="inline">案里當今之赤石磯一帶</note>相傳
 <lb ed="GA" n="0285a05"/>有天子氣齊作婁湖苑以厭之者也帝即位後捨為寺
-<lb ed="GA" n="0285a06"/>天監六年使僧祐造無量壽佛又詔鐫金像花趺並<note n="0285a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0285a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>
+<lb ed="GA" n="0285a06"/>天監六年使僧祐造無量壽佛又詔鐫金像花趺並<note 
+n="0285a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0285a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>
 <lb ed="GA" n="0285a07"/>周興嗣陸倕各製寺碑寺東有艦澳西有裴邃廟而驃
 <lb ed="GA" n="0285a08"/>騎航跨淮水上為往來必由之路故臨川王宏嘗伏壯
 <lb ed="GA" n="0285a09"/>士以伺車駕焉雲光法師於寺講經花飛如雪與慧雲
@@ -2933,7 +3556,11 @@
 <lb ed="GA" n="0287a04"/><p xml:id="pGA002p0287a0401" style="margin-left:1em">梁武帝集有光宅寺金像詔云銅初不送何緣乃爾
 <lb ed="GA" n="0287a05"/>豈不以真相感應獨表神奇乎可鐫著花趺以為靈
 <lb ed="GA" n="0287a06"/>驗</p>
-<lb ed="GA" n="0287a07"/><p xml:id="pGA002p0287a0701" style="margin-left:1em">梁書周興嗣傳時武帝以三橋舊宅為光宅寺<note n="0287a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0287a0701"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>興
+<lb ed="GA" n="0287a07"/><p xml:id="pGA002p0287a0701" style="margin-left:1em">梁書周興嗣傳時武帝以三橋舊宅為光宅寺<note 
+n="0287a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0287a0701">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>興
 <lb ed="GA" n="0287a08"/>嗣與陸倕各製寺碑</p>
 <lb ed="GA" n="0287a09"/><p xml:id="pGA002p0287a0901" style="margin-left:1em">景定志艦澳梁武帝所開在光宅寺東二百五十步
 <pb ed="GA" xml:id="GA002.0005.0288a" n="0288a"/>
@@ -3013,7 +3640,11 @@
 <lb ed="GA" n="0295a04"/>目</p></cb:div>
 <lb ed="GA" n="0295a05"/><cb:div type="other"><cb:mulu type="其他" level="2">皇宅寺</cb:mulu><head>皇宅寺</head>
 <lb ed="GA" n="0295a06"/><p xml:id="pGA002p0295a0601">皇宅寺在蔣陵梁天監八年於寺作佛會凡上士一百
-<lb ed="GA" n="0295a07"/>八人<note n="0295a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0295a0701"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>沈約為捨身願疏焉</p>
+<lb ed="GA" n="0295a07"/>八人<note 
+n="0295a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0295a0701">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>沈約為捨身願疏焉</p>
 <lb ed="GA" n="0295a08"/><p xml:id="pGA002p0295a0801" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0295a09"/><p xml:id="pGA002p0295a0901" style="margin-left:1em">沈約集有捨身願疏云大梁天監之八年在於新所
 <pb ed="GA" xml:id="GA002.0005.0296a" n="0296a"/>
@@ -3102,14 +3733,22 @@
 <lb ed="GA" n="0304a03"/>菩薩將去未及旬日無疾而終</p></cb:div>
 <lb ed="GA" n="0304a04"/><cb:div type="other"><cb:mulu type="其他" level="2">開善寺</cb:mulu><head>開善寺<note place="inline">古蔣山寺　太平興國寺　靈谷寺</note></head>
 <lb ed="GA" n="0304a05"/><p xml:id="pGA002p0304a0501">梁天監十三年冬葬釋寶誌於鍾山獨龍阜仍即墓所
-<lb ed="GA" n="0304a06"/>立開善精舍<note n="0304a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0304a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>陸倕製銘辭於冢內王筠勒碑文於寺
+<lb ed="GA" n="0304a06"/>立開善精舍<note 
+n="0304a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0304a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>陸倕製銘辭於冢內王筠勒碑文於寺
 <lb ed="GA" n="0304a07"/>門永定公主造浮圖五級於其上又賜玻瓈珠以為塔
 <lb ed="GA" n="0304a08"/>表張僧繇為畫遺像其地實臨青溪雞鳴橋焉寺主有
 <lb ed="GA" n="0304a09"/>釋智藏設席開講門徒數百周宏正年少進難舉坐皆
 <pb ed="GA" xml:id="GA002.0005.0305a" n="0305a"/>
 <lb ed="GA" n="0305a01"/>傾卒後蕭抱為書碑文陳武帝永定元年甘露降於松
 <lb ed="GA" n="0305a02"/>林寺僧采之以獻及後主幸鍾山召羣臣坐於寺西南
-<lb ed="GA" n="0305a03"/><note n="0305a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0305a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>張譏豎義折松枝以代麈尾其高致可想已遊覽賦
+<lb ed="GA" n="0305a03"/><note 
+n="0305a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0305a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>張譏豎義折松枝以代麈尾其高致可想已遊覽賦
 <lb ed="GA" n="0305a04"/>詩者梁昭明太子湘東王繹而外陳陰鏗徐伯陽釋洪
 <lb ed="GA" n="0305a05"/>偃亦代不乏人也唐為寶公院宋為太平興國寺又為
 <lb ed="GA" n="0305a06"/>蔣山寺明因卜建孝陵乃移寺於東麓即今之靈谷禪
@@ -3117,7 +3756,11 @@
 <lb ed="GA" n="0305a08"/><p xml:id="pGA002p0305a0801" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0305a09"/><p xml:id="pGA002p0305a0901" style="margin-left:1em">梁京師釋寶誌傳天監十三年冬無疾而終葬於鍾
 <pb ed="GA" xml:id="GA002.0005.0306a" n="0306a"/>
-<lb ed="GA" n="0306a01"/>山獨龍之阜仍於墓所立開善精舍<note n="0306a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0306a0101"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>陸倕製銘辭
+<lb ed="GA" n="0306a01"/>山獨龍之阜仍於墓所立開善精舍<note 
+n="0306a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0306a0101">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>陸倕製銘辭
 <lb ed="GA" n="0306a02"/>於冢內王筠勒碑文於寺門</p>
 <lb ed="GA" n="0306a03"/><p xml:id="pGA002p0306a0301" style="margin-left:1em">景定建康志太平興國寺注以定林寺前岡獨龍阜
 <lb ed="GA" n="0306a04"/>葬誌公永定公主以湯沐之資造五級浮圖於其上
@@ -3142,7 +3785,11 @@
 <lb ed="GA" n="0308a03"/><p xml:id="pGA002p0308a0301" style="margin-left:1em">陳書高祖紀永定元年冬十一月己亥甘露降於鍾
 <lb ed="GA" n="0308a04"/>山松林彌滿巖谷開善寺沙門採之以獻</p>
 <lb ed="GA" n="0308a05"/><p xml:id="pGA002p0308a0501" style="margin-left:1em">南史張譏傳後主嘗幸鍾山開善寺召從臣坐於寺
-<lb ed="GA" n="0308a06"/>西南松林下<note n="0308a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0308a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>譏豎義折松枝付譏曰以代麈</p>
+<lb ed="GA" n="0308a06"/>西南松林下<note 
+n="0308a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0308a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>譏豎義折松枝付譏曰以代麈</p>
 <lb ed="GA" n="0308a07"/><p xml:id="pGA002p0308a0701" style="margin-left:1em">古詩記梁昭明及元帝皆有開善寺法會詩元帝警
 <lb ed="GA" n="0308a08"/>句云牽蘿下石磴攀桂陟松梁澗斜日欲隱烟生樓
 <lb ed="GA" n="0308a09"/>半藏</p>
@@ -3242,7 +3889,11 @@
 <lb ed="GA" n="0318a03"/><p xml:id="pGA002p0318a0301">大愛敬寺在鍾山竹澗梁普通元年武帝為太祖文皇
 <lb ed="GA" n="0318a04"/>帝造越三年建七層靈塔大通四年又造旃檀像長一
 <lb ed="GA" n="0318a05"/>丈六尺方造寺時中書令王騫墅在側有王導賜田八
-<lb ed="GA" n="0318a06"/>十頃從求不得遂逼奪之寺既成<note n="0318a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0318a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>蕭洽為製碑晉安
+<lb ed="GA" n="0318a06"/>十頃從求不得遂逼奪之寺既成<note 
+n="0318a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0318a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>蕭洽為製碑晉安
 <lb ed="GA" n="0318a07"/>王綱作剎下銘武帝嘗遊覽賦詩昭明太子和之太子
 <lb ed="GA" n="0318a08"/>復建讀書臺於山上江表上已多遊於此又集名僧與
 <lb ed="GA" n="0318a09"/>東魏使李同軌講經寺中逮太清二年侯景作亂圍臺
@@ -3259,7 +3910,11 @@
 <pb ed="GA" xml:id="GA002.0005.0320a" n="0320a"/>
 <lb ed="GA" n="0320a01"/><p xml:id="pGA002p0320a0101" style="margin-left:1em">梁書王騫傳武帝於鍾山西造大愛敬寺騫舊墅在
 <lb ed="GA" n="0320a02"/>寺側者即王導賜田也帝遣主書宣旨就騫市之欲
-<lb ed="GA" n="0320a03"/>以施寺答云此田不賣若<note n="0320a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0320a0301"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>取所不敢言帝怒付市
+<lb ed="GA" n="0320a03"/>以施寺答云此田不賣若<note 
+n="0320a0301" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0320a0301">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>取所不敢言帝怒付市
 <lb ed="GA" n="0320a04"/>評田價以直逼還之由是忤旨</p>
 <lb ed="GA" n="0320a05"/><p xml:id="pGA002p0320a0501" style="margin-left:1em">又蕭洽傳洽少有才思高祖令製大愛敬寺碑</p>
 <lb ed="GA" n="0320a06"/><p xml:id="pGA002p0320a0601" style="margin-left:1em">古詩記梁武帝有遊鍾山大愛敬寺詩及昭明太子
@@ -3294,7 +3949,11 @@
 <lb ed="GA" n="0323a05"/>造唐初廢</p>
 <lb ed="GA" n="0323a06"/><p xml:id="pGA002p0323a0601" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0323a07"/><p xml:id="pGA002p0323a0701" style="margin-left:1em">建康實錄普通元年置永明寺西北去縣五十里案
-<lb ed="GA" n="0323a08"/>寺記南平襄王造唐武德六年廢上元二年奉<note n="0323a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0323a0801"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>重
+<lb ed="GA" n="0323a08"/>寺記南平襄王造唐武德六年廢上元二年奉<note 
+n="0323a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0323a0801">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>重
 <lb ed="GA" n="0323a09"/>建</p></cb:div>
 <pb ed="GA" xml:id="GA002.0005.0324a" n="0324a"/>
 <lb ed="GA" n="0324a01"/><cb:div type="other"><cb:mulu type="其他" level="2">果願尼寺</cb:mulu><head>果願尼寺</head>
@@ -3320,7 +3979,11 @@
 <lb ed="GA" n="0326a01"/><p xml:id="pGA002p0326a0101" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0326a02"/><p xml:id="pGA002p0326a0201" style="margin-left:1em">建康實錄普通三年造猛信尼寺西北去縣五十里
 <lb ed="GA" n="0326a03"/>後閤主書高僧猛造在鋪山西北紹泰二年廢唐上
-<lb ed="GA" n="0326a04"/>元二年<note n="0326a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0326a0401"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>令重建</p></cb:div>
+<lb ed="GA" n="0326a04"/>元二年<note 
+n="0326a0401" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0326a0401">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>令重建</p></cb:div>
 <lb ed="GA" n="0326a05"/><cb:div type="other"><cb:mulu type="其他" level="2">福靜寺</cb:mulu><head>福靜寺<note place="inline">了緣塔院</note></head>
 <lb ed="GA" n="0326a06"/><p xml:id="pGA002p0326a0601">福靜寺在鍾山之後梁普通三年定修義所造也南唐
 <lb ed="GA" n="0326a07"/>改為了緣塔院云</p>
@@ -3364,7 +4027,11 @@
 <lb ed="GA" n="0330a05"/><cb:div type="other"><cb:mulu type="其他" level="2">善覺寺</cb:mulu><head>善覺寺</head>
 <lb ed="GA" n="0330a06"/><p xml:id="pGA002p0330a0601">善覺寺在建康縣東太清里比邱尼所居也梁普通五
 <lb ed="GA" n="0330a07"/>年昭明太子為母丁貴嬪造未成而薨晉安王綱為太
-<lb ed="GA" n="0330a08"/>子卒構之其殿宇房廊創置奇絕武帝<note n="0330a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0330a0801"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>賚銅造寺塔
+<lb ed="GA" n="0330a08"/>子卒構之其殿宇房廊創置奇絕武帝<note 
+n="0330a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0330a0801">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>賚銅造寺塔
 <lb ed="GA" n="0330a09"/>露盤並命監作舍人王曇明材官將軍沈微御仗吳景
 <pb ed="GA" xml:id="GA002.0005.0331a" n="0331a"/>
 <lb ed="GA" n="0331a01"/>等監看起剎又嘗幸寺隨喜綱及湘東王繹皆製碑銘
@@ -3373,12 +4040,24 @@
 <lb ed="GA" n="0331a04"/><p xml:id="pGA002p0331a0401" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0331a05"/><p xml:id="pGA002p0331a0501" style="margin-left:1em">建康實錄普通五年置善覺尼寺在縣東七里穆貴
 <lb ed="GA" n="0331a06"/>妃造其殿宇房廊創置奇絕元帝繹為寺碑</p>
-<lb ed="GA" n="0331a07"/><p xml:id="pGA002p0331a0701" style="margin-left:1em">藝文類聚梁昭明太子簡文帝均有謝<note n="0331a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0331a0701"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>賚銅造善
-<lb ed="GA" n="0331a08"/>覺寺露盤啟簡文啟有云主書陳聰奉宣<note n="0331a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0331a0801"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>旨垂賚
+<lb ed="GA" n="0331a07"/><p xml:id="pGA002p0331a0701" style="margin-left:1em">藝文類聚梁昭明太子簡文帝均有謝<note 
+n="0331a0701" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0331a0701">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>賚銅造善
+<lb ed="GA" n="0331a08"/>覺寺露盤啟簡文啟有云主書陳聰奉宣<note 
+n="0331a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0331a0801">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>旨垂賚
 <lb ed="GA" n="0331a09"/>銅一萬三千斤供造善覺寺塔露盤昭明啟有云陽
 <pb ed="GA" xml:id="GA002.0005.0332a" n="0332a"/>
 <lb ed="GA" n="0332a01"/>燧含景還避日輪甘露入盤足稱天酒</p>
-<lb ed="GA" n="0332a02"/><p xml:id="pGA002p0332a0201" style="margin-left:1em">又簡文帝謝<note n="0332a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0332a0201"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>使監善覺寺起剎啟有云臣綱啟伏
+<lb ed="GA" n="0332a02"/><p xml:id="pGA002p0332a0201" style="margin-left:1em">又簡文帝謝<note 
+n="0332a0201" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0332a0201">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>使監善覺寺起剎啟有云臣綱啟伏
 <lb ed="GA" n="0332a03"/>見敕旨使監作舍人王曇明材官將軍沈微御仗吳
 <lb ed="GA" n="0332a04"/>景等監看善覺寺起塔事爰奉聖恩曲降神力命茲
 <lb ed="GA" n="0332a05"/>執事修斯長表又謝御幸善覺寺看剎啟有云即日
@@ -3392,7 +4071,11 @@
 <lb ed="GA" n="0333a03"/>補綴</p>
 <lb ed="GA" n="0333a04"/><p xml:id="pGA002p0333a0401" style="margin-left:1em">又梁元帝善覺寺碑銘有云銀城映沼金鈴響風露
 <lb ed="GA" n="0333a05"/>臺含月珠幡拂空</p>
-<lb ed="GA" n="0333a06"/><p xml:id="pGA002p0333a0601" style="margin-left:1em">又梁武帝答晉安王謝幸善覺寺啟<note n="0333a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0333a0601"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>云汝所營建
+<lb ed="GA" n="0333a06"/><p xml:id="pGA002p0333a0601" style="margin-left:1em">又梁武帝答晉安王謝幸善覺寺啟<note 
+n="0333a0601" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0333a0601">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>云汝所營建
 <lb ed="GA" n="0333a07"/>慈悲寶剎諸佛威神不營多功纔欲運斤即便豎立
 <lb ed="GA" n="0333a08"/>幽顯欣仰我亦隨喜不得與汝同共瞻拜此以為恨
 <lb ed="GA" n="0333a09"/>耳</p>
@@ -3504,10 +4187,18 @@
 <lb ed="GA" n="0344a05"/><p xml:id="pGA002p0344a0501" style="margin-left:1em">攷證</p>
 <lb ed="GA" n="0344a06"/><p xml:id="pGA002p0344a0601" style="margin-left:1em">建康實錄梁大通元年置園居尼寺北去縣四十五
 <lb ed="GA" n="0344a07"/>里舍人袁頵造中大通元年置禪巖寺北去縣三十
-<lb ed="GA" n="0344a08"/>五里嚴祛之造貞觀六年廢上元二年<note n="0344a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0344a0801"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>重建中大
+<lb ed="GA" n="0344a08"/>五里嚴祛之造貞觀六年廢上元二年<note 
+n="0344a0801" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0344a0801">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>重建中大
 <lb ed="GA" n="0344a09"/>通五年置法苑寺北去縣五十里按寺記張文造一
 <pb ed="GA" xml:id="GA002.0005.0345a" n="0345a"/>
-<lb ed="GA" n="0345a01"/>名廣化寺貞觀六年廢上元二年<note n="0345a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0345a0101"><lem wit="【CB】" resp="CBETA.maha">敕</lem><rdg wit="【志彙】">敇</rdg></app>重建</p></cb:div>
+<lb ed="GA" n="0345a01"/>名廣化寺貞觀六年廢上元二年<note 
+n="0345a0101" resp="CBETA" type="add">敕【CB】，敇【志彙】</note><app n="0345a0101">
+  <lem wit="【CB】" resp="CBETA.maha">敕</lem>
+  <rdg wit="【志彙】">敇</rdg>
+</app>重建</p></cb:div>
 <lb ed="GA" n="0345a02"/><cb:div type="other"><cb:mulu type="其他" level="2">大心寺</cb:mulu><head>大心寺</head>
 <lb ed="GA" n="0345a03"/><p xml:id="pGA002p0345a0301">大心寺未詳其所在梁伏挺被罪出家匿於其中逢赦
 <lb ed="GA" n="0345a04"/>乃出焉</p>
@@ -3865,5 +4556,6 @@
 <lb ed="GA" n="0380a06"/>
 <lb ed="GA" n="0380a07"/>
 <lb ed="GA" n="0380a08"/>
-<lb ed="GA" n="0380a09"/><cb:juan fun="close" n="2"><cb:jhead>南朝佛寺志卷下</cb:jhead></cb:juan><p xml:id="pGA002p0380a0908" style="margin-left:11em" cb:place="inline">孫毅威陳貽祓同校字</p></cb:div>
+<lb ed="GA" n="0380a09"/><cb:juan fun="close" n="2"><cb:jhead>南朝佛寺志卷下</cb:jhead></cb:juan>
+<p xml:id="pGA002p0380a0908" style="margin-left:11em" cb:place="inline">孫毅威陳貽祓同校字</p></cb:div>
 </body></text></TEI>

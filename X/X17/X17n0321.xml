@@ -2,191 +2,267 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X17n0321">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
-			<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
-			<title level="m" xml:lang="zh-Hant">楞伽經註</title>
-			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 321 楞伽經註</title>
-			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 321 楞伽經註</title>
-			<author>唐 智嚴註</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>3卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">X</idno>.<idno type="vol">17</idno>.<idno type="no">321</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>卍新纂大日本續藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA, Punctuated draft text as provided by GJ.cool AI auto punctuation engine</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識，古籍酷 AI 自動標點引擎提供新式標點初稿</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="AI"><p>AI 標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【卍續】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2006-06-05T11:35:25">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+      <title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+      <title level="m" xml:lang="zh-Hant">楞伽經註</title>
+      <title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 321 楞伽經註</title>
+      <title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 321 楞伽經註</title>
+      <author>唐 智嚴註</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">X</idno>.<idno type="vol">17</idno>.<idno type="no">321</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>卍新纂大日本續藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA, Punctuated draft text as provided by GJ.cool AI auto punctuation engine</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識，古籍酷 AI 自動標點引擎提供新式標點初稿</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="AI"><p>AI 標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【卍續】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2006-06-05T11:35:25">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0091a" ed="X" xml:id="X17.0321.0091a"/>
 <lb n="0091a01" ed="X"/><cb:div type="other"><cb:mulu level="1" type="其他">楞伽經註</cb:mulu>
 <lb n="0091a02" ed="X"/><cb:docNumber>No. 321</cb:docNumber>
-<lb n="0091a03" ed="X"/><lb n="0227a01" ed="R091"/><cb:juan n="1" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0091001" resp="Xuzangjing" type="orig" place="foot text">插入首題</note>註楞伽阿䟦多羅寶經卷第一</cb:jhead></cb:juan>
+<lb n="0091a03" ed="X"/><lb n="0227a01" ed="R091"/><cb:juan n="1" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0091001" resp="Xuzangjing" type="orig" place="foot text">插入首題</note>註楞伽阿䟦多羅寶經卷第一</cb:jhead></cb:juan>
 <lb n="0091a04" ed="X"/>
 <lb n="0091a05" ed="X"/>
-<lb n="0091a06" ed="X"/><lb n="0227a03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a0601"><l><note n="0091002" resp="Xuzangjing" type="orig" place="foot text">釋一切佛語心品第一之一偈文</note>迦葉拘留孫，<caesura></caesura>拘那含是我。</l></lg></cb:div>
+<lb n="0091a06" ed="X"/><lb n="0227a03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a0601">
+  <l><note 
+n="0091002" resp="Xuzangjing" type="orig" place="foot text">釋一切佛語心品第一之一偈文</note>迦葉拘留孫，<caesura/>拘那含是我。</l>
+</lg></cb:div>
 <lb n="0091a07" ed="X"/><lb n="0227a04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091a0701" style="margin-left:1em">一百一問：以世間見現在釋迦與過去三佛有異，
-<lb n="0091a08" ed="X"/><lb n="0227a05" ed="R091"/>將明化跡有殊，而德體無二。此會權<note n="0091003" resp="Xuzangjing" type="orig" place="foot text">歸下疑脫實字</note>歸，下四等廣
+<lb n="0091a08" ed="X"/><lb n="0227a05" ed="R091"/>將明化跡有殊，而德體無二。此會權<note 
+n="0091003" resp="Xuzangjing" type="orig" place="foot text">歸下疑脫實字</note>歸，下四等廣
 <lb n="0091a09" ed="X"/><lb n="0227a06" ed="R091"/>明。</p></cb:div>
-<lb n="0091a10" ed="X"/><lb n="0227a07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1001"><l>何故說斷常，<caesura></caesura>及與我無我？</l></lg></cb:div>
+<lb n="0091a10" ed="X"/><lb n="0227a07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1001">
+  <l>何故說斷常，<caesura/>及與我無我？</l>
+</lg></cb:div>
 <lb n="0091a11" ed="X"/><lb n="0227a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091a1101" style="margin-left:1em">一百二問：佛以何故說斷常及我無我？</p></cb:div>
-<lb n="0091a12" ed="X"/><lb n="0227a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1201"><l>何不一切時，<caesura></caesura>演說真實義？</l></lg></cb:div>
+<lb n="0091a12" ed="X"/><lb n="0227a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1201">
+  <l>何不一切時，<caesura/>演說真實義？</l>
+</lg></cb:div>
 <lb n="0091a13" ed="X"/><lb n="0227a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091a1301" style="margin-left:1em">一百三問：何故不說真實義邪？</p></cb:div>
-<lb n="0091a14" ed="X"/><lb n="0227a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1401"><l>而復為眾生，<caesura></caesura>分別說心量。</l></lg></cb:div>
+<lb n="0091a14" ed="X"/><lb n="0227a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1401">
+  <l>而復為眾生，<caesura/>分別說心量。</l>
+</lg></cb:div>
 <lb n="0091a15" ed="X"/><lb n="0227a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091a1501" style="margin-left:1em">一百四問：復以何故說於心量？</p></cb:div>
-<lb n="0091a16" ed="X"/><lb n="0227a13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1601"><l>何因男女林，<caesura></caesura>訶梨阿摩勒。</l></lg></cb:div>
+<lb n="0091a16" ed="X"/><lb n="0227a13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1601">
+  <l>何因男女林，<caesura/>訶梨阿摩勒。</l>
+</lg></cb:div>
 <lb n="0091a17" ed="X"/><lb n="0227a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091a1701" style="margin-left:1em">一百五問：世間果實，何故不同，有巨而味甘，復有
 <lb n="0091a18" ed="X"/><lb n="0227a15" ed="R091"/>形如男女，具如立世毗曇論明。</p></cb:div>
-<lb n="0091a19" ed="X"/><lb n="0227a16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1901"><l>雞羅及鐵圍，<caesura></caesura>金剛等諸山。</l></lg></cb:div>
+<lb n="0091a19" ed="X"/><lb n="0227a16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a1901">
+  <l>雞羅及鐵圍，<caesura/>金剛等諸山。</l>
+</lg></cb:div>
 <lb n="0091a20" ed="X"/><lb n="0227a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091a2001" style="margin-left:1em">一百六問：按梵李雞羅婆山，及鐵圍金剛山等，並
 <lb n="0091a21" ed="X"/><lb n="0227a18" ed="R091"/>以何差別，此十山之數，仙聖所居，今略舉三，意該
 <lb n="0091a22" ed="X"/><lb n="0227b01" ed="R091"/>餘七。</p></cb:div>
-<lb n="0091a23" ed="X"/><lb n="0227b02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a2301"><l>無量寶莊嚴。</l></lg></cb:div>
+<lb n="0091a23" ed="X"/><lb n="0227b02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091a2301">
+  <l>無量寶莊嚴。</l>
+</lg></cb:div>
 <lb n="0091a24" ed="X"/><lb n="0227b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091a2401" style="margin-left:1em">一百七問：此等諸山，以何土石所致，及眾寶而成？</p></cb:div>
 <pb n="0091b" ed="X" xml:id="X17.0321.0091b"/>
-<lb n="0091b01" ed="X"/><lb n="0227b04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b0101"><l>仙闥婆充滿。</l></lg></cb:div>
+<lb n="0091b01" ed="X"/><lb n="0227b04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b0101">
+  <l>仙闥婆充滿。</l>
+</lg></cb:div>
 <lb n="0091b02" ed="X"/><lb n="0227b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091b0201" style="margin-left:1em">一百八問：闥婆者諸天樂神之稱，居在地上寶山
 <lb n="0091b03" ed="X"/><lb n="0227b06" ed="R091"/>之中，若天須樂輙身現異相便即昇天，作樂事訖
 <lb n="0091b04" ed="X"/><lb n="0227b07" ed="R091"/>還其本處，以此闥婆及仙人等多止寶山，故云充
 <lb n="0091b05" ed="X"/><lb n="0227b08" ed="R091"/>滿。上四十八偈半並大慧所陳百八義問。</p></cb:div>
-<lb n="0091b06" ed="X"/><lb n="0227b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b0601" type="regular"><l>無上世間解。<caesura></caesura>聞彼所說偈，<caesura></caesura>大乘諸度門，</l>
-<lb n="0091b07" ed="X"/><lb n="0227b10" ed="R091"/><l>諸佛心第一。</l></lg></cb:div>
+<lb n="0091b06" ed="X"/><lb n="0227b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b0601" type="regular">
+  <l>無上世間解。<caesura/>聞彼所說偈，<caesura/>大乘諸度門，</l>
+<lb n="0091b07" ed="X"/><lb n="0227b10" ed="R091"/>
+  <l>諸佛心第一。</l>
+</lg></cb:div>
 <lb n="0091b08" ed="X"/><lb n="0227b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091b0801" style="margin-left:1em">自下四十行偈，佛牒上問，明略答訶片，及問有不
 <lb n="0091b09" ed="X"/><lb n="0227b12" ed="R091"/>周如來教問。此之一行，即結集生起，謂佛聞前問
 <lb n="0091b10" ed="X"/><lb n="0227b13" ed="R091"/>意，請大乘度門，佛心勝義，故云第一。下三十九偈，
 <lb n="0091b11" ed="X"/><lb n="0227b14" ed="R091"/>並佛之所說。</p></cb:div>
-<lb n="0091b12" ed="X"/><lb n="0227b15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b1201"><l>善哉！善哉！問：</l></lg></cb:div>
+<lb n="0091b12" ed="X"/><lb n="0227b15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b1201">
+  <l>善哉！善哉！問：</l>
+</lg></cb:div>
 <lb n="0091b13" ed="X"/><lb n="0227b16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091b1301" style="margin-left:1em">此上所問，含諸佛心義，在益既弘，故斯重讚。</p></cb:div>
-<lb n="0091b14" ed="X"/><lb n="0227b17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b1401"><l>大慧，善諦聽！</l></lg></cb:div>
+<lb n="0091b14" ed="X"/><lb n="0227b17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b1401">
+  <l>大慧，善諦聽！</l>
+</lg></cb:div>
 <lb n="0091b15" ed="X"/><lb n="0227b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091b1501" style="margin-left:1em">將示深義，故先飭聽。</p></cb:div>
-<lb n="0091b16" ed="X"/><lb n="0228a01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b1601"><l>我今當次第，<caesura></caesura>如汝所問說。</l></lg></cb:div>
+<lb n="0091b16" ed="X"/><lb n="0228a01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b1601">
+  <l>我今當次第，<caesura/>如汝所問說。</l>
+</lg></cb:div>
 <lb n="0091b17" ed="X"/><lb n="0228a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091b1701" style="margin-left:1em">次明許說。問：觀下文非次，何故兩處言次第邪？夫
 <lb n="0091b18" ed="X"/><lb n="0228a03" ed="R091"/>生為念本下，既牒生即不生，此義之次也，亦欲片
 <lb n="0091b19" ed="X"/><lb n="0228a04" ed="R091"/>問非次。</p></cb:div>
-<lb n="0091b20" ed="X"/><lb n="0228a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b2001"><l>生及與不生，<caesura></caesura>涅槃空剎那。</l></lg></cb:div>
+<lb n="0091b20" ed="X"/><lb n="0228a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b2001">
+  <l>生及與不生，<caesura/>涅槃空剎那。</l>
+</lg></cb:div>
 <lb n="0091b21" ed="X"/><lb n="0228a06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091b2101" style="margin-left:1em">初句舉生即不生，次句牒上之三問。</p></cb:div>
-<lb n="0091b22" ed="X"/><lb n="0228a07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b2201"><l>趣至無自性。</l></lg></cb:div>
+<lb n="0091b22" ed="X"/><lb n="0228a07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091b2201">
+  <l>趣至無自性。</l>
+</lg></cb:div>
 <lb n="0091b23" ed="X"/><lb n="0228a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091b2301" style="margin-left:1em">此句總答上問，兼該上下。趣即是心，至即為境。心
 <lb n="0091b24" ed="X"/><lb n="0228a09" ed="R091"/>境既無自性，餘法准而可知。</p></cb:div>
 <pb n="0091c" ed="X" xml:id="X17.0321.0091c"/>
-<lb n="0091c01" ed="X"/><lb n="0228a10" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c0101" type="regular"><l>佛諸波羅蜜。<caesura></caesura>佛子與聲聞，<caesura></caesura>緣覺諸外道，</l>
-<lb n="0091c02" ed="X"/><lb n="0228a11" ed="R091"/><l>及與無色行，<caesura></caesura>如是種種事。</l></lg></cb:div>
+<lb n="0091c01" ed="X"/><lb n="0228a10" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c0101" type="regular">
+  <l>佛諸波羅蜜。<caesura/>佛子與聲聞，<caesura/>緣覺諸外道，</l>
+<lb n="0091c02" ed="X"/><lb n="0228a11" ed="R091"/>
+  <l>及與無色行，<caesura/>如是種種事。</l>
+</lg></cb:div>
 <lb n="0091c03" ed="X"/><lb n="0228a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c0301" style="margin-left:1em">此牒佛與三乘。能脩行人波羅蜜，即所行之法。諸
 <lb n="0091c04" ed="X"/><lb n="0228a13" ed="R091"/>外道謂人無色行，即法。此總舉內外人法，及餘種
 <lb n="0091c05" ed="X"/><lb n="0228a14" ed="R091"/>種，悉皆無性。上之三行，總明略答。</p></cb:div>
-<lb n="0091c06" ed="X"/><lb n="0228a15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c0601"><l>須彌巨海山，<caesura></caesura>洲渚剎土地。</l></lg></cb:div>
+<lb n="0091c06" ed="X"/><lb n="0228a15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c0601">
+  <l>須彌巨海山，<caesura/>洲渚剎土地。</l>
+</lg></cb:div>
 <lb n="0091c07" ed="X"/><lb n="0228a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c0701" style="margin-left:1em">此下八行，明牒問訶責。此之二句，牒上云何名為
 <lb n="0091c08" ed="X"/><lb n="0228a17" ed="R091"/>地。</p></cb:div>
-<lb n="0091c09" ed="X"/><lb n="0228a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c0901"><l>星宿及日月，<caesura></caesura>外道天脩羅。</l></lg></cb:div>
+<lb n="0091c09" ed="X"/><lb n="0228a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c0901">
+  <l>星宿及日月，<caesura/>外道天脩羅。</l>
+</lg></cb:div>
 <lb n="0091c10" ed="X"/><lb n="0228b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c1001" style="margin-left:1em">此牒上星宿日月天諸外道脩羅上，問中無因而
 <lb n="0091c11" ed="X"/><lb n="0228b02" ed="R091"/>附出，少類天耳。</p></cb:div>
-<lb n="0091c12" ed="X"/><lb n="0228b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1201"><l>解脫自在通，<caesura></caesura>力禪三摩提。</l></lg></cb:div>
+<lb n="0091c12" ed="X"/><lb n="0228b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1201">
+  <l>解脫自在通，<caesura/>力禪三摩提。</l>
+</lg></cb:div>
 <lb n="0091c13" ed="X"/><lb n="0228b04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c1301" style="margin-left:1em">牒上何因神通及自在三昧。</p></cb:div>
-<lb n="0091c14" ed="X"/><lb n="0228b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1401"><l>滅及如意足，<caesura></caesura>覺支及道品。</l></lg></cb:div>
+<lb n="0091c14" ed="X"/><lb n="0228b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1401">
+  <l>滅及如意足，<caesura/>覺支及道品。</l>
+</lg></cb:div>
 <lb n="0091c15" ed="X"/><lb n="0228b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c1501" style="margin-left:1em">上句初滅義，牒四勤及四如意足。覺支一句，正牒
 <lb n="0091c16" ed="X"/><lb n="0228b07" ed="R091"/>上何因說覺支及與菩提分。</p></cb:div>
-<lb n="0091c17" ed="X"/><lb n="0228b08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1701"><l>諸禪定無量，<caesura></caesura>諸陰身往來。</l></lg></cb:div>
+<lb n="0091c17" ed="X"/><lb n="0228b08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1701">
+  <l>諸禪定無量，<caesura/>諸陰身往來。</l>
+</lg></cb:div>
 <lb n="0091c18" ed="X"/><lb n="0228b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c1801" style="margin-left:1em">上句義牒四禪、四無量，下句牒上眾生生諸趣。</p></cb:div>
-<lb n="0091c19" ed="X"/><lb n="0228b10" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1901"><l>正受滅盡定，<caesura></caesura>三昧起心說。</l></lg></cb:div>
+<lb n="0091c19" ed="X"/><lb n="0228b10" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c1901">
+  <l>正受滅盡定，<caesura/>三昧起心說。</l>
+</lg></cb:div>
 <lb n="0091c20" ed="X"/><lb n="0228b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c2001" style="margin-left:1em">牒上云何無色定滅正受明須彌巨海，乃至滅定
 <lb n="0091c21" ed="X"/><lb n="0228b12" ed="R091"/>三昧，並是牒問，唯起心說以為略片。</p></cb:div>
-<lb n="0091c22" ed="X"/><lb n="0228b13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c2201"><l>心意及與識，<caesura></caesura>無我法有五。</l></lg></cb:div>
+<lb n="0091c22" ed="X"/><lb n="0228b13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0091c2201">
+  <l>心意及與識，<caesura/>無我法有五。</l>
+</lg></cb:div>
 <lb n="0091c23" ed="X"/><lb n="0228b14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0091c2301" style="margin-left:1em">牒上云何名，為藏意及識，何等二無我，兼義牒五
 <lb n="0091c24" ed="X"/><lb n="0228b15" ed="R091"/>法。一門。</p></cb:div>
 <pb n="0092a" ed="X" xml:id="X17.0321.0092a"/>
-<lb n="0092a01" ed="X"/><lb n="0228b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0101"><l>自性想所想，<caesura></caesura>及與現二見。</l></lg></cb:div>
+<lb n="0092a01" ed="X"/><lb n="0228b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0101">
+  <l>自性想所想，<caesura/>及與現二見。</l>
+</lg></cb:div>
 <lb n="0092a02" ed="X"/><lb n="0228b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a0201" style="margin-left:1em">義牒三性，兼牒自性及與心。云何作有見？</p></cb:div>
-<lb n="0092a03" ed="X"/><lb n="0228b18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0301"><l>乘及諸種性，<caesura></caesura>金銀摩尼等。</l></lg></cb:div>
+<lb n="0092a03" ed="X"/><lb n="0228b18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0301">
+  <l>乘及諸種性，<caesura/>金銀摩尼等。</l>
+</lg></cb:div>
 <lb n="0092a04" ed="X"/><lb n="0229a01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a0401" style="margin-left:1em">牒上云何三乘及種性，誰生諸寶性等三。問：</p></cb:div>
-<lb n="0092a05" ed="X"/><lb n="0229a02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0501"><l>一闡提大種，<caesura></caesura>荒乱及一佛。</l></lg></cb:div>
+<lb n="0092a05" ed="X"/><lb n="0229a02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0501">
+  <l>一闡提大種，<caesura/>荒乱及一佛。</l>
+</lg></cb:div>
 <lb n="0092a06" ed="X"/><lb n="0229a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a0601" style="margin-left:1em">牒上云何闡提國土乱何大牟尼等三，問其大種，
 <lb n="0092a07" ed="X"/><lb n="0229a04" ed="R091"/>因而附出。</p></cb:div>
-<lb n="0092a08" ed="X"/><lb n="0229a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0801"><l>智爾𦦨，得向<caesura></caesura>眾生有無有。</l></lg></cb:div>
+<lb n="0092a08" ed="X"/><lb n="0229a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a0801">
+  <l>智爾𦦨，得向<caesura/>眾生有無有。</l>
+</lg></cb:div>
 <lb n="0092a09" ed="X"/><lb n="0229a06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a0901" style="margin-left:1em">牒上爾𦦨淨解脫脩行者。二、問其眾生有無有一
 <lb n="0092a10" ed="X"/><lb n="0229a07" ed="R091"/>句。此即片辭，明上之所問，並是眾生有無二見。</p></cb:div>
-<lb n="0092a11" ed="X"/><lb n="0229a08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1101"><l>象馬諸禽獸，<caesura></caesura>云何而捕取？</l></lg></cb:div>
+<lb n="0092a11" ed="X"/><lb n="0229a08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1101">
+  <l>象馬諸禽獸，<caesura/>云何而捕取？</l>
+</lg></cb:div>
 <lb n="0092a12" ed="X"/><lb n="0229a09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a1201" style="margin-left:1em">牒上云何象馬鹿？一問：</p></cb:div>
-<lb n="0092a13" ed="X"/><lb n="0229a10" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1301"><l>譬因成悉檀，<caesura></caesura>及與作所作。</l></lg></cb:div>
+<lb n="0092a13" ed="X"/><lb n="0229a10" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1301">
+  <l>譬因成悉檀，<caesura/>及與作所作。</l>
+</lg></cb:div>
 <lb n="0092a14" ed="X"/><lb n="0229a11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a1401" style="margin-left:1em">牒上悉檀及緣起何所生作所作二問。</p></cb:div>
-<lb n="0092a15" ed="X"/><lb n="0229a12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1501"><l>叢林迷惑通，<caesura></caesura>心量不現有。</l></lg></cb:div>
+<lb n="0092a15" ed="X"/><lb n="0229a12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1501">
+  <l>叢林迷惑通，<caesura/>心量不現有。</l>
+</lg></cb:div>
 <lb n="0092a16" ed="X"/><lb n="0229a13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a1601" style="margin-left:1em">牒上見癡惑一問。其心量不現有一句，即是片辭。
 <lb n="0092a17" ed="X"/><lb n="0229a14" ed="R091"/>明上之所問，但唯心量，實無有法而可現也。此該
 <lb n="0092a18" ed="X"/><lb n="0229a15" ed="R091"/>上下。</p></cb:div>
-<lb n="0092a19" ed="X"/><lb n="0229a16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1901"><l>諸地不相去，<caesura></caesura>百變百無受。</l></lg></cb:div>
+<lb n="0092a19" ed="X"/><lb n="0229a16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a1901">
+  <l>諸地不相去，<caesura/>百變百無受。</l>
+</lg></cb:div>
 <lb n="0092a20" ed="X"/><lb n="0229a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a2001" style="margin-left:1em">牒上何因度諸地，及百變易百無受等二。問：</p></cb:div>
-<lb n="0092a21" ed="X"/><lb n="0229a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a2101"><l>醫方工巧論，<caesura></caesura>技術諸明處。</l></lg></cb:div>
+<lb n="0092a21" ed="X"/><lb n="0229a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a2101">
+  <l>醫方工巧論，<caesura/>技術諸明處。</l>
+</lg></cb:div>
 <lb n="0092a22" ed="X"/><lb n="0229b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092a2201" style="margin-left:1em">牒上云何醫方論明處及技術等二問，並心量耳，
 <lb n="0092a23" ed="X"/><lb n="0229b02" ed="R091"/>有何現邪？</p></cb:div>
-<lb n="0092a24" ed="X"/><lb n="0229b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a2401" type="regular"><l>諸山須彌地，<caesura></caesura>巨海日月量，<caesura></caesura>下中上眾生，</l>
+<lb n="0092a24" ed="X"/><lb n="0229b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0092a2401" type="regular">
+  <l>諸山須彌地，<caesura/>巨海日月量，<caesura/>下中上眾生，</l>
 <pb n="0092b" ed="X" xml:id="X17.0321.0092b"/>
-<lb n="0092b01" ed="X"/><lb n="0229b04" ed="R091"/><l>身各幾微塵？</l></lg></cb:div>
+<lb n="0092b01" ed="X"/><lb n="0229b04" ed="R091"/>
+  <l>身各幾微塵？</l>
+</lg></cb:div>
 <lb n="0092b02" ed="X"/><lb n="0229b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092b0201" style="margin-left:1em">自下九行半，以大慧問。有不周佛教重問者，略有
 <lb n="0092b03" ed="X"/><lb n="0229b06" ed="R091"/>二義：一、為遣物情外；二、以大慧上。既言我名大慧
 <lb n="0092b04" ed="X"/><lb n="0229b07" ed="R091"/>通達大乘者，且如妙高及四洲土地、大海日月、下
 <lb n="0092b05" ed="X"/><lb n="0229b08" ed="R091"/>中上身，此等形量各用幾塵而成？知其數不？若不
-<lb n="0092b06" ed="X"/><lb n="0229b09" ed="R091"/>知者，豈曰大乘？又諸物既積微，<note n="0092001" resp="Xuzangjing" type="orig" place="foot text">所下佚失</note>所</p></cb:div>
+<lb n="0092b06" ed="X"/><lb n="0229b09" ed="R091"/>知者，豈曰大乘？又諸物既積微，<note 
+n="0092001" resp="Xuzangjing" type="orig" place="foot text">所下佚失</note>所</p></cb:div>
 <milestone n="2" unit="juan"/>
 <lb n="0092b07" ed="X"/><lb n="0229b10" ed="R091"/>
-<lb n="0092b08" ed="X"/><lb n="0229b11" ed="R091"/><cb:juan n="2" fun="open"><cb:mulu n="2" type="卷"/><cb:jhead><note n="0092002" resp="Xuzangjing" type="orig" place="foot text">插入首題</note>註楞伽阿䟦多羅寶經卷第二</cb:jhead></cb:juan>
+<lb n="0092b08" ed="X"/><lb n="0229b11" ed="R091"/><cb:juan n="2" fun="open"><cb:mulu n="2" type="卷"/><cb:jhead><note 
+n="0092002" resp="Xuzangjing" type="orig" place="foot text">插入首題</note>註楞伽阿䟦多羅寶經卷第二</cb:jhead></cb:juan>
 <lb n="0092b09" ed="X"/><lb n="0229b12" ed="R091"/>
 <lb n="0092b10" ed="X"/><lb n="0229b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092b1001" style="margin-left:1em">於自覺非分，故說無因，故外道無有常性。</p></cb:div>
 <lb n="0092b11" ed="X"/><lb n="0229b14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092b1101">大慧！若復諸外道因相成，常不思議。</p></cb:div>
-<lb n="0092b12" ed="X"/><lb n="0229b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092b1201" style="margin-left:1em">將片彼常，若諸外道因無常<note n="0092b1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0092b1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>成常者，此縱彼義。</p></cb:div>
+<lb n="0092b12" ed="X"/><lb n="0229b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092b1201" style="margin-left:1em">將片彼常，若諸外道因無常<note 
+n="0092b1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0092b1201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>成常者，此縱彼義。</p></cb:div>
 <lb n="0092b13" ed="X"/><lb n="0229b16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092b1301">因自相非，性同於菟角。</p></cb:div>
 <lb n="0092b14" ed="X"/><lb n="0229b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092b1401" style="margin-left:1em">此舉法喻，而片明彼妄立因相，本無體性，類於兔
 <lb n="0092b15" ed="X"/><lb n="0229b18" ed="R091"/>角。</p></cb:div>
@@ -207,7 +283,11 @@
 <lb n="0092c05" ed="X"/><lb n="0230a14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092c0501">非外性非性，無常思量計常。</p></cb:div>
 <lb n="0092c06" ed="X"/><lb n="0230a15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c0601" style="margin-left:1em">不同外道，思量取計。</p></cb:div>
 <lb n="0092c07" ed="X"/><lb n="0230a16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092c0701">大慧，若復外性非性無常，思量計常，不思議常。</p></cb:div>
-<lb n="0092c08" ed="X"/><lb n="0230a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c0801" style="margin-left:1em">若計外性無<note n="0092c0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0092c0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，思量為常者，此即牒計。</p></cb:div>
+<lb n="0092c08" ed="X"/><lb n="0230a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c0801" style="margin-left:1em">若計外性無<note 
+n="0092c0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0092c0801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，思量為常者，此即牒計。</p></cb:div>
 <lb n="0092c09" ed="X"/><lb n="0230a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092c0901">而彼不知，常不思議，自因之相。</p></cb:div>
 <lb n="0092c10" ed="X"/><lb n="0230b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c1001" style="margin-left:1em">片彼不知，真不思議，自因之相。</p></cb:div>
 <lb n="0092c11" ed="X"/><lb n="0230b02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092c1101">去得自覺聖智境界相遠，彼不應說。</p></cb:div>
@@ -219,7 +299,11 @@
 <lb n="0092c17" ed="X"/><lb n="0230b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c1701" style="margin-left:1em">釋其所由。彼人猒苦求樂者，以不了生死涅槃及
 <lb n="0092c18" ed="X"/><lb n="0230b09" ed="R091"/>差別諸法悉是妄想，本來非性。</p></cb:div>
 <lb n="0092c19" ed="X"/><lb n="0230b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092c1901">未來諸根，境界休息，作涅槃想。</p></cb:div>
-<lb n="0092c20" ed="X"/><lb n="0230b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c2001" style="margin-left:1em">以不了故，妄計未來根境滅<note n="0092c2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0092c2001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，作涅槃想。</p></cb:div>
+<lb n="0092c20" ed="X"/><lb n="0230b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c2001" style="margin-left:1em">以不了故，妄計未來根境滅<note 
+n="0092c2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0092c2001">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，作涅槃想。</p></cb:div>
 <lb n="0092c21" ed="X"/><lb n="0230b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0092c2101">非自覺、聖智趣、藏識轉。</p></cb:div>
 <lb n="0092c22" ed="X"/><lb n="0230b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0092c2201" style="margin-left:1em">然大乘以自覺藏轉而為涅槃，小乘未悟，故言非
 <lb n="0092c23" ed="X"/><lb n="0230b14" ed="R091"/>也。</p></cb:div>
@@ -251,7 +335,11 @@
 <lb n="0093a24" ed="X"/><lb n="0231b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0093a2401" style="margin-left:1em">喻兔馬等角，既本自不有，後亦不無，不生亦爾。</p></cb:div>
 <pb n="0093b" ed="X" xml:id="X17.0321.0093b"/>
 <lb n="0093b01" ed="X"/><lb n="0231b04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0093b0101">愚癡凡夫不實妄想、自性妄想故。</p></cb:div>
-<lb n="0093b02" ed="X"/><lb n="0231b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0093b0201" style="margin-left:1em">今舉生見以明不生，<note n="0093b0201" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0093b0201"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>凡愚不實，妄計生滅，實無
+<lb n="0093b02" ed="X"/><lb n="0231b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0093b0201" style="margin-left:1em">今舉生見以明不生，<note 
+n="0093b0201" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0093b0201">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>凡愚不實，妄計生滅，實無
 <lb n="0093b03" ed="X"/><lb n="0231b06" ed="R091"/>生。</p></cb:div>
 <lb n="0093b04" ed="X"/><lb n="0231b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0093b0401">大慧，一切法不生自覺聖智趣境界者。</p></cb:div>
 <lb n="0093b05" ed="X"/><lb n="0231b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0093b0501" style="margin-left:1em">又明不生是自覺趣境，此句該通上下。</p></cb:div>
@@ -298,11 +386,19 @@
 <lb n="0093c21" ed="X"/><lb n="0232b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0093c2101">知時。</p></cb:div>
 <lb n="0093c22" ed="X"/><lb n="0232b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0093c2201" style="margin-left:1em">彼聞前說，如是知時。</p></cb:div>
 <lb n="0093c23" ed="X"/><lb n="0232b14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0093c2301">舉身毛孔，凞怡欣悅。</p></cb:div>
-<lb n="0093c24" ed="X"/><lb n="0232b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0093c2401" style="margin-left:1em">聞上說<note n="0093c2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0093c2401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，遍體毛孔，悉皆歡喜。驗有此相，必由久
+<lb n="0093c24" ed="X"/><lb n="0232b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0093c2401" style="margin-left:1em">聞上說<note 
+n="0093c2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0093c2401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，遍體毛孔，悉皆歡喜。驗有此相，必由久
 <pb n="0094a" ed="X" xml:id="X17.0321.0094a"/>
 <lb n="0094a01" ed="X"/><lb n="0232b16" ed="R091"/>習。此該下文凞怡和悅之㒵，以慶今得遇。</p></cb:div>
 <lb n="0094a02" ed="X"/><lb n="0232b17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a0201">及樂脩相智，不脩緣起發悟之相。</p></cb:div>
-<lb n="0094a03" ed="X"/><lb n="0232b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a0301" style="margin-left:1em">明小乘人，<note n="0094a0301" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0094a0301"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>習四諦，謂知苦、斷集、證滅、脩道，存物
+<lb n="0094a03" ed="X"/><lb n="0232b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a0301" style="margin-left:1em">明小乘人，<note 
+n="0094a0301" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0094a0301">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>習四諦，謂知苦、斷集、證滅、脩道，存物
 <lb n="0094a04" ed="X"/><lb n="0233a01" ed="R091"/>而見，故言相智，不同中乘依緣發悟。</p></cb:div>
 <lb n="0094a05" ed="X"/><lb n="0233a02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a0501">是名聲聞乘無間種性。</p></cb:div>
 <lb n="0094a06" ed="X"/><lb n="0233a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a0601" style="margin-left:1em">此總結也。上並舉因而驗，方知有性。</p></cb:div>
@@ -310,17 +406,46 @@
 <lb n="0094a08" ed="X"/><lb n="0233a05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a0801" style="margin-left:1em">自下舉果而驗。言第八者，謂阿羅漢四果四向，至
 <lb n="0094a09" ed="X"/><lb n="0233a06" ed="R091"/>阿羅漢便當第八。</p></cb:div>
 <lb n="0094a10" ed="X"/><lb n="0233a07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a1001">起煩惱斷，習煩惱不斷。</p></cb:div>
-<lb n="0094a11" ed="X"/><lb n="0233a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a1101" style="margin-left:1em">明羅漢斷<note n="0094001" resp="Xuzangjing" type="orig" place="foot text">或與惑通下同</note>或分齊，但伏三界現行煩惱，未斷習使，
+<lb n="0094a11" ed="X"/><lb n="0233a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a1101" style="margin-left:1em">明羅漢斷<note 
+n="0094001" resp="Xuzangjing" type="orig" place="foot text">或與惑通下同</note>或分齊，但伏三界現行煩惱，未斷習使，
 <lb n="0094a12" ed="X"/><lb n="0233a09" ed="R091"/>如舍利弗吐食等，斯之證也。</p></cb:div>
 <lb n="0094a13" ed="X"/><lb n="0233a10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a1301">不度不思議變易死。度分段死。</p></cb:div>
 <lb n="0094a14" ed="X"/><lb n="0233a11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a1401" style="margin-left:1em">明離苦有異。以未斷習故，感變易生；伏現惑故，離
 <lb n="0094a15" ed="X"/><lb n="0233a12" ed="R091"/>分段死。謂微妙四大之形，念念易劣而變勝，非凡
 <lb n="0094a16" ed="X"/><lb n="0233a13" ed="R091"/>所測，名不思議。然羅漢、辟支住地所感，麤妙有殊。
 <lb n="0094a17" ed="X"/><lb n="0233a14" ed="R091"/>又三界漏形，壽報限分，故名分段。</p></cb:div>
-<lb n="0094a18" ed="X"/><lb n="0233a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a1801">正師子吼：我生<note n="0094a1801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a1801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>盡，梵行<note n="0094a1802" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a1802"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>立，不受後有。</p></cb:div>
+<lb n="0094a18" ed="X"/><lb n="0233a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a1801">正師子吼：我生<note 
+n="0094a1801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a1801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>盡，梵行<note 
+n="0094a1802" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a1802">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>立，不受後有。</p></cb:div>
 <lb n="0094a19" ed="X"/><lb n="0233a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a1901" style="margin-left:1em">舉聲聞獲四智究竟，魔外道中無畏，而說名師子
-<lb n="0094a20" ed="X"/><lb n="0233a17" ed="R091"/>吼：我生<note n="0094a2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>盡知苦智，梵行<note n="0094a2002" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2002"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>立，道<note n="0094a2003" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2003"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>脩，智不受後
-<lb n="0094a21" ed="X"/><lb n="0233a18" ed="R091"/>有，集<note n="0094a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>斷，智闕，所作<note n="0094a2102" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2102"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>辦，梵本如是。</p></cb:div>
+<lb n="0094a20" ed="X"/><lb n="0233a17" ed="R091"/>吼：我生<note 
+n="0094a2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2001">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>盡知苦智，梵行<note 
+n="0094a2002" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2002">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>立，道<note 
+n="0094a2003" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2003">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>脩，智不受後
+<lb n="0094a21" ed="X"/><lb n="0233a18" ed="R091"/>有，集<note 
+n="0094a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>斷，智闕，所作<note 
+n="0094a2102" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094a2102">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>辦，梵本如是。</p></cb:div>
 <lb n="0094a22" ed="X"/><lb n="0233b01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a2201">如實知。</p></cb:div>
 <lb n="0094a23" ed="X"/><lb n="0233b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094a2301" style="margin-left:1em">明二乘所知四智決定不疑，故言如實。</p></cb:div>
 <lb n="0094a24" ed="X"/><lb n="0233b03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094a2401">脩習人無我，乃至得般涅槃覺。</p></cb:div>
@@ -336,14 +461,19 @@
 <lb n="0094b09" ed="X"/><lb n="0233b12" ed="R091"/>稱人，眾法和合，名曰眾生。報有限分，色心連持，名
 <lb n="0094b10" ed="X"/><lb n="0233b13" ed="R091"/>曰壽命。飲食所資，以為長養，堪任於事，名曰士夫。
 <lb n="0094b11" ed="X"/><lb n="0233b14" ed="R091"/>上之六種，並我之異稱，但存我別求，悉名外道。</p></cb:div>
-<lb n="0094b12" ed="X"/><lb n="0233b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094b1201">復有異外道說：悉由作者見一切性<note n="0094b1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094b1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，言此是般涅
+<lb n="0094b12" ed="X"/><lb n="0233b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094b1201">復有異外道說：悉由作者見一切性<note 
+n="0094b1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094b1201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，言此是般涅
 <lb n="0094b13" ed="X"/><lb n="0233b16" ed="R091"/>槃。</p></cb:div>
 <lb n="0094b14" ed="X"/><lb n="0233b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094b1401" style="margin-left:1em">有異外道計自在等以為作者，諸法悉滅，言此自
 <lb n="0094b15" ed="X"/><lb n="0233b18" ed="R091"/>在而為涅槃。</p></cb:div>
 <lb n="0094b16" ed="X"/><lb n="0234a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094b1601">作如是覺法，無我見非分。</p></cb:div>
 <lb n="0094b17" ed="X"/><lb n="0234a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094b1701" style="margin-left:1em">此句結上二人。若結小乘，法字屬下；若結外道，即
 <lb n="0094b18" ed="X"/><lb n="0234a03" ed="R091"/>法字屬上。此法之一字，該通上下。</p></cb:div>
-<lb n="0094b19" ed="X"/><lb n="0234a04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094b1901">彼無<note n="0094002" resp="Xuzangjing" type="orig" place="foot text">經無無字</note>無解脫。</p></cb:div>
+<lb n="0094b19" ed="X"/><lb n="0234a04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094b1901">彼無<note 
+n="0094002" resp="Xuzangjing" type="orig" place="foot text">經無無字</note>無解脫。</p></cb:div>
 <lb n="0094b20" ed="X"/><lb n="0234a05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094b2001" style="margin-left:1em">明彼小乘無法空解脫，又彼外道無人空解脫。</p></cb:div>
 <lb n="0094b21" ed="X"/><lb n="0234a06" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094b2101">大慧，此諸聲聞乘無間外道種性，不出出覺。</p></cb:div>
 <lb n="0094b22" ed="X"/><lb n="0234a07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094b2201" style="margin-left:1em">此總明上兩人俱不出人法現習而作出解。</p></cb:div>
@@ -358,11 +488,23 @@
 <lb n="0094c06" ed="X"/><lb n="0234a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c0601">舉身毛竪，悲泣流淚。</p></cb:div>
 <lb n="0094c07" ed="X"/><lb n="0234a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c0701" style="margin-left:1em">此明中乘發悟之相。所以悲者，謂傷昔不聞。</p></cb:div>
 <lb n="0094c08" ed="X"/><lb n="0234a17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c0801">不相近緣，所有不著。</p></cb:div>
-<lb n="0094c09" ed="X"/><lb n="0234a18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c0901" style="margin-left:1em">此聞<note n="0094c0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094c0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>獲益，謂悟緣空則無相近，於諸世間不生
+<lb n="0094c09" ed="X"/><lb n="0234a18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c0901" style="margin-left:1em">此聞<note 
+n="0094c0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094c0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>獲益，謂悟緣空則無相近，於諸世間不生
 <lb n="0094c10" ed="X"/><lb n="0234b01" ed="R091"/>計著。上並舉因而驗其性。</p></cb:div>
 <lb n="0094c11" ed="X"/><lb n="0234b02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c1101">種種自身，種種神通。</p></cb:div>
-<lb n="0094c12" ed="X"/><lb n="0234b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c1201" style="margin-left:1em">自下舉果驗機。夫緣覺之人，若化眾生，<note n="0094c1201" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0094c1201"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>現神通，
-<lb n="0094c13" ed="X"/><lb n="0234b04" ed="R091"/>或殊形等<note n="0094c1301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094c1301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，或變化無窮。</p></cb:div>
+<lb n="0094c12" ed="X"/><lb n="0234b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c1201" style="margin-left:1em">自下舉果驗機。夫緣覺之人，若化眾生，<note 
+n="0094c1201" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0094c1201">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>現神通，
+<lb n="0094c13" ed="X"/><lb n="0234b04" ed="R091"/>或殊形等<note 
+n="0094c1301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094c1301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，或變化無窮。</p></cb:div>
 <lb n="0094c14" ed="X"/><lb n="0234b05" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c1401">若離若合。</p></cb:div>
 <lb n="0094c15" ed="X"/><lb n="0234b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c1501" style="margin-left:1em">或離一身為多，或合多身為一。</p></cb:div>
 <lb n="0094c16" ed="X"/><lb n="0234b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c1601">種種變化。</p></cb:div>
@@ -370,7 +512,11 @@
 <lb n="0094c18" ed="X"/><lb n="0234b09" ed="R091"/>異端。</p></cb:div>
 <lb n="0094c19" ed="X"/><lb n="0234b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c1901">聞說是時，其心隨入。</p></cb:div>
 <lb n="0094c20" ed="X"/><lb n="0234b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c2001" style="margin-left:1em">聞上所說神通變化，當知久習緣覺乘性。</p></cb:div>
-<lb n="0094c21" ed="X"/><lb n="0234b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c2101">若知彼緣覺乘無間種性<note n="0094c2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094c2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，隨順為說緣覺之乘。</p></cb:div>
+<lb n="0094c21" ed="X"/><lb n="0234b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c2101">若知彼緣覺乘無間種性<note 
+n="0094c2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0094c2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，隨順為說緣覺之乘。</p></cb:div>
 <lb n="0094c22" ed="X"/><lb n="0234b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c2201" style="margin-left:1em">若知彼性，應隨順說，令易受入，速獲益故。</p></cb:div>
 <lb n="0094c23" ed="X"/><lb n="0234b14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0094c2301">是名緣覺乘，無間種性相。</p></cb:div>
 <lb n="0094c24" ed="X"/><lb n="0234b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0094c2401" style="margin-left:1em">此總結示。</p></cb:div>
@@ -415,34 +561,61 @@
 <lb n="0095b13" ed="X"/><lb n="0235b16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095b1301" style="margin-left:1em">此會昔權說住寂聲聞不得作佛，今依大教畢定
 <lb n="0095b14" ed="X"/><lb n="0235b17" ed="R091"/>當成，此舉聲聞意該餘四。</p></cb:div>
 <lb n="0095b15" ed="X"/><lb n="0235b18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0095b1501">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0095b16" ed="X"/><lb n="0236a01" ed="R091"/><lg xml:id="lgX17p0095b1601"><l>須陀槃那果。</l></lg></cb:div>
-<lb n="0095b17" ed="X"/><lb n="0236a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095b1701" style="margin-left:1em">梵云<note n="0095b1701" resp="CBETA" type="add">窣【CB】，𡨧【卍續】</note><app n="0095b1701"><lem resp="CBETA.maha" wit="【CB】">窣</lem><rdg wit="【卍續】">𡨧</rdg></app>嚕多，此云流。梵云槃那，此云入。具言入流，
+<lb n="0095b16" ed="X"/><lb n="0236a01" ed="R091"/><lg xml:id="lgX17p0095b1601">
+  <l>須陀槃那果。</l>
+</lg></cb:div>
+<lb n="0095b17" ed="X"/><lb n="0236a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095b1701" style="margin-left:1em">梵云<note 
+n="0095b1701" resp="CBETA" type="add">窣【CB】，𡨧【卍續】</note><app n="0095b1701">
+  <lem resp="CBETA.maha" wit="【CB】">窣</lem>
+  <rdg wit="【卍續】">𡨧</rdg>
+</app>嚕多，此云流。梵云槃那，此云入。具言入流，
 <lb n="0095b18" ed="X"/><lb n="0236a03" ed="R091"/>此牒初果。</p></cb:div>
-<lb n="0095b19" ed="X"/><lb n="0236a04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095b1901"><l>往來及不還。</l></lg></cb:div>
+<lb n="0095b19" ed="X"/><lb n="0236a04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095b1901">
+  <l>往來及不還。</l>
+</lg></cb:div>
 <lb n="0095b20" ed="X"/><lb n="0236a05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095b2001" style="margin-left:1em">往來，牒第二果，人天一往來。生不還，牒第三果，欲
 <lb n="0095b21" ed="X"/><lb n="0236a06" ed="R091"/>界惑盡，生於天上，不來人間，故言不還。</p></cb:div>
-<lb n="0095b22" ed="X"/><lb n="0236a07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095b2201"><l>逮得阿羅漢。</l></lg></cb:div>
+<lb n="0095b22" ed="X"/><lb n="0236a07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095b2201">
+  <l>逮得阿羅漢。</l>
+</lg></cb:div>
 <lb n="0095b23" ed="X"/><lb n="0236a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095b2301" style="margin-left:1em">此牒第四及得羅漢。</p></cb:div>
-<lb n="0095b24" ed="X"/><lb n="0236a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095b2401"><l>是等心惑亂。</l></lg></cb:div>
+<lb n="0095b24" ed="X"/><lb n="0236a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095b2401">
+  <l>是等心惑亂。</l>
+</lg></cb:div>
 <pb n="0095c" ed="X" xml:id="X17.0321.0095c"/>
 <lb n="0095c01" ed="X"/><lb n="0236a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c0101" style="margin-left:1em">此句總破，明上四果不離心量，故言惑亂。</p></cb:div>
-<lb n="0095c02" ed="X"/><lb n="0236a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c0201"><l>三乘與一乘，<caesura></caesura>非乘我所說。</l></lg></cb:div>
+<lb n="0095c02" ed="X"/><lb n="0236a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c0201">
+  <l>三乘與一乘，<caesura/>非乘我所說。</l>
+</lg></cb:div>
 <lb n="0095c03" ed="X"/><lb n="0236a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c0301" style="margin-left:1em">明三一俱權，佛之所說。然三約一設，一對三施，三
 <lb n="0095c04" ed="X"/><lb n="0236a13" ed="R091"/>既不存，一亦非有。</p></cb:div>
-<lb n="0095c05" ed="X"/><lb n="0236a14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c0501"><l>愚夫少智慧，<caesura></caesura>諸聖遠離寂。</l></lg></cb:div>
+<lb n="0095c05" ed="X"/><lb n="0236a14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c0501">
+  <l>愚夫少智慧，<caesura/>諸聖遠離寂。</l>
+</lg></cb:div>
 <lb n="0095c06" ed="X"/><lb n="0236a15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c0601" style="margin-left:1em">明迷悟所由，以愚夫少慧，起三一見，諸聖遠之，會
 <lb n="0095c07" ed="X"/><lb n="0236a16" ed="R091"/>於本寂，此乃非一之一。</p></cb:div>
-<lb n="0095c08" ed="X"/><lb n="0236a17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c0801" type="regular"><l>第一義法門，<caesura></caesura>遠離於二教，<caesura></caesura>住於無所有，</l>
-<lb n="0095c09" ed="X"/><lb n="0236a18" ed="R091"/><l>何建立三乘？</l></lg></cb:div>
+<lb n="0095c08" ed="X"/><lb n="0236a17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c0801" type="regular">
+  <l>第一義法門，<caesura/>遠離於二教，<caesura/>住於無所有，</l>
+<lb n="0095c09" ed="X"/><lb n="0236a18" ed="R091"/>
+  <l>何建立三乘？</l>
+</lg></cb:div>
 <lb n="0095c10" ed="X"/><lb n="0236b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c1001" style="margin-left:1em">明第一義心本非漸頓，若脩行者住無所有真實
 <lb n="0095c11" ed="X"/><lb n="0236b02" ed="R091"/>之心，何有三乘可立？</p></cb:div>
-<lb n="0095c12" ed="X"/><lb n="0236b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1201"><l>諸禪無量等。</l></lg></cb:div>
+<lb n="0095c12" ed="X"/><lb n="0236b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1201">
+  <l>諸禪無量等。</l>
+</lg></cb:div>
 <lb n="0095c13" ed="X"/><lb n="0236b04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c1301" style="margin-left:1em">此牒四禪、四無量心。</p></cb:div>
-<lb n="0095c14" ed="X"/><lb n="0236b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1401"><l>無色三摩提。</l></lg></cb:div>
+<lb n="0095c14" ed="X"/><lb n="0236b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1401">
+  <l>無色三摩提。</l>
+</lg></cb:div>
 <lb n="0095c15" ed="X"/><lb n="0236b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c1501" style="margin-left:1em">牒無色界四空處定。</p></cb:div>
-<lb n="0095c16" ed="X"/><lb n="0236b07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1601"><l>受想悉寂滅。</l></lg></cb:div>
+<lb n="0095c16" ed="X"/><lb n="0236b07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1601">
+  <l>受想悉寂滅。</l>
+</lg></cb:div>
 <lb n="0095c17" ed="X"/><lb n="0236b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c1701" style="margin-left:1em">牒滅受想定</p></cb:div>
-<lb n="0095c18" ed="X"/><lb n="0236b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1801"><l>亦無有心量。</l></lg></cb:div>
+<lb n="0095c18" ed="X"/><lb n="0236b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0095c1801">
+  <l>亦無有心量。</l>
+</lg></cb:div>
 <lb n="0095c19" ed="X"/><lb n="0236b10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c1901" style="margin-left:1em">此句總破彼實無有，但心量耳。</p></cb:div>
 <lb n="0095c20" ed="X"/><lb n="0236b11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0095c2001">大慧！彼一闡提。</p></cb:div>
 <lb n="0095c21" ed="X"/><lb n="0236b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0095c2101" style="margin-left:1em">三、約闡提以明如如。於中有二：初總，次別。今就總
@@ -477,9 +650,17 @@
 <pb n="0096b" ed="X" xml:id="X17.0321.0096b"/>
 <lb n="0096b01" ed="X"/><lb n="0237b04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096b0101">非不般涅槃，一切眾生而般涅槃。</p></cb:div>
 <lb n="0096b02" ed="X"/><lb n="0237b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096b0201" style="margin-left:1em">此明反釋，舉其本願總為一句，要令眾生般涅槃
-<lb n="0096b03" ed="X"/><lb n="0237b06" ed="R091"/><note n="0096b0301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096b0301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>然始涅槃，成佛未期故名闡提。</p></cb:div>
+<lb n="0096b03" ed="X"/><lb n="0237b06" ed="R091"/><note 
+n="0096b0301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096b0301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>然始涅槃，成佛未期故名闡提。</p></cb:div>
 <lb n="0096b04" ed="X"/><lb n="0237b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096b0401">大慧，彼般涅槃，是名不般涅槃法相。</p></cb:div>
-<lb n="0096b05" ed="X"/><lb n="0237b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096b0501" style="margin-left:1em">約願而釋，彼令眾生般涅槃<note n="0096b0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096b0501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>方取證者，齊不得
+<lb n="0096b05" ed="X"/><lb n="0237b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096b0501" style="margin-left:1em">約願而釋，彼令眾生般涅槃<note 
+n="0096b0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096b0501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>方取證者，齊不得
 <lb n="0096b06" ed="X"/><lb n="0237b09" ed="R091"/>涅槃之義。</p></cb:div>
 <lb n="0096b07" ed="X"/><lb n="0237b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096b0701">此亦到一闡提趣。</p></cb:div>
 <lb n="0096b08" ed="X"/><lb n="0237b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096b0801" style="margin-left:1em">若爾者，此之菩薩亦同闡提之義。</p></cb:div>
@@ -488,7 +669,11 @@
 <lb n="0096b11" ed="X"/><lb n="0237b14" ed="R091"/>畢竟不得涅槃。</p></cb:div>
 <lb n="0096b12" ed="X"/><lb n="0237b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096b1201">佛告大慧菩薩：一闡提者。</p></cb:div>
 <lb n="0096b13" ed="X"/><lb n="0237b16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096b1301" style="margin-left:1em">自下答中，將明非闡提義，故此先牒。</p></cb:div>
-<lb n="0096b14" ed="X"/><lb n="0237b17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096b1401">知一切法本來般涅槃<note n="0096b1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096b1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，畢竟不般涅槃，而非捨一
+<lb n="0096b14" ed="X"/><lb n="0237b17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096b1401">知一切法本來般涅槃<note 
+n="0096b1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096b1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，畢竟不般涅槃，而非捨一
 <lb n="0096b15" ed="X"/><lb n="0237b18" ed="R091"/>切善根一闡提也。</p></cb:div>
 <lb n="0096b16" ed="X"/><lb n="0238a01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096b1601" style="margin-left:1em">此正明非義，約願狀同，據行即非。然以菩薩知諸
 <lb n="0096b17" ed="X"/><lb n="0238a02" ed="R091"/>法寂滅，體即涅槃，更不別求，故言不般，豈同邪斷
@@ -507,7 +692,11 @@
 <lb n="0096c05" ed="X"/><lb n="0238a14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096c0501">以是故，菩薩一闡提不般涅槃。</p></cb:div>
 <lb n="0096c06" ed="X"/><lb n="0238a15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096c0601" style="margin-left:1em">此一句結上菩薩闡提，今置之在末者，梵本例然。</p></cb:div>
 <lb n="0096c07" ed="X"/><lb n="0238a16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096c0701">復次，大慧！菩薩摩訶薩當善三自性。</p></cb:div>
-<lb n="0096c08" ed="X"/><lb n="0238a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096c0801" style="margin-left:1em">自此<note n="0096c0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096c0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>下，答自性經。此初，標勸者，令窮三性之妙，
+<lb n="0096c08" ed="X"/><lb n="0238a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096c0801" style="margin-left:1em">自此<note 
+n="0096c0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0096c0801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>下，答自性經。此初，標勸者，令窮三性之妙，
 <lb n="0096c09" ed="X"/><lb n="0238a18" ed="R091"/>故言當善。</p></cb:div>
 <lb n="0096c10" ed="X"/><lb n="0238b01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0096c1001">云何三自性？</p></cb:div>
 <lb n="0096c11" ed="X"/><lb n="0238b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0096c1101" style="margin-left:1em">次明徵數。</p></cb:div>
@@ -556,8 +745,11 @@
 <lb n="0097b04" ed="X"/><lb n="0239b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0097b0401">是名成自性如來藏心。</p></cb:div>
 <lb n="0097b05" ed="X"/><lb n="0239b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0097b0501" style="margin-left:1em">三結成性，亦曰藏心。</p></cb:div>
 <lb n="0097b06" ed="X"/><lb n="0239b09" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0097b0601">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0097b07" ed="X"/><lb n="0239b10" ed="R091"/><lg xml:id="lgX17p0097b0701" type="regular"><l>名相覺想，<caesura></caesura>自性二相，<caesura></caesura>正智如如，</l>
-<lb n="0097b08" ed="X"/><lb n="0239b11" ed="R091"/><l>是則成相。</l></lg></cb:div>
+<lb n="0097b07" ed="X"/><lb n="0239b10" ed="R091"/><lg xml:id="lgX17p0097b0701" type="regular">
+  <l>名相覺想，<caesura/>自性二相，<caesura/>正智如如，</l>
+<lb n="0097b08" ed="X"/><lb n="0239b11" ed="R091"/>
+  <l>是則成相。</l>
+</lg></cb:div>
 <lb n="0097b09" ed="X"/><lb n="0239b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0097b0901" style="margin-left:1em">次偈頌明五法三性互相収攝，謂五法中名相覺
 <lb n="0097b10" ed="X"/><lb n="0239b13" ed="R091"/>想，即三性中緣妄二相，正智如如，即五法中二，是
 <lb n="0097b11" ed="X"/><lb n="0239b14" ed="R091"/>即成相三性中一。</p></cb:div>
@@ -588,8 +780,13 @@
 <lb n="0097c11" ed="X"/><lb n="0240b02" ed="R091"/>計著而生，以梵言多倒，故云生識。</p></cb:div>
 <lb n="0097c12" ed="X"/><lb n="0240b03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0097c1201">一切諸根自心現器身藏，自妄想相施設顯示。</p></cb:div>
 <lb n="0097c13" ed="X"/><lb n="0240b04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0097c1301" style="margin-left:1em">今總明根塵依正等報，並自妄心假施顯示，即知
-<lb n="0097c14" ed="X"/><lb n="0240b05" ed="R091"/>上來我所業愛相緣而生，從本<note n="0097c1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0097c1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>來性相空寂，則
-<lb n="0097c15" ed="X"/><lb n="0240b06" ed="R091"/>我所何有？我既非有，無我亦<note n="0097001" resp="Xuzangjing" type="orig" place="foot text">云疑亡</note>云，則人空之義。今言
+<lb n="0097c14" ed="X"/><lb n="0240b05" ed="R091"/>上來我所業愛相緣而生，從本<note 
+n="0097c1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0097c1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>來性相空寂，則
+<lb n="0097c15" ed="X"/><lb n="0240b06" ed="R091"/>我所何有？我既非有，無我亦<note 
+n="0097001" resp="Xuzangjing" type="orig" place="foot text">云疑亡</note>云，則人空之義。今言
 <lb n="0097c16" ed="X"/><lb n="0240b07" ed="R091"/>一切諸根即六根也，自心現即六塵也，器謂依報，
 <lb n="0097c17" ed="X"/><lb n="0240b08" ed="R091"/>身即正報，並從藏識而現，故知自妄施設顯示。上
 <lb n="0097c18" ed="X"/><lb n="0240b09" ed="R091"/>約法以明人空。</p></cb:div>
@@ -653,7 +850,8 @@
 <lb n="0098c01" ed="X"/><lb n="0242a10" ed="R091"/>觀相。</p></cb:div>
 <lb n="0098c02" ed="X"/><lb n="0242a11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0098c0201">觀察開覺歡喜。</p></cb:div>
 <lb n="0098c03" ed="X"/><lb n="0242a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0098c0301" style="margin-left:1em">明初地益相。又釋得名所由，往在有纏沉淪結縛，
-<lb n="0098c04" ed="X"/><lb n="0242a13" ed="R091"/>今悟心性本無所有累漏，斯<note n="0098001" resp="Xuzangjing" type="orig" place="foot text">云疑亡</note>云昔所未得而今始
+<lb n="0098c04" ed="X"/><lb n="0242a13" ed="R091"/>今悟心性本無所有累漏，斯<note 
+n="0098001" resp="Xuzangjing" type="orig" place="foot text">云疑亡</note>云昔所未得而今始
 <lb n="0098c05" ed="X"/><lb n="0242a14" ed="R091"/>得，生大喜悅名為歡喜。</p></cb:div>
 <lb n="0098c06" ed="X"/><lb n="0242a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0098c0601">次第漸進，超九地相，得法雲地。</p></cb:div>
 <lb n="0098c07" ed="X"/><lb n="0242a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0098c0701" style="margin-left:1em">既入初地，乘茲一道清淨之心，漸次增明，能超第
@@ -673,7 +871,8 @@
 <lb n="0098c21" ed="X"/><lb n="0242b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0098c2101">如轉輪聖王太子灌頂。</p></cb:div>
 <lb n="0098c22" ed="X"/><lb n="0242b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0098c2201" style="margin-left:1em">此明舉喻，猶彼輪王授太子位，令灌頂師以水灌
 <lb n="0098c23" ed="X"/><lb n="0242b14" ed="R091"/>頂，等無有異。</p></cb:div>
-<lb n="0098c24" ed="X"/><lb n="0242b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0098c2401">超佛子地到，自覺<note n="0098002" resp="Xuzangjing" type="orig" place="foot text">聖下經有智字</note>聖法趣。</p></cb:div>
+<lb n="0098c24" ed="X"/><lb n="0242b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0098c2401">超佛子地到，自覺<note 
+n="0098002" resp="Xuzangjing" type="orig" place="foot text">聖下經有智字</note>聖法趣。</p></cb:div>
 <pb n="0099a" ed="X" xml:id="X17.0321.0099a"/>
 <lb n="0099a01" ed="X"/><lb n="0242b16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099a0101" style="margin-left:1em">明此菩薩超於十地，到如來自覺聖趣，行德圓滿。</p></cb:div>
 <lb n="0099a02" ed="X"/><lb n="0242b17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0099a0201">當得如來自在法身。</p></cb:div>
@@ -695,17 +894,35 @@
 <lb n="0099a18" ed="X"/><lb n="0243a15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099a1801" style="margin-left:1em">按正，梵云頞耨怛㘕，此云無上。三藐，此云正。三名
 <lb n="0099a19" ed="X"/><lb n="0243a16" ed="R091"/>為等，勃陀稱覺。諸佛正等覺非三乘境，故云無上。
 <lb n="0099a20" ed="X"/><lb n="0243a17" ed="R091"/>此由離見獲斯勝果。</p></cb:div>
-<lb n="0099a21" ed="X"/><lb n="0243a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0099a2101">覺<note n="0099a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0099a2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，離常建立，斷誹謗見，不謗正法。</p></cb:div>
-<lb n="0099a22" ed="X"/><lb n="0243b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099a2201" style="margin-left:1em">此結益相。獲正覺<note n="0099a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0099a2201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，離斯二見，圓證法身，故云不
+<lb n="0099a21" ed="X"/><lb n="0243a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0099a2101">覺<note 
+n="0099a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0099a2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，離常建立，斷誹謗見，不謗正法。</p></cb:div>
+<lb n="0099a22" ed="X"/><lb n="0243b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099a2201" style="margin-left:1em">此結益相。獲正覺<note 
+n="0099a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0099a2201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，離斯二見，圓證法身，故云不
 <lb n="0099a23" ed="X"/><lb n="0243b02" ed="R091"/>謗。</p></cb:div>
-<lb n="0099a24" ed="X"/><lb n="0243b03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0099a2401">爾時，世尊受大慧菩薩請<note n="0099a2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0099a2401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，而說偈言：</p></cb:div>
+<lb n="0099a24" ed="X"/><lb n="0243b03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0099a2401">爾時，世尊受大慧菩薩請<note 
+n="0099a2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0099a2401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，而說偈言：</p></cb:div>
 <pb n="0099b" ed="X" xml:id="X17.0321.0099b"/>
 <lb n="0099b01" ed="X"/><lb n="0243b04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099b0101" style="margin-left:1em">為生前後問答，經家敘述。</p></cb:div>
-<lb n="0099b02" ed="X"/><lb n="0243b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0099b0201"><l>建立及誹謗，<caesura></caesura>無有彼心量。</l></lg></cb:div>
+<lb n="0099b02" ed="X"/><lb n="0243b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0099b0201">
+  <l>建立及誹謗，<caesura/>無有彼心量。</l>
+</lg></cb:div>
 <lb n="0099b03" ed="X"/><lb n="0243b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099b0301" style="margin-left:1em">自下先明偈答，此明立謗本無但彼心量。</p></cb:div>
-<lb n="0099b04" ed="X"/><lb n="0243b07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0099b0401"><l>身受用建立，<caesura></caesura>及心不能知。</l></lg></cb:div>
+<lb n="0099b04" ed="X"/><lb n="0243b07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0099b0401">
+  <l>身受用建立，<caesura/>及心不能知。</l>
+</lg></cb:div>
 <lb n="0099b05" ed="X"/><lb n="0243b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099b0501" style="margin-left:1em">此明立謗，以心迷依正，生茲二見。</p></cb:div>
-<lb n="0099b06" ed="X"/><lb n="0243b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0099b0601"><l>愚癡無智慧，<caesura></caesura>建立及誹謗。</l></lg></cb:div>
+<lb n="0099b06" ed="X"/><lb n="0243b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0099b0601">
+  <l>愚癡無智慧，<caesura/>建立及誹謗。</l>
+</lg></cb:div>
 <lb n="0099b07" ed="X"/><lb n="0243b10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099b0701" style="margin-left:1em">此結二見起，由以愚無智，慧墮於二見。</p></cb:div>
 <lb n="0099b08" ed="X"/><lb n="0243b11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0099b0801">爾時，世尊於此偈義復重顯示，告大慧言：</p></cb:div>
 <lb n="0099b09" ed="X"/><lb n="0243b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0099b0901" style="margin-left:1em">自下長行廣釋前義，此經家生起。</p></cb:div>
@@ -755,15 +972,32 @@
 <lb n="0100a03" ed="X"/><lb n="0244b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100a0301" style="margin-left:1em">前因既無，後果何實？</p></cb:div>
 <lb n="0100a04" ed="X"/><lb n="0245a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100a0401">本不生。</p></cb:div>
 <lb n="0100a05" ed="X"/><lb n="0245a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100a0501" style="margin-left:1em">上所計因者，本自不生。此總結。</p></cb:div>
-<lb n="0100a06" ed="X"/><lb n="0245a03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100a0601">眼色明界念前生，生<note n="0100a0601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>實<note n="0100a0602" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0602"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>還壞。</p></cb:div>
+<lb n="0100a06" ed="X"/><lb n="0245a03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100a0601">眼色明界念前生，生<note 
+n="0100a0601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>實<note 
+n="0100a0602" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0602">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>還壞。</p></cb:div>
 <lb n="0100a07" ed="X"/><lb n="0245a04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100a0701" style="margin-left:1em">前破因無自起，今片緣非共生。假令計眼等五緣
 <lb n="0100a08" ed="X"/><lb n="0245a05" ed="R091"/>為生之方便者，然此所生未離生滅，有何體性？言
-<lb n="0100a09" ed="X"/><lb n="0245a06" ed="R091"/>生<note n="0100a0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>生相，實<note n="0100a0902" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0902"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>住相，還壞滅相。</p></cb:div>
+<lb n="0100a09" ed="X"/><lb n="0245a06" ed="R091"/>生<note 
+n="0100a0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>生相，實<note 
+n="0100a0902" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100a0902">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>住相，還壞滅相。</p></cb:div>
 <lb n="0100a10" ed="X"/><lb n="0245a07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100a1001">是名非有因建立相。</p></cb:div>
 <lb n="0100a11" ed="X"/><lb n="0245a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100a1101" style="margin-left:1em">此結示也。</p></cb:div>
 <lb n="0100a12" ed="X"/><lb n="0245a09" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100a1201">大慧，非有性建立相者。</p></cb:div>
 <lb n="0100a13" ed="X"/><lb n="0245a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100a1301" style="margin-left:1em">四、釋非有性中。此初，牒也。</p></cb:div>
-<lb n="0100a14" ed="X"/><lb n="0245a11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100a1401">謂虗空滅般涅槃，非作<note n="0100001" resp="Xuzangjing" type="orig" place="foot text">計下經有著字</note>計性建立。</p></cb:div>
+<lb n="0100a14" ed="X"/><lb n="0245a11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100a1401">謂虗空滅般涅槃，非作<note 
+n="0100001" resp="Xuzangjing" type="orig" place="foot text">計下經有著字</note>計性建立。</p></cb:div>
 <lb n="0100a15" ed="X"/><lb n="0245a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100a1501" style="margin-left:1em">次敘見也。謂計空、非擇滅及以涅槃，此三非作名
 <lb n="0100a16" ed="X"/><lb n="0245a13" ed="R091"/>曰無為，執有體性存之為實，此外道小乘通作斯
 <lb n="0100a17" ed="X"/><lb n="0245a14" ed="R091"/>計。</p></cb:div>
@@ -779,11 +1013,13 @@
 <lb n="0100b02" ed="X"/><lb n="0245b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100b0201" style="margin-left:1em">此合上兔馬角喻。</p></cb:div>
 <lb n="0100b03" ed="X"/><lb n="0245b06" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100b0301">愚夫妄想，不善觀察自心現量，非聖賢也。</p></cb:div>
 <lb n="0100b04" ed="X"/><lb n="0245b07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100b0401" style="margin-left:1em">此合上垂髮愚妄所見，非諸賢聖。</p></cb:div>
-<lb n="0100b05" ed="X"/><lb n="0245b08" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100b0501"><note n="0100002" resp="Xuzangjing" type="orig" place="foot text">是等八字經置前離有非有下</note>是名非有性建立相。</p></cb:div>
+<lb n="0100b05" ed="X"/><lb n="0245b08" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100b0501"><note 
+n="0100002" resp="Xuzangjing" type="orig" place="foot text">是等八字經置前離有非有下</note>是名非有性建立相。</p></cb:div>
 <lb n="0100b06" ed="X"/><lb n="0245b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100b0601" style="margin-left:1em">結亦可知。</p></cb:div>
 <lb n="0100b07" ed="X"/><lb n="0245b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100b0701">是故離建立誹謗惡見，應當脩學。</p></cb:div>
 <lb n="0100b08" ed="X"/><lb n="0245b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100b0801" style="margin-left:1em">總結離見，以勸脩行。</p></cb:div>
-<lb n="0100b09" ed="X"/><lb n="0245b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100b0901">復次，大慧！菩薩摩訶薩<note n="0100003" resp="Xuzangjing" type="orig" place="foot text">心上經有善知二字</note>心意意識、五法、自性、二無我
+<lb n="0100b09" ed="X"/><lb n="0245b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100b0901">復次，大慧！菩薩摩訶薩<note 
+n="0100003" resp="Xuzangjing" type="orig" place="foot text">心上經有善知二字</note>心意意識、五法、自性、二無我
 <lb n="0100b10" ed="X"/><lb n="0245b13" ed="R091"/>相趣究竟。</p></cb:div>
 <lb n="0100b11" ed="X"/><lb n="0245b14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100b1101" style="margin-left:1em">第二，明四門之意。夫教之所設，為自趣究竟，及安
 <lb n="0100b12" ed="X"/><lb n="0245b15" ed="R091"/>樂眾生，自利利他，傳燈之義。此初，總標，明其自益。</p></cb:div>
@@ -806,9 +1042,17 @@
 <lb n="0100c04" ed="X"/><lb n="0246a13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100c0401">於一切法離生滅、斷常，及離聲聞、緣覺之法。</p></cb:div>
 <lb n="0100c05" ed="X"/><lb n="0246a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100c0501" style="margin-left:1em">此明聞說如幻夢等，能離外道二乘人法等見。</p></cb:div>
 <lb n="0100c06" ed="X"/><lb n="0246a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100c0601">得百千三昧，乃至百千億那由他三昧。</p></cb:div>
-<lb n="0100c07" ed="X"/><lb n="0246a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100c0701" style="margin-left:1em">自下明以聞教故，復獲初地乃至七地<note n="0100c0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100c0701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>上那由
+<lb n="0100c07" ed="X"/><lb n="0246a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100c0701" style="margin-left:1em">自下明以聞教故，復獲初地乃至七地<note 
+n="0100c0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100c0701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>上那由
 <lb n="0100c08" ed="X"/><lb n="0246a17" ed="R091"/>他定。</p></cb:div>
-<lb n="0100c09" ed="X"/><lb n="0246a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100c0901">得三昧<note n="0100c0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100c0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，遊諸佛剎，供養諸佛。</p></cb:div>
+<lb n="0100c09" ed="X"/><lb n="0246a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100c0901">得三昧<note 
+n="0100c0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0100c0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，遊諸佛剎，供養諸佛。</p></cb:div>
 <lb n="0100c10" ed="X"/><lb n="0246b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100c1001" style="margin-left:1em">既獲三昧，能遊佛剎，供養諸佛，聽受未聞。</p></cb:div>
 <lb n="0100c11" ed="X"/><lb n="0246b02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100c1101">生諸天宮，宣揚三寶，示現佛身。</p></cb:div>
 <lb n="0100c12" ed="X"/><lb n="0246b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100c1201" style="margin-left:1em">明此菩薩非但歷供諮受，復生天宮，讚三寶，現佛
@@ -822,12 +1066,18 @@
 <lb n="0100c20" ed="X"/><lb n="0246b11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100c2001">悉令遠離，有無等見。</p></cb:div>
 <lb n="0100c21" ed="X"/><lb n="0246b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100c2101" style="margin-left:1em">為令受化，離二邊見。</p></cb:div>
 <lb n="0100c22" ed="X"/><lb n="0246b13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0100c2201">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0100c23" ed="X"/><lb n="0246b14" ed="R091"/><lg xml:id="lgX17p0100c2301"><l>心量世間。<caesura></caesura>佛子觀察。</l></lg></cb:div>
+<lb n="0100c23" ed="X"/><lb n="0246b14" ed="R091"/><lg xml:id="lgX17p0100c2301">
+  <l>心量世間。<caesura/>佛子觀察。</l>
+</lg></cb:div>
 <lb n="0100c24" ed="X"/><lb n="0246b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0100c2401" style="margin-left:1em">但有心量，名曰世間，勸諸佛子，當善觀察。</p></cb:div>
 <pb n="0101a" ed="X" xml:id="X17.0321.0101a"/>
-<lb n="0101a01" ed="X"/><lb n="0246b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0101a0101"><l>種類之身，<caesura></caesura>離所作行。</l></lg></cb:div>
+<lb n="0101a01" ed="X"/><lb n="0246b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0101a0101">
+  <l>種類之身，<caesura/>離所作行。</l>
+</lg></cb:div>
 <lb n="0101a02" ed="X"/><lb n="0246b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101a0201" style="margin-left:1em">應若摩尼無思而發。</p></cb:div>
-<lb n="0101a03" ed="X"/><lb n="0246b18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0101a0301"><l>得力神通，<caesura></caesura>自在成就。</l></lg></cb:div>
+<lb n="0101a03" ed="X"/><lb n="0246b18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0101a0301">
+  <l>得力神通，<caesura/>自在成就。</l>
+</lg></cb:div>
 <lb n="0101a04" ed="X"/><lb n="0247a01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101a0401" style="margin-left:1em">明所起化身，由獲力通，自在成就也。</p></cb:div>
 <lb n="0101a05" ed="X"/><lb n="0247a02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101a0501">爾時大慧菩薩摩訶薩復請佛言：唯願世尊！為我等
 <lb n="0101a06" ed="X"/><lb n="0247a03" ed="R091"/>說一切法空、無生、無二、離自性相。</p></cb:div>
@@ -836,7 +1086,11 @@
 <lb n="0101a09" ed="X"/><lb n="0247a06" ed="R091"/>性即三性體空，無二即二我兩亡，無生欲明八識
 <lb n="0101a10" ed="X"/><lb n="0247a07" ed="R091"/>不起。</p></cb:div>
 <lb n="0101a11" ed="X"/><lb n="0247a08" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101a1101">我等及餘諸菩薩眾，覺悟是空、無生、無二、離自性相
-<lb n="0101a12" ed="X"/><lb n="0247a09" ed="R091"/><note n="0101a1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0101a1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，離有無妄想。</p></cb:div>
+<lb n="0101a12" ed="X"/><lb n="0247a09" ed="R091"/><note 
+n="0101a1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0101a1201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，離有無妄想。</p></cb:div>
 <lb n="0101a13" ed="X"/><lb n="0247a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101a1301" style="margin-left:1em">自下舉益，此明離妄。</p></cb:div>
 <lb n="0101a14" ed="X"/><lb n="0247a11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101a1401">疾得阿耨多羅三藐三菩提。</p></cb:div>
 <lb n="0101a15" ed="X"/><lb n="0247a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101a1501" style="margin-left:1em">明其獲果。</p></cb:div>
@@ -858,7 +1112,11 @@
 <lb n="0101b06" ed="X"/><lb n="0247b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101b0601" style="margin-left:1em">次明說空等四門之意，良以妄計有者故說於空，
 <lb n="0101b07" ed="X"/><lb n="0247b10" ed="R091"/>餘三准此。</p></cb:div>
 <lb n="0101b08" ed="X"/><lb n="0247b11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101b0801">大慧，彼略說七種空。</p></cb:div>
-<lb n="0101b09" ed="X"/><lb n="0247b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101b0901" style="margin-left:1em">上<note n="0101b0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0101b0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>總答兩問，下別釋空等四門。今先釋空門。此
+<lb n="0101b09" ed="X"/><lb n="0247b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101b0901" style="margin-left:1em">上<note 
+n="0101b0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0101b0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>總答兩問，下別釋空等四門。今先釋空門。此
 <lb n="0101b10" ed="X"/><lb n="0247b13" ed="R091"/>初，標也。然諸經辯空自有增減，今經雖略其義不
 <lb n="0101b11" ed="X"/><lb n="0247b14" ed="R091"/>殊。</p></cb:div>
 <lb n="0101b12" ed="X"/><lb n="0247b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101b1201">謂相空、性自性空、行空、無行空、一切法離言說空、第
@@ -880,8 +1138,16 @@
 <lb n="0101c03" ed="X"/><lb n="0248a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101c0301" style="margin-left:1em">第四，結也。</p></cb:div>
 <lb n="0101c04" ed="X"/><lb n="0248a13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101c0401">云何性自性空？</p></cb:div>
 <lb n="0101c05" ed="X"/><lb n="0248a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101c0501" style="margin-left:1em">將明性空，此亦初徵。</p></cb:div>
-<lb n="0101c06" ed="X"/><lb n="0248a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101c0601">謂自<note n="0101c0601" resp="CBETA" type="add">己【CB】，已【卍續】</note><app n="0101c0601"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">已</rdg></app>性，自性不生。</p></cb:div>
-<lb n="0101c07" ed="X"/><lb n="0248a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101c0701" style="margin-left:1em">上觀總相不有，今觀別性亦無，故言自<note n="0101c0701" resp="CBETA" type="add">己【CB】，已【卍續】</note><app n="0101c0701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">已</rdg></app>性不生
+<lb n="0101c06" ed="X"/><lb n="0248a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101c0601">謂自<note 
+n="0101c0601" resp="CBETA" type="add">己【CB】，已【卍續】</note><app n="0101c0601">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">已</rdg>
+</app>性，自性不生。</p></cb:div>
+<lb n="0101c07" ed="X"/><lb n="0248a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101c0701" style="margin-left:1em">上觀總相不有，今觀別性亦無，故言自<note 
+n="0101c0701" resp="CBETA" type="add">己【CB】，已【卍續】</note><app n="0101c0701">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">已</rdg>
+</app>性不生
 <lb n="0101c08" ed="X"/><lb n="0248a17" ed="R091"/>也。</p></cb:div>
 <lb n="0101c09" ed="X"/><lb n="0248a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0101c0901">是名一切法性自性空。</p></cb:div>
 <lb n="0101c10" ed="X"/><lb n="0248b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0101c1001" style="margin-left:1em">此亦合也。</p></cb:div>
@@ -939,21 +1205,31 @@
 <lb n="0102b12" ed="X"/><lb n="0249b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0102b1201" style="margin-left:1em">更相無故，名為彼彼。</p></cb:div>
 <lb n="0102b13" ed="X"/><lb n="0249b16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0102b1301">是名七種空。</p></cb:div>
 <lb n="0102b14" ed="X"/><lb n="0249b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0102b1401" style="margin-left:1em">總結上七種空義。</p></cb:div>
-<lb n="0102b15" ed="X"/><lb n="0249b18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0102b1501">彼彼空者，是空最麤，汝當<note n="0102001" resp="Xuzangjing" type="orig" place="foot text">遠下佚失</note>遠□。</p>
+<lb n="0102b15" ed="X"/><lb n="0249b18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0102b1501">彼彼空者，是空最麤，汝當<note 
+n="0102001" resp="Xuzangjing" type="orig" place="foot text">遠下佚失</note>遠□。</p>
 <lb n="0102b16" ed="X"/><lb n="0250a01" ed="R091"/><p xml:id="pX17p0102b1601">□□□尊欲重宣此義，而說偈言：</p>
-<lb n="0102b17" ed="X"/><lb n="0250a02" ed="R091"/><lg xml:id="lgX17p0102b1701"><l>我常說空法，<caesura></caesura>遠離於斷常。</l></lg></cb:div>
+<lb n="0102b17" ed="X"/><lb n="0250a02" ed="R091"/><lg xml:id="lgX17p0102b1701">
+  <l>我常說空法，<caesura/>遠離於斷常。</l>
+</lg></cb:div>
 <lb n="0102b18" ed="X"/><lb n="0250a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0102b1801" style="margin-left:1em">自下兩偈頌上四門。此二句頌初空門，明佛說畢
 <lb n="0102b19" ed="X"/><lb n="0250a04" ed="R091"/>竟空義，性離斷常。</p></cb:div>
-<lb n="0102b20" ed="X"/><lb n="0250a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0102b2001"><l>生死如幻夢，<caesura></caesura>而彼業不壞。</l></lg></cb:div>
+<lb n="0102b20" ed="X"/><lb n="0250a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0102b2001">
+  <l>生死如幻夢，<caesura/>而彼業不壞。</l>
+</lg></cb:div>
 <lb n="0102b21" ed="X"/><lb n="0250a06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0102b2101" style="margin-left:1em">此二句頌無生門，明五陰如幻，本來非實。又言彼
 <lb n="0102b22" ed="X"/><lb n="0250a07" ed="R091"/>業不壞，欲明性自無成，總約苦集以明無生。</p></cb:div>
-<lb n="0102b23" ed="X"/><lb n="0250a08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0102b2301"><l>虗空及涅槃，<caesura></caesura>滅二亦如是。</l></lg></cb:div>
+<lb n="0102b23" ed="X"/><lb n="0250a08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0102b2301">
+  <l>虗空及涅槃，<caesura/>滅二亦如是。</l>
+</lg></cb:div>
 <lb n="0102b24" ed="X"/><lb n="0250a09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0102b2401" style="margin-left:1em">此兩句頌無二門，舉二乘外道三種無為，明一切
 <pb n="0102c" ed="X" xml:id="X17.0321.0102c"/>
 <lb n="0102c01" ed="X"/><lb n="0250a10" ed="R091"/>二邊亦皆如是。</p></cb:div>
-<lb n="0102c02" ed="X"/><lb n="0250a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0102c0201"><l>愚夫作妄想，<caesura></caesura>諸聖離有無。</l></lg></cb:div>
+<lb n="0102c02" ed="X"/><lb n="0250a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0102c0201">
+  <l>愚夫作妄想，<caesura/>諸聖離有無。</l>
+</lg></cb:div>
 <lb n="0102c03" ed="X"/><lb n="0250a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0102c0301" style="margin-left:1em">此二句頌離自性門。謂愚夫妄想執為自性，諸聖
-<lb n="0102c04" ed="X"/><lb n="0250a13" ed="R091"/>既離，<note n="0102002" resp="Xuzangjing" type="orig" place="foot text">熟疑孰</note>熟為有無？</p></cb:div>
+<lb n="0102c04" ed="X"/><lb n="0250a13" ed="R091"/>既離，<note 
+n="0102002" resp="Xuzangjing" type="orig" place="foot text">熟疑孰</note>熟為有無？</p></cb:div>
 <lb n="0102c05" ed="X"/><lb n="0250a14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0102c0501">爾時，世尊復告大慧菩薩摩訶薩言：大慧！空、無生、無
 <lb n="0102c06" ed="X"/><lb n="0250a15" ed="R091"/>二、離自性相，普入諸佛一切脩多羅，凡所有經悉說
 <lb n="0102c07" ed="X"/><lb n="0250a16" ed="R091"/>此義。</p></cb:div>
@@ -973,7 +1249,8 @@
 <lb n="0102c21" ed="X"/><lb n="0250b12" ed="R091"/>實聖智逈出名言。</p></cb:div>
 <lb n="0102c22" ed="X"/><lb n="0250b13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0102c2201">是故當依於義，莫著言說。</p></cb:div>
 <lb n="0102c23" ed="X"/><lb n="0250b14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0102c2301" style="margin-left:1em">勸依實義，不著文字。</p></cb:div>
-<lb n="0102c24" ed="X"/><lb n="0250b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0102c2401"><note n="0102003" resp="Xuzangjing" type="orig" place="foot text">經卷二</note>爾時大慧菩薩摩訶薩白佛言：世尊！世尊脩多羅說
+<lb n="0102c24" ed="X"/><lb n="0250b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0102c2401"><note 
+n="0102003" resp="Xuzangjing" type="orig" place="foot text">經卷二</note>爾時大慧菩薩摩訶薩白佛言：世尊！世尊脩多羅說
 <pb n="0103a" ed="X" xml:id="X17.0321.0103a"/>
 <lb n="0103a01" ed="X"/><lb n="0250b16" ed="R091"/>如來藏自性清清，轉卅二相入於一切眾生身中。</p></cb:div>
 <lb n="0103a02" ed="X"/><lb n="0250b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0103a0201" style="margin-left:1em">自下辯如來藏者，意有多種：一、殊外道，二、會權實，
@@ -1026,7 +1303,11 @@
 <lb n="0103b24" ed="X"/><lb n="0252a09" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0103b2401">自性涅槃。</p></cb:div>
 <pb n="0103c" ed="X" xml:id="X17.0321.0103c"/>
 <lb n="0103c01" ed="X"/><lb n="0252a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0103c0101" style="margin-left:1em">體圓寂故。</p></cb:div>
-<lb n="0103c02" ed="X"/><lb n="0252a11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0103c0201">如是等句說如來藏<note n="0103c0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0103c0201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。</p></cb:div>
+<lb n="0103c02" ed="X"/><lb n="0252a11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0103c0201">如是等句說如來藏<note 
+n="0103c0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0103c0201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。</p></cb:div>
 <lb n="0103c03" ed="X"/><lb n="0252a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0103c0301" style="margin-left:1em">此總結上來諸句說藏者，斯乃一體應物異名，豈
 <lb n="0103c04" ed="X"/><lb n="0252a13" ed="R091"/>同外道立其定分？上來略明不同外道之說。</p></cb:div>
 <lb n="0103c05" ed="X"/><lb n="0252a14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0103c0501">如來、應供、等正覺，為斷愚夫畏無我句故，說離妄想
@@ -1071,27 +1352,42 @@
 <lb n="0104a19" ed="X"/><lb n="0253a16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104a1901">是故，大慧！為離外道見故，當依無我如來之藏。</p></cb:div>
 <lb n="0104a20" ed="X"/><lb n="0253a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104a2001" style="margin-left:1em">此總結勸捨邪依正。</p></cb:div>
 <lb n="0104a21" ed="X"/><lb n="0253a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104a2101">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0104a22" ed="X"/><lb n="0253b01" ed="R091"/><lg xml:id="lgX17p0104a2201"><l>人相續陰。</l></lg></cb:div>
+<lb n="0104a22" ed="X"/><lb n="0253b01" ed="R091"/><lg xml:id="lgX17p0104a2201">
+  <l>人相續陰。</l>
+</lg></cb:div>
 <lb n="0104a23" ed="X"/><lb n="0253b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104a2301" style="margin-left:1em">外道所計，由我人等，令陰相續。</p></cb:div>
-<lb n="0104a24" ed="X"/><lb n="0253b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0104a2401"><l>緣與微塵。</l></lg></cb:div>
+<lb n="0104a24" ed="X"/><lb n="0253b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0104a2401">
+  <l>緣與微塵。</l>
+</lg></cb:div>
 <pb n="0104b" ed="X" xml:id="X17.0321.0104b"/>
 <lb n="0104b01" ed="X"/><lb n="0253b04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b0101" style="margin-left:1em">又計微塵等，與生法為緣。</p></cb:div>
-<lb n="0104b02" ed="X"/><lb n="0253b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0104b0201"><l>勝自在作。</l></lg></cb:div>
+<lb n="0104b02" ed="X"/><lb n="0253b05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0104b0201">
+  <l>勝自在作。</l>
+</lg></cb:div>
 <lb n="0104b03" ed="X"/><lb n="0253b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b0301" style="margin-left:1em">或計一切悉是勝妙自在天之所作也。</p></cb:div>
-<lb n="0104b04" ed="X"/><lb n="0253b07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0104b0401"><l>心量妄想。</l></lg></cb:div>
+<lb n="0104b04" ed="X"/><lb n="0253b07" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0104b0401">
+  <l>心量妄想。</l>
+</lg></cb:div>
 <lb n="0104b05" ed="X"/><lb n="0253b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b0501" style="margin-left:1em">此句總片，並心妄想。此但頌外計，反之為正矣。</p></cb:div>
-<lb n="0104b06" ed="X"/><lb n="0253b09" ed="R091"/><cb:juan n="2" fun="close"><cb:jhead><note n="0104001" resp="Xuzangjing" type="orig" place="foot text">插入尾題</note>註楞伽經卷第二</cb:jhead></cb:juan>
+<lb n="0104b06" ed="X"/><lb n="0253b09" ed="R091"/><cb:juan n="2" fun="close"><cb:jhead><note 
+n="0104001" resp="Xuzangjing" type="orig" place="foot text">插入尾題</note>註楞伽經卷第二</cb:jhead></cb:juan>
 <milestone n="5" unit="juan"/>
 <lb n="0104b07" ed="X"/><lb n="0253b10" ed="R091"/>
 <lb n="0104b08" ed="X"/><lb n="0253b11" ed="R091"/><cb:juan n="5" fun="open"><cb:mulu n="5" type="卷"/><cb:jhead>楞伽阿䟦多羅寶經　一切佛語心品　卷第五</cb:jhead></cb:juan>
 <lb n="0104b09" ed="X"/><lb n="0253b12" ed="R091"/><byline cb:type="author">大敬愛寺沙門　智嚴　註</byline>
-<lb n="0104b10" ed="X"/><lb n="0253b13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104b1001"><note n="0104002" resp="Xuzangjing" type="orig" place="foot text">經卷三</note>爾時大慧菩薩復白佛言：世尊！唯願為我及諸菩薩
+<lb n="0104b10" ed="X"/><lb n="0253b13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104b1001"><note 
+n="0104002" resp="Xuzangjing" type="orig" place="foot text">經卷三</note>爾時大慧菩薩復白佛言：世尊！唯願為我及諸菩薩
 <lb n="0104b11" ed="X"/><lb n="0253b14" ed="R091"/>說宗通相。</p></cb:div>
 <lb n="0104b12" ed="X"/><lb n="0253b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b1201" style="margin-left:1em">此初，標請宗通之相。</p></cb:div>
 <lb n="0104b13" ed="X"/><lb n="0253b16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104b1301">若善分別宗通相者，我及諸菩薩通達是相。</p></cb:div>
 <lb n="0104b14" ed="X"/><lb n="0253b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b1401" style="margin-left:1em">次舉通法之益。</p></cb:div>
-<lb n="0104b15" ed="X"/><lb n="0253b18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104b1501">通是相<note n="0104b1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0104b1501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，速成阿耨多羅三藐三菩提。</p></cb:div>
-<lb n="0104b16" ed="X"/><lb n="0254a01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b1601" style="margin-left:1em">明得果<note n="0104003" resp="Xuzangjing" type="orig" place="foot text">□疑益</note>□。</p></cb:div>
+<lb n="0104b15" ed="X"/><lb n="0253b18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104b1501">通是相<note 
+n="0104b1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0104b1501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，速成阿耨多羅三藐三菩提。</p></cb:div>
+<lb n="0104b16" ed="X"/><lb n="0254a01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b1601" style="margin-left:1em">明得果<note 
+n="0104003" resp="Xuzangjing" type="orig" place="foot text">□疑益</note>□。</p></cb:div>
 <lb n="0104b17" ed="X"/><lb n="0254a02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104b1701">不隨覺想及眾魔外道。</p></cb:div>
 <lb n="0104b18" ed="X"/><lb n="0254a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104b1801" style="margin-left:1em">以了宗通，不隨妄想及邪魔等見。</p></cb:div>
 <lb n="0104b19" ed="X"/><lb n="0254a04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104b1901">佛告大慧：諦聽！諦聽！善思念之，當為汝說。</p></cb:div>
@@ -1106,19 +1402,29 @@
 <lb n="0104c03" ed="X"/><lb n="0254a12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c0301">大慧宗通者。</p></cb:div>
 <lb n="0104c04" ed="X"/><lb n="0254a13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c0401" style="margin-left:1em">先初牒宗。</p></cb:div>
 <lb n="0104c05" ed="X"/><lb n="0254a14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c0501">謂緣自得勝進相。</p></cb:div>
-<lb n="0104c06" ed="X"/><lb n="0254a15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c0601" style="margin-left:1em">次釋宗<note n="0104004" resp="Xuzangjing" type="orig" place="foot text">□□疑通謂</note>□□繫心內悟，漸次增明，故云勝進。</p></cb:div>
+<lb n="0104c06" ed="X"/><lb n="0254a15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c0601" style="margin-left:1em">次釋宗<note 
+n="0104004" resp="Xuzangjing" type="orig" place="foot text">□□疑通謂</note>□□繫心內悟，漸次增明，故云勝進。</p></cb:div>
 <lb n="0104c07" ed="X"/><lb n="0254a16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c0701">遠離言說文字妄想。</p></cb:div>
-<lb n="0104c08" ed="X"/><lb n="0254a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c0801" style="margin-left:1em"><note n="0104005" resp="Xuzangjing" type="orig" place="foot text">□疑內或自</note>□證之道體，離言字及妄想者，謂言語道斷，心行
+<lb n="0104c08" ed="X"/><lb n="0254a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c0801" style="margin-left:1em"><note 
+n="0104005" resp="Xuzangjing" type="orig" place="foot text">□疑內或自</note>□證之道體，離言字及妄想者，謂言語道斷，心行
 <lb n="0104c09" ed="X"/><lb n="0254a18" ed="R091"/>處滅。</p></cb:div>
 <lb n="0104c10" ed="X"/><lb n="0254b01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c1001">趣無漏界自覺地。</p></cb:div>
-<lb n="0104c11" ed="X"/><lb n="0254b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c1101" style="margin-left:1em">證入法身，現習俱淨，名<note n="0104006" resp="Xuzangjing" type="orig" place="foot text">□疑無</note>□漏界。此即如來自覺之
-<lb n="0104c12" ed="X"/><lb n="0254b03" ed="R091"/><note n="0104007" resp="Xuzangjing" type="orig" place="foot text">□疑地</note>□。</p></cb:div>
+<lb n="0104c11" ed="X"/><lb n="0254b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c1101" style="margin-left:1em">證入法身，現習俱淨，名<note 
+n="0104006" resp="Xuzangjing" type="orig" place="foot text">□疑無</note>□漏界。此即如來自覺之
+<lb n="0104c12" ed="X"/><lb n="0254b03" ed="R091"/><note 
+n="0104007" resp="Xuzangjing" type="orig" place="foot text">□疑地</note>□。</p></cb:div>
 <lb n="0104c13" ed="X"/><lb n="0254b04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c1301">自相，遠離一切虗妄覺想。</p></cb:div>
-<lb n="0104c14" ed="X"/><lb n="0254b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c1401" style="margin-left:1em">明自得<note n="0104008" resp="Xuzangjing" type="orig" place="foot text">□疑之</note>□境，從本<note n="0104c1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0104c1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>來，性離虗妄。</p></cb:div>
+<lb n="0104c14" ed="X"/><lb n="0254b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c1401" style="margin-left:1em">明自得<note 
+n="0104008" resp="Xuzangjing" type="orig" place="foot text">□疑之</note>□境，從本<note 
+n="0104c1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0104c1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>來，性離虗妄。</p></cb:div>
 <lb n="0104c15" ed="X"/><lb n="0254b06" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c1501">降伏一切外道眾魔。</p></cb:div>
 <lb n="0104c16" ed="X"/><lb n="0254b07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c1601" style="margin-left:1em">以此一實之道，超過諸見，故能降眾魔，伏外道。</p></cb:div>
 <lb n="0104c17" ed="X"/><lb n="0254b08" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c1701">緣自覺趣，光明輝發。</p></cb:div>
-<lb n="0104c18" ed="X"/><lb n="0254b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c1801" style="margin-left:1em">明自覺聖趣，發知慧暉，假使<note n="0104009" resp="Xuzangjing" type="orig" place="foot text">名疑石</note>名壁，莫之能礙。</p></cb:div>
+<lb n="0104c18" ed="X"/><lb n="0254b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c1801" style="margin-left:1em">明自覺聖趣，發知慧暉，假使<note 
+n="0104009" resp="Xuzangjing" type="orig" place="foot text">名疑石</note>名壁，莫之能礙。</p></cb:div>
 <lb n="0104c19" ed="X"/><lb n="0254b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c1901">是名宗通相。</p></cb:div>
 <lb n="0104c20" ed="X"/><lb n="0254b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0104c2001" style="margin-left:1em">總結：如實虗融，廓然無擁，可謂宗矣。</p></cb:div>
 <lb n="0104c21" ed="X"/><lb n="0254b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0104c2101">云何說通相？</p></cb:div>
@@ -1135,24 +1441,41 @@
 <lb n="0105a07" ed="X"/><lb n="0255a04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105a0701">大慧！汝及餘菩薩應當脩學。</p></cb:div>
 <lb n="0105a08" ed="X"/><lb n="0255a05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105a0801" style="margin-left:1em">此結勸修學。</p></cb:div>
 <lb n="0105a09" ed="X"/><lb n="0255a06" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105a0901">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0105a10" ed="X"/><lb n="0255a07" ed="R091"/><lg xml:id="lgX17p0105a1001"><l>宗及說通相，<caesura></caesura>緣自與教法。</l></lg></cb:div>
+<lb n="0105a10" ed="X"/><lb n="0255a07" ed="R091"/><lg xml:id="lgX17p0105a1001">
+  <l>宗及說通相，<caesura/>緣自與教法。</l>
+</lg></cb:div>
 <lb n="0105a11" ed="X"/><lb n="0255a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105a1101" style="margin-left:1em">此標宗說名義。</p></cb:div>
-<lb n="0105a12" ed="X"/><lb n="0255a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1201"><l>若見善分別，<caesura></caesura>不隨諸覺想。</l></lg></cb:div>
+<lb n="0105a12" ed="X"/><lb n="0255a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1201">
+  <l>若見善分別，<caesura/>不隨諸覺想。</l>
+</lg></cb:div>
 <lb n="0105a13" ed="X"/><lb n="0255a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105a1301" style="margin-left:1em">了達宗說，即不隨妄覺。此之一偈，總頌二通。</p></cb:div>
-<lb n="0105a14" ed="X"/><lb n="0255a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1401"><l>非有真實性，<caesura></caesura>如愚夫妄想。</l></lg></cb:div>
+<lb n="0105a14" ed="X"/><lb n="0255a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1401">
+  <l>非有真實性，<caesura/>如愚夫妄想。</l>
+</lg></cb:div>
 <lb n="0105a15" ed="X"/><lb n="0255a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105a1501" style="margin-left:1em">明有無非實，如愚之妄計。頌上謂有世間。</p></cb:div>
-<lb n="0105a16" ed="X"/><lb n="0255a13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1601"><l>云何起欲想，<caesura></caesura>非性為解脫？</l></lg></cb:div>
+<lb n="0105a16" ed="X"/><lb n="0255a13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1601">
+  <l>云何起欲想，<caesura/>非性為解脫？</l>
+</lg></cb:div>
 <lb n="0105a17" ed="X"/><lb n="0255a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105a1701" style="margin-left:1em">此訶何故於有起欲，又取彼非性為解脫哉？</p></cb:div>
-<lb n="0105a18" ed="X"/><lb n="0255a15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1801" type="regular"><l>觀察諸有為，<caesura></caesura>生滅等相續，<caesura></caesura>增長於二見，</l>
-<lb n="0105a19" ed="X"/><lb n="0255a16" ed="R091"/><l>顛倒無所知。</l></lg></cb:div>
+<lb n="0105a18" ed="X"/><lb n="0255a15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a1801" type="regular">
+  <l>觀察諸有為，<caesura/>生滅等相續，<caesura/>增長於二見，</l>
+<lb n="0105a19" ed="X"/><lb n="0255a16" ed="R091"/>
+  <l>顛倒無所知。</l>
+</lg></cb:div>
 <lb n="0105a20" ed="X"/><lb n="0255a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105a2001" style="margin-left:1em">凡觀有為起生滅二見者，斯由無知所起。</p></cb:div>
-<lb n="0105a21" ed="X"/><lb n="0255a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a2101" type="regular"><l>一是為真諦，<caesura></caesura>無罪為涅槃。<caesura></caesura>觀察世妄想，</l>
-<lb n="0105a22" ed="X"/><lb n="0255b01" ed="R091"/><l>如幻夢芭蕉。</l></lg></cb:div>
+<lb n="0105a21" ed="X"/><lb n="0255a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105a2101" type="regular">
+  <l>一是為真諦，<caesura/>無罪為涅槃。<caesura/>觀察世妄想，</l>
+<lb n="0105a22" ed="X"/><lb n="0255b01" ed="R091"/>
+  <l>如幻夢芭蕉。</l>
+</lg></cb:div>
 <lb n="0105a23" ed="X"/><lb n="0255b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105a2301" style="margin-left:1em">了一諦涅槃，則觀世如幻，本來不實。頌上性相寂
 <lb n="0105a24" ed="X"/><lb n="0255b03" ed="R091"/>靜。</p></cb:div>
 <pb n="0105b" ed="X" xml:id="X17.0321.0105b"/>
-<lb n="0105b01" ed="X"/><lb n="0255b04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105b0101" type="regular"><l>雖有貪恚癡，<caesura></caesura>而實無有人。<caesura></caesura>從愛生諸陰，</l>
-<lb n="0105b02" ed="X"/><lb n="0255b05" ed="R091"/><l>有皆如幻夢。</l></lg></cb:div>
+<lb n="0105b01" ed="X"/><lb n="0255b04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0105b0101" type="regular">
+  <l>雖有貪恚癡，<caesura/>而實無有人。<caesura/>從愛生諸陰，</l>
+<lb n="0105b02" ed="X"/><lb n="0255b05" ed="R091"/>
+  <l>有皆如幻夢。</l>
+</lg></cb:div>
 <lb n="0105b03" ed="X"/><lb n="0255b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105b0301" style="margin-left:1em">明貪恚妄有，實無有人。假使從愛起，陰皆如幻夢。</p></cb:div>
 <lb n="0105b04" ed="X"/><lb n="0255b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105b0401">爾時大慧菩薩白佛言：世尊！唯願為說不實妄想相。</p></cb:div>
 <lb n="0105b05" ed="X"/><lb n="0255b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105b0501" style="margin-left:1em">自下約二諦平等顯上宗義。此先請不實妄想之
@@ -1165,7 +1488,8 @@
 <lb n="0105b12" ed="X"/><lb n="0255b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105b1201" style="margin-left:1em">四，問不實妄想之所起。</p></cb:div>
 <lb n="0105b13" ed="X"/><lb n="0255b16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105b1301">佛告大慧：善哉，善哉！能問如來如是之義，多所饒益，
 <lb n="0105b14" ed="X"/><lb n="0255b17" ed="R091"/>多所安樂，哀愍世間一切天人。</p></cb:div>
-<lb n="0105b15" ed="X"/><lb n="0255b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105b1501" style="margin-left:1em">今佛先讚<note n="0105001" resp="Xuzangjing" type="orig" place="foot text">諸疑請</note>諸者，以所問意利樂廣多，故斯嘆美。</p></cb:div>
+<lb n="0105b15" ed="X"/><lb n="0255b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105b1501" style="margin-left:1em">今佛先讚<note 
+n="0105001" resp="Xuzangjing" type="orig" place="foot text">諸疑請</note>諸者，以所問意利樂廣多，故斯嘆美。</p></cb:div>
 <lb n="0105b16" ed="X"/><lb n="0256a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105b1601">諦聽！諦聽！善思念之，當為汝說。</p></cb:div>
 <lb n="0105b17" ed="X"/><lb n="0256a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105b1701" style="margin-left:1em">次明飭許。</p></cb:div>
 <lb n="0105b18" ed="X"/><lb n="0256a03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105b1801">大慧白佛言：善哉！世尊，唯然受教。</p></cb:div>
@@ -1176,7 +1500,8 @@
 <lb n="0105b23" ed="X"/><lb n="0256a08" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105b2301">計著妄想生。</p></cb:div>
 <lb n="0105b24" ed="X"/><lb n="0256a09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105b2401" style="margin-left:1em">由計外境，即妄想隨生。答上第二問妄之所生。</p></cb:div>
 <pb n="0105c" ed="X" xml:id="X17.0321.0105c"/>
-<lb n="0105c01" ed="X"/><lb n="0256a10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105c0101">大慧，攝所攝計著，不知自心現量，及墮有無<note n="0105002" resp="Xuzangjing" type="orig" place="foot text">現經作見</note>現增長
+<lb n="0105c01" ed="X"/><lb n="0256a10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0105c0101">大慧，攝所攝計著，不知自心現量，及墮有無<note 
+n="0105002" resp="Xuzangjing" type="orig" place="foot text">現經作見</note>現增長
 <lb n="0105c02" ed="X"/><lb n="0256a11" ed="R091"/>外道見。</p></cb:div>
 <lb n="0105c03" ed="X"/><lb n="0256a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0105c0301" style="margin-left:1em">以能所計故，不知心量，墮於有無增長外見。答
 <lb n="0105c04" ed="X"/><lb n="0256a13" ed="R091"/>上第三問妄想之體。</p></cb:div>
@@ -1205,7 +1530,8 @@
 <lb n="0106a02" ed="X"/><lb n="0256b17" ed="R091"/>計著第一義處相妄想生？</p></cb:div>
 <lb n="0106a03" ed="X"/><lb n="0256b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106a0301" style="margin-left:1em">此第三，明大慧徵詰真俗二諦，義稍不齊。</p></cb:div>
 <lb n="0106a04" ed="X"/><lb n="0257a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0106a0401">將無世尊說邪因論耶？</p></cb:div>
-<lb n="0106a05" ed="X"/><lb n="0257a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106a0501" style="margin-left:1em">此第四，正難。佛說真俗兩諦墮生不生者<note n="0106001" resp="Xuzangjing" type="orig" place="foot text">怨疑恐</note>怨，非世
+<lb n="0106a05" ed="X"/><lb n="0257a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106a0501" style="margin-left:1em">此第四，正難。佛說真俗兩諦墮生不生者<note 
+n="0106001" resp="Xuzangjing" type="orig" place="foot text">怨疑恐</note>怨，非世
 <lb n="0106a06" ed="X"/><lb n="0257a03" ed="R091"/>尊說邪因論耶？</p></cb:div>
 <lb n="0106a07" ed="X"/><lb n="0257a04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0106a0701">說一生一不生。</p></cb:div>
 <lb n="0106a08" ed="X"/><lb n="0257a05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106a0801" style="margin-left:1em">此第五，釋難。以佛說真俗兩諦，一有妄生，一即非
@@ -1244,61 +1570,110 @@
 <lb n="0106b16" ed="X"/><lb n="0258a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0106b1601">知如實義，得解脫自，種種妄想。</p></cb:div>
 <lb n="0106b17" ed="X"/><lb n="0258a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106b1701" style="margin-left:1em">若眾生知實，即能脫妄，茲為利物，豈佛有斯患？</p></cb:div>
 <lb n="0106b18" ed="X"/><lb n="0258a03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0106b1801">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0106b19" ed="X"/><lb n="0258a04" ed="R091"/><lg xml:id="lgX17p0106b1901"><l>諸因及與緣，<caesura></caesura>從此生世間。</l></lg></cb:div>
+<lb n="0106b19" ed="X"/><lb n="0258a04" ed="R091"/><lg xml:id="lgX17p0106b1901">
+  <l>諸因及與緣，<caesura/>從此生世間。</l>
+</lg></cb:div>
 <lb n="0106b20" ed="X"/><lb n="0258a05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106b2001" style="margin-left:1em">下偈總十四行半，此舉世間從因緣生。</p></cb:div>
-<lb n="0106b21" ed="X"/><lb n="0258a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106b2101"><l>妄想著四句，<caesura></caesura>不知我所通。</l></lg></cb:div>
+<lb n="0106b21" ed="X"/><lb n="0258a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106b2101">
+  <l>妄想著四句，<caesura/>不知我所通。</l>
+</lg></cb:div>
 <lb n="0106b22" ed="X"/><lb n="0258a07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106b2201" style="margin-left:1em">此明片也。謂由妄想不了因緣空故，著於四句，不
 <lb n="0106b23" ed="X"/><lb n="0258a08" ed="R091"/>知如來離句自通。</p></cb:div>
-<lb n="0106b24" ed="X"/><lb n="0258a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106b2401" type="regular"><l>世間非有生，<caesura></caesura>亦復非無生，<caesura></caesura>不從有無生，</l>
+<lb n="0106b24" ed="X"/><lb n="0258a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106b2401" type="regular">
+  <l>世間非有生，<caesura/>亦復非無生，<caesura/>不從有無生，</l>
 <pb n="0106c" ed="X" xml:id="X17.0321.0106c"/>
-<lb n="0106c01" ed="X"/><lb n="0258a10" ed="R091"/><l>亦非非有無。</l></lg></cb:div>
+<lb n="0106c01" ed="X"/><lb n="0258a10" ed="R091"/>
+  <l>亦非非有無。</l>
+</lg></cb:div>
 <lb n="0106c02" ed="X"/><lb n="0258a11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c0201" style="margin-left:1em">此舉世間離茲四句。</p></cb:div>
-<lb n="0106c03" ed="X"/><lb n="0258a12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c0301"><l>諸因及與緣，<caesura></caesura>云何愚妄想？</l></lg></cb:div>
+<lb n="0106c03" ed="X"/><lb n="0258a12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c0301">
+  <l>諸因及與緣，<caesura/>云何愚妄想？</l>
+</lg></cb:div>
 <lb n="0106c04" ed="X"/><lb n="0258a13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c0401" style="margin-left:1em">此訶彼見：若因緣既爾，云何愚夫強生妄想？</p></cb:div>
-<lb n="0106c05" ed="X"/><lb n="0258a14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c0501" type="regular"><l>非有亦非無，<caesura></caesura>亦復非有無，<caesura></caesura>如是觀世間。</l>
-<lb n="0106c06" ed="X"/><lb n="0258a15" ed="R091"/><l>心轉得無我。</l></lg></cb:div>
+<lb n="0106c05" ed="X"/><lb n="0258a14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c0501" type="regular">
+  <l>非有亦非無，<caesura/>亦復非有無，<caesura/>如是觀世間。</l>
+<lb n="0106c06" ed="X"/><lb n="0258a15" ed="R091"/>
+  <l>心轉得無我。</l>
+</lg></cb:div>
 <lb n="0106c07" ed="X"/><lb n="0258a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c0701" style="margin-left:1em">今明觀益，謂如是觀世離句者，即執法心轉，得法
 <lb n="0106c08" ed="X"/><lb n="0258a17" ed="R091"/>無我。上總明緣非四句。</p></cb:div>
-<lb n="0106c09" ed="X"/><lb n="0258a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c0901"><l>一切性不生，<caesura></caesura>以從緣生故。</l></lg></cb:div>
+<lb n="0106c09" ed="X"/><lb n="0258a18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c0901">
+  <l>一切性不生，<caesura/>以從緣生故。</l>
+</lg></cb:div>
 <lb n="0106c10" ed="X"/><lb n="0258b01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c1001" style="margin-left:1em">明一切果性本自不生，以從因緣之所生故。</p></cb:div>
-<lb n="0106c11" ed="X"/><lb n="0258b02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1101"><l>一切緣所作，<caesura></caesura>所作非自有。</l></lg></cb:div>
+<lb n="0106c11" ed="X"/><lb n="0258b02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1101">
+  <l>一切緣所作，<caesura/>所作非自有。</l>
+</lg></cb:div>
 <lb n="0106c12" ed="X"/><lb n="0258b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c1201" style="margin-left:1em">明一切果性既從緣所作，故知非自有也。</p></cb:div>
-<lb n="0106c13" ed="X"/><lb n="0258b04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1301"><l>事不自生事，<caesura></caesura>有二事過故。</l></lg></cb:div>
+<lb n="0106c13" ed="X"/><lb n="0258b04" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1301">
+  <l>事不自生事，<caesura/>有二事過故。</l>
+</lg></cb:div>
 <lb n="0106c14" ed="X"/><lb n="0258b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c1401" style="margin-left:1em">夫二事之過，如瓶上生瓶，此明略牒。</p></cb:div>
-<lb n="0106c15" ed="X"/><lb n="0258b06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1501"><l>無二事過故，<caesura></caesura>非有性可得。</l></lg></cb:div>
+<lb n="0106c15" ed="X"/><lb n="0258b06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1501">
+  <l>無二事過故，<caesura/>非有性可得。</l>
+</lg></cb:div>
 <lb n="0106c16" ed="X"/><lb n="0258b07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c1601" style="margin-left:1em">既無二過，即自性非有。上之兩行，破所生之果。</p></cb:div>
-<lb n="0106c17" ed="X"/><lb n="0258b08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1701" type="regular"><l>觀諸有為法，<caesura></caesura>離攀緣所緣，<caesura></caesura>無心之心量，</l>
-<lb n="0106c18" ed="X"/><lb n="0258b09" ed="R091"/><l>我說為心量。</l></lg></cb:div>
+<lb n="0106c17" ed="X"/><lb n="0258b08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c1701" type="regular">
+  <l>觀諸有為法，<caesura/>離攀緣所緣，<caesura/>無心之心量，</l>
+<lb n="0106c18" ed="X"/><lb n="0258b09" ed="R091"/>
+  <l>我說為心量。</l>
+</lg></cb:div>
 <lb n="0106c19" ed="X"/><lb n="0258b10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c1901" style="margin-left:1em">自下總片上見。若言觀諸有為離於能所，復言無
 <lb n="0106c20" ed="X"/><lb n="0258b11" ed="R091"/>心可得，此亦未離心量。</p></cb:div>
-<lb n="0106c21" ed="X"/><lb n="0258b12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c2101" type="regular"><l>量者，自性、處、<caesura></caesura>緣性、二俱離<caesura></caesura>性，究竟妙淨。</l>
-<lb n="0106c22" ed="X"/><lb n="0258b13" ed="R091"/><l>我說為心量。</l></lg></cb:div>
+<lb n="0106c21" ed="X"/><lb n="0258b12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0106c2101" type="regular">
+  <l>量者，自性、處、<caesura/>緣性、二俱離<caesura/>性，究竟妙淨。</l>
+<lb n="0106c22" ed="X"/><lb n="0258b13" ed="R091"/>
+  <l>我說為心量。</l>
+</lg></cb:div>
 <lb n="0106c23" ed="X"/><lb n="0258b14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0106c2301" style="margin-left:1em">夫量者，能緣心自性，即所緣境。若言緣性雙離，謂
 <lb n="0106c24" ed="X"/><lb n="0258b15" ed="R091"/>會真淨，斯亦心量。</p></cb:div>
 <pb n="0107a" ed="X" xml:id="X17.0321.0107a"/>
-<lb n="0107a01" ed="X"/><lb n="0258b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a0101" type="regular"><l>施說世諦我，<caesura></caesura>彼則無實事。<caesura></caesura>諸陰陰施設，</l>
-<lb n="0107a02" ed="X"/><lb n="0258b17" ed="R091"/><l>無事亦復然。</l></lg></cb:div>
+<lb n="0107a01" ed="X"/><lb n="0258b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a0101" type="regular">
+  <l>施說世諦我，<caesura/>彼則無實事。<caesura/>諸陰陰施設，</l>
+<lb n="0107a02" ed="X"/><lb n="0258b17" ed="R091"/>
+  <l>無事亦復然。</l>
+</lg></cb:div>
 <lb n="0107a03" ed="X"/><lb n="0258b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107a0301" style="margin-left:1em">若謂我、法二空而為究竟，斯亦心量。</p></cb:div>
-<lb n="0107a04" ed="X"/><lb n="0259a01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a0401" type="regular"><l>有四種平等，<caesura></caesura>相及因性生，<caesura></caesura>第三無我等。</l>
-<lb n="0107a05" ed="X"/><lb n="0259a02" ed="R091"/><l>第四，修修者。</l></lg></cb:div>
+<lb n="0107a04" ed="X"/><lb n="0259a01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a0401" type="regular">
+  <l>有四種平等，<caesura/>相及因性生，<caesura/>第三無我等。</l>
+<lb n="0107a05" ed="X"/><lb n="0259a02" ed="R091"/>
+  <l>第四，修修者。</l>
+</lg></cb:div>
 <lb n="0107a06" ed="X"/><lb n="0259a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107a0601" style="margin-left:1em">此舉四等，齊真俗不二。此中相者，謂相無相等。二
-<lb n="0107a07" ed="X"/><lb n="0259a04" ed="R091"/>因性，謂因果平等。第三無我者，<note n="0107001" resp="Xuzangjing" type="orig" place="foot text">諸疑謂</note>諸我無我等。第四
+<lb n="0107a07" ed="X"/><lb n="0259a04" ed="R091"/>因性，謂因果平等。第三無我者，<note 
+n="0107001" resp="Xuzangjing" type="orig" place="foot text">諸疑謂</note>諸我無我等。第四
 <lb n="0107a08" ed="X"/><lb n="0259a05" ed="R091"/>修脩，能所平等，兼該一切。</p></cb:div>
-<lb n="0107a09" ed="X"/><lb n="0259a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a0901" type="regular"><l>妄想習氣轉，<caesura></caesura>有種種心生，<caesura></caesura>境界於外現。</l>
-<lb n="0107a10" ed="X"/><lb n="0259a07" ed="R091"/><l>是世俗心量。</l></lg></cb:div>
+<lb n="0107a09" ed="X"/><lb n="0259a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a0901" type="regular">
+  <l>妄想習氣轉，<caesura/>有種種心生，<caesura/>境界於外現。</l>
+<lb n="0107a10" ed="X"/><lb n="0259a07" ed="R091"/>
+  <l>是世俗心量。</l>
+</lg></cb:div>
 <lb n="0107a11" ed="X"/><lb n="0259a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107a1101" style="margin-left:1em">由習轉心生，境便外現，此之心境是世俗心量。</p></cb:div>
-<lb n="0107a12" ed="X"/><lb n="0259a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a1201" type="regular"><l>外現而<note n="0107002" resp="Xuzangjing" type="orig" place="foot text">不經作非</note>不有。<caesura></caesura>心見彼種種，<caesura></caesura>建立於身財，</l>
-<lb n="0107a13" ed="X"/><lb n="0259a10" ed="R091"/><l>我說為心量。</l></lg></cb:div>
+<lb n="0107a12" ed="X"/><lb n="0259a09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a1201" type="regular">
+  <l>外現而<note 
+n="0107002" resp="Xuzangjing" type="orig" place="foot text">不經作非</note>不有。<caesura/>心見彼種種，<caesura/>建立於身財，</l>
+<lb n="0107a13" ed="X"/><lb n="0259a10" ed="R091"/>
+  <l>我說為心量。</l>
+</lg></cb:div>
 <lb n="0107a14" ed="X"/><lb n="0259a11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107a1401" style="margin-left:1em">此明外現非有，由心故生，立彼依正亦為心量。</p></cb:div>
-<lb n="0107a15" ed="X"/><lb n="0259a12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a1501" type="regular"><l>離一切諸見，<caesura></caesura>及離想所想，<caesura></caesura>無得亦無生，</l>
-<lb n="0107a16" ed="X"/><lb n="0259a13" ed="R091"/><l>我說為心量。</l></lg></cb:div>
+<lb n="0107a15" ed="X"/><lb n="0259a12" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a1501" type="regular">
+  <l>離一切諸見，<caesura/>及離想所想，<caesura/>無得亦無生，</l>
+<lb n="0107a16" ed="X"/><lb n="0259a13" ed="R091"/>
+  <l>我說為心量。</l>
+</lg></cb:div>
 <lb n="0107a17" ed="X"/><lb n="0259a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107a1701" style="margin-left:1em">上破世諦心量，自下明真諦亦為心量。若謂離能
 <lb n="0107a18" ed="X"/><lb n="0259a15" ed="R091"/>所，又復言無得無生者，斯亦未超心量。</p></cb:div>
-<lb n="0107a19" ed="X"/><lb n="0259a16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a1901" type="regular"><l>非性非非性，<caesura></caesura>性非性悉離，<caesura></caesura>謂彼心解脫。</l>
-<lb n="0107a20" ed="X"/><lb n="0259a17" ed="R091"/><l>我說為心量。</l></lg></cb:div>
+<lb n="0107a19" ed="X"/><lb n="0259a16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a1901" type="regular">
+  <l>非性非非性，<caesura/>性非性悉離，<caesura/>謂彼心解脫。</l>
+<lb n="0107a20" ed="X"/><lb n="0259a17" ed="R091"/>
+  <l>我說為心量。</l>
+</lg></cb:div>
 <lb n="0107a21" ed="X"/><lb n="0259a18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107a2101" style="margin-left:1em">此行若言有無雙離，謂心無縛者，此亦心量。</p></cb:div>
-<lb n="0107a22" ed="X"/><lb n="0259b01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a2201" type="regular"><l>如如與空際，<caesura></caesura>涅槃及法界，<caesura></caesura>種種意生身，</l>
-<lb n="0107a23" ed="X"/><lb n="0259b02" ed="R091"/><l>我說為心量。</l></lg></cb:div>
+<lb n="0107a22" ed="X"/><lb n="0259b01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0107a2201" type="regular">
+  <l>如如與空際，<caesura/>涅槃及法界，<caesura/>種種意生身，</l>
+<lb n="0107a23" ed="X"/><lb n="0259b02" ed="R091"/>
+  <l>我說為心量。</l>
+</lg></cb:div>
 <lb n="0107a24" ed="X"/><lb n="0259b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107a2401" style="margin-left:1em">夫如與空際、涅槃、法界及意生身者，並約法身一
 <pb n="0107b" ed="X" xml:id="X17.0321.0107b"/>
 <lb n="0107b01" ed="X"/><lb n="0259b04" ed="R091"/>相應物而施異名。若尋言取著有所得者，亦心量
@@ -1322,7 +1697,8 @@
 <lb n="0107b19" ed="X"/><lb n="0260a04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107b1901" style="margin-left:1em">今釋語中，謂言字及妄三事和合為其語相。</p></cb:div>
 <lb n="0107b20" ed="X"/><lb n="0260a05" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107b2001">依咽喉脣舌齒齗頰輔。</p></cb:div>
 <lb n="0107b21" ed="X"/><lb n="0260a06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107b2101" style="margin-left:1em">次依咽喉等八發生言說，明其語緣。</p></cb:div>
-<lb n="0107b22" ed="X"/><lb n="0260a07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107b2201">因彼我言說，妄想習<note n="0107003" resp="Xuzangjing" type="orig" place="foot text">氣下經有計著生三字</note>氣。</p></cb:div>
+<lb n="0107b22" ed="X"/><lb n="0260a07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107b2201">因彼我言說，妄想習<note 
+n="0107003" resp="Xuzangjing" type="orig" place="foot text">氣下經有計著生三字</note>氣。</p></cb:div>
 <lb n="0107b23" ed="X"/><lb n="0260a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107b2301" style="margin-left:1em">三、以彼我相對及久遠言習，此並發語之因。</p></cb:div>
 <lb n="0107b24" ed="X"/><lb n="0260a09" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107b2401">是名為語。</p></cb:div>
 <pb n="0107c" ed="X" xml:id="X17.0321.0107c"/>
@@ -1337,7 +1713,11 @@
 <lb n="0107c09" ed="X"/><lb n="0260a18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107c0901">大慧，菩薩摩訶薩於如是義，獨一靜處聞思脩慧，緣
 <lb n="0107c10" ed="X"/><lb n="0260b01" ed="R091"/>自覺了向涅槃城。</p></cb:div>
 <lb n="0107c11" ed="X"/><lb n="0260b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107c1101" style="margin-left:1em">此明脩義方便。</p></cb:div>
-<lb n="0107c12" ed="X"/><lb n="0260b03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107c1201">習氣身轉變<note n="0107c1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0107c1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，自覺境界，觀地地中間勝進義相。</p></cb:div>
+<lb n="0107c12" ed="X"/><lb n="0260b03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107c1201">習氣身轉變<note 
+n="0107c1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0107c1201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，自覺境界，觀地地中間勝進義相。</p></cb:div>
 <lb n="0107c13" ed="X"/><lb n="0260b04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107c1301" style="margin-left:1em">謂修義獲益。</p></cb:div>
 <lb n="0107c14" ed="X"/><lb n="0260b05" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0107c1401">是名菩薩摩訶薩善義。</p></cb:div>
 <lb n="0107c15" ed="X"/><lb n="0260b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0107c1501" style="margin-left:1em">三、總結示。</p></cb:div>
@@ -1354,7 +1734,11 @@
 <lb n="0108a01" ed="X"/><lb n="0260b16" ed="R091"/>順釋。</p></cb:div>
 <lb n="0108a02" ed="X"/><lb n="0260b17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108a0201">如燈照色。</p></cb:div>
 <lb n="0108a03" ed="X"/><lb n="0260b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108a0301" style="margin-left:1em">然以語入義者，如因燈而見色，不可稱其異也。若
-<lb n="0108a04" ed="X"/><lb n="0261a01" ed="R091"/>破不異，一准於前，但轉勢而<note n="0108a0401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0108a0401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。梵文之妙，其在茲
+<lb n="0108a04" ed="X"/><lb n="0261a01" ed="R091"/>破不異，一准於前，但轉勢而<note 
+n="0108a0401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0108a0401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。梵文之妙，其在茲
 <lb n="0108a05" ed="X"/><lb n="0261a02" ed="R091"/>乎？</p></cb:div>
 <lb n="0108a06" ed="X"/><lb n="0261a03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108a0601">復次，大慧！不生不滅自性涅槃，三乘一乘心自性等。</p></cb:div>
 <lb n="0108a07" ed="X"/><lb n="0261a04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108a0701" style="margin-left:1em">今舉不生滅法及三乘一乘心性平等者，有其二
@@ -1376,21 +1760,34 @@
 <lb n="0108a23" ed="X"/><lb n="0261b02" ed="R091"/>不住於言義，豈有一異同於幻耶？</p></cb:div>
 <lb n="0108a24" ed="X"/><lb n="0261b03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108a2401">爾時，世尊欲重宣此義，而說偈言：</p>
 <pb n="0108b" ed="X" xml:id="X17.0321.0108b"/>
-<lb n="0108b01" ed="X"/><lb n="0261b04" ed="R091"/><lg xml:id="lgX17p0108b0101" type="regular"><l>彼言說妄想，<caesura></caesura>建立於諸法，<caesura></caesura>以彼建立故，</l>
-<lb n="0108b02" ed="X"/><lb n="0261b05" ed="R091"/><l>死墮泥犁中。</l></lg></cb:div>
+<lb n="0108b01" ed="X"/><lb n="0261b04" ed="R091"/><lg xml:id="lgX17p0108b0101" type="regular">
+  <l>彼言說妄想，<caesura/>建立於諸法，<caesura/>以彼建立故，</l>
+<lb n="0108b02" ed="X"/><lb n="0261b05" ed="R091"/>
+  <l>死墮泥犁中。</l>
+</lg></cb:div>
 <lb n="0108b03" ed="X"/><lb n="0261b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108b0301" style="margin-left:1em">此明死愚妄情立法業報，隨生誹謗亦爾，文略不
 <lb n="0108b04" ed="X"/><lb n="0261b07" ed="R091"/>具。泥犁，正梵云捺落迦，謂眾苦逼切，此云地獄。</p></cb:div>
-<lb n="0108b05" ed="X"/><lb n="0261b08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b0501" type="regular"><l>陰中無有我，<caesura></caesura>陰非即是我，<caesura></caesura>不如彼妄想。</l>
-<lb n="0108b06" ed="X"/><lb n="0261b09" ed="R091"/><l>亦復非無我。</l></lg></cb:div>
+<lb n="0108b05" ed="X"/><lb n="0261b08" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b0501" type="regular">
+  <l>陰中無有我，<caesura/>陰非即是我，<caesura/>不如彼妄想。</l>
+<lb n="0108b06" ed="X"/><lb n="0261b09" ed="R091"/>
+  <l>亦復非無我。</l>
+</lg></cb:div>
 <lb n="0108b07" ed="X"/><lb n="0261b10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108b0701" style="margin-left:1em">以士計言義一異，故借外計陰我例而破之。</p></cb:div>
-<lb n="0108b08" ed="X"/><lb n="0261b11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b0801"><l>一切悉有性，<caesura></caesura>如凡愚妄想。</l></lg></cb:div>
+<lb n="0108b08" ed="X"/><lb n="0261b11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b0801">
+  <l>一切悉有性，<caesura/>如凡愚妄想。</l>
+</lg></cb:div>
 <lb n="0108b09" ed="X"/><lb n="0261b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108b0901" style="margin-left:1em">此明縱也。若一切言義悉皆有性，如凡陰我者。</p></cb:div>
-<lb n="0108b10" ed="X"/><lb n="0261b13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b1001"><l>若如彼所見，<caesura></caesura>一切應見諦。</l></lg></cb:div>
+<lb n="0108b10" ed="X"/><lb n="0261b13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b1001">
+  <l>若如彼所見，<caesura/>一切應見諦。</l>
+</lg></cb:div>
 <lb n="0108b11" ed="X"/><lb n="0261b14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108b1101" style="margin-left:1em">此舉相望破，謂若計言義如陰我者，一切外道皆
 <lb n="0108b12" ed="X"/><lb n="0261b15" ed="R091"/>應見諦。然諸外道既非見諦，故知執言義者亦復
 <lb n="0108b13" ed="X"/><lb n="0261b16" ed="R091"/>如之。</p></cb:div>
-<lb n="0108b14" ed="X"/><lb n="0261b17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b1401" type="regular"><l>一切法無性，<caesura></caesura>淨穢悉無有，<caesura></caesura>不實如彼見。</l>
-<lb n="0108b15" ed="X"/><lb n="0261b18" ed="R091"/><l>亦非無所有。</l></lg></cb:div>
+<lb n="0108b14" ed="X"/><lb n="0261b17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0108b1401" type="regular">
+  <l>一切法無性，<caesura/>淨穢悉無有，<caesura/>不實如彼見。</l>
+<lb n="0108b15" ed="X"/><lb n="0261b18" ed="R091"/>
+  <l>亦非無所有。</l>
+</lg></cb:div>
 <lb n="0108b16" ed="X"/><lb n="0262a01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108b1601" style="margin-left:1em">此總順釋，上二句片有，下句遣無，合明中道。</p></cb:div>
 <lb n="0108b17" ed="X"/><lb n="0262a02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108b1701">復次，大慧！智識相今當說。</p></cb:div>
 <lb n="0108b18" ed="X"/><lb n="0262a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108b1801" style="margin-left:1em">下廣明知識者，為令依智不依於識，答上問中諸
@@ -1404,7 +1801,8 @@
 <lb n="0108c01" ed="X"/><lb n="0262a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108c0101" style="margin-left:1em">明得果益。</p></cb:div>
 <lb n="0108c02" ed="X"/><lb n="0262a11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108c0201">大慧！彼智有三種：</p></cb:div>
 <lb n="0108c03" ed="X"/><lb n="0262a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108c0301" style="margin-left:1em">廣釋相中，此初標數。</p></cb:div>
-<lb n="0108c04" ed="X"/><lb n="0262a13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108c0401">謂：世間、出世間、出世間、上<note n="0108001" resp="Xuzangjing" type="orig" place="foot text">上下經或有智字或無</note>上。</p></cb:div>
+<lb n="0108c04" ed="X"/><lb n="0262a13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108c0401">謂：世間、出世間、出世間、上<note 
+n="0108001" resp="Xuzangjing" type="orig" place="foot text">上下經或有智字或無</note>上。</p></cb:div>
 <lb n="0108c05" ed="X"/><lb n="0262a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108c0501" style="margin-left:1em">次列其數。</p></cb:div>
 <lb n="0108c06" ed="X"/><lb n="0262a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108c0601">云何世間智？</p></cb:div>
 <lb n="0108c07" ed="X"/><lb n="0262a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108c0701" style="margin-left:1em">三，明徵釋。此初，徵世智。</p></cb:div>
@@ -1423,7 +1821,8 @@
 <lb n="0108c20" ed="X"/><lb n="0262b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108c2001" style="margin-left:1em">獲佛地證二空者，斯由勤脩自覺之所成就。</p></cb:div>
 <lb n="0108c21" ed="X"/><lb n="0262b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108c2101">大慧，彼生滅者是識，不生不滅者是智。</p></cb:div>
 <lb n="0108c22" ed="X"/><lb n="0262b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108c2201" style="margin-left:1em">上明智之差別，今辯智識優劣。此初，對，可知。</p></cb:div>
-<lb n="0108c23" ed="X"/><lb n="0262b14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108c2301"><note n="0108002" resp="Xuzangjing" type="orig" place="foot text">墮上經有復次二字</note>墮相、無相及墮有、無種種相因是識，超有、無相是智。</p></cb:div>
+<lb n="0108c23" ed="X"/><lb n="0262b14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0108c2301"><note 
+n="0108002" resp="Xuzangjing" type="orig" place="foot text">墮上經有復次二字</note>墮相、無相及墮有、無種種相因是識，超有、無相是智。</p></cb:div>
 <lb n="0108c24" ed="X"/><lb n="0262b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0108c2401" style="margin-left:1em">次約墮二邊相，悉名妄識，超為正智。</p></cb:div>
 <pb n="0109a" ed="X" xml:id="X17.0321.0109a"/>
 <lb n="0109a01" ed="X"/><lb n="0262b16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0109a0101">復次，長養相是識，非長養相是智。</p></cb:div>
@@ -1446,42 +1845,72 @@
 <lb n="0109a18" ed="X"/><lb n="0263a15" ed="R091"/>離妄言生，妄覆謂滅。如水淨月現，水濁影沉，而月
 <lb n="0109a19" ed="X"/><lb n="0263a16" ed="R091"/>性常爾，本非出入。</p></cb:div>
 <lb n="0109a20" ed="X"/><lb n="0263a17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0109a2001">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0109a21" ed="X"/><lb n="0263a18" ed="R091"/><lg xml:id="lgX17p0109a2101" type="regular"><l>採集業為識，<caesura></caesura>不採集為智，<caesura></caesura>觀察一切法。</l>
-<lb n="0109a22" ed="X"/><lb n="0263b01" ed="R091"/><l>通達無所有。</l></lg></cb:div>
+<lb n="0109a21" ed="X"/><lb n="0263a18" ed="R091"/><lg xml:id="lgX17p0109a2101" type="regular">
+  <l>採集業為識，<caesura/>不採集為智，<caesura/>觀察一切法。</l>
+<lb n="0109a22" ed="X"/><lb n="0263b01" ed="R091"/>
+  <l>通達無所有。</l>
+</lg></cb:div>
 <lb n="0109a23" ed="X"/><lb n="0263b02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109a2301" style="margin-left:1em">下偈有七，今雙標識智，兼明觀益。</p></cb:div>
-<lb n="0109a24" ed="X"/><lb n="0263b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109a2401"><l>逮得自在力，<caesura></caesura>是即名為慧。</l></lg></cb:div>
+<lb n="0109a24" ed="X"/><lb n="0263b03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109a2401">
+  <l>逮得自在力，<caesura/>是即名為慧。</l>
+</lg></cb:div>
 <pb n="0109b" ed="X" xml:id="X17.0321.0109b"/>
 <lb n="0109b01" ed="X"/><lb n="0263b04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b0101" style="margin-left:1em">謂心無所礙，故生三界；作大饒益，得力自在，故名
 <lb n="0109b02" ed="X"/><lb n="0263b05" ed="R091"/>為慧。</p></cb:div>
-<lb n="0109b03" ed="X"/><lb n="0263b06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b0301"><l>縛境界為心，<caesura></caesura>覺想生為智。</l></lg></cb:div>
+<lb n="0109b03" ed="X"/><lb n="0263b06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b0301">
+  <l>縛境界為心，<caesura/>覺想生為智。</l>
+</lg></cb:div>
 <lb n="0109b04" ed="X"/><lb n="0263b07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b0401" style="margin-left:1em">此標真妄，謂纏縛外境，此即妄心。若覺念不生，乃
 <lb n="0109b05" ed="X"/><lb n="0263b08" ed="R091"/>名真智。</p></cb:div>
-<lb n="0109b06" ed="X"/><lb n="0263b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b0601"><l>無所有及勝，<caesura></caesura>慧則從是生。</l></lg></cb:div>
+<lb n="0109b06" ed="X"/><lb n="0263b09" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b0601">
+  <l>無所有及勝，<caesura/>慧則從是生。</l>
+</lg></cb:div>
 <lb n="0109b07" ed="X"/><lb n="0263b10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b0701" style="margin-left:1em">此明觀益，謂第八佛地無功勝慧，並由覺想而生。</p></cb:div>
-<lb n="0109b08" ed="X"/><lb n="0263b11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b0801"><l>心意及與識，<caesura></caesura>遠離思惟想。</l></lg></cb:div>
-<lb n="0109b09" ed="X"/><lb n="0263b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b0901" style="margin-left:1em">此明八地<note n="0109b0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0109b0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>上無生勝慧，離八識思想，即真實無
+<lb n="0109b08" ed="X"/><lb n="0263b11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b0801">
+  <l>心意及與識，<caesura/>遠離思惟想。</l>
+</lg></cb:div>
+<lb n="0109b09" ed="X"/><lb n="0263b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b0901" style="margin-left:1em">此明八地<note 
+n="0109b0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0109b0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>上無生勝慧，離八識思想，即真實無
 <lb n="0109b10" ed="X"/><lb n="0263b13" ed="R091"/>生。</p></cb:div>
-<lb n="0109b11" ed="X"/><lb n="0263b14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b1101"><l>得無思想法，<caesura></caesura>佛子非聲聞。</l></lg></cb:div>
+<lb n="0109b11" ed="X"/><lb n="0263b14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b1101">
+  <l>得無思想法，<caesura/>佛子非聲聞。</l>
+</lg></cb:div>
 <lb n="0109b12" ed="X"/><lb n="0263b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b1201" style="margin-left:1em">又明顯勝，若得無慮、無察、無思、無想者，斯則菩薩，
 <lb n="0109b13" ed="X"/><lb n="0263b16" ed="R091"/>非謂二乘。</p></cb:div>
-<lb n="0109b14" ed="X"/><lb n="0263b17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b1401"><l>寂靜勝進忍，<caesura></caesura>如來清淨智。</l></lg></cb:div>
+<lb n="0109b14" ed="X"/><lb n="0263b17" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b1401">
+  <l>寂靜勝進忍，<caesura/>如來清淨智。</l>
+</lg></cb:div>
 <lb n="0109b15" ed="X"/><lb n="0263b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b1501" style="margin-left:1em">夫言忍者，通三賢十聖，總分有五，謂信、伏、順、無生
 <lb n="0109b16" ed="X"/><lb n="0264a01" ed="R091"/>忍等，並菩薩所行。然寂靜勝進忍者，即佛智清淨。</p></cb:div>
-<lb n="0109b17" ed="X"/><lb n="0264a02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b1701"><l>生於善勝義，<caesura></caesura>所行悉遠離。</l></lg></cb:div>
+<lb n="0109b17" ed="X"/><lb n="0264a02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b1701">
+  <l>生於善勝義，<caesura/>所行悉遠離。</l>
+</lg></cb:div>
 <lb n="0109b18" ed="X"/><lb n="0264a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b1801" style="margin-left:1em">明佛忍淨智從勝義諦生，心想所行悉皆遠離。故
 <lb n="0109b19" ed="X"/><lb n="0264a04" ed="R091"/>解深密偈云：內證無相之所行，不可言說絕表示，
 <lb n="0109b20" ed="X"/><lb n="0264a05" ed="R091"/>息諸諍論勝義諦，超過一切尋思想。</p></cb:div>
-<lb n="0109b21" ed="X"/><lb n="0264a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b2101" type="regular"><l>我有三種智，<caesura></caesura>聖開發真實，<caesura></caesura>於彼想思惟，</l>
-<lb n="0109b22" ed="X"/><lb n="0264a07" ed="R091"/><l>悉攝受諸性。</l></lg></cb:div>
+<lb n="0109b21" ed="X"/><lb n="0264a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109b2101" type="regular">
+  <l>我有三種智，<caesura/>聖開發真實，<caesura/>於彼想思惟，</l>
+<lb n="0109b22" ed="X"/><lb n="0264a07" ed="R091"/>
+  <l>悉攝受諸性。</l>
+</lg></cb:div>
 <lb n="0109b23" ed="X"/><lb n="0264a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109b2301" style="margin-left:1em">明如來為開發凡聖，令悟真實，示有三智，其實一
 <lb n="0109b24" ed="X"/><lb n="0264a09" ed="R091"/>道。若於彼正覺所思，物無不攝，此即如來寂靜之
 <pb n="0109c" ed="X" xml:id="X17.0321.0109c"/>
 <lb n="0109c01" ed="X"/><lb n="0264a10" ed="R091"/>智。</p></cb:div>
-<lb n="0109c02" ed="X"/><lb n="0264a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109c0201"><l>二乘不相應，<caesura></caesura>智離諸所有。</l></lg></cb:div>
+<lb n="0109c02" ed="X"/><lb n="0264a11" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109c0201">
+  <l>二乘不相應，<caesura/>智離諸所有。</l>
+</lg></cb:div>
 <lb n="0109c03" ed="X"/><lb n="0264a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109c0301" style="margin-left:1em">明彼二乘不與佛智相應，以此妙智離諸所有。</p></cb:div>
-<lb n="0109c04" ed="X"/><lb n="0264a13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109c0401"><l>計著於自性，<caesura></caesura>從諸聲聞生。</l></lg></cb:div>
+<lb n="0109c04" ed="X"/><lb n="0264a13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109c0401">
+  <l>計著於自性，<caesura/>從諸聲聞生。</l>
+</lg></cb:div>
 <lb n="0109c05" ed="X"/><lb n="0264a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109c0501" style="margin-left:1em">然二乘所見以計著為心，由此義故不應佛智。</p></cb:div>
-<lb n="0109c06" ed="X"/><lb n="0264a15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109c0601"><l>超度諸心量，<caesura></caesura>如來智清淨。</l></lg></cb:div>
+<lb n="0109c06" ed="X"/><lb n="0264a15" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0109c0601">
+  <l>超度諸心量，<caesura/>如來智清淨。</l>
+</lg></cb:div>
 <lb n="0109c07" ed="X"/><lb n="0264a16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109c0701" style="margin-left:1em">超度諸心，斯為佛智。成上智，離諸所有。</p></cb:div>
 <lb n="0109c08" ed="X"/><lb n="0264a17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0109c0801">復次，大慧！外道有九種轉變論，外道轉變見生。</p></cb:div>
 <lb n="0109c09" ed="X"/><lb n="0264a18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0109c0901" style="margin-left:1em">今明轉變，顯前識義。轉變即心境二邊，因緣都稱，
@@ -1534,26 +1963,38 @@
 <lb n="0110b06" ed="X"/><lb n="0265b09" ed="R091"/>生酒為熟，生果亦爾，其類寔多。</p></cb:div>
 <lb n="0110b07" ed="X"/><lb n="0265b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110b0701">彼亦無有轉變，若有若無，自心現外性非性。</p></cb:div>
 <lb n="0110b08" ed="X"/><lb n="0265b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110b0801" style="margin-left:1em">此破凡夫妄見之相。</p></cb:div>
-<lb n="0110b09" ed="X"/><lb n="0265b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110b0901">大慧！如是，凡愚眾生自妄想脩<note n="0110001" resp="Xuzangjing" type="orig" place="foot text">習下經有生字</note>習。</p></cb:div>
+<lb n="0110b09" ed="X"/><lb n="0265b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110b0901">大慧！如是，凡愚眾生自妄想脩<note 
+n="0110001" resp="Xuzangjing" type="orig" place="foot text">習下經有生字</note>習。</p></cb:div>
 <lb n="0110b10" ed="X"/><lb n="0265b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110b1001" style="margin-left:1em">明彼凡愚以妄熏習故，作如是見。上總片凡愚妄
 <lb n="0110b11" ed="X"/><lb n="0265b14" ed="R091"/>患。</p></cb:div>
 <lb n="0110b12" ed="X"/><lb n="0265b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110b1201">大慧，無有法若生若滅，如見幻夢色生。</p></cb:div>
 <lb n="0110b13" ed="X"/><lb n="0265b16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110b1301" style="margin-left:1em">此釋上非如非異，謂聖了諸法性非生滅，如見幻
 <lb n="0110b14" ed="X"/><lb n="0265b17" ed="R091"/>色本無轉變。</p></cb:div>
 <lb n="0110b15" ed="X"/><lb n="0265b18" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110b1501">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0110b16" ed="X"/><lb n="0266a01" ed="R091"/><lg xml:id="lgX17p0110b1601" type="regular"><l>形處時轉變，<caesura></caesura>四大種諸根，<caesura></caesura>中陰漸次生，</l>
-<lb n="0110b17" ed="X"/><lb n="0266a02" ed="R091"/><l>妄想非明智。</l></lg></cb:div>
+<lb n="0110b16" ed="X"/><lb n="0266a01" ed="R091"/><lg xml:id="lgX17p0110b1601" type="regular">
+  <l>形處時轉變，<caesura/>四大種諸根，<caesura/>中陰漸次生，</l>
+<lb n="0110b17" ed="X"/><lb n="0266a02" ed="R091"/>
+  <l>妄想非明智。</l>
+</lg></cb:div>
 <lb n="0110b18" ed="X"/><lb n="0266a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110b1801" style="margin-left:1em">偈文有二，此破外道小乘等見，謂外計形處時節
-<lb n="0110b19" ed="X"/><lb n="0266a04" ed="R091"/>及以諸根悉皆轉變，復計諸趣捨前身<note n="0110b1901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0110b1901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>中陰續
+<lb n="0110b19" ed="X"/><lb n="0266a04" ed="R091"/>及以諸根悉皆轉變，復計諸趣捨前身<note 
+n="0110b1901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0110b1901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>中陰續
 <lb n="0110b20" ed="X"/><lb n="0266a05" ed="R091"/>生者，則二乘所見。</p></cb:div>
-<lb n="0110b21" ed="X"/><lb n="0266a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0110b2101" type="regular"><l>最勝於緣起，<caesura></caesura>非如彼妄想。<caesura></caesura>然世間緣起，</l>
-<lb n="0110b22" ed="X"/><lb n="0266a07" ed="R091"/><l>如乾闥婆城。</l></lg></cb:div>
+<lb n="0110b21" ed="X"/><lb n="0266a06" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0110b2101" type="regular">
+  <l>最勝於緣起，<caesura/>非如彼妄想。<caesura/>然世間緣起，</l>
+<lb n="0110b22" ed="X"/><lb n="0266a07" ed="R091"/>
+  <l>如乾闥婆城。</l>
+</lg></cb:div>
 <lb n="0110b23" ed="X"/><lb n="0266a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110b2301" style="margin-left:1em">此頌聖見，謂佛於緣起不同凡妄，了從緣法如彼
 <lb n="0110b24" ed="X"/><lb n="0266a09" ed="R091"/>乾城。今舉聖見者，為令悟佛知見。</p></cb:div>
 <pb n="0110c" ed="X" xml:id="X17.0321.0110c"/>
 <lb n="0110c01" ed="X"/><lb n="0266a10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110c0101">爾時大慧菩薩復白佛言：世尊！唯願為說一切法相
 <lb n="0110c02" ed="X"/><lb n="0266a11" ed="R091"/>續義解脫義。</p></cb:div>
-<lb n="0110c03" ed="X"/><lb n="0266a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110c0301" style="margin-left:1em">今舉縛解而請者，然生<note n="0110002" resp="Xuzangjing" type="orig" place="foot text">生字疑衍</note>生死涅槃等法俻在其中，
+<lb n="0110c03" ed="X"/><lb n="0266a12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110c0301" style="margin-left:1em">今舉縛解而請者，然生<note 
+n="0110002" resp="Xuzangjing" type="orig" place="foot text">生字疑衍</note>生死涅槃等法俻在其中，
 <lb n="0110c04" ed="X"/><lb n="0266a13" ed="R091"/>欲令眾生逈超二見入於中道，遠詶上問誰縛誰
 <lb n="0110c05" ed="X"/><lb n="0266a14" ed="R091"/>脫。</p></cb:div>
 <lb n="0110c06" ed="X"/><lb n="0266a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110c0601">若善分別一切法相續、不相續相。</p></cb:div>
@@ -1566,9 +2007,11 @@
 <lb n="0110c13" ed="X"/><lb n="0266b04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110c1301">善於一切諸法相續、不相續相，及離言說、文字、妄想
 <lb n="0110c14" ed="X"/><lb n="0266b05" ed="R091"/>覺。</p></cb:div>
 <lb n="0110c15" ed="X"/><lb n="0266b06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110c1501" style="margin-left:1em">次明捨詮益。既了縛解，則不滯文言及以妄覺。</p></cb:div>
-<lb n="0110c16" ed="X"/><lb n="0266b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110c1601">遊行一切諸佛剎土，無量大眾力自在<note n="0110003" resp="Xuzangjing" type="orig" place="foot text">通上經或有神字或無</note>通總持之印，
+<lb n="0110c16" ed="X"/><lb n="0266b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110c1601">遊行一切諸佛剎土，無量大眾力自在<note 
+n="0110003" resp="Xuzangjing" type="orig" place="foot text">通上經或有神字或無</note>通總持之印，
 <lb n="0110c17" ed="X"/><lb n="0266b08" ed="R091"/>種種變化光明照曜。</p></cb:div>
-<lb n="0110c18" ed="X"/><lb n="0266b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110c1801" style="margin-left:1em">三、明起化益。謂若聞此說，則能遊佛剎，<note n="0110004" resp="Xuzangjing" type="orig" place="foot text">示疑大</note>示眾圍繞，
+<lb n="0110c18" ed="X"/><lb n="0266b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0110c1801" style="margin-left:1em">三、明起化益。謂若聞此說，則能遊佛剎，<note 
+n="0110004" resp="Xuzangjing" type="orig" place="foot text">示疑大</note>示眾圍繞，
 <lb n="0110c19" ed="X"/><lb n="0266b10" ed="R091"/>十力自在，獲於神通。文義二。持三空之印，現諸變
 <lb n="0110c20" ed="X"/><lb n="0266b11" ed="R091"/>化，放大光明。</p></cb:div>
 <lb n="0110c21" ed="X"/><lb n="0266b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0110c2101">覺慧善入，十無盡句，無方便行。</p></cb:div>
@@ -1614,13 +2057,15 @@
 <lb n="0111b11" ed="X"/><lb n="0267b14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111b1101" style="margin-left:1em">又聞凡境有為，聖境無為，而生計著。</p></cb:div>
 <lb n="0111b12" ed="X"/><lb n="0267b15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b1201">地地自相妄，想計著相續。</p></cb:div>
 <lb n="0111b13" ed="X"/><lb n="0267b16" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111b1301" style="margin-left:1em">又聞諸地執有體相。</p></cb:div>
-<lb n="0111b14" ed="X"/><lb n="0267b17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b1401">自妄想無<note n="0111001" resp="Xuzangjing" type="orig" place="foot text">聞經作問次同</note>聞，妄想計著相續。</p></cb:div>
+<lb n="0111b14" ed="X"/><lb n="0267b17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b1401">自妄想無<note 
+n="0111001" resp="Xuzangjing" type="orig" place="foot text">聞經作問次同</note>聞，妄想計著相續。</p></cb:div>
 <lb n="0111b15" ed="X"/><lb n="0267b18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111b1501" style="margin-left:1em">又以久遠妄習計著見故。</p></cb:div>
 <lb n="0111b16" ed="X"/><lb n="0268a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b1601">有無品外道，依妄想計著相續。</p></cb:div>
 <lb n="0111b17" ed="X"/><lb n="0268a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111b1701" style="margin-left:1em">又計有無等見，為外道依，起於相續。</p></cb:div>
 <lb n="0111b18" ed="X"/><lb n="0268a03" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b1801">三乘一乘，無聞妄想，計著相續。</p></cb:div>
 <lb n="0111b19" ed="X"/><lb n="0268a04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111b1901" style="margin-left:1em">又聞說三乘、一乘，起推實見。</p></cb:div>
-<lb n="0111b20" ed="X"/><lb n="0268a05" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b2001"><note n="0111002" resp="Xuzangjing" type="orig" place="foot text">大上經有復次二字下同</note>大慧！此及餘凡愚眾生自妄想相續。</p></cb:div>
+<lb n="0111b20" ed="X"/><lb n="0268a05" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b2001"><note 
+n="0111002" resp="Xuzangjing" type="orig" place="foot text">大上經有復次二字下同</note>大慧！此及餘凡愚眾生自妄想相續。</p></cb:div>
 <lb n="0111b21" ed="X"/><lb n="0268a06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111b2101" style="margin-left:1em">三、明總結此者，即前文所列，餘乃汎該，並是凡愚
 <lb n="0111b22" ed="X"/><lb n="0268a07" ed="R091"/>自心妄見。</p></cb:div>
 <lb n="0111b23" ed="X"/><lb n="0268a08" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111b2301">以此相續故，凡愚妄想。</p></cb:div>
@@ -1648,7 +2093,8 @@
 <lb n="0111c20" ed="X"/><lb n="0268b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111c2001" style="margin-left:1em">外無性者，由見相續悉皆寂靜，故此句該通上下。</p></cb:div>
 <lb n="0111c21" ed="X"/><lb n="0268b12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111c2101">於一切法無相續、不相續相。</p></cb:div>
 <lb n="0111c22" ed="X"/><lb n="0268b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111c2201" style="margin-left:1em">此明總結。</p></cb:div>
-<lb n="0111c23" ed="X"/><lb n="0268b14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111c2301"><note type="star" corresp="#0111002"/>大慧，<note n="0111003" resp="Xuzangjing" type="orig" place="foot text">彼下經有中字</note>彼無有若縛若解，餘墮不如實覺知有續有解。</p></cb:div>
+<lb n="0111c23" ed="X"/><lb n="0268b14" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0111c2301"><note type="star" corresp="#0111002"/>大慧，<note 
+n="0111003" resp="Xuzangjing" type="orig" place="foot text">彼下經有中字</note>彼無有若縛若解，餘墮不如實覺知有續有解。</p></cb:div>
 <lb n="0111c24" ed="X"/><lb n="0268b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0111c2401" style="margin-left:1em">此第二、雙標凡聖二見。以彼聖人悟如實故，本無
 <pb n="0112a" ed="X" xml:id="X17.0321.0112a"/>
 <lb n="0112a01" ed="X"/><lb n="0268b16" ed="R091"/>縛解；諸餘凡夫墮不如實，見有縛解。</p></cb:div>
@@ -1684,15 +2130,25 @@
 <lb n="0112b06" ed="X"/><lb n="0269b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112b0601" style="margin-left:1em">此亦破也。謂了塵無相，根性自空，識無所願，斯即
 <lb n="0112b07" ed="X"/><lb n="0269b10" ed="R091"/>三脫相續，從何而起？</p></cb:div>
 <lb n="0112b08" ed="X"/><lb n="0269b11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0112b0801">爾時，世尊欲重宣此義，而說偈言：</p>
-<lb n="0112b09" ed="X"/><lb n="0269b12" ed="R091"/><lg xml:id="lgX17p0112b0901"><l>不真實妄想，<caesura></caesura>是說相續相。</l></lg></cb:div>
+<lb n="0112b09" ed="X"/><lb n="0269b12" ed="R091"/><lg xml:id="lgX17p0112b0901">
+  <l>不真實妄想，<caesura/>是說相續相。</l>
+</lg></cb:div>
 <lb n="0112b10" ed="X"/><lb n="0269b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112b1001" style="margin-left:1em">此明不真故，妄說為相續。</p></cb:div>
-<lb n="0112b11" ed="X"/><lb n="0269b14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1101"><l>若知彼真實，<caesura></caesura>相續網則斷。</l></lg></cb:div>
+<lb n="0112b11" ed="X"/><lb n="0269b14" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1101">
+  <l>若知彼真實，<caesura/>相續網則斷。</l>
+</lg></cb:div>
 <lb n="0112b12" ed="X"/><lb n="0269b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112b1201" style="margin-left:1em">若知真實，相續不生。</p></cb:div>
-<lb n="0112b13" ed="X"/><lb n="0269b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1301"><l>於諸性無知，<caesura></caesura>隨言說攝受。</l></lg></cb:div>
+<lb n="0112b13" ed="X"/><lb n="0269b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1301">
+  <l>於諸性無知，<caesura/>隨言說攝受。</l>
+</lg></cb:div>
 <lb n="0112b14" ed="X"/><lb n="0269b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112b1401" style="margin-left:1em">若於法無知，隨言而攝。</p></cb:div>
-<lb n="0112b15" ed="X"/><lb n="0269b18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1501"><l>譬如彼蠶蟲，<caesura></caesura>結網而自纏。</l></lg></cb:div>
+<lb n="0112b15" ed="X"/><lb n="0269b18" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1501">
+  <l>譬如彼蠶蟲，<caesura/>結網而自纏。</l>
+</lg></cb:div>
 <lb n="0112b16" ed="X"/><lb n="0270a01" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112b1601" style="margin-left:1em">頌上喻文。</p></cb:div>
-<lb n="0112b17" ed="X"/><lb n="0270a02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1701"><l>愚夫妄想縛，<caesura></caesura>相續不觀察。</l></lg></cb:div>
+<lb n="0112b17" ed="X"/><lb n="0270a02" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0112b1701">
+  <l>愚夫妄想縛，<caesura/>相續不觀察。</l>
+</lg></cb:div>
 <lb n="0112b18" ed="X"/><lb n="0270a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112b1801" style="margin-left:1em">明愚為妄縛，由不觀察。</p></cb:div>
 <lb n="0112b19" ed="X"/><lb n="0270a04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0112b1901">大慧復白佛言：如世尊所說：以彼彼妄想，妄想彼彼
 <lb n="0112b20" ed="X"/><lb n="0270a05" ed="R091"/>性。</p></cb:div>
@@ -1703,7 +2159,8 @@
 <pb n="0112c" ed="X" xml:id="X17.0321.0112c"/>
 <lb n="0112c01" ed="X"/><lb n="0270a10" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112c0101" style="margin-left:1em">又世尊所說，非有彼縛解之自性，但妄執有自性
 <lb n="0112c02" ed="X"/><lb n="0270a11" ed="R091"/>耳。上並大慧牒佛所說。</p></cb:div>
-<lb n="0112c03" ed="X"/><lb n="0270a12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0112c0301"><note n="0112001" resp="Xuzangjing" type="orig" place="foot text">大等五字經作世尊</note>大慧白佛言：若但妄想自性非性、自性相待者。</p></cb:div>
+<lb n="0112c03" ed="X"/><lb n="0270a12" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0112c0301"><note 
+n="0112001" resp="Xuzangjing" type="orig" place="foot text">大等五字經作世尊</note>大慧白佛言：若但妄想自性非性、自性相待者。</p></cb:div>
 <lb n="0112c04" ed="X"/><lb n="0270a13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112c0401" style="margin-left:1em">次明定宗。若言縛解但唯妄想，非有自性可相待
 <lb n="0112c05" ed="X"/><lb n="0270a14" ed="R091"/>者。</p></cb:div>
 <lb n="0112c06" ed="X"/><lb n="0270a15" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0112c0601">非為世尊如是說煩惱清淨無性過耶？</p></cb:div>
@@ -1717,7 +2174,8 @@
 <lb n="0112c14" ed="X"/><lb n="0270b05" ed="R091"/>死涅槃縛解等性，一切皆空，空即是理，理又非無，
 <lb n="0112c15" ed="X"/><lb n="0270b06" ed="R091"/>何斷之有？</p></cb:div>
 <lb n="0112c16" ed="X"/><lb n="0270b07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0112c1601">大慧，非如愚夫性自性妄想真實。</p></cb:div>
-<lb n="0112c17" ed="X"/><lb n="0270b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112c1701" style="margin-left:1em">此成上<note n="0112002" resp="Xuzangjing" type="orig" place="foot text">即疑印</note>即述空義。謂非彼愚夫妄情執實，故遣有
+<lb n="0112c17" ed="X"/><lb n="0270b08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112c1701" style="margin-left:1em">此成上<note 
+n="0112002" resp="Xuzangjing" type="orig" place="foot text">即疑印</note>即述空義。謂非彼愚夫妄情執實，故遣有
 <lb n="0112c18" ed="X"/><lb n="0270b09" ed="R091"/>言空。若心無結滯，則無可空矣。</p></cb:div>
 <lb n="0112c19" ed="X"/><lb n="0270b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0112c1901">此妄想自性，非有性自性相。</p></cb:div>
 <lb n="0112c20" ed="X"/><lb n="0270b11" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0112c2001" style="margin-left:1em">今重非情見，謂此縛解，但由凡夫妄想自性，其實
@@ -1782,7 +2240,8 @@
 <lb n="0113c04" ed="X"/><lb n="0272a13" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0113c0401">世尊，不相似因妄想自性相。</p></cb:div>
 <lb n="0113c05" ed="X"/><lb n="0272a14" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0113c0501" style="margin-left:1em">次舉二因各別，復明凡境非妄。謂凡以妄想為因，
 <lb n="0113c06" ed="X"/><lb n="0272a15" ed="R091"/>聖以真實自性相為因，兩因既殊，故凡非妄。</p></cb:div>
-<lb n="0113c07" ed="X"/><lb n="0272a16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0113c0701">彼云何各各不妄想愚夫不如<note n="0113001" resp="Xuzangjing" type="orig" place="foot text">實下經有知字</note>實？</p></cb:div>
+<lb n="0113c07" ed="X"/><lb n="0272a16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0113c0701">彼云何各各不妄想愚夫不如<note 
+n="0113001" resp="Xuzangjing" type="orig" place="foot text">實下經有知字</note>實？</p></cb:div>
 <lb n="0113c08" ed="X"/><lb n="0272a17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0113c0801" style="margin-left:1em">四、明訶詰。若二諦既殊，何故聖人各各不妄，愚不
 <lb n="0113c09" ed="X"/><lb n="0272a18" ed="R091"/>如實？此責倒不齊。</p></cb:div>
 <lb n="0113c10" ed="X"/><lb n="0272b01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0113c1001">然為眾生離妄想故，說如妄想相不如實有。</p></cb:div>
@@ -1804,12 +2263,17 @@
 <lb n="0114a01" ed="X"/><lb n="0272b16" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114a0101">說聖智自性事，然為令眾生離恐怖句故。</p></cb:div>
 <lb n="0114a02" ed="X"/><lb n="0272b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0114a0201" style="margin-left:1em">自下會釋，明佛雖說有不乖於空，然恐怖空斷，不
 <lb n="0114a03" ed="X"/><lb n="0272b18" ed="R091"/>能起脩為說聖智。此約理而談，豈存於有？</p></cb:div>
-<lb n="0114a04" ed="X"/><lb n="0273a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114a0401">眾生無始<note n="0114a0401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0114a0401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>來，計著性自性相，聖智事自性計著相，
+<lb n="0114a04" ed="X"/><lb n="0273a01" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114a0401">眾生無始<note 
+n="0114a0401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0114a0401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>來，計著性自性相，聖智事自性計著相，
 <lb n="0114a05" ed="X"/><lb n="0273a02" ed="R091"/>見說空法。</p></cb:div>
 <lb n="0114a06" ed="X"/><lb n="0273a03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0114a0601" style="margin-left:1em">次明說空未乖於有。以眾生久習力故，聞說縛解，
 <lb n="0114a07" ed="X"/><lb n="0273a04" ed="R091"/>不了聖智權巧，便生計著，故說於空。斯乃遣有，何
 <lb n="0114a08" ed="X"/><lb n="0273a05" ed="R091"/>空之有？</p></cb:div>
-<lb n="0114a09" ed="X"/><lb n="0273a06" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114a0901">大慧，我不說性自<note n="0114001" resp="Xuzangjing" type="orig" place="foot text">性下經有相字</note>性。</p></cb:div>
+<lb n="0114a09" ed="X"/><lb n="0273a06" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114a0901">大慧，我不說性自<note 
+n="0114001" resp="Xuzangjing" type="orig" place="foot text">性下經有相字</note>性。</p></cb:div>
 <lb n="0114a10" ed="X"/><lb n="0273a07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0114a1001" style="margin-left:1em">此明總結佛不說空有之自性，然上總明方便會
 <lb n="0114a11" ed="X"/><lb n="0273a08" ed="R091"/>通。</p></cb:div>
 <lb n="0114a12" ed="X"/><lb n="0273a09" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114a1201">大慧，但我住自得如實空法，離或亂相見。</p></cb:div>
@@ -1822,17 +2286,20 @@
 <lb n="0114a19" ed="X"/><lb n="0273a16" ed="R091"/>持信，無罣㝵故。</p></cb:div>
 <lb n="0114a20" ed="X"/><lb n="0273a17" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114a2001">於性自性得緣自覺觀察住，離有無事見相。</p></cb:div>
 <lb n="0114a21" ed="X"/><lb n="0273a18" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0114a2101" style="margin-left:1em">獲實印故，於法界自性緣內心觀察而住，有無事
-<lb n="0114a22" ed="X"/><lb n="0273b01" ed="R091"/>見悉皆遠<note n="0114002" resp="Xuzangjing" type="orig" place="foot text">離下佚失</note>離　　　　　　　　　　　　　　
+<lb n="0114a22" ed="X"/><lb n="0273b01" ed="R091"/>見悉皆遠<note 
+n="0114002" resp="Xuzangjing" type="orig" place="foot text">離下佚失</note>離　　　　　　　　　　　　　　
 <lb n="0114a23" ed="X"/><lb n="0273b02" ed="R091"/>　　　　　　　　　　　　　　　　　　　
 <lb n="0114a24" ed="X"/><lb n="0273b03" ed="R091"/>圓滿，復悟眾生。此舉前佛陀之義，此乃梵漢互明。</p></cb:div>
 <pb n="0114b" ed="X" xml:id="X17.0321.0114b"/>
-<lb n="0114b01" ed="X"/><lb n="0273b04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114b0101"><note n="0114003" resp="Xuzangjing" type="orig" place="foot text">經卷四</note>佛告大慧：恣所欲問，我當為汝隨所問說。</p></cb:div>
+<lb n="0114b01" ed="X"/><lb n="0273b04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114b0101"><note 
+n="0114003" resp="Xuzangjing" type="orig" place="foot text">經卷四</note>佛告大慧：恣所欲問，我當為汝隨所問說。</p></cb:div>
 <lb n="0114b02" ed="X"/><lb n="0273b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0114b0201" style="margin-left:1em">佛將開演，先恣許也。</p></cb:div>
 <lb n="0114b03" ed="X"/><lb n="0273b06" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114b0301">大慧白佛言：世尊！如來、應供、等正覺，為作邪？為不作邪？</p></cb:div>
 <lb n="0114b04" ed="X"/><lb n="0273b07" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0114b0401" style="margin-left:1em">自下大慧再請。今初，問也。謂牒上佛陀之義，法身
 <lb n="0114b05" ed="X"/><lb n="0273b08" ed="R091"/>異名，十號之三數，所謂乘一如道，來到大智，破於
 <lb n="0114b06" ed="X"/><lb n="0273b09" ed="R091"/>結賊，齊正覺者，為從造作？為非作邪？此初，對問。</p></cb:div>
-<lb n="0114b07" ed="X"/><lb n="0273b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114b0701">為事<note n="0114004" resp="Xuzangjing" type="orig" place="foot text">邪下佚失</note>邪？</p>
+<lb n="0114b07" ed="X"/><lb n="0273b10" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0114b0701">為事<note 
+n="0114004" resp="Xuzangjing" type="orig" place="foot text">邪下佚失</note>邪？</p>
 <lb n="0114b08" ed="X"/><lb n="0273b11" ed="R091"/><p xml:id="pX17p0114b0801">佛告大慧：如來應供等正覺，於如是等辭句，非事非
 <lb n="0114b09" ed="X"/><lb n="0273b12" ed="R091"/>因。</p></cb:div>
 <lb n="0114b10" ed="X"/><lb n="0273b13" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0114b1001" style="margin-left:1em">自下，佛答對問總非。既非事因，例餘可見。</p></cb:div>
@@ -1908,19 +2375,32 @@
 <lb n="0115b05" ed="X"/><lb n="0275b08" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0115b0501">若二者，應有異。</p></cb:div>
 <lb n="0115b06" ed="X"/><lb n="0275b09" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b0601" style="margin-left:1em">今第三、牒二見而破。若謂如來與陰是二法者，應
 <lb n="0115b07" ed="X"/><lb n="0275b10" ed="R091"/>有於異及不異也。今但舉一邊觀，下文可見。</p></cb:div>
-<lb n="0115b08" ed="X"/><lb n="0275b11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0115b0801">如牛角相<note n="0115001" resp="Xuzangjing" type="orig" place="foot text">似下佚失</note>似。</p></cb:div>
+<lb n="0115b08" ed="X"/><lb n="0275b11" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0115b0801">如牛角相<note 
+n="0115001" resp="Xuzangjing" type="orig" place="foot text">似下佚失</note>似。</p></cb:div>
 <lb n="0115b09" ed="X"/><lb n="0275b12" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b0901" style="margin-left:1em">此文。</p></cb:div>
-<lb n="0115b10" ed="X"/><lb n="0275b13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1001" type="regular"><l>觀察有為法，<caesura></caesura>非無因有因，<caesura></caesura>彼生滅論者，</l>
-<lb n="0115b11" ed="X"/><lb n="0275b14" ed="R091"/><l>所見從是滅。</l></lg></cb:div>
+<lb n="0115b10" ed="X"/><lb n="0275b13" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1001" type="regular">
+  <l>觀察有為法，<caesura/>非無因有因，<caesura/>彼生滅論者，</l>
+<lb n="0115b11" ed="X"/><lb n="0275b14" ed="R091"/>
+  <l>所見從是滅。</l>
+</lg></cb:div>
 <lb n="0115b12" ed="X"/><lb n="0275b15" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b1201" style="margin-left:1em">上既破有無二因，故此雙非顯益。</p></cb:div>
-<lb n="0115b13" ed="X"/><lb n="0275b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1301"><l>云何為無生？<caesura></caesura>為是無性邪？</l></lg></cb:div>
+<lb n="0115b13" ed="X"/><lb n="0275b16" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1301">
+  <l>云何為無生？<caesura/>為是無性邪？</l>
+</lg></cb:div>
 <lb n="0115b14" ed="X"/><lb n="0275b17" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b1401" style="margin-left:1em">上總破外見，自下明真實無生，即頌上長行。謂何
 <lb n="0115b15" ed="X"/><lb n="0275b18" ed="R091"/>者無生為無性邪？</p></cb:div>
-<lb n="0115b16" ed="X"/><lb n="0276a01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1601"><l>為顧視諸緣，<caesura></caesura>有法名無上。</l></lg></cb:div>
+<lb n="0115b16" ed="X"/><lb n="0276a01" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1601">
+  <l>為顧視諸緣，<caesura/>有法名無上。</l>
+</lg></cb:div>
 <lb n="0115b17" ed="X"/><lb n="0276a02" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b1701" style="margin-left:1em">頌：上為待緣故，有此無生邪？</p></cb:div>
-<lb n="0115b18" ed="X"/><lb n="0276a03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1801"><l>名不應無義，<caesura></caesura>唯為分別說。</l></lg></cb:div>
+<lb n="0115b18" ed="X"/><lb n="0276a03" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b1801">
+  <l>名不應無義，<caesura/>唯為分別說。</l>
+</lg></cb:div>
 <lb n="0115b19" ed="X"/><lb n="0276a04" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b1901" style="margin-left:1em">此頌上若名字有法，唯願為說。</p></cb:div>
-<lb n="0115b20" ed="X"/><lb n="0276a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b2001"><l>非無性無生，<caesura></caesura>亦非顧<note n="0115002" resp="Xuzangjing" type="orig" place="foot text">諸下佚失</note>諸。</l></lg></cb:div>
+<lb n="0115b20" ed="X"/><lb n="0276a05" ed="R091"/><cb:div type="orig"><lg xml:id="lgX17p0115b2001">
+  <l>非無性無生，<caesura/>亦非顧<note 
+n="0115002" resp="Xuzangjing" type="orig" place="foot text">諸下佚失</note>諸。</l>
+</lg></cb:div>
 <lb n="0115b21" ed="X"/><lb n="0276a06" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b2101" style="margin-left:1em">備収</p></cb:div>
 <lb n="0115b22" ed="X"/><lb n="0276a07" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0115b2201">相者，不實相，妄想故我、我所。</p></cb:div>
 <lb n="0115b23" ed="X"/><lb n="0276a08" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115b2301" style="margin-left:1em">然二我之相，即體斯妄，五法之中，名相妄想攝也。</p></cb:div>
@@ -1939,13 +2419,19 @@
 <lb n="0115c11" ed="X"/><lb n="0276b02" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0115c1101">大慧相者。</p></cb:div>
 <lb n="0115c12" ed="X"/><lb n="0276b03" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115c1201" style="margin-left:1em">三、明廣釋。此先辨相。</p></cb:div>
 <lb n="0115c13" ed="X"/><lb n="0276b04" ed="R091"/><cb:div type="orig"><p xml:id="pX17p0115c1301">若處所、形相、色像等現，是名為相。</p></cb:div>
-<lb n="0115c14" ed="X"/><lb n="0276b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115c1401" style="margin-left:1em">夫形質體分，總名為<note n="0115003" resp="Xuzangjing" type="orig" place="foot text">相下佚失</note>相。</p></cb:div></cb:div>
+<lb n="0115c14" ed="X"/><lb n="0276b05" ed="R091"/><cb:div type="commentary"><p xml:id="pX17p0115c1401" style="margin-left:1em">夫形質體分，總名為<note 
+n="0115003" resp="Xuzangjing" type="orig" place="foot text">相下佚失</note>相。</p></cb:div></cb:div>
 <lb n="0115c15" ed="X"/>
 <lb n="0115c16" ed="X"/><cb:div type="xu"><cb:mulu level="1" type="序">No. 321-A</cb:mulu><head>No. 321-A</head>
 <lb n="0115c17" ed="X"/>
-<lb n="0115c18" ed="X"/><lb n="0276b07" ed="R091"/><p xml:id="pX17p0115c1801" style="margin-left:1em"><note n="0115004" resp="Xuzangjing" type="orig" place="foot text">徹定師見此注原本筆跡為聖武天皇宸笔附此詔勅今姑載之以供大方雅覽云</note>朕以萬機之暇，披覧典籍，全身延命，安民存業者，
+<lb n="0115c18" ed="X"/><lb n="0276b07" ed="R091"/><p xml:id="pX17p0115c1801" style="margin-left:1em"><note 
+n="0115004" resp="Xuzangjing" type="orig" place="foot text">徹定師見此注原本筆跡為聖武天皇宸笔附此詔勅今姑載之以供大方雅覽云</note>朕以萬機之暇，披覧典籍，全身延命，安民存業者，
 <lb n="0115c19" ed="X"/><lb n="0276b08" ed="R091"/>經史之中，釋教最上。由是仰憑三寶，歸一乘敬，寫
-<lb n="0115c20" ed="X"/><lb n="0276b09" ed="R091"/>一切經，卷軸<note n="0115c2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0115c2001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>訖。讀之者以至誠心，上為國家，下
+<lb n="0115c20" ed="X"/><lb n="0276b09" ed="R091"/>一切經，卷軸<note 
+n="0115c2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0115c2001">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>訖。讀之者以至誠心，上為國家，下
 <lb n="0115c21" ed="X"/><lb n="0276b10" ed="R091"/>及生類，乞索百年，祈禱萬福。聞之者無量劫間，不
 <lb n="0115c22" ed="X"/><lb n="0276b11" ed="R091"/>墮惡趣，遠離此網，俱登彼岸。</p>
 <lb n="0115c23" ed="X"/><lb n="0276b12" ed="R091"/><p xml:id="pX17p0115c2301" style="margin-left:2em;text-indent:1em"><note place="inline">右

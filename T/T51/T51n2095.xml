@@ -2,83 +2,86 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T51n2095">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">廬山記</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2095 廬山記</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2095 廬山記</title>
-			<author>宋 陳舜俞撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>5卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">51</idno>.<idno type="no">2095</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-12-14T11:26:39">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">廬山記</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2095 廬山記</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2095 廬山記</title>
+      <author>宋 陳舜俞撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>5卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">51</idno>.<idno type="no">2095</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-12-14T11:26:39">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="1024c" xml:id="T51.2095.1024c" ed="T"/>
 <lb n="1024c01" ed="T"/>
 <lb n="1024c02" ed="T"/><cb:docNumber>No. 2095</cb:docNumber>
-<lb n="1024c03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">廬山記序</cb:mulu><head><note n="1024002" resp="Taisho" place="foot text" type="orig">【原】大谷大學藏本，卷第一第四第五古寫，第二第三宋槧，【甲】元祿十年刊帝國圖書館藏本</note>廬山記序</head>
+<lb n="1024c03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">廬山記序</cb:mulu><head><note 
+n="1024002" resp="Taisho" place="foot text" type="orig">【原】大谷大學藏本，卷第一第四第五古寫，第二第三宋槧，【甲】元祿十年刊帝國圖書館藏本</note>廬山記序</head>
 <lb n="1024c04" ed="T"/>
-<lb n="1024c05" ed="T"/><cb:div type="xu"><cb:mulu level="2" type="序">充祕閣校理李常序</cb:mulu><p xml:id="pT51p1024c0501">余昔者讀書山中。愛其泉石塔廟<note n="1024003" resp="Taisho" place="foot text" type="orig">之字下缺四五字</note>之　志之
+<lb n="1024c05" ed="T"/><cb:div type="xu"><cb:mulu level="2" type="序">充祕閣校理李常序</cb:mulu>
+<p xml:id="pT51p1024c0501">余昔者讀書山中。愛其泉石塔廟<note 
+n="1024003" resp="Taisho" place="foot text" type="orig">之字下缺四五字</note>之　志之
 <lb n="1024c06" ed="T"/>不詳遺古略近。或出於愚夫野老之語。言□
 <lb n="1024c07" ed="T"/>辭贅。可取者無幾。將討論刪次之。未皇暇
 <lb n="1024c08" ed="T"/>也。後二十年。讎書祕閣得廬山記。欣然以喜。
@@ -97,8 +100,11 @@
 <lb n="1024c21" ed="T"/>可得。輒序其譔述之勤貽。好事君子。庶幾成
 <lb n="1024c22" ed="T"/>令舉之志。</p>
 <lb n="1024c23" ed="T"/><p xml:id="pT51p1024c2301">充祕閣校理李常序</p></cb:div>
-<lb n="1024c24" ed="T"/><cb:div type="xu"><cb:mulu level="2" type="序">江西劉渙序</cb:mulu><p xml:id="pT51p1024c2401">予雅愛廬山之勝。棄官歸南。遂<note n="1024004" resp="Taisho" place="foot text" type="orig">得字下缺三四字</note>得　之陽游
-<lb n="1024c25" ed="T"/>覽既久。遇景亦多。或賦或錄。雜<note n="1024005" resp="Taisho" place="foot text" type="orig">為字下缺二三字</note>為　將欲
+<lb n="1024c24" ed="T"/><cb:div type="xu"><cb:mulu level="2" type="序">江西劉渙序</cb:mulu>
+<p xml:id="pT51p1024c2401">予雅愛廬山之勝。棄官歸南。遂<note 
+n="1024004" resp="Taisho" place="foot text" type="orig">得字下缺三四字</note>得　之陽游
+<lb n="1024c25" ed="T"/>覽既久。遇景亦多。或賦或錄。雜<note 
+n="1024005" resp="Taisho" place="foot text" type="orig">為字下缺二三字</note>為　將欲
 <lb n="1024c26" ed="T"/>次之。而未暇也。熙寧中。會陳令舉。以言事□
 <lb n="1024c27" ed="T"/>於是邦山林之嗜既同。相與乘黃犢。往來山
 <lb n="1024c28" ed="T"/>間。歲月之積。遂得窮探極觀無所不究。令舉
@@ -405,7 +411,11 @@
 <lb n="1028a29" ed="T"/>云。昔阿育王所鑄。後商人於東海亦獲圓光。
 <pb n="1028b" xml:id="T51.2095.1028b" ed="T"/>
 <lb n="1028b01" ed="T"/>持以就像。若彌縫焉。侃以送武昌寒溪寺。主
-<lb n="1028b02" ed="T"/>者僧珍常往<note n="1028b0201" resp="CBETA" type="add" note_key="T51.1028b02.06">夏【CB】，復【大】</note><app n="1028b0201"><lem wit="【CB】" resp="CBETA.liyi" cb:provider="來函：心念不空过 (2021-11-21)">夏<note type="cf1">K32n1074_p0816a04</note><note type="cf2">T50n2059_p0358c07</note></lem><rdg wit="【大】">復</rdg></app>口。夢寺火。而像屋獨有神物
+<lb n="1028b02" ed="T"/>者僧珍常往<note 
+n="1028b0201" resp="CBETA" type="add" note_key="T51.1028b02.06">夏【CB】，復【大】</note><app n="1028b0201">
+  <lem wit="【CB】" resp="CBETA.liyi" cb:provider="來函：心念不空过 (2021-11-21)">夏<note type="cf1">K32n1074_p0816a04</note><note type="cf2">T50n2059_p0358c07</note></lem>
+  <rdg wit="【大】">復</rdg>
+</app>口。夢寺火。而像屋獨有神物
 <lb n="1028b03" ed="T"/>圍繞。珍馳還。寺果已焚。惟像屋並存。侃移
 <lb n="1028b04" ed="T"/>督江州。以像神靈。使人迎以自隨。復為風濤
 <lb n="1028b05" ed="T"/>所溺。時荊楚為之謠曰。陶惟劍雄。像以神標。
@@ -839,7 +849,11 @@
 <lb n="1033a16" ed="T"/>容服非常。有司奏。應撿察。權即召會詰曰。
 <lb n="1033a17" ed="T"/>佛有何靈。會曰。如來遷迹已越千年。遺骨舍
 <lb n="1033a18" ed="T"/>利神應無方。權以為誕謂曰。若得舍利。當為
-<lb n="1033a19" ed="T"/>造塔。乃潔淨室。以銅瓶加<note n="1033a1901" resp="CBETA" type="add" note_key="T51.1033a19.11">几【CB】，凡【大】</note><app n="1033a1901"><lem wit="【CB】" resp="CBETA.ting">几<note type="cf1">T55n2145_p0096b17</note></lem><rdg wit="【大】">凡</rdg></app>禮請。至三七
+<lb n="1033a19" ed="T"/>造塔。乃潔淨室。以銅瓶加<note 
+n="1033a1901" resp="CBETA" type="add" note_key="T51.1033a19.11">几【CB】，凡【大】</note><app n="1033a1901">
+  <lem wit="【CB】" resp="CBETA.ting">几<note type="cf1">T55n2145_p0096b17</note></lem>
+  <rdg wit="【大】">凡</rdg>
+</app>禮請。至三七
 <lb n="1033a20" ed="T"/>日。忽聞瓶中鎗然有聲。果得舍利。舉朝集觀。
 <lb n="1033a21" ed="T"/>五色照耀。權復以烈火試之不焚。擊之入鐵
 <lb n="1033a22" ed="T"/>不碎。權大嗟伏。即為造塔。以始有佛宇故。號
@@ -916,7 +930,15 @@
 <lb n="1034a03" ed="T"/>隱之東五里。有古靈庵。由古靈至開先禪院
 <lb n="1034a04" ed="T"/>十里。舊傳。梁昭明太子之居棲隱也。又築招
 <lb n="1034a05" ed="T"/>隱室於此。南唐元宗居藩邸時為書堂。即位
-<lb n="1034a06" ed="T"/>後保大年始為伽藍。號開先。<note n="1034a0601" resp="CBETA" type="add">馮【CB】，憑【大】</note><app n="1034a0601"><lem wit="【CB】" resp="CBETA.maha">馮</lem><rdg wit="【大】">憑</rdg></app>延<note n="1034a0602" resp="CBETA" type="add">巳【CB】，已【大】</note><app n="1034a0602"><lem wit="【CB】" resp="CBETA.maha">巳</lem><rdg wit="【大】">已</rdg></app>記碣見
+<lb n="1034a06" ed="T"/>後保大年始為伽藍。號開先。<note 
+n="1034a0601" resp="CBETA" type="add">馮【CB】，憑【大】</note><app n="1034a0601">
+  <lem wit="【CB】" resp="CBETA.maha">馮</lem>
+  <rdg wit="【大】">憑</rdg>
+</app>延<note 
+n="1034a0602" resp="CBETA" type="add">巳【CB】，已【大】</note><app n="1034a0602">
+  <lem wit="【CB】" resp="CBETA.maha">巳</lem>
+  <rdg wit="【大】">已</rdg>
+</app>記碣見
 <lb n="1034a07" ed="T"/>存。本朝興國二年。賜名華藏。鶴鳴峯在其後。
 <lb n="1034a08" ed="T"/>元宗之徙南都也。至此院賞戀久之。故有烈
 <lb n="1034a09" ed="T"/>祖元宗後主之畫像。及元宗之舊榻。藏焉至
@@ -968,7 +990,12 @@
 <lb n="1034b25" ed="T"/>及遊人多過之。薛諫議未見名。與二劉唐史
 <lb n="1034b26" ed="T"/>皆無傳。軻元和十四年。進士登第。太和初。歷
 <lb n="1034b27" ed="T"/>監察御史。四年轉殿中。開成中。遷祕書丞史
-<lb n="1034b28" ed="T"/>館修撰學士。出為<note n="1034001" resp="Taisho" place="foot text" type="orig">洺＝洛【甲】</note><note n="1034001" resp="CBETA" type="mod">洺【大】，洛【甲】</note><app n="1034001"><lem wit="【大】">洺</lem><rdg resp="Taisho" wit="【甲】">洛</rdg></app>州刺史。二林碑誌多
+<lb n="1034b28" ed="T"/>館修撰學士。出為<note 
+n="1034001" resp="Taisho" place="foot text" type="orig">洺＝洛【甲】</note><note 
+n="1034001" resp="CBETA" type="mod">洺【大】，洛【甲】</note><app n="1034001">
+  <lem wit="【大】">洺</lem>
+  <rdg resp="Taisho" wit="【甲】">洛</rdg>
+</app>州刺史。二林碑誌多
 <lb n="1034b29" ed="T"/>其手筆焉。所謂凌雲庵蓋劉薛之故基也。或
 <pb n="1034c" xml:id="T51.2095.1034c" ed="T"/>
 <lb n="1034c01" ed="T"/>曰。何乾曜侍郎始以書堂為僧居。乾曜亦未
@@ -1002,7 +1029,12 @@
 <lb n="1034c29" ed="T"/>院。舊名上偃臺。其南有盤龍庵西源庵。後有
 <pb n="1035a" xml:id="T51.2095.1035a" ed="T"/>
 <lb n="1035a01" ed="T"/>寶輪庵。皆不遠百步。由寶林至稠木庵三里。
-<lb n="1035a02" ed="T"/><note n="1035001" resp="Taisho" place="foot text" type="orig">（由）＋稠？</note><note n="1035001" resp="CBETA" type="mod">稠【大】，由稠【考偽-大】</note><app n="1035001"><lem resp="Taisho" wit="【大】">稠</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">由稠</rdg></app>木至幽邃庵一里。由幽邃至赤眼禪師塔
+<lb n="1035a02" ed="T"/><note 
+n="1035001" resp="Taisho" place="foot text" type="orig">（由）＋稠？</note><note 
+n="1035001" resp="CBETA" type="mod">稠【大】，由稠【考偽-大】</note><app n="1035001">
+  <lem resp="Taisho" wit="【大】">稠</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">由稠</rdg>
+</app>木至幽邃庵一里。由幽邃至赤眼禪師塔
 <lb n="1035a03" ed="T"/>一里。禪師即所謂赤眼歸宗卒。葬此山之石
 <lb n="1035a04" ed="T"/>人峯下。以石為像。凜然如生。建隆二年。諡至
 <lb n="1035a05" ed="T"/>覺禪師妙相之塔。由塔院至棲賢禪院十里。
@@ -1163,7 +1195,11 @@
 <lb n="1036c10" ed="T"/>家山。山間數百家皆張姓。張山之西三里。至
 <lb n="1036c11" ed="T"/>延真觀。舊曰昭德觀。治平三年。賜今名。唐
 <lb n="1036c12" ed="T"/>貞元中。李女真所剏。女真名騰空。宰相李林
-<lb n="1036c13" ed="T"/>甫之女。李太白送李女真歸廬山詩曰。<note n="1036c1301" resp="CBETA" type="add">羨【CB】，羡【大】</note><app n="1036c1301"><lem wit="【CB】" resp="CBETA">羨</lem><rdg wit="【大】">羡</rdg></app>君
+<lb n="1036c13" ed="T"/>甫之女。李太白送李女真歸廬山詩曰。<note 
+n="1036c1301" resp="CBETA" type="add">羨【CB】，羡【大】</note><app n="1036c1301">
+  <lem wit="【CB】" resp="CBETA">羨</lem>
+  <rdg wit="【大】">羡</rdg>
+</app>君
 <lb n="1036c14" ed="T"/>相門女。學道愛神仙。素手掬秋靄。羅衣曳紫
 <lb n="1036c15" ed="T"/>烟。一往屏風疊。乘鸞着玉鞭。柳渾自江州刺
 <lb n="1036c16" ed="T"/>史入朝。會昭德皇后薨。因言詠真洞蔡尋真
@@ -1361,7 +1397,8 @@
 <pb n="1039a" xml:id="T51.2095.1039a" ed="T"/>
 <lb n="1039a01" ed="T"/>云。</p></cb:div>
 <lb n="1039a02" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">5 十八賢傳</cb:mulu><head>十八賢傳第五</head>
-<lb n="1039a03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">序</cb:mulu><p xml:id="pT51p1039a0301">廬山豈獨水石能冠天下。由代有高賢隱居
+<lb n="1039a03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">序</cb:mulu>
+<p xml:id="pT51p1039a0301">廬山豈獨水石能冠天下。由代有高賢隱居
 <lb n="1039a04" ed="T"/>以傳。東林寺舊有十八賢傳。不知何人所作。
 <lb n="1039a05" ed="T"/>文字淺近。以事驗諸前史。往往乖謬。讀者陋
 <lb n="1039a06" ed="T"/>之。使古人風跡用無知者。惜哉。予既作山記。
@@ -1675,7 +1712,8 @@
 <lb n="1042b13" ed="T"/><cb:juan n="004" fun="open"><cb:mulu n="4" type="卷"/><cb:jhead>廬山記卷第四</cb:jhead></cb:juan>
 <lb n="1042b14" ed="T"/>
 <lb n="1042b15" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">6 古人留題篇</cb:mulu><head>古人留題篇第六</head>
-<lb n="1042b16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">序</cb:mulu><p xml:id="pT51p1042b1601">廬山古今人留題多矣。清言麗句既落人口。
+<lb n="1042b16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">序</cb:mulu>
+<p xml:id="pT51p1042b1601">廬山古今人留題多矣。清言麗句既落人口。
 <lb n="1042b17" ed="T"/>山翁野老相傳不絕。雖深巖窮谷人跡罕至。
 <lb n="1042b18" ed="T"/>人之相去復數百歲。因其詞想其風。有若履
 <lb n="1042b19" ed="T"/>舄並遊。而几案親相與言焉。夫文章之可傳
@@ -1686,83 +1724,102 @@
 <lb n="1042b24" ed="T"/>興。凡所遺篇什皆一時間。人歲月旦近。不患
 <lb n="1042b25" ed="T"/>無傳也。今錄唐已前人詩。著于篇相。貴耳而
 <lb n="1042b26" ed="T"/>賤目以擅去取也。</p></cb:div>
-<lb n="1042b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遊廬山</cb:mulu><head>遊廬山</head><byline cb:type="author">慧遠</byline>
+<lb n="1042b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遊廬山</cb:mulu><head>遊廬山</head>
+<byline cb:type="author">慧遠</byline>
 <lb n="1042b28" ed="T"/><p xml:id="pT51p1042b2801">崇巖吐清氣。幽岫棲神跡。希聲奏群籟。響出
 <lb n="1042b29" ed="T"/>山溜滴。有客獨冥游。逕然忘所適。揮手撫雲
 <pb n="1042c" xml:id="T51.2095.1042c" ed="T"/>
 <lb n="1042c01" ed="T"/>門。靈關安足闢。流心叩玄聽。感至理弗隔。孰
 <lb n="1042c02" ed="T"/>是騰九霄。不奪冲天翮。妙同趣自拘<note place="inline">未見全文</note>。</p></cb:div>
-<lb n="1042c03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">奉和</cb:mulu><head>奉和</head><byline cb:type="author">劉遺民</byline>
+<lb n="1042c03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">奉和</cb:mulu><head>奉和</head>
+<byline cb:type="author">劉遺民</byline>
 <lb n="1042c04" ed="T"/><p xml:id="pT51p1042c0401">理神固超絕。涉麄罕不群。孰至消煙外。曉然
 <lb n="1042c05" ed="T"/>與物分。冥冥玄谷裏。響集自可聞。文峯無曠
 <lb n="1042c06" ed="T"/>秀。交嶺有通雲。悟深婉冲思。在要開冥欣。中
 <lb n="1042c07" ed="T"/>巖擁微興。岫想幽聞。弱明反歸鑒。暴懷傅靈
 <lb n="1042c08" ed="T"/>薰。永陶津玄匠。落照俟虛斤。</p></cb:div>
-<lb n="1042c09" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">奉和</cb:mulu><head>奉和</head><byline cb:type="author">王喬之</byline>
+<lb n="1042c09" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">奉和</cb:mulu><head>奉和</head>
+<byline cb:type="author">王喬之</byline>
 <lb n="1042c10" ed="T"/><p xml:id="pT51p1042c1001">超遊罕神遇。妙善自玄同。徹彼虛明域。曖然
 <lb n="1042c11" ed="T"/>塵有封。眾阜平廖廓。一岫獨凌空。霄景憑巖
 <lb n="1042c12" ed="T"/>落。清氣與時雍。有標造神極。有客越其峯。長
 <lb n="1042c13" ed="T"/>河濯茂楚。險雨列秋松。危步臨絕冥。靈壑映
 <lb n="1042c14" ed="T"/>萬重。風泉調遠氣。遙響多喈嗈。遐麗既悠然。
 <lb n="1042c15" ed="T"/>餘盼覿九江。事屬天人界。常聞清吹空。</p></cb:div>
-<lb n="1042c16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">奉和</cb:mulu><head>奉和</head><byline cb:type="author">張野</byline>
+<lb n="1042c16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">奉和</cb:mulu><head>奉和</head>
+<byline cb:type="author">張野</byline>
 <lb n="1042c17" ed="T"/><p xml:id="pT51p1042c1701">覿嶺混太象。望崖莫由檢。器遠蘊其天。超步
 <lb n="1042c18" ed="T"/>不階漸。朅來越重垠。一舉拔塵染。遼朗中大
 <lb n="1042c19" ed="T"/>盼。逈豁遐瞻慊。乘此櫖瑩心。可以忘遺玷。曠
 <lb n="1042c20" ed="T"/>風被幽宅。妖塗故死減。</p></cb:div>
-<lb n="1042c21" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">入彭蠡湖口作</cb:mulu><head>入彭蠡湖口作</head><byline cb:type="author">謝靈運</byline>
+<lb n="1042c21" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">入彭蠡湖口作</cb:mulu><head>入彭蠡湖口作</head>
+<byline cb:type="author">謝靈運</byline>
 <lb n="1042c22" ed="T"/><p xml:id="pT51p1042c2201">客游倦水宿。風潮難具論。洲島驟回合。圻岸
 <lb n="1042c23" ed="T"/>屢崩奔。乘月聽哀𤜴。浥露馥芳蓀。春晚綠野
 <lb n="1042c24" ed="T"/>秀。巖高白雲屯。千念集日夜萬感盈朝昏。攀
 <lb n="1042c25" ed="T"/>崖照石鏡。牽葉入松門。三江事多往。九派理
 <lb n="1042c26" ed="T"/>空存。靈物吝珍怪。異人祕精魂。金膏滅明光。
 <lb n="1042c27" ed="T"/>水碧輟流溫。徒作千里曲。絃絕念彌敦。</p></cb:div>
-<lb n="1042c28" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望石門</cb:mulu><head>望石門</head><byline cb:type="author">同前</byline>
+<lb n="1042c28" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望石門</cb:mulu><head>望石門</head>
+<byline cb:type="author">同前</byline>
 <lb n="1042c29" ed="T"/><p xml:id="pT51p1042c2901">明發振雲冠。升嶠遠栖趾。高峯隔半天。長
 <pb n="1043a" xml:id="T51.2095.1043a" ed="T"/>
 <lb n="1043a01" ed="T"/>崖斷千里。雞鳴清澗中。猿嘯白雲裏。瑤波
 <lb n="1043a02" ed="T"/>逐空開。霞石觸峯起。回互非一形。參差悉
 <lb n="1043a03" ed="T"/>相似。</p></cb:div>
-<lb n="1043a04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登石門最高頂</cb:mulu><head>登石門最高頂</head><byline cb:type="author">同前</byline>
+<lb n="1043a04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登石門最高頂</cb:mulu><head>登石門最高頂</head>
+<byline cb:type="author">同前</byline>
 <lb n="1043a05" ed="T"/><p xml:id="pT51p1043a0501">晨策尋絕壁。夕息在山棲。䟽峯枕高館。對嶺
 <lb n="1043a06" ed="T"/>臨回溪。長林羅戶庭。積石擁階基。連巖覺路
 <lb n="1043a07" ed="T"/>塞。密竹使逕速。來人忘新術。去子或故蹊。活
-<lb n="1043a08" ed="T"/>夕流<note n="1043a0801" resp="CBETA" type="add" note_key="T51.1043a08.03">駛【CB】，駚【大】</note><app n="1043a0801"><lem wit="【CB】" resp="CBETA.maha">駛<note type="cf1">T04n0196_p0160c06</note></lem><rdg wit="【大】">駚</rdg></app>。噭噭夜猿啼。沈冥豈別理。守道自
+<lb n="1043a08" ed="T"/>夕流<note 
+n="1043a0801" resp="CBETA" type="add" note_key="T51.1043a08.03">駛【CB】，駚【大】</note><app n="1043a0801">
+  <lem wit="【CB】" resp="CBETA.maha">駛<note type="cf1">T04n0196_p0160c06</note></lem>
+  <rdg wit="【大】">駚</rdg>
+</app>。噭噭夜猿啼。沈冥豈別理。守道自
 <lb n="1043a09" ed="T"/>不携。心契九秋幹。日玩三春荑。居常以待終。
 <lb n="1043a10" ed="T"/>處順故安擠。惜無同懷客。共登青雲梯。</p></cb:div>
-<lb n="1043a11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登廬山</cb:mulu><head>登廬山</head><byline cb:type="author">鮑昭</byline>
+<lb n="1043a11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登廬山</cb:mulu><head>登廬山</head>
+<byline cb:type="author">鮑昭</byline>
 <lb n="1043a12" ed="T"/><p xml:id="pT51p1043a1201">懸裝亂水區。旅薄次山楹。千巖狀岨積。萬壑
 <lb n="1043a13" ed="T"/>勢迴縈。巃嵸高昔貌。紛亂襲前名。洞澗窺地
 <lb n="1043a14" ed="T"/>脈。竦樹隱天經。松磴一迷密。雲竇下縱橫。陰
 <lb n="1043a15" ed="T"/>氷實夏結。尖樹信冬榮。</p></cb:div>
-<lb n="1043a16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">從冠軍建平王登香爐峯</cb:mulu><head>從冠軍建平王登香爐峯</head><byline cb:type="author">江淹</byline>
+<lb n="1043a16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">從冠軍建平王登香爐峯</cb:mulu><head>從冠軍建平王登香爐峯</head>
+<byline cb:type="author">江淹</byline>
 <lb n="1043a17" ed="T"/><p xml:id="pT51p1043a1701">廣成愛神鼎。淮南好丹經。此山具鸞鶴。往古
 <lb n="1043a18" ed="T"/>盡仙靈。瑤草正翕赩。玉樹信葱青。絳氣下縈
 <lb n="1043a19" ed="T"/>薄。白雲上杳冥。中坐瞰蜿虹。俛伏視流星。不
 <lb n="1043a20" ed="T"/>尋遐怪極。則知耳目驚。日落長沙渚。曾陰萬
 <lb n="1043a21" ed="T"/>里生。藉蘭素多意。臨風默含情。方學松柏
 <lb n="1043a22" ed="T"/>隱。羞逐市井名。奉承光誦末。伏思託後旌。</p></cb:div>
-<lb n="1043a23" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">東林寺</cb:mulu><head>東林寺</head><byline cb:type="author">劉孝綽</byline>
+<lb n="1043a23" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">東林寺</cb:mulu><head>東林寺</head>
+<byline cb:type="author">劉孝綽</byline>
 <lb n="1043a24" ed="T"/><p xml:id="pT51p1043a2401">月殿耀珠幡。風輪和寶鐸。朝猿響甍棟。夜水
 <lb n="1043a25" ed="T"/>聲惟箔<note place="inline">未見全篇</note>。</p></cb:div>
-<lb n="1043a26" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題簡寂觀</cb:mulu><head>題簡寂觀</head><byline cb:type="author">張正見</byline>
+<lb n="1043a26" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題簡寂觀</cb:mulu><head>題簡寂觀</head>
+<byline cb:type="author">張正見</byline>
 <lb n="1043a27" ed="T"/><p xml:id="pT51p1043a2701">二梁澗本絕。千仞路難通。即此神仙內。眼牓
 <lb n="1043a28" ed="T"/>映仙宮。鏡似臨峯月。流如飲澗虹。幽桂無斜
 <lb n="1043a29" ed="T"/>影。深松有勁風。唯當遠望。知在白雲中。</p></cb:div>
 <pb n="1043b" xml:id="T51.2095.1043b" ed="T"/>
-<lb n="1043b01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">秋晚還彭澤</cb:mulu><head>秋晚還彭澤</head><byline cb:type="author">同前</byline>
+<lb n="1043b01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">秋晚還彭澤</cb:mulu><head>秋晚還彭澤</head>
+<byline cb:type="author">同前</byline>
 <lb n="1043b02" ed="T"/><p xml:id="pT51p1043b0201">遊人及丘壑。秋氣滿平皐。路積康成帶。門疎
 <lb n="1043b03" ed="T"/>仲蔚蒿。山明雲色畫。天靜鳥飛高。自有東籬
 <lb n="1043b04" ed="T"/>菊。還持泛濁醪。</p></cb:div>
-<lb n="1043b05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">還彭澤山中早發</cb:mulu><head>還彭澤山中早發</head><byline cb:type="author">同前</byline>
+<lb n="1043b05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">還彭澤山中早發</cb:mulu><head>還彭澤山中早發</head>
+<byline cb:type="author">同前</byline>
 <lb n="1043b06" ed="T"/><p xml:id="pT51p1043b0601">搖落山中曙。秋氣滿林隈。螢光映草頭。鳥影
 <lb n="1043b07" ed="T"/>出枝來。殘暑避日盡。斷霞逐風開。空返陶潛
 <lb n="1043b08" ed="T"/>縣。終無宋玉才。</p></cb:div>
-<lb n="1043b09" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登廬山</cb:mulu><head>登廬山</head><byline cb:type="author">劉<g ref="#CB06262"/></byline>
+<lb n="1043b09" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登廬山</cb:mulu><head>登廬山</head>
+<byline cb:type="author">劉<g ref="#CB06262"/></byline>
 <lb n="1043b10" ed="T"/><p xml:id="pT51p1043b1001">野煙出爐上山。花落鏡前。危梁取大壑。瀑布
 <lb n="1043b11" ed="T"/>桂中天。秦始眺宇宙。漢武上旌旃。結盧分往
 <lb n="1043b12" ed="T"/>籍。留艑映遐年<note place="inline">未見全篇</note>。</p></cb:div>
-<lb n="1043b13" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遊東林寺</cb:mulu><head>遊東林寺</head><byline cb:type="author">崔融</byline>
+<lb n="1043b13" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遊東林寺</cb:mulu><head>遊東林寺</head>
+<byline cb:type="author">崔融</byline>
 <lb n="1043b14" ed="T"/><p xml:id="pT51p1043b1401">昨度匡山下。春鸎曉弄稀。今來溢水曲。秋雁
 <lb n="1043b15" ed="T"/>晚行飛。國有文皇召。人慚謫傳歸。迴行過梵
 <lb n="1043b16" ed="T"/>塔。歷覽遍吳畿。杏樹裁時久。蓮花刻處。南溪
@@ -1772,11 +1829,13 @@
 <lb n="1043b20" ed="T"/><p xml:id="pT51p1043b2001" style="margin-left:1em">元和十三年二月二十九日。曾孫朝散大
 <lb n="1043b21" ed="T"/>夫使持節江州諸軍事守江州刺史上柱國
 <lb n="1043b22" ed="T"/>清河縣開國男賜紫金魚袋能再刊勒。</p></cb:div>
-<lb n="1043b23" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">晚泊尋陽望廬山</cb:mulu><head>晚泊尋陽望廬山</head><byline cb:type="author">孟浩然</byline>
+<lb n="1043b23" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">晚泊尋陽望廬山</cb:mulu><head>晚泊尋陽望廬山</head>
+<byline cb:type="author">孟浩然</byline>
 <lb n="1043b24" ed="T"/><p xml:id="pT51p1043b2401">桂席幾千里。名山都未逢。泊舟潯陽郭。始見
 <lb n="1043b25" ed="T"/>香爐峯。甞讀遠公傳。永懷塵外蹤。東林精舍
 <lb n="1043b26" ed="T"/>近。日暮但聞鍾。</p></cb:div>
-<lb n="1043b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">彭䗍湖中望廬山</cb:mulu><head>彭䗍湖中望廬山</head><byline cb:type="author">同前</byline>
+<lb n="1043b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">彭䗍湖中望廬山</cb:mulu><head>彭䗍湖中望廬山</head>
+<byline cb:type="author">同前</byline>
 <lb n="1043b28" ed="T"/><p xml:id="pT51p1043b2801">大虛生月暈。舟子知天風。挂席候明發。渺漫
 <lb n="1043b29" ed="T"/>彭湖中中流見遙島。勢壓九江雄。黤默客霽
 <pb n="1043c" xml:id="T51.2095.1043c" ed="T"/>
@@ -1784,7 +1843,8 @@
 <lb n="1043c02" ed="T"/>欲追向子。況茲懷遠公。我來限于役。未暇息
 <lb n="1043c03" ed="T"/>微躬。淮海途將半。暑霜歲欲窮。寄言巖栖者。
 <lb n="1043c04" ed="T"/>畢趣當來同。</p></cb:div>
-<lb n="1043c05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">廬山謠寄廬侍御虛舟</cb:mulu><head>廬山謠寄廬侍御虛舟</head><byline cb:type="author">李白</byline>
+<lb n="1043c05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">廬山謠寄廬侍御虛舟</cb:mulu><head>廬山謠寄廬侍御虛舟</head>
+<byline cb:type="author">李白</byline>
 <lb n="1043c06" ed="T"/><p xml:id="pT51p1043c0601">我本楚狂人。鳳歌笑孔丘。手持綠玉杖。朝別
 <lb n="1043c07" ed="T"/>黃鶴樓。五岳尋仙不辭遠。一生好入名山遊。
 <lb n="1043c08" ed="T"/>廬山秀出南斗傍。屏風九疊雲錦張。影落明
@@ -1797,10 +1857,12 @@
 <lb n="1043c15" ed="T"/>早服還丹無世情。琴心三疊道初成。遙見仙
 <lb n="1043c16" ed="T"/>人綵雲裏。手把芙蓉朝玉京。先期污漫九垓
 <lb n="1043c17" ed="T"/>上。願接廬敖遊太清。</p></cb:div>
-<lb n="1043c18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">別東林寺僧</cb:mulu><head>別東林寺僧</head><byline cb:type="author">同前</byline>
+<lb n="1043c18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">別東林寺僧</cb:mulu><head>別東林寺僧</head>
+<byline cb:type="author">同前</byline>
 <lb n="1043c19" ed="T"/><p xml:id="pT51p1043c1901">東林送客處。月出白猿啼。笑別廬山遠。何煩
 <lb n="1043c20" ed="T"/>過虎溪。</p></cb:div>
-<lb n="1043c21" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望廬山瀑布水</cb:mulu><head>望廬山瀑布水</head><byline cb:type="author">同前</byline>
+<lb n="1043c21" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望廬山瀑布水</cb:mulu><head>望廬山瀑布水</head>
+<byline cb:type="author">同前</byline>
 <lb n="1043c22" ed="T"/><p xml:id="pT51p1043c2201">西登香爐峯。南見瀑布水。挂流三百丈。噴<g ref="#CB05145"/>
 <lb n="1043c23" ed="T"/>數千尺。歘如飛電來。隱若白虹起。初驚河漢
 <lb n="1043c24" ed="T"/>落。半洒雲天裏。仰觀勢轉雄。壯哉造化功。
@@ -1810,26 +1872,35 @@
 <lb n="1043c28" ed="T"/><p xml:id="pT51p1043c2801">日照香爐生紫煙。遙看瀑布挂長川。飛流直
 <lb n="1043c29" ed="T"/>下三千尺。疑是銀河落九天。</p></cb:div>
 <pb n="1044a" xml:id="T51.2095.1044a" ed="T"/>
-<lb n="1044a01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望廬山五老峯</cb:mulu><head>望廬山五老峯</head><byline cb:type="author">同前</byline>
+<lb n="1044a01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望廬山五老峯</cb:mulu><head>望廬山五老峯</head>
+<byline cb:type="author">同前</byline>
 <lb n="1044a02" ed="T"/><p xml:id="pT51p1044a0201">廬山東南五老峯。青天削出金芙蓉。九江秀
 <lb n="1044a03" ed="T"/>色可攬結。吾將此地鏁雲松。</p></cb:div>
-<lb n="1044a04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">送李女真騰空歸廬山</cb:mulu><head>送李女真騰空歸廬山</head><byline cb:type="author">同前</byline>
-<lb n="1044a05" ed="T"/><p xml:id="pT51p1044a0501"><note n="1044a0501" resp="CBETA" type="add">羨【CB】，羡【大】</note><app n="1044a0501"><lem wit="【CB】" resp="CBETA">羨</lem><rdg wit="【大】">羡</rdg></app>君相門女。學道愛神仙。素手掬秋靄。羅衣
+<lb n="1044a04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">送李女真騰空歸廬山</cb:mulu><head>送李女真騰空歸廬山</head>
+<byline cb:type="author">同前</byline>
+<lb n="1044a05" ed="T"/><p xml:id="pT51p1044a0501"><note 
+n="1044a0501" resp="CBETA" type="add">羨【CB】，羡【大】</note><app n="1044a0501">
+  <lem wit="【CB】" resp="CBETA">羨</lem>
+  <rdg wit="【大】">羡</rdg>
+</app>君相門女。學道愛神仙。素手掬秋靄。羅衣
 <lb n="1044a06" ed="T"/>曳紫煙。一往屏風疊。乘鸞著玉鞭。</p></cb:div>
-<lb n="1044a07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">送內尋騰空</cb:mulu><head>送內尋騰空</head><byline cb:type="author">同前</byline>
+<lb n="1044a07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">送內尋騰空</cb:mulu><head>送內尋騰空</head>
+<byline cb:type="author">同前</byline>
 <lb n="1044a08" ed="T"/><p xml:id="pT51p1044a0801">君尋騰空子。應到碧山家。水舂雲母碓。風掃
 <lb n="1044a09" ed="T"/>石南花。若戀幽居好。相邀弄紫霞。</p></cb:div>
 <lb n="1044a10" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head>
 <lb n="1044a11" ed="T"/><byline cb:type="author">宣宗皇帝</byline>
 <lb n="1044a12" ed="T"/><p xml:id="pT51p1044a1201">穿雲透石不辭勞。達地方知出處高。溪澗豈
 <lb n="1044a13" ed="T"/>能留得住。終歸大海作波濤。</p></cb:div>
-<lb n="1044a14" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">栗里</cb:mulu><head>栗里</head><byline cb:type="author">顏真卿</byline>
+<lb n="1044a14" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">栗里</cb:mulu><head>栗里</head>
+<byline cb:type="author">顏真卿</byline>
 <lb n="1044a15" ed="T"/><p xml:id="pT51p1044a1501">張良思報漢。龔勝恥事新。狙擊苦不就。捨生
 <lb n="1044a16" ed="T"/>悲把紳。鳴呼陶淵明。棄業為晉臣。白以公相
 <lb n="1044a17" ed="T"/>後。每懷宗國屯。題詩庚子歲。自為義皇人。手
 <lb n="1044a18" ed="T"/>持山海經。頭戴漉酒巾。興逐孤雲遠。辯隨還
 <lb n="1044a19" ed="T"/>鳥泯<note place="inline">未見全篇</note>。</p></cb:div>
-<lb n="1044a20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head><byline cb:type="author">張祐</byline>
+<lb n="1044a20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">張祐</byline>
 <lb n="1044a21" ed="T"/><p xml:id="pT51p1044a2101">紫霄峯下草堂仙。千載空遺石磬懸。白氣夜
 <lb n="1044a22" ed="T"/>生龍在水。碧雲秋斷鶴歸天。竹房影占中庭
 <lb n="1044a23" ed="T"/>月。松檻聲來半壁泉。明日又為浮世恨。滿山
@@ -1846,48 +1917,78 @@
 <lb n="1044b04" ed="T"/>士亦棲息。善身絕塵緣。今我蒙朝寄。教化敷
 <lb n="1044b05" ed="T"/>里廛。道妙苟為得。出處理無偏。心甞同所尚。
 <lb n="1044b06" ed="T"/>跡豈辭纏牽。</p></cb:div>
-<lb n="1044b07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題從姪緒西林精舍書齋</cb:mulu><head>題從姪緒西林精舍書齋</head><byline cb:type="author">同前</byline>
-<lb n="1044b08" ed="T"/><p xml:id="pT51p1044b0801">棲心始多<note n="1044001" resp="Taisho" place="foot text" type="orig">暮＝慕【甲】</note><note n="1044001" resp="CBETA" type="mod">暮【大】，慕【甲】</note><app n="1044001"><lem wit="【大】">暮</lem><rdg resp="Taisho" wit="【甲】">慕</rdg></app>。息心君獨少。慕謝始精舍。<note n="1044002" resp="Taisho" place="foot text" type="orig">〔文〕－【甲】</note><note n="1044002" resp="CBETA" type="mod">文【大】，〔－〕【甲】</note><app n="1044002"><lem wit="【大】">文</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>
+<lb n="1044b07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題從姪緒西林精舍書齋</cb:mulu><head>題從姪緒西林精舍書齋</head>
+<byline cb:type="author">同前</byline>
+<lb n="1044b08" ed="T"/><p xml:id="pT51p1044b0801">棲心始多<note 
+n="1044001" resp="Taisho" place="foot text" type="orig">暮＝慕【甲】</note><note 
+n="1044001" resp="CBETA" type="mod">暮【大】，慕【甲】</note><app n="1044001">
+  <lem wit="【大】">暮</lem>
+  <rdg resp="Taisho" wit="【甲】">慕</rdg>
+</app>。息心君獨少。慕謝始精舍。<note 
+n="1044002" resp="Taisho" place="foot text" type="orig">〔文〕－【甲】</note><note 
+n="1044002" resp="CBETA" type="mod">文【大】，〔－〕【甲】</note><app n="1044002">
+  <lem wit="【大】">文</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>
 <lb n="1044b09" ed="T"/>依僧欲觀妙。洌泉前階注。清池北窓照。果藥
 <lb n="1044b10" ed="T"/>雜芬敷。松筠疎舊峭。屢躋幽人境。每肆芳辰
 <lb n="1044b11" ed="T"/>眺。探栗玄猿窟。擷芝舟林嶠。紵衣豈寒禦。蔬
-<lb n="1044b12" ed="T"/>食非飢療。雖甘<note n="1044003" resp="Taisho" place="foot text" type="orig">巷北單＝陋巷簞【甲】</note><note n="1044003" resp="CBETA" type="mod">巷北單【大】，陋巷簞【甲】</note><app n="1044003"><lem wit="【大】">巷北單</lem><rdg resp="Taisho" wit="【甲】">陋巷簞</rdg></app>。豈寒青紫耀。郡有
+<lb n="1044b12" ed="T"/>食非飢療。雖甘<note 
+n="1044003" resp="Taisho" place="foot text" type="orig">巷北單＝陋巷簞【甲】</note><note 
+n="1044003" resp="CBETA" type="mod">巷北單【大】，陋巷簞【甲】</note><app n="1044003">
+  <lem wit="【大】">巷北單</lem>
+  <rdg resp="Taisho" wit="【甲】">陋巷簞</rdg>
+</app>。豈寒青紫耀。郡有
 <lb n="1044b13" ed="T"/>優賢榻。朝編貢士諂。欲同朱輪載。勿憚移文
 <lb n="1044b14" ed="T"/>誚。</p></cb:div>
-<lb n="1044b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題鄭侍御遺愛草堂</cb:mulu><head>題鄭侍御遺愛草堂</head><byline cb:type="author">同前</byline>
+<lb n="1044b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題鄭侍御遺愛草堂</cb:mulu><head>題鄭侍御遺愛草堂</head>
+<byline cb:type="author">同前</byline>
 <lb n="1044b16" ed="T"/><p xml:id="pT51p1044b1601">居士近依僧。青山結茆屋。疎松映嵐晚。春池
 <lb n="1044b17" ed="T"/>含苔綠。繁華冒陽嶺。新禽響幽谷。長嘯攀喬
 <lb n="1044b18" ed="T"/>林。慕茲高世躅。</p></cb:div>
-<lb n="1044b19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀西澗瀑布下作</cb:mulu><head>簡寂觀西澗瀑布下作</head><byline cb:type="author">同前</byline>
+<lb n="1044b19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀西澗瀑布下作</cb:mulu><head>簡寂觀西澗瀑布下作</head>
+<byline cb:type="author">同前</byline>
 <lb n="1044b20" ed="T"/><p xml:id="pT51p1044b2001">淙流絕壁散。靈煙翠澗深。巖際松風起。飄飄
-<lb n="1044b21" ed="T"/>洒塵襟。窺<note n="1044004" resp="Taisho" place="foot text" type="orig">羅＝蘿【甲】</note><note n="1044004" resp="CBETA" type="mod">羅【大】，蘿【甲】</note><app n="1044004"><lem wit="【大】">羅</lem><rdg resp="Taisho" wit="【甲】">蘿</rdg></app>玩猿烏。解組散雲林。茶果邀
+<lb n="1044b21" ed="T"/>洒塵襟。窺<note 
+n="1044004" resp="Taisho" place="foot text" type="orig">羅＝蘿【甲】</note><note 
+n="1044004" resp="CBETA" type="mod">羅【大】，蘿【甲】</note><app n="1044004">
+  <lem wit="【大】">羅</lem>
+  <rdg resp="Taisho" wit="【甲】">蘿</rdg>
+</app>玩猿烏。解組散雲林。茶果邀
 <lb n="1044b22" ed="T"/>真侶。觴酌洽同心。曠歲懷茲賞。行春始重尋。
 <lb n="1044b23" ed="T"/>聊將橫吹笛。一寫山水音。</p></cb:div>
-<lb n="1044b24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">尋簡寂觀瀑布</cb:mulu><head>尋簡寂觀瀑布</head><byline cb:type="author">同前</byline>
+<lb n="1044b24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">尋簡寂觀瀑布</cb:mulu><head>尋簡寂觀瀑布</head>
+<byline cb:type="author">同前</byline>
 <lb n="1044b25" ed="T"/><p xml:id="pT51p1044b2501">躡石欹危過急澗。攀崖迢遞弄懸泉。猶將虎
 <lb n="1044b26" ed="T"/>竹為年累。欲付歸人絕世緣。</p></cb:div>
-<lb n="1044b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head><byline cb:type="author">秦韜玉</byline>
+<lb n="1044b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">秦韜玉</byline>
 <lb n="1044b28" ed="T"/><p xml:id="pT51p1044b2801">物外靈蹤客到稀。竹房斜掩舊荊扉。丹書萬
 <lb n="1044b29" ed="T"/>卷題朱字。碧岫千重鎖翠微。泣露白猿携子
 <pb n="1044c" xml:id="T51.2095.1044c" ed="T"/>
 <lb n="1044c01" ed="T"/>去。唳風玄鶴傍人歸。只應玉闕名長在。日暮
 <lb n="1044c02" ed="T"/>閑雲空自飛。</p></cb:div>
-<lb n="1044c03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head><byline cb:type="author">陸蟾</byline>
+<lb n="1044c03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head>
+<byline cb:type="author">陸蟾</byline>
 <lb n="1044c04" ed="T"/><p xml:id="pT51p1044c0401">正源人莫測。千尺掛雲端。岳色染不得。神功
 <lb n="1044c05" ed="T"/>裁亦難。夏噴猿鳥凝。秋濺斗牛寒。待濟滄溟
 <lb n="1044c06" ed="T"/>後。翻濤更好看。</p></cb:div>
-<lb n="1044c07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">翻經臺</cb:mulu><head>翻經臺</head><byline cb:type="author">包吉</byline>
+<lb n="1044c07" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">翻經臺</cb:mulu><head>翻經臺</head>
+<byline cb:type="author">包吉</byline>
 <lb n="1044c08" ed="T"/><p xml:id="pT51p1044c0801">野蔓高臺下。前朝記不誣。金文翻古偈。漢字
 <lb n="1044c09" ed="T"/>變胡書。綵線風飄斷。緗縑火燼餘。破雲開白
 <lb n="1044c10" ed="T"/>日。穿水照芙蕖。科斗頻更改。菴園幾遍鋤。真
 <lb n="1044c11" ed="T"/>門兼逸韻。兩欲慕相如。</p></cb:div>
-<lb n="1044c12" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題西林寺故蕭郎中舊堂</cb:mulu><head>題西林寺故蕭郎中舊堂</head><byline cb:type="author">韓愈</byline>
+<lb n="1044c12" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題西林寺故蕭郎中舊堂</cb:mulu><head>題西林寺故蕭郎中舊堂</head>
+<byline cb:type="author">韓愈</byline>
 <lb n="1044c13" ed="T"/><p xml:id="pT51p1044c1301">中郎有女能傳業。伯道無兒可保家。偶到匡
 <lb n="1044c14" ed="T"/>山曾住處。數行哀淚落煙霞。</p></cb:div>
-<lb n="1044c15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head><byline cb:type="author">徐凝</byline>
+<lb n="1044c15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head>
+<byline cb:type="author">徐凝</byline>
 <lb n="1044c16" ed="T"/><p xml:id="pT51p1044c1601">瀑泉瀑泉子丈直。雷奔入海無暫息。今古長
 <lb n="1044c17" ed="T"/>如白練飛。一條界破青山色。</p></cb:div>
-<lb n="1044c18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">訪陶公舊宅</cb:mulu><head>訪陶公舊宅<note place="inline">并序</note></head><byline cb:type="author">白居易</byline>
+<lb n="1044c18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">訪陶公舊宅</cb:mulu><head>訪陶公舊宅<note place="inline">并序</note></head>
+<byline cb:type="author">白居易</byline>
 <lb n="1044c19" ed="T"/><p xml:id="pT51p1044c1901">予夙慕陶淵明為人。往歲渭川閑居。甞有効
 <lb n="1044c20" ed="T"/>陶體詩十六首。今遊廬山。經柴桑故里。思其
 <lb n="1044c21" ed="T"/>人訪其宅。不能默默。又題詩云。</p>
@@ -1900,31 +2001,60 @@
 <lb n="1044c28" ed="T"/>詠遺風。著為十六篇。今來訪故宅。森若在君
 <lb n="1044c29" ed="T"/>前。不慕樽有酒。不慕琴無絃。慕君遺榮利。老
 <pb n="1045a" xml:id="T51.2095.1045a" ed="T"/>
-<lb n="1045a01" ed="T"/>死此丘園。柴桑古村落。栗里舊山<note n="1045001" resp="Taisho" place="foot text" type="orig">〔山〕－【甲】</note><note n="1045001" resp="CBETA" type="mod">山【大】，〔－〕【甲】</note><app n="1045001"><lem wit="【大】">山</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>川。不
-<lb n="1045a02" ed="T"/>見籬下菊。但餘墟中煙。子孫雖<note n="1045002" resp="Taisho" place="foot text" type="orig">（無）＋聞【甲】</note><note n="1045002" resp="CBETA" type="mod">聞【大】，無聞【甲】</note><app n="1045002"><lem wit="【大】">聞</lem><rdg resp="Taisho" wit="【甲】">無聞</rdg></app>。族氏猶
+<lb n="1045a01" ed="T"/>死此丘園。柴桑古村落。栗里舊山<note 
+n="1045001" resp="Taisho" place="foot text" type="orig">〔山〕－【甲】</note><note 
+n="1045001" resp="CBETA" type="mod">山【大】，〔－〕【甲】</note><app n="1045001">
+  <lem wit="【大】">山</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>川。不
+<lb n="1045a02" ed="T"/>見籬下菊。但餘墟中煙。子孫雖<note 
+n="1045002" resp="Taisho" place="foot text" type="orig">（無）＋聞【甲】</note><note 
+n="1045002" resp="CBETA" type="mod">聞【大】，無聞【甲】</note><app n="1045002">
+  <lem wit="【大】">聞</lem>
+  <rdg resp="Taisho" wit="【甲】">無聞</rdg>
+</app>。族氏猶
 <lb n="1045a03" ed="T"/>未遷。每逢姓陶人。使我心依然。</p></cb:div>
-<lb n="1045a04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">春遊二林寺</cb:mulu><head>春遊二林寺</head><byline cb:type="author">同前</byline>
+<lb n="1045a04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">春遊二林寺</cb:mulu><head>春遊二林寺</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045a05" ed="T"/><p xml:id="pT51p1045a0501">下馬西林寺。翛然進輕策。朝為公府吏。暮是
-<lb n="1045a06" ed="T"/>靈山客。二月匡<note n="1045003" resp="Taisho" place="foot text" type="orig">廬＋（北）【甲】</note><note n="1045003" resp="CBETA" type="mod">廬【大】，廬北【甲】</note><app n="1045003"><lem wit="【大】">廬</lem><rdg resp="Taisho" wit="【甲】">廬北</rdg></app>氷。雪始消釋。陽叢抽茗
-<lb n="1045a07" ed="T"/>芽。陰竇洩泉脈。熙熙風土<note n="1045004" resp="Taisho" place="foot text" type="orig">暖＝曖【甲】</note><note n="1045004" resp="CBETA" type="mod">暖【大】，曖【甲】</note><app n="1045004"><lem wit="【大】">暖</lem><rdg resp="Taisho" wit="【甲】">曖</rdg></app>。藹藹雲嵐積。
+<lb n="1045a06" ed="T"/>靈山客。二月匡<note 
+n="1045003" resp="Taisho" place="foot text" type="orig">廬＋（北）【甲】</note><note 
+n="1045003" resp="CBETA" type="mod">廬【大】，廬北【甲】</note><app n="1045003">
+  <lem wit="【大】">廬</lem>
+  <rdg resp="Taisho" wit="【甲】">廬北</rdg>
+</app>氷。雪始消釋。陽叢抽茗
+<lb n="1045a07" ed="T"/>芽。陰竇洩泉脈。熙熙風土<note 
+n="1045004" resp="Taisho" place="foot text" type="orig">暖＝曖【甲】</note><note 
+n="1045004" resp="CBETA" type="mod">暖【大】，曖【甲】</note><app n="1045004">
+  <lem wit="【大】">暖</lem>
+  <rdg resp="Taisho" wit="【甲】">曖</rdg>
+</app>。藹藹雲嵐積。
 <lb n="1045a08" ed="T"/>散作萬<g ref="#CB05145"/>春。凝為一氣碧。身閑易澹泊。官散
 <lb n="1045a09" ed="T"/>無牽迫。<g ref="#CB05064"/>彼十八賢。古今同此適。是年准冠
 <lb n="1045a10" ed="T"/>起處處興兵革。智士勞思謀。戎臣若征役。獨
 <lb n="1045a11" ed="T"/>有不才者。山中弄泉石。</p></cb:div>
-<lb n="1045a12" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遊石門澗</cb:mulu><head>遊石門澗</head><byline cb:type="author">同前</byline>
+<lb n="1045a12" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遊石門澗</cb:mulu><head>遊石門澗</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045a13" ed="T"/><p xml:id="pT51p1045a1301">石門無舊徑。披榛訪遺跡。時逢山水秋。清輝
 <lb n="1045a14" ed="T"/>如古昔。甞聞慧遠輩。題詩此巖壁。雲覆莓
 <lb n="1045a15" ed="T"/>苔封。蒼然無見覓。蕭疎野生竹。崩剝多年石。
 <lb n="1045a16" ed="T"/>自從東晉後。無復人遊歷。獨有秋澗聲。潺湲
 <lb n="1045a17" ed="T"/>空旦夕。</p></cb:div>
-<lb n="1045a18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題元十八溪亭</cb:mulu><head>題元十八溪亭<note place="inline">在廬山東南五老峯之下</note></head><byline cb:type="author">同前</byline>
+<lb n="1045a18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題元十八溪亭</cb:mulu><head>題元十八溪亭<note place="inline">在廬山東南五老峯之下</note></head>
+<byline cb:type="author">同前</byline>
 <lb n="1045a19" ed="T"/><p xml:id="pT51p1045a1901">怪君不喜仕。又不遊州里。今日到幽居。了然
 <lb n="1045a20" ed="T"/>知所以。宿君石溪亭。潺湲聲滿耳。飲君螺盃
 <lb n="1045a21" ed="T"/>酒。醉臥不能起。見君五老峯。益悔居城市。
 <lb n="1045a22" ed="T"/>愛君三男兒。始歎身無子。余方爐峯下。結室
 <lb n="1045a23" ed="T"/>為居士。山北與山南。往來從此始。</p></cb:div>
-<lb n="1045a24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">香爐峯下新置草堂即事詠懷題於石</cb:mulu><head>香爐峯下新置草堂。即事詠懷題於<note n="1045005" resp="Taisho" place="foot text" type="orig">甲本石字下有同前二字</note>石</head>
-<lb n="1045a25" ed="T"/><p xml:id="pT51p1045a2501">香爐峯北面。遺愛寺西邊。白石何<note n="1045006" resp="Taisho" place="foot text" type="orig">鑿＋（鑿）【甲】</note><note n="1045006" resp="CBETA" type="mod">鑿【大】，鑿鑿【甲】</note><app n="1045006"><lem wit="【大】">鑿</lem><rdg resp="Taisho" wit="【甲】">鑿鑿</rdg></app>。清流
+<lb n="1045a24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">香爐峯下新置草堂即事詠懷題於石</cb:mulu><head>香爐峯下新置草堂。即事詠懷題於<note 
+n="1045005" resp="Taisho" place="foot text" type="orig">甲本石字下有同前二字</note>石</head>
+<lb n="1045a25" ed="T"/><p xml:id="pT51p1045a2501">香爐峯北面。遺愛寺西邊。白石何<note 
+n="1045006" resp="Taisho" place="foot text" type="orig">鑿＋（鑿）【甲】</note><note 
+n="1045006" resp="CBETA" type="mod">鑿【大】，鑿鑿【甲】</note><app n="1045006">
+  <lem wit="【大】">鑿</lem>
+  <rdg resp="Taisho" wit="【甲】">鑿鑿</rdg>
+</app>。清流
 <lb n="1045a26" ed="T"/>亦潺潺。有松數十株。有竹千餘竿。松張翠繖
 <lb n="1045a27" ed="T"/>蓋。竹倚青琅玕。其下無人居。惜哉多歲年。有
 <lb n="1045a28" ed="T"/>時聚猿鳥。終日空風煙。時有沈冥子。姓白字
@@ -1933,36 +2063,57 @@
 <lb n="1045b01" ed="T"/>忽乎不知還。架巖結茅宇。斸壑開茶園。何以
 <lb n="1045b02" ed="T"/>洗我耳。屋頭落飛泉。何以淨我眼。砌下生白
 <lb n="1045b03" ed="T"/>蓮。左手携一臺右手挈五絃。傲然意自足。箕
-<lb n="1045b04" ed="T"/>踞於其間。興酣仰天歌。歌中聊寄<note n="1045007" resp="Taisho" place="foot text" type="orig">言＋（言）【甲】</note><note n="1045007" resp="CBETA" type="mod">言【大】，言言【甲】</note><app n="1045007"><lem wit="【大】">言</lem><rdg resp="Taisho" wit="【甲】">言言</rdg></app>。我本
+<lb n="1045b04" ed="T"/>踞於其間。興酣仰天歌。歌中聊寄<note 
+n="1045007" resp="Taisho" place="foot text" type="orig">言＋（言）【甲】</note><note 
+n="1045007" resp="CBETA" type="mod">言【大】，言言【甲】</note><app n="1045007">
+  <lem wit="【大】">言</lem>
+  <rdg resp="Taisho" wit="【甲】">言言</rdg>
+</app>。我本
 <lb n="1045b05" ed="T"/>野夫。誤為世網牽。時來昔捧日。老去今歸山。
 <lb n="1045b06" ed="T"/>倦鳥得茂樹。涸魚反清源。捨此欲焉往。人間
 <lb n="1045b07" ed="T"/>多險艱。</p></cb:div>
-<lb n="1045b08" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登香爐峯頂</cb:mulu><head>登香爐峯頂</head><byline cb:type="author">同前</byline>
+<lb n="1045b08" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">登香爐峯頂</cb:mulu><head>登香爐峯頂</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045b09" ed="T"/><p xml:id="pT51p1045b0901">迢迢香爐峯。心存耳目想。終身牽物役。今日
 <lb n="1045b10" ed="T"/>方一往。攀蘿蹋危石。手足勞俯仰。同遊三四
 <lb n="1045b11" ed="T"/>人。二人不敢上。上到峯之頂。目眩神怳怳。高
-<lb n="1045b12" ed="T"/>低有萬尋。闊狹無數<note n="1045008" resp="Taisho" place="foot text" type="orig">交＝丈【甲】</note><note n="1045008" resp="CBETA" type="mod">交【大】，丈【甲】</note><app n="1045008"><lem wit="【大】">交</lem><rdg resp="Taisho" wit="【甲】">丈</rdg></app>。不窮視聽界。焉識
+<lb n="1045b12" ed="T"/>低有萬尋。闊狹無數<note 
+n="1045008" resp="Taisho" place="foot text" type="orig">交＝丈【甲】</note><note 
+n="1045008" resp="CBETA" type="mod">交【大】，丈【甲】</note><app n="1045008">
+  <lem wit="【大】">交</lem>
+  <rdg resp="Taisho" wit="【甲】">丈</rdg>
+</app>。不窮視聽界。焉識
 <lb n="1045b13" ed="T"/>宇宙廣。江水細如繩。湓城小於掌。紛吾何屑
-<lb n="1045b14" ed="T"/>屑。未能脫塵鞅。歸去思自<note n="1045009" resp="Taisho" place="foot text" type="orig">差＝嗟【甲】</note><note n="1045009" resp="CBETA" type="mod">差【大】，嗟【甲】</note><app n="1045009"><lem wit="【大】">差</lem><rdg resp="Taisho" wit="【甲】">嗟</rdg></app>。低頭入蟻壤。</p></cb:div>
-<lb n="1045b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">宿簡寂觀</cb:mulu><head>宿簡寂觀</head><byline cb:type="author">同前</byline>
+<lb n="1045b14" ed="T"/>屑。未能脫塵鞅。歸去思自<note 
+n="1045009" resp="Taisho" place="foot text" type="orig">差＝嗟【甲】</note><note 
+n="1045009" resp="CBETA" type="mod">差【大】，嗟【甲】</note><app n="1045009">
+  <lem wit="【大】">差</lem>
+  <rdg resp="Taisho" wit="【甲】">嗟</rdg>
+</app>。低頭入蟻壤。</p></cb:div>
+<lb n="1045b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">宿簡寂觀</cb:mulu><head>宿簡寂觀</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045b16" ed="T"/><p xml:id="pT51p1045b1601">巖白雲尚屯。林紅葉初隕。秋光引閑步。不
 <lb n="1045b17" ed="T"/>知身遠近。夕投靈洞宿。臥覺塵機泯。名利心
 <lb n="1045b18" ed="T"/>既忘。市朝夢亦盡。暫來尚如此。況乃終身隱。
 <lb n="1045b19" ed="T"/>何以療夜飢。一匙雲母粉。</p></cb:div>
-<lb n="1045b20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">宿西林寺</cb:mulu><head>宿西林寺</head><byline cb:type="author">同前</byline>
+<lb n="1045b20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">宿西林寺</cb:mulu><head>宿西林寺</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045b21" ed="T"/><p xml:id="pT51p1045b2101">木落天晴山翠開。愛山騎馬入山來。心知不
 <lb n="1045b22" ed="T"/>及柴桑令。一宿西林使却回。</p></cb:div>
 <lb n="1045b23" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">宿西林寺早赴東林滿上人之會因寄崔二十二員外</cb:mulu><head>宿西林寺。早赴東林滿上人之會。因寄
-<lb n="1045b24" ed="T"/>崔二十二員外</head><byline cb:type="author">同前</byline>
+<lb n="1045b24" ed="T"/>崔二十二員外</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045b25" ed="T"/><p xml:id="pT51p1045b2501">謫辭魏闕鵷鸞隔。老入廬山麋鹿隨。薄暮蕭
 <lb n="1045b26" ed="T"/>條投寺宿。凌晨清淨與僧期。雙林我起聞鍾
 <lb n="1045b27" ed="T"/>後。隻日君趨入閣時。鵬鷃高低分皆定。莫勞
 <lb n="1045b28" ed="T"/>心力遠相思。</p></cb:div>
-<lb n="1045b29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題廬山山下湯泉</cb:mulu><head>題廬山山下湯泉</head><byline cb:type="author">同前</byline>
+<lb n="1045b29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題廬山山下湯泉</cb:mulu><head>題廬山山下湯泉</head>
+<byline cb:type="author">同前</byline>
 <pb n="1045c" xml:id="T51.2095.1045c" ed="T"/>
 <lb n="1045c01" ed="T"/><p xml:id="pT51p1045c0101">一眼湯泉流向東。浸泥澆草煖無功。驪山溫
 <lb n="1045c02" ed="T"/>水因何事。流入金鋪玉甃中。</p></cb:div>
-<lb n="1045c03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">上香爐峯</cb:mulu><head>上香爐峯</head><byline cb:type="author">同前</byline>
+<lb n="1045c03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">上香爐峯</cb:mulu><head>上香爐峯</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045c04" ed="T"/><p xml:id="pT51p1045c0401">倚石攀蘿歇病身。青節竹杖白紗巾。他時畫
 <lb n="1045c05" ed="T"/>出廬山障。便是香爐峯上人。</p></cb:div>
 <lb n="1045c06" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">香爐峯下山居草堂初成偶題東壁</cb:mulu><head>香爐峯下山居草堂初成。偶題東壁</head>
@@ -1970,135 +2121,234 @@
 <lb n="1045c08" ed="T"/>日冬天暖。北戶迎風夏月凉。洒砌飛泉才有
 <lb n="1045c09" ed="T"/>默。拂窓斜竹未成行。來春更葦東廂屋。紙
 <lb n="1045c10" ed="T"/>閣蘆簾著孟光。</p></cb:div>
-<lb n="1045c11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">戲贈李十三判官</cb:mulu><head>戲贈李十三判官</head><byline cb:type="author">同前</byline>
+<lb n="1045c11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">戲贈李十三判官</cb:mulu><head>戲贈李十三判官</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045c12" ed="T"/><p xml:id="pT51p1045c1201">垂鞭相送醉醺醺。遙見廬山指似君。想君初
 <lb n="1045c13" ed="T"/>覺從軍樂。未愛香爐峯上人。</p></cb:div>
 <lb n="1045c14" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">携諸山客同上香爐峯遇雨而還沾濡狼藉互相笑謔題此解嘲</cb:mulu><head>携諸山客。同上香爐峯。遇雨而還。沾濡
-<lb n="1045c15" ed="T"/>狼藉。互相笑謔。題此解嘲</head><byline cb:type="author">同前</byline>
+<lb n="1045c15" ed="T"/>狼藉。互相笑謔。題此解嘲</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045c16" ed="T"/><p xml:id="pT51p1045c1601">蕭洒登山去。龍鍾遇雨回。磴危攀薜荔。石滑
 <lb n="1045c17" ed="T"/>踐莓苔。襪污君相謔。鞋穿我自咍。莫欺泥土
 <lb n="1045c18" ed="T"/>脚。曾踏玉階來。</p></cb:div>
-<lb n="1045c19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">讀靈徹詩</cb:mulu><head>讀靈徹詩</head><byline cb:type="author">同前</byline>
+<lb n="1045c19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">讀靈徹詩</cb:mulu><head>讀靈徹詩</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045c20" ed="T"/><p xml:id="pT51p1045c2001">東林寺裏西廊下。石片鐫題數首詩。言句怪
-<lb n="1045c21" ed="T"/>來還<note n="1045010" resp="Taisho" place="foot text" type="orig">教＝校【甲】</note><note n="1045010" resp="CBETA" type="mod">教【大】，校【甲】</note><app n="1045010"><lem wit="【大】">教</lem><rdg resp="Taisho" wit="【甲】">校</rdg></app>別。看名知是老湯師。</p></cb:div>
-<lb n="1045c22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">別草堂三絕句</cb:mulu><head>別草堂三絕句</head><byline cb:type="author">同前</byline>
+<lb n="1045c21" ed="T"/>來還<note 
+n="1045010" resp="Taisho" place="foot text" type="orig">教＝校【甲】</note><note 
+n="1045010" resp="CBETA" type="mod">教【大】，校【甲】</note><app n="1045010">
+  <lem wit="【大】">教</lem>
+  <rdg resp="Taisho" wit="【甲】">校</rdg>
+</app>別。看名知是老湯師。</p></cb:div>
+<lb n="1045c22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">別草堂三絕句</cb:mulu><head>別草堂三絕句</head>
+<byline cb:type="author">同前</byline>
 <lb n="1045c23" ed="T"/><p xml:id="pT51p1045c2301">正聽山鳥向陽眠。黃紙除書落枕前。為感君
 <lb n="1045c24" ed="T"/>恩須暫起。廬峯不擬住多年。</p>
-<lb n="1045c25" ed="T"/><p xml:id="pT51p1045c2501">久眠<note n="1045011" resp="Taisho" place="foot text" type="orig">披＝被【甲】</note><note n="1045011" resp="CBETA" type="mod">披【大】，被【甲】</note><app n="1045011"><lem wit="【大】">披</lem><rdg resp="Taisho" wit="【甲】">被</rdg></app>褐為居士。忽掛緋袍作使君。身出草
+<lb n="1045c25" ed="T"/><p xml:id="pT51p1045c2501">久眠<note 
+n="1045011" resp="Taisho" place="foot text" type="orig">披＝被【甲】</note><note 
+n="1045011" resp="CBETA" type="mod">披【大】，被【甲】</note><app n="1045011">
+  <lem wit="【大】">披</lem>
+  <rdg resp="Taisho" wit="【甲】">被</rdg>
+</app>褐為居士。忽掛緋袍作使君。身出草
 <lb n="1045c26" ed="T"/>堂心不出廬山。未要動移文。</p>
 <lb n="1045c27" ed="T"/><p xml:id="pT51p1045c2701">三間茆舍向山開。一帶山泉繞舍回。山色水
 <lb n="1045c28" ed="T"/>聲莫惆悵。三年官滿却歸來。</p></cb:div>
 <lb n="1045c29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題別遺愛草堂兼呈李十使君</cb:mulu><head>題別遺愛草堂。兼呈李十使君
 <pb n="1046a" xml:id="T51.2095.1046a" ed="T"/>
-<lb n="1046a01" ed="T"/><note place="inline">李<note n="1046001" resp="Taisho" place="foot text" type="orig">方＋（帶）【甲】</note><note n="1046001" resp="CBETA" type="mod">方【大】，方帶【甲】</note><app n="1046001"><lem wit="【大】">方</lem><rdg resp="Taisho" wit="【甲】">方帶</rdg></app>廬山<note n="1046002" resp="Taisho" place="foot text" type="orig">〔常〕－【甲】</note><note n="1046002" resp="CBETA" type="mod">常【大】，〔－〕【甲】</note><app n="1046002"><lem wit="【大】">常</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>居白鹿洞</note></head><byline cb:type="author">同前</byline>
+<lb n="1046a01" ed="T"/><note place="inline">李<note 
+n="1046001" resp="Taisho" place="foot text" type="orig">方＋（帶）【甲】</note><note 
+n="1046001" resp="CBETA" type="mod">方【大】，方帶【甲】</note><app n="1046001">
+  <lem wit="【大】">方</lem>
+  <rdg resp="Taisho" wit="【甲】">方帶</rdg>
+</app>廬山<note 
+n="1046002" resp="Taisho" place="foot text" type="orig">〔常〕－【甲】</note><note 
+n="1046002" resp="CBETA" type="mod">常【大】，〔－〕【甲】</note><app n="1046002">
+  <lem wit="【大】">常</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>居白鹿洞</note></head>
+<byline cb:type="author">同前</byline>
 <lb n="1046a02" ed="T"/><p xml:id="pT51p1046a0201">曾住鑪峯下。書堂對藥臺。斬新蘿徑合。依舊
 <lb n="1046a03" ed="T"/>竹窓開。砌水親開決。池荷手自裁。五年方暫
 <lb n="1046a04" ed="T"/>至。一宿又湏回。縱未長歸得。猶勝不到來。君
 <lb n="1046a05" ed="T"/>家白鹿洞。聞道亦生苔。</p></cb:div>
-<lb n="1046a06" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">草堂前新開一池養魚種荷日有幽趣</cb:mulu><head>草堂前新開一池。養魚種荷。日有幽<note n="1046003" resp="Taisho" place="foot text" type="orig">甲本趣字下有同前二字</note>趣</head>
+<lb n="1046a06" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">草堂前新開一池養魚種荷日有幽趣</cb:mulu><head>草堂前新開一池。養魚種荷。日有幽<note 
+n="1046003" resp="Taisho" place="foot text" type="orig">甲本趣字下有同前二字</note>趣</head>
 <lb n="1046a07" ed="T"/><p xml:id="pT51p1046a0701">淙淙三峽水。浩浩萬頃陂。未如新塘上。微風
 <lb n="1046a08" ed="T"/>動漣漪。小萍加汎汎。初蒲正離離。紅鯉二三
 <lb n="1046a09" ed="T"/>寸。白蓮八九枝。遶水欲成徑。護堤方插籬已
 <lb n="1046a10" ed="T"/>被山中客。呼作白家池。</p></cb:div>
-<lb n="1046a11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">白雲期</cb:mulu><head>白雲期<note place="inline">黃名巖下作</note></head><byline cb:type="author">同前</byline>
+<lb n="1046a11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">白雲期</cb:mulu><head>白雲期<note place="inline">黃名巖下作</note></head>
+<byline cb:type="author">同前</byline>
 <lb n="1046a12" ed="T"/><p xml:id="pT51p1046a1201">三十氣太壯。胸中多是非。六十身太老。四體
 <lb n="1046a13" ed="T"/>不支持。四十至五十。正是退閑時。年長識命
 <lb n="1046a14" ed="T"/>分。心慵少營為。見酒興猶在。登山力未衰。吾
 <lb n="1046a15" ed="T"/>年幸當此。且與白雲期。</p></cb:div>
-<lb n="1046a16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">出山吟</cb:mulu><head>出山吟</head><byline cb:type="author">同前</byline>
+<lb n="1046a16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">出山吟</cb:mulu><head>出山吟</head>
+<byline cb:type="author">同前</byline>
 <lb n="1046a17" ed="T"/><p xml:id="pT51p1046a1701">朝詠遊仙詩。暮歌來薇曲。臥雲坐白石。山中
-<lb n="1046a18" ed="T"/>十五宿。行隨出<note n="1046004" resp="Taisho" place="foot text" type="orig">洞＝同【甲】</note><note n="1046004" resp="CBETA" type="mod">洞【大】，同【甲】</note><app n="1046004"><lem wit="【大】">洞</lem><rdg resp="Taisho" wit="【甲】">同</rdg></app>水。迴別緣巖竹。早晚重
+<lb n="1046a18" ed="T"/>十五宿。行隨出<note 
+n="1046004" resp="Taisho" place="foot text" type="orig">洞＝同【甲】</note><note 
+n="1046004" resp="CBETA" type="mod">洞【大】，同【甲】</note><app n="1046004">
+  <lem wit="【大】">洞</lem>
+  <rdg resp="Taisho" wit="【甲】">同</rdg>
+</app>水。迴別緣巖竹。早晚重
 <lb n="1046a19" ed="T"/>來遊。心期瑤草緣。</p></cb:div>
-<lb n="1046a20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題遠大師墳</cb:mulu><head>題遠大師墳</head><byline cb:type="author">僧靈澈</byline>
+<lb n="1046a20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題遠大師墳</cb:mulu><head>題遠大師墳</head>
+<byline cb:type="author">僧靈澈</byline>
 <lb n="1046a21" ed="T"/><p xml:id="pT51p1046a2101">古墓石稜稜寒。雲晚景凝。空悲虎溪月。不見
 <lb n="1046a22" ed="T"/>雁門僧。</p></cb:div>
-<lb n="1046a23" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">東林寺寄包侍郎</cb:mulu><head>東林寺寄包侍郎</head><byline cb:type="author">同前</byline>
+<lb n="1046a23" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">東林寺寄包侍郎</cb:mulu><head>東林寺寄包侍郎</head>
+<byline cb:type="author">同前</byline>
 <lb n="1046a24" ed="T"/><p xml:id="pT51p1046a2401">古殿清陰山木春。池邊跂石一觀身。誰能來
-<lb n="1046a25" ed="T"/>此焚香坐。共作鑪峯<note n="1046005" resp="Taisho" place="foot text" type="orig">二十＝峯下【甲】</note><note n="1046005" resp="CBETA" type="mod">二十【大】，峯下【甲】</note><app n="1046005"><lem wit="【大】">二十</lem><rdg resp="Taisho" wit="【甲】">峯下</rdg></app>人。</p></cb:div>
-<lb n="1046a26" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題西林寺水堂奉寄武陽公</cb:mulu><head>題西林寺水堂。奉寄武陽公</head><byline cb:type="author">同前</byline>
+<lb n="1046a25" ed="T"/>此焚香坐。共作鑪峯<note 
+n="1046005" resp="Taisho" place="foot text" type="orig">二十＝峯下【甲】</note><note 
+n="1046005" resp="CBETA" type="mod">二十【大】，峯下【甲】</note><app n="1046005">
+  <lem wit="【大】">二十</lem>
+  <rdg resp="Taisho" wit="【甲】">峯下</rdg>
+</app>人。</p></cb:div>
+<lb n="1046a26" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題西林寺水堂奉寄武陽公</cb:mulu><head>題西林寺水堂。奉寄武陽公</head>
+<byline cb:type="author">同前</byline>
 <lb n="1046a27" ed="T"/><p xml:id="pT51p1046a2701">日日愛山歸已遲。閑閑空度少年時。餘身定
 <lb n="1046a28" ed="T"/>寄林中老。心與長松片石期。</p></cb:div>
-<lb n="1046a29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head><byline cb:type="author">同前</byline>
+<lb n="1046a29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">同前</byline>
 <pb n="1046b" xml:id="T51.2095.1046b" ed="T"/>
 <lb n="1046b01" ed="T"/><p xml:id="pT51p1046b0101">古杉古柏巖壁間。猿攀鶴巢枝枯折。五月有
 <lb n="1046b02" ed="T"/>氷六月寒。時見仙翁來取雪。</p></cb:div>
-<lb n="1046b03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">五老峯大明觀贈隱者</cb:mulu><head>五老峯大明觀贈隱者</head><byline cb:type="author">姚係</byline>
+<lb n="1046b03" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">五老峯大明觀贈隱者</cb:mulu><head>五老峯大明觀贈隱者</head>
+<byline cb:type="author">姚係</byline>
 <lb n="1046b04" ed="T"/><p xml:id="pT51p1046b0401">雲觀此山北。與君携手稀。林端涉橫水。洞口
 <lb n="1046b05" ed="T"/>入斜暉。乍覺鸞鶴邇。忽為煙霧飛。故人清和
 <lb n="1046b06" ed="T"/>客。默會琴心微。丹術幸可授。青龍當來歸。悠
 <lb n="1046b07" ed="T"/>悠平生意。此日復相違。</p></cb:div>
-<lb n="1046b08" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head><byline cb:type="author">孫魴</byline>
+<lb n="1046b08" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">孫魴</byline>
 <lb n="1046b09" ed="T"/><p xml:id="pT51p1046b0901">郎殿與雲連。紫宵蒼翠邊。自然應有藥。誰敢
 <lb n="1046b10" ed="T"/>道無仙。蘚色吞崖徑。松聲讓瀑泉。未能長息
 <lb n="1046b11" ed="T"/>去。豈便是前緣。</p></cb:div>
-<lb n="1046b12" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">宿青牛谷梁鍊師仙居</cb:mulu><head>宿青牛谷梁鍊師仙居</head><byline cb:type="author">楊衡</byline>
+<lb n="1046b12" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">宿青牛谷梁鍊師仙居</cb:mulu><head>宿青牛谷梁鍊師仙居</head>
+<byline cb:type="author">楊衡</byline>
 <lb n="1046b13" ed="T"/><p xml:id="pT51p1046b1301">隨雲步入青牛谷。青牛道士留我宿。可憐夜
 <lb n="1046b14" ed="T"/>久月明中。唯有壇邊一枝竹。</p></cb:div>
-<lb n="1046b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">寵廬山隱者</cb:mulu><head><note n="1046006" resp="Taisho" place="foot text" type="orig">寵＝寄【甲】</note><note n="1046006" resp="CBETA" type="mod">寵【大】，寄【甲】</note><app n="1046006"><lem wit="【大】">寵</lem><rdg resp="Taisho" wit="【甲】">寄</rdg></app>廬山隱者</head><byline cb:type="author">同前</byline>
+<lb n="1046b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">寵廬山隱者</cb:mulu><head><note 
+n="1046006" resp="Taisho" place="foot text" type="orig">寵＝寄【甲】</note><note 
+n="1046006" resp="CBETA" type="mod">寵【大】，寄【甲】</note><app n="1046006">
+  <lem wit="【大】">寵</lem>
+  <rdg resp="Taisho" wit="【甲】">寄</rdg>
+</app>廬山隱者</head>
+<byline cb:type="author">同前</byline>
 <lb n="1046b16" ed="T"/><p xml:id="pT51p1046b1601">風鳴雲外鍾。鶴宿千年松。相思杳不見。月出
 <lb n="1046b17" ed="T"/>山重重。</p></cb:div>
-<lb n="1046b18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head><byline cb:type="author">江為</byline>
+<lb n="1046b18" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head>
+<byline cb:type="author">江為</byline>
 <lb n="1046b19" ed="T"/><p xml:id="pT51p1046b1901">廬山正南面。瀑布古來聞。萬里朝滄海。千尋
 <lb n="1046b20" ed="T"/>出白雲。寒聲終自遠。靈派孰為分。除却天台
 <lb n="1046b21" ed="T"/>後。平流莫可群。</p></cb:div>
-<lb n="1046b22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head><byline cb:type="author">同前</byline>
+<lb n="1046b22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">同前</byline>
 <lb n="1046b23" ed="T"/><p xml:id="pT51p1046b2301">纔入玄都解欝陶。羽人相伴遍遊遨。溪橫洞
 <lb n="1046b24" ed="T"/>口紅塵斷。岳聳天心紫氣高。金井泉秋光
 <lb n="1046b25" ed="T"/>㶑灔。石壇松古韻蕭<g ref="#CB06444"/>。吟餘却嘆浮生事。畫
 <lb n="1046b26" ed="T"/>□□□□□□。</p></cb:div>
-<lb n="1046b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀前</cb:mulu><head>簡寂觀</head><byline cb:type="author">同前</byline>
+<lb n="1046b27" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀前</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">同前</byline>
 <lb n="1046b28" ed="T"/><p xml:id="pT51p1046b2801">錢燼滿庭人醮罷。西峯凉影月沈沈。到來往
 <lb n="1046b29" ed="T"/>事碑中說。壇畔徘徊秋正深。</p></cb:div>
 <pb n="1046c" xml:id="T51.2095.1046c" ed="T"/>
-<lb n="1046c01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">去東林</cb:mulu><head>去東林</head><byline cb:type="author">曹汾</byline>
+<lb n="1046c01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">去東林</cb:mulu><head>去東林</head>
+<byline cb:type="author">曹汾</byline>
 <lb n="1046c02" ed="T"/><p xml:id="pT51p1046c0201">峯頭不住起孤煙。池上相留有白蓮。塵網分
 <lb n="1046c03" ed="T"/>明知束縛。要須騎馬別雲泉<note place="inline">會昌三年七月十五日題汾開成四年崔䗍下
-<lb n="1046c04" ed="T"/>進士後為中書舍人刑<note n="1046007" resp="Taisho" place="foot text" type="orig">〔戶〕－【甲】</note><note n="1046007" resp="CBETA" type="mod">戶【大】，〔－〕【甲】</note><app n="1046007"><lem wit="【大】">戶</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>部侍郎忠武軍節度使</note>。</p></cb:div>
-<lb n="1046c05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">留題詩</cb:mulu><p xml:id="pT51p1046c0501">予自右轄出鎮鍾陵。祕監家兄不忍遠
+<lb n="1046c04" ed="T"/>進士後為中書舍人刑<note 
+n="1046007" resp="Taisho" place="foot text" type="orig">〔戶〕－【甲】</note><note 
+n="1046007" resp="CBETA" type="mod">戶【大】，〔－〕【甲】</note><app n="1046007">
+  <lem wit="【大】">戶</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>部侍郎忠武軍節度使</note>。</p></cb:div>
+<lb n="1046c05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">留題詩</cb:mulu>
+<p xml:id="pT51p1046c0501">予自右轄出鎮鍾陵。祕監家兄不忍遠
 <lb n="1046c06" ed="T"/>別。函見宰坐求替。遂得同赴江西時也。
-<lb n="1046c07" ed="T"/>薦福大德顯公禪門上首言。歸<note n="1046008" resp="Taisho" place="foot text" type="orig">〔東〕－【甲】</note><note n="1046008" resp="CBETA" type="mod">東【大】，〔－〕【甲】</note><app n="1046008"><lem wit="【大】">東</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>林。亦
+<lb n="1046c07" ed="T"/>薦福大德顯公禪門上首言。歸<note 
+n="1046008" resp="Taisho" place="foot text" type="orig">〔東〕－【甲】</note><note 
+n="1046008" resp="CBETA" type="mod">東【大】，〔－〕【甲】</note><app n="1046008">
+  <lem wit="【大】">東</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>林。亦
 <lb n="1046c08" ed="T"/>獲結侶道路陪遊。每承清論。今過寺。因
-<lb n="1046c09" ed="T"/>留題詩一首。</p><byline cb:type="author">裴休</byline>
+<lb n="1046c09" ed="T"/>留題詩一首。</p>
+<byline cb:type="author">裴休</byline>
 <lb n="1046c10" ed="T"/><p xml:id="pT51p1046c1001">麟臺朝士辭書府。鳳闕禪宗出帝京。歸到雙
 <lb n="1046c11" ed="T"/>林親慧遠。行過五柳謁淵明。白衣居士輕班
-<lb n="1046c12" ed="T"/>爵。敗□高僧□□情。引得病夫無外想<note n="1046009" resp="Taisho" place="foot text" type="orig">二＝一【甲】</note><note n="1046009" resp="CBETA" type="mod">二【大】，一【甲】</note><app n="1046009"><lem wit="【大】">二</lem><rdg resp="Taisho" wit="【甲】">一</rdg></app>
+<lb n="1046c12" ed="T"/>爵。敗□高僧□□情。引得病夫無外想<note 
+n="1046009" resp="Taisho" place="foot text" type="orig">二＝一【甲】</note><note 
+n="1046009" resp="CBETA" type="mod">二【大】，一【甲】</note><app n="1046009">
+  <lem wit="【大】">二</lem>
+  <rdg resp="Taisho" wit="【甲】">一</rdg>
+</app>
 <lb n="1046c13" ed="T"/>心師事□□□。</p></cb:div>
-<lb n="1046c14" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">和舍弟寄題東林寺</cb:mulu><head>和舍弟寄題東林寺</head><byline cb:type="author">裴謨</byline>
+<lb n="1046c14" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">和舍弟寄題東林寺</cb:mulu><head>和舍弟寄題東林寺</head>
+<byline cb:type="author">裴謨</byline>
 <lb n="1046c15" ed="T"/><p xml:id="pT51p1046c1501">元非附鳳攀龍客。本是山猿野鹿身。虛向班
 <lb n="1046c16" ed="T"/>行紆祖紱。爭如□□□□塵。歡同玉季為良
 <lb n="1046c17" ed="T"/>伴。喜奉金□□□因。今日香爐峯下過。方欣
 <lb n="1046c18" ed="T"/>物外有遺民。</p></cb:div>
-<lb n="1046c19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head><byline cb:type="author">沈彬</byline>
+<lb n="1046c19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">沈彬</byline>
 <lb n="1046c20" ed="T"/><p xml:id="pT51p1046c2001">山藏勝境當□□。□□樓臺洞府開。白髮滿
 <lb n="1046c21" ed="T"/>頭誰肯到。蒼苔盈步自倫來。風帆閑事拋三
 <lb n="1046c22" ed="T"/>日。玉液長生念一盃。此路有心星月在。杏壇
 <lb n="1046c23" ed="T"/>仙侶莫相猜。</p></cb:div>
-<lb n="1046c24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">再到東林寺</cb:mulu><head>再到東林寺</head><byline cb:type="author">同前</byline>
+<lb n="1046c24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">再到東林寺</cb:mulu><head>再到東林寺</head>
+<byline cb:type="author">同前</byline>
 <lb n="1046c25" ed="T"/><p xml:id="pT51p1046c2501">十五年前還到此。池深苔蘚樹垂藤。重遊數
 <lb n="1046c26" ed="T"/>處心傷日。不見舊時頭白僧。花有露含長夜
 <lb n="1046c27" ed="T"/>月。殿無風動徹明燈。堪驚此去老又老。未有
 <lb n="1046c28" ed="T"/>更來能不能。</p></cb:div>
-<lb n="1046c29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head><byline cb:type="author">同前</byline>
+<lb n="1046c29" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">瀑布</cb:mulu><head>瀑布</head>
+<byline cb:type="author">同前</byline>
 <pb n="1047a" xml:id="T51.2095.1047a" ed="T"/>
 <lb n="1047a01" ed="T"/><p xml:id="pT51p1047a0101">瀉出岳中源化水。噴成瀑布世還希。雖如仙
-<lb n="1047a02" ed="T"/>女偷來織。不見山公<note n="1047001" resp="Taisho" place="foot text" type="orig">採＝探【甲】</note><note n="1047001" resp="CBETA" type="mod">採【大】，探【甲】</note><app n="1047001"><lem wit="【大】">採</lem><rdg resp="Taisho" wit="【甲】">探</rdg></app>得歸。萬古色嫌明月
+<lb n="1047a02" ed="T"/>女偷來織。不見山公<note 
+n="1047001" resp="Taisho" place="foot text" type="orig">採＝探【甲】</note><note 
+n="1047001" resp="CBETA" type="mod">採【大】，探【甲】</note><app n="1047001">
+  <lem wit="【大】">採</lem>
+  <rdg resp="Taisho" wit="【甲】">探</rdg>
+</app>得歸。萬古色嫌明月
 <lb n="1047a03" ed="T"/>薄。千尋勇學白雲飛。若言真箇堪裁剪。預被
 <lb n="1047a04" ed="T"/>豪家買作衣。</p></cb:div>
-<lb n="1047a05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望廬山</cb:mulu><head>望廬山</head><byline cb:type="author">同前</byline>
+<lb n="1047a05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">望廬山</cb:mulu><head>望廬山</head>
+<byline cb:type="author">同前</byline>
 <lb n="1047a06" ed="T"/><p xml:id="pT51p1047a0601">東過匡廬忍醉眠。雙眸盡日掛危巔。壓低吳
 <lb n="1047a07" ed="T"/>楚殽涵水。約破雲霞獨倚天。一面峭來無鳥
 <lb n="1047a08" ed="T"/>徑。數峯狂欲趁漁舡。江人莫笑偏凝望。卜隱
 <lb n="1047a09" ed="T"/>長思瀑布前。</p></cb:div>
-<lb n="1047a10" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林寺</cb:mulu><head>題東林寺</head><byline cb:type="author">布衣周碏</byline>
-<lb n="1047a11" ed="T"/><p xml:id="pT51p1047a1101">大中天子海恩深。再使迷<note n="1047002" resp="Taisho" place="foot text" type="orig">徒＝使【甲】</note><note n="1047002" resp="CBETA" type="mod">徒【大】，使【甲】</note><app n="1047002"><lem wit="【大】">徒</lem><rdg resp="Taisho" wit="【甲】">使</rdg></app>識佛心。半死
-<lb n="1047a12" ed="T"/>白蓮初降<note n="1047003" resp="Taisho" place="foot text" type="orig">雲＝雨【甲】</note><note n="1047003" resp="CBETA" type="mod">雲【大】，雨【甲】</note><app n="1047003"><lem wit="【大】">雲</lem><rdg resp="Taisho" wit="【甲】">雨</rdg></app>。欲成荒地又鋪金。僧開石室經
+<lb n="1047a10" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林寺</cb:mulu><head>題東林寺</head>
+<byline cb:type="author">布衣周碏</byline>
+<lb n="1047a11" ed="T"/><p xml:id="pT51p1047a1101">大中天子海恩深。再使迷<note 
+n="1047002" resp="Taisho" place="foot text" type="orig">徒＝使【甲】</note><note 
+n="1047002" resp="CBETA" type="mod">徒【大】，使【甲】</note><app n="1047002">
+  <lem wit="【大】">徒</lem>
+  <rdg resp="Taisho" wit="【甲】">使</rdg>
+</app>識佛心。半死
+<lb n="1047a12" ed="T"/>白蓮初降<note 
+n="1047003" resp="Taisho" place="foot text" type="orig">雲＝雨【甲】</note><note 
+n="1047003" resp="CBETA" type="mod">雲【大】，雨【甲】</note><app n="1047003">
+  <lem wit="【大】">雲</lem>
+  <rdg resp="Taisho" wit="【甲】">雨</rdg>
+</app>。欲成荒地又鋪金。僧開石室經
 <lb n="1047a13" ed="T"/>猶在。虎印溪泉跡未沈。誰謂五湖書劍客。此
 <lb n="1047a14" ed="T"/>生重得見東林。</p>
-<lb n="1047a15" ed="T"/><p xml:id="pT51p1047a1501">再崇玄法象西天。宏<note n="1047004" resp="Taisho" place="foot text" type="orig">閈＝閣【甲】</note><note n="1047004" resp="CBETA" type="mod">閈【大】，閣【甲】</note><app n="1047004"><lem wit="【大】">閈</lem><rdg resp="Taisho" wit="【甲】">閣</rdg></app>新高碧嶂前。風送片
+<lb n="1047a15" ed="T"/><p xml:id="pT51p1047a1501">再崇玄法象西天。宏<note 
+n="1047004" resp="Taisho" place="foot text" type="orig">閈＝閣【甲】</note><note 
+n="1047004" resp="CBETA" type="mod">閈【大】，閣【甲】</note><app n="1047004">
+  <lem wit="【大】">閈</lem>
+  <rdg resp="Taisho" wit="【甲】">閣</rdg>
+</app>新高碧嶂前。風送片
 <lb n="1047a16" ed="T"/>雲招白馬。鶴迎貧女施金錢。沙門覓佛曾諳
 <lb n="1047a17" ed="T"/>路。苦海悲人易得舡。三教共興談帝道。大中
 <lb n="1047a18" ed="T"/>年是太平年。</p></cb:div>
-<lb n="1047a19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林寺</cb:mulu><head>題東林寺四首</head><byline cb:type="author">禪月大師貫休</byline>
+<lb n="1047a19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林寺</cb:mulu><head>題東林寺四首</head>
+<byline cb:type="author">禪月大師貫休</byline>
 <lb n="1047a20" ed="T"/><p xml:id="pT51p1047a2001">閑行閑坐思攀緣。多是東林古寺前。小瀑便
 <lb n="1047a21" ed="T"/>高三百尺。短松多是一千年。盧楞伽畫苔漫
 <lb n="1047a22" ed="T"/>畫。殷仲堪碑雨滴穿。今欲更崇蓮社去。不
@@ -2110,47 +2360,79 @@
 <lb n="1047a28" ed="T"/><p xml:id="pT51p1047a2801">亘玄舊輦殘雲濕。耶舍孤墳落照遲。有箇老
 <lb n="1047a29" ed="T"/>僧倚松樹。恐人偷取白猿兒。</p></cb:div>
 <pb n="1047b" xml:id="T51.2095.1047b" ed="T"/>
-<lb n="1047b01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">懷西林諸道者</cb:mulu><head>懷西林諸道者</head><byline cb:type="author">同前</byline>
+<lb n="1047b01" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">懷西林諸道者</cb:mulu><head>懷西林諸道者</head>
+<byline cb:type="author">同前</byline>
 <lb n="1047b02" ed="T"/><p xml:id="pT51p1047b0201">島外更誰親。諸峯即四隣。白頭寒枕石。青袖
 <lb n="1047b03" ed="T"/>瀾無塵。橡栗堆行逕。猿猴遶定身。儻然重結
 <lb n="1047b04" ed="T"/>社。願作掃壇人。</p></cb:div>
-<lb n="1047b05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林寺</cb:mulu><head>題東林寺</head><byline cb:type="author">荊門僧齊己</byline>
+<lb n="1047b05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林寺</cb:mulu><head>題東林寺</head>
+<byline cb:type="author">荊門僧齊己</byline>
 <lb n="1047b06" ed="T"/><p xml:id="pT51p1047b0601">峯前林下東西寺。地角天涯來往僧。泉石靜
 <lb n="1047b07" ed="T"/>流閑世界。雲松寒濕晝香燈。爭如大士重修
 <lb n="1047b08" ed="T"/>社。合有諸賢更服膺。曾寄隣房掛瓶錫。喧聞
 <lb n="1047b09" ed="T"/>巖溜解春氷。</p></cb:div>
-<lb n="1047b10" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遠公影堂</cb:mulu><head>遠公影堂</head><byline cb:type="author">同前</byline>
+<lb n="1047b10" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">遠公影堂</cb:mulu><head>遠公影堂</head>
+<byline cb:type="author">同前</byline>
 <lb n="1047b11" ed="T"/><p xml:id="pT51p1047b1101">白藕池邊舊影堂。劉雷風骨盡龍章。共輕天
 <lb n="1047b12" ed="T"/>子諸候貴。同愛吾師一法長。陶令醉多招不
 <lb n="1047b13" ed="T"/>得。謝公心亂入無方。何人到此思高躅。風默
 <lb n="1047b14" ed="T"/>苔<g ref="#CB00477"/>滿粉牆。</p></cb:div>
-<lb n="1047b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head><byline cb:type="author">同前</byline>
+<lb n="1047b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">簡寂觀</cb:mulu><head>簡寂觀</head>
+<byline cb:type="author">同前</byline>
 <lb n="1047b16" ed="T"/><p xml:id="pT51p1047b1601">萬壑雲霞影。千年松檜聲。如何教下士。容易
-<lb n="1047b17" ed="T"/>信長生。月共虛無白。香和沅<note n="1047005" resp="Taisho" place="foot text" type="orig"><g ref="#CB06433"/>＝<g ref="#CB13985"/>【甲】</note><note n="1047005" resp="CBETA" type="mod"><g ref="#CB06433"/>【大】，<g ref="#CB13985"/>【甲】</note><app n="1047005"><lem wit="【大】"><g ref="#CB06433"/></lem><rdg resp="Taisho" wit="【甲】"><g ref="#CB13985"/></rdg></app>清。閑尋古
+<lb n="1047b17" ed="T"/>信長生。月共虛無白。香和沅<note 
+n="1047005" resp="Taisho" place="foot text" type="orig"><g ref="#CB06433"/>＝<g ref="#CB13985"/>【甲】</note><note 
+n="1047005" resp="CBETA" type="mod"><g ref="#CB06433"/>【大】，<g ref="#CB13985"/>【甲】</note><app n="1047005">
+  <lem wit="【大】"><g ref="#CB06433"/></lem>
+  <rdg resp="Taisho" wit="【甲】"><g ref="#CB13985"/></rdg>
+</app>清。閑尋古
 <lb n="1047b18" ed="T"/>廊畫。記得列仙名。</p></cb:div>
-<lb n="1047b19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">落星寺</cb:mulu><head>落星寺</head><byline cb:type="author">同前</byline>
+<lb n="1047b19" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">落星寺</cb:mulu><head>落星寺</head>
+<byline cb:type="author">同前</byline>
 <lb n="1047b20" ed="T"/><p xml:id="pT51p1047b2001">此星何事下穹蒼。獨為僧居化渺茫。樓閣雨
 <lb n="1047b21" ed="T"/>回青嶂冷。幹窓風渡白蘋香。經秋遠雁橫高
 <lb n="1047b22" ed="T"/>漠。䫿月寒濤響夜堂。盡日凭欄聊寫望。頓疑
 <lb n="1047b23" ed="T"/>身忽在瀟湘。</p></cb:div>
-<lb n="1047b24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">西林水閣</cb:mulu><head>西林水閣</head><byline cb:type="author">同前</byline>
+<lb n="1047b24" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">西林水閣</cb:mulu><head>西林水閣</head>
+<byline cb:type="author">同前</byline>
 <lb n="1047b25" ed="T"/><p xml:id="pT51p1047b2501">松楸連塔古。窓檻任閑開。水遶清陰裏。人從
 <lb n="1047b26" ed="T"/>熱處來。噪風蟬帶鶴。欹樹石兼苔。向曉東林
 <lb n="1047b27" ed="T"/>下。遲遲捨此迴。</p></cb:div>
 <lb n="1047b28" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林寺联句</cb:mulu><head>題東林寺联句</head>
 <lb n="1047b29" ed="T"/><p xml:id="pT51p1047b2901">古殿巍峨鎮碧峯。晉朝靈應顯神蹤。林間野
 <pb n="1047c" xml:id="T51.2095.1047c" ed="T"/>
-<lb n="1047c01" ed="T"/>鳥驚寅梵。嶺上孤猿聽晚鍾<note place="inline">節度使<note n="1047006" resp="Taisho" place="foot text" type="orig">時＝特【甲】</note><note n="1047006" resp="CBETA" type="mod">時【大】，特【甲】</note><app n="1047006"><lem wit="【大】">時</lem><rdg resp="Taisho" wit="【甲】">特</rdg></app>進檢校太尉平章事徐知證</note>
-<lb n="1047c02" ed="T"/><note n="1047007" resp="Taisho" place="foot text" type="orig">雁＋（□）【甲】</note><note n="1047007" resp="CBETA" type="mod">雁【大】，雁□【甲】</note><app n="1047007"><lem wit="【大】">雁</lem><rdg resp="Taisho" wit="【甲】">雁□</rdg></app>冷雲生曉檻。虎溪秋月照寒松<note place="inline">賜紫僧䖍修</note>香
+<lb n="1047c01" ed="T"/>鳥驚寅梵。嶺上孤猿聽晚鍾<note place="inline">節度使<note 
+n="1047006" resp="Taisho" place="foot text" type="orig">時＝特【甲】</note><note 
+n="1047006" resp="CBETA" type="mod">時【大】，特【甲】</note><app n="1047006">
+  <lem wit="【大】">時</lem>
+  <rdg resp="Taisho" wit="【甲】">特</rdg>
+</app>進檢校太尉平章事徐知證</note>
+<lb n="1047c02" ed="T"/><note 
+n="1047007" resp="Taisho" place="foot text" type="orig">雁＋（□）【甲】</note><note 
+n="1047007" resp="CBETA" type="mod">雁【大】，雁□【甲】</note><app n="1047007">
+  <lem wit="【大】">雁</lem>
+  <rdg resp="Taisho" wit="【甲】">雁□</rdg>
+</app>冷雲生曉檻。虎溪秋月照寒松<note place="inline">賜紫僧䖍修</note>香
 <lb n="1047c03" ed="T"/>飛寶殿籠金像。檜倚松窓覆玉容<note place="inline">道士李玄</note>蝶戀半
 <lb n="1047c04" ed="T"/>巖花灼灼。鹿眠深谷草茸茸<note place="inline">觀察推官賜紫金魚袋李</note>遊僧駐
 <lb n="1047c05" ed="T"/>錫心皆佛。老樹擎煙勢似龍<note place="inline">觀察推官賜緋魚袋王三</note>竹蔭禪
-<lb n="1047c06" ed="T"/>扉青靄合。嵐蒸幽逕緣苔封<note place="inline"><note n="1047008" resp="Taisho" place="foot text" type="orig">司理參軍∞掌表奏孟【甲】</note><note n="1047008" resp="CBETA" type="mod">司理參軍【大】∞掌表奏孟【甲】</note><app n="1047008"><lem wit="【大】">司理參軍</lem><rdg resp="Taisho" wit="【甲】">掌表奏孟</rdg></app>掌表奏孟拱辰</note>流泉
+<lb n="1047c06" ed="T"/>扉青靄合。嵐蒸幽逕緣苔封<note place="inline"><note 
+n="1047008" resp="Taisho" place="foot text" type="orig">司理參軍∞掌表奏孟【甲】</note><note 
+n="1047008" resp="CBETA" type="mod">司理參軍【大】∞掌表奏孟【甲】</note><app n="1047008">
+  <lem wit="【大】">司理參軍</lem>
+  <rdg resp="Taisho" wit="【甲】">掌表奏孟</rdg>
+</app>掌表奏孟拱辰</note>流泉
 <lb n="1047c07" ed="T"/>遶砌清聲遠。列巘趍門更憧憧。高吟況愛無
-<lb n="1047c08" ed="T"/>塵境。吟訪空關不厭重<note place="inline">管旬官賜紫金魚袋<note n="1047009" resp="Taisho" place="foot text" type="orig">鍾敬倫＝<g ref="#CB13970"/>敬倫鍾【甲】</note><note n="1047009" resp="CBETA" type="mod">鍾敬倫【大】，<g ref="#CB13970"/>敬倫鍾【甲】</note><app n="1047009"><lem wit="【大】">鍾敬倫</lem><rdg resp="Taisho" wit="【甲】"><g ref="#CB13970"/>敬倫鍾</rdg></app></note>。</p>
+<lb n="1047c08" ed="T"/>塵境。吟訪空關不厭重<note place="inline">管旬官賜紫金魚袋<note 
+n="1047009" resp="Taisho" place="foot text" type="orig">鍾敬倫＝<g ref="#CB13970"/>敬倫鍾【甲】</note><note 
+n="1047009" resp="CBETA" type="mod">鍾敬倫【大】，<g ref="#CB13970"/>敬倫鍾【甲】</note><app n="1047009">
+  <lem wit="【大】">鍾敬倫</lem>
+  <rdg resp="Taisho" wit="【甲】"><g ref="#CB13970"/>敬倫鍾</rdg>
+</app></note>。</p>
 <lb n="1047c09" ed="T"/><p xml:id="pT51p1047c0901" style="margin-left:1em">天祚二年三月十六日。偶與幕客門館僧
 <lb n="1047c10" ed="T"/>道閑遊联題。</p></cb:div>
-<lb n="1047c11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林</cb:mulu><head>題東林二首</head><byline cb:type="author">文通大師匡白</byline>
+<lb n="1047c11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">題東林</cb:mulu><head>題東林二首</head>
+<byline cb:type="author">文通大師匡白</byline>
 <lb n="1047c12" ed="T"/><p xml:id="pT51p1047c1201">東林佳景一何長。蘭蕙生多地亦香。堪嘆世
 <lb n="1047c13" ed="T"/>人來不得。便隨雲樹老何妨。倚天蒼翠晴當
 <lb n="1047c14" ed="T"/>戶。落口潺湲夜遶廊。到此秖除重結社。自餘
@@ -2158,22 +2440,30 @@
 <lb n="1047c16" ed="T"/><p xml:id="pT51p1047c1601">東林繼四絕。物象更清幽。社客去不返。鍾峯
 <lb n="1047c17" ed="T"/>雲也秋。松枯群狖散。溪大蠧槎流。待卜歸休
 <lb n="1047c18" ed="T"/>計。重來臥石樓。</p>
-<lb n="1047c19" ed="T"/><p xml:id="pT51p1047c1901"><note n="1047010" resp="Taisho" place="foot text" type="orig">甲本自人似至卷末無之</note>人似鶴紅鹿。路上事如麻。石肥滯雨添。蒼□
+<lb n="1047c19" ed="T"/><p xml:id="pT51p1047c1901"><note 
+n="1047010" resp="Taisho" place="foot text" type="orig">甲本自人似至卷末無之</note>人似鶴紅鹿。路上事如麻。石肥滯雨添。蒼□
 <lb n="1047c20" ed="T"/>水賦長松落翠。花莫道此間。無我分遺民。長在
 <lb n="1047c21" ed="T"/>惠持家。</p></cb:div>
-<lb n="1047c22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">落星寺</cb:mulu><head>落星寺</head><byline cb:type="author">同前</byline>
+<lb n="1047c22" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">落星寺</cb:mulu><head>落星寺</head>
+<byline cb:type="author">同前</byline>
 <lb n="1047c23" ed="T"/><p xml:id="pT51p1047c2301">是嶽皆遊遍。南來吳楚間。偶登湖裏寺。疑到
 <lb n="1047c24" ed="T"/>海中山。獨樹蒨蘿濕。遙汀白鳥閑。終頃謝浮
 <lb n="1047c25" ed="T"/>世。高臥聽潺潺。</p></cb:div></cb:div>
 <lb n="1047c26" ed="T"/><cb:juan n="004" fun="close"><cb:jhead>廬山記卷第四</cb:jhead></cb:juan>
-<lb n="1047c27" ed="T"/><cb:div type="w"><p xml:id="pT51p1047c2701" style="margin-left:5em"><note n="1047011" resp="Taisho" place="foot text" type="orig">〔一校…改〕七字－【甲】＊</note><note n="1047011" resp="CBETA" type="mod">（一校…改）七字【大】＊，〔－〕【甲】＊</note><app cb:word-count="7" n="1047011"><lem wit="【大】">一校了於字莫改</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app></p></cb:div>
+<lb n="1047c27" ed="T"/><cb:div type="w"><p xml:id="pT51p1047c2701" style="margin-left:5em"><note 
+n="1047011" resp="Taisho" place="foot text" type="orig">〔一校…改〕七字－【甲】＊</note><note 
+n="1047011" resp="CBETA" type="mod">（一校…改）七字【大】＊，〔－〕【甲】＊</note><app cb:word-count="7" n="1047011">
+  <lem wit="【大】">一校了於字莫改</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app></p></cb:div>
 <milestone n="5" unit="juan"/>
 <pb n="1048a" xml:id="T51.2095.1048a" ed="T"/>
 <lb n="1048a01" ed="T"/>
 <lb n="1048a02" ed="T"/><cb:juan n="005" fun="open"><cb:mulu n="5" type="卷"/><cb:jhead>廬山記卷第五</cb:jhead></cb:juan>
 <lb n="1048a03" ed="T"/>
 <lb n="1048a04" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">7 古碑目</cb:mulu><head>古碑目第七</head>
-<lb n="1048a05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">序</cb:mulu><p xml:id="pT51p1048a0501">廬山自晉宋齊梁陳隋唐。至本朝。幾八百年。
+<lb n="1048a05" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">序</cb:mulu>
+<p xml:id="pT51p1048a0501">廬山自晉宋齊梁陳隋唐。至本朝。幾八百年。
 <lb n="1048a06" ed="T"/>其間廢興盛衰皆有記述。歲月浸久往往亡
 <lb n="1048a07" ed="T"/>失。若殷仲堪作遠公碑。天祐間猶見於貫休
 <lb n="1048a08" ed="T"/>之詩。今無復遺漫矣。今錄太平東林已下五
@@ -2212,7 +2502,12 @@
 <lb n="1048b11" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">宋佛馱跋陀羅禪師碑</cb:mulu><head>宋佛馱跋陀羅禪師碑</head>
 <lb n="1048b12" ed="T"/><p xml:id="pT51p1048b1201" style="margin-left:1em">唐開元十七年歲在己巳七月己丑朔十五
 <lb n="1048b13" ed="T"/>日癸卯建</p></cb:div>
-<lb n="1048b14" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">兀兀禪師</cb:mulu><head>兀兀禪<note n="1048001" resp="Taisho" place="foot text" type="orig">師＋（碑）【甲】</note><note n="1048001" resp="CBETA" type="mod">師【大】，師碑【甲】</note><app n="1048001"><lem wit="【大】">師</lem><rdg resp="Taisho" wit="【甲】">師碑</rdg></app></head>
+<lb n="1048b14" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">兀兀禪師</cb:mulu><head>兀兀禪<note 
+n="1048001" resp="Taisho" place="foot text" type="orig">師＋（碑）【甲】</note><note 
+n="1048001" resp="CBETA" type="mod">師【大】，師碑【甲】</note><app n="1048001">
+  <lem wit="【大】">師</lem>
+  <rdg resp="Taisho" wit="【甲】">師碑</rdg>
+</app></head>
 <lb n="1048b15" ed="T"/><p xml:id="pT51p1048b1501" style="margin-left:1em">中書舍人趙郡李訥文　金紫光祿大夫行
 <lb n="1048b16" ed="T"/>同州刺史上柱國范陽縣開國男張廷珪書
 <lb n="1048b17" ed="T"/>江州刺史河東柳貞望樹</p>
@@ -2235,12 +2530,14 @@
 <lb n="1048c03" ed="T"/>奉郎前守蔡州真陽縣令李行言書并篆
 <lb n="1048c04" ed="T"/>額。貞元十二年丙子歲建。大中八年七月
 <lb n="1048c05" ed="T"/>二十三日再立。</p></cb:div>
-<lb n="1048c06" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">東林寺經藏碑銘</cb:mulu><head><note n="1048002" resp="Taisho" place="foot text" type="orig">甲本東林寺經藏碑並唐故東林寺律大德粲公碑銘在於慧遠法師碑銘之前</note>東林寺經藏碑銘<note place="inline">并序</note></head>
+<lb n="1048c06" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">東林寺經藏碑銘</cb:mulu><head><note 
+n="1048002" resp="Taisho" place="foot text" type="orig">甲本東林寺經藏碑並唐故東林寺律大德粲公碑銘在於慧遠法師碑銘之前</note>東林寺經藏碑銘<note place="inline">并序</note></head>
 <lb n="1048c07" ed="T"/><p xml:id="pT51p1048c0701" style="margin-left:1em">朝請郎試太常寺協律郎李肇撰。元和七
 <lb n="1048c08" ed="T"/>年歲次壬辰九月丙辰朔十五日庚午建。
 <lb n="1048c09" ed="T"/>大中十三年七月八日。鄉貢進士馮譔再
 <lb n="1048c10" ed="T"/>書并篆額。</p></cb:div>
-<lb n="1048c11" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">唐故東林寺律大德粲公碑銘</cb:mulu><head><note n="1048003" resp="Taisho" place="foot text" type="orig">甲本東林寺經藏碑並唐故東林寺律大德粲公碑銘在於慧遠法師碑銘之前</note>唐故東林寺律大德粲公碑銘<note place="inline">并序</note></head>
+<lb n="1048c11" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">唐故東林寺律大德粲公碑銘</cb:mulu><head><note 
+n="1048003" resp="Taisho" place="foot text" type="orig">甲本東林寺經藏碑並唐故東林寺律大德粲公碑銘在於慧遠法師碑銘之前</note>唐故東林寺律大德粲公碑銘<note place="inline">并序</note></head>
 <lb n="1048c12" ed="T"/><p xml:id="pT51p1048c1201" style="margin-left:1em">吉州司戶參軍員外置同正員許堯佐撰。
 <lb n="1048c13" ed="T"/>吳郡陸蔚之書并篆額。元和癸巳歲端午
 <lb n="1048c14" ed="T"/>日建。大中八年七月二十二日再立。</p></cb:div>
@@ -2390,7 +2687,16 @@
 <lb n="1050b08" ed="T"/>立。</p></cb:div>
 <lb n="1050b09" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">大唐新建廬山開元禪院碑</cb:mulu><head>大唐新建廬山開元禪院碑</head>
 <lb n="1050b10" ed="T"/><p xml:id="pT51p1050b1001" style="margin-left:1em">昭義軍節度使特進守大弟太保上柱國始
-<lb n="1050b11" ed="T"/>平郡開國侯食邑一千戶<note n="1050001" resp="Taisho" place="foot text" type="orig">臣＝<g ref="#CB07330"/>【甲】</note><note n="1050001" resp="CBETA" type="mod">臣【大】，<g ref="#CB07330"/>【甲】</note><app n="1050001"><lem wit="【大】">臣</lem><rdg resp="Taisho" wit="【甲】"><g ref="#CB07330"/></rdg></app>馮延<note n="1050b1101" resp="CBETA" type="add">巳【CB】，已【大】</note><app n="1050b1101"><lem wit="【CB】" resp="CBETA.maha">巳</lem><rdg wit="【大】">已</rdg></app>奉勅
+<lb n="1050b11" ed="T"/>平郡開國侯食邑一千戶<note 
+n="1050001" resp="Taisho" place="foot text" type="orig">臣＝<g ref="#CB07330"/>【甲】</note><note 
+n="1050001" resp="CBETA" type="mod">臣【大】，<g ref="#CB07330"/>【甲】</note><app n="1050001">
+  <lem wit="【大】">臣</lem>
+  <rdg resp="Taisho" wit="【甲】"><g ref="#CB07330"/></rdg>
+</app>馮延<note 
+n="1050b1101" resp="CBETA" type="add">巳【CB】，已【大】</note><app n="1050b1101">
+  <lem wit="【CB】" resp="CBETA.maha">巳</lem>
+  <rdg wit="【大】">已</rdg>
+</app>奉勅
 <lb n="1050b12" ed="T"/>撰　平廬軍節度使光祿大夫檢校太傅刑
 <lb n="1050b13" ed="T"/>部尚書上柱國上饒郡公食邑二千戶臣徐
 <lb n="1050b14" ed="T"/>遜奉勅書并題額　保大十二年歲次甲寅
@@ -2413,7 +2719,11 @@
 <lb n="1050c01" ed="T"/>戊。興殷亮韋柏尼賈鎰同次于東林寺。同則
 <lb n="1050c02" ed="T"/>惜熙怡二公惠秀正義二律師泉楊鷫存焉。
 <lb n="1050c03" ed="T"/>仰廬阜之爐峯。想遠公之遺烈。外神運殿。禮
-<lb n="1050c04" ed="T"/>僧伽衣。覩生法師<note n="1050c0401" resp="CBETA" type="add">麈【CB】，塵【大】</note><app n="1050c0401"><lem wit="【CB】" resp="CBETA.maha">麈</lem><rdg wit="【大】">塵</rdg></app>尾扇。謝靈運翻涅槃經
+<lb n="1050c04" ed="T"/>僧伽衣。覩生法師<note 
+n="1050c0401" resp="CBETA" type="add">麈【CB】，塵【大】</note><app n="1050c0401">
+  <lem wit="【CB】" resp="CBETA.maha">麈</lem>
+  <rdg wit="【大】">塵</rdg>
+</app>尾扇。謝靈運翻涅槃經
 <lb n="1050c05" ed="T"/>貝多梵夾。忻慕之不足。聊寓刻于張李二公
 <lb n="1050c06" ed="T"/>耶舍禪師之碑側。魯郡顏真卿書記<note place="inline">刻石在東林寺耶舍禪師
 <lb n="1050c07" ed="T"/>碑側</note>。</p>
@@ -2422,7 +2732,12 @@
 <lb n="1050c10" ed="T"/>寺。有法真律師。深究清淨毘尼之學。即律祖
 <lb n="1050c11" ed="T"/>師志恩之上足。余內弟正義之阿闍梨也。緬
 <lb n="1050c12" ed="T"/>懷遠現二公之遺烈。導余躋重閣。示余以張
-<lb n="1050c13" ed="T"/>僧繇畫廬舍那佛像<note n="1050002" resp="Taisho" place="foot text" type="orig"><g ref="#CB13967"/>＝泉【甲】</note><note n="1050002" resp="CBETA" type="mod"><g ref="#CB13967"/>【大】，泉【甲】</note><app n="1050002"><lem wit="【大】"><g ref="#CB13967"/></lem><rdg resp="Taisho" wit="【甲】">泉</rdg></app>梁武帝蹙線繡鉢袋。
+<lb n="1050c13" ed="T"/>僧繇畫廬舍那佛像<note 
+n="1050002" resp="Taisho" place="foot text" type="orig"><g ref="#CB13967"/>＝泉【甲】</note><note 
+n="1050002" resp="CBETA" type="mod"><g ref="#CB13967"/>【大】，泉【甲】</note><app n="1050002">
+  <lem wit="【大】"><g ref="#CB13967"/></lem>
+  <rdg resp="Taisho" wit="【甲】">泉</rdg>
+</app>梁武帝蹙線繡鉢袋。
 <lb n="1050c14" ed="T"/>因寓題歐陽公所撰永公碑陰。魯公顏真卿
 <lb n="1050c15" ed="T"/>題<note place="inline">刻石在西林寺永禪師碑上</note>。</p>
 <lb n="1050c16" ed="T"/><p xml:id="pT51p1050c1601">隴西子德譙國子伸河南虛中京兆希遠隴西
@@ -2432,7 +2747,12 @@
 <lb n="1050c20" ed="T"/>中十二年。准詔嶺南宣問。七月二十乙日。再
 <lb n="1050c21" ed="T"/>過此藏經。舊日剏置隨寺毀廢。賴道深和尚
 <lb n="1050c22" ed="T"/>藏諸石室。言上人明上人以補其闕。獲覩舊
-<lb n="1050c23" ed="T"/>續觸緒摧<note n="1050003" resp="Taisho" place="foot text" type="orig"><g ref="#CB06407"/>＝絹【甲】</note><note n="1050003" resp="CBETA" type="mod"><g ref="#CB06407"/>【大】，絹【甲】</note><app n="1050003"><lem wit="【大】"><g ref="#CB06407"/></lem><rdg resp="Taisho" wit="【甲】">絹</rdg></app>。施三百千。再建堂宇。時湖南
+<lb n="1050c23" ed="T"/>續觸緒摧<note 
+n="1050003" resp="Taisho" place="foot text" type="orig"><g ref="#CB06407"/>＝絹【甲】</note><note 
+n="1050003" resp="CBETA" type="mod"><g ref="#CB06407"/>【大】，絹【甲】</note><app n="1050003">
+  <lem wit="【大】"><g ref="#CB06407"/></lem>
+  <rdg resp="Taisho" wit="【甲】">絹</rdg>
+</app>。施三百千。再建堂宇。時湖南
 <lb n="1050c24" ed="T"/>江西皆擾亂。一辭京闕。三踐危邦。到此數刻
 <lb n="1050c25" ed="T"/>與言明話道。又乘軺北去。男澤侍行<note place="inline">刻石在東林寺</note>。</p>
 <lb n="1050c26" ed="T"/><p xml:id="pT51p1050c2601">余今年七月。銜命按撫嶺南。中旬之初自番
@@ -2465,7 +2785,17 @@
 <lb n="1051a23" ed="T"/>太歲己亥三月二十三日書　西上閤門使金
 <lb n="1051a24" ed="T"/>紫光祿大夫檢校司徒行右武衛大將軍兼御
 <lb n="1051a25" ed="T"/>史大夫忠上柱國夏謙叨奉叡旨封冊雄藩。
-<lb n="1051a26" ed="T"/>駐泊旬餘。將更歲序。受<note n="1051001" resp="Taisho" place="foot text" type="orig">王＝主【甲】</note><note n="1051001" resp="CBETA" type="mod">王【大】，主【甲】</note><app n="1051001"><lem wit="【大】">王</lem><rdg resp="Taisho" wit="【甲】">主</rdg></app>恩而重疊沐<note n="1051002" resp="Taisho" place="foot text" type="orig">台＝洽【甲】</note><note n="1051002" resp="CBETA" type="mod">台【大】，洽【甲】</note><app n="1051002"><lem wit="【大】">台</lem><rdg resp="Taisho" wit="【甲】">洽</rdg></app>
+<lb n="1051a26" ed="T"/>駐泊旬餘。將更歲序。受<note 
+n="1051001" resp="Taisho" place="foot text" type="orig">王＝主【甲】</note><note 
+n="1051001" resp="CBETA" type="mod">王【大】，主【甲】</note><app n="1051001">
+  <lem wit="【大】">王</lem>
+  <rdg resp="Taisho" wit="【甲】">主</rdg>
+</app>恩而重疊沐<note 
+n="1051002" resp="Taisho" place="foot text" type="orig">台＝洽【甲】</note><note 
+n="1051002" resp="CBETA" type="mod">台【大】，洽【甲】</note><app n="1051002">
+  <lem wit="【大】">台</lem>
+  <rdg resp="Taisho" wit="【甲】">洽</rdg>
+</app>
 <lb n="1051a27" ed="T"/>念以彌深。而又許廁王車。得遊化境。時昇元
 <lb n="1051a28" ed="T"/>二年正月二十八日。故留題記。</p>
 <lb n="1051a29" ed="T"/><p xml:id="pT51p1051a2901">唐奉化軍節度江州營田觀察處置等使金紫

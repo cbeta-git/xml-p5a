@@ -2,209 +2,268 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="B06n0004">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Supplement to the Dazangjing</title>
-			<title level="s" xml:lang="zh-Hant">大藏經補編</title>
-			<title level="m" xml:lang="zh-Hant">南傳中部經典</title>
-			<title>Supplement to the Dazangjing, Electronic version, No. 4 南傳中部經典</title>
-			<title xml:lang="zh-Hant">大藏經補編數位版, No. 4 南傳中部經典</title>
-			<author>芝峯譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">B</idno>.<idno type="vol">6</idno>.<idno type="no">4</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大藏經補編</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【補編】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2011-11-01T11:35:58">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Supplement to the Dazangjing</title>
+      <title level="s" xml:lang="zh-Hant">大藏經補編</title>
+      <title level="m" xml:lang="zh-Hant">南傳中部經典</title>
+      <title>Supplement to the Dazangjing, Electronic version, No. 4 南傳中部經典</title>
+      <title xml:lang="zh-Hant">大藏經補編數位版, No. 4 南傳中部經典</title>
+      <author>芝峯譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">B</idno>.<idno type="vol">6</idno>.<idno type="no">4</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大藏經補編</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【補編】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2011-11-01T11:35:58">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="B" xml:id="B06.0004.0083a" n="0083a"/>
-<lb ed="B" n="0083a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>中部經典一</cb:jhead></cb:juan><byline cb:type="translator">沙門芝峯據日譯本重譯</byline>
+<lb ed="B" n="0083a01"/><cb:mulu type="卷" n="1"/><cb:juan fun="open" n="1"><cb:jhead>中部經典一</cb:jhead></cb:juan>
+<byline cb:type="translator">沙門芝峯據日譯本重譯</byline>
 <lb ed="B" n="0083a02"/><cb:div type="other"><cb:mulu type="其他" level="1">目次</cb:mulu><head>目次</head>
-<lb ed="B" n="0083a03"/><list rend="no-marker"><item xml:id="itemB06p0083a0301"><p xml:id="pB06p0083a0301">根本五十經編第一</p>
-<lb ed="B" n="0083a04"/><list rend="no-marker"><item xml:id="itemB06p0083a0401"><p xml:id="pB06p0083a0401">根本法門品第一</p>
-<lb ed="B" n="0083a05"/><list rend="no-marker"><item xml:id="itemB06p0083a0501"><p xml:id="pB06p0083a0501">根本法門經第一　　干潟龍祥原譯　　一</p>
-<lb ed="B" n="0083a06"/><p xml:id="pB06p0083a0601" style="margin-left:1em">舊譯　中阿含一〇六想經（大正藏一、五九六頁）．樂想經（大正藏一、八五一頁）。</p><p xml:id="pB06p0083a0632" style="margin-left:1em" cb:place="inline">本經適如其
+<lb ed="B" n="0083a03"/><list rend="no-marker">
+  <item xml:id="itemB06p0083a0301"><p xml:id="pB06p0083a0301">根本五十經編第一</p>
+<lb ed="B" n="0083a04"/><list rend="no-marker">
+    <item xml:id="itemB06p0083a0401"><p xml:id="pB06p0083a0401">根本法門品第一</p>
+<lb ed="B" n="0083a05"/><list rend="no-marker">
+      <item xml:id="itemB06p0083a0501"><p xml:id="pB06p0083a0501">根本法門經第一　　干潟龍祥原譯　　一</p>
+<lb ed="B" n="0083a06"/><p xml:id="pB06p0083a0601" style="margin-left:1em">舊譯　中阿含一〇六想經（大正藏一、五九六頁）．樂想經（大正藏一、八五一頁）。</p>
+<p xml:id="pB06p0083a0632" style="margin-left:1em" cb:place="inline">本經適如其
 <lb ed="B" n="0083a07"/>名．是說一切法門根本。初說凡夫以不熟知一切諸法故．於一切諸法懷種種想而生悅樂．解脫阿
 <lb ed="B" n="0083a08"/>羅漢以熟知一切諸法．滅盡貪、瞋、癡故．無如是心。又說如來知樂是苦之根本．滅一切渴愛而成正
 <lb ed="B" n="0083a09"/>覺。</p></item>
-<lb ed="B" n="0083a10"/><item xml:id="itemB06p0083a1001"><p xml:id="pB06p0083a1001">一切漏經第二　　同上　　四</p>
+<lb ed="B" n="0083a10"/>
+      <item xml:id="itemB06p0083a1001"><p xml:id="pB06p0083a1001">一切漏經第二　　同上　　四</p>
 <lb ed="B" n="0083a11"/><p xml:id="pB06p0083a1101" style="margin-left:1em">舊譯　中阿含一〇漏盡經（大正藏一、四三一頁）．一切流攝守經（大正藏一、八一三頁）．增一阿
-<lb ed="B" n="0083a12"/>含四〇、六、淨諸漏（大正藏二、七四〇頁）。</p><p xml:id="pB06p0083a1217" style="margin-left:1em" cb:place="inline">本經是說滅一切漏（煩惱）之方法．大別之分為依見
+<lb ed="B" n="0083a12"/>含四〇、六、淨諸漏（大正藏二、七四〇頁）。</p>
+<p xml:id="pB06p0083a1217" style="margin-left:1em" cb:place="inline">本經是說滅一切漏（煩惱）之方法．大別之分為依見
 <lb ed="B" n="0083a13"/>而滅與依知而滅。依見而滅者．是捨邪見．依知而滅者．區別為六．即依防護、依用、依忍、依避、依除、依
 <lb ed="B" n="0083a14"/>修習而捨離煩惱。</p></item>
-<lb ed="B" n="0083a15"/><item xml:id="itemB06p0083a1501"><p xml:id="pB06p0083a1501">法嗣經第三　　同上　　八</p>
+<lb ed="B" n="0083a15"/>
+      <item xml:id="itemB06p0083a1501"><p xml:id="pB06p0083a1501">法嗣經第三　　同上　　八</p>
 <lb ed="B" n="0083a16"/><p xml:id="pB06p0083a1601" style="margin-left:1em">舊譯　中阿含八八求法經（大正藏一、五六九頁）．增一阿含一八、三．法施（大正藏二、五八七頁）。</p>
 <lb ed="B" n="0083a17"/><p xml:id="pB06p0083a1701" style="margin-left:1em">本經分二部分。初部分佛對諸比丘說法．教諸比丘．汝等應為我法之繼承者．縱至饑渴．亦不可
 <lb ed="B" n="0083a18"/>就財捨法。第二部分．舍利弗為諸比丘說法．教比丘應住遠離．應住捨離惡法．修八支聖道。（舊譯
 <lb ed="B" n="0083a19"/>中阿含在初部分與第二部分連接處．插入世尊略說已．背痛休養．舍利弗代為廣說一段文．使兩
 <lb ed="B" n="0083a20"/>部連接上更顯圓滑）。</p></item>
-<lb ed="B" n="0083a21"/><item xml:id="itemB06p0083a2101"><p xml:id="pB06p0083a2101">怖駭經第四　　同上　　一二</p>
-<lb ed="B" n="0083a22"/><p xml:id="pB06p0083a2201" style="margin-left:1em">舊譯　增一阿含三一、一（大正藏二、六六五頁）。</p><p xml:id="pB06p0083a2219" style="margin-left:1em" cb:place="inline">本經是教以依於獨坐閑林精進禪定．乃得解
+<lb ed="B" n="0083a21"/>
+      <item xml:id="itemB06p0083a2101"><p xml:id="pB06p0083a2101">怖駭經第四　　同上　　一二</p>
+<lb ed="B" n="0083a22"/><p xml:id="pB06p0083a2201" style="margin-left:1em">舊譯　增一阿含三一、一（大正藏二、六六五頁）。</p>
+<p xml:id="pB06p0083a2219" style="margin-left:1em" cb:place="inline">本經是教以依於獨坐閑林精進禪定．乃得解
 <lb ed="B" n="0083a23"/>脫。以此示於生漏婆羅門．彼婆羅門．遂為佛之信者。</p></item>
-<lb ed="B" n="0083a24"/><item xml:id="itemB06p0083a2401"><p xml:id="pB06p0083a2401">無穢經第五　　同上　　一六</p>
+<lb ed="B" n="0083a24"/>
+      <item xml:id="itemB06p0083a2401"><p xml:id="pB06p0083a2401">無穢經第五　　同上　　一六</p>
 <lb ed="B" n="0083a25"/><p xml:id="pB06p0083a2501" style="margin-left:1em">舊譯　中阿含七八穢品經（大正藏一、五六六頁）．求欲經（大正藏一、八三九頁）．增一阿含二五、
-<lb ed="B" n="0083a26"/>六、結（大正藏二、六三二頁）。</p><p xml:id="pB06p0083a2612" style="margin-left:1em" cb:place="inline">本經於穢之有無．說四種人。初大半部．是舍利弗對諸比丘之說法．
+<lb ed="B" n="0083a26"/>六、結（大正藏二、六三二頁）。</p>
+<p xml:id="pB06p0083a2612" style="margin-left:1em" cb:place="inline">本經於穢之有無．說四種人。初大半部．是舍利弗對諸比丘之說法．
 <lb ed="B" n="0083a27"/>後小部分．是大目犍連與舍利弗互相問答。</p></item>
-<lb ed="B" n="0083a28"/><item xml:id="itemB06p0083a2801"><p xml:id="pB06p0083a2801">願經第六　　同上　　二三</p>
-<lb ed="B" n="0083a29"/><p xml:id="pB06p0083a2901" style="margin-left:1em">舊譯　中阿含一〇五願經（大正藏一、五九五頁）。參考 A. X. 71. Ākaṅkna。</p><p xml:id="pB06p0083a2942" style="margin-left:1em" cb:place="inline">本經是教以若比
+<lb ed="B" n="0083a28"/>
+      <item xml:id="itemB06p0083a2801"><p xml:id="pB06p0083a2801">願經第六　　同上　　二三</p>
+<lb ed="B" n="0083a29"/><p xml:id="pB06p0083a2901" style="margin-left:1em">舊譯　中阿含一〇五願經（大正藏一、五九五頁）。參考 A. X. 71. Ākaṅkna。</p>
+<p xml:id="pB06p0083a2942" style="margin-left:1em" cb:place="inline">本經是教以若比
 <lb ed="B" n="0083a30"/>丘懷有種種之願望．為充滿其願望故．當先受戒而能守護。</p></item>
-<lb ed="B" n="0083a31"/><item xml:id="itemB06p0083a3101"><p xml:id="pB06p0083a3101">布喻經第七　　同上　　二五</p>
+<lb ed="B" n="0083a31"/>
+      <item xml:id="itemB06p0083a3101"><p xml:id="pB06p0083a3101">布喻經第七　　同上　　二五</p>
 <lb ed="B" n="0083a32"/><p xml:id="pB06p0083a3201" style="margin-left:1em">舊譯　中阿含九三水淨梵志經（大正藏一、五七五頁）．梵志計水淨經（大正藏一、八四三頁）．增
 <pb ed="B" xml:id="B06.0004.0083b" n="0083b"/>
 <lb ed="B" n="0083b01"/>一阿含一三、五．孫陀利（大正藏二、五七三頁）。後半部雜阿含一一八五（大正藏二、三二一頁）．別
-<lb ed="B" n="0083b02"/>譯雜阿含九九（大正藏二、四〇八頁）。</p><p xml:id="pB06p0083b0216" style="margin-left:1em" cb:place="inline">本經是教以人若心穢．易墮惡趣．若心清淨．能豫期善趣。
+<lb ed="B" n="0083b02"/>譯雜阿含九九（大正藏二、四〇八頁）。</p>
+<p xml:id="pB06p0083b0216" style="margin-left:1em" cb:place="inline">本經是教以人若心穢．易墮惡趣．若心清淨．能豫期善趣。
 <lb ed="B" n="0083b03"/>猶如污布．着染不鮮明．若是淨布．着染鮮明。次說種種心穢。最後說當常使心清淨．以誡婆羅門孫
 <lb ed="B" n="0083b04"/>陀利迦頗羅墮瓦遮之崇尚浴行為不足法．示以唯心沐浴．是為最要者。</p></item>
-<lb ed="B" n="0083b05"/><item xml:id="itemB06p0083b0501"><p xml:id="pB06p0083b0501">損損經第八　　同上　　二九</p>
-<lb ed="B" n="0083b06"/><p xml:id="pB06p0083b0601" style="margin-left:1em">舊譯　中阿含九一周那問見經（大正藏一、五七三頁）。</p><p xml:id="pB06p0083b0622" style="margin-left:1em" cb:place="inline">本經是對長老大周那說法。首示以捨
+<lb ed="B" n="0083b05"/>
+      <item xml:id="itemB06p0083b0501"><p xml:id="pB06p0083b0501">損損經第八　　同上　　二九</p>
+<lb ed="B" n="0083b06"/><p xml:id="pB06p0083b0601" style="margin-left:1em">舊譯　中阿含九一周那問見經（大正藏一、五七三頁）。</p>
+<p xml:id="pB06p0083b0622" style="margin-left:1em" cb:place="inline">本經是對長老大周那說法。首示以捨
 <lb ed="B" n="0083b07"/>離諸見之根本法．次示以五部門說損損諸惡欲得至究竟涅槃之方法。所謂五部門者．第一損損．
-<lb ed="B" n="0083b08"/>第二於善法發<note n="0083b0801" resp="CBETA" type="add">心【CB】，<unclear/>【補編】</note><app n="0083b0801"><lem wit="【CB】" resp="CBETA.maha">心．</lem><rdg wit="【補編】"><unclear/></rdg></app>第三迴避惡欲法．第四昇於高處善法．第五到究竟涅槃法。</p></item>
-<lb ed="B" n="0083b09"/><item xml:id="itemB06p0083b0901"><p xml:id="pB06p0083b0901">正見經第九　　同上　　三四</p>
-<lb ed="B" n="0083b10"/><p xml:id="pB06p0083b1001" style="margin-left:1em">舊譯　後半部增一阿含四九、五（大正藏二、七九七頁）。</p><p xml:id="pB06p0083b1022" style="margin-left:1em" cb:place="inline">本經是舍利弗答諸比丘所問．關於得
+<lb ed="B" n="0083b08"/>第二於善法發<note 
+n="0083b0801" resp="CBETA" type="add">心【CB】，<unclear/>【補編】</note><app n="0083b0801">
+        <lem wit="【CB】" resp="CBETA.maha">心．</lem>
+        <rdg wit="【補編】"><unclear/></rdg>
+      </app>第三迴避惡欲法．第四昇於高處善法．第五到究竟涅槃法。</p></item>
+<lb ed="B" n="0083b09"/>
+      <item xml:id="itemB06p0083b0901"><p xml:id="pB06p0083b0901">正見經第九　　同上　　三四</p>
+<lb ed="B" n="0083b10"/><p xml:id="pB06p0083b1001" style="margin-left:1em">舊譯　後半部增一阿含四九、五（大正藏二、七九七頁）。</p>
+<p xml:id="pB06p0083b1022" style="margin-left:1em" cb:place="inline">本經是舍利弗答諸比丘所問．關於得
 <lb ed="B" n="0083b11"/>正見而達於正法之方法。答者以次之諸部門而為詳說．即一知不善與不善根本及善與善之根
 <lb ed="B" n="0083b12"/>本．二知食與其集滅道．三知苦與其集滅道．四至十五．即關於自老死以下之生、有、取、欲、受、觸、六處、
 <lb ed="B" n="0083b13"/>名色、識、行、無明．知其一一支與其集滅道。十六知漏與其集滅道。</p></item>
-<lb ed="B" n="0083b14"/><item xml:id="itemB06p0083b1401"><p xml:id="pB06p0083b1401">念處經第十　　同上　　四一</p>
+<lb ed="B" n="0083b14"/>
+      <item xml:id="itemB06p0083b1401"><p xml:id="pB06p0083b1401">念處經第十　　同上　　四一</p>
 <lb ed="B" n="0083b15"/><p xml:id="pB06p0083b1501" style="margin-left:1em">舊譯　中阿含九八念處經（大正藏一、五八二頁）．參考增一阿含一二、一（大正藏二、五六八頁）．
-<lb ed="B" n="0083b16"/>新譯長部二二大念處經（南傳藏七．但本經缺彼之一八至二一．其他全合）。</p><p xml:id="pB06p0083b1631" style="margin-left:1em" cb:place="inline">本經以得竟究解
-<lb ed="B" n="0083b17"/>脫涅槃為一乘．而說四念處。</p></item></list></item>
-<lb ed="B" n="0083b18"/><item xml:id="itemB06p0083b1801"><p xml:id="pB06p0083b1801">師子吼品第二</p>
-<lb ed="B" n="0083b19"/><list rend="no-marker"><item xml:id="itemB06p0083b1901"><p xml:id="pB06p0083b1901">師子吼小經第十一　　同上　　四八</p>
-<lb ed="B" n="0083b20"/><p xml:id="pB06p0083b2001" style="margin-left:1em">舊譯　中阿含一〇三師子吼經（大正藏一、五九〇頁）。參考 A. IV. 239。</p><p xml:id="pB06p0083b2035" style="margin-left:1em" cb:place="inline">本經是世尊教諸比丘
+<lb ed="B" n="0083b16"/>新譯長部二二大念處經（南傳藏七．但本經缺彼之一八至二一．其他全合）。</p>
+<p xml:id="pB06p0083b1631" style="margin-left:1em" cb:place="inline">本經以得竟究解
+<lb ed="B" n="0083b17"/>脫涅槃為一乘．而說四念處。</p></item>
+    </list></item>
+<lb ed="B" n="0083b18"/>
+    <item xml:id="itemB06p0083b1801"><p xml:id="pB06p0083b1801">師子吼品第二</p>
+<lb ed="B" n="0083b19"/><list rend="no-marker">
+      <item xml:id="itemB06p0083b1901"><p xml:id="pB06p0083b1901">師子吼小經第十一　　同上　　四八</p>
+<lb ed="B" n="0083b20"/><p xml:id="pB06p0083b2001" style="margin-left:1em">舊譯　中阿含一〇三師子吼經（大正藏一、五九〇頁）。參考 A. IV. 239。</p>
+<p xml:id="pB06p0083b2035" style="margin-left:1em" cb:place="inline">本經是世尊教諸比丘
 <lb ed="B" n="0083b21"/>言．『汝等應作大師子吼．唯於此處是有沙門．但無外道．得稱沙門者。』復示其所以然．以外道雖
 <lb ed="B" n="0083b22"/>亦有相似之目標．但彼等全不知取．故不能稱為沙門。次更關於取及渴愛、受、觸、六處、名色、識、行、無
 <lb ed="B" n="0083b23"/>明之說明。</p></item>
-<lb ed="B" n="0083b24"/><item xml:id="itemB06p0083b2401"><p xml:id="pB06p0083b2401">師子吼大經第十二　　同上　　五二</p>
+<lb ed="B" n="0083b24"/>
+      <item xml:id="itemB06p0083b2401"><p xml:id="pB06p0083b2401">師子吼大經第十二　　同上　　五二</p>
 <lb ed="B" n="0083b25"/><p xml:id="pB06p0083b2501" style="margin-left:1em">舊譯　身毛喜豎經（大正藏一七、五九一頁）．參考增一阿含四六、四．力（大正藏二、七七六頁）．增
 <lb ed="B" n="0083b26"/>一阿含五〇、六（大正藏二、八一一頁）．雜阿含六八四（大正藏二、一八六頁）．增一阿含三一、八
-<lb ed="B" n="0083b27"/>（大正藏二、六七〇頁）．信解智力經（大正藏一七、七四七頁）。</p><p xml:id="pB06p0083b2725" style="margin-left:1em" cb:place="inline">本經因於曾入佛門後轉入外道
+<lb ed="B" n="0083b27"/>（大正藏二、六七〇頁）．信解智力經（大正藏一七、七四七頁）。</p>
+<p xml:id="pB06p0083b2725" style="margin-left:1em" cb:place="inline">本經因於曾入佛門後轉入外道
 <lb ed="B" n="0083b28"/>之善星者．誹謗世尊．語為舍利弗所聞．以告世尊．世尊為是說法。初舉如來之類句．詳說如來十力．
 <lb ed="B" n="0083b29"/>四無所畏．及四生、五趣、涅槃之道。次說佛陀雖亦曾行如外道種種苦行．若貧穢行、厭離行、孤獨行、
 <lb ed="B" n="0083b30"/>不淨食行、叢林住行、捨行、少食行、祭祀、火祀等．然是等終非到達最上知見。最後示以如來雖在老
 <lb ed="B" n="0083b31"/>年．亦不衰其智慧辯才。</p></item>
-<lb ed="B" n="0083b32"/><item xml:id="itemB06p0083b3201"><p xml:id="pB06p0083b3201">苦蘊大經第十三　　同上　　六五</p>
+<lb ed="B" n="0083b32"/>
+      <item xml:id="itemB06p0083b3201"><p xml:id="pB06p0083b3201">苦蘊大經第十三　　同上　　六五</p>
 <pb ed="B" xml:id="B06.0004.0084a" n="0084a"/>
 <lb ed="B" n="0084a01"/><p xml:id="pB06p0084a0101" style="margin-left:1em">舊譯　中阿含九九苦陰經（大正藏一、五八四頁）．苦陰經（大正藏一、八四六頁）．增一阿含二一、
-<lb ed="B" n="0084a02"/>九．苦陰（大正藏二、六〇四頁）。</p><p xml:id="pB06p0084a0213" style="margin-left:1em" cb:place="inline">本經緣比丘等行乞時．在一外道園中．聞彼等說言．『沙門瞿曇
+<lb ed="B" n="0084a02"/>九．苦陰（大正藏二、六〇四頁）。</p>
+<p xml:id="pB06p0084a0213" style="margin-left:1em" cb:place="inline">本經緣比丘等行乞時．在一外道園中．聞彼等說言．『沙門瞿曇
 <lb ed="B" n="0084a03"/>與我等．關於欲、色、受之說法．無何等差別．』緣是告白世尊．世尊因是說法。即示以彼等與世尊說
 <lb ed="B" n="0084a04"/>法之間．大有差別．乃於欲、色、受．說明種種味、種種患、種種出離。</p></item>
-<lb ed="B" n="0084a05"/><item xml:id="itemB06p0084a0501"><p xml:id="pB06p0084a0501">苦蘊小經第十四　　同上　　七一</p>
+<lb ed="B" n="0084a05"/>
+      <item xml:id="itemB06p0084a0501"><p xml:id="pB06p0084a0501">苦蘊小經第十四　　同上　　七一</p>
 <lb ed="B" n="0084a06"/><p xml:id="pB06p0084a0601" style="margin-left:1em">舊譯　中阿含一〇〇苦陰經（大正藏一、五八六頁）．苦陰因事經（大正藏一、八四七頁）．釋摩男
-<lb ed="B" n="0084a07"/>本四子經（大正藏一、八四八頁）。</p><p xml:id="pB06p0084a0714" style="margin-left:1em" cb:place="inline">本經是佛為釋迦族名摩訶那摩者說法。唯智故能了解其旨
+<lb ed="B" n="0084a07"/>本四子經（大正藏一、八四八頁）。</p>
+<p xml:id="pB06p0084a0714" style="margin-left:1em" cb:place="inline">本經是佛為釋迦族名摩訶那摩者說法。唯智故能了解其旨
 <lb ed="B" n="0084a08"/>趣．無體驗者莫能成就此重任。復次關於體驗．若離繫徒．雖亦重體驗．然其誤於旨趣及方法．故終
 <lb ed="B" n="0084a09"/>莫能成就．佛并自舉其曾與離繫派徒間之問答。</p></item>
-<lb ed="B" n="0084a10"/><item xml:id="itemB06p0084a1001"><p xml:id="pB06p0084a1001">思量經第十五　　同上　　七六</p>
-<lb ed="B" n="0084a11"/><p xml:id="pB06p0084a1101" style="margin-left:1em">舊譯　中阿含八九比丘請經（大正藏一、五七一頁）．受歲經（大正藏一、八四二頁）。</p><p xml:id="pB06p0084a1133" style="margin-left:1em" cb:place="inline">本經是大
+<lb ed="B" n="0084a10"/>
+      <item xml:id="itemB06p0084a1001"><p xml:id="pB06p0084a1001">思量經第十五　　同上　　七六</p>
+<lb ed="B" n="0084a11"/><p xml:id="pB06p0084a1101" style="margin-left:1em">舊譯　中阿含八九比丘請經（大正藏一、五七一頁）．受歲經（大正藏一、八四二頁）。</p>
+<p xml:id="pB06p0084a1133" style="margin-left:1em" cb:place="inline">本經是大
 <lb ed="B" n="0084a12"/>目犍連為諸比丘說法。首舉難與教誨者與易與教誨者之性質條件。次說應自思量．如為他所愛
 <lb ed="B" n="0084a13"/>所悅．當自發心而勤修習。最後教以自為觀察．若有惡不善法．當勤捨離．既得捨離．於所喜悅．應依
 <lb ed="B" n="0084a14"/>善法修習．愈使增進。</p></item>
-<lb ed="B" n="0084a15"/><item xml:id="itemB06p0084a1501"><p xml:id="pB06p0084a1501">心荒穢經第十六　　同上　　八四</p>
+<lb ed="B" n="0084a15"/>
+      <item xml:id="itemB06p0084a1501"><p xml:id="pB06p0084a1501">心荒穢經第十六　　同上　　八四</p>
 <lb ed="B" n="0084a16"/><p xml:id="pB06p0084a1601" style="margin-left:1em">舊譯　中阿含二〇六心穢經（大正藏一、七八〇頁）．增一阿含五、一四（大正藏二、八一七頁）。</p>
 <lb ed="B" n="0084a17"/><p xml:id="pB06p0084a1701" style="margin-left:1em">本經舉五種心之荒穢與五種心之結縛。若有此時．則於佛法不得增長、興盛、成滿．若捨離時．則得
 <lb ed="B" n="0084a18"/>增長、興盛、成滿無疑。次說四如意足與勤勇．若成就如上十五法．則得逮達正覺涅槃。（舊譯增一
 <lb ed="B" n="0084a19"/>阿含缺後之四如意足及勤勇）。</p></item>
-<lb ed="B" n="0084a20"/><item xml:id="itemB06p0084a2001"><p xml:id="pB06p0084a2001">林藪經第十七　　同上　　八八</p>
-<lb ed="B" n="0084a21"/><p xml:id="pB06p0084a2101" style="margin-left:1em">舊譯　中阿含一〇七、一〇八．林經（大正藏一、五九六頁、五九七頁）。</p><p xml:id="pB06p0084a2127" style="margin-left:1em" cb:place="inline">本經是說比丘依於林藪、
+<lb ed="B" n="0084a20"/>
+      <item xml:id="itemB06p0084a2001"><p xml:id="pB06p0084a2001">林藪經第十七　　同上　　八八</p>
+<lb ed="B" n="0084a21"/><p xml:id="pB06p0084a2101" style="margin-left:1em">舊譯　中阿含一〇七、一〇八．林經（大正藏一、五九六頁、五九七頁）。</p>
+<p xml:id="pB06p0084a2127" style="margin-left:1em" cb:place="inline">本經是說比丘依於林藪、
 <lb ed="B" n="0084a22"/>村落、都市、國土、乃至依人而住時．當一準於能否得念、定、漏盡、無上安穩以決去就．教以不應依於
 <lb ed="B" n="0084a23"/>為生活資具是否易得之所左右。（舊譯初分大體與此相合．次分念至無上安穩．却約之以「出
 <lb ed="B" n="0084a24"/>家義．」結文趣旨亦與此同）。</p></item>
-<lb ed="B" n="0084a25"/><item xml:id="itemB06p0084a2501"><p xml:id="pB06p0084a2501">蜜丸經第十八　　同上　　九二</p>
+<lb ed="B" n="0084a25"/>
+      <item xml:id="itemB06p0084a2501"><p xml:id="pB06p0084a2501">蜜丸經第十八　　同上　　九二</p>
 <lb ed="B" n="0084a26"/><p xml:id="pB06p0084a2601" style="margin-left:1em">舊譯　中阿含一一五蜜丸喻經（大正藏一、六〇三頁）．增一阿含四〇、一〇．甘露法味（大正藏
-<lb ed="B" n="0084a27"/>二、七四三頁）。</p><p xml:id="pB06p0084a2707" style="margin-left:1em" cb:place="inline">本經是大迦旃延．詳說世尊所略說之經。首先世尊對釋迦族執杖者問世尊說
+<lb ed="B" n="0084a27"/>二、七四三頁）。</p>
+<p xml:id="pB06p0084a2707" style="margin-left:1em" cb:place="inline">本經是大迦旃延．詳說世尊所略說之經。首先世尊對釋迦族執杖者問世尊說
 <lb ed="B" n="0084a28"/>法．是云何說．答之以『我說法時．不與任何人諍論及無諸妄想．』次則重為諸比丘說。一比丘問．
 <lb ed="B" n="0084a29"/>『云何得至如是說之方法．』於是世尊略說若滅迷執想分生起時．則滅一切惡不善法．即起座
 <lb ed="B" n="0084a30"/>入室。緣是諸比丘．請大迦旃延詳說．迦旃延乃為詳說．後得世尊印可。</p></item>
-<lb ed="B" n="0084a31"/><item xml:id="itemB06p0084a3101"><p xml:id="pB06p0084a3101">雙思經第十九　　同上　　九八</p>
-<lb ed="B" n="0084a32"/><p xml:id="pB06p0084a3201" style="margin-left:1em">舊譯　中阿含一〇二念經（大正藏一、五八九頁）。</p><p xml:id="pB06p0084a3220" style="margin-left:1em" cb:place="inline">本經是世尊說未成佛前修行中之一一體
+<lb ed="B" n="0084a31"/>
+      <item xml:id="itemB06p0084a3101"><p xml:id="pB06p0084a3101">雙思經第十九　　同上　　九八</p>
+<lb ed="B" n="0084a32"/><p xml:id="pB06p0084a3201" style="margin-left:1em">舊譯　中阿含一〇二念經（大正藏一、五八九頁）。</p>
+<p xml:id="pB06p0084a3220" style="margin-left:1em" cb:place="inline">本經是世尊說未成佛前修行中之一一體
 <pb ed="B" xml:id="B06.0004.0084b" n="0084b"/>
 <lb ed="B" n="0084b01"/>驗．即欲、恚、害意等．為除去是等．特使起雙雙相對待之思惟．使前者滅．後者自能生起．復舉種種譬
 <lb ed="B" n="0084b02"/>喻以說明之。</p></item>
-<lb ed="B" n="0084b03"/><item xml:id="itemB06p0084b0301"><p xml:id="pB06p0084b0301">息思經第二十　　同上　　一〇三</p>
-<lb ed="B" n="0084b04"/><p xml:id="pB06p0084b0401" style="margin-left:1em">舊譯　中阿含一〇一增上心經（大正藏一、五八八頁）。</p><p xml:id="pB06p0084b0422" style="margin-left:1em" cb:place="inline">本經於實修增上心（禪定）．說五個階
+<lb ed="B" n="0084b03"/>
+      <item xml:id="itemB06p0084b0301"><p xml:id="pB06p0084b0301">息思經第二十　　同上　　一〇三</p>
+<lb ed="B" n="0084b04"/><p xml:id="pB06p0084b0401" style="margin-left:1em">舊譯　中阿含一〇一增上心經（大正藏一、五八八頁）。</p>
+<p xml:id="pB06p0084b0422" style="margin-left:1em" cb:place="inline">本經於實修增上心（禪定）．說五個階
 <lb ed="B" n="0084b05"/>段。一惡不善思惟現時．即念善思惟。二若惡不善思惟猶現起者．則審察惡不善思惟過患。三惡不
 <lb ed="B" n="0084b06"/>善思惟猶現起者．則關於彼彼一切憶念都不起思念。四惡不善思惟猶現起者．念止息彼思惟行。
-<lb ed="B" n="0084b07"/>五然而惡不善思惟猶現起者．當修．禪定法門。</p></item></list></item>
-<lb ed="B" n="0084b08"/><item xml:id="itemB06p0084b0801"><p xml:id="pB06p0084b0801">譬喻法品第三</p>
-<lb ed="B" n="0084b09"/><list rend="no-marker"><item xml:id="itemB06p0084b0901"><p xml:id="pB06p0084b0901">鋸喻經第二十一　　同上　　一〇七</p>
+<lb ed="B" n="0084b07"/>五然而惡不善思惟猶現起者．當修．禪定法門。</p></item>
+    </list></item>
+<lb ed="B" n="0084b08"/>
+    <item xml:id="itemB06p0084b0801"><p xml:id="pB06p0084b0801">譬喻法品第三</p>
+<lb ed="B" n="0084b09"/><list rend="no-marker">
+      <item xml:id="itemB06p0084b0901"><p xml:id="pB06p0084b0901">鋸喻經第二十一　　同上　　一〇七</p>
 <lb ed="B" n="0084b10"/><p xml:id="pB06p0084b1001" style="margin-left:1em">舊譯　中阿含一九三牟犂破羣那經（大正藏一、七四四頁）．增一阿含五〇、八（大正藏二、八一
-<lb ed="B" n="0084b11"/>二頁）。</p><p xml:id="pB06p0084b1104" style="margin-left:1em" cb:place="inline">本經因長老牟犂破羣那與諸比丘尼數數會集．人若非難之者．即起大憤怒．佛為是說
+<lb ed="B" n="0084b11"/>二頁）。</p>
+<p xml:id="pB06p0084b1104" style="margin-left:1em" cb:place="inline">本經因長老牟犂破羣那與諸比丘尼數數會集．人若非難之者．即起大憤怒．佛為是說
 <lb ed="B" n="0084b12"/>法誡彼無論如何．不應瞋恚．應常住慈心．乃說保護娑羅樹林喻．居士婦韋提希迦與其侍女喻．欲
 <lb ed="B" n="0084b13"/>使大地為非地喻．欲繪畫虛空喻．欲以乾薪火炬煑沸恒河水喻．貓皮喻．鋸喻。</p></item>
-<lb ed="B" n="0084b14"/><item xml:id="itemB06p0084b1401"><p xml:id="pB06p0084b1401">蛇喻經第二十二　　同上　　一一三</p>
+<lb ed="B" n="0084b14"/>
+      <item xml:id="itemB06p0084b1401"><p xml:id="pB06p0084b1401">蛇喻經第二十二　　同上　　一一三</p>
 <lb ed="B" n="0084b15"/><p xml:id="pB06p0084b1501" style="margin-left:1em">舊譯　中阿含二〇〇阿黎吒經（大正藏一、七六三頁）．增一阿含四三、五．船筏（大正藏二、七五
-<lb ed="B" n="0084b16"/>九頁）。</p><p xml:id="pB06p0084b1604" style="margin-left:1em" cb:place="inline">本經因阿梨吒比丘．生起惡見．謂世尊雖說障礙法．實非障礙．緣是呵之。次說若欲學法．
+<lb ed="B" n="0084b16"/>九頁）。</p>
+<p xml:id="pB06p0084b1604" style="margin-left:1em" cb:place="inline">本經因阿梨吒比丘．生起惡見．謂世尊雖說障礙法．實非障礙．緣是呵之。次說若欲學法．
 <lb ed="B" n="0084b17"/>當理解法之意義．乃說捕蛇喻以況之。次說若欲度脫者．不可執法．舉筏喻以示之。次說於非實有．
 <lb ed="B" n="0084b18"/>無事焦勞．教示一切無常．當求解脫．乃舉解脫者之種種喻。復次說如來非虛無論者．及說聖者之
 <lb ed="B" n="0084b19"/>階梯等。（與舊譯中阿含．大體相合．唯與增一阿含．僅筏喻相合耳）。</p></item>
-<lb ed="B" n="0084b20"/><item xml:id="itemB06p0084b2001"><p xml:id="pB06p0084b2001">蟻垤經第二十三　　同上　　一二五</p>
+<lb ed="B" n="0084b20"/>
+      <item xml:id="itemB06p0084b2001"><p xml:id="pB06p0084b2001">蟻垤經第二十三　　同上　　一二五</p>
 <lb ed="B" n="0084b21"/><p xml:id="pB06p0084b2101" style="margin-left:1em">舊譯　蟻喻經（大正藏一、九一八頁）．雜阿含一〇七九（大正藏二、二八二頁）．別譯雜阿含一八
-<lb ed="B" n="0084b22"/>（大正藏二、三七九頁）．增一阿含三九、九．婆蜜（大正藏二、七三三頁）。</p><p xml:id="pB06p0084b2228" style="margin-left:1em" cb:place="inline">本經因天人向鳩摩羅迦
+<lb ed="B" n="0084b22"/>（大正藏二、三七九頁）．增一阿含三九、九．婆蜜（大正藏二、七三三頁）。</p>
+<p xml:id="pB06p0084b2228" style="margin-left:1em" cb:place="inline">本經因天人向鳩摩羅迦
 <lb ed="B" n="0084b23"/>葉提出蟻垤之謎而去．緣是請佛解釋．佛乃依次解釋。</p></item>
-<lb ed="B" n="0084b24"/><item xml:id="itemB06p0084b2401"><p xml:id="pB06p0084b2401">傳車經第二十四　　同上　　一二七</p>
+<lb ed="B" n="0084b24"/>
+      <item xml:id="itemB06p0084b2401"><p xml:id="pB06p0084b2401">傳車經第二十四　　同上　　一二七</p>
 <lb ed="B" n="0084b25"/><p xml:id="pB06p0084b2501" style="margin-left:1em">舊譯　中阿含九、七車經（大正藏一、四二九頁）．增一阿含三九、一〇．七車（大正藏二、七三三頁）。</p>
 <lb ed="B" n="0084b26"/><p xml:id="pB06p0084b2601" style="margin-left:1em">本經是以世尊問諸比丘於本所誕生地夏安居情形開始。全經中心．是敘述舍利弗與富樓那
 <lb ed="B" n="0084b27"/>彌多羅尼子關於法之相互問答。內容是說比丘住於梵行．不為得戒清淨．不為得心清淨．乃至不
 <lb ed="B" n="0084b28"/>為得知見清淨．唯為得涅槃。然若離去戒清淨等．自不能得涅槃．於是說七驛傳車喻。</p></item>
-<lb ed="B" n="0084b29"/><item xml:id="itemB06p0084b2901"><p xml:id="pB06p0084b2901">撒餌經第二十五　　同上　　一三二</p>
-<lb ed="B" n="0084b30"/><p xml:id="pB06p0084b3001" style="margin-left:1em">舊譯　中阿含一七八獵師經（大正藏一、七一八頁）。</p><p xml:id="pB06p0084b3021" style="margin-left:1em" cb:place="inline">本經是世尊為諸比丘．以四種鹿羣對於
+<lb ed="B" n="0084b29"/>
+      <item xml:id="itemB06p0084b2901"><p xml:id="pB06p0084b2901">撒餌經第二十五　　同上　　一三二</p>
+<lb ed="B" n="0084b30"/><p xml:id="pB06p0084b3001" style="margin-left:1em">舊譯　中阿含一七八獵師經（大正藏一、七一八頁）。</p>
+<p xml:id="pB06p0084b3021" style="margin-left:1em" cb:place="inline">本經是世尊為諸比丘．以四種鹿羣對於
 <lb ed="B" n="0084b31"/>獵師所撒餌食之喻。說示沙門婆羅門．應知世間之誘惑。</p></item>
-<lb ed="B" n="0084b32"/><item xml:id="itemB06p0084b3201"><p xml:id="pB06p0084b3201">聖求經第二十六　　同上　　一三九</p>
+<lb ed="B" n="0084b32"/>
+      <item xml:id="itemB06p0084b3201"><p xml:id="pB06p0084b3201">聖求經第二十六　　同上　　一三九</p>
 <pb ed="B" xml:id="B06.0004.0085a" n="0085a"/>
 <lb ed="B" n="0085a01"/><p xml:id="pB06p0085a0101" style="margin-left:1em">舊譯　中阿含二〇四羅摩經（大正藏一、七七五頁）．參考本事經卷四（大正藏一七、六七九頁）。</p>
 <lb ed="B" n="0085a02"/><p xml:id="pB06p0085a0201" style="margin-left:1em">本經是諸比丘集於婆羅門之羅摩迦庵互相說法時．世尊亦來．因之說聖求與非聖求法。次之
@@ -212,107 +271,159 @@
 <lb ed="B" n="0085a04"/>在阿羅邏迦羅摩仙及鬱頭迦羅摩弗仙處所學習事．後在優樓毘羅之斯那聚落．獨坐成道．梵天
 <lb ed="B" n="0085a05"/>勸請．於鹿野苑初轉法輪等。（舊譯中阿含．大體與此相合．但缺梵天勸請一段．在初轉法輪中．卻
 <lb ed="B" n="0085a06"/>加應捨二邊．當就中道一節。本事經中．則唯說聖求非聖求而已。）</p></item>
-<lb ed="B" n="0085a07"/><item xml:id="itemB06p0085a0701"><p xml:id="pB06p0085a0701">象跡喻小經第二十七　　同上　　一五〇</p>
-<lb ed="B" n="0085a08"/><p xml:id="pB06p0085a0801" style="margin-left:1em">舊譯　中阿含一四六象跡喻經（大正藏一、六五六頁）。</p><p xml:id="pB06p0085a0822" style="margin-left:1em" cb:place="inline">本經緣生漏婆羅門．遇出家行者毘盧
+<lb ed="B" n="0085a07"/>
+      <item xml:id="itemB06p0085a0701"><p xml:id="pB06p0085a0701">象跡喻小經第二十七　　同上　　一五〇</p>
+<lb ed="B" n="0085a08"/><p xml:id="pB06p0085a0801" style="margin-left:1em">舊譯　中阿含一四六象跡喻經（大正藏一、六五六頁）。</p>
+<p xml:id="pB06p0085a0822" style="margin-left:1em" cb:place="inline">本經緣生漏婆羅門．遇出家行者毘盧
 <lb ed="B" n="0085a09"/>底迦．毘盧底迦將佛世尊之偉大．舉四種象跡喻以讚之。後生漏往詣佛所．聞更殊勝之象跡喻。次
 <lb ed="B" n="0085a10"/>復教示以戒、諸根防護、念、知、四禪、憶宿命智、生死智、漏盡智。終令生漏婆羅門．歸依佛法．為在家信
 <lb ed="B" n="0085a11"/>者。（舊譯缺憶宿命智及生死智．餘則相合）。</p></item>
-<lb ed="B" n="0085a12"/><item xml:id="itemB06p0085a1201"><p xml:id="pB06p0085a1201">象跡喻大經第二十八　　同上　　一五七</p>
-<lb ed="B" n="0085a13"/><p xml:id="pB06p0085a1301" style="margin-left:1em">舊譯　中阿含三〇象跡喻經（大正藏一、四六四頁）．</p><p xml:id="pB06p0085a1321" style="margin-left:1em" cb:place="inline">本經是舍利弗為諸比丘說法者．謂如一
+<lb ed="B" n="0085a12"/>
+      <item xml:id="itemB06p0085a1201"><p xml:id="pB06p0085a1201">象跡喻大經第二十八　　同上　　一五七</p>
+<lb ed="B" n="0085a13"/><p xml:id="pB06p0085a1301" style="margin-left:1em">舊譯　中阿含三〇象跡喻經（大正藏一、四六四頁）．</p>
+<p xml:id="pB06p0085a1321" style="margin-left:1em" cb:place="inline">本經是舍利弗為諸比丘說法者．謂如一
 <lb ed="B" n="0085a14"/>切動物足跡．悉可攝在象跡中．一切善法．悉可攝在四聖諦中．乃說四聖諦。於苦諦之說明特詳。關
 <lb ed="B" n="0085a15"/>於五取蘊、四大等．有重要之闡說。</p></item>
-<lb ed="B" n="0085a16"/><item xml:id="itemB06p0085a1601"><p xml:id="pB06p0085a1601">心材喻大經第二十九　　同上　　一六三</p>
-<lb ed="B" n="0085a17"/><p xml:id="pB06p0085a1701" style="margin-left:1em">舊譯　增一阿含四三、四（大正藏二、七五九頁）．</p><p xml:id="pB06p0085a1719" style="margin-left:1em" cb:place="inline">本經是提婆達多死後未久．世尊因提婆達多
+<lb ed="B" n="0085a16"/>
+      <item xml:id="itemB06p0085a1601"><p xml:id="pB06p0085a1601">心材喻大經第二十九　　同上　　一六三</p>
+<lb ed="B" n="0085a17"/><p xml:id="pB06p0085a1701" style="margin-left:1em">舊譯　增一阿含四三、四（大正藏二、七五九頁）．</p>
+<p xml:id="pB06p0085a1719" style="margin-left:1em" cb:place="inline">本經是提婆達多死後未久．世尊因提婆達多
 <lb ed="B" n="0085a18"/>故．乃為諸比丘說出家行者．應毋忘其最後之目的．乃舉求心材者以喻之。</p></item>
-<lb ed="B" n="0085a19"/><item xml:id="itemB06p0085a1901"><p xml:id="pB06p0085a1901">心材喻小經第三十　　同上　　一六八</p>
-<lb ed="B" n="0085a20"/><p xml:id="pB06p0085a2001" style="margin-left:1em">舊譯無。</p><p xml:id="pB06p0085a2004" style="margin-left:1em" cb:place="inline">本經因婆羅門頻伽羅柯遮問世尊．如外道六師．各各自稱．自身作證．是否為實。世尊答
-<lb ed="B" n="0085a21"/>以『暫置此問．先聽我說』。此中所說者．大體與前經同。</p></item></list></item>
-<lb ed="B" n="0085a22"/><item xml:id="itemB06p0085a2201"><p xml:id="pB06p0085a2201">雙大品第四</p>
-<lb ed="B" n="0085a23"/><list rend="no-marker"><item xml:id="itemB06p0085a2301"><p xml:id="pB06p0085a2301">牛角林小經第三十一　　同上　　一七四</p>
-<lb ed="B" n="0085a24"/><p xml:id="pB06p0085a2401" style="margin-left:1em">舊譯　中阿含一八五牛角娑羅林經（大正藏一、七二九頁）。</p><p xml:id="pB06p0085a2424" style="margin-left:1em" cb:place="inline">本經始敘阿㝹樓馱、那提耶、金毘
+<lb ed="B" n="0085a19"/>
+      <item xml:id="itemB06p0085a1901"><p xml:id="pB06p0085a1901">心材喻小經第三十　　同上　　一六八</p>
+<lb ed="B" n="0085a20"/><p xml:id="pB06p0085a2001" style="margin-left:1em">舊譯無。</p>
+<p xml:id="pB06p0085a2004" style="margin-left:1em" cb:place="inline">本經因婆羅門頻伽羅柯遮問世尊．如外道六師．各各自稱．自身作證．是否為實。世尊答
+<lb ed="B" n="0085a21"/>以『暫置此問．先聽我說』。此中所說者．大體與前經同。</p></item>
+    </list></item>
+<lb ed="B" n="0085a22"/>
+    <item xml:id="itemB06p0085a2201"><p xml:id="pB06p0085a2201">雙大品第四</p>
+<lb ed="B" n="0085a23"/><list rend="no-marker">
+      <item xml:id="itemB06p0085a2301"><p xml:id="pB06p0085a2301">牛角林小經第三十一　　同上　　一七四</p>
+<lb ed="B" n="0085a24"/><p xml:id="pB06p0085a2401" style="margin-left:1em">舊譯　中阿含一八五牛角娑羅林經（大正藏一、七二九頁）。</p>
+<p xml:id="pB06p0085a2424" style="margin-left:1em" cb:place="inline">本經始敘阿㝹樓馱、那提耶、金毘
 <lb ed="B" n="0085a25"/>羅三長老．於牛角娑羅林．同心同德．結伴修行．皆得漏盡。次敘佛往訪彼處．知其實狀．深致讚嘆。於
 <lb ed="B" n="0085a26"/>是鬼夜叉及諸天．亦皆讚嘆。佛為鬼夜叉說言．其有以明了心喜樂憶持此三人者．皆得利益幸福。</p></item>
-<lb ed="B" n="0085a27"/><item xml:id="itemB06p0085a2701"><p xml:id="pB06p0085a2701">牛角林大經第三十二　　同上　　一七九</p>
+<lb ed="B" n="0085a27"/>
+      <item xml:id="itemB06p0085a2701"><p xml:id="pB06p0085a2701">牛角林大經第三十二　　同上　　一七九</p>
 <lb ed="B" n="0085a28"/><p xml:id="pB06p0085a2801" style="margin-left:1em">舊譯　中阿含一八四牛角娑羅林經（大正藏一、七二六頁）．生經一六．比丘各誌經（大正藏三、
-<lb ed="B" n="0085a29"/>八〇頁）．增一阿含三七、三（大正藏二、七一〇頁）。</p><p xml:id="pB06p0085a2921" style="margin-left:1em" cb:place="inline">本經緣住於牛角娑羅林之大目犍連、大迦
+<lb ed="B" n="0085a29"/>八〇頁）．增一阿含三七、三（大正藏二、七一〇頁）。</p>
+<p xml:id="pB06p0085a2921" style="margin-left:1em" cb:place="inline">本經緣住於牛角娑羅林之大目犍連、大迦
 <lb ed="B" n="0085a30"/>葉、阿難、阿㝹樓馱、舍利弗諸大德．謂為使牛角娑羅林之自然風光．更添光輝．應住何等比丘。於是
 <lb ed="B" n="0085a31"/>各各自述其意．後轉白世尊．深得世尊之稱讚．且世尊於此亦自說一則。此中一一說法．皆能顯示
 <lb ed="B" n="0085a32"/>各自之特徵。</p></item>
 <pb ed="B" xml:id="B06.0004.0085b" n="0085b"/>
-<lb ed="B" n="0085b01"/><item xml:id="itemB06p0085b0101"><p xml:id="pB06p0085b0101">牧牛者大經第三十三　　同上　　一八五</p>
+<lb ed="B" n="0085b01"/>
+      <item xml:id="itemB06p0085b0101"><p xml:id="pB06p0085b0101">牧牛者大經第三十三　　同上　　一八五</p>
 <lb ed="B" n="0085b02"/><p xml:id="pB06p0085b0201" style="margin-left:1em">舊譯　雜阿含一二四九（大正藏二、三四二頁）．增一阿含四九一、（大正藏二、七九四頁）．放牛經
-<lb ed="B" n="0085b03"/>（大正藏二、五四六頁）。</p><p xml:id="pB06p0085b0310" style="margin-left:1em" cb:place="inline">本經是世尊舉牧牛者為維護牛羣及使增長必要之十一法．以之喻比
+<lb ed="B" n="0085b03"/>（大正藏二、五四六頁）。</p>
+<p xml:id="pB06p0085b0310" style="margin-left:1em" cb:place="inline">本經是世尊舉牧牛者為維護牛羣及使增長必要之十一法．以之喻比
 <lb ed="B" n="0085b04"/>丘於此法、律．當使增長、興盛、成滿．而說十一法。（舊譯雜阿含．與此大體相合．其他大意雖相合．內
 <lb ed="B" n="0085b05"/>容相異處不少）。</p></item>
-<lb ed="B" n="0085b06"/><item xml:id="itemB06p0085b0601"><p xml:id="pB06p0085b0601">牧牛者小經第三十四　　同上　　一八九</p>
-<lb ed="B" n="0085b07"/><p xml:id="pB06p0085b0701" style="margin-left:1em">舊譯　雜阿含一一〇薩遮（大正藏二、三五頁）．增一阿含四三、六（大正藏二、七六一頁）。</p><p xml:id="pB06p0085b0735" style="margin-left:1em" cb:place="inline">本經
+<lb ed="B" n="0085b06"/>
+      <item xml:id="itemB06p0085b0601"><p xml:id="pB06p0085b0601">牧牛者小經第三十四　　同上　　一八九</p>
+<lb ed="B" n="0085b07"/><p xml:id="pB06p0085b0701" style="margin-left:1em">舊譯　雜阿含一一〇薩遮（大正藏二、三五頁）．增一阿含四三、六（大正藏二、七六一頁）。</p>
+<p xml:id="pB06p0085b0735" style="margin-left:1em" cb:place="inline">本經
 <lb ed="B" n="0085b08"/>是世尊舉昔摩揭陀人之牧牛者．有愚有智．驅牛羣橫渡恒河．而有失敗與成功之喻．說修行者．應
 <lb ed="B" n="0085b09"/>亦選擇其導師。</p></item>
-<lb ed="B" n="0085b10"/><item xml:id="itemB06p0085b1001"><p xml:id="pB06p0085b1001">薩遮迦小經第三十五　　同上　　一九〇</p>
+<lb ed="B" n="0085b10"/>
+      <item xml:id="itemB06p0085b1001"><p xml:id="pB06p0085b1001">薩遮迦小經第三十五　　同上　　一九〇</p>
 <lb ed="B" n="0085b11"/><p xml:id="pB06p0085b1101" style="margin-left:1em">舊譯　雜阿含一一〇薩遮（大正藏二、三五頁）．增一阿含三七、一〇．薩遮（大正藏二、七一五頁）。</p>
 <lb ed="B" n="0085b12"/><p xml:id="pB06p0085b1201" style="margin-left:1em">本經敘離繫徒薩遮迦者．完全為世尊所論破。即薩遮迦自謂無人能論勝於己者之豪語時．遇
 <lb ed="B" n="0085b13"/>佛弟子阿濕波誓．聞無我無常之說．懷不快念．後率五百離車人到世尊所．與世尊問答．因世尊說
 <lb ed="B" n="0085b14"/>五蘊無我．諸行無常．諸法無我．彼遂沉默。（舊譯兩經．大致與此相合．結尾時有少異．就中增一阿
 <lb ed="B" n="0085b15"/>含．更說有彌勒佛之信仰）。</p></item>
-<lb ed="B" n="0085b16"/><item xml:id="itemB06p0085b1601"><p xml:id="pB06p0085b1601">薩遮迦大經第三十六　　同上　　一九八</p>
-<lb ed="B" n="0085b17"/><p xml:id="pB06p0085b1701" style="margin-left:1em">舊譯無。</p><p xml:id="pB06p0085b1704" style="margin-left:1em" cb:place="inline">本經亦敘說伏離繫徒薩遮迦．與前經同。但其內容．首說關於身修習．心修習者．於此加
+<lb ed="B" n="0085b16"/>
+      <item xml:id="itemB06p0085b1601"><p xml:id="pB06p0085b1601">薩遮迦大經第三十六　　同上　　一九八</p>
+<lb ed="B" n="0085b17"/><p xml:id="pB06p0085b1701" style="margin-left:1em">舊譯無。</p>
+<p xml:id="pB06p0085b1704" style="margin-left:1em" cb:place="inline">本經亦敘說伏離繫徒薩遮迦．與前經同。但其內容．首說關於身修習．心修習者．於此加
 <lb ed="B" n="0085b18"/>說薩遮迦所信奉之南陀縛迦、夷薩刪嶷遮、末伽黎瞿舍利所修苦行（此等苦行與長部迦葉師
 <lb ed="B" n="0085b19"/>子吼經等相同）。次則世尊自說出家至坐金剛座情形。次說以鑽木出火三喻。次說世尊坐禪、苦
 <lb ed="B" n="0085b20"/>行、絕食情形（與上師子吼大經第十二同）。次說成正道而得解脫。</p></item>
-<lb ed="B" n="0085b21"/><item xml:id="itemB06p0085b2101"><p xml:id="pB06p0085b2101">愛盡小經第三十七　　同上　　二一一</p>
+<lb ed="B" n="0085b21"/>
+      <item xml:id="itemB06p0085b2101"><p xml:id="pB06p0085b2101">愛盡小經第三十七　　同上　　二一一</p>
 <lb ed="B" n="0085b22"/><p xml:id="pB06p0085b2201" style="margin-left:1em">舊譯　雜阿含五〇五愛盡（大正藏二、一三三頁）．增一阿含一九三斷盡（大正藏二、五九三頁）。</p>
 <lb ed="B" n="0085b23"/><p xml:id="pB06p0085b2301" style="margin-left:1em">本經首敘帝釋天來世尊所．問世尊愛盡解脫法．世尊乃為說之。次敘目犍連為試帝釋天能否
 <lb ed="B" n="0085b24"/>了解而上昇三十三天。次敘帝釋於未答此問前．誇示天界之最勝殿．目犍連為匡其驕慢以足拇
 <lb ed="B" n="0085b25"/>指震撼最勝殿。次敘帝釋以驚怖故．具答前問。次敘目犍連還世尊所．陳白上事。（舊譯雜阿含．有
 <lb ed="B" n="0085b26"/>與上三段相合．增一阿含與本文大意相合．但應注意者．關於說空較多。）</p></item>
-<lb ed="B" n="0085b27"/><item xml:id="itemB06p0085b2701"><p xml:id="pB06p0085b2701">愛盡大經第三十八　　同上　　二一五</p>
-<lb ed="B" n="0085b28"/><p xml:id="pB06p0085b2801" style="margin-left:1em">舊譯　中阿含二〇一嗏帝經（大正藏一、七六六頁）。</p><p xml:id="pB06p0085b2821" style="margin-left:1em" cb:place="inline">本經緣比丘嗏帝．以識流轉之邪見．主張
+<lb ed="B" n="0085b27"/>
+      <item xml:id="itemB06p0085b2701"><p xml:id="pB06p0085b2701">愛盡大經第三十八　　同上　　二一五</p>
+<lb ed="B" n="0085b28"/><p xml:id="pB06p0085b2801" style="margin-left:1em">舊譯　中阿含二〇一嗏帝經（大正藏一、七六六頁）。</p>
+<p xml:id="pB06p0085b2821" style="margin-left:1em" cb:place="inline">本經緣比丘嗏帝．以識流轉之邪見．主張
 <lb ed="B" n="0085b29"/>是佛說．佛乃與諸比丘互為問答．而匡正彼之誤解而誡之。內容說識緣生、食所成、食因緣、十二因
 <lb ed="B" n="0085b30"/>緣及得知見者之態度．苦蘊集與滅等。</p></item>
-<lb ed="B" n="0085b31"/><item xml:id="itemB06p0085b3101"><p xml:id="pB06p0085b3101">馬邑大經第三十九　　同上　　二二六</p>
+<lb ed="B" n="0085b31"/>
+      <item xml:id="itemB06p0085b3101"><p xml:id="pB06p0085b3101">馬邑大經第三十九　　同上　　二二六</p>
 <lb ed="B" n="0085b32"/><p xml:id="pB06p0085b3201" style="margin-left:1em">舊譯　中阿含一八二馬邑經（大正藏一、七二四頁）．增一阿含四九、八（大正藏二、八〇一頁）。</p>
 <pb ed="B" xml:id="B06.0004.0086a" n="0086a"/>
 <lb ed="B" n="0086a01"/><p xml:id="pB06p0086a0101" style="margin-left:1em">本經是世尊在鴦伽國馬邑聚落時．說關於為真沙門之法。</p></item>
-<lb ed="B" n="0086a02"/><item xml:id="itemB06p0086a0201"><p xml:id="pB06p0086a0201">馬邑小經第四十　　同上　　二三四</p>
-<lb ed="B" n="0086a03"/><p xml:id="pB06p0086a0301" style="margin-left:1em">舊譯　中阿含一八三馬邑經（大正藏一、七二五頁）。</p><p xml:id="pB06p0086a0321" style="margin-left:1em" cb:place="inline">本經與前經同．亦在馬邑說．內容所說是
-<lb ed="B" n="0086a04"/>關於沙門正道法。</p></item></list></item>
-<lb ed="B" n="0086a05"/><item xml:id="itemB06p0086a0501"><p xml:id="pB06p0086a0501">雙小品第五</p>
-<lb ed="B" n="0086a06"/><list rend="no-marker"><item xml:id="itemB06p0086a0601"><p xml:id="pB06p0086a0601">薩羅村婆羅門經第四十一　　同上　　二三八</p>
-<lb ed="B" n="0086a07"/><p xml:id="pB06p0086a0701" style="margin-left:1em">舊譯無。</p><p xml:id="pB06p0086a0704" style="margin-left:1em" cb:place="inline">本經緣薩羅村婆羅門居士等向世尊問．關於死後生惡趣善趣之差別．以何為因。世尊
+<lb ed="B" n="0086a02"/>
+      <item xml:id="itemB06p0086a0201"><p xml:id="pB06p0086a0201">馬邑小經第四十　　同上　　二三四</p>
+<lb ed="B" n="0086a03"/><p xml:id="pB06p0086a0301" style="margin-left:1em">舊譯　中阿含一八三馬邑經（大正藏一、七二五頁）。</p>
+<p xml:id="pB06p0086a0321" style="margin-left:1em" cb:place="inline">本經與前經同．亦在馬邑說．內容所說是
+<lb ed="B" n="0086a04"/>關於沙門正道法。</p></item>
+    </list></item>
+<lb ed="B" n="0086a05"/>
+    <item xml:id="itemB06p0086a0501"><p xml:id="pB06p0086a0501">雙小品第五</p>
+<lb ed="B" n="0086a06"/><list rend="no-marker">
+      <item xml:id="itemB06p0086a0601"><p xml:id="pB06p0086a0601">薩羅村婆羅門經第四十一　　同上　　二三八</p>
+<lb ed="B" n="0086a07"/><p xml:id="pB06p0086a0701" style="margin-left:1em">舊譯無。</p>
+<p xml:id="pB06p0086a0704" style="margin-left:1em" cb:place="inline">本經緣薩羅村婆羅門居士等向世尊問．關於死後生惡趣善趣之差別．以何為因。世尊
 <lb ed="B" n="0086a08"/>答之以行非法行與非正道行．及行法行與正道行為其因．且於是等詳為宣示。</p></item>
-<lb ed="B" n="0086a09"/><item xml:id="itemB06p0086a0901"><p xml:id="pB06p0086a0901">鞞蘭若村婆羅門經第四十二　　同上　　二四二</p>
-<lb ed="B" n="0086a10"/><p xml:id="pB06p0086a1001" style="margin-left:1em">舊譯無。</p><p xml:id="pB06p0086a1004" style="margin-left:1em" cb:place="inline">本經緣鞞蘭若村婆羅門居士眾．來舍衛城．聞世尊所說之法．其內與前經全同。</p></item>
-<lb ed="B" n="0086a11"/><item xml:id="itemB06p0086a1101"><p xml:id="pB06p0086a1101">有明大經第四十三　　同上　　二四三</p>
+<lb ed="B" n="0086a09"/>
+      <item xml:id="itemB06p0086a0901"><p xml:id="pB06p0086a0901">鞞蘭若村婆羅門經第四十二　　同上　　二四二</p>
+<lb ed="B" n="0086a10"/><p xml:id="pB06p0086a1001" style="margin-left:1em">舊譯無。</p>
+<p xml:id="pB06p0086a1004" style="margin-left:1em" cb:place="inline">本經緣鞞蘭若村婆羅門居士眾．來舍衛城．聞世尊所說之法．其內與前經全同。</p></item>
+<lb ed="B" n="0086a11"/>
+      <item xml:id="itemB06p0086a1101"><p xml:id="pB06p0086a1101">有明大經第四十三　　同上　　二四三</p>
 <lb ed="B" n="0086a12"/><p xml:id="pB06p0086a1201" style="margin-left:1em">舊譯　中阿含二一一大拘絺羅經（大正藏一、七九〇頁）．雜阿含二五一（大正藏二、六〇頁）．參
-<lb ed="B" n="0086a13"/>考 A. IV. 175 Koṭṭhika。</p><p xml:id="pB06p0086a1324" style="margin-left:1em" cb:place="inline">本經是大拘絺羅問舍利弗答者。內容於法殊為綿密之論。舊譯中阿含．
+<lb ed="B" n="0086a13"/>考 A. IV. 175 Koṭṭhika。</p>
+<p xml:id="pB06p0086a1324" style="margin-left:1em" cb:place="inline">本經是大拘絺羅問舍利弗答者。內容於法殊為綿密之論。舊譯中阿含．
 <lb ed="B" n="0086a14"/>問者答者適相反．內容大體相同。至於雜阿含之問者答者．則與巴利文合．唯內容極簡略。</p></item>
-<lb ed="B" n="0086a15"/><item xml:id="itemB06p0086a1501"><p xml:id="pB06p0086a1501">有明小經第四十四　　同上　　二四八</p>
-<lb ed="B" n="0086a16"/><p xml:id="pB06p0086a1601" style="margin-left:1em">舊譯　中阿含二一〇法樂比丘尼經（大正藏一、七八八頁）。</p><p xml:id="pB06p0086a1624" style="margin-left:1em" cb:place="inline">本經亦是弟子問答之經典。問者
+<lb ed="B" n="0086a15"/>
+      <item xml:id="itemB06p0086a1501"><p xml:id="pB06p0086a1501">有明小經第四十四　　同上　　二四八</p>
+<lb ed="B" n="0086a16"/><p xml:id="pB06p0086a1601" style="margin-left:1em">舊譯　中阿含二一〇法樂比丘尼經（大正藏一、七八八頁）。</p>
+<p xml:id="pB06p0086a1624" style="margin-left:1em" cb:place="inline">本經亦是弟子問答之經典。問者
 <lb ed="B" n="0086a17"/>為優婆塞毘舍佉．答者為比丘尼法授。內容於個體與五取蘊之關係．是特應須注意者．為對個體
 <lb ed="B" n="0086a18"/>常住論者之批評．八聖道有為說．想受滅說．隨眠論等是也。舊譯內容大體相同．唯問者非優婆塞
 <lb ed="B" n="0086a19"/>而是優婆夷。</p></item>
-<lb ed="B" n="0086a20"/><item xml:id="itemB06p0086a2001"><p xml:id="pB06p0086a2001">得法小經第四十五　　同上　　二五三</p>
-<lb ed="B" n="0086a21"/><p xml:id="pB06p0086a2101" style="margin-left:1em">舊譯　中阿含一七四受法經（大正藏一、七一一頁）。</p><p xml:id="pB06p0086a2121" style="margin-left:1em" cb:place="inline">本經為世尊詳說現在生活與未來果報
+<lb ed="B" n="0086a20"/>
+      <item xml:id="itemB06p0086a2001"><p xml:id="pB06p0086a2001">得法小經第四十五　　同上　　二五三</p>
+<lb ed="B" n="0086a21"/><p xml:id="pB06p0086a2101" style="margin-left:1em">舊譯　中阿含一七四受法經（大正藏一、七一一頁）。</p>
+<p xml:id="pB06p0086a2121" style="margin-left:1em" cb:place="inline">本經為世尊詳說現在生活與未來果報
 <lb ed="B" n="0086a22"/>關係之四種．即現在樂未來苦、現在苦未來苦、現在苦未來樂、現在樂未來樂。</p></item>
-<lb ed="B" n="0086a23"/><item xml:id="itemB06p0086a2301"><p xml:id="pB06p0086a2301">得法大經第四十六　　同上　　二五六</p>
-<lb ed="B" n="0086a24"/><p xml:id="pB06p0086a2401" style="margin-left:1em">舊譯　中阿含一七五受法經（大正藏一、七一二頁）．應法經（大正藏一、九〇二頁）。</p><p xml:id="pB06p0086a2433" style="margin-left:1em" cb:place="inline">本經開始
+<lb ed="B" n="0086a23"/>
+      <item xml:id="itemB06p0086a2301"><p xml:id="pB06p0086a2301">得法大經第四十六　　同上　　二五六</p>
+<lb ed="B" n="0086a24"/><p xml:id="pB06p0086a2401" style="margin-left:1em">舊譯　中阿含一七五受法經（大正藏一、七一二頁）．應法經（大正藏一、九〇二頁）。</p>
+<p xml:id="pB06p0086a2433" style="margin-left:1em" cb:place="inline">本經開始
 <lb ed="B" n="0086a25"/>於說示人之所樂欲法衰退．所不樂欲法增廣．及其相反之所樂欲法增廣．所不樂欲法衰退．究依
 <lb ed="B" n="0086a26"/>如何之理由。次之以不同之方法說明與前經相同之問題。</p></item>
-<lb ed="B" n="0086a27"/><item xml:id="itemB06p0086a2701"><p xml:id="pB06p0086a2701">思察經第四十七　　同上　　二六一</p>
-<lb ed="B" n="0086a28"/><p xml:id="pB06p0086a2801" style="margin-left:1em">舊譯　中阿含一八六求解經（大正藏一、七三一頁）。</p><p xml:id="pB06p0086a2821" style="margin-left:1em" cb:place="inline">本經中所說．云何為如來及關於如來性
+<lb ed="B" n="0086a27"/>
+      <item xml:id="itemB06p0086a2701"><p xml:id="pB06p0086a2701">思察經第四十七　　同上　　二六一</p>
+<lb ed="B" n="0086a28"/><p xml:id="pB06p0086a2801" style="margin-left:1em">舊譯　中阿含一八六求解經（大正藏一、七三一頁）。</p>
+<p xml:id="pB06p0086a2821" style="margin-left:1em" cb:place="inline">本經中所說．云何為如來及關於如來性
 <lb ed="B" n="0086a29"/>之思察方法。</p></item>
-<lb ed="B" n="0086a30"/><item xml:id="itemB06p0086a3001"><p xml:id="pB06p0086a3001">憍賞彌經第四十八　　同上　　二六四</p>
-<lb ed="B" n="0086a31"/><p xml:id="pB06p0086a3101" style="margin-left:1em">舊譯　參考增一阿含二四、八（大正藏二、六二六頁）。</p><p xml:id="pB06p0086a3121" style="margin-left:1em" cb:place="inline">本經緣憍賞彌諸比丘．發生諍論．世尊先
+<lb ed="B" n="0086a30"/>
+      <item xml:id="itemB06p0086a3001"><p xml:id="pB06p0086a3001">憍賞彌經第四十八　　同上　　二六四</p>
+<lb ed="B" n="0086a31"/><p xml:id="pB06p0086a3101" style="margin-left:1em">舊譯　參考增一阿含二四、八（大正藏二、六二六頁）。</p>
+<p xml:id="pB06p0086a3121" style="margin-left:1em" cb:place="inline">本經緣憍賞彌諸比丘．發生諍論．世尊先
 <lb ed="B" n="0086a32"/>教誡之以六法．導引於和合一致．次之以聖見七支導引於不與凡夫共之預流果。舊譯於憍賞彌
 <pb ed="B" xml:id="B06.0004.0086b" n="0086b"/>
 <lb ed="B" n="0086b01"/>諸比丘發生諍論則相同．唯於其他部分乃大異。謂世尊為彼等不易教誡故．乃說往昔長壽王本
 <lb ed="B" n="0086b02"/>生事以誨導之。</p></item>
-<lb ed="B" n="0086b03"/><item xml:id="itemB06p0086b0301"><p xml:id="pB06p0086b0301">梵天請經第四十九　　同上　　二六八</p>
-<lb ed="B" n="0086b04"/><p xml:id="pB06p0086b0401" style="margin-left:1em">舊譯　中阿含七八梵天請佛經（大正藏一、五四七頁）。</p><p xml:id="pB06p0086b0422" style="margin-left:1em" cb:place="inline">本經是敘一梵天婆伽發生邪見及慢
+<lb ed="B" n="0086b03"/>
+      <item xml:id="itemB06p0086b0301"><p xml:id="pB06p0086b0301">梵天請經第四十九　　同上　　二六八</p>
+<lb ed="B" n="0086b04"/><p xml:id="pB06p0086b0401" style="margin-left:1em">舊譯　中阿含七八梵天請佛經（大正藏一、五四七頁）。</p>
+<p xml:id="pB06p0086b0422" style="margin-left:1em" cb:place="inline">本經是敘一梵天婆伽發生邪見及慢
 <lb ed="B" n="0086b05"/>心．世尊為匡正彼故．乃與梵天及出現於梵天間之惡魔相問答．終令梵天及惡魔悉相屈伏。</p></item>
-<lb ed="B" n="0086b06"/><item xml:id="itemB06p0086b0601"><p xml:id="pB06p0086b0601">呵魔經第五十　　同上　　二七三</p>
+<lb ed="B" n="0086b06"/>
+      <item xml:id="itemB06p0086b0601"><p xml:id="pB06p0086b0601">呵魔經第五十　　同上　　二七三</p>
 <lb ed="B" n="0086b07"/><p xml:id="pB06p0086b0701" style="margin-left:1em">舊譯　中阿含一三一降魔經（大正藏一、六二〇頁）．弊魔試目連經（大正藏一、八六七頁）．魔嬈
-<lb ed="B" n="0086b08"/>亂經（大正藏一、八六四頁）。</p><p xml:id="pB06p0086b0812" style="margin-left:1em" cb:place="inline">本經是敘大目犍連以種種方法治退惡魔之事。</p></item></list></item></list></item></list></cb:div>
+<lb ed="B" n="0086b08"/>亂經（大正藏一、八六四頁）。</p>
+<p xml:id="pB06p0086b0812" style="margin-left:1em" cb:place="inline">本經是敘大目犍連以種種方法治退惡魔之事。</p></item>
+    </list></item>
+  </list></item>
+</list></cb:div>
 <lb ed="B" n="0086b09"/>
 <lb ed="B" n="0086b10"/>
 <lb ed="B" n="0086b11"/>
@@ -325,15 +436,51 @@
 <lb ed="B" n="0086b18"/>
 <lb ed="B" n="0086b19"/><cb:div type="other"><cb:mulu type="其他" level="1">凡例</cb:mulu><head>中部經典
 <lb ed="B" n="0086b20"/>　凡例</head>
-<lb ed="B" n="0086b21"/><list style="margin-left:1em"><item xml:id="itemB06p0086b2101"><note n="0086b2101" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2101"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">一、</rdg></app>本經據日本大藏出版株式會社發行之日譯本重譯。其原本為巴利聖典出版協會（Pāli Tcxt Society）
+<lb ed="B" n="0086b21"/><list style="margin-left:1em">
+  <item xml:id="itemB06p0086b2101"><note 
+n="0086b2101" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2101">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【補編】">一、</rdg>
+  </app>本經據日本大藏出版株式會社發行之日譯本重譯。其原本為巴利聖典出版協會（Pāli Tcxt Society）
 <lb ed="B" n="0086b22"/>本．兼參照暹邏本云。</item>
-<lb ed="B" n="0086b23"/><item xml:id="itemB06p0086b2301"><note n="0086b2301" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2301"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">一、</rdg></app>日譯本於經文行端．標有數字．示巴利原本之頁數．俾便互相對照。今一一仍之．改用大寫數字標出。</item>
-<lb ed="B" n="0086b24"/><item xml:id="itemB06p0086b2401"><note n="0086b2401" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2401"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">一、</rdg></app>文中字之右角上所記之七號小寫數字．為註釋之號碼．註釋隨附每經之後。</item>
-<lb ed="B" n="0086b25"/><item xml:id="itemB06p0086b2501"><note n="0086b2501" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2501"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">一、</rdg></app>文中〔〕內之語或句．乃日譯者為助讀者瞭解起見而加襯者．今仍之。</item>
-<lb ed="B" n="0086b26"/><item xml:id="itemB06p0086b2601"><note n="0086b2601" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2601"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">一、</rdg></app>文中（）內之名詞．乃日譯者就原語所引用之舊有義譯。其原語則仍保留於索引中。</item>
-<lb ed="B" n="0086b27"/><item xml:id="itemB06p0086b2701"><note n="0086b2701" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2701"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">一、</rdg></app>文中節略語句．方式不一．一依前後之語氣．用「乃至、」「如是乃至、」「亦然、」「亦復如是、」「如是
+<lb ed="B" n="0086b23"/>
+  <item xml:id="itemB06p0086b2301"><note 
+n="0086b2301" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2301">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【補編】">一、</rdg>
+  </app>日譯本於經文行端．標有數字．示巴利原本之頁數．俾便互相對照。今一一仍之．改用大寫數字標出。</item>
+<lb ed="B" n="0086b24"/>
+  <item xml:id="itemB06p0086b2401"><note 
+n="0086b2401" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2401">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【補編】">一、</rdg>
+  </app>文中字之右角上所記之七號小寫數字．為註釋之號碼．註釋隨附每經之後。</item>
+<lb ed="B" n="0086b25"/>
+  <item xml:id="itemB06p0086b2501"><note 
+n="0086b2501" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2501">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【補編】">一、</rdg>
+  </app>文中〔〕內之語或句．乃日譯者為助讀者瞭解起見而加襯者．今仍之。</item>
+<lb ed="B" n="0086b26"/>
+  <item xml:id="itemB06p0086b2601"><note 
+n="0086b2601" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2601">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【補編】">一、</rdg>
+  </app>文中（）內之名詞．乃日譯者就原語所引用之舊有義譯。其原語則仍保留於索引中。</item>
+<lb ed="B" n="0086b27"/>
+  <item xml:id="itemB06p0086b2701"><note 
+n="0086b2701" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2701">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【補編】">一、</rdg>
+  </app>文中節略語句．方式不一．一依前後之語氣．用「乃至、」「如是乃至、」「亦然、」「亦復如是、」「如是
 <lb ed="B" n="0086b28"/>如是」等。於中加〔〕者．為日譯本所節略．無〔〕者．為原底本所節略。</item>
-<lb ed="B" n="0086b29"/><item xml:id="itemB06p0086b2901"><note n="0086b2901" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2901"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">一、</rdg></app>日譯本於目次下．每經各附有提要．今仍之。</item></list>
+<lb ed="B" n="0086b29"/>
+  <item xml:id="itemB06p0086b2901"><note 
+n="0086b2901" resp="CBETA" type="add">［－］【CB】，一【補編】</note><app n="0086b2901">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【補編】">一、</rdg>
+  </app>日譯本於目次下．每經各附有提要．今仍之。</item>
+</list>
 <lb ed="B" n="0086b30"/><p xml:id="pB06p0086b3001">中華民國三十三年九月漢譯者謹識</p></cb:div>
 <lb ed="B" n="0086b31"/>
 <lb ed="B" n="0086b32"/>
@@ -388,27 +535,37 @@
 <lb ed="B" n="0087b15"/>
 <lb ed="B" n="0087b16"/>
 <lb ed="B" n="0087b17"/><cb:div type="other"><cb:mulu type="其他" level="1">中部經典一</cb:mulu><head>中部經典一</head>
-<lb ed="B" n="0087b18"/><lg xml:id="lgB06p0087b1801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:2em">歸命彼世尊<caesura/>應供正覺者</l></lg>
+<lb ed="B" n="0087b18"/><lg xml:id="lgB06p0087b1801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:2em">歸命彼世尊<caesura/>應供正覺者</l>
+</lg>
 <lb ed="B" n="0087b19"/><cb:div type="other"><cb:mulu type="其他" level="2">根本法門品第一</cb:mulu><head>根本五十經編第一　　根本法門品第一</head>
 <lb ed="B" n="0087b20"/><cb:div type="other"><cb:mulu type="其他" level="3">根本法門經第一</cb:mulu><head>根本法門經第一</head>
 <lb ed="B" n="0087b21"/><p xml:id="pB06p0087b2101">如是我聞。一時世尊．在郁伽羅聚落幸福林沙羅樹王下。爾時世尊．呼諸比丘曰．『諸比丘。』諸比丘應世
 <lb ed="B" n="0087b22"/>尊曰．『世尊。』世尊語曰．『汝等比丘．我當示汝等一切法根本法門．今將宣說．應宜善聽應善思念。』彼
 <lb ed="B" n="0087b23"/>等比丘．『唯然』欣諾。</p>
-<lb ed="B" n="0087b24"/><p xml:id="pB06p0087b2401">世尊說言．『比丘．世間無聞凡夫．不知諸<note n="0087001-n01" resp="BuBian" place="foot text" type="orig">聖者（ariya）．謂佛及獨覺．佛之聲聞．此處當特指佛。</note>聖者．不善知聖者法．故於聖者法不能調順。不知諸<note n="0087002-n01" resp="BuBian" place="foot text" type="orig">真人（Sappurisa）．此與聖者．大體相同．是指解脫者。與前者區別處．註謂指獨覺及如來之聲聞。</note>真人．不善知
+<lb ed="B" n="0087b24"/><p xml:id="pB06p0087b2401">世尊說言．『比丘．世間無聞凡夫．不知諸<note 
+n="0087001-n01" resp="BuBian" place="foot text" type="orig">聖者（ariya）．謂佛及獨覺．佛之聲聞．此處當特指佛。</note>聖者．不善知聖者法．故於聖者法不能調順。不知諸<note 
+n="0087002-n01" resp="BuBian" place="foot text" type="orig">真人（Sappurisa）．此與聖者．大體相同．是指解脫者。與前者區別處．註謂指獨覺及如來之聲聞。</note>真人．不善知
 <lb ed="B" n="0087b25"/>真人法．故於真人法不能調順。隨地想地．隨地想地而思惟地．於地思惟．隨地思惟。於是思惟．「此地是我．」
 <lb ed="B" n="0087b26"/>即於地而生悅樂。所以者何．謂「彼凡夫不善知故。」隨水想水．隨水想水而思惟水．於水思惟．隨水思惟。
-<lb ed="B" n="0087b27"/>於是思惟．「此水是我．」即於水而生悅樂。所以者何．謂「彼凡夫不善知故。」如是於<note n="0087003-n01" resp="BuBian" place="foot text" type="orig">以下原文．一一重複同上．故略譯之。</note>火、於風、<note n="0087004-n01" resp="BuBian" place="foot text" type="orig">生者（bhūta）．若按覺音註．謂通指五蘊．非人界．存在者．漏盡者．樹等。</note>生者、諸天、
-<lb ed="B" n="0087b28"/>生主、梵天、極光天、徧淨天、廣果天、<note n="0087005-n01" resp="BuBian" place="foot text" type="orig">阿毗浮（Abhibhū）．此是指無想天（Asannabhava）。</note>阿毗浮、空無邊處、識無邊處、無所有處、非想非非想處、所見者、所聞者、所
-<lb ed="B" n="0087b29"/>思者、所知者、若一、若多、若一切．亦復如是。即於<note n="0087006-n01" resp="BuBian" place="foot text" type="orig">以上自地到涅槃．在舊譯中阿含。脫極光、徧淨、廣果．以阿毗浮為無煩無熱二天及淨．總表五淨居天．舊譯最後缺涅槃。</note>涅槃．亦隨涅槃而想涅槃．隨涅槃．想涅槃．而思惟涅槃．於涅
+<lb ed="B" n="0087b27"/>於是思惟．「此水是我．」即於水而生悅樂。所以者何．謂「彼凡夫不善知故。」如是於<note 
+n="0087003-n01" resp="BuBian" place="foot text" type="orig">以下原文．一一重複同上．故略譯之。</note>火、於風、<note 
+n="0087004-n01" resp="BuBian" place="foot text" type="orig">生者（bhūta）．若按覺音註．謂通指五蘊．非人界．存在者．漏盡者．樹等。</note>生者、諸天、
+<lb ed="B" n="0087b28"/>生主、梵天、極光天、徧淨天、廣果天、<note 
+n="0087005-n01" resp="BuBian" place="foot text" type="orig">阿毗浮（Abhibhū）．此是指無想天（Asannabhava）。</note>阿毗浮、空無邊處、識無邊處、無所有處、非想非非想處、所見者、所聞者、所
+<lb ed="B" n="0087b29"/>思者、所知者、若一、若多、若一切．亦復如是。即於<note 
+n="0087006-n01" resp="BuBian" place="foot text" type="orig">以上自地到涅槃．在舊譯中阿含。脫極光、徧淨、廣果．以阿毗浮為無煩無熱二天及淨．總表五淨居天．舊譯最後缺涅槃。</note>涅槃．亦隨涅槃而想涅槃．隨涅槃．想涅槃．而思惟涅槃．於涅
 <lb ed="B" n="0087b30"/>槃思惟．隨涅槃思惟。於是思惟．「涅槃是我．」即於涅槃．而生悅樂。所以者何．我謂「彼凡夫不善知故。」</p>
-<lb ed="B" n="0087b31"/><p xml:id="pB06p0087b3101">諸比丘．復有比丘．雖處<note n="0087007-n01" resp="BuBian" place="foot text" type="orig">有學（Sokha）．對無學而言．是尚有應學位．即謂未達阿羅漢者。</note>有學．心未成就．然於最上瑜伽．勤求寂靜。彼隨地知地．隨地知地不思惟地．於地不
+<lb ed="B" n="0087b31"/><p xml:id="pB06p0087b3101">諸比丘．復有比丘．雖處<note 
+n="0087007-n01" resp="BuBian" place="foot text" type="orig">有學（Sokha）．對無學而言．是尚有應學位．即謂未達阿羅漢者。</note>有學．心未成就．然於最上瑜伽．勤求寂靜。彼隨地知地．隨地知地不思惟地．於地不
 <lb ed="B" n="0087b32"/>思惟．隨地不思惟．而不思惟．「此地是我．」即於地不生悅樂。所以者何．謂「彼比丘能善知故。」於水如
 <pb ed="B" xml:id="B06.0004.0088a" n="0088a"/>
 <lb ed="B" n="0088a01"/>是．火亦如是．風亦如是．乃至生者、諸天、生主、梵天、極光天、徧淨天、廣果天、阿毗浮、空無邊處、識無邊處、無所
 <lb ed="B" n="0088a02"/>有處、非想非非想處、所見者、所聞者、所思者、所知者、若一、若多、若一切．一一如是。即於涅槃．亦隨涅槃而知
 <lb ed="B" n="0088a03"/>涅槃．隨涅槃知涅槃故．不思惟涅槃．於涅槃不思惟．隨涅槃不思惟．不思惟「此涅槃是我．」即於涅槃不
 <lb ed="B" n="0088a04"/>生悅樂。所以者何．我謂「彼比丘能善知故。」</p>
-<lb ed="B" n="0088a05"/><p xml:id="pB06p0088a0501">諸比丘．復有比丘．得阿羅漢．諸漏已盡．修行成滿．應作已作．已棄重擔．<note n="0088008-n01" resp="BuBian" place="foot text" type="orig">逮達理想（anuppattasadattha）．Sadattha 雖多解說為 Saka-attha（自己義利）之意．然譯者以 Sat-attha 解為「真意義之目的．」即理想之意。</note>逮達理想．斷諸有結．正智解脫。彼亦
+<lb ed="B" n="0088a05"/><p xml:id="pB06p0088a0501">諸比丘．復有比丘．得阿羅漢．諸漏已盡．修行成滿．應作已作．已棄重擔．<note 
+n="0088008-n01" resp="BuBian" place="foot text" type="orig">逮達理想（anuppattasadattha）．Sadattha 雖多解說為 Saka-attha（自己義利）之意．然譯者以 Sat-attha 解為「真意義之目的．」即理想之意。</note>逮達理想．斷諸有結．正智解脫。彼亦
 <lb ed="B" n="0088a06"/>隨地知地．隨地知地故．不思惟地．於地不思惟．隨地不思惟．而不思惟．「此地是我．」即於地不生悅樂。所
 <lb ed="B" n="0088a07"/>以者何．我謂「由彼比丘．能善知故。」於水於火．乃至涅槃．亦復如是。隨涅槃知涅槃．於涅槃不思惟．隨涅
 <lb ed="B" n="0088a08"/>槃不思惟．不思惟「此涅槃是我．」即於涅槃．不生悅樂。所以者何．我謂「由彼比丘．能善知故。」</p>
@@ -456,7 +613,8 @@
 <lb ed="B" n="0088b17"/><p xml:id="pB06p0088b1701">諸比丘．云何依見故漏得捨離。謂世間無聞凡夫．不知諸聖者．不善知聖者法．故於聖者法不能調順。不知
 <lb ed="B" n="0088b18"/>諸真人．不善知真人法．故於真人法不能調順。不了應作意法．不了應毋作意法。以不了應作意法．不了應
 <lb ed="B" n="0088b19"/>毋作意法故．於應毋作意法而起作意．於應作意法不起作意。諸比丘．云何為應毋作意法彼起作意。謂於
-<lb ed="B" n="0088b20"/>作意者．若未生欲漏生．已生欲漏增長．若未生<note n="0088001-n02" resp="BuBian" place="foot text" type="orig">有（bhava）．義為在存．為不覺凡夫存在之意。此語在許多處．譯曰「存在．」但以是熟語故．特僅有時仍古來譯例．而譯為有。</note>有漏生．已生有漏增長．若未生無明漏生．已生無明漏增長．
+<lb ed="B" n="0088b20"/>作意者．若未生欲漏生．已生欲漏增長．若未生<note 
+n="0088001-n02" resp="BuBian" place="foot text" type="orig">有（bhava）．義為在存．為不覺凡夫存在之意。此語在許多處．譯曰「存在．」但以是熟語故．特僅有時仍古來譯例．而譯為有。</note>有漏生．已生有漏增長．若未生無明漏生．已生無明漏增長．
 <lb ed="B" n="0088b21"/>如是等法．為應毋作意法．然彼起作意。諸比丘．云何為應作意法彼不起作意。謂於作意者．若未生欲漏不
 <lb ed="B" n="0088b22"/>令生．已生欲漏令捨離．若未生有漏不令生．已生有漏令捨離．若未生無明漏不令生．已生無明漏令捨離．
 <lb ed="B" n="0088b23"/>如是等法．為應作意法．然彼不起作意。如是於應毋作意法起作意．於應作意法不起作意者．則未生漏生．
@@ -476,7 +634,10 @@
 <lb ed="B" n="0089a04"/>彼作意。謂若於法作意時．未生欲漏不生．已生欲漏能捨離．未生欲漏不生．乃至無明漏不令生．已生有漏
 <lb ed="B" n="0089a05"/>乃至無明漏能捨離者．如是等法．為應作意法．彼起作意。彼能於應毋作意法不起作意．於應作意法起作
 <lb ed="B" n="0089a06"/>意故．即能於未生漏使不生．已生漏使捨離。彼正作意曰．「此是苦．」正作意曰．「此是苦集．」正作意曰．
-<lb ed="B" n="0089a07"/>「此是苦滅．」正作意曰．「此是苦滅道。」若如是思念者．得捨離三結。云何三結．謂<note n="0089002-n02" resp="BuBian" place="foot text" type="orig">身見（sakkāya-diṭṭhi）．sakkāya 者意為存在之體．得譯曰身．即關於個人各別我之存在．是邪見之意。</note>身見、<note n="0089003-n02" resp="BuBian" place="foot text" type="orig">疑（vicikicchā）．謂於諦理而懷疑。</note>疑、<note n="0089004-n02" resp="BuBian" place="foot text" type="orig">戒禁取（silabbata-parāmāsa）．謂執著自己所奉特殊之條規。</note>戒禁取是。諸
+<lb ed="B" n="0089a07"/>「此是苦滅．」正作意曰．「此是苦滅道。」若如是思念者．得捨離三結。云何三結．謂<note 
+n="0089002-n02" resp="BuBian" place="foot text" type="orig">身見（sakkāya-diṭṭhi）．sakkāya 者意為存在之體．得譯曰身．即關於個人各別我之存在．是邪見之意。</note>身見、<note 
+n="0089003-n02" resp="BuBian" place="foot text" type="orig">疑（vicikicchā）．謂於諦理而懷疑。</note>疑、<note 
+n="0089004-n02" resp="BuBian" place="foot text" type="orig">戒禁取（silabbata-parāmāsa）．謂執著自己所奉特殊之條規。</note>戒禁取是。諸
 <lb ed="B" n="0089a08"/>比丘．是故說言．「依於見故．漏得捨離。」</p>
 <lb ed="B" n="0089a09"/><p xml:id="pB06p0089a0901">諸比丘．云何依防護故漏得捨離。諸比丘．謂有比丘．依於覺察．善能防護眼根而住。諸比丘．彼若不隨時防
 <lb ed="B" n="0089a10"/>護眼根．則憂慼熱惱諸漏生起．若已防護眼根．諸漏不生。復次比丘．依於覺察．善能防護耳根而住．亦復如
@@ -509,13 +670,22 @@
 <lb ed="B" n="0089b04"/><p xml:id="pB06p0089b0401">諸比丘．若比丘依見故得捨離諸漏者．是謂依見捨離．依防護故得捨離諸漏者．是謂依防護捨離．依受用
 <lb ed="B" n="0089b05"/>故得捨離諸漏者．是謂依受用捨離．依忍故得捨離諸漏者．是謂依忍捨離．依離故得捨離諸漏者．是謂依
 <lb ed="B" n="0089b06"/>離捨離．依除故得捨離諸漏者．是謂依除捨離．依修習故得捨離諸漏者．是謂依修習捨離。是故說言．「如
-<lb ed="B" n="0089b07"/>是比丘．隨一切漏．善能防護。是已斷渴愛．解脫結縛．<note n="0089005-n02" resp="BuBian" place="foot text" type="orig">正現觀慢（Sammā niānâbhis amaya）．於自己邪見之慢心．以正觀捨去其慢心之意。</note>正現觀慢．滅除有苦。」』</p>
+<lb ed="B" n="0089b07"/>是比丘．隨一切漏．善能防護。是已斷渴愛．解脫結縛．<note 
+n="0089005-n02" resp="BuBian" place="foot text" type="orig">正現觀慢（Sammā niānâbhis amaya）．於自己邪見之慢心．以正觀捨去其慢心之意。</note>正現觀慢．滅除有苦。」』</p>
 <lb ed="B" n="0089b08"/><p xml:id="pB06p0089b0801">世尊如是說。彼等比丘．聞世尊所說．歡喜信受。</p></cb:div>
 <lb ed="B" n="0089b09"/>
 <lb ed="B" n="0089b10"/>
 <lb ed="B" n="0089b11"/>
 <lb ed="B" n="0089b12"/>
-<lb ed="B" n="0089b13"/><cb:div type="other"><cb:mulu type="其他" level="3">法嗣經第三</cb:mulu><head><note n="0089b1301" resp="CBETA" type="add">［－］【CB】，第三【補編】</note><app n="0089b1301"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【補編】">第三</rdg></app>法嗣經<note n="0089b1302" resp="CBETA" type="add">第三【CB】，［－］【補編】</note><app n="0089b1302"><lem wit="【CB】" resp="CBETA.maha">第三</lem><rdg wit="【補編】"><space quantity="0"/></rdg></app></head>
+<lb ed="B" n="0089b13"/><cb:div type="other"><cb:mulu type="其他" level="3">法嗣經第三</cb:mulu><head><note 
+n="0089b1301" resp="CBETA" type="add">［－］【CB】，第三【補編】</note><app n="0089b1301">
+  <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+  <rdg wit="【補編】">第三</rdg>
+</app>法嗣經<note 
+n="0089b1302" resp="CBETA" type="add">第三【CB】，［－］【補編】</note><app n="0089b1302">
+  <lem wit="【CB】" resp="CBETA.maha">第三</lem>
+  <rdg wit="【補編】"><space quantity="0"/></rdg>
+</app></head>
 <lb ed="B" n="0089b14"/><p xml:id="pB06p0089b1401">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊．呼諸比丘曰『諸比丘。』彼等比丘．應世尊曰．
 <lb ed="B" n="0089b15"/>『世尊。』</p>
 <lb ed="B" n="0089b16"/><p xml:id="pB06p0089b1601">世尊說言．『諸比丘．汝等應繼承我法．勿繼承我財。我愍汝等．作是願言．「我諸弟子．是繼承我法．非繼承
@@ -529,7 +699,9 @@
 <lb ed="B" n="0089b24"/>言．「汝等比丘．應繼承我法．勿繼承我財。」而此食者．實是財也．我今不食此食．寧以此飢渴疲羸之身．度
 <lb ed="B" n="0089b25"/>斯一晝夜．」彼即不食．度一晝夜。其次一比丘．乃作是念．「世尊得食．食已適量．宜捨餘食．我若不食．將被
 <lb ed="B" n="0089b26"/>投棄。我寧食之．療此飢渴疲羸．度此一晝夜．」彼即食之度一晝夜。諸比丘．是二比丘．彼第一比丘者．實可
-<lb ed="B" n="0089b27"/>尊敬．深堪稱讚。所以者何．以彼比丘．少欲、知足、<note n="0089001-n03" resp="BuBian" place="foot text" type="orig">損損（sallekha）削減欲及欲之積聚．欲之對象物。</note>損損、<note n="0089002-n03" resp="BuBian" place="foot text" type="orig">易養（Subharata）．為得簡易生活之生活方法。</note>易養、資精勤故。是故諸比丘．應繼承我法．勿繼承我財．
+<lb ed="B" n="0089b27"/>尊敬．深堪稱讚。所以者何．以彼比丘．少欲、知足、<note 
+n="0089001-n03" resp="BuBian" place="foot text" type="orig">損損（sallekha）削減欲及欲之積聚．欲之對象物。</note>損損、<note 
+n="0089002-n03" resp="BuBian" place="foot text" type="orig">易養（Subharata）．為得簡易生活之生活方法。</note>易養、資精勤故。是故諸比丘．應繼承我法．勿繼承我財．
 <lb ed="B" n="0089b28"/>我愍汝等．作是願言．「我諸弟子．是繼承我法．非繼承我財也。」』善逝說是語已．即從座起．入於精舍。</p>
 <lb ed="B" n="0089b29"/><p xml:id="pB06p0089b2901">世尊離座有間．尊者舍利弗．語諸比丘曰．『諸賢。』彼等比丘．應尊者舍利弗曰．『尊者。』尊者舍利弗言．
 <lb ed="B" n="0089b30"/>『諸賢．若大師住遠離時．諸弟子眾．不學遠離．則為云何。又大師住遠離時．諸弟子眾．亦學遠離．則為云何。』
@@ -559,7 +731,8 @@
 <lb ed="B" n="0090a21"/>諸賢．云何中道能使生淨眼．使生真智．導入寂靜．聖智、正覺、涅槃。謂八支聖道．即正見、正思惟、正語、正業、正
 <lb ed="B" n="0090a22"/>命、正精進、正念、正定。諸賢．是為中道．使生淨眼．乃至導入涅槃。諸賢．謂忿是惡．恨亦是惡．捨忿恨為中道．如
 <lb ed="B" n="0090a23"/>是如是．導入涅槃。謂覆是惡．惱害是惡．如是如是．導入涅槃。嫉惡．慳惡．如是如是．導入涅槃。詐惡．誑惡．如是
-<lb ed="B" n="0090a24"/>如是．導入涅槃。頑迷惡．急躁惡．如是如是．導入涅槃。慢惡．過慢惡．如是如是．導入涅槃。憍惡．<note n="0090003-n03" resp="BuBian" place="foot text" type="orig">上自貪（lobha）下至放逸（pamāda）全數為十六．在 Anguttara 11. 17. 111. 116 等．却於 lobha 代之以 raāa．意義相同．又於瞋 dosa 之次加 moha（癡）．全數為十七。</note>放逸惡．捨放逸
+<lb ed="B" n="0090a24"/>如是．導入涅槃。頑迷惡．急躁惡．如是如是．導入涅槃。慢惡．過慢惡．如是如是．導入涅槃。憍惡．<note 
+n="0090003-n03" resp="BuBian" place="foot text" type="orig">上自貪（lobha）下至放逸（pamāda）全數為十六．在 Anguttara 11. 17. 111. 116 等．却於 lobha 代之以 raāa．意義相同．又於瞋 dosa 之次加 moha（癡）．全數為十七。</note>放逸惡．捨放逸
 <lb ed="B" n="0090a25"/>為中道。是中道者．使生淨眼．乃至導入涅槃。諸賢．云何中道．能使生淨眼．乃至導入涅槃。謂八支聖道．即正
 <lb ed="B" n="0090a26"/>見、正思惟、正語、正業、正命、正精進、正念、正定。諸賢．是為中道．能使生淨眼．使生真智．導入寂靜、聖智、正覺、涅
 <lb ed="B" n="0090a27"/>槃。』</p>
@@ -570,7 +743,8 @@
 <lb ed="B" n="0090a32"/><cb:div type="other"><cb:mulu type="其他" level="3">怖駭經第四</cb:mulu><head>怖駭經第四</head>
 <pb ed="B" xml:id="B06.0004.0090b" n="0090b"/>
 <lb ed="B" n="0090b01"/><p xml:id="pB06p0090b0101">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時生漏婆羅門．詣世尊所．共相問訊已．却坐一面。彼坐
-<lb ed="B" n="0090b02"/>一面．生漏婆羅門．白世尊言．『<note n="0090001-n04" resp="BuBian" place="foot text" type="orig">卿．原語 bho．此譯為卿．是同等者間之稱呼．佛教徒向佛是不用此語．生漏是婆羅門．故對佛稱呼為 bho。但此語以本來 bhavant 之呼格形．則亦可視為敬稱語 bhagavant（世尊）之略語．因之漸漸節略．從敬稱變成表現為親愛．終成為同等者間之稱呼矣。</note>卿瞿曇．此等善男子．歸依卿瞿曇．捨世俗家．為出家行者。卿瞿曇是彼等之
+<lb ed="B" n="0090b02"/>一面．生漏婆羅門．白世尊言．『<note 
+n="0090001-n04" resp="BuBian" place="foot text" type="orig">卿．原語 bho．此譯為卿．是同等者間之稱呼．佛教徒向佛是不用此語．生漏是婆羅門．故對佛稱呼為 bho。但此語以本來 bhavant 之呼格形．則亦可視為敬稱語 bhagavant（世尊）之略語．因之漸漸節略．從敬稱變成表現為親愛．終成為同等者間之稱呼矣。</note>卿瞿曇．此等善男子．歸依卿瞿曇．捨世俗家．為出家行者。卿瞿曇是彼等之
 <lb ed="B" n="0090b03"/>先達者．是彼等之援護者．是彼等之獎導者。彼等又隨從卿瞿曇之所教化。』世尊說言．『如是婆羅門．如
 <lb ed="B" n="0090b04"/>汝所言。彼等善男子．歸依於我．捨世俗家．為出家行者。我是彼等先達者、援護者、獎導者。彼等又隨從我之
 <lb ed="B" n="0090b05"/>所教化者也。』〔婆羅門復言．〕『卿瞿曇．閒林靜居．僻陬獨處．頗不易耐．遠離為難．獨居無樂。未得三昧
@@ -615,17 +789,21 @@
 <lb ed="B" n="0091a11"/>發如是真實語者．唯我一人。我實是無癡有情．為利益眾生．為安樂眾生．為憐愍世間．為利益安樂人天
 <lb ed="B" n="0091a12"/>故．出現於世。我實發勤精進而不懈怠．正念堅固而不錯亂．身體輕安而不激動．心得三昧而常寂靜。我離
 <lb ed="B" n="0091a13"/>欲離不善法．有尋有伺．成就離生喜樂．而住初禪。尋伺已息．於內寧靜．心成一向．無尋無伺．成就定生喜樂．
-<lb ed="B" n="0091a14"/>住第二禪。不染着喜．而住於捨．正念<note n="0091002-n04" resp="BuBian" place="foot text" type="orig">正智（sampaiana）．此處所謂正智．較正念更深進之狀態．故與說智慧之正智有不同。</note>正智．身正受樂．成就聖者所謂「捨、念、樂住．」住第三禪。捨樂捨苦．已
+<lb ed="B" n="0091a14"/>住第二禪。不染着喜．而住於捨．正念<note 
+n="0091002-n04" resp="BuBian" place="foot text" type="orig">正智（sampaiana）．此處所謂正智．較正念更深進之狀態．故與說智慧之正智有不同。</note>正智．身正受樂．成就聖者所謂「捨、念、樂住．」住第三禪。捨樂捨苦．已
 <lb ed="B" n="0091a15"/>滅喜憂故．不苦不樂．成就捨念清淨．住第四禪。</p>
-<lb ed="B" n="0091a16"/><p xml:id="pB06p0091a1601">我如是心得等持．清淨明潔．無穢無垢．柔軟堪任．堅固不動．以心趣向<note n="0091003-n04" resp="BuBian" place="foot text" type="orig">憶宿命智（qubbenivās anussatinana）．亦可譯為宿命通．是憶念前生事之超人之智。</note>憶宿命智。於是我即憶念種種宿命。
+<lb ed="B" n="0091a16"/><p xml:id="pB06p0091a1601">我如是心得等持．清淨明潔．無穢無垢．柔軟堪任．堅固不動．以心趣向<note 
+n="0091003-n04" resp="BuBian" place="foot text" type="orig">憶宿命智（qubbenivās anussatinana）．亦可譯為宿命通．是憶念前生事之超人之智。</note>憶宿命智。於是我即憶念種種宿命。
 <lb ed="B" n="0091a17"/>即得憶念「一生、二生、三生、四生、五生、十生、百生、千生、百千生．種種成劫、種種壞劫、種種成壞劫。我於是處．
-<lb ed="B" n="0091a18"/>以如是名、如是姓、如是<note n="0091004-n04" resp="BuBian" place="foot text" type="orig">種族．原語是 vaṇṇa．但此語普通譯為色．在此處即譯為色亦可．唯色得有兩種意味．即容色形色與種族（王族、婆羅門族、庶民族、奴隸族等）之意。此處亦可視為容色之意．在覺音註亦然．然我以為前後關係上觀之．以種族之意為適當。可參考南傳藏長部梵網經第一．註一〇．利斯特維滋（R hego druido）英譯二七頁註等。</note>種族．如是食、如是苦樂受．如是命終。死是處已．生於彼處。曾於彼處．以如是名、如是
+<lb ed="B" n="0091a18"/>以如是名、如是姓、如是<note 
+n="0091004-n04" resp="BuBian" place="foot text" type="orig">種族．原語是 vaṇṇa．但此語普通譯為色．在此處即譯為色亦可．唯色得有兩種意味．即容色形色與種族（王族、婆羅門族、庶民族、奴隸族等）之意。此處亦可視為容色之意．在覺音註亦然．然我以為前後關係上觀之．以種族之意為適當。可參考南傳藏長部梵網經第一．註一〇．利斯特維滋（R hego druido）英譯二七頁註等。</note>種族．如是食、如是苦樂受．如是命終。死是處已．生於彼處。曾於彼處．以如是名、如是
 <lb ed="B" n="0091a19"/>姓、如是種族．如是食．如是苦樂受．如是命終。又死彼處．生於此處。」如是我悉憶念其一一相狀．詳及本末．
 <lb ed="B" n="0091a20"/>種種宿命。我於初夜分．逮達如是第一之智。於是無智滅智生．闇滅明生。然如是智．唯住不放逸、恒慇懃心、
 <lb ed="B" n="0091a21"/>勇猛精進者．乃得現起。</p>
 <lb ed="B" n="0091a22"/><p xml:id="pB06p0091a2201">我如是心得等持．清淨明潔．無穢無垢．柔軟堪任．堅固不動．以心趣向有情生死智。我以清淨超人間天眼．
 <lb ed="B" n="0091a23"/>見有情生死。若貴、若賤、若美、若醜、若幸、不幸．知隨其業．種種別故。即見「實有是等有情．身為惡行．口為惡
-<lb ed="B" n="0091a24"/>行．意為惡行．誹謗聖者．懷著邪見．持邪見業。如是等人．身壞命終．生於惡生、惡趣、<note n="0091005-n04" resp="BuBian" place="foot text" type="orig">墮處（vinipāta）．罪人當墮之處。</note>墮處、地獄。復次實有諸餘
+<lb ed="B" n="0091a24"/>行．意為惡行．誹謗聖者．懷著邪見．持邪見業。如是等人．身壞命終．生於惡生、惡趣、<note 
+n="0091005-n04" resp="BuBian" place="foot text" type="orig">墮處（vinipāta）．罪人當墮之處。</note>墮處、地獄。復次實有諸餘
 <lb ed="B" n="0091a25"/>有情．身為善行．口為善行．意為善行．不謗聖者．常懷正見．持正見業。如是等人．身壞命終．生於善趣天界。」
 <lb ed="B" n="0091a26"/>如是我以清淨超人間天眼．見有情生死。貴、賤、美、醜、若幸、不幸．知隨其業．種種別故。我於中夜分．逮達如是
 <lb ed="B" n="0091a27"/>第二之智。於是無智滅智生．闇滅明生。然如是智．唯住不放逸、恒慇懃心、勇猛精進者．乃得現起。</p>
@@ -717,7 +895,8 @@
 <lb ed="B" n="0092b14"/>是念．「餘比丘得上好飲食．乃至上好床座．上好醫藥資具．而我不得。」於是心懷憤怒．意感不滿。尊者．如
 <lb ed="B" n="0092b15"/>是憤怒不滿．兩俱穢也。尊者．云何名為穢．謂於如是惡、不善、欲境．與名為穢。</p>
 <lb ed="B" n="0092b16"/><p xml:id="pB06p0092b1601">尊者．任何比丘．若彼於所見所聞．不能捨離此等惡、不善、欲境故．縱住閒林．僻陬獨處．或乞食行．次第乞食．
-<lb ed="B" n="0092b17"/>着<note n="0092001-n05" resp="BuBian" place="foot text" type="orig">下一段文．參看增支部六、五九等。住閑林乃至糞掃衣者．亦可參看南傳清淨道論二、解脫道論三、頭陀品等之說明。</note>糞掃衣．粗服自飾．亦必不為彼同行者之所恭敬、尊重、尊敬、禮拜。所以者何。以所見所聞．不能捨離彼尊
+<lb ed="B" n="0092b17"/>着<note 
+n="0092001-n05" resp="BuBian" place="foot text" type="orig">下一段文．參看增支部六、五九等。住閑林乃至糞掃衣者．亦可參看南傳清淨道論二、解脫道論三、頭陀品等之說明。</note>糞掃衣．粗服自飾．亦必不為彼同行者之所恭敬、尊重、尊敬、禮拜。所以者何。以所見所聞．不能捨離彼尊
 <lb ed="B" n="0092b18"/>者應所捨離諸惡、不善、欲境故。尊者．譬如有人．從於市肆．或銅作家．購一清淨皎潔銅盤．其人盛以蛇屍狗
 <lb ed="B" n="0092b19"/>屍．及人屍等．以他銅盤．而覆蓋之．攜入市場。有人見而問曰．「君所藏者．得非殊妙之珍物耶。」乃揭舉其
 <lb ed="B" n="0092b20"/>蓋視之。無論見與不見．無好之者．可忌可厭．茫然罔措。尊者．諸有比丘．若彼於所見所聞．不能捨離此等惡、
@@ -730,7 +909,8 @@
 <lb ed="B" n="0092b27"/>者．諸有比丘．若彼於所見所聞。能捨離此等惡、不善、欲境．亦復如是．縱近住於聚落．受別請食．披着俗服．亦
 <lb ed="B" n="0092b28"/>當為同行者之所恭敬、尊重、尊敬、禮拜。何以故以所見所聞．能捨離彼尊者應所捨離諸惡、不善、欲境故。』
 <lb ed="B" n="0092b29"/>說是語時．尊者大目犍連．語尊者舍利弗言．『尊者．我今適思及一喻言。』〔舍利弗言．〕「尊者目犍連．
-<lb ed="B" n="0092b30"/>請說毋吝。」〔尊者大目犍連．乃宣說曰．〕『尊者．一時我在王舍城<note n="0092002-n05" resp="BuBian" place="foot text" type="orig">山圍城（Giribbaja）．舊譯為巖山、山谷精舍、夾谷精舍等。是山所圍之城市．即王舍城之舊城。頻婆娑羅王以來（一說阿闍世王以來）在此山城外之平原．築新王舍城而住。此記事當知在新王舍城成立以後之事。</note>山圍城內．於日初分．着衣執持衣鉢．
+<lb ed="B" n="0092b30"/>請說毋吝。」〔尊者大目犍連．乃宣說曰．〕『尊者．一時我在王舍城<note 
+n="0092002-n05" resp="BuBian" place="foot text" type="orig">山圍城（Giribbaja）．舊譯為巖山、山谷精舍、夾谷精舍等。是山所圍之城市．即王舍城之舊城。頻婆娑羅王以來（一說阿闍世王以來）在此山城外之平原．築新王舍城而住。此記事當知在新王舍城成立以後之事。</note>山圍城內．於日初分．着衣執持衣鉢．
 <lb ed="B" n="0092b31"/>行乞王舍城。爾時有車師弟子薩彌提者．適造車輞。有曾為車師弟子．轉為邪命外道跋陀子者．立彼薩彌
 <lb ed="B" n="0092b32"/>提前。跋陀子心自念言．「嗚呼．此車師弟子薩彌提者．若再修正此車輞．此歪處、曲處、缺處者．則此車輞．便
 <pb ed="B" xml:id="B06.0004.0093a" n="0093a"/>
@@ -743,7 +923,9 @@
 <lb ed="B" n="0093a07"/>及非浮躁、饒舌、雜語．善能護攝根門．食有節度．深自警覺．以真沙門為念願．專精於學．不恣意．不放慢．以墮
 <lb ed="B" n="0093a08"/>落為重軛而自引避．趣向遠離．思念堅固．定心專念．有智慧故．非處愚闇。彼等聞尊者舍利弗如是法門．如
 <lb ed="B" n="0093a09"/>飲如食．必能細味其言句及以義趣。是實善哉．能使同行者．遷其不善安立於善者也。尊者．猶如青年男女．
-<lb ed="B" n="0093a10"/>雅好裝飾．沐洗其頭．得青蓮華鬘．或<note n="0093003-n05" resp="BuBian" place="foot text" type="orig">雨生華（vassika）．亦譯為夏生花。</note>雨生華鬘．或<note n="0093004-n05" resp="BuBian" place="foot text" type="orig">善思華（atimu-ttaka）．亦譯為苣藤或龍舐。</note>善思華鬘．捧以兩手置首為飾。如是尊者．若有善男子．以
+<lb ed="B" n="0093a10"/>雅好裝飾．沐洗其頭．得青蓮華鬘．或<note 
+n="0093003-n05" resp="BuBian" place="foot text" type="orig">雨生華（vassika）．亦譯為夏生花。</note>雨生華鬘．或<note 
+n="0093004-n05" resp="BuBian" place="foot text" type="orig">善思華（atimu-ttaka）．亦譯為苣藤或龍舐。</note>善思華鬘．捧以兩手置首為飾。如是尊者．若有善男子．以
 <lb ed="B" n="0093a11"/>信心故．捨世俗家．為出家行者．無有奸詐．乃至非愚闇．彼等聞尊者如此法門．如飲如食．必能細味其言句
 <lb ed="B" n="0093a12"/>以及義趣。是實善哉．能使同行者．遷其不善安立於善者也。』</p>
 <lb ed="B" n="0093a13"/><p xml:id="pB06p0093a1301">如是彼二尊者．相互善說．相互隨喜。</p></cb:div>
@@ -753,7 +935,8 @@
 <lb ed="B" n="0093a17"/><cb:div type="other"><cb:mulu type="其他" level="3">願經第六</cb:mulu><head>願經第六</head>
 <lb ed="B" n="0093a18"/><p xml:id="pB06p0093a1801">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊．呼諸比丘曰．『諸比丘。』彼等比丘．應世尊曰．
 <lb ed="B" n="0093a19"/>『世尊。』</p>
-<lb ed="B" n="0093a20"/><p xml:id="pB06p0093a2001">世尊說言．『諸比丘．<note n="0093001-n06" resp="BuBian" place="foot text" type="orig">下段文可參看增支部五、二二經。</note>汝等當具足戒．具足戒本。以能守護戒本守護故．當具足行及行處．當畏細罪．受學處
+<lb ed="B" n="0093a20"/><p xml:id="pB06p0093a2001">世尊說言．『諸比丘．<note 
+n="0093001-n06" resp="BuBian" place="foot text" type="orig">下段文可參看增支部五、二二經。</note>汝等當具足戒．具足戒本。以能守護戒本守護故．當具足行及行處．當畏細罪．受學處
 <lb ed="B" n="0093a21"/>學。諸比丘．若有比丘．作是願言．「願我為同行者所愛、所喜、所重、所敬．」彼當成就戒．內心寂靜．不輕禪定．
 <lb ed="B" n="0093a22"/>具足觀行．為住空閑處行者。復次若有比丘．作是願言．「願我得衣、食、床、座、醫藥、資具．」彼當成就戒．內心
 <lb ed="B" n="0093a23"/>寂靜．不輕禪定．具足觀行．為住空閑處行者。復次若有比丘．作是願言．「願我於所受施衣、食、床座、醫藥、資
@@ -767,7 +950,9 @@
 <lb ed="B" n="0093a31"/>「願我斷除三結．以離墮法．決定進趣正見預流者．」彼當成就戒．乃至為住空閑處行者。復次若有比丘．作
 <lb ed="B" n="0093a32"/>是願言．「願我斷除三結．滅貪瞋癡．得一往來．謂一來此世．苦即永移．」彼當成就戒．乃至為住空閑處行
 <pb ed="B" xml:id="B06.0004.0093b" n="0093b"/>
-<lb ed="B" n="0093b01"/>者。復次若有比丘．作如是願．「願我斷五下分結．為化生者．在於<note n="0093002-n06" resp="BuBian" place="foot text" type="orig">彼處．此指死而往生之處．是此世界外之處。（後世說為欲界以外之處。）</note>彼處．而<note n="0093003-n06" resp="BuBian" place="foot text" type="orig">般涅槃．為（parinibbāna）之譯音．原是完全解脫之意．但後世習用上．則指為解脫而死。</note>般涅槃．再不從彼處．還來此處．」
+<lb ed="B" n="0093b01"/>者。復次若有比丘．作如是願．「願我斷五下分結．為化生者．在於<note 
+n="0093002-n06" resp="BuBian" place="foot text" type="orig">彼處．此指死而往生之處．是此世界外之處。（後世說為欲界以外之處。）</note>彼處．而<note 
+n="0093003-n06" resp="BuBian" place="foot text" type="orig">般涅槃．為（parinibbāna）之譯音．原是完全解脫之意．但後世習用上．則指為解脫而死。</note>般涅槃．再不從彼處．還來此處．」
 <lb ed="B" n="0093b02"/>彼當成就戒．乃至為住空閑處行者。復次若有比丘．作如是願．「願我驗證種種神通力．即謂一而為多．多
 <lb ed="B" n="0093b03"/>而為一．或隱或顯．又復越壁越墻越山．所行無礙．猶履虛空．出沒地中．如戲水中．行於水面．不蹴破水．如履
 <lb ed="B" n="0093b04"/>地上．趺坐往來於虛空中．猶如飛鳥。又於具足如是大威力大威德之若日若月．乃得以掌而捫摸之．迄梵
@@ -797,7 +982,8 @@
 <lb ed="B" n="0093b28"/><cb:div type="other"><cb:mulu type="其他" level="3">布喻經第七</cb:mulu><head>布喻經第七</head>
 <lb ed="B" n="0093b29"/><p xml:id="pB06p0093b2901">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊．呼諸比丘曰．『諸比丘。』彼等比丘．應世尊言．
 <lb ed="B" n="0093b30"/>『世尊。』</p>
-<lb ed="B" n="0093b31"/><p xml:id="pB06p0093b3101">於是世尊．乃宣說曰．『諸比丘．謂有穢垢所膩之布．染匠將之欲染或藍、或黃、或紅、或<note n="0093001-n07" resp="BuBian" place="foot text" type="orig">茜（mannjeṭṭha）．此有種種譯語．在巴利聖典協會辭書中．譯為 light（bright）. red. crimson．在 Neumann．譯為 Violette．在 Lord chalmers．譯為 Pink．在 Milindapannha P. 61 之 Mānatiloka．則譯為 bāun．在 Rhys Davids 譯．則為 brown。</note>茜諸色．於是浸着一
+<lb ed="B" n="0093b31"/><p xml:id="pB06p0093b3101">於是世尊．乃宣說曰．『諸比丘．謂有穢垢所膩之布．染匠將之欲染或藍、或黃、或紅、或<note 
+n="0093001-n07" resp="BuBian" place="foot text" type="orig">茜（mannjeṭṭha）．此有種種譯語．在巴利聖典協會辭書中．譯為 light（bright）. red. crimson．在 Neumann．譯為 Violette．在 Lord chalmers．譯為 Pink．在 Milindapannha P. 61 之 Mānatiloka．則譯為 bāun．在 Rhys Davids 譯．則為 brown。</note>茜諸色．於是浸着一
 <lb ed="B" n="0093b32"/>一染色之中．然其色惡劣．終莫鮮明．何以故．以其布不淨性故．比丘心若穢時．亦復如是．當可豫期惡趣。復
 <pb ed="B" xml:id="B06.0004.0094a" n="0094a"/>
 <lb ed="B" n="0094a01"/>次若有清淨皎潔之布．染匠將之欲染或藍、或黃、或紅、或茜諸色．於是浸着一一染色之中．其色上善．着染
@@ -807,7 +993,9 @@
 <lb ed="B" n="0094a05"/>比丘．知貪欲邪貪是心穢．而捨離貪欲邪貪心穢。知瞋是心穢．而捨離瞋心穢。知忿、恨、覆、惱、害、嫉、慳、詐瞞、誑、
 <lb ed="B" n="0094a06"/>頑迷、急躁、慢、過慢、憍、放逸．一一皆是心穢．而悉捨離．如是一一心穢。彼比丘者．具足絕對信仰於佛．謂「彼
 <lb ed="B" n="0094a07"/>世尊．是應供、等正覺者、明行足、善逝、世間解、無上士、調御丈夫、天人師、覺者、世尊。」又具足絕對信仰於法．
-<lb ed="B" n="0094a08"/>謂「從於世尊善所說法．現見所證．<note n="0094002-n07" resp="BuBian" place="foot text" type="orig">無有時間．原語 akālika．此可得二義．一指效果．即時顯現之意．一指不受時間限制．永遠不變之真理之意。</note>無有時間．<note n="0094003-n07" resp="BuBian" place="foot text" type="orig">於諸來者平等教詔．原語 ehipassika．即於任何人亦為開示之意。</note>於諸來者平等教詔．導入〔涅槃．〕由智者故．得自證知。」
+<lb ed="B" n="0094a08"/>謂「從於世尊善所說法．現見所證．<note 
+n="0094002-n07" resp="BuBian" place="foot text" type="orig">無有時間．原語 akālika．此可得二義．一指效果．即時顯現之意．一指不受時間限制．永遠不變之真理之意。</note>無有時間．<note 
+n="0094003-n07" resp="BuBian" place="foot text" type="orig">於諸來者平等教詔．原語 ehipassika．即於任何人亦為開示之意。</note>於諸來者平等教詔．導入〔涅槃．〕由智者故．得自證知。」
 <lb ed="B" n="0094a09"/>復次具足絕對信仰於僧．謂「世尊之聲聞眾．是調順者．是直入者．是理入者．是正入者．即四雙八輩此等
 <lb ed="B" n="0094a10"/>世尊之聲聞眾．應宜供養．應宜奉侍．應宜布施．應宜合掌．是此世間無上福田。」是彼終得捨棄、遣除、解脫、
 <lb ed="B" n="0094a11"/>捨離、離脫。彼自念言．「我對於佛．具足絕對信仰．」是以於義而得信受．於法而得信受．得與法俱歡喜．於
@@ -826,20 +1014,31 @@
 <lb ed="B" n="0094a24"/><p xml:id="pB06p0094a2401">彼自知「此是有．此是卑賤．此是高貴．超越是想處乃得出離。」若彼如是知如是見．便得離欲漏心解脫．
 <lb ed="B" n="0094a25"/>離有漏心解脫．離無明漏心解脫．且逮得「解脫者解脫」智生．知「生已盡．梵行已成．應作已作．更不趣
 <lb ed="B" n="0094a26"/>有．」若是比丘者．可謂以內心淨浴而為淨浴。』</p>
-<lb ed="B" n="0094a27"/><p xml:id="pB06p0094a2701">爾時孫陀利迦頗羅墮瓦遮婆羅門．坐近世尊．白世尊言．『<note n="0094004-n07" resp="BuBian" place="foot text" type="orig">卿．已見第四註之一。</note>卿瞿曇．詣頗富迦河行沐浴耶。』〔世尊答曰．〕
+<lb ed="B" n="0094a27"/><p xml:id="pB06p0094a2701">爾時孫陀利迦頗羅墮瓦遮婆羅門．坐近世尊．白世尊言．『<note 
+n="0094004-n07" resp="BuBian" place="foot text" type="orig">卿．已見第四註之一。</note>卿瞿曇．詣頗富迦河行沐浴耶。』〔世尊答曰．〕
 <lb ed="B" n="0094a28"/>『婆羅門．行頗富迦河欲何所為．於頗富迦河．將有何事。』〔婆羅門曰．〕『卿瞿曇．我以頗富迦河．實令眾
 <lb ed="B" n="0094a29"/>人使得解脫．我以頗富迦河．實於眾人給與福德．若眾人入頗富迦河者．即得洗除所造惡業。』於是世尊．
 <lb ed="B" n="0094a30"/>為孫陀利迦頗羅墮瓦遮婆羅門．而偈說言。</p>
-<lb ed="B" n="0094a31"/><lg type="regular" xml:id="lgB06p0094a3101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">『頗富迦河<caesura style="text-indent:1em;"/>阿底揭迦<caesura style="text-indent:1em;"/>或伽耶河<caesura style="text-indent:1em;"/>孫陀利迦<caesura style="text-indent:1em;"/>薩羅薩提<caesura style="text-indent:1em;"/>及頗耶伽<caesura style="text-indent:1em;"/>頗富摩提</l>
-<lb ed="B" n="0094a32"/><l style="text-indent:1em">如是諸河<caesura style="text-indent:1em;"/>孫陀利迦<caesura style="text-indent:1em;"/>汝意云何<caesura style="text-indent:1em;"/>在頗耶伽<caesura style="text-indent:1em;"/>或頗富迦<caesura style="text-indent:1em;"/>世有愚人<caesura style="text-indent:1em;"/>雖常投沒</l>
+<lb ed="B" n="0094a31"/><lg type="regular" xml:id="lgB06p0094a3101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">『頗富迦河<caesura style="text-indent:1em;"/>阿底揭迦<caesura style="text-indent:1em;"/>或伽耶河<caesura style="text-indent:1em;"/>孫陀利迦<caesura style="text-indent:1em;"/>薩羅薩提<caesura style="text-indent:1em;"/>及頗耶伽<caesura style="text-indent:1em;"/>頗富摩提</l>
+<lb ed="B" n="0094a32"/>
+  <l style="text-indent:1em">如是諸河<caesura style="text-indent:1em;"/>孫陀利迦<caesura style="text-indent:1em;"/>汝意云何<caesura style="text-indent:1em;"/>在頗耶伽<caesura style="text-indent:1em;"/>或頗富迦<caesura style="text-indent:1em;"/>世有愚人<caesura style="text-indent:1em;"/>雖常投沒</l>
 <pb ed="B" xml:id="B06.0004.0094b" n="0094b"/>
-<lb ed="B" n="0094b01"/><l style="text-indent:1em">然其黑業<caesura style="text-indent:1em;"/>終莫能淨<caesura style="text-indent:1em;"/>此有敵意<caesura style="text-indent:1em;"/>更有罪惡<caesura style="text-indent:1em;"/>深厚惡業<caesura style="text-indent:1em;"/>云何洗除<caesura style="text-indent:1em;"/>有欲淨者</l>
-<lb ed="B" n="0094b02"/><l style="text-indent:1em">常脩<note n="0094005-n07" resp="BuBian" place="foot text" type="orig">春祀．原巴利語為 bha.ggu．梵語則為 phalgu．印度以春之初月名 phālguṇa（phagguṇa）．是月後分滿月之日．婆羅門行春祭．以祈風雨順時。</note>春祀<caesura style="text-indent:1em;"/>有欲淨者<caesura style="text-indent:1em;"/>常行<note n="0094006-n07" resp="BuBian" place="foot text" type="orig">布薩．是 uposatha 之譯音．此原在婆羅門方面．以新滿月祭之夜祭前．家主夫妻．於此日修一定之加行。</note>布薩<caesura style="text-indent:1em;"/>欲淨其業<caesura style="text-indent:1em;"/>在淨諸己<caesura style="text-indent:1em;"/>常修加行<caesura style="text-indent:1em;"/>斯得成就</l>
-<lb ed="B" n="0094b03"/><l style="text-indent:1em">汝婆羅門<caesura style="text-indent:1em;"/>應於此浴<caesura style="text-indent:1em;"/>於有生類<caesura style="text-indent:1em;"/>皆給安穩<caesura style="text-indent:1em;"/>汝若不妄<caesura style="text-indent:1em;"/>又不殺生<caesura style="text-indent:1em;"/>不取不與</l>
-<lb ed="B" n="0094b04"/><l style="text-indent:1em">樹信無貪<caesura style="text-indent:1em;"/>是則何須<caesura style="text-indent:1em;"/>詣伽耶河<caesura style="text-indent:1em;"/>伽耶河者<caesura style="text-indent:1em;"/>直水槽耳』</l></lg>
+<lb ed="B" n="0094b01"/>
+  <l style="text-indent:1em">然其黑業<caesura style="text-indent:1em;"/>終莫能淨<caesura style="text-indent:1em;"/>此有敵意<caesura style="text-indent:1em;"/>更有罪惡<caesura style="text-indent:1em;"/>深厚惡業<caesura style="text-indent:1em;"/>云何洗除<caesura style="text-indent:1em;"/>有欲淨者</l>
+<lb ed="B" n="0094b02"/>
+  <l style="text-indent:1em">常脩<note 
+n="0094005-n07" resp="BuBian" place="foot text" type="orig">春祀．原巴利語為 bha.ggu．梵語則為 phalgu．印度以春之初月名 phālguṇa（phagguṇa）．是月後分滿月之日．婆羅門行春祭．以祈風雨順時。</note>春祀<caesura style="text-indent:1em;"/>有欲淨者<caesura style="text-indent:1em;"/>常行<note 
+n="0094006-n07" resp="BuBian" place="foot text" type="orig">布薩．是 uposatha 之譯音．此原在婆羅門方面．以新滿月祭之夜祭前．家主夫妻．於此日修一定之加行。</note>布薩<caesura style="text-indent:1em;"/>欲淨其業<caesura style="text-indent:1em;"/>在淨諸己<caesura style="text-indent:1em;"/>常修加行<caesura style="text-indent:1em;"/>斯得成就</l>
+<lb ed="B" n="0094b03"/>
+  <l style="text-indent:1em">汝婆羅門<caesura style="text-indent:1em;"/>應於此浴<caesura style="text-indent:1em;"/>於有生類<caesura style="text-indent:1em;"/>皆給安穩<caesura style="text-indent:1em;"/>汝若不妄<caesura style="text-indent:1em;"/>又不殺生<caesura style="text-indent:1em;"/>不取不與</l>
+<lb ed="B" n="0094b04"/>
+  <l style="text-indent:1em">樹信無貪<caesura style="text-indent:1em;"/>是則何須<caesura style="text-indent:1em;"/>詣伽耶河<caesura style="text-indent:1em;"/>伽耶河者<caesura style="text-indent:1em;"/>直水槽耳』</l>
+</lg>
 <lb ed="B" n="0094b05"/><p xml:id="pB06p0094b0501">說是語時．孫陀利迦頗羅墮瓦遮婆羅門．白世尊言．『大哉卿瞿曇．大哉卿瞿曇．猶如倒人扶之使起．如幽
 <lb ed="B" n="0094b06"/>覆者揭之使顯．如迷方者教以道路．如於闇中．給以明燈．使有目者．乃得見色。從卿瞿曇示以種種方便之
-<lb ed="B" n="0094b07"/>法．亦復如是。今我歸命卿瞿曇．又歸命法．及歸命僧。我欲於卿曇瞿所出家．得受<note n="0094007-n07" resp="BuBian" place="foot text" type="orig">近圓（upasampadā）．謂完全進入於比丘或比丘尼式時之意。又依近於圓寂之意．故亦可譯近圓。</note>近圓。』於是孫陀利迦頗
+<lb ed="B" n="0094b07"/>法．亦復如是。今我歸命卿瞿曇．又歸命法．及歸命僧。我欲於卿曇瞿所出家．得受<note 
+n="0094007-n07" resp="BuBian" place="foot text" type="orig">近圓（upasampadā）．謂完全進入於比丘或比丘尼式時之意。又依近於圓寂之意．故亦可譯近圓。</note>近圓。』於是孫陀利迦頗
 <lb ed="B" n="0094b08"/>羅墮瓦遮婆羅門．即於世尊所出家．而受近圓。是新近圓頗羅墮瓦遮尊者．孤獨別住．住不放逸．勇猛精進．
 <lb ed="B" n="0094b09"/>於未久間．即得成就．世間善男子等．離世俗家．為出家修行者所期．無上梵行處．而於現法．逮得自知自證。
 <lb ed="B" n="0094b10"/>知『生已盡．梵行已成．應作已作．更不趣有。』於是尊者頗羅墮瓦遮．是證阿羅漢之一人。</p></cb:div>
@@ -951,13 +1150,15 @@
 <lb ed="B" n="0096a17"/>本．癡為不善根本．是謂不善根本。諸賢．云何為善。曰．離殺生為善．離不與取為善．離邪婬為善．離妄語為善．
 <lb ed="B" n="0096a18"/>離兩舌為善．離粗惡語為善．離綺語為善．不慳貪為善．不瞋恚為善．正見為善．是謂之善。諸賢．云何為善根
 <lb ed="B" n="0096a19"/>本。曰．不貪為善根本．不瞋為善根本．不癡為善根本．是謂善之根本。諸賢．聖弟子．如是知不善．如是知不善
-<lb ed="B" n="0096a20"/>根本．如是知善．如是知善根本故．彼即遍捨貪<note n="0096001-n09" resp="BuBian" place="foot text" type="orig">隨眠（anusaya）．此以煩惱隨逐眾生為眠伏之狀態而得名者．照譯語字義．亦即為先天附隨之煩惱。</note>隨眠．遍除瞋隨眠．悉去「我是有」之見慢隨眠．捨無明故
+<lb ed="B" n="0096a20"/>根本．如是知善．如是知善根本故．彼即遍捨貪<note 
+n="0096001-n09" resp="BuBian" place="foot text" type="orig">隨眠（anusaya）．此以煩惱隨逐眾生為眠伏之狀態而得名者．照譯語字義．亦即為先天附隨之煩惱。</note>隨眠．遍除瞋隨眠．悉去「我是有」之見慢隨眠．捨無明故
 <lb ed="B" n="0096a21"/>而明生起．於現法得苦滅。如是為聖弟子正見．其見正直．於法具有絕對淨信．通達如此正法者也。』</p>
 <lb ed="B" n="0096a22"/><p xml:id="pB06p0096a2201">彼等比丘．信受隨喜尊者舍利弗語故．贊曰『善哉尊者。』旋又問曰．『尊者．為聖弟子正見．其見正直．於
 <lb ed="B" n="0096a23"/>法具有絕對淨信．當達如此正法．尚有其他法門否。』〔舍利弗言．〕『如是諸賢．尚有餘法。若聖弟子．知
 <lb ed="B" n="0096a24"/>食．知食集．知食滅．知食滅道。如是為聖弟子正見．其見正直．於法具有絕對淨信．通達如此正法。云何為食．
 <lb ed="B" n="0096a25"/>云何為食集．云何為食滅．云何為食滅道。曰．食有四種．已生有情使之住．將生有情而為扶助。其四種者．第
-<lb ed="B" n="0096a26"/>一或粗或細曰<note n="0096002-n09" resp="BuBian" place="foot text" type="orig">摶食（kabaliṅkāra-āhāra）．亦有寫「揣食．」普通食物．食時以手撮取．故曰摶食。</note>摶食．第二曰觸．第三曰意思．第四曰識。緣欲集則食集．欲滅則食滅。是八支聖道．為通達食
+<lb ed="B" n="0096a26"/>一或粗或細曰<note 
+n="0096002-n09" resp="BuBian" place="foot text" type="orig">摶食（kabaliṅkāra-āhāra）．亦有寫「揣食．」普通食物．食時以手撮取．故曰摶食。</note>摶食．第二曰觸．第三曰意思．第四曰識。緣欲集則食集．欲滅則食滅。是八支聖道．為通達食
 <lb ed="B" n="0096a27"/>滅道．即正見、正思惟、正語、正業、正命、正精進、正念、正定是。聖弟子如是知食．如是知食集．如是知食滅．如是
 <lb ed="B" n="0096a28"/>知食滅道故．彼即遍捨貪隨眠．遍除瞋隨眠．悉去「我是有」之見慢隨眠．捨無明故而明生起．於現法得
 <lb ed="B" n="0096a29"/>苦滅。如是為聖弟子正見．其見正直．於法具有絕對淨信．通達如此正法者也。』</p>
@@ -967,7 +1168,8 @@
 <pb ed="B" xml:id="B06.0004.0096b" n="0096b"/>
 <lb ed="B" n="0096b01"/>云何為苦滅．云何為苦滅道。曰．生為苦．老為苦．病為苦．死為苦．愁、悲、苦、憂、惱為苦．求不得為苦．五蘊為苦．是
 <lb ed="B" n="0096b02"/>謂之苦。復次云何為苦集。曰．是為渴愛．以渴愛故．導趣後有．與喜貪俱．於彼於此而為享樂。即愛欲之渴愛．
-<lb ed="B" n="0096b03"/>有之渴愛．<note n="0096003-n09" resp="BuBian" place="foot text" type="orig">無有之渴愛（vibhava-taṇhā）．亦可譯為「無有欲．」此指斷見所立死後無有存在之謂．故欲於現世凡可享樂者盡情享受．是斷見思想之現世享樂主義。關於此語．既是渴愛．自是根本之欲．至少於如上所解釋之外．非無別種解釋．現在姑從南傳之註釋。</note>無有之渴愛．是謂苦集。復次云何為苦滅。曰．彼之渴愛．完全離滅、捨棄、遣除、解脫、無執．是謂苦滅。
+<lb ed="B" n="0096b03"/>有之渴愛．<note 
+n="0096003-n09" resp="BuBian" place="foot text" type="orig">無有之渴愛（vibhava-taṇhā）．亦可譯為「無有欲．」此指斷見所立死後無有存在之謂．故欲於現世凡可享樂者盡情享受．是斷見思想之現世享樂主義。關於此語．既是渴愛．自是根本之欲．至少於如上所解釋之外．非無別種解釋．現在姑從南傳之註釋。</note>無有之渴愛．是謂苦集。復次云何為苦滅。曰．彼之渴愛．完全離滅、捨棄、遣除、解脫、無執．是謂苦滅。
 <lb ed="B" n="0096b04"/>云何為苦滅道。曰．是八支聖道．為趣苦滅道．即正見乃至正定是。諸賢．若聖弟子。如是知苦．如是知苦集．如
 <lb ed="B" n="0096b05"/>是知苦滅．如是知苦滅道．彼即遍捨貪隨眠．遍除瞋隨眠．乃至於現法得苦滅。如是為聖弟子正見．其見正
 <lb ed="B" n="0096b06"/>直．於法具有絕對淨信．通達如此正法者也。』</p>
@@ -1148,7 +1350,8 @@
 <lb ed="B" n="0099a16"/>法隨觀法而住。</p>
 <lb ed="B" n="0099a17"/><p xml:id="pB06p0099a1701">諸比丘．若如是七年間修習此等四念處．彼可豫期二果之中得成一果．即謂或於現法．得究竟智．或尚有
 <lb ed="B" n="0099a18"/>依．得成不還。或非七年．若唯六年、五年、四年、三年、二年、或一年間．如是修習此四念處者．或非一年．若唯七
-<lb ed="B" n="0099a19"/>月間．如是修習此四念處者．彼可豫期二果之中得成一果．即謂或於現法得究竟智．或尚<note n="0099001-n10" resp="BuBian" place="foot text" type="orig">有依（upādisesa）．尚有餘依之意．亦與 sa-upādisesa 同。依（upādi）者．謂未能證悟而存有所依之意。</note>有依．得成不還。
+<lb ed="B" n="0099a19"/>月間．如是修習此四念處者．彼可豫期二果之中得成一果．即謂或於現法得究竟智．或尚<note 
+n="0099001-n10" resp="BuBian" place="foot text" type="orig">有依（upādisesa）．尚有餘依之意．亦與 sa-upādisesa 同。依（upādi）者．謂未能證悟而存有所依之意。</note>有依．得成不還。
 <lb ed="B" n="0099a20"/>或非七月．實唯六月、五月、四月、三月、二月、一月．或實唯半月間．乃至未滿半月．僅七日間．如是修習此四念
 <lb ed="B" n="0099a21"/>處者．彼可豫期．二果之中得成一果．即謂於現法得究竟智．或尚有依．得成不還位。</p>
 <lb ed="B" n="0099a22"/><p xml:id="pB06p0099a2201">緣如是故．說如是言．「諸比丘．若有欲為淨化有情．超越愁悲．消滅苦憂．逮達正理．涅槃作證．有是一乘．即
@@ -1167,8 +1370,11 @@
 <lb ed="B" n="0099b02"/><cb:div type="other"><cb:mulu type="其他" level="3">師子吼小經第十一</cb:mulu><head>師子吼小經第十一</head>
 <lb ed="B" n="0099b03"/><p xml:id="pB06p0099b0301">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊呼諸比丘曰．『諸比丘．』彼比丘等．應世尊曰．
 <lb ed="B" n="0099b04"/>『世尊。』</p>
-<lb ed="B" n="0099b05"/><p xml:id="pB06p0099b0501">世尊說言．『諸比丘．汝等應如是作師子吼．曰．「是處<note n="0099001-n11" resp="BuBian" place="foot text" type="orig">有．已見第二註一。</note>有沙門．是處有第二沙門．有第三沙門．有第四沙門．
-<lb ed="B" n="0099b06"/>但<note n="0099002-n11" resp="BuBian" place="foot text" type="orig">無有．巳見第九註三。</note><note n="0099002-n11" resp="CBETA" type="mod">無有．已見第九註三。</note>無外道．得稱沙門者。」諸比丘．或有外道行者．發如是問曰．「諸賢．緣云何信．緣云何力。諸賢作如是語．
+<lb ed="B" n="0099b05"/><p xml:id="pB06p0099b0501">世尊說言．『諸比丘．汝等應如是作師子吼．曰．「是處<note 
+n="0099001-n11" resp="BuBian" place="foot text" type="orig">有．已見第二註一。</note>有沙門．是處有第二沙門．有第三沙門．有第四沙門．
+<lb ed="B" n="0099b06"/>但<note 
+n="0099002-n11" resp="BuBian" place="foot text" type="orig">無有．巳見第九註三。</note><note 
+n="0099002-n11" resp="CBETA" type="mod">無有．已見第九註三。</note>無外道．得稱沙門者。」諸比丘．或有外道行者．發如是問曰．「諸賢．緣云何信．緣云何力。諸賢作如是語．
 <lb ed="B" n="0099b07"/>「是處有沙門．是處有第二沙門．有第三沙門．有第四沙門．但無外道．得稱沙門者」耶。」諸比丘．外道作
 <lb ed="B" n="0099b08"/>如是問時．當作如次答曰．「諸賢．我等從彼世尊、知者、見者、應供、等正覺者．說是四法。我等正見四法故．以
 <lb ed="B" n="0099b09"/>是我等說言．「是處有沙門．乃至有第四沙門．但無外道．得稱沙門者。」云何為四法．謂我等淨信於師。淨
@@ -1241,7 +1447,8 @@
 <lb ed="B" n="0100b10"/><p xml:id="pB06p0100b1001">〔世尊乃言．〕『舍利弗．愚人善星．彼由忿及忿怒故．而作此語。舍利弗．彼造誹謗愚人善星．却於如來而作
 <lb ed="B" n="0100b11"/>稱讚。如彼說言．「其所說法．為有遵奉是法者．當趣苦滅．」是實於如來而作稱讚。</p>
 <lb ed="B" n="0100b12"/><p xml:id="pB06p0100b1201">舍利弗．愚人善星．縱作是言．「彼世尊者．是應供、等正覺者、明行足、善逝、世間解、無上士、調御丈夫、天人師、
-<lb ed="B" n="0100b13"/>佛、世尊．」然彼實非我<note n="0100001-n12" resp="BuBian" place="foot text" type="orig">法之類句（dhammanvaya）．此是指若憶持某句．因之使關於是句法之要諦．而能獲適當之了達．曰法之類句。</note>法類句。又舍利弗．愚人善星．縱作是言．「彼世尊者．驗證種種神通力．謂一而為多．
+<lb ed="B" n="0100b13"/>佛、世尊．」然彼實非我<note 
+n="0100001-n12" resp="BuBian" place="foot text" type="orig">法之類句（dhammanvaya）．此是指若憶持某句．因之使關於是句法之要諦．而能獲適當之了達．曰法之類句。</note>法類句。又舍利弗．愚人善星．縱作是言．「彼世尊者．驗證種種神通力．謂一而為多．
 <lb ed="B" n="0100b14"/>多而為一．或顯或隱．又復越壁、越墻、越山．所行無礙．猶履虛空．出沒地中．猶如戲水．行於水面．不蹴破水．如
 <lb ed="B" n="0100b15"/>履地上．趺坐往來於虛空中．猶如飛鳥．又有如是大威力大威德之日月．竟能以掌而捫摸之．上迄梵天．竟
 <lb ed="B" n="0100b16"/>以是身而征服之．」然彼實非我法類句。又舍利弗．愚人善星．縱作是言．「彼世尊者．以清淨超人間天耳．
@@ -1296,7 +1503,11 @@
 <lb ed="B" n="0101a32"/><p xml:id="pB06p0101a3201">舍利弗．有此等八會。云何為八．謂王族會、婆羅門會、家主會、沙門會、四天王會、三十三天會、魔會、梵天會是。
 <pb ed="B" xml:id="B06.0004.0101b" n="0101b"/>
 <lb ed="B" n="0101b01"/>舍利弗．具足四無所畏如來。預入此等八會。舍利弗．我實憶念．曾預眾多王族會中．嘗於其處．共坐共語．共
-<lb ed="B" n="0101b02"/>相論議。若謂我於其處．亦起恐怖、畏怖．以如是相．不能知我。舍利<note n="0101b0201" resp="CBETA" type="add">弗【CB】，佛【補編】</note><app n="0101b0201"><lem wit="【CB】" resp="CBETA.maha">弗</lem><rdg wit="【補編】">佛</rdg></app>．我以離知如是相．而得安穩無畏．得無
+<lb ed="B" n="0101b02"/>相論議。若謂我於其處．亦起恐怖、畏怖．以如是相．不能知我。舍利<note 
+n="0101b0201" resp="CBETA" type="add">弗【CB】，佛【補編】</note><app n="0101b0201">
+  <lem wit="【CB】" resp="CBETA.maha">弗</lem>
+  <rdg wit="【補編】">佛</rdg>
+</app>．我以離知如是相．而得安穩無畏．得無
 <lb ed="B" n="0101b03"/>所畏而住。舍利弗．我又憶念曾預眾多婆羅門會中．亦復如是．得無所畏而住。若沙門會．亦復如是如是。若
 <lb ed="B" n="0101b04"/>四天王會．亦復如是如是。若三十三天會．亦復如是如是。若魔會．亦復如是如是。乃至曾預眾多梵天會．嘗
 <lb ed="B" n="0101b05"/>於其處．共坐共語．共相論議。若謂我於其處．亦起恐怖、畏怖．以如是相．不能知我。舍利弗．我以離知如是相．
@@ -1363,18 +1574,32 @@
 <pb ed="B" xml:id="B06.0004.0102b" n="0102b"/>
 <lb ed="B" n="0102b01"/><p xml:id="pB06p0102b0101">舍利弗。我又憶知行四支具足之梵行時。即謂我實曾為苦行者。最上苦行者。我實曾為貧穢行者。最上貧
 <lb ed="B" n="0102b02"/>穢行者。我實曾為厭離行者。最上厭離行者。我實曾為孤獨行者。最上孤獨行者。</p>
-<lb ed="B" n="0102b03"/><p xml:id="pB06p0102b0301">舍利弗。我曾行如是苦行。即謂我<note n="0102002-n12" resp="BuBian" place="foot text" type="orig">關於下段苦行法．可參看長部第八經一四．（南傳藏卷第六）等。</note>曾行裸形。為鹵俗者。舐手者。既不受嗟「來」之食。亦不受命「住」之
+<lb ed="B" n="0102b03"/><p xml:id="pB06p0102b0301">舍利弗。我曾行如是苦行。即謂我<note 
+n="0102002-n12" resp="BuBian" place="foot text" type="orig">關於下段苦行法．可參看長部第八經一四．（南傳藏卷第六）等。</note>曾行裸形。為鹵俗者。舐手者。既不受嗟「來」之食。亦不受命「住」之
 <lb ed="B" n="0102b04"/>食。不受齎給食。不受特供食。不受赴特定處食。不受直湊壺嘴或盤唇食。食在閾內不受。食在棒間不受。食
-<lb ed="B" n="0102b05"/>在杵間不受。二人食時〔唯一人所給〕不受。不受自姙婦食。不受自正授乳時婦食。不受自<note n="0102003-n12" resp="BuBian" place="foot text" type="orig">正為男人擁抱時女（purisantaragatā）．亦可譯為情交中女。</note>正為男人擁抱
-<lb ed="B" n="0102b06"/>時女食。不受<note n="0102004-n12" resp="BuBian" place="foot text" type="orig">饑饉時所集施（saṅkittisu）．此語在語源學是不明白．暫依覺音註譯。</note>〔饑饉時〕所集施食。不受近狗立處食。不受蠅羣所附食。不食魚與肉。不飲穀酒、果酒、粥汁。我
+<lb ed="B" n="0102b05"/>在杵間不受。二人食時〔唯一人所給〕不受。不受自姙婦食。不受自正授乳時婦食。不受自<note 
+n="0102003-n12" resp="BuBian" place="foot text" type="orig">正為男人擁抱時女（purisantaragatā）．亦可譯為情交中女。</note>正為男人擁抱
+<lb ed="B" n="0102b06"/>時女食。不受<note 
+n="0102004-n12" resp="BuBian" place="foot text" type="orig">饑饉時所集施（saṅkittisu）．此語在語源學是不明白．暫依覺音註譯。</note>〔饑饉時〕所集施食。不受近狗立處食。不受蠅羣所附食。不食魚與肉。不飲穀酒、果酒、粥汁。我
 <lb ed="B" n="0102b07"/>或為受一家食者住受一飱食。為受二家食者住二飱食。乃至為受七家食者住七飱食。我或依一施而過
 <lb ed="B" n="0102b08"/>活。或依二施而過活。乃至或依七施而過活。我或一日取一食。或二日取一食。乃至或七日取一食。如是我
-<lb ed="B" n="0102b09"/>直至半月唯取一食。從事定期食行而住。復次我或唯食野菜。或唯食稷。或唯食糙米。或唯食<note n="0102005-n12" resp="BuBian" place="foot text" type="orig">達陀羅（daddula）．米之一種。</note>達陀羅米。或
-<lb ed="B" n="0102b10"/>唯食<note n="0102006-n12" resp="BuBian" place="foot text" type="orig">訶陀（haṭa）．水草之一種。</note>訶陀草。或唯食糠粃。或唯食<note n="0102007-n12" resp="BuBian" place="foot text" type="orig">飯汁（ācāma）．煑飯時出來之泡汁。</note>飯汁。或唯飲胡麻粉。或唯食草。或唯食牛糞。復次我食樹根、果實。或食自
-<lb ed="B" n="0102b11"/>落果實。復次我唯著麻。或著麻所混織衣。或著<note n="0102008-n12" resp="BuBian" place="foot text" type="orig">塚間衣（chavadussa）．照字義．是裹死屍之衣．此處是指自塚間拾來．故譯塚間衣。</note>塚間衣。或<note n="0102009-n12" resp="BuBian" place="foot text" type="orig">糞掃衣（paṁsukūla）．自污物中拾來之衣。</note>糞掃衣。或以<note n="0102010-n12" resp="BuBian" place="foot text" type="orig">提利多（tiriṭa）．樹之一種。</note>提利多樹皮為衣。或以黑羚羊皮為
+<lb ed="B" n="0102b09"/>直至半月唯取一食。從事定期食行而住。復次我或唯食野菜。或唯食稷。或唯食糙米。或唯食<note 
+n="0102005-n12" resp="BuBian" place="foot text" type="orig">達陀羅（daddula）．米之一種。</note>達陀羅米。或
+<lb ed="B" n="0102b10"/>唯食<note 
+n="0102006-n12" resp="BuBian" place="foot text" type="orig">訶陀（haṭa）．水草之一種。</note>訶陀草。或唯食糠粃。或唯食<note 
+n="0102007-n12" resp="BuBian" place="foot text" type="orig">飯汁（ācāma）．煑飯時出來之泡汁。</note>飯汁。或唯飲胡麻粉。或唯食草。或唯食牛糞。復次我食樹根、果實。或食自
+<lb ed="B" n="0102b11"/>落果實。復次我唯著麻。或著麻所混織衣。或著<note 
+n="0102008-n12" resp="BuBian" place="foot text" type="orig">塚間衣（chavadussa）．照字義．是裹死屍之衣．此處是指自塚間拾來．故譯塚間衣。</note>塚間衣。或<note 
+n="0102009-n12" resp="BuBian" place="foot text" type="orig">糞掃衣（paṁsukūla）．自污物中拾來之衣。</note>糞掃衣。或以<note 
+n="0102010-n12" resp="BuBian" place="foot text" type="orig">提利多（tiriṭa）．樹之一種。</note>提利多樹皮為衣。或以黑羚羊皮為
 <lb ed="B" n="0102b12"/>衣。或編黑羚羊皮細條為衣。或著吉祥草衣。或著樹皮衣。或著木片衣。或編人髮為衣。或編馬毛為衣。或以
 <lb ed="B" n="0102b13"/>梟羽為衣。復次我為拔鬚髮行者。以拔取鬚髮為行。又為常立行者。常拒坐席。又為蹲踞行者。常勤蹲踞。或
-<lb ed="B" n="0102b14"/>為臥棘刺行者。常臥棘<note n="0102b1401" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0102b1401"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【補編】">剌</rdg></app>床席。或為<note n="0102011-n12" resp="BuBian" place="foot text" type="orig">一日三浴行者（sāyatntiyaka）．亦稱「夜第三回浴者。」是平旦、日中、夜．每日三次沐浴．為洗惡之潔行者。</note>一日三浴行者。事水浴行。躬身如是種種難行苦行。舍利弗．我實曾行
+<lb ed="B" n="0102b14"/>為臥棘刺行者。常臥棘<note 
+n="0102b1401" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0102b1401">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【補編】">剌</rdg>
+</app>床席。或為<note 
+n="0102011-n12" resp="BuBian" place="foot text" type="orig">一日三浴行者（sāyatntiyaka）．亦稱「夜第三回浴者。」是平旦、日中、夜．每日三次沐浴．為洗惡之潔行者。</note>一日三浴行者。事水浴行。躬身如是種種難行苦行。舍利弗．我實曾行
 <lb ed="B" n="0102b15"/>如是苦行。</p>
 <lb ed="B" n="0102b16"/><p xml:id="pB06p0102b1601">舍利弗。我曾行如是貧穢行。即謂多年塵垢坌積我身。自生皮苔。舍利弗。如提陀迦樹幹。多年〔塵垢〕所積。
 <lb ed="B" n="0102b17"/>其幹自生皮苔。我亦復然。多年塵垢。坌積我身。自生皮苔。舍利弗。我於如是身。心不生言。「嗟乎。我將以手。
@@ -1389,17 +1614,23 @@
 <lb ed="B" n="0102b26"/><p xml:id="pB06p0102b2601">舍利弗。我曾於牧牛者追逐母牛。行他處時。即於牛檻中。以四肢匍匐而行。食彼乳犢之糞。又舍利弗。我曾
 <lb ed="B" n="0102b27"/>乘自身糞尿未畢時。而食自身糞尿。舍利弗。我曾行如是大不淨食。</p>
 <lb ed="B" n="0102b28"/><p xml:id="pB06p0102b2801">舍利弗。我曾入於深可畏怖叢林中住。舍利弗。是處可畏怖叢林。實使人畏怖。所謂「無論何人。若未去貪
-<lb ed="B" n="0102b29"/>欲入彼叢林者。莫不身毛豎立。」舍利弗。我曾於夜寒。自降雪季月<note n="0102012-n12" resp="BuBian" place="foot text" type="orig">前分第八日至後分第八日（antaraṭṭhaka）．照字義．為「第八日間．」但在印度．將一月分為前分後分．前分．自月滿之翌日到月末．後分．自新月到滿月．此處所談第八日．該是前分後分之第八日。故第八日間．意指第八日與第八日之間．照中國之陰歷言．該當於月之二十三日起到翌月初八日止。</note>前分第八日。至後分第八日間。夜則露
+<lb ed="B" n="0102b29"/>欲入彼叢林者。莫不身毛豎立。」舍利弗。我曾於夜寒。自降雪季月<note 
+n="0102012-n12" resp="BuBian" place="foot text" type="orig">前分第八日至後分第八日（antaraṭṭhaka）．照字義．為「第八日間．」但在印度．將一月分為前分後分．前分．自月滿之翌日到月末．後分．自新月到滿月．此處所談第八日．該是前分後分之第八日。故第八日間．意指第八日與第八日之間．照中國之陰歷言．該當於月之二十三日起到翌月初八日止。</note>前分第八日。至後分第八日間。夜則露
 <lb ed="B" n="0102b30"/>天。晝在叢林。復曾於夏季最後月。晝則露天。夜在叢林。舍利弗。於是我乃歌詠深可驚歎。世未曾聞此偈言
 <lb ed="B" n="0102b31"/>曰。</p>
-<lb ed="B" n="0102b32"/><lg xml:id="lgB06p0102b3201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">無間暑日或寒夜<caesura style="text-indent:1em;"/>獨住可怖之森林<caesura style="text-indent:1em;"/>裸形以坐恒無火<caesura style="text-indent:1em;"/>默然欲遂其所願</l></lg>
+<lb ed="B" n="0102b32"/><lg xml:id="lgB06p0102b3201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">無間暑日或寒夜<caesura style="text-indent:1em;"/>獨住可怖之森林<caesura style="text-indent:1em;"/>裸形以坐恒無火<caesura style="text-indent:1em;"/>默然欲遂其所願</l>
+</lg>
 <pb ed="B" xml:id="B06.0004.0103a" n="0103a"/>
-<lb ed="B" n="0103a01"/><p xml:id="pB06p0103a0101">舍利弗．我又曾於塚間．敷設死屍骸骨而為床座．舍利弗．是時有<note n="0103013-n12" resp="BuBian" place="foot text" type="orig">牧童．原典中為 gornaṇḍala．覺音註釋為 gopāladāraka．茲依註釋譯。</note>牧童來．向我吐唾放尿．投擲塵芥．而以木
+<lb ed="B" n="0103a01"/><p xml:id="pB06p0103a0101">舍利弗．我又曾於塚間．敷設死屍骸骨而為床座．舍利弗．是時有<note 
+n="0103013-n12" resp="BuBian" place="foot text" type="orig">牧童．原典中為 gornaṇḍala．覺音註釋為 gopāladāraka．茲依註釋譯。</note>牧童來．向我吐唾放尿．投擲塵芥．而以木
 <lb ed="B" n="0103a02"/>片插入耳中．然我於彼等不起惡心。舍利弗．我曾如是住於捨行。</p>
 <lb ed="B" n="0103a03"/><p xml:id="pB06p0103a0301">舍利弗．有沙門婆羅門．懷如是見．作如是說．「依食故清淨。」彼等說言．「我等食不過棗果．」既食棗實．
 <lb ed="B" n="0103a04"/>又以棗粉為食．更飲棗漿．復以棗實製成種種食品。舍利弗．我復憶知．亦曾行唯以一棗為食。舍利弗．汝或
 <lb ed="B" n="0103a05"/>作是念．「彼時實產碩大棗實．」是實不然。雖在彼時．最大棗實．不異令日之所見者。舍利弗．我以唯食一
-<lb ed="B" n="0103a06"/>棗故．身極衰瘦。緣少食故．我身肢節．如<note n="0103014-n12" resp="BuBian" place="foot text" type="orig">阿熙提迦（āsītika）．草名．蔦之一種或如蘆之一種。</note>阿熙提迦草節及<note n="0103015-n12" resp="BuBian" place="foot text" type="orig">迦羅．（kālā）．可視為草之一種。</note>迦羅草節。緣少食故．我之臀部．如駱駝足．我之脊
+<lb ed="B" n="0103a06"/>棗故．身極衰瘦。緣少食故．我身肢節．如<note 
+n="0103014-n12" resp="BuBian" place="foot text" type="orig">阿熙提迦（āsītika）．草名．蔦之一種或如蘆之一種。</note>阿熙提迦草節及<note 
+n="0103015-n12" resp="BuBian" place="foot text" type="orig">迦羅．（kālā）．可視為草之一種。</note>迦羅草節。緣少食故．我之臀部．如駱駝足．我之脊
 <lb ed="B" n="0103a07"/>柱．凹凸如紡錘之連鎖．我之肋骨．碎折如經年堂屋之桷椽。復如窅井水光．向極深窪處．纔可得見．我之眼
 <lb ed="B" n="0103a08"/>窠眼光．緣少食故．亦復如是．向極深窪處．纔可得見。又如摘取未熟苦瓠．因風燥熱．皺縮凋萎．我之頭皮．緣
 <lb ed="B" n="0103a09"/>少食故．亦復如是．皺縮凋萎。是以舍利弗．緣少食故．我之腹皮黏著脊柱．欲觸腹皮．却捉脊柱．欲觸脊柱．却
@@ -1437,7 +1668,9 @@
 <lb ed="B" n="0103b08"/>勞之時．於此不為問答。舍利弗．如來說法無盡．如來之法字句無盡．如來問答亦無有盡。舍利弗．若汝等置
 <lb ed="B" n="0103b09"/>我於床．速為旋轉．如來智慧辯才．終不變失。舍利弗．若世論者．讚譽人云．「無癡法有情．出現於世．為利益
 <lb ed="B" n="0103b10"/>眾生．為幸福眾生．為愛愍世間．為人天利益幸福．」如是語者．唯我堪任．稱說是語。』</p>
-<lb ed="B" n="0103b11"/><p xml:id="pB06p0103b1101">爾時尊者<note n="0103016-n12" resp="BuBian" place="foot text" type="orig">那伽羅（Nāgasamāla）．舊譯為那伽波羅、象護、龍護、象守等．大概是以 Nāga-pāla 原名．今仍巴利原典之舊。</note><note n="0103016-n12" resp="CBETA" type="mod">那迦薩摩羅（Nāgasamāla）．舊譯為那伽波羅、象護、龍護、象守等．大概是以 Nāga-pāla 原名．今仍巴利原典之舊。</note>那迦薩摩羅．揮扇侍立．於世尊後。尊者那迦薩摩羅．白世尊言．『可驚嘆哉世尊．未曾有哉世尊．
+<lb ed="B" n="0103b11"/><p xml:id="pB06p0103b1101">爾時尊者<note 
+n="0103016-n12" resp="BuBian" place="foot text" type="orig">那伽羅（Nāgasamāla）．舊譯為那伽波羅、象護、龍護、象守等．大概是以 Nāga-pāla 原名．今仍巴利原典之舊。</note><note 
+n="0103016-n12" resp="CBETA" type="mod">那迦薩摩羅（Nāgasamāla）．舊譯為那伽波羅、象護、龍護、象守等．大概是以 Nāga-pāla 原名．今仍巴利原典之舊。</note>那迦薩摩羅．揮扇侍立．於世尊後。尊者那迦薩摩羅．白世尊言．『可驚嘆哉世尊．未曾有哉世尊．
 <lb ed="B" n="0103b12"/>我實聞此法門．身毛豎立。世尊．當云何名此法門。』世尊告曰．『那伽薩摩羅．以如是故．此法門當名身毛
 <lb ed="B" n="0103b13"/>豎立法門．汝當憶持。』</p>
 <lb ed="B" n="0103b14"/><p xml:id="pB06p0103b1401">世尊如是說。尊者那伽薩摩羅．聞世尊所說．歡喜信受。</p></cb:div>
@@ -1475,7 +1708,9 @@
 <lb ed="B" n="0104a13"/>愛所好之可愛相．惹欲牽情者是。〔四〕為依舌可識味．於所欲所愛所好可愛相．惹欲牽情者是．〔五〕為依
 <lb ed="B" n="0104a14"/>身可識之所觸．於所欲所愛所好可愛相．惹欲牽情者是。諸比丘．此等是五種欲分．緣此等五種欲分而生
 <lb ed="B" n="0104a15"/>喜樂．是為欲味。</p>
-<lb ed="B" n="0104a16"/><p xml:id="pB06p0104a1601">諸比丘．云何是欲患。謂若有善男子．具種種技藝．即謂或以<note n="0104001-n13" resp="BuBian" place="foot text" type="orig">印算（mudda）．用手指節等為計算之術。</note>印算．或以算術．或以<note n="0104002-n13" resp="BuBian" place="foot text" type="orig">目算（saṅkhāṅa）．目視分量而為概算。據覺音註釋．謂「見地上而計算此處有若干米．見樹而計算此樹有若干果實．見空而計算彼處有若干鳥。」</note>目算．或以耕作．或以商價．
+<lb ed="B" n="0104a16"/><p xml:id="pB06p0104a1601">諸比丘．云何是欲患。謂若有善男子．具種種技藝．即謂或以<note 
+n="0104001-n13" resp="BuBian" place="foot text" type="orig">印算（mudda）．用手指節等為計算之術。</note>印算．或以算術．或以<note 
+n="0104002-n13" resp="BuBian" place="foot text" type="orig">目算（saṅkhāṅa）．目視分量而為概算。據覺音註釋．謂「見地上而計算此處有若干米．見樹而計算此樹有若干果實．見空而計算彼處有若干鳥。」</note>目算．或以耕作．或以商價．
 <lb ed="B" n="0104a17"/>或以牧牛．或以弓術．或以王臣．或以其他技藝而自存活．寒暑所苦．虻、蚊、風、熱、及蛇觸所惱．或因飢渴致斃。
 <lb ed="B" n="0104a18"/>是為欲患．現法苦蘊．以欲為因．以欲為緣．以欲為本．總其要因．一屬於欲。諸比丘．若彼善男子．如是辛勞、勤
 <lb ed="B" n="0104a19"/>勉、奮鬬故．仍不能得資生財物者．則彼即起愁悶、疲憊、悲慼、椎胸而泣．生愚癡心．自念「我之辛勤．歸於徒
@@ -1496,9 +1731,26 @@
 <lb ed="B" n="0104b01"/>大斧．以相摧挫．互相以刀．斬斫頭顱。彼等緣是．而致受死．或等死苦。諸比丘．是為欲患．現法苦蘊．如是如是．
 <lb ed="B" n="0104b02"/>總其要因．一屬於欲。復次諸比丘．以欲為因．如是乃至．依於欲因故．破入他家．而行劫奪．身為盜賊．而行追
 <lb ed="B" n="0104b03"/>剝．他人妻女．而行通姦。以如是故．被捕於王．種種受罰．即謂以鞭鞭之．以籐抽之．以棍打之。或截手、截足并
-<lb ed="B" n="0104b04"/>截手足。截耳、截鼻、并截耳鼻。又復課以<note n="0104003-n13" resp="BuBian" place="foot text" type="orig">酸粥鍋形（bilaṅga-thalika）．敲破頭蓋．入熱鐵丸．使腦焦爛之刑。</note><note n="0104003-n13" resp="CBETA" type="mod">酸粥鍋刑（bilaṅga-thalika）．敲破頭蓋．入熱鐵丸．使腦焦爛之刑。</note>酸粥鍋刑．課以<note n="0104004-n13" resp="BuBian" place="foot text" type="orig">貝禿刑（saṅkha-muṇḍika）．自上唇兩側、耳根、到咽喉深處．裂其皮．將一切毛髮結為一束．以棒絞之．毛髮連皮剝取．更以粗砂磨洗頭蓋使如貝殼之刑。</note>貝禿刑．課以<note n="0104005-n13" resp="BuBian" place="foot text" type="orig">羅睺口刑（rahumukha）．將罪人之口成為如羅睺（阿修羅王）之口之刑．謂即以棒撑口．於口深處點燈．以槍從耳根掘挖。</note>羅睺口刑．又復課以<note n="0104006-n13" resp="BuBian" place="foot text" type="orig">火鬘刑（jotimalika）．以浸油之布裹其全身．而燃以火。次之燭手刑．亦以同樣之布裹其手而燃以火。</note>火鬘刑及燭手刑．
-<lb ed="B" n="0104b05"/>復又處以<note n="0104007-n13" resp="BuBian" place="foot text" type="orig">驅行刑（erakavattika．）可視 eraka 自動詞 ereti（caus. of vir）而來。此刑是將罪人自頸至踵剝皮為蓆．以繩牽彼使行．足踏自身之皮而斃。</note>驅行刑、<note n="0104008-n13" resp="BuBian" place="foot text" type="orig">皮衣刑（cirakavasika）．將皮膚自下剝至腰．又自腰剝至踵．將上身之皮披著於下體。</note>皮衣刑、<note n="0104009-n13" resp="BuBian" place="foot text" type="orig">羚羊刑（eṇeyyaka）．在兩肘與兩膝上．箍以鐵環．貫以鐵棒。以四根鐵棒壓四肢於地上使之不動．身之周圍．焚之以火．如被圍於火中之羚羊．故得是名。</note>羚羊刑．又更處以<note n="0104010-n13" resp="BuBian" place="foot text" type="orig">鉤肉刑（baḷisamaṁṅka）．以兩面鉤鉤之．剖裂其皮、肉、筋。</note>鉤肉刑、<note n="0104011-n13" resp="BuBian" place="foot text" type="orig">錢刑（kahāpaṇaka）．取有四角銅錢．刮削其肉。</note>錢刑、<note n="0104012-n13" resp="BuBian" place="foot text" type="orig">灰汁刑（kharapatacchika）．在語源學上不明．據覺音註釋所示內容視之．姑記如下。以兇器傷殘全體．於一一傷穴注入阿爾迦利性之液（khara 灰汁．）使皮、肉、筋流出．唯剩骨與骨之連鎖。</note>灰汁刑、<note n="0104013-n13" resp="BuBian" place="foot text" type="orig">閂轉刑（paligha-parivattika）．按住罪人．用鐵棒貫穿兩耳．撲向於地而不使動．捉其兩足而為迴轉。</note>閂轉刑．又復課以<note n="0104014-n13" resp="BuBian" place="foot text" type="orig"><g ref="#CB06224"/>踏臺刑（palālapīṭhaka）．剖開外皮．置骨於臼石．而齏碎之．裹以毛髮．如藁踏臺刑。</note><g ref="#CB06224"/>踏臺者之刑．或又澆
-<lb ed="B" n="0104b06"/>以沸油．使狗食之．或活<note n="0104b0601" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0104b0601"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【補編】">剌</rdg></app>以椿．以劍斷頭。彼等緣是而致受死．或等死苦。諸比丘．是為欲患．現法苦蘊．如是
+<lb ed="B" n="0104b04"/>截手足。截耳、截鼻、并截耳鼻。又復課以<note 
+n="0104003-n13" resp="BuBian" place="foot text" type="orig">酸粥鍋形（bilaṅga-thalika）．敲破頭蓋．入熱鐵丸．使腦焦爛之刑。</note><note 
+n="0104003-n13" resp="CBETA" type="mod">酸粥鍋刑（bilaṅga-thalika）．敲破頭蓋．入熱鐵丸．使腦焦爛之刑。</note>酸粥鍋刑．課以<note 
+n="0104004-n13" resp="BuBian" place="foot text" type="orig">貝禿刑（saṅkha-muṇḍika）．自上唇兩側、耳根、到咽喉深處．裂其皮．將一切毛髮結為一束．以棒絞之．毛髮連皮剝取．更以粗砂磨洗頭蓋使如貝殼之刑。</note>貝禿刑．課以<note 
+n="0104005-n13" resp="BuBian" place="foot text" type="orig">羅睺口刑（rahumukha）．將罪人之口成為如羅睺（阿修羅王）之口之刑．謂即以棒撑口．於口深處點燈．以槍從耳根掘挖。</note>羅睺口刑．又復課以<note 
+n="0104006-n13" resp="BuBian" place="foot text" type="orig">火鬘刑（jotimalika）．以浸油之布裹其全身．而燃以火。次之燭手刑．亦以同樣之布裹其手而燃以火。</note>火鬘刑及燭手刑．
+<lb ed="B" n="0104b05"/>復又處以<note 
+n="0104007-n13" resp="BuBian" place="foot text" type="orig">驅行刑（erakavattika．）可視 eraka 自動詞 ereti（caus. of vir）而來。此刑是將罪人自頸至踵剝皮為蓆．以繩牽彼使行．足踏自身之皮而斃。</note>驅行刑、<note 
+n="0104008-n13" resp="BuBian" place="foot text" type="orig">皮衣刑（cirakavasika）．將皮膚自下剝至腰．又自腰剝至踵．將上身之皮披著於下體。</note>皮衣刑、<note 
+n="0104009-n13" resp="BuBian" place="foot text" type="orig">羚羊刑（eṇeyyaka）．在兩肘與兩膝上．箍以鐵環．貫以鐵棒。以四根鐵棒壓四肢於地上使之不動．身之周圍．焚之以火．如被圍於火中之羚羊．故得是名。</note>羚羊刑．又更處以<note 
+n="0104010-n13" resp="BuBian" place="foot text" type="orig">鉤肉刑（baḷisamaṁṅka）．以兩面鉤鉤之．剖裂其皮、肉、筋。</note>鉤肉刑、<note 
+n="0104011-n13" resp="BuBian" place="foot text" type="orig">錢刑（kahāpaṇaka）．取有四角銅錢．刮削其肉。</note>錢刑、<note 
+n="0104012-n13" resp="BuBian" place="foot text" type="orig">灰汁刑（kharapatacchika）．在語源學上不明．據覺音註釋所示內容視之．姑記如下。以兇器傷殘全體．於一一傷穴注入阿爾迦利性之液（khara 灰汁．）使皮、肉、筋流出．唯剩骨與骨之連鎖。</note>灰汁刑、<note 
+n="0104013-n13" resp="BuBian" place="foot text" type="orig">閂轉刑（paligha-parivattika）．按住罪人．用鐵棒貫穿兩耳．撲向於地而不使動．捉其兩足而為迴轉。</note>閂轉刑．又復課以<note 
+n="0104014-n13" resp="BuBian" place="foot text" type="orig"><g ref="#CB06224"/>踏臺刑（palālapīṭhaka）．剖開外皮．置骨於臼石．而齏碎之．裹以毛髮．如藁踏臺刑。</note><g ref="#CB06224"/>踏臺者之刑．或又澆
+<lb ed="B" n="0104b06"/>以沸油．使狗食之．或活<note 
+n="0104b0601" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0104b0601">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【補編】">剌</rdg>
+</app>以椿．以劍斷頭。彼等緣是而致受死．或等死苦。諸比丘．是為欲患．現法苦蘊．如是
 <lb ed="B" n="0104b07"/>如是．總其要因．一屬於欲。復次諸比丘．以欲為因．以欲為緣．以欲為本．依於欲因故．以身行惡．以口行惡．以
 <lb ed="B" n="0104b08"/>意行惡。彼等行如是惡故．身壞命終．生於惡生、惡趣、墮處、地獄。諸比丘．是為欲患現法苦蘊．以欲為因．以欲
 <lb ed="B" n="0104b09"/>為緣．以欲為本．總其要因．一屬於欲。</p>
@@ -1821,9 +2073,11 @@
 <lb ed="B" n="0109a29"/>向慇懃、專念、堅忍、精勤。如是心若趨向慇懃、專念、堅忍、精勤故．是即於彼第五心縛已能斷盡。此等是為已
 <lb ed="B" n="0109a30"/>能斷盡五種心之結縛。諸比丘凡為比丘．若已能捨除五種心之荒穢．及已能斷盡五種心之結縛者．於此
 <lb ed="B" n="0109a31"/>法律．乃得增長、興盛、成滿．實有是處。</p>
-<lb ed="B" n="0109a32"/><p xml:id="pB06p0109a3201">彼依欲而成就定及<note n="0109001-n16" resp="BuBian" place="foot text" type="orig">精勤行（padhana-saṅkhara）．舊譯却多以精勤為斷。斷之原語．當是 pahana（sk.prahāṇa）．勤與斷之字義雖異．但說四正勤四正斷時．殆指同一．故亦無妨．然亦有為滅者．是 pahana 之譯義．自無不可．然．在此處．則不適當。</note>精勤行故．得如意足．彼依精進而成就定及精勤行故．得如意足．彼依心而成就定及
+<lb ed="B" n="0109a32"/><p xml:id="pB06p0109a3201">彼依欲而成就定及<note 
+n="0109001-n16" resp="BuBian" place="foot text" type="orig">精勤行（padhana-saṅkhara）．舊譯却多以精勤為斷。斷之原語．當是 pahana（sk.prahāṇa）．勤與斷之字義雖異．但說四正勤四正斷時．殆指同一．故亦無妨．然亦有為滅者．是 pahana 之譯義．自無不可．然．在此處．則不適當。</note>精勤行故．得如意足．彼依精進而成就定及精勤行故．得如意足．彼依心而成就定及
 <pb ed="B" xml:id="B06.0004.0109b" n="0109b"/>
-<lb ed="B" n="0109b01"/>精勤行故．得如意足．彼依思惟而成就定及精勤行故．得如意足．第五得勤勇。諸比丘．若比丘成就如是<note n="0109002-n16" resp="BuBian" place="foot text" type="orig">終至勤勇十五支者．即指上捨除五種心之荒穢．及斷五種心之結縛．并四如意足．與最後之勤勇。</note>終
+<lb ed="B" n="0109b01"/>精勤行故．得如意足．彼依思惟而成就定及精勤行故．得如意足．第五得勤勇。諸比丘．若比丘成就如是<note 
+n="0109002-n16" resp="BuBian" place="foot text" type="orig">終至勤勇十五支者．即指上捨除五種心之荒穢．及斷五種心之結縛．并四如意足．與最後之勤勇。</note>終
 <lb ed="B" n="0109b02"/>至勤勇．十五支者．彼當開闢大道．適於正覺．到達無上安穩之處。譬如牝鷄．其卵若八、若十、若十二．正所孚
 <lb ed="B" n="0109b03"/>抱．正所溫暖．正將孵化．時彼牝鷄．雖不作是念．「嗚呼．我之諸雛乎．我將以爪尖．或以嘴喙．破茲卵殼．安全
 <lb ed="B" n="0109b04"/>以出．」然彼等諸雛．亦得自以爪尖．或以嘴喙．破茲卵殼．安全以出。諸比丘．若比丘成就如是終至勤勇．十
@@ -1932,7 +2186,8 @@
 <lb ed="B" n="0111a08"/>大迦旃延．師所稱譽．有智同行者之所尊敬。唯尊者大迦旃延．依於世尊之所略說．尚未詳說其教法者．當
 <lb ed="B" n="0111a09"/>能堪任詳為解說。我等今者．當詣尊者大迦旃延所．將以此義．詣問尊者大迦旃延。」願尊者大迦旃延．詳
 <lb ed="B" n="0111a10"/>為我等解說。』</p>
-<lb ed="B" n="0111a11"/><p xml:id="pB06p0111a1101">〔大迦旃延曰．〕『諸賢．是如有人．樂欲<note n="0111001-n18" resp="BuBian" place="foot text" type="orig">心材（sara）．謂木之中心質地最堅實處．此可參照第二十九第三十兩經。</note>心材．求覓心材．為探搜心材故．而為行行。遇具有心材挺立大樹．踐
+<lb ed="B" n="0111a11"/><p xml:id="pB06p0111a1101">〔大迦旃延曰．〕『諸賢．是如有人．樂欲<note 
+n="0111001-n18" resp="BuBian" place="foot text" type="orig">心材（sara）．謂木之中心質地最堅實處．此可參照第二十九第三十兩經。</note>心材．求覓心材．為探搜心材故．而為行行。遇具有心材挺立大樹．踐
 <lb ed="B" n="0111a12"/>過其根．側過其幹．却於枝葉．以為心材．而行索取。諸賢亦復如是．我師現住在世．不於世尊所．却於我所．以
 <lb ed="B" n="0111a13"/>為可得問知是義．是實非宜。諸賢．彼世尊者．實知所應知．觀所應觀．為眼、為智、為法、為梵。是教說者、宣揚者、
 <lb ed="B" n="0111a14"/>利益將來者、不死施與者、是法主、是如來。實應隨時．問義世尊。應依世尊之所解說．如說受持。』〔諸比丘
@@ -1995,8 +2250,10 @@
 <lb ed="B" n="0112a05"/><cb:div type="other"><cb:mulu type="其他" level="3">雙思經第十九</cb:mulu><head>雙思經第十九</head>
 <lb ed="B" n="0112a06"/><p xml:id="pB06p0112a0601">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊．呼諸比丘曰．『諸比丘．』彼等比丘．應世尊曰．
 <lb ed="B" n="0112a07"/>『世尊。』</p>
-<lb ed="B" n="0112a08"/><p xml:id="pB06p0112a0801">世尊乃宣說言．『諸比丘．我昔未得正覺為菩薩時．作如次念．「今我當住一一．為雙<note n="0112001-n19" resp="BuBian" place="foot text" type="orig">思惟（vitakka）．此亦可譯為念．然為使不混以 sati 譯念．故譯思惟。vitakka 亦被譯為尋．或覺（知．）但與此處．都有少異．具有思惟考慮之意。</note>思惟。」諸比丘．於是
-<lb ed="B" n="0112a09"/>我以欲思惟、瞋思惟、害思惟．將此為第一分．以<note n="0112002-n19" resp="BuBian" place="foot text" type="orig">離欲（nekkhamma）．此亦可譯遠離．但此處可視為 nikkama 之轉訛者．故譯為離欲。</note>離欲思惟、無瞋思惟、無害思惟．為第二分。諸比丘．我住不放
+<lb ed="B" n="0112a08"/><p xml:id="pB06p0112a0801">世尊乃宣說言．『諸比丘．我昔未得正覺為菩薩時．作如次念．「今我當住一一．為雙<note 
+n="0112001-n19" resp="BuBian" place="foot text" type="orig">思惟（vitakka）．此亦可譯為念．然為使不混以 sati 譯念．故譯思惟。vitakka 亦被譯為尋．或覺（知．）但與此處．都有少異．具有思惟考慮之意。</note>思惟。」諸比丘．於是
+<lb ed="B" n="0112a09"/>我以欲思惟、瞋思惟、害思惟．將此為第一分．以<note 
+n="0112002-n19" resp="BuBian" place="foot text" type="orig">離欲（nekkhamma）．此亦可譯遠離．但此處可視為 nikkama 之轉訛者．故譯為離欲。</note>離欲思惟、無瞋思惟、無害思惟．為第二分。諸比丘．我住不放
 <lb ed="B" n="0112a10"/>逸、慇懃、精勤時．起欲思惟．我即如次而了知之．謂「我生此欲思惟。是欲思惟．害自、害他、至兩俱害。是消滅
 <lb ed="B" n="0112a11"/>慧．與煩勞為侶．不資涅槃。」諸比丘．我覺「害自．」斯即消亡。諸比丘．我覺「害他．」斯即消亡。諸比丘．我
 <lb ed="B" n="0112a12"/>覺「俱害．」斯即消亡。諸比丘．我覺「是消滅慧．與煩勞為侶．不資涅槃．」斯即消亡。諸比丘．我以是輾轉
@@ -2032,13 +2289,15 @@
 <lb ed="B" n="0112b09"/>若比丘多隨所思．多隨觀察．從其相應．心生傾向。諸比丘．若比丘於離欲思惟．多隨所思．多隨觀察．常起捨
 <lb ed="B" n="0112b10"/>欲思惟．離欲思惟故．以是彼心．傾向離欲思惟。諸比丘．若比丘於無瞋思惟．多隨所思．多隨觀察．常起捨瞋
 <lb ed="B" n="0112b11"/>思惟．無瞋思惟故．以是彼心．傾向無瞋思惟。諸比丘．若比丘．於無害思惟．多隨所思．多隨觀察．常起捨害思
-<lb ed="B" n="0112b12"/>惟．無害思惟故．於是彼心．傾向無害思惟。諸比丘．如<note n="0112003-n19" resp="BuBian" place="foot text" type="orig">夏季末月．舊譯為秋後月．致異於原語．唯舊譯是合我等常識．然須據巴利文之意味。</note>夏季末月時．隨處村郊．收穫穀類．而牧牛者．宜善護牛。
+<lb ed="B" n="0112b12"/>惟．無害思惟故．於是彼心．傾向無害思惟。諸比丘．如<note 
+n="0112003-n19" resp="BuBian" place="foot text" type="orig">夏季末月．舊譯為秋後月．致異於原語．唯舊譯是合我等常識．然須據巴利文之意味。</note>夏季末月時．隨處村郊．收穫穀類．而牧牛者．宜善護牛。
 <lb ed="B" n="0112b13"/>或在樹下．或在露地．彼當念言．「我有此牛。」諸比丘．亦如是念．「有此等法。」</p>
 <lb ed="B" n="0112b14"/><p xml:id="pB06p0112b1401">諸比丘．我曾具足發勤勇猛精進。曾具確立不亂之念。曾具輕安不躁之身。曾具等持一向之心。諸比丘．如
 <lb ed="B" n="0112b15"/>是我離欲離不善法．有尋有伺．成就離生喜樂而住初禪。復次尋伺已息．於內寧靜．心成一向．無尋無伺．成
 <lb ed="B" n="0112b16"/>就定生喜樂住第二禪。復次不染着喜而住於捨．正念正智．身正受樂．成就聖者所謂「捨、念、樂住．」住第
 <lb ed="B" n="0112b17"/>三禪。復次捨樂捨苦．已滅喜憂．不苦不樂．成就捨念清淨．住第四禪。</p>
-<lb ed="B" n="0112b18"/><p xml:id="pB06p0112b1801"><note n="0112004-n19" resp="BuBian" place="foot text" type="orig">下三段文．同第四經中文。</note>我如是得心等持．清淨明潔．無穢無垢．柔軟堪任．堅固不動．而我以心趣向憶宿命智。於是我即憶念種種
+<lb ed="B" n="0112b18"/><p xml:id="pB06p0112b1801"><note 
+n="0112004-n19" resp="BuBian" place="foot text" type="orig">下三段文．同第四經中文。</note>我如是得心等持．清淨明潔．無穢無垢．柔軟堪任．堅固不動．而我以心趣向憶宿命智。於是我即憶念種種
 <lb ed="B" n="0112b19"/>宿命。即得憶念「一生、二生、三生、四生、五生、十生、二十生、三十生、四十生、五十生、百生、千生、百千生．種種成
 <lb ed="B" n="0112b20"/>劫、種種壞劫、種種成壞劫。我於是處．以如是名、如是姓、如是種族、如是食．如是苦樂受．如是命終。死於是處．
 <lb ed="B" n="0112b21"/>生於彼處。於彼處以如是名、如是姓、如是種族、如是食．如是苦樂受．如是命終。又死彼處．生於此處。」如是
@@ -2058,7 +2317,8 @@
 <lb ed="B" n="0113a02"/>有。」諸比丘．我於後夜分．逮達此第三智。於是無智滅智生．闇滅明生。然如是智．實唯住不放逸、慇懃心、精
 <lb ed="B" n="0113a03"/>勤者．乃得現起。</p>
 <lb ed="B" n="0113a04"/><p xml:id="pB06p0113a0401">諸比丘．譬如森林幽谷之中．有一深大沼澤．有大鹿羣．聚住其畔。有人來此．於彼〔鹿羣．〕欲為不利．為不饒
-<lb ed="B" n="0113a05"/>益．為不安穩故．而故閉塞．為彼〔鹿羣〕平穩安全所樂遊行之道．別闢惡道．又故置設．<note n="0113005-n19" resp="BuBian" place="foot text" type="orig">馴熟牡獸．原語為 okaoara．將已訓練馴熟之獸為園．用誘獸羣。馴熟牝獸．原語為 okacārikā。</note>馴熟牡獸、或牝獸。諸
+<lb ed="B" n="0113a05"/>益．為不安穩故．而故閉塞．為彼〔鹿羣〕平穩安全所樂遊行之道．別闢惡道．又故置設．<note 
+n="0113005-n19" resp="BuBian" place="foot text" type="orig">馴熟牡獸．原語為 okaoara．將已訓練馴熟之獸為園．用誘獸羣。馴熟牝獸．原語為 okacārikā。</note>馴熟牡獸、或牝獸。諸
 <lb ed="B" n="0113a06"/>比丘．以如是故．彼大鹿羣．後當遭遇種種災禍、不幸、減滅。諸比丘．復有一人來此．於彼鹿羣．欲為利益．欲為
 <lb ed="B" n="0113a07"/>饒益．欲為安穩故．而特開闢為彼〔鹿羣〕平穩安全所樂遊行之道．閉塞惡道．驅遣馴熟牡獸、或牝獸。諸比
 <lb ed="B" n="0113a08"/>丘．以如是故．彼大鹿羣．後當增大．興盛、成滿。</p>
@@ -2136,7 +2396,8 @@
 <lb ed="B" n="0114a14"/>
 <lb ed="B" n="0114a15"/>
 <lb ed="B" n="0114a16"/>
-<lb ed="B" n="0114a17"/><cb:div type="other"><cb:mulu type="其他" level="2">譬喻法品第三</cb:mulu><head><note n="0114001-n21" resp="BuBian" place="foot text" type="orig">品名 Opamadhamma-vagga．原文缺．今依暹邏本附入。</note>譬喻法品第三</head>
+<lb ed="B" n="0114a17"/><cb:div type="other"><cb:mulu type="其他" level="2">譬喻法品第三</cb:mulu><head><note 
+n="0114001-n21" resp="BuBian" place="foot text" type="orig">品名 Opamadhamma-vagga．原文缺．今依暹邏本附入。</note>譬喻法品第三</head>
 <lb ed="B" n="0114a18"/><cb:div type="other"><cb:mulu type="其他" level="3">鋸喻經第二十一</cb:mulu><head>鋸喻經第二十一</head>
 <lb ed="B" n="0114a19"/><p xml:id="pB06p0114a1901">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時尊者牟犂破郡那．與諸比丘尼．數數會集而住。尊者
 <lb ed="B" n="0114a20"/>牟犂破羣那．與諸比丘尼．實為如是會集而住。若有比丘．於尊者牟犂破羣那前．誹難彼等比丘尼者．尊者
@@ -2161,7 +2422,11 @@
 <lb ed="B" n="0114b06"/>世俗思惟。破羣那．是時汝當如是學．即念．「我心不變．不發惡語．住憐愍心、慈心中．不懷瞋恚。」破羣那．汝
 <lb ed="B" n="0114b07"/>實應如是學。破羣那．復若有人在於汝前．雖誹難汝．汝亦應捨世俗欲望．世俗思惟。破羣那．是時汝當如是
 <lb ed="B" n="0114b08"/>學．即念「我心不變．不發惡語．住憐愍心、慈心中．不懷瞋恚。」破羣那．汝實應如是學。破羣那．復若有人．雖
-<lb ed="B" n="0114b09"/>以手擊汝．以土塊擲汝．以杖打汝．以劍<note n="0114b0901" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0114b0901"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【補編】">剌</rdg></app>汝．汝亦應捨世俗欲望．世俗思惟。破羣那．是時汝當如是學．即念
+<lb ed="B" n="0114b09"/>以手擊汝．以土塊擲汝．以杖打汝．以劍<note 
+n="0114b0901" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0114b0901">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【補編】">剌</rdg>
+</app>汝．汝亦應捨世俗欲望．世俗思惟。破羣那．是時汝當如是學．即念
 <lb ed="B" n="0114b10"/>「我心不變．不發惡語．住憐愍心、慈心中．不懷瞋恚。」破羣那．汝實應如是學。』</p>
 <lb ed="B" n="0114b11"/><p xml:id="pB06p0114b1101">於是世尊．告諸比丘曰．『諸比丘．我曾一時．心實愉悅。諸比丘．我於是告諸比丘曰．「諸比丘．我實受一坐
 <lb ed="B" n="0114b12"/>食。諸比丘．我受一坐食故．無病、健康、輕安．而且有力、安祥。諸比丘．汝等亦應受是一坐食。諸比丘．汝等亦以
@@ -2227,7 +2492,8 @@
 <lb ed="B" n="0115b06"/>語人．欲於汝等．說他語言．謂時與非時．乃至慈心與瞋心是。諸比丘．若他語時．或以〔應語〕時語．乃至或以
 <lb ed="B" n="0115b07"/>瞋心語。諸比丘．於此亦當學．謂「我等心應不變．乃至不懷瞋恚．而以慈與俱心．遍滿彼人而住．即自彼始．
 <lb ed="B" n="0115b08"/>以等恆伽河之廣大、廣博、無量、無恚、無害心．遍滿一切世間而住。」諸比丘．汝等實應如是學。</p>
-<lb ed="B" n="0115b09"/><p xml:id="pB06p0115b0901">諸比丘．譬如貓皮．捶之揉之．煑以成鞣．軟猶絹綿．亦無<note n="0115002-n21" resp="BuBian" place="foot text" type="orig">沙喇湃喇湃喇．為 sarasara.bha rabhara. 之譯音。</note>沙喇沙喇湃喇湃喇之音。有人手持木椎、或執瓦礫．
+<lb ed="B" n="0115b09"/><p xml:id="pB06p0115b0901">諸比丘．譬如貓皮．捶之揉之．煑以成鞣．軟猶絹綿．亦無<note 
+n="0115002-n21" resp="BuBian" place="foot text" type="orig">沙喇湃喇湃喇．為 sarasara.bha rabhara. 之譯音。</note>沙喇沙喇湃喇湃喇之音。有人手持木椎、或執瓦礫．
 <lb ed="B" n="0115b10"/>而來言曰．「我此貓皮．捶之揉之．煑以成鞣．軟猶絹綿．亦無沙喇沙喇湃喇湃喇之音．以此木椎、或以瓦礫．
 <lb ed="B" n="0115b11"/>使發沙喇沙喇湃喇湃喇之音。」諸比丘．於意云何．彼人於此貓皮．捶之揉之．煑以成鞣．軟如絹綿．亦無沙
 <lb ed="B" n="0115b12"/>喇沙喇湃喇湃喇之音．欲以木椎或以瓦礫．可得使發沙喇沙喇湃喇湃喇之音耶。」〔諸比丘曰．〕「不也
@@ -2258,7 +2524,8 @@
 <lb ed="B" n="0116a04"/>〔彼曰〕『誠然如是．諸賢．如我了解世尊所說法．依世尊所說障礙法．然決非於行欲者而為障礙。』於是
 <lb ed="B" n="0116a05"/>彼等比丘．欲令本業飼鷹阿梨吒比丘．捨離惡見故．交相質問．互詰理由．共相勘研曰．『賢者阿梨吒．勿為
 <lb ed="B" n="0116a06"/>如是言．勿誣謗世尊．若謗世尊．實非善也．世尊未曾作如是說。賢者阿梨吒．世尊實以種種法門．說障礙法．
-<lb ed="B" n="0116a07"/>此等於行欲者實為障礙。世尊說言．欲者樂少．苦多惱多．過患愈甚。世尊於欲．<note n="0116001-n22" resp="BuBian" place="foot text" type="orig">關於以下七喻．見中部第五十四經中說明。</note>說骸骨喻．又於欲說肉臠喻．
+<lb ed="B" n="0116a07"/>此等於行欲者實為障礙。世尊說言．欲者樂少．苦多惱多．過患愈甚。世尊於欲．<note 
+n="0116001-n22" resp="BuBian" place="foot text" type="orig">關於以下七喻．見中部第五十四經中說明。</note>說骸骨喻．又於欲說肉臠喻．
 <lb ed="B" n="0116a08"/>又說乾薪火炬喻、火坑喻、夢喻、借用物喻、樹果喻、屠殺場喻、刀椿喻．又於欲說蛇頭喻．苦多惱多．過患愈甚。』
 <lb ed="B" n="0116a09"/>是本業飼鷹阿梨吒比丘．與彼等比丘．交相質問．互詰理由．著著共同研究．然彼仍頑強固執．墨守惡見．
 <lb ed="B" n="0116a10"/>主自言曰．『諸賢．如我了解世尊所說法．依世尊說．是等為障礙法．然決非於行欲者而為障礙。』</p>
@@ -2299,7 +2566,9 @@
 <lb ed="B" n="0116b12"/>喻、借用物喻、樹果喻、屠殺場喻、刀椿喻。又於欲說蛇頭喻．說樂少苦多惱多．過患愈甚。然此本業飼鷹比丘
 <lb ed="B" n="0116b13"/>阿梨吒．以自誤解．却誣謗我．而自破壞．多作罪業。是實彼愚癡人．永非饒益．恒致不幸。諸比丘．彼除欲．除欲
 <lb ed="B" n="0116b14"/>想．除欲思惟外．以欲為受用．應無如是事。</p>
-<lb ed="B" n="0116b15"/><p xml:id="pB06p0116b1501">諸比丘．有愚癡人．學如是法．謂經、應頌、<note n="0116002-n22" resp="BuBian" place="foot text" type="orig">解說（veyyākaraṇa）．此是師與弟子間翻復問答以解說不明處之經典．後世指為佛特殊記說他人之運命．而譯為授記。</note>解說、諷頌、感興語、如是語、本生、未曾有法、<note n="0116003-n22" resp="BuBian" place="foot text" type="orig">有明（vedalla）．為期待於明（智）而有明（智）之語義．此是弟子眾間相互問答．有時師與弟子間相互問答．而得達於明（智）之經典．殆同於前之解說。及後屬於此者．緣多廣而且長．故又譯 vepulla（sk.vaipulya）．至轉為方廣。</note>有明（方廣。）彼等學是
+<lb ed="B" n="0116b15"/><p xml:id="pB06p0116b1501">諸比丘．有愚癡人．學如是法．謂經、應頌、<note 
+n="0116002-n22" resp="BuBian" place="foot text" type="orig">解說（veyyākaraṇa）．此是師與弟子間翻復問答以解說不明處之經典．後世指為佛特殊記說他人之運命．而譯為授記。</note>解說、諷頌、感興語、如是語、本生、未曾有法、<note 
+n="0116003-n22" resp="BuBian" place="foot text" type="orig">有明（vedalla）．為期待於明（智）而有明（智）之語義．此是弟子眾間相互問答．有時師與弟子間相互問答．而得達於明（智）之經典．殆同於前之解說。及後屬於此者．緣多廣而且長．故又譯 vepulla（sk.vaipulya）．至轉為方廣。</note>有明（方廣。）彼等學是
 <lb ed="B" n="0116b16"/>等法．而不以慧明達其義．彼等於是等法不以慧明達其義故．不得歡喜。彼等學法．徒資論辯．逞快口頭。彼
 <lb ed="B" n="0116b17"/>等學法．非為到達真實所期．彼等於是等法不能理解故．當永非饒益．恒致不幸。所以者何．諸比丘．以於法
 <lb ed="B" n="0116b18"/>不能真實理解故。諸比丘．譬如有人．欲蛇望蛇．索蛇以行．乃見巨蛇．彼捉蛇腰．或捉蛇尾．是蛇迴首．咬彼人
@@ -2311,7 +2580,8 @@
 <lb ed="B" n="0116b24"/><p xml:id="pB06p0116b2401">諸比丘．或有善男子學如是法．謂經、應頌、解說、諷頌、興感語、如是語、本生、未曾有法、有明。彼等學是等法．而
 <lb ed="B" n="0116b25"/>能以慧．明達其義。彼等於是等法．而能以慧明達其義故．乃得歡喜。彼等學法．非為徒資論辯．逞快口頭．彼
 <lb ed="B" n="0116b26"/>等學法．為達真實所期．彼等於是等法善能理解故．當永獲饒益．恒致幸福。所以者何．諸比丘．以於法善能
-<lb ed="B" n="0116b27"/>理解故。諸比丘．譬如有人．欲蛇望蛇．索蛇以行．乃見巨蛇．彼以<note n="0116004-n22" resp="BuBian" place="foot text" type="orig">羊趾形之杖（ajapada-daṇḍa）．謂杖端為叉．形如羊趾。</note>羊趾形杖．以壓押之．壓押之已．乃捉其頭。諸
+<lb ed="B" n="0116b27"/>理解故。諸比丘．譬如有人．欲蛇望蛇．索蛇以行．乃見巨蛇．彼以<note 
+n="0116004-n22" resp="BuBian" place="foot text" type="orig">羊趾形之杖（ajapada-daṇḍa）．謂杖端為叉．形如羊趾。</note>羊趾形杖．以壓押之．壓押之已．乃捉其頭。諸
 <lb ed="B" n="0116b28"/>比丘．彼蛇縱能纏繞彼人之手、或腕、或餘肢體。然彼人不因是致死．或受等於死苦。何以故．諸比丘．為彼於
 <lb ed="B" n="0116b29"/>蛇．善能理解故。諸比丘．若善男子學法．謂經、應頌、解說、諷頌、感興語、如是語、本生、未曾有法、有明．亦復如是。
 <lb ed="B" n="0116b30"/>以學法者．於是等法．而能以慧．明達其義．彼等於是等法．而能以慧明達其義故．乃得歡喜。彼等學法．非為
@@ -2340,7 +2610,8 @@
 <lb ed="B" n="0117a20"/>為言．「此非我者．此非我．此非我之我。」又目想為言．「此非我者．此非我．此非我之我。」又目行為言．
 <lb ed="B" n="0117a21"/>「此非我者．此非我．此非我之我。」又以意覺知．此能見、能聞、能思量、能識、能得、能欲者．亦自念言．「此非我
 <lb ed="B" n="0117a22"/>者．此非我．此非我之我。」又此見處．即謂彼世界．彼是我．斯我死後．當得如是常住、常恒、久遠、非變異法．我
-<lb ed="B" n="0117a23"/>將永遠如是住．於此見處．亦復觀為．「此非我者．此非我．此非我之我。」彼如是觀．於非實有．無事<note n="0117005-n22" resp="BuBian" place="foot text" type="orig">焦勞．照 paritassati 以譯之．可視自 pari-tṛṣyati 而來者。舊譯恐怖．其原語或當為 paritrasati 歟。</note>焦勞。』</p>
+<lb ed="B" n="0117a23"/>將永遠如是住．於此見處．亦復觀為．「此非我者．此非我．此非我之我。」彼如是觀．於非實有．無事<note 
+n="0117005-n22" resp="BuBian" place="foot text" type="orig">焦勞．照 paritassati 以譯之．可視自 pari-tṛṣyati 而來者。舊譯恐怖．其原語或當為 paritrasati 歟。</note>焦勞。』</p>
 <lb ed="B" n="0117a24"/><p xml:id="pB06p0117a2401">如是說時．有一比丘．白世尊言．『世尊．或有於外非實有．而起焦勞者耶。』世尊說言．『有也比丘。』即言
 <lb ed="B" n="0117a25"/>『比丘．有人自思．「嗚呼．彼為我有．今於我實無。若為我有．〔是殊為善。〕今我於彼．實莫能得。」由是彼人．
 <lb ed="B" n="0117a26"/>愁、惱、悲慽．椎胸而泣．而生困惑。比丘．如是為有於外非實有．而起焦勞。』〔比丘白言．〕『世尊．或有於外實
@@ -2387,7 +2658,8 @@
 <lb ed="B" n="0118a01"/>非我之我。」當於過去、未來、現在所有諸識．以及或內、或外、或粗、或細、或賤、或貴、或遠、或近一切識．應以正
 <lb ed="B" n="0118a02"/>慧．如是如實觀察．「此非是我者．此非我．此非我之我。」</p>
 <lb ed="B" n="0118a03"/><p xml:id="pB06p0118a0301">諸比丘．如是觀察多聞聖弟子．厭色、厭受、厭想、行、識．厭故離著．以離著故．而獲解脫．以解脫故．解脫智生．即
-<lb ed="B" n="0118a04"/>知生已盡．梵行已成．應作已作．更不趣有。諸比丘．此比丘是自知斷除障礙者．填塞坑塹者．<note n="0118006-n22" resp="BuBian" place="foot text" type="orig">拔去鹿角籬者．照 abbūḷhesika 以譯之。abbūlha 是拔去．esika 或 isika 是柱、橛、椿之意．當譯為拔去木橛等．舊譯『破郭。』茲依前後關聯上．作如是譯。</note>拔去鹿角籬者．
+<lb ed="B" n="0118a04"/>知生已盡．梵行已成．應作已作．更不趣有。諸比丘．此比丘是自知斷除障礙者．填塞坑塹者．<note 
+n="0118006-n22" resp="BuBian" place="foot text" type="orig">拔去鹿角籬者．照 abbūḷhesika 以譯之。abbūlha 是拔去．esika 或 isika 是柱、橛、椿之意．當譯為拔去木橛等．舊譯『破郭。』茲依前後關聯上．作如是譯。</note>拔去鹿角籬者．
 <lb ed="B" n="0118a05"/>拔除關楗者。復知為聖者．偃息高幢者．却除重擔者．解脫結縛者。諸比丘．云何比丘斷除障礙。諸比丘．謂是
 <lb ed="B" n="0118a06"/>比丘．能捨無明．斷根拔本．如伐棕櫚．使歸非有．不生未來法。諸比丘．如是比丘是為斷除障礙。諸比丘．云何
 <lb ed="B" n="0118a07"/>比丘填塞坑塹。謂是比丘．能捨相續後有輪迴．斷根拔本．如伐棕櫚．使歸非有．不生未來法。諸比丘．如是比
@@ -2437,7 +2709,8 @@
 <lb ed="B" n="0118b18"/><p xml:id="pB06p0118b1801">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時尊者鳩摩羅迦葉．在闇林中。時有天人．於深夜中．放
 <lb ed="B" n="0118b19"/>大光明．周遍照耀闇林．詣尊者鳩摩羅迦葉所．到已．佇立一面。立一面已．而彼天人．向尊者鳩摩羅迦葉．作
 <lb ed="B" n="0118b20"/>如是言．『比丘．比丘．此有蟻垤．在夜噴煙．晝日火燃。有婆羅門言．「賢者．當把劍掘發。」賢者把劍發掘．見
-<lb ed="B" n="0118b21"/>關楗焉。「尊者．是關楗也。」婆羅門復言．「賢者．當去除關楗．把劍掘發。」賢者復把劍發掘．見<note n="0118001-n23" resp="BuBian" place="foot text" type="orig">隆然者〔蛙〕（uddhummāyika）．註中謂是蛙（maṇḍūka）。或即相當舊譯之水母蟲。</note>隆然者〔蛙〕
+<lb ed="B" n="0118b21"/>關楗焉。「尊者．是關楗也。」婆羅門復言．「賢者．當去除關楗．把劍掘發。」賢者復把劍發掘．見<note 
+n="0118001-n23" resp="BuBian" place="foot text" type="orig">隆然者〔蛙〕（uddhummāyika）．註中謂是蛙（maṇḍūka）。或即相當舊譯之水母蟲。</note>隆然者〔蛙〕
 <lb ed="B" n="0118b22"/>焉。「尊者．是隆然者〔蛙〕也。」婆羅門復言．「當去除隆然者〔蛙〕把劍掘發。」賢者把劍發掘．見二歧
 <lb ed="B" n="0118b23"/>道焉。「尊者．是二歧道也。」婆羅門復言．「賢者．當去除二歧道．把劍掘發。」賢者把劍發掘．見一容器焉。
 <lb ed="B" n="0118b24"/>「尊者．是容器也。」婆羅門復言．「賢者．當去除容器．把劍掘發。」賢者把劍發掘．見一龜焉。「尊者．是一
@@ -2472,7 +2745,8 @@
 <lb ed="B" n="0119a20"/>
 <lb ed="B" n="0119a21"/>
 <lb ed="B" n="0119a22"/>
-<lb ed="B" n="0119a23"/><cb:div type="other"><cb:mulu type="其他" level="3">傳車經第二十四</cb:mulu><head><note n="0119001-n24" resp="BuBian" place="foot text" type="orig">傳車（rathavinita）．驛運之車．於一一驛處．而更換其車．繼續運行．是曰傳車。</note>傳車經第二十四</head>
+<lb ed="B" n="0119a23"/><cb:div type="other"><cb:mulu type="其他" level="3">傳車經第二十四</cb:mulu><head><note 
+n="0119001-n24" resp="BuBian" place="foot text" type="orig">傳車（rathavinita）．驛運之車．於一一驛處．而更換其車．繼續運行．是曰傳車。</note>傳車經第二十四</head>
 <lb ed="B" n="0119a24"/><p xml:id="pB06p0119a2401">如是我聞。一時世尊．在王舍城竹林迦蘭陀迦尼婆波。爾時頗多誕生斯地比丘．於其生地．雨季安居終已．
 <lb ed="B" n="0119a25"/>詣世尊所．到已．稽首世尊．却坐一面。坐一面已．世尊語彼等比丘曰．『諸比丘．誕生斯地比丘．於其生地．有
 <lb ed="B" n="0119a26"/>誰善能博得同行者如次稱譽．謂「自行少欲．且為諸比丘稱說少欲．自行知足．且為諸比丘稱說知足．自
@@ -2547,7 +2821,8 @@
 <lb ed="B" n="0120a29"/>能得見能得近侍尊者舍利弗．彼等同行者．實可欣慶．真為幸福。若同行者．以布纏頭．頂戴尊者舍利弗．而
 <lb ed="B" n="0120a30"/>為遊行．有人得見．得近侍者．彼等諸人．亦實可欣慶．真為幸福。今我得見得近侍尊者舍利弗．亦實可欣慶．
 <lb ed="B" n="0120a31"/>真為幸福。』</p>
-<lb ed="B" n="0120a32"/><p xml:id="pB06p0120a3201">如是彼兩大<note n="0120002-n24" resp="BuBian" place="foot text" type="orig">龍（nāga）．高德比丘之尊稱語。</note>龍．相互讚歎善說。</p></cb:div>
+<lb ed="B" n="0120a32"/><p xml:id="pB06p0120a3201">如是彼兩大<note 
+n="0120002-n24" resp="BuBian" place="foot text" type="orig">龍（nāga）．高德比丘之尊稱語。</note>龍．相互讚歎善說。</p></cb:div>
 <pb ed="B" xml:id="B06.0004.0120b" n="0120b"/>
 <lb ed="B" n="0120b01"/>
 <lb ed="B" n="0120b02"/>
@@ -2555,7 +2830,8 @@
 <lb ed="B" n="0120b04"/><cb:div type="other"><cb:mulu type="其他" level="3">撒餌經第二十五</cb:mulu><head>撒餌經第二十五</head>
 <lb ed="B" n="0120b05"/><p xml:id="pB06p0120b0501">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊．呼諸比丘曰．『諸比丘。』彼等比丘．應世尊曰．
 <lb ed="B" n="0120b06"/>『世尊。』</p>
-<lb ed="B" n="0120b07"/><p xml:id="pB06p0120b0701">世尊說言．『諸比丘．若<note n="0120001-n25" resp="BuBian" place="foot text" type="orig">獵師．原語是 nevāpika．按語義為撒餌食而捕者之意。舊譯為獵師。今仍之。</note>獵師於鹿羣中撒餌食時．非以此念．謂「食我餌者諸鹿．當得長壽．當得美麗．長生
+<lb ed="B" n="0120b07"/><p xml:id="pB06p0120b0701">世尊說言．『諸比丘．若<note 
+n="0120001-n25" resp="BuBian" place="foot text" type="orig">獵師．原語是 nevāpika．按語義為撒餌食而捕者之意。舊譯為獵師。今仍之。</note>獵師於鹿羣中撒餌食時．非以此念．謂「食我餌者諸鹿．當得長壽．當得美麗．長生
 <lb ed="B" n="0120b08"/>永存。」諸比丘．獵師於鹿羣中撒餌時．乃以是念．謂「諸鹿投入我此餌中．無知貪食．既投入已．無知貪食
 <lb ed="B" n="0120b09"/>故．使至於醉．醉故使陷放逸．陷放逸故．我即於此餌食中．得至稱意任所欲為。」</p>
 <lb ed="B" n="0120b10"/><p xml:id="pB06p0120b1001">諸比丘．時有第一鹿羣．投入獵師所撒此餌食中．無知貪食。彼等既入此餌食中．以無知貪食故．自至於醉．
@@ -2621,7 +2897,8 @@
 <lb ed="B" n="0121b04"/>中．無知貪食。彼等既入彼中無知貪食．自至於醉．醉陷放逸。陷放逸故．魔乃於此餌食．即於此世間食中．得
 <lb ed="B" n="0121b05"/>至稱意任所欲為。如是彼等第一沙門婆羅門．實莫能脫魔之稱意所欲之力。然則我等須避一切餌食．即
 <lb ed="B" n="0121b06"/>避世間食而住．避食於恐怖中．入森林處住。」於是彼等．避離一切餌食．即避離世間食而住．避食於恐怖
-<lb ed="B" n="0121b07"/>中．入森林處住。彼等住於彼處．<note n="0121002-n25" resp="BuBian" place="foot text" type="orig">以下食物．已見第十二師子吼大經文中。</note>以野菜為食．以稷為食．糙米為食．達陀羅米為食．訶陀草為食．或以粃糠、飯
+<lb ed="B" n="0121b07"/>中．入森林處住。彼等住於彼處．<note 
+n="0121002-n25" resp="BuBian" place="foot text" type="orig">以下食物．已見第十二師子吼大經文中。</note>以野菜為食．以稷為食．糙米為食．達陀羅米為食．訶陀草為食．或以粃糠、飯
 <lb ed="B" n="0121b08"/>汁、胡麻粉、草為食．以牛糞為食．以森林樹根及果實為食．或拾自落果實．而以自活。及至夏季末月．水草都
 <lb ed="B" n="0121b09"/>盡．彼等身體．極為瘦羸．以瘦羸故．彼等氣力隨之衰弱．氣力既衰．心解脫隨之衰退．心解脫衰退時．復還魔
 <lb ed="B" n="0121b10"/>所撒置彼餌食處．即復還此等世間食處。彼等即入彼處．無知貪食。以無知貪食故．自至於醉．醉陷放逸。陷
@@ -2639,7 +2916,8 @@
 <lb ed="B" n="0121b22"/>處故．不投入魔所撒置餌食．即不投入此世間食中．不為無知取食。彼等既不投入彼中．亦不無知取食故．
 <lb ed="B" n="0121b23"/>自無至醉．無醉故不陷放逸。不陷放逸故．魔於此食餌．即於此世間食中．稱意所作．無由得施。然是即為執
 <lb ed="B" n="0121b24"/>如是見而住．或以世間為常．或以世間為無常．或以世間為有邊．或以世間為無邊．或以靈即是身．或以靈
-<lb ed="B" n="0121b25"/>與身各別．或以<note n="0121003-n25" resp="BuBian" place="foot text" type="orig">多陀伽陀（Tathāgata）．普通譯為如來（Tathā-āgata）或如去（Tathā-gata）．斯兩譯語．皆指佛陀。然此中亦得含有佛陀者．唯後世則專指為佛陀．今寧照一般之「如是來如是去者．」即指人間有情．為更適當．緣是唯出譯音．不舉譯語．參看南傳長部梵網經註一八。</note>多陀伽陀死後是有．或以多陀伽陀死後非有．或以多陀伽陀死後亦有亦非有．或以多陀
+<lb ed="B" n="0121b25"/>與身各別．或以<note 
+n="0121003-n25" resp="BuBian" place="foot text" type="orig">多陀伽陀（Tathāgata）．普通譯為如來（Tathā-āgata）或如去（Tathā-gata）．斯兩譯語．皆指佛陀。然此中亦得含有佛陀者．唯後世則專指為佛陀．今寧照一般之「如是來如是去者．」即指人間有情．為更適當．緣是唯出譯音．不舉譯語．參看南傳長部梵網經註一八。</note>多陀伽陀死後是有．或以多陀伽陀死後非有．或以多陀伽陀死後亦有亦非有．或以多陀
 <lb ed="B" n="0121b26"/>伽陀死後非有非非有。諸比丘．如是彼等第三沙門婆羅門．實亦莫能得脫魔之稱意所欲之力。諸比丘．我
 <lb ed="B" n="0121b27"/>說此等第三沙門婆羅門．亦復如是．如彼等第三鹿羣。</p>
 <lb ed="B" n="0121b28"/><p xml:id="pB06p0121b2801">諸比丘．有第四沙門婆羅門．作是念．「彼等第一沙門婆羅門．投入魔所撒置此餌食．即投入此等世間食
@@ -2691,7 +2969,8 @@
 <lb ed="B" n="0122b08"/>行者．為論法而行集會．是誠適宜。諸比丘．夫集會有二種所作．一者法談．一者聖默。</p>
 <lb ed="B" n="0122b09"/><p xml:id="pB06p0122b0901">諸比丘．此等各有二求．即聖求及非聖求。諸比丘．云何非聖求。謂若有人．於自生法而求生法．於自老法而
 <lb ed="B" n="0122b10"/>求老法．於自病法而求病法．於自死法乃至愁法、雜穢法．而求死法乃至愁法．雜穢法。諸比丘．云何為生法．
-<lb ed="B" n="0122b11"/>謂妻子是生法．婢僕是生法．山羊及羊是生法．鷄豚是生法．象、牛、馬、<note n="0122001-n26" resp="BuBian" place="foot text" type="orig">牝馬．（valavā）．此語在荻原氏梵漢辭典中為騾．或即是指騾。今從一般辭書．譯為牝馬。</note>牝馬是生法．金銀是生法。諸比丘．生法
+<lb ed="B" n="0122b11"/>謂妻子是生法．婢僕是生法．山羊及羊是生法．鷄豚是生法．象、牛、馬、<note 
+n="0122001-n26" resp="BuBian" place="foot text" type="orig">牝馬．（valavā）．此語在荻原氏梵漢辭典中為騾．或即是指騾。今從一般辭書．譯為牝馬。</note>牝馬是生法．金銀是生法。諸比丘．生法
 <lb ed="B" n="0122b12"/>實為此等諸依．彼於其中．結縛狂亂．而起貪著．於自生法而求生法。諸比丘．云何老法．謂妻子是老法．婢僕
 <lb ed="B" n="0122b13"/>是老法．山羊及羊是老法．鷄豚是老法．象、牛、馬、牝馬是老法．金銀是老法。諸比丘．老法實為此等諸依．彼於
 <lb ed="B" n="0122b14"/>其中．結縛狂亂．而起貪著．於自老法而求老法。諸比丘．云何病法．謂妻子是病法．婢僕是病法．山羊及羊是
@@ -2766,17 +3045,25 @@
 <lb ed="B" n="0123b17"/>緣是緣生〔法．〕欲見實難。若斯事者．謂是靜止一切行．捨離一切依．滅渴愛．去貪欲．諸滅滅已．而成涅槃．斯
 <lb ed="B" n="0123b18"/>事難見。我雖欲說法．然諸眾生若莫能解．是徒使我疲勞．徒使我困惑耳。」是故諸比丘．我乃宣說深可驚
 <lb ed="B" n="0123b19"/>歎．前代未聞之偈言曰。</p>
-<lb ed="B" n="0123b20"/><lg type="regular" xml:id="lgB06p0123b2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">以艱苦所得<caesura style="text-indent:1em;"/>云何而可說<caesura style="text-indent:1em;"/>貪瞋所從身<caesura style="text-indent:1em;"/>覺此法實難<caesura style="text-indent:1em;"/>逆世流微妙<caesura style="text-indent:1em;"/>甚深細難見</l>
-<lb ed="B" n="0123b21"/><l style="text-indent:1em">染欲覆癡雲<caesura style="text-indent:1em;"/>無有得見者</l></lg>
+<lb ed="B" n="0123b20"/><lg type="regular" xml:id="lgB06p0123b2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">以艱苦所得<caesura style="text-indent:1em;"/>云何而可說<caesura style="text-indent:1em;"/>貪瞋所從身<caesura style="text-indent:1em;"/>覺此法實難<caesura style="text-indent:1em;"/>逆世流微妙<caesura style="text-indent:1em;"/>甚深細難見</l>
+<lb ed="B" n="0123b21"/>
+  <l style="text-indent:1em">染欲覆癡雲<caesura style="text-indent:1em;"/>無有得見者</l>
+</lg>
 <lb ed="B" n="0123b22"/><p xml:id="pB06p0123b2201">諸比丘．我心以如是思慮故．寧趣無為．毋趣說法。諸比丘．時有娑婆主梵天．以心知我心中所念．彼作是念．
 <lb ed="B" n="0123b23"/>「世界實將亡．世界實將亡．如來、應供、等正覺者．心趣無為．不趣說法故。」諸比丘．是娑婆主梵天．猶如壯
 <lb ed="B" n="0123b24"/>士．伸其屈臂．屈其伸臂頃．從梵天界滅．現於我前．其疾亦然。諸比丘．是娑婆主梵天．偏袒一肩．向我合掌．作
 <lb ed="B" n="0123b25"/>是言曰．「世尊．世尊當宣說法．善逝當宣說法．亦有塵垢輕者有情．不聞法故．則便衰退．彼等〔若聞法〕者．
 <lb ed="B" n="0123b26"/>當了知法。」諸比丘．娑婆世界主梵天．作是語已．復說偈曰。</p>
-<lb ed="B" n="0123b27"/><lg type="regular" xml:id="lgB06p0123b2701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">開不淨者不淨法<caesura style="text-indent:1em;"/>昔嘗出現摩揭陀<caesura style="text-indent:1em;"/>卿當開此甘露門<caesura style="text-indent:1em;"/>離垢覺法普令聞</l>
-<lb ed="B" n="0123b28"/><l style="text-indent:1em">如立山頂之巖巔<caesura style="text-indent:1em;"/>徧觀下界人聚會<caesura style="text-indent:1em;"/>今登法所成高樓<caesura style="text-indent:1em;"/>有智慧主普眼觀</l>
-<lb ed="B" n="0123b29"/><l style="text-indent:1em">離愁觀彼沉愁者<caesura style="text-indent:1em;"/>慈觀煩惱生死眾<caesura style="text-indent:1em;"/>戰勝勇者奮然起<caesura style="text-indent:1em;"/>無累長者前無怯</l>
-<lb ed="B" n="0123b30"/><l style="text-indent:1em">大師世尊宣正法<caesura style="text-indent:1em;"/>彼等亦當成智者</l></lg>
+<lb ed="B" n="0123b27"/><lg type="regular" xml:id="lgB06p0123b2701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">開不淨者不淨法<caesura style="text-indent:1em;"/>昔嘗出現摩揭陀<caesura style="text-indent:1em;"/>卿當開此甘露門<caesura style="text-indent:1em;"/>離垢覺法普令聞</l>
+<lb ed="B" n="0123b28"/>
+  <l style="text-indent:1em">如立山頂之巖巔<caesura style="text-indent:1em;"/>徧觀下界人聚會<caesura style="text-indent:1em;"/>今登法所成高樓<caesura style="text-indent:1em;"/>有智慧主普眼觀</l>
+<lb ed="B" n="0123b29"/>
+  <l style="text-indent:1em">離愁觀彼沉愁者<caesura style="text-indent:1em;"/>慈觀煩惱生死眾<caesura style="text-indent:1em;"/>戰勝勇者奮然起<caesura style="text-indent:1em;"/>無累長者前無怯</l>
+<lb ed="B" n="0123b30"/>
+  <l style="text-indent:1em">大師世尊宣正法<caesura style="text-indent:1em;"/>彼等亦當成智者</l>
+</lg>
 <lb ed="B" n="0123b31"/><p xml:id="pB06p0123b3101">諸比丘．時我知梵天懇切之願．及愍念有情故．即以佛眼．審觀世間。諸比丘．我以佛眼審觀世間．見有少垢、
 <lb ed="B" n="0123b32"/>多垢、利根、鈍根、善性、惡性、從順、不從順有情．又見或有怖畏他界及以罪過而住。如於青蓮池．或紅蓮池．或
 <pb ed="B" xml:id="B06.0004.0124a" n="0124a"/>
@@ -2784,7 +3071,9 @@
 <lb ed="B" n="0124a02"/>紅蓮．或有白蓮．生在水中．成長水中．立平水面。復有青蓮．或有紅蓮．或有白蓮．生在水中．成長水中．挺出水
 <lb ed="B" n="0124a03"/>面．非水所污。諸比丘．我以佛眼．審觀世間．亦復如是．見有少垢、多垢、利根、鈍根、善性、惡性、從順、不從順有情．
 <lb ed="B" n="0124a04"/>又見或有怖畏他界及以罪過而住。諸比丘．我於是以偈．答婆婆主梵天曰。</p>
-<lb ed="B" n="0124a05"/><lg xml:id="lgB06p0124a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">有耳者開甘露門<caesura style="text-indent:1em;"/>捨己信執具淨耳<caesura style="text-indent:1em;"/>梵乎我於懷害人<caesura style="text-indent:1em;"/>則不為說正妙法</l></lg>
+<lb ed="B" n="0124a05"/><lg xml:id="lgB06p0124a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">有耳者開甘露門<caesura style="text-indent:1em;"/>捨己信執具淨耳<caesura style="text-indent:1em;"/>梵乎我於懷害人<caesura style="text-indent:1em;"/>則不為說正妙法</l>
+</lg>
 <lb ed="B" n="0124a06"/><p xml:id="pB06p0124a0601">諸比丘．於是娑婆主梵天言．「我從世尊．已得明示．將說法矣。」向我稽首右繞．倏然隱沒。</p>
 <lb ed="B" n="0124a07"/><p xml:id="pB06p0124a0701">諸比丘．於是我作斯念．「我應為何人．最初說法．何人迅速通達斯法。」諸比丘．我作斯念．「彼阿羅邏迦
 <lb ed="B" n="0124a08"/>羅摩．是為賢者．得心決定．乃是智者．長無垢性．我當為阿羅邏迦羅摩．最初說法．彼當迅速通達斯法。」諸
@@ -2799,11 +3088,18 @@
 <lb ed="B" n="0124a17"/>人間天眼．見五比丘．在波羅痆斯仙人住處鹿野苑中。諸比丘．我於優樓毗羅．稱意住已．行脚波羅痆斯。</p>
 <lb ed="B" n="0124a18"/><p xml:id="pB06p0124a1801">諸比丘．時有邪命外道優波迦者．在伽耶與菩提樹間．見我步行街衢．趨我語曰．「尊者．卿之諸根清淨．膚
 <lb ed="B" n="0124a19"/>色皎潔。尊者．卿何所期而出家耶．卿師為誰．樂受誰法。」諸比丘．我聞是語已．以偈答邪命外道優波迦言。</p>
-<lb ed="B" n="0124a20"/><lg type="regular" xml:id="lgB06p0124a2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">我是勝一切<caesura style="text-indent:1em;"/>及一切知者<caesura style="text-indent:1em;"/>一切法無染<caesura style="text-indent:1em;"/>捨愛盡解脫<caesura style="text-indent:1em;"/>如是自覺者<caesura style="text-indent:1em;"/>有誰堪啟示</l>
-<lb ed="B" n="0124a21"/><l style="text-indent:1em">我既無有師<caesura style="text-indent:1em;"/>亦無可儔者<caesura style="text-indent:1em;"/>我於人天界<caesura style="text-indent:1em;"/>無堪匹敵者<caesura style="text-indent:1em;"/>唯我是斯世<caesura style="text-indent:1em;"/>應供無上師</l>
-<lb ed="B" n="0124a22"/><l style="text-indent:1em">唯一等正覺<caesura style="text-indent:1em;"/>得清涼寂滅<caesura style="text-indent:1em;"/>為欲轉法輪<caesura style="text-indent:1em;"/>前行<note n="0124002-n26" resp="BuBian" place="foot text" type="orig">迦師城（Kasinaṁ pura）．迦尸族城之意。波羅痆斯．即今之邊那萊斯。</note>迦師城<caesura style="text-indent:1em;"/>於盲闇世界<caesura style="text-indent:1em;"/>將擊甘露鼓</l></lg>
+<lb ed="B" n="0124a20"/><lg type="regular" xml:id="lgB06p0124a2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">我是勝一切<caesura style="text-indent:1em;"/>及一切知者<caesura style="text-indent:1em;"/>一切法無染<caesura style="text-indent:1em;"/>捨愛盡解脫<caesura style="text-indent:1em;"/>如是自覺者<caesura style="text-indent:1em;"/>有誰堪啟示</l>
+<lb ed="B" n="0124a21"/>
+  <l style="text-indent:1em">我既無有師<caesura style="text-indent:1em;"/>亦無可儔者<caesura style="text-indent:1em;"/>我於人天界<caesura style="text-indent:1em;"/>無堪匹敵者<caesura style="text-indent:1em;"/>唯我是斯世<caesura style="text-indent:1em;"/>應供無上師</l>
+<lb ed="B" n="0124a22"/>
+  <l style="text-indent:1em">唯一等正覺<caesura style="text-indent:1em;"/>得清涼寂滅<caesura style="text-indent:1em;"/>為欲轉法輪<caesura style="text-indent:1em;"/>前行<note 
+n="0124002-n26" resp="BuBian" place="foot text" type="orig">迦師城（Kasinaṁ pura）．迦尸族城之意。波羅痆斯．即今之邊那萊斯。</note>迦師城<caesura style="text-indent:1em;"/>於盲闇世界<caesura style="text-indent:1em;"/>將擊甘露鼓</l>
+</lg>
 <lb ed="B" n="0124a23"/><p xml:id="pB06p0124a2301">優波迦言．「尊者．尊者直自稱為一切勝者耶。」我答之言。</p>
-<lb ed="B" n="0124a24"/><lg xml:id="lgB06p0124a2401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">若彼得漏盡<caesura style="text-indent:1em;"/>同我是勝者<caesura style="text-indent:1em;"/>我能降惡法<caesura style="text-indent:1em;"/>是得為勝者</l></lg>
+<lb ed="B" n="0124a24"/><lg xml:id="lgB06p0124a2401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">若彼得漏盡<caesura style="text-indent:1em;"/>同我是勝者<caesura style="text-indent:1em;"/>我能降惡法<caesura style="text-indent:1em;"/>是得為勝者</l>
+</lg>
 <lb ed="B" n="0124a25"/><p xml:id="pB06p0124a2501">諸比丘．如是說時．彼邪命外道優波迦言．「尊者．卿或實堪如是歟。」趨向傍道．搖首而去。諸比丘．我於是
 <lb ed="B" n="0124a26"/>轉轉遊行．往訪波羅痆斯仙人住處鹿野苑五比丘。諸比丘．彼等五比丘．遙見我來．即互約曰．「兄其見歟．
 <lb ed="B" n="0124a27"/>彼沙門瞿曇來矣。恣意棄捨精勤．趣享樂者．應勿為彼問訊．應勿起迎．勿為彼收取衣鉢．但為敷座．彼若欲
@@ -3020,7 +3316,8 @@
 <lb ed="B" n="0127b07"/>界。此內火界．與外火界．是為火界。應以正慧．如實觀察．謂如是觀．「此非是我者．我非是此．此非我之我。」
 <lb ed="B" n="0127b08"/>以如是如實正慧觀故．即於火界．使生厭離．離火界心。諸賢．念有時外火界．勃然怒發．燒燬村里．燒燬聚落．
 <lb ed="B" n="0127b09"/>燒燬都城．燒燬國家．燒燬國土。彼或延至綠草堤畔．或至道傍．巖隈、水邊、及可愛地．以無厭足悉消滅之。諸
-<lb ed="B" n="0127b10"/>賢．念有時至以鷄翼．或<note n="0127001-n28" resp="BuBian" place="foot text" type="orig">以筋革（nahāru-daddulena）．據註釋則為「以皮革擦」（Camma nillekhaṅena）。</note>以筋革．覓取火種。諸賢．彼外火界．如是偉大．尚得知其是無常性．乃至知其是變易
+<lb ed="B" n="0127b10"/>賢．念有時至以鷄翼．或<note 
+n="0127001-n28" resp="BuBian" place="foot text" type="orig">以筋革（nahāru-daddulena）．據註釋則為「以皮革擦」（Camma nillekhaṅena）。</note>以筋革．覓取火種。諸賢．彼外火界．如是偉大．尚得知其是無常性．乃至知其是變易
 <lb ed="B" n="0127b11"/>法性．況於此渴愛所執區區之身．如是如是。乃至若彼比丘．如是歸依佛．如是歸依法．如是歸僧伽．善能安
 <lb ed="B" n="0127b12"/>住相應捨者．彼應歡喜。諸賢．如是比丘．多所成就。</p>
 <lb ed="B" n="0127b13"/><p xml:id="pB06p0127b1301">諸比丘．云何風界。曰內風界與外風界是。諸賢．云何內風界。謂自內身．風及風所成．依是而住者．即向上風、
@@ -3069,7 +3366,9 @@
 <lb ed="B" n="0128a23"/>『諸比丘．若有善男子．信故離世俗家．為出家行者．自念「我因生、老死、愁、悲、苦、憂、惱故．而致沈溺．沈溺於苦
 <lb ed="B" n="0128a24"/>苦所降伏。然我欲知令此苦蘊．悉終盡事。」彼為是出家．而得利養、恭敬、名聞。彼以利養、恭敬、名聞故．而生
 <lb ed="B" n="0128a25"/>歡喜．滿足志望．彼以利養、恭敬、名聞故．自讚毀他．謂「我得利養．具足名聞．彼等其餘比丘．名聞既遜．勢力
-<lb ed="B" n="0128a26"/>亦弱。」彼以利養、恭敬、名聞故．憍慢放逸．流蕩放逸．放逸之果．住於苦耳。諸比丘．猶如有人．欲樂<note n="0128001-n29" resp="BuBian" place="foot text" type="orig">心材．巳見第十八註一。</note><note n="0128001-n29" resp="CBETA" type="mod">心材．已見第十八註一。</note>心材．覓求
+<lb ed="B" n="0128a26"/>亦弱。」彼以利養、恭敬、名聞故．憍慢放逸．流蕩放逸．放逸之果．住於苦耳。諸比丘．猶如有人．欲樂<note 
+n="0128001-n29" resp="BuBian" place="foot text" type="orig">心材．巳見第十八註一。</note><note 
+n="0128001-n29" resp="CBETA" type="mod">心材．已見第十八註一。</note>心材．覓求
 <lb ed="B" n="0128a27"/>心材．彼以搜索心材故．而為行行．遇具有心材挺立大樹．過棄心材．過棄膚材．過棄皮．過棄薄皮．唯截取其
 <lb ed="B" n="0128a28"/>枝葉．自思「此心材也．」持之而返。有具眼者見．當如是言．「友乎．此人實不知心材．不知膚材．不知皮．不
 <lb ed="B" n="0128a29"/>知薄皮．不知枝葉．是以此人．欲樂心材．覓求心材．搜索心材．而為行行．遇有心材挺立大樹．過棄心材．棄膚
@@ -3123,7 +3422,8 @@
 <lb ed="B" n="0129a11"/>故．戒得成就。彼雖以戒成就．不生歡喜．亦未滿足其志望．彼不以戒成就．自讚毀他．彼不以戒成就．憍慢放
 <lb ed="B" n="0129a12"/>逸．流蕩放逸．不放逸故．定得成就。彼雖以定成就．不自讚、不毀他．彼定成就．不憍慢、不放逸．不流蕩放逸．不
 <lb ed="B" n="0129a13"/>放逸故．知見成就。彼雖以知見成就．而生歡喜．然亦未滿其志望．彼不以知見．自讚毀他．彼不以知見．憍慢
-<lb ed="B" n="0129a14"/>放逸．流蕩放逸．以不放逸故．得成就<note n="0129002-n29" resp="BuBian" place="foot text" type="orig">一時解脫（samaya-vimokkha）．非永遠解脫．故尚有墮．據覺音註．謂此是指到達四色界與四無色界者。反之『非一時解脫』asamaya-vimokkha. 是永遠解脫．而無有墮．據覺音註．謂是四聖道及涅槃。</note>一時解脫。諸比丘．彼比丘者．緣彼一時解脫．故尚有墮。諸比丘．猶如有
+<lb ed="B" n="0129a14"/>放逸．流蕩放逸．以不放逸故．得成就<note 
+n="0129002-n29" resp="BuBian" place="foot text" type="orig">一時解脫（samaya-vimokkha）．非永遠解脫．故尚有墮．據覺音註．謂此是指到達四色界與四無色界者。反之『非一時解脫』asamaya-vimokkha. 是永遠解脫．而無有墮．據覺音註．謂是四聖道及涅槃。</note>一時解脫。諸比丘．彼比丘者．緣彼一時解脫．故尚有墮。諸比丘．猶如有
 <lb ed="B" n="0129a15"/>人．欲樂心材．覓求心材．以搜索心材故．而為行行．遇有心材挺立大樹．截取心材．自思「此心材也。」持之
 <lb ed="B" n="0129a16"/>而返。有具眼者見．當如是言．「友乎．此人實知心材．知膚材．知皮．知薄皮．知枝葉．是以此人．欲樂心材．覓求
 <lb ed="B" n="0129a17"/>心材．搜索心材．而為行行．遇有心材挺立大樹．截取心材．知為心材．持之而返．為是彼應使用此心材．應依
@@ -3146,7 +3446,8 @@
 <lb ed="B" n="0129b01"/><cb:div type="other"><cb:mulu type="其他" level="3">心材喻小經第三十</cb:mulu><head>心材喻小經第三十</head>
 <lb ed="B" n="0129b02"/><p xml:id="pB06p0129b0201">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時頻伽羅柯遮婆羅門．詣世尊所．到已．問訊世尊．相與
 <lb ed="B" n="0129b03"/>寒暄以友誼親睦之語．却坐一面。坐一面已．頻伽羅柯遮婆羅門．白世尊言．『卿瞿曇．如此等沙門婆羅門．
-<lb ed="B" n="0129b04"/>率有<note n="0129001-n30" resp="BuBian" place="foot text" type="orig">僧伽（saṅgha）．即是教團．次之伽那 gaṇa 亦是同意義之語．原為集團集股．用於一般種種職業之集團．同時亦用到宗派集團．此處即指宗派集團言。</note>僧伽．率有伽那．為眾之師．為世所知．頗有名稱．為祖師故．多人尊崇．謂富蘭那迦葉、末伽黎瞿舍利、阿
+<lb ed="B" n="0129b04"/>率有<note 
+n="0129001-n30" resp="BuBian" place="foot text" type="orig">僧伽（saṅgha）．即是教團．次之伽那 gaṇa 亦是同意義之語．原為集團集股．用於一般種種職業之集團．同時亦用到宗派集團．此處即指宗派集團言。</note>僧伽．率有伽那．為眾之師．為世所知．頗有名稱．為祖師故．多人尊崇．謂富蘭那迦葉、末伽黎瞿舍利、阿
 <lb ed="B" n="0129b05"/>耆多翅舍欽婆羅、婆浮陀迦旃那、散若夷毗羅利弗、尼乾陀若提子．如彼等自許．是證知一切耶．或非證知
 <lb ed="B" n="0129b06"/>一切耶．或有證知有非證知耶．』世尊說言．『婆羅門．汝問「如彼等自許．是證知一切耶．或非證知一切
 <lb ed="B" n="0129b07"/>耶．或有證知有非證知耶」之言．今暫置是事。婆羅門．我欲為汝說法．汝當善聽．當善思念．我將欲說。』頻
@@ -3245,7 +3546,8 @@
 <lb ed="B" n="0131a02"/><cb:div type="other"><cb:mulu type="其他" level="3">牛角林小經第三十一</cb:mulu><head>牛角林小經第三十一</head>
 <lb ed="B" n="0131a03"/><p xml:id="pB06p0131a0301">如是我聞。一時世尊．在那提迦磚造精舍。爾時尊者阿㝹樓馱．尊者那提耶．及尊者金毘羅．在牛角娑羅林。
 <lb ed="B" n="0131a04"/>時世尊於日薄暮．從宴坐起．往牛角娑羅林。守林人遙見世尊來．見已．白世尊曰．『沙門．勿入此林．此處有
-<lb ed="B" n="0131a05"/>三善男子．<note n="0131001-n31" resp="BuBian" place="foot text" type="orig">為愛自我者所住．原文為 attakāmarūpn viharanti。</note>為愛自我者所住．勿與彼等以不愉快。』尊者阿㝹樓馱．聞守林人與世尊語．聞已．語守林人曰．
+<lb ed="B" n="0131a05"/>三善男子．<note 
+n="0131001-n31" resp="BuBian" place="foot text" type="orig">為愛自我者所住．原文為 attakāmarūpn viharanti。</note>為愛自我者所住．勿與彼等以不愉快。』尊者阿㝹樓馱．聞守林人與世尊語．聞已．語守林人曰．
 <lb ed="B" n="0131a06"/>『汝守林人．勿阻世尊．是我等師世尊來也。』於是尊者阿㝹樓馱．往尊者那提耶及尊者金毘羅所．到已．
 <lb ed="B" n="0131a07"/>語尊者那提耶及尊者金毘羅曰．『來乎尊者．來乎尊者．我等師世尊臨矣。』於是尊者阿㝹樓馱．尊者那
 <lb ed="B" n="0131a08"/>提耶．及尊者金毘羅．出迎世尊．一人收攝世尊衣鉢．一人敷設床座．一人備洗足水。世尊就座而坐．洗足已．
@@ -3265,7 +3567,8 @@
 <lb ed="B" n="0131a22"/><p xml:id="pB06p0131a2201">〔世尊說言．〕『善哉阿㝹樓馱．善哉阿㝹樓馱．然汝等復能住不放逸、慇懃心、勤精進耶。』〔阿㝹樓馱言．〕
 <lb ed="B" n="0131a23"/>『世尊．我等實能住於不放逸、慇懃心、勤精進。』〔世尊說言．〕『阿㝹樓馱．汝等云何住不放逸、慇懃心、勤
 <lb ed="B" n="0131a24"/>精進耶。』〔阿㝹樓馱言．〕『世尊．我等於斯處．是中若先自村里行乞歸來者．即為敷設座席．備置飲水．及
-<lb ed="B" n="0131a25"/>洗淨水．並為<note n="0131002-n31" resp="BuBian" place="foot text" type="orig">貯置殘食．（avakkārapāti）．食訖行乞所得食．若有多餘．則貯置盛物中。</note>貯置殘食。若最後自村里行乞歸來者．若餘殘食．彼若欲者則食．若不欲時．則為棄著無草地
+<lb ed="B" n="0131a25"/>洗淨水．並為<note 
+n="0131002-n31" resp="BuBian" place="foot text" type="orig">貯置殘食．（avakkārapāti）．食訖行乞所得食．若有多餘．則貯置盛物中。</note>貯置殘食。若最後自村里行乞歸來者．若餘殘食．彼若欲者則食．若不欲時．則為棄著無草地
 <lb ed="B" n="0131a26"/>處．或投擲無蟲水中。彼復收攝座席．收拾飲水及洗淨水．並收檢殘食．灑掃食處。若見飲水瓶或洗水瓶及
 <lb ed="B" n="0131a27"/>澡罐空時．預為注入。若彼力不能勝者．即以手勢二度相招．我等以手勢答．相為助成。世尊．我等緣是．不須
 <lb ed="B" n="0131a28"/>語言。世尊．我等每當第五日．相為集座．為終夜說法。世尊．緣是我等．住不放逸、慇懃心、勤精進。』</p>
@@ -3295,7 +3598,8 @@
 <lb ed="B" n="0131b19"/>他過人法．殊勝最上知見。世尊．然我等不見較斯安住更上更妙他安住法。』〔世尊說言．〕『善哉阿㝹樓
 <lb ed="B" n="0131b20"/>馱．善哉阿㝹樓馱．實更無有較斯安住更上更妙之他安住法。』</p>
 <lb ed="B" n="0131b21"/><p xml:id="pB06p0131b2101">於是世尊．說法教授．勸發獎勵．尊者阿㝹樓馱、那提耶、及金毗羅．使歡喜已．乃從座起．出林而去。是尊者阿
-<lb ed="B" n="0131b22"/>㝹樓馱．尊者那提耶．及尊者金毗羅．<note n="0131003-n31" resp="BuBian" place="foot text" type="orig">隨送．原文是 anusnaṁyāyitvā．但暹邏皇室註釋本．則為 anusāretvā. 註作 anugaṁtvā．且謂 Te kira Bhagavato pattacivaraṁ gahetvā thokam agamaṁsu（彼等持世尊衣鉢．實少隨行。）舊譯中亦有「送世尊隨其近遠．」故今照原語 anusārstva 譯。</note>隨送世尊。還已．尊者那提耶．與尊者金毗羅．語尊者阿㝹樓馱言．『尊
+<lb ed="B" n="0131b22"/>㝹樓馱．尊者那提耶．及尊者金毗羅．<note 
+n="0131003-n31" resp="BuBian" place="foot text" type="orig">隨送．原文是 anusnaṁyāyitvā．但暹邏皇室註釋本．則為 anusāretvā. 註作 anugaṁtvā．且謂 Te kira Bhagavato pattacivaraṁ gahetvā thokam agamaṁsu（彼等持世尊衣鉢．實少隨行。）舊譯中亦有「送世尊隨其近遠．」故今照原語 anusārstva 譯。</note>隨送世尊。還已．尊者那提耶．與尊者金毗羅．語尊者阿㝹樓馱言．『尊
 <lb ed="B" n="0131b23"/>者阿㝹樓馱．在世尊前．直陳我等．已逮諸漏滅盡．然我等於尊者阿㝹樓馱前．何曾自說「得如是如是具
 <lb ed="B" n="0131b24"/>足住」耶。』〔阿㝹樓馱言．〕『尊者等未曾向我自說．「我等得如是如是具足住．」唯我於尊者等．以心
 <lb ed="B" n="0131b25"/>知心．知「此等尊者．已得如是如是具足住。」而且諸天．亦曾告我言．「此等尊者．已得如是如是具足住．」
@@ -3340,7 +3644,9 @@
 <lb ed="B" n="0132a31"/>云何比丘．得使是牛角娑羅林生輝耶。』〔阿難言．〕『尊者舍利弗．若有比丘．為多聞故．護持所聞．積聚所
 <lb ed="B" n="0132a32"/>聞且如說示．初善、中善、後亦善．有義有文．完全具足．清淨梵行．如是一切法．善能多聞．善能護持．以語習得。
 <pb ed="B" xml:id="B06.0004.0132b" n="0132b"/>
-<lb ed="B" n="0132b01"/>以意思惟．以見洞察。彼為四眾使斷<note n="0132001-n32" resp="BuBian" place="foot text" type="orig">隨眠．已見第九註之一。</note>隨眠．以圓潤<note n="0132002-n32" resp="BuBian" place="foot text" type="orig">流暢．原文是 appabaddha．又暹邏皇室出版註釋本．是為 anuppabandha。兩者都解為無有滯澀而相連續之意．故譯流暢。</note>流暢語句．而行說法。尊者舍利弗．如是比丘．當使牛角娑
+<lb ed="B" n="0132b01"/>以意思惟．以見洞察。彼為四眾使斷<note 
+n="0132001-n32" resp="BuBian" place="foot text" type="orig">隨眠．已見第九註之一。</note>隨眠．以圓潤<note 
+n="0132002-n32" resp="BuBian" place="foot text" type="orig">流暢．原文是 appabaddha．又暹邏皇室出版註釋本．是為 anuppabandha。兩者都解為無有滯澀而相連續之意．故譯流暢。</note>流暢語句．而行說法。尊者舍利弗．如是比丘．當使牛角娑
 <lb ed="B" n="0132b02"/>羅林生輝。』</p>
 <lb ed="B" n="0132b03"/><p xml:id="pB06p0132b0301">如是說已．尊者舍利弗．語尊者離越多曰．『尊者離越多．尊者阿難．適已稱述自心所懷竟．我等今者當問
 <lb ed="B" n="0132b04"/>尊者離越多。是牛角娑羅林．深可愛樂．如是乃至尊者離越多．云何比丘．得使是牛角娑羅林生輝耶。』〔
@@ -3377,7 +3683,11 @@
 <lb ed="B" n="0133a02"/>聞法故．來至我所。世尊．我遙見尊者離越多及尊者阿難來．見已．向阿難作是言．「善來尊者阿難．善來尊
 <lb ed="B" n="0133a03"/>者阿難．世尊侍者．世尊隨從者。尊者阿難．是牛角娑羅林．深可愛樂．夜有月明．是娑羅華．彌滿開敷．天香馥
 <lb ed="B" n="0133a04"/>郁。尊者阿難．云何比丘．得使是牛角娑羅林生輝。」世尊．如是說時．尊者阿難答我言．「尊者舍利弗．若有比
-<lb ed="B" n="0133a05"/>丘．為多聞故．<note n="0133a0501" resp="CBETA" type="add">護【CB】，獲【補編】</note><app n="0133a0501"><lem wit="【CB】" resp="CBETA.maha">護</lem><rdg wit="【補編】">獲</rdg></app>持所聞．積聚所聞．且如說示．初善、中善、後亦善．有義有文．完全具足清淨梵行。如是一切法．
+<lb ed="B" n="0133a05"/>丘．為多聞故．<note 
+n="0133a0501" resp="CBETA" type="add">護【CB】，獲【補編】</note><app n="0133a0501">
+  <lem wit="【CB】" resp="CBETA.maha">護</lem>
+  <rdg wit="【補編】">獲</rdg>
+</app>持所聞．積聚所聞．且如說示．初善、中善、後亦善．有義有文．完全具足清淨梵行。如是一切法．
 <lb ed="B" n="0133a06"/>善能多聞．善能護持．以語習得．以意思惟．以見洞察。彼為四眾．使斷隨眠．以圓潤流暢語句．而作說法。尊者
 <lb ed="B" n="0133a07"/>舍利弗．如是比丘．當使牛角娑羅林生輝」云．』〔世尊說言．〕『善哉舍利弗．正如阿難所答者．善哉當如是
 <lb ed="B" n="0133a08"/>答。舍利弗．是阿難實為多聞故．護持所聞．積聚所聞．且如說示．初善、中善、後亦善．有義有文．完全具足．清淨
@@ -3431,7 +3741,8 @@
 <lb ed="B" n="0133b23"/><cb:div type="other"><cb:mulu type="其他" level="3">牧牛者大經第三十三</cb:mulu><head>牧牛者大經第三十三</head>
 <lb ed="B" n="0133b24"/><p xml:id="pB06p0133b2401">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊．呼諸比丘曰．『諸比丘。』彼等比丘．應世尊言．
 <lb ed="B" n="0133b25"/>『世尊。』</p>
-<lb ed="B" n="0133b26"/><p xml:id="pB06p0133b2601">世尊乃宣說曰．『諸比丘．具足<note n="0133001-n33" resp="BuBian" place="foot text" type="orig">十一支．可參照增支部第十一之一八。</note>十一支之牧牛者．是則不能維護羣牛．及使增長。云何十一支．諸比丘．謂若
+<lb ed="B" n="0133b26"/><p xml:id="pB06p0133b2601">世尊乃宣說曰．『諸比丘．具足<note 
+n="0133001-n33" resp="BuBian" place="foot text" type="orig">十一支．可參照增支部第十一之一八。</note>十一支之牧牛者．是則不能維護羣牛．及使增長。云何十一支．諸比丘．謂若
 <lb ed="B" n="0133b27"/>牧牛者不知色．不達相．不除蟲卵．不善治瘡痍．不放烟．不知渡處．不知當飲．不知道路．不知行處．<g ref="#CB04729"/>無剩乳．
 <lb ed="B" n="0133b28"/>不以最上恭敬恭敬牡牛、牛父、牛羣首領。諸比丘．若具足此十一支之牧牛者．是則不能維護羣牛．及使增
 <lb ed="B" n="0133b29"/>長。諸比丘．若具足十一法比丘．亦復如是．於此法律．必不能致增大、興盛．及以成滿。云何為十一法。諸比丘．
@@ -3447,7 +3758,9 @@
 <lb ed="B" n="0134a06"/>嗅香亦然．以舌嘗味亦然．以身觸知所觸亦然．乃至以意知法．執相執隨相．緣是不防護意根而住．雖流入
 <lb ed="B" n="0134a07"/>貪欲、憂慼、惡不善法．不為防護．不護意根．而於意根不起防護。諸比丘．如是比丘．謂不善治瘡痍。諸比丘．云
 <lb ed="B" n="0134a08"/>何比丘不放烟。諸比丘．謂有比丘．於如所聞．如所受持．不廣為他說法。諸比丘．如是比丘．謂不放烟。諸比丘．
-<lb ed="B" n="0134a09"/>云何比丘．不知渡處。諸比丘．謂有比丘．於彼等多聞而能通達<note n="0134002-n33" resp="BuBian" place="foot text" type="orig">阿含（agama）．此皆可譯為聖典．舊譯自來都以譯音阿含出之．故今亦仍其舊。在雜阿含．則為修多羅。</note>阿含．持法持律．受持<note n="0134003-n33" resp="BuBian" place="foot text" type="orig">智母（matika）．將教義精要處．簡單擷集之是為後世阿毗達磨（論）之先驅．舊譯雜阿含中．則為阿毗曇。</note>智母比丘所．雖隨時往
+<lb ed="B" n="0134a09"/>云何比丘．不知渡處。諸比丘．謂有比丘．於彼等多聞而能通達<note 
+n="0134002-n33" resp="BuBian" place="foot text" type="orig">阿含（agama）．此皆可譯為聖典．舊譯自來都以譯音阿含出之．故今亦仍其舊。在雜阿含．則為修多羅。</note>阿含．持法持律．受持<note 
+n="0134003-n33" resp="BuBian" place="foot text" type="orig">智母（matika）．將教義精要處．簡單擷集之是為後世阿毗達磨（論）之先驅．舊譯雜阿含中．則為阿毗曇。</note>智母比丘所．雖隨時往
 <lb ed="B" n="0134a10"/>詣．而不究問「賢者．此是云何．是義云何。」彼等尊者．於彼所不顯者．終不為顯．所不開者．終不為開．於種
 <lb ed="B" n="0134a11"/>種有疑法者．終莫除疑。諸比丘．如是比丘．謂不知渡處。諸比丘．云何比丘．不知當飲。諸比丘．謂有比丘．依於
 <lb ed="B" n="0134a12"/>如來．說所教導法律時．於義利不得信受．於法不得信受．不得法與俱歡喜。諸比丘．如是比丘．謂不知當飲。
@@ -3515,13 +3828,17 @@
 <lb ed="B" n="0135a08"/>流安穩到著彼岸。諸比丘．我是通達此界．通達彼界．通達魔界．通達非魔界．通達死神界．通達非死神界。諸
 <lb ed="B" n="0135a09"/>比丘．如是於我．起是思念．斯當可聽．斯當可信者．彼等當永獲饒益．恒致幸福。』世尊如是說已．善逝尊師．復
 <lb ed="B" n="0135a10"/>宣偈言。</p>
-<lb ed="B" n="0135a11"/><lg type="regular" xml:id="lgB06p0135a1101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">『此世及彼世<caesura style="text-indent:1em;"/>依智者能顯<caesura style="text-indent:1em;"/>惡魔與死神<caesura style="text-indent:1em;"/>已息或未息<caesura style="text-indent:1em;"/>正覺者智者<caesura style="text-indent:1em;"/>洞知一切世</l>
-<lb ed="B" n="0135a12"/><l style="text-indent:1em">開顯甘露門<caesura style="text-indent:1em;"/>到寂滅涅槃<caesura style="text-indent:1em;"/>摧絕惡魔路<caesura style="text-indent:1em;"/>拔除魔根本<caesura style="text-indent:1em;"/>汝等喜充滿<caesura style="text-indent:1em;"/>逮達於安穩』</l></lg></cb:div>
+<lb ed="B" n="0135a11"/><lg type="regular" xml:id="lgB06p0135a1101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">『此世及彼世<caesura style="text-indent:1em;"/>依智者能顯<caesura style="text-indent:1em;"/>惡魔與死神<caesura style="text-indent:1em;"/>已息或未息<caesura style="text-indent:1em;"/>正覺者智者<caesura style="text-indent:1em;"/>洞知一切世</l>
+<lb ed="B" n="0135a12"/>
+  <l style="text-indent:1em">開顯甘露門<caesura style="text-indent:1em;"/>到寂滅涅槃<caesura style="text-indent:1em;"/>摧絕惡魔路<caesura style="text-indent:1em;"/>拔除魔根本<caesura style="text-indent:1em;"/>汝等喜充滿<caesura style="text-indent:1em;"/>逮達於安穩』</l>
+</lg></cb:div>
 <lb ed="B" n="0135a13"/>
 <lb ed="B" n="0135a14"/>
 <lb ed="B" n="0135a15"/><cb:div type="other"><cb:mulu type="其他" level="3">薩遮迦小經第三十五</cb:mulu><head>薩遮迦小經第三十五</head>
 <lb ed="B" n="0135a16"/><p xml:id="pB06p0135a1601">如是我聞。一時世尊．在毗舍離城大林重閣講堂。爾時離繫派徒薩遮迦者．住毗舍離城．性好論戰．論辯善
-<lb ed="B" n="0135a17"/>巧．而為多人．之所崇敬。彼於毗舍離眾中．常作如是言．『若諸沙門或婆羅門．雖領有<note n="0135001-n35" resp="BuBian" place="foot text" type="orig">僧伽．已見第三十註一．伽那亦同。</note>僧伽．統率伽那．為眾
+<lb ed="B" n="0135a17"/>巧．而為多人．之所崇敬。彼於毗舍離眾中．常作如是言．『若諸沙門或婆羅門．雖領有<note 
+n="0135001-n35" resp="BuBian" place="foot text" type="orig">僧伽．已見第三十註一．伽那亦同。</note>僧伽．統率伽那．為眾
 <lb ed="B" n="0135a18"/>之師．復自稱許．是應供、等正覺者．然若就我以論試論．無不戰慄披靡．腋下汗流。我即向無心木柱．試以論
 <lb ed="B" n="0135a19"/>詰．彼柱因我試以論詰故．尚感戰慄．况於人乎。』時有尊者阿濕波誓者．於日初分．著衣執持衣缽．向毗舍
 <lb ed="B" n="0135a20"/>離行乞。離繫徒薩遮迦．於毗舍離．彷徉遊行．見阿濕波誓遠來．即往尊者阿濕波誓所．互相問訊．相與以友
@@ -3535,8 +3852,10 @@
 <lb ed="B" n="0135a28"/>離車人諸君．來乎離車人諸君．今我將與沙門瞿曇．共相論議。若沙門瞿曇．確如聲聞阿濕波誓比丘所言．
 <lb ed="B" n="0135a29"/>如是立論者．我將猶如壯士．執曳長毛羊之毛．曳令左右．曳令迴旋。我對沙門瞿曇．亦復如是．以論曳論．曳
 <lb ed="B" n="0135a30"/>令左右．曳令迴旋。更如釀酒壯士．以大酒糟簍．深壓入池．執匡曳之．曳令左右．曳令迴旋。我對沙門瞿曇．亦
-<lb ed="B" n="0135a31"/>復如是．以論曳論．曳令左右．曳令迴旋。又如<note n="0135002-n35" resp="BuBian" place="foot text" type="orig">漉酒壯士．原文是 Soṇḍikadhutto．照 Soṇḍikadhūto 譯。</note>漉酒壯士．執毛篩圈．篩之令落．篩令迴旋。我對沙門瞿曇．亦復
-<lb ed="B" n="0135a32"/>如是．以論篩論．篩之令落．篩令迴旋。亦如六十歲象．深入蓮池．而為所謂<note n="0135003-n35" resp="BuBian" place="foot text" type="orig">麻洗（Saṇadhovika）．象在水中之一種遊戲。</note>麻洗游戲。我對沙門瞿曇．正如玩
+<lb ed="B" n="0135a31"/>復如是．以論曳論．曳令左右．曳令迴旋。又如<note 
+n="0135002-n35" resp="BuBian" place="foot text" type="orig">漉酒壯士．原文是 Soṇḍikadhutto．照 Soṇḍikadhūto 譯。</note>漉酒壯士．執毛篩圈．篩之令落．篩令迴旋。我對沙門瞿曇．亦復
+<lb ed="B" n="0135a32"/>如是．以論篩論．篩之令落．篩令迴旋。亦如六十歲象．深入蓮池．而為所謂<note 
+n="0135003-n35" resp="BuBian" place="foot text" type="orig">麻洗（Saṇadhovika）．象在水中之一種遊戲。</note>麻洗游戲。我對沙門瞿曇．正如玩
 <pb ed="B" xml:id="B06.0004.0135b" n="0135b"/>
 <lb ed="B" n="0135b01"/>弄麻洗游戲。來乎離車人諸君．來乎離車人諸君．今我將與沙門瞿曇共相議論。』時有離車人言．『沙門
 <lb ed="B" n="0135b02"/>瞿曇．如何能論破離繫派薩遮迦耶．離繫派薩遮迦．當能論破沙門瞿曇。』亦有離車人言．『彼為誇言離
@@ -3565,9 +3884,17 @@
 <lb ed="B" n="0135b25"/><p xml:id="pB06p0135b2501">〔世尊說言．〕『阿夷吠薩那．然則我問．汝當悉意舉答。阿夷吠薩那．汝意云何．若曾灌頂王族之王．於己國
 <lb ed="B" n="0135b26"/>土．具有權力．殺戮當殺戮者．或剝奪當剝奪者．或追放當追放者．例如拘薩羅王波斯匿．或如摩揭陀國王
 <lb ed="B" n="0135b27"/>阿闍世韋提希子。』〔薩遮迦曰．〕『卿瞿曇．若曾灌頂王族之王．於己國土．具有權力．或殺戮當殺戮者．或
-<lb ed="B" n="0135b28"/>剝奪當剝奪者．或追放當追放者．如拘薩羅王波斯匿．或如摩揭陀國王阿<note n="0135b2801" resp="CBETA" type="add">闍【CB】，闇【補編】</note><app n="0135b2801"><lem wit="【CB】" resp="CBETA.maha">闍</lem><rdg wit="【補編】">闇</rdg></app>世韋提希子。即卿瞿曇．於此
+<lb ed="B" n="0135b28"/>剝奪當剝奪者．或追放當追放者．如拘薩羅王波斯匿．或如摩揭陀國王阿<note 
+n="0135b2801" resp="CBETA" type="add">闍【CB】，闇【補編】</note><app n="0135b2801">
+  <lem wit="【CB】" resp="CBETA.maha">闍</lem>
+  <rdg wit="【補編】">闇</rdg>
+</app>世韋提希子。即卿瞿曇．於此
 <lb ed="B" n="0135b29"/>等僧伽．此等伽那．具斯權力。例若跋耆族或摩盧羅族．於己領土．尚有斯權力．殺戮當殺戮者．剝奪當剝奪
-<lb ed="B" n="0135b30"/>者．追放當追放者．況曾灌頂王族之王．如拘薩羅王波斯匿．或如摩揭陀王阿<note n="0135b3001" resp="CBETA" type="add">闍【CB】，闇【補編】</note><app n="0135b3001"><lem wit="【CB】" resp="CBETA.maha">闍</lem><rdg wit="【補編】">闇</rdg></app>世韋提希子乎。卿瞿曇．實
+<lb ed="B" n="0135b30"/>者．追放當追放者．況曾灌頂王族之王．如拘薩羅王波斯匿．或如摩揭陀王阿<note 
+n="0135b3001" resp="CBETA" type="add">闍【CB】，闇【補編】</note><app n="0135b3001">
+  <lem wit="【CB】" resp="CBETA.maha">闍</lem>
+  <rdg wit="【補編】">闇</rdg>
+</app>世韋提希子乎。卿瞿曇．實
 <lb ed="B" n="0135b31"/>應有力．如力行使。』〔世尊說言．〕『阿夷吠薩那．於意云何．汝言「色是我之我。」而汝於色．具有「我色當
 <lb ed="B" n="0135b32"/>如是．我色不當如是」之權力耶。』如是問時．離繫派薩遮迦．沈默無語。世尊重問離繫派薩遮迦曰．『於
 <pb ed="B" xml:id="B06.0004.0136a" n="0136a"/>
@@ -3626,7 +3953,11 @@
 <lb ed="B" n="0136b20"/>以無取著．而住解脫。次於所有受．亦復如是如是。於所有想．亦復如是如是。於所有行．亦復如是如是。乃至
 <lb ed="B" n="0136b21"/>於所有識．過去、未來、現在．若內若行．若粗若細．若醜若美．若遠若近之一切識．以正慧如實觀察．「此非是
 <lb ed="B" n="0136b22"/>我者．我非是此．此非我之我．」以無取著．而住解脫。阿夷吠薩那．比丘以如是故．而得應供．諸漏已盡．修行
-<lb ed="B" n="0136b23"/>成滿．應作已作．棄諸重擔．逮達理想．斷諸有結．正智解脫。阿夷吠薩那．如是解脫心比丘．成就三無上．謂<note n="0136b2301" resp="CBETA" type="add" note_key="B06.0136b23.41">見【CB】，具【補編】</note><app n="0136b2301"><lem wit="【CB】" resp="CBETA.maha">見<note type="cf1">「莊春江工作站」中部33經</note></lem><rdg wit="【補編】">具</rdg></app>
+<lb ed="B" n="0136b23"/>成滿．應作已作．棄諸重擔．逮達理想．斷諸有結．正智解脫。阿夷吠薩那．如是解脫心比丘．成就三無上．謂<note 
+n="0136b2301" resp="CBETA" type="add" note_key="B06.0136b23.41">見【CB】，具【補編】</note><app n="0136b2301">
+  <lem wit="【CB】" resp="CBETA.maha">見<note type="cf1">「莊春江工作站」中部33經</note></lem>
+  <rdg wit="【補編】">具</rdg>
+</app>
 <lb ed="B" n="0136b24"/>無上．道無上．解脫無上。阿夷吠薩那．如是解脫比丘．恭敬、尊重、尊敬、禮拜如來．即念「彼佛世尊．為菩提故
 <lb ed="B" n="0136b25"/>說法．彼調御者世尊．為調御故說法．彼寂靜者世尊．為寂靜故說法．彼度者世尊．為度故說法．彼般涅槃者
 <lb ed="B" n="0136b26"/>世尊．為般涅槃故說法。」』</p>
@@ -3640,7 +3971,8 @@
 <lb ed="B" n="0137a01"/>派薩遮迦所。是離繫派薩遮迦．自於園林．施設殊妙嚼食噉食已．走告世尊曰．『卿瞿曇．食已備矣。』於是
 <lb ed="B" n="0137a02"/>世尊．於日平旦．著衣執持衣鉢．往離繫派薩遮迦園．到已．與比丘眾．共坐敷座。是離繫派薩遮迦．親手以殊
 <lb ed="B" n="0137a03"/>妙嚼食噉食．首供世尊．次奉比丘眾。離繫派薩遮迦．待世尊食竟．手離食鉢已．即持一卑床．而坐一面。坐一
-<lb ed="B" n="0137a04"/>面已．薩遮迦白世尊言．『卿瞿曇．以是施故．若有功德及功德地者．其<note n="0137004-n35" resp="BuBian" place="foot text" type="orig">施與者（dāyaka）．是以食施與者．此處指離車諸人。</note>施與者．為有幸福否。』〔世尊說言．〕
+<lb ed="B" n="0137a04"/>面已．薩遮迦白世尊言．『卿瞿曇．以是施故．若有功德及功德地者．其<note 
+n="0137004-n35" resp="BuBian" place="foot text" type="orig">施與者（dāyaka）．是以食施與者．此處指離車諸人。</note>施與者．為有幸福否。』〔世尊說言．〕
 <lb ed="B" n="0137a05"/>『阿夷吠薩那．因不斷貪瞋癡如汝被供養而生功德．是功德悉為施與者。阿夷吠薩那．因已斷貪瞋癡如
 <lb ed="B" n="0137a06"/>我是應供者而生功德．是功德唯悉為汝。』</p></cb:div>
 <lb ed="B" n="0137a07"/>
@@ -3659,8 +3991,10 @@
 <lb ed="B" n="0137a20"/>等心得苦受。卿瞿曇．若心得苦受者．則髀生痲卑．心臟破裂．口吐熱血．及至瘋狂亂心。卿瞿曇．以彼身隨彼
 <lb ed="B" n="0137a21"/>心．服從心力．何以故．緣身不修習故也。卿瞿曇．緣是我作是念．「卿瞿曇之聲聞．心雖具足修習之行．然身
 <lb ed="B" n="0137a22"/>不住修習之行。」』</p>
-<lb ed="B" n="0137a23"/><p xml:id="pB06p0137a2301">〔世尊說言．〕『阿夷吠薩那．今問汝身云何修習耶。』〔薩遮迦曰．〕『如<note n="0137001-n36" resp="BuBian" place="foot text" type="orig">參照第七十六經。</note>南陀縛遮、夷薩刪嶷遮、末伽黎瞿
-<lb ed="B" n="0137a24"/>舍利．卿瞿曇．彼等實行<note n="0137002-n36" resp="BuBian" place="foot text" type="orig">以下苦行．參照第十二經。</note>裸形．為鹵莽者．舐手者。既不受嗟『來』之食。亦不受命『住』之食．不受齎給食．
+<lb ed="B" n="0137a23"/><p xml:id="pB06p0137a2301">〔世尊說言．〕『阿夷吠薩那．今問汝身云何修習耶。』〔薩遮迦曰．〕『如<note 
+n="0137001-n36" resp="BuBian" place="foot text" type="orig">參照第七十六經。</note>南陀縛遮、夷薩刪嶷遮、末伽黎瞿
+<lb ed="B" n="0137a24"/>舍利．卿瞿曇．彼等實行<note 
+n="0137002-n36" resp="BuBian" place="foot text" type="orig">以下苦行．參照第十二經。</note>裸形．為鹵莽者．舐手者。既不受嗟『來』之食。亦不受命『住』之食．不受齎給食．
 <lb ed="B" n="0137a25"/>不受特供食．不受赴特定處食。彼等不受直湊壺嘴或盤唇食。食在閾內不受．食在棒間不受．食在杵間不
 <lb ed="B" n="0137a26"/>受。二人食時（唯從一人所給）不受。不受自姙婦食．不受自正授乳時婦食。不受自正為男人擁抱時女食。
 <lb ed="B" n="0137a27"/>不受〔饑饉時〕所集施食。不受近狗立處食．不受蠅羣所附食。不食魚與肉。不飲穀酒、果酒、粥汁。彼等或為
@@ -3792,7 +4126,9 @@
 <lb ed="B" n="0139a21"/>那．時我却絕彼等諸天曰．「我腹尚飽。」</p>
 <lb ed="B" n="0139a22"/><p xml:id="pB06p0139a2201">阿夷吠薩那．時我作斯念．「唯．我當一掬一掬漸次攝受少食．或綠荳汁．或烏豌豆汁．或小豌豆汁．或豌豆
 <lb ed="B" n="0139a23"/>汁。」阿夷吠薩那．時我即一掬一掬漸次攝受少食．或綠豆汁．或烏豌豆汁．或小豌豆汁．或豌豆汁。阿夷吠
-<lb ed="B" n="0139a24"/>薩那．時我以一掬一掬漸次攝受少食．或綠豆汁．或烏豌豆汁．或小豌豆汁．或豌豆汁故．身極羸瘦。如<note n="0139003-n36" resp="BuBian" place="foot text" type="orig">阿熙提迦草與迦羅草．巳見第十二註之一四、一五。</note><note n="0139003-n36" resp="CBETA" type="mod">阿熙提迦草與迦羅草．已見第十二註之一四、一五。</note>阿熙
+<lb ed="B" n="0139a24"/>薩那．時我以一掬一掬漸次攝受少食．或綠豆汁．或烏豌豆汁．或小豌豆汁．或豌豆汁故．身極羸瘦。如<note 
+n="0139003-n36" resp="BuBian" place="foot text" type="orig">阿熙提迦草與迦羅草．巳見第十二註之一四、一五。</note><note 
+n="0139003-n36" resp="CBETA" type="mod">阿熙提迦草與迦羅草．已見第十二註之一四、一五。</note>阿熙
 <lb ed="B" n="0139a25"/>提迦草及迦羅草節．緣少食故．我之肢節．亦復如是。緣少食故．我之臀部．如駱駝足。緣少食故．我之脊柱凹
 <lb ed="B" n="0139a26"/>凸．如紡錘之連鎖。緣少食故．我之肋骨腐蝕破碎．如朽屋桷椽．腐蝕破碎。緣少食故．如窅井水光．向極深處．
 <lb ed="B" n="0139a27"/>纔可得見．我之眼窠瞳光．亦復如是．向極深處．纔可得見。緣少食故．如摘取未熟苦瓠．因風燥熱．皺縮凋萎．
@@ -3875,7 +4211,8 @@
 <lb ed="B" n="0140b05"/>而住．隨觀滅而住．隨觀捨離而住故．即於世間而無取著。無取著故．則無所惱．無所惱故．自般涅槃。知「生
 <lb ed="B" n="0140b06"/>已盡．梵行已成．應作已作．更不趣有。」天王．若略說者．如是即為比丘愛盡解脫．是得畢竟究竟者．畢竟安
 <lb ed="B" n="0140b07"/>穩者．畢竟梵行者．畢竟盡者．人天最勝者．』於是天帝釋．歡喜隨喜．世尊所說．稽首世尊．右繞隱沒。</p>
-<lb ed="B" n="0140b08"/><p xml:id="pB06p0140b0801">時尊者大目犍連．坐近世尊．念言．『若彼<note n="0140001-n37" resp="BuBian" place="foot text" type="orig">藥叉（yakkha）．自梵語 yakṣa 而來．藥叉是舊譯譯音。通指第二流以下之鬼神．此處正指帝釋天。</note>藥叉．是了解世尊說法起隨喜耶．或不然耶。然則我於彼藥叉．頗
+<lb ed="B" n="0140b08"/><p xml:id="pB06p0140b0801">時尊者大目犍連．坐近世尊．念言．『若彼<note 
+n="0140001-n37" resp="BuBian" place="foot text" type="orig">藥叉（yakkha）．自梵語 yakṣa 而來．藥叉是舊譯譯音。通指第二流以下之鬼神．此處正指帝釋天。</note>藥叉．是了解世尊說法起隨喜耶．或不然耶。然則我於彼藥叉．頗
 <lb ed="B" n="0140b09"/>欲知彼藥叉．是了解世尊說法起隨喜耶．或不然耶。』是尊者大目犍連．猶如壯士．伸所屈臂．或屈所伸臂
 <lb ed="B" n="0140b10"/>頃．忽自東園鹿母講堂隱沒．出現於三十三天。時天帝釋．在一白蓮華園．具備天上五百樂器．而行歡樂。天
 <lb ed="B" n="0140b11"/>帝釋見尊者大目犍連遠來．停奏五百樂器．詣尊者大目犍連所。到已．向尊者大目犍連曰．『來乎尊者大
@@ -3968,7 +4305,8 @@
 <lb ed="B" n="0141b32"/>故名耳識。緣鼻於香而識生．故名鼻識。緣舌於味而識生．故名舌識。緣身於所觸而識生．故名身識。緣意於
 <pb ed="B" xml:id="B06.0004.0142a" n="0142a"/>
 <lb ed="B" n="0142a01"/>法而識生．故名意識。』</p>
-<lb ed="B" n="0142a02"/><p xml:id="pB06p0142a0201">〔世尊復言．〕『諸比丘．見此是已生者耶。』〔諸比丘曰．〕『如是世尊。』『諸比丘．見此是<note n="0142001-n38" resp="BuBian" place="foot text" type="orig">食（ahara）．此可參照第九經初段及本經次段。</note>食所成者耶。』
+<lb ed="B" n="0142a02"/><p xml:id="pB06p0142a0201">〔世尊復言．〕『諸比丘．見此是已生者耶。』〔諸比丘曰．〕『如是世尊。』『諸比丘．見此是<note 
+n="0142001-n38" resp="BuBian" place="foot text" type="orig">食（ahara）．此可參照第九經初段及本經次段。</note>食所成者耶。』
 <lb ed="B" n="0142a03"/>『如是世尊。』『諸比丘．凡是生者．見緣彼食滅而滅者耶。』『如是世尊。』『諸比丘．豈無猶豫此非是
 <lb ed="B" n="0142a04"/>已生者因而生疑耶。』『如是世尊。』『諸比丘．豈無猶豫此非是食所成者因而生疑耶。』『如是世尊。』
 <lb ed="B" n="0142a05"/>『豈無猶豫凡是生者非緣彼食滅而滅者因而生疑耶。』『如是世尊。』『諸比丘．若以如實正慧觀察．
@@ -3979,11 +4317,17 @@
 <lb ed="B" n="0142a10"/>生者．緣彼食滅而滅者耶。』『如是具有．世尊。』『諸比丘．以如實正慧．已善見此是已生者耶。』『如是
 <lb ed="B" n="0142a11"/>世尊。』『諸比丘．以如實正慧．已善見此是食所成者耶。』『如是世尊。』『諸比丘．以如實正慧．已善見
 <lb ed="B" n="0142a12"/>凡是生者．緣彼食滅而滅者耶。』『如是世尊。』『諸比丘．若汝等於如是清淨明潔斯見．而起執著、矜誇、
-<lb ed="B" n="0142a13"/>追求、愛著者．則汝等云何得謂了達<note n="0142002-n38" resp="BuBian" place="foot text" type="orig">筏喻．巳見第二十二經。</note><note n="0142002-n38" resp="CBETA" type="mod">筏喻．已見第二十二經。</note>筏喻說法是為執著非為執著者耶。』『不也世尊。』『諸比丘．若汝
+<lb ed="B" n="0142a13"/>追求、愛著者．則汝等云何得謂了達<note 
+n="0142002-n38" resp="BuBian" place="foot text" type="orig">筏喻．巳見第二十二經。</note><note 
+n="0142002-n38" resp="CBETA" type="mod">筏喻．已見第二十二經。</note>筏喻說法是為執著非為執著者耶。』『不也世尊。』『諸比丘．若汝
 <lb ed="B" n="0142a14"/>等於如是清淨明潔斯見．不起執著、不矜誇、不追求、不愛著者．則汝等得謂了達筏喻說法是為度脫非為
 <lb ed="B" n="0142a15"/>執著者耶。』『如是世尊。』</p>
 <lb ed="B" n="0142a16"/><p xml:id="pB06p0142a1601">〔世尊復言．〕『諸比丘．為已生有情令住．或為扶將生有情．有此等四種食。云何為四．曰．第一為或粗或細
-<lb ed="B" n="0142a17"/><note n="0142a1701" resp="CBETA" type="add">摶【CB】，搏【補編】</note><app n="0142a1701"><lem wit="【CB】" resp="CBETA.maha">摶</lem><rdg wit="【補編】">搏</rdg></app>食．第二為觸．第三為意思．第四為識。諸比丘．此等四食．以何為因．以何為緣．以何為生種．以何為根源耶。
+<lb ed="B" n="0142a17"/><note 
+n="0142a1701" resp="CBETA" type="add">摶【CB】，搏【補編】</note><app n="0142a1701">
+  <lem wit="【CB】" resp="CBETA.maha">摶</lem>
+  <rdg wit="【補編】">搏</rdg>
+</app>食．第二為觸．第三為意思．第四為識。諸比丘．此等四食．以何為因．以何為緣．以何為生種．以何為根源耶。
 <lb ed="B" n="0142a18"/>曰．此等四食．以渴愛為因．以渴愛為緣．以渴愛為生種．以渴愛為根源。諸比丘．渴愛以何為因．以何為緣．以
 <lb ed="B" n="0142a19"/>何為生種．以何為根源耶。曰．渴愛以受為因．以受為緣．以受為生種．以受為根源。諸比丘．受以何為因．以何
 <lb ed="B" n="0142a20"/>為緣．以何為生種．以何為根源耶。曰．受以觸為因、為緣、為生種、為根源。諸比丘．觸以何為因、為緣、為生種、為
@@ -4050,7 +4394,8 @@
 <lb ed="B" n="0143a15"/>耶。』『不也世尊。』『諸比丘．然則汝等是言依汝等所自知所自覺耶。』『如是世尊。』『善哉諸比丘．
 <lb ed="B" n="0143a16"/>汝等從我．成就此等現見直接能令何人．亦使得見．從於智者．導入解脫．以自身所證知法門．而為教導。諸
 <lb ed="B" n="0143a17"/>比丘．緣如是故．堪宣說言．「此法現見直接、能令何人．亦使得見．從於智者．導入解脫．自身證知。」</p>
-<lb ed="B" n="0143a18"/><p xml:id="pB06p0143a1801">諸比丘．以三事和合而入胎．若有交合父母．但母未有經水．且<note n="0143003-n38" resp="BuBian" place="foot text" type="orig">乾闥婆（Gandhabba）．司受胎天之樂神。</note>乾闥婆不現前者．是時不入胎。復次有交合
+<lb ed="B" n="0143a18"/><p xml:id="pB06p0143a1801">諸比丘．以三事和合而入胎．若有交合父母．但母未有經水．且<note 
+n="0143003-n38" resp="BuBian" place="foot text" type="orig">乾闥婆（Gandhabba）．司受胎天之樂神。</note>乾闥婆不現前者．是時不入胎。復次有交合
 <lb ed="B" n="0143a19"/>父母．母已有經水．但若乾闥婆不現前者．是時不入胎。諸比丘．有交合父母．母已有經水．且乾闥婆現前者．
 <lb ed="B" n="0143a20"/>如是三事和合．乃得入胎。諸比丘．胎經九月、或十月．為母重擔．小心翼翼．保護胎宮。諸比丘．母經九月、或十
 <lb ed="B" n="0143a21"/>月已．以最謹慎心．釋彼重擔。即以自己之血．哺育其所生者。諸比丘．實彼血者．於聖者律．即母乳是也。諸比
@@ -4221,7 +4566,9 @@
 <lb ed="B" n="0145b21"/>魚羣游泳。」諸比丘．比丘如實知「此是苦．」乃至如實知「此是漏滅道。」彼如是知．如是見．欲愛漏心
 <lb ed="B" n="0145b22"/>解脫．有漏心解脫．無明漏心解脫．於解脫有解脫智．知「生已盡．梵行已成．應作已作．更不趣有．」亦復如
 <lb ed="B" n="0145b23"/>是。</p>
-<lb ed="B" n="0145b24"/><p xml:id="pB06p0145b2401">諸比丘此比丘者．得曰是沙門．是婆羅門．是<note n="0145001-n39" resp="BuBian" place="foot text" type="orig">淨浴者（nahātaka）．謂以修行自終之婆羅門。</note>淨浴者．是明者．是<note n="0145002-n39" resp="BuBian" place="foot text" type="orig">通達聖典者．原文為 Sottiya。</note>通達聖典者．是聖者．是應供者。諸比丘．云何
+<lb ed="B" n="0145b24"/><p xml:id="pB06p0145b2401">諸比丘此比丘者．得曰是沙門．是婆羅門．是<note 
+n="0145001-n39" resp="BuBian" place="foot text" type="orig">淨浴者（nahātaka）．謂以修行自終之婆羅門。</note>淨浴者．是明者．是<note 
+n="0145002-n39" resp="BuBian" place="foot text" type="orig">通達聖典者．原文為 Sottiya。</note>通達聖典者．是聖者．是應供者。諸比丘．云何
 <lb ed="B" n="0145b25"/>比丘是沙門。曰．彼於惡不善法穢污．生起後有．有苦痛．有苦報．有未來生老死等．悉能止息故。諸比丘．若如
 <lb ed="B" n="0145b26"/>是比丘．是為沙門。諸比丘．云何比丘．是婆羅門。曰．彼於惡不善法穢污．生起後有．有苦痛．有苦報．有未來生
 <lb ed="B" n="0145b27"/>老死等．悉能遠離故。諸比丘．若如是比丘．是為婆羅門。諸比丘．云何比丘．是淨浴者。曰．彼於惡不善法穢污．
@@ -4246,7 +4593,8 @@
 <lb ed="B" n="0146a13"/><p xml:id="pB06p0146a1301">諸比丘．云何沙門．不順沙門正道。曰．凡為比丘．有貪欲者不能捨貪欲．有瞋恚心者．不能捨瞋恚．有忿怒者．
 <lb ed="B" n="0146a14"/>不能捨忿怒．懷恨者不能捨恨．覆者不能捨覆．惱害者不能捨惱害心．嫉者不能捨嫉．慳者不能捨慳．誑者
 <lb ed="B" n="0146a15"/>不能捨誑．詐瞞者不能捨詐瞞．惡欲者不能捨惡欲．邪見者不能捨邪見是。諸比丘．我說未能捨離此等沙
-<lb ed="B" n="0146a16"/>門垢．沙門瑕瑾．沙門過失．為趣惡生受惡趣因故．是不順沙門正道。諸比丘．猶如名<note n="0146001-n40" resp="BuBian" place="foot text" type="orig">摩曇遮（maṭaja）．依覺音註．謂以尖銳鐵碎混雜以肉．使蒼鷺（konca）食之．其鳥既死．復破腹取出鐵碎．再混雜以肉．又使蒼鷺食之。如是經七遍．即用此鐵碎製造武器。從死鳥生（mata-sakunato jātattā）．故取名摩曇遮（ma-ta-ja 死生。）若據註釋．maṭa 即是 mata。然今在原本不得不視其一轉為一形。（此非不可能 pischel. Grammatik der prakrit-sor. §217）然今於此實物既不可知．除注釋外．欲說明語源．自是困難。</note>摩曇遮者一種武器．兩
+<lb ed="B" n="0146a16"/>門垢．沙門瑕瑾．沙門過失．為趣惡生受惡趣因故．是不順沙門正道。諸比丘．猶如名<note 
+n="0146001-n40" resp="BuBian" place="foot text" type="orig">摩曇遮（maṭaja）．依覺音註．謂以尖銳鐵碎混雜以肉．使蒼鷺（konca）食之．其鳥既死．復破腹取出鐵碎．再混雜以肉．又使蒼鷺食之。如是經七遍．即用此鐵碎製造武器。從死鳥生（mata-sakunato jātattā）．故取名摩曇遮（ma-ta-ja 死生。）若據註釋．maṭa 即是 mata。然今在原本不得不視其一轉為一形。（此非不可能 pischel. Grammatik der prakrit-sor. §217）然今於此實物既不可知．除注釋外．欲說明語源．自是困難。</note>摩曇遮者一種武器．兩
 <lb ed="B" n="0146a17"/>方具有銳利鋒端．微如水滴．大衣所覆。諸比丘．我說此出家比丘．亦復如是。</p>
 <lb ed="B" n="0146a18"/><p xml:id="pB06p0146a1801">諸比丘．我於持大衣者．不說唯以持大衣故．是為沙門。諸比丘．我於裸形行者．不說唯以裸形故．是為沙門。
 <lb ed="B" n="0146a19"/>諸比丘．我於塗塵泥者．不說唯以塗塵泥故．是為沙門。諸比丘．我於樹下坐行者．不說唯以樹下坐行故．是
@@ -4315,7 +4663,8 @@
 <lb ed="B" n="0147a16"/><p xml:id="pB06p0147a1601">世尊宣說曰．『諸居士．依身有三種非法行非正道行．依口有四種非法行非正道行．依意有三種非法行
 <lb ed="B" n="0147a17"/>非正道行。諸居士．云何依身三種非法行非正道行。曰．或有殺生者．為殘忍行．以血塗手．專事殺戮．於有生
 <lb ed="B" n="0147a18"/>類．無慈悲心。又為不與取者．彼於一切他人財物．或置村里．或置森林．是不與彼．却行盜取。有於愛欲為邪
-<lb ed="B" n="0147a19"/>行者．諸凡為母所保護．父所保護．父母所保護．兄弟所保護．姊妹所保護．親族所保護．及已婚女人．或<note n="0147001-n41" resp="BuBian" place="foot text" type="orig">以杖罰而為保護之女人（saparidaṇḍā）．據覺音註．謂行如是如是女人處．構成如是如是罪．明示其名、住處、道路．為有一定處罰之女人。意即與彼女相交因之定得受罰。</note>以杖
+<lb ed="B" n="0147a19"/>行者．諸凡為母所保護．父所保護．父母所保護．兄弟所保護．姊妹所保護．親族所保護．及已婚女人．或<note 
+n="0147001-n41" resp="BuBian" place="foot text" type="orig">以杖罰而為保護之女人（saparidaṇḍā）．據覺音註．謂行如是如是女人處．構成如是如是罪．明示其名、住處、道路．為有一定處罰之女人。意即與彼女相交因之定得受罰。</note>以杖
 <lb ed="B" n="0147a20"/>罰而為保護之女人．復有嚴飾華鬘瓔珞女人．與如是等女人．而行交媾。諸居士．依身有如是三種非法行
 <lb ed="B" n="0147a21"/>非正道行。諸居士．云何依口有四種非法行非正道行。曰．有為妄語者．或到集會處．或到眾會處．或到親族
 <lb ed="B" n="0147a22"/>間．或到僚友間．或到王族間．舉為證人而被問曰．「汝當語汝所知。」然彼或以不知．言「我知之．」或以
@@ -4381,7 +4730,8 @@
 <lb ed="B" n="0148a17"/>行者．正道行者．」「薩羅村」代之以「鞞蘭村」而已。〕</p></cb:div>
 <lb ed="B" n="0148a18"/>
 <lb ed="B" n="0148a19"/>
-<lb ed="B" n="0148a20"/><cb:div type="other"><cb:mulu type="其他" level="3">有明大經第四十三</cb:mulu><head><note n="0148001-n43" resp="BuBian" place="foot text" type="orig">有明（vedalla）．見中部經典一第二十二蛇喻經註三。</note>有明大經第四十三</head>
+<lb ed="B" n="0148a20"/><cb:div type="other"><cb:mulu type="其他" level="3">有明大經第四十三</cb:mulu><head><note 
+n="0148001-n43" resp="BuBian" place="foot text" type="orig">有明（vedalla）．見中部經典一第二十二蛇喻經註三。</note>有明大經第四十三</head>
 <lb ed="B" n="0148a21"/><p xml:id="pB06p0148a2101">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時尊者．大拘絺羅．於日薄暮．從宴默起．往尊者舍利弗
 <lb ed="B" n="0148a22"/>所。到已．與尊者舍利弗．共相問訊．相與以友誼禮讓之語．却坐一面。坐一面已．尊者大拘絺羅問尊者舍利
 <lb ed="B" n="0148a23"/>弗曰．『尊者．所謂「無慧、無慧．」尊者．云何謂「無慧」耶。』〔舍利弗言．〕『尊者．謂「彼是無慧．彼是無
@@ -4474,15 +4824,18 @@
 <lb ed="B" n="0149b11"/>為個體。』〔比丘尼答言。〕『居士毘舍佉．依世尊說．此等五取蘊．是為個體。即色取蘊、受取蘊．想取蘊、行
 <lb ed="B" n="0149b12"/>取蘊、識取蘊是。居士毘舍佉．依世尊說．此等五取蘊．是為個體。』優婆塞毘舍佉讚言．『善哉聖尼．』歡喜
 <lb ed="B" n="0149b13"/>隨喜．法授比丘尼所說。復問法授比丘尼言．『聖尼．所謂「個體集、個體集．」依世尊說．云何為個體集。』
-<lb ed="B" n="0149b14"/>『居士毘舍佉．此渴愛能趣後有．以與喜貪俱故．為是喜著彼處此處．即愛欲渴愛、有渴愛、<note n="0149001-n44" resp="BuBian" place="foot text" type="orig">無有渴愛．見中部經典一第九正見經註三。</note>無有渴愛是。居
+<lb ed="B" n="0149b14"/>『居士毘舍佉．此渴愛能趣後有．以與喜貪俱故．為是喜著彼處此處．即愛欲渴愛、有渴愛、<note 
+n="0149001-n44" resp="BuBian" place="foot text" type="orig">無有渴愛．見中部經典一第九正見經註三。</note>無有渴愛是。居
 <lb ed="B" n="0149b15"/>士毘舍佉．依世尊說．是為個體集。』『聖尼．所謂「個體滅、個體滅．」依世尊說．云何為個體滅。』『居士毘
 <lb ed="B" n="0149b16"/>舍佉．於彼渴愛．斷滅無餘．捨離無餘．廢棄無餘．解脫無餘．無執著時．居士毘舍佉．依世尊說．是為個體滅。』
 <lb ed="B" n="0149b17"/>『聖尼．所謂「個體滅道、個體滅道．」依世尊說．云何為個體滅道。』『居士毘舍佉．依世尊說．此八支聖
 <lb ed="B" n="0149b18"/>道．為個體滅道。即正見、正思惟、正語、正業、正命、正精進、正念、正定是。』『聖尼．彼取．即為彼等五取蘊耶．或
 <lb ed="B" n="0149b19"/>於五取蘊外有取耶。』『居士毘舍佉．彼取．非即為彼等五取蘊．然亦非於五取蘊外有取。居士毘舍佉．於
 <lb ed="B" n="0149b20"/>五取蘊若有欲貪．是即於彼為取。』</p>
-<lb ed="B" n="0149b21"/><p xml:id="pB06p0149b2101">『聖尼．云何為<note n="0149002-n44" resp="BuBian" place="foot text" type="orig">個體常住見（sakkaya-diṭṭi）．亦可譯為身見。所謂個體．即普通執為自我者．今謂執為自我而執之為常住不變存在之見。</note>個體常住見耶。』『居士毘舍佉．若未聞凡夫．不知聖者．不知聖者法．於聖者法不能調順。
-<lb ed="B" n="0149b22"/>不知真人．不知真人法．於真人法不能調順。以是或觀色即是我．或觀<note n="0149003-n44" resp="BuBian" place="foot text" type="orig">我有色者（rūpavantaṁ va attanaṁ）．據覺音註．謂以我為色．舉「如木之有蔭」之喻。</note>我有色者．或於我觀色．或於色觀我。
+<lb ed="B" n="0149b21"/><p xml:id="pB06p0149b2101">『聖尼．云何為<note 
+n="0149002-n44" resp="BuBian" place="foot text" type="orig">個體常住見（sakkaya-diṭṭi）．亦可譯為身見。所謂個體．即普通執為自我者．今謂執為自我而執之為常住不變存在之見。</note>個體常住見耶。』『居士毘舍佉．若未聞凡夫．不知聖者．不知聖者法．於聖者法不能調順。
+<lb ed="B" n="0149b22"/>不知真人．不知真人法．於真人法不能調順。以是或觀色即是我．或觀<note 
+n="0149003-n44" resp="BuBian" place="foot text" type="orig">我有色者（rūpavantaṁ va attanaṁ）．據覺音註．謂以我為色．舉「如木之有蔭」之喻。</note>我有色者．或於我觀色．或於色觀我。
 <lb ed="B" n="0149b23"/>復或觀受即是我．或觀我有受者．或於我觀受．或於受觀我。復或觀想即是我．或觀我有想者．或於我觀想．
 <lb ed="B" n="0149b24"/>或於想觀我。復或觀行即是我．或觀我有行者．或於我觀行．或於行觀我。復或觀識即是我．或觀我有識者．
 <lb ed="B" n="0149b25"/>或於我觀識．或於識觀我。居士毘舍佉．為如是故．有個體常住見。』『聖尼．然則云何為無個體常住見耶。』
@@ -4542,7 +4895,8 @@
 <lb ed="B" n="0150b13"/><p xml:id="pB06p0150b1301">世尊如是說。優婆塞毘舍佉．聞世尊所說．歡喜信受。</p></cb:div>
 <lb ed="B" n="0150b14"/>
 <lb ed="B" n="0150b15"/>
-<lb ed="B" n="0150b16"/><cb:div type="other"><cb:mulu type="其他" level="3">得法小經第四十五</cb:mulu><head><note n="0150001-n45" resp="BuBian" place="foot text" type="orig">得法（dhamromasamadana）．此所謂法．指對於行之現在之受及未來之果報。</note>得法小經第四十五</head>
+<lb ed="B" n="0150b16"/><cb:div type="other"><cb:mulu type="其他" level="3">得法小經第四十五</cb:mulu><head><note 
+n="0150001-n45" resp="BuBian" place="foot text" type="orig">得法（dhamromasamadana）．此所謂法．指對於行之現在之受及未來之果報。</note>得法小經第四十五</head>
 <lb ed="B" n="0150b17"/><p xml:id="pB06p0150b1701">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。爾時世尊．呼諸比丘曰．『諸比丘。』彼等比丘．應世尊曰．
 <lb ed="B" n="0150b18"/>『世尊。』</p>
 <lb ed="B" n="0150b19"/><p xml:id="pB06p0150b1901">世尊說言．『諸比丘．有此等四得法．云何為四。曰．諸比丘．現在樂得未來苦報法。諸比丘．現在苦得未來苦
@@ -4716,8 +5070,10 @@
 <lb ed="B" n="0153a23"/>當如是答．「依眼耳可識彼等穢法．於如來為非有。」次問「依眼耳可識彼等雜法．於如來為有或非有
 <lb ed="B" n="0153a24"/>耶。」諸比丘．答此如來．當如是答．「依眼耳可識彼等雜法．於如來為非有。」次問「依眼耳可識彼等純
 <lb ed="B" n="0153a25"/>淨法．於如來為有耶．或非有耶。」答此如來．當如是答．「依眼耳可識此等純淨法．於如來為有．我以如是
-<lb ed="B" n="0153a26"/>為道．以如是為行界．是故不<note n="0153001-n47" resp="BuBian" place="foot text" type="orig">與凡夫等．原語是 tammaya 義為「如彼程度者」．但據覺音註．謂 sataṇho 即「具有渴愛者」．是指不覺之凡夫。</note>與凡夫等。」諸比丘．於為如是說之師．聲聞為聞法故．得詣師所。師即為彼．說
-<lb ed="B" n="0153a27"/>上上妙妙<note n="0153002-n47" resp="BuBian" place="foot text" type="orig">黑白俱備．原語為 kaṇhasukhasappa-ṭibhāgin．此處舊譯為「除黑白」。</note>黑白俱備之法。諸比丘．以師為比丘說上上妙妙黑白俱備之法相應故．如是彼於是法．了知其
+<lb ed="B" n="0153a26"/>為道．以如是為行界．是故不<note 
+n="0153001-n47" resp="BuBian" place="foot text" type="orig">與凡夫等．原語是 tammaya 義為「如彼程度者」．但據覺音註．謂 sataṇho 即「具有渴愛者」．是指不覺之凡夫。</note>與凡夫等。」諸比丘．於為如是說之師．聲聞為聞法故．得詣師所。師即為彼．說
+<lb ed="B" n="0153a27"/>上上妙妙<note 
+n="0153002-n47" resp="BuBian" place="foot text" type="orig">黑白俱備．原語為 kaṇhasukhasappa-ṭibhāgin．此處舊譯為「除黑白」。</note>黑白俱備之法。諸比丘．以師為比丘說上上妙妙黑白俱備之法相應故．如是彼於是法．了知其
 <lb ed="B" n="0153a28"/>法於法得究竟．於師得淨信．信言「世尊．是成等正覺者也．因世尊善所說法．而是僧伽．善能奉行。」諸比
 <lb ed="B" n="0153a29"/>丘．若有人問彼比丘言．「依何理由．依何因緣．而說世尊．「世尊是成等正覺者也．因世尊善所說法．而是
 <lb ed="B" n="0153a30"/>僧伽．善能奉行」耶。」諸比丘．將解答此比丘．應如是答．「尊者．時我為聞法．詣世尊所．世尊為我．說上上
@@ -4772,7 +5128,8 @@
 <lb ed="B" n="0154a13"/>是．「如我所得．得如是見．餘沙門或婆羅門．更無有逾於此者。」是為彼逮得第三智．為聖為出世間．不與
 <lb ed="B" n="0154a14"/>凡夫共。</p>
 <lb ed="B" n="0154a15"/><p xml:id="pB06p0154a1501">諸比丘．復次聖弟子．作如是念．「如已得見之人之所了達．如是法性．我亦了達耶。」諸比丘．云何為得見
-<lb ed="B" n="0154a16"/>之人所了達之法性。諸比丘．已得見人之法性．即為如知犯<note n="0154001-n48" resp="BuBian" place="foot text" type="orig">復歸．原語為 vuṭṭhāna．自罪而復歸．所謂知復歸罪．殆指犯僧殘（saṅghadhtsesa,Sk. saṅghavseṣa）以下之罪．犯此等罪．或依一定時間謹慎別住．或依贖罪．或依發露告白．而許其復歸於僧伽。</note>復歸罪時．速於師前．或於智者同行者前．自行
+<lb ed="B" n="0154a16"/>之人所了達之法性。諸比丘．已得見人之法性．即為如知犯<note 
+n="0154001-n48" resp="BuBian" place="foot text" type="orig">復歸．原語為 vuṭṭhāna．自罪而復歸．所謂知復歸罪．殆指犯僧殘（saṅghadhtsesa,Sk. saṅghavseṣa）以下之罪．犯此等罪．或依一定時間謹慎別住．或依贖罪．或依發露告白．而許其復歸於僧伽。</note>復歸罪時．速於師前．或於智者同行者前．自行
 <lb ed="B" n="0154a17"/>揭示、發露、明宣。揭示、發露、明宣已．而於未來．善為防護。諸比丘．猶如幼稚纖弱仰臥兒童．或手或足．緣近熾
 <lb ed="B" n="0154a18"/>炭故．即自退縮．諸比丘．已得見人之法性．亦復如是．即為復歸．謂若犯如是罪時．速於師前．或於智者同行
 <lb ed="B" n="0154a19"/>者前．揭示、發露、明宣。揭示、發露、明宣已．而於未來．善為防護。彼如是知。「如已得見之人之所了達如是法
@@ -4801,7 +5158,8 @@
 <lb ed="B" n="0154b09"/><cb:div type="other"><cb:mulu type="其他" level="3">梵天請經第四十九</cb:mulu><head>梵天請經第四十九</head>
 <lb ed="B" n="0154b10"/><p xml:id="pB06p0154b1001">如是我聞。一時世尊．在舍衛城祇陀林給孤獨園。於時世尊．呼諸比丘曰．『諸比丘。』彼等比丘．應世尊曰．
 <lb ed="B" n="0154b11"/>『世尊。』</p>
-<lb ed="B" n="0154b12"/><p xml:id="pB06p0154b1201">世尊說言．『諸比丘．一時我在郁伽羅村幸福林娑羅樹王下．諸比丘．爾時梵天<note n="0154001-n49" resp="BuBian" place="foot text" type="orig">婆伽（Baka）．為一梵天之別名。梵天極多．各有別名。</note>婆伽．生如是惡見．謂「此是
+<lb ed="B" n="0154b12"/><p xml:id="pB06p0154b1201">世尊說言．『諸比丘．一時我在郁伽羅村幸福林娑羅樹王下．諸比丘．爾時梵天<note 
+n="0154001-n49" resp="BuBian" place="foot text" type="orig">婆伽（Baka）．為一梵天之別名。梵天極多．各有別名。</note>婆伽．生如是惡見．謂「此是
 <lb ed="B" n="0154b13"/>常．此是恒．此是常存．此是獨全．此是不滅法．此實是不生、不老、不死、不滅．更不轉生．無有較此他勝出離。」
 <lb ed="B" n="0154b14"/>諸比丘．時我心知婆伽梵天所念故．猶如壯士伸其屈臂．屈其伸臂頃．如是速疾．從郁伽羅村幸福林娑羅
 <lb ed="B" n="0154b15"/>樹王下滅．即現於彼之梵天界。諸比丘．婆伽梵天．遙見我來．見已．向我作是言．「來乎賢者．善來賢者。得此
@@ -4809,10 +5167,15 @@
 <lb ed="B" n="0154b17"/>不轉生．無有較此他勝出離。」諸比丘．彼如是說已．我即於婆伽梵天．作是語曰．「汝婆伽梵天．實為無明
 <lb ed="B" n="0154b18"/>所覆．汝婆伽梵天．實為無明所覆。所以者何．汝以無常說為常．以非恒說為恒．以非常存說為常存．以非獨
 <lb ed="B" n="0154b19"/>全說為獨全．以滅法說為不滅法．且又以生、老、死、滅、轉生者．作如是說．是實不生、不老、不死、不滅、不轉生．於
-<lb ed="B" n="0154b20"/>有他勝出離．說為無有較此他勝出<note n="0154b2001" resp="CBETA" type="add">離【CB】，<unclear/>【補編】</note><app n="0154b2001"><lem wit="【CB】" resp="CBETA.maha">離</lem><rdg wit="【補編】"><unclear/></rdg></app>故也。」</p>
+<lb ed="B" n="0154b20"/>有他勝出離．說為無有較此他勝出<note 
+n="0154b2001" resp="CBETA" type="add">離【CB】，<unclear/>【補編】</note><app n="0154b2001">
+  <lem wit="【CB】" resp="CBETA.maha">離</lem>
+  <rdg wit="【補編】"><unclear/></rdg>
+</app>故也。」</p>
 <lb ed="B" n="0154b21"/><p xml:id="pB06p0154b2101">諸比丘．時有惡魔．詣一梵天眷屬中．告我言．「比丘．比丘．毋逆於彼．毋逆於彼。比丘．彼實是梵天、大梵天．為
 <lb ed="B" n="0154b22"/>勝者．不為他所征服．是全見者、全能者、自在者、作者、造者、最尊者、主宰者、主權者、是過去未來之父。比丘．較
-<lb ed="B" n="0154b23"/>汝之前．世有沙門婆羅門．彼等誹難地．憎惡地．誹難水．憎惡水．誹難火．憎惡火．誹難風．憎惡風。誹難<note n="0154002-n49" resp="BuBian" place="foot text" type="orig">生者．見中部經典一第一根本法門經註四。</note>生者．憎
+<lb ed="B" n="0154b23"/>汝之前．世有沙門婆羅門．彼等誹難地．憎惡地．誹難水．憎惡水．誹難火．憎惡火．誹難風．憎惡風。誹難<note 
+n="0154002-n49" resp="BuBian" place="foot text" type="orig">生者．見中部經典一第一根本法門經註四。</note>生者．憎
 <lb ed="B" n="0154b24"/>惡生者．誹難天．憎惡天．誹難生主．憎惡生主．誹難梵天．憎惡梵天．彼等身壞命終．墮處卑賤之身。比丘．較汝
 <lb ed="B" n="0154b25"/>之前．世有沙門婆羅門．彼等稱歎地．歡喜地．稱歎水．歡喜水．稱歎火．歡喜火．稱歎風．歡喜風．稱歎生者．歡喜
 <lb ed="B" n="0154b26"/>生者．稱歎天．歡喜天．稱歎生主．歡喜生主．稱歎梵天．歡喜梵天．彼等身壞命終．得處優勝之身。比丘．是故我
@@ -4833,8 +5196,11 @@
 <lb ed="B" n="0155a08"/>侍．住汝領地者．可任所欲．得為驅使。梵天．我更知汝意趣．知汝光榮．即謂梵天婆伽．有如是大神力．梵天婆
 <lb ed="B" n="0155a09"/>伽．有如是大威光．梵天婆伽．有如是大偉力。」〔梵天言．〕「賢者．汝云何知我意趣．知我光榮耶．謂梵天
 <lb ed="B" n="0155a10"/>婆伽．有如是大神力．梵天婆伽．有如是大威光．梵天婆伽．有如是大偉力耶。」〔我宣說言。〕</p>
-<lb ed="B" n="0155a11"/><lg type="regular" xml:id="lgB06p0155a1101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">「日月互迴處<caesura style="text-indent:1em;"/>輝光臨四方<caesura style="text-indent:1em;"/>如是千世界<caesura style="text-indent:1em;"/>卿偉力所及<caesura style="text-indent:1em;"/>卿知高卑處<caesura style="text-indent:1em;"/>有欲及無欲</l>
-<lb ed="B" n="0155a12"/><l style="text-indent:1em">此有與彼有<caesura style="text-indent:1em;"/>有情之來去</l></lg>
+<lb ed="B" n="0155a11"/><lg type="regular" xml:id="lgB06p0155a1101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">「日月互迴處<caesura style="text-indent:1em;"/>輝光臨四方<caesura style="text-indent:1em;"/>如是千世界<caesura style="text-indent:1em;"/>卿偉力所及<caesura style="text-indent:1em;"/>卿知高卑處<caesura style="text-indent:1em;"/>有欲及無欲</l>
+<lb ed="B" n="0155a12"/>
+  <l style="text-indent:1em">此有與彼有<caesura style="text-indent:1em;"/>有情之來去</l>
+</lg>
 <lb ed="B" n="0155a13"/><p xml:id="pB06p0155a1301">梵天．我如是知汝意趣．知汝光榮．謂梵天婆伽．有如是大神力．有如是大威光．有如是大偉力。梵天．尚有其
 <lb ed="B" n="0155a14"/>他三眾．汝不知見．我乃知見。有名曰極光天眾．汝從彼處沒．來生是處。緣汝住此過久．忘記彼處．是故於彼．
 <lb ed="B" n="0155a15"/>汝不知見．我乃知見。梵天．我如是智．汝尚非等．況云何劣於汝者乎。故我較汝．實為殊勝。梵天．復有名曰徧
@@ -4847,7 +5213,8 @@
 <lb ed="B" n="0155a22"/>浮從阿毘浮．亦復如是如是。乃至知一切從一切．一切以一切性故．非所領受．知故我不生「一切」想．不生
 <lb ed="B" n="0155a23"/>「於一切」想．不生「從一切」想．不生「一切是我」想．我從未以一切而為尊重。梵天．我如是智．汝尚非
 <lb ed="B" n="0155a24"/>等．況云何劣於汝者乎。故我較汝．實為殊勝。」〔梵天言．〕「賢者．若汝意一切以一切性故．非所領受者．是
-<lb ed="B" n="0155a25"/>則起空虛想．汝實不可．起空虛想．汝實不可。非眼見．無邊際．有識<note n="0155003-n49" resp="BuBian" place="foot text" type="orig">光燭一切處．原文為 sabbatopabhaṁ．茲依覺音註中 sabbaso pabhāsam pannaṁ（具有光輝於一切處）而譯．長部經典一第十一堅固經末偈第二句與此同義．但彼原文為 sabbhtopahaṁ．學者間頗多議論．如坂本幸男氏譯註所示．而且「光燭」與「遍通」義亦相同。</note>光燭一切處．如是是為地以地性故非所
+<lb ed="B" n="0155a25"/>則起空虛想．汝實不可．起空虛想．汝實不可。非眼見．無邊際．有識<note 
+n="0155003-n49" resp="BuBian" place="foot text" type="orig">光燭一切處．原文為 sabbatopabhaṁ．茲依覺音註中 sabbaso pabhāsam pannaṁ（具有光輝於一切處）而譯．長部經典一第十一堅固經末偈第二句與此同義．但彼原文為 sabbhtopahaṁ．學者間頗多議論．如坂本幸男氏譯註所示．而且「光燭」與「遍通」義亦相同。</note>光燭一切處．如是是為地以地性故非所
 <lb ed="B" n="0155a26"/>領受者．水以水性故．非所領受者．火以火性故．非所領受者．風以風性故．非所領受者．生者以生者性故．非
 <lb ed="B" n="0155a27"/>所領受．天以天性故．非所領受者．生主以生主性故．非所領受者．梵天以梵天性故．非所領受者．極光天以
 <lb ed="B" n="0155a28"/>極光天性故．非所領受者．徧淨天以徧淨天性故．非所領受者．廣果天以廣果天性故．非所領受．者阿毘浮
@@ -4857,8 +5224,11 @@
 <lb ed="B" n="0155a32"/>汝前．而行隱形。」〔梵天言．〕「賢者．汝若能者．當對我隱形。」諸比丘．我緣是自念．「我於此梵天、梵天
 <pb ed="B" xml:id="B06.0004.0155b" n="0155b"/>
 <lb ed="B" n="0155b01"/>眾、及梵天眾屬．使聞我聲．然不見我形．」即行如是神力。當我隱形之時．說此偈言。</p>
-<lb ed="B" n="0155b02"/><lg type="regular" xml:id="lgB06p0155b0201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">於有生恐怖<caesura style="text-indent:1em;"/>是為乃可見<caesura style="text-indent:1em;"/>有欲無有欲<caesura style="text-indent:1em;"/>是為乃可見<caesura style="text-indent:1em;"/>我已於諸有<caesura style="text-indent:1em;"/>不迎亦不樂</l>
-<lb ed="B" n="0155b03"/><l style="text-indent:1em">而復於諸有<caesura style="text-indent:1em;"/>已無諸執著</l></lg>
+<lb ed="B" n="0155b02"/><lg type="regular" xml:id="lgB06p0155b0201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">於有生恐怖<caesura style="text-indent:1em;"/>是為乃可見<caesura style="text-indent:1em;"/>有欲無有欲<caesura style="text-indent:1em;"/>是為乃可見<caesura style="text-indent:1em;"/>我已於諸有<caesura style="text-indent:1em;"/>不迎亦不樂</l>
+<lb ed="B" n="0155b03"/>
+  <l style="text-indent:1em">而復於諸有<caesura style="text-indent:1em;"/>已無諸執著</l>
+</lg>
 <lb ed="B" n="0155b04"/><p xml:id="pB06p0155b0401">諸比丘．於是梵天、梵天眾、及梵天眾屬．生希有未曾有念．說曰．「沙門瞿曇大神力性大威德性．實可驚嘆．
 <lb ed="B" n="0155b05"/>實未曾有．實為釋迦族子．自釋迦族出家．如此沙門瞿曇．若具足如是大神力大威德沙門或婆羅門．我等
 <lb ed="B" n="0155b06"/>前未之見．前未之聞。於此愛著於有．樂染於有．歡喜於有之世界．汝已根絕諸有。」</p>
@@ -4897,7 +5267,8 @@
 <lb ed="B" n="0156a06"/><p xml:id="pB06p0156a0601">尊者大目犍連．見惡魔住在咽喉．見已．告惡魔曰．『惡魔．我已見汝住處．汝勿作彼不知我想．惡魔．汝住咽
 <lb ed="B" n="0156a07"/>喉。惡魔．昔我亦曾為魔．名曰觸嬈。彼時我有妹名曰黑．汝為彼女之子．汝是我甥。惡魔．是時有羯句忖那世
 <lb ed="B" n="0156a08"/>尊、應供、等正覺者．出現於世。惡魔．羯句忖那世尊、應供、等正覺者．有二勝者聲聞．一名毘馱羅．一名薩遮筏。
-<lb ed="B" n="0156a09"/>於羯句忖那世尊、應供、等正覺者．聲聞中說法．尊者毘馱羅．無有與等者．惡魔．是故尊者毘馱羅．稱名<note n="0156001-n50" resp="BuBian" place="foot text" type="orig">毘馱羅 vidhura（無類者）．自「捨去負擔者」轉成．在 suttnnipāta 996 之註．為「無等者」。</note>毘馱
+<lb ed="B" n="0156a09"/>於羯句忖那世尊、應供、等正覺者．聲聞中說法．尊者毘馱羅．無有與等者．惡魔．是故尊者毘馱羅．稱名<note 
+n="0156001-n50" resp="BuBian" place="foot text" type="orig">毘馱羅 vidhura（無類者）．自「捨去負擔者」轉成．在 suttnnipāta 996 之註．為「無等者」。</note>毘馱
 <lb ed="B" n="0156a10"/>羅．毘馱羅。惡魔．尊者薩遮筏．往於閑林．往於樹下．往空閒處．毫無障礙入想受滅。惡魔．彼尊者薩遮筏．嘗於
 <lb ed="B" n="0156a11"/>一樹下．入想受滅而坐。惡魔．有牧牛者、牧畜者、耕作者、旅行者諸人．見尊者薩遮筏於一樹下入想受滅而
 <lb ed="B" n="0156a12"/>坐．見已．彼等思言．「實可驚嘆哉．實未曾有哉．此沙門如是坐亡．然則當將彼火葬。」惡魔．於是彼等牧牛
@@ -4946,22 +5317,42 @@
 <lb ed="B" n="0156b22"/>「此魔觸嬈．不知厭足。」惡魔．當迴顧時．魔觸嬈者．即從彼處下墮．生大地獄中。惡魔．彼大地獄．有三種名．
 <lb ed="B" n="0156b23"/>謂六觸處地獄．謂鐵椿地獄．謂各別受苦地獄。惡魔．於是獄卒來與我曰．「賢者．在汝心臟中．鐵椿與鐵椿
 <lb ed="B" n="0156b24"/>合時．汝當知已歷千年．在地獄受苦。」惡魔．時我在彼大地獄中．實經多年．實經幾百年．實經幾千年苦．復
-<lb ed="B" n="0156b25"/>經萬年於彼大地獄之<note n="0156002-n50" resp="BuBian" place="foot text" type="orig">增地獄 ussada（ud-vsad,udvsyad）．即突出之意．其殆突出大地獄之四門附加之獄歟．關於增地獄．可參照俱舍論頌疏卷十一等。</note>增地獄．名<note n="0156003-n50" resp="BuBian" place="foot text" type="orig">起出受．原語為 vuṭṭhānimaṁ．語之構造不明．暹邏皇室本．於本經正文與註釋都作 vuṭṭhānavedanaṁ．今從之。照上之註釋．謂 vipāka-vuṭṭhānaṁ vedanaṁ（自果報起出之受）．此是使較受大地獄之苦更苦者。</note>起出受者中．而受苦受。惡魔．彼時我身．雖仍是人身．然我之頭．已如魚頭。』</p>
-<lb ed="B" n="0156b26"/><lg type="regular" xml:id="lgB06p0156b2601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">以惱毘馱羅<caesura style="text-indent:1em;"/>聖羯句忖那<caesura style="text-indent:1em;"/>是魔觸嬈者<caesura style="text-indent:1em;"/>云何陷地獄<caesura style="text-indent:1em;"/>獄有百鐵椿<caesura style="text-indent:1em;"/>悉各別受苦</l>
-<lb ed="B" n="0156b27"/><l style="text-indent:1em">如是在地獄<caesura style="text-indent:1em;"/>魔觸嬈受苦<caesura style="text-indent:1em;"/>以惱毘馱羅<caesura style="text-indent:1em;"/>聖羯句忖那<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
-<lb ed="B" n="0156b28"/><l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>湖中建宮殿<caesura style="text-indent:1em;"/>經住一劫時<caesura style="text-indent:1em;"/>毘瑠璃色映<caesura style="text-indent:1em;"/>輝光耀燦爛</l>
-<lb ed="B" n="0156b29"/><l style="text-indent:1em">玉女飾異彩<caesura style="text-indent:1em;"/>歌舞於其中<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事<caesura style="text-indent:1em;"/>若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦</l>
-<lb ed="B" n="0156b30"/><l style="text-indent:1em">為佛所獎導<caesura style="text-indent:1em;"/>當比丘眾前<caesura style="text-indent:1em;"/>以足拇指搖<caesura style="text-indent:1em;"/>鹿子母講堂<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
-<lb ed="B" n="0156b31"/><l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/><note n="0156004-n50" resp="BuBian" place="foot text" type="orig">黑（kaṇha）指呼惡魔。</note>黑乎汝受苦<caesura style="text-indent:1em;"/>曾以足拇指<caesura style="text-indent:1em;"/>動最勝講堂<caesura style="text-indent:1em;"/>具有神通力<caesura style="text-indent:1em;"/>諸神亦戰慄</l>
-<lb ed="B" n="0156b32"/><l style="text-indent:1em">佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事<caesura style="text-indent:1em;"/>若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>在最勝講堂<caesura style="text-indent:1em;"/>曾問天帝釋</l>
+<lb ed="B" n="0156b25"/>經萬年於彼大地獄之<note 
+n="0156002-n50" resp="BuBian" place="foot text" type="orig">增地獄 ussada（ud-vsad,udvsyad）．即突出之意．其殆突出大地獄之四門附加之獄歟．關於增地獄．可參照俱舍論頌疏卷十一等。</note>增地獄．名<note 
+n="0156003-n50" resp="BuBian" place="foot text" type="orig">起出受．原語為 vuṭṭhānimaṁ．語之構造不明．暹邏皇室本．於本經正文與註釋都作 vuṭṭhānavedanaṁ．今從之。照上之註釋．謂 vipāka-vuṭṭhānaṁ vedanaṁ（自果報起出之受）．此是使較受大地獄之苦更苦者。</note>起出受者中．而受苦受。惡魔．彼時我身．雖仍是人身．然我之頭．已如魚頭。』</p>
+<lb ed="B" n="0156b26"/><lg type="regular" xml:id="lgB06p0156b2601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">以惱毘馱羅<caesura style="text-indent:1em;"/>聖羯句忖那<caesura style="text-indent:1em;"/>是魔觸嬈者<caesura style="text-indent:1em;"/>云何陷地獄<caesura style="text-indent:1em;"/>獄有百鐵椿<caesura style="text-indent:1em;"/>悉各別受苦</l>
+<lb ed="B" n="0156b27"/>
+  <l style="text-indent:1em">如是在地獄<caesura style="text-indent:1em;"/>魔觸嬈受苦<caesura style="text-indent:1em;"/>以惱毘馱羅<caesura style="text-indent:1em;"/>聖羯句忖那<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
+<lb ed="B" n="0156b28"/>
+  <l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>湖中建宮殿<caesura style="text-indent:1em;"/>經住一劫時<caesura style="text-indent:1em;"/>毘瑠璃色映<caesura style="text-indent:1em;"/>輝光耀燦爛</l>
+<lb ed="B" n="0156b29"/>
+  <l style="text-indent:1em">玉女飾異彩<caesura style="text-indent:1em;"/>歌舞於其中<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事<caesura style="text-indent:1em;"/>若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦</l>
+<lb ed="B" n="0156b30"/>
+  <l style="text-indent:1em">為佛所獎導<caesura style="text-indent:1em;"/>當比丘眾前<caesura style="text-indent:1em;"/>以足拇指搖<caesura style="text-indent:1em;"/>鹿子母講堂<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
+<lb ed="B" n="0156b31"/>
+  <l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/><note 
+n="0156004-n50" resp="BuBian" place="foot text" type="orig">黑（kaṇha）指呼惡魔。</note>黑乎汝受苦<caesura style="text-indent:1em;"/>曾以足拇指<caesura style="text-indent:1em;"/>動最勝講堂<caesura style="text-indent:1em;"/>具有神通力<caesura style="text-indent:1em;"/>諸神亦戰慄</l>
+<lb ed="B" n="0156b32"/>
+  <l style="text-indent:1em">佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事<caesura style="text-indent:1em;"/>若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>在最勝講堂<caesura style="text-indent:1em;"/>曾問天帝釋</l>
 <pb ed="B" xml:id="B06.0004.0157a" n="0157a"/>
-<lb ed="B" n="0157a01"/><l style="text-indent:1em">天王卿知否<caesura style="text-indent:1em;"/>愛盡解脫耶<caesura style="text-indent:1em;"/>以如是問故<caesura style="text-indent:1em;"/>帝釋如實答<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
-<lb ed="B" n="0157a02"/><l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>近立善法殿<caesura style="text-indent:1em;"/>曾問梵天言<caesura style="text-indent:1em;"/>卿嘗見為有<caesura style="text-indent:1em;"/>今尚為有否</l>
-<lb ed="B" n="0157a03"/><l style="text-indent:1em">梵天日光耀<caesura style="text-indent:1em;"/>卿見過逝否<caesura style="text-indent:1em;"/>梵天如所問<caesura style="text-indent:1em;"/>即作如實答<caesura style="text-indent:1em;"/>賢者我曾有<caesura style="text-indent:1em;"/>而今見非有</l>
-<lb ed="B" n="0157a04"/><l style="text-indent:1em">梵天日光耀<caesura style="text-indent:1em;"/>乃已見過逝<caesura style="text-indent:1em;"/>我說常說恒<caesura style="text-indent:1em;"/>今云何得說<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
-<lb ed="B" n="0157a05"/><l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>自從於解脫<caesura style="text-indent:1em;"/>觸妙高山頂<caesura style="text-indent:1em;"/>東毘提訶湖<caesura style="text-indent:1em;"/>橫臥森林人</l>
-<lb ed="B" n="0157a06"/><l style="text-indent:1em">佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事<caesura style="text-indent:1em;"/>若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>火無如是意<caesura style="text-indent:1em;"/>我欲燒愚人</l>
-<lb ed="B" n="0157a07"/><l style="text-indent:1em">唯愚人自燃<caesura style="text-indent:1em;"/>觸火而被燒<caesura style="text-indent:1em;"/>如是汝魔羅<caesura style="text-indent:1em;"/>觸嬈於如來<caesura style="text-indent:1em;"/>如愚人觸火<caesura style="text-indent:1em;"/>而自燒己身</l>
-<lb ed="B" n="0157a08"/><l style="text-indent:1em">魔所為罪業<caesura style="text-indent:1em;"/>嬈害於如來<caesura style="text-indent:1em;"/>惡魔汝為惡<caesura style="text-indent:1em;"/>抑不思受果<caesura style="text-indent:1em;"/>魔乎作惡者<caesura style="text-indent:1em;"/>唯積長夜暗</l>
-<lb ed="B" n="0157a09"/><l style="text-indent:1em">毋徒勞妄想<caesura style="text-indent:1em;"/>厭佛除比丘<caesura style="text-indent:1em;"/>有比丘擊魔<caesura style="text-indent:1em;"/>在於恐怖林<caesura style="text-indent:1em;"/>故彼惡夜叉<caesura style="text-indent:1em;"/>即隱沒彼處</l></lg></cb:div></cb:div></cb:div>
+<lb ed="B" n="0157a01"/>
+  <l style="text-indent:1em">天王卿知否<caesura style="text-indent:1em;"/>愛盡解脫耶<caesura style="text-indent:1em;"/>以如是問故<caesura style="text-indent:1em;"/>帝釋如實答<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
+<lb ed="B" n="0157a02"/>
+  <l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>近立善法殿<caesura style="text-indent:1em;"/>曾問梵天言<caesura style="text-indent:1em;"/>卿嘗見為有<caesura style="text-indent:1em;"/>今尚為有否</l>
+<lb ed="B" n="0157a03"/>
+  <l style="text-indent:1em">梵天日光耀<caesura style="text-indent:1em;"/>卿見過逝否<caesura style="text-indent:1em;"/>梵天如所問<caesura style="text-indent:1em;"/>即作如實答<caesura style="text-indent:1em;"/>賢者我曾有<caesura style="text-indent:1em;"/>而今見非有</l>
+<lb ed="B" n="0157a04"/>
+  <l style="text-indent:1em">梵天日光耀<caesura style="text-indent:1em;"/>乃已見過逝<caesura style="text-indent:1em;"/>我說常說恒<caesura style="text-indent:1em;"/>今云何得說<caesura style="text-indent:1em;"/>佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事</l>
+<lb ed="B" n="0157a05"/>
+  <l style="text-indent:1em">若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>自從於解脫<caesura style="text-indent:1em;"/>觸妙高山頂<caesura style="text-indent:1em;"/>東毘提訶湖<caesura style="text-indent:1em;"/>橫臥森林人</l>
+<lb ed="B" n="0157a06"/>
+  <l style="text-indent:1em">佛聲聞比丘<caesura style="text-indent:1em;"/>悉能知是事<caesura style="text-indent:1em;"/>若惱斯比丘<caesura style="text-indent:1em;"/>黑乎汝受苦<caesura style="text-indent:1em;"/>火無如是意<caesura style="text-indent:1em;"/>我欲燒愚人</l>
+<lb ed="B" n="0157a07"/>
+  <l style="text-indent:1em">唯愚人自燃<caesura style="text-indent:1em;"/>觸火而被燒<caesura style="text-indent:1em;"/>如是汝魔羅<caesura style="text-indent:1em;"/>觸嬈於如來<caesura style="text-indent:1em;"/>如愚人觸火<caesura style="text-indent:1em;"/>而自燒己身</l>
+<lb ed="B" n="0157a08"/>
+  <l style="text-indent:1em">魔所為罪業<caesura style="text-indent:1em;"/>嬈害於如來<caesura style="text-indent:1em;"/>惡魔汝為惡<caesura style="text-indent:1em;"/>抑不思受果<caesura style="text-indent:1em;"/>魔乎作惡者<caesura style="text-indent:1em;"/>唯積長夜暗</l>
+<lb ed="B" n="0157a09"/>
+  <l style="text-indent:1em">毋徒勞妄想<caesura style="text-indent:1em;"/>厭佛除比丘<caesura style="text-indent:1em;"/>有比丘擊魔<caesura style="text-indent:1em;"/>在於恐怖林<caesura style="text-indent:1em;"/>故彼惡夜叉<caesura style="text-indent:1em;"/>即隱沒彼處</l>
+</lg></cb:div></cb:div></cb:div>
 </body></text></TEI>

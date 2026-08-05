@@ -2,76 +2,77 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="TX02n0001">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Collected Works of Master Taixu</title>
-			<title level="s" xml:lang="zh-Hant">太虛大師全書</title>
-			<title level="m" xml:lang="zh-Hant">太虛大師全書．第一編　佛法總學(第27卷-第34卷)</title>
-			<title>Collected Works of Master Taixu, Electronic version, No. 1 太虛大師全書．第一編　佛法總學(第27卷-第34卷)</title>
-			<title xml:lang="zh-Hant">太虛大師全書數位版, No. 1 太虛大師全書．第一編　佛法總學(第27卷-第34卷)</title>
-			<author>民國 釋太虛著</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>8卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">TX</idno>.<idno type="vol">2</idno>.<idno type="no">1</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>太虛大師全書</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
-			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【太虛】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2021-07-22">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Collected Works of Master Taixu</title>
+      <title level="s" xml:lang="zh-Hant">太虛大師全書</title>
+      <title level="m" xml:lang="zh-Hant">太虛大師全書．第一編　佛法總學(第27卷-第34卷)</title>
+      <title>Collected Works of Master Taixu, Electronic version, No. 1 太虛大師全書．第一編　佛法總學(第27卷-第34卷)</title>
+      <title xml:lang="zh-Hant">太虛大師全書數位版, No. 1 太虛大師全書．第一編　佛法總學(第27卷-第34卷)</title>
+      <author>民國 釋太虛著</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>8卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">TX</idno>.<idno type="vol">2</idno>.<idno type="no">1</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>太虛大師全書</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
+      <p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【太虛】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2021-07-22">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="27"/>
 <pb ed="TX" xml:id="TX02.0001.0531a" n="0531a"/>
-<lb ed="TX" n="0531a01"/><cb:div type="other"><cb:mulu type="其他" level="1">源流</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">中國佛學</cb:mulu><head>中國佛學</head>
+<lb ed="TX" n="0531a01"/><cb:div type="other"><cb:mulu type="其他" level="1">源流</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">中國佛學</cb:mulu><head>中國佛學</head>
 <lb ed="TX" n="0531a02"/>
 <lb ed="TX" n="0531a03"/><byline cb:type="other">——三十二年秋在漢藏教理院講——</byline>
 <lb ed="TX" n="0531a04"/><cb:div type="other"><cb:mulu type="其他" level="3">目次</cb:mulu>
@@ -320,7 +321,8 @@
 <pb ed="TX" xml:id="TX02.0001.0549a" n="0549a"/>
 <lb ed="TX" n="0549a01"/>眾生為根的。又般若之母性，還可以生出二乘果。必須和合方便之父性，才可以完成
 <lb ed="TX" n="0549a02"/>大乘行而得佛果。故就和合成菩薩胎言，第一為大悲菩提心，次為方便，再次為智慧
-<lb ed="TX" n="0549a03"/>。</p><byline cb:type="other">（光宗記）</byline></cb:div>
+<lb ed="TX" n="0549a03"/>。</p>
+<byline cb:type="other">（光宗記）</byline></cb:div>
 <lb ed="TX" n="0549a04"/><cb:div type="other"><cb:mulu type="其他" level="3">第二章　中國佛學特質在禪</cb:mulu><head>第二章　中國佛學特質在禪</head>
 <lb ed="TX" n="0549a05"/><cb:div type="other"><cb:mulu type="其他" level="4">第一節　略敘因緣</cb:mulu><head>第一節　略敘因緣</head>
 <lb ed="TX" n="0549a06"/><p xml:id="pTX02p0549a0601" style="margin-left:0em;text-indent:2em">中國佛學，並非與發源之印度及弘揚於世界各國的截然孤立，不過從中國佛教歷
@@ -343,7 +345,8 @@
 <lb ed="TX" n="0550a11"/>質比較起來，反顯出中國佛教特質在禪。中國佛學所以重禪，當然也有其因緣，今於
 <lb ed="TX" n="0550a12"/>中國佛學的特質所以在禪的因緣，且分兩條來說：</p>
 <pb ed="TX" xml:id="TX02.0001.0551a" n="0551a"/>
-<lb ed="TX" n="0551a01"/><cb:div type="other"><cb:mulu type="其他" level="5">一　梵僧的化風</cb:mulu><head>一　梵僧的化風</head><p xml:id="pTX02p0551a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">梵僧乃佛教初來中國時傳教者之通稱。其實不一定皆是印度的
+<lb ed="TX" n="0551a01"/><cb:div type="other"><cb:mulu type="其他" level="5">一　梵僧的化風</cb:mulu><head>一　梵僧的化風</head>
+<p xml:id="pTX02p0551a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">梵僧乃佛教初來中國時傳教者之通稱。其實不一定皆是印度的
 <lb ed="TX" n="0551a02"/>，南洋與西域各地之來此者亦混稱梵僧。梵僧教化的風度，也可分做幾點說：（一）
 <lb ed="TX" n="0551a03"/>端肅之儀態：在當時到內地的梵僧，大概道德高深，學問淵博，他們行住坐臥四威儀
 <lb ed="TX" n="0551a04"/>，態度端嚴，使人肅然起敬。（二）淵默之風度：他們因深有修養，其幽深寂默的風
@@ -360,7 +363,8 @@
 <lb ed="TX" n="0552a02"/>摩來華後，亦即以此成為禪宗的風化，學人皆從禪中去參究，探索其祕奧，遂即成為
 <lb ed="TX" n="0552a03"/>中國佛學之特質在禪。但是僅就這一方面，還不能成為中國佛學之特質在禪，還可能
 <lb ed="TX" n="0552a04"/>成為一種神祕信仰之佛教；故還須從另一方面去說。</p></cb:div>
-<lb ed="TX" n="0552a05"/><cb:div type="other"><cb:mulu type="其他" level="5">二　華士之時尚</cb:mulu><head>二　華士之時尚</head><p xml:id="pTX02p0552a0507" style="margin-left:0em;text-indent:2em" cb:place="inline">華士即中華讀書之士——士君子、士大夫。當時文化已高，一
+<lb ed="TX" n="0552a05"/><cb:div type="other"><cb:mulu type="其他" level="5">二　華士之時尚</cb:mulu><head>二　華士之時尚</head>
+<p xml:id="pTX02p0552a0507" style="margin-left:0em;text-indent:2em" cb:place="inline">華士即中華讀書之士——士君子、士大夫。當時文化已高，一
 <lb ed="TX" n="0552a06"/>般士夫之思想，皆尚簡括綜合的玄理要旨。在言談上也推尚雋樸的語句，或詩歌之類
 <lb ed="TX" n="0552a07"/>，要言不繁，能實在表示出精義。至於一般士君子品行，也唯清高靜逸是崇，如竹林
 <lb ed="TX" n="0552a08"/>七賢等，皆從事於高隱靜修。在資產生活上，重於自食其力之儉樸淡泊。在當時可作
@@ -431,7 +435,8 @@
 <lb ed="TX" n="0557a08"/>咸驚慌。時眾中有僧稠禪師之弟子曇顯，出其師用之袈裟，令道士咒之無能動者，如
 <lb ed="TX" n="0557a09"/>是道士之術失靈，王仍信佛，可見僧稠禪力之偉大。當僧稠時帝王欲專從禪法，盡廢
 <lb ed="TX" n="0557a10"/>經律，僧稠以禪律相通諫之乃免，彌見當時禪法有驚人發展。此為禪宗以前之禪的第
-<lb ed="TX" n="0557a11"/>二階段。</p><byline cb:type="other">（弘悲記）</byline></cb:div>
+<lb ed="TX" n="0557a11"/>二階段。</p>
+<byline cb:type="other">（弘悲記）</byline></cb:div>
 <lb ed="TX" n="0557a12"/><cb:div type="other"><cb:mulu type="其他" level="5">三　念佛禪</cb:mulu><head>三　念佛禪</head>
 <pb ed="TX" xml:id="TX02.0001.0558a" n="0558a"/>
 <lb ed="TX" n="0558a01"/><p xml:id="pTX02p0558a0101" style="margin-left:0em;text-indent:2em">此說念佛禪，為後來專門持名之念佛法門所從出，但其不同的，當時修念佛禪的
@@ -525,7 +530,8 @@
 <lb ed="TX" n="0564a11"/>實連禪字都沒有認識。這是批評達摩禪不重律儀，不依教義，自以為頓悟成佛。由此
 <lb ed="TX" n="0564a12"/>可見唐初在慧能未出世以前所推崇的，仍然是依教禪，因為這是依戒定慧修的。道宣
 <pb ed="TX" xml:id="TX02.0001.0565a" n="0565a"/>
-<lb ed="TX" n="0565a01"/>律師的批評，也確為後來禪宗盛行而戒行慧學都衰落的預兆！</p><byline cb:type="other">（性覺、光宗記）</byline></cb:div></cb:div>
+<lb ed="TX" n="0565a01"/>律師的批評，也確為後來禪宗盛行而戒行慧學都衰落的預兆！</p>
+<byline cb:type="other">（性覺、光宗記）</byline></cb:div></cb:div>
 <lb ed="TX" n="0565a02"/><cb:div type="other"><cb:mulu type="其他" level="4">第三節　悟心成佛禪</cb:mulu><head>第三節　悟心成佛禪</head>
 <lb ed="TX" n="0565a03"/><p xml:id="pTX02p0565a0301" style="margin-left:0em;text-indent:2em">悟心成佛禪，是不立文字教外別傳的禪。他主張直指人心見性成佛，故亦可名見
 <lb ed="TX" n="0565a04"/>性成佛禪，或即心是佛禪。</p>
@@ -600,7 +606,11 @@
 <lb ed="TX" n="0570a08"/>增減。三、無所求行，就是對於世間的一切都無所求，因為三界都是苦的。四、稱法
 <lb ed="TX" n="0570a09"/>行，即稱法性之理而行。此四種入行，萬行同攝，亦與理入無碍。此依高僧傳說，並
 <lb ed="TX" n="0570a10"/>傳慧可四卷楞伽以印心云。</p>
-<lb ed="TX" n="0570a11"/><p xml:id="pTX02p0570a1101" style="margin-left:0em;text-indent:2em">但傳燈錄則說他是梁武帝普通年間<note place="inline">二年或七年八年</note>來中國的，初到廣州，<note n="0570a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0570a11.31">刺【CB】，剌【太虛】</note><app n="0570a1101"><lem wit="【太虛】">剌</lem><rdg resp="CBETA" type="cbetaRemark">刺</rdg></app>史
+<lb ed="TX" n="0570a11"/><p xml:id="pTX02p0570a1101" style="margin-left:0em;text-indent:2em">但傳燈錄則說他是梁武帝普通年間<note place="inline">二年或七年八年</note>來中國的，初到廣州，<note 
+n="0570a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0570a11.31">刺【CB】，剌【太虛】</note><app n="0570a1101">
+  <lem wit="【太虛】">剌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">刺</rdg>
+</app>史
 <lb ed="TX" n="0570a12"/>表聞武帝，武帝乃迎接他至金陵。武帝問他道：『朕即位以來，造寺寫經、度僧不可
 <pb ed="TX" xml:id="TX02.0001.0571a" n="0571a"/>
 <lb ed="TX" n="0571a01"/>勝紀，有何功德』？達摩答曰：『並無功德』。帝曰：『何以無功德』？答曰：『此
@@ -611,7 +621,11 @@
 <lb ed="TX" n="0571a06"/>』。帝擬遣人追回，誌公曰：『闔國人追去亦不能回矣』！</p>
 <lb ed="TX" n="0571a07"/><p xml:id="pTX02p0571a0701" style="margin-left:0em;text-indent:2em">達摩北上至嵩山少林寺，便面壁而坐，終日默然。時有神光，係一中年博聞善講
 <lb ed="TX" n="0571a08"/>之士，聞達摩之名，特地跑到少林寺去親近他。他到了少林，見達摩朝夕端坐，面向
-<lb ed="TX" n="0571a09"/>牆壁，默然無語。神光自己心裡便這樣想：古人求法，敲骨取髓，<note n="0571a0901" resp="CBETA" type="add" rend="hide" note_key="TX02.0571a09.25">刺【CB】，剌【太虛】</note><app n="0571a0901"><lem wit="【太虛】">剌</lem><rdg resp="CBETA" type="cbetaRemark">刺</rdg></app>血濟飢，布髮掩
+<lb ed="TX" n="0571a09"/>牆壁，默然無語。神光自己心裡便這樣想：古人求法，敲骨取髓，<note 
+n="0571a0901" resp="CBETA" type="add" rend="hide" note_key="TX02.0571a09.25">刺【CB】，剌【太虛】</note><app n="0571a0901">
+  <lem wit="【太虛】">剌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">刺</rdg>
+</app>血濟飢，布髮掩
 <lb ed="TX" n="0571a10"/>泥，投崖飼虎，今我何人？如是他就在一個大雪夜裡，端正地立在達摩的旁邊，積雪
 <lb ed="TX" n="0571a11"/>過膝。這時達摩很憐憫他道：『汝久立雪中，當求何事』？神光悲痛而泣曰：『願和
 <lb ed="TX" n="0571a12"/>尚慈悲，開甘露門，廣度群品』！達摩曰：『諸佛無上妙道，曠劫精進，難行能行難
@@ -639,7 +653,11 @@
 <lb ed="TX" n="0573a08"/>錄記載後一段，或是口傳慧可的事。</p>
 <lb ed="TX" n="0573a09"/><p xml:id="pTX02p0573a0901" style="margin-left:0em;text-indent:2em">達摩初創了禪宗，慧可為第二祖。據高僧傳說，慧可侍奉達摩有六年之久，承受
 <lb ed="TX" n="0573a10"/>衣法後，於天平二年到北齊鄴都大宏禪法，因此一般咬文嚼字的法師們，便嫉妒他，
-<lb ed="TX" n="0573a11"/>障礙他、排斥他，甚至派<note n="0573a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0573a11.10">刺【CB】，剌【太虛】</note><app n="0573a1101"><lem wit="【太虛】">剌</lem><rdg resp="CBETA" type="cbetaRemark">刺</rdg></app>客殺害他！據說他的臂骨被折斷。這或許也是那些偏執文
+<lb ed="TX" n="0573a11"/>障礙他、排斥他，甚至派<note 
+n="0573a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0573a11.10">刺【CB】，剌【太虛】</note><app n="0573a1101">
+  <lem wit="【太虛】">剌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">刺</rdg>
+</app>客殺害他！據說他的臂骨被折斷。這或許也是那些偏執文
 <lb ed="TX" n="0573a12"/>字之徒幹的。傳燈錄說，他後來在筦城縣匡救寺門前談無上道，很多人圍著他聽。時
 <pb ed="TX" xml:id="TX02.0001.0574a" n="0574a"/>
 <lb ed="TX" n="0574a01"/>有辯和法師講涅槃於寺中，以其徒轉從慧可參禪，大興毀謗。那一縣的知縣翟仲侃，
@@ -752,7 +770,8 @@
 <lb ed="TX" n="0582a04"/>是般若空宗，故五祖云都未見性；待室中再為說金剛，慧能乃大悟自性而傳衣法。</p>
 <lb ed="TX" n="0582a05"/><p xml:id="pTX02p0582a0501" style="margin-left:0em;text-indent:2em">此外還有賢首教義的頓教，其內容也就是禪宗；因為在賢首時禪宗已盛行，所以
 <lb ed="TX" n="0582a06"/>別開頓教以安置之。但慧能後禪宗的開展，又非賢首的頓教所能範圍，故附言於此弘
-<lb ed="TX" n="0582a07"/>忍、慧能間。</p><byline cb:type="other">（光宗、性覺記）</byline></cb:div>
+<lb ed="TX" n="0582a07"/>忍、慧能間。</p>
+<byline cb:type="other">（光宗、性覺記）</byline></cb:div>
 <lb ed="TX" n="0582a08"/><cb:div type="other"><cb:mulu type="其他" level="5">四　慧能之師資</cb:mulu><head>四　慧能之師資</head>
 <lb ed="TX" n="0582a09"/><p xml:id="pTX02p0582a0901" style="margin-left:0em;text-indent:2em">五祖弘忍後，神秀弘禪於北方，甚為高宗、中宗及武后所崇奉。慧能則弘於廣東
 <lb ed="TX" n="0582a10"/>曹溪，故對神秀北宗而稱南宗。後來所謂宗門，實到慧能南宗始巍然卓立。因六祖前
@@ -904,7 +923,8 @@
 <pb ed="TX" xml:id="TX02.0001.0594a" n="0594a"/>
 <lb ed="TX" n="0594a01"/>：『身心無外，甯有物耶』！曰：『汝壞世間相耶』？僧曰：『世間相即無相，何用
 <lb ed="TX" n="0594a02"/>更壞』！慧忠國師乃為印可曰：『如是可離過矣』。問答間使之計窮疑盡，豁然契悟
-<lb ed="TX" n="0594a03"/>，勝過造一部論。</p><byline cb:type="other">（弘悲記）</byline></cb:div>
+<lb ed="TX" n="0594a03"/>，勝過造一部論。</p>
+<byline cb:type="other">（弘悲記）</byline></cb:div>
 <lb ed="TX" n="0594a04"/><cb:div type="other"><cb:mulu type="其他" level="5">二　希遷與道一</cb:mulu><head>二　希遷與道一</head>
 <lb ed="TX" n="0594a05"/><p xml:id="pTX02p0594a0501" style="margin-left:0em;text-indent:2em">希遷即石頭遷，是青原行思禪師傳承之下的；道一即是馬祖，是南岳懷讓禪師傳
 <lb ed="TX" n="0594a06"/>承之下的。</p>
@@ -956,7 +976,11 @@
 <pb ed="TX" xml:id="TX02.0001.0598a" n="0598a"/>
 <lb ed="TX" n="0598a01"/>？丈亦取拂子舉之。馬祖道：『只這個還別有』？丈亦將拂子放回原處。馬祖遂大喝一
 <lb ed="TX" n="0598a02"/>聲，當使百丈耳聾三日，後來百丈在大雄山，將此事告訴給黃檗、溈山，檗聞之吐舌
-<lb ed="TX" n="0598a03"/>。丈問檗道：『汝<note n="0598a0301" resp="CBETA" type="add" rend="hide" note_key="TX02.0598a03.06">已【CB】，巳【太虛】</note><app n="0598a0301"><lem wit="【太虛】">巳</lem><rdg resp="CBETA" type="cbetaRemark">已</rdg></app>後莫承嗣馬祖去』！檗云：『不然，若嗣馬祖，以後喪我兒孫』
+<lb ed="TX" n="0598a03"/>。丈問檗道：『汝<note 
+n="0598a0301" resp="CBETA" type="add" rend="hide" note_key="TX02.0598a03.06">已【CB】，巳【太虛】</note><app n="0598a0301">
+  <lem wit="【太虛】">巳</lem>
+  <rdg resp="CBETA" type="cbetaRemark">已</rdg>
+</app>後莫承嗣馬祖去』！檗云：『不然，若嗣馬祖，以後喪我兒孫』
 <lb ed="TX" n="0598a04"/>！這就是表示親從百丈得見馬祖大機大用，故應嗣百丈而不嗣馬祖。</p>
 <lb ed="TX" n="0598a05"/><p xml:id="pTX02p0598a0501" style="margin-left:0em;text-indent:2em">一日溈山侍丈座右，丈要溈山『併卻咽喉唇吻道一句』，溈山說：『請和尚道』
 <lb ed="TX" n="0598a06"/>！丈謂：『不辭與汝道，久後喪我兒孫』！這是百丈下開出臨濟，溈仰二家的根源。</p>
@@ -1074,7 +1098,8 @@
 <lb ed="TX" n="0607a01"/>的位上先去了。便笑道：『我女鋒捷矣』。過了七天，有州牧于公來問病，他便枕在
 <lb ed="TX" n="0607a02"/>于公的肘上而逝。龐婆見老頭兒、女兒都走了，乃跑到田裡去告訴兒子，兒子聽說父
 <lb ed="TX" n="0607a03"/>親、妹子都走了，他也就站著倚鋤而化。龐婆便道：『你們都這樣，我偏不然』！後
-<lb ed="TX" n="0607a04"/>來遂不知所終。以上都是禪宗盛於遷、一後的公案。</p><byline cb:type="other">（性覺、光宗記）</byline></cb:div>
+<lb ed="TX" n="0607a04"/>來遂不知所終。以上都是禪宗盛於遷、一後的公案。</p>
+<byline cb:type="other">（性覺、光宗記）</byline></cb:div>
 <lb ed="TX" n="0607a05"/><cb:div type="other"><cb:mulu type="其他" level="5">四　雲龍與黃溈</cb:mulu><head>四　雲龍與黃溈</head>
 <lb ed="TX" n="0607a06"/><p xml:id="pTX02p0607a0601" style="margin-left:0em;text-indent:2em">雲是雲岩、即曇晟禪師。他是建昌人，俗姓王，少年出家於石門，初參百丈禪師
 <lb ed="TX" n="0607a07"/>，未悟。在百丈那裏住了將近二十年。後來轉參藥山，言下契會。一日藥問道：『聞
@@ -1273,7 +1298,8 @@
 <lb ed="TX" n="0622a05"/>尚書問仰山寂：「公尋常如何接人」？寂曰：「僧到必問來為何事？曰、來親近；便
 <lb ed="TX" n="0622a06"/>問見老僧否？曰、見！又曰：老僧何似驢？僧未有能答者」。韋曰：「若言見爭奈驢
 <lb ed="TX" n="0622a07"/>，若言不見今禮覲誰？所以難答」。寂曰：「無人似尚書能辨析者」。拗潭月與行偉
-<lb ed="TX" n="0622a08"/>俱稱善，南獨曰：『溈仰宗枝不到今者，病在此耳』。</p><byline cb:type="other">（性覺、光宗記）</byline></cb:div>
+<lb ed="TX" n="0622a08"/>俱稱善，南獨曰：『溈仰宗枝不到今者，病在此耳』。</p>
+<byline cb:type="other">（性覺、光宗記）</byline></cb:div>
 <lb ed="TX" n="0622a09"/><cb:div type="other"><cb:mulu type="其他" level="5">二　臨濟之陡徹</cb:mulu><head>二　臨濟之陡徹</head>
 <lb ed="TX" n="0622a10"/><p xml:id="pTX02p0622a1001" style="margin-left:0em;text-indent:2em">現講臨濟之陡徹，陡徹就是陡然徹悟的意思。臨濟義玄禪師，是山東曹州人，少
 <lb ed="TX" n="0622a11"/>年出家，在黃檗那裡從住很久。黃檗會下有一首座，知他是法器，要他向和尚問如何
@@ -1586,7 +1612,8 @@
 <lb ed="TX" n="0646a06"/>云：『如何是臨濟下事』？演答曰：『五逆聞雷<note place="inline">顯其驚絕</note>』。問：『如何是雲門
 <lb ed="TX" n="0646a07"/>下事』？曰：『紅旗閃爍<note place="inline">顯其微露</note>』。『如何是溈仰下事』？曰：『斷碑橫古路
 <lb ed="TX" n="0646a08"/><note place="inline">顯其深奧</note>』。『如何是曹洞下事』？曰：『馳書不到家<note place="inline">顯其回互</note>』。『如何
-<lb ed="TX" n="0646a09"/>是法眼下事』？曰『巡人犯夜<note place="inline">顯其隱微</note>』。據此答辭，可略窺五家宗風之異。</p><byline cb:type="other">（
+<lb ed="TX" n="0646a09"/>是法眼下事』？曰『巡人犯夜<note place="inline">顯其隱微</note>』。據此答辭，可略窺五家宗風之異。</p>
+<byline cb:type="other">（
 <lb ed="TX" n="0646a10"/>光宗、性覺記）</byline></cb:div></cb:div>
 <lb ed="TX" n="0646a11"/><cb:div type="other"><cb:mulu type="其他" level="4">第六節　宋元明清禪</cb:mulu><head>第六節　宋元明清禪</head>
 <lb ed="TX" n="0646a12"/><p xml:id="pTX02p0646a1201" style="margin-left:0em;text-indent:2em">今講「宋元明清禪」。宋、元、明、清、是四個朝代。前講之「越祖分燈禪」，
@@ -1761,7 +1788,8 @@
 <lb ed="TX" n="0659a12"/>曾發願十年治國，十年興教。就其行事言，均極確當。惜他十年後正開始宏宗演教，
 <pb ed="TX" xml:id="TX02.0001.0660a" n="0660a"/>
 <lb ed="TX" n="0660a01"/>逾年即死。且其時亦無高僧，遂亦無補於衰腐。比之藏地，這可云是中國佛教之不幸
-<lb ed="TX" n="0660a02"/>！</p><byline cb:type="other">（弘悲記）</byline></cb:div>
+<lb ed="TX" n="0660a02"/>！</p>
+<byline cb:type="other">（弘悲記）</byline></cb:div>
 <lb ed="TX" n="0660a03"/><cb:div type="other"><cb:mulu type="其他" level="5">五　空默之觀照</cb:mulu><head>五　空默之觀照</head>
 <lb ed="TX" n="0660a04"/><p xml:id="pTX02p0660a0401" style="margin-left:0em;text-indent:2em">「空默之觀照」，亦是宋元來的禪宗一派。大抵似牛頭融未見四祖前之類，在禪
 <lb ed="TX" n="0660a05"/>宗下大抵認為不澈底。所以北宋真淨文禪師闢此禪法云：『宗下事參須實參，悟須實
@@ -1873,7 +1901,11 @@
 <lb ed="TX" n="0668a07"/>道機宜，若顯若晦……高峰、中峰之冷嚴而蹈晦，萬松、雪庭之圓敏以精特，皆所以
 <lb ed="TX" n="0668a08"/>深培厚蓄而啟隆振之緒于未艾」！此明南宋至明之禪統，又云：「啟禎<note place="inline">天啟崇禎也</note>
 <lb ed="TX" n="0668a09"/>間禪風以天童、三峰兩祖而大振，為先後左右者，雲棲、紫柏、憨山三大士而外，有
-<lb ed="TX" n="0668a10"/>真寂印，鵝湖心，儀峰象，無念有諸公，為之防閑提擎，所以數十年來，<note n="0668a1001" resp="CBETA" type="add" rend="hide" note_key="TX02.0668a10.27">令【CB】，<unclear/>【太虛】</note><app n="0668a1001"><lem wit="【CB】" resp="CBETA">令</lem><rdg wit="【太虛】"><unclear/></rdg></app>行吳越，
+<lb ed="TX" n="0668a10"/>真寂印，鵝湖心，儀峰象，無念有諸公，為之防閑提擎，所以數十年來，<note 
+n="0668a1001" resp="CBETA" type="add" rend="hide" note_key="TX02.0668a10.27">令【CB】，<unclear/>【太虛】</note><app n="0668a1001">
+  <lem wit="【CB】" resp="CBETA">令</lem>
+  <rdg wit="【太虛】"><unclear/></rdg>
+</app>行吳越，
 <lb ed="TX" n="0668a11"/>幾復追唐宋之盛」。又云：「萬歷四十三年至康熙間七十五年，其間天童、磬山廓龍
 <lb ed="TX" n="0668a12"/>池、禹門之緒，而臨濟之道以興；雲門、博山振清涼、壽昌之業，而洞上之宗聿起；
 <pb ed="TX" xml:id="TX02.0001.0669a" n="0669a"/>
@@ -1999,9 +2031,11 @@
 <lb ed="TX" n="0678a03"/>也說得，不過有一事，就是煩惱生死不能解脫。後放下一切，力參數年乃大悟。故宋
 <lb ed="TX" n="0678a04"/>儒及今新理學者，雖能在禪錄鑽點道理出來，至多不過如三峰的未悟以前；且如已悟
 <lb ed="TX" n="0678a05"/>之三峰，亦不過才破本參而已。鑽研語錄，在力參透悟，說理、則去鑽研語錄之意亦
-<lb ed="TX" n="0678a06"/>遠矣。</p><byline cb:type="other">（光宗、性覺、弘悲記）</byline></cb:div></cb:div></cb:div>
+<lb ed="TX" n="0678a06"/>遠矣。</p>
+<byline cb:type="other">（光宗、性覺、弘悲記）</byline></cb:div></cb:div></cb:div>
 <pb ed="TX" xml:id="TX02.0001.0679a" n="0679a"/>
-<lb ed="TX" n="0679a01"/><cb:div type="other"><cb:mulu type="其他" level="3">第三章　禪觀行演為台賢教</cb:mulu><head>第三章　禪觀行演為台賢教<note n="0679001" resp="TaiXu" place="foot text" type="orig">本章原題「賢首學與天臺學比較研究」，係二十一年秋在世苑圖書館講，法舫筆記，載於海刊十三卷十一期。此處應講從禪出教之臺賢學，以曾講此文，乃略而不講。承大師意，編入以完成書。</note></head>
+<lb ed="TX" n="0679a01"/><cb:div type="other"><cb:mulu type="其他" level="3">第三章　禪觀行演為台賢教</cb:mulu><head>第三章　禪觀行演為台賢教<note 
+n="0679001" resp="TaiXu" place="foot text" type="orig">本章原題「賢首學與天臺學比較研究」，係二十一年秋在世苑圖書館講，法舫筆記，載於海刊十三卷十一期。此處應講從禪出教之臺賢學，以曾講此文，乃略而不講。承大師意，編入以完成書。</note></head>
 <lb ed="TX" n="0679a02"/><cb:div type="other"><cb:mulu type="其他" level="4">第一節　緒言</cb:mulu><head>第一節　緒言</head>
 <lb ed="TX" n="0679a03"/><p xml:id="pTX02p0679a0301" style="margin-left:0em;text-indent:2em">今講賢首學與天台學，分為五節。先講敘論又為三。</p>
 <lb ed="TX" n="0679a04"/><cb:div type="other"><cb:mulu type="其他" level="5">一　賢首學與天台學名義之審定</cb:mulu><head>一　賢首學與天台學名義之審定</head>
@@ -2110,7 +2144,8 @@
 <lb ed="TX" n="0687a04"/>歷史，如史傳中說。茲將他的思想學說和建立天台學的幾個重要意義一說。智者大師
 <lb ed="TX" n="0687a05"/>建立教觀的思想，在中國佛教史上是最偉大的了，他以八教五時等來判釋釋尊的一代
 <lb ed="TX" n="0687a06"/>教法。</p>
-<lb ed="TX" n="0687a07"/><cb:div type="other"><cb:mulu type="其他" level="7">１　建立八教</cb:mulu><head>１　建立八教</head><p xml:id="pTX02p0687a0706" style="margin-left:0em;text-indent:2em" cb:place="inline">以八教來判決全佛法藏。八教分做二種：一種是化法四教：一藏教
+<lb ed="TX" n="0687a07"/><cb:div type="other"><cb:mulu type="其他" level="7">１　建立八教</cb:mulu><head>１　建立八教</head>
+<p xml:id="pTX02p0687a0706" style="margin-left:0em;text-indent:2em" cb:place="inline">以八教來判決全佛法藏。八教分做二種：一種是化法四教：一藏教
 <lb ed="TX" n="0687a08"/>、二通教、三別教、四圓教。這四種教、是實質的分判，也可以說是事實的分判。從
 <lb ed="TX" n="0687a09"/>受教的眾生方面觀察根機而分別施藥，這樣就可以將釋尊無量教法分判得有條不紊了
 <lb ed="TX" n="0687a10"/>。其次、化儀四教是說明佛陀應機說法的各種方法儀式：一頓教、對上根利智直說成
@@ -2134,11 +2169,13 @@
 <lb ed="TX" n="0688a15"/><p xml:id="pTX02p0688a1501" style="margin-left:0em;text-indent:2em">照上表觀之，雖然前二是小乘，後二是大乘，但是可以互相相通的，一研究智者
 <pb ed="TX" xml:id="TX02.0001.0689a" n="0689a"/>
 <lb ed="TX" n="0689a01"/>大師的五時八教圖表，就可明白了。</p></cb:div>
-<lb ed="TX" n="0689a02"/><cb:div type="other"><cb:mulu type="其他" level="7">２　五時</cb:mulu><head>２　五時</head><p xml:id="pTX02p0689a0204" style="margin-left:0em;text-indent:2em" cb:place="inline">第二智者大師建立天台教義，有五時的分判。五時者：一華嚴時，二鹿
+<lb ed="TX" n="0689a02"/><cb:div type="other"><cb:mulu type="其他" level="7">２　五時</cb:mulu><head>２　五時</head>
+<p xml:id="pTX02p0689a0204" style="margin-left:0em;text-indent:2em" cb:place="inline">第二智者大師建立天台教義，有五時的分判。五時者：一華嚴時，二鹿
 <lb ed="TX" n="0689a03"/>苑時，三方等時，四般若時，五涅槃時。這五時，是說明釋尊說法的時代前後所說的
 <lb ed="TX" n="0689a04"/>各別不同；但釋尊的說法，本沒有限定，所以天台於此別五時以外，又有通五時之說
 <lb ed="TX" n="0689a05"/>。別五時就是說法聽法別有齊限，通五時就是可通前後的。</p></cb:div>
-<lb ed="TX" n="0689a06"/><cb:div type="other"><cb:mulu type="其他" level="7">３　一念三千</cb:mulu><head>３　一念三千</head><p xml:id="pTX02p0689a0606" style="margin-left:0em;text-indent:2em" cb:place="inline">第三為智者大師建立天台教觀中最特勝之點，所謂一念三千。五時
+<lb ed="TX" n="0689a06"/><cb:div type="other"><cb:mulu type="其他" level="7">３　一念三千</cb:mulu><head>３　一念三千</head>
+<p xml:id="pTX02p0689a0606" style="margin-left:0em;text-indent:2em" cb:place="inline">第三為智者大師建立天台教觀中最特勝之點，所謂一念三千。五時
 <lb ed="TX" n="0689a07"/>分判，是根據涅槃五味、法華窮子喻等。此一念三千，為一心三觀所觀真俗中三諦所
 <lb ed="TX" n="0689a08"/>託之法。一念三千簡單的說明，就是一剎那心念中具足三千諸法，包羅一切有情法和
 <lb ed="TX" n="0689a09"/>非有情法。天台教中分宇宙萬法為三類：一曰有情，即正報；二曰非情，即依報；三
@@ -2151,7 +2188,8 @@
 <lb ed="TX" n="0690a03"/>一法皆是真俗中三諦，三諦圓融互攝，照之即成一心三觀。一心三觀中，具足三千諸
 <lb ed="TX" n="0690a04"/>法，謂之一念三千。一念心中具足曰理具，事實顯現曰事造，理具事造兩重三千諸法
 <lb ed="TX" n="0690a05"/>互攝互融，乃為天台智者大師依法華諸法實相義，充實慧文一心三觀之微妙觀境。</p></cb:div>
-<lb ed="TX" n="0690a06"/><cb:div type="other"><cb:mulu type="其他" level="7">４　六即</cb:mulu><head>４　六即</head><p xml:id="pTX02p0690a0604" style="margin-left:0em;text-indent:2em" cb:place="inline">第四是天台智者大師建立的六即義。言六即者：一、理即，就是三千諸
+<lb ed="TX" n="0690a06"/><cb:div type="other"><cb:mulu type="其他" level="7">４　六即</cb:mulu><head>４　六即</head>
+<p xml:id="pTX02p0690a0604" style="margin-left:0em;text-indent:2em" cb:place="inline">第四是天台智者大師建立的六即義。言六即者：一、理即，就是三千諸
 <lb ed="TX" n="0690a07"/>法在一心中具有，則一切眾生即同諸佛，無二無別，當體即佛，因此說一切眾生本皆
 <lb ed="TX" n="0690a08"/>是佛。二、名字即，名字謂教理，依教理而開圓解，解齊諸佛，曰名字即佛。三、觀
 <lb ed="TX" n="0690a09"/>行即，謂依前理解、觀行相印也。四、相似即，六根清淨相似於佛也。五、分證即，
@@ -2200,40 +2238,48 @@
 <pb ed="TX" xml:id="TX02.0001.0694a" n="0694a"/>
 <lb ed="TX" n="0694a01"/>時八教等，現在覺得不十分重要，而考察天台學對於佛法最重要的幾個貢獻，是一心
 <lb ed="TX" n="0694a02"/>三觀、十法界、六即、性具。</p>
-<lb ed="TX" n="0694a03"/><cb:div type="other"><cb:mulu type="其他" level="6">甲　一心三觀</cb:mulu><head>甲　一心三觀</head><p xml:id="pTX02p0694a0306" style="margin-left:0em;text-indent:2em" cb:place="inline">一心三觀前面已經略為說過。略而言之，是由一境三諦起一心三
+<lb ed="TX" n="0694a03"/><cb:div type="other"><cb:mulu type="其他" level="6">甲　一心三觀</cb:mulu><head>甲　一心三觀</head>
+<p xml:id="pTX02p0694a0306" style="margin-left:0em;text-indent:2em" cb:place="inline">一心三觀前面已經略為說過。略而言之，是由一境三諦起一心三
 <lb ed="TX" n="0694a04"/>觀，以一心三觀之智、證一境三諦之理，可謂得佛法之大總持及一切禪觀法門之綱要
 <lb ed="TX" n="0694a05"/>者。如此一心三觀，為佛法中最普遍義，亦即佛教的根本，就是天台宗第一宗要。</p></cb:div>
-<lb ed="TX" n="0694a06"/><cb:div type="other"><cb:mulu type="其他" level="6">乙　十法界</cb:mulu><head>乙　十法界</head><p xml:id="pTX02p0694a0605" style="margin-left:0em;text-indent:2em" cb:place="inline">十法界在天台教義之前沒有具體的組織，到了天台宗成立以後才組
+<lb ed="TX" n="0694a06"/><cb:div type="other"><cb:mulu type="其他" level="6">乙　十法界</cb:mulu><head>乙　十法界</head>
+<p xml:id="pTX02p0694a0605" style="margin-left:0em;text-indent:2em" cb:place="inline">十法界在天台教義之前沒有具體的組織，到了天台宗成立以後才組
 <lb ed="TX" n="0694a07"/>織成立，而且十法界每界互具九界而成百法界，重重涉入猶如帝網。後來華嚴宗的十
 <lb ed="TX" n="0694a08"/>玄和密宗的曼陀羅等，皆援引天台十法界互具互融之義相助發揮，這是天台學之第二
 <lb ed="TX" n="0694a09"/>宗要。</p></cb:div>
-<lb ed="TX" n="0694a10"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　六即</cb:mulu><head>丙　六即</head><p xml:id="pTX02p0694a1004" style="margin-left:0em;text-indent:2em" cb:place="inline">六即義前已說過。簡單的說，六即義可以使人明白一切眾生即身是佛
+<lb ed="TX" n="0694a10"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　六即</cb:mulu><head>丙　六即</head>
+<p xml:id="pTX02p0694a1004" style="margin-left:0em;text-indent:2em" cb:place="inline">六即義前已說過。簡單的說，六即義可以使人明白一切眾生即身是佛
 <lb ed="TX" n="0694a11"/>，於無上菩提不生退屈心；然性德雖是如此，如不起修德則仍為眾生，因此有即而常
 <lb ed="TX" n="0694a12"/>六的四教階位之判，使修學者不生增上慢。密宗的即身成佛，只得到六而常即的一面
 <pb ed="TX" xml:id="TX02.0001.0695a" n="0695a"/>
 <lb ed="TX" n="0695a01"/>，不逮天台六即之圓滿，這是天台學的第三宗要。</p></cb:div>
-<lb ed="TX" n="0695a02"/><cb:div type="other"><cb:mulu type="其他" level="6">丁　性具</cb:mulu><head>丁　性具</head><p xml:id="pTX02p0695a0204" style="margin-left:0em;text-indent:2em" cb:place="inline">性具義是觀察十法界的有情，不但具一切善而且具一切惡；如到佛果
+<lb ed="TX" n="0695a02"/><cb:div type="other"><cb:mulu type="其他" level="6">丁　性具</cb:mulu><head>丁　性具</head>
+<p xml:id="pTX02p0695a0204" style="margin-left:0em;text-indent:2em" cb:place="inline">性具義是觀察十法界的有情，不但具一切善而且具一切惡；如到佛果
 <lb ed="TX" n="0695a03"/>仍可現地獄、餓鬼、畜生之惡相而施教化，這不但就體性說是如此，就是依行相上去
 <lb ed="TX" n="0695a04"/>說亦是如此。如果佛現金剛藥叉明王等忿怒貪癡像，於諸暴惡造罪有情行諸惡事，這
 <lb ed="TX" n="0695a05"/>是惡事善用；在平常世間眾生之惡相，是業感的幻化相，而到了佛果亦可幻現這種惡
 <lb ed="TX" n="0695a06"/>相的行事來度化眾生。天台宗特別發揮這性具的道理，所以有人稱天台宗為性具宗的
 <lb ed="TX" n="0695a07"/>，這是天台學的第四宗要。</p></cb:div></cb:div>
 <lb ed="TX" n="0695a08"/><cb:div type="other"><cb:mulu type="其他" level="5">六　天台學與禪律淨密之關係</cb:mulu><head>六　天台學與禪律淨密之關係</head>
-<lb ed="TX" n="0695a09"/><cb:div type="other"><cb:mulu type="其他" level="6">甲　天台學與禪宗的關係</cb:mulu><head>甲　天台學與禪宗的關係</head><p xml:id="pTX02p0695a0911" style="margin-left:0em;text-indent:2em" cb:place="inline">天台學和禪宗關係頗深，創始的慧文、慧思二師都是
+<lb ed="TX" n="0695a09"/><cb:div type="other"><cb:mulu type="其他" level="6">甲　天台學與禪宗的關係</cb:mulu><head>甲　天台學與禪宗的關係</head>
+<p xml:id="pTX02p0695a0911" style="margin-left:0em;text-indent:2em" cb:place="inline">天台學和禪宗關係頗深，創始的慧文、慧思二師都是
 <lb ed="TX" n="0695a10"/>修禪的禪師。到了智者成立教義的時期，禪宗尚未十分興起，而當時一般佛弟子所修
 <lb ed="TX" n="0695a11"/>的禪定，要算天台之一心三觀的禪為最高的禪定了。後來禪宗盛行，到了荊溪大師抗
 <lb ed="TX" n="0695a12"/>禪宗而宏一心三觀之禪，其弟子粱肅有刪定止觀等。宋朝四明大師還是依著天台禪觀
 <pb ed="TX" xml:id="TX02.0001.0696a" n="0696a"/>
 <lb ed="TX" n="0696a01"/>而和當時的禪宗對抗，不相上下。元明以來，實習天台禪觀者甚少，就是學天台的人
 <lb ed="TX" n="0696a02"/>，也多半流為淨土宗，而不能與禪宗抗衡了。</p></cb:div>
-<lb ed="TX" n="0696a03"/><cb:div type="other"><cb:mulu type="其他" level="6">乙　天台學與律宗之關係</cb:mulu><head>乙　天台學與律宗之關係</head><p xml:id="pTX02p0696a0311" style="margin-left:0em;text-indent:2em" cb:place="inline">天台與律宗關係亦殊深厚，天台大師得法華三昧，以
+<lb ed="TX" n="0696a03"/><cb:div type="other"><cb:mulu type="其他" level="6">乙　天台學與律宗之關係</cb:mulu><head>乙　天台學與律宗之關係</head>
+<p xml:id="pTX02p0696a0311" style="margin-left:0em;text-indent:2em" cb:place="inline">天台與律宗關係亦殊深厚，天台大師得法華三昧，以
 <lb ed="TX" n="0696a04"/>諸法實相普遍建立禪觀教律攝受一切徒眾，於律當然重視；故智者於四分律有疏，並
 <lb ed="TX" n="0696a05"/>疏梵網經等。到宋朝靈芝律師，依天台教義闡揚律宗，立圓頓戒體。在先戒體之解釋
 <lb ed="TX" n="0696a06"/>，多依法相，自此以後則宗天台。</p></cb:div>
-<lb ed="TX" n="0696a07"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　天台學與淨土宗之關係</cb:mulu><head>丙　天台學與淨土宗之關係</head><p xml:id="pTX02p0696a0712" style="margin-left:0em;text-indent:2em" cb:place="inline">智者大師之弘淨土，曾著十疑論等。命終有說生兜
+<lb ed="TX" n="0696a07"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　天台學與淨土宗之關係</cb:mulu><head>丙　天台學與淨土宗之關係</head>
+<p xml:id="pTX02p0696a0712" style="margin-left:0em;text-indent:2em" cb:place="inline">智者大師之弘淨土，曾著十疑論等。命終有說生兜
 <lb ed="TX" n="0696a08"/>率淨土者，而多數則說生極樂淨土。其次、天台宗弘淨土最力者為蕅益大師，教宗天
 <lb ed="TX" n="0696a09"/>台而行歸淨土，以至現在天台宗學者，皆循行之。</p></cb:div>
-<lb ed="TX" n="0696a10"/><cb:div type="other"><cb:mulu type="其他" level="6">丁　天台學與密宗之關係</cb:mulu><head>丁　天台學與密宗之關係</head><p xml:id="pTX02p0696a1011" style="margin-left:0em;text-indent:2em" cb:place="inline">天台學成立時，密宗尚未興起。唐以來而弘傳密宗者
+<lb ed="TX" n="0696a10"/><cb:div type="other"><cb:mulu type="其他" level="6">丁　天台學與密宗之關係</cb:mulu><head>丁　天台學與密宗之關係</head>
+<p xml:id="pTX02p0696a1011" style="margin-left:0em;text-indent:2em" cb:place="inline">天台學成立時，密宗尚未興起。唐以來而弘傳密宗者
 <lb ed="TX" n="0696a11"/>，如一行之大日疏，多依天台教義；而天台大師對於古來所傳雜密經咒，皆融攝無遺
 <lb ed="TX" n="0696a12"/>；故其修持的行法，多與密教相倚。今所盛行之大悲懺儀軌、水陸等儀軌、皆出於天
 <pb ed="TX" xml:id="TX02.0001.0697a" n="0697a"/>
@@ -2292,7 +2338,8 @@
 <lb ed="TX" n="0701a01"/><p xml:id="pTX02p0701a0101" style="margin-left:0em;text-indent:2em">賢首大師雖說是集華嚴學之大成者，但他多分是承傳前兩師之學說；如三觀、十
 <lb ed="TX" n="0701a02"/>玄、五教、六相等，在賢首之所說中，僅曾略為變更組織。而此外賢首之所立者，為
 <lb ed="TX" n="0701a03"/>十宗與三時十儀。</p>
-<lb ed="TX" n="0701a04"/><cb:div type="other"><cb:mulu type="其他" level="7">１　十宗</cb:mulu><head>１　十宗</head><p xml:id="pTX02p0701a0404" style="margin-left:0em;text-indent:2em" cb:place="inline">十宗者：一我法俱有宗，二法有我無宗，三法無去來宗，四現通假實宗
+<lb ed="TX" n="0701a04"/><cb:div type="other"><cb:mulu type="其他" level="7">１　十宗</cb:mulu><head>１　十宗</head>
+<p xml:id="pTX02p0701a0404" style="margin-left:0em;text-indent:2em" cb:place="inline">十宗者：一我法俱有宗，二法有我無宗，三法無去來宗，四現通假實宗
 <lb ed="TX" n="0701a05"/>，五俗妄真實宗，六諸法但名宗，七一切皆空宗，八真實不空宗，九相想俱絕宗，十
 <lb ed="TX" n="0701a06"/>圓明具德宗。這十宗的建立，其實賢首是根據於法相唯識宗所傳而建立的。此十宗的
 <lb ed="TX" n="0701a07"/>前七宗，完全同於玄奘窺基之所傳，至第八宗則賢首另開為八九十三宗了。因此、十
@@ -2312,7 +2359,8 @@
 <lb ed="TX" n="0702a09"/>　　　　八應理圓實宗─┬───八真德不空宗──┘││
 <lb ed="TX" n="0702a10"/>　　　　　　　　　　　├───九相想俱絕宗───┘│
 <lb ed="TX" n="0702a11"/>　　　　　　　　　　　└───十圓明具德宗────┘</p></cb:div>
-<lb ed="TX" n="0702a12"/><cb:div type="other"><cb:mulu type="其他" level="7">２　三時</cb:mulu><head>２　三時</head><p xml:id="pTX02p0702a1204" style="margin-left:0em;text-indent:2em" cb:place="inline">三時也是賢首創立的：一先照時，二轉照時，三還照時。先照時謂佛先
+<lb ed="TX" n="0702a12"/><cb:div type="other"><cb:mulu type="其他" level="7">２　三時</cb:mulu><head>２　三時</head>
+<p xml:id="pTX02p0702a1204" style="margin-left:0em;text-indent:2em" cb:place="inline">三時也是賢首創立的：一先照時，二轉照時，三還照時。先照時謂佛先
 <lb ed="TX" n="0702a13"/>說華嚴度大乘根，如日出先照高山；轉照為度三乘人說三乘法，令漸次證入佛之菩提
 <lb ed="TX" n="0702a14"/>；三還照時，謂說法華等會三歸一，如日沒時仍照高山。這三時義，同金光明經中之
 <lb ed="TX" n="0702a15"/>所說。又三論宗之吉藏法師立三種法輪，亦同此三時義。而開轉照時為三時，即同天
@@ -2327,7 +2375,8 @@
 <lb ed="TX" n="0703a06"/>　　　　三攝末歸本法輪──還照時────法華涅槃時</p>
 <lb ed="TX" n="0703a07"/><p xml:id="pTX02p0703a0701" style="margin-left:0em;text-indent:2em">此賢首三時等於天台之別五時，仿通五時而有一念一化等十時建立，此十時亦為
 <lb ed="TX" n="0703a08"/>賢首所立十法門中勝義之一。</p></cb:div>
-<lb ed="TX" n="0703a09"/><cb:div type="other"><cb:mulu type="其他" level="7">３　十儀</cb:mulu><head>３　十儀</head><p xml:id="pTX02p0703a0904" style="margin-left:0em;text-indent:2em" cb:place="inline">在天台有化儀四教，賢首擴充之以立十儀，較天台的四儀更為圓滿。言
+<lb ed="TX" n="0703a09"/><cb:div type="other"><cb:mulu type="其他" level="7">３　十儀</cb:mulu><head>３　十儀</head>
+<p xml:id="pTX02p0703a0904" style="margin-left:0em;text-indent:2em" cb:place="inline">在天台有化儀四教，賢首擴充之以立十儀，較天台的四儀更為圓滿。言
 <lb ed="TX" n="0703a10"/>十儀者：一本末差別門，二依本起末門，三攝末歸本門，四本末無礙門，五隨機不定
 <lb ed="TX" n="0703a11"/>門，六顯密同時門，七一時頓演門，八寂寞無言門，九該通三際門，十重重無盡門。
 <lb ed="TX" n="0703a12"/>此十儀和四儀的比較，至後再說。其他若十身、十對、十門懸談等，茲亦從略。</p></cb:div></cb:div></cb:div>
@@ -2349,10 +2398,18 @@
 <lb ed="TX" n="0705a01"/>宗為清涼宗之議。清涼國師所處的時代很好，三論、唯識、天台、淨土、律宗、禪宗
 <lb ed="TX" n="0705a02"/>、密宗、均極其發達，清涼國師於唯識、三論、天台、禪宗等義，多有能融攝於華嚴
 <lb ed="TX" n="0705a03"/>中者，故為於賢首學能發揚光大之一大師。</p></cb:div>
-<lb ed="TX" n="0705a04"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　圭峰之斂削</cb:mulu><head>丙　圭峰之<note n="0705a0401" resp="CBETA" type="add" rend="hide">斂【CB】，歛【太虛】</note><app n="0705a0401"><lem wit="【太虛】">歛</lem><rdg resp="CBETA" type="cbetaRemark">斂</rdg></app>削</head>
+<lb ed="TX" n="0705a04"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　圭峰之斂削</cb:mulu><head>丙　圭峰之<note 
+n="0705a0401" resp="CBETA" type="add" rend="hide">斂【CB】，歛【太虛】</note><app n="0705a0401">
+  <lem wit="【太虛】">歛</lem>
+  <rdg resp="CBETA" type="cbetaRemark">斂</rdg>
+</app>削</head>
 <lb ed="TX" n="0705a05"/><p xml:id="pTX02p0705a0501" style="margin-left:0em;text-indent:2em">圭峰為賢首宗第五祖，雖承傳清涼之學，但其自身是出於禪宗，所以他趨重於禪
 <lb ed="TX" n="0705a06"/>，曾著有禪源都詮序。其次、則捨華嚴而力宏圓覺，既以禪宗為宗要，同時又宏圓覺
-<lb ed="TX" n="0705a07"/>，均有<note n="0705a0701" resp="CBETA" type="add" rend="hide" note_key="TX02.0705a07.03">斂【CB】，歛【太虛】</note><app n="0705a0701"><lem wit="【太虛】">歛</lem><rdg resp="CBETA" type="cbetaRemark">斂</rdg></app>削圓教而就頓教之勢也。</p></cb:div>
+<lb ed="TX" n="0705a07"/>，均有<note 
+n="0705a0701" resp="CBETA" type="add" rend="hide" note_key="TX02.0705a07.03">斂【CB】，歛【太虛】</note><app n="0705a0701">
+  <lem wit="【太虛】">歛</lem>
+  <rdg resp="CBETA" type="cbetaRemark">斂</rdg>
+</app>削圓教而就頓教之勢也。</p></cb:div>
 <lb ed="TX" n="0705a08"/><cb:div type="other"><cb:mulu type="其他" level="6">丁　宋以來之衰落</cb:mulu><head>丁　宋以來之衰落</head>
 <lb ed="TX" n="0705a09"/><p xml:id="pTX02p0705a0901" style="margin-left:0em;text-indent:2em">賢首學在唐時經過會昌之難，甚為衰落。雖宋朝有長水、源淨諸師之宏揚，但其
 <lb ed="TX" n="0705a10"/>勢仍微，僅對於起信論等稍有纘述，抱殘守缺而已。</p></cb:div>
@@ -2363,17 +2420,20 @@
 <lb ed="TX" n="0706a02"/>之組織，遂為明清來所傳之賢首學。</p></cb:div></cb:div>
 <lb ed="TX" n="0706a03"/><cb:div type="other"><cb:mulu type="其他" level="5">五　賢首學之述要</cb:mulu><head>五　賢首學之述要</head>
 <lb ed="TX" n="0706a04"/><p xml:id="pTX02p0706a0401" style="margin-left:0em;text-indent:2em">已說賢首學的成立和演變，則可知其宗學的大略，今復將其學之要點略為述之。</p>
-<lb ed="TX" n="0706a05"/><cb:div type="other"><cb:mulu type="其他" level="6">甲　五重法界</cb:mulu><head>甲　五重法界</head><p xml:id="pTX02p0706a0506" style="margin-left:0em;text-indent:2em" cb:place="inline">五重法界者：一事法界，二理法界，三理事無礙法界，四事事無
+<lb ed="TX" n="0706a05"/><cb:div type="other"><cb:mulu type="其他" level="6">甲　五重法界</cb:mulu><head>甲　五重法界</head>
+<p xml:id="pTX02p0706a0506" style="margin-left:0em;text-indent:2em" cb:place="inline">五重法界者：一事法界，二理法界，三理事無礙法界，四事事無
 <lb ed="TX" n="0706a06"/>礙法界，五一真法界。這五重法界說，為賢首宗開立之說。約言之，前四是相對的、
 <lb ed="TX" n="0706a07"/>有差別的、可安立的，第五一真法界則是絕對的、無差別的、不可施設、不可安立、
 <lb ed="TX" n="0706a08"/>不可言說的。又可以說全是相，則前四法的相，完全是別依於一真法界的相而起的，
 <lb ed="TX" n="0706a09"/>即是性起，雖四一不同，而一即是四、四即是一，一不外四、四亦不離於一。然此五
 <lb ed="TX" n="0706a10"/>重法界說，頗近唯識宗的四重真俗諦說。智者應詳。</p></cb:div>
-<lb ed="TX" n="0706a11"/><cb:div type="other"><cb:mulu type="其他" level="6">乙　六相</cb:mulu><head>乙　六相</head><p xml:id="pTX02p0706a1104" style="margin-left:0em;text-indent:2em" cb:place="inline">六相也是華嚴賢首學的要義。一同相，就是同類；二異相，就是異類
+<lb ed="TX" n="0706a11"/><cb:div type="other"><cb:mulu type="其他" level="6">乙　六相</cb:mulu><head>乙　六相</head>
+<p xml:id="pTX02p0706a1104" style="margin-left:0em;text-indent:2em" cb:place="inline">六相也是華嚴賢首學的要義。一同相，就是同類；二異相，就是異類
 <lb ed="TX" n="0706a12"/>；三總相，即一法之全體，如一屋相為總相；四別相，如戶窗等是屋的別相；五成相
 <pb ed="TX" xml:id="TX02.0001.0707a" n="0707a"/>
 <lb ed="TX" n="0707a01"/>、總合則成；六壞相，別具則壞。這六種相，無論何法均可依之以觀察。</p></cb:div>
-<lb ed="TX" n="0707a02"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　十玄</cb:mulu><head>丙　十玄</head><p xml:id="pTX02p0707a0204" style="margin-left:0em;text-indent:2em" cb:place="inline">十玄為杜順所立，已如前說。不過賢首後來對於十玄稍有變動，因此
+<lb ed="TX" n="0707a02"/><cb:div type="other"><cb:mulu type="其他" level="6">丙　十玄</cb:mulu><head>丙　十玄</head>
+<p xml:id="pTX02p0707a0204" style="margin-left:0em;text-indent:2em" cb:place="inline">十玄為杜順所立，已如前說。不過賢首後來對於十玄稍有變動，因此
 <lb ed="TX" n="0707a03"/>講十玄的有新舊兩說。茲列表如次：</p>
 <lb ed="TX" n="0707a04"/><p xml:id="pTX02p0707a0401" style="margin-left:4em"><figure><graphic url="../figures/TX/TX02p0707_01.gif"/></figure></p>
 <lb ed="TX" n="0707a05"/>
@@ -2389,7 +2449,8 @@
 <lb ed="TX" n="0708a02"/>若賢首宗之說十身，亦為殊特。十身有兩種，一種就佛身明十身，二就有情世間器世
 <lb ed="TX" n="0708a03"/>間正覺世間融合而為十身。就總義、一切法皆為佛法身，他宗皆有此義；若分別說國
 <lb ed="TX" n="0708a04"/>土身、虛空身等，則為此宗勝義也。</p></cb:div>
-<lb ed="TX" n="0708a05"/><cb:div type="other"><cb:mulu type="其他" level="6">丁　性起</cb:mulu><head>丁　性起</head><p xml:id="pTX02p0708a0504" style="margin-left:0em;text-indent:2em" cb:place="inline">天台宗有性具義，華嚴宗對之說性起義。性起就是十玄緣起，亦名法
+<lb ed="TX" n="0708a05"/><cb:div type="other"><cb:mulu type="其他" level="6">丁　性起</cb:mulu><head>丁　性起</head>
+<p xml:id="pTX02p0708a0504" style="margin-left:0em;text-indent:2em" cb:place="inline">天台宗有性具義，華嚴宗對之說性起義。性起就是十玄緣起，亦名法
 <lb ed="TX" n="0708a06"/>界無盡緣起。如清涼懸談序云：「大哉真界，萬法資始」；萬法資始於真界，即性起
 <lb ed="TX" n="0708a07"/>義。賢首學者謂天台性具只具而已，此宗說性起，則不但性具而且即性起為事實，故
 <lb ed="TX" n="0708a08"/>又勝於天台。</p></cb:div></cb:div>
@@ -2483,10 +2544,12 @@
 <lb ed="TX" n="0714a07"/><p xml:id="pTX02p0714a0701" style="margin-left:0em;text-indent:2em">又天台於四教各論斷證位次，其實聖教論中只有小乘與大乘各別之教理行果；於
 <lb ed="TX" n="0714a08"/>藏教之上另立通教之位次，於別教之上另立圓教位次，及說四教之菩薩位次與佛果等
 <lb ed="TX" n="0714a09"/>，皆無確實根據！而賢首五教更仿四教為各別之斷證位次等，皆只可自成其說，而不
-<lb ed="TX" n="0714a10"/>能以佛法之根本聖教為衡量者！故吾人今後應從全藏佛教，更為根本的研究。</p><byline cb:type="other">（法舫
+<lb ed="TX" n="0714a10"/>能以佛法之根本聖教為衡量者！故吾人今後應從全藏佛教，更為根本的研究。</p>
+<byline cb:type="other">（法舫
 <lb ed="TX" n="0714a11"/>記）</byline></cb:div></cb:div>
 <pb ed="TX" xml:id="TX02.0001.0715a" n="0715a"/>
-<lb ed="TX" n="0715a01"/><cb:div type="other"><cb:mulu type="其他" level="3">第四章　禪台賢流歸淨土行</cb:mulu><head>第四章　禪台賢流歸淨土行<note n="0715002" resp="TaiXu" place="foot text" type="orig">本章曾改題「中國淨土宗之演變」，載文史雜誌第四卷第九期。</note></head>
+<lb ed="TX" n="0715a01"/><cb:div type="other"><cb:mulu type="其他" level="3">第四章　禪台賢流歸淨土行</cb:mulu><head>第四章　禪台賢流歸淨土行<note 
+n="0715002" resp="TaiXu" place="foot text" type="orig">本章曾改題「中國淨土宗之演變」，載文史雜誌第四卷第九期。</note></head>
 <lb ed="TX" n="0715a02"/><p xml:id="pTX02p0715a0201" style="margin-left:0em;text-indent:2em">中國佛學，一向稱為台賢禪淨，或禪淨台賢；意謂台賢為教義，禪淨是行門，故
 <lb ed="TX" n="0715a03"/>作如此分列。現在根據中國佛學分占的時代先後，次序為禪台賢淨。因為此處講的禪
 <lb ed="TX" n="0715a04"/>，不單是後來禪宗的禪，而是佛教傳入中國最初即注重修禪的禪。由中國佛學所重在
@@ -2573,7 +2636,11 @@
 <lb ed="TX" n="0721a08"/>的，後因慕曇師之風，轉歸淨土。他特別注重持名念佛，教人用豆記數以念佛名。他
 <lb ed="TX" n="0721a09"/>在安樂集中分十二門，第三門即根據龍樹菩薩的十住毘婆沙論而辨難行道和易行道，
 <lb ed="TX" n="0721a10"/>確立淨土教義的宗本。西方淨土離娑婆世界十萬億土，且又是極樂淨土，娑婆人欲生
-<lb ed="TX" n="0721a11"/>西方，豈非很難？道綽在安樂集中，很巧妙的解釋，<note n="0721a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0721a11.20">祛【CB】，袪【太虛】</note><app n="0721a1101"><lem wit="【太虛】">袪</lem><rdg resp="CBETA" type="cbetaRemark">祛</rdg></app>除這樣的疑惑，他以為娑婆世
+<lb ed="TX" n="0721a11"/>西方，豈非很難？道綽在安樂集中，很巧妙的解釋，<note 
+n="0721a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0721a11.20">祛【CB】，袪【太虛】</note><app n="0721a1101">
+  <lem wit="【太虛】">袪</lem>
+  <rdg resp="CBETA" type="cbetaRemark">祛</rdg>
+</app>除這樣的疑惑，他以為娑婆世
 <lb ed="TX" n="0721a12"/>界是穢土中的最後，而極樂世界是淨土中的最初，後初相接，所以往生不難。我在北
 <pb ed="TX" xml:id="TX02.0001.0722a" n="0722a"/>
 <lb ed="TX" n="0722a01"/>京講普賢行願品時依華嚴所說娑婆一劫為極樂一日夜義，說極樂為淨土之初。等到閱
@@ -2987,7 +3054,8 @@
 <lb ed="TX" n="0753a06"/>國臺賢之淨。而一至於從淨土宗演出之真宗，則逈然大異。故楊仁山居士力斥之，然
 <lb ed="TX" n="0753a07"/>演變至奪禪超教律之淨，世善遵儒行，而出世僅存信願念佛，其空願散念，只賴純信
 <lb ed="TX" n="0753a08"/>，殊有進為「純信彌陀他力」之真宗可能。然尚期命終往生，而無真宗「信成已生，
-<lb ed="TX" n="0753a09"/>還化利他」之行，則所短遠矣！</p><byline cb:type="other">（光宗、性覺、弘悲、向上合記）</byline></cb:div></cb:div></cb:div>
+<lb ed="TX" n="0753a09"/>還化利他」之行，則所短遠矣！</p>
+<byline cb:type="other">（光宗、性覺、弘悲、向上合記）</byline></cb:div></cb:div></cb:div>
 <pb ed="TX" xml:id="TX02.0001.0754a" n="0754a"/>
 <lb ed="TX" n="0754a01"/><cb:div type="other"><cb:mulu type="其他" level="3">第五章　中國佛學之重建</cb:mulu><head>第五章　中國佛學之重建</head>
 <lb ed="TX" n="0754a02"/><cb:div type="other"><cb:mulu type="其他" level="4">第一節　略指所依</cb:mulu><head>第一節　略指所依</head>
@@ -2996,7 +3064,8 @@
 <lb ed="TX" n="0754a05"/><cb:div type="other"><cb:mulu type="其他" level="4">第二節　教史概觀</cb:mulu><head>第二節　教史概觀</head>
 <lb ed="TX" n="0754a06"/><p xml:id="pTX02p0754a0601" style="margin-left:0em;text-indent:2em">中國佛教史概觀，是廿年前曾經在武昌佛學院講過的。中國佛教自東漢從印度傳
 <lb ed="TX" n="0754a07"/>進後，一直到東晉道安法師這一階段，是為中國的初期佛教。</p>
-<lb ed="TX" n="0754a08"/><cb:div type="other"><cb:mulu type="其他" level="5">一　主流</cb:mulu><head>一　主流</head><p xml:id="pTX02p0754a0804" style="margin-left:0em;text-indent:2em" cb:place="inline">這一期中的佛教、正是源泉渾渾尚未有宗派的成立、至道安法師便奠
+<lb ed="TX" n="0754a08"/><cb:div type="other"><cb:mulu type="其他" level="5">一　主流</cb:mulu><head>一　主流</head>
+<p xml:id="pTX02p0754a0804" style="margin-left:0em;text-indent:2em" cb:place="inline">這一期中的佛教、正是源泉渾渾尚未有宗派的成立、至道安法師便奠
 <lb ed="TX" n="0754a09"/>定了中國佛教的主流基石。把以前的佛學都綜合起來，作了一部綜理眾經目錄，能在
 <lb ed="TX" n="0754a10"/>諸經中提出佛法要旨來。而他最大的特點有四：1.本佛，可以說是佛本論。就是在他
 <lb ed="TX" n="0754a11"/>的直承於佛，推本於佛，而非後來分了派別的佛教。佛是總括行果、智境、依正、主
@@ -3007,7 +3076,8 @@
 <lb ed="TX" n="0755a04"/>修行。由是而即教即禪之主流形成，直承此主流而增長的則為慧遠等；直為根柢滋養
 <lb ed="TX" n="0755a05"/>者，則為安世高、曇無讖，實叉難陀譯經等。故天臺、賢首、宗門下及晚期淨土行諸
 <lb ed="TX" n="0755a06"/>祖，雖疊受旁流的影響，仍還由保持著這主流而演變下來。</p></cb:div>
-<lb ed="TX" n="0755a07"/><cb:div type="other"><cb:mulu type="其他" level="5">二　旁流</cb:mulu><head>二　旁流</head><p xml:id="pTX02p0755a0704" style="margin-left:0em;text-indent:2em" cb:place="inline">其次、另外有兩個輔助的思潮，一為承傳龍樹提婆學系的羅什等；一
+<lb ed="TX" n="0755a07"/><cb:div type="other"><cb:mulu type="其他" level="5">二　旁流</cb:mulu><head>二　旁流</head>
+<p xml:id="pTX02p0755a0704" style="margin-left:0em;text-indent:2em" cb:place="inline">其次、另外有兩個輔助的思潮，一為承傳龍樹提婆學系的羅什等；一
 <lb ed="TX" n="0755a08"/>為承傳無著世親學系的流支、真諦、玄奘等。這二思潮疊曾影響主流起變化，並吸收
 <lb ed="TX" n="0755a09"/>而又消化在主流裏。如天臺把三論判為通教，並認為不圓滿；但他不能成為主流，不
 <lb ed="TX" n="0755a10"/>過愈使主流擴大而充實罷了。它有著與道安相反的四個特點：1.本理的，它不像道安
@@ -3017,7 +3087,8 @@
 <lb ed="TX" n="0756a01"/>3.授受的，因為重論，因此它們的思想也便拘入幾部論的範圍內，傳授而承受，不能
 <lb ed="TX" n="0756a02"/>博取佛一切經而發揮偉大的創作。4.重學的，他們平常都孜孜鑽研講說，而不能往經
 <lb ed="TX" n="0756a03"/>中摘取要旨去修行證果。</p></cb:div>
-<lb ed="TX" n="0756a04"/><cb:div type="other"><cb:mulu type="其他" level="5">三　表攝</cb:mulu><head>三　表攝</head><p xml:id="pTX02p0756a0404" style="margin-left:0em;text-indent:2em" cb:place="inline">這兩支旁流使主流影響而變化。在中國佛教史概觀上，它即是助成主
+<lb ed="TX" n="0756a04"/><cb:div type="other"><cb:mulu type="其他" level="5">三　表攝</cb:mulu><head>三　表攝</head>
+<p xml:id="pTX02p0756a0404" style="margin-left:0em;text-indent:2em" cb:place="inline">這兩支旁流使主流影響而變化。在中國佛教史概觀上，它即是助成主
 <lb ed="TX" n="0756a05"/>流以成臺賢禪淨之發展的，而主流亦兼攝律與密以佐其行，略表明其大概。如下：</p>
 <lb ed="TX" n="0756a06"/><p xml:id="pTX02p0756a0601" style="margin-left:4em"><figure><graphic url="../figures/TX/TX02p0756_01.gif"/></figure></p></cb:div></cb:div>
 <lb ed="TX" n="0756a07"/>
@@ -3029,15 +3100,19 @@
 <pb ed="TX" xml:id="TX02.0001.0757a" n="0757a"/>
 <lb ed="TX" n="0757a01"/>為末流的禪淨已非常貧乏，台賢也不充實，故必探究漢文的一切佛典，並融匯巴利文
 <lb ed="TX" n="0757a02"/>藏文及日文的佛學來充實，這有四段：</p>
-<lb ed="TX" n="0757a03"/><cb:div type="other"><cb:mulu type="其他" level="5">一　安般禪五門禪之探攝</cb:mulu><head>一　安般禪五門禪之探攝</head><p xml:id="pTX02p0757a0311" style="margin-left:0em;text-indent:2em" cb:place="inline">初傳安世高等禪數之學，數就是毗曇法數，它即是一
+<lb ed="TX" n="0757a03"/><cb:div type="other"><cb:mulu type="其他" level="5">一　安般禪五門禪之探攝</cb:mulu><head>一　安般禪五門禪之探攝</head>
+<p xml:id="pTX02p0757a0311" style="margin-left:0em;text-indent:2em" cb:place="inline">初傳安世高等禪數之學，數就是毗曇法數，它即是一
 <lb ed="TX" n="0757a04"/>切阿毗曇論，而毗曇所本即五阿含、四部律等。如是異部諸論乃至後傳的俱舍、成實
 <lb ed="TX" n="0757a05"/>等，俱應研究，並融匯錫、緬所傳的巴利三藏，充實而趣於實踐修行。</p></cb:div>
-<lb ed="TX" n="0757a06"/><cb:div type="other"><cb:mulu type="其他" level="5">二　實相禪天臺教之探攝</cb:mulu><head>二　實相禪天臺教之探攝</head><p xml:id="pTX02p0757a0611" style="margin-left:0em;text-indent:2em" cb:place="inline">實相禪及由演出的天臺教義，應探本於法華、般若、
+<lb ed="TX" n="0757a06"/><cb:div type="other"><cb:mulu type="其他" level="5">二　實相禪天臺教之探攝</cb:mulu><head>二　實相禪天臺教之探攝</head>
+<p xml:id="pTX02p0757a0611" style="margin-left:0em;text-indent:2em" cb:place="inline">實相禪及由演出的天臺教義，應探本於法華、般若、
 <lb ed="TX" n="0757a07"/>涅槃等諸經及龍樹等論，並貫通小大顯密經論律咒。</p></cb:div>
-<lb ed="TX" n="0757a08"/><cb:div type="other"><cb:mulu type="其他" level="5">三　如來禪賢首教之探攝</cb:mulu><head>三　如來禪賢首教之探攝</head><p xml:id="pTX02p0757a0811" style="margin-left:0em;text-indent:2em" cb:place="inline">如來禪及由演出的賢首教義，應探本於華嚴經論，及
+<lb ed="TX" n="0757a08"/><cb:div type="other"><cb:mulu type="其他" level="5">三　如來禪賢首教之探攝</cb:mulu><head>三　如來禪賢首教之探攝</head>
+<p xml:id="pTX02p0757a0811" style="margin-left:0em;text-indent:2em" cb:place="inline">如來禪及由演出的賢首教義，應探本於華嚴經論，及
 <lb ed="TX" n="0757a09"/>馬鳴、堅慧諸論，精研楞伽、深密諸經，無著、世親諸論，並貫通小大顯密經論律咒
 <lb ed="TX" n="0757a10"/>。</p></cb:div>
-<lb ed="TX" n="0757a11"/><cb:div type="other"><cb:mulu type="其他" level="5">四　念佛禪淨土行之探攝</cb:mulu><head>四　念佛禪淨土行之探攝</head><p xml:id="pTX02p0757a1111" style="margin-left:0em;text-indent:2em" cb:place="inline">念佛禪及由演成別禪透禪之淨土教行，應探本於念佛
+<lb ed="TX" n="0757a11"/><cb:div type="other"><cb:mulu type="其他" level="5">四　念佛禪淨土行之探攝</cb:mulu><head>四　念佛禪淨土行之探攝</head>
+<p xml:id="pTX02p0757a1111" style="margin-left:0em;text-indent:2em" cb:place="inline">念佛禪及由演成別禪透禪之淨土教行，應探本於念佛
 <lb ed="TX" n="0757a12"/>觀，及淨密各經論咒軌，研究融匯日本淨土真宗及西藏密宗。</p>
 <pb ed="TX" xml:id="TX02.0001.0758a" n="0758a"/>
 <lb ed="TX" n="0758a01"/><p xml:id="pTX02p0758a0101" style="margin-left:0em;text-indent:2em">這裏提到這許許多多方面，以必如此方使主流之禪台賢淨不致空虛貧乏，中國佛
@@ -3069,7 +3144,9 @@
 <lb ed="TX" n="0760a01"/>的重新創建，二、不是依任何一古代宗義或一異地教派而來改建，而是探本於佛的行
 <lb ed="TX" n="0760a02"/>果、境智、依正、主伴而重重無盡的一切佛法。其要點乃在（甲）闡明佛教發達人生
 <lb ed="TX" n="0760a03"/>的理論，（乙）推行佛教利益人生的事業。如是，即為依人乘趣大乘行果的現代佛學
-<lb ed="TX" n="0760a04"/>。</p><byline cb:type="other">（光宗、性覺、弘悲、向上合記）<note n="0760003" resp="TaiXu" place="foot text" type="orig">本論連續登載海刊二十五卷二十六卷。</note></byline></cb:div></cb:div></cb:div>
+<lb ed="TX" n="0760a04"/>。</p>
+<byline cb:type="other">（光宗、性覺、弘悲、向上合記）<note 
+n="0760003" resp="TaiXu" place="foot text" type="orig">本論連續登載海刊二十五卷二十六卷。</note></byline></cb:div></cb:div></cb:div>
 <milestone unit="juan" n="28"/>
 <pb ed="TX" xml:id="TX02.0001.0761a" n="0761a"/>
 <lb ed="TX" n="0761a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛教各宗派源流</cb:mulu><head>佛教各宗派源流</head>
@@ -3442,28 +3519,33 @@
 <pb ed="TX" xml:id="TX02.0001.0787a" n="0787a"/>
 <lb ed="TX" n="0787a01"/><p xml:id="pTX02p0787a0101" style="margin-left:0em;text-indent:2em">今依宗輪敘二十部本末宗同異義之次序，分目述之。</p>
 <lb ed="TX" n="0787a02"/><cb:div type="other"><cb:mulu type="其他" level="7">１　大眾部一說部說出世部雞胤部之本宗同義</cb:mulu><head>１　大眾部一說部說出世部雞胤部之本宗同義</head>
-<lb ed="TX" n="0787a03"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）世尊觀</cb:mulu><head>（一）世尊觀</head><p xml:id="pTX02p0787a0305" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂四部同說：諸佛世尊皆是出世，一切如來無有漏法。諸如來
+<lb ed="TX" n="0787a03"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）世尊觀</cb:mulu><head>（一）世尊觀</head>
+<p xml:id="pTX02p0787a0305" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂四部同說：諸佛世尊皆是出世，一切如來無有漏法。諸如來
 <lb ed="TX" n="0787a04"/>語皆轉法輪，佛以一音說一切法，世尊所說無不如義。如來色身實無邊際，如來威力
 <lb ed="TX" n="0787a05"/>亦無邊際，如來壽量亦無邊際。佛化有情令生淨信無厭足心。佛無睡夢。如來答問不
 <lb ed="TX" n="0787a06"/>待思惟。佛一切時不說名等，常在定故，然諸有情謂說名等歡喜踴躍。一剎那心了一
 <lb ed="TX" n="0787a07"/>切法，一剎那心相應般若知一切法。諸佛世尊盡智無生智恆常隨轉乃至般涅槃」。按
 <lb ed="TX" n="0787a08"/>此概同大乘，而與薩婆多宗等不同也。</p></cb:div>
-<lb ed="TX" n="0787a09"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）菩薩觀</cb:mulu><head>（二）菩薩觀</head><p xml:id="pTX02p0787a0905" style="margin-left:0em;text-indent:2em" cb:place="inline">「一切菩薩入母胎中，皆不執受羯剌藍、頞部曇、閉尸、鍵南為
+<lb ed="TX" n="0787a09"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）菩薩觀</cb:mulu><head>（二）菩薩觀</head>
+<p xml:id="pTX02p0787a0905" style="margin-left:0em;text-indent:2em" cb:place="inline">「一切菩薩入母胎中，皆不執受羯剌藍、頞部曇、閉尸、鍵南為
 <lb ed="TX" n="0787a10"/>自體。一切菩薩入母胎時，作白象形。一切菩薩出母胎時，皆從右脅<note place="inline">按上皆說一切最
 <lb ed="TX" n="0787a11"/>後身菩薩者</note>。一切菩薩不起欲想恚想害想。菩薩為欲饒益有情，願生惡趣隨願能往」
 <lb ed="TX" n="0787a12"/>。按此說一切第二阿僧祇劫以上之菩薩者，亦與薩婆多等不同。</p></cb:div>
 <pb ed="TX" xml:id="TX02.0001.0788a" n="0788a"/>
-<lb ed="TX" n="0788a01"/><cb:div type="other"><cb:mulu type="其他" level="8">（三）智識觀</cb:mulu><head>（三）智識觀</head><p xml:id="pTX02p0788a0105" style="margin-left:0em;text-indent:2em" cb:place="inline">「以一剎那現觀邊智，遍知四諦諸相差別。眼等五識身有染有離
+<lb ed="TX" n="0788a01"/><cb:div type="other"><cb:mulu type="其他" level="8">（三）智識觀</cb:mulu><head>（三）智識觀</head>
+<p xml:id="pTX02p0788a0105" style="margin-left:0em;text-indent:2em" cb:place="inline">「以一剎那現觀邊智，遍知四諦諸相差別。眼等五識身有染有離
 <lb ed="TX" n="0788a02"/>染。色無色界具六識身<note place="inline">按此句在佛法大小乘中為最特別義</note>。五種色根肉團為體，眼不
 <lb ed="TX" n="0788a03"/>見色，耳不聞聲，鼻不嗅香，舌不嘗味，身不覺觸。在等引位有發語言，亦有調伏心
 <lb ed="TX" n="0788a04"/>，亦有諍作意」。此大都與餘部有異。</p></cb:div>
-<lb ed="TX" n="0788a05"/><cb:div type="other"><cb:mulu type="其他" level="8">（四）聖果觀</cb:mulu><head>（四）聖果觀</head><p xml:id="pTX02p0788a0505" style="margin-left:0em;text-indent:2em" cb:place="inline">「所作已辦，無容受法。諸預流者心心所法能了自性。有阿羅漢
+<lb ed="TX" n="0788a05"/><cb:div type="other"><cb:mulu type="其他" level="8">（四）聖果觀</cb:mulu><head>（四）聖果觀</head>
+<p xml:id="pTX02p0788a0505" style="margin-left:0em;text-indent:2em" cb:place="inline">「所作已辦，無容受法。諸預流者心心所法能了自性。有阿羅漢
 <lb ed="TX" n="0788a06"/>為餘所誘，猶有無知，亦有猶豫，他令悟入，道因聲起。苦能引道，苦言能助。慧為
 <lb ed="TX" n="0788a07"/>加行，能滅眾苦，亦能引樂。苦亦是食。第八地中亦得久住。乃至性地法皆可說有退
 <lb ed="TX" n="0788a08"/>。預流者有退義，阿羅漢無退義。無世間正見，無世間信根，無無記法，入正性離生
 <lb ed="TX" n="0788a09"/>時，可說斷一切結。諸預流者造一切惡，唯除無間」。案此中諸說，與餘部差異者頗
 <lb ed="TX" n="0788a10"/>多。而大眾部與上座部分部之諍本，亦出於此。</p></cb:div>
-<lb ed="TX" n="0788a11"/><cb:div type="other"><cb:mulu type="其他" level="8">（五）教法觀</cb:mulu><head>（五）教法觀</head><p xml:id="pTX02p0788a1105" style="margin-left:0em;text-indent:2em" cb:place="inline">「佛所說經，皆是了義。無為法有九種：一、擇滅，二、非擇滅
+<lb ed="TX" n="0788a11"/><cb:div type="other"><cb:mulu type="其他" level="8">（五）教法觀</cb:mulu><head>（五）教法觀</head>
+<p xml:id="pTX02p0788a1105" style="margin-left:0em;text-indent:2em" cb:place="inline">「佛所說經，皆是了義。無為法有九種：一、擇滅，二、非擇滅
 <lb ed="TX" n="0788a12"/>，三、虛空，四、空無邊處，五、識無邊處，六、無所有處，七、非想非非想處，八
 <pb ed="TX" xml:id="TX02.0001.0789a" n="0789a"/>
 <lb ed="TX" n="0789a01"/>、緣起之性，九、聖道支性。心性本淨，客塵隨煩惱之所雜染，說為不淨。隨眠非心
@@ -3486,11 +3568,13 @@
 <lb ed="TX" n="0790a05"/><p xml:id="pTX02p0790a0501" style="margin-left:0em;text-indent:2em">制多山部西山住部北山住部本宗同義：「謂諸菩薩不脫惡趣。於窣堵波興供養業
 <lb ed="TX" n="0790a06"/>，不得大果」。餘義同大眾部。</p></cb:div>
 <lb ed="TX" n="0790a07"/><cb:div type="other"><cb:mulu type="其他" level="7">４　說一切有部之宗義</cb:mulu><head>４　說一切有部之宗義</head>
-<lb ed="TX" n="0790a08"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）總法觀</cb:mulu><head>（一）總法觀</head><p xml:id="pTX02p0790a0805" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂一切有部諸法有者，皆二所攝：一、名，二、色。過去未來
+<lb ed="TX" n="0790a08"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）總法觀</cb:mulu><head>（一）總法觀</head>
+<p xml:id="pTX02p0790a0805" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂一切有部諸法有者，皆二所攝：一、名，二、色。過去未來
 <lb ed="TX" n="0790a09"/>體亦實有。一切法處皆是所知，亦是所識及所通達。生、老、住、無常相，心不相應
 <lb ed="TX" n="0790a10"/>行蘊所攝。有為事有三種，無為事亦有三種。三有為相別有實體。三諦是有為，一諦
 <lb ed="TX" n="0790a11"/>是無為」。</p></cb:div>
-<lb ed="TX" n="0790a12"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）雜法觀</cb:mulu><head>（二）雜法觀</head><p xml:id="pTX02p0790a1205" style="margin-left:0em;text-indent:2em" cb:place="inline">「四聖諦漸現觀。依空、無願二三摩地，俱容得入正性離生。若已
+<lb ed="TX" n="0790a12"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）雜法觀</cb:mulu><head>（二）雜法觀</head>
+<p xml:id="pTX02p0790a1205" style="margin-left:0em;text-indent:2em" cb:place="inline">「四聖諦漸現觀。依空、無願二三摩地，俱容得入正性離生。若已
 <pb ed="TX" xml:id="TX02.0001.0791a" n="0791a"/>
 <lb ed="TX" n="0791a01"/>得入正性離生，十五心頃說名行向，第十六心說名住果。世第一法一心三品，世第一
 <lb ed="TX" n="0791a02"/>法定不可退。預流者，無退義；阿羅漢有退義。非諸阿羅漢皆得無生智。異生能斷欲貪、
@@ -3510,7 +3594,8 @@
 <lb ed="TX" n="0792a03"/>情但依現有執受相續假立。說一切行皆剎那滅。定無少法能從前世轉至後世，但有世
 <lb ed="TX" n="0792a04"/>俗補特伽羅說有移轉。活時行攝即無餘滅，無轉變諸蘊。有出世靜慮。尋亦有無漏。
 <lb ed="TX" n="0792a05"/>有善是有因。等引位中無發語者」。</p></cb:div>
-<lb ed="TX" n="0792a06"/><cb:div type="other"><cb:mulu type="其他" level="8">（三）教法觀</cb:mulu><head>（三）教法觀</head><p xml:id="pTX02p0792a0605" style="margin-left:0em;text-indent:2em" cb:place="inline">「八支聖道是正法輪，非如來語皆為轉法輪。非佛一音能說一切
+<lb ed="TX" n="0792a06"/><cb:div type="other"><cb:mulu type="其他" level="8">（三）教法觀</cb:mulu><head>（三）教法觀</head>
+<p xml:id="pTX02p0792a0605" style="margin-left:0em;text-indent:2em" cb:place="inline">「八支聖道是正法輪，非如來語皆為轉法輪。非佛一音能說一切
 <lb ed="TX" n="0792a07"/>法。世尊亦有不如義言。佛所說經非皆了義，佛自說有不了義經」。</p>
 <lb ed="TX" n="0792a08"/><p xml:id="pTX02p0792a0801" style="margin-left:0em;text-indent:2em">「此等皆為本宗同義，末宗異義其類無邊」。案依此與前大眾等四部之宗義，一
 <lb ed="TX" n="0792a09"/>一對勘，猶並峙之二峰也。</p></cb:div></cb:div>
@@ -3542,7 +3627,8 @@
 <lb ed="TX" n="0794a09"/>
 <lb ed="TX" n="0794a10"/>
 <lb ed="TX" n="0794a11"/><cb:div type="other"><cb:mulu type="其他" level="7">７　化地部本末同異宗義</cb:mulu><head>７　化地部本末同異宗義</head>
-<lb ed="TX" n="0794a12"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）化地部本宗同義</cb:mulu><head>（一）化地部本宗同義</head><p xml:id="pTX02p0794a1209" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂過去未來是無，現在無為是有。於四聖諦一時現觀
+<lb ed="TX" n="0794a12"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）化地部本宗同義</cb:mulu><head>（一）化地部本宗同義</head>
+<p xml:id="pTX02p0794a1209" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂過去未來是無，現在無為是有。於四聖諦一時現觀
 <pb ed="TX" xml:id="TX02.0001.0795a" n="0795a"/>
 <lb ed="TX" n="0795a01"/>，見苦諦時能見諸諦，要已見者能如是見。隨眠非心亦非心所，亦無所緣，與纏異。
 <lb ed="TX" n="0795a02"/>隨眠自性心不相應，纏自性心相應。異生不斷欲貪瞋恚。無諸外道能得五通，亦無天
@@ -3553,42 +3639,52 @@
 <lb ed="TX" n="0795a07"/>如，八、道支真如，九、緣起真如。入胎為初，命終為後，色根大種皆有轉變，心心
 <lb ed="TX" n="0795a08"/>所法亦有轉變。僧中有佛，故施僧者便獲大果，非別施佛。佛與二乘皆同一道。同一
 <lb ed="TX" n="0795a09"/>解脫。說一切行皆剎那滅。定無少法能從前世轉至後世」。</p></cb:div>
-<lb ed="TX" n="0795a10"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）化地部末宗異義</cb:mulu><head>（二）化地部末宗異義</head><p xml:id="pTX02p0795a1009" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂說實有過去未來。亦有中有。一切法處皆是所知，
+<lb ed="TX" n="0795a10"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）化地部末宗異義</cb:mulu><head>（二）化地部末宗異義</head>
+<p xml:id="pTX02p0795a1009" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂說實有過去未來。亦有中有。一切法處皆是所知，
 <lb ed="TX" n="0795a11"/>亦是所識。業實是思，無身語業。尋伺相應。大地劫住。於窣堵波興供養業所獲果少
 <lb ed="TX" n="0795a12"/>。隨眠自性恆居現在，諸蘊處界亦恆現在。此部末宗，因釋一頌執義有異，如彼頌言
 <pb ed="TX" xml:id="TX02.0001.0796a" n="0796a"/>
 <lb ed="TX" n="0796a01"/>：五法定能縛，諸苦從此生，謂無明貪愛，五見及諸業」。</p></cb:div></cb:div>
 <lb ed="TX" n="0796a02"/><cb:div type="other"><cb:mulu type="其他" level="7">８　法藏部飲光部經量部之宗義</cb:mulu><head>８　法藏部飲光部經量部之宗義</head>
-<lb ed="TX" n="0796a03"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）法藏部之宗義</cb:mulu><head>（一）法藏部之宗義</head><p xml:id="pTX02p0796a0308" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂佛雖在僧中所攝，然別施佛果大非僧。於窣堵波興供
+<lb ed="TX" n="0796a03"/><cb:div type="other"><cb:mulu type="其他" level="8">（一）法藏部之宗義</cb:mulu><head>（一）法藏部之宗義</head>
+<p xml:id="pTX02p0796a0308" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂佛雖在僧中所攝，然別施佛果大非僧。於窣堵波興供
 <lb ed="TX" n="0796a04"/>養業獲廣大果。佛與二乘解脫雖一而聖道異。無諸外道能得五通。阿羅漢身皆是無漏
 <lb ed="TX" n="0796a05"/>。餘義多同大眾部執」。</p></cb:div>
-<lb ed="TX" n="0796a06"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）飲光部之宗義</cb:mulu><head>（二）飲光部之宗義</head><p xml:id="pTX02p0796a0608" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂若法已斷已遍知則無，未斷未遍知則有。若業果已熟
+<lb ed="TX" n="0796a06"/><cb:div type="other"><cb:mulu type="其他" level="8">（二）飲光部之宗義</cb:mulu><head>（二）飲光部之宗義</head>
+<p xml:id="pTX02p0796a0608" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂若法已斷已遍知則無，未斷未遍知則有。若業果已熟
 <lb ed="TX" n="0796a07"/>則無，果未熟則有。有諸行以過去為因，無諸行以未來為因。一切行皆剎那滅。諸有
 <lb ed="TX" n="0796a08"/>學法有異熟果。餘義多同法藏部執」。</p></cb:div>
-<lb ed="TX" n="0796a09"/><cb:div type="other"><cb:mulu type="其他" level="8">（三）經量部之宗義</cb:mulu><head>（三）經量部之宗義</head><p xml:id="pTX02p0796a0908" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂說諸蘊有從前世轉至後世，立說轉名。非離聖道有蘊
+<lb ed="TX" n="0796a09"/><cb:div type="other"><cb:mulu type="其他" level="8">（三）經量部之宗義</cb:mulu><head>（三）經量部之宗義</head>
+<p xml:id="pTX02p0796a0908" style="margin-left:0em;text-indent:2em" cb:place="inline">「謂說諸蘊有從前世轉至後世，立說轉名。非離聖道有蘊
 <lb ed="TX" n="0796a10"/>永滅。有根邊蘊、有一味蘊。眾生位中亦有聖法。執有勝義補特伽羅。餘所執多同說
 <lb ed="TX" n="0796a11"/>一切有部」。</p></cb:div></cb:div></cb:div>
 <lb ed="TX" n="0796a12"/><cb:div type="other"><cb:mulu type="其他" level="6">乙　依中土六宗說以總束二十部</cb:mulu><head>乙　依中土六宗說以總束二十部</head>
 <pb ed="TX" xml:id="TX02.0001.0797a" n="0797a"/>
-<lb ed="TX" n="0797a01"/><cb:div type="other"><cb:mulu type="其他" level="7">１　我法俱有宗</cb:mulu><head>１　我法俱有宗</head><p xml:id="pTX02p0797a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">此中有二：一、人天乘，二、小乘。謂犢子、法上、賢冑、正量
+<lb ed="TX" n="0797a01"/><cb:div type="other"><cb:mulu type="其他" level="7">１　我法俱有宗</cb:mulu><head>１　我法俱有宗</head>
+<p xml:id="pTX02p0797a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">此中有二：一、人天乘，二、小乘。謂犢子、法上、賢冑、正量
 <lb ed="TX" n="0797a02"/>、密林山五部，彼立三聚法，初二是法，後一是我。又立五法藏：一、過去，二、現
 <lb ed="TX" n="0797a03"/>在，三、未來，四、無為，五、不可說。第五是我，以不可說是有為無為故。然此五
 <lb ed="TX" n="0797a04"/>部，餘大小乘共推不受，呼為附佛法外道，以諸外道所計雖殊，皆立我故。此亦等取
 <lb ed="TX" n="0797a05"/>經量部之勝義我之少分。</p></cb:div>
-<lb ed="TX" n="0797a06"/><cb:div type="other"><cb:mulu type="其他" level="7">２　法有我無宗</cb:mulu><head>２　法有我無宗</head><p xml:id="pTX02p0797a0607" style="margin-left:0em;text-indent:2em" cb:place="inline">謂薩婆多、上座、多聞三部。彼說諸法二種所攝，一、名，二、
+<lb ed="TX" n="0797a06"/><cb:div type="other"><cb:mulu type="其他" level="7">２　法有我無宗</cb:mulu><head>２　法有我無宗</head>
+<p xml:id="pTX02p0797a0607" style="margin-left:0em;text-indent:2em" cb:place="inline">謂薩婆多、上座、多聞三部。彼說諸法二種所攝，一、名，二、
 <lb ed="TX" n="0797a07"/>色。或四種所攝，謂三世及無為。或五種所攝，謂一、心，二、心所，三、色，四、
 <lb ed="TX" n="0797a08"/>不相應，五、無為。故一切法皆悉實有。於諸法中並不立我，以無我故，異外道計。
 <lb ed="TX" n="0797a09"/>又於有為之中，立正因緣以破外道邪因無因。此亦兼攝末化地部少分，實為最純正之
 <lb ed="TX" n="0797a10"/>小乘宗也。支那所傳之小乘俱舍宗，亦依此為本宗，調和經量部而進化之者。</p></cb:div>
-<lb ed="TX" n="0797a11"/><cb:div type="other"><cb:mulu type="其他" level="7">３　法無去來宗</cb:mulu><head>３　法無去來宗</head><p xml:id="pTX02p0797a1107" style="margin-left:0em;text-indent:2em" cb:place="inline">謂大眾、經量、雞胤、制多、西山、北山、法藏、飲光之八部，
+<lb ed="TX" n="0797a11"/><cb:div type="other"><cb:mulu type="其他" level="7">３　法無去來宗</cb:mulu><head>３　法無去來宗</head>
+<p xml:id="pTX02p0797a1107" style="margin-left:0em;text-indent:2em" cb:place="inline">謂大眾、經量、雞胤、制多、西山、北山、法藏、飲光之八部，
 <lb ed="TX" n="0797a12"/>等取本化地部一分。唯說現在諸有為法及無為法為有故，以過未之法，體用俱無故。
 <pb ed="TX" xml:id="TX02.0001.0798a" n="0798a"/>
 <lb ed="TX" n="0798a01"/>成實論依此為本宗。</p></cb:div>
-<lb ed="TX" n="0798a02"/><cb:div type="other"><cb:mulu type="其他" level="7">４　現通假實宗</cb:mulu><head>４　現通假實宗</head><p xml:id="pTX02p0798a0207" style="margin-left:0em;text-indent:2em" cb:place="inline">謂說假部。就前現在有為法中，在五蘊為實，在界處為假，隨應
+<lb ed="TX" n="0798a02"/><cb:div type="other"><cb:mulu type="其他" level="7">４　現通假實宗</cb:mulu><head>４　現通假實宗</head>
+<p xml:id="pTX02p0798a0207" style="margin-left:0em;text-indent:2em" cb:place="inline">謂說假部。就前現在有為法中，在五蘊為實，在界處為假，隨應
 <lb ed="TX" n="0798a03"/>諸法假實不定。其成實論末經部論皆是此類。</p></cb:div>
-<lb ed="TX" n="0798a04"/><cb:div type="other"><cb:mulu type="其他" level="7">５　俗妄真實宗</cb:mulu><head>５　俗妄真實宗</head><p xml:id="pTX02p0798a0407" style="margin-left:0em;text-indent:2em" cb:place="inline">即說出世部。謂世俗法皆假，以虛妄故；出世法皆實，非虛妄故
+<lb ed="TX" n="0798a04"/><cb:div type="other"><cb:mulu type="其他" level="7">５　俗妄真實宗</cb:mulu><head>５　俗妄真實宗</head>
+<p xml:id="pTX02p0798a0407" style="margin-left:0em;text-indent:2em" cb:place="inline">即說出世部。謂世俗法皆假，以虛妄故；出世法皆實，非虛妄故
 <lb ed="TX" n="0798a05"/>。此義可通大乘三論宗之少分。</p></cb:div>
-<lb ed="TX" n="0798a06"/><cb:div type="other"><cb:mulu type="其他" level="7">６　諸法但名宗</cb:mulu><head>６　諸法但名宗</head><p xml:id="pTX02p0798a0607" style="margin-left:0em;text-indent:2em" cb:place="inline">即一說部。謂一切我法，但有假名無實體故。此亦能攝大乘三論
+<lb ed="TX" n="0798a06"/><cb:div type="other"><cb:mulu type="其他" level="7">６　諸法但名宗</cb:mulu><head>６　諸法但名宗</head>
+<p xml:id="pTX02p0798a0607" style="margin-left:0em;text-indent:2em" cb:place="inline">即一說部。謂一切我法，但有假名無實體故。此亦能攝大乘三論
 <lb ed="TX" n="0798a07"/>宗之少分。</p>
 <lb ed="TX" n="0798a08"/><p xml:id="pTX02p0798a0801" style="margin-left:0em;text-indent:2em">案此六宗乃依從有入空為序，從我法俱有而我空，而過未法空，而現法一分空，
 <lb ed="TX" n="0798a09"/>而世法空，而一切法空也。今將六宗攝二十部，列表如下：</p>
@@ -3736,7 +3832,11 @@
 <lb ed="TX" n="0809a07"/><p xml:id="pTX02p0809a0701" style="margin-left:0em;text-indent:2em">宗成實論立教之宗派，故名為成實宗。造成實論者，相傳佛寂九百年時，薩婆多
 <lb ed="TX" n="0809a08"/>宗學者鳩摩羅陀有高足訶黎跋摩者，嫌師見解疏淺，簡取小乘諸部之長，以譯成如來
 <lb ed="TX" n="0809a09"/>所說三藏之實義，故名成實論也。論主述懷云：「故我欲正論三藏中實義」，即其命
-<lb ed="TX" n="0809a10"/>名之意，亦其作論之故。姚秦時羅什三藏翻譯且弘講之，其門下<note n="0809a1001" resp="CBETA" type="add" rend="hide" note_key="TX02.0809a10.26">采【CB】，釆【太虛】</note><app n="0809a1001"><lem wit="【太虛】">釆</lem><rdg resp="CBETA" type="cbetaRemark">采</rdg></app>承師說，製造章疏
+<lb ed="TX" n="0809a10"/>名之意，亦其作論之故。姚秦時羅什三藏翻譯且弘講之，其門下<note 
+n="0809a1001" resp="CBETA" type="add" rend="hide" note_key="TX02.0809a10.26">采【CB】，釆【太虛】</note><app n="0809a1001">
+  <lem wit="【太虛】">釆</lem>
+  <rdg resp="CBETA" type="cbetaRemark">采</rdg>
+</app>承師說，製造章疏
 <lb ed="TX" n="0809a11"/>，自是講習頗盛，乃與大乘之三論宗，同為中國最早所成之宗派也。唐代傳至日本，
 <lb ed="TX" n="0809a12"/>亦無何進步，漸歸寂落，古德章疏，早皆散滅，今殆無從得之矣。宗此論者，大都兼
 <pb ed="TX" xml:id="TX02.0001.0810a" n="0810a"/>
@@ -4345,7 +4445,11 @@
 <lb ed="TX" n="0855a04"/>在一門深造，乃能精義入神；久修自知殊塗同歸，甯慮局道相斫。所謂「方便有多門
 <lb ed="TX" n="0855a05"/>，歸元無二路」者也。數百年來，學者病在汗漫，唯汗漫乃適成紛拏。佛法深廣，人
 <lb ed="TX" n="0855a06"/>智淺狹，取舍莫定，茫昧無歸。以故學不精察，心不明了；不精滯跡，不明封情；滯
-<lb ed="TX" n="0855a07"/>迹封情，闇生疑諍，此正好為顢頇儱侗之調和所致也。今者欲<note n="0855a0701" resp="CBETA" type="add" rend="hide" note_key="TX02.0855a07.25">祛【CB】，袪【太虛】</note><app n="0855a0701"><lem wit="【太虛】">袪</lem><rdg resp="CBETA" type="cbetaRemark">祛</rdg></app>斯病，則端在分宗專
+<lb ed="TX" n="0855a07"/>迹封情，闇生疑諍，此正好為顢頇儱侗之調和所致也。今者欲<note 
+n="0855a0701" resp="CBETA" type="add" rend="hide" note_key="TX02.0855a07.25">祛【CB】，袪【太虛】</note><app n="0855a0701">
+  <lem wit="【太虛】">袪</lem>
+  <rdg resp="CBETA" type="cbetaRemark">祛</rdg>
+</app>斯病，則端在分宗專
 <lb ed="TX" n="0855a08"/>究耳。</p>
 <lb ed="TX" n="0855a09"/><p xml:id="pTX02p0855a0901" style="margin-left:0em;text-indent:2em">問曰：古者嘗分禪教律三，以各修戒定慧三學之一，或又列之為禪教律淨密，則
 <lb ed="TX" n="0855a10"/>亦五種法門而已，何取乎又裂教為三成八宗乎？答曰：戒定慧乃一貫之道，八宗有一
@@ -4509,7 +4613,8 @@
 <milestone unit="juan" n="29"/>
 <pb ed="TX" xml:id="TX02.0001.0869a" n="0869a"/>
 <lb ed="TX" n="0869a01"/><cb:div type="other"><cb:mulu type="其他" level="2">會昌以前中華佛教之三大系</cb:mulu><head>會昌以前中華佛教之三大系</head>
-<lb ed="TX" n="0869a02"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX02p0869a0201" style="margin-left:0em;text-indent:2em">中華所有佛教歷史，僅詳事實，關於教理變遷之原因與程序，猶少系統之研究。
+<lb ed="TX" n="0869a02"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX02p0869a0201" style="margin-left:0em;text-indent:2em">中華所有佛教歷史，僅詳事實，關於教理變遷之原因與程序，猶少系統之研究。
 <lb ed="TX" n="0869a03"/>如高僧傳、傳燈錄等，皆一個人一宗派之傳記耳。至於學派盛衰之跡，尚難明也。余
 <lb ed="TX" n="0869a04"/>今提出此問題、亦為研究佛教史者，聊備方案而已。若詳細考察，則非短時間所能奏
 <lb ed="TX" n="0869a05"/>功也。</p>
@@ -4519,7 +4624,8 @@
 <lb ed="TX" n="0869a09"/>唯識，然就其學派系統觀之，亦各互有時間之關係焉。茲特據會昌以前之宗派分三系
 <lb ed="TX" n="0869a10"/>而略述之：</p></cb:div>
 <pb ed="TX" xml:id="TX02.0001.0870a" n="0870a"/>
-<lb ed="TX" n="0870a01"/><cb:div type="other"><cb:mulu type="其他" level="3">一　道安重行系</cb:mulu><head>一　道安重行系</head><p xml:id="pTX02p0870a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">晉道安法師者，佛圖澄禪師之高弟也。澄師以神通化世，其深
+<lb ed="TX" n="0870a01"/><cb:div type="other"><cb:mulu type="其他" level="3">一　道安重行系</cb:mulu><head>一　道安重行系</head>
+<p xml:id="pTX02p0870a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">晉道安法師者，佛圖澄禪師之高弟也。澄師以神通化世，其深
 <lb ed="TX" n="0870a02"/>行密證可知。先有安世高從事律禪，故道安之所傳譯，亦注意於律部及諸禪經。苦當
 <lb ed="TX" n="0870a03"/>時世亂已極，人思超俗，況老莊之學風靡一時，亦與般若空相適應，慧遠承之；持律
 <lb ed="TX" n="0870a04"/>嚴肅，致力觀行，當時認為修最上禪之念佛三昧，漢地淨土法門遂濫觴於茲。而最先
@@ -4532,11 +4638,13 @@
 <lb ed="TX" n="0870a11"/>地論及華嚴，開杜順華嚴宗之先河。賢首國師則又收唯識之義以宏恢之，故後世以賢
 <lb ed="TX" n="0870a12"/>首名華嚴宗也。</p></cb:div>
 <pb ed="TX" xml:id="TX02.0001.0871a" n="0871a"/>
-<lb ed="TX" n="0871a01"/><cb:div type="other"><cb:mulu type="其他" level="3">二　傳龍樹學系</cb:mulu><head>二　傳龍樹學系</head><p xml:id="pTX02p0871a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">羅什乃遠承龍樹之學說，傳入中國之第一人。以一身而兼譯師
+<lb ed="TX" n="0871a01"/><cb:div type="other"><cb:mulu type="其他" level="3">二　傳龍樹學系</cb:mulu><head>二　傳龍樹學系</head>
+<p xml:id="pTX02p0871a0107" style="margin-left:0em;text-indent:2em" cb:place="inline">羅什乃遠承龍樹之學說，傳入中國之第一人。以一身而兼譯師
 <lb ed="TX" n="0871a02"/>及講師，俾大乘般若之教理遂得弘大發展。且姚秦以前教義未判，羅什而後宗學始分
 <lb ed="TX" n="0871a03"/>。如初宗四論，繼傳成實，後宏三論。大小乘宗漸以盛行，而三論則由興皇傳至嘉祥
 <lb ed="TX" n="0871a04"/>乃大成焉。</p></cb:div>
-<lb ed="TX" n="0871a05"/><cb:div type="other"><cb:mulu type="其他" level="3">三　傳世親學系</cb:mulu><head>三　傳世親學系</head><p xml:id="pTX02p0871a0507" style="margin-left:0em;text-indent:2em" cb:place="inline">傳世親學說於中國者，其主要人物有三：一、覺愛三藏，即菩
+<lb ed="TX" n="0871a05"/><cb:div type="other"><cb:mulu type="其他" level="3">三　傳世親學系</cb:mulu><head>三　傳世親學系</head>
+<p xml:id="pTX02p0871a0507" style="margin-left:0em;text-indent:2em" cb:place="inline">傳世親學說於中國者，其主要人物有三：一、覺愛三藏，即菩
 <lb ed="TX" n="0871a06"/>提流支，彼先譯世親之十地論而創立地論一宗。光統、惠順諸師相繼宣講，在隋唐初
 <lb ed="TX" n="0871a07"/>其傳猶盛。迨華嚴宗興，此宗遂屬之矣。與覺愛同時之佛陀扇多及勒摩那提三藏，其
 <lb ed="TX" n="0871a08"/>翻譯雖亦傾重於世親系，然不及覺愛之宏富。故菩提流支當與羅什相對，而為傳譯世
@@ -4582,7 +4690,8 @@
 <lb ed="TX" n="0874a09"/>　　　　　　　　　　　　　　　　　　　　　　│　　華嚴楞伽
 <lb ed="TX" n="0874a10"/>　　　　　　　　　　　　　　　　　　　　　　└吸收　　　　演教即為賢首宗
 <lb ed="TX" n="0874a11"/>　　　　　　　　　　　　　　　　　　　　　　　　　及世親學</p>
-<lb ed="TX" n="0874a12"/><p xml:id="pTX02p0874a1201" style="margin-left:0em;text-indent:2em">此中國晚唐以來之佛教，所由行證不出禪、淨，教理不出賢、台歟！</p><byline cb:type="other">（觀空記）
+<lb ed="TX" n="0874a12"/><p xml:id="pTX02p0874a1201" style="margin-left:0em;text-indent:2em">此中國晚唐以來之佛教，所由行證不出禪、淨，教理不出賢、台歟！</p>
+<byline cb:type="other">（觀空記）
 <lb ed="TX" n="0874a13"/><note place="inline">見海刊六卷五期</note></byline></cb:div></cb:div>
 <milestone unit="juan" n="30"/>
 <pb ed="TX" xml:id="TX02.0001.0875a" n="0875a"/>
@@ -4631,9 +4740,13 @@
 <lb ed="TX" n="0878a05"/><note place="inline">法界圓覺宗</note>，性空論系<note place="inline">法性空慧宗</note>，唯識論系<note place="inline">法相唯識宗</note>。後兩種都是採用古
 <lb ed="TX" n="0878a06"/>來的名稱，只為便利上不得已新立了佛本論系而已。</p>
 <lb ed="TX" n="0878a07"/><p xml:id="pTX02p0878a0701" style="margin-left:0em;text-indent:2em">現在可以依著上面的論述，把中國佛教歷史分為三個時期：</p>
-<lb ed="TX" n="0878a08"/><list rend="no-marker"><item xml:id="itemTX02p0878a0801">一、佛本主源一味時期　自永平求法到東晉道安</item>
-<lb ed="TX" n="0878a09"/><item xml:id="itemTX02p0878a0901">二、空識夾變主流時期　自慧遠到清涼受羅什到玄奘之重重擴變</item>
-<lb ed="TX" n="0878a10"/><item xml:id="itemTX02p0878a1001">三、主流遞演不絕時期　會昌後禪宗下的台賢淨律</item></list>
+<lb ed="TX" n="0878a08"/><list rend="no-marker">
+  <item xml:id="itemTX02p0878a0801">一、佛本主源一味時期　自永平求法到東晉道安</item>
+<lb ed="TX" n="0878a09"/>
+  <item xml:id="itemTX02p0878a0901">二、空識夾變主流時期　自慧遠到清涼受羅什到玄奘之重重擴變</item>
+<lb ed="TX" n="0878a10"/>
+  <item xml:id="itemTX02p0878a1001">三、主流遞演不絕時期　會昌後禪宗下的台賢淨律</item>
+</list>
 <lb ed="TX" n="0878a11"/><p xml:id="pTX02p0878a1101" style="margin-left:0em;text-indent:2em">在羅什以前所傳譯的，有禪教律密淨，般若、法華、華嚴<note place="inline">單品</note>。那時候的大
 <lb ed="TX" n="0878a12"/>德們，只把它當做佛教來傳譯、來宏揚，根本就沒有宗派存在，所以不該拿後來宗派
 <pb ed="TX" xml:id="TX02.0001.0879a" n="0879a"/>
@@ -4666,36 +4779,62 @@
 <lb ed="TX" n="0880a14"/><p xml:id="pTX02p0880a1401" style="margin-left:0em;text-indent:2em">不過，最初的佛本論，不但重行，而且能宗經博教，教證本末都很圓滿健全。後
 <lb ed="TX" n="0880a15"/>來的禪淨，承這個重行之緒，走到極端，專重要行而捨去了經律，孤陋寡聞而致佛教
 <lb ed="TX" n="0880a16"/>衰落。現在要復興中國佛教，應該繼承佛本論的主動流，力戒孤陋的弊病，直探佛經
-<lb ed="TX" n="0880a17"/>，博搜教理，精簡以取其要，見之實行；絕不是承受那一家的舊套的。</p><byline cb:type="other">（妙欽記）
+<lb ed="TX" n="0880a17"/>，博搜教理，精簡以取其要，見之實行；絕不是承受那一家的舊套的。</p>
+<byline cb:type="other">（妙欽記）
 <lb ed="TX" n="0880a18"/><note place="inline">見海刊二十六卷九期</note></byline></cb:div>
 <milestone unit="juan" n="31"/>
 <pb ed="TX" xml:id="TX02.0001.0881a" n="0881a"/>
 <lb ed="TX" n="0881a01"/><cb:div type="other"><cb:mulu type="其他" level="2">中國之佛教</cb:mulu><head>中國之佛教</head>
 <lb ed="TX" n="0881a02"/><byline cb:type="other">——三十三年在復旦大學社會系講———</byline>
-<lb ed="TX" n="0881a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX02p0881a0301">一　佛教原來之性質
-<lb ed="TX" n="0881a04"/><list rend="no-marker"><item xml:id="itemTX02p0881a0401">甲　理論
-<lb ed="TX" n="0881a05"/><list rend="no-marker"><item xml:id="itemTX02p0881a0501">１　因緣生果</item>
-<lb ed="TX" n="0881a06"/><item xml:id="itemTX02p0881a0601">２　本性空寂</item>
-<lb ed="TX" n="0881a07"/><item xml:id="itemTX02p0881a0701">３　名相假立</item>
-<lb ed="TX" n="0881a08"/><item xml:id="itemTX02p0881a0801">４　中道真實</item></list></item>
-<lb ed="TX" n="0881a09"/><item xml:id="itemTX02p0881a0901">乙　事行
-<lb ed="TX" n="0881a10"/><list rend="no-marker"><item xml:id="itemTX02p0881a1001">１　神祕傾信</item>
-<lb ed="TX" n="0881a11"/><item xml:id="itemTX02p0881a1101">２　僧團律行</item>
-<lb ed="TX" n="0881a12"/><item xml:id="itemTX02p0881a1201">３　禪悟會通</item>
-<lb ed="TX" n="0881a13"/><item xml:id="itemTX02p0881a1301">４　學思論辯</item></list></item>
-<lb ed="TX" n="0881a14"/><item xml:id="itemTX02p0881a1401">丙　目標
-<lb ed="TX" n="0881a15"/><list rend="no-marker"><item xml:id="itemTX02p0881a1501">１　人間進善</item>
-<lb ed="TX" n="0881a16"/><item xml:id="itemTX02p0881a1601">２　後世超生</item>
-<lb ed="TX" n="0881a17"/><item xml:id="itemTX02p0881a1701">３　涅槃解脫</item>
-<lb ed="TX" n="0881a18"/><item xml:id="itemTX02p0881a1801">４　法界圓明</item></list></item></list></item>
-<lb ed="TX" n="0881a19"/><item xml:id="itemTX02p0881a1901">二　中國佛教之變質</item>
-<lb ed="TX" n="0881a20"/><item xml:id="itemTX02p0881a2001">三　中國佛教之改進</item></list></cb:div>
+<lb ed="TX" n="0881a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX02p0881a0301">一　佛教原來之性質
+<lb ed="TX" n="0881a04"/><list rend="no-marker">
+    <item xml:id="itemTX02p0881a0401">甲　理論
+<lb ed="TX" n="0881a05"/><list rend="no-marker">
+      <item xml:id="itemTX02p0881a0501">１　因緣生果</item>
+<lb ed="TX" n="0881a06"/>
+      <item xml:id="itemTX02p0881a0601">２　本性空寂</item>
+<lb ed="TX" n="0881a07"/>
+      <item xml:id="itemTX02p0881a0701">３　名相假立</item>
+<lb ed="TX" n="0881a08"/>
+      <item xml:id="itemTX02p0881a0801">４　中道真實</item>
+    </list></item>
+<lb ed="TX" n="0881a09"/>
+    <item xml:id="itemTX02p0881a0901">乙　事行
+<lb ed="TX" n="0881a10"/><list rend="no-marker">
+      <item xml:id="itemTX02p0881a1001">１　神祕傾信</item>
+<lb ed="TX" n="0881a11"/>
+      <item xml:id="itemTX02p0881a1101">２　僧團律行</item>
+<lb ed="TX" n="0881a12"/>
+      <item xml:id="itemTX02p0881a1201">３　禪悟會通</item>
+<lb ed="TX" n="0881a13"/>
+      <item xml:id="itemTX02p0881a1301">４　學思論辯</item>
+    </list></item>
+<lb ed="TX" n="0881a14"/>
+    <item xml:id="itemTX02p0881a1401">丙　目標
+<lb ed="TX" n="0881a15"/><list rend="no-marker">
+      <item xml:id="itemTX02p0881a1501">１　人間進善</item>
+<lb ed="TX" n="0881a16"/>
+      <item xml:id="itemTX02p0881a1601">２　後世超生</item>
+<lb ed="TX" n="0881a17"/>
+      <item xml:id="itemTX02p0881a1701">３　涅槃解脫</item>
+<lb ed="TX" n="0881a18"/>
+      <item xml:id="itemTX02p0881a1801">４　法界圓明</item>
+    </list></item>
+  </list></item>
+<lb ed="TX" n="0881a19"/>
+  <item xml:id="itemTX02p0881a1901">二　中國佛教之變質</item>
+<lb ed="TX" n="0881a20"/>
+  <item xml:id="itemTX02p0881a2001">三　中國佛教之改進</item>
+</list></cb:div>
 <lb ed="TX" n="0881a21"/>
 <pb ed="TX" xml:id="TX02.0001.0882a" n="0882a"/>
 <lb ed="TX" n="0882a01"/><cb:div type="other"><cb:mulu type="其他" level="3">一　佛教原來之性質</cb:mulu><head>一　佛教原來之性質</head>
 <lb ed="TX" n="0882a02"/><cb:div type="other"><cb:mulu type="其他" level="4">甲　理論</cb:mulu><head>甲　理論</head>
 <lb ed="TX" n="0882a03"/><p xml:id="pTX02p0882a0301" style="margin-left:0em;text-indent:2em">今講中國佛教，先應說明佛教的理論，理論中又分為四：</p>
-<lb ed="TX" n="0882a04"/><cb:div type="other"><cb:mulu type="其他" level="5">１　因緣生果</cb:mulu><head>１　因緣生果</head><p xml:id="pTX02p0882a0406" style="margin-left:0em;text-indent:2em" cb:place="inline">佛教看宇宙現象是一種結果，而產生這種結果的是因緣。因緣的
+<lb ed="TX" n="0882a04"/><cb:div type="other"><cb:mulu type="其他" level="5">１　因緣生果</cb:mulu><head>１　因緣生果</head>
+<p xml:id="pTX02p0882a0406" style="margin-left:0em;text-indent:2em" cb:place="inline">佛教看宇宙現象是一種結果，而產生這種結果的是因緣。因緣的
 <lb ed="TX" n="0882a05"/>定義很多，然簡括言之，不外是：由此而生彼謂之因，依此而成彼謂之緣。因緣的定
 <lb ed="TX" n="0882a06"/>義既明，現在當就宇宙諸現象以明因緣生的果。例如此時盛開的梅花樹<note place="inline">果</note>，牠的
 <lb ed="TX" n="0882a07"/>存在不是突然有，也不是本來有。在牠長成之前，必先有梅樹種子<note place="inline">因</note>，僅有此種
@@ -4705,13 +4844,15 @@
 <lb ed="TX" n="0882a11"/>因緣，由此類推，梅花樹以外的宇宙諸現象，也莫不都是由於因緣而有，故說宇宙諸
 <lb ed="TX" n="0882a12"/>現象是因緣和合所生成的結果。</p></cb:div>
 <pb ed="TX" xml:id="TX02.0001.0883a" n="0883a"/>
-<lb ed="TX" n="0883a01"/><cb:div type="other"><cb:mulu type="其他" level="5">２　本性空寂</cb:mulu><head>２　本性空寂</head><p xml:id="pTX02p0883a0106" style="margin-left:0em;text-indent:2em" cb:place="inline">宇宙現象既是因緣的果，那末牠們的本性一定是無了。這一說，
+<lb ed="TX" n="0883a01"/><cb:div type="other"><cb:mulu type="其他" level="5">２　本性空寂</cb:mulu><head>２　本性空寂</head>
+<p xml:id="pTX02p0883a0106" style="margin-left:0em;text-indent:2em" cb:place="inline">宇宙現象既是因緣的果，那末牠們的本性一定是無了。這一說，
 <lb ed="TX" n="0883a02"/>諸位初聽也許覺得離奇，但我想一經說明，定能明白。如這張講台，分析牠的構成因
 <lb ed="TX" n="0883a03"/>素，不外木料<note place="inline">因</note>、洋釘、油漆、人工等<note place="inline">緣</note>。質言之，桌子之成，由於上述諸
 <lb ed="TX" n="0883a04"/>因緣的結合。所以如果我們將這些因緣分散拆開，或牠們根本沒有和合的機會，那桌
 <lb ed="TX" n="0883a05"/>子還有存在的可能嗎？桌子既非實在有或本來有，那牠的自性自然是無了。桌子既如
 <lb ed="TX" n="0883a06"/>此無自性，我們就可類推桌子以外的宇宙諸現象也莫不如此——無自性。</p></cb:div>
-<lb ed="TX" n="0883a07"/><cb:div type="other"><cb:mulu type="其他" level="5">３　名相假立</cb:mulu><head>３　名相假立</head><p xml:id="pTX02p0883a0706" style="margin-left:0em;text-indent:2em" cb:place="inline">我說桌子沒有自性，並非否認桌子形態的存在。這一點很重要，
+<lb ed="TX" n="0883a07"/><cb:div type="other"><cb:mulu type="其他" level="5">３　名相假立</cb:mulu><head>３　名相假立</head>
+<p xml:id="pTX02p0883a0706" style="margin-left:0em;text-indent:2em" cb:place="inline">我說桌子沒有自性，並非否認桌子形態的存在。這一點很重要，
 <lb ed="TX" n="0883a08"/>如果不將此弄清楚，便覺佛理與事實不符了，例如有人問我：你們研究佛學的人開口
 <lb ed="TX" n="0883a09"/>講空，閉口說無，但為什麼還吃飯睡覺呢？懷著這樣疑問的人，顯然沒有弄清楚佛教
 <lb ed="TX" n="0883a10"/>說空的真義，因為佛教說空，是指諸現象因緣和合故無自性，而非否認現象的存在。
@@ -4720,7 +4861,8 @@
 <pb ed="TX" xml:id="TX02.0001.0884a" n="0884a"/>
 <lb ed="TX" n="0884a01"/>別，則結果必混亂得不堪設想。因此，有張三李四和桌子椅子等的名相產生，名相不
 <lb ed="TX" n="0884a02"/>過是為人便利而設立，牠非即現象自體，所以說名相是假立的。</p></cb:div>
-<lb ed="TX" n="0884a03"/><cb:div type="other"><cb:mulu type="其他" level="5">４　中道真實</cb:mulu><head>４　中道真實</head><p xml:id="pTX02p0884a0306" style="margin-left:0em;text-indent:2em" cb:place="inline">有一偈說：「因緣所生法，我說即是空：亦為是假名，亦是中道
+<lb ed="TX" n="0884a03"/><cb:div type="other"><cb:mulu type="其他" level="5">４　中道真實</cb:mulu><head>４　中道真實</head>
+<p xml:id="pTX02p0884a0306" style="margin-left:0em;text-indent:2em" cb:place="inline">有一偈說：「因緣所生法，我說即是空：亦為是假名，亦是中道
 <lb ed="TX" n="0884a04"/>義」。這是說，宇宙間無一現象不從因緣生，既從因緣生，其自體當然是空，而且識
 <lb ed="TX" n="0884a05"/>別其存在之名相又必是假立，故稱為中道。中道即空即假，即假即空。換言之，每一
 <lb ed="TX" n="0884a06"/>現相有二面：一是我們眼等所能見得到的存在形態，一是我們雖不能見而能思想到的
@@ -4729,18 +4871,21 @@
 <lb ed="TX" n="0884a09"/><cb:div type="other"><cb:mulu type="其他" level="4">乙　事行</cb:mulu><head>乙　事行</head>
 <lb ed="TX" n="0884a10"/><p xml:id="pTX02p0884a1001" style="margin-left:0em;text-indent:2em">以上所述是佛教的理論。但有了理論必須要有行動，故緊接著便講事行。事行中
 <lb ed="TX" n="0884a11"/>又分為四：</p>
-<lb ed="TX" n="0884a12"/><cb:div type="other"><cb:mulu type="其他" level="5">１　神祕傾信</cb:mulu><head>１　神祕傾信</head><p xml:id="pTX02p0884a1206" style="margin-left:0em;text-indent:2em" cb:place="inline">華嚴經中說：「信為道源功德母」，可知信在佛教上，如興趣在
+<lb ed="TX" n="0884a12"/><cb:div type="other"><cb:mulu type="其他" level="5">１　神祕傾信</cb:mulu><head>１　神祕傾信</head>
+<p xml:id="pTX02p0884a1206" style="margin-left:0em;text-indent:2em" cb:place="inline">華嚴經中說：「信為道源功德母」，可知信在佛教上，如興趣在
 <pb ed="TX" xml:id="TX02.0001.0885a" n="0885a"/>
 <lb ed="TX" n="0885a01"/>事業上一樣的重要。因為我們對佛教先須具備信仰，而後方能接受。佛之所說，每超
 <lb ed="TX" n="0885a02"/>出常人的思想，而若能認真地依著行去，又必有好反響，因此常人對佛教由普通信仰
 <lb ed="TX" n="0885a03"/>而漸帶神祕傾向。此種轉變，至祕密教興起，尤覺顯著。然從佛教本身看，此種轉變
 <lb ed="TX" n="0885a04"/>，壞多好少。</p></cb:div>
-<lb ed="TX" n="0885a05"/><cb:div type="other"><cb:mulu type="其他" level="5">２　僧團律行</cb:mulu><head>２　僧團律行</head><p xml:id="pTX02p0885a0506" style="margin-left:0em;text-indent:2em" cb:place="inline">由信而接受佛教，能依之實行的人，我們便稱之為僧。但僧之原
+<lb ed="TX" n="0885a05"/><cb:div type="other"><cb:mulu type="其他" level="5">２　僧團律行</cb:mulu><head>２　僧團律行</head>
+<p xml:id="pTX02p0885a0506" style="margin-left:0em;text-indent:2em" cb:place="inline">由信而接受佛教，能依之實行的人，我們便稱之為僧。但僧之原
 <lb ed="TX" n="0885a06"/>意為和合眾，換言之：四人以上的佛徒團體乃得稱為僧，所以僧即僧團。人眾一多，
 <lb ed="TX" n="0885a07"/>其中不免要發生越軌行動，為了防止故制定戒律。戒者，消極的止其不當為，律者，
 <lb ed="TX" n="0885a08"/>是一切應作事業的規律。關於戒律，中國雖立有專宗，但律宗以外的一般僧侶亦須嚴
 <lb ed="TX" n="0885a09"/>守。從僧侶講，最初守沙彌十戒，進而守比丘二百五十戒，最終進受菩薩戒。</p></cb:div>
-<lb ed="TX" n="0885a10"/><cb:div type="other"><cb:mulu type="其他" level="5">３　禪悟會通</cb:mulu><head>３　禪悟會通</head><p xml:id="pTX02p0885a1006" style="margin-left:0em;text-indent:2em" cb:place="inline">禪是禪那的簡稱，亦稱為禪定，但在印度多叫瑜伽。這裏所說的
+<lb ed="TX" n="0885a10"/><cb:div type="other"><cb:mulu type="其他" level="5">３　禪悟會通</cb:mulu><head>３　禪悟會通</head>
+<p xml:id="pTX02p0885a1006" style="margin-left:0em;text-indent:2em" cb:place="inline">禪是禪那的簡稱，亦稱為禪定，但在印度多叫瑜伽。這裏所說的
 <lb ed="TX" n="0885a11"/>禪，並非單指禪宗，而是指比禪宗更廣泛的三學中的禪定。禪那的本意是靜慮，也就
 <lb ed="TX" n="0885a12"/>是說在靜定中觀察思慮，因此亦稱禪觀。禪定的種類極多，例如安般禪，五門禪，念
 <pb ed="TX" xml:id="TX02.0001.0886a" n="0886a"/>
@@ -4760,7 +4905,8 @@
 <lb ed="TX" n="0887a01"/>觀一境的三諦所成。一境三諦是諸法實相，一心三觀便是實相禪。上述四禪是依教理
 <lb ed="TX" n="0887a02"/>修的，但宗門禪重在自心參悟。宗門禪始於菩提達摩，要旨在「教外別傳不立文字」
 <lb ed="TX" n="0887a03"/>，「直指人心見性成佛」。要之，宗門禪是頓悟禪。</p></cb:div>
-<lb ed="TX" n="0887a04"/><cb:div type="other"><cb:mulu type="其他" level="5">４　學思論辯</cb:mulu><head>４　學思論辯</head><p xml:id="pTX02p0887a0406" style="margin-left:0em;text-indent:2em" cb:place="inline">上述的禪，實即等於普通的思考，也就是一種埋頭實地研究的體
+<lb ed="TX" n="0887a04"/><cb:div type="other"><cb:mulu type="其他" level="5">４　學思論辯</cb:mulu><head>４　學思論辯</head>
+<p xml:id="pTX02p0887a0406" style="margin-left:0em;text-indent:2em" cb:place="inline">上述的禪，實即等於普通的思考，也就是一種埋頭實地研究的體
 <lb ed="TX" n="0887a05"/>驗領悟工作。在此修學中一旦有了心得，便須出而覺悟他人，施設論辯。論辯主旨雖
 <lb ed="TX" n="0887a06"/>在破邪顯正，然於激烈論難中，彼此常會發現新的真理，故佛教亦甚重視。為了思考
 <lb ed="TX" n="0887a07"/>周密及防止過失，乃有因明論式。上述的2.3.4.，用佛語說便是戒定慧三學。這三
@@ -4768,7 +4914,8 @@
 <lb ed="TX" n="0887a09"/><cb:div type="other"><cb:mulu type="其他" level="4">丙　目標</cb:mulu><head>丙　目標</head>
 <lb ed="TX" n="0887a10"/><p xml:id="pTX02p0887a1001" style="margin-left:0em;text-indent:2em">吾人雖有行動，若無目標，則等於無羅盤針的海船，故應講佛教趣向的目標。這
 <lb ed="TX" n="0887a11"/>裏又分四：</p>
-<lb ed="TX" n="0887a12"/><cb:div type="other"><cb:mulu type="其他" level="5">１　人間進善</cb:mulu><head>１　人間進善</head><p xml:id="pTX02p0887a1206" style="margin-left:0em;text-indent:2em" cb:place="inline">佛教最初的目標在使人民善良，社會安定，國家康強。此中第一
+<lb ed="TX" n="0887a12"/><cb:div type="other"><cb:mulu type="其他" level="5">１　人間進善</cb:mulu><head>１　人間進善</head>
+<p xml:id="pTX02p0887a1206" style="margin-left:0em;text-indent:2em" cb:place="inline">佛教最初的目標在使人民善良，社會安定，國家康強。此中第一
 <pb ed="TX" xml:id="TX02.0001.0888a" n="0888a"/>
 <lb ed="TX" n="0888a01"/>步須人民善良；佛典中教人民善良的方法很多，我也曾作過佛教人乘正法論。但為節
 <lb ed="TX" n="0888a02"/>省時間計，今只講五戒善法以供參考：（一）不殘殺而仁愛：佛教之不殺原不僅對人
@@ -4788,7 +4935,8 @@
 <lb ed="TX" n="0889a03"/>刺激性的東西，均宜戒除。因為這些東西多能腐敗身心，昏亂性情，因而做出越軌的
 <lb ed="TX" n="0889a04"/>行動。上述諸事固當戒，即衣食、勞動、休息、聚談、研習、每日亦須有常度，身心
 <lb ed="TX" n="0889a05"/>方可健康。</p></cb:div>
-<lb ed="TX" n="0889a06"/><cb:div type="other"><cb:mulu type="其他" level="5">２　後世超生</cb:mulu><head>２　後世超生</head><p xml:id="pTX02p0889a0606" style="margin-left:0em;text-indent:2em" cb:place="inline">佛典中有業與輪迴二語，業的定義是：吾人憑自己的意志不斷的活
+<lb ed="TX" n="0889a06"/><cb:div type="other"><cb:mulu type="其他" level="5">２　後世超生</cb:mulu><head>２　後世超生</head>
+<p xml:id="pTX02p0889a0606" style="margin-left:0em;text-indent:2em" cb:place="inline">佛典中有業與輪迴二語，業的定義是：吾人憑自己的意志不斷的活
 <lb ed="TX" n="0889a07"/>動，活動的反應的結果，造成自己的習性，這習性又成為將來活動的根柢，支配自己
 <lb ed="TX" n="0889a08"/>的命運。從這支配命運一點說，名曰業報，或業果。業是永遠不斷起滅的，其活動若
 <lb ed="TX" n="0889a09"/>轉一個方向，業果也隨之而轉換，故業果決非以一期的生命之死而終了。因為死亡不
@@ -4798,7 +4946,8 @@
 <pb ed="TX" xml:id="TX02.0001.0890a" n="0890a"/>
 <lb ed="TX" n="0890a01"/>道理，便可證明「業力不滅」的原則。吾人的業力既非以現世為終了，那末吾人就應
 <lb ed="TX" n="0890a02"/>不以現生善良為滿足，而進求後世的超生。</p></cb:div>
-<lb ed="TX" n="0890a03"/><cb:div type="other"><cb:mulu type="其他" level="5">３　涅槃解脫</cb:mulu><head>３　涅槃解脫</head><p xml:id="pTX02p0890a0306" style="margin-left:0em;text-indent:2em" cb:place="inline">但是後世超生，無論如何高超，仍不免於輪迴。怎樣才得出輪迴？
+<lb ed="TX" n="0890a03"/><cb:div type="other"><cb:mulu type="其他" level="5">３　涅槃解脫</cb:mulu><head>３　涅槃解脫</head>
+<p xml:id="pTX02p0890a0306" style="margin-left:0em;text-indent:2em" cb:place="inline">但是後世超生，無論如何高超，仍不免於輪迴。怎樣才得出輪迴？
 <lb ed="TX" n="0890a04"/>這惟有涅槃解脫。涅槃本為梵文，意即解脫，即為離縛得自在。用現代語說：脫離囚
 <lb ed="TX" n="0890a05"/>奴束縛的生活，達到自由自主的地位。再詳細點說：這束縛並非別人加之於我，原來
 <lb ed="TX" n="0890a06"/>都是自己找來的，解脫不外解放自己，故解脫祗須自己能覺悟。又因束縛是自己找來
@@ -4815,7 +4964,8 @@
 <lb ed="TX" n="0891a04"/>。感情的修養，佛教是教人以同情心的「慈悲為本」。慈謂與人同喜，悲謂與人同憂
 <lb ed="TX" n="0891a05"/>，佛能破除假我，故能實現物我同體的境界，對於一切眾生，恰如母對嬰兒，所有苦
 <lb ed="TX" n="0891a06"/>樂悉同身受。發揮這純潔的愛他心，方算真正佛教徒。</p></cb:div>
-<lb ed="TX" n="0891a07"/><cb:div type="other"><cb:mulu type="其他" level="5">４　法界圓明</cb:mulu><head>４　法界圓明</head><p xml:id="pTX02p0891a0706" style="margin-left:0em;text-indent:2em" cb:place="inline">我們依上所述的話去修，必可得涅槃，然涅槃之大乘境界，即為法
+<lb ed="TX" n="0891a07"/><cb:div type="other"><cb:mulu type="其他" level="5">４　法界圓明</cb:mulu><head>４　法界圓明</head>
+<p xml:id="pTX02p0891a0706" style="margin-left:0em;text-indent:2em" cb:place="inline">我們依上所述的話去修，必可得涅槃，然涅槃之大乘境界，即為法
 <lb ed="TX" n="0891a08"/>界圓明。佛每說到這境界，必勉吾人自證，故惟有已經自證的人，方能澈底了解牠。
 <lb ed="TX" n="0891a09"/>然依佛典亦可知其一二：牠是一種絕對清涼無煩惱，絕對安甯無破壞，絕對通達無障
 <lb ed="TX" n="0891a10"/>礙，絕對自由無繫縛的境界。</p></cb:div></cb:div></cb:div>
@@ -4841,27 +4991,74 @@
 <lb ed="TX" n="0893a04"/>再進為與出世一貫之道，然因中國舊時環境關係，人們一入佛教即注重出世而忽略了
 <lb ed="TX" n="0893a05"/>化導世間，故弄成佛教與社會脫離的怪象。因此，我們應提倡善導人世，注重社會事
 <lb ed="TX" n="0893a06"/>業，改進人民生活，提高人民知識水準，使能即由國家富強人間美善中，通達到法界
-<lb ed="TX" n="0893a07"/>圓明的佛境。</p><byline cb:type="other">（天慧記）<note place="inline">見海刊二十五卷八期</note></byline></cb:div></cb:div>
+<lb ed="TX" n="0893a07"/>圓明的佛境。</p>
+<byline cb:type="other">（天慧記）<note place="inline">見海刊二十五卷八期</note></byline></cb:div></cb:div>
 <milestone unit="juan" n="32"/>
 <pb ed="TX" xml:id="TX02.0001.0894a" n="0894a"/>
 <lb ed="TX" n="0894a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛教史略</cb:mulu><head>佛教史略</head>
 <lb ed="TX" n="0894a02"/><byline cb:type="other">——宣統二年作——</byline>
-<lb ed="TX" n="0894a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX02p0894a0301">一　緒言</item>
-<lb ed="TX" n="0894a04"/><item xml:id="itemTX02p0894a0401">二　創闢時代
-<lb ed="TX" n="0894a05"/><list rend="no-marker"><item xml:id="itemTX02p0894a0501">甲　佛之誕生與長成</item>
-<lb ed="TX" n="0894a06"/><item xml:id="itemTX02p0894a0601">乙　佛之出家與成道</item>
-<lb ed="TX" n="0894a07"/><item xml:id="itemTX02p0894a0701">丙　佛之說法與入寂</item>
-<lb ed="TX" n="0894a08"/><item xml:id="itemTX02p0894a0801">丁　創闢時代贊語</item></list></item>
-<lb ed="TX" n="0894a09"/><item xml:id="itemTX02p0894a0901">三　流傳時代
-<lb ed="TX" n="0894a10"/><list rend="no-marker"><item xml:id="itemTX02p0894a1001">甲　印度時代
-<lb ed="TX" n="0894a11"/><list rend="no-marker"><item xml:id="itemTX02p0894a1101"><note n="0894a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a11.01">１【CB】，一【太虛】</note><app n="0894a1101"><lem wit="【太虛】">一</lem><rdg resp="CBETA" type="cbetaRemark">１</rdg></app>　印度小乘時代</item>
-<lb ed="TX" n="0894a12"/><item xml:id="itemTX02p0894a1201"><note n="0894a1201" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a12.01">２【CB】，二【太虛】</note><app n="0894a1201"><lem wit="【太虛】">二</lem><rdg resp="CBETA" type="cbetaRemark">２</rdg></app>　印度大乘時代</item>
-<lb ed="TX" n="0894a13"/><item xml:id="itemTX02p0894a1301"><note n="0894a1301" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a13.01">３【CB】，三【太虛】</note><app n="0894a1301"><lem wit="【太虛】">三</lem><rdg resp="CBETA" type="cbetaRemark">３</rdg></app>　印度時代贊語</item></list></item>
-<lb ed="TX" n="0894a14"/><item xml:id="itemTX02p0894a1401">乙　亞洲時代
-<lb ed="TX" n="0894a15"/><list rend="no-marker"><item xml:id="itemTX02p0894a1501"><note n="0894a1501" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a15.01">１【CB】，一【太虛】</note><app n="0894a1501"><lem wit="【太虛】">一</lem><rdg resp="CBETA" type="cbetaRemark">１</rdg></app>　創開到全盛時代</item>
-<lb ed="TX" n="0894a16"/><item xml:id="itemTX02p0894a1601"><note n="0894a1601" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a16.01">２【CB】，二【太虛】</note><app n="0894a1601"><lem wit="【太虛】">二</lem><rdg resp="CBETA" type="cbetaRemark">２</rdg></app>　變通到衰落時代</item>
-<lb ed="TX" n="0894a17"/><item xml:id="itemTX02p0894a1701"><note n="0894a1701" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a17.01">３【CB】，三【太虛】</note><app n="0894a1701"><lem wit="【太虛】">三</lem><rdg resp="CBETA" type="cbetaRemark">３</rdg></app>　亞洲時代贊語</item></list></item>
-<lb ed="TX" n="0894a18"/><item xml:id="itemTX02p0894a1801">丙　世界時代</item></list></item></list></cb:div>
+<lb ed="TX" n="0894a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX02p0894a0301">一　緒言</item>
+<lb ed="TX" n="0894a04"/>
+  <item xml:id="itemTX02p0894a0401">二　創闢時代
+<lb ed="TX" n="0894a05"/><list rend="no-marker">
+    <item xml:id="itemTX02p0894a0501">甲　佛之誕生與長成</item>
+<lb ed="TX" n="0894a06"/>
+    <item xml:id="itemTX02p0894a0601">乙　佛之出家與成道</item>
+<lb ed="TX" n="0894a07"/>
+    <item xml:id="itemTX02p0894a0701">丙　佛之說法與入寂</item>
+<lb ed="TX" n="0894a08"/>
+    <item xml:id="itemTX02p0894a0801">丁　創闢時代贊語</item>
+  </list></item>
+<lb ed="TX" n="0894a09"/>
+  <item xml:id="itemTX02p0894a0901">三　流傳時代
+<lb ed="TX" n="0894a10"/><list rend="no-marker">
+    <item xml:id="itemTX02p0894a1001">甲　印度時代
+<lb ed="TX" n="0894a11"/><list rend="no-marker">
+      <item xml:id="itemTX02p0894a1101"><note 
+n="0894a1101" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a11.01">１【CB】，一【太虛】</note><app n="0894a1101">
+        <lem wit="【太虛】">一</lem>
+        <rdg resp="CBETA" type="cbetaRemark">１</rdg>
+      </app>　印度小乘時代</item>
+<lb ed="TX" n="0894a12"/>
+      <item xml:id="itemTX02p0894a1201"><note 
+n="0894a1201" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a12.01">２【CB】，二【太虛】</note><app n="0894a1201">
+        <lem wit="【太虛】">二</lem>
+        <rdg resp="CBETA" type="cbetaRemark">２</rdg>
+      </app>　印度大乘時代</item>
+<lb ed="TX" n="0894a13"/>
+      <item xml:id="itemTX02p0894a1301"><note 
+n="0894a1301" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a13.01">３【CB】，三【太虛】</note><app n="0894a1301">
+        <lem wit="【太虛】">三</lem>
+        <rdg resp="CBETA" type="cbetaRemark">３</rdg>
+      </app>　印度時代贊語</item>
+    </list></item>
+<lb ed="TX" n="0894a14"/>
+    <item xml:id="itemTX02p0894a1401">乙　亞洲時代
+<lb ed="TX" n="0894a15"/><list rend="no-marker">
+      <item xml:id="itemTX02p0894a1501"><note 
+n="0894a1501" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a15.01">１【CB】，一【太虛】</note><app n="0894a1501">
+        <lem wit="【太虛】">一</lem>
+        <rdg resp="CBETA" type="cbetaRemark">１</rdg>
+      </app>　創開到全盛時代</item>
+<lb ed="TX" n="0894a16"/>
+      <item xml:id="itemTX02p0894a1601"><note 
+n="0894a1601" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a16.01">２【CB】，二【太虛】</note><app n="0894a1601">
+        <lem wit="【太虛】">二</lem>
+        <rdg resp="CBETA" type="cbetaRemark">２</rdg>
+      </app>　變通到衰落時代</item>
+<lb ed="TX" n="0894a17"/>
+      <item xml:id="itemTX02p0894a1701"><note 
+n="0894a1701" resp="CBETA" type="add" rend="hide" note_key="TX02.0894a17.01">３【CB】，三【太虛】</note><app n="0894a1701">
+        <lem wit="【太虛】">三</lem>
+        <rdg resp="CBETA" type="cbetaRemark">３</rdg>
+      </app>　亞洲時代贊語</item>
+    </list></item>
+<lb ed="TX" n="0894a18"/>
+    <item xml:id="itemTX02p0894a1801">丙　世界時代</item>
+  </list></item>
+</list></cb:div>
 <lb ed="TX" n="0894a19"/>
 <lb ed="TX" n="0894a20"/><cb:div type="other"><cb:mulu type="其他" level="3">一　緒言</cb:mulu><head>一　緒言</head>
 <pb ed="TX" xml:id="TX02.0001.0895a" n="0895a"/>
@@ -4986,7 +5183,11 @@
 <lb ed="TX" n="0904a02"/>宣揚圓妙。示自性自度悟入修證之真詣，使同躋康莊，直達寶所。慈雲法澤，蔭潤全
 <lb ed="TX" n="0904a03"/>印，靉靆滂沱之所至，拓臻異域。佛教中興之功，實無過馬鳴、龍樹者！後世以八宗
 <lb ed="TX" n="0904a04"/>泰祖、千部論師尊之，洵非誇耳。</p>
-<lb ed="TX" n="0904a05"/><p xml:id="pTX02p0904a0501" style="margin-left:0em;text-indent:2em">十五祖提婆尊者克弘大乘，著百論以斥邪謬。外道疾之甚，竟為所<note n="0904a0501" resp="CBETA" type="add" rend="hide" note_key="TX02.0904a05.27">刺【CB】，剌【太虛】</note><app n="0904a0501"><lem wit="【太虛】">剌</lem><rdg resp="CBETA" type="cbetaRemark">刺</rdg></app>。是時魔外
+<lb ed="TX" n="0904a05"/><p xml:id="pTX02p0904a0501" style="margin-left:0em;text-indent:2em">十五祖提婆尊者克弘大乘，著百論以斥邪謬。外道疾之甚，竟為所<note 
+n="0904a0501" resp="CBETA" type="add" rend="hide" note_key="TX02.0904a05.27">刺【CB】，剌【太虛】</note><app n="0904a0501">
+  <lem wit="【太虛】">剌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">刺</rdg>
+</app>。是時魔外
 <lb ed="TX" n="0904a06"/>披猖，佛道墮落，五印如陷長夜，幸十六祖羅睺羅多，苦心捍衛，適值無著、天親共
 <lb ed="TX" n="0904a07"/>起匡扶，魔炎用戢，佛日重光。無著、天親，蓋馬鳴、龍樹而後佛教史上出類拔萃之
 <lb ed="TX" n="0904a08"/>鉅子也。無著單宏大乘；天親初宏小乘，後宏大乘。其宗彌勒所撰大乘論，有瑜伽師
@@ -5116,7 +5317,11 @@
 <lb ed="TX" n="0914a02"/>，或但傳其皮相；惟我中國輝煌俊偉，發揚光大，獨能概佛教之全體大用而無遺，斯
 <lb ed="TX" n="0914a03"/>亦足豪矣！然僧侶之自局為化外，豎儒之相歧為異端，以致影響未能大著，效功不甚
 <lb ed="TX" n="0914a04"/>足觀，浸及今日大有江河日下之勢也。第宋、明而下，佛儒道三教均漸有一道同風之
-<lb ed="TX" n="0914a05"/>概，而入於睡眠態度，要亦致衰之一原因歟？今國家政體變更，社會思潮複雜，激<note n="0914a0501" resp="CBETA" type="add" rend="hide" note_key="TX02.0914a05.32">刺【CB】，剌【太虛】</note><app n="0914a0501"><lem wit="【太虛】">剌</lem><rdg resp="CBETA" type="cbetaRemark">刺</rdg></app>
+<lb ed="TX" n="0914a05"/>概，而入於睡眠態度，要亦致衰之一原因歟？今國家政體變更，社會思潮複雜，激<note 
+n="0914a0501" resp="CBETA" type="add" rend="hide" note_key="TX02.0914a05.32">刺【CB】，剌【太虛】</note><app n="0914a0501">
+  <lem wit="【太虛】">剌</lem>
+  <rdg resp="CBETA" type="cbetaRemark">刺</rdg>
+</app>
 <lb ed="TX" n="0914a06"/>既深，醒覺亦多，吾佛教其庶幾蹶而復興乎！</p></cb:div></cb:div>
 <lb ed="TX" n="0914a07"/><cb:div type="other"><cb:mulu type="其他" level="4">丙　世界時代</cb:mulu><head>丙　世界時代</head>
 <lb ed="TX" n="0914a08"/><p xml:id="pTX02p0914a0801" style="margin-left:0em;text-indent:2em">最近二十年中，日本僧侶之四出傳教，歐美各洲皆已有佛跡流入。且研究佛學者
@@ -5145,19 +5350,29 @@
 <lb ed="TX" n="0916a05"/>之際，已具如前論；庸可以僧界局方外拘哉！其以僧界局方外拘者，皆取形式而不取
 <lb ed="TX" n="0916a06"/>精神者耳。然今日之中華民國既度入世界時代，政教學術無一不變，佛教固非變不足
 <lb ed="TX" n="0916a07"/>以通矣。宋、明之際一變而儒學益以明，佛學益以通；今能乘世界之思潮再一變之，
-<lb ed="TX" n="0916a08"/>古今東西之政教學術，皆將因之而愈明！全球慧日，於是乎為不僭耳。</p><byline cb:type="other"><note place="inline">見佛教日報
+<lb ed="TX" n="0916a08"/>古今東西之政教學術，皆將因之而愈明！全球慧日，於是乎為不僭耳。</p>
+<byline cb:type="other"><note place="inline">見佛教日報
 <lb ed="TX" n="0916a09"/>第一期二期</note></byline></cb:div></cb:div></cb:div>
 <milestone unit="juan" n="33"/>
 <pb ed="TX" xml:id="TX02.0001.0917a" n="0917a"/>
 <lb ed="TX" n="0917a01"/><cb:div type="other"><cb:mulu type="其他" level="2">亞歐美佛教之鳥瞰</cb:mulu><head>亞歐美佛教之鳥瞰</head>
 <lb ed="TX" n="0917a02"/><byline cb:type="other">——二十年一月在廈門中華中學講——</byline>
-<lb ed="TX" n="0917a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX02p0917a0301">一　成立佛教之根本原理</item>
-<lb ed="TX" n="0917a04"/><item xml:id="itemTX02p0917a0401">二　佛教普及之範圍</item>
-<lb ed="TX" n="0917a05"/><item xml:id="itemTX02p0917a0501">三　亞洲佛教古代之概況</item>
-<lb ed="TX" n="0917a06"/><item xml:id="itemTX02p0917a0601">四　亞洲佛教在近代之大系</item>
-<lb ed="TX" n="0917a07"/><item xml:id="itemTX02p0917a0701">五　亞洲佛教在近代之傳播</item>
-<lb ed="TX" n="0917a08"/><item xml:id="itemTX02p0917a0801">六　歐洲佛教之近況</item>
-<lb ed="TX" n="0917a09"/><item xml:id="itemTX02p0917a0901">七　美洲佛教之近況</item></list></cb:div>
+<lb ed="TX" n="0917a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX02p0917a0301">一　成立佛教之根本原理</item>
+<lb ed="TX" n="0917a04"/>
+  <item xml:id="itemTX02p0917a0401">二　佛教普及之範圍</item>
+<lb ed="TX" n="0917a05"/>
+  <item xml:id="itemTX02p0917a0501">三　亞洲佛教古代之概況</item>
+<lb ed="TX" n="0917a06"/>
+  <item xml:id="itemTX02p0917a0601">四　亞洲佛教在近代之大系</item>
+<lb ed="TX" n="0917a07"/>
+  <item xml:id="itemTX02p0917a0701">五　亞洲佛教在近代之傳播</item>
+<lb ed="TX" n="0917a08"/>
+  <item xml:id="itemTX02p0917a0801">六　歐洲佛教之近況</item>
+<lb ed="TX" n="0917a09"/>
+  <item xml:id="itemTX02p0917a0901">七　美洲佛教之近況</item>
+</list></cb:div>
 <lb ed="TX" n="0917a10"/>
 <lb ed="TX" n="0917a11"/><cb:div type="other"><cb:mulu type="其他" level="3">一　成立佛教之根本原理</cb:mulu><head>一　成立佛教之根本原理</head>
 <lb ed="TX" n="0917a12"/><p xml:id="pTX02p0917a1201" style="margin-left:0em;text-indent:2em">對於佛教，向來討論者多矣，或云是哲學，或云是宗教，或云非宗教非哲學，言
@@ -5257,20 +5472,33 @@
 <lb ed="TX" n="0925a01"/><p xml:id="pTX02p0925a0101" style="margin-left:0em;text-indent:2em">佛教發源於南亞，而漸次傳播於世界，今尤有蒸蒸日上之觀。獨惜中國系之佛教
 <lb ed="TX" n="0925a02"/>，在世界上尚無若何貢獻可述，此誠愧憾萬分之事。近來既已能喚起歐美人對中國佛
 <lb ed="TX" n="0925a03"/>教之注意，尤須謀整頓而貢獻於世界。此不但佛教之幸，亦中國人全體之光榮也，諸
-<lb ed="TX" n="0925a04"/>君其亦樂而發展之歟！</p><byline cb:type="other">（宏度記）<note place="inline">見海刊十三卷四期</note></byline></cb:div></cb:div>
+<lb ed="TX" n="0925a04"/>君其亦樂而發展之歟！</p>
+<byline cb:type="other">（宏度記）<note place="inline">見海刊十三卷四期</note></byline></cb:div></cb:div>
 <milestone unit="juan" n="34"/>
 <pb ed="TX" xml:id="TX02.0001.0926a" n="0926a"/>
 <lb ed="TX" n="0926a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學源流及其新運動</cb:mulu><head>佛學源流及其新運動</head>
 <lb ed="TX" n="0926a02"/><byline cb:type="other">——十七年十月在法京巴黎東方博物院講稿——</byline>
-<lb ed="TX" n="0926a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX02p0926a0301">一　佛學的發源</item>
-<lb ed="TX" n="0926a04"/><item xml:id="itemTX02p0926a0401">二　佛學在印度的流行</item>
-<lb ed="TX" n="0926a05"/><item xml:id="itemTX02p0926a0501">三　佛學在中國的流行</item>
-<lb ed="TX" n="0926a06"/><item xml:id="itemTX02p0926a0601">四　現今佛教在世界上的三個中心</item>
-<lb ed="TX" n="0926a07"/><item xml:id="itemTX02p0926a0701">五　余之佛學新運動
-<lb ed="TX" n="0926a08"/><list rend="no-marker"><item xml:id="itemTX02p0926a0801">甲　人生的佛學</item>
-<lb ed="TX" n="0926a09"/><item xml:id="itemTX02p0926a0901">乙　科學的佛學</item>
-<lb ed="TX" n="0926a10"/><item xml:id="itemTX02p0926a1001">丙　實證的佛學</item>
-<lb ed="TX" n="0926a11"/><item xml:id="itemTX02p0926a1101">丁　世界的佛學</item></list></item></list></cb:div>
+<lb ed="TX" n="0926a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX02p0926a0301">一　佛學的發源</item>
+<lb ed="TX" n="0926a04"/>
+  <item xml:id="itemTX02p0926a0401">二　佛學在印度的流行</item>
+<lb ed="TX" n="0926a05"/>
+  <item xml:id="itemTX02p0926a0501">三　佛學在中國的流行</item>
+<lb ed="TX" n="0926a06"/>
+  <item xml:id="itemTX02p0926a0601">四　現今佛教在世界上的三個中心</item>
+<lb ed="TX" n="0926a07"/>
+  <item xml:id="itemTX02p0926a0701">五　余之佛學新運動
+<lb ed="TX" n="0926a08"/><list rend="no-marker">
+    <item xml:id="itemTX02p0926a0801">甲　人生的佛學</item>
+<lb ed="TX" n="0926a09"/>
+    <item xml:id="itemTX02p0926a0901">乙　科學的佛學</item>
+<lb ed="TX" n="0926a10"/>
+    <item xml:id="itemTX02p0926a1001">丙　實證的佛學</item>
+<lb ed="TX" n="0926a11"/>
+    <item xml:id="itemTX02p0926a1101">丁　世界的佛學</item>
+  </list></item>
+</list></cb:div>
 <lb ed="TX" n="0926a12"/>
 <lb ed="TX" n="0926a13"/><cb:div type="other"><cb:mulu type="其他" level="3">一　佛學的發源</cb:mulu><head>一　佛學的發源</head>
 <lb ed="TX" n="0926a14"/><p xml:id="pTX02p0926a1401" style="margin-left:0em;text-indent:2em">佛學所說明的宇宙萬有之實事真理，本是無始無終普遍常住的，亦是十方世界中過
@@ -5383,11 +5611,13 @@
 <pb ed="TX" xml:id="TX02.0001.0935a" n="0935a"/>
 <lb ed="TX" n="0935a01"/>界的人類，改變其各自競爭以求生存的思想，為人生相助以共存共榮安甯發達的思想
 <lb ed="TX" n="0935a02"/>，遂開展為全球的佛學的新運動。今略述其要義如左：</p>
-<lb ed="TX" n="0935a03"/><cb:div type="other"><cb:mulu type="其他" level="4">甲　人生的佛學</cb:mulu><head>甲　人生的佛學</head><p xml:id="pTX02p0935a0307" style="margin-left:0em;text-indent:2em" cb:place="inline">於現代交通的互助的人類底共存共榮關係上，於東西各民族的
+<lb ed="TX" n="0935a03"/><cb:div type="other"><cb:mulu type="其他" level="4">甲　人生的佛學</cb:mulu><head>甲　人生的佛學</head>
+<p xml:id="pTX02p0935a0307" style="margin-left:0em;text-indent:2em" cb:place="inline">於現代交通的互助的人類底共存共榮關係上，於東西各民族的
 <lb ed="TX" n="0935a04"/>人生哲學基礎上，以大乘初步的十善行佛學，先完成人生應有的善行，開展為有組織
 <lb ed="TX" n="0935a05"/>有紀律的大乘社會生活。再漸從十住、十行、十迴向、十地的佛學，發達人性中潛有
 <lb ed="TX" n="0935a06"/>的德能。重重進化，以至於圓滿福慧的無上正覺。</p></cb:div>
-<lb ed="TX" n="0935a07"/><cb:div type="other"><cb:mulu type="其他" level="4">乙　科學的佛學</cb:mulu><head>乙　科學的佛學</head><p xml:id="pTX02p0935a0707" style="margin-left:0em;text-indent:2em" cb:place="inline">以經驗的歸納及理論的演繹，從公正的客觀態度，探究全宇宙
+<lb ed="TX" n="0935a07"/><cb:div type="other"><cb:mulu type="其他" level="4">乙　科學的佛學</cb:mulu><head>乙　科學的佛學</head>
+<p xml:id="pTX02p0935a0707" style="margin-left:0em;text-indent:2em" cb:place="inline">以經驗的歸納及理論的演繹，從公正的客觀態度，探究全宇宙
 <lb ed="TX" n="0935a08"/>事事物物各方面各部分的真相；以破除傳習上偏見上一切的迷信謬解，而立為說明一
 <lb ed="TX" n="0935a09"/>切事物相互關係的公例定理。窮自然的蘊奧，利人事的進行，此近代科學之功績；然
 <lb ed="TX" n="0935a10"/>於此猶未有完全洞明宇宙人生真相的希望，故終在存疑的猜度中，而不能確立徹底解
@@ -5396,7 +5626,8 @@
 <pb ed="TX" xml:id="TX02.0001.0936a" n="0936a"/>
 <lb ed="TX" n="0936a01"/>於科學的發明上，樹立合理的正解真信，以補科學之缺陷而促其進步。故當建設以科
 <lb ed="TX" n="0936a02"/>學為基礎的佛學，成立科學上的最高信仰。</p></cb:div>
-<lb ed="TX" n="0936a03"/><cb:div type="other"><cb:mulu type="其他" level="4">丙　實證的佛學</cb:mulu><head>丙　實證的佛學</head><p xml:id="pTX02p0936a0307" style="margin-left:0em;text-indent:2em" cb:place="inline">佛學所說明的，以是全宇宙事事物物的真相之故，科學或哲學
+<lb ed="TX" n="0936a03"/><cb:div type="other"><cb:mulu type="其他" level="4">丙　實證的佛學</cb:mulu><head>丙　實證的佛學</head>
+<p xml:id="pTX02p0936a0307" style="margin-left:0em;text-indent:2em" cb:place="inline">佛學所說明的，以是全宇宙事事物物的真相之故，科學或哲學
 <lb ed="TX" n="0936a04"/>上，於一部分或一方面的說明，若能適如其量而不雜以情意的迷習謬見時，雖亦可恰
 <lb ed="TX" n="0936a05"/>恰相當；然以科學或哲學的知識，乃從人類報生的五官經驗，及人群傳習的意議理論
 <lb ed="TX" n="0936a06"/>，展轉增益得以成立。而佛學則由積修所成的無上正覺，證明了完全萬有真相，為啟
@@ -5408,7 +5639,8 @@
 <lb ed="TX" n="0936a12"/>能一證明即永不再退墮無明的牢獄，然有此親經的實驗，對於佛心完全洞明的萬有真
 <pb ed="TX" xml:id="TX02.0001.0937a" n="0937a"/>
 <lb ed="TX" n="0937a01"/>相，必能成立堅確的真信，無可搖奪。故特別注重實證的佛學。</p></cb:div>
-<lb ed="TX" n="0937a02"/><cb:div type="other"><cb:mulu type="其他" level="4">丁　世界的佛學</cb:mulu><head>丁　世界的佛學</head><p xml:id="pTX02p0937a0207" style="margin-left:0em;text-indent:2em" cb:place="inline">就文化言：東方民族所有的文化，大致為調善情意的文化，西
+<lb ed="TX" n="0937a02"/><cb:div type="other"><cb:mulu type="其他" level="4">丁　世界的佛學</cb:mulu><head>丁　世界的佛學</head>
+<p xml:id="pTX02p0937a0207" style="margin-left:0em;text-indent:2em" cb:place="inline">就文化言：東方民族所有的文化，大致為調善情意的文化，西
 <lb ed="TX" n="0937a03"/>方民族所有的文化，大致為擴充理智的文化。雖近時已由交接而相取攜，猶不免貌合
 <lb ed="TX" n="0937a04"/>神離互生隔靴搔癢之謬誤。就哲學言：一派是側重經驗的哲學，一派是側重理論的哲
 <lb ed="TX" n="0937a05"/>學。經驗所及雖確當而不遍常，故必借理論以補充；理論所及雖遍常而不確當，故必
@@ -5425,5 +5657,6 @@
 <lb ed="TX" n="0938a03"/>的佛學。</p>
 <lb ed="TX" n="0938a04"/><p xml:id="pTX02p0938a0401" style="margin-left:0em;text-indent:2em">我們於佛學的新運動，已略加說明：為使此理想加速的實現出來，已擬具世界佛
 <lb ed="TX" n="0938a05"/>學苑的計劃，今已印送諸君。諸君若能從本具的覺性中，發出同情的呼聲，便請起來
-<lb ed="TX" n="0938a06"/>為共同的進行。</p><byline cb:type="other"><note place="inline">見海刊十卷一期</note></byline></cb:div></cb:div></cb:div></cb:div>
+<lb ed="TX" n="0938a06"/>為共同的進行。</p>
+<byline cb:type="other"><note place="inline">見海刊十卷一期</note></byline></cb:div></cb:div></cb:div></cb:div>
 </body></text></TEI>

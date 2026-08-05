@@ -1,102 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="T17n0798" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T17n0798">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛說進學經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 798 佛說進學經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 798 佛說進學經</title>
-			<author>劉宋 沮渠京聲譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">17</idno>.<idno type="no">798</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p cb:type="ly" xml:lang="en">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as inputted by Mr. Tseng Kuo-Feng, Text as provided by Anonymous from USA, Punctuated text as provided by San Bao Di Zi, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，曾國豐大德輸入，北美某大德提供，三寶弟子提供新式標點，張革豐大德提供新式標點重校</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="1999-10-12T10:16:33">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛說進學經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 798 佛說進學經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 798 佛說進學經</title>
+      <author>劉宋 沮渠京聲譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">17</idno>.<idno type="no">798</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p cb:type="ly" xml:lang="en">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as inputted by Mr. Tseng Kuo-Feng, Text as provided by Anonymous from USA, Punctuated text as provided by San Bao Di Zi, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，曾國豐大德輸入，北美某大德提供，三寶弟子提供新式標點，張革豐大德提供新式標點重校</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="1999-10-12T10:16:33">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <lb n="0744b05" ed="T"/>
 <lb n="0744b06" ed="T"/>
 <lb ed="T" n="0744b07"/><cb:docNumber>No. 798</cb:docNumber>
-<lb ed="T" n="0744b08"/><cb:juan fun="open" n="001"><cb:mulu n="001" type="卷"/><cb:jhead><title><note resp="Taisho" place="foot text" n="0744003" type="orig">〔佛說〕－【宋】【元】【宮】</note><note resp="CBETA" n="0744003" type="mod">佛說【大】，〔－〕【宋】【元】【宮】</note><app n="0744003"><lem wit="【大】">佛說</lem><rdg resp="Taisho" wit="【宋】【元】【宮】"><space quantity="0"/></rdg></app>進學經</title></cb:jhead></cb:juan>
+<lb ed="T" n="0744b08"/><cb:juan fun="open" n="001"><cb:mulu n="001" type="卷"/><cb:jhead><title><note 
+resp="Taisho" place="foot text" n="0744003" type="orig">〔佛說〕－【宋】【元】【宮】</note><note 
+resp="CBETA" n="0744003" type="mod">佛說【大】，〔－〕【宋】【元】【宮】</note><app n="0744003">
+  <lem wit="【大】">佛說</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【宮】"><space quantity="0"/></rdg>
+</app>進學經</title></cb:jhead></cb:juan>
 <lb n="0744b09" ed="T"/>
 <lb n="0744b10" ed="T"/><byline cb:type="Translator">宋居士沮渠京聲譯</byline>
-<lb ed="T" n="0744b11"/><cb:div type="jing"><p xml:id="pT17p0744b1101">聞如是：</p><p cb:place="inline" xml:id="pT17p0744b1104">一時佛遊舍衛祇樹之園須達精舍，
+<lb ed="T" n="0744b11"/><cb:div type="jing"><p xml:id="pT17p0744b1101">聞如是：</p>
+<p cb:place="inline" xml:id="pT17p0744b1104">一時佛遊舍衛祇樹之園須達精舍，
 <lb n="0744b12" ed="T"/>大賢眾千二百五十人。佛告諸比丘：「有四雅
 <lb n="0744b13" ed="T"/>行，智者常遵，丈夫所修，達士恒奉，不才愚夫
-<lb ed="T" n="0744b14"/>所不好樂。何等為四？孝事父母，悅色養<note n="0744004" type="orig" place="foot text" resp="Taisho">足＝之【三】【宮】</note><note resp="CBETA" type="mod" n="0744004">足【大】，之【宋】【元】【明】【宮】</note><app n="0744004"><lem wit="【大】">足</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">之</rdg></app>；
+<lb ed="T" n="0744b14"/>所不好樂。何等為四？孝事父母，悅色養<note 
+n="0744004" type="orig" place="foot text" resp="Taisho">足＝之【三】【宮】</note><note 
+resp="CBETA" type="mod" n="0744004">足【大】，之【宋】【元】【明】【宮】</note><app n="0744004">
+  <lem wit="【大】">足</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】【宮】">之</rdg>
+</app>；
 <lb n="0744b15" ed="T"/>守仁行慈，終始不殺；惠施濟乏，未曾悋逆；遭
 <lb ed="T" n="0744b16"/>值聖世，捐榮履道。是四雅行，智者所遵，丈夫
-<lb ed="T" n="0744b17"/>所修，達士所奉，<note place="foot text" type="orig" n="0744005" resp="Taisho">不才＝下才【宮】</note><note type="mod" n="0744005" resp="CBETA">不才【大】，下才【宮】</note><app n="0744005"><lem wit="【大】">不才</lem><rdg wit="【宮】" resp="Taisho">下才</rdg></app>愚夫所不好樂。」</p><p xml:id="pT17p0744b1715" cb:place="inline">佛時
+<lb ed="T" n="0744b17"/>所修，達士所奉，<note 
+place="foot text" type="orig" n="0744005" resp="Taisho">不才＝下才【宮】</note><note 
+type="mod" n="0744005" resp="CBETA">不才【大】，下才【宮】</note><app n="0744005">
+  <lem wit="【大】">不才</lem>
+  <rdg wit="【宮】" resp="Taisho">下才</rdg>
+</app>愚夫所不好樂。」</p>
+<p xml:id="pT17p0744b1715" cb:place="inline">佛時
 <lb n="0744b18" ed="T"/>頌曰：</p>
-<lb ed="T" n="0744b19"/><lg type="regular" style="margin-left:1em;text-indent:-1em" xml:id="lgT17p0744b1901"><l>「智者稱孝，<caesura/>愍<note place="foot text" type="orig" n="0744006" resp="Taisho">命＝念【三】【宮】</note><note type="mod" n="0744006" resp="CBETA">命【大】，念【宋】【元】【明】【宮】</note><app n="0744006"><lem wit="【大】">命</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">念</rdg></app>慈活，<caesura/>放施普給，</l>
-<lb ed="T" n="0744b20"/><l>超俗崇寂。<caesura/>如是正業，<caesura/>明士所習，</l>
-<lb ed="T" n="0744b21"/><l>聖見已具，<caesura/>定<note place="foot text" type="orig" n="0744007" resp="Taisho">至＝天【宮】</note><note type="mod" n="0744007" resp="CBETA">至【大】，天【宮】</note><app n="0744007"><lem wit="【大】">至</lem><rdg wit="【宮】" resp="Taisho">天</rdg></app>無為。」</l></lg>
+<lb ed="T" n="0744b19"/><lg type="regular" style="margin-left:1em;text-indent:-1em" xml:id="lgT17p0744b1901">
+  <l>「智者稱孝，<caesura/>愍<note 
+place="foot text" type="orig" n="0744006" resp="Taisho">命＝念【三】【宮】</note><note 
+type="mod" n="0744006" resp="CBETA">命【大】，念【宋】【元】【明】【宮】</note><app n="0744006">
+    <lem wit="【大】">命</lem>
+    <rdg wit="【宋】【元】【明】【宮】" resp="Taisho">念</rdg>
+  </app>慈活，<caesura/>放施普給，</l>
+<lb ed="T" n="0744b20"/>
+  <l>超俗崇寂。<caesura/>如是正業，<caesura/>明士所習，</l>
+<lb ed="T" n="0744b21"/>
+  <l>聖見已具，<caesura/>定<note 
+place="foot text" type="orig" n="0744007" resp="Taisho">至＝天【宮】</note><note 
+type="mod" n="0744007" resp="CBETA">至【大】，天【宮】</note><app n="0744007">
+    <lem wit="【大】">至</lem>
+    <rdg wit="【宮】" resp="Taisho">天</rdg>
+  </app>無為。」</l>
+</lg>
 <lb n="0744b22" ed="T"/><p xml:id="pT17p0744b2201">佛告比丘：「復有二法，若在閑宴，或處大眾，
-<lb n="0744b23" ed="T"/><note resp="Taisho" place="foot text" n="0744008" type="orig">心＝必【三】【宮】</note><note type="mod" n="0744008" resp="CBETA">心【大】，必【宋】【元】【明】【宮】</note><app n="0744008"><lem wit="【大】">心</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">必</rdg></app>行莫懈：一者靜寂，賢聖默定；二者博學，講
-<lb ed="T" n="0744b24"/>論邃義。又有二施：<note place="foot text" type="orig" n="0744009" resp="Taisho">飲食＝飯食【三】【宮】</note><note n="0744009" type="mod" resp="CBETA">飲食【大】，飯食【宋】【元】【明】【宮】</note><app n="0744009"><lem wit="【大】">飲食</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">飯食</rdg></app>美味以安身命；敷
-<lb n="0744b25" ed="T"/>散經典開微悅聽。食施安身，法施遷神；<note place="foot text" type="orig" n="0744010" resp="Taisho">一＝二【三】【宮】</note><note type="mod" n="0744010" resp="CBETA">一【大】，二【宋】【元】【明】【宮】</note><app n="0744010"><lem wit="【大】">一</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">二</rdg></app>
+<lb n="0744b23" ed="T"/><note 
+resp="Taisho" place="foot text" n="0744008" type="orig">心＝必【三】【宮】</note><note 
+type="mod" n="0744008" resp="CBETA">心【大】，必【宋】【元】【明】【宮】</note><app n="0744008">
+  <lem wit="【大】">心</lem>
+  <rdg wit="【宋】【元】【明】【宮】" resp="Taisho">必</rdg>
+</app>行莫懈：一者靜寂，賢聖默定；二者博學，講
+<lb ed="T" n="0744b24"/>論邃義。又有二施：<note 
+place="foot text" type="orig" n="0744009" resp="Taisho">飲食＝飯食【三】【宮】</note><note 
+n="0744009" type="mod" resp="CBETA">飲食【大】，飯食【宋】【元】【明】【宮】</note><app n="0744009">
+  <lem wit="【大】">飲食</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】【宮】">飯食</rdg>
+</app>美味以安身命；敷
+<lb n="0744b25" ed="T"/>散經典開微悅聽。食施安身，法施遷神；<note 
+place="foot text" type="orig" n="0744010" resp="Taisho">一＝二【三】【宮】</note><note 
+type="mod" n="0744010" resp="CBETA">一【大】，二【宋】【元】【明】【宮】</note><app n="0744010">
+  <lem wit="【大】">一</lem>
+  <rdg wit="【宋】【元】【明】【宮】" resp="Taisho">二</rdg>
+</app>
 <lb ed="T" n="0744b26"/>事雖快，法施為最。是以比丘念演妙法，宣慧
 <lb n="0744b27" ed="T"/>莫癡；既自洗濯，并淨塵著。如是道法，永度無
-<lb n="0744b28" ed="T"/>窮，乃名出家，具足覺了。」</p><p cb:place="inline" xml:id="pT17p0744b2810">佛說<note n="0744011" type="orig" place="foot text" resp="Taisho">〔經〕－【三】【宮】</note><note resp="CBETA" n="0744011" type="mod">經【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0744011"><lem wit="【大】">經</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】"><space quantity="0"/></rdg></app>竟，比丘歡
+<lb n="0744b28" ed="T"/>窮，乃名出家，具足覺了。」</p>
+<p cb:place="inline" xml:id="pT17p0744b2810">佛說<note 
+n="0744011" type="orig" place="foot text" resp="Taisho">〔經〕－【三】【宮】</note><note 
+resp="CBETA" n="0744011" type="mod">經【大】，〔－〕【宋】【元】【明】【宮】</note><app n="0744011">
+  <lem wit="【大】">經</lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】【宮】"><space quantity="0"/></rdg>
+</app>竟，比丘歡
 <lb n="0744b29" ed="T"/>喜，作禮受教。</p></cb:div>
 <pb ed="T" n="0744c" xml:id="T17.0798.0744c"/>
 <lb n="0744c01" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>佛說進學經</title></cb:jhead></cb:juan>

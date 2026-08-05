@@ -2,107 +2,136 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T85n2828">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">大乘淨土讚</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2828 大乘淨土讚</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2828 大乘淨土讚</title>
-			<author/>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">85</idno>.<idno type="no">2828</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2001-01-31T11:46:37">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">大乘淨土讚</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2828 大乘淨土讚</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2828 大乘淨土讚</title>
+      <author/>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">85</idno>.<idno type="no">2828</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2001-01-31T11:46:37">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="1266a11" ed="T"/>
 <lb n="1266a12" ed="T"/><cb:docNumber>No. 2828</cb:docNumber>
-<lb n="1266a13" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="1266001" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 382</note>大乘淨土讚一本</cb:jhead></cb:juan>
+<lb n="1266a13" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="1266001" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 382</note>大乘淨土讚一本</cb:jhead></cb:juan>
 <lb n="1266a14" ed="T"/>
-<lb n="1266a15" ed="T"/><cb:div type="other"><lg type="regular" xml:id="lgT85p1266a1501"><l>法鏡臨空照<caesura/>心通五色現<caesura/>現心淨妙察</l>
-<lb n="1266a16" ed="T"/><l>法界亦通□<caesura/>意珠恒自淨<caesura/>身光照十方</l>
-<lb n="1266a17" ed="T"/><l>至心無處住<caesura/>解脫得清□<caesura/>觀想如無想</l>
-<lb n="1266a18" ed="T"/><l>高聲不□聲<caesura/>料知無門有<caesura/>惠鏡□殺□</l>
-<lb n="1266a19" ed="T"/><l>側子由空淨<caesura/>悟則無所緣<caesura/>坐臥空消裏</l>
-<lb n="1266a20" ed="T"/><l>超出裏人天<caesura/>暫到他邊立<caesura/>洗却意中泥</l>
-<lb n="1266a21" ed="T"/><l>清淨無塵垢<caesura/>願以證菩提<caesura/>惠鏡無靈闇</l>
-<lb n="1266a22" ed="T"/><l>智者常用明<caesura/>塵勞雖斷却<caesura/>寶藏自然明</l>
-<lb n="1266a23" ed="T"/><l>池練金沙水<caesura/>連中法性流<caesura/>花開化生子</l>
-<lb n="1266a24" ed="T"/><l>說我本根由<caesura/>住想常觀察<caesura/>三昧寶王真</l>
-<lb n="1266a25" ed="T"/><l>巡還三藏數<caesura/>弗却意中泥<caesura/>有人專念佛</l>
-<lb n="1266a26" ed="T"/><l>念佛入深禪<caesura/>初夜端心坐<caesura/>西方在目前</l>
-<lb n="1266a27" ed="T"/><l>念則知無念<caesura/>無念是□如<caesura/>若料此中意</l>
-<lb n="1266a28" ed="T"/><l>是名法性殊<caesura/>淨土在心頭<caesura/>愚人向外求</l>
-<lb n="1266a29" ed="T"/><l>深中有寶鏡<caesura/>不識一生休<caesura/>諸佛在心頭</l>
+<lb n="1266a15" ed="T"/><cb:div type="other"><lg type="regular" xml:id="lgT85p1266a1501">
+  <l>法鏡臨空照<caesura/>心通五色現<caesura/>現心淨妙察</l>
+<lb n="1266a16" ed="T"/>
+  <l>法界亦通□<caesura/>意珠恒自淨<caesura/>身光照十方</l>
+<lb n="1266a17" ed="T"/>
+  <l>至心無處住<caesura/>解脫得清□<caesura/>觀想如無想</l>
+<lb n="1266a18" ed="T"/>
+  <l>高聲不□聲<caesura/>料知無門有<caesura/>惠鏡□殺□</l>
+<lb n="1266a19" ed="T"/>
+  <l>側子由空淨<caesura/>悟則無所緣<caesura/>坐臥空消裏</l>
+<lb n="1266a20" ed="T"/>
+  <l>超出裏人天<caesura/>暫到他邊立<caesura/>洗却意中泥</l>
+<lb n="1266a21" ed="T"/>
+  <l>清淨無塵垢<caesura/>願以證菩提<caesura/>惠鏡無靈闇</l>
+<lb n="1266a22" ed="T"/>
+  <l>智者常用明<caesura/>塵勞雖斷却<caesura/>寶藏自然明</l>
+<lb n="1266a23" ed="T"/>
+  <l>池練金沙水<caesura/>連中法性流<caesura/>花開化生子</l>
+<lb n="1266a24" ed="T"/>
+  <l>說我本根由<caesura/>住想常觀察<caesura/>三昧寶王真</l>
+<lb n="1266a25" ed="T"/>
+  <l>巡還三藏數<caesura/>弗却意中泥<caesura/>有人專念佛</l>
+<lb n="1266a26" ed="T"/>
+  <l>念佛入深禪<caesura/>初夜端心坐<caesura/>西方在目前</l>
+<lb n="1266a27" ed="T"/>
+  <l>念則知無念<caesura/>無念是□如<caesura/>若料此中意</l>
+<lb n="1266a28" ed="T"/>
+  <l>是名法性殊<caesura/>淨土在心頭<caesura/>愚人向外求</l>
+<lb n="1266a29" ed="T"/>
+  <l>深中有寶鏡<caesura/>不識一生休<caesura/>諸佛在心頭</l>
 <pb n="1266b" xml:id="T85.2828.1266b" ed="T"/>
-<lb n="1266b01" ed="T"/><l>如此不能求<caesura/>甚物靈希有<caesura/>急手早懃修</l>
-<lb n="1266b02" ed="T"/><l>寶鏡人皆有<caesura/>愚人不解磨<caesura/>不能返手照</l>
-<lb n="1266b03" ed="T"/><l>塵垢更曾多<caesura/>寶鏡人家有<caesura/>智人則解摩</l>
-<lb n="1266b04" ed="T"/><l>懃懃返自照<caesura/>塵垢莫來過<caesura/>意殊恒名徹</l>
-<lb n="1266b05" ed="T"/><l>自性本□□<caesura/>悟理之修趣<caesura/>念佛即無生</l>
-<lb n="1266b06" ed="T"/><l>碎未為金鑛<caesura/>鑛中不現金<caesura/>知者容消鍊</l>
-<lb n="1266b07" ed="T"/><l>真金腸內見<caesura/>佛想空無想<caesura/>真如寂不言</l>
-<lb n="1266b08" ed="T"/><l>口談文字教<caesura/>此界妄想禪<caesura/>涅盤末藏法</l>
-<lb n="1266b09" ed="T"/><l>祕密不交傳<caesura/>心通常自用<caesura/>威當度有緣</l>
-<lb n="1266b10" ed="T"/><l>三乘尤不識<caesura/>外道未曾聞<caesura/>小恨多毀謗</l>
-<lb n="1266b11" ed="T"/><l>誓願莫流傳<caesura/>道𨕱梁賢<caesura/>犯手想傳</l>
-<lb n="1266b12" ed="T"/><l>道𨕱不凉賢<caesura/>子母莫交傳</l></lg></cb:div>
+<lb n="1266b01" ed="T"/>
+  <l>如此不能求<caesura/>甚物靈希有<caesura/>急手早懃修</l>
+<lb n="1266b02" ed="T"/>
+  <l>寶鏡人皆有<caesura/>愚人不解磨<caesura/>不能返手照</l>
+<lb n="1266b03" ed="T"/>
+  <l>塵垢更曾多<caesura/>寶鏡人家有<caesura/>智人則解摩</l>
+<lb n="1266b04" ed="T"/>
+  <l>懃懃返自照<caesura/>塵垢莫來過<caesura/>意殊恒名徹</l>
+<lb n="1266b05" ed="T"/>
+  <l>自性本□□<caesura/>悟理之修趣<caesura/>念佛即無生</l>
+<lb n="1266b06" ed="T"/>
+  <l>碎未為金鑛<caesura/>鑛中不現金<caesura/>知者容消鍊</l>
+<lb n="1266b07" ed="T"/>
+  <l>真金腸內見<caesura/>佛想空無想<caesura/>真如寂不言</l>
+<lb n="1266b08" ed="T"/>
+  <l>口談文字教<caesura/>此界妄想禪<caesura/>涅盤末藏法</l>
+<lb n="1266b09" ed="T"/>
+  <l>祕密不交傳<caesura/>心通常自用<caesura/>威當度有緣</l>
+<lb n="1266b10" ed="T"/>
+  <l>三乘尤不識<caesura/>外道未曾聞<caesura/>小恨多毀謗</l>
+<lb n="1266b11" ed="T"/>
+  <l>誓願莫流傳<caesura/>道𨕱梁賢<caesura/>犯手想傳</l>
+<lb n="1266b12" ed="T"/>
+  <l>道𨕱不凉賢<caesura/>子母莫交傳</l>
+</lg></cb:div>
 </body></text></TEI>

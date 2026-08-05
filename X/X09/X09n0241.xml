@@ -2,92 +2,102 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X09n0241">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
-			<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
-			<title level="m" xml:lang="zh-Hant">華嚴經綱目貫攝</title>
-			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 241 華嚴經綱目貫攝</title>
-			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 241 華嚴經綱目貫攝</title>
-			<author>清 永光錄集</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">X</idno>.<idno type="vol">9</idno>.<idno type="no">241</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>卍新纂大日本續藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA, Punctuated text as provided by Lynn</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識，Lynn 大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【卍續】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2005-11-21T11:05:54">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+      <title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+      <title level="m" xml:lang="zh-Hant">華嚴經綱目貫攝</title>
+      <title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 241 華嚴經綱目貫攝</title>
+      <title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 241 華嚴經綱目貫攝</title>
+      <author>清 永光錄集</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">X</idno>.<idno type="vol">9</idno>.<idno type="no">241</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>卍新纂大日本續藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA, Punctuated text as provided by Lynn</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識，Lynn 大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【卍續】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2005-11-21T11:05:54">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0301a" ed="X" xml:id="X09.0241.0301a"/>
 <lb n="0301a01" ed="X"/>
 <lb n="0301a02" ed="X"/><cb:docNumber>No. 241</cb:docNumber>
-<lb n="0301a03" ed="X"/><lb n="0801a01" ed="R088"/><cb:juan n="1" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0301001" resp="Xuzangjing" type="orig" place="foot text">原本載天冊皇帝並沙門慧研序二章然續藏經第五套中既載該序故今省之</note>大方廣佛華嚴經綱目貫攝卷第一</cb:jhead></cb:juan>
+<lb n="0301a03" ed="X"/><lb n="0801a01" ed="R088"/><cb:juan n="1" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0301001" resp="Xuzangjing" type="orig" place="foot text">原本載天冊皇帝並沙門慧研序二章然續藏經第五套中既載該序故今省之</note>大方廣佛華嚴經綱目貫攝卷第一</cb:jhead></cb:juan>
 <lb n="0301a04" ed="X"/>
 <lb n="0301a05" ed="X"/><lb n="0801a02" ed="R088"/><byline cb:type="collector">遂𡩋廣德寺沙門　永光　錄集</byline>
 <lb n="0301a06" ed="X"/><lb n="0801a03" ed="R088"/><byline cb:type="other">仁壽松風寺沙門　惟靜　較証</byline>
-<lb n="0301a07" ed="X"/><lb n="0801a04" ed="R088"/><cb:div type="jing"><lg xml:id="lgX09p0301a0701" type="regular"><l>稽首華嚴毗盧主，<caesura/>華藏莊嚴大導師，</l>
-<lb n="0301a08" ed="X"/><lb n="0801a05" ed="R088"/><l>十方菩薩微塵眾，<caesura/>護法諸天龍神王。</l>
-<lb n="0301a09" ed="X"/><lb n="0801a06" ed="R088"/><l>法界海會諸聖賢，<caesura/>我今頭面接足禮，</l>
-<lb n="0301a10" ed="X"/><lb n="0801a07" ed="R088"/><l>願諸三寶威神力，<caesura/>加被法界諸有情。</l>
-<lb n="0301a11" ed="X"/><lb n="0801a08" ed="R088"/><l>見聞讀誦若書寫，<caesura/>盡得成佛超彼岸，</l>
-<lb n="0301a12" ed="X"/><lb n="0801a09" ed="R088"/><l>今我一念少分力，<caesura/>普利沉淪諸眾生。</l>
-<lb n="0301a13" ed="X"/><lb n="0801a10" ed="R088"/><l>一真法界真如性，<caesura/>清淨莊嚴妙無比，</l>
-<lb n="0301a14" ed="X"/><lb n="0801a11" ed="R088"/><l>聖證凡心不可測，<caesura/>萬行功圓難思議。</l></lg>
+<lb n="0301a07" ed="X"/><lb n="0801a04" ed="R088"/><cb:div type="jing"><lg xml:id="lgX09p0301a0701" type="regular">
+  <l>稽首華嚴毗盧主，<caesura/>華藏莊嚴大導師，</l>
+<lb n="0301a08" ed="X"/><lb n="0801a05" ed="R088"/>
+  <l>十方菩薩微塵眾，<caesura/>護法諸天龍神王。</l>
+<lb n="0301a09" ed="X"/><lb n="0801a06" ed="R088"/>
+  <l>法界海會諸聖賢，<caesura/>我今頭面接足禮，</l>
+<lb n="0301a10" ed="X"/><lb n="0801a07" ed="R088"/>
+  <l>願諸三寶威神力，<caesura/>加被法界諸有情。</l>
+<lb n="0301a11" ed="X"/><lb n="0801a08" ed="R088"/>
+  <l>見聞讀誦若書寫，<caesura/>盡得成佛超彼岸，</l>
+<lb n="0301a12" ed="X"/><lb n="0801a09" ed="R088"/>
+  <l>今我一念少分力，<caesura/>普利沉淪諸眾生。</l>
+<lb n="0301a13" ed="X"/><lb n="0801a10" ed="R088"/>
+  <l>一真法界真如性，<caesura/>清淨莊嚴妙無比，</l>
+<lb n="0301a14" ed="X"/><lb n="0801a11" ed="R088"/>
+  <l>聖證凡心不可測，<caesura/>萬行功圓難思議。</l>
+</lg>
 <lb n="0301a15" ed="X"/><lb n="0801a12" ed="R088"/><p xml:id="pX09p0301a1501" style="margin-left:1em">今將五週四分、七處九會，逐一錄后。</p>
 <lb n="0301a16" ed="X"/><lb n="0801a13" ed="R088"/><p xml:id="pX09p0301a1601">初會菩提場，普賢為會主，說如來依正法，佛放口光、
 <lb n="0301a17" ed="X"/><lb n="0801a14" ed="R088"/>眉間光，普賢菩薩入毗盧遮那藏身三昧，共六品。
@@ -128,15 +138,18 @@
 <lb n="0301c02" ed="X"/><lb n="0802a11" ed="R088"/>三十八。此品為行分，為成行因果週。</p>
 <lb n="0301c03" ed="X"/><lb n="0802a12" ed="R088"/><p xml:id="pX09p0301c0301">九會逝多林，如來善友為會主，說果法界，佛放眉間
 <lb n="0301c04" ed="X"/><lb n="0802a13" ed="R088"/>白毫光。〈入法界品〉第三十九，此品為證分，為證入因
-<lb n="0301c05" ed="X"/><lb n="0802a14" ed="R088"/>果週。</p><p xml:id="pX09p0301c0503" cb:place="inline">總名五週者：初、所信因果週；二、差別因果週；三、
-<lb n="0301c06" ed="X"/><lb n="0802a15" ed="R088"/>平等因果週；四、成行因果週；五、證入因果週。</p><p xml:id="pX09p0301c0618" cb:place="inline">總名四
+<lb n="0301c05" ed="X"/><lb n="0802a14" ed="R088"/>果週。</p>
+<p xml:id="pX09p0301c0503" cb:place="inline">總名五週者：初、所信因果週；二、差別因果週；三、
+<lb n="0301c06" ed="X"/><lb n="0802a15" ed="R088"/>平等因果週；四、成行因果週；五、證入因果週。</p>
+<p xml:id="pX09p0301c0618" cb:place="inline">總名四
 <lb n="0301c07" ed="X"/><lb n="0802a16" ed="R088"/>分者，初信分、二解分、三行分、四證分，是故名為七處
 <lb n="0301c08" ed="X"/><lb n="0802a17" ed="R088"/>九會五週四分一乘圓教《大方廣佛華嚴經》。</p>
 <lb n="0301c09" ed="X"/><lb n="0802a18" ed="R088"/><p xml:id="pX09p0301c0901">又初會說如來依正法門，表如來於菩提場阿蘭若
 <lb n="0301c10" ed="X"/><lb n="0802b01" ed="R088"/>處依正莊嚴等，後當經自明。</p>
 <lb n="0301c11" ed="X"/><lb n="0802b02" ed="R088"/><p xml:id="pX09p0301c1101">二會普光明殿，說十信法門。十信者，十種信心：一信
 <lb n="0301c12" ed="X"/><lb n="0802b03" ed="R088"/>心、二念心、三慧心、四精進心、五定心、六不退心、七迴
-<lb n="0301c13" ed="X"/><lb n="0802b04" ed="R088"/>向心、八護法心、九戒心、十<note n="0301002" resp="Xuzangjing" type="orig" place="foot text">順疑願</note>順心。此十心功用，後當經
+<lb n="0301c13" ed="X"/><lb n="0802b04" ed="R088"/>向心、八護法心、九戒心、十<note 
+n="0301002" resp="Xuzangjing" type="orig" place="foot text">順疑願</note>順心。此十心功用，後當經
 <lb n="0301c14" ed="X"/><lb n="0802b05" ed="R088"/>自明。</p>
 <lb n="0301c15" ed="X"/><lb n="0802b06" ed="R088"/><p xml:id="pX09p0301c1501">三會忉利天宮，說十住法門。十住者：初發心住、二治
 <lb n="0301c16" ed="X"/><lb n="0802b07" ed="R088"/>地住、三修行住、四生貴住、五具足方便住、六正心住、
@@ -188,118 +201,187 @@
 <lb n="0302b12" ed="X"/><lb n="0803b15" ed="R088"/>根徧故，百萬億那由他不可說修多羅以為眷屬，勸
 <lb n="0302b13" ed="X"/><lb n="0803b16" ed="R088"/>諸菩薩發阿耨多羅三藐三菩提心。時福城東有五
 <lb n="0302b14" ed="X"/><lb n="0803b17" ed="R088"/>百優婆塞，大智為首；五百優婆夷，大慧為首；五百童
-<lb n="0302b15" ed="X"/><lb n="0803b18" ed="R088"/>子，善財為首；五百童女，<note n="0302b1501" resp="CBETA" type="add">普【CB】，善【卍續】</note><app n="0302b1501"><lem resp="CBETA.maha" wit="【CB】">普</lem><rdg wit="【卍續】">善</rdg></app>賢為首。詣文殊師利所，修
-<lb n="0302b16" ed="X"/><lb n="0804a01" ed="R088"/>敬<note n="0302b1601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0302b1601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>畢，各坐一面。文殊師利觀察善財善根因緣，說
-<lb n="0302b17" ed="X"/><lb n="0804a02" ed="R088"/>種種法要。善財聞<note n="0302b1701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0302b1701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，歡喜頂授。善財復問：「先發阿耨
+<lb n="0302b15" ed="X"/><lb n="0803b18" ed="R088"/>子，善財為首；五百童女，<note 
+n="0302b1501" resp="CBETA" type="add">普【CB】，善【卍續】</note><app n="0302b1501">
+  <lem resp="CBETA.maha" wit="【CB】">普</lem>
+  <rdg wit="【卍續】">善</rdg>
+</app>賢為首。詣文殊師利所，修
+<lb n="0302b16" ed="X"/><lb n="0804a01" ed="R088"/>敬<note 
+n="0302b1601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0302b1601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>畢，各坐一面。文殊師利觀察善財善根因緣，說
+<lb n="0302b17" ed="X"/><lb n="0804a02" ed="R088"/>種種法要。善財聞<note 
+n="0302b1701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0302b1701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，歡喜頂授。善財復問：「先發阿耨
 <lb n="0302b18" ed="X"/><lb n="0804a03" ed="R088"/>多羅三藐三菩提心，云何修菩薩道？云何行菩薩行？」
 <lb n="0302b19" ed="X"/><lb n="0804a04" ed="R088"/>文殊師利命善財南行，往勝樂國妙峯山德雲比丘
-<lb n="0302b20" ed="X"/><lb n="0804a05" ed="R088"/>所，當為汝說。自此<note n="0302b2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0302b2001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>後，歷一百一十城五十三善知
+<lb n="0302b20" ed="X"/><lb n="0804a05" ed="R088"/>所，當為汝說。自此<note 
+n="0302b2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0302b2001">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>後，歷一百一十城五十三善知
 <lb n="0302b21" ed="X"/><lb n="0804a06" ed="R088"/>識所，問道行法，各說法門，後當經自明。</p>
 <lb n="0302b22" ed="X"/><lb n="0804a07" ed="R088"/><p xml:id="pX09p0302b2201">五十三善知識者，為首善知識，文殊師利菩薩，主根
-<lb n="0302b23" ed="X"/><lb n="0804a08" ed="R088"/>本智。</p><p xml:id="pX09p0302b2303" cb:place="inline">第一善知識，德雲比丘，主十住中初發心住所
+<lb n="0302b23" ed="X"/><lb n="0804a08" ed="R088"/>本智。</p>
+<p xml:id="pX09p0302b2303" cb:place="inline">第一善知識，德雲比丘，主十住中初發心住所
 <lb n="0302b24" ed="X"/><lb n="0804a09" ed="R088"/>得解脫法門，名憶念一切諸佛境界智慧光明普見
 <pb n="0302c" ed="X" xml:id="X09.0241.0302c"/>
-<lb n="0302c01" ed="X"/><lb n="0804a10" ed="R088"/>法門。</p><p xml:id="pX09p0302c0103" cb:place="inline">第二善知識，海門國海雲比丘，主治地住所
-<lb n="0302c02" ed="X"/><lb n="0804a11" ed="R088"/>得解脫法門，名普眼法門。</p><p xml:id="pX09p0302c0211" cb:place="inline">第三善知識，海岸聚落
-<lb n="0302c03" ed="X"/><lb n="0804a12" ed="R088"/>善住比丘，<note n="0302001" resp="Xuzangjing" type="orig" place="foot text">修上疑脫主字</note>修行住所得解脫門，名普速疾供養諸佛
-<lb n="0302c04" ed="X"/><lb n="0804a13" ed="R088"/>成就眾生無礙解脫門。</p><p xml:id="pX09p0302c0410" cb:place="inline">第四善知識，達里鼻茶國
-<lb n="0302c05" ed="X"/><lb n="0804a14" ed="R088"/>彌伽長者，主生貴住所得解脫門，名菩薩妙<note n="0302002" resp="Xuzangjing" type="orig" place="foot text">者疑音</note>者陀羅
-<lb n="0302c06" ed="X"/><lb n="0804a15" ed="R088"/>尼光明法門。</p><p xml:id="pX09p0302c0606" cb:place="inline">第五善知識，住林城解脫長者，主具
+<lb n="0302c01" ed="X"/><lb n="0804a10" ed="R088"/>法門。</p>
+<p xml:id="pX09p0302c0103" cb:place="inline">第二善知識，海門國海雲比丘，主治地住所
+<lb n="0302c02" ed="X"/><lb n="0804a11" ed="R088"/>得解脫法門，名普眼法門。</p>
+<p xml:id="pX09p0302c0211" cb:place="inline">第三善知識，海岸聚落
+<lb n="0302c03" ed="X"/><lb n="0804a12" ed="R088"/>善住比丘，<note 
+n="0302001" resp="Xuzangjing" type="orig" place="foot text">修上疑脫主字</note>修行住所得解脫門，名普速疾供養諸佛
+<lb n="0302c04" ed="X"/><lb n="0804a13" ed="R088"/>成就眾生無礙解脫門。</p>
+<p xml:id="pX09p0302c0410" cb:place="inline">第四善知識，達里鼻茶國
+<lb n="0302c05" ed="X"/><lb n="0804a14" ed="R088"/>彌伽長者，主生貴住所得解脫門，名菩薩妙<note 
+n="0302002" resp="Xuzangjing" type="orig" place="foot text">者疑音</note>者陀羅
+<lb n="0302c06" ed="X"/><lb n="0804a15" ed="R088"/>尼光明法門。</p>
+<p xml:id="pX09p0302c0606" cb:place="inline">第五善知識，住林城解脫長者，主具
 <lb n="0302c07" ed="X"/><lb n="0804a16" ed="R088"/>足方便住所得解脫門，名如來無礙莊嚴解脫門。</p>
 <lb n="0302c08" ed="X"/><lb n="0804a17" ed="R088"/><p xml:id="pX09p0302c0801">第六善知識，閻浮提畔海幢比丘，主正心住所得解
-<lb n="0302c09" ed="X"/><lb n="0804a18" ed="R088"/>脫法門，名十般若波羅蜜三昧光明法門。</p><p xml:id="pX09p0302c0917" cb:place="inline">第七善
+<lb n="0302c09" ed="X"/><lb n="0804a18" ed="R088"/>脫法門，名十般若波羅蜜三昧光明法門。</p>
+<p xml:id="pX09p0302c0917" cb:place="inline">第七善
 <lb n="0302c10" ed="X"/><lb n="0804b01" ed="R088"/>知識，海潮處休捨優婆夷，主不退住所得解脫門，名
-<lb n="0302c11" ed="X"/><lb n="0804b02" ed="R088"/>一切解脫門。</p><p xml:id="pX09p0302c1106" cb:place="inline">第八善知識，海潮處毗目瞿沙仙人，
-<lb n="0302c12" ed="X"/><lb n="0804b03" ed="R088"/>主童真住所得解脫門，名菩薩無勝幢解脫門。</p><p xml:id="pX09p0302c1219" cb:place="inline">第
+<lb n="0302c11" ed="X"/><lb n="0804b02" ed="R088"/>一切解脫門。</p>
+<p xml:id="pX09p0302c1106" cb:place="inline">第八善知識，海潮處毗目瞿沙仙人，
+<lb n="0302c12" ed="X"/><lb n="0804b03" ed="R088"/>主童真住所得解脫門，名菩薩無勝幢解脫門。</p>
+<p xml:id="pX09p0302c1219" cb:place="inline">第
 <lb n="0302c13" ed="X"/><lb n="0804b04" ed="R088"/>九善知識，伊沙那聚落勝熱婆羅門，主法王子住所
-<lb n="0302c14" ed="X"/><lb n="0804b05" ed="R088"/>得解脫門，名菩薩無盡輪解脫門。</p><p xml:id="pX09p0302c1414" cb:place="inline">第十善知識，師
+<lb n="0302c14" ed="X"/><lb n="0804b05" ed="R088"/>得解脫門，名菩薩無盡輪解脫門。</p>
+<p xml:id="pX09p0302c1414" cb:place="inline">第十善知識，師
 <lb n="0302c15" ed="X"/><lb n="0804b06" ed="R088"/>子奮迅城慈行童女，主灌頂住所得解脫門，名般若
-<lb n="0302c16" ed="X"/><lb n="0804b07" ed="R088"/>波羅蜜普莊嚴門。</p><p xml:id="pX09p0302c1608" cb:place="inline">以上十善知識，主十住法門功
+<lb n="0302c16" ed="X"/><lb n="0804b07" ed="R088"/>波羅蜜普莊嚴門。</p>
+<p xml:id="pX09p0302c1608" cb:place="inline">以上十善知識，主十住法門功
 <lb n="0302c17" ed="X"/><lb n="0804b08" ed="R088"/>行法用，後當經自明。</p>
-<lb n="0302c18" ed="X"/><lb n="0804b09" ed="R088"/><p xml:id="pX09p0302c1801">第二、十行法門，十善知識。</p><p xml:id="pX09p0302c1811" cb:place="inline">第一善知識，三目國善
+<lb n="0302c18" ed="X"/><lb n="0804b09" ed="R088"/><p xml:id="pX09p0302c1801">第二、十行法門，十善知識。</p>
+<p xml:id="pX09p0302c1811" cb:place="inline">第一善知識，三目國善
 <lb n="0302c19" ed="X"/><lb n="0804b10" ed="R088"/>見比丘，主歡喜行所得法門，名菩薩隨順燈解脫門。</p>
 <lb n="0302c20" ed="X"/><lb n="0804b11" ed="R088"/><p xml:id="pX09p0302c2001">第二善知識，名聞國自在童子，主饒益行所得法
-<lb n="0302c21" ed="X"/><lb n="0804b12" ed="R088"/>門，名一切功巧大神通智光明法門。</p><p xml:id="pX09p0302c2115" cb:place="inline">第三善知識，
+<lb n="0302c21" ed="X"/><lb n="0804b12" ed="R088"/>門，名一切功巧大神通智光明法門。</p>
+<p xml:id="pX09p0302c2115" cb:place="inline">第三善知識，
 <lb n="0302c22" ed="X"/><lb n="0804b13" ed="R088"/>海住城具足優婆夷，主無違逆行所得法門，名無盡
-<lb n="0302c23" ed="X"/><lb n="0804b14" ed="R088"/>福德藏解脫門。</p><p xml:id="pX09p0302c2307" cb:place="inline">第四善知識，大興城明智居士，主
+<lb n="0302c23" ed="X"/><lb n="0804b14" ed="R088"/>福德藏解脫門。</p>
+<p xml:id="pX09p0302c2307" cb:place="inline">第四善知識，大興城明智居士，主
 <lb n="0302c24" ed="X"/><lb n="0804b15" ed="R088"/>無屈撓行所得法門，名隨意出生福德藏解脫門。</p>
 <pb n="0303a" ed="X" xml:id="X09.0241.0303a"/>
 <lb n="0303a01" ed="X"/><lb n="0804b16" ed="R088"/><p xml:id="pX09p0303a0101">第五善知識，師子宮城寶髻長者，主離癡亂行所得
-<lb n="0303a02" ed="X"/><lb n="0804b17" ed="R088"/>法門，名菩薩無盡福德寶藏解脫門。</p><p xml:id="pX09p0303a0215" cb:place="inline">第六善知識，
+<lb n="0303a02" ed="X"/><lb n="0804b17" ed="R088"/>法門，名菩薩無盡福德寶藏解脫門。</p>
+<p xml:id="pX09p0303a0215" cb:place="inline">第六善知識，
 <lb n="0303a03" ed="X"/><lb n="0804b18" ed="R088"/>藤根國普眼長者，主善現行所得法門，名令一切眾
-<lb n="0303a04" ed="X"/><lb n="0805a01" ed="R088"/>生普見諸佛歡喜門。</p><p xml:id="pX09p0303a0409" cb:place="inline">第七善知識，多羅幢城無厭
-<lb n="0303a05" ed="X"/><lb n="0805a02" ed="R088"/>足王，主無著行所得法門，名如幻解脫門。</p><p xml:id="pX09p0303a0517" cb:place="inline">第八妙
+<lb n="0303a04" ed="X"/><lb n="0805a01" ed="R088"/>生普見諸佛歡喜門。</p>
+<p xml:id="pX09p0303a0409" cb:place="inline">第七善知識，多羅幢城無厭
+<lb n="0303a05" ed="X"/><lb n="0805a02" ed="R088"/>足王，主無著行所得法門，名如幻解脫門。</p>
+<p xml:id="pX09p0303a0517" cb:place="inline">第八妙
 <lb n="0303a06" ed="X"/><lb n="0805a03" ed="R088"/>光城大光王善知識，主難得行所得法門，名菩薩大
-<lb n="0303a07" ed="X"/><lb n="0805a04" ed="R088"/>慈為首隨順世間三昧解脫門。</p><p xml:id="pX09p0303a0713" cb:place="inline">第九善知識，安住
+<lb n="0303a07" ed="X"/><lb n="0805a04" ed="R088"/>慈為首隨順世間三昧解脫門。</p>
+<p xml:id="pX09p0303a0713" cb:place="inline">第九善知識，安住
 <lb n="0303a08" ed="X"/><lb n="0805a05" ed="R088"/>王都不動優婆夷，主善法行所得法門，名求一切法
-<lb n="0303a09" ed="X"/><lb n="0805a06" ed="R088"/>無厭足三昧光明解脫門。</p><p xml:id="pX09p0303a0911" cb:place="inline">第十善知識，都薩羅城
+<lb n="0303a09" ed="X"/><lb n="0805a06" ed="R088"/>無厭足三昧光明解脫門。</p>
+<p xml:id="pX09p0303a0911" cb:place="inline">第十善知識，都薩羅城
 <lb n="0303a10" ed="X"/><lb n="0805a07" ed="R088"/>出家徧行外道，主真實行所得法門，名至一切處菩
-<lb n="0303a11" ed="X"/><lb n="0805a08" ed="R088"/>薩解脫門。</p><p xml:id="pX09p0303a1105" cb:place="inline">以上十善知識，主十行法門，行法功用，
+<lb n="0303a11" ed="X"/><lb n="0805a08" ed="R088"/>薩解脫門。</p>
+<p xml:id="pX09p0303a1105" cb:place="inline">以上十善知識，主十行法門，行法功用，
 <lb n="0303a12" ed="X"/><lb n="0805a09" ed="R088"/>後當經自明。</p>
-<lb n="0303a13" ed="X"/><lb n="0805a10" ed="R088"/><p xml:id="pX09p0303a1301">第三、十迴向法門，十善知識。</p><p xml:id="pX09p0303a1312" cb:place="inline">第一善知識，廣大國
+<lb n="0303a13" ed="X"/><lb n="0805a10" ed="R088"/><p xml:id="pX09p0303a1301">第三、十迴向法門，十善知識。</p>
+<p xml:id="pX09p0303a1312" cb:place="inline">第一善知識，廣大國
 <lb n="0303a14" ed="X"/><lb n="0805a11" ed="R088"/>鬻香長者，主救護一切眾生離眾生相迴向所得法
-<lb n="0303a15" ed="X"/><lb n="0805a12" ed="R088"/>門，名調和香法解脫門。</p><p xml:id="pX09p0303a1510" cb:place="inline">第二善知識，樓閣城婆施
+<lb n="0303a15" ed="X"/><lb n="0805a12" ed="R088"/>門，名調和香法解脫門。</p>
+<p xml:id="pX09p0303a1510" cb:place="inline">第二善知識，樓閣城婆施
 <lb n="0303a16" ed="X"/><lb n="0805a13" ed="R088"/>羅船師，主不壞迴向所得法門，名大悲幢行解脫門。</p>
 <lb n="0303a17" ed="X"/><lb n="0805a14" ed="R088"/><p xml:id="pX09p0303a1701">第三善知識，可樂城無上勝長者，主等一切佛迴
 <lb n="0303a18" ed="X"/><lb n="0805a15" ed="R088"/>向所得法門，名至一切處修菩薩清淨法解脫門。</p>
 <lb n="0303a19" ed="X"/><lb n="0805a16" ed="R088"/><p xml:id="pX09p0303a1901">第四善知識，迦陵林城師子頻申比丘尼，主至一切
-<lb n="0303a20" ed="X"/><lb n="0805a17" ed="R088"/>處迴向所得法門，名成就一切智解脫門。</p><p xml:id="pX09p0303a2017" cb:place="inline">第五善
+<lb n="0303a20" ed="X"/><lb n="0805a17" ed="R088"/>處迴向所得法門，名成就一切智解脫門。</p>
+<p xml:id="pX09p0303a2017" cb:place="inline">第五善
 <lb n="0303a21" ed="X"/><lb n="0805a18" ed="R088"/>知識，險難國婆須密女，主無盡功德藏迴向所得法
-<lb n="0303a22" ed="X"/><lb n="0805b01" ed="R088"/>門，名菩薩離貪欲際解脫門。</p><p xml:id="pX09p0303a2212" cb:place="inline">第六善知識，善度城
+<lb n="0303a22" ed="X"/><lb n="0805b01" ed="R088"/>門，名菩薩離貪欲際解脫門。</p>
+<p xml:id="pX09p0303a2212" cb:place="inline">第六善知識，善度城
 <lb n="0303a23" ed="X"/><lb n="0805b02" ed="R088"/><g ref="#CB16014"/>瑟胝羅居士，主隨順堅固一切善根迴向所得法
-<lb n="0303a24" ed="X"/><lb n="0805b03" ed="R088"/>門，名菩薩所有佛不涅槃解脫門。</p><p xml:id="pX09p0303a2414" cb:place="inline">第七善知識，補
+<lb n="0303a24" ed="X"/><lb n="0805b03" ed="R088"/>門，名菩薩所有佛不涅槃解脫門。</p>
+<p xml:id="pX09p0303a2414" cb:place="inline">第七善知識，補
 <pb n="0303b" ed="X" xml:id="X09.0241.0303b"/>
 <lb n="0303b01" ed="X"/><lb n="0805b04" ed="R088"/>陀洛山觀世音菩薩，主隨順一切眾生迴向所得法
-<lb n="0303b02" ed="X"/><lb n="0805b05" ed="R088"/>門，名大悲行解脫門。</p><p xml:id="pX09p0303b0209" cb:place="inline">第八善知識，正趣菩薩，主真
+<lb n="0303b02" ed="X"/><lb n="0805b05" ed="R088"/>門，名大悲行解脫門。</p>
+<p xml:id="pX09p0303b0209" cb:place="inline">第八善知識，正趣菩薩，主真
 <lb n="0303b03" ed="X"/><lb n="0805b06" ed="R088"/>如相迴向所得法門，名菩薩普門速疾行解脫門。</p>
 <lb n="0303b04" ed="X"/><lb n="0805b07" ed="R088"/><p xml:id="pX09p0303b0401">第九善知識，墮羅鉢底城大天神，主無縛無著解脫
-<lb n="0303b05" ed="X"/><lb n="0805b08" ed="R088"/>迴向所得法門，名雲網解脫門。</p><p xml:id="pX09p0303b0513" cb:place="inline">第十善知識，菩提
+<lb n="0303b05" ed="X"/><lb n="0805b08" ed="R088"/>迴向所得法門，名雲網解脫門。</p>
+<p xml:id="pX09p0303b0513" cb:place="inline">第十善知識，菩提
 <lb n="0303b06" ed="X"/><lb n="0805b09" ed="R088"/>場安住神，主等法界無量迴向所得法門，名不可壞
-<lb n="0303b07" ed="X"/><lb n="0805b10" ed="R088"/>智慧藏解脫門。</p><p xml:id="pX09p0303b0707" cb:place="inline">以上十善知識，主十迴向法門，行
+<lb n="0303b07" ed="X"/><lb n="0805b10" ed="R088"/>智慧藏解脫門。</p>
+<p xml:id="pX09p0303b0707" cb:place="inline">以上十善知識，主十迴向法門，行
 <lb n="0303b08" ed="X"/><lb n="0805b11" ed="R088"/>法功用，後當經自明。</p>
-<lb n="0303b09" ed="X"/><lb n="0805b12" ed="R088"/><p xml:id="pX09p0303b0901">第、四十地法門，十善知識。</p><p xml:id="pX09p0303b0911" cb:place="inline">第一善知識，迦毗羅城
+<lb n="0303b09" ed="X"/><lb n="0805b12" ed="R088"/><p xml:id="pX09p0303b0901">第、四十地法門，十善知識。</p>
+<p xml:id="pX09p0303b0911" cb:place="inline">第一善知識，迦毗羅城
 <lb n="0303b10" ed="X"/><lb n="0805b13" ed="R088"/>婆珊婆演底夜神，主歡喜地所得法門，名破一切眾
-<lb n="0303b11" ed="X"/><lb n="0805b14" ed="R088"/>生癡闇法光明解脫門。</p><p xml:id="pX09p0303b1110" cb:place="inline">第二善知識，菩提場普得
+<lb n="0303b11" ed="X"/><lb n="0805b14" ed="R088"/>生癡闇法光明解脫門。</p>
+<p xml:id="pX09p0303b1110" cb:place="inline">第二善知識，菩提場普得
 <lb n="0303b12" ed="X"/><lb n="0805b15" ed="R088"/>淨光夜神，主離垢地所得法門，名菩薩寂靜禪定樂
-<lb n="0303b13" ed="X"/><lb n="0805b16" ed="R088"/>善遊步解脫門。</p><p xml:id="pX09p0303b1307" cb:place="inline">第三善知識，菩提場右邊喜<note n="0303001" resp="Xuzangjing" type="orig" place="foot text">自當作目</note>自觀
+<lb n="0303b13" ed="X"/><lb n="0805b16" ed="R088"/>善遊步解脫門。</p>
+<p xml:id="pX09p0303b1307" cb:place="inline">第三善知識，菩提場右邊喜<note 
+n="0303001" resp="Xuzangjing" type="orig" place="foot text">自當作目</note>自觀
 <lb n="0303b14" ed="X"/><lb n="0805b17" ed="R088"/>察眾生夜神，主發光地，所得法門名普喜幢解脫門。</p>
 <lb n="0303b15" ed="X"/><lb n="0805b18" ed="R088"/><p xml:id="pX09p0303b1501">第四善知識，眾會中普救眾生妙德夜神，主𦦨慧
 <lb n="0303b16" ed="X"/><lb n="0806a01" ed="R088"/>地所得解脫法門，名菩薩普現一切世間調伏眾生
-<lb n="0303b17" ed="X"/><lb n="0806a02" ed="R088"/>解脫門。</p><p xml:id="pX09p0303b1704" cb:place="inline">第五善知識，去此不遠，寂靜音海夜神，主
+<lb n="0303b17" ed="X"/><lb n="0806a02" ed="R088"/>解脫門。</p>
+<p xml:id="pX09p0303b1704" cb:place="inline">第五善知識，去此不遠，寂靜音海夜神，主
 <lb n="0303b18" ed="X"/><lb n="0806a03" ed="R088"/>難勝地所得法門，名念念出生廣大喜莊嚴解脫門。</p>
 <lb n="0303b19" ed="X"/><lb n="0806a04" ed="R088"/><p xml:id="pX09p0303b1901">第六善知識，如來會中守護一切城主夜神，主現
-<lb n="0303b20" ed="X"/><lb n="0806a05" ed="R088"/>前地所得法門，名甚深自在妙音解脫門。</p><p xml:id="pX09p0303b2017" cb:place="inline">第七善
+<lb n="0303b20" ed="X"/><lb n="0806a05" ed="R088"/>前地所得法門，名甚深自在妙音解脫門。</p>
+<p xml:id="pX09p0303b2017" cb:place="inline">第七善
 <lb n="0303b21" ed="X"/><lb n="0806a06" ed="R088"/>知識，佛會中開敷一切樹華夜神，主遠行地所得法
-<lb n="0303b22" ed="X"/><lb n="0806a07" ed="R088"/>門，名菩薩出生廣大喜光明解脫門。</p><p xml:id="pX09p0303b2215" cb:place="inline">第八善知識，
+<lb n="0303b22" ed="X"/><lb n="0806a07" ed="R088"/>門，名菩薩出生廣大喜光明解脫門。</p>
+<p xml:id="pX09p0303b2215" cb:place="inline">第八善知識，
 <lb n="0303b23" ed="X"/><lb n="0806a08" ed="R088"/>道場中大願精進力救護一切眾生夜神，主不動地，
-<lb n="0303b24" ed="X"/><lb n="0806a09" ed="R088"/>所得法門名教化眾生令生善根解脫門。</p><p xml:id="pX09p0303b2417" cb:place="inline">第九善
+<lb n="0303b24" ed="X"/><lb n="0806a09" ed="R088"/>所得法門名教化眾生令生善根解脫門。</p>
+<p xml:id="pX09p0303b2417" cb:place="inline">第九善
 <pb n="0303c" ed="X" xml:id="X09.0241.0303c"/>
 <lb n="0303c01" ed="X"/><lb n="0806a10" ed="R088"/>智識，閻浮提嵐毗尼園妙德园滿光夜神，主善慧地
 <lb n="0303c02" ed="X"/><lb n="0806a11" ed="R088"/>所得法門，名菩薩於無量劫徧一切處示現受生自
-<lb n="0303c03" ed="X"/><lb n="0806a12" ed="R088"/>在解脫門。</p><p xml:id="pX09p0303c0305" cb:place="inline">第十善知識，迦毗羅城瞿波女，主法雲
-<lb n="0303c04" ed="X"/><lb n="0806a13" ed="R088"/>地所得法門，名觀察菩薩三昧海解脫門。</p><p xml:id="pX09p0303c0417" cb:place="inline">以上十
+<lb n="0303c03" ed="X"/><lb n="0806a12" ed="R088"/>在解脫門。</p>
+<p xml:id="pX09p0303c0305" cb:place="inline">第十善知識，迦毗羅城瞿波女，主法雲
+<lb n="0303c04" ed="X"/><lb n="0806a13" ed="R088"/>地所得法門，名觀察菩薩三昧海解脫門。</p>
+<p xml:id="pX09p0303c0417" cb:place="inline">以上十
 <lb n="0303c05" ed="X"/><lb n="0806a14" ed="R088"/>善知識，主十地位行法功用，後當經自明。</p>
-<lb n="0303c06" ed="X"/><lb n="0806a15" ed="R088"/><p xml:id="pX09p0303c0601">第五、十一地法門，十善知識。</p><p xml:id="pX09p0303c0612" cb:place="inline">第一，此世界中摩耶
+<lb n="0303c06" ed="X"/><lb n="0806a15" ed="R088"/><p xml:id="pX09p0303c0601">第五、十一地法門，十善知識。</p>
+<p xml:id="pX09p0303c0612" cb:place="inline">第一，此世界中摩耶
 <lb n="0303c07" ed="X"/><lb n="0806a16" ed="R088"/>夫人，主從悲起智幻生成佛門，所得法門名菩薩大
-<lb n="0303c08" ed="X"/><lb n="0806a17" ed="R088"/>願智幻解脫門。</p><p xml:id="pX09p0303c0807" cb:place="inline">第二善知識，三十三天正念天王
+<lb n="0303c08" ed="X"/><lb n="0806a17" ed="R088"/>願智幻解脫門。</p>
+<p xml:id="pX09p0303c0807" cb:place="inline">第二善知識，三十三天正念天王
 <lb n="0303c09" ed="X"/><lb n="0806a18" ed="R088"/>女，名天主光，主智悲自在正念諸法無失現前門，所
-<lb n="0303c10" ed="X"/><lb n="0806b01" ed="R088"/>得法門名無礙念清淨解脫門。</p><p xml:id="pX09p0303c1013" cb:place="inline">第三善知識，迦毗
-<lb n="0303c11" ed="X"/><lb n="0806b02" ed="R088"/>羅城徧友童子師，主徧滿十方世法師範門。</p><p xml:id="pX09p0303c1118" cb:place="inline">第四
+<lb n="0303c10" ed="X"/><lb n="0806b01" ed="R088"/>得法門名無礙念清淨解脫門。</p>
+<p xml:id="pX09p0303c1013" cb:place="inline">第三善知識，迦毗
+<lb n="0303c11" ed="X"/><lb n="0806b02" ed="R088"/>羅城徧友童子師，主徧滿十方世法師範門。</p>
+<p xml:id="pX09p0303c1118" cb:place="inline">第四
 <lb n="0303c12" ed="X"/><lb n="0806b03" ed="R088"/>善知識，善知眾藝童子，主徧周十方字智門，所得法
-<lb n="0303c13" ed="X"/><lb n="0806b04" ed="R088"/>門名善知<note n="0303002" resp="Xuzangjing" type="orig" place="foot text">驗疑眾</note>騐藝菩薩般若波羅密解脫門。</p><p xml:id="pX09p0303c1317" cb:place="inline">第五善
-<lb n="0303c14" ed="X"/><lb n="0806b05" ed="R088"/>知識，賢<note n="0303003" resp="Xuzangjing" type="orig" place="foot text">聖疑勝</note>聖優婆夷，主世間一切正邪吉㐫諸方便<note n="0303004" resp="Xuzangjing" type="orig" place="foot text">拔疑技</note>拔
+<lb n="0303c13" ed="X"/><lb n="0806b04" ed="R088"/>門名善知<note 
+n="0303002" resp="Xuzangjing" type="orig" place="foot text">驗疑眾</note>騐藝菩薩般若波羅密解脫門。</p>
+<p xml:id="pX09p0303c1317" cb:place="inline">第五善
+<lb n="0303c14" ed="X"/><lb n="0806b05" ed="R088"/>知識，賢<note 
+n="0303003" resp="Xuzangjing" type="orig" place="foot text">聖疑勝</note>聖優婆夷，主世間一切正邪吉㐫諸方便<note 
+n="0303004" resp="Xuzangjing" type="orig" place="foot text">拔疑技</note>拔
 <lb n="0303c15" ed="X"/><lb n="0806b06" ed="R088"/>術師筮博說一切總達利生門，所得法門名無依處
-<lb n="0303c16" ed="X"/><lb n="0806b07" ed="R088"/>道場解脫門。</p><p xml:id="pX09p0303c1606" cb:place="inline">第六善知識，南方沃田城<note n="0303005" resp="Xuzangjing" type="orig" place="foot text">以字更勘</note>以堅固解
+<lb n="0303c16" ed="X"/><lb n="0806b07" ed="R088"/>道場解脫門。</p>
+<p xml:id="pX09p0303c1606" cb:place="inline">第六善知識，南方沃田城<note 
+n="0303005" resp="Xuzangjing" type="orig" place="foot text">以字更勘</note>以堅固解
 <lb n="0303c17" ed="X"/><lb n="0806b08" ed="R088"/>脫長者，主處世無著念清淨解脫門，所得法門名無
-<lb n="0303c18" ed="X"/><lb n="0806b09" ed="R088"/>著念清淨莊嚴解脫門。</p><p xml:id="pX09p0303c1810" cb:place="inline">第七善知識，沃田城妙月
+<lb n="0303c18" ed="X"/><lb n="0806b09" ed="R088"/>著念清淨莊嚴解脫門。</p>
+<p xml:id="pX09p0303c1810" cb:place="inline">第七善知識，沃田城妙月
 <lb n="0303c19" ed="X"/><lb n="0806b10" ed="R088"/>長者，主處世淨智光明門，所得法門名智光解脫門。</p>
 <lb n="0303c20" ed="X"/><lb n="0806b11" ed="R088"/><p xml:id="pX09p0303c2001">第八善知識，南方出生城無勝軍長者，主無相法
-<lb n="0303c21" ed="X"/><lb n="0806b12" ed="R088"/>中得無盡相門，所得法門名無盡相解脫門。</p><p xml:id="pX09p0303c2118" cb:place="inline">第九
+<lb n="0303c21" ed="X"/><lb n="0806b12" ed="R088"/>中得無盡相門，所得法門名無盡相解脫門。</p>
+<p xml:id="pX09p0303c2118" cb:place="inline">第九
 <lb n="0303c22" ed="X"/><lb n="0806b13" ed="R088"/>善知識，出生城南法聚落最寂靜婆羅門，主誠願語
-<lb n="0303c23" ed="X"/><lb n="0806b14" ed="R088"/>門，所得法門名誠願語解脫門。</p><p xml:id="pX09p0303c2313" cb:place="inline">第十善知識，妙意
+<lb n="0303c23" ed="X"/><lb n="0806b14" ed="R088"/>門，所得法門名誠願語解脫門。</p>
+<p xml:id="pX09p0303c2313" cb:place="inline">第十善知識，妙意
 <lb n="0303c24" ed="X"/><lb n="0806b15" ed="R088"/>華門城德生童子、有德童女，主智悲圓滿處世幻住
 <pb n="0304a" ed="X" xml:id="X09.0241.0304a"/>
-<lb n="0304a01" ed="X"/><lb n="0806b16" ed="R088"/>門，所得法門名處世幻住解脫門。</p><p xml:id="pX09p0304a0114" cb:place="inline">此上十善知識，
+<lb n="0304a01" ed="X"/><lb n="0806b16" ed="R088"/>門，所得法門名處世幻住解脫門。</p>
+<p xml:id="pX09p0304a0114" cb:place="inline">此上十善知識，
 <lb n="0304a02" ed="X"/><lb n="0806b17" ed="R088"/>各主一法門，行法功用，後當經自明。</p>
 <lb n="0304a03" ed="X"/><lb n="0806b18" ed="R088"/><p xml:id="pX09p0304a0301">又文殊師利為首善知識，主根本不動智門；普賢菩
 <lb n="0304a04" ed="X"/><lb n="0807a01" ed="R088"/>薩，主悲願萬行門；彌勒菩薩，主圓滿佛果門。此三善
@@ -308,7 +390,8 @@
 <lb n="0304a07" ed="X"/><lb n="0807a04" ed="R088"/>親證，一生成佛。行法功用，後當經自明。</p>
 <lb n="0304a08" ed="X"/><lb n="0807a05" ed="R088"/><p xml:id="pX09p0304a0801">又，初會菩提場中，佛放口光、眉間光，有佛剎微塵數，
 <lb n="0304a09" ed="X"/><lb n="0807a06" ed="R088"/>一一復有佛剎微塵數光明以為眷屬。其光悉具眾
-<lb n="0304a10" ed="X"/><lb n="0807a07" ed="R088"/>妙寶色，普照十方，<note n="0304001" resp="Xuzangjing" type="orig" place="foot text">名疑各</note>名一億佛剎微塵數世界海。彼世
+<lb n="0304a10" ed="X"/><lb n="0807a07" ed="R088"/>妙寶色，普照十方，<note 
+n="0304001" resp="Xuzangjing" type="orig" place="foot text">名疑各</note>名一億佛剎微塵數世界海。彼世
 <lb n="0304a11" ed="X"/><lb n="0807a08" ed="R088"/>界海諸菩薩眾，於光明中，各得見此華藏莊嚴世界
 <lb n="0304a12" ed="X"/><lb n="0807a09" ed="R088"/>海。以佛神力，其光於彼一切菩薩眾會之前而說頌
 <lb n="0304a13" ed="X"/><lb n="0807a10" ed="R088"/>言。</p>
@@ -325,7 +408,8 @@
 <lb n="0304a24" ed="X"/><lb n="0807b03" ed="R088"/>來亦如是坐，悉以佛神力故，十方各有一大菩薩，一
 <pb n="0304b" ed="X" xml:id="X09.0241.0304b"/>
 <lb n="0304b01" ed="X"/><lb n="0807b04" ed="R088"/>一各與十佛剎微塵數諸菩薩俱，來詣佛所，其名曰
-<lb n="0304b02" ed="X"/><lb n="0807b05" ed="R088"/>文殊師利菩薩等。</p><p xml:id="pX09p0304b0208" cb:place="inline">爾時，光明過此世界，徧照東方十
+<lb n="0304b02" ed="X"/><lb n="0807b05" ed="R088"/>文殊師利菩薩等。</p>
+<p xml:id="pX09p0304b0208" cb:place="inline">爾時，光明過此世界，徧照東方十
 <lb n="0304b03" ed="X"/><lb n="0807b06" ed="R088"/>佛國土；南、西、北方，四維、上、下，亦復如是。彼一一世界
 <lb n="0304b04" ed="X"/><lb n="0807b07" ed="R088"/>中，皆有百億閻浮提，乃至百億色究竟天，其中所有，
 <lb n="0304b05" ed="X"/><lb n="0807b08" ed="R088"/>悉皆明現。如此處，見佛世尊坐蓮華藏師子之座，十
@@ -334,22 +418,30 @@
 <lb n="0304b08" ed="X"/><lb n="0807b11" ed="R088"/>各有一大菩薩，一一各與十佛剎微塵數諸菩薩俱，
 <lb n="0304b09" ed="X"/><lb n="0807b12" ed="R088"/>來詣佛所。其大菩薩，謂文殊師利等；所從來國，謂金
 <lb n="0304b10" ed="X"/><lb n="0807b13" ed="R088"/>色世界等；本所事佛，謂不動智如來等。爾時，一切處
-<lb n="0304b11" ed="X"/><lb n="0807b14" ed="R088"/>文殊師利菩薩，各於佛所，同時發聲，說此頌言。</p><p xml:id="pX09p0304b1119" cb:place="inline">爾時，
+<lb n="0304b11" ed="X"/><lb n="0807b14" ed="R088"/>文殊師利菩薩，各於佛所，同時發聲，說此頌言。</p>
+<p xml:id="pX09p0304b1119" cb:place="inline">爾時，
 <lb n="0304b12" ed="X"/><lb n="0807b15" ed="R088"/>光明過十世界，徧照東方百世界，南、西、北方，四維、上、
 <lb n="0304b13" ed="X"/><lb n="0807b16" ed="R088"/>下，亦復如是。彼諸世界中，皆有百億閻浮提，乃至百
 <lb n="0304b14" ed="X"/><lb n="0807b17" ed="R088"/>億色究竟天，其中所有，悉皆明現，乃至說此頌言，與
-<lb n="0304b15" ed="X"/><lb n="0807b18" ed="R088"/>上來文，亦復如是。</p><p xml:id="pX09p0304b1508" cb:place="inline">爾時，光明過百世界，徧照東方千
-<lb n="0304b16" ed="X"/><lb n="0808a01" ed="R088"/>世界，南、西、北方，四維、上、下，亦復如是。</p><p xml:id="pX09p0304b1615" cb:place="inline">爾時，光明過千
+<lb n="0304b15" ed="X"/><lb n="0807b18" ed="R088"/>上來文，亦復如是。</p>
+<p xml:id="pX09p0304b1508" cb:place="inline">爾時，光明過百世界，徧照東方千
+<lb n="0304b16" ed="X"/><lb n="0808a01" ed="R088"/>世界，南、西、北方，四維、上、下，亦復如是。</p>
+<p xml:id="pX09p0304b1615" cb:place="inline">爾時，光明過千
 <lb n="0304b17" ed="X"/><lb n="0808a02" ed="R088"/>世界，徧照東方十千世界，南、西、北方，四維、上、下，亦復
-<lb n="0304b18" ed="X"/><lb n="0808a03" ed="R088"/>如是。</p><p xml:id="pX09p0304b1803" cb:place="inline">爾時，光明過十千世界，徧照東方百千世界，南、
-<lb n="0304b19" ed="X"/><lb n="0808a04" ed="R088"/>西、北方，四維、上、下，亦復如是。</p><p xml:id="pX09p0304b1912" cb:place="inline">爾時，光明過百千世界，
+<lb n="0304b18" ed="X"/><lb n="0808a03" ed="R088"/>如是。</p>
+<p xml:id="pX09p0304b1803" cb:place="inline">爾時，光明過十千世界，徧照東方百千世界，南、
+<lb n="0304b19" ed="X"/><lb n="0808a04" ed="R088"/>西、北方，四維、上、下，亦復如是。</p>
+<p xml:id="pX09p0304b1912" cb:place="inline">爾時，光明過百千世界，
 <lb n="0304b20" ed="X"/><lb n="0808a05" ed="R088"/>徧照東方百萬世界，南、西、北方，四維、上、下，亦復如是。</p>
 <lb n="0304b21" ed="X"/><lb n="0808a06" ed="R088"/><p xml:id="pX09p0304b2101">爾時，光明過百萬世界，徧照東方一億世界，南、西、北
-<lb n="0304b22" ed="X"/><lb n="0808a07" ed="R088"/>方，四維、上、下，亦復如是。</p><p xml:id="pX09p0304b2210" cb:place="inline">爾時，光明過一億世界，徧照
-<lb n="0304b23" ed="X"/><lb n="0808a08" ed="R088"/>東方十億世界，南、西、北方，四維、上、下，亦復如是。</p><p xml:id="pX09p0304b2319" cb:place="inline">爾時，
+<lb n="0304b22" ed="X"/><lb n="0808a07" ed="R088"/>方，四維、上、下，亦復如是。</p>
+<p xml:id="pX09p0304b2210" cb:place="inline">爾時，光明過一億世界，徧照
+<lb n="0304b23" ed="X"/><lb n="0808a08" ed="R088"/>東方十億世界，南、西、北方，四維、上、下，亦復如是。</p>
+<p xml:id="pX09p0304b2319" cb:place="inline">爾時，
 <lb n="0304b24" ed="X"/><lb n="0808a09" ed="R088"/>光明過十億世界，徧照東方百億世界、千億世界、百
 <pb n="0304c" ed="X" xml:id="X09.0241.0304c"/>
-<lb n="0304c01" ed="X"/><lb n="0808a10" ed="R088"/>千億世界、那由他億世界、百那由他億世界、<note n="0304002" resp="Xuzangjing" type="orig" place="foot text">十疑千</note>十那由
+<lb n="0304c01" ed="X"/><lb n="0808a10" ed="R088"/>千億世界、那由他億世界、百那由他億世界、<note 
+n="0304002" resp="Xuzangjing" type="orig" place="foot text">十疑千</note>十那由
 <lb n="0304c02" ed="X"/><lb n="0808a11" ed="R088"/>他億世界，如是無數無量、無邊無等、不可數、不可稱、
 <lb n="0304c03" ed="X"/><lb n="0808a12" ed="R088"/>不可思、不可量、不可說，盡法界、虗空界所有世界，南、
 <lb n="0304c04" ed="X"/><lb n="0808a13" ed="R088"/>西、北方，四維、上、下，亦復如是。彼一一世界中，皆有百
@@ -359,7 +451,8 @@
 <lb n="0304c08" ed="X"/><lb n="0808a17" ed="R088"/>有一大菩薩，一一各與十佛剎微塵數諸菩薩俱，來
 <lb n="0304c09" ed="X"/><lb n="0808a18" ed="R088"/>詣佛所。其大菩薩，謂文殊師利等；所從來國，謂金色
 <lb n="0304c10" ed="X"/><lb n="0808b01" ed="R088"/>世界等，本所事佛，謂不動智佛等。兩時，一切處文殊
-<lb n="0304c11" ed="X"/><lb n="0808b02" ed="R088"/>師利菩薩，各於佛所，同時發聲，說此頌言。</p><p xml:id="pX09p0304c1117" cb:place="inline">此上十段
+<lb n="0304c11" ed="X"/><lb n="0808b02" ed="R088"/>師利菩薩，各於佛所，同時發聲，說此頌言。</p>
+<p xml:id="pX09p0304c1117" cb:place="inline">此上十段
 <lb n="0304c12" ed="X"/><lb n="0808b03" ed="R088"/>文中，表佛光明所過世界。所照世界，即是〈光明覺品〉
 <lb n="0304c13" ed="X"/><lb n="0808b04" ed="R088"/>中普光明殿所放光明，徧照法界、虗空界，無有窮盡，
 <lb n="0304c14" ed="X"/><lb n="0808b05" ed="R088"/>如經自具。</p>
@@ -378,10 +471,18 @@
 <lb n="0305a02" ed="X"/><lb n="0808b17" ed="R088"/>百千阿僧祇光明以為眷屬，普照十方一切世界靡
 <lb n="0305a03" ed="X"/><lb n="0808b18" ed="R088"/>不周徧，三惡道苦皆得休息。又照一切如來眾會，顯
 <lb n="0305a04" ed="X"/><lb n="0809a01" ed="R088"/>現諸佛不思議力。又照十方一切世界一切諸佛所
-<lb n="0305a05" ed="X"/><lb n="0809a02" ed="R088"/>加說法菩薩之身，作是事<note n="0305a0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a0501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，於上虗空中成大光明
+<lb n="0305a05" ed="X"/><lb n="0809a02" ed="R088"/>加說法菩薩之身，作是事<note 
+n="0305a0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a0501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，於上虗空中成大光明
 <lb n="0305a06" ed="X"/><lb n="0809a03" ed="R088"/>雲網臺而住。十方諸佛悉亦如是，從眉間出清淨光
 <lb n="0305a07" ed="X"/><lb n="0809a04" ed="R088"/>明，其光名號、眷屬、作業悉同於此。又亦照此娑婆世
-<lb n="0305a08" ed="X"/><lb n="0809a05" ed="R088"/>界佛及大眾，並金剛藏菩薩身師子座<note n="0305a0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，於上虗空
+<lb n="0305a08" ed="X"/><lb n="0809a05" ed="R088"/>界佛及大眾，並金剛藏菩薩身師子座<note 
+n="0305a0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a0801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，於上虗空
 <lb n="0305a09" ed="X"/><lb n="0809a06" ed="R088"/>中成大光明雲網臺。時，光臺中以諸佛威神力故，而
 <lb n="0305a10" ed="X"/><lb n="0809a07" ed="R088"/>說頌言。</p>
 <lb n="0305a11" ed="X"/><lb n="0809a08" ed="R088"/><p xml:id="pX09p0305a1101">七會普光明殿，佛放眉間白毫相光，有大光明，名如
@@ -391,11 +492,20 @@
 <lb n="0305a15" ed="X"/><lb n="0809a12" ed="R088"/>十方世界，除滅一切諸惡道苦，暎蔽一切諸魔宮殿，
 <lb n="0305a16" ed="X"/><lb n="0809a13" ed="R088"/>顯示一切諸佛如來坐菩提座成等正覺。又口中放
 <lb n="0305a17" ed="X"/><lb n="0809a14" ed="R088"/>大光明，名無礙無畏。百千億阿僧祗光明以為眷屬，
-<lb n="0305a18" ed="X"/><lb n="0809a15" ed="R088"/>普照十方盡虗空徧法界一切世界，右遶十帀，<note n="0305001" resp="Xuzangjing" type="orig" place="foot text">顯等十八字疑衍文</note>顯現
+<lb n="0305a18" ed="X"/><lb n="0809a15" ed="R088"/>普照十方盡虗空徧法界一切世界，右遶十帀，<note 
+n="0305001" resp="Xuzangjing" type="orig" place="foot text">顯等十八字疑衍文</note>顯現
 <lb n="0305a19" ed="X"/><lb n="0809a16" ed="R088"/>十方盡虗空徧法界一切世界，右遶十帀，顯現如來
 <lb n="0305a20" ed="X"/><lb n="0809a17" ed="R088"/>種種自在，開悟無量諸眾生等，震動一切十方世界，
-<lb n="0305a21" ed="X"/><lb n="0809a18" ed="R088"/>除滅一切諸惡道苦，乃至眾會道場。作是事<note n="0305a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，而來
-<lb n="0305a22" ed="X"/><lb n="0809b01" ed="R088"/>右遶菩薩眾會，入普賢菩薩口。其光入<note n="0305a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a2201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，普賢菩薩
+<lb n="0305a21" ed="X"/><lb n="0809a18" ed="R088"/>除滅一切諸惡道苦，乃至眾會道場。作是事<note 
+n="0305a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，而來
+<lb n="0305a22" ed="X"/><lb n="0809b01" ed="R088"/>右遶菩薩眾會，入普賢菩薩口。其光入<note 
+n="0305a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0305a2201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，普賢菩薩
 <lb n="0305a23" ed="X"/><lb n="0809b02" ed="R088"/>身及師子座，過於本時及諸菩薩身座百倍。</p>
 <lb n="0305a24" ed="X"/><lb n="0809b03" ed="R088"/><p xml:id="pX09p0305a2401">八會俱在普光明殿，不復重放光明。</p>
 <pb n="0305b" ed="X" xml:id="X09.0241.0305b"/>
@@ -404,7 +514,8 @@
 <lb n="0305b03" ed="X"/><lb n="0809b06" ed="R088"/>十方一切世界海諸佛國土。時，逝多林菩薩大眾，悉
 <lb n="0305b04" ed="X"/><lb n="0809b07" ed="R088"/>見一切盡法界、虗空界一切佛剎，一一微塵中各有
 <lb n="0305b05" ed="X"/><lb n="0809b08" ed="R088"/>一切佛剎微塵數諸佛國土，種種名、種種色、種種清
-<lb n="0305b06" ed="X"/><lb n="0809b09" ed="R088"/>淨、種種莊嚴，各各不同，悉皆明現。</p><p xml:id="pX09p0305b0614" cb:place="inline">此上七處九會，
+<lb n="0305b06" ed="X"/><lb n="0809b09" ed="R088"/>淨、種種莊嚴，各各不同，悉皆明現。</p>
+<p xml:id="pX09p0305b0614" cb:place="inline">此上七處九會，
 <lb n="0305b07" ed="X"/><lb n="0809b10" ed="R088"/>佛放光明，種種名相，具如經說以竟。</p>
 <lb n="0305b08" ed="X"/><lb n="0809b11" ed="R088"/><p xml:id="pX09p0305b0801">又初會菩提場所敘當會之眾，普賢菩薩及十普菩
 <lb n="0305b09" ed="X"/><lb n="0809b12" ed="R088"/>薩為一類眾，二海月光大明菩薩等十佛剎微塵數
@@ -463,7 +574,8 @@
 <lb n="0306a12" ed="X"/><lb n="0811a09" ed="R088"/>薩而為上首。寶藏菩薩、蓮華藏菩薩、德藏菩薩、蓮華
 <lb n="0306a13" ed="X"/><lb n="0811a10" ed="R088"/>德藏菩薩、日藏菩薩、蘇利耶藏菩薩、無垢月藏菩薩、
 <lb n="0306a14" ed="X"/><lb n="0811a11" ed="R088"/>於一切國土普現莊嚴藏菩薩、毗盧遮那智藏菩薩，
-<lb n="0306a15" ed="X"/><lb n="0811a12" ed="R088"/>如是等與十方世界法界虗空<note n="0306001" resp="Xuzangjing" type="orig" place="foot text">思字更勘</note>思，一一世界中諸大
+<lb n="0306a15" ed="X"/><lb n="0811a12" ed="R088"/>如是等與十方世界法界虗空<note 
+n="0306001" resp="Xuzangjing" type="orig" place="foot text">思字更勘</note>思，一一世界中諸大
 <lb n="0306a16" ed="X"/><lb n="0811a13" ed="R088"/>菩薩而來集會。金剛藏菩薩而為上首，表十地法門。</p>
 <lb n="0306a17" ed="X"/><p xml:id="pX09p0306a1701"><lb n="0811a14" ed="R088"/>七會菩提場普光明殿，佛放眉間白毫相光，普照十
 <lb n="0306a18" ed="X"/><lb n="0811a15" ed="R088"/>方盡虗空徧法界一切世界，右遶十帀，顯現如來無
@@ -525,7 +637,8 @@
 <lb n="0306c24" ed="X"/><lb n="0812b15" ed="R088"/><p xml:id="pX09p0306c2401">又三會須彌山頂忉利天宮說十住法門。法慧菩薩
 <pb n="0307a" ed="X" xml:id="X09.0241.0307a"/>
 <lb n="0307a01" ed="X"/><lb n="0812b16" ed="R088"/>承佛威力，入菩薩無量方便三昧。以三昧力，十方各
-<lb n="0307a02" ed="X"/><lb n="0812b17" ed="R088"/>千佛剎微塵數世界之外有千佛<note n="0307001" resp="Xuzangjing" type="orig" place="foot text">佛字疑剩</note>佛剎微塵數諸佛
+<lb n="0307a02" ed="X"/><lb n="0812b17" ed="R088"/>千佛剎微塵數世界之外有千佛<note 
+n="0307001" resp="Xuzangjing" type="orig" place="foot text">佛字疑剩</note>佛剎微塵數諸佛
 <lb n="0307a03" ed="X"/><lb n="0812b18" ed="R088"/>皆同一號，名曰法慧，普現其前，告法慧菩薩言：「善哉！
 <lb n="0307a04" ed="X"/><lb n="0813a01" ed="R088"/>善哉！善男子！汝能入是菩薩無量方便三昧。善男子！
 <lb n="0307a05" ed="X"/><lb n="0813a02" ed="R088"/>十方各千佛剎微塵數諸佛悉以神力共加於汝，又
@@ -536,7 +649,11 @@
 <lb n="0307a10" ed="X"/><lb n="0813a07" ed="R088"/>告諸菩薩言：「佛子！菩薩住處廣大，與法界等。」是時，法
 <lb n="0307a11" ed="X"/><lb n="0813a08" ed="R088"/>慧菩薩即說十住法門，如經自具。</p>
 <lb n="0307a12" ed="X"/><lb n="0813a09" ed="R088"/><p xml:id="pX09p0307a1201">又四會夜摩天宮說十行法門，功德林菩薩承佛神
-<lb n="0307a13" ed="X"/><lb n="0813a10" ed="R088"/>力，入菩薩善思惟三昧。入是三昧<note n="0307a1301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307a1301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，十方各過萬佛
+<lb n="0307a13" ed="X"/><lb n="0813a10" ed="R088"/>力，入菩薩善思惟三昧。入是三昧<note 
+n="0307a1301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307a1301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，十方各過萬佛
 <lb n="0307a14" ed="X"/><lb n="0813a11" ed="R088"/>剎微塵數世界外，有萬佛剎微塵數諸佛，皆號功德
 <lb n="0307a15" ed="X"/><lb n="0813a12" ed="R088"/>林，而現其前，告功德林菩薩言：「善哉！佛子！乃能入此
 <lb n="0307a16" ed="X"/><lb n="0813a13" ed="R088"/>善思惟三昧。善男子！此是十方各萬佛剎微塵數同
@@ -549,7 +666,11 @@
 <lb n="0307a23" ed="X"/><lb n="0813b02" ed="R088"/>門，如經自具。</p>
 <lb n="0307a24" ed="X"/><lb n="0813b03" ed="R088"/><p xml:id="pX09p0307a2401">五會兜率天宮說十迴向法門，金剛幢菩薩承佛神
 <pb n="0307b" ed="X" xml:id="X09.0241.0307b"/>
-<lb n="0307b01" ed="X"/><lb n="0813b04" ed="R088"/>力，入菩薩智光三昧。入是三昧<note n="0307b0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b0101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，十方各過十萬佛
+<lb n="0307b01" ed="X"/><lb n="0813b04" ed="R088"/>力，入菩薩智光三昧。入是三昧<note 
+n="0307b0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b0101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，十方各過十萬佛
 <lb n="0307b02" ed="X"/><lb n="0813b05" ed="R088"/>剎微塵數世界外，有十萬佛剎微塵數諸佛，皆同一
 <lb n="0307b03" ed="X"/><lb n="0813b06" ed="R088"/>號，名金剛幢，而現其前，咸稱讚言：「善哉！善哉！善男子！
 <lb n="0307b04" ed="X"/><lb n="0813b07" ed="R088"/>乃能入此菩薩智光三昧。善男子！此是十方各十萬
@@ -559,18 +680,30 @@
 <lb n="0307b08" ed="X"/><lb n="0813b11" ed="R088"/>得清淨無畏故，具無礙辯才故。」爾時，諸佛即與金剛
 <lb n="0307b09" ed="X"/><lb n="0813b12" ed="R088"/>幢菩薩無量智慧，又與十種無量大法門。何以故？入
 <lb n="0307b10" ed="X"/><lb n="0813b13" ed="R088"/>此三昧善根力故。爾時，諸佛各以右手摩金剛幢菩
-<lb n="0307b11" ed="X"/><lb n="0813b14" ed="R088"/>薩頂。金剛幢菩薩得摩頂<note n="0307b1101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b1101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，即從定起，告諸菩薩言：
+<lb n="0307b11" ed="X"/><lb n="0813b14" ed="R088"/>薩頂。金剛幢菩薩得摩頂<note 
+n="0307b1101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b1101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，即從定起，告諸菩薩言：
 <lb n="0307b12" ed="X"/><lb n="0813b15" ed="R088"/>「佛子！菩薩摩訶薩有不可思議大願充滿法界，普能
 <lb n="0307b13" ed="X"/><lb n="0813b16" ed="R088"/>救護一切眾生。」即說十迴向法門，如經自具。</p>
 <lb n="0307b14" ed="X"/><lb n="0813b17" ed="R088"/><p xml:id="pX09p0307b1401">又六會他化天宮說十地法門，金剛藏菩薩承佛神
-<lb n="0307b15" ed="X"/><lb n="0813b18" ed="R088"/>力，入菩薩大智慧光明三昧。入是三昧<note n="0307b1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b1501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，即時十方
+<lb n="0307b15" ed="X"/><lb n="0813b18" ed="R088"/>力，入菩薩大智慧光明三昧。入是三昧<note 
+n="0307b1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b1501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，即時十方
 <lb n="0307b16" ed="X"/><lb n="0814a01" ed="R088"/>各過十億佛剎微塵數世界外，各有十億佛剎微塵
 <lb n="0307b17" ed="X"/><lb n="0814a02" ed="R088"/>數諸佛，同名金剛藏，而現其前，作如是言：「善哉！善哉！
 <lb n="0307b18" ed="X"/><lb n="0814a03" ed="R088"/>金剛藏，乃能入是菩薩大智慧光明三昧。善男子！此
 <lb n="0307b19" ed="X"/><lb n="0814a04" ed="R088"/>是十方各十億佛剎微塵數諸佛共加於汝，以毗盧
 <lb n="0307b20" ed="X"/><lb n="0814a05" ed="R088"/>遮那如來、應、正等覺本願力故，亦是汝勝智力故，又
 <lb n="0307b21" ed="X"/><lb n="0814a06" ed="R088"/>為金剛藏菩薩讚說廣大無邊法門得大智慧故。」爾
-<lb n="0307b22" ed="X"/><lb n="0814a07" ed="R088"/>時，十方諸佛各伸右手摩金剛藏菩薩頂。摩頂<note n="0307b2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b2201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，金
+<lb n="0307b22" ed="X"/><lb n="0814a07" ed="R088"/>時，十方諸佛各伸右手摩金剛藏菩薩頂。摩頂<note 
+n="0307b2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0307b2201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，金
 <lb n="0307b23" ed="X"/><lb n="0814a08" ed="R088"/>剛藏菩薩即從定起，普告一切菩薩眾言：「諸佛子！諸
 <lb n="0307b24" ed="X"/><lb n="0814a09" ed="R088"/>菩薩願善決定，無雜不可見，廣大如法界，究竟如虗
 <pb n="0307c" ed="X" xml:id="X09.0241.0307c"/>
@@ -599,7 +732,11 @@
 <lb n="0307c23" ed="X"/><lb n="0814b14" ed="R088"/><p xml:id="pX09p0307c2301">九會逝多林會。爾時，世尊知諸菩薩心之所念，大悲
 <lb n="0307c24" ed="X"/><lb n="0814b15" ed="R088"/>為身，大悲為門，大悲為首，以大悲法而為方便，充徧
 <pb n="0308a" ed="X" xml:id="X09.0241.0308a"/>
-<lb n="0308a01" ed="X"/><lb n="0814b16" ed="R088"/>虗空，入師子頻伸三昧。入此三昧<note n="0308a0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0308a0101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，一切世間普皆
+<lb n="0308a01" ed="X"/><lb n="0814b16" ed="R088"/>虗空，入師子頻伸三昧。入此三昧<note 
+n="0308a0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0308a0101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，一切世間普皆
 <lb n="0308a02" ed="X"/><lb n="0814b17" ed="R088"/>嚴淨。於時，此大莊嚴樓閣忽然廣博，無有邊際，金剛
 <lb n="0308a03" ed="X"/><lb n="0814b18" ed="R088"/>為地，寶玉覆上，無量寶華及諸摩尼普散其中，處處
 <lb n="0308a04" ed="X"/><lb n="0815a01" ed="R088"/>盈滿，無量眾寶以為莊嚴。爾時，復以佛神力故，其逝
@@ -609,12 +746,14 @@
 <lb n="0308a08" ed="X"/><lb n="0815a05" ed="R088"/>多林上虗空之中，亦有不可說不可思議種種莊嚴，
 <lb n="0308a09" ed="X"/><lb n="0815a06" ed="R088"/>徧滿虗空，棄塞法界；又有不可說不可說諸大菩薩，
 <lb n="0308a10" ed="X"/><lb n="0815a07" ed="R088"/>徧滿虗空，充塞法界。各各供養，各各讚歎毗盧遮那
-<lb n="0308a11" ed="X"/><lb n="0815a08" ed="R088"/>如來無盡法門無邊功德行願，如經自具。</p><p xml:id="pX09p0308a1117" cb:place="inline">此上表
+<lb n="0308a11" ed="X"/><lb n="0815a08" ed="R088"/>如來無盡法門無邊功德行願，如經自具。</p>
+<p xml:id="pX09p0308a1117" cb:place="inline">此上表
 <lb n="0308a12" ed="X"/><lb n="0815a09" ed="R088"/>七處九會世尊入定，諸大菩薩入定境量，莊嚴出定
 <lb n="0308a13" ed="X"/><lb n="0815a10" ed="R088"/>說法之名相，各會諸佛證盟說法之儀式。大意一終，
 <lb n="0308a14" ed="X"/><lb n="0815a11" ed="R088"/>如經自具。</p>
 <lb n="0308a15" ed="X"/><lb n="0815a12" ed="R088"/><p xml:id="pX09p0308a1501">又十玄門，六相門，該括一經之圓融。重重重重，無盡
-<lb n="0308a16" ed="X"/><lb n="0815a13" ed="R088"/>無盡，無盡無盡。</p><p xml:id="pX09p0308a1607" cb:place="inline">十玄門者：一、同時具足相應門，如
+<lb n="0308a16" ed="X"/><lb n="0815a13" ed="R088"/>無盡，無盡無盡。</p>
+<p xml:id="pX09p0308a1607" cb:place="inline">十玄門者：一、同時具足相應門，如
 <lb n="0308a17" ed="X"/><lb n="0815a14" ed="R088"/>海之一滴，具百川味。二、廣狹自在無礙門，如一尺之
 <lb n="0308a18" ed="X"/><lb n="0815a15" ed="R088"/>鏡，見千里影。三、一多相容不同門，如一室千燈，光光
 <lb n="0308a19" ed="X"/><lb n="0815a16" ed="R088"/>涉入。四、諸法相即自在門，如金與金色，不相捨離。五、
@@ -625,9 +764,11 @@
 <lb n="0308a24" ed="X"/><lb n="0815b03" ed="R088"/>翱翔百年。十、主伴圓融具德門，如非辰所居，眾星皆
 <pb n="0308b" ed="X" xml:id="X09.0241.0308b"/>
 <lb n="0308b01" ed="X"/><lb n="0815b04" ed="R088"/>拱。具此十門，皆括一經之圓融。</p>
-<lb n="0308b02" ed="X"/><lb n="0815b05" ed="R088"/><p xml:id="pX09p0308b0201">又六相者，總、別、同、異、成、壞。</p><p xml:id="pX09p0308b0211" cb:place="inline">約理：一即具多，名理總；
+<lb n="0308b02" ed="X"/><lb n="0815b05" ed="R088"/><p xml:id="pX09p0308b0201">又六相者，總、別、同、異、成、壞。</p>
+<p xml:id="pX09p0308b0211" cb:place="inline">約理：一即具多，名理總；
 <lb n="0308b03" ed="X"/><lb n="0815b06" ed="R088"/>多即非一，名理別；互不相違，名理同；彼此不濫，名理
-<lb n="0308b04" ed="X"/><lb n="0815b07" ed="R088"/>異；共相成就，名理成；各住本性，名理壞。</p><p xml:id="pX09p0308b0416" cb:place="inline">約事：共為
+<lb n="0308b04" ed="X"/><lb n="0815b07" ed="R088"/>異；共相成就，名理成；各住本性，名理壞。</p>
+<p xml:id="pX09p0308b0416" cb:place="inline">約事：共為
 <lb n="0308b05" ed="X"/><lb n="0815b08" ed="R088"/>一法，名事總；諸法苑然，名事別；多種不異，名事同；各
 <lb n="0308b06" ed="X"/><lb n="0815b09" ed="R088"/>不相同，名事異；諸法辦就，名事成；不離自位，名事壞。</p>
 <lb n="0308b07" ed="X"/><lb n="0815b10" ed="R088"/><p xml:id="pX09p0308b0701">又理事一對既爾，餘教義、境智、行位、因果、依正、體
@@ -640,7 +781,11 @@
 <lb n="0308b14" ed="X"/><lb n="0815b17" ed="R088"/>法眼宗益禪師頌曰：「華嚴六相義，同中還有異，異若
 <lb n="0308b15" ed="X"/><lb n="0815b18" ed="R088"/>異於同，全非諸佛意。」以此六相該括一經之理無礙、
 <lb n="0308b16" ed="X"/><lb n="0816a01" ed="R088"/>事無礙，理事無礙、事事無礙，無盡無盡、圓融圓融。自
-<lb n="0308b17" ed="X"/><lb n="0816a02" ed="R088"/>此以上總立綱目<note n="0308b1701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0308b1701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>竟。</p>
+<lb n="0308b17" ed="X"/><lb n="0816a02" ed="R088"/>此以上總立綱目<note 
+n="0308b1701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0308b1701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>竟。</p>
 <lb n="0308b18" ed="X"/><lb n="0816a03" ed="R088"/><p xml:id="pX09p0308b1801">又論此華藏莊嚴世界海者，乃毗盧遮那如來所都
 <lb n="0308b19" ed="X"/><lb n="0816a04" ed="R088"/>實報無障礙土也。有十不可說香水海、十不可說世
 <lb n="0308b20" ed="X"/><lb n="0816a05" ed="R088"/>界種、十不可說二十重華藏，皆在此華藏莊嚴世界
@@ -763,7 +908,8 @@
 <lb n="0310a12" ed="X"/><lb n="0819a09" ed="R088"/>池然，具香水瀰漫，徧周法界，莫可測其涯際矣。齊此，
 <lb n="0310a13" ed="X"/><lb n="0819a10" ed="R088"/>總名為一法界安立海也。</p>
 <lb n="0310a14" ed="X"/><lb n="0819a11" ed="R088"/><p xml:id="pX09p0310a1401">又今將佛剎微塵數名數列明。一佛剎者，於三千大
-<lb n="0310a15" ed="X"/><lb n="0819a12" ed="R088"/>千世界為一佛剎，一佛之化境也。</p><p xml:id="pX09p0310a1514" cb:place="inline">又佛剎中論微
+<lb n="0310a15" ed="X"/><lb n="0819a12" ed="R088"/>千世界為一佛剎，一佛之化境也。</p>
+<p xml:id="pX09p0310a1514" cb:place="inline">又佛剎中論微
 <lb n="0310a16" ed="X"/><lb n="0819a13" ed="R088"/>塵數者，將此三千大千世界內，百億須彌，百億四洲，
 <lb n="0310a17" ed="X"/><lb n="0819a14" ed="R088"/>百億輪圍，及大地等，盡皆磨為微細之塵，此數論之
 <lb n="0310a18" ed="X"/><lb n="0819a15" ed="R088"/>為一佛剎微塵。以一微塵計一世界，計前所磨之塵，
@@ -817,14 +963,24 @@
 <lb n="0310c16" ed="X"/><lb n="0820b07" ed="R088"/>行相稱，譬如百千大蓮華池徧立空界。嗚呼！孰能縱
 <lb n="0310c17" ed="X"/><lb n="0820b08" ed="R088"/>金剛翮，豁天眼光，而遊觀此廣大法界者哉？即使邁
 <lb n="0310c18" ed="X"/><lb n="0820b09" ed="R088"/>過斯界，四顧茫茫，而太虗空外復何物？即又復諦審
-<lb n="0310c19" ed="X"/><lb n="0820b10" ed="R088"/>諦觀十方剎海，亦非止此而<note n="0310c1901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0310c1901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>矣。是以諸佛境界廣
+<lb n="0310c19" ed="X"/><lb n="0820b10" ed="R088"/>諦觀十方剎海，亦非止此而<note 
+n="0310c1901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0310c1901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>矣。是以諸佛境界廣
 <lb n="0310c20" ed="X"/><lb n="0820b11" ed="R088"/>大無邊，非入解脫得火三昧莫能見之。為啟凡愚，故
-<lb n="0310c21" ed="X"/><lb n="0820b12" ed="R088"/>下本經文略言毫末而<note n="0310c2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0310c2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app><note place="inline">下本文亦未全，尚有十品存於天竺</note>，中上本
+<lb n="0310c21" ed="X"/><lb n="0820b12" ed="R088"/>下本經文略言毫末而<note 
+n="0310c2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0310c2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app><note place="inline">下本文亦未全，尚有十品存於天竺</note>，中上本
 <lb n="0310c22" ed="X"/><lb n="0820b13" ed="R088"/>經當更有餘義。信乎須彌聚筆，大海量墨，莫能書也。
 <lb n="0310c23" ed="X"/><lb n="0820b14" ed="R088"/>十千塵偈，大地塵品，未足為多。原極于此，則情忘智
-<lb n="0310c24" ed="X"/><lb n="0820b15" ed="R088"/>絕，廓然無思矣。噫！回視我輩，<note n="0310001" resp="Xuzangjing" type="orig" place="foot text">叢疑蕞</note>叢爾之身心，寸靈之知
+<lb n="0310c24" ed="X"/><lb n="0820b15" ed="R088"/>絕，廓然無思矣。噫！回視我輩，<note 
+n="0310001" resp="Xuzangjing" type="orig" place="foot text">叢疑蕞</note>叢爾之身心，寸靈之知
 <pb n="0311a" ed="X" xml:id="X09.0241.0311a"/>
-<lb n="0311a01" ed="X"/><lb n="0820b16" ed="R088"/>覺，類夫醯鷄處于太虗，浮<note n="0311001" resp="Xuzangjing" type="orig" place="foot text">區疑漚</note>區流於大海。存耶？亡耶？恍
+<lb n="0311a01" ed="X"/><lb n="0820b16" ed="R088"/>覺，類夫醯鷄處于太虗，浮<note 
+n="0311001" resp="Xuzangjing" type="orig" place="foot text">區疑漚</note>區流於大海。存耶？亡耶？恍
 <lb n="0311a02" ed="X"/><lb n="0820b17" ed="R088"/>乎？惚乎？如夢想焉，如幻化焉，罔知所以然而然者也。
 <lb n="0311a03" ed="X"/><lb n="0820b18" ed="R088"/>故經云：「十方虗空生汝心中，猶如片雲點太清裡，如
 <lb n="0311a04" ed="X"/><lb n="0821a01" ed="R088"/>法界性究竟圓滿遍十方故。」豈欺我哉？是故理極故
@@ -846,7 +1002,8 @@
 <lb n="0311a20" ed="X"/><lb n="0821a17" ed="R088"/>由旬，有地如雲，是他化天住。次第乃至色究竟天住，
 <lb n="0311a21" ed="X"/><lb n="0821a18" ed="R088"/>悉以皆有其地如雲。《毗曇論》云：「色究竟天，從此天放
 <lb n="0311a22" ed="X"/><lb n="0821b01" ed="R088"/>一大石山，經六萬五十五百三十五季，中間無礙之
-<lb n="0311a23" ed="X"/><lb n="0821b02" ed="R088"/>處，下至閻浮提地，<note n="0311002" resp="Xuzangjing" type="orig" place="foot text">抑一作叩次同</note>抑算高顯，總計該經若干年之久
+<lb n="0311a23" ed="X"/><lb n="0821b02" ed="R088"/>處，下至閻浮提地，<note 
+n="0311002" resp="Xuzangjing" type="orig" place="foot text">抑一作叩次同</note>抑算高顯，總計該經若干年之久
 <lb n="0311a24" ed="X"/><lb n="0821b03" ed="R088"/>遠。如四季一年，四十季十年，四百季百年，四千季千
 <pb n="0311b" ed="X" xml:id="X09.0241.0311b"/>
 <lb n="0311b01" ed="X"/><lb n="0821b04" ed="R088"/>年，四萬季萬年，如上之季，總共抑算，該一萬六千三
@@ -874,61 +1031,119 @@
 <lb n="0311b23" ed="X"/><lb n="0822a08" ed="R088"/>洛叉。又地輪厚六十萬零八千由旬，共計該五十四
 <lb n="0311b24" ed="X"/><lb n="0822a09" ed="R088"/>兆零四萬里。此上四輪所論，出《因本經》、《俱舍論》、《增一
 <pb n="0311c" ed="X" xml:id="X09.0241.0311c"/>
-<lb n="0311c01" ed="X"/><lb n="0822a10" ed="R088"/>經》、《法界安立圖》所集，統立綱目<note n="0311c0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0311c0101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>竟。</p>
+<lb n="0311c01" ed="X"/><lb n="0822a10" ed="R088"/>經》、《法界安立圖》所集，統立綱目<note 
+n="0311c0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0311c0101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>竟。</p>
 <lb n="0311c02" ed="X"/><lb n="0822a11" ed="R088"/><p xml:id="pX09p0311c0201" style="margin-left:1em">表讚四種法界體量形狀，就情達理，依心對境。初
 <lb n="0311c03" ed="X"/><lb n="0822a12" ed="R088"/>稿。</p>
 <lb n="0311c04" ed="X"/><lb n="0822a13" ed="R088"/><p xml:id="pX09p0311c0401" style="margin-left:3em">理法界</p>
-<lb n="0311c05" ed="X"/><lb n="0822a14" ed="R088"/><lg xml:id="lgX09p0311c0501" type="regular"><l>理為法體，<caesura/>法是理用，<caesura/>體用雙彰，<caesura/>界為際限。</l>
-<lb n="0311c06" ed="X"/><lb n="0822a15" ed="R088"/><l>理本清淨，<caesura/>法由理致，<caesura/>理與法一，<caesura/>不真何待？</l></lg>
+<lb n="0311c05" ed="X"/><lb n="0822a14" ed="R088"/><lg xml:id="lgX09p0311c0501" type="regular">
+  <l>理為法體，<caesura/>法是理用，<caesura/>體用雙彰，<caesura/>界為際限。</l>
+<lb n="0311c06" ed="X"/><lb n="0822a15" ed="R088"/>
+  <l>理本清淨，<caesura/>法由理致，<caesura/>理與法一，<caesura/>不真何待？</l>
+</lg>
 <lb n="0311c07" ed="X"/><lb n="0822a16" ed="R088"/><p xml:id="pX09p0311c0701">故經云：「法界通化，一合理相。」<note place="inline">偈云</note></p>
-<lb n="0311c08" ed="X"/><lb n="0822a17" ed="R088"/><lg xml:id="lgX09p0311c0801" type="regular"><l>性體圓明理義彰，<caesura/>清淨法界界非方，</l>
-<lb n="0311c09" ed="X"/><lb n="0822a18" ed="R088"/><l>真如<note n="0311003" resp="Xuzangjing" type="orig" place="foot text">寶或實歟</note>寶相空明靜，<caesura/>太虗不出自性光。</l></lg>
+<lb n="0311c08" ed="X"/><lb n="0822a17" ed="R088"/><lg xml:id="lgX09p0311c0801" type="regular">
+  <l>性體圓明理義彰，<caesura/>清淨法界界非方，</l>
+<lb n="0311c09" ed="X"/><lb n="0822a18" ed="R088"/>
+  <l>真如<note 
+n="0311003" resp="Xuzangjing" type="orig" place="foot text">寶或實歟</note>寶相空明靜，<caesura/>太虗不出自性光。</l>
+</lg>
 <lb n="0311c10" ed="X"/><lb n="0822b01" ed="R088"/><p xml:id="pX09p0311c1001" style="margin-left:3em">事法界</p>
-<lb n="0311c11" ed="X"/><lb n="0822b02" ed="R088"/><lg xml:id="lgX09p0311c1101" type="regular"><l>事因緣顯，<caesura/>造法由心，<caesura/>界定方位，<caesura/>共資<note n="0311004" resp="Xuzangjing" type="orig" place="foot text">＊善疑善（善ハ本文ニ菩トツクル。<g ref="#CB18834"/>）</note>菩美。</l>
-<lb n="0311c12" ed="X"/><lb n="0822b03" ed="R088"/><l>事本無心，<caesura/>因境成有，<caesura/>事與理合，<caesura/>界得其宜。</l></lg>
+<lb n="0311c11" ed="X"/><lb n="0822b02" ed="R088"/><lg xml:id="lgX09p0311c1101" type="regular">
+  <l>事因緣顯，<caesura/>造法由心，<caesura/>界定方位，<caesura/>共資<note 
+n="0311004" resp="Xuzangjing" type="orig" place="foot text">＊善疑善（善ハ本文ニ菩トツクル。<g ref="#CB18834"/>）</note>菩美。</l>
+<lb n="0311c12" ed="X"/><lb n="0822b03" ed="R088"/>
+  <l>事本無心，<caesura/>因境成有，<caesura/>事與理合，<caesura/>界得其宜。</l>
+</lg>
 <lb n="0311c13" ed="X"/><lb n="0822b04" ed="R088"/><p xml:id="pX09p0311c1301">故經云：「事理通達，諸法無礙。」<note place="inline">偈云</note></p>
-<lb n="0311c14" ed="X"/><lb n="0822b05" ed="R088"/><lg xml:id="lgX09p0311c1401" type="regular"><l>事無大小隨圓方，<caesura/>得法源底性清涼，</l>
-<lb n="0311c15" ed="X"/><lb n="0822b06" ed="R088"/><l>對境因心成幻有，<caesura/>因緣合離各主張。</l></lg>
+<lb n="0311c14" ed="X"/><lb n="0822b05" ed="R088"/><lg xml:id="lgX09p0311c1401" type="regular">
+  <l>事無大小隨圓方，<caesura/>得法源底性清涼，</l>
+<lb n="0311c15" ed="X"/><lb n="0822b06" ed="R088"/>
+  <l>對境因心成幻有，<caesura/>因緣合離各主張。</l>
+</lg>
 <lb n="0311c16" ed="X"/><lb n="0822b07" ed="R088"/><p xml:id="pX09p0311c1601" style="margin-left:3em">理事法界</p>
-<lb n="0311c17" ed="X"/><lb n="0822b08" ed="R088"/><lg xml:id="lgX09p0311c1701" type="regular"><l>理事法三，<caesura/>通別各主，<caesura/>界為限齊，<caesura/>其法自立。</l>
-<lb n="0311c18" ed="X"/><lb n="0822b09" ed="R088"/><l>三事差別，<caesura/>法無定相，<caesura/>界亦混亂，<caesura/>事無一定。</l></lg>
+<lb n="0311c17" ed="X"/><lb n="0822b08" ed="R088"/><lg xml:id="lgX09p0311c1701" type="regular">
+  <l>理事法三，<caesura/>通別各主，<caesura/>界為限齊，<caesura/>其法自立。</l>
+<lb n="0311c18" ed="X"/><lb n="0822b09" ed="R088"/>
+  <l>三事差別，<caesura/>法無定相，<caesura/>界亦混亂，<caesura/>事無一定。</l>
+</lg>
 <lb n="0311c19" ed="X"/><lb n="0822b10" ed="R088"/><p xml:id="pX09p0311c1901">故經云：「皆因無為法而有差別。」<note place="inline">偈云</note></p>
-<lb n="0311c20" ed="X"/><lb n="0822b11" ed="R088"/><lg xml:id="lgX09p0311c2001" type="regular"><l>三事相合法無別，<caesura/>理事圓通法性濶，</l>
-<lb n="0311c21" ed="X"/><lb n="0822b12" ed="R088"/><l>諸法如義空法界，<caesura/>無人無我無法說。</l></lg>
+<lb n="0311c20" ed="X"/><lb n="0822b11" ed="R088"/><lg xml:id="lgX09p0311c2001" type="regular">
+  <l>三事相合法無別，<caesura/>理事圓通法性濶，</l>
+<lb n="0311c21" ed="X"/><lb n="0822b12" ed="R088"/>
+  <l>諸法如義空法界，<caesura/>無人無我無法說。</l>
+</lg>
 <lb n="0311c22" ed="X"/><lb n="0822b13" ed="R088"/><p xml:id="pX09p0311c2201" style="margin-left:3em">事事法界</p>
-<lb n="0311c23" ed="X"/><lb n="0822b14" ed="R088"/><lg xml:id="lgX09p0311c2301" type="regular"><l>事事貫通，<caesura/>法法圓融，<caesura/>法界安立，<caesura/>歸心得所。</l>
-<lb n="0311c24" ed="X"/><lb n="0822b15" ed="R088"/><l>事事各主，<caesura/>權衡綱宗，<caesura/>法界如然，<caesura/>自性如然。</l></lg>
+<lb n="0311c23" ed="X"/><lb n="0822b14" ed="R088"/><lg xml:id="lgX09p0311c2301" type="regular">
+  <l>事事貫通，<caesura/>法法圓融，<caesura/>法界安立，<caesura/>歸心得所。</l>
+<lb n="0311c24" ed="X"/><lb n="0822b15" ed="R088"/>
+  <l>事事各主，<caesura/>權衡綱宗，<caesura/>法界如然，<caesura/>自性如然。</l>
+</lg>
 <pb n="0312a" ed="X" xml:id="X09.0241.0312a"/>
 <lb n="0312a01" ed="X"/><lb n="0822b16" ed="R088"/><p xml:id="pX09p0312a0101">故經云：「實相無相，法界強名。」<note place="inline">偈云</note></p>
-<lb n="0312a02" ed="X"/><lb n="0822b17" ed="R088"/><lg xml:id="lgX09p0312a0201" type="regular"><l>事事貫通理如然，<caesura/>歸心得所自在觀，</l>
-<lb n="0312a03" ed="X"/><lb n="0822b18" ed="R088"/><l>虗空法界歸性海，<caesura/>塵塵剎剎法法圓。</l></lg>
+<lb n="0312a02" ed="X"/><lb n="0822b17" ed="R088"/><lg xml:id="lgX09p0312a0201" type="regular">
+  <l>事事貫通理如然，<caesura/>歸心得所自在觀，</l>
+<lb n="0312a03" ed="X"/><lb n="0822b18" ed="R088"/>
+  <l>虗空法界歸性海，<caesura/>塵塵剎剎法法圓。</l>
+</lg>
 <lb n="0312a04" ed="X"/><lb n="0823a01" ed="R088"/><p xml:id="pX09p0312a0401" style="margin-left:3em">又四種無礙法界偈頌</p>
-<lb n="0312a05" ed="X"/><lb n="0823a02" ed="R088"/><lg xml:id="lgX09p0312a0501" type="regular"><l>理障消除法性明，<caesura/>清淨無為復本真，</l>
-<lb n="0312a06" ed="X"/><lb n="0823a03" ed="R088"/><l>實際理諦空無相，<caesura/>一體同觀法界身。</l>
-<lb n="0312a07" ed="X"/><lb n="0823a04" ed="R088"/><l>事與法合理自明，<caesura/>心空及第悟圓音，</l>
-<lb n="0312a08" ed="X"/><lb n="0823a05" ed="R088"/><l>大地山河空中影，<caesura/>二諦融通法惟心。</l>
-<lb n="0312a09" ed="X"/><lb n="0823a06" ed="R088"/><l>理事雙彰性相明，<caesura/>塵沙法界總歸真，</l>
-<lb n="0312a10" ed="X"/><lb n="0823a07" ed="R088"/><l>虗空無盡法無盡，<caesura/>理事法三共一心。</l>
-<lb n="0312a11" ed="X"/><lb n="0823a08" ed="R088"/><l>事事無礙法法明，<caesura/>一性光中法界身，</l>
-<lb n="0312a12" ed="X"/><lb n="0823a09" ed="R088"/><l>靜觀法界惟心現，<caesura/>塵塵剎剎總圓音。</l></lg>
+<lb n="0312a05" ed="X"/><lb n="0823a02" ed="R088"/><lg xml:id="lgX09p0312a0501" type="regular">
+  <l>理障消除法性明，<caesura/>清淨無為復本真，</l>
+<lb n="0312a06" ed="X"/><lb n="0823a03" ed="R088"/>
+  <l>實際理諦空無相，<caesura/>一體同觀法界身。</l>
+<lb n="0312a07" ed="X"/><lb n="0823a04" ed="R088"/>
+  <l>事與法合理自明，<caesura/>心空及第悟圓音，</l>
+<lb n="0312a08" ed="X"/><lb n="0823a05" ed="R088"/>
+  <l>大地山河空中影，<caesura/>二諦融通法惟心。</l>
+<lb n="0312a09" ed="X"/><lb n="0823a06" ed="R088"/>
+  <l>理事雙彰性相明，<caesura/>塵沙法界總歸真，</l>
+<lb n="0312a10" ed="X"/><lb n="0823a07" ed="R088"/>
+  <l>虗空無盡法無盡，<caesura/>理事法三共一心。</l>
+<lb n="0312a11" ed="X"/><lb n="0823a08" ed="R088"/>
+  <l>事事無礙法法明，<caesura/>一性光中法界身，</l>
+<lb n="0312a12" ed="X"/><lb n="0823a09" ed="R088"/>
+  <l>靜觀法界惟心現，<caesura/>塵塵剎剎總圓音。</l>
+</lg>
 <lb n="0312a13" ed="X"/><lb n="0823a10" ed="R088"/><p xml:id="pX09p0312a1301" style="margin-left:3em">又一心開十種法界</p>
-<lb n="0312a14" ed="X"/><lb n="0823a11" ed="R088"/><lg xml:id="lgX09p0312a1401" type="regular"><l>諸佛以清淨為法界，<caesura/>一真法界，湛寂圓融。</l>
-<lb n="0312a15" ed="X"/><lb n="0823a12" ed="R088"/><l>菩薩以十度為法界，<caesura/>萬行莊嚴，利濟羣品。</l>
-<lb n="0312a16" ed="X"/><lb n="0823a13" ed="R088"/><l>圓覺以因緣為法界，<caesura/>三世一念，十二流轉。</l>
-<lb n="0312a17" ed="X"/><lb n="0823a14" ed="R088"/><l>聲聞以四諦為法界，<caesura/>知苦斷集，漏尸結解。</l>
-<lb n="0312a18" ed="X"/><lb n="0823a15" ed="R088"/><l>諸天以福樂為法界，<caesura/>福盡人間，散入諸趣。</l>
-<lb n="0312a19" ed="X"/><lb n="0823a16" ed="R088"/><l>世人以事業為法界，<caesura/>功勳道德，善惡兩途。</l>
-<lb n="0312a20" ed="X"/><lb n="0823a17" ed="R088"/><l>修羅以瞋鬬為法界，<caesura/>瞋心不斷，鬪諍難息。</l>
-<lb n="0312a21" ed="X"/><lb n="0823a18" ed="R088"/><l>畜生以愚痴為法界，<caesura/>但念水草，餘無所知。</l>
-<lb n="0312a22" ed="X"/><lb n="0823b01" ed="R088"/><l>餓鬼以饑須為法界。<caesura/>服大咽小，針夅粒米。</l>
-<lb n="0312a23" ed="X"/><lb n="0823b02" ed="R088"/><l>地獄以憂苦為法界，<caesura/>苦多樂少，無時暫安。</l></lg>
+<lb n="0312a14" ed="X"/><lb n="0823a11" ed="R088"/><lg xml:id="lgX09p0312a1401" type="regular">
+  <l>諸佛以清淨為法界，<caesura/>一真法界，湛寂圓融。</l>
+<lb n="0312a15" ed="X"/><lb n="0823a12" ed="R088"/>
+  <l>菩薩以十度為法界，<caesura/>萬行莊嚴，利濟羣品。</l>
+<lb n="0312a16" ed="X"/><lb n="0823a13" ed="R088"/>
+  <l>圓覺以因緣為法界，<caesura/>三世一念，十二流轉。</l>
+<lb n="0312a17" ed="X"/><lb n="0823a14" ed="R088"/>
+  <l>聲聞以四諦為法界，<caesura/>知苦斷集，漏尸結解。</l>
+<lb n="0312a18" ed="X"/><lb n="0823a15" ed="R088"/>
+  <l>諸天以福樂為法界，<caesura/>福盡人間，散入諸趣。</l>
+<lb n="0312a19" ed="X"/><lb n="0823a16" ed="R088"/>
+  <l>世人以事業為法界，<caesura/>功勳道德，善惡兩途。</l>
+<lb n="0312a20" ed="X"/><lb n="0823a17" ed="R088"/>
+  <l>修羅以瞋鬬為法界，<caesura/>瞋心不斷，鬪諍難息。</l>
+<lb n="0312a21" ed="X"/><lb n="0823a18" ed="R088"/>
+  <l>畜生以愚痴為法界，<caesura/>但念水草，餘無所知。</l>
+<lb n="0312a22" ed="X"/><lb n="0823b01" ed="R088"/>
+  <l>餓鬼以饑須為法界。<caesura/>服大咽小，針夅粒米。</l>
+<lb n="0312a23" ed="X"/><lb n="0823b02" ed="R088"/>
+  <l>地獄以憂苦為法界，<caesura/>苦多樂少，無時暫安。</l>
+</lg>
 <lb n="0312a24" ed="X"/><lb n="0823b03" ed="R088"/><p xml:id="pX09p0312a2401">前立四種法界，初以理論，其事在中；次以事論，其理
 <pb n="0312b" ed="X" xml:id="X09.0241.0312b"/>
 <lb n="0312b01" ed="X"/><lb n="0823b04" ed="R088"/>在中；又次以理事合論，於事事在中；又次以事事通
 <lb n="0312b02" ed="X"/><lb n="0823b05" ed="R088"/>論，具理一以貫之。所以事因理顯，理由事彰，理事交
 <lb n="0312b03" ed="X"/><lb n="0823b06" ed="R088"/>徹，諸法具備。若以法界論之，法界即世界之理也，世
 <lb n="0312b04" ed="X"/><lb n="0823b07" ed="R088"/>界即法界之事也。以世界具一切事，法界具一切理，
-<lb n="0312b05" ed="X"/><lb n="0823b08" ed="R088"/>理事具備，而世界成<note n="0312b0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0312b0501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。世界成<note n="0312b0502" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0312b0502"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，法法物物，全體顯
+<lb n="0312b05" ed="X"/><lb n="0823b08" ed="R088"/>理事具備，而世界成<note 
+n="0312b0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0312b0501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。世界成<note 
+n="0312b0502" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0312b0502">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，法法物物，全體顯
 <lb n="0312b06" ed="X"/><lb n="0823b09" ed="R088"/>露。故經云：「若入欲了知，三世一切佛，應觀法界性，一
 <lb n="0312b07" ed="X"/><lb n="0823b10" ed="R088"/>切惟心造。」所以法界稱理，世界即事，理事圓通，一切
 <lb n="0312b08" ed="X"/><lb n="0823b11" ed="R088"/>無礙。又以虗空而論法界，虗空無盡，法界無邊，塵塵
@@ -946,7 +1161,11 @@
 <lb n="0312b20" ed="X"/><lb n="0824a05" ed="R088"/>無窮。所以釋迦世尊，佛眼遙觀，他心洞鑒，大地山河，
 <lb n="0312b21" ed="X"/><lb n="0824a06" ed="R088"/>微塵國土，有情無情，萬物萬法，天地人民，日月星辰，
 <lb n="0312b22" ed="X"/><lb n="0824a07" ed="R088"/>君臣父子，詩書禮樂，萬德斯備。又觀眾生，造種種業，
-<lb n="0312b23" ed="X"/><lb n="0824a08" ed="R088"/>受種種苦，生老病死，無解脫時。佛觀此<note n="0312b2301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0312b2301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，頓發慈心，
+<lb n="0312b23" ed="X"/><lb n="0824a08" ed="R088"/>受種種苦，生老病死，無解脫時。佛觀此<note 
+n="0312b2301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0312b2301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，頓發慈心，
 <lb n="0312b24" ed="X"/><lb n="0824a09" ed="R088"/>因緣時至，現大神變，從兜率宮，下降人間，迦毗羅國，
 <pb n="0312c" ed="X" xml:id="X09.0241.0312c"/>
 <lb n="0312c01" ed="X"/><lb n="0824a10" ed="R088"/>淨梵王宮，降神母懷，十月誕生。㘞的一聲，周行七步，

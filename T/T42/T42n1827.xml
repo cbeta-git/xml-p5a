@@ -2,87 +2,92 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T42n1827">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">百論疏</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1827 百論疏</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1827 百論疏</title>
-			<author>隋 吉藏撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>3卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">42</idno>.<idno type="no">1827</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-06-27T15:26:10">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">百論疏</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1827 百論疏</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1827 百論疏</title>
+      <author>隋 吉藏撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">42</idno>.<idno type="no">1827</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-06-27T15:26:10">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0232a" ed="T" xml:id="T42.1827.0232a"/>
 <lb n="0232a01" ed="T"/>
 <lb n="0232a02" ed="T"/><cb:docNumber>No. 1827 [cf. No. 1569]</cb:docNumber>
-<lb n="0232a03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">百論序疏</cb:mulu><head><note n="0232001" resp="Taisho" type="orig" place="foot text">【原】延寶八年刊前田慧雲氏藏本</note>百論序疏</head>
+<lb n="0232a03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">百論序疏</cb:mulu><head><note 
+n="0232001" resp="Taisho" type="orig" place="foot text">【原】延寶八年刊前田慧雲氏藏本</note>百論序疏</head>
 <lb n="0232a04" ed="T"/>
 <lb n="0232a05" ed="T"/><p xml:id="pT42p0232a0501">大業四年十月因講次直疏出，不事訪也。肇
 <lb n="0232a06" ed="T"/>公是京兆郡人，家貧常以傭書為業，因是歷
 <lb n="0232a07" ed="T"/>觀經史。每讀老子莊周之書，喟然歎曰：「美則
 <lb n="0232a08" ed="T"/>美矣。然期神冥累之方猶未盡矣。」末見古《維
-<lb n="0232a09" ed="T"/>摩經》，<note n="0232a0901" resp="CBETA" type="add" note_key="T42.0232a09.03">歡【CB】，觀【大】</note><app n="0232a0901"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">歡</lem><rdg wit="【大】">觀</rdg></app>喜頂戴，謂親友曰：「吾知所歸極矣。」羅
+<lb n="0232a09" ed="T"/>摩經》，<note 
+n="0232a0901" resp="CBETA" type="add" note_key="T42.0232a09.03">歡【CB】，觀【大】</note><app n="0232a0901">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">歡</lem>
+  <rdg wit="【大】">觀</rdg>
+</app>喜頂戴，謂親友曰：「吾知所歸極矣。」羅
 <lb n="0232a10" ed="T"/>什至京師，因從請業，著《不真空》等四論，著《注
 <lb n="0232a11" ed="T"/>淨名》及諸經論序。什歎曰：「秦人解空第一者，
 <lb n="0232a12" ed="T"/>僧肇其人也。」若肇公名肇，可謂玄宗之始。年
@@ -117,7 +122,8 @@
 <lb n="0232b11" ed="T"/>外護。《涅槃經》云「有二因緣佛法久住，謂解法
 <lb n="0232b12" ed="T"/>弟子及篤信檀越。」即其事也。法五者，一歎論
 <lb n="0232b13" ed="T"/>功能、二造論時節、三釋論名題、四敘論大宗、
-<lb n="0232b14" ed="T"/>五定品偈多小。</p><p xml:id="pT42p0232b1407" cb:place="inline">就初歎論功能，凡有四義：一
+<lb n="0232b14" ed="T"/>五定品偈多小。</p>
+<p xml:id="pT42p0232b1407" cb:place="inline">就初歎論功能，凡有四義：一
 <lb n="0232b15" ed="T"/>境智、二智諦、三人法、四法喻。言境智者、通聖
 <lb n="0232b16" ed="T"/>心謂正觀也，開真諦謂正境也。非正境無以
 <lb n="0232b17" ed="T"/>發正觀，非正觀無以鑒正境，故略題斯二則
@@ -137,7 +143,8 @@
 <lb n="0232c01" ed="T"/>菩薩聖心也。問：云何能通所通、能壅所壅？答：
 <lb n="0232c02" ed="T"/>以斷常為能壅、正觀為所壅，百論為能通、聖
 <lb n="0232c03" ed="T"/>心為所通也。以邪教為能䨱、正教為所覆，《百
-<lb n="0232c04" ed="T"/>論》為能開、正教為所開也。</p><p xml:id="pT42p0232c0411" cb:place="inline">第二智諦一雙者，
+<lb n="0232c04" ed="T"/>論》為能開、正教為所開也。</p>
+<p xml:id="pT42p0232c0411" cb:place="inline">第二智諦一雙者，
 <lb n="0232c05" ed="T"/>通聖心明二智、開真諦辨二諦，二諦是三世
 <lb n="0232c06" ed="T"/>佛祖父母、二智為三世佛父母，如《淨名》云「智
 <lb n="0232c07" ed="T"/>度菩薩母，方便以為父。一切眾導師，無不由
@@ -161,16 +168,19 @@
 <lb n="0232c25" ed="T"/>矣。問：一切經皆是一經，何故有多經多論耶？
 <lb n="0232c26" ed="T"/>答：蓋是諸佛為緣轉勢說法，故有多經；四依
 <lb n="0232c27" ed="T"/>轉勢說法，故有多論。猶如一食將適病人，迴
-<lb n="0232c28" ed="T"/>變食味也。</p><p xml:id="pT42p0232c2805" cb:place="inline">次明人法一雙者，通聖心明人、開
+<lb n="0232c28" ed="T"/>變食味也。</p>
+<p xml:id="pT42p0232c2805" cb:place="inline">次明人法一雙者，通聖心明人、開
 <lb n="0232c29" ed="T"/>真諦辨法。于時九十六道各稱世尊故是人
 <pb n="0233a" ed="T" xml:id="T42.1827.0233a"/>
 <lb n="0233a01" ed="T"/>亂，各謂己道為實則法亂。提婆今欲正於人
 <lb n="0233a02" ed="T"/>法故，唯佛為聖人，餘非聖人；佛法為真法，餘
 <lb n="0233a03" ed="T"/>非真法也。問：此依何文耶？答：論首三番問答
 <lb n="0233a04" ed="T"/>諍人，佛說何等善法相去竟論諍法，即其證
-<lb n="0233a05" ed="T"/>也。</p><p xml:id="pT42p0233a0502" cb:place="inline">四就法喻釋者，「通聖心之津途」者，喻也。《百
+<lb n="0233a05" ed="T"/>也。</p>
+<p xml:id="pT42p0233a0502" cb:place="inline">四就法喻釋者，「通聖心之津途」者，喻也。《百
 <lb n="0233a06" ed="T"/>論》為聖心之玄津、正觀之幽路。「開真諦要論」
-<lb n="0233a07" ed="T"/>者，法說也。</p><p xml:id="pT42p0233a0705" cb:place="inline">「佛泥曰後」，第二明造論時節。問：提
+<lb n="0233a07" ed="T"/>者，法說也。</p>
+<p xml:id="pT42p0233a0705" cb:place="inline">「佛泥曰後」，第二明造論時節。問：提
 <lb n="0233a08" ed="T"/>婆與龍樹相見不？答：經傳不同。叡師《成實論．
 <lb n="0233a09" ed="T"/>序》是什師去世後作之，述什師語云「佛滅後
 <lb n="0233a10" ed="T"/>三百五十年馬鳴出世，五百三十年龍樹出
@@ -204,7 +214,8 @@
 <lb n="0233b08" ed="T"/>破斥，而兼除小迷及大乘有所得見也。文稱
 <lb n="0233b09" ed="T"/>「泥曰」者，肇公云：「泥曰、泥洹、涅槃，並外國音不
 <lb n="0233b10" ed="T"/>同，而以涅槃為正。」又相傳云：涅槃通餘無餘，
-<lb n="0233b11" ed="T"/>泥曰正是無餘之稱也。</p><p xml:id="pT42p0233b1110" cb:place="inline">「有出家大士」，第三嘆
+<lb n="0233b11" ed="T"/>泥曰正是無餘之稱也。</p>
+<p xml:id="pT42p0233b1110" cb:place="inline">「有出家大士」，第三嘆
 <lb n="0233b12" ed="T"/>造論人。文有四：初出家簡在家、二大士異小
 <lb n="0233b13" ed="T"/>乘、三標名、四讚德。出家者，四依出世實大小
 <lb n="0233b14" ed="T"/>兼弘、道俗俱化，必須出家。出家有四：一出形
@@ -224,7 +235,8 @@
 <lb n="0233b28" ed="T"/>施天神，故以為名。復傳云「提婆曾乞食，有女
 <lb n="0233b29" ed="T"/>人應發道心，於提婆眼生愛。提婆出眼示之，
 <pb n="0233c" ed="T" xml:id="T42.1827.0233c"/>
-<lb n="0233c01" ed="T"/>但是不淨，因以發心，故小一目也。」</p><p xml:id="pT42p0233c0114" cb:place="inline">「玄心獨悟」，
+<lb n="0233c01" ed="T"/>但是不淨，因以發心，故小一目也。」</p>
+<p xml:id="pT42p0233c0114" cb:place="inline">「玄心獨悟」，
 <lb n="0233c02" ed="T"/>下第四讚德。有三歎：一歎天然德、二歎稟教
 <lb n="0233c03" ed="T"/>德、三歎護法德。此三次第，由有天然德故解
 <lb n="0233c04" ed="T"/>教，由解教故護法也。玄心者，玄妙之心，即正
@@ -288,7 +300,8 @@
 <lb n="0234b02" ed="T"/>悉靜息也。「是以正化以之隆」，隆，興也。「邪道以
 <lb n="0234b03" ed="T"/>之而替」，替，廢也。「非夫領括眾妙」者，結歎論主
 <lb n="0234b04" ed="T"/>也。《老子》云「玄之又玄，眾妙之門。」今借此語歎
-<lb n="0234b05" ed="T"/>論主體悟重玄妙道，故能顯正摧邪也。</p><p xml:id="pT42p0234b0516" cb:place="inline">「論有
+<lb n="0234b05" ed="T"/>論主體悟重玄妙道，故能顯正摧邪也。</p>
+<p xml:id="pT42p0234b0516" cb:place="inline">「論有
 <lb n="0234b06" ed="T"/>百偈」，第五釋論名也。為三：初釋名、次歎理、三
 <lb n="0234b07" ed="T"/>歎文。偈有二：一通偈，即首盧偈，有三十二字。
 <lb n="0234b08" ed="T"/>釋道安云：「胡人數經法也。莫問長行偈，但令
@@ -303,7 +316,8 @@
 <lb n="0234b17" ed="T"/>或一字論義，二字三字乃至十字，或默然論
 <lb n="0234b18" ed="T"/>義，或動眼論義、或閉眼論義、或舉手論義，或
 <lb n="0234b19" ed="T"/>鳥眼疾轉、或師子反擲，巧難萬端、妙通千勢，
-<lb n="0234b20" ed="T"/>非可逆陳，至文當現。故言「窮制作之美」也。</p><p xml:id="pT42p0234b2017" cb:place="inline">「然
+<lb n="0234b20" ed="T"/>非可逆陳，至文當現。故言「窮制作之美」也。</p>
+<p xml:id="pT42p0234b2017" cb:place="inline">「然
 <lb n="0234b21" ed="T"/>至趣幽簡」下，第六述注論人也。前發起稱歎、
 <lb n="0234b22" ed="T"/>次正明注人。至趣者，謂理也。幽，深也。簡，略也。
 <lb n="0234b23" ed="T"/>其理窮深、其文極略，故尠得其門戶。尠即小
@@ -324,7 +338,8 @@
 <lb n="0234c08" ed="T"/>其舌。」兄曰：「不須。汝可更造大乘論，令大道宣
 <lb n="0234c09" ed="T"/>流。」於是造大乘五百部論，時人呼為千部論
 <lb n="0234c10" ed="T"/>主。開士之稱，從後時得名也。「彰於徽翰」者，古
-<lb n="0234c11" ed="T"/>人以鷄毛為笔，故稱翰也。</p><p xml:id="pT42p0234c1111" cb:place="inline">「其為論也言而無
+<lb n="0234c11" ed="T"/>人以鷄毛為笔，故稱翰也。</p>
+<p xml:id="pT42p0234c1111" cb:place="inline">「其為論也言而無
 <lb n="0234c12" ed="T"/>當破而不執」下，第七敘論大宗。問：何故至此
 <lb n="0234c13" ed="T"/>方敘大宗？答：天親未注，論宗未顯；訓釋既竟，
 <lb n="0234c14" ed="T"/>論宗始彰，故就此而釋也。就文為二：初明論
@@ -401,7 +416,8 @@
 <lb n="0235b25" ed="T"/>以。「蕭然無寄」，猶是不住之名，以無不住與理
 <lb n="0235b26" ed="T"/>玄會。前辨事符於真，今明與理冥會也。下句
 <lb n="0235b27" ed="T"/>明事理既會，能還原反本。「著」者，顯也。明無當
-<lb n="0235b28" ed="T"/>無執，能令六道還原、三乘反本也。</p><p xml:id="pT42p0235b2814" cb:place="inline">「有天竺沙
+<lb n="0235b28" ed="T"/>無執，能令六道還原、三乘反本也。</p>
+<p xml:id="pT42p0235b2814" cb:place="inline">「有天竺沙
 <lb n="0235b29" ed="T"/>門」，第八敘翻論人。自上但化流天竺，今明傳
 <pb n="0235c" ed="T" xml:id="T42.1827.0235c"/>
 <lb n="0235c01" ed="T"/>來震旦是什師之功也。羅什父本是天竺人，
@@ -427,7 +443,11 @@
 <lb n="0235c21" ed="T"/>亡，首尾五年。而肇公《涅槃論》云「在什公門下
 <lb n="0235c22" ed="T"/>十有餘年」，亦云十有二年者，正言十二年是
 <lb n="0235c23" ed="T"/>一紀之員數，故用之耳。《莊子．外篇》云「庖丁十
-<lb n="0235c24" ed="T"/>二年不見全牛」，亦用十二<note n="0235c2401" resp="CBETA" type="add">秊【CB】，季【大】</note><app n="0235c2401"><lem resp="CBETA.maha" wit="【CB】">秊</lem><rdg wit="【大】">季</rdg></app>事。不見全牛者，
+<lb n="0235c24" ed="T"/>二年不見全牛」，亦用十二<note 
+n="0235c2401" resp="CBETA" type="add">秊【CB】，季【大】</note><app n="0235c2401">
+  <lem resp="CBETA.maha" wit="【CB】">秊</lem>
+  <rdg wit="【大】">季</rdg>
+</app>事。不見全牛者，
 <lb n="0235c25" ed="T"/>不見四支百體外別有總牛。此勝天竺四外
 <lb n="0235c26" ed="T"/>道並計有總牛，但總與別一異，故成四家耳。
 <lb n="0235c27" ed="T"/>「常味詠斯論以為心要」者，什本小乘學，而丘
@@ -445,7 +465,8 @@
 <lb n="0236a09" ed="T"/>不見、多盲亦爾。」又問：「若有極微色則有十方
 <lb n="0236a10" ed="T"/>分，有十方分不名極微；若無十方分則不名
 <lb n="0236a11" ed="T"/>色。」於是什無以對之。王子因授《中》、《百》二論與
-<lb n="0236a12" ed="T"/>什，大重之。故云常味詠斯論為心要也。</p><p xml:id="pT42p0236a1216" cb:place="inline">「先雖
+<lb n="0236a12" ed="T"/>什，大重之。故云常味詠斯論為心要也。</p>
+<p xml:id="pT42p0236a1216" cb:place="inline">「先雖
 <lb n="0236a13" ed="T"/>親譯而方言未融」者，此第九敘翻論旦越。翻
 <lb n="0236a14" ed="T"/>論檀越有二人、二處、二時。初是天子姚興為
 <lb n="0236a15" ed="T"/>旦越，次是姚嵩。初在逍遙薗西明閣上，次是
@@ -481,7 +502,9 @@
 <lb n="0236b15" ed="T"/>者，三義：一注人釋有廣略、二翻論人復重增
 <lb n="0236b16" ed="T"/>減、三方言不同，故多少者不定也。有人不解
 <lb n="0236b17" ed="T"/>斯意，遂不用肇公「品各五偈」之言，蓋是未見
-<lb n="0236b18" ed="T"/>論意耳。</p><p xml:id="pT42p0236b1804" cb:place="inline">破塵品要觀。</p><p xml:id="pT42p0236b1809" cb:place="inline">吉藏息慈之歲已重此
+<lb n="0236b18" ed="T"/>論意耳。</p>
+<p xml:id="pT42p0236b1804" cb:place="inline">破塵品要觀。</p>
+<p xml:id="pT42p0236b1809" cb:place="inline">吉藏息慈之歲已重此
 <lb n="0236b19" ed="T"/>文，西垂之年翫味彌篤。然十章雖並精巧，但
 <lb n="0236b20" ed="T"/>破塵一品除患偏要。又長安盛弘唯識，亦宜
 <lb n="0236b21" ed="T"/>辨其同異，故因講次疏而出之，先論於塵、然
@@ -547,7 +570,8 @@
 <lb n="0237a21" ed="T"/>諦。故舒之彌淪法界，卷之泯無蹤迹。此並是
 <lb n="0237a22" ed="T"/>空中種樹、虛裏織羅，雖舒而不開、雖合而不
 <lb n="0237a23" ed="T"/>卷。肇公云：「近而不可知者，其唯物性乎。言動
-<lb n="0237a24" ed="T"/>而靜、似去而留，可以神會，不可以事求。」</p><p xml:id="pT42p0237a2416" cb:place="inline">次論
+<lb n="0237a24" ed="T"/>而靜、似去而留，可以神會，不可以事求。」</p>
+<p xml:id="pT42p0237a2416" cb:place="inline">次論
 <lb n="0237a25" ed="T"/>同異。問：無塵無識淺深云何？答：《攝論》云「無塵
 <lb n="0237a26" ed="T"/>淺位，無識位深。」今明若別約借識破塵，一往
 <lb n="0237a27" ed="T"/>階位可得然矣。依《百論》及眾經論大意，無塵
@@ -589,7 +613,13 @@
 <lb n="0237c03" ed="T"/>是識也。問：塵識既無淺深，菩薩從何位作無
 <lb n="0237c04" ed="T"/>塵觀？何位習無識觀？答：從初發心至於佛地
 <lb n="0237c05" ed="T"/>皆作無塵識觀。所以然者，橫論萬法、竪辨四
-<lb n="0237c06" ed="T"/>句，皆是想心所見；<note n="0237001" resp="Taisho" type="orig" place="foot text">起＝越？</note><note n="0237001" resp="CBETA" type="mod" note_key="T42.0237c06.08">超【CB】，起【大】，越【考偽-大】</note><app n="0237001"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">超<note type="cf1">T42n1824_p0160a07</note></lem><rdg wit="【大】">起</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">越</rdg></app>四句絕百非，是名諸法
+<lb n="0237c06" ed="T"/>句，皆是想心所見；<note 
+n="0237001" resp="Taisho" type="orig" place="foot text">起＝越？</note><note 
+n="0237001" resp="CBETA" type="mod" note_key="T42.0237c06.08">超【CB】，起【大】，越【考偽-大】</note><app n="0237001">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">超<note type="cf1">T42n1824_p0160a07</note></lem>
+  <rdg wit="【大】">起</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">越</rdg>
+</app>四句絕百非，是名諸法
 <lb n="0237c07" ed="T"/>實相。菩薩從初發心即學實相觀，是故《大品》
 <lb n="0237c08" ed="T"/>云「菩薩從初發心即學無所得」。無所得，不得
 <lb n="0237c09" ed="T"/>於塵識，故名無所得。從初發心信一切法皆
@@ -651,7 +681,8 @@
 <lb n="0238b05" ed="T"/>五十耶？答：肇公既云「後五十偈於此土無益」，
 <lb n="0238b06" ed="T"/>故知今之所翻是前五十矣。問：前之五十明
 <lb n="0238b07" ed="T"/>義為不盡。答：始〈捨罪福〉、終辨〈破空〉，邪無不破、
-<lb n="0238b08" ed="T"/>正無不顯，則義無不備也。</p><p xml:id="pT42p0238b0811" cb:place="inline">釋偈義第二。總談
+<lb n="0238b08" ed="T"/>正無不顯，則義無不備也。</p>
+<p xml:id="pT42p0238b0811" cb:place="inline">釋偈義第二。總談
 <lb n="0238b09" ed="T"/>設教，凡有三門：一但有長行、無有偈頌，如《大
 <lb n="0238b10" ed="T"/>品》之類；二但有偈頌、無有長行，如《法句》之流；
 <lb n="0238b11" ed="T"/>三具存二說，如《法華經》等。在經既爾，論亦例
@@ -677,7 +708,8 @@
 <lb n="0238c01" ed="T"/>初偈也。所言偈者，外國稱為祇夜亦云竭夜，
 <lb n="0238c02" ed="T"/>今略其煩故但云偈。此土翻之，句也頌也。有
 <lb n="0238c03" ed="T"/>人言：偈是此門之名，訓之為竭，以其明義竭
-<lb n="0238c04" ed="T"/>盡故稱為偈。</p><p xml:id="pT42p0238c0406" cb:place="inline">辨多小第三。什師云：「論凡二十
+<lb n="0238c04" ed="T"/>盡故稱為偈。</p>
+<p xml:id="pT42p0238c0406" cb:place="inline">辨多小第三。什師云：「論凡二十
 <lb n="0238c05" ed="T"/>品，品各五偈，故合有百偈。」問：觀此論文長短
 <lb n="0238c06" ed="T"/>不定，初〈捨罪福〉將及半卷，〈一〉、〈異〉等章唯有數
 <lb n="0238c07" ed="T"/>紙。若品各五偈，則並應百六十字，云何少多
@@ -689,7 +721,8 @@
 <lb n="0238c13" ed="T"/>長；若始末易明，直釋而已，在文則短。三者羅
 <lb n="0238c14" ed="T"/>什翻論詳察機宜，有益者則廣翻、無利者則
 <lb n="0238c15" ed="T"/>略譯，是以品文有其長短。諸講匠不體斯意，
-<lb n="0238c16" ed="T"/>故謬釋紛綸。</p><p xml:id="pT42p0238c1606" cb:place="inline">相生第四。言十品者，一捨罪福、
+<lb n="0238c16" ed="T"/>故謬釋紛綸。</p>
+<p xml:id="pT42p0238c1606" cb:place="inline">相生第四。言十品者，一捨罪福、
 <lb n="0238c17" ed="T"/>二破神、三破一、四破異、五破情、六破塵、七
 <lb n="0238c18" ed="T"/>破因中有果、八破因中無果、九破常、十破
 <lb n="0238c19" ed="T"/>空。問：斯論十品，何因緣故初〈捨罪福〉？答：九十
@@ -704,8 +737,17 @@
 <lb n="0238c28" ed="T"/>二品。自上已來並破無常，五種常法獨未除
 <lb n="0238c29" ed="T"/>之，故須破常。常與無常皆是有法，有法被破
 <pb n="0239a" ed="T" xml:id="T42.1827.0239a"/>
-<lb n="0239a01" ed="T"/>則墮於空，故次破空也。</p><p xml:id="pT42p0239a0110" cb:place="inline">釋品名第五。罪以摧
-<lb n="0239a02" ed="T"/><note n="0239a0201" resp="CBETA" type="add" note_key="T42.0239a02.01">折【CB】，拆【大】</note><app n="0239a0201"><lem wit="【CB】" resp="CBETA.ting">折<note type="cf1">T42n1827_p0257c22</note></lem><rdg wit="【大】">拆</rdg></app>為義，造不善業感彼三塗，得於苦報摧<note n="0239a0202" resp="CBETA" type="add" note_key="T42.0239a02.17">折【CB】，拆【大】</note><app n="0239a0202"><lem wit="【CB】" resp="CBETA.ting">折</lem><rdg wit="【大】">拆</rdg></app>
+<lb n="0239a01" ed="T"/>則墮於空，故次破空也。</p>
+<p xml:id="pT42p0239a0110" cb:place="inline">釋品名第五。罪以摧
+<lb n="0239a02" ed="T"/><note 
+n="0239a0201" resp="CBETA" type="add" note_key="T42.0239a02.01">折【CB】，拆【大】</note><app n="0239a0201">
+  <lem wit="【CB】" resp="CBETA.ting">折<note type="cf1">T42n1827_p0257c22</note></lem>
+  <rdg wit="【大】">拆</rdg>
+</app>為義，造不善業感彼三塗，得於苦報摧<note 
+n="0239a0202" resp="CBETA" type="add" note_key="T42.0239a02.17">折【CB】，拆【大】</note><app n="0239a0202">
+  <lem wit="【CB】" resp="CBETA.ting">折</lem>
+  <rdg wit="【大】">拆</rdg>
+</app>
 <lb n="0239a03" ed="T"/>行人，目之為罪。福是富饒為義，起於善業招
 <lb n="0239a04" ed="T"/>人天樂果，故稱為福。捨者，入實相觀心無所
 <lb n="0239a05" ed="T"/>依，故稱為捨。問：罪招苦報，可得云捨。福感樂
@@ -764,7 +806,11 @@
 <lb n="0239b28" ed="T"/>教，提婆一期出世，如佛不異也。又言捨者，蓋
 <lb n="0239b29" ed="T"/>是中道之異名、佛性之別目，如《涅槃》云「明與
 <pb n="0239c" ed="T" xml:id="T42.1827.0239c"/>
-<lb n="0239c01" ed="T"/>無明愚者謂二，智者了<note n="0239c0101" resp="CBETA" type="add" note_key="T42.0239c01.10">達【CB】，建【大】</note><app n="0239c0101"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-05-22)">達<note type="cf1">T12n0374_p0410c20-22</note><note type="cf2">T42n1824_p0139b23</note></lem><rdg wit="【大】">建</rdg></app>知其無二。」無二之
+<lb n="0239c01" ed="T"/>無明愚者謂二，智者了<note 
+n="0239c0101" resp="CBETA" type="add" note_key="T42.0239c01.10">達【CB】，建【大】</note><app n="0239c0101">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-05-22)">達<note type="cf1">T12n0374_p0410c20-22</note><note type="cf2">T42n1824_p0139b23</note></lem>
+  <rdg wit="【大】">建</rdg>
+</app>知其無二。」無二之
 <lb n="0239c02" ed="T"/>性即是實性，實性者諸中道佛性也。又云「十
 <lb n="0239c03" ed="T"/>善十惡亦復如是」，故知明於兩捨，即辨中道
 <lb n="0239c04" ed="T"/>佛性。《淨名．不二法門品》明罪福無二為入不
@@ -822,7 +868,8 @@
 <lb n="0240b02" ed="T"/>之善而成佛也。問：實有三性，何故但捨罪福？
 <lb n="0240b03" ed="T"/>答：罪福是業，能感生死，宜應捨之；無記不爾，
 <lb n="0240b04" ed="T"/>故不須捨。又如大眾部等明唯有善惡、無有
-<lb n="0240b05" ed="T"/>無記，故但明捨罪福也。</p><p xml:id="pT42p0240b0510" cb:place="inline">簡捨破第六。論雖十
+<lb n="0240b05" ed="T"/>無記，故但明捨罪福也。</p>
+<p xml:id="pT42p0240b0510" cb:place="inline">簡捨破第六。論雖十
 <lb n="0240b06" ed="T"/>品，立名有二：初品云捨、九品名破。通而言之，
 <lb n="0240b07" ed="T"/>即破為捨、即捨名破，故後文云「如是捨我，名
 <lb n="0240b08" ed="T"/>得解脫。」故知破猶捨矣。而立捨破二名者，罪
@@ -838,7 +885,8 @@
 <lb n="0240b18" ed="T"/>義有傍正，故開破顯二章。又初門申正破邪，
 <lb n="0240b19" ed="T"/>謂對緣假；後就邪，即就緣假。又初門中假正
 <lb n="0240b20" ed="T"/>破邪，名為對緣；後門借邪破邪，亦是對緣。故
-<lb n="0240b21" ed="T"/>《百論》多用對緣，《中論》多用就緣也。</p><p xml:id="pT42p0240b2114" cb:place="inline">此論二卷，
+<lb n="0240b21" ed="T"/>《百論》多用對緣，《中論》多用就緣也。</p>
+<p xml:id="pT42p0240b2114" cb:place="inline">此論二卷，
 <lb n="0240b22" ed="T"/>文有十品。古舊但明百偈蟬聯、十章鉤鎖，偈
 <lb n="0240b23" ed="T"/>偈顯道、章章破邪，故不別科文。斯實妙得論
 <lb n="0240b24" ed="T"/>意、深見聖心也。但天親釋〈破空品〉大明此論
@@ -851,7 +899,11 @@
 <lb n="0240c01" ed="T"/>部之始末，故今更裁之分為三段。初頂禮佛
 <lb n="0240c02" ed="T"/>足、終竟「是皆邪見」，將欲顯正破邪，故敬讚三
 <lb n="0240c03" ed="T"/>寶請威靈加護，發起論端，為緣起分。二從「外
-<lb n="0240c04" ed="T"/><note n="0240c0401" resp="CBETA" type="add" note_key="T42.0240c04.01">曰【CB】，白【大】</note><app n="0240c0401"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">曰<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第41圖右欄第1行）</note><note type="cf2">K16n0581_p0548c19</note></lem><rdg wit="【大】">白</rdg></app>佛說何等善法」、竟〈破空品〉來，與外道交言
+<lb n="0240c04" ed="T"/><note 
+n="0240c0401" resp="CBETA" type="add" note_key="T42.0240c04.01">曰【CB】，白【大】</note><app n="0240c0401">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">曰<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第41圖右欄第1行）</note><note type="cf2">K16n0581_p0548c19</note></lem>
+  <rdg wit="【大】">白</rdg>
+</app>佛說何等善法」、竟〈破空品〉來，與外道交言
 <lb n="0240c05" ed="T"/>論義，顯正破邪，明於論體。三從「外曰若如是
 <lb n="0240c06" ed="T"/>破有何等利」，明論義既竟，外道理屈辭窮，迴
 <lb n="0240c07" ed="T"/>邪入正，請求利益，為論餘勢。三文各二。初文
@@ -859,7 +911,8 @@
 <lb n="0240c09" ed="T"/>與外道交言諍三寶真偽。次文二者，初〈捨罪
 <lb n="0240c10" ed="T"/>福〉序如來漸捨教門，辨於顯正；〈破神品〉已去
 <lb n="0240c11" ed="T"/>洗外道人法，明乎破邪。後文二者，初明利益、
-<lb n="0240c12" ed="T"/>次辨益相。</p><p xml:id="pT42p0240c1205" cb:place="inline">釋歸敬開五門：一明歸敬意、二
+<lb n="0240c12" ed="T"/>次辨益相。</p>
+<p xml:id="pT42p0240c1205" cb:place="inline">釋歸敬開五門：一明歸敬意、二
 <lb n="0240c13" ed="T"/>明歸敬不同、三辨歸敬時節、四明論所歸
 <lb n="0240c14" ed="T"/>敬、五明歸敬次第。一明歸敬意。問：論初何故
 <lb n="0240c15" ed="T"/>歸敬三寶？答：凡有十義。一者欲簡經論不同，
@@ -872,7 +925,8 @@
 <lb n="0240c22" ed="T"/>起論端，破邪顯正。八者欲代外阿漚在初，故
 <lb n="0240c23" ed="T"/>以三寶居首。九者為欲益物，如《雜心》云「開示
 <lb n="0240c24" ed="T"/>眾生佛法僧念，故敬三寶。」十為報恩，由三寶
-<lb n="0240c25" ed="T"/>得解，今造論申明，即報恩也。</p><p xml:id="pT42p0240c2512" cb:place="inline">二明眾論歸敬。
+<lb n="0240c25" ed="T"/>得解，今造論申明，即報恩也。</p>
+<p xml:id="pT42p0240c2512" cb:place="inline">二明眾論歸敬。
 <lb n="0240c26" ed="T"/>廣略有五：一者廣說，凡明五事。一者敬佛；二
 <lb n="0240c27" ed="T"/>者敬法；三者敬僧；四者敬說經之主，如《智度
 <lb n="0240c28" ed="T"/>論》初讚三寶、次別敬經主之人；五造論意。二
@@ -883,13 +937,15 @@
 <lb n="0241a03" ed="T"/>者唯敬於佛，如《地持論》也。此論但敬三寶者，
 <lb n="0241a04" ed="T"/>為欲翻邪令識歸依之地，亦遍請加護。既非
 <lb n="0241a05" ed="T"/>釋經，故不別敬經主。既是當時往復，亦無造
-<lb n="0241a06" ed="T"/>論之意。</p><p xml:id="pT42p0241a0604" cb:place="inline">三明歸敬時節。問：提婆何時有此歸
+<lb n="0241a06" ed="T"/>論之意。</p>
+<p xml:id="pT42p0241a0604" cb:place="inline">三明歸敬時節。問：提婆何時有此歸
 <lb n="0241a07" ed="T"/>敬耶？答：提婆初在王廷擊於論鼓，八方論士
 <lb n="0241a08" ed="T"/>一時雲集，故先登高座立於三寶，謂一切諸
 <lb n="0241a09" ed="T"/>聖中佛聖最第一、一切諸法中佛法最第一、
 <lb n="0241a10" ed="T"/>一切諸眾中佛僧最第一。若能屈我此言，斬
 <lb n="0241a11" ed="T"/>首相謝。破邪已後，還於閑林撰以為論，方有
-<lb n="0241a12" ed="T"/>此歸敬也。</p><p xml:id="pT42p0241a1205" cb:place="inline">四明所歸敬。問：此論為敬一體三
+<lb n="0241a12" ed="T"/>此歸敬也。</p>
+<p xml:id="pT42p0241a1205" cb:place="inline">四明所歸敬。問：此論為敬一體三
 <lb n="0241a13" ed="T"/>寶、為敬別體耶？答：為此一問故提婆出興。所
 <lb n="0241a14" ed="T"/>以然者，僧佉計一、衛世師執異，既稱外道，
 <lb n="0241a15" ed="T"/>今存一異寧是內人？故不應問也。問：外道計
@@ -943,13 +999,15 @@
 <lb n="0241c03" ed="T"/>自當委說。問：異體三有幾種？答：略明有二。一
 <lb n="0241c04" ed="T"/>翻邪三、明於正三；二治病三，一切眾生皆是
 <lb n="0241c05" ed="T"/>病人，佛為良醫、法為妙藥、僧看病人，故眾生
-<lb n="0241c06" ed="T"/>病愈。</p><p xml:id="pT42p0241c0603" cb:place="inline">五釋三寶次第者，就歸三寶即為三別。
+<lb n="0241c06" ed="T"/>病愈。</p>
+<p xml:id="pT42p0241c0603" cb:place="inline">五釋三寶次第者，就歸三寶即為三別。
 <lb n="0241c07" ed="T"/>但三寶次第有三：一修行次第，前法、次僧、後
 <lb n="0241c08" ed="T"/>佛，以前有所行之法、次修行未滿為僧、行滿
 <lb n="0241c09" ed="T"/>具足名佛。二應迹次第，前僧、次佛、後法，初厭
 <lb n="0241c10" ed="T"/>世出家名僧、行行已滿成佛、得佛竟方轉法
 <lb n="0241c11" ed="T"/>輪故有法。三化儀次第，前明成佛、次明說法、
-<lb n="0241c12" ed="T"/>後方有僧。今依化儀次第，故敬讚三寶。</p><p xml:id="pT42p0241c1216" cb:place="inline">就敬
+<lb n="0241c12" ed="T"/>後方有僧。今依化儀次第，故敬讚三寶。</p>
+<p xml:id="pT42p0241c1216" cb:place="inline">就敬
 <lb n="0241c13" ed="T"/>佛之中為二：一總標能禮之儀容、所禮之尊
 <lb n="0241c14" ed="T"/>貴；二別歎佛德，釋成敬讚。「頂禮」者，此標能禮
 <lb n="0241c15" ed="T"/>之儀容也。禮有三種：一者下禮，所謂揖也；二
@@ -979,7 +1037,11 @@
 <lb n="0242a09" ed="T"/>哀與世尊則十號外無量號也。故《智度論》列
 <lb n="0242a10" ed="T"/>於十號始，自如來終竟於佛，故知舉佛則攝
 <lb n="0242a11" ed="T"/>十號，哀與世尊則十號外無量號也。問：何故
-<lb n="0242a12" ed="T"/>舉佛攝十號耶？答：一欲舉終攝始；二佛號<note n="0242a1201" resp="CBETA" type="add" note_key="T42.0242a12.17">為【CB】，無【大】</note><app n="0242a1201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-03)">為</lem><rdg wit="【大】">無</rdg></app>
+<lb n="0242a12" ed="T"/>舉佛攝十號耶？答：一欲舉終攝始；二佛號<note 
+n="0242a1201" resp="CBETA" type="add" note_key="T42.0242a12.17">為【CB】，無【大】</note><app n="0242a1201">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-03)">為</lem>
+  <rdg wit="【大】">無</rdg>
+</app>
 <lb n="0242a13" ed="T"/>三寶之初，餘號不爾；三佛為智慧、哀為功德，
 <lb n="0242a14" ed="T"/>欲下對大哀，稱歎福慧俱備。問：何故偏以哀
 <lb n="0242a15" ed="T"/>為福、對上慧耶？答：佛是波若、哀為大悲。波若
@@ -987,7 +1049,8 @@
 <lb n="0242a17" ed="T"/>六道之父、三聖之尊，是以偏舉也。又今欲破
 <lb n="0242a18" ed="T"/>邪顯正，請如來大悲哀愍威靈加護。三者八
 <lb n="0242a19" ed="T"/>百年時諸外道等沒邪見海甚可哀傷，亦願
-<lb n="0242a20" ed="T"/>加護使迴邪入正也。</p><p xml:id="pT42p0242a2009" cb:place="inline">「於無量劫」下，第二稱歎
+<lb n="0242a20" ed="T"/>加護使迴邪入正也。</p>
+<p xml:id="pT42p0242a2009" cb:place="inline">「於無量劫」下，第二稱歎
 <lb n="0242a21" ed="T"/>佛德，釋上三號。今就此文八義釋之：第一直
 <lb n="0242a22" ed="T"/>歎佛德。初句歎大悲外被、次句美結習內除，
 <lb n="0242a23" ed="T"/>以具內外二德，故天龍咸敬。二者初句歎功
@@ -1013,7 +1076,8 @@
 <lb n="0242b13" ed="T"/>可崇重，故明天龍咸敬。八者初拔物苦，明能
 <lb n="0242b14" ed="T"/>拔他果患。結習內除，自無因累。自無因累即
 <lb n="0242b15" ed="T"/>知無果累，拔他苦果即斷物苦因。自他因果
-<lb n="0242b16" ed="T"/>患累都亡，甚可尊重，故天龍咸敬。</p><p xml:id="pT42p0242b1614" cb:place="inline">「亦禮無上」
+<lb n="0242b16" ed="T"/>患累都亡，甚可尊重，故天龍咸敬。</p>
+<p xml:id="pT42p0242b1614" cb:place="inline">「亦禮無上」
 <lb n="0242b17" ed="T"/>下，第二敬法寶。亦開為二：初標能禮之儀容、
 <lb n="0242b18" ed="T"/>所禮之尊法；次兩句歎釋法寶。亦禮者，禮佛
 <lb n="0242b19" ed="T"/>於前，今次敬法，故云亦禮也。然敬三寶凡有
@@ -1073,14 +1137,20 @@
 <lb n="0243a13" ed="T"/>四向名為八輩，初但是向非果、後但是果而
 <lb n="0243a14" ed="T"/>非向，中間三人亦向亦果。故《雜心》云「以有
 <lb n="0243a15" ed="T"/>五事故，說有八人名。前後事各一，中間則有
-<lb n="0243a16" ed="T"/>三。」然數論及《十八部異》釋云：<note n="0243001" resp="Taisho" type="orig" place="foot text">亦＝云ィ【原】</note><note n="0243001" resp="CBETA" type="mod">亦【大】，云【校異-原】</note><app n="0243001"><lem wit="【大】">亦</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">云</rdg></app>並非正意。今
+<lb n="0243a16" ed="T"/>三。」然數論及《十八部異》釋云：<note 
+n="0243001" resp="Taisho" type="orig" place="foot text">亦＝云ィ【原】</note><note 
+n="0243001" resp="CBETA" type="mod">亦【大】，云【校異-原】</note><app n="0243001">
+  <lem wit="【大】">亦</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">云</rdg>
+</app>並非正意。今
 <lb n="0243a17" ed="T"/>但約虛妄重輕、就觀解明昧，故無階級中作
 <lb n="0243a18" ed="T"/>階級說，不如數論所定執。問：今大乘之論，
 <lb n="0243a19" ed="T"/>云何及敬聲聞僧耶？答：八輩通於小大，不偏
 <lb n="0243a20" ed="T"/>局聲聞。故龍樹釋三乘共十地，明聲聞菩薩
 <lb n="0243a21" ed="T"/>相配釋之，故知八輩亦通大小。問：聲聞八輩
 <lb n="0243a22" ed="T"/>其文易明，菩薩八輩請陳其相？答：將《智度論》
-<lb n="0243a23" ed="T"/>釋三乘共地配之，亦可知矣。</p><p xml:id="pT42p0243a2312" cb:place="inline">「外曰」下，第二諍
+<lb n="0243a23" ed="T"/>釋三乘共地配之，亦可知矣。</p>
+<p xml:id="pT42p0243a2312" cb:place="inline">「外曰」下，第二諍
 <lb n="0243a24" ed="T"/>三寶之真偽。三番問答次第相生，即為六
 <lb n="0243a25" ed="T"/>意：第一外曰領偈定尊、第二內曰驚問反質、
 <lb n="0243a26" ed="T"/>第三外曰出疑呵內、第四內曰對邪顯正、第
@@ -1155,7 +1225,8 @@
 <lb n="0244a04" ed="T"/>身：一自在身、二那羅延身、三梵天身。自在
 <lb n="0244a05" ed="T"/>天身總有八分，虛空為頭、日月為眼、地是身、
 <lb n="0244a06" ed="T"/>河海為尿、山丘為糞、風為命、一切火為熱氣、
-<lb n="0244a07" ed="T"/>一切眾生是身內虫。」</p><p xml:id="pT42p0244a0709" cb:place="inline">「迦毘羅」者，第二次列三
+<lb n="0244a07" ed="T"/>一切眾生是身內虫。」</p>
+<p xml:id="pT42p0244a0709" cb:place="inline">「迦毘羅」者，第二次列三
 <lb n="0244a08" ed="T"/>仙以為世尊。迦毘羅，此云黃頭仙亦云金頭，
 <lb n="0244a09" ed="T"/>頭有金色故以名之。《金七十論》云「迦毘羅，此
 <lb n="0244a10" ed="T"/>云赤色仙。劫初時從空而出，自然有四德：一
@@ -1191,7 +1262,11 @@
 <lb n="0244b10" ed="T"/>子。從是已來有迦毘羅，故名世尊。「優樓迦」，此
 <lb n="0244b11" ed="T"/>云鵂鶹仙，亦云鵂角仙、亦云臭胡仙。此人釋
 <lb n="0244b12" ed="T"/>迦未興八百年前已出世，而白日造論、夜半
-<lb n="0244b13" ed="T"/>遊行。欲供養之，當於夜半營<note n="0244b1301" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0244b1301"><lem resp="CBETA.maha" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>飲食，仍與眷
+<lb n="0244b13" ed="T"/>遊行。欲供養之，當於夜半營<note 
+n="0244b1301" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0244b1301">
+  <lem resp="CBETA.maha" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>飲食，仍與眷
 <lb n="0244b14" ed="T"/>屬來受供養。所說之經名衛世師，有十萬偈，
 <lb n="0244b15" ed="T"/>明於六諦，因中無果、神覺異義，以斯為宗。「勒
 <lb n="0244b16" ed="T"/>沙婆」者，此云苦行仙。其人計身有苦樂二分，
@@ -1202,7 +1277,11 @@
 <lb n="0244b21" ed="T"/>愚癡障、四命障、五姓障、六名障。四濁者，一嗔、
 <lb n="0244b22" ed="T"/>二慢、三貪、四諂也。而明因中亦有果亦無果、
 <lb n="0244b23" ed="T"/>亦一亦異以為經宗，故名世尊。「等仙人」者，外
-<lb n="0244b24" ed="T"/>道九十六種，略舉前之<note n="0244b2401" resp="CBETA" type="add" note_key="T42.0244b24.10">三【CB】，五【大】</note><app n="0244b2401"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-05-23)">三<note type="cf1">T42n1827_p0244a07-08</note></lem><rdg wit="【大】">五</rdg></app>師，等取諸異計也。
+<lb n="0244b24" ed="T"/>道九十六種，略舉前之<note 
+n="0244b2401" resp="CBETA" type="add" note_key="T42.0244b24.10">三【CB】，五【大】</note><app n="0244b2401">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-05-23)">三<note type="cf1">T42n1827_p0244a07-08</note></lem>
+  <rdg wit="【大】">五</rdg>
+</app>師，等取諸異計也。
 <lb n="0244b25" ed="T"/>此之三師並是釋迦未興盛行天竺，釋迦出
 <lb n="0244b26" ed="T"/>時但值十八一切智人。釋此不同，興皇法師
 <lb n="0244b27" ed="T"/>云：初六人從聞慧生，即阿蘭迦蘭等；「中六人
@@ -1226,7 +1305,8 @@
 <lb n="0244c15" ed="T"/>他問有耶答云有、他問無耶答云無。第六尼
 <lb n="0244c16" ed="T"/>揵陀若提子，若提子從母作名，尼健陀是出
 <lb n="0244c17" ed="T"/>家總號，其人計業決定得報，今雖修道不能
-<lb n="0244c18" ed="T"/>中斷也。「汝何以獨言」下，第二次明呵內。</p><p xml:id="pT42p0244c1816" cb:place="inline">「內曰」
+<lb n="0244c18" ed="T"/>中斷也。「汝何以獨言」下，第二次明呵內。</p>
+<p xml:id="pT42p0244c1816" cb:place="inline">「內曰」
 <lb n="0244c19" ed="T"/>下，第四舉德顯人。自上已來直辨人尊，從此
 <lb n="0244c20" ed="T"/>已去舉法成人。人無貴賤，道在則尊故也。佛
 <lb n="0244c21" ed="T"/>具二義故獨稱尊：一者內德，知於實相；二者
@@ -1235,12 +1315,14 @@
 <lb n="0244c24" ed="T"/>說名為方便。又內知實相名為自覺，外巧說
 <lb n="0244c25" ed="T"/>法名為覺他。自覺覺他，故名為佛，獨名世尊。
 <lb n="0244c26" ed="T"/>即詶上二難：一以獨佛為尊，故汝生疑為過；
-<lb n="0244c27" ed="T"/>二者以獨佛為尊，故我言無過。</p><p xml:id="pT42p0244c2713" cb:place="inline">「外曰」下，第五
+<lb n="0244c27" ed="T"/>二者以獨佛為尊，故我言無過。</p>
+<p xml:id="pT42p0244c2713" cb:place="inline">「外曰」下，第五
 <lb n="0244c28" ed="T"/>舉德齊內。就文為二：第一正舉德成人、第二
 <lb n="0244c29" ed="T"/>呵責論主。初又二：前總舉德成人、次別明三
 <pb n="0245a" ed="T" xml:id="T42.1827.0245a"/>
 <lb n="0245a01" ed="T"/>寶化世。初明諸師亦具內外二德則同為世
-<lb n="0245a02" ed="T"/>尊，汝不應言獨佛是也。</p><p xml:id="pT42p0245a0210" cb:place="inline">「如迦毘羅」下，第二廣
+<lb n="0245a02" ed="T"/>尊，汝不應言獨佛是也。</p>
+<p xml:id="pT42p0245a0210" cb:place="inline">「如迦毘羅」下，第二廣
 <lb n="0245a03" ed="T"/>明三寶化世。此中凡列十師：一迦毘羅三寶
 <lb n="0245a04" ed="T"/>行世、三優樓迦三寶行世、三勒沙婆三寶行
 <lb n="0245a05" ed="T"/>世、第四師以自餓為道、第五師以投淵求聖、
@@ -1292,7 +1374,11 @@
 <lb n="0245b21" ed="T"/>而稱平等者，眼等五根各緣一塵，心識能遍
 <lb n="0245b22" ed="T"/>緣五，故云平等。二云：詺肉芙蓉心以為平等，
 <lb n="0245b23" ed="T"/>以其處一身之中故云平等。釋五大成五根
-<lb n="0245b24" ed="T"/>不同，一云遍造，是優樓迦義。二云<note n="0245b2401" resp="CBETA" type="add" note_key="T42.0245b24.14">偏【CB】【卍續-CB】，遍【大】</note><app n="0245b2401"><lem wit="【CB】【卍續-CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-06)">偏<note type="cf1">X46n0781_p0423c06</note></lem><rdg wit="【大】">遍</rdg></app>造。遍造
+<lb n="0245b24" ed="T"/>不同，一云遍造，是優樓迦義。二云<note 
+n="0245b2401" resp="CBETA" type="add" note_key="T42.0245b24.14">偏【CB】【卍續-CB】，遍【大】</note><app n="0245b2401">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-06)">偏<note type="cf1">X46n0781_p0423c06</note></lem>
+  <rdg wit="【大】">遍</rdg>
+</app>造。遍造
 <lb n="0245b25" ed="T"/>者，五大成眼根火大偏多，色是火家求那，眼
 <lb n="0245b26" ed="T"/>還見色。五大成耳根空大偏多，聲是空家求
 <lb n="0245b27" ed="T"/>那，故耳還聞聲。五大成鼻根地大偏多，香是
@@ -1331,7 +1417,12 @@
 <pb n="0246a" ed="T" xml:id="T42.1827.0246a"/>
 <lb n="0246a01" ed="T"/>塵故名本。塵從慢生故反異，能生五大及諸
 <lb n="0246a02" ed="T"/>根故秤本。聲塵生空及耳根故名本，乃至香
-<lb n="0246a03" ed="T"/>生地及鼻根，如是七<note n="0246001" resp="Taisho" type="orig" place="foot text">亦＋（本亦）？</note><note n="0246001" resp="CBETA" type="mod">亦【大】，亦本亦【考偽-大】</note><app n="0246001"><lem resp="Taisho" wit="【大】">亦</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">亦本亦</rdg></app>反異。十六但反異
+<lb n="0246a03" ed="T"/>生地及鼻根，如是七<note 
+n="0246001" resp="Taisho" type="orig" place="foot text">亦＋（本亦）？</note><note 
+n="0246001" resp="CBETA" type="mod">亦【大】，亦本亦【考偽-大】</note><app n="0246001">
+  <lem resp="Taisho" wit="【大】">亦</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">亦本亦</rdg>
+</app>反異。十六但反異
 <lb n="0246a04" ed="T"/>者，五大、五作根、五知根及心，此十六但從他
 <lb n="0246a05" ed="T"/>生、不能生他，故但反異。知者非本非反異，知
 <lb n="0246a06" ed="T"/>者是我，我以知為體，我不從他生又不能生
@@ -1400,10 +1491,17 @@
 <lb n="0246c09" ed="T"/>明善法，但舉淨不舉不淨，故云分也。依《金七
 <lb n="0246c10" ed="T"/>十論》，覺諦有八分，則四分名為喜、四分為癡
 <lb n="0246c11" ed="T"/>暗。喜四分者如上釋，迦毘羅論中其已出竟；
-<lb n="0246c12" ed="T"/>翻此四分即是癡暗也。</p><p xml:id="pT42p0246c1210" cb:place="inline">「優樓迦弟子」下，第二
+<lb n="0246c12" ed="T"/>翻此四分即是癡暗也。</p>
+<p xml:id="pT42p0246c1210" cb:place="inline">「優樓迦弟子」下，第二
 <lb n="0246c13" ed="T"/>師亦三寶化世。優樓迦佛寶、弟子僧寶、衛世
 <lb n="0246c14" ed="T"/>師經為法寶。衛世師，此云異勝論，異於僧法
-<lb n="0246c15" ed="T"/>故秤為異。明義自在破他令<note n="0246002" resp="Taisho" type="orig" place="foot text">懷＝壞？</note><note n="0246002" resp="CBETA" type="mod" note_key="T42.0246c15.12">壞【CB】【考偽-大】，懷【大】</note><app n="0246002"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">壞</lem><rdg wit="【大】">懷</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">壞</rdg></app>故秤為勝。今
+<lb n="0246c15" ed="T"/>故秤為異。明義自在破他令<note 
+n="0246002" resp="Taisho" type="orig" place="foot text">懷＝壞？</note><note 
+n="0246002" resp="CBETA" type="mod" note_key="T42.0246c15.12">壞【CB】【考偽-大】，懷【大】</note><app n="0246002">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">壞</lem>
+  <rdg wit="【大】">懷</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">壞</rdg>
+</app>故秤為勝。今
 <lb n="0246c16" ed="T"/>言六諦者，一陀羅驃，秤為主諦亦云所依諦，
 <lb n="0246c17" ed="T"/>謂地、水、火、風、空、時、方、神、意。此九法為一切物
 <lb n="0246c18" ed="T"/>主，故云主諦。又解：一切法悉有依主，故〈破神
@@ -1473,7 +1571,11 @@
 <lb n="0247b22" ed="T"/>者，尼揵子此云無結，依經修行離煩惱結，故
 <lb n="0247b23" ed="T"/>以為名。亦名那耶修摩，舊云尼揵子。經說有
 <lb n="0247b24" ed="T"/>十六諦，聞慧生八：一天文地理、二算數、三
-<lb n="0247b25" ed="T"/>醫方、四呪術，及四<note n="0247b2501" resp="CBETA" type="add" note_key="T42.0247b25.08">韋【CB】，事【大】</note><app n="0247b2501"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">韋<note type="cf1">B31n0170_p0650b12</note></lem><rdg wit="【大】">事</rdg></app>陀，故云八也。次修慧生
+<lb n="0247b25" ed="T"/>醫方、四呪術，及四<note 
+n="0247b2501" resp="CBETA" type="add" note_key="T42.0247b25.08">韋【CB】，事【大】</note><app n="0247b2501">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">韋<note type="cf1">B31n0170_p0650b12</note></lem>
+  <rdg wit="【大】">事</rdg>
+</app>陀，故云八也。次修慧生
 <lb n="0247b26" ed="T"/>八者，修六天行為六，及事星宿天行為七，修
 <lb n="0247b27" ed="T"/>長仙行為八。問：僧佉二十五，今偏明覺諦；世
 <lb n="0247b28" ed="T"/>師偏引依諦，今十六中用何諦耶？答：修長仙
@@ -1494,7 +1596,11 @@
 <lb n="0247c13" ed="T"/>者，義理可決定也。論議者，由語言顯真實道
 <lb n="0247c14" ed="T"/>理。諸義，以立真實義。壞義者，由立難難他立
 <lb n="0247c15" ed="T"/>義。證者五種：一不定、二相違、三相生疑、四
-<lb n="0247c16" ed="T"/>未成、五<note n="0247c1601" resp="CBETA" type="add" note_key="T42.0247c16.04">過【CB】，即【大】</note><app n="0247c1601"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-10)">過<note type="cf1">B09n0037_p0239a03</note><note type="cf2">B09n0040_p0412a04</note></lem><rdg wit="【大】">即</rdg></app>時也。難難者，聞山林有白象，難
+<lb n="0247c16" ed="T"/>未成、五<note 
+n="0247c1601" resp="CBETA" type="add" note_key="T42.0247c16.04">過【CB】，即【大】</note><app n="0247c1601">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-10)">過<note type="cf1">B09n0037_p0239a03</note><note type="cf2">B09n0040_p0412a04</note></lem>
+  <rdg wit="【大】">即</rdg>
+</app>時也。難難者，聞山林有白象，難
 <lb n="0247c17" ed="T"/>草頭亦有白象。諍論者，有二十四種。墮負者，
 <lb n="0247c18" ed="T"/>如墮負論說。此十六諦異勒沙婆十六諦也。
 <lb n="0247c19" ed="T"/>「又有諸師」下，此皆勒沙婆部中枝流出也。「自
@@ -1518,7 +1624,8 @@
 <lb n="0248a07" ed="T"/>非但是拙亦不能度，非但不度更增生死。故
 <lb n="0248a08" ed="T"/>龍樹呵云是為癡道。《法華》明以苦欲捨苦，為
 <lb n="0248a09" ed="T"/>此起大悲，四法受中即是現苦後苦也。「何以
-<lb n="0248a10" ed="T"/>言獨佛能說耶」，此第二呵論主。</p><p xml:id="pT42p0248a1013" cb:place="inline">「內曰是皆邪
+<lb n="0248a10" ed="T"/>言獨佛能說耶」，此第二呵論主。</p>
+<p xml:id="pT42p0248a1013" cb:place="inline">「內曰是皆邪
 <lb n="0248a11" ed="T"/>見」下，第六懸非指後。略有四意：一云外道狂
 <lb n="0248a12" ed="T"/>謂實無此理，如熱病人無物見物，良醫總呵
 <lb n="0248a13" ed="T"/>之。二者自有總立別破、別立總破，即此文是
@@ -1527,12 +1634,17 @@
 <lb n="0248a16" ed="T"/>毒中是屬癡使攝，以癡增上故名邪見。《雜阿
 <lb n="0248a17" ed="T"/>含》云「三事覆即妙、開則不妙：一謂愚人、二婆
 <lb n="0248a18" ed="T"/>羅門語、三女人。三事開則妙、覆則不妙，謂日、
-<lb n="0248a19" ed="T"/>月及佛語。」論主今聞外人所說，<note n="0248a1901" resp="CBETA" type="add" note_key="T42.0248a19.13">知【CB】，如【大】</note><app n="0248a1901"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">知</lem><rdg wit="【大】">如</rdg></app>其非妙，是
+<lb n="0248a19" ed="T"/>月及佛語。」論主今聞外人所說，<note 
+n="0248a1901" resp="CBETA" type="add" note_key="T42.0248a19.13">知【CB】，如【大】</note><app n="0248a1901">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">知</lem>
+  <rdg wit="【大】">如</rdg>
+</app>其非妙，是
 <lb n="0248a20" ed="T"/>故呵之。《雜阿含》云「虛空無足迹，外道無沙門。」
 <lb n="0248a21" ed="T"/>今論主知其無有正法，是故總呵云邪見。又
 <lb n="0248a22" ed="T"/>《百論》二種破外道：一總破一切外道，如此文也；
 <lb n="0248a23" ed="T"/>二從「惡止」已去竟論，別破外道。前總後別，釋
-<lb n="0248a24" ed="T"/>破義之方也。</p><p xml:id="pT42p0248a2406" cb:place="inline">「外曰佛說何等善法相」下，論有
+<lb n="0248a24" ed="T"/>破義之方也。</p>
+<p xml:id="pT42p0248a2406" cb:place="inline">「外曰佛說何等善法相」下，論有
 <lb n="0248a25" ed="T"/>三章，初章已竟。今是第二反邪歸正辨論大
 <lb n="0248a26" ed="T"/>宗。就文為二：一者從此竟品，明二善三空，示
 <lb n="0248a27" ed="T"/>於始學入道之方，謂申佛漸捨之教；第二從
@@ -1556,7 +1668,11 @@
 <lb n="0248b15" ed="T"/>以此分章者，論雖十品，唯有二意：一者諍人、
 <lb n="0248b16" ed="T"/>二者諍法也。二從上佛知諸法實相明了無
 <lb n="0248b17" ed="T"/>礙，又能說深淨法生。若我師皆是邪見不能
-<lb n="0248b18" ed="T"/>說深<note n="0248b1801" resp="CBETA" type="add" note_key="T42.0248b18.03">淨【CB】，諍【大】</note><app n="0248b1801"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-06-30)">淨<note type="cf1">T30n1569_p0168b15</note></lem><rdg wit="【大】">諍</rdg></app>法者，汝師說何等善法耶？三近生者，
+<lb n="0248b18" ed="T"/>說深<note 
+n="0248b1801" resp="CBETA" type="add" note_key="T42.0248b18.03">淨【CB】，諍【大】</note><app n="0248b1801">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-06-30)">淨<note type="cf1">T30n1569_p0168b15</note></lem>
+  <rdg wit="【大】">諍</rdg>
+</app>法者，汝師說何等善法耶？三近生者，
 <lb n="0248b19" ed="T"/>外道前廣列十師，論主總非皆云邪見。外道
 <lb n="0248b20" ed="T"/>今問：若我師所說並是邪見，汝師說何善法？
 <lb n="0248b21" ed="T"/>「內曰惡止善行」下，第二答也。問：佛教無窮，何
@@ -1575,7 +1691,11 @@
 <lb n="0248c04" ed="T"/>惡莫作，謂誡門也；善行則諸善奉行，明勸門
 <lb n="0248c05" ed="T"/>也。七佛相承未制別戒已來，皆前說通戒。今
 <lb n="0248c06" ed="T"/>外道初入佛法，未剃頭出家，不得授其別戒，
-<lb n="0248c07" ed="T"/>宜前明通戒也。六者為明佛法遠<note n="0248c0701" resp="CBETA" type="add" note_key="T42.0248c07.14">離【CB】，難【大】</note><app n="0248c0701"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-06-30)">離<note type="cf1">T42n1824_p0020b27</note><note type="cf2">T42n1824_p0023a04</note></lem><rdg wit="【大】">難</rdg></app>二邊顯
+<lb n="0248c07" ed="T"/>宜前明通戒也。六者為明佛法遠<note 
+n="0248c0701" resp="CBETA" type="add" note_key="T42.0248c07.14">離【CB】，難【大】</note><app n="0248c0701">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2023-06-30)">離<note type="cf1">T42n1824_p0020b27</note><note type="cf2">T42n1824_p0023a04</note></lem>
+  <rdg wit="【大】">難</rdg>
+</app>二邊顯
 <lb n="0248c08" ed="T"/>示中道，惡止明其所離，謂非有義；善行明於
 <lb n="0248c09" ed="T"/>所得，即非無義。非有非無，故名中道。七者一
 <lb n="0248c10" ed="T"/>切諸義無有定相，隨問而答。外人前既問善，
@@ -1755,7 +1875,8 @@
 <lb n="0250c07" ed="T"/>八種戒從受生，身口心受合二十四戒、教他
 <lb n="0250c08" ed="T"/>受、隨喜受、修習行時亦二十四、合九十六戒。
 <lb n="0250c09" ed="T"/>今但言十善戒者、但是略說耳。「何等為行」下，第
-<lb n="0250c10" ed="T"/>四釋行。</p><p xml:id="pT42p0250c1004" cb:place="inline">「外曰汝經有過」下，第二傍破吉義。問：
+<lb n="0250c10" ed="T"/>四釋行。</p>
+<p xml:id="pT42p0250c1004" cb:place="inline">「外曰汝經有過」下，第二傍破吉義。問：
 <lb n="0250c11" ed="T"/>何故傍破吉？答：上標二善，總辨三世佛出世
 <lb n="0250c12" ed="T"/>大意，謂誡惡勸善。今總明破一切邪，以一切
 <lb n="0250c13" ed="T"/>外道經初皆說吉，此義既破則一切邪破也。
@@ -1771,7 +1892,12 @@
 <lb n="0250c23" ed="T"/>也。今前作有無二難者，外人廣述師宗，論主
 <lb n="0250c24" ed="T"/>撥云：諸師內有邪見、外不能說深淨法。外人
 <lb n="0250c25" ed="T"/>仍問論主：佛說何等善法？論主答云：惡止善
-<lb n="0250c26" ed="T"/>行。外<note n="0250001" resp="Taisho" type="orig" place="foot text">今＝人？</note><note n="0250001" resp="CBETA" type="mod">今【大】，人【考偽-大】</note><app n="0250001"><lem resp="Taisho" wit="【大】">今</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">人</rdg></app>即云：若惡止善行，有二不吉過：一
+<lb n="0250c26" ed="T"/>行。外<note 
+n="0250001" resp="Taisho" type="orig" place="foot text">今＝人？</note><note 
+n="0250001" resp="CBETA" type="mod">今【大】，人【考偽-大】</note><app n="0250001">
+  <lem resp="Taisho" wit="【大】">今</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">人</rdg>
+</app>即云：若惡止善行，有二不吉過：一
 <lb n="0250c27" ed="T"/>者建惡在初，故初不吉；初既不吉，中後亦然。
 <lb n="0250c28" ed="T"/>法既是惡，則人非世尊；行此法者不名上眾，
 <lb n="0250c29" ed="T"/>故三寶皆壞，即名有難。二者一切諸經阿漚
@@ -1792,9 +1918,17 @@
 <lb n="0251a14" ed="T"/>之德，或言是彗星天子所造、或云鎮星天子
 <lb n="0251a15" ed="T"/>所造。「如是經等初皆言吉」者，第四結彼經德。
 <lb n="0251a16" ed="T"/>外云：昔有梵王在世，說七十二字以教世間，
-<lb n="0251a17" ed="T"/>名佉樓書。世間之敬情漸薄，梵王<note n="0251a1701" resp="CBETA" type="add" note_key="T42.0251a17.14">貪【CB】【卍續-CB】，貧【大】</note><app n="0251a1701"><lem wit="【CB】【卍續-CB】" resp="CBETA.shin">貪<note type="cf1">X46n0781_p0429b18</note></lem><rdg wit="【大】">貧</rdg></app>悋心起，
+<lb n="0251a17" ed="T"/>名佉樓書。世間之敬情漸薄，梵王<note 
+n="0251a1701" resp="CBETA" type="add" note_key="T42.0251a17.14">貪【CB】【卍續-CB】，貧【大】</note><app n="0251a1701">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.shin">貪<note type="cf1">X46n0781_p0429b18</note></lem>
+  <rdg wit="【大】">貧</rdg>
+</app>悋心起，
 <lb n="0251a18" ed="T"/>收取吞之，唯阿漚兩字從口兩邊墮地。世人
-<lb n="0251a19" ed="T"/><note n="0251a1901" resp="CBETA" type="add" note_key="T42.0251a19.01">貴【CB】【卍續-CB】，責【大】</note><app n="0251a1901"><lem wit="【CB】【卍續-CB】" resp="CBETA.shin">貴<note type="cf1">X46n0781_p0429b19</note></lem><rdg wit="【大】">責</rdg></app>之以為字王，故取漚字置四韋陀首，以阿
+<lb n="0251a19" ed="T"/><note 
+n="0251a1901" resp="CBETA" type="add" note_key="T42.0251a19.01">貴【CB】【卍續-CB】，責【大】</note><app n="0251a1901">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.shin">貴<note type="cf1">X46n0781_p0429b19</note></lem>
+  <rdg wit="【大】">責</rdg>
+</app>之以為字王，故取漚字置四韋陀首，以阿
 <lb n="0251a20" ed="T"/>字置廣主經初。四韋陀者，外道十八大經，亦
 <lb n="0251a21" ed="T"/>云十八明處。四皮陀為四，復有六論，合四皮
 <lb n="0251a22" ed="T"/>陀為十；復有八論，足為十八。四皮陀者，一
@@ -2029,10 +2163,18 @@
 <lb n="0253c11" ed="T"/>近俱不到，遠近俱不破；三破近不破遠，應到
 <lb n="0253c12" ed="T"/>近不到遠，則有到有不到；四若俱不到，破近
 <lb n="0253c13" ed="T"/>不破遠，亦應破遠不破近。注中云「振旦」者，此
-<lb n="0253c14" ed="T"/>云漢國也。「復次若初吉餘不吉」，自<note n="0253c1401" resp="CBETA" type="add" note_key="T42.0253c14.14">上【CB】【卍續-CB】，下【大】</note><app n="0253c1401"><lem wit="【CB】【卍續-CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-13)">上<note type="cf1">X46n0781_p0432a23</note></lem><rdg wit="【大】">下</rdg></app>已來破
+<lb n="0253c14" ed="T"/>云漢國也。「復次若初吉餘不吉」，自<note 
+n="0253c1401" resp="CBETA" type="add" note_key="T42.0253c14.14">上【CB】【卍續-CB】，下【大】</note><app n="0253c1401">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-13)">上<note type="cf1">X46n0781_p0432a23</note></lem>
+  <rdg wit="【大】">下</rdg>
+</app>已來破
 <lb n="0253c15" ed="T"/>其初吉及中後皆吉，從此已下偏破中後吉，
 <lb n="0253c16" ed="T"/>以上來破譬既窮，今還歸法說也。又從此文
-<lb n="0253c17" ed="T"/>去至<note n="0253c1701" resp="CBETA" type="add" note_key="T42.0253c17.03">象【CB】，眾【大】</note><app n="0253c1701"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-04-21)">象<note type="cf1">T30n1569_p0169a19</note></lem><rdg wit="【大】">眾</rdg></app>手皆䨥開起。若初吉者，促自吉。餘不
+<lb n="0253c17" ed="T"/>去至<note 
+n="0253c1701" resp="CBETA" type="add" note_key="T42.0253c17.03">象【CB】，眾【大】</note><app n="0253c1701">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-04-21)">象<note type="cf1">T30n1569_p0169a19</note></lem>
+  <rdg wit="【大】">眾</rdg>
+</app>手皆䨥開起。若初吉者，促自吉。餘不
 <lb n="0253c18" ed="T"/>吉者，破他吉也。汝言阿漚在初以為吉者，中
 <lb n="0253c19" ed="T"/>後既無，云何名吉？故言餘應不吉。注中開二
 <lb n="0253c20" ed="T"/>種妄語以破外人：若吉性通三，汝言初吉則
@@ -2122,7 +2264,8 @@
 <lb n="0254c14" ed="T"/>和合別有假用起，則實法和合別有假體起。
 <lb n="0254c15" ed="T"/>光宅無假體假用，但有實法體。亦不然，無假
 <lb n="0254c16" ed="T"/>云何有實？無總云何有別耶？今恐於文意為
-<lb n="0254c17" ed="T"/>煩，故直釋而已。「如是吉事」下，第二總結。</p><p xml:id="pT42p0254c1716" cb:place="inline">「外曰
+<lb n="0254c17" ed="T"/>煩，故直釋而已。「如是吉事」下，第二總結。</p>
+<p xml:id="pT42p0254c1716" cb:place="inline">「外曰
 <lb n="0254c18" ed="T"/>惡止止妙」下，自上已來傍破吉竟，今是第三
 <lb n="0254c19" ed="T"/>伏流辨宗。邪教覆正經，其義不明照，在邪已
 <lb n="0254c20" ed="T"/>破故二善義成，故伏流說也。若答難明者，自
@@ -2137,7 +2280,11 @@
 <lb n="0254c29" ed="T"/>惡而言惡止？故知顛倒。「內曰行者要前知惡
 <pb n="0255a" ed="T" xml:id="T42.1827.0255a"/>
 <lb n="0255a01" ed="T"/>然後能止」，明惡止麁妙，實如所言。但行者要
-<lb n="0255a02" ed="T"/>前知惡過患，然<note n="0255a0201" resp="CBETA" type="add" note_key="T42.0255a02.07">後【CB】，然【大】</note><app n="0255a0201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-15)">後</lem><rdg wit="【大】">然</rdg></app>受戒止之。如來制戒亦得如
+<lb n="0255a02" ed="T"/>前知惡過患，然<note 
+n="0255a0201" resp="CBETA" type="add" note_key="T42.0255a02.07">後【CB】，然【大】</note><app n="0255a0201">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：釋厚觀 (2024-01-15)">後</lem>
+  <rdg wit="【大】">然</rdg>
+</app>受戒止之。如來制戒亦得如
 <lb n="0255a03" ed="T"/>是，故經云「見衣有孔然後乃補」，是故前惡後
 <lb n="0255a04" ed="T"/>止。問：一切制戒，皆先犯然後以制耶？答：就釋
 <lb n="0255a05" ed="T"/>迦聲聞戒如此耳。菩薩戒皆是在華臺上舍
@@ -2207,7 +2354,8 @@
 <lb n="0255c09" ed="T"/>何以故知止惡別有善耶？答：從善心生，必有
 <lb n="0255c10" ed="T"/>善果。又持此戒者必得樂果，故應有善因。又
 <lb n="0255c11" ed="T"/>得此戒故，則改卑成貴，故知有也。「是故」下，第
-<lb n="0255c12" ed="T"/>三總結。</p><p xml:id="pT42p0255c1204" cb:place="inline">「是惡止善行法」下，自上已來明捨罪
+<lb n="0255c12" ed="T"/>三總結。</p>
+<p xml:id="pT42p0255c1204" cb:place="inline">「是惡止善行法」下，自上已來明捨罪
 <lb n="0255c13" ed="T"/>竟，今第二次明捨福。然通而為言皆是捨罪，
 <lb n="0255c14" ed="T"/>以悉乖道故皆是罪，宜並捨之。但今就於乖
 <lb n="0255c15" ed="T"/>中自有輕重，乖中之重故秤之為罪、乖中之
@@ -2295,7 +2443,11 @@
 <lb n="0256c07" ed="T"/>佛檀。施既有四，戒智例然。今但說淨不淨者，
 <lb n="0256c08" ed="T"/>彼是廣說、此是略說。又雖有四，攝在二中。淨、
 <lb n="0256c09" ed="T"/>出世、聖所秤譽、佛檀此四攝在淨中，餘四攝
-<lb n="0256c10" ed="T"/>不淨中，故但明二也。今云「為報<note n="0256c1001" resp="CBETA" type="add" note_key="T42.0256c10.13">施【CB】，〔－〕【大】</note><app n="0256c1001"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">施<note type="cf1">K16n0581_p0550c04</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>是不淨」者，通
+<lb n="0256c10" ed="T"/>不淨中，故但明二也。今云「為報<note 
+n="0256c1001" resp="CBETA" type="add" note_key="T42.0256c10.13">施【CB】，〔－〕【大】</note><app n="0256c1001">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">施<note type="cf1">K16n0581_p0550c04</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>是不淨」者，通
 <lb n="0256c11" ed="T"/>而言之，一切心有所希求悉名為報施。今此
 <lb n="0256c12" ed="T"/>中略說，為今世後世二種果報名為不淨。「外
 <lb n="0256c13" ed="T"/>曰何等名淨施」下，外道意局，唯言前施是淨，
@@ -2325,7 +2477,11 @@
 <lb n="0257a07" ed="T"/>淨。初正答。「如覆相」者，此引難陀覆相事來證。
 <lb n="0257a08" ed="T"/>內有求樂、外現清白，名為覆相。注為二：前釋
 <lb n="0257a09" ed="T"/>求樂報、次釋覆相。施中以今後為二報、戒中
-<lb n="0257a10" ed="T"/>以人天為二報，一者互現，二明持戒多現<note n="0257a1001" resp="CBETA" type="add" note_key="T42.0257a10.17">苦【CB】，若【大】</note><app n="0257a1001"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">苦<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第104圖左欄第10行）</note></lem><rdg wit="【大】">若</rdg></app>
+<lb n="0257a10" ed="T"/>以人天為二報，一者互現，二明持戒多現<note 
+n="0257a1001" resp="CBETA" type="add" note_key="T42.0257a10.17">苦【CB】，若【大】</note><app n="0257a1001">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">苦<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第104圖左欄第10行）</note></lem>
+  <rdg wit="【大】">若</rdg>
+</app>
 <lb n="0257a11" ed="T"/>後樂，就現在彰報不顯，故就未來說。二釋覆
 <lb n="0257a12" ed="T"/>相中，前正釋、次引難陀事證。淨飯王見千羅
 <lb n="0257a13" ed="T"/>漢形不端正云如鳥集紫金山，後度難陀等
@@ -2363,7 +2519,11 @@
 <lb n="0257b15" ed="T"/>答：對世間不淨持戒，總明出世三乘淨戒也。
 <lb n="0257b16" ed="T"/>餘二亦然。問：厭與離欲何異？答：厭為伏道，離
 <lb n="0257b17" ed="T"/>欲為斷道，解脫為證道也。故持一淨戒則三
-<lb n="0257b18" ed="T"/>行圓、二果滿也。「外曰若<note n="0257b1801" resp="CBETA" type="add" note_key="T42.0257b18.10">上智【CB】，智上【大】</note><app n="0257b1801"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">上智<note type="cf1">K16n0581_p0551a08</note></lem><rdg wit="【大】">智上</rdg></app>」者，第三論智垢
+<lb n="0257b18" ed="T"/>行圓、二果滿也。「外曰若<note 
+n="0257b1801" resp="CBETA" type="add" note_key="T42.0257b18.10">上智【CB】，智上【大】</note><app n="0257b1801">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">上智<note type="cf1">K16n0581_p0551a08</note></lem>
+  <rdg wit="【大】">智上</rdg>
+</app>」者，第三論智垢
 <lb n="0257b19" ed="T"/>淨。外人聞前智配上人，理不可咎，故不難之；
 <lb n="0257b20" ed="T"/>但引取上智以配彼師。問：前列三師二天，何
 <lb n="0257b21" ed="T"/>不配之，而指二外道耶？答：為欲譏呵論主：佛
@@ -2400,7 +2560,11 @@
 <lb n="0257c22" ed="T"/>果；罪以摧折為義，行於惡因得摧折果。行者
 <lb n="0257c23" ed="T"/>聞此，故捨惡修福。為成捨福者，福報滅時生
 <lb n="0257c24" ed="T"/>於大苦，故須捨福。為成兩捨，故因受果名也。
-<lb n="0257c25" ed="T"/>「食金」，譬因中說果。「見<note n="0257c2501" resp="CBETA" type="add" note_key="T42.0257c25.09">畫【CB】，書【大】</note><app n="0257c2501"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">畫<note type="cf1">T30n1569_p0170a18</note></lem><rdg wit="【大】">書</rdg></app>」，譬果中說因也。「取名
+<lb n="0257c25" ed="T"/>「食金」，譬因中說果。「見<note 
+n="0257c2501" resp="CBETA" type="add" note_key="T42.0257c25.09">畫【CB】，書【大】</note><app n="0257c2501">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">畫<note type="cf1">T30n1569_p0170a18</note></lem>
+  <rdg wit="【大】">書</rdg>
+</app>」，譬果中說因也。「取名
 <lb n="0257c26" ed="T"/>著」者，釋偈本取字。「惡前已說」，釋偈本惡字。「行
 <lb n="0257c27" ed="T"/>名」下，釋偈本行字。不釋捨者，後俱捨中自明
 <lb n="0257c28" ed="T"/>之也。「外曰何等是不行法」下，第三正明捨福。
@@ -2507,7 +2671,8 @@
 <lb n="0259a09" ed="T"/>無聞非法眾生，以人天善根而成熟之，未堪
 <lb n="0259a10" ed="T"/>捨也。三亦作亦捨，為捨罪故須作、為入道故
 <lb n="0259a11" ed="T"/>宜捨。注中「浣衣」喻捨罪，「淨」喻修福，「染」喻受涅
-<lb n="0259a12" ed="T"/>槃道。</p><p xml:id="pT42p0259a1203" cb:place="inline">「外曰捨福依何等」，自上已來明捨罪福
+<lb n="0259a12" ed="T"/>槃道。</p>
+<p xml:id="pT42p0259a1203" cb:place="inline">「外曰捨福依何等」，自上已來明捨罪福
 <lb n="0259a13" ed="T"/>二章竟，今第三次明能捨空無相慧。外道情
 <lb n="0259a14" ed="T"/>近，謂罪外有福，故依福捨罪；福外更無妙可
 <lb n="0259a15" ed="T"/>依，故不應捨福。「內曰無相最上」，答外人問，明
@@ -2526,14 +2691,29 @@
 <lb n="0259a28" ed="T"/>略明四種：一明展轉破病。為破有病是以說
 <lb n="0259a29" ed="T"/>空，破取空相故說無相，於無相中起心造作
 <pb n="0259b" ed="T" xml:id="T42.1827.0259b"/>
-<lb n="0259b01" ed="T"/>故說無作。<note n="0259001" resp="Taisho" type="orig" place="foot text">（二）＋又？</note><note n="0259001" resp="CBETA" type="mod">又【大】，二又【考偽-大】</note><app n="0259001"><lem resp="Taisho" wit="【大】">又</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">二又</rdg></app>空門破有、無相門破空，此明
+<lb n="0259b01" ed="T"/>故說無作。<note 
+n="0259001" resp="Taisho" type="orig" place="foot text">（二）＋又？</note><note 
+n="0259001" resp="CBETA" type="mod">又【大】，二又【考偽-大】</note><app n="0259001">
+  <lem resp="Taisho" wit="【大】">又</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">二又</rdg>
+</app>空門破有、無相門破空，此明
 <lb n="0259b02" ed="T"/>非空非有中道之法，觀中道者名為正觀。次
 <lb n="0259b03" ed="T"/>說無作者，前二雖泯空有之境，今次息於能
 <lb n="0259b04" ed="T"/>觀之心。此三門明非空非有、不緣不觀，明義
-<lb n="0259b05" ed="T"/>既足，故但說於三。<note n="0259002" resp="Taisho" type="orig" place="foot text">（三）＋又？</note><note n="0259002" resp="CBETA" type="mod">又【大】，三又【考偽-大】</note><app n="0259002"><lem resp="Taisho" wit="【大】">又</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">三又</rdg></app>《智度論》云「為好實者說
+<lb n="0259b05" ed="T"/>既足，故但說於三。<note 
+n="0259002" resp="Taisho" type="orig" place="foot text">（三）＋又？</note><note 
+n="0259002" resp="CBETA" type="mod">又【大】，三又【考偽-大】</note><app n="0259002">
+  <lem resp="Taisho" wit="【大】">又</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">三又</rdg>
+</app>《智度論》云「為好實者說
 <lb n="0259b06" ed="T"/>空，空最實故。為好寂靜者說無相，以涅槃最
 <lb n="0259b07" ed="T"/>寂靜故。為好遠離者說無作，以遠離無所求
-<lb n="0259b08" ed="T"/>作故。<note n="0259003" resp="Taisho" type="orig" place="foot text">（四）＋又？</note><note n="0259003" resp="CBETA" type="mod">又【大】，四又【考偽-大】</note><app n="0259003"><lem resp="Taisho" wit="【大】">又</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">四又</rdg></app>為見多者說空、愛多者說無作、愛
+<lb n="0259b08" ed="T"/>作故。<note 
+n="0259003" resp="Taisho" type="orig" place="foot text">（四）＋又？</note><note 
+n="0259003" resp="CBETA" type="mod">又【大】，四又【考偽-大】</note><app n="0259003">
+  <lem resp="Taisho" wit="【大】">又</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">四又</rdg>
+</app>為見多者說空、愛多者說無作、愛
 <lb n="0259b09" ed="T"/>見等者說無相。」問：若爾，治惑有少多耶？答：約
 <lb n="0259b10" ed="T"/>小乘義，攝十六行以為三門。攝行既有少多，
 <lb n="0259b11" ed="T"/>治惑亦有少多。今明為治見人說於空門，則
@@ -2695,7 +2875,11 @@
 <lb n="0261a16" ed="T"/>生，故名身見。問：邊見亦不從他身生、亦不從
 <lb n="0261a17" ed="T"/>無身生，何故不名身見？答：身見已前受名故，
 <lb n="0261a18" ed="T"/>邊見更從別義立稱。問：《阿毘曇》等云內離人
-<lb n="0261a19" ed="T"/>故空、不自在故無我，<note n="0261a1901" resp="CBETA" type="add" note_key="T42.0261a19.09">與【CB】，興【大】</note><app n="0261a1901"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">與</lem><rdg wit="【大】">興</rdg></app>此論破我何異？答：同
+<lb n="0261a19" ed="T"/>故空、不自在故無我，<note 
+n="0261a1901" resp="CBETA" type="add" note_key="T42.0261a19.09">與【CB】，興【大】</note><app n="0261a1901">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">與</lem>
+  <rdg wit="【大】">興</rdg>
+</app>此論破我何異？答：同
 <lb n="0261a20" ed="T"/>明無外道邪我，與此處不異。但數論破我、住
 <lb n="0261a21" ed="T"/>於無我，此論明我既不留、無我亦捨，乃至五
 <lb n="0261a22" ed="T"/>句一無所存。又雖無所有而無所不有，故具
@@ -2721,7 +2905,8 @@
 <lb n="0261b12" ed="T"/>是有法。今明能計如其所計，故《大品》常以十
 <lb n="0261b13" ed="T"/>六知見例色等萬法。問：此論何處有佛性真
 <lb n="0261b14" ed="T"/>我耶？答：此論明中道非我無我，中道是佛亦
-<lb n="0261b15" ed="T"/>名佛性，知有真我。</p><p xml:id="pT42p0261b1508" cb:place="inline">此品中開為六別：第一三
+<lb n="0261b15" ed="T"/>名佛性，知有真我。</p>
+<p xml:id="pT42p0261b1508" cb:place="inline">此品中開為六別：第一三
 <lb n="0261b16" ed="T"/>師總立有神，論主總破；第二僧佉人出論義，
 <lb n="0261b17" ed="T"/>論主即破；第三衛世師出論義，論主即破；第
 <lb n="0261b18" ed="T"/>四僧佉人重出論義，論主重破；第五衛世師
@@ -2787,7 +2972,8 @@
 <lb n="0262a18" ed="T"/>天目及魚眼不眴，應當無有我；又無色界眾
 <lb n="0262a19" ed="T"/>生及無眼人悉應無我。若以壽命為我相者，
 <lb n="0262a20" ed="T"/>外道以暖觸為壽命，若爾大日等有暖觸亦
-<lb n="0262a21" ed="T"/>應有我。</p><p xml:id="pT42p0262a2104" cb:place="inline">「外曰」下，第二僧佉別立義。始末七番，
+<lb n="0262a21" ed="T"/>應有我。</p>
+<p xml:id="pT42p0262a2104" cb:place="inline">「外曰」下，第二僧佉別立義。始末七番，
 <lb n="0262a22" ed="T"/>前五法說、後二列譬。僧佉前論義凡三意：一
 <lb n="0262a23" ed="T"/>者道術最前行於世、二者惑人多執、三者計
 <lb n="0262a24" ed="T"/>一為四句之初。故《成論》云「一等四執，初云實
@@ -2877,7 +3063,8 @@
 <lb n="0263a18" ed="T"/>體相也，僧佉人立覺是神體相、衛世人立覺
 <lb n="0263a19" ed="T"/>是神標相，僧佉人如火以熱為相、衛世人如
 <lb n="0263a20" ed="T"/>火以烟為相。是故今難，覺自無常、神自是常，
-<lb n="0263a21" ed="T"/>則覺非神體相，故云若爾覺非神相。</p><p xml:id="pT42p0263a2115" cb:place="inline">「復次」下，
+<lb n="0263a21" ed="T"/>則覺非神體相，故云若爾覺非神相。</p>
+<p xml:id="pT42p0263a2115" cb:place="inline">「復次」下，
 <lb n="0263a22" ed="T"/>第二就遍不遍門亦有五難：一以神從覺，覺
 <lb n="0263a23" ed="T"/>不遍神亦不遍；二以覺從神，相與俱遍；三神
 <lb n="0263a24" ed="T"/>不從覺，則神與覺異；四覺不從神，覺與神異；
@@ -3021,7 +3208,8 @@
 <lb n="0264c12" ed="T"/>若無知即無覺、若有覺即有知，云何言無知
 <lb n="0264c13" ed="T"/>時有覺？若無知時有覺，應無覺時有知也。又
 <lb n="0264c14" ed="T"/>知覺一義，無知即無覺、無覺即無神，以神覺
-<lb n="0264c15" ed="T"/>一體也。</p><p xml:id="pT42p0264c1504" cb:place="inline">「外曰優樓迦」下，第三別出論義。其人
+<lb n="0264c15" ed="T"/>一體也。</p>
+<p xml:id="pT42p0264c1504" cb:place="inline">「外曰優樓迦」下，第三別出論義。其人
 <lb n="0264c16" ed="T"/>後論凡有五義：一者道術後興；二者行世不
 <lb n="0264c17" ed="T"/>盛；三依一異四句是第二異義，故後出論也；
 <lb n="0264c18" ed="T"/>四者見一義有失，謂異無過；五者見論主借
@@ -3039,7 +3227,11 @@
 <pb n="0265a" ed="T" xml:id="T42.1827.0265a"/>
 <lb n="0265a01" ed="T"/>是故今明知與神異，知自無常、神自是常。亦
 <lb n="0265a02" ed="T"/>不墮無知者，釋伏難，防僧佉及提婆也。「何以
-<lb n="0265a03" ed="T"/>故<note n="0265a0301" resp="CBETA" type="add" note_key="T42.0265a03.02">神知【CB】，知神【大】</note><app n="0265a0301"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">神知<note type="cf1">K16n0581_p0553a06</note></lem><rdg wit="【大】">知神</rdg></app>合故如有牛」者，就法譬釋上無知也。
+<lb n="0265a03" ed="T"/>故<note 
+n="0265a0301" resp="CBETA" type="add" note_key="T42.0265a03.02">神知【CB】，知神【大】</note><app n="0265a0301">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">神知<note type="cf1">K16n0581_p0553a06</note></lem>
+  <rdg wit="【大】">知神</rdg>
+</app>合故如有牛」者，就法譬釋上無知也。
 <lb n="0265a04" ed="T"/>神與知合，神受知名。如人與牛合，人名有牛
 <lb n="0265a05" ed="T"/>也。釋中前解譬者，逐文近故也。四合知生者，欲
 <lb n="0265a06" ed="T"/>顯神受知名也。「內曰牛相牛中住」，但破其神
@@ -3098,7 +3290,11 @@
 <lb n="0265b29" ed="T"/>無神。又並云「神體非知與知合故神名知」者，
 <pb n="0265c" ed="T" xml:id="T42.1827.0265c"/>
 <lb n="0265c01" ed="T"/>知體非神，若神非神合應名非神，故云若爾
-<lb n="0265c02" ed="T"/>無神。又並神本非<note n="0265c0201" resp="CBETA" type="add" note_key="T42.0265c02.08">知【CB】，如【大】</note><app n="0265c0201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">知<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第139圖左欄第3行）</note></lem><rdg wit="【大】">如</rdg></app>，與知合故從知名知。知
+<lb n="0265c02" ed="T"/>無神。又並神本非<note 
+n="0265c0201" resp="CBETA" type="add" note_key="T42.0265c02.08">知【CB】，如【大】</note><app n="0265c0201">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">知<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第139圖左欄第3行）</note></lem>
+  <rdg wit="【大】">如</rdg>
+</app>，與知合故從知名知。知
 <lb n="0265c03" ed="T"/>體無常，神與無常合神名無常、神與不遍合
 <lb n="0265c04" ed="T"/>應名不遍、與多和合應名為多；若無常不遍
 <lb n="0265c05" ed="T"/>及以多者，則無有神。又知是能是知，神若無能
@@ -3132,7 +3328,8 @@
 <lb n="0266a03" ed="T"/>前三難。「內曰有杖非杖」，破同人牛。杖自是杖，
 <lb n="0266a04" ed="T"/>人終非杖；知自是知，神終無知。衛世五番凡
 <lb n="0266a05" ed="T"/>有二失：前三後一得於神義而墮於無知，破
-<lb n="0266a06" ed="T"/>黑疊譬得有知義而墮無神。</p><p xml:id="pT42p0266a0612" cb:place="inline">「外曰僧佉」下，第
+<lb n="0266a06" ed="T"/>黑疊譬得有知義而墮無神。</p>
+<p xml:id="pT42p0266a0612" cb:place="inline">「外曰僧佉」下，第
 <lb n="0266a07" ed="T"/>四重出論義。凡有二義：一者見異家過失，謂
 <lb n="0266a08" ed="T"/>一義無咎，故重出論義；二見論主上借一破
 <lb n="0266a09" ed="T"/>異，謂異義為短、一義為長，故出論義。問：何故
@@ -3194,7 +3391,11 @@
 <lb n="0266c05" ed="T"/>其一而復罪福不同，則墮亦一亦異。還攝五
 <lb n="0266c06" ed="T"/>難以為三開：初兩得一義宗，而罪福失多、覺
 <lb n="0266c07" ed="T"/>失於一。次兩得於一多，兩墮異義。三得於一
-<lb n="0266c08" ed="T"/>多亦得不異，而<note n="0266c0801" resp="CBETA" type="add" note_key="T42.0266c08.07">墮【CB】，隨【大】</note><app n="0266c0801"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">墮</lem><rdg wit="【大】">隨</rdg></app>亦一亦異。問：何故以罪福
+<lb n="0266c08" ed="T"/>多亦得不異，而<note 
+n="0266c0801" resp="CBETA" type="add" note_key="T42.0266c08.07">墮【CB】，隨【大】</note><app n="0266c0801">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">墮</lem>
+  <rdg wit="【大】">隨</rdg>
+</app>亦一亦異。問：何故以罪福
 <lb n="0266c09" ed="T"/>難覺也？答：非是以外罪福以並於覺，正言罪
 <lb n="0266c10" ed="T"/>福即是覺，如損他覺為罪、益他覺為福。罪福
 <lb n="0266c11" ed="T"/>既是覺，故覺一罪福一。問：上破與今破何異？
@@ -3230,7 +3431,8 @@
 <lb n="0267a11" ed="T"/>有五難：一苦樂與覺一，則瓶瓫與陶師一，則
 <lb n="0267a12" ed="T"/>師一瓶瓫一。二覺與苦樂一，苦樂多則覺多，
 <lb n="0267a13" ed="T"/>亦師與瓶瓫一，瓶瓫既多師亦應多。例上五
-<lb n="0267a14" ed="T"/>可知也。</p><p xml:id="pT42p0267a1404" cb:place="inline">「外曰實有神比知相故」，此第五世師
+<lb n="0267a14" ed="T"/>可知也。</p>
+<p xml:id="pT42p0267a1404" cb:place="inline">「外曰實有神比知相故」，此第五世師
 <lb n="0267a15" ed="T"/>重出救義。來意亦三：一思道更生、二見論主
 <lb n="0267a16" ed="T"/>借異破一謂一有過異義無失、三別更有人也。
 <lb n="0267a17" ed="T"/>問：此立與初立何異？答初就異宗立，但異宗
@@ -3290,7 +3492,8 @@
 <lb n="0267c11" ed="T"/>手雖不取，欲取即能，是故異也。「內曰取非手
 <lb n="0267c12" ed="T"/>相」，以角峯為牛相、以指掌為手相，不以取為
 <lb n="0267c13" ed="T"/>手相。汝以知為神相，故非喻也。若無知相而
-<lb n="0267c14" ed="T"/>有神者，無指掌等相應當有手。</p><p xml:id="pT42p0267c1413" cb:place="inline">「外曰定有神
+<lb n="0267c14" ed="T"/>有神者，無指掌等相應當有手。</p>
+<p xml:id="pT42p0267c1413" cb:place="inline">「外曰定有神
 <lb n="0267c15" ed="T"/>覺苦樂故」，山中舊云：此第六勒沙婆人出論
 <lb n="0267c16" ed="T"/>義。見前偏執一異並皆有失，謂亦一亦異應無
 <lb n="0267c17" ed="T"/>有過，故出立義。又云：還是第二師重出論義。
@@ -3459,7 +3662,11 @@
 <pb n="0269c" ed="T" xml:id="T42.1827.0269c"/>
 <lb n="0269c01" ed="T"/>明知自知、神無知，亦應念自念、神無念。「若知
 <lb n="0269c02" ed="T"/>非神」者，神若能知則便成知，無復有神；神若
-<lb n="0269c03" ed="T"/>逐念則便成念，便無有神。「此事前已<note n="0269c0301" resp="CBETA" type="add" note_key="T42.0269c03.15">破【CB】，說【大】</note><app n="0269c0301"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">破<note type="cf1">K16n0581_p0555b21</note></lem><rdg wit="【大】">說</rdg></app>」者，初
+<lb n="0269c03" ed="T"/>逐念則便成念，便無有神。「此事前已<note 
+n="0269c0301" resp="CBETA" type="add" note_key="T42.0269c03.15">破【CB】，說【大】</note><app n="0269c0301">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">破<note type="cf1">K16n0581_p0555b21</note></lem>
+  <rdg wit="【大】">說</rdg>
+</app>」者，初
 <lb n="0269c04" ed="T"/>破衛世師中五番有此二過。有人言：若神無
 <lb n="0269c05" ed="T"/>知者，無能知也。若知非神者，知非神相也。又
 <lb n="0269c06" ed="T"/>釋此事前破者，如烟喻中，若無知時亦有神
@@ -3517,7 +3724,11 @@
 <lb n="0270a28" ed="T"/>何念」，神既遍，無生念理；神亦遍，不生見識之
 <lb n="0270a29" ed="T"/>理。「復次若念知」者，第四破也。若念故知、不念
 <pb n="0270b" ed="T" xml:id="T42.1827.0270b"/>
-<lb n="0270b01" ed="T"/>不知，此是念知，神則無用。眼看故見、不<note n="0270b0101" resp="CBETA" type="add" note_key="T42.0270b01.16">看【CB】，有【大】</note><app n="0270b0101"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">看<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第156圖左欄第8行）</note></lem><rdg wit="【大】">有</rdg></app>不
+<lb n="0270b01" ed="T"/>不知，此是念知，神則無用。眼看故見、不<note 
+n="0270b0101" resp="CBETA" type="add" note_key="T42.0270b01.16">看【CB】，有【大】</note><app n="0270b0101">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">看<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第156圖左欄第8行）</note></lem>
+  <rdg wit="【大】">有</rdg>
+</app>不
 <lb n="0270b02" ed="T"/>見，此是眼見，神無用也。此二復次指第四轉
 <lb n="0270b03" ed="T"/>中縱奪二破。「復次何不用耳見」，若言神見神
 <lb n="0270b04" ed="T"/>識，何不用左耳見、右耳識。「復次若爾盲」，若言
@@ -3668,7 +3879,11 @@
 <lb n="0271c29" ed="T"/>門破四；彼破四竟立小乘義，此論言而無當、
 <pb n="0272a" ed="T" xml:id="T42.1827.0272a"/>
 <lb n="0272a01" ed="T"/>破無所立。品開為二：初總立總破、次別立別
-<lb n="0272a02" ed="T"/>破。「外<note n="0272a0201" resp="CBETA" type="add" note_key="T42.0272a02.03">曰【CB】，日【大】</note><app n="0272a0201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">曰<note type="cf1">K16n0581_p0556a09</note></lem><rdg wit="【大】">日</rdg></app>應有神有一瓶等神所有故」者，上以
+<lb n="0272a02" ed="T"/>破。「外<note 
+n="0272a0201" resp="CBETA" type="add" note_key="T42.0272a02.03">曰【CB】，日【大】</note><app n="0272a0201">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">曰<note type="cf1">K16n0581_p0556a09</note></lem>
+  <rdg wit="【大】">日</rdg>
+</app>應有神有一瓶等神所有故」者，上以
 <lb n="0272a03" ed="T"/>神救神義既不立，今舉法救神也。有者總，於
 <lb n="0272a04" ed="T"/>萬法並皆有；瓶者此則是別。又外道頂有周
 <lb n="0272a05" ed="T"/>羅執云奇杖，修於淨法，多捉瓶行，故舉瓶興
@@ -3917,7 +4132,8 @@
 <lb n="0274c08" ed="T"/>破汝一體也。又子而為父、父而為子，則父子
 <lb n="0274c09" ed="T"/>無有定性。無有定性則空，乃同我上明空無
 <lb n="0274c10" ed="T"/>相義。故明無相門無十相，謂五塵生住滅及
-<lb n="0274c11" ed="T"/>男女也。</p><p xml:id="pT42p0274c1104" cb:place="inline">「外曰應有瓶皆信故」，自上已來第一
+<lb n="0274c11" ed="T"/>男女也。</p>
+<p xml:id="pT42p0274c1104" cb:place="inline">「外曰應有瓶皆信故」，自上已來第一
 <lb n="0274c12" ed="T"/>破自立三法一體竟，今第二破外人引他證
 <lb n="0274c13" ed="T"/>立。今前立、次破。立中不明三法一體，直言有
 <lb n="0274c14" ed="T"/>瓶者，有三種義：一世人未必皆執三法一體，
@@ -3935,7 +4151,12 @@
 <lb n="0274c26" ed="T"/>與萬物不異，汝用瓶盛水時應用一切物盛
 <lb n="0274c27" ed="T"/>水；一切物不堪盛水，則瓶亦應然，故瓶盛水
 <lb n="0274c28" ed="T"/>義壞，故一切無。瓶義既壞，餘物例然，故一
-<lb n="0274c29" ed="T"/>切無。又以常於無常則無常不成<note n="0274001" resp="Taisho" type="orig" place="foot text">〔無常〕－？</note><note n="0274001" resp="CBETA" type="mod">無常【大】，〔－〕【考偽-大】</note><app n="0274001"><lem resp="Taisho" wit="【大】">無常</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>，無
+<lb n="0274c29" ed="T"/>切無。又以常於無常則無常不成<note 
+n="0274001" resp="Taisho" type="orig" place="foot text">〔無常〕－？</note><note 
+n="0274001" resp="CBETA" type="mod">無常【大】，〔－〕【考偽-大】</note><app n="0274001">
+  <lem resp="Taisho" wit="【大】">無常</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>，無
 <lb n="0274c30" ed="T"/>常於常不成常，故云一切無。「外曰如足分
 <pb n="0275a" ed="T" xml:id="T42.1827.0275a"/>
 <lb n="0275a01" ed="T"/>等名身」，前破外總別，今破內總別，故外人舉
@@ -3994,7 +4215,12 @@
 <lb n="0275b24" ed="T"/>「何謂病本？謂有攀緣。云何斷攀緣？謂無所得。
 <lb n="0275b25" ed="T"/>云何無所得？謂內見外見是無所得。」令欲息
 <lb n="0275b26" ed="T"/>其病本，故歷法破之。「內曰眾亦如瓶」，此可二
-<lb n="0275b27" ed="T"/>意讀之：<note n="0275001" resp="Taisho" type="orig" place="foot text">一者眾終音＝眾終音一者？</note><note n="0275001" resp="CBETA" type="mod">一者眾終音【大】，眾終音一者【考偽-大】</note><app n="0275001"><lem resp="Taisho" wit="【大】">一者眾終音</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">眾終音一者</rdg></app>，明外人引事無究。今欲
+<lb n="0275b27" ed="T"/>意讀之：<note 
+n="0275001" resp="Taisho" type="orig" place="foot text">一者眾終音＝眾終音一者？</note><note 
+n="0275001" resp="CBETA" type="mod">一者眾終音【大】，眾終音一者【考偽-大】</note><app n="0275001">
+  <lem resp="Taisho" wit="【大】">一者眾終音</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">眾終音一者</rdg>
+</app>，明外人引事無究。今欲
 <lb n="0275b28" ed="T"/>遮其後救，明如是眾多猶為一類，並同瓶說。
 <lb n="0275b29" ed="T"/>二者外云軍林、內略軍林，二言總名為眾，並
 <pb n="0275c" ed="T" xml:id="T42.1827.0275c"/>
@@ -4011,7 +4237,8 @@
 <lb n="0275c11" ed="T"/>多，乃至見非一非多，如破有見無、破無見有
 <lb n="0275c12" ed="T"/>等，故並是汝過。我一無所受一亦不受多，如
 <lb n="0275c13" ed="T"/>是五句。又就汝覓一不得，何處有多？如是五
-<lb n="0275c14" ed="T"/>句。有無亦爾。</p><p xml:id="pT42p0275c1406" cb:place="inline">「外曰」下，品開三章。二段已竟，今
+<lb n="0275c14" ed="T"/>句。有無亦爾。</p>
+<p xml:id="pT42p0275c1406" cb:place="inline">「外曰」下，品開三章。二段已竟，今
 <lb n="0275c15" ed="T"/>是第三破總別因。若假實義，上來破假，今次
 <lb n="0275c16" ed="T"/>破實。前問、次答。外云：汝上但明塵多故瓶多、
 <lb n="0275c17" ed="T"/>分多故身多，但是破果；今既有因，必應有果。
@@ -4160,7 +4387,11 @@
 <lb n="0277b10" ed="T"/>是無、雖合而異故非是多。所以然者，瓶是自
 <lb n="0277b11" ed="T"/>體之名，有一從他受稱，從他受稱故瓶名有
 <lb n="0277b12" ed="T"/>一，而有一性恒非瓶故無多瓶。而瓶是當體
-<lb n="0277b13" ed="T"/>之名，不失<note n="0277b1301" resp="CBETA" type="add" note_key="T42.0277b13.05">己【CB】，已【大】</note><app n="0277b1301"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">己</lem><rdg wit="【大】">已</rdg></app>性故無無瓶。汝不可聞瓶名有
+<lb n="0277b13" ed="T"/>之名，不失<note 
+n="0277b1301" resp="CBETA" type="add" note_key="T42.0277b13.05">己【CB】，已【大】</note><app n="0277b1301">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>性故無無瓶。汝不可聞瓶名有
 <lb n="0277b14" ed="T"/>一即謂有一是瓶便有多瓶，亦不可聞有一
 <lb n="0277b15" ed="T"/>非瓶便謂瓶亦無體。大宗雖救有瓶，即是三
 <lb n="0277b16" ed="T"/>都立也。注前舉瓶與有合雙通二難：瓶與有
@@ -4283,7 +4514,8 @@
 <lb n="0278c13" ed="T"/>照，瓶亦自有不待外有，此捉瓶同燈。若瓶不
 <lb n="0278c14" ed="T"/>能自有須有有瓶，亦燈不能自照須照照燈。
 <lb n="0278c15" ed="T"/>次有顛倒之難，若瓶不自而燈自者，亦應燈
-<lb n="0278c16" ed="T"/>不自而瓶自也。</p><p xml:id="pT42p0278c1607" cb:place="inline">「外曰如身相」，自上已來破外
+<lb n="0278c16" ed="T"/>不自而瓶自也。</p>
+<p xml:id="pT42p0278c1607" cb:place="inline">「外曰如身相」，自上已來破外
 <lb n="0278c17" ed="T"/>總別；今第二破內總別，即明內外空義。上有
 <lb n="0278c18" ed="T"/>三破六關，今備救之。要須足為身相，足則有
 <lb n="0278c19" ed="T"/>用，非足無用；有足能了出身，非生於身，故無
@@ -4329,8 +4561,14 @@
 <lb n="0279a29" ed="T"/>復有分頭，則有分與分齊等，故名為一，則有
 <pb n="0279b" ed="T" xml:id="T42.1827.0279b"/>
 <lb n="0279b01" ed="T"/>兩頭八足之過。二者有分即是諸分，故名為
-<lb n="0279b02" ed="T"/>一，乃<note n="0279001" resp="Taisho" type="orig" place="foot text">至＝無？</note><note n="0279001" resp="CBETA" type="mod">至【大】，無【考偽-大】</note><app n="0279001"><lem resp="Taisho" wit="【大】">至</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">無</rdg></app>兩頭八足，則失有分、唯有諸分也。「是
-<lb n="0279b03" ed="T"/>故」下，總結也。</p><p xml:id="pT42p0279b0306" cb:place="inline">「如是足等」下，自上已來破麁總
+<lb n="0279b02" ed="T"/>一，乃<note 
+n="0279001" resp="Taisho" type="orig" place="foot text">至＝無？</note><note 
+n="0279001" resp="CBETA" type="mod">至【大】，無【考偽-大】</note><app n="0279001">
+  <lem resp="Taisho" wit="【大】">至</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">無</rdg>
+</app>兩頭八足，則失有分、唯有諸分也。「是
+<lb n="0279b03" ed="T"/>故」下，總結也。</p>
+<p xml:id="pT42p0279b0306" cb:place="inline">「如是足等」下，自上已來破麁總
 <lb n="0279b04" ed="T"/>別，今第二破細總別。足為有分指名為分，亦
 <lb n="0279b05" ed="T"/>應作分在具在破之。「有分無故諸分亦無」，自
 <lb n="0279b06" ed="T"/>上已來破麁細二總即是破有分竟，今第二
@@ -4509,10 +4747,16 @@
 <lb n="0281a29" ed="T"/>三世諸佛為欲開示悟入此智見故出現於
 <pb n="0281b" ed="T" xml:id="T42.1827.0281b"/>
 <lb n="0281b01" ed="T"/>世。此四智觸處皆得明之，但約眾生心為正
-<lb n="0281b02" ed="T"/>意，故就〈情品〉說之。</p><p xml:id="pT42p0281b0208" cb:place="inline">品開為二：一破眼情、二例
+<lb n="0281b02" ed="T"/>意，故就〈情品〉說之。</p>
+<p xml:id="pT42p0281b0208" cb:place="inline">品開為二：一破眼情、二例
 <lb n="0281b03" ed="T"/>餘五。初又二：初破情令生知、二正破情。初是
 <lb n="0281b04" ed="T"/>破果、次名破因，因果既破，情事盡矣。「外曰定
-<lb n="0281b05" ed="T"/>有<note n="0281001" resp="Taisho" type="orig" place="foot text">〔我〕－？</note><note n="0281001" resp="CBETA" type="mod">我【大】，〔－〕【考偽-大】</note><app n="0281001"><lem resp="Taisho" wit="【大】">我</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>我所有法現前有故」，〈破一品〉初以法證
+<lb n="0281b05" ed="T"/>有<note 
+n="0281001" resp="Taisho" type="orig" place="foot text">〔我〕－？</note><note 
+n="0281001" resp="CBETA" type="mod">我【大】，〔－〕【考偽-大】</note><app n="0281001">
+  <lem resp="Taisho" wit="【大】">我</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>我所有法現前有故」，〈破一品〉初以法證
 <lb n="0281b06" ed="T"/>人，今此品初以法證法。定有我所者，謂有一
 <lb n="0281b07" ed="T"/>瓶也。有法現前有故者，舉五情生知，證有一
 <lb n="0281b08" ed="T"/>瓶等我所法也。現前者，五識知現在法也。又
@@ -4615,7 +4859,8 @@
 <lb n="0282b15" ed="T"/>若是眼，自應能見。又自不見而是眼，則見他
 <lb n="0282b16" ed="T"/>應非眼。又三節是指相，何異見是眼相？今無
 <lb n="0282b17" ed="T"/>見遂有眼，無三節應有指。若取指動搖為指
-<lb n="0282b18" ed="T"/>相，亦應取眼開閉為眼相。</p><p xml:id="pT42p0282b1811" cb:place="inline">「外曰光意去故見
+<lb n="0282b18" ed="T"/>相，亦應取眼開閉為眼相。</p>
+<p xml:id="pT42p0282b1811" cb:place="inline">「外曰光意去故見
 <lb n="0282b19" ed="T"/>色」，第三重破到不到。所以重破到不到者，外
 <lb n="0282b20" ed="T"/>人聞內初作到不到破，當時辭理俱屈無以
 <lb n="0282b21" ed="T"/>取通，但云眼體性能見，論主乘言仍責見相
@@ -4629,7 +4874,11 @@
 <lb n="0282b29" ed="T"/>外道。外看內面是死，外道何能言論。又亦應
 <pb n="0282c" ed="T" xml:id="T42.1827.0282c"/>
 <lb n="0282c01" ed="T"/>云：眼光若去，眼體無光，是盲外道。注為二：前
-<lb n="0282c02" ed="T"/>釋偈本。「然意實不去」<note n="0282c0201" resp="CBETA" type="add" note_key="T42.0282c02.09">下【CB】，不【大】</note><app n="0282c0201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">下<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第211圖右欄第4行）</note></lem><rdg wit="【大】">不</rdg></app>，有兩義釋意不去：一
+<lb n="0282c02" ed="T"/>釋偈本。「然意實不去」<note 
+n="0282c0201" resp="CBETA" type="add" note_key="T42.0282c02.09">下【CB】，不【大】</note><app n="0282c0201">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">下<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第211圖右欄第4行）</note></lem>
+  <rdg wit="【大】">不</rdg>
+</app>，有兩義釋意不去：一
 <lb n="0282c03" ed="T"/>者近遠一時，知非是去法。二者過去已謝，意
 <lb n="0282c04" ed="T"/>若遂去，意亦應謝；未來未起，意緣未來亦應
 <lb n="0282c05" ed="T"/>未起。而實不爾，故知不去。「外曰如意在身」，通
@@ -4688,7 +4937,8 @@
 <lb n="0283a28" ed="T"/>不實皆絕」，即其證也。問：此品破何等塵？答：遍
 <lb n="0283a29" ed="T"/>破內外大小諸塵。但內外釋塵不同，開十二
 <pb n="0283b" ed="T" xml:id="T42.1827.0283b"/>
-<lb n="0283b01" ed="T"/>入義，今略述之。</p><p xml:id="pT42p0283b0107" cb:place="inline">品開為三：第一破塵法、第二
+<lb n="0283b01" ed="T"/>入義，今略述之。</p>
+<p xml:id="pT42p0283b0107" cb:place="inline">品開為三：第一破塵法、第二
 <lb n="0283b02" ed="T"/>破塵時、第三明得益。初又二：第一破外道計
 <lb n="0283b03" ed="T"/>塵、第二破內學計塵。初亦是破所造塵果、次
 <lb n="0283b04" ed="T"/>破能造大因。就初又二：第一前破色塵、第二
@@ -4743,7 +4993,8 @@
 <lb n="0283c23" ed="T"/>見五塵，則眼根中應具五根。又一分是色、一切
 <lb n="0283c24" ed="T"/>名瓶，瓶是有分、色名為分。若見分即見有分，
 <lb n="0283c25" ed="T"/>則分有分一，如〈破一〉、〈破異〉中說。若分與有分
-<lb n="0283c26" ed="T"/>異，今見分云何見有分耶？</p><p xml:id="pT42p0283c2611" cb:place="inline">「外曰有瓶可見受
+<lb n="0283c26" ed="T"/>異，今見分云何見有分耶？</p>
+<p xml:id="pT42p0283c2611" cb:place="inline">「外曰有瓶可見受
 <lb n="0283c27" ed="T"/>色現見故」，自上已來破瓶是現見，破外道人
 <lb n="0283c28" ed="T"/>及世俗義竟。今第二破色是現見，通破一切
 <lb n="0283c29" ed="T"/>內外。今救意是捉破為立。上立義云瓶是現
@@ -4805,7 +5056,8 @@
 <lb n="0284b25" ed="T"/>眼見，故《智度論》反覆破之。若有極微色則有
 <lb n="0284b26" ed="T"/>十方分，若有十方分則有見此不見彼。又有
 <lb n="0284b27" ed="T"/>十方分不名為極微，若無十方分則不名為
-<lb n="0284b28" ed="T"/>色也。</p><p xml:id="pT42p0284b2803" cb:place="inline">「外曰瓶應現見世人信故」，自上已來破
+<lb n="0284b28" ed="T"/>色也。</p>
+<p xml:id="pT42p0284b2803" cb:place="inline">「外曰瓶應現見世人信故」，自上已來破
 <lb n="0284b29" ed="T"/>外人自立義宗，從麁至細一章竟也。今第二
 <pb n="0284c" ed="T" xml:id="T42.1827.0284c"/>
 <lb n="0284c01" ed="T"/>破外人舉他證有現見。今前立義。問：品初已
@@ -4840,7 +5092,11 @@
 <pb n="0285a" ed="T" xml:id="T42.1827.0285a"/>
 <lb n="0285a01" ed="T"/>見」，第四，前破無現見則無瓶，今破有瓶必現
 <lb n="0285a02" ed="T"/>見。又此文結成上破，以無現見時有瓶，故知
-<lb n="0285a03" ed="T"/>瓶非現見。「外曰眼<note n="0285a0301" resp="CBETA" type="add" note_key="T42.0285a03.08">〔－〕【CB】，未【大】</note><app n="0285a0301"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)"><space quantity="0"/><note type="cf1">K16n0581_p0556a09</note></lem><rdg wit="【大】">未</rdg></app>合故無過」，將此文望前
+<lb n="0285a03" ed="T"/>瓶非現見。「外曰眼<note 
+n="0285a0301" resp="CBETA" type="add" note_key="T42.0285a03.08">〔－〕【CB】，未【大】</note><app n="0285a0301">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)"><space quantity="0"/><note type="cf1">K16n0581_p0556a09</note></lem>
+  <rdg wit="【大】">未</rdg>
+</app>合故無過」，將此文望前
 <lb n="0285a04" ed="T"/>諸解並非。問答今明外人救上二過，明瓶體
 <lb n="0285a05" ed="T"/>是現見法，是故有瓶必現見。內義亦然，如云
 <lb n="0285a06" ed="T"/>二法攝一切法，謂可見、不可見法，色等屬可
@@ -4986,12 +5242,18 @@
 <lb n="0286b26" ed="T"/>火中四大」下，第二破。以火中四大都成熱，故
 <lb n="0286b27" ed="T"/>失餘三大，是故火不為四身。問：此應言三大
 <lb n="0286b28" ed="T"/>都成熱，云何言火不為四身？答：二義。一者火
-<lb n="0286b29" ed="T"/><note n="0286001" resp="Taisho" type="orig" place="foot text">火＝大？</note><note n="0286001" resp="CBETA" type="mod">火【大】，大【考偽-大】</note><app n="0286001"><lem resp="Taisho" wit="【大】">火</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">大</rdg></app>中都成熱，無復四身，故言不為四身。二者
+<lb n="0286b29" ed="T"/><note 
+n="0286001" resp="Taisho" type="orig" place="foot text">火＝大？</note><note 
+n="0286001" resp="CBETA" type="mod">火【大】，大【考偽-大】</note><app n="0286001">
+  <lem resp="Taisho" wit="【大】">火</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">大</rdg>
+</app>中都成熱，無復四身，故言不為四身。二者
 <pb n="0286c" ed="T" xml:id="T42.1827.0286c"/>
 <lb n="0286c01" ed="T"/>三大同火成熱，火不同餘三，故云火不為四
 <lb n="0286c02" ed="T"/>身。「若餘不熱不名為火」者，前得火失三，今得
 <lb n="0286c03" ed="T"/>三失火。「是故火不為四身」，還重結成偈本火
-<lb n="0286c04" ed="T"/>中一切熱耳。</p><p xml:id="pT42p0286c0406" cb:place="inline">「外曰色應現見現在時有故」，自
+<lb n="0286c04" ed="T"/>中一切熱耳。</p>
+<p xml:id="pT42p0286c0406" cb:place="inline">「外曰色應現見現在時有故」，自
 <lb n="0286c05" ed="T"/>上以來第一破內外可見法，今第二次破於時。
 <lb n="0286c06" ed="T"/>今時法都寂，則一切皆空。外云：過未二時不
 <lb n="0286c07" ed="T"/>得取色，正是現在時取。既有取色之時，寧無
@@ -5024,7 +5286,8 @@
 <lb n="0287a04" ed="T"/>者，破故也。新相反異，所以為故，有何定故
 <lb n="0287a05" ed="T"/>也？注釋為二：初正破新故、次結歸真俗。初又
 <lb n="0287a06" ed="T"/>二：前逐近釋異故故。「若故相生」，次釋生故新。
-<lb n="0287a07" ed="T"/>結歸二諦也，如文。</p><p xml:id="pT42p0287a0708" cb:place="inline">「外曰若爾得何利」，自上已
+<lb n="0287a07" ed="T"/>結歸二諦也，如文。</p>
+<p xml:id="pT42p0287a0708" cb:place="inline">「外曰若爾得何利」，自上已
 <lb n="0287a08" ed="T"/>來二章破無時法，今第三次明得益。此文來
 <lb n="0287a09" ed="T"/>有遠近。遠者，從初品至此品一切皆破，有何
 <lb n="0287a10" ed="T"/>利？近者，外謂法有四時可益眾生；今既無，此
@@ -5117,7 +5380,8 @@
 <lb n="0288a09" ed="T"/>果無果？答：有無障中道故、是諸見根故、眾生
 <lb n="0288a10" ed="T"/>多執故、盛行於世故也。又僧佉二十五諦因
 <lb n="0288a11" ed="T"/>中有果為宗、世師六諦因中無果為宗，今破
-<lb n="0288a12" ed="T"/>其大宗則枝條自破也。</p><p xml:id="pT42p0288a1210" cb:place="inline">品開為四：一破外人
+<lb n="0288a12" ed="T"/>其大宗則枝條自破也。</p>
+<p xml:id="pT42p0288a1210" cb:place="inline">品開為四：一破外人
 <lb n="0288a13" ed="T"/>有不失義、二破舉因證有果義、三破各取因
 <lb n="0288a14" ed="T"/>證有果義、四破橫過論主斷滅見義。「外曰諸
 <lb n="0288a15" ed="T"/>法非不住」，立有三意：一彈論主、二自立宗、三
@@ -5208,7 +5472,8 @@
 <lb n="0289a10" ed="T"/>常是罪，故無福；福亦爾。又若無無常，亦無有
 <lb n="0289a11" ed="T"/>常，則一切無。又若無有失，則煩惱永不可失，
 <lb n="0289a12" ed="T"/>無得解脫。又罪若不失，福亦不生，則一切法
-<lb n="0289a13" ed="T"/>猶如虛空，則不生不滅。</p><p xml:id="pT42p0289a1310" cb:place="inline">「外曰因中前有果」下，
+<lb n="0289a13" ed="T"/>猶如虛空，則不生不滅。</p>
+<p xml:id="pT42p0289a1310" cb:place="inline">「外曰因中前有果」下，
 <lb n="0289a14" ed="T"/>自上已來第一破彼二十五諦大宗，明有不失
 <lb n="0289a15" ed="T"/>義；今第二正破因中前有果。今外前舉因有，
 <lb n="0289a16" ed="T"/>證因中有果；若無果，與非因不異。今既有因，
@@ -5221,7 +5486,11 @@
 <lb n="0289a23" ed="T"/>壞不言因中無，亦見果成不說因中有。又例
 <lb n="0289a24" ed="T"/>並云：若見後時無而因中前有者，亦見後有
 <lb n="0289a25" ed="T"/>應因中無。又無非因中無，乃是後時無，則無
-<lb n="0289a26" ed="T"/>自然<note n="0289a2601" resp="CBETA" type="add" note_key="T42.0289a26.03">無【CB】，為【大】</note><app n="0289a2601"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">無<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第238圖左欄第4行）</note></lem><rdg wit="【大】">為</rdg></app>，亦當有是自然有。又若因中本無此無、
+<lb n="0289a26" ed="T"/>自然<note 
+n="0289a2601" resp="CBETA" type="add" note_key="T42.0289a26.03">無【CB】，為【大】</note><app n="0289a2601">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">無<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第238圖左欄第4行）</note></lem>
+  <rdg wit="【大】">為</rdg>
+</app>，亦當有是自然有。又若因中本無此無、
 <lb n="0289a27" ed="T"/>後方無者，亦因中本無此有、後自有耳。「外曰
 <lb n="0289a28" ed="T"/>因果一故」，救上因中無果義。我因果體一，壞
 <lb n="0289a29" ed="T"/>因為果既不無因，今果破壞豈是無果？如變
@@ -5263,7 +5532,8 @@
 <lb n="0289c05" ed="T"/>義。又因中無麁，則麁果從非因生。又汝有義
 <lb n="0289c06" ed="T"/>定細亦應定因，內有細應還生細果。又若麁
 <lb n="0289c07" ed="T"/>細不定，有亦不定。又因中有果麁細並有，即
-<lb n="0289c08" ed="T"/>應並生；又若生麁不生細，則麁有而細無。</p><p xml:id="pT42p0289c0817" cb:place="inline">「外
+<lb n="0289c08" ed="T"/>應並生；又若生麁不生細，則麁有而細無。</p>
+<p xml:id="pT42p0289c0817" cb:place="inline">「外
 <lb n="0289c09" ed="T"/>曰因中應有果各取因故」，第三破外人各取因
 <lb n="0289c10" ed="T"/>證有果。與前第二番異者，前直明因有故證
 <lb n="0289c11" ed="T"/>有果，此簡異因非因；今明各取因者，就因簡。
@@ -5360,7 +5630,8 @@
 <lb n="0290c12" ed="T"/>起。如他云實滅不常、假續不斷，雖無斷常而
 <lb n="0290c13" ed="T"/>有生滅。是故今明既無斷常即不生滅，故次
 <lb n="0290c14" ed="T"/>破生滅。上破斷常，破外道義；今破假實生滅，
-<lb n="0290c15" ed="T"/>破內道義，故生此品。</p><p xml:id="pT42p0290c1509" cb:place="inline">品有五段：第一破外人
+<lb n="0290c15" ed="T"/>破內道義，故生此品。</p>
+<p xml:id="pT42p0290c1509" cb:place="inline">品有五段：第一破外人
 <lb n="0290c16" ed="T"/>能生證有可生因果義、第二破外可生證有
 <lb n="0290c17" ed="T"/>能生義、第三破外人雙舉生可生證有諸法
 <lb n="0290c18" ed="T"/>義、第四破舉滅證有生義、第五破引因果證
@@ -5400,7 +5671,8 @@
 <lb n="0291a22" ed="T"/>因中前有果，不須生相生；因中先無果，生相
 <lb n="0291a23" ed="T"/>不能生，故無生相也。「何況無生」下，釋偈本
 <lb n="0291a24" ed="T"/>中「無生」字，以有生相於有果無果尚不能生
-<lb n="0291a25" ed="T"/>法體，況無生相能生法體也。</p><p xml:id="pT42p0291a2512" cb:place="inline">「汝若有瓶生」下，
+<lb n="0291a25" ed="T"/>法體，況無生相能生法體也。</p>
+<p xml:id="pT42p0291a2512" cb:place="inline">「汝若有瓶生」下，
 <lb n="0291a26" ed="T"/>第二就法體已有未有生相不能生。就此中
 <lb n="0291a27" ed="T"/>有兩復次。就瓶有二初、泥有二後，顯法體有
 <lb n="0291a28" ed="T"/>無明生相不能生。瓶有二初者：一瓶初成竟
@@ -5417,7 +5689,8 @@
 <lb n="0291b09" ed="T"/>生瓶之生也。「瓶初瓶時」下，開二關定也。瓶初
 <lb n="0291b10" ed="T"/>者，作瓶成初也。瓶時者，既是瓶成，即是瓶時
 <lb n="0291b11" ed="T"/>也。「為泥團後」者，造泥始竟名為泥後。「非瓶時」
-<lb n="0291b12" ed="T"/>者，既是泥團，未有於瓶，故云非瓶時也。</p><p xml:id="pT42p0291b1216" cb:place="inline">「若瓶
+<lb n="0291b12" ed="T"/>者，既是泥團，未有於瓶，故云非瓶時也。</p>
+<p xml:id="pT42p0291b1216" cb:place="inline">「若瓶
 <lb n="0291b13" ed="T"/>初」下，第三雙難，即為兩別。初又四：一牒。「是事
 <lb n="0291b14" ed="T"/>不然」下，總非。「何以故」下，正作難。既是瓶竟則
 <lb n="0291b15" ed="T"/>已有，不須生相生也。「是初中後共相因待」者，
@@ -5436,11 +5709,20 @@
 <lb n="0291b28" ed="T"/>作難破二，即二文，易見也。「外曰生時生故無
 <lb n="0291b29" ed="T"/>咎」，上就二門已未破之。一就生相已未不能
 <pb n="0291c" ed="T" xml:id="T42.1827.0291c"/>
-<lb n="0291c01" ed="T"/>生法體，次就法體<note n="0291001" resp="Taisho" type="orig" place="foot text">明於已未＝已未明於？</note><note n="0291001" resp="CBETA" type="mod">明於已未【大】，已未明於【考偽-大】</note><app n="0291001"><lem resp="Taisho" wit="【大】">明於已未</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">已未明於</rdg></app>生相不能生。外
+<lb n="0291c01" ed="T"/>生法體，次就法體<note 
+n="0291001" resp="Taisho" type="orig" place="foot text">明於已未＝已未明於？</note><note 
+n="0291001" resp="CBETA" type="mod">明於已未【大】，已未明於【考偽-大】</note><app n="0291001">
+  <lem resp="Taisho" wit="【大】">明於已未</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">已未明於</rdg>
+</app>生相不能生。外
 <lb n="0291c02" ed="T"/>今避二種已未，立生時有生。正量部人多用
 <lb n="0291c03" ed="T"/>此義。「內曰生時亦如是」者，點於生時還同已
 <lb n="0291c04" ed="T"/>未。生時始起未全，始起謂半有，未全則半
-<lb n="0291c05" ed="T"/>空，故還同已未。「外<note n="0291c0501" resp="CBETA" type="add" note_key="T42.0291c05.08">曰生【CB】，生曰【大】</note><app n="0291c0501"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">曰生<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第238圖左欄第4行）</note><note type="cf2">K16n0581_p0562c18</note></lem><rdg wit="【大】">生曰</rdg></app>成一義故」，自上已來
+<lb n="0291c05" ed="T"/>空，故還同已未。「外<note 
+n="0291c0501" resp="CBETA" type="add" note_key="T42.0291c05.08">曰生【CB】，生曰【大】</note><app n="0291c0501">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">曰生<note type="cf1">《百論疏》（同志社大學藏延寶8年刊本第238圖左欄第4行）</note><note type="cf2">K16n0581_p0562c18</note></lem>
+  <rdg wit="【大】">生曰</rdg>
+</app>成一義故」，自上已來
 <lb n="0291c06" ed="T"/>二問答：初一問答破已未生、次問答破生時
 <lb n="0291c07" ed="T"/>生，都破三時生竟。夫論有生，不出三世，三世
 <lb n="0291c08" ed="T"/>既無，生義盡矣。外理屈辭窮無以能救，但就
@@ -5504,7 +5786,12 @@
 <lb n="0292b06" ed="T"/>事不然」，第二總非。「如是生生」下，第三正破，初
 <lb n="0292b07" ed="T"/>破法、次破譬。如是生生者，諸百論師云偏牒
 <lb n="0292b08" ed="T"/>小生也。今謂不爾，雙牒大小二生，故云生生。
-<lb n="0292b09" ed="T"/>此大小二生二俱有<note n="0292001" resp="Taisho" type="orig" place="foot text">〔也〕－？</note><note n="0292001" resp="CBETA" type="mod">也【大】，〔－〕【考偽-大】</note><app n="0292001"><lem resp="Taisho" wit="【大】">也</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>，不須相生。如其俱無，
+<lb n="0292b09" ed="T"/>此大小二生二俱有<note 
+n="0292001" resp="Taisho" type="orig" place="foot text">〔也〕－？</note><note 
+n="0292001" resp="CBETA" type="mod">也【大】，〔－〕【考偽-大】</note><app n="0292001">
+  <lem resp="Taisho" wit="【大】">也</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>，不須相生。如其俱無，
 <lb n="0292b10" ed="T"/>無可相生。半有同有，半無同無。又俱有但能
 <lb n="0292b11" ed="T"/>非所，俱無但所非能，兩半還同前二。而文云
 <lb n="0292b12" ed="T"/>「因中前有相待」者，大小互為因果、互相待也。
@@ -5519,7 +5806,8 @@
 <lb n="0292b21" ed="T"/>破子喻於小，今破父喻於大。父更從父，大不
 <lb n="0292b22" ed="T"/>從大，故亦非喻。若有論本「如父前有」，此文亦
 <lb n="0292b23" ed="T"/>是也。何以知然？彼以子喻小生、父喻大生，只
-<lb n="0292b24" ed="T"/>此子能生子，即是父義，故云如父先有。</p><p xml:id="pT42p0292b2416" cb:place="inline">「外曰
+<lb n="0292b24" ed="T"/>此子能生子，即是父義，故云如父先有。</p>
+<p xml:id="pT42p0292b2416" cb:place="inline">「外曰
 <lb n="0292b25" ed="T"/>定有生可生法有故」，自上已來破能生證有
 <lb n="0292b26" ed="T"/>所生竟，今第二破外可生證有能生。外立二
 <lb n="0292b27" ed="T"/>義：一舉可生而證有生；二見內借所破能便
@@ -5725,7 +6013,8 @@
 <lb n="0294c16" ed="T"/>何異？答：今明兩非二是，皆是方便用。如〈法品〉
 <lb n="0294c17" ed="T"/>明實不實四句並是實相家門，常無常四句亦
 <lb n="0294c18" ed="T"/>是涅槃門。而上以二非為體、兩是為用，此對
-<lb n="0294c19" ed="T"/>偏病作此語耳。</p><p xml:id="pT42p0294c1907" cb:place="inline">此品為二：一總破常、二別破
+<lb n="0294c19" ed="T"/>偏病作此語耳。</p>
+<p xml:id="pT42p0294c1907" cb:place="inline">此品為二：一總破常、二別破
 <lb n="0294c20" ed="T"/>常。「外曰應有諸法無因法不破故」，上就有因
 <lb n="0294c21" ed="T"/>救有因，今舉無因法證有因。舉無因釋成常
 <lb n="0294c22" ed="T"/>義也。有因法可破，無因法常、不可破；既有於
@@ -5791,7 +6080,8 @@
 <lb n="0295b22" ed="T"/>注為二：初釋偈本；二從「如是」下，結前發後。釋
 <lb n="0295b23" ed="T"/>偈本同異破即二：前釋異破；「復次」下，釋同破。
 <lb n="0295b24" ed="T"/>「如是遍常不遍常悉已總破」者，遍不遍乃異、
-<lb n="0295b25" ed="T"/>常義是同，既已破常則破遍不遍也。</p><p xml:id="pT42p0295b2515" cb:place="inline">「外曰定
+<lb n="0295b25" ed="T"/>常義是同，既已破常則破遍不遍也。</p>
+<p xml:id="pT42p0295b2515" cb:place="inline">「外曰定
 <lb n="0295b26" ed="T"/>有虛空」，第二別破五常。前總後別，觀門次第，
 <lb n="0295b27" ed="T"/>亦是立義之方。又是前總破內外一切諸常，
 <lb n="0295b28" ed="T"/>今別略破五常。即五：一破空常、二破時常、三
@@ -5872,7 +6162,13 @@
 <lb n="0296b13" ed="T"/>立中為二：初三句牒體，一虛空是有、二遍、三
 <lb n="0296b14" ed="T"/>常也。「有作故」下，第二舉用證體。空有容納之
 <lb n="0296b15" ed="T"/>用，故得有舉下去來施為造作。若無容納之
-<lb n="0296b16" ed="T"/>用，<note n="0296001" resp="Taisho" type="orig" place="foot text">使＝便？</note><note n="0296001" resp="CBETA" type="mod" note_key="T42.0296b16.02">便【CB】【考偽-大】，使【大】</note><app n="0296001"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">便</lem><rdg wit="【大】">使</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">便</rdg></app>不得有所造作。「內曰不然虛空處虛空」，
+<lb n="0296b16" ed="T"/>用，<note 
+n="0296001" resp="Taisho" type="orig" place="foot text">使＝便？</note><note 
+n="0296001" resp="CBETA" type="mod" note_key="T42.0296b16.02">便【CB】【考偽-大】，使【大】</note><app n="0296001">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">便</lem>
+  <rdg wit="【大】">使</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">便</rdg>
+</app>不得有所造作。「內曰不然虛空處虛空」，
 <lb n="0296b17" ed="T"/>內有二破，並責虛空住處。所以責住處者，外
 <lb n="0296b18" ed="T"/>既云有法住虛空中得有造作，則空是有物
 <lb n="0296b19" ed="T"/>住處，故今次問虛空。虛空既是一法，亦應有
@@ -5913,7 +6209,8 @@
 <lb n="0296c24" ed="T"/>無耳。問：提婆何故不破相耶？答：二論主制作
 <lb n="0296c25" ed="T"/>更相開避。《中論．六種品》已廣破相，故提婆不
 <lb n="0296c26" ed="T"/>更破之。但天親欲破虛空三義：一體、二用、三
-<lb n="0296c27" ed="T"/>相，對前破二，故義生破相耳。</p><p xml:id="pT42p0296c2712" cb:place="inline">「外曰有時法常
+<lb n="0296c27" ed="T"/>相，對前破二，故義生破相耳。</p>
+<p xml:id="pT42p0296c2712" cb:place="inline">「外曰有時法常
 <lb n="0296c28" ed="T"/>相有故」，第二次破時常。次虛空破時者，外道
 <lb n="0296c29" ed="T"/>情近與世人同，既見恒有四時則謂時常。此
 <pb n="0297a" ed="T" xml:id="T42.1827.0297a"/>
@@ -6063,7 +6360,8 @@
 <lb n="0298b24" ed="T"/>開兩關問之。一云：若未來未來則無瓶相，以
 <lb n="0298b25" ed="T"/>瓶是未來名一未來，復未有此瓶復名未來。
 <lb n="0298b26" ed="T"/>若爾，便無未來。若未來不未來已有瓶相，便
-<lb n="0298b27" ed="T"/>是現在，汝不應言未來行未有之相。</p><p xml:id="pT42p0298b2715" cb:place="inline">「外曰實
+<lb n="0298b27" ed="T"/>是現在，汝不應言未來行未有之相。</p>
+<p xml:id="pT42p0298b2715" cb:place="inline">「外曰實
 <lb n="0298b28" ed="T"/>有方常相有故」，次時破方者，方相麁顯，道俗
 <lb n="0298b29" ed="T"/>共知，故次時破之。《智度論》云「汝四法藏中無
 <pb n="0298c" ed="T" xml:id="T42.1827.0298c"/>
@@ -6099,7 +6397,8 @@
 <pb n="0299a" ed="T" xml:id="T42.1827.0299a"/>
 <lb n="0299a01" ed="T"/>天下說方相，故一天下方定，無有不定過。「內
 <lb n="0299a02" ed="T"/>曰若爾有邊」，乃免三難而墮有邊，有邊則無
-<lb n="0299a03" ed="T"/>常，無常故無方。</p><p xml:id="pT42p0299a0307" cb:place="inline">「外曰雖無遍常」下，第四破微
+<lb n="0299a03" ed="T"/>常，無常故無方。</p>
+<p xml:id="pT42p0299a0307" cb:place="inline">「外曰雖無遍常」下，第四破微
 <lb n="0299a04" ed="T"/>塵常。微塵至細，世間不知，唯外道所執，故次
 <lb n="0299a05" ed="T"/>三常後破於微塵。又前破三種遍常，今次破
 <lb n="0299a06" ed="T"/>不遍。以遍義明常明顯，故前破；不遍明常義
@@ -6166,7 +6465,8 @@
 <lb n="0299c07" ed="T"/>明微塵是色則有方圜長短，有方圜長短則
 <lb n="0299c08" ed="T"/>是有分，若無長短則非是色。此與《智度論》同。
 <lb n="0299c09" ed="T"/>若有極微色則有十方分，若有十方分則不
-<lb n="0299c10" ed="T"/>名極微，若無十方分則不名為色。</p><p xml:id="pT42p0299c1014" cb:place="inline">「外曰有涅
+<lb n="0299c10" ed="T"/>名極微，若無十方分則不名為色。</p>
+<p xml:id="pT42p0299c1014" cb:place="inline">「外曰有涅
 <lb n="0299c11" ed="T"/>槃法常無煩惱涅槃不異故」，第五最後破涅
 <lb n="0299c12" ed="T"/>槃者，上四種明世間常，今是出世常。以世間
 <lb n="0299c13" ed="T"/>人不知，唯出世人知，義最隱昧，故後破之。又
@@ -6406,7 +6706,8 @@
 <lb n="0302b12" ed="T"/>為真實性。上並破此三性竟，今復破空，豈非
 <lb n="0302b13" ed="T"/>破三無性耶？亦是論主自明，非余橫造也。問：
 <lb n="0302b14" ed="T"/>二無我、三無性並破，欲明何物耶？答：道豈是
-<lb n="0302b15" ed="T"/>我無我、性無性耶？如是五句，自可知也。</p><p xml:id="pT42p0302b1516" cb:place="inline">又序
+<lb n="0302b15" ed="T"/>我無我、性無性耶？如是五句，自可知也。</p>
+<p xml:id="pT42p0302b1516" cb:place="inline">又序
 <lb n="0302b16" ed="T"/>此品來意者，非但結成提婆一期出世意，亦
 <lb n="0302b17" ed="T"/>是重結釋龍樹出世意。以人講龍樹四論不
 <lb n="0302b18" ed="T"/>識論意，是故提婆破外道竟，更撰斯論申明龍
@@ -6431,7 +6732,8 @@
 <lb n="0302c07" ed="T"/>滅義也。又釋諸方等經不斷煩惱亦不與俱，
 <lb n="0302c08" ed="T"/>以不立故不俱、無所破不斷，如是一切義類
 <lb n="0302c09" ed="T"/>可知。吉藏昔在江左陳此品有十七條，老年
-<lb n="0302c10" ed="T"/>多忘，故略述一二數耳。</p><p xml:id="pT42p0302c1010" cb:place="inline">所言破空品者，凡有
+<lb n="0302c10" ed="T"/>多忘，故略述一二數耳。</p>
+<p xml:id="pT42p0302c1010" cb:place="inline">所言破空品者，凡有
 <lb n="0302c11" ed="T"/>二義：一者諸外道等執萬化為有，上求之無
 <lb n="0302c12" ed="T"/>從，故人法並空便墮空見。今破外人橫謂之
 <lb n="0302c13" ed="T"/>空，故名破空。故《涅槃》云「眾生起見凡有二種，
@@ -6461,7 +6763,8 @@
 <lb n="0303a07" ed="T"/>門。答：教本詮理，既得見月，何須指耶？問：若爾，
 <lb n="0303a08" ed="T"/>後應不明二諦。答：若了悟者，亦無須二諦。又
 <lb n="0303a09" ed="T"/>上來破外道四句無遺，壅障始除，方得申明
-<lb n="0303a10" ed="T"/>二諦。</p><p xml:id="pT42p0303a1003" cb:place="inline">品開為二：一破外道斷滅空、第二申二
+<lb n="0303a10" ed="T"/>二諦。</p>
+<p xml:id="pT42p0303a1003" cb:place="inline">品開為二：一破外道斷滅空、第二申二
 <lb n="0303a11" ed="T"/>諦中道結論旨歸。所以有此二者，自上已來
 <lb n="0303a12" ed="T"/>破其有病，今此品次破空病。然此想謂空有
 <lb n="0303a13" ed="T"/>障佛二諦，要須前破壅障始得申明二諦也。
@@ -6590,7 +6893,11 @@
 <lb n="0304b16" ed="T"/>難。「汝著破故」者，明外人上來實無可破而著
 <lb n="0304b17" ed="T"/>可破，亦實無能破今著能破，即是罪重鈍根
 <lb n="0304b18" ed="T"/>也。又釋：明外道有四癡。一者是無立謂立，是
-<lb n="0304b19" ed="T"/>一癡。二者此品復無破謂有破，是二癡。<note n="0304b1901" resp="CBETA" type="add" note_key="T42.0304b19.16">三【CB】，二【大】</note><app n="0304b1901"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">三</lem><rdg wit="【大】">二</rdg></app>者
+<lb n="0304b19" ed="T"/>一癡。二者此品復無破謂有破，是二癡。<note 
+n="0304b1901" resp="CBETA" type="add" note_key="T42.0304b19.16">三【CB】，二【大】</note><app n="0304b1901">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2023-02-15)">三</lem>
+  <rdg wit="【大】">二</rdg>
+</app>者
 <lb n="0304b20" ed="T"/>復將有無二破欲破此破，是三癡。四者此三
 <lb n="0304b21" ed="T"/>並是外道自謂，而今安置論主上，此是四癡
 <lb n="0304b22" ed="T"/>也。此四癡並各反擲答。次天親還用外道二
@@ -6621,7 +6928,8 @@
 <lb n="0304c17" ed="T"/>無，復有能無之無，是故有能破可破也。故今
 <lb n="0304c18" ed="T"/>明如人言無，此是實無，以無能無所故名為
 <lb n="0304c19" ed="T"/>無，非是將一無以無前物。「破可破亦如是」者，
-<lb n="0304c20" ed="T"/>第六總答合上義。</p><p xml:id="pT42p0304c2008" cb:place="inline">「外曰應有諸法執此彼故」，
+<lb n="0304c20" ed="T"/>第六總答合上義。</p>
+<p xml:id="pT42p0304c2008" cb:place="inline">「外曰應有諸法執此彼故」，
 <lb n="0304c21" ed="T"/>上來一番破外人謂論主用空破有，今第二
 <lb n="0304c22" ed="T"/>破外人謂論主用有破有。前問、次答。問有二：
 <lb n="0304c23" ed="T"/>應有諸法，此立所破也。執此彼故，立能破也。
@@ -6659,7 +6967,8 @@
 <lb n="0305a25" ed="T"/>汝無所執耶？內言：我無所執。外言：恐汝執法
 <lb n="0305a26" ed="T"/>破我。汝若無執，我自執一異，何懼汝破我耶？
 <lb n="0305a27" ed="T"/>若有是問應如是破者，教內答外也。我雖無
-<lb n="0305a28" ed="T"/>執，非不借一異以破於汝，汝寧得無懼？</p><p xml:id="pT42p0305a2816" cb:place="inline">「外曰
+<lb n="0305a28" ed="T"/>執，非不借一異以破於汝，汝寧得無懼？</p>
+<p xml:id="pT42p0305a2816" cb:place="inline">「外曰
 <lb n="0305a29" ed="T"/>破他法故汝是破法人」，自上已來第一破外
 <pb n="0305b" ed="T" xml:id="T42.1827.0305b"/>
 <lb n="0305b01" ed="T"/>人謂有能破，今第二破外人謂論主是破法
@@ -6820,7 +7129,8 @@
 <lb n="0307a05" ed="T"/>一切戲論諸法，名滅法人。又我名斷見人，斷
 <lb n="0307a06" ed="T"/>一切見故。又我名闡提，畢竟不信邪見法故。
 <lb n="0307a07" ed="T"/>又我名無心，盡一切觀故。我名啞人，以滅一
-<lb n="0307a08" ed="T"/>切語故。是故我名滅法人。此並勢破耳。</p><p xml:id="pT42p0307a0816" cb:place="inline">「外曰
+<lb n="0307a08" ed="T"/>切語故。是故我名滅法人。此並勢破耳。</p>
+<p xml:id="pT42p0307a0816" cb:place="inline">「外曰
 <lb n="0307a09" ed="T"/>應有諸法相待有故」，此品第三段破外人謂
 <lb n="0307a10" ed="T"/>論主有所存法。此文來意有近有遠。若遠來
 <lb n="0307a11" ed="T"/>者，隨論主所明悉皆有法，若云一切無所依
@@ -6909,7 +7219,8 @@
 <lb n="0308a04" ed="T"/>問：乃無所謂六道三乘，有能謂之性不？答：能
 <lb n="0308a05" ed="T"/>謂若有，不名為妄及以顛倒；既名為妄，則無
 <lb n="0308a06" ed="T"/>一毫，故能謂同所謂也。問：能謂所謂是無不？
-<lb n="0308a07" ed="T"/>答：本不有，云何有無？如是五句也。</p><p xml:id="pT42p0308a0714" cb:place="inline">「外曰無說
+<lb n="0308a07" ed="T"/>答：本不有，云何有無？如是五句也。</p>
+<p xml:id="pT42p0308a0714" cb:place="inline">「外曰無說
 <lb n="0308a08" ed="T"/>法大經無故」，自上已來就內難內，此之一番
 <lb n="0308a09" ed="T"/>以外難內。難意有二：初牒內九品破有明非
 <lb n="0308a10" ed="T"/>有。〈空品〉破空明非空，非空不可說空、非有
@@ -6953,7 +7264,8 @@
 <lb n="0308b18" ed="T"/>泥形異瓶形，故言非瓶；更無別體，故非非瓶。
 <lb n="0308b19" ed="T"/>「光非明非闇」者，月光比日故非明，比星故非
 <lb n="0308b20" ed="T"/>闇。又釋：寸炎為光，滿室稱明；而光異闇，復殊
-<lb n="0308b21" ed="T"/>於明也。</p><p xml:id="pT42p0308b2104" cb:place="inline">「外曰若空不應有說」，此第二大段明
+<lb n="0308b21" ed="T"/>於明也。</p>
+<p xml:id="pT42p0308b2104" cb:place="inline">「外曰若空不應有說」，此第二大段明
 <lb n="0308b22" ed="T"/>中道二諦結會旨歸。生起具如品初。今更示
 <lb n="0308b23" ed="T"/>一勢。此文來意有近有遠。遠來者，九品破有、
 <lb n="0308b24" ed="T"/>〈空品〉破空，明非空非有，此是洗顛倒有所得
@@ -7040,7 +7352,8 @@
 <lb n="0309b15" ed="T"/>絕言，即詮真之言常絕，故此言即無言言。既
 <lb n="0309b16" ed="T"/>得即是言無言，無言豈不得即是言？故真諦
 <lb n="0309b17" ed="T"/>得說。若爾，具得四句俱說俱不說、互說互不
-<lb n="0309b18" ed="T"/>說也。</p><p xml:id="pT42p0309b1803" cb:place="inline">「外曰知是過得何利」，論有三分，二分前
+<lb n="0309b18" ed="T"/>說也。</p>
+<p xml:id="pT42p0309b1803" cb:place="inline">「外曰知是過得何利」，論有三分，二分前
 <lb n="0309b19" ed="T"/>竟，今是第三迴邪入正請求利益。就文為二：
 <lb n="0309b20" ed="T"/>初番明得益、次番辨益相。今前外問。始〈捨罪
 <lb n="0309b21" ed="T"/>福〉終訖〈破空〉，橫摧萬法、竪窮五句，作是知者

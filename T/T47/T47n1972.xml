@@ -2,80 +2,81 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T47n1972">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">淨土或問</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1972 淨土或問</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1972 淨土或問</title>
-			<author>元 天如則著</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">47</idno>.<idno type="no">1972</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-08-10T15:07:48">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">淨土或問</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1972 淨土或問</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1972 淨土或問</title>
+      <author>元 天如則著</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">47</idno>.<idno type="no">1972</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-08-10T15:07:48">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0292a" ed="T" xml:id="T47.1972.0292a"/>
 <lb n="0292a01" ed="T"/><cb:docNumber>No. 1972</cb:docNumber>
-<lb n="0292a02" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">淨土或問序</cb:mulu><head><note n="0292001" resp="Taisho" type="orig" place="foot text">【原】元祿三年刊大谷大學藏本</note>淨土或問序</head>
+<lb n="0292a02" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">淨土或問序</cb:mulu><head><note 
+n="0292001" resp="Taisho" type="orig" place="foot text">【原】元祿三年刊大谷大學藏本</note>淨土或問序</head>
 <lb n="0292a03" ed="T"/>
 <lb n="0292a04" ed="T"/><p xml:id="pT47p0292a0401">參禪余所不去，念佛亦非去者，禪主見性、佛
 <lb n="0292a05" ed="T"/>念離塵，竊謂念佛一門實為禪教共履之通
@@ -164,7 +165,11 @@
 <lb n="0292c28" ed="T"/>先聖有云：未得不退轉位，不可混俗度生。未
 <lb n="0292c29" ed="T"/>得無生法忍，要須常不離佛。譬如嬰兒常不
 <pb n="0293a" ed="T" xml:id="T47.1972.0293a"/>
-<lb n="0293a01" ed="T"/>離母，又如弱羽只可<note n="0293a0101" resp="CBETA" type="add">傅【CB】，傳【大】</note><app n="0293a0101"><lem resp="CBETA.maha" wit="【CB】">傅</lem><rdg wit="【大】">傳</rdg></app>枝。今此國中釋迦已
+<lb n="0293a01" ed="T"/>離母，又如弱羽只可<note 
+n="0293a0101" resp="CBETA" type="add">傅【CB】，傳【大】</note><app n="0293a0101">
+  <lem resp="CBETA.maha" wit="【CB】">傅</lem>
+  <rdg wit="【大】">傳</rdg>
+</app>枝。今此國中釋迦已
 <lb n="0293a02" ed="T"/>滅、彌勒未生，而況四惡趣苦因果牽纏、外道
 <lb n="0293a03" ed="T"/>邪魔是非扇亂，美色淫聲之相惑、惡緣穢觸
 <lb n="0293a04" ed="T"/>之交侵，既無現佛可依、又被境緣所撓，初心
@@ -206,7 +211,12 @@
 <lb n="0293b10" ed="T"/>誠有過於善財海眾者乎？所得無性法忍受
 <lb n="0293b11" ed="T"/>佛印證，誠有過於淨飯韋提者乎？淨飯國王
 <lb n="0293b12" ed="T"/>佛之父也，七萬釋種佛之親屬也，淨土之
-<lb n="0293b13" ed="T"/>生倘無利益，佛<note n="0293001" resp="Taisho" type="orig" place="foot text">忍＝慧ヵ【原】</note><note n="0293001" resp="CBETA" type="mod">忍【大】，慧【考偽-原】</note><app n="0293001"><lem resp="Taisho" wit="【大】">忍</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">慧</rdg></app>自誤其父與親屬乎？向謂
+<lb n="0293b13" ed="T"/>生倘無利益，佛<note 
+n="0293001" resp="Taisho" type="orig" place="foot text">忍＝慧ヵ【原】</note><note 
+n="0293001" resp="CBETA" type="mod">忍【大】，慧【考偽-原】</note><app n="0293001">
+  <lem resp="Taisho" wit="【大】">忍</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">慧</rdg>
+</app>自誤其父與親屬乎？向謂
 <lb n="0293b14" ed="T"/>得無生法忍者可許混俗度生，今其父王親
 <lb n="0293b15" ed="T"/>屬既得此忍而尚記往生，則汝求護持保養
 <lb n="0293b16" ed="T"/>之意，豈不深且遠乎？多見今之禪者，不究如
@@ -364,7 +374,11 @@
 <lb n="0295a18" ed="T"/><p xml:id="pT47p0295a1801">問曰：含攝無餘，吾信惟心之大矣。圓融無
 <lb n="0295a19" ed="T"/>礙，吾信惟心之妙矣。柰何尚滯迷情、未離穢
 <lb n="0295a20" ed="T"/>業，則吾惟心之土何由淨耶？答曰：心垢土
-<lb n="0295a21" ed="T"/>垢、心淨<note n="0295a2101" resp="CBETA" type="add">土【CB】，上【大】</note><app n="0295a2101"><lem resp="CBETA" wit="【CB】">土</lem><rdg wit="【大】">上</rdg></app>淨。故《維摩經》云「欲得淨土，當淨其
+<lb n="0295a21" ed="T"/>垢、心淨<note 
+n="0295a2101" resp="CBETA" type="add">土【CB】，上【大】</note><app n="0295a2101">
+  <lem resp="CBETA" wit="【CB】">土</lem>
+  <rdg wit="【大】">上</rdg>
+</app>淨。故《維摩經》云「欲得淨土，當淨其
 <lb n="0295a22" ed="T"/>心。隨其心淨，則佛土淨。」夫欲淨其心有，捨淨
 <lb n="0295a23" ed="T"/>土之修法，他無能焉。</p>
 <lb n="0295a24" ed="T"/><p xml:id="pT47p0295a2401">問曰：淨土修法，其詳可得聞乎？答曰：淨土無
@@ -378,7 +392,12 @@
 <lb n="0295b02" ed="T"/>作佛，是心是佛。諸佛正遍知海從心想生，是
 <lb n="0295b03" ed="T"/>故應當一心繫念諦觀彼佛。」天台疏曰「諸佛
 <lb n="0295b04" ed="T"/>如來下，泛明諸佛。是故應當下，遍觀彌陀。法
-<lb n="0295b05" ed="T"/>界身者，報佛法性<note n="0295001" resp="Taisho" type="orig" place="foot text">生＝身ィ【原】</note><note n="0295001" resp="CBETA" type="mod">生【大】，身【校異-原】</note><app n="0295001"><lem wit="【大】">生</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">身</rdg></app>也。眾生心淨，法身自在，
+<lb n="0295b05" ed="T"/>界身者，報佛法性<note 
+n="0295001" resp="Taisho" type="orig" place="foot text">生＝身ィ【原】</note><note 
+n="0295001" resp="CBETA" type="mod">生【大】，身【校異-原】</note><app n="0295001">
+  <lem wit="【大】">生</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">身</rdg>
+</app>也。眾生心淨，法身自在，
 <lb n="0295b06" ed="T"/>故云入。如白日昇天影現百川，明佛身自在
 <lb n="0295b07" ed="T"/>能隨物現也。又法界身是佛身，無所不遍，法
 <lb n="0295b08" ed="T"/>界為體。得此觀佛三昧，解入相應，故云入
@@ -631,7 +650,11 @@
 <lb n="0298a15" ed="T"/>佛教者無不信向，未聞佛教者亦會稱名，縱
 <lb n="0298a16" ed="T"/>是頑愚暴惡無信之徒、或遭厄難危險之處、
 <lb n="0298a17" ed="T"/>或發讚歎怨嗟之聲，不覺信口便叫阿彌陀
-<lb n="0298a18" ed="T"/>佛。至於兒童女子戲弄之際，聚沙<note n="0298a1801" resp="CBETA" type="add">摶【CB】，搏【大】</note><app n="0298a1801"><lem resp="CBETA.maha" wit="【CB】">摶</lem><rdg wit="【大】">搏</rdg></app>泥、圖牆
+<lb n="0298a18" ed="T"/>佛。至於兒童女子戲弄之際，聚沙<note 
+n="0298a1801" resp="CBETA" type="add">摶【CB】，搏【大】</note><app n="0298a1801">
+  <lem resp="CBETA.maha" wit="【CB】">摶</lem>
+  <rdg wit="【大】">搏</rdg>
+</app>泥、圖牆
 <lb n="0298a19" ed="T"/>畫壁，便作彌陀佛像。甚至於學行未穩學語
 <lb n="0298a20" ed="T"/>未成者，自然能唱阿彌陀佛。此皆不勸而發、
 <lb n="0298a21" ed="T"/>不教而能，非有緣而何？」又如《無量壽經》云「吾
@@ -644,8 +667,16 @@
 <lb n="0298a28" ed="T"/>當墮地獄具受眾苦。」故天台云「當知彼佛於
 <lb n="0298a29" ed="T"/>此惡世偏有緣耳。」相關者，先覺謂「兩土聖人
 <pb n="0298b" ed="T" xml:id="T47.1972.0298b"/>
-<lb n="0298b01" ed="T"/>示居淨穢，以<note n="0298b0101" resp="CBETA" type="add">折【CB】，拆【大】</note><app n="0298b0101"><lem resp="CBETA.maha" wit="【CB】">折<note type="cf1">X61n1162_p0533c01</note><note type="cf2">X62n1185_p0376b19</note></lem><rdg wit="【大】">拆</rdg></app>攝二門調伏眾生。此以穢以
-<lb n="0298b02" ed="T"/>苦以促以多魔惱而<note n="0298b0201" resp="CBETA" type="add">折【CB】，拆【大】</note><app n="0298b0201"><lem resp="CBETA.maha" wit="【CB】">折<note type="cf1">X61n1162_p0533c01</note><note type="cf2">X62n1185_p0376b19</note></lem><rdg wit="【大】">拆</rdg></app>之，俾知所厭；彼以淨
+<lb n="0298b01" ed="T"/>示居淨穢，以<note 
+n="0298b0101" resp="CBETA" type="add">折【CB】，拆【大】</note><app n="0298b0101">
+  <lem resp="CBETA.maha" wit="【CB】">折<note type="cf1">X61n1162_p0533c01</note><note type="cf2">X62n1185_p0376b19</note></lem>
+  <rdg wit="【大】">拆</rdg>
+</app>攝二門調伏眾生。此以穢以
+<lb n="0298b02" ed="T"/>苦以促以多魔惱而<note 
+n="0298b0201" resp="CBETA" type="add">折【CB】，拆【大】</note><app n="0298b0201">
+  <lem resp="CBETA.maha" wit="【CB】">折<note type="cf1">X61n1162_p0533c01</note><note type="cf2">X62n1185_p0376b19</note></lem>
+  <rdg wit="【大】">拆</rdg>
+</app>之，俾知所厭；彼以淨
 <lb n="0298b03" ed="T"/>以樂以延以不退轉而攝之，俾知所欣。既厭
 <lb n="0298b04" ed="T"/>且欣，則化道行矣。」又我釋迦於三乘授道之
 <lb n="0298b05" ed="T"/>外其有度未盡者，度在彌陀。故於諸大乘經
@@ -748,13 +779,21 @@
 <lb n="0299b12" ed="T"/>彌陀不思議之大願力也。《那先經》云「如持百
 <lb n="0299b13" ed="T"/>枚太石置於船上，藉船力故，石不沒水。若無
 <lb n="0299b14" ed="T"/>其船，小石亦沒。」喻彼世人一生造惡，臨終念
-<lb n="0299b15" ed="T"/>佛，不<note n="0299b1501" resp="CBETA" type="add">入【CB】，人【大】</note><app n="0299b1501"><lem resp="CBETA" wit="【CB】">入</lem><rdg wit="【大】">人</rdg></app>泥犁。若非念佛，雖作小惡，亦入泥犁，
+<lb n="0299b15" ed="T"/>佛，不<note 
+n="0299b1501" resp="CBETA" type="add">入【CB】，人【大】</note><app n="0299b1501">
+  <lem resp="CBETA" wit="【CB】">入</lem>
+  <rdg wit="【大】">人</rdg>
+</app>泥犁。若非念佛，雖作小惡，亦入泥犁，
 <lb n="0299b16" ed="T"/>況大惡乎。船喻佛力，石喻惡業，故昔人有帶
 <lb n="0299b17" ed="T"/>業而生之說。四土文中亦云，具惑染者亦得
 <lb n="0299b18" ed="T"/>生同居淨也。又如僧雄俊，臨入鑊湯；并汾州
 <lb n="0299b19" ed="T"/>人屠牛為業，臨終見群牛逼觸其身苦痛切
 <lb n="0299b20" ed="T"/>己；及張鐘馗殺雞為業，臨終見神人驅群雞
-<lb n="0299b21" ed="T"/><note n="0299b2101" resp="CBETA" type="add" note_key="T47.0299b21.01">啄【CB】【嘉興乙-CB】，喙【大】</note><app n="0299b2101"><lem resp="CBETA.ting" wit="【CB】【嘉興乙-CB】">啄<note type="cf1">《嘉興藏》（日本東京大學綜合圖書館藏補編第10帙第1冊第32圖左欄第1行）</note></lem><rdg wit="【大】">喙</rdg></app>破兩目流血盈床；稱佛名號俱生淨土。此
+<lb n="0299b21" ed="T"/><note 
+n="0299b2101" resp="CBETA" type="add" note_key="T47.0299b21.01">啄【CB】【嘉興乙-CB】，喙【大】</note><app n="0299b2101">
+  <lem resp="CBETA.ting" wit="【CB】【嘉興乙-CB】">啄<note type="cf1">《嘉興藏》（日本東京大學綜合圖書館藏補編第10帙第1冊第32圖左欄第1行）</note></lem>
+  <rdg wit="【大】">喙</rdg>
+</app>破兩目流血盈床；稱佛名號俱生淨土。此
 <lb n="0299b22" ed="T"/>非佛力而何？請復以喻明之。如人現犯官法，
 <lb n="0299b23" ed="T"/>應入官內。以投託國王，承王宣召，則官不
 <lb n="0299b24" ed="T"/>能拘而復達帝京也。所以《西資鈔》云「得生淨
@@ -807,7 +846,11 @@
 <lb n="0300a11" ed="T"/>生龜脫筒、螃蟹落湯，痛苦逼迫怕怖慞惶，念
 <lb n="0300a12" ed="T"/>佛不得了也。更饒爾無病而死，又或世緣未
 <lb n="0300a13" ed="T"/>了、世念未休，貪生怖死、擾亂胸懷。若是俗人
-<lb n="0300a14" ed="T"/>又兼家私未明、後事未<note n="0300a1401" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0300a1401"><lem resp="CBETA" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>，妻啼子哭、百種憂
+<lb n="0300a14" ed="T"/>又兼家私未明、後事未<note 
+n="0300a1401" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0300a1401">
+  <lem resp="CBETA" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>，妻啼子哭、百種憂
 <lb n="0300a15" ed="T"/>煎，念佛不得了也。更饒爾未死以前，只有些
 <lb n="0300a16" ed="T"/>少病痛在身，忍疼忍苦、叫喚呻吟，問藥求醫、
 <lb n="0300a17" ed="T"/>祈禱懺悔，雜念紛飛，念佛不得了也。更饒
@@ -882,7 +925,11 @@
 <lb n="0300c26" ed="T"/>拜，猶如敬佛；十者命終之時，心無怖畏、正念
 <lb n="0300c27" ed="T"/>現前，得見阿彌陀佛及諸聖眾持金蓮華接
 <lb n="0300c28" ed="T"/>引往生，西方淨土盡未來際受勝妙藥。如上
-<lb n="0300c29" ed="T"/>十種利益，經文具載，乃佛口之所<note n="0300c2901" resp="CBETA" type="add">宣【CB】，宜【大】</note><app n="0300c2901"><lem resp="CBETA" wit="【CB】">宣</lem><rdg wit="【大】">宜</rdg></app>也。既
+<lb n="0300c29" ed="T"/>十種利益，經文具載，乃佛口之所<note 
+n="0300c2901" resp="CBETA" type="add">宣【CB】，宜【大】</note><app n="0300c2901">
+  <lem resp="CBETA" wit="【CB】">宣</lem>
+  <rdg wit="【大】">宜</rdg>
+</app>也。既
 <pb n="0301a" ed="T" xml:id="T47.1972.0301a"/>
 <lb n="0301a01" ed="T"/>是現生來世皆有利益，然則世出世間要緊
 <lb n="0301a02" ed="T"/>法門無如念佛者矣，但當精進不用懷疑。</p>
@@ -891,10 +938,18 @@
 <lb n="0301a05" ed="T"/>網中人間有境緣順便身意安閑者，則可依
 <lb n="0301a06" ed="T"/>此而行。其有世事不容撥棄者，又當何以教
 <lb n="0301a07" ed="T"/>之？答曰：世網中人若是痛念無常、用心真切
-<lb n="0301a08" ed="T"/>者，不問苦樂逆順靜鬧間忙，一任公私幹<note n="0301a0801" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0301a0801"><lem resp="CBETA" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>
+<lb n="0301a08" ed="T"/>者，不問苦樂逆順靜鬧間忙，一任公私幹<note 
+n="0301a0801" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0301a0801">
+  <lem resp="CBETA" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>
 <lb n="0301a09" ed="T"/>迎賓待客，萬緣交擾、八面應酬，與他念佛兩
 <lb n="0301a10" ed="T"/>不相妨。不見古人道「朝也阿彌陀，暮也阿彌
-<lb n="0301a11" ed="T"/>陀。假饒忙似箭，不離阿彌陀。」又云「<note n="0301a1101" resp="CBETA" type="add" note_key="T47.0301a11.14">竹【CB】【嘉興-CB】，作【大】</note><app n="0301a1101"><lem resp="CBETA.poyung" wit="【CB】【嘉興-CB】" cb:provider="CBETAonline 來函 (2023-10-23)">竹<note type="cf1">J20n0085_p0213a08</note></lem><rdg wit="【大】">作</rdg></app>密不妨
+<lb n="0301a11" ed="T"/>陀。假饒忙似箭，不離阿彌陀。」又云「<note 
+n="0301a1101" resp="CBETA" type="add" note_key="T47.0301a11.14">竹【CB】【嘉興-CB】，作【大】</note><app n="0301a1101">
+  <lem resp="CBETA.poyung" wit="【CB】【嘉興-CB】" cb:provider="CBETAonline 來函 (2023-10-23)">竹<note type="cf1">J20n0085_p0213a08</note></lem>
+  <rdg wit="【大】">作</rdg>
+</app>密不妨
 <lb n="0301a12" ed="T"/>流水過，山高豈礙白雲飛。」其有世緣稍重、力
 <lb n="0301a13" ed="T"/>量稍輕者，亦須忙裏偷閑、鬧中取靜，每日或
 <lb n="0301a14" ed="T"/>念三萬聲、一萬聲、三千聲、一千聲，定為日課，
@@ -983,7 +1038,11 @@
 <lb n="0302a07" ed="T"/>慚，思之可慟。又當何策以治之？答曰：嗚呼！此
 <lb n="0302a08" ed="T"/>天下學者之通病也。汝當間斷之時，若不痛
 <lb n="0302a09" ed="T"/>加鞭策，則專修無間之念永無成就之期。余
-<lb n="0302a10" ed="T"/>聞古人有<note n="0302a1001" resp="CBETA" type="add">三【CB】，二【大】</note><app n="0302a1001"><lem resp="CBETA.maha" wit="【CB】">三<note type="cf1">X62n1185_p0388c13</note></lem><rdg wit="【大】">二</rdg></app>種痛鞭之策，今復為汝獻之，汝
+<lb n="0302a10" ed="T"/>聞古人有<note 
+n="0302a1001" resp="CBETA" type="add">三【CB】，二【大】</note><app n="0302a1001">
+  <lem resp="CBETA.maha" wit="【CB】">三<note type="cf1">X62n1185_p0388c13</note></lem>
+  <rdg wit="【大】">二</rdg>
+</app>種痛鞭之策，今復為汝獻之，汝
 <lb n="0302a11" ed="T"/>當諦而聽之。一曰報恩、二曰決志、三曰求驗。
 <lb n="0302a12" ed="T"/>第一報恩者，既修淨土，當念報恩，佛恩、國恩
 <lb n="0302a13" ed="T"/>固未暇論，只如父母養育之恩豈非重恩？師
@@ -991,7 +1050,11 @@
 <lb n="0302a15" ed="T"/>報重恩；後來行脚，又說要報重德。離鄉別井
 <lb n="0302a16" ed="T"/>二三十年，父母師長艱難困苦爾總不顧，父
 <lb n="0302a17" ed="T"/>母老病爾又不看，及聞其死爾也不歸。如今
-<lb n="0302a18" ed="T"/>或在三塗受罪受苦，望爾救他、望爾<note n="0302a1801" resp="CBETA" type="add">度【CB】，［－］【大】</note><app n="0302a1801"><lem resp="CBETA.maha" wit="【CB】">度<note type="cf1">X62n1192_p0504a01</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>他。爾却
+<lb n="0302a18" ed="T"/>或在三塗受罪受苦，望爾救他、望爾<note 
+n="0302a1801" resp="CBETA" type="add">度【CB】，［－］【大】</note><app n="0302a1801">
+  <lem resp="CBETA.maha" wit="【CB】">度<note type="cf1">X62n1192_p0504a01</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>他。爾却
 <lb n="0302a19" ed="T"/>念念間斷，淨土不成。淨土不成，自救不了。自
 <lb n="0302a20" ed="T"/>救不了，如何救他？既不能相救，爾是忘恩負
 <lb n="0302a21" ed="T"/>義、大不孝人。經云「不孝之罪當墮地獄」，然則

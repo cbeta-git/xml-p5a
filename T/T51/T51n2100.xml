@@ -2,81 +2,82 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T51n2100">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">續清涼傳</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2100 續清涼傳</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2100 續清涼傳</title>
-			<author>宋 張商英述</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>2卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">51</idno>.<idno type="no">2100</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-12-14T11:26:42">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">續清涼傳</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2100 續清涼傳</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2100 續清涼傳</title>
+      <author>宋 張商英述</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">51</idno>.<idno type="no">2100</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-12-14T11:26:42">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="1127a04" ed="T"/>
 <lb n="1127a05" ed="T"/>
 <lb n="1127a06" ed="T"/><cb:docNumber>No. 2100</cb:docNumber>
-<lb n="1127a07" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">重雕清涼傳序</cb:mulu><head><note n="1127001" resp="Taisho" place="foot text" type="orig">【原】大日本續藏經</note>重雕清涼傳序</head>
+<lb n="1127a07" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">重雕清涼傳序</cb:mulu><head><note 
+n="1127001" resp="Taisho" place="foot text" type="orig">【原】大日本續藏經</note>重雕清涼傳序</head>
 <lb n="1127a08" ed="T"/>
 <lb n="1127a09" ed="T"/><p xml:id="pT51p1127a0901">白馬東來。象教流行於中土。玄風始暢。或示
 <lb n="1127a10" ed="T"/>禪寂以探宗。或專神化而素法。亦猶水行地
@@ -141,7 +142,11 @@
 <lb n="1127c09" ed="T"/>東臺在前。直對龍山。下枕金界溪。北浴室之
 <lb n="1127c10" ed="T"/>後。則文殊所化宅也。金界之上。則羅睺足跡
 <lb n="1127c11" ed="T"/>堂也。知客𧦬曰。此處亦有聖燈。舊有浙僧請
-<lb n="1127c12" ed="T"/>之。飛現欄<note n="1127c1201" resp="CBETA" type="add">杆【CB】，杅【大】</note><app n="1127c1201"><lem wit="【CB】" resp="CBETA">杆</lem><rdg wit="【大】">杅</rdg></app>之上。商英遂稽首敬禱。酉後。龍
+<lb n="1127c12" ed="T"/>之。飛現欄<note 
+n="1127c1201" resp="CBETA" type="add">杆【CB】，杅【大】</note><app n="1127c1201">
+  <lem wit="【CB】" resp="CBETA">杆</lem>
+  <rdg wit="【大】">杅</rdg>
+</app>之上。商英遂稽首敬禱。酉後。龍
 <lb n="1127c13" ed="T"/>山見黃金寶階。戌初。北山有大火炬。<g ref="#CB00003"/>言。
 <lb n="1127c14" ed="T"/>聖燈也。瞻拜之。次又現一燈。良久。東臺龍山
 <lb n="1127c15" ed="T"/>羅睺殿左右各現一燈。浴室之後。現大光二。
@@ -155,7 +160,11 @@
 <lb n="1127c23" ed="T"/>之燈耳。乃跪啟曰。聖境殊勝。非我見聞。凡夫
 <lb n="1127c24" ed="T"/>識界。有所限隔。若非人間燈者。願至我前。如
 <lb n="1127c25" ed="T"/>是十請。溪上之燈。忽如紅日。浴海騰空而上。
-<lb n="1127c26" ed="T"/>放大光明。漸至閣前其光收<note n="1127c2601" resp="CBETA" type="add">斂【CB】，歛【大】</note><app n="1127c2601"><lem wit="【CB】" resp="CBETA">斂</lem><rdg wit="【大】">歛</rdg></app>。如大青喙銜
+<lb n="1127c26" ed="T"/>放大光明。漸至閣前其光收<note 
+n="1127c2601" resp="CBETA" type="add">斂【CB】，歛【大】</note><app n="1127c2601">
+  <lem wit="【CB】" resp="CBETA">斂</lem>
+  <rdg wit="【大】">歛</rdg>
+</app>。如大青喙銜
 <lb n="1127c27" ed="T"/>圓火珠。商英遍體森颯。若沃氷雪。即啟曰。疑
 <lb n="1127c28" ed="T"/>心已斷。言已。復歸本處。光滿溪上。秦愿等。
 <lb n="1127c29" ed="T"/>自傍見之。如金色身曲屈而上。妻拏所見。又
@@ -323,7 +332,12 @@
 <lb n="1129c11" ed="T"/>以破邪宗扶正法。況百人能行之乎。商英曰。
 <lb n="1129c12" ed="T"/>善哉喻乎。吾一語涉妄。百千億劫。淪於惡趣。
 <lb n="1129c13" ed="T"/>謹書之。以附清涼傳後。</p></cb:div>
-<lb n="1129c14" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">清涼山賦</cb:mulu><p xml:id="pT51p1129c1401">又述<note n="1129c1401" resp="CBETA" type="add">清【CB】，請【大】</note><app n="1129c1401"><lem wit="【CB】" resp="CBETA">清</lem><rdg wit="【大】">請</rdg></app>涼山賦并詩。附之卷末云。</p>
+<lb n="1129c14" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">清涼山賦</cb:mulu>
+<p xml:id="pT51p1129c1401">又述<note 
+n="1129c1401" resp="CBETA" type="add">清【CB】，請【大】</note><app n="1129c1401">
+  <lem wit="【CB】" resp="CBETA">清</lem>
+  <rdg wit="【大】">請</rdg>
+</app>涼山賦并詩。附之卷末云。</p>
 <lb n="1129c15" ed="T"/><p xml:id="pT51p1129c1501">夫清涼山者。大唐東北。燕趙西南。山名紫
 <lb n="1129c16" ed="T"/>府。地號清涼。乃菩薩修行之地。是龍神久住
 <lb n="1129c17" ed="T"/>之鄉。冬觀五頂如銀。夏覩千峯似錦。寔文殊
@@ -459,14 +473,22 @@
 <lb n="1131a26" ed="T"/>巖。而盧舍那佛。面門放光。照耀滿殿。初夜。
 <lb n="1131a27" ed="T"/>於層崖間。現大金燈五。壬子。出巖。於空中現
 <lb n="1131a28" ed="T"/>金橋一。此橋。不依山谷。不依雲氣。不假日光。
-<lb n="1131a29" ed="T"/>亘空黃潤。如真金色。<note n="1131a2901" resp="CBETA" type="add" note_key="T51.1131a29.09">嗚【CB】，鳴【大】</note><app n="1131a2901"><lem wit="【CB】" resp="CBETA.ting">嗚<note type="cf1">GA079n0081_p0253a01</note></lem><rdg wit="【大】">鳴</rdg></app>呼。當處出生。當處入
+<lb n="1131a29" ed="T"/>亘空黃潤。如真金色。<note 
+n="1131a2901" resp="CBETA" type="add" note_key="T51.1131a29.09">嗚【CB】，鳴【大】</note><app n="1131a2901">
+  <lem wit="【CB】" resp="CBETA.ting">嗚<note type="cf1">GA079n0081_p0253a01</note></lem>
+  <rdg wit="【大】">鳴</rdg>
+</app>呼。當處出生。當處入
 <pb n="1131b" xml:id="T51.2100.1131b" ed="T"/>
 <lb n="1131b01" ed="T"/>滅。非大幻善巧方便。其孰能與於此哉。是行
 <lb n="1131b02" ed="T"/>也。既以旱祈雨。在山三禱三應。但須臾即霽。
 <lb n="1131b03" ed="T"/>癸丑。還至代州。大雨彌日。將槁之苗。變為豐
 <lb n="1131b04" ed="T"/>歲。商英。即以其事奏聞。其略曰。臣近以本路
 <lb n="1131b05" ed="T"/>亢旱。躬詣五臺山文殊像前。及五龍池。祈求
-<lb n="1131b06" ed="T"/>雨澤晝夜所接靈光寶焰。殊形異相。赫<note n="1131b0601" resp="CBETA" type="add">奕【CB】，弈【大】</note><app n="1131b0601"><lem wit="【CB】" resp="CBETA">奕</lem><rdg wit="【大】">弈</rdg></app>顯
+<lb n="1131b06" ed="T"/>雨澤晝夜所接靈光寶焰。殊形異相。赫<note 
+n="1131b0601" resp="CBETA" type="add">奕【CB】，弈【大】</note><app n="1131b0601">
+  <lem wit="【CB】" resp="CBETA">奕</lem>
+  <rdg wit="【大】">弈</rdg>
+</app>顯
 <lb n="1131b07" ed="T"/>耀。莫可名狀。是時。四方僧俗千餘人。同共瞻
 <lb n="1131b08" ed="T"/>覩。歡呼之聲。震動山谷。已而時雨大降。彌覆
 <lb n="1131b09" ed="T"/>數州。臣之始往。草木萎悴。農夫愁嘆。及其歸
@@ -627,7 +649,8 @@
 <lb n="1133a14" ed="T"/>纖悉未易敷述。先是朔日離雁門。方及中塗。
 <lb n="1133a15" ed="T"/>已有五色直光。現於臺山之北。乃兆茲日靈
 <lb n="1133a16" ed="T"/>跡。既還真容院。陳供飯僧。信禮敬謝而去。</p></cb:div>
-<lb n="1133a17" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">題五臺真容院</cb:mulu><head>題五臺真容院</head><byline cb:type="author">濮陽李師聖述</byline>
+<lb n="1133a17" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">題五臺真容院</cb:mulu><head>題五臺真容院</head>
+<byline cb:type="author">濮陽李師聖述</byline>
 <lb n="1133a18" ed="T"/><p xml:id="pT51p1133a1801">梵書五頂清涼府。冬氷夏雪無炎暑。我來七
 <lb n="1133a19" ed="T"/>月愁盡寒。何況蕭蕭秋作雨。信無殘暑亦無
 <lb n="1133a20" ed="T"/>寒。迴然天界精神聚。真容古基鷲峯寺。高山
@@ -644,7 +667,8 @@
 <lb n="1133b01" ed="T"/>畏生心誰敢侮。從來昏述如夢迴。前三後三
 <lb n="1133b02" ed="T"/>慎莫取。我今不作前後想。香煙稽首清涼主。
 <lb n="1133b03" ed="T"/>崇寧三年七月二十九日。焚香拜讚。</p></cb:div>
-<lb n="1133b04" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">臺山瑞應記</cb:mulu><head>臺山瑞應記</head><byline cb:type="author">江東朱弁撰</byline>
+<lb n="1133b04" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">臺山瑞應記</cb:mulu><head>臺山瑞應記</head>
+<byline cb:type="author">江東朱弁撰</byline>
 <lb n="1133b05" ed="T"/><p xml:id="pT51p1133b0501">諸佛菩薩與大阿羅漢。悲憫一切有情。常出
 <lb n="1133b06" ed="T"/>光景以。導迷起信。攝服同異。凡山地勝所。示
 <lb n="1133b07" ed="T"/>現境界。有趾斯至。有目斯都。以是因緣故。握
@@ -662,7 +686,11 @@
 <lb n="1133b19" ed="T"/>洞者。有如圓光者。有如日暈五色六七重者。
 <lb n="1133b20" ed="T"/>有如孤石蒼黑圓而聳出者。有如仙。花之敷
 <lb n="1133b21" ed="T"/>紛者。有如仙花而現菩薩像於其上者。白雲
-<lb n="1133b22" ed="T"/>中。亦有菩薩<note n="1133b2201" resp="CBETA" type="add">端【CB】，瑞【大】</note><app n="1133b2201"><lem wit="【CB】" resp="CBETA.maha">端<note type="cf1">T20n1191_p0896b10</note></lem><rdg wit="【大】">瑞</rdg></app>嚴相者。有奮迅如文殊所乘
+<lb n="1133b22" ed="T"/>中。亦有菩薩<note 
+n="1133b2201" resp="CBETA" type="add">端【CB】，瑞【大】</note><app n="1133b2201">
+  <lem wit="【CB】" resp="CBETA.maha">端<note type="cf1">T20n1191_p0896b10</note></lem>
+  <rdg wit="【大】">瑞</rdg>
+</app>嚴相者。有奮迅如文殊所乘
 <lb n="1133b23" ed="T"/>者。有天橋如龍之上飛者。有橫光青紅黃綠
 <lb n="1133b24" ed="T"/>而相間者。有如玉石為佛冠者。黑雲中。有獨
 <lb n="1133b25" ed="T"/>現師子者。金橋有如鯨鯢負天者。有如螮崠
@@ -694,7 +722,8 @@
 <lb n="1133c21" ed="T"/>惠大德。麟府總制折可直。暨寺眾實從。史君
 <lb n="1133c22" ed="T"/>所共覩也。茲事不誣。於是乎書。皇統辛酉六
 <lb n="1133c23" ed="T"/>月辛巳日。</p></cb:div>
-<lb n="1133c24" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">後序</cb:mulu><head>後序</head><byline cb:type="author">紫府真容院松溪老人文珫述</byline>
+<lb n="1133c24" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">後序</cb:mulu><head>後序</head>
+<byline cb:type="author">紫府真容院松溪老人文珫述</byline>
 <lb n="1133c25" ed="T"/><p xml:id="pT51p1133c2501">伏聞。大聖度生。應迹無方。所現之處。無非利
 <lb n="1133c26" ed="T"/>益。雖不局於形教。使歸心有在。唯止一方。
 <lb n="1133c27" ed="T"/>故。我文殊大士。妙踐真覺。廓淨塵習。寂寥。
@@ -747,7 +776,11 @@
 <lb n="1134b14" ed="T"/>聖凡情盡掃。五百賢聖僧。當下離煩惱。靠
 <lb n="1134b15" ed="T"/>倒釋迦老子。掀翻居士淨名。釋迦分疎不
 <lb n="1134b16" ed="T"/>下。居士飲氣吞聲。殺活縱擒出思議。逆行
-<lb n="1134b17" ed="T"/>順化超常情。刀山與<note n="1134b1701" resp="CBETA" type="add">婬【CB】，媱【大】</note><app n="1134b1701"><lem wit="【CB】" resp="CBETA.maha">婬<note type="cf1">X65n1295_p0494c06</note><note type="cf2">X67n1303_p0303c24</note></lem><rdg wit="【大】">媱</rdg></app>舍。常談四諦輪。耳
+<lb n="1134b17" ed="T"/>順化超常情。刀山與<note 
+n="1134b1701" resp="CBETA" type="add">婬【CB】，媱【大】</note><app n="1134b1701">
+  <lem wit="【CB】" resp="CBETA.maha">婬<note type="cf1">X65n1295_p0494c06</note><note type="cf2">X67n1303_p0303c24</note></lem>
+  <rdg wit="【大】">媱</rdg>
+</app>舍。常談四諦輪。耳
 <lb n="1134b18" ed="T"/>根塞却方真聞。大智洞明非外得。屠沽負
 <lb n="1134b19" ed="T"/>販皆玄門。道人擬欲重相見。翻身拶倒光
 <lb n="1134b20" ed="T"/>明殿。頂門眼正沒嫌猜。佛頭佛頭全體現。
@@ -756,7 +789,8 @@
 <lb n="1134b23" ed="T"/>雁門野衲子菴性徹。洞然。書于。臺山清涼
 <lb n="1134b24" ed="T"/>石上。</p></cb:div>
 <lb n="1134b25" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">古并崇善禪寺</cb:mulu>
-<lb n="1134b26" ed="T"/><head>古并崇善禪寺</head><byline cb:type="author">常住記</byline>
+<lb n="1134b26" ed="T"/><head>古并崇善禪寺</head>
+<byline cb:type="author">常住記</byline>
 <lb n="1134b27" ed="T"/><p xml:id="pT51p1134b2701">釋慧祥清涼傳。見宋史志。廣傳續傳。則史
 <lb n="1134b28" ed="T"/>志。及諸家藏書志。俱不著錄。杭州何夢華
 <lb n="1134b29" ed="T"/><note place="inline">元錫</note>得之。示阮文達。文達。繕錄進呈。世乃

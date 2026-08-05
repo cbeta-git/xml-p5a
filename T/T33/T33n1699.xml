@@ -2,80 +2,81 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T33n1699">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">金剛般若疏</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1699 金剛般若疏</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1699 金剛般若疏</title>
-			<author>隋 吉藏撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>4卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">33</idno>.<idno type="no">1699</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS), Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-03-28T11:44:07">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">金剛般若疏</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1699 金剛般若疏</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1699 金剛般若疏</title>
+      <author>隋 吉藏撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>4卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">33</idno>.<idno type="no">1699</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS), Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-03-28T11:44:07">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0084a15" ed="T"/>
 <lb n="0084a16" ed="T"/><cb:docNumber>No. 1699 [cf. No. 235]</cb:docNumber>
-<lb n="0084a17" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">金剛般若經序</cb:mulu><head><note n="0084008" resp="Taisho" type="orig" place="foot text">【原】大谷大學藏本</note>金剛般若經序</head>
+<lb n="0084a17" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">金剛般若經序</cb:mulu><head><note 
+n="0084008" resp="Taisho" type="orig" place="foot text">【原】大谷大學藏本</note>金剛般若經序</head>
 <lb n="0084a18" ed="T"/>
 <lb n="0084a19" ed="T"/><byline cb:type="author">胡吉藏法師撰</byline>
 <lb n="0084a20" ed="T"/><p xml:id="pT33p0084a2001">金剛般若波羅蜜經者，斯乃是三觀之虛明、
@@ -171,7 +172,17 @@
 <lb n="0085a20" ed="T"/>物相障；二、有物相障；三、非有似有相障；四、謗
 <lb n="0085a21" ed="T"/>相障；五、一有相障；六、異有相障；七、實有相障；
 <lb n="0085a22" ed="T"/>八、異異相障；九、如名義相障；十、如義名相障。
-<lb n="0085a23" ed="T"/>此之十障，障於般若。八<note n="0085001" resp="Taisho" type="orig" place="foot text">障＝部？＊</note><note n="0085001" resp="CBETA" type="mod" note_key="T33.0085a23.10">部【CB】【考偽-大】＊，障【大】＊</note><app n="0085001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">部<note type="cf1">T25n1512_p0798a07</note><note type="cf2">T25n1512_p0798c19</note></lem><rdg resp="Taisho" wit="【大】">障</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">部</rdg></app>般若，一一<app type="star" corresp="#0085001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">部<note type="cf1">T25n1512_p0798a07</note><note type="cf2">T25n1512_p0798c19</note></lem><rdg resp="Taisho" wit="【大】">障</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">部</rdg></app>中
+<lb n="0085a23" ed="T"/>此之十障，障於般若。八<note 
+n="0085001" resp="Taisho" type="orig" place="foot text">障＝部？＊</note><note 
+n="0085001" resp="CBETA" type="mod" note_key="T33.0085a23.10">部【CB】【考偽-大】＊，障【大】＊</note><app n="0085001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">部<note type="cf1">T25n1512_p0798a07</note><note type="cf2">T25n1512_p0798c19</note></lem>
+  <rdg resp="Taisho" wit="【大】">障</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">部</rdg>
+</app>般若，一一<app type="star" corresp="#0085001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">部<note type="cf1">T25n1512_p0798a07</note><note type="cf2">T25n1512_p0798c19</note></lem>
+  <rdg resp="Taisho" wit="【大】">障</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">部</rdg>
+</app>中
 <lb n="0085a24" ed="T"/>皆對十障。所言無物相障者，眾生久劫已來，
 <lb n="0085a25" ed="T"/>著我我所，多滯有病，是以如來說一切法皆
 <lb n="0085a26" ed="T"/>畢竟空。但稟教之徒聞畢竟空，便起邪見，謂
@@ -251,7 +262,11 @@
 <lb n="0086a10" ed="T"/>物，名物安在？第十、如義名相障者，惑者言：若
 <lb n="0086a11" ed="T"/>諸法無體，云何眾生受用萬法？既其受用則
 <lb n="0086a12" ed="T"/>有萬法之體，以有萬法之體則有萬法之名。
-<lb n="0086a13" ed="T"/>以體證名，故<note n="0086a1301" resp="CBETA" type="add" note_key="T33.0086a13.06">秤【CB】，祥【大】</note><app n="0086a1301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">秤<note type="cf1">T33n1699_p0085b15</note></lem><rdg wit="【大】">祥</rdg></app>為障。云何治之？如下經說：一
+<lb n="0086a13" ed="T"/>以體證名，故<note 
+n="0086a1301" resp="CBETA" type="add" note_key="T33.0086a13.06">秤【CB】，祥【大】</note><app n="0086a1301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">秤<note type="cf1">T33n1699_p0085b15</note></lem>
+  <rdg wit="【大】">祥</rdg>
+</app>為障。云何治之？如下經說：一
 <lb n="0086a14" ed="T"/>切有為法，如夢幻泡影。內心外境悉無所有，
 <lb n="0086a15" ed="T"/>云何言有法體、以體證名耶？問曰：此之十障，
 <lb n="0086a16" ed="T"/>般若治之，今為當用此釋？為當不用？答曰：若
@@ -267,7 +282,12 @@
 <lb n="0086a26" ed="T"/>云：般若有二種，一、共聲聞說；二、但為十地諸
 <lb n="0086a27" ed="T"/>大菩薩說，下位之所不聞。今諸部般若多是
 <lb n="0086a28" ed="T"/>共聲聞說也。第二、有三種。三種者，《釋論》第六
-<lb n="0086a29" ed="T"/>十七卷云：<note n="0086001" resp="Taisho" type="orig" place="foot text">〔般若部云〕－？</note><note n="0086001" resp="CBETA" type="mod">般若部云【大】，〔－〕【考偽-大】</note><app n="0086001"><lem resp="Taisho" wit="【大】">般若部云</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>般若部儻有多有少，有
+<lb n="0086a29" ed="T"/>十七卷云：<note 
+n="0086001" resp="Taisho" type="orig" place="foot text">〔般若部云〕－？</note><note 
+n="0086001" resp="CBETA" type="mod">般若部云【大】，〔－〕【考偽-大】</note><app n="0086001">
+  <lem resp="Taisho" wit="【大】">般若部云</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>般若部儻有多有少，有
 <pb n="0086b" ed="T" xml:id="T33.1699.0086b"/>
 <lb n="0086b01" ed="T"/>上中下，謂《光讚》、《放光》、《道行》也。舊云《光讚》有五
 <lb n="0086b02" ed="T"/>百卷，此土零落，唯有十卷；或分為十二卷，有
@@ -282,7 +302,12 @@
 <lb n="0086b11" ed="T"/>明四種般若者，長安叡法師《小品．序》云「斯經
 <lb n="0086b12" ed="T"/>正文，凡有四種，多則十萬偈，少則六百偈。此
 <lb n="0086b13" ed="T"/>之大品，猶是外國中品耳。隨宜之言，復何足
-<lb n="0086b14" ed="T"/>計其多少？」雖<note n="0086002" resp="Taisho" type="orig" place="foot text">習＝唱？</note><note n="0086002" resp="CBETA" type="mod">習【大】，唱【考偽-大】</note><app n="0086002"><lem resp="Taisho" wit="【大】">習</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">唱</rdg></app>四名而不列數。有人云：當
+<lb n="0086b14" ed="T"/>計其多少？」雖<note 
+n="0086002" resp="Taisho" type="orig" place="foot text">習＝唱？</note><note 
+n="0086002" resp="CBETA" type="mod">習【大】，唱【考偽-大】</note><app n="0086002">
+  <lem resp="Taisho" wit="【大】">習</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">唱</rdg>
+</app>四名而不列數。有人云：當
 <lb n="0086b15" ed="T"/>以《金剛》足前三部以為四也。然《金剛》止有三
 <lb n="0086b16" ed="T"/>百許偈，叡公云「少則六百偈」，故知未必用《金
 <lb n="0086b17" ed="T"/>剛》足之。次明五時般若者，出《仁王經》。初云：釋
@@ -359,12 +384,25 @@
 <lb n="0087a28" ed="T"/>念付屬菩薩也。次有人言：前說《金剛》，後說《大
 <lb n="0087a29" ed="T"/>品》。何以知之？有三義、三文往證。三義：一、金剛
 <pb n="0087b" ed="T" xml:id="T33.1699.0087b"/>
-<lb n="0087b01" ed="T"/>是破相之名，十二年中名有相教，受<note n="0087001" resp="Taisho" type="orig" place="foot text">字＝學？</note><note n="0087001" resp="CBETA" type="mod">字【大】，學【考偽-大】</note><app n="0087001"><lem resp="Taisho" wit="【大】">字</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">學</rdg></app>之徒
+<lb n="0087b01" ed="T"/>是破相之名，十二年中名有相教，受<note 
+n="0087001" resp="Taisho" type="orig" place="foot text">字＝學？</note><note 
+n="0087001" resp="CBETA" type="mod">字【大】，學【考偽-大】</note><app n="0087001">
+  <lem resp="Taisho" wit="【大】">字</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">學</rdg>
+</app>之徒
 <lb n="0087b02" ed="T"/>生分別相，封執難祛。佛初開此經，明無相深
 <lb n="0087b03" ed="T"/>理，破彼相著心，故假金剛，強喻空解。二者、說
 <lb n="0087b04" ed="T"/>此經止集千二百五十比丘等，不廣集天人
 <lb n="0087b05" ed="T"/>菩薩，正為將明甚深空理、化著相眾生，欲令
-<lb n="0087b06" ed="T"/>親近弟子在前悟解，因此得<note n="0087b0601" resp="CBETA" type="add" note_key="T33.0087b06.12">使【CB】【卍續-CB】，便【大】</note><app n="0087b0601"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">使<note type="cf1">X24n0455_p0409a14</note></lem><rdg wit="【大】">便</rdg></app>傳教義成，<note n="0087b0602" resp="CBETA" type="add" note_key="T33.0087b06.17">使【CB】【卍續-CB】，便【大】</note><app n="0087b0602"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">使<note type="cf1">X24n0455_p0409a14</note></lem><rdg wit="【大】">便</rdg></app>
+<lb n="0087b06" ed="T"/>親近弟子在前悟解，因此得<note 
+n="0087b0601" resp="CBETA" type="add" note_key="T33.0087b06.12">使【CB】【卍續-CB】，便【大】</note><app n="0087b0601">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">使<note type="cf1">X24n0455_p0409a14</note></lem>
+  <rdg wit="【大】">便</rdg>
+</app>傳教義成，<note 
+n="0087b0602" resp="CBETA" type="add" note_key="T33.0087b06.17">使【CB】【卍續-CB】，便【大】</note><app n="0087b0602">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">使<note type="cf1">X24n0455_p0409a14</note></lem>
+  <rdg wit="【大】">便</rdg>
+</app>
 <lb n="0087b07" ed="T"/>聲聞助佛揚化。菩薩理中近佛、事迹更遠，又
 <lb n="0087b08" ed="T"/>欲令菩薩轉教聲聞望岸而退，故前為常隨
 <lb n="0087b09" ed="T"/>佛者說於此經。三者、形小故有大。前說此經
@@ -379,7 +417,12 @@
 <lb n="0087b18" ed="T"/>二者、善吉領解云：「我從昔來所得慧眼，未曾
 <lb n="0087b19" ed="T"/>得聞如是之經。」若爾，前佛說《大品》，豈不能說
 <lb n="0087b20" ed="T"/>經轉教，那得言不聞深經？若聞而未悟，豈能
-<lb n="0087b21" ed="T"/>轉教？三者、善吉答佛「<note n="0087002" resp="Taisho" type="orig" place="foot text">〔不〕－？</note><note n="0087002" resp="CBETA" type="mod">不【大】，〔－〕【考偽-大】</note><app n="0087002"><lem resp="Taisho" wit="【大】">不</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>應以三十二相見如
+<lb n="0087b21" ed="T"/>轉教？三者、善吉答佛「<note 
+n="0087002" resp="Taisho" type="orig" place="foot text">〔不〕－？</note><note 
+n="0087002" resp="CBETA" type="mod">不【大】，〔－〕【考偽-大】</note><app n="0087002">
+  <lem resp="Taisho" wit="【大】">不</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>應以三十二相見如
 <lb n="0087b22" ed="T"/>來」。若爾，前已聞《大品》，云何執色相是佛？若生
 <lb n="0087b23" ed="T"/>此執，非謂解空。故知直執昔日相教，故謂色
 <lb n="0087b24" ed="T"/>身為佛。而開善舉兩義為證，今須釋之：一者、
@@ -466,7 +509,15 @@
 <lb n="0088b15" ed="T"/>是果義。論文至信者章中云「說因果深義，於
 <lb n="0088b16" ed="T"/>彼惡世時，不空必有實」，故知明因辨果事已究
 <lb n="0088b17" ed="T"/>竟，然後方明信受，故知因果為此經正宗耳。</p>
-<lb n="0088b18" ed="T"/><p xml:id="pT33p0088b1801">第六、辨經名，更開五句<note place="inline">一、解佛說；二、釋金剛；<note n="0088b1801" resp="CBETA" type="add" note_key="T33.0088b18.18">三【CB】【卍續-CB】，明【大】</note><app n="0088b1801"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">三、<note type="cf1">X24n0455_p0410b03</note></lem><rdg wit="【大】">明</rdg></app>解般若；四、釋波羅蜜；五、<note n="0088b1802" resp="CBETA" type="add" note_key="T33.0088b18.28">明【CB】【卍續-CB】，三【大】</note><app n="0088b1802"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">明<note type="cf1">X24n0455_p0410b03</note></lem><rdg wit="【大】">三</rdg></app>經</note>。經
+<lb n="0088b18" ed="T"/><p xml:id="pT33p0088b1801">第六、辨經名，更開五句<note place="inline">一、解佛說；二、釋金剛；<note 
+n="0088b1801" resp="CBETA" type="add" note_key="T33.0088b18.18">三【CB】【卍續-CB】，明【大】</note><app n="0088b1801">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">三、<note type="cf1">X24n0455_p0410b03</note></lem>
+  <rdg wit="【大】">明</rdg>
+</app>解般若；四、釋波羅蜜；五、<note 
+n="0088b1802" resp="CBETA" type="add" note_key="T33.0088b18.28">明【CB】【卍續-CB】，三【大】</note><app n="0088b1802">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">明<note type="cf1">X24n0455_p0410b03</note></lem>
+  <rdg wit="【大】">三</rdg>
+</app>經</note>。經
 <lb n="0088b19" ed="T"/>曰金剛般若波羅蜜，釋曰：經題有二種，一者
 <lb n="0088b20" ed="T"/>具足、二者不具足。具足應言「佛說金剛般若」，
 <lb n="0088b21" ed="T"/>不具足但云「金剛般若」。問曰：餘經何因緣故
@@ -486,7 +537,8 @@
 <lb n="0088c05" ed="T"/>輩亦皆說經，今恐墮邪見，欲簡異六師，故題
 <lb n="0088c06" ed="T"/>佛說，使人信受法也。復次道不孤運、必由人
 <lb n="0088c07" ed="T"/>弘，法雖佛師，要由佛說，法乃得弘。以是義故，
-<lb n="0088c08" ed="T"/>題能說之人、所說之法，則於義具足也。</p><p xml:id="pT33p0088c0816" cb:place="inline">二、釋
+<lb n="0088c08" ed="T"/>題能說之人、所說之法，則於義具足也。</p>
+<p xml:id="pT33p0088c0816" cb:place="inline">二、釋
 <lb n="0088c09" ed="T"/>金剛。問曰：金剛為是譬名、為是法名？答曰：
 <lb n="0088c10" ed="T"/>有人言：金剛是譬，如世間中金剛寶堅而且
 <lb n="0088c11" ed="T"/>利，譬於波若體堅用利。今謂不然。所以者何？
@@ -558,7 +610,17 @@
 <lb n="0089b17" ed="T"/>成如意珠」，《毘婆沙》云「金剛能破頗梨山及如
 <lb n="0089b18" ed="T"/>意珠」，故知異也。復次，此明般若與金剛同，而
 <lb n="0089b19" ed="T"/>是般若超絕金剛，非可譬喻。金剛是世間物；
-<lb n="0089b20" ed="T"/>般若非<note n="0089001" resp="Taisho" type="orig" place="foot text">（世）＋間？</note><note n="0089001" resp="CBETA" type="mod" note_key="T33.0089b20.04">世間【CB】【考偽-大】，間【大】</note><app n="0089001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">世間</lem><rdg wit="【大】">間</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">世間</rdg></app>。<note n="0089b2001" resp="CBETA" type="add" note_key="T33.0089b20.06">金剛【CB】，〔－〕【大】</note><app n="0089b2001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">金剛</lem><rdg wit="【大】"><space quantity="0"/></rdg></app>失之則憂之、得之則喜；得般若者
+<lb n="0089b20" ed="T"/>般若非<note 
+n="0089001" resp="Taisho" type="orig" place="foot text">（世）＋間？</note><note 
+n="0089001" resp="CBETA" type="mod" note_key="T33.0089b20.04">世間【CB】【考偽-大】，間【大】</note><app n="0089001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">世間</lem>
+  <rdg wit="【大】">間</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">世間</rdg>
+</app>。<note 
+n="0089b2001" resp="CBETA" type="add" note_key="T33.0089b20.06">金剛【CB】，〔－〕【大】</note><app n="0089b2001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">金剛</lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>失之則憂之、得之則喜；得般若者
 <lb n="0089b21" ed="T"/>無憂無喜。金剛是無知之物；般若無知、無所
 <lb n="0089b22" ed="T"/>不知，無量功德，今略說而已。復次，有人言：聲
 <lb n="0089b23" ed="T"/>聞法中，從假名空終至羅漢，通名金剛；菩薩
@@ -591,7 +653,8 @@
 <lb n="0089c20" ed="T"/>喻定為金剛也；今喻智慧名金剛也。問：金剛
 <lb n="0089c21" ed="T"/>是天上寶，是人中寶耶？答：人天具有，如轉輪
 <lb n="0089c22" ed="T"/>王金輪，是金剛寶故，所擬皆碎。帝釋執金剛
-<lb n="0089c23" ed="T"/>與修羅鬪，即是天上寶也。</p><p xml:id="pT33p0089c2311" cb:place="inline">第三、釋般若。般若
+<lb n="0089c23" ed="T"/>與修羅鬪，即是天上寶也。</p>
+<p xml:id="pT33p0089c2311" cb:place="inline">第三、釋般若。般若
 <lb n="0089c24" ed="T"/>是外國語，《釋論》有二文：一者、「般若，秦言智慧」，
 <lb n="0089c25" ed="T"/>開善用之。次文云「般若深重，智慧輕薄，不可
 <lb n="0089c26" ed="T"/>以輕薄智慧秤量深重般若」。莊嚴法師云：般
@@ -610,7 +673,12 @@
 <lb n="0090a09" ed="T"/>人。又云慧義，經中說解脫智是慧義，故智猶
 <lb n="0090a10" ed="T"/>慧也。又《大智論》亦有二文：「般若者，秦言慧也」，
 <lb n="0090a11" ed="T"/>又云「秦言智慧」也。問：經論何故言語或出或
-<lb n="0090a12" ed="T"/>沒、乍合乍開，不分明一途示人，<note n="0090001" resp="Taisho" type="orig" place="foot text">合＝令？</note><note n="0090001" resp="CBETA" type="mod">合【大】，令【考偽-大】</note><app n="0090001"><lem resp="Taisho" wit="【大】">合</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">令</rdg></app>分明得解
+<lb n="0090a12" ed="T"/>沒、乍合乍開，不分明一途示人，<note 
+n="0090001" resp="Taisho" type="orig" place="foot text">合＝令？</note><note 
+n="0090001" resp="CBETA" type="mod">合【大】，令【考偽-大】</note><app n="0090001">
+  <lem resp="Taisho" wit="【大】">合</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">令</rdg>
+</app>分明得解
 <lb n="0090a13" ed="T"/>耶？答：聖人非不能一途分明示人，而今有出
 <lb n="0090a14" ed="T"/>沒言者，此有深意。以眾生本來有取著之心，
 <lb n="0090a15" ed="T"/>以是因緣繫屬於魔，生死不絕，若輪常轉，不
@@ -636,16 +704,24 @@
 <lb n="0090b05" ed="T"/>有無，便是離心。答：猶言即離，還是不悟。如其
 <lb n="0090b06" ed="T"/>得悟，竟有何即離？問：既不即離，應不迷悟。答：
 <lb n="0090b07" ed="T"/>迷故言其即離，悟故了無即離。既不即離，竟
-<lb n="0090b08" ed="T"/>復何有迷悟耶？可取其意，勿著其言也。</p><p xml:id="pT33p0090b0816" cb:place="inline">第四、
+<lb n="0090b08" ed="T"/>復何有迷悟耶？可取其意，勿著其言也。</p>
+<p xml:id="pT33p0090b0816" cb:place="inline">第四、
 <lb n="0090b09" ed="T"/>釋波羅蜜。波羅蜜，此云彼岸到。外國風俗法
 <lb n="0090b10" ed="T"/>凡作一事究竟，名波羅蜜。今悟道之人雖復
 <lb n="0090b11" ed="T"/>積功累劫，若不得般若，為行不成；若悟般若，
-<lb n="0090b12" ed="T"/>萬行周畢，故名波羅蜜。<note n="0090002" resp="Taisho" type="orig" place="foot text">〔般若〕－？</note><note n="0090002" resp="CBETA" type="mod" note_key="T33.0090b12.10">〔－〕【CB】【考偽-大】，般若【大】</note><app n="0090002"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/></lem><rdg wit="【大】">般若</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>問：既有彼岸，云
+<lb n="0090b12" ed="T"/>萬行周畢，故名波羅蜜。<note 
+n="0090002" resp="Taisho" type="orig" place="foot text">〔般若〕－？</note><note 
+n="0090002" resp="CBETA" type="mod" note_key="T33.0090b12.10">〔－〕【CB】【考偽-大】，般若【大】</note><app n="0090002">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/></lem>
+  <rdg wit="【大】">般若</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>問：既有彼岸，云
 <lb n="0090b13" ed="T"/>何為此岸及中流耶？答：聖人直假名說彼岸，
 <lb n="0090b14" ed="T"/>令其因此悟入，何必須作此岸、彼岸、中流耶？
 <lb n="0090b15" ed="T"/>《大經》云「雖無此岸，而有彼岸」，即其事也。必須
 <lb n="0090b16" ed="T"/>作者，《大智論》云「有無見為此岸，破有無見智
-<lb n="0090b17" ed="T"/>慧為彼岸，檀為中流。」</p><p xml:id="pT33p0090b1709" cb:place="inline">第五、釋經。經有三種，或
+<lb n="0090b17" ed="T"/>慧為彼岸，檀為中流。」</p>
+<p xml:id="pT33p0090b1709" cb:place="inline">第五、釋經。經有三種，或
 <lb n="0090b18" ed="T"/>文為經、或理為經、或文理合為經。地論師云：
 <lb n="0090b19" ed="T"/>三十心前人文為經；三十心，文理合為經；初
 <lb n="0090b20" ed="T"/>地已去，用理為經。今明文理因緣，故為經，因
@@ -738,7 +814,12 @@
 <lb n="0091b17" ed="T"/>復更甚。所以者何？若言後同是斷疑分，就斷
 <lb n="0091b18" ed="T"/>疑中不復更開，附前亦是同非斷疑，不斷疑
 <lb n="0091b19" ed="T"/>中亦應不開。不斷疑中有種種義，既開多分，
-<lb n="0091b20" ed="T"/>斷疑之中何因緣故取為<note n="0091001" resp="Taisho" type="orig" place="foot text">（一）＋分？</note><note n="0091001" resp="CBETA" type="mod">分【大】，一分【考偽-大】</note><app n="0091001"><lem resp="Taisho" wit="【大】">分</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">一分</rdg></app>？若爾，塗行乞食
+<lb n="0091b20" ed="T"/>斷疑之中何因緣故取為<note 
+n="0091001" resp="Taisho" type="orig" place="foot text">（一）＋分？</note><note 
+n="0091001" resp="CBETA" type="mod">分【大】，一分【考偽-大】</note><app n="0091001">
+  <lem resp="Taisho" wit="【大】">分</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">一分</rdg>
+</app>？若爾，塗行乞食
 <lb n="0091b21" ed="T"/>應是一分。若使塗行乞食既屬序分而不開
 <lb n="0091b22" ed="T"/>者，護念、付屬屬正說亦應不開。又元前解之
 <lb n="0091b23" ed="T"/>與後釋，都不識論文之大體。所以者何？論主
@@ -811,7 +892,8 @@
 <pb n="0092b" ed="T" xml:id="T33.1699.0092b"/>
 <lb n="0092b01" ed="T"/>佛弟子，今遂成佛，代於佛處。為有此三疑，是
 <lb n="0092b02" ed="T"/>以阿難即便釋疑，云：『如是我聞』，明如來如是
-<lb n="0092b03" ed="T"/>已滅，我從佛邊聞，非上三事也。」</p><p xml:id="pT33p0092b0313" cb:place="inline">言「如是」者，釋
+<lb n="0092b03" ed="T"/>已滅，我從佛邊聞，非上三事也。」</p>
+<p xml:id="pT33p0092b0313" cb:place="inline">言「如是」者，釋
 <lb n="0092b04" ed="T"/>此一句有二十餘師，今略而不述。一者、依龍
 <lb n="0092b05" ed="T"/>樹所解，云「如是者，佛法大海，信為能入，智為
 <lb n="0092b06" ed="T"/>能度。如是者，即是信也。以信故言此事如是，
@@ -823,7 +905,12 @@
 <lb n="0092b12" ed="T"/>者，凡有數義：一者、如佛教度量，故云如是。所
 <lb n="0092b13" ed="T"/>以者何？三世諸佛或廣說法、或處中說、或略
 <lb n="0092b14" ed="T"/>說法。今阿難傳正法，還如佛廣略，不增不減，
-<lb n="0092b15" ed="T"/>故云如是。二者、如<note n="0092001" resp="Taisho" type="orig" place="foot text">〔是〕－？</note><note n="0092001" resp="CBETA" type="mod">是【大】，〔－〕【考偽-大】</note><app n="0092001"><lem resp="Taisho" wit="【大】">是</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>諸佛次第而說。所以者
+<lb n="0092b15" ed="T"/>故云如是。二者、如<note 
+n="0092001" resp="Taisho" type="orig" place="foot text">〔是〕－？</note><note 
+n="0092001" resp="CBETA" type="mod">是【大】，〔－〕【考偽-大】</note><app n="0092001">
+  <lem resp="Taisho" wit="【大】">是</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>諸佛次第而說。所以者
 <lb n="0092b16" ed="T"/>何？一切說法，凡有六事：一者、發起；二、略標宗；
 <lb n="0092b17" ed="T"/>三、廣解釋；四、難；五、通；六、流通付屬阿難。今且
 <lb n="0092b18" ed="T"/>次第誦持佛語，故云如是。三者、如經名字，故
@@ -842,7 +929,8 @@
 <lb n="0092c01" ed="T"/>理是有，則名有見；言理是無，名為邪見；亦有
 <lb n="0092c02" ed="T"/>亦無，是名相違見；非有非無，名愚癡見。所明
 <lb n="0092c03" ed="T"/>之理，若墮此四中，即不名如是。今離此四謗，
-<lb n="0092c04" ed="T"/>無所依止，故名如是。</p><p xml:id="pT33p0092c0409" cb:place="inline">「我聞」者，此第二、明能聞
+<lb n="0092c04" ed="T"/>無所依止，故名如是。</p>
+<p xml:id="pT33p0092c0409" cb:place="inline">「我聞」者，此第二、明能聞
 <lb n="0092c05" ed="T"/>之人。我者，所以阿難自稱我者，一、欲證親從
 <lb n="0092c06" ed="T"/>佛邊聞故，非是傳聞。所以者何？我今親從如
 <lb n="0092c07" ed="T"/>來聞，是故稱我。二者、欲顯阿難過去世願行
@@ -885,7 +973,8 @@
 <lb n="0093a14" ed="T"/>緣聞者，是不聞聞，聞而無所聞。是以經云「其
 <lb n="0093a15" ed="T"/>說法者，無說無示；其聽法者，無聞無得。」如來
 <lb n="0093a16" ed="T"/>說無所說，阿難聞無所聞，如此說聽，乃可相
-<lb n="0093a17" ed="T"/>成。</p><p xml:id="pT33p0093a1702" cb:place="inline">「一時」者，此第三、明說教之時。如轉輪王出
+<lb n="0093a17" ed="T"/>成。</p>
+<p xml:id="pT33p0093a1702" cb:place="inline">「一時」者，此第三、明說教之時。如轉輪王出
 <lb n="0093a18" ed="T"/>世，是寶物可得之時；如如來出世，法寶可得之
 <lb n="0093a19" ed="T"/>時，故云一時。二者、一切狂聾眾生聞如來說，
 <lb n="0093a20" ed="T"/>得醒悟時，故云一時。又有正師時、有正教時、
@@ -900,7 +989,8 @@
 <lb n="0093a29" ed="T"/>法廣略不同，今所以略說波若者，此是逗一
 <pb n="0093b" ed="T" xml:id="T33.1699.0093b"/>
 <lb n="0093b01" ed="T"/>時根緣故爾。又須知是般若一時。般若一時
-<lb n="0093b02" ed="T"/>者，不時假言時，不一假言一。</p><p xml:id="pT33p0093b0212" cb:place="inline">「佛」者，此第四標
+<lb n="0093b02" ed="T"/>者，不時假言時，不一假言一。</p>
+<p xml:id="pT33p0093b0212" cb:place="inline">「佛」者，此第四標
 <lb n="0093b03" ed="T"/>說教之主。上來雖表三事，然邪正未分；第四、
 <lb n="0093b04" ed="T"/>標佛，方顯明得失。所以者何？雖言我聞一時，
 <lb n="0093b05" ed="T"/>未知從誰邊聞，是故今云從佛邊聞，非餘人
@@ -912,7 +1002,8 @@
 <lb n="0093b11" ed="T"/>分住，謂如來未入涅槃。內住有四：一者、天住，
 <lb n="0093b12" ed="T"/>住施戒等；二、梵住，住四無量心；三者、聖住，住
 <lb n="0093b13" ed="T"/>空、無相、無願；四者、佛住，住諸法實相中。此是
-<lb n="0093b14" ed="T"/>般若無住無不住，為眾生故，假名為住。</p><p xml:id="pT33p0093b1416" cb:place="inline">「舍衛
+<lb n="0093b14" ed="T"/>般若無住無不住，為眾生故，假名為住。</p>
+<p xml:id="pT33p0093b1416" cb:place="inline">「舍衛
 <lb n="0093b15" ed="T"/>國」者，此是第五、明住處。處有二種：一者、通處；
 <lb n="0093b16" ed="T"/>二者、別處。舍衛國即是通處，祇洹精舍即是
 <lb n="0093b17" ed="T"/>別處也。問：佛何因緣故，多住王舍城及舍衛
@@ -959,7 +1050,12 @@
 <lb n="0093c28" ed="T"/>七兒，端正殊異，偏心愛念，當為娶妻，欲得極
 <lb n="0093c29" ed="T"/>妙姿容端正有相之女，為兒求之。即語諸婆
 <pb n="0094a" ed="T" xml:id="T33.1699.0094a"/>
-<lb n="0094a01" ed="T"/>羅門言：『誰有好女，相貌備足，當為<note n="0094001" resp="Taisho" type="orig" place="foot text">我＋（兒）？</note><note n="0094001" resp="CBETA" type="mod">我【大】，我兒【考偽-大】</note><app n="0094001"><lem resp="Taisho" wit="【大】">我</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">我兒</rdg></app>行求之。』
+<lb n="0094a01" ed="T"/>羅門言：『誰有好女，相貌備足，當為<note 
+n="0094001" resp="Taisho" type="orig" place="foot text">我＋（兒）？</note><note 
+n="0094001" resp="CBETA" type="mod">我【大】，我兒【考偽-大】</note><app n="0094001">
+  <lem resp="Taisho" wit="【大】">我</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">我兒</rdg>
+</app>行求之。』
 <lb n="0094a02" ed="T"/>諸婆羅門便為推覓，展轉到王舍城中，有一
 <lb n="0094a03" ed="T"/>大臣，名曰護珍，財富無量，信敬三寶。時，婆羅
 <lb n="0094a04" ed="T"/>門到其家從乞食，彼國法施人物時，要令童
@@ -977,19 +1073,39 @@
 <lb n="0094a16" ed="T"/>達有兒端正殊妙，卓犖多奇，欲取君子女，可
 <lb n="0094a17" ed="T"/>爾不？』答言：『可爾！』時，婆羅門未得自還，仍值估
 <lb n="0094a18" ed="T"/>客來舍衛國，即便因之寄書，逆報須達，具陳
-<lb n="0094a19" ed="T"/>其事。須達得書歡喜，即詣<note n="0094a1901" resp="CBETA" type="add">波【CB】，婆【大】</note><app n="0094a1901"><lem resp="CBETA" wit="【CB】">波</lem><rdg wit="【大】">婆</rdg></app>斯匿王，求請小
+<lb n="0094a19" ed="T"/>其事。須達得書歡喜，即詣<note 
+n="0094a1901" resp="CBETA" type="add">波【CB】，婆【大】</note><app n="0094a1901">
+  <lem resp="CBETA" wit="【CB】">波</lem>
+  <rdg wit="【大】">婆</rdg>
+</app>斯匿王，求請小
 <lb n="0094a20" ed="T"/>許時，為兒娶婦。王即聽之。於是大載珍寶趣
 <lb n="0094a21" ed="T"/>王舍城，於其路次，拯濟貧乏。至王舍城，到護
-<lb n="0094a22" ed="T"/>珍家，為兒求妻護珍。長者歡喜迎<note n="0094002" resp="Taisho" type="orig" place="foot text">達＝逆？</note><note n="0094002" resp="CBETA" type="mod">達【大】，逆【考偽-大】</note><app n="0094002"><lem resp="Taisho" wit="【大】">達</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">逆</rdg></app>，安置敷
+<lb n="0094a22" ed="T"/>珍家，為兒求妻護珍。長者歡喜迎<note 
+n="0094002" resp="Taisho" type="orig" place="foot text">達＝逆？</note><note 
+n="0094002" resp="CBETA" type="mod">達【大】，逆【考偽-大】</note><app n="0094002">
+  <lem resp="Taisho" wit="【大】">達</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">逆</rdg>
+</app>，安置敷
 <lb n="0094a23" ed="T"/>具，暮宿其舍；內則搔擾，辦具飲食。須達念言：
 <lb n="0094a24" ed="T"/>『今此長者，設何供具？欲作何等？將非欲請國
-<lb n="0094a25" ed="T"/>王太子、<note n="0094003" resp="Taisho" type="orig" place="foot text">長＋（者）？</note><note n="0094003" resp="CBETA" type="mod" note_key="T33.0094a25.04">長者【CB】【考偽-大】，長【大】</note><app n="0094003"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">長者</lem><rdg wit="【大】">長</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">長者</rdg></app>大臣及以婚姻者乎？』便問之曰：『長
+<lb n="0094a25" ed="T"/>王太子、<note 
+n="0094003" resp="Taisho" type="orig" place="foot text">長＋（者）？</note><note 
+n="0094003" resp="CBETA" type="mod" note_key="T33.0094a25.04">長者【CB】【考偽-大】，長【大】</note><app n="0094003">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">長者</lem>
+  <rdg wit="【大】">長</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">長者</rdg>
+</app>大臣及以婚姻者乎？』便問之曰：『長
 <lb n="0094a26" ed="T"/>者今暮躳自執營如是事務施設供具，為欲
 <lb n="0094a27" ed="T"/>請國王、太子、大臣者乎？』答言：『不也。』又問：『欲設
 <lb n="0094a28" ed="T"/>婚姻親戚會耶？』答言：『不也！』又問：『將何所作？』答
 <lb n="0094a29" ed="T"/>言：『明日欲請佛及比丘僧。』於時，須達聞佛
 <pb n="0094b" ed="T" xml:id="T33.1699.0094b"/>
-<lb n="0094b01" ed="T"/>僧名，肅然毛竪，如<note n="0094004" resp="Taisho" type="orig" place="foot text">其＝有？</note><note n="0094004" resp="CBETA" type="mod">其【大】，有【考偽-大】</note><app n="0094004"><lem resp="Taisho" wit="【大】">其</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">有</rdg></app>所得，心情悅豫。重問
+<lb n="0094b01" ed="T"/>僧名，肅然毛竪，如<note 
+n="0094004" resp="Taisho" type="orig" place="foot text">其＝有？</note><note 
+n="0094004" resp="CBETA" type="mod">其【大】，有【考偽-大】</note><app n="0094004">
+  <lem resp="Taisho" wit="【大】">其</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">有</rdg>
+</app>所得，心情悅豫。重問
 <lb n="0094b02" ed="T"/>曰：『云何名佛？願解其義。』長者答言：『汝不聞耶？
 <lb n="0094b03" ed="T"/>淨飯王子厥名曰悉達，其生之日，天降瑞應，
 <lb n="0094b04" ed="T"/>天神侍衛，即行七步，唱言：「天上天下！唯我為
@@ -997,15 +1113,25 @@
 <lb n="0094b06" ed="T"/>敬，於今夜即欲見佛。於是，天為之明，便爾而
 <lb n="0094b07" ed="T"/>去。中夜出門見天祠，即為作禮，忽忘念佛心，
 <lb n="0094b08" ed="T"/>於是曉還，更闇，自念言：『今夜闇，若我往者，要
-<lb n="0094b09" ed="T"/>為惡鬼猛<note n="0094005" resp="Taisho" type="orig" place="foot text">狩＝獸？</note><note n="0094005" resp="CBETA" type="mod">狩【大】，獸【考偽-大】</note><app n="0094005"><lem resp="Taisho" wit="【大】">狩</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">獸</rdg></app>之所見害，且還入城，待曉當去。』
+<lb n="0094b09" ed="T"/>為惡鬼猛<note 
+n="0094005" resp="Taisho" type="orig" place="foot text">狩＝獸？</note><note 
+n="0094005" resp="CBETA" type="mod">狩【大】，獸【考偽-大】</note><app n="0094005">
+  <lem resp="Taisho" wit="【大】">狩</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">獸</rdg>
+</app>之所見害，且還入城，待曉當去。』
 <lb n="0094b10" ed="T"/>爾時，即有天空中見其欲悔，便下語言：『居士
 <lb n="0094b11" ed="T"/>莫悔！我是汝昔善知識蜜肩婆羅門，因聞法
 <lb n="0094b12" ed="T"/>故，得生天中。汝往見佛，得無量利益。正使今
 <lb n="0094b13" ed="T"/>日得百車珍寶，乃至一四天下滿中珍寶，不
 <lb n="0094b14" ed="T"/>如舉足至世尊所，所得利益過百千倍。汝去，
 <lb n="0094b15" ed="T"/>莫悔！』須達聞天說如此語，益增敬念。於是在
-<lb n="0094b16" ed="T"/>闇還得明曉，便爾尋路往至世尊所。佛<note n="0094006" resp="Taisho" type="orig" place="foot text">知爾時＝爾時知？</note><note n="0094006" resp="CBETA" type="mod">知爾時【大】，爾時知【考偽-大】</note><app n="0094006"><lem resp="Taisho" wit="【大】">知爾
-<lb n="0094b17" ed="T"/>時</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">爾時知</rdg></app>須達來，便出外經行。是時，須達遙見世尊
+<lb n="0094b16" ed="T"/>闇還得明曉，便爾尋路往至世尊所。佛<note 
+n="0094006" resp="Taisho" type="orig" place="foot text">知爾時＝爾時知？</note><note 
+n="0094006" resp="CBETA" type="mod">知爾時【大】，爾時知【考偽-大】</note><app n="0094006">
+  <lem resp="Taisho" wit="【大】">知爾
+<lb n="0094b17" ed="T"/>時</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">爾時知</rdg>
+</app>須達來，便出外經行。是時，須達遙見世尊
 <lb n="0094b18" ed="T"/>猶如金山，相好威容，嚴然昺著覩之心悅，不
 <lb n="0094b19" ed="T"/>知禮法，直問世尊：『不審瞿曇起居何如？』世尊
 <lb n="0094b20" ed="T"/>即時令就坐。是時，首陀會天遙見須達雖覩
@@ -1045,7 +1171,12 @@
 <lb n="0094c24" ed="T"/>許賣，不宜中悔。』遂斷園與須達。須達歡喜，便
 <lb n="0094c25" ed="T"/>得勅使人以象馬負金，布八十頃，須臾欲滿，唯
 <lb n="0094c26" ed="T"/>殘有少地。須達思惟：『當出何藏金足？不多不
-<lb n="0094c27" ed="T"/>少當得滿足。』祇陀問言：『嫌<note n="0094007" resp="Taisho" type="orig" place="foot text">高買臺＝貴置之？</note><note n="0094007" resp="CBETA" type="mod">高買臺【大】，貴置之【考偽-大】</note><app n="0094007"><lem resp="Taisho" wit="【大】">高買臺</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">貴置之</rdg></app>。』答曰：『自
+<lb n="0094c27" ed="T"/>少當得滿足。』祇陀問言：『嫌<note 
+n="0094007" resp="Taisho" type="orig" place="foot text">高買臺＝貴置之？</note><note 
+n="0094007" resp="CBETA" type="mod">高買臺【大】，貴置之【考偽-大】</note><app n="0094007">
+  <lem resp="Taisho" wit="【大】">高買臺</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">貴置之</rdg>
+</app>。』答曰：『自
 <lb n="0094c28" ed="T"/>念必何金藏可足，當滿之。』祇陀念言：『佛必有大
 <lb n="0094c29" ed="T"/>德，乃使斯人輕財乃爾。』即語云：『齊是可止！勿
 <pb n="0095a" ed="T" xml:id="T33.1699.0095a"/>
@@ -1127,7 +1258,11 @@
 <lb n="0095c16" ed="T"/>愍也。長者起精舍，用妙栴檀為香泥別房，住
 <lb n="0095c17" ed="T"/>止千二百人，凡一百二十處，打揵槌施設，欲
 <lb n="0095c18" ed="T"/>往請佛。復思惟：『上有國王，應當令知。若不啟
-<lb n="0095c19" ed="T"/>白，儻有<note n="0095c1901" resp="CBETA" type="add">瞋【CB】，慎【大】</note><app n="0095c1901"><lem resp="CBETA" wit="【CB】">瞋</lem><rdg wit="【大】">慎</rdg></app>恨。』往白波斯匿王：『我為佛已起精
+<lb n="0095c19" ed="T"/>白，儻有<note 
+n="0095c1901" resp="CBETA" type="add">瞋【CB】，慎【大】</note><app n="0095c1901">
+  <lem resp="CBETA" wit="【CB】">瞋</lem>
+  <rdg wit="【大】">慎</rdg>
+</app>恨。』往白波斯匿王：『我為佛已起精
 <lb n="0095c20" ed="T"/>舍，願大王遣使請佛。』時王聞已，遣使詣王舍
 <lb n="0095c21" ed="T"/>城，請佛及僧，願臨覆舍衛國。爾時，世尊與四
 <lb n="0095c22" ed="T"/>部眾前後圍繞，放光動地，至舍衛國。漸近城
@@ -1139,7 +1274,11 @@
 <lb n="0095c28" ed="T"/>如是。言「祇陀」者，真諦三藏云「外國應云鳩摩
 <lb n="0095c29" ed="T"/>羅祇陀，此云童真太子。又云祇陀者，此云戰
 <pb n="0096a" ed="T" xml:id="T33.1699.0096a"/>
-<lb n="0096a01" ed="T"/>勝。昔有兵賊，欲破舍衛，<note n="0096a0101" resp="CBETA" type="add">波【CB】，婆【大】</note><app n="0096a0101"><lem resp="CBETA" wit="【CB】">波</lem><rdg wit="【大】">婆</rdg></app>斯匿王遂拒破賊。
+<lb n="0096a01" ed="T"/>勝。昔有兵賊，欲破舍衛，<note 
+n="0096a0101" resp="CBETA" type="add">波【CB】，婆【大】</note><app n="0096a0101">
+  <lem resp="CBETA" wit="【CB】">波</lem>
+  <rdg wit="【大】">婆</rdg>
+</app>斯匿王遂拒破賊。
 <lb n="0096a02" ed="T"/>宮人啟云：『生於太子。』因以立名，故名戰勝。」須
 <lb n="0096a03" ed="T"/>達多者，此云善與，父母無兒，就神乞之，夢中
 <lb n="0096a04" ed="T"/>得兒，故名善與。彼土曾十二年中不雨，而須
@@ -1215,7 +1354,8 @@
 <lb n="0096c17" ed="T"/>迦葉兄弟二人，各有二百五十弟子，合成千
 <lb n="0096c18" ed="T"/>人。次度舍利弗、目連，復得二百五十人，合有
 <lb n="0096c19" ed="T"/>一千二百五十五人。今但舉其大數、取有名
-<lb n="0096c20" ed="T"/>聞者，正云千二百五十也。</p><p xml:id="pT33p0096c2011" cb:place="inline">「爾時世尊」下，第二、
+<lb n="0096c20" ed="T"/>聞者，正云千二百五十也。</p>
+<p xml:id="pT33p0096c2011" cb:place="inline">「爾時世尊」下，第二、
 <lb n="0096c21" ed="T"/>別序。就別序中大開為二：第一、明如來塗行
 <lb n="0096c22" ed="T"/>乞食；第二、明如來敷座而坐，入于三昧。就此
 <lb n="0096c23" ed="T"/>二章，各開兩段。初章二者：一、明往事；二、明還
@@ -1257,7 +1397,8 @@
 <lb n="0097a29" ed="T"/>聖之種，般若是眾聖之本。復次，道遠乎哉？體
 <pb n="0097b" ed="T" xml:id="T33.1699.0097b"/>
 <lb n="0097b01" ed="T"/>之即神，是故飲食不離般若。若能了食清淨，
-<lb n="0097b02" ed="T"/>即是般若也。</p><p xml:id="pT33p0097b0206" cb:place="inline">就經文中凡有五句：一、標福物
+<lb n="0097b02" ed="T"/>即是般若也。</p>
+<p xml:id="pT33p0097b0206" cb:place="inline">就經文中凡有五句：一、標福物
 <lb n="0097b03" ed="T"/>之人；二、明乞食之時節；三、辨乞食儀容；四、明
 <lb n="0097b04" ed="T"/>乞食之處所；五、明乞食方法。「爾時世尊」者，此
 <lb n="0097b05" ed="T"/>即是第一、標福物之人。《成實論》云「具上九號，
@@ -1272,7 +1413,11 @@
 <lb n="0097b14" ed="T"/>於容儀明。衣有三種，著亦三時。若平常臥起，
 <lb n="0097b15" ed="T"/>著於五條，名安陀衛，此云下品衣，亦云內著
 <lb n="0097b16" ed="T"/>衣。若入眾法事，著於七條，名欝多羅僧，此云
-<lb n="0097b17" ed="T"/>中品衣。若入聚<note n="0097b1701" resp="CBETA" type="add">落【CB】，洛【大】</note><app n="0097b1701"><lem resp="CBETA" wit="【CB】">落</lem><rdg wit="【大】">洛</rdg></app>見國王、長者，著僧伽梨，此
+<lb n="0097b17" ed="T"/>中品衣。若入聚<note 
+n="0097b1701" resp="CBETA" type="add">落【CB】，洛【大】</note><app n="0097b1701">
+  <lem resp="CBETA" wit="【CB】">落</lem>
+  <rdg wit="【大】">洛</rdg>
+</app>見國王、長者，著僧伽梨，此
 <lb n="0097b18" ed="T"/>云大衣，亦云正著衣。從九條已上至二十五
 <lb n="0097b19" ed="T"/>條，略為三品，品中有三，合成九種。下品三者：
 <lb n="0097b20" ed="T"/>九條、十一、十三條也；中品三者，十五、十七、十
@@ -1387,7 +1532,8 @@
 <lb n="0098c09" ed="T"/>窮，今不行施，來世復貧貧相係，無得脫時，是
 <lb n="0098c10" ed="T"/>以捨富從貧。此之二人雖有慈悲，而不能平
 <lb n="0098c11" ed="T"/>等，是故為淨名所屈。今如來欲顯平等之道，
-<lb n="0098c12" ed="T"/>所以次第乞也。</p><p xml:id="pT33p0098c1207" cb:place="inline">「還至本處」下，第二、明得食後
+<lb n="0098c12" ed="T"/>所以次第乞也。</p>
+<p xml:id="pT33p0098c1207" cb:place="inline">「還至本處」下，第二、明得食後
 <lb n="0098c13" ed="T"/>事。然須識般若大意，此是去而不往、歸無所
 <lb n="0098c14" ed="T"/>還、受而不納、食而不飡也。此中亦有四句：第
 <lb n="0098c15" ed="T"/>一、明還至本處。然鉢他既滿，須反所住，以待
@@ -1402,7 +1548,11 @@
 <lb n="0098c24" ed="T"/>若，故須身淨方說；三、為護僧臥具；四、為諸天
 <lb n="0098c25" ed="T"/>下，禮敬於足；五、為表眾生煩惱應淨。問：佛日
 <lb n="0098c26" ed="T"/>行幾里？答：如轉輪王法，日行四十里也。問：《樂
-<lb n="0098c27" ed="T"/>瓔珞女經》<note n="0098c2701" resp="CBETA" type="add" note_key="T33.0098c27.05">〔－〕【CB】，云【大】</note><app n="0098c2701"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/></lem><rdg wit="【大】">云</rdg></app>雖明乞食為於十事，今更有餘
+<lb n="0098c27" ed="T"/>瓔珞女經》<note 
+n="0098c2701" resp="CBETA" type="add" note_key="T33.0098c27.05">〔－〕【CB】，云【大】</note><app n="0098c2701">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/></lem>
+  <rdg wit="【大】">云</rdg>
+</app>雖明乞食為於十事，今更有餘
 <lb n="0098c28" ed="T"/>義不耶？答：三藏云：佛欲為破惡世貪名利高
 <lb n="0098c29" ed="T"/>慢，出家人多貪積聚，是故如來自行乞食。又
 <pb n="0099a" ed="T" xml:id="T33.1699.0099a"/>
@@ -1611,7 +1761,11 @@
 <lb n="0101a23" ed="T"/>前問發心。若不依般若發心，則住顛倒，不住
 <lb n="0101a24" ed="T"/>般若。今依般若發心，則住般若、不住顛倒，故
 <lb n="0101a25" ed="T"/>次問住菩提心。既得住立，故修行萬行，所以
-<lb n="0101a26" ed="T"/>次問修行。以修無所得行，故顛<note n="0101a2601" resp="CBETA" type="add">倒【CB】，到【大】</note><app n="0101a2601"><lem resp="CBETA.maha" wit="【CB】">倒</lem><rdg wit="【大】">到</rdg></app>有得之心
+<lb n="0101a26" ed="T"/>次問修行。以修無所得行，故顛<note 
+n="0101a2601" resp="CBETA" type="add">倒【CB】，到【大】</note><app n="0101a2601">
+  <lem resp="CBETA.maha" wit="【CB】">倒</lem>
+  <rdg wit="【大】">到</rdg>
+</app>有得之心
 <lb n="0101a27" ed="T"/>析伏不起，所以次問降伏也。「佛言：善哉」，此下
 <lb n="0101a28" ed="T"/>第二如來答問。開為二別：一、答問緣起；二、正
 <lb n="0101a29" ed="T"/>答。答問緣起，復開為二：一、美其歎請；二則許
@@ -1634,7 +1788,11 @@
 <lb n="0101b16" ed="T"/>次明信受門；信持則獲福無盡，故次明格量
 <lb n="0101b17" ed="T"/>門。又前就因果說般若，即是法門；次就信受
 <lb n="0101b18" ed="T"/>門說般若，即是人門；後就功德門說般若，明
-<lb n="0101b19" ed="T"/>人行法，故得功德也。就前門<note n="0101b1901" resp="CBETA" type="add">為【CB】，<space quantity="1" unit="chars"/>【大】</note><app n="0101b1901"><lem resp="CBETA" wit="【CB】">為</lem><rdg wit="【大】"><space quantity="1" unit="chars"/></rdg></app>二：一、答其四
+<lb n="0101b19" ed="T"/>人行法，故得功德也。就前門<note 
+n="0101b1901" resp="CBETA" type="add">為【CB】，<space quantity="1" unit="chars"/>【大】</note><app n="0101b1901">
+  <lem resp="CBETA" wit="【CB】">為</lem>
+  <rdg wit="【大】"><space quantity="1" unit="chars"/></rdg>
+</app>二：一、答其四
 <lb n="0101b20" ed="T"/>問，即明因門；二、斷眾疑，次辨果門。因即無依
 <lb n="0101b21" ed="T"/>無住，果則無相無為，般若未曾因果，為眾生
 <lb n="0101b22" ed="T"/>故，故作因果名說。就明因門答其四問，唯有
@@ -1719,7 +1877,8 @@
 <lb n="0102b11" ed="T"/>曰常心。何以故？「若菩薩有我相」下，此第四明
 <lb n="0102b12" ed="T"/>不顛倒心。雖常度眾生，無眾生可度，名不顛
 <lb n="0102b13" ed="T"/>倒。若見有眾生，則是我見。凡夫自不能度，何
-<lb n="0102b14" ed="T"/>能度物耶？</p><p xml:id="pT33p0102b1405" cb:place="inline">「復次，須菩提！於法應無所住行於
+<lb n="0102b14" ed="T"/>能度物耶？</p>
+<p xml:id="pT33p0102b1405" cb:place="inline">「復次，須菩提！於法應無所住行於
 <lb n="0102b15" ed="T"/>布施」下，此第二章經答修行、降伏心二問。前
 <lb n="0102b16" ed="T"/>明以初發心故，得住大乘不發心、不得住大
 <lb n="0102b17" ed="T"/>乘，故發心與住二事相成，故合詶也。今二門
@@ -1805,7 +1964,8 @@
 <lb n="0103b07" ed="T"/>與不空，但眾生多滯有病，故破有病，明於空
 <lb n="0103b08" ed="T"/>耳。有病既息，空則不留，如大火炎，不可四觸。
 <lb n="0103b09" ed="T"/>但佛在世時，眾生根利，直聞說空，不取空相，
-<lb n="0103b10" ed="T"/>故無所依止，即便得道也。</p><p xml:id="pT33p0103b1011" cb:place="inline">就此章經開為三
+<lb n="0103b10" ed="T"/>故無所依止，即便得道也。</p>
+<p xml:id="pT33p0103b1011" cb:place="inline">就此章經開為三
 <lb n="0103b11" ed="T"/>段：第一、正明無住相以修行；第二、明得無所
 <lb n="0103b12" ed="T"/>得果；第三、結勸。就初為二：第一、正答修行問；
 <lb n="0103b13" ed="T"/>第二、答降伏心問。此即第一。言「無所住行布
@@ -1861,7 +2021,8 @@
 <lb n="0104a03" ed="T"/>無相無為，無住相施無依無得，是故假此為
 <lb n="0104a04" ed="T"/>喻；二者、虛空包含廣大，無住相施果報亦大，
 <lb n="0104a05" ed="T"/>故假喻也。「須菩提！無住相布施亦如是」下，第
-<lb n="0104a06" ed="T"/>三合譬，如文可尋。</p><p xml:id="pT33p0104a0608" cb:place="inline">「須菩提！菩薩但應如所教
+<lb n="0104a06" ed="T"/>三合譬，如文可尋。</p>
+<p xml:id="pT33p0104a0608" cb:place="inline">「須菩提！菩薩但應如所教
 <lb n="0104a07" ed="T"/>住」下，此第三章結勸也。所言如所教住者，如
 <lb n="0104a08" ed="T"/>上來無所得之教，應須依此而住、依此而修
 <lb n="0104a09" ed="T"/>行也。「須菩提！於意云何？可以身相見如來不」
@@ -2027,7 +2188,13 @@
 <lb n="0105c18" ed="T"/>人也。前之二人，名為聞信；若智慧人，此是證
 <lb n="0105c19" ed="T"/>信也。又言能信之人既是勝人，故舉止行二
 <lb n="0105c20" ed="T"/>善，物情所貴，以褒歎之，令得信受。持戒是止
-<lb n="0105c21" ed="T"/>善、修福是行<note n="0105001" resp="Taisho" type="orig" place="foot text">蓋＝善？</note><note n="0105001" resp="CBETA" type="mod" note_key="T33.0105c21.06">善【CB】【考偽-大】，蓋【大】</note><app n="0105001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">善</lem><rdg wit="【大】">蓋</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">善</rdg></app>，此二攝一切善盡，則諸惡莫
+<lb n="0105c21" ed="T"/>善、修福是行<note 
+n="0105001" resp="Taisho" type="orig" place="foot text">蓋＝善？</note><note 
+n="0105001" resp="CBETA" type="mod" note_key="T33.0105c21.06">善【CB】【考偽-大】，蓋【大】</note><app n="0105001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">善</lem>
+  <rdg wit="【大】">蓋</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">善</rdg>
+</app>，此二攝一切善盡，則諸惡莫
 <lb n="0105c22" ed="T"/>作、諸善奉行，故舉此二攝一切人也。於此章
 <lb n="0105c23" ed="T"/>句下，第三、明所信之法，即上因果法門名為
 <lb n="0105c24" ed="T"/>章句也。「能生信心」下，此第四、正辨於經生信。
@@ -2054,7 +2221,12 @@
 <lb n="0106a15" ed="T"/>世間為天王，貴勝知友尚自歡喜，況為如來
 <lb n="0106a16" ed="T"/>之所親愛耶？二者、此福與虛空等，豈下地所
 <lb n="0106a17" ed="T"/>能知？唯佛窮其邊底。三者、佛無二言，言必可
-<lb n="0106a18" ed="T"/>信，今明信得多福，故其福必<note n="0106001" resp="Taisho" type="orig" place="foot text">〔知〕－？</note><note n="0106001" resp="CBETA" type="mod">知【大】，〔－〕【考偽-大】</note><app n="0106001"><lem resp="Taisho" wit="【大】">知</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>多。問：何因緣
+<lb n="0106a18" ed="T"/>信，今明信得多福，故其福必<note 
+n="0106001" resp="Taisho" type="orig" place="foot text">〔知〕－？</note><note 
+n="0106001" resp="CBETA" type="mod">知【大】，〔－〕【考偽-大】</note><app n="0106001">
+  <lem resp="Taisho" wit="【大】">知</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>多。問：何因緣
 <lb n="0106a19" ed="T"/>故，名為知見？答：論云「如來願智力知，非是比
 <lb n="0106a20" ed="T"/>智知。佛眼所見，非肉眼見。」又佛知此人行菩
 <lb n="0106a21" ed="T"/>提因，見此人得菩提果，故言知見。「何以故」下，
@@ -2135,7 +2307,11 @@
 <lb n="0107a06" ed="T"/>計故知有我。所以計於非法，亦復著我。「是故
 <lb n="0107a07" ed="T"/>不應取非法」下，此第三章勸捨失從得。此文
 <lb n="0107a08" ed="T"/>有二：一者、正勸捨失；二者、引證。此即是初勸
-<lb n="0107a09" ed="T"/>捨失。然法與非法尚自須捨，我人之見<note n="0107a0901" resp="CBETA" type="add" note_key="T33.0107a09.16">云【CB】【卍續-CB】，去【大】</note><app n="0107a0901"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">云<note type="cf1">X24n0455_p0429c18</note></lem><rdg wit="【大】">去</rdg></app>何
+<lb n="0107a09" ed="T"/>捨失。然法與非法尚自須捨，我人之見<note 
+n="0107a0901" resp="CBETA" type="add" note_key="T33.0107a09.16">云【CB】【卍續-CB】，去【大】</note><app n="0107a0901">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">云<note type="cf1">X24n0455_p0429c18</note></lem>
+  <rdg wit="【大】">去</rdg>
+</app>何
 <lb n="0107a10" ed="T"/>不捨？是故舉法況人，但勸捨法，不勸捨人。以
 <lb n="0107a11" ed="T"/>是義故，「如來常說」下，第二引證。《阿含經》中，佛
 <lb n="0107a12" ed="T"/>為比丘作於筏喻，譬如有人為賊所逐，取草
@@ -2224,7 +2400,8 @@
 <lb n="0108a05" ed="T"/>由有法佛，故有報佛；由有報佛，故有化佛。法
 <lb n="0108a06" ed="T"/>佛是佛性，要由佛性故，修因滿，成報身。此
 <lb n="0108a07" ed="T"/>二即是自德；然後化眾生，即是化他德，故
-<lb n="0108a08" ed="T"/>有化佛也。</p><p xml:id="pT33p0108a0805" cb:place="inline">「須菩提！於意云何？若人滿三千大
+<lb n="0108a08" ed="T"/>有化佛也。</p>
+<p xml:id="pT33p0108a0805" cb:place="inline">「須菩提！於意云何？若人滿三千大
 <lb n="0108a09" ed="T"/>千世界七寶布施」下，此是第三、格量顯勝，稱
 <lb n="0108a10" ed="T"/>嘆勸修門。若以福慧而判，上來就智慧門
 <lb n="0108a11" ed="T"/>說般若已，今以功德門說般若。般若未曾
@@ -2337,7 +2514,8 @@
 <lb n="0109a28" ed="T"/>外，二乘菩薩無有此法，故云即非佛法也。以
 <lb n="0109a29" ed="T"/>佛獨有故，此法第一。今持經福能生第一之
 <pb n="0109b" ed="T" xml:id="T33.1699.0109b"/>
-<lb n="0109b01" ed="T"/>法，是故持經之福其福最勝。</p><p xml:id="pT33p0109b0112" cb:place="inline">「須菩提！於意云
+<lb n="0109b01" ed="T"/>法，是故持經之福其福最勝。</p>
+<p xml:id="pT33p0109b0112" cb:place="inline">「須菩提！於意云
 <lb n="0109b02" ed="T"/>何？須陀洹能作是念」下，此第二、釋成格量之
 <lb n="0109b03" ed="T"/>義。就此章中大開二別：第一、舉小乘因果釋
 <lb n="0109b04" ed="T"/>成格量之義；第二、舉大乘因果釋格量之義。
@@ -2410,7 +2588,11 @@
 <lb n="0110a11" ed="T"/>三界思惟，更立三果，斷欲界思惟立於二果，
 <lb n="0110a12" ed="T"/>斷上二界思惟立羅漢。所以然者，欲界是苦
 <lb n="0110a13" ed="T"/>難地，此既難可過度，是以斷欲界惑立於
-<lb n="0110a14" ed="T"/>二果。上二界非苦難地，<note n="0110a1401" resp="CBETA" type="add">已【CB】，巳【大】</note><app n="0110a1401"><lem resp="CBETA" wit="【CB】">已</lem><rdg wit="【大】">巳</rdg></app>有解基，惑則易斷，
+<lb n="0110a14" ed="T"/>二果。上二界非苦難地，<note 
+n="0110a1401" resp="CBETA" type="add">已【CB】，巳【大】</note><app n="0110a1401">
+  <lem resp="CBETA" wit="【CB】">已</lem>
+  <rdg wit="【大】">巳</rdg>
+</app>有解基，惑則易斷，
 <lb n="0110a15" ed="T"/>是以斷上二界惑立阿羅漢果。言斷欲界惑
 <lb n="0110a16" ed="T"/>立二果者，欲界思惟有九品，斷前六品名斯
 <lb n="0110a17" ed="T"/>陀含果，具斷後三品立阿那含果。所以斷前
@@ -2478,7 +2660,12 @@
 <lb n="0110c19" ed="T"/>既其德極，簡異上三，偏云道也。所以然者，《大
 <lb n="0110c20" ed="T"/>經》云「菩提名盡智、無生智」。菩提，此稱為道。羅
 <lb n="0110c21" ed="T"/>漢既得此二智與其道名，上之三果未得二
-<lb n="0110c22" ed="T"/>智，不名<note n="0110001" resp="Taisho" type="orig" place="foot text">〔與〕－？</note><note n="0110001" resp="CBETA" type="mod">與【大】，〔－〕【考偽-大】</note><app n="0110001"><lem resp="Taisho" wit="【大】">與</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>道也。第二、偏據善吉悟解勝為證
+<lb n="0110c22" ed="T"/>智，不名<note 
+n="0110001" resp="Taisho" type="orig" place="foot text">〔與〕－？</note><note 
+n="0110001" resp="CBETA" type="mod">與【大】，〔－〕【考偽-大】</note><app n="0110001">
+  <lem resp="Taisho" wit="【大】">與</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>道也。第二、偏據善吉悟解勝為證
 <lb n="0110c23" ed="T"/>者，善吉猶是羅漢，但今是對揚之主，又復別
 <lb n="0110c24" ed="T"/>得勝定異於餘人，又自引為證，欲使於義明
 <lb n="0110c25" ed="T"/>顯也。就文有四：一、明佛就其得上果；二、明其
@@ -2648,7 +2835,8 @@
 <lb n="0112c09" ed="T"/>者、法施則出有法，財施則是有流。八者、財施
 <lb n="0112c10" ed="T"/>果有盡，法施果無盡；九者、財施不一時得，法
 <lb n="0112c11" ed="T"/>施則一時而得。十者、明法施具四攝，財施但
-<lb n="0112c12" ed="T"/>一攝，是故法施勝於財施也。</p><p xml:id="pT33p0112c1212" cb:place="inline">「復次，隨說是經」
+<lb n="0112c12" ed="T"/>一攝，是故法施勝於財施也。</p>
+<p xml:id="pT33p0112c1212" cb:place="inline">「復次，隨說是經」
 <lb n="0112c13" ed="T"/>下，上來舉二財施格量四句經竟，此下第二、
 <lb n="0112c14" ed="T"/>歎經之處及美受持之人，明經在處則處貴、
 <lb n="0112c15" ed="T"/>在人則人尊。就文有四：一、明經在處則處重；
@@ -2675,7 +2863,12 @@
 <lb n="0113a06" ed="T"/>波若體，此之一章明波若名，即是名說也。今
 <lb n="0113a07" ed="T"/>明名說體說，非無此義，但此文猶屬格量段
 <lb n="0113a08" ed="T"/>也。前格量中開為二別：第一、正舉二種財施
-<lb n="0113a09" ed="T"/>格量稱嘆；第二章、辨於經名。所以辨<note n="0113001" resp="Taisho" type="orig" place="foot text">經＋（名）？</note><note n="0113001" resp="CBETA" type="mod">經【大】，經名【考偽-大】</note><app n="0113001"><lem resp="Taisho" wit="【大】">經</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">經名</rdg></app>者，
+<lb n="0113a09" ed="T"/>格量稱嘆；第二章、辨於經名。所以辨<note 
+n="0113001" resp="Taisho" type="orig" place="foot text">經＋（名）？</note><note 
+n="0113001" resp="CBETA" type="mod">經【大】，經名【考偽-大】</note><app n="0113001">
+  <lem resp="Taisho" wit="【大】">經</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">經名</rdg>
+</app>者，
 <lb n="0113a10" ed="T"/>上舉二施格量及稱歎，經在處則處貴、居人
 <lb n="0113a11" ed="T"/>則人尊。時眾聞經有斯勝德，咸欲受持，但未
 <lb n="0113a12" ed="T"/>識名字，是故此中辨名也。就文為二：初問，次
@@ -2833,7 +3026,11 @@
 <lb n="0114c13" ed="T"/>四、陳他悟為難。所以難者，良由生在末世後
 <lb n="0114c14" ed="T"/>五百歲故也。叡法師云：「前五百歲得道者多，
 <lb n="0114c15" ed="T"/>不得道者少；後五百歲不得道者多，得道者
-<lb n="0114c16" ed="T"/>少。前五百歲信無生者多，不信者<note n="0114c1601" resp="CBETA" type="add">少【CB】，小【大】</note><app n="0114c1601"><lem resp="CBETA" wit="【CB】">少</lem><rdg wit="【大】">小</rdg></app>；後五百
+<lb n="0114c16" ed="T"/>少。前五百歲信無生者多，不信者<note 
+n="0114c1601" resp="CBETA" type="add">少【CB】，小【大】</note><app n="0114c1601">
+  <lem resp="CBETA" wit="【CB】">少</lem>
+  <rdg wit="【大】">小</rdg>
+</app>；後五百
 <lb n="0114c17" ed="T"/>歲不信者多、信者為少。是以前五百年名正
 <lb n="0114c18" ed="T"/>法，後五百年名像法。」能於像法中信，所以為
 <lb n="0114c19" ed="T"/>難也。又明此時眾生不久殖三多、不久值佛，
@@ -2846,7 +3043,13 @@
 <lb n="0114c26" ed="T"/>等相者，非有我相，是故不取我相，以實無我
 <lb n="0114c27" ed="T"/>故無所取耳，故云我相即是非相也。又道理
 <lb n="0114c28" ed="T"/>若實有我人之相則不可離，以道理實無我人
-<lb n="0114c29" ed="T"/>之相，但眾生妄謂為有，故我相可離<note n="0114001" resp="Taisho" type="orig" place="foot text">多＝耳？</note><note n="0114001" resp="CBETA" type="mod" note_key="T33.0114c29.15">耳【CB】【考偽-大】，多【大】</note><app n="0114001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">耳</lem><rdg wit="【大】">多</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">耳</rdg></app>，故云
+<lb n="0114c29" ed="T"/>之相，但眾生妄謂為有，故我相可離<note 
+n="0114001" resp="Taisho" type="orig" place="foot text">多＝耳？</note><note 
+n="0114001" resp="CBETA" type="mod" note_key="T33.0114c29.15">耳【CB】【考偽-大】，多【大】</note><app n="0114001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">耳</lem>
+  <rdg wit="【大】">多</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">耳</rdg>
+</app>，故云
 <pb n="0115a" ed="T" xml:id="T33.1699.0115a"/>
 <lb n="0115a01" ed="T"/>我相即是非相也。《大品》云「眾生所著，若有一
 <lb n="0115a02" ed="T"/>毫末之可有，則不可離，以所著處無如毛髮
@@ -3118,12 +3321,17 @@
 <lb n="0117c28" ed="T"/>之重，故格自行。講誦者須細看經，不爾不覺
 <lb n="0117c29" ed="T"/>也。問：三門明功德格量三門何異耶？答云：自
 <pb n="0118a" ed="T" xml:id="T33.1699.0118a"/>
-<lb n="0118a01" ed="T"/>行化他門，則功德即格量，從三千至<note n="0118a0101" resp="CBETA" type="add">恒【CB】，洹【大】</note><app n="0118a0101"><lem resp="CBETA" wit="【CB】">恒</lem><rdg wit="【大】">洹</rdg></app>沙身
+<lb n="0118a01" ed="T"/>行化他門，則功德即格量，從三千至<note 
+n="0118a0101" resp="CBETA" type="add">恒【CB】，洹【大】</note><app n="0118a0101">
+  <lem resp="CBETA" wit="【CB】">恒</lem>
+  <rdg wit="【大】">洹</rdg>
+</app>沙身
 <lb n="0118a02" ed="T"/>命是也。自信門、自受持門，此二門前明功德
 <lb n="0118a03" ed="T"/>後格量，故文有開合之異也。問：三門明功德
 <lb n="0118a04" ed="T"/>何異耶？答：即是三品。但生信心為下品，受持
 <lb n="0118a05" ed="T"/>讀誦不為他說為中品，次受持復為他說為
-<lb n="0118a06" ed="T"/>上品。又前是自行，後一具自他也。</p><p xml:id="pT33p0118a0614" cb:place="inline">「須菩提！善
+<lb n="0118a06" ed="T"/>上品。又前是自行，後一具自他也。</p>
+<p xml:id="pT33p0118a0614" cb:place="inline">「須菩提！善
 <lb n="0118a07" ed="T"/>男子善女人」下，大章第二。前第一、明格量；今
 <lb n="0118a08" ed="T"/>明格量所不能格量，會不格量所及。若其更
 <lb n="0118a09" ed="T"/>格則人不信，故云不思議也。「爾時須菩提白
@@ -3250,7 +3458,8 @@
 <lb n="0119b10" ed="T"/>受記也。」今謂此釋無所出，論直云「以後時受
 <lb n="0119b11" ed="T"/>記，然燈行非上」，此言自難解，亦無四時受記、
 <lb n="0119b12" ed="T"/>四時然燈也。又設有此義，於文義相皆不順，
-<lb n="0119b13" ed="T"/>故於今無取也。</p><p xml:id="pT33p0119b1307" cb:place="inline">「譬如人身長大」下，第三章經
+<lb n="0119b13" ed="T"/>故於今無取也。</p>
+<p xml:id="pT33p0119b1307" cb:place="inline">「譬如人身長大」下，第三章經
 <lb n="0119b14" ed="T"/>論無生起觀。此文舉山王譬法身，成上菩提
 <lb n="0119b15" ed="T"/>非有非無義耳。法身無一切患故非有，具一
 <lb n="0119b16" ed="T"/>切功德故非無，然菩提既非有無，故法身亦
@@ -3269,7 +3478,8 @@
 <lb n="0119b29" ed="T"/>明報佛，今明法身佛也。上，惑者謂初得佛時
 <pb n="0119c" ed="T" xml:id="T33.1699.0119c"/>
 <lb n="0119c01" ed="T"/>言有菩提可取，故是報佛，今直明法身體非
-<lb n="0119c02" ed="T"/>有無，故是法身也。</p><p xml:id="pT33p0119c0208" cb:place="inline">「菩薩亦如是」下，此第四章
+<lb n="0119c02" ed="T"/>有無，故是法身也。</p>
+<p xml:id="pT33p0119c0208" cb:place="inline">「菩薩亦如是」下，此第四章
 <lb n="0119c03" ed="T"/>經來者，論生起云「若上來明無發心菩薩、受
 <lb n="0119c04" ed="T"/>記菩薩，又無諸佛得無上菩提；若因果皆不
 <lb n="0119c05" ed="T"/>可得者，眾生亦不應入涅槃，亦無淨佛土事，
@@ -3300,7 +3510,8 @@
 <pb n="0120a" ed="T" xml:id="T33.1699.0120a"/>
 <lb n="0120a01" ed="T"/>我，故不名菩薩也。」又菩薩知我無我不二，故
 <lb n="0120a02" ed="T"/>名菩薩；二乘見我無我異，是二見之人，非菩
-<lb n="0120a03" ed="T"/>薩也。</p><p xml:id="pT33p0120a0303" cb:place="inline">「五眼」下，第五章經。文來有二：一者、近生，
+<lb n="0120a03" ed="T"/>薩也。</p>
+<p xml:id="pT33p0120a0303" cb:place="inline">「五眼」下，第五章經。文來有二：一者、近生，
 <lb n="0120a04" ed="T"/>還從上四章生。前來四章竝不見菩薩，時會
 <lb n="0120a05" ed="T"/>即疑：若如來云無所見者，則應無眼；若有眼，
 <lb n="0120a06" ed="T"/>何故不見？故舉五眼答：今言不見者，非無眼
@@ -3356,7 +3567,8 @@
 <lb n="0120b26" ed="T"/>因也。「若福德有實」，此便釋疑。疑云：上亦三
 <lb n="0120b27" ed="T"/>千七寶，今亦爾，何故是佛因耶？故釋云：若福
 <lb n="0120b28" ed="T"/>德有實，此明有得福德。「以福德無故」，此明無
-<lb n="0120b29" ed="T"/>得福德，故是佛因也。</p><p xml:id="pT33p0120b2909" cb:place="inline">「須菩提！於意云何？佛可
+<lb n="0120b29" ed="T"/>得福德，故是佛因也。</p>
+<p xml:id="pT33p0120b2909" cb:place="inline">「須菩提！於意云何？佛可
 <lb n="0120b30" ed="T"/>以具足色身」下，第六章經。上來至此三處明
 <pb n="0120c" ed="T" xml:id="T33.1699.0120c"/>
 <lb n="0120c01" ed="T"/>色身，何異？答：初為明相好身異法身，相好身
@@ -3414,7 +3626,8 @@
 <lb n="0121a23" ed="T"/>說此經竟為何人耶？答：觀此論意，具足顛倒
 <lb n="0121a24" ed="T"/>有所得凡夫不能了，此是習無所得觀眾生
 <lb n="0121a25" ed="T"/>則能信。此眾生望有所得人，故非眾生；未具
-<lb n="0121a26" ed="T"/>足了悟，故非不眾生也。</p><p xml:id="pT33p0121a2610" cb:place="inline">「於意云何」下，第八章
+<lb n="0121a26" ed="T"/>足了悟，故非不眾生也。</p>
+<p xml:id="pT33p0121a2610" cb:place="inline">「於意云何」下，第八章
 <lb n="0121a27" ed="T"/>經論生起，　從上第二章經生。上第二章經云
 <lb n="0121a28" ed="T"/>佛無菩提可得者，今云何有階級位行耶？如
 <lb n="0121a29" ed="T"/>謂從十信至十住，從十住至十行，從十行至
@@ -3450,7 +3663,8 @@
 <lb n="0121b29" ed="T"/>明是無所得善法耳。得非是有所善法，故云
 <pb n="0121c" ed="T" xml:id="T33.1699.0121c"/>
 <lb n="0121c01" ed="T"/>「則非善法」。「是名善法」者，還結取無所得善法
-<lb n="0121c02" ed="T"/>也。</p><p xml:id="pT33p0121c0202" cb:place="inline">「三千世界須彌七寶」下，此第九章。問：前周
+<lb n="0121c02" ed="T"/>也。</p>
+<p xml:id="pT33p0121c0202" cb:place="inline">「三千世界須彌七寶」下，此第九章。問：前周
 <lb n="0121c03" ed="T"/>已舉內外兩施明格量竟，今何故更說？答：上
 <lb n="0121c04" ed="T"/>已明前後說為兩會之眾，不應問也。又上來
 <lb n="0121c05" ed="T"/>明般若體門及信受門竟，今說經是功德門
@@ -3505,7 +3719,8 @@
 <lb n="0122a24" ed="T"/>凡夫法、凡夫性，凡夫性是非色非心不相應
 <lb n="0122a25" ed="T"/>行無記法也。凡夫法通五陰、通三性也。成論
 <lb n="0122a26" ed="T"/>義無別凡夫性法，但無無漏聖法，故名凡夫
-<lb n="0122a27" ed="T"/>法耳。</p><p xml:id="pT33p0122a2703" cb:place="inline">「可以三十二相觀如來不」下，此第十一
+<lb n="0122a27" ed="T"/>法耳。</p>
+<p xml:id="pT33p0122a2703" cb:place="inline">「可以三十二相觀如來不」下，此第十一
 <lb n="0122a28" ed="T"/>章經。上已三章來各有其義，今復來者，上第
 <lb n="0122a29" ed="T"/>三章中雖破如來法身有相無相一異等見，
 <pb n="0122b" ed="T" xml:id="T33.1699.0122b"/>
@@ -3525,7 +3740,8 @@
 <lb n="0122b14" ed="T"/>得般若方便，用五句皆非佛。故觀般若偈云
 <lb n="0122b15" ed="T"/>「若人見般若，是則得解脫；若不見般若，是亦
 <lb n="0122b16" ed="T"/>得解脫。若人見般若，是則為繫縛；若不見般
-<lb n="0122b17" ed="T"/>若，亦為繫縛也。」</p><p xml:id="pT33p0122b1707" cb:place="inline">「汝若作是念」下，第十二章經
+<lb n="0122b17" ed="T"/>若，亦為繫縛也。」</p>
+<p xml:id="pT33p0122b1707" cb:place="inline">「汝若作是念」下，第十二章經
 <lb n="0122b18" ed="T"/>來者，論生起云「若言不以色相好見法身者，
 <lb n="0122b19" ed="T"/>則修相好業不得菩提。若爾，應無福德之因、
 <lb n="0122b20" ed="T"/>福德之果。為破此疑故，明汝勿言無福因及
@@ -3552,7 +3768,8 @@
 <lb n="0122c11" ed="T"/>此菩薩勝前菩薩，前菩薩受有得福德故不
 <lb n="0122c12" ed="T"/>及後菩薩也。次、問答料簡不受之義。問：菩薩
 <lb n="0122c13" ed="T"/>既作福德，云何不貪著耶？答：菩薩以無受心
-<lb n="0122c14" ed="T"/>作故不生貪心，多非作福德，然復不貪也。</p><p xml:id="pT33p0122c1417" cb:place="inline">「若
+<lb n="0122c14" ed="T"/>作故不生貪心，多非作福德，然復不貪也。</p>
+<p xml:id="pT33p0122c1417" cb:place="inline">「若
 <lb n="0122c15" ed="T"/>有人言：如來若來若去」下，第十三章來者，論
 <lb n="0122c16" ed="T"/>生起云「菩薩既不受福德，則不受世間人王。
 <lb n="0122c17" ed="T"/>天王云何往來六道利益眾生耶？故今釋云：
@@ -3565,7 +3782,8 @@
 <lb n="0122c24" ed="T"/>有來去、法身無來去，還是從來義耳。答：此是
 <lb n="0122c25" ed="T"/>不二二義，故開二身無去來。去來是化身，去
 <lb n="0122c26" ed="T"/>來無去來是法身，皆是為物作此名字耳。至
-<lb n="0122c27" ed="T"/>論正般若，未曾二不二、去來不去來也。</p><p xml:id="pT33p0122c2716" cb:place="inline">「須菩
+<lb n="0122c27" ed="T"/>論正般若，未曾二不二、去來不去來也。</p>
+<p xml:id="pT33p0122c2716" cb:place="inline">「須菩
 <lb n="0122c28" ed="T"/>提！以三千世界碎為微塵」下，第十四章經。前
 <lb n="0122c29" ed="T"/>已明微塵，今復明，何異？釋：有同有異。有同者，
 <pb n="0123a" ed="T" xml:id="T33.1699.0123a"/>
@@ -3624,7 +3842,11 @@
 <lb n="0123b23" ed="T"/>我本來畢竟不可得，何所斷故言無我耶？「應
 <lb n="0123b24" ed="T"/>如是知」者，上明我見本來不可得，今明法
 <lb n="0123b25" ed="T"/>見亦本來不可得，故舉我列法，故云應如是
-<lb n="0123b26" ed="T"/>知、見、信解，不<note n="0123b2601" resp="CBETA" type="add" note_key="T33.0123b26.06">生【CB】，在【大】</note><app n="0123b2601"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">生<note type="cf1">T08n0235_p0752b22</note><note type="cf2">T33n1700_p0154a10</note></lem><rdg wit="【大】">在</rdg></app>法相也。「所言法相者，則非法
+<lb n="0123b26" ed="T"/>知、見、信解，不<note 
+n="0123b2601" resp="CBETA" type="add" note_key="T33.0123b26.06">生【CB】，在【大】</note><app n="0123b2601">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">生<note type="cf1">T08n0235_p0752b22</note><note type="cf2">T33n1700_p0154a10</note></lem>
+  <rdg wit="【大】">在</rdg>
+</app>法相也。「所言法相者，則非法
 <lb n="0123b27" ed="T"/>相」者，亦如我義。佛說我既非我，說法相亦
 <lb n="0123b28" ed="T"/>非法相也。問：如是知、見、信解，何異耶？答：論偈
 <lb n="0123b29" ed="T"/>云「二智及三昧，知是世諦智」，見是第一義諦
@@ -3633,7 +3855,8 @@
 <lb n="0123c02" ed="T"/>二智也。問：何故明二智？答：菩薩了人法空，具
 <lb n="0123c03" ed="T"/>足二智也。又始行菩薩未得無生，了悟淺名
 <lb n="0123c04" ed="T"/>世諦智。深行菩薩得無生忍，了悟二空，名第
-<lb n="0123c05" ed="T"/>一義諦智。三昧通是二人智所依也。</p><p xml:id="pT33p0123c0515" cb:place="inline">「若人以
+<lb n="0123c05" ed="T"/>一義諦智。三昧通是二人智所依也。</p>
+<p xml:id="pT33p0123c0515" cb:place="inline">「若人以
 <lb n="0123c06" ed="T"/>滿無量」下，此第十五章經。上「如來者無所從
 <lb n="0123c07" ed="T"/>來」，總明二身；微塵譬喻，別料簡法身。今此一
 <lb n="0123c08" ed="T"/>章經，別料簡化身。疑云：化佛既有去來，供養
@@ -3673,6 +3896,7 @@
 <lb n="0124a12" ed="T"/>八者、如電喻，纔現即滅，現在法亦爾。第九、雲
 <lb n="0124a13" ed="T"/>喻，空中淨，忽然雲生，即時便滅；未來法亦爾，
 <lb n="0124a14" ed="T"/>忽然而起，即時散滅也。委曲須講釋，今略示
-<lb n="0124a15" ed="T"/>耳。</p><p xml:id="pT33p0124a1502" cb:place="inline">第三、流通，如文意云云。</p>
+<lb n="0124a15" ed="T"/>耳。</p>
+<p xml:id="pT33p0124a1502" cb:place="inline">第三、流通，如文意云云。</p>
 <lb n="0124a16" ed="T"/><cb:juan n="004" fun="close"><cb:jhead>金剛般若經義疏卷第四畢</cb:jhead></cb:juan></cb:div>
 </body></text></TEI>

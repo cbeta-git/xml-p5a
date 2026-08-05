@@ -2,85 +2,87 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T38n1769">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">涅槃宗要</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1769 涅槃宗要</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1769 涅槃宗要</title>
-			<author>新羅 元曉撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">38</idno>.<idno type="no">1769</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-04-24T16:17:40">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">涅槃宗要</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1769 涅槃宗要</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1769 涅槃宗要</title>
+      <author>新羅 元曉撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">38</idno>.<idno type="no">1769</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by CBETA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-04-24T16:17:40">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0239a10" ed="T"/>
 <lb n="0239a11" ed="T"/>
 <lb n="0239a12" ed="T"/><cb:docNumber>No. 1769 [cf. No. 375]</cb:docNumber>
-<lb n="0239a13" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0239001" resp="Taisho" type="orig" place="foot text">【原】天治元年寫日光輪王寺藏本</note>涅槃宗要</cb:jhead></cb:juan>
+<lb n="0239a13" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0239001" resp="Taisho" type="orig" place="foot text">【原】天治元年寫日光輪王寺藏本</note>涅槃宗要</cb:jhead></cb:juan>
 <lb n="0239a14" ed="T"/>
 <lb n="0239a15" ed="T"/><byline cb:type="author">元曉師撰</byline>
 <lb n="0239a16" ed="T"/><cb:div type="jing"><p xml:id="pT38p0239a1601">是經有其二門：一者略述大意、二者廣開分
-<lb n="0239a17" ed="T"/>別。</p><p xml:id="pT38p0239a1702" cb:place="inline">述大意者，原夫涅槃之為道也，無道而無
+<lb n="0239a17" ed="T"/>別。</p>
+<p xml:id="pT38p0239a1702" cb:place="inline">述大意者，原夫涅槃之為道也，無道而無
 <lb n="0239a18" ed="T"/>非道、無住而無非住，是知其道至近至遠，證
 <lb n="0239a19" ed="T"/>斯道者彌寂彌暄。彌暄之故，普震八聲通虛
 <lb n="0239a20" ed="T"/>空而不息；彌寂之故，遠離十相同真際而湛
@@ -111,8 +113,10 @@
 <lb n="0239b15" ed="T"/>所言經者，大聖格言，貫十方而一揆、歷千代
 <lb n="0239b16" ed="T"/>而莫二，法而且常，故名為經。正說之前，先序
 <lb n="0239b17" ed="T"/>時事，以之故言序品第一，故導大般涅槃經
-<lb n="0239b18" ed="T"/>序品第一。</p><p xml:id="pT38p0239b1805" cb:place="inline">二者廣開之內，有其四門：初說因
-<lb n="0239b19" ed="T"/>緣、次明教宗、三出經體、四辨教迹。</p><p xml:id="pT38p0239b1914" cb:place="inline">第一說經
+<lb n="0239b18" ed="T"/>序品第一。</p>
+<p xml:id="pT38p0239b1805" cb:place="inline">二者廣開之內，有其四門：初說因
+<lb n="0239b19" ed="T"/>緣、次明教宗、三出經體、四辨教迹。</p>
+<p xml:id="pT38p0239b1914" cb:place="inline">第一說經
 <lb n="0239b20" ed="T"/>因緣門者，問：佛臨涅槃而說是經，為有因緣、
 <lb n="0239b21" ed="T"/>為無因緣？若無因緣亦應無說，若有因緣有
 <lb n="0239b22" ed="T"/>為幾種？答：佛說是經無因無緣。所以然者，所
@@ -148,7 +152,11 @@
 <lb n="0239c22" ed="T"/>得聞大涅槃經。所以者何？大德之人乃能得
 <lb n="0239c23" ed="T"/>聞如是大事。何等為大？所謂諸佛甚深祕藏
 <lb n="0239c24" ed="T"/>如來之性。以是義故名為大事。」解云：今說是
-<lb n="0239c25" ed="T"/>經之時，正臨一化之終日，究<note n="0239c2501" resp="CBETA" type="add" note_key="T38.0239c25.12">竟【CB】，意【大】</note><app n="0239c2501"><lem resp="CBETA.maha" wit="【CB】">竟</lem><rdg wit="【大】">意</rdg></app>顯示諸佛大意，
+<lb n="0239c25" ed="T"/>經之時，正臨一化之終日，究<note 
+n="0239c2501" resp="CBETA" type="add" note_key="T38.0239c25.12">竟【CB】，意【大】</note><app n="0239c2501">
+  <lem resp="CBETA.maha" wit="【CB】">竟</lem>
+  <rdg wit="【大】">意</rdg>
+</app>顯示諸佛大意，
 <lb n="0239c26" ed="T"/>所謂總括成道以來隨機所說一切言教，悉
 <lb n="0239c27" ed="T"/>為示一味之道，普今歸趣無二之性。十方世
 <lb n="0239c28" ed="T"/>一切諸佛，悉同是意無二無別，是謂諸佛出
@@ -159,7 +167,8 @@
 <lb n="0240a03" ed="T"/><p xml:id="pT38p0240a0301">問：彼初師義無因無說，此後師意有因有說。
 <lb n="0240a04" ed="T"/>如是二說何得何失？或有說者，二說悉得，皆
 <lb n="0240a05" ed="T"/>依經典不相妨故。雖非不然故說有無，無而
-<lb n="0240a06" ed="T"/>非定然，故不相違。說經因緣應如是知。</p><p xml:id="pT38p0240a0616" cb:place="inline">第二
+<lb n="0240a06" ed="T"/>非定然，故不相違。說經因緣應如是知。</p>
+<p xml:id="pT38p0240a0616" cb:place="inline">第二
 <lb n="0240a07" ed="T"/>辨教宗者，此經宗旨說者不同。有師說言：經
 <lb n="0240a08" ed="T"/>文始終所詮眾義以為經宗。對問而言，即有
 <lb n="0240a09" ed="T"/>六六三十六義，所謂第一長壽因果乃至最
@@ -193,17 +202,24 @@
 <lb n="0240b07" ed="T"/>故名為中道。由非一故能當諸門，由非異故
 <lb n="0240b08" ed="T"/>諸門一味。如是無二祕藏以為是經宗旨，但
 <lb n="0240b09" ed="T"/>其題目之中不能並偏存諸名，且隨時事立
-<lb n="0240b10" ed="T"/>涅槃名。</p><p xml:id="pT38p0240b1004" cb:place="inline">問：六師所說何者為實？答：或有說者，
+<lb n="0240b10" ed="T"/>涅槃名。</p>
+<p xml:id="pT38p0240b1004" cb:place="inline">問：六師所說何者為實？答：或有說者，
 <lb n="0240b11" ed="T"/>諸說悉實。佛意無方、無不當故。或有說者，後
 <lb n="0240b12" ed="T"/>說為實，能得如來無方意故，並容前說諸師
-<lb n="0240b13" ed="T"/>義故。當知是二說亦不相違也。</p><p xml:id="pT38p0240b1313" cb:place="inline">總說雖然，於
+<lb n="0240b13" ed="T"/>義故。當知是二說亦不相違也。</p>
+<p xml:id="pT38p0240b1313" cb:place="inline">總說雖然，於
 <lb n="0240b14" ed="T"/>中分別，且依二門以示其相，謂涅槃門及佛
 <lb n="0240b15" ed="T"/>性門。涅槃之義，六門分別：一名義門、二體相
 <lb n="0240b16" ed="T"/>門、三通局門、四二滅門、五三事門、六四德
-<lb n="0240b17" ed="T"/>門。名義門內，翻名釋義。</p><p xml:id="pT38p0240b1710" cb:place="inline">初翻名者，諸說不同，
+<lb n="0240b17" ed="T"/>門。名義門內，翻名釋義。</p>
+<p xml:id="pT38p0240b1710" cb:place="inline">初翻名者，諸說不同，
 <lb n="0240b18" ed="T"/>或說無翻、或說有翻。有翻之說雖有諸宗，今
 <lb n="0240b19" ed="T"/>出一義翻為滅度。其文證者，如《法花經》長行
-<lb n="0240b20" ed="T"/>言「如來於今日中夜，<note n="0240b2001" resp="CBETA" type="add" note_key="T38.0240b20.09">當入【CB】，入當【大】</note><app n="0240b2001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">當入<note type="cf1">T09n0262_p0004b02</note></lem><rdg wit="【大】">入當</rdg></app>無餘涅槃。」下偈頌
+<lb n="0240b20" ed="T"/>言「如來於今日中夜，<note 
+n="0240b2001" resp="CBETA" type="add" note_key="T38.0240b20.09">當入【CB】，入當【大】</note><app n="0240b2001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">當入<note type="cf1">T09n0262_p0004b02</note></lem>
+  <rdg wit="【大】">入當</rdg>
+</app>無餘涅槃。」下偈頌
 <lb n="0240b21" ed="T"/>曰「佛此夜滅度，如薪盡火滅。」又此大經第一
 <lb n="0240b22" ed="T"/>卷云「隨其類音普告眾生，今日如來將欲涅
 <lb n="0240b23" ed="T"/>槃。」六卷泥洹此處文言「悟惔寂滅大牟尼尊，
@@ -221,24 +237,31 @@
 <lb n="0240c05" ed="T"/>有，無有之義乃名涅槃。槃者名為和合，無和
 <lb n="0240c06" ed="T"/>合義乃名涅槃。槃者言苦，無苦之義乃名涅
 <lb n="0240c07" ed="T"/>槃。」此處略出是十種訓，上下諸文乃眾多，故
-<lb n="0240c08" ed="T"/>知不可一語而翻。</p><p xml:id="pT38p0240c0808" cb:place="inline">問：若立後師義，是難云何
+<lb n="0240c08" ed="T"/>知不可一語而翻。</p>
+<p xml:id="pT38p0240c0808" cb:place="inline">問：若立後師義，是難云何
 <lb n="0240c09" ed="T"/>通？謂有難曰：經說有翻耶？得無翻？如言「隨其
 <lb n="0240c10" ed="T"/>類音普告眾生，今日如來將欲涅槃。」豈隨蜂
 <lb n="0240c11" ed="T"/>蟻六道之音得翻涅槃之名，而獨不得此國
 <lb n="0240c12" ed="T"/>語翻？又當此處經文既翻云之滅度，豈可得
 <lb n="0240c13" ed="T"/>云不能翻耶？彼師通曰：涅槃之名多訓之內，
 <lb n="0240c14" ed="T"/>且取一義翻為滅度，即依此訓普告眾生，非
-<lb n="0240c15" ed="T"/>謂其名只翻滅度。以是義故，彼難善通。</p><p xml:id="pT38p0240c1516" cb:place="inline">問：若
+<lb n="0240c15" ed="T"/>謂其名只翻滅度。以是義故，彼難善通。</p>
+<p xml:id="pT38p0240c1516" cb:place="inline">問：若
 <lb n="0240c16" ed="T"/>立初師義，是文云何通？如〈德王品〉菩薩難言：
 <lb n="0240c17" ed="T"/>「若使滅度非涅槃者，何故如來自期三月當
 <lb n="0240c18" ed="T"/>般涅槃？」〈師子孔品〉云「諸結火滅，故名滅度。離
 <lb n="0240c19" ed="T"/>覺觀故，故名涅槃。」以是文證，明知滅度非正
 <lb n="0240c20" ed="T"/>翻於涅槃名也。彼師通曰：此等經文是翻譯
-<lb n="0240c21" ed="T"/>家<note n="0240c2101" resp="CBETA" type="add" note_key="T38.0240c21.02">胡【CB】，故【大】</note><app n="0240c2101"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">胡</lem><rdg wit="【大】">故</rdg></app>漢互舉綺飾其文。若使令存外國語者，
+<lb n="0240c21" ed="T"/>家<note 
+n="0240c2101" resp="CBETA" type="add" note_key="T38.0240c21.02">胡【CB】，故【大】</note><app n="0240c2101">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">胡</lem>
+  <rdg wit="【大】">故</rdg>
+</app>漢互舉綺飾其文。若使令存外國語者，
 <lb n="0240c22" ed="T"/>既言若使涅槃非涅槃者，又諸結火滅故名
 <lb n="0240c23" ed="T"/>涅槃、離覺觀故故名涅槃，如其令存此土語
 <lb n="0240c24" ed="T"/>者，既云若使滅度非滅度者，下文例爾，由是
-<lb n="0240c25" ed="T"/>義故不相違也。</p><p xml:id="pT38p0240c2507" cb:place="inline">問：二師所說，何是何非？答：或
+<lb n="0240c25" ed="T"/>義故不相違也。</p>
+<p xml:id="pT38p0240c2507" cb:place="inline">問：二師所說，何是何非？答：或
 <lb n="0240c26" ed="T"/>有說者，二說俱是，悉依經文而成立故。是義
 <lb n="0240c27" ed="T"/>云何？涅槃之名即含二義，所謂密語及顯了
 <lb n="0240c28" ed="T"/>語。依顯了語，正翻滅度，如初師說。若依密語，
@@ -254,7 +277,8 @@
 <lb n="0241a08" ed="T"/>煩惱乃識生死，故師子吼言「諸結火滅名滅
 <lb n="0241a09" ed="T"/>度」者，亦是顯了語之滅度。離覺覺故名涅槃者，
 <lb n="0241a10" ed="T"/>取密語內無苦之義。入無餘時苦報滅已，方
-<lb n="0241a11" ed="T"/>離覺覺分別心故。由是道理，諸善說通也。</p><p xml:id="pT38p0241a1117" cb:place="inline">次
+<lb n="0241a11" ed="T"/>離覺覺分別心故。由是道理，諸善說通也。</p>
+<p xml:id="pT38p0241a1117" cb:place="inline">次
 <lb n="0241a12" ed="T"/>釋義者，且依顯了之語以釋有翻之義，此土
 <lb n="0241a13" ed="T"/>釋之言大滅度。所言大者，古人釋云：莫先為
 <lb n="0241a14" ed="T"/>義，謂釋勝之時莫是為先，非約時前後言無
@@ -272,7 +296,8 @@
 <lb n="0241a26" ed="T"/>寶，涅槃如是，多有種種妙法珍寶，故名大。」六
 <lb n="0241a27" ed="T"/>者勝之莫先，故名為大。如經言「如世間中勝
 <lb n="0241a28" ed="T"/>上主人名為大人，涅槃如是，諸法中勝，故名
-<lb n="0241a29" ed="T"/>為大。」大義如是。</p><p xml:id="pT38p0241a2907" cb:place="inline">所言滅者，略有四義：事滅、理
+<lb n="0241a29" ed="T"/>為大。」大義如是。</p>
+<p xml:id="pT38p0241a2907" cb:place="inline">所言滅者，略有四義：事滅、理
 <pb n="0241b" ed="T" xml:id="T38.1769.0241b"/>
 <lb n="0241b01" ed="T"/>滅、德滅、擇滅。言事滅者，還無為義，義當應化
 <lb n="0241b02" ed="T"/>身。正智亦亡，故名為滅。如經言「佛此夜滅度，
@@ -295,11 +320,13 @@
 <lb n="0241b19" ed="T"/>者從果受名，謂智依理能滅煩惱。理為滅因，
 <lb n="0241b20" ed="T"/>智是滅果，從果立名，名理為滅。如《佛性論》云
 <lb n="0241b21" ed="T"/>「道依涅槃，能使煩惱未來不生、現在不滅。因
-<lb n="0241b22" ed="T"/>中說果，故名涅槃為無生滅。」滅義如是。</p><p xml:id="pT38p0241b2216" cb:place="inline">所言
+<lb n="0241b22" ed="T"/>中說果，故名涅槃為無生滅。」滅義如是。</p>
+<p xml:id="pT38p0241b2216" cb:place="inline">所言
 <lb n="0241b23" ed="T"/>度者，略有二義，謂究竟義及到岸義。到岸義
 <lb n="0241b24" ed="T"/>者，顯顯斷義。煩惱滅者，明非常義。煩惱離滅，
 <lb n="0241b25" ed="T"/>眾生得度，非常非斷，故名滅度。究竟義者，滅
-<lb n="0241b26" ed="T"/>德究竟，故名滅度。度義如是。</p><p xml:id="pT38p0241b2612" cb:place="inline">問：若斷煩惱非
+<lb n="0241b26" ed="T"/>德究竟，故名滅度。度義如是。</p>
+<p xml:id="pT38p0241b2612" cb:place="inline">問：若斷煩惱非
 <lb n="0241b27" ed="T"/>涅槃者，何故〈德王菩薩品〉云「不見佛性而斷
 <lb n="0241b28" ed="T"/>煩惱是名涅槃。」大涅槃以見佛性故得名為
 <lb n="0241b29" ed="T"/>常樂我淨，故斷煩惱亦得稱為大般涅槃。若
@@ -321,7 +348,8 @@
 <lb n="0241c15" ed="T"/>遮未起者，望後之義，義在究竟，故說諸佛。依
 <lb n="0241c16" ed="T"/>是道理精別而言，斷煩惱者不名涅槃，不生
 <lb n="0241c17" ed="T"/>煩惱乃名涅槃。以是義故，不相違也。名義門
-<lb n="0241c18" ed="T"/>竟。</p><p xml:id="pT38p0241c1802" cb:place="inline">第二出體。於中有二：先出體性、後簡虛實。
+<lb n="0241c18" ed="T"/>竟。</p>
+<p xml:id="pT38p0241c1802" cb:place="inline">第二出體。於中有二：先出體性、後簡虛實。
 <lb n="0241c19" ed="T"/>出體性者，諸說不同。或有說者，無垢真如是
 <lb n="0241c20" ed="T"/>涅槃體，始起功德非是涅槃，即能證智是菩
 <lb n="0241c21" ed="T"/>提故。如經云「涅槃義者，即是諸佛之法性也。」
@@ -346,7 +374,8 @@
 <lb n="0242a10" ed="T"/>終名為生死，如經言「生者新諸根起，死者諸
 <lb n="0242a11" ed="T"/>根滅盡。」通而論之，諸雜染法皆是生死，如經
 <lb n="0242a12" ed="T"/>言「空者一切生死，廣說乃至無我一切生死。」
-<lb n="0242a13" ed="T"/>對此生死以說涅槃，故知涅槃亦有通別。</p><p xml:id="pT38p0242a1317" cb:place="inline">問：
+<lb n="0242a13" ed="T"/>對此生死以說涅槃，故知涅槃亦有通別。</p>
+<p xml:id="pT38p0242a1317" cb:place="inline">問：
 <lb n="0242a14" ed="T"/>若始有功德亦是涅槃，是是即涅槃亦有生
 <lb n="0242a15" ed="T"/>因。若爾，何故〈迦葉品〉云「三十七解脫門，三十
 <lb n="0242a16" ed="T"/>七品能為涅槃作生因，作生因亦為涅槃而
@@ -357,7 +386,9 @@
 <lb n="0242a21" ed="T"/>之德合於所了，是故說言唯有了因。如說菩
 <lb n="0242a22" ed="T"/>提生因所生，而亦有說了因所了，即是義准。
 <lb n="0242a23" ed="T"/>當知涅槃了因所顯，而亦得言生因所起。由
-<lb n="0242a24" ed="T"/>是道理，故不相違也。</p><p xml:id="pT38p0242a2409" cb:place="inline">體相如是。</p><p xml:id="pT38p0242a2413" cb:place="inline">次簡虛實。問：
+<lb n="0242a24" ed="T"/>是道理，故不相違也。</p>
+<p xml:id="pT38p0242a2409" cb:place="inline">體相如是。</p>
+<p xml:id="pT38p0242a2413" cb:place="inline">次簡虛實。問：
 <lb n="0242a25" ed="T"/>生死之法是虛妄，虛妄故空，是事可爾。涅槃
 <lb n="0242a26" ed="T"/>之果真如為體，為虛為實、為空不空？答：或有
 <lb n="0242a27" ed="T"/>說者，涅槃之體性是真，決定不空。如此經云
@@ -392,13 +423,18 @@
 <lb n="0242b26" ed="T"/>不空者皆是方便語，不盡道理也。是涅槃空
 <lb n="0242b27" ed="T"/>及佛性空，十一空內何所攝者，空空所攝故
 <lb n="0242b28" ed="T"/>說是空，唯佛所窮，十八空中畢竟空故。如前
-<lb n="0242b29" ed="T"/>所引《<note n="0242b2901" resp="CBETA" type="add" note_key="T38.0242b29.03">般【CB】，槃【大】</note><app n="0242b2901"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">般<note type="cf1">T38n1769_p0240a27</note></lem><rdg wit="【大】">槃</rdg></app>若經》說，若使諸經所說涅槃皆空，是
+<lb n="0242b29" ed="T"/>所引《<note 
+n="0242b2901" resp="CBETA" type="add" note_key="T38.0242b29.03">般【CB】，槃【大】</note><app n="0242b2901">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">般<note type="cf1">T38n1769_p0240a27</note></lem>
+  <rdg wit="【大】">槃</rdg>
+</app>若經》說，若使諸經所說涅槃皆空，是
 <pb n="0242c" ed="T" xml:id="T38.1769.0242c"/>
 <lb n="0242c01" ed="T"/>遣妄心所取相者，是即諸經所說生死法空，
 <lb n="0242c02" ed="T"/>是遣遍計所執生死。若此不爾，彼亦不然。又
 <lb n="0242c03" ed="T"/>若涅槃是實有者，即不能離實有之言。其能
 <lb n="0242c04" ed="T"/>離實有言者，即謂實有，宜是妄語。是故當知
-<lb n="0242c05" ed="T"/>彼說實有，唯說自心妄耶境界耳。</p><p xml:id="pT38p0242c0514" cb:place="inline">問：如是二
+<lb n="0242c05" ed="T"/>彼說實有，唯說自心妄耶境界耳。</p>
+<p xml:id="pT38p0242c0514" cb:place="inline">問：如是二
 <lb n="0242c06" ed="T"/>說，何得何失？答：若如言取，二說皆失，互相異
 <lb n="0242c07" ed="T"/>諍失佛意故。若非定執，二說俱得，法門無礙
 <lb n="0242c08" ed="T"/>不相妨故。是義云何？若就德患相對之門，即
@@ -416,7 +452,8 @@
 <lb n="0242c20" ed="T"/>說非我，離無相故說非無我。非無我故得說
 <lb n="0242c21" ed="T"/>大我，而非我故亦說無我。又非空故得言實
 <lb n="0242c22" ed="T"/>有，非不空故得說虛妄。如來祕藏其義如是，
-<lb n="0242c23" ed="T"/>何蜜異諍於其間哉。體門竟。</p><p xml:id="pT38p0242c2312" cb:place="inline">第三、明通局
+<lb n="0242c23" ed="T"/>何蜜異諍於其間哉。體門竟。</p>
+<p xml:id="pT38p0242c2312" cb:place="inline">第三、明通局
 <lb n="0242c24" ed="T"/>門者，於中有二：先小、後大。小乘之內，二部異
 <lb n="0242c25" ed="T"/>說。犢子部說通於凡聖，彼說涅槃有其三稱，
 <lb n="0242c26" ed="T"/>謂學、無學、非學非無學。凡夫等智斷結所得
@@ -432,7 +469,11 @@
 <lb n="0243a06" ed="T"/>名無餘涅槃。阿羅漢陰界入不相續彼斷，名
 <lb n="0243a07" ed="T"/>滅、名無欲、名諦、名斷智、名沙門果、名無餘涅槃，
 <lb n="0243a08" ed="T"/>不名有餘涅槃。」若依大乘即有四句：一、極通
-<lb n="0243a09" ed="T"/>門，凡夫、二乘菩薩與佛<note n="0243a0901" resp="CBETA" type="add" note_key="T38.0243a09.10">皆【CB】，音【大】</note><app n="0243a0901"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">皆</lem><rdg wit="【大】">音</rdg></app>有涅槃。如此經言
+<lb n="0243a09" ed="T"/>門，凡夫、二乘菩薩與佛<note 
+n="0243a0901" resp="CBETA" type="add" note_key="T38.0243a09.10">皆【CB】，音【大】</note><app n="0243a0901">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">皆</lem>
+  <rdg wit="【大】">音</rdg>
+</app>有涅槃。如此經言
 <lb n="0243a10" ed="T"/>「諸凡夫人依世俗道行斷結行，名入涅槃。」又
 <lb n="0243a11" ed="T"/>言「得少飲食亦名得涅槃」乃至廣說。聖人涅
 <lb n="0243a12" ed="T"/>槃，不待言論。二、簡凡聖門，聖有凡無。如《地持
@@ -454,11 +495,16 @@
 <lb n="0243a28" ed="T"/>者成同相涅槃，自性寂滅故。滅者成不同相
 <lb n="0243a29" ed="T"/>方便壞涅槃，爾現智緣滅故。」是二涅槃同一
 <pb n="0243b" ed="T" xml:id="T38.1769.0243b"/>
-<lb n="0243b01" ed="T"/>真如，但依義門建立二種門耳。</p><p xml:id="pT38p0243b0113" cb:place="inline">問：性淨涅槃
+<lb n="0243b01" ed="T"/>真如，但依義門建立二種門耳。</p>
+<p xml:id="pT38p0243b0113" cb:place="inline">問：性淨涅槃
 <lb n="0243b02" ed="T"/>得涅槃名，為在凡住亦名涅槃？為聖所證乃
 <lb n="0243b03" ed="T"/>名涅槃？若如後者，方便所證即同方便壞涅
 <lb n="0243b04" ed="T"/>槃義。若如前者，自然所得諸凡夫人已入涅
-<lb n="0243b05" ed="T"/>槃。又若凡夫已入涅槃，即應聖<note n="0243b0501" resp="CBETA" type="add" note_key="T38.0243b05.13">人【CB】，入【大】</note><app n="0243b0501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">人</lem><rdg wit="【大】">入</rdg></app>不入泥洹。
+<lb n="0243b05" ed="T"/>槃。又若凡夫已入涅槃，即應聖<note 
+n="0243b0501" resp="CBETA" type="add" note_key="T38.0243b05.13">人【CB】，入【大】</note><app n="0243b0501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">人</lem>
+  <rdg wit="【大】">入</rdg>
+</app>不入泥洹。
 <lb n="0243b06" ed="T"/>如是錯亂，云何簡別？答：性淨涅槃得名有二，
 <lb n="0243b07" ed="T"/>別門而說。如後問意在聖所證，所證之有其
 <lb n="0243b08" ed="T"/>二義：對分別性，證本來淨；望依他性，證轉依
@@ -487,19 +533,25 @@
 <lb n="0243c01" ed="T"/>惱身、二者生身。阿羅漢無煩惱身，而有餘
 <lb n="0243c02" ed="T"/>生身。依此生身得涅槃故，名有餘身界涅
 <lb n="0243c03" ed="T"/>槃。云何無餘身界涅槃？答：阿羅漢已滅四
-<lb n="0243c04" ed="T"/><note n="0243c0401" resp="CBETA" type="add" note_key="T38.0243c04.01">大【CB】，太【大】</note><app n="0243c0401"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">大</lem><rdg wit="【大】">太</rdg></app>諸根盡而入涅槃。」此文未分明，故下即問
+<lb n="0243c04" ed="T"/><note 
+n="0243c0401" resp="CBETA" type="add" note_key="T38.0243c04.01">大【CB】，太【大】</note><app n="0243c0401">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">大</lem>
+  <rdg wit="【大】">太</rdg>
+</app>諸根盡而入涅槃。」此文未分明，故下即問
 <lb n="0243c05" ed="T"/>曰：此文不應作是說，身諸根覺性滅，名無
 <lb n="0243c06" ed="T"/>餘身界涅槃。應作是說，阿羅漢斷一切結盡
 <lb n="0243c07" ed="T"/>入於涅槃，是名無餘身涅槃界。此不說者有
 <lb n="0243c08" ed="T"/>何意耶？答：彼尊者依世俗言，信經故而作是
-<lb n="0243c09" ed="T"/>說。《雜心論》中亦同是說。</p><p xml:id="pT38p0243c0910" cb:place="inline">問：身智滅處何故非
+<lb n="0243c09" ed="T"/>說。《雜心論》中亦同是說。</p>
+<p xml:id="pT38p0243c0910" cb:place="inline">問：身智滅處何故非
 <lb n="0243c10" ed="T"/>涅槃？答：依此宗明數滅無為體是善，故名涅
 <lb n="0243c11" ed="T"/>槃。身智現亡是無常滅有為，故非涅槃。現在
 <lb n="0243c12" ed="T"/>斷因，未來生後報法不起，是非數滅無記，故
 <lb n="0243c13" ed="T"/>非涅槃。以智從報，亦同此說。若依成實論宗，
 <lb n="0243c14" ed="T"/>假名實法二心無處是有餘涅槃，心空及身
 <lb n="0243c15" ed="T"/>未來不起是無餘泥洹，身智現滅亦非涅槃。
-<lb n="0243c16" ed="T"/>故彼論云「二空心處、滅定及無餘泥洹。」</p><p xml:id="pT38p0243c1616" cb:place="inline">問：此
+<lb n="0243c16" ed="T"/>故彼論云「二空心處、滅定及無餘泥洹。」</p>
+<p xml:id="pT38p0243c1616" cb:place="inline">問：此
 <lb n="0243c17" ed="T"/>論宗無餘泥洹為是數滅、為非數滅？答：彼論
 <lb n="0243c18" ed="T"/>宗說斷集因故苦果不起，亦是數滅。智雖
 <lb n="0243c19" ed="T"/>非報，其無常邊行苦所攝，故其報起亦入滅
@@ -522,11 +574,20 @@
 <lb n="0244a06" ed="T"/>種依止相以，而今後時煩惱不轉、聖道轉耶？
 <lb n="0244a07" ed="T"/>答：諸阿羅漢實有轉依，而此依轉依清淨真
 <lb n="0244a08" ed="T"/>如所顯，而彼真如與其六處異不異性俱不可
-<lb n="0244a09" ed="T"/>說。」</p><p xml:id="pT38p0244a0902" cb:place="inline">問：又下言「無餘依中所得轉依」，當言是常
+<lb n="0244a09" ed="T"/>說。」</p>
+<p xml:id="pT38p0244a0902" cb:place="inline">問：又下言「無餘依中所得轉依」，當言是常
 <lb n="0244a10" ed="T"/>當言無常？答：當言是常，清淨真如之所顯故、
 <lb n="0244a11" ed="T"/>非緣生無生滅故。又問：於無餘依般涅槃者，
 <lb n="0244a12" ed="T"/>於色等法當言得自在、當言不得耶？當言能現
-<lb n="0244a13" ed="T"/>在前、<note n="0244a1301" resp="CBETA" type="add" note_key="T38.0244a13.03">［－］【CB】，答【大】</note><app n="0244a1301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)"><space quantity="0"/></lem><rdg wit="【大】">答</rdg></app>當言不現在前？<note n="0244a1302" resp="CBETA" type="add" note_key="T38.0244a13.09">答【CB】，［－］【大】</note><app n="0244a1302"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">答：</lem><rdg wit="【大】"><space quantity="0"/></rdg></app>當言得一分能現在
+<lb n="0244a13" ed="T"/>在前、<note 
+n="0244a1301" resp="CBETA" type="add" note_key="T38.0244a13.03">［－］【CB】，答【大】</note><app n="0244a1301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)"><space quantity="0"/></lem>
+  <rdg wit="【大】">答</rdg>
+</app>當言不現在前？<note 
+n="0244a1302" resp="CBETA" type="add" note_key="T38.0244a13.09">答【CB】，［－］【大】</note><app n="0244a1302">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">答：</lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>當言得一分能現在
 <lb n="0244a14" ed="T"/>前、一分不現在前。謂諸如來於無餘般涅槃
 <lb n="0244a15" ed="T"/>已能現在前，所餘不能令現在前乃至廣說。</p>
 <lb n="0244a16" ed="T"/><p xml:id="pT38p0244a1601">第三、大小相對門者，二乘涅槃名為有餘，如
@@ -557,7 +618,8 @@
 <lb n="0244b11" ed="T"/>不住涅槃？二身假名不實，念念滅，不住故；數
 <lb n="0244b12" ed="T"/>數出現，以不定故。法身不爾，是故二身不住
 <lb n="0244b13" ed="T"/>涅槃。法身不二，是故不住於般涅槃。」二滅門
-<lb n="0244b14" ed="T"/>竟。</p><p xml:id="pT38p0244b1402" cb:place="inline">第五、明三事門者，四句分別：初出體相、次
+<lb n="0244b14" ed="T"/>竟。</p>
+<p xml:id="pT38p0244b1402" cb:place="inline">第五、明三事門者，四句分別：初出體相、次
 <lb n="0244b15" ed="T"/>明建立、三明總別、四往復。出體相者，法身
 <lb n="0244b16" ed="T"/>體者佛地所有一切功德，其體無二唯一法
 <lb n="0244b17" ed="T"/>界，法界舉體以成萬德，萬德之相還同法界，
@@ -567,7 +629,8 @@
 <lb n="0244b21" ed="T"/>達無所不照，故名般若。解脫體者，即此法身
 <lb n="0244b22" ed="T"/>離諸繫縛無所障礙，故名解脫。三德實殊不
 <lb n="0244b23" ed="T"/>可說一，可相一味不說異，以之故名如來祕
-<lb n="0244b24" ed="T"/>藏，是謂三法之體相也。</p><p xml:id="pT38p0244b2410" cb:place="inline">次、明建立三事所由。
+<lb n="0244b24" ed="T"/>藏，是謂三法之體相也。</p>
+<p xml:id="pT38p0244b2410" cb:place="inline">次、明建立三事所由。
 <lb n="0244b25" ed="T"/>一體萬德無非涅槃，所以偏說此三法者，以
 <lb n="0244b26" ed="T"/>對生死三種患故。何者？生死萬累不出三種，
 <lb n="0244b27" ed="T"/>所謂苦果五陰身故建立法身，以除煩惱迷
@@ -576,7 +639,8 @@
 <pb n="0244c" ed="T" xml:id="T38.1769.0244c"/>
 <lb n="0244c01" ed="T"/>說法身常存大智不滅。對彼小乘身智存時
 <lb n="0244c02" ed="T"/>未免苦報習氣繫縛，故就身智立真解脫。建
-<lb n="0244c03" ed="T"/>立之由略說如是。</p><p xml:id="pT38p0244c0308" cb:place="inline">第三、明總別者，一性而言
+<lb n="0244c03" ed="T"/>立之由略說如是。</p>
+<p xml:id="pT38p0244c0308" cb:place="inline">第三、明總別者，一性而言
 <lb n="0244c04" ed="T"/>涅槃是總，況於伊字；三法是別，喻對以三點。
 <lb n="0244c05" ed="T"/>總別成總，其義有四：一者、要具三法方成涅
 <lb n="0244c06" ed="T"/>槃，獨舉一一即不得成，如一一點不成伊字。
@@ -595,7 +659,11 @@
 <lb n="0244c19" ed="T"/>皆總皆別。皆別義者，涅槃是寂寂義，法身
 <lb n="0244c20" ed="T"/>是積集義，般若是照達義，解脫是離縛義，故
 <lb n="0244c21" ed="T"/>知四種無非別也。皆總義者，如經言「若無法
-<lb n="0244c22" ed="T"/>身，苦報不盡，何成涅槃？若無般若，闇<note n="0244c2201" resp="CBETA" type="add" note_key="T38.0244c22.15">惑【CB】，感【大】</note><app n="0244c2201"><lem wit="【CB】" resp="CBETA.ting" cb:provider="來函：赵文平 (2022-06-19)">惑<note type="cf1">T44n1851_p0822b04</note></lem><rdg wit="【大】">感</rdg></app>不除，
+<lb n="0244c22" ed="T"/>身，苦報不盡，何成涅槃？若無般若，闇<note 
+n="0244c2201" resp="CBETA" type="add" note_key="T38.0244c22.15">惑【CB】，感【大】</note><app n="0244c2201">
+  <lem wit="【CB】" resp="CBETA.ting" cb:provider="來函：赵文平 (2022-06-19)">惑<note type="cf1">T44n1851_p0822b04</note></lem>
+  <rdg wit="【大】">感</rdg>
+</app>不除，
 <lb n="0244c23" ed="T"/>豈得涅槃？若無解脫，不免業繫，故非涅槃。」
 <lb n="0244c24" ed="T"/>如是餘三，其義同爾。何者？若無涅槃，生死未
 <lb n="0244c25" ed="T"/>滅，何為法身？若無般若，煩惱所纏，何名法身？
@@ -605,7 +673,8 @@
 <lb n="0244c29" ed="T"/>一切即一，是故總別無所障礙。不同伊字是總
 <pb n="0245a" ed="T" xml:id="T38.1769.0245a"/>
 <lb n="0245a01" ed="T"/>非別，其中三點是別非總，唯取小分以為
-<lb n="0245a02" ed="T"/>譬耳。</p><p xml:id="pT38p0245a0203" cb:place="inline">第四、往復決擇門。問：如是如來實德法
+<lb n="0245a02" ed="T"/>譬耳。</p>
+<p xml:id="pT38p0245a0203" cb:place="inline">第四、往復決擇門。問：如是如來實德法
 <lb n="0245a03" ed="T"/>身，當言有色、當言無色？答：或有說者，法身無
 <lb n="0245a04" ed="T"/>色，但有隨機化現色相。所以然者，色是質礙
 <lb n="0245a05" ed="T"/>麁形之法，顛倒分之所變作。諸佛如來永離
@@ -645,7 +714,8 @@
 <lb n="0245b09" ed="T"/>當知二行所感實報，有自受用身及自受用淨
 <lb n="0245b10" ed="T"/>土。而餘處說法身無色者，約自性身說為無
 <lb n="0245b11" ed="T"/>色。是三身門之法身義，令三事門所說法身
-<lb n="0245b12" ed="T"/>總取始有萬德為體，是故說為法身有色。</p><p xml:id="pT38p0245b1217" cb:place="inline">問：
+<lb n="0245b12" ed="T"/>總取始有萬德為體，是故說為法身有色。</p>
+<p xml:id="pT38p0245b1217" cb:place="inline">問：
 <lb n="0245b13" ed="T"/>二師所報，何失何得？答：或有說者，定取一邊
 <lb n="0245b14" ed="T"/>二說皆失。若非實報，二義俱得。是義云何？佛
 <lb n="0245b15" ed="T"/>地萬德，略有二門：若就捨相歸一心門，一切
@@ -656,7 +726,8 @@
 <lb n="0245b20" ed="T"/>〈金剛身品〉廣說之言「如來之身，非身是身、無
 <lb n="0245b21" ed="T"/>識是識，離心亦不離心、無處亦處、無宅亦宅、非
 <lb n="0245b22" ed="T"/>像非相諸相莊嚴」乃至說廣。當知如來祕藏
-<lb n="0245b23" ed="T"/>法門，說有說無皆有道理。三身門竟。</p><p xml:id="pT38p0245b2315" cb:place="inline">第六、
+<lb n="0245b23" ed="T"/>法門，說有說無皆有道理。三身門竟。</p>
+<p xml:id="pT38p0245b2315" cb:place="inline">第六、
 <lb n="0245b24" ed="T"/>四德分別，略有四門：一顯相門、二立意門、三
 <lb n="0245b25" ed="T"/>差別門、四和諍門。顯相門者，問：說法身即備
 <lb n="0245b26" ed="T"/>四德，四德之義有通有別。別而言之，常是法
@@ -685,8 +756,16 @@
 <lb n="0245c19" ed="T"/>如論說云「依二種法，如來法身有樂波羅蜜。
 <lb n="0245c20" ed="T"/>何等為二？一者遠離一切苦，以滅一切意生
 <lb n="0245c21" ed="T"/>身故。二者遠離一切煩惱習氣，證一切法故。」
-<lb n="0245c22" ed="T"/>我德二義<note n="0245c2201" resp="CBETA" type="add" note_key="T38.0245c22.05">者【CB】，是【大】</note><app n="0245c2201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">者<note type="cf1">T38n1769_p0245c08</note><note type="cf2">T38n1769_p0245c16</note></lem><rdg wit="【大】">是</rdg></app>，謂離我見邊及無我見邊，非我
-<lb n="0245c23" ed="T"/>非無我乃得大我故。如論說云「依二種<note n="0245c2301" resp="CBETA" type="add" note_key="T38.0245c23.16">法【CB】，［－］【大】</note><app n="0245c2301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">法<note type="cf1">T31n1611_p0830c16</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>，法身
+<lb n="0245c22" ed="T"/>我德二義<note 
+n="0245c2201" resp="CBETA" type="add" note_key="T38.0245c22.05">者【CB】，是【大】</note><app n="0245c2201">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">者<note type="cf1">T38n1769_p0245c08</note><note type="cf2">T38n1769_p0245c16</note></lem>
+  <rdg wit="【大】">是</rdg>
+</app>，謂離我見邊及無我見邊，非我
+<lb n="0245c23" ed="T"/>非無我乃得大我故。如論說云「依二種<note 
+n="0245c2301" resp="CBETA" type="add" note_key="T38.0245c23.16">法【CB】，［－］【大】</note><app n="0245c2301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">法<note type="cf1">T31n1611_p0830c16</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>，法身
 <lb n="0245c24" ed="T"/>有我波羅蜜。何等為二？一者遠離諸外道邊，
 <lb n="0245c25" ed="T"/>離虛妄我戲論故。二者遠離諸聲聞邊，以離
 <lb n="0245c26" ed="T"/>無我戲論故。」以是義故，《楞伽經》云「離諸外道
@@ -696,9 +775,11 @@
 <pb n="0246a" ed="T" xml:id="T38.1769.0246a"/>
 <lb n="0246a01" ed="T"/>「依二種法，如來法身有淨波羅蜜。何等為二。
 <lb n="0246a02" ed="T"/>一者本來自性清淨，以同相故。二者離垢清淨，
-<lb n="0246a03" ed="T"/>以勝相故。」</p><p xml:id="pT38p0246a0305" cb:place="inline">問：何故常與我對二邊顯一，而於
+<lb n="0246a03" ed="T"/>以勝相故。」</p>
+<p xml:id="pT38p0246a0305" cb:place="inline">問：何故常與我對二邊顯一，而於
 <lb n="0246a04" ed="T"/>樂淨德遣一邊說二？答：是顯略門及影論門，
-<lb n="0246a05" ed="T"/>其作論者以巧便術也。</p><p xml:id="pT38p0246a0510" cb:place="inline">第二、明其立四意者，
+<lb n="0246a05" ed="T"/>其作論者以巧便術也。</p>
+<p xml:id="pT38p0246a0510" cb:place="inline">第二、明其立四意者，
 <lb n="0246a06" ed="T"/>萬德既圓，何獨立四？立四之由，略有四義：除
 <lb n="0246a07" ed="T"/>四障故、翻四患故、對四倒故、離四於故。除四
 <lb n="0246a08" ed="T"/>障者，凡聖四人各有一障，一者闡提謗法障
@@ -731,23 +812,31 @@
 <lb n="0246b05" ed="T"/>界中聲聞辟支佛得大力自在。菩薩為證如
 <lb n="0246b06" ed="T"/>來功德法身，有四種障。何等為四？一者緣相、
 <lb n="0246b07" ed="T"/>二者因相、三者生相、四者壞相。緣相者，謂無
-<lb n="0246b08" ed="T"/>明住地與行作緣，如無明緣行，無明<note n="0246b0801" resp="CBETA" type="add" note_key="T38.0246b08.15">住【CB】，倒【大】</note><app n="0246b0801"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">住<note type="cf1">T31n1611_p0830b04</note></lem><rdg wit="【大】">倒</rdg></app>地緣
+<lb n="0246b08" ed="T"/>明住地與行作緣，如無明緣行，無明<note 
+n="0246b0801" resp="CBETA" type="add" note_key="T38.0246b08.15">住【CB】，倒【大】</note><app n="0246b0801">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">住<note type="cf1">T31n1611_p0830b04</note></lem>
+  <rdg wit="【大】">倒</rdg>
+</app>地緣
 <lb n="0246b09" ed="T"/>亦如是故。因相者、謂無明住地緣行，此以為
 <lb n="0246b10" ed="T"/>因。如行緣識，無漏業緣亦如是故。生相者，謂
 <lb n="0246b11" ed="T"/>無明住地緣無漏業因生，三種意生身亦如
 <lb n="0246b12" ed="T"/>是故。壞相者，謂三種意生身緣不可思議變
 <lb n="0246b13" ed="T"/>易生死，如依生緣故有老死。此亦如是故」乃
-<lb n="0246b14" ed="T"/>至廣說。</p><p xml:id="pT38p0246b1404" cb:place="inline">問：諸聲聞起四顛倒，為在正觀時、為
+<lb n="0246b14" ed="T"/>至廣說。</p>
+<p xml:id="pT38p0246b1404" cb:place="inline">問：諸聲聞起四顛倒，為在正觀時、為
 <lb n="0246b15" ed="T"/>在出觀時？答：正入觀時，正證人空，遠離一切
 <lb n="0246b16" ed="T"/>名言分別，故於彼時不起四倒，觀後起此四
 <lb n="0246b17" ed="T"/>倒。四倒之相，有總有別。別起相者，彼計樹下
 <lb n="0246b18" ed="T"/>成道之身，實是惑業所感之報，故謂無常苦
 <lb n="0246b19" ed="T"/>無我等，不了是化即真，是即倒於法身四德。
 <lb n="0246b20" ed="T"/>總起相者，總觀五陰苦無常等，不達五陰即
-<lb n="0246b21" ed="T"/>是法身，是即倒於法身四德。</p><p xml:id="pT38p0246b2112" cb:place="inline">建立門竟。</p><p xml:id="pT38p0246b2116" cb:place="inline">次
+<lb n="0246b21" ed="T"/>是法身，是即倒於法身四德。</p>
+<p xml:id="pT38p0246b2112" cb:place="inline">建立門竟。</p>
+<p xml:id="pT38p0246b2116" cb:place="inline">次
 <lb n="0246b22" ed="T"/>第三、明差別門者，四德差別乃有眾多，且依
 <lb n="0246b23" ed="T"/>一略顯二四，謂於常我各說二種，樂淨之中
-<lb n="0246b24" ed="T"/>各開四別。</p><p xml:id="pT38p0246b2405" cb:place="inline">二種常者，法常、佛常。法常義者，無
+<lb n="0246b24" ed="T"/>各開四別。</p>
+<p xml:id="pT38p0246b2405" cb:place="inline">二種常者，法常、佛常。法常義者，無
 <lb n="0246b25" ed="T"/>生無滅是常身義。佛常義者，不老不死是常
 <lb n="0246b26" ed="T"/>壽義。如下文言「如來長壽，於諸壽中最上最
 <lb n="0246b27" ed="T"/>勝。所得常法，於諸法中最為第一。」此言常法，
@@ -755,7 +844,11 @@
 <lb n="0246b29" ed="T"/>故諸佛亦常。法即法身，佛是報佛。又諸佛者
 <pb n="0246c" ed="T" xml:id="T38.1769.0246c"/>
 <lb n="0246c01" ed="T"/>亦是化佛。」依是義故，《攝大乘》說「法身為二身
-<lb n="0246c02" ed="T"/>本。本覺常住，<note n="0246c0201" resp="CBETA" type="add" note_key="T38.0246c02.06">末【CB】，未來【大】</note><app n="0246c0201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">末<note type="cf1">T31n1595_p0269b15</note></lem><rdg wit="【大】">未來</rdg></app>依於本，相續恒在，如恒受
+<lb n="0246c02" ed="T"/>本。本覺常住，<note 
+n="0246c0201" resp="CBETA" type="add" note_key="T38.0246c02.06">末【CB】，未來【大】</note><app n="0246c0201">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">末<note type="cf1">T31n1595_p0269b15</note></lem>
+  <rdg wit="【大】">未來</rdg>
+</app>依於本，相續恒在，如恒受
 <lb n="0246c03" ed="T"/>樂、如恒施食。二身常住，應如是知。」《寶性論》中
 <lb n="0246c04" ed="T"/>依七種因成常命義，復以三譬顯常身義。七
 <lb n="0246c05" ed="T"/>種因者，一因緣無邊故得常命，謂無量劫來
@@ -792,7 +885,8 @@
 <lb n="0247a06" ed="T"/>而言「初七種譬喻，如來色身常。後三種譬喻，
 <lb n="0247a07" ed="T"/>善逝法身常。」若依別門，常命是菩提德，常身
 <lb n="0247a08" ed="T"/>是涅槃德。就通相門，常身常命皆是涅槃。其
-<lb n="0247a09" ed="T"/>義如前出體門說。</p><p xml:id="pT38p0247a0908" cb:place="inline">四種樂者，一、斷樂受，以離
+<lb n="0247a09" ed="T"/>義如前出體門說。</p>
+<p xml:id="pT38p0247a0908" cb:place="inline">四種樂者，一、斷樂受，以離
 <lb n="0247a10" ed="T"/>三種分別受。二、寂靜樂，遠離故無苦無樂，乃
 <lb n="0247a11" ed="T"/>為大樂。諸行流轉行苦得大寂靜，故為大樂。
 <lb n="0247a12" ed="T"/>三、覺知樂，以離無知所受苦苦，無所不知故
@@ -803,7 +897,8 @@
 <lb n="0247a17" ed="T"/>故名大涅槃。大涅槃無樂，以四樂故名大涅
 <lb n="0247a18" ed="T"/>槃」乃至廣說。二種我者，法我、人我。言法我者，
 <lb n="0247a19" ed="T"/>是體實義，如〈哀歎品〉云「是真是實、是依是常。」
-<lb n="0247a20" ed="T"/>不變易者是自在義，如〈德王品〉初偈中說。</p><p xml:id="pT38p0247a2017" cb:place="inline">自
+<lb n="0247a20" ed="T"/>不變易者是自在義，如〈德王品〉初偈中說。</p>
+<p xml:id="pT38p0247a2017" cb:place="inline">自
 <lb n="0247a21" ed="T"/>在有八：一、多少自在，如經言「能示一身以為
 <lb n="0247a22" ed="T"/>多身，身數多少猶如微塵，充滿十方無量世
 <lb n="0247a23" ed="T"/>界。如來之身實非微塵，以自在故現微塵身。」
@@ -835,7 +930,8 @@
 <lb n="0247b19" ed="T"/>切見。是明有所現者即當有所不現，如來都
 <lb n="0247b20" ed="T"/>無所不現也。」別門而言，真實我者是涅槃我，
 <lb n="0247b21" ed="T"/>自在我者是菩提我。就實通論即無別異，是
-<lb n="0247b22" ed="T"/>故經中總結之言「如是大我名大涅槃。」</p><p xml:id="pT38p0247b2216" cb:place="inline">四種
+<lb n="0247b22" ed="T"/>故經中總結之言「如是大我名大涅槃。」</p>
+<p xml:id="pT38p0247b2216" cb:place="inline">四種
 <lb n="0247b23" ed="T"/>淨者，一名果淨亦是有淨，以離二十五有果
 <lb n="0247b24" ed="T"/>故。二名業淨亦是因淨，以離凡夫諸業因故。
 <lb n="0247b25" ed="T"/>三名身淨，佛身常住故。四名心淨，佛心無漏
@@ -861,7 +957,11 @@
 <lb n="0247c15" ed="T"/>今愚癡未有惠眼，如來正法不可思議，是故
 <lb n="0247c16" ed="T"/>不應宣說如來定是有為、定是無為。」若正見
 <lb n="0247c17" ed="T"/>者，應說如來定是無為。〈長壽品〉云「常當繫心
-<lb n="0247c18" ed="T"/>修心，是二字佛常住。若有修習此二<note n="0247c1801" resp="CBETA" type="add" note_key="T38.0247c18.15">字【CB】，定【大】</note><app n="0247c1801"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">字<note type="cf1">T12n0374_p0382b12</note></lem><rdg wit="【大】">定</rdg></app>者，當
+<lb n="0247c18" ed="T"/>修心，是二字佛常住。若有修習此二<note 
+n="0247c1801" resp="CBETA" type="add" note_key="T38.0247c18.15">字【CB】，定【大】</note><app n="0247c1801">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">字<note type="cf1">T12n0374_p0382b12</note></lem>
+  <rdg wit="【大】">定</rdg>
+</app>者，當
 <lb n="0247c19" ed="T"/>知是人隨我所行至我至處。」而餘處說非常
 <lb n="0247c20" ed="T"/>住者，皆就佛相，非說報身。如〈德王品〉云「如來
 <lb n="0247c21" ed="T"/>非常。何以故？身有分故，是故非常。云何非
@@ -928,7 +1028,8 @@
 <lb n="0248b22" ed="T"/>滅。若不許言既非後無，何為終無？既非今有，
 <lb n="0248b23" ed="T"/>何為始有？又若非後無故滅盡者，即應是本
 <lb n="0248b24" ed="T"/>無故有生起也。如是進退，永不可救。是故彼
-<lb n="0248b25" ed="T"/>義，智者不用。執無常者，作如是說。</p><p xml:id="pT38p0248b2514" cb:place="inline">問：二師所
+<lb n="0248b25" ed="T"/>義，智者不用。執無常者，作如是說。</p>
+<p xml:id="pT38p0248b2514" cb:place="inline">問：二師所
 <lb n="0248b26" ed="T"/>說，何得何失？答：或有說者，皆得皆失。所以然
 <lb n="0248b27" ed="T"/>者，若決定執一邊，皆有過失。如其無障礙說，
 <lb n="0248b28" ed="T"/>俱有道理。如《楞伽經》云「如來、應、正遍知，為是
@@ -967,7 +1068,8 @@
 <lb n="0249a01" ed="T"/>音聲及無礙心，無所不等、無所不遍。既言等
 <lb n="0249a02" ed="T"/>於一切三世，豈不遍金剛以前？然此道理諸
 <lb n="0249a03" ed="T"/>佛祕藏，非思量者之所不能測，但依佛言起
-<lb n="0249a04" ed="T"/>作信耳。涅槃之義略判如是。</p><p xml:id="pT38p0249a0412" cb:place="inline">第二、明佛性
+<lb n="0249a04" ed="T"/>作信耳。涅槃之義略判如是。</p>
+<p xml:id="pT38p0249a0412" cb:place="inline">第二、明佛性
 <lb n="0249a05" ed="T"/>義。佛性之義六門分別：一出體門、二因果門、
 <lb n="0249a06" ed="T"/>三見性門、四有無門、五三世門、六會通門。出
 <lb n="0249a07" ed="T"/>體門內亦有二重，先序諸說、後判是非。昔來
@@ -983,12 +1085,20 @@
 <lb n="0249a17" ed="T"/>佛性體。何者？眾生之用總御心法，眾生之義
 <lb n="0249a18" ed="T"/>處處受生。如是御心之主，必當能成大覺，故
 <lb n="0249a19" ed="T"/>說眾生為正因體。如〈師子吼〉中言「眾生佛性
-<lb n="0249a20" ed="T"/>亦二種因者，謂諸眾生也。」莊嚴寺<note n="0249a2001" resp="CBETA" type="add" note_key="T38.0249a20.14">旻【CB】，是【大】</note><app n="0249a2001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">旻<note type="cf1">X46n0784_p0601c10</note></lem><rdg wit="【大】">是</rdg></app>法師義
+<lb n="0249a20" ed="T"/>亦二種因者，謂諸眾生也。」莊嚴寺<note 
+n="0249a2001" resp="CBETA" type="add" note_key="T38.0249a20.14">旻【CB】，是【大】</note><app n="0249a2001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">旻<note type="cf1">X46n0784_p0601c10</note></lem>
+  <rdg wit="【大】">是</rdg>
+</app>法師義
 <lb n="0249a21" ed="T"/>也。第三師云：眾生之心異乎木石，必有厭苦
 <lb n="0249a22" ed="T"/>求樂之性。由有此性，故修萬行終歸無上菩
 <lb n="0249a23" ed="T"/>提樂果，故說心性為正因體。如下文言「一切
 <lb n="0249a24" ed="T"/>眾生悉皆有心。凡有心者，必當得成阿耨菩
-<lb n="0249a25" ed="T"/>提。」《夫人經》言「若無如來藏，<note n="0249a2501" resp="CBETA" type="add" note_key="T38.0249a25.11">不【CB】，下【大】</note><app n="0249a2501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">不<note type="cf1">T12n0353_p0222b15</note></lem><rdg wit="【大】">下</rdg></app>得厭苦樂求涅
+<lb n="0249a25" ed="T"/>提。」《夫人經》言「若無如來藏，<note 
+n="0249a2501" resp="CBETA" type="add" note_key="T38.0249a25.11">不【CB】，下【大】</note><app n="0249a2501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">不<note type="cf1">T12n0353_p0222b15</note></lem>
+  <rdg wit="【大】">下</rdg>
+</app>得厭苦樂求涅
 <lb n="0249a26" ed="T"/>槃故。」此是光宅雲法師義也。第四師云：心有
 <lb n="0249a27" ed="T"/>神靈不失之性，如是心神已在身內，即異木
 <lb n="0249a28" ed="T"/>石等非情物，由此能成大覺之果，故說心神
@@ -1042,7 +1152,8 @@
 <lb n="0249c16" ed="T"/>盡佛性實體，隨門而說各得其義。故下文說
 <lb n="0249c17" ed="T"/>「如彼盲人各各說象，雖不得實非不說象。說
 <lb n="0249c18" ed="T"/>佛性者亦復如是，不即六法不離六法。」當知
-<lb n="0249c19" ed="T"/>此中六說亦爾。出體門竟。</p><p xml:id="pT38p0249c1911" cb:place="inline">第二、明因果門。佛
+<lb n="0249c19" ed="T"/>此中六說亦爾。出體門竟。</p>
+<p xml:id="pT38p0249c1911" cb:place="inline">第二、明因果門。佛
 <lb n="0249c20" ed="T"/>性之體非因非果，而亦不非因果性，所以舉
 <lb n="0249c21" ed="T"/>體作因作果。果佛性者，佛之體性，故名佛性。
 <lb n="0249c22" ed="T"/>如〈迦葉品〉云「如來十力四無畏等無量諸法，
@@ -1067,18 +1178,38 @@
 <lb n="0250a11" ed="T"/>所謂一切牆壁瓦石無情之物。離如是等無
 <lb n="0250a12" ed="T"/>情之物，是名佛性。」是文正明報佛之性，以隨
 <lb n="0250a13" ed="T"/>染動心雖通三性，而亦不失神解之性，故說此
-<lb n="0250a14" ed="T"/>為報佛性。但為簡別<note n="0250a1401" resp="CBETA" type="add" note_key="T38.0250a14.09">法【CB】，怯【大】</note><app n="0250a1401"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">法<note type="cf1">T38n1769_p0250a03</note></lem><rdg wit="【大】">怯</rdg></app>佛性門遍一切有情
+<lb n="0250a14" ed="T"/>為報佛性。但為簡別<note 
+n="0250a1401" resp="CBETA" type="add" note_key="T38.0250a14.09">法【CB】，怯【大】</note><app n="0250a1401">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">法<note type="cf1">T38n1769_p0250a03</note></lem>
+  <rdg wit="【大】">怯</rdg>
+</app>佛性門遍一切有情
 <lb n="0250a15" ed="T"/>無情，是故於報佛性不取無情物也。別門雖
 <lb n="0250a16" ed="T"/>然，就實通論者，性淨本覺亦為二身之性，隨
-<lb n="0250a17" ed="T"/>染解性亦作法身之因。何以知其然者，如《<note n="0250a1701" resp="CBETA" type="add" note_key="T38.0250a17.17">寶【CB】，實【大】</note><app n="0250a1701"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">寶<note type="cf1">T31n1611_p0839a04</note></lem><rdg wit="【大】">實</rdg></app>
+<lb n="0250a17" ed="T"/>染解性亦作法身之因。何以知其然者，如《<note 
+n="0250a1701" resp="CBETA" type="add" note_key="T38.0250a17.17">寶【CB】，實【大】</note><app n="0250a1701">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">寶<note type="cf1">T31n1611_p0839a04</note></lem>
+  <rdg wit="【大】">實</rdg>
+</app>
 <lb n="0250a18" ed="T"/>性論》言「依二種佛性得出三種身。」《佛性論》中
 <lb n="0250a19" ed="T"/>顯是意言「佛性有二種：一者住自性性、二者
 <lb n="0250a20" ed="T"/>引出佛性。為顯住自性性，故說地中寶藏為
 <lb n="0250a21" ed="T"/>譬。為顯引出佛性，故說掩羅樹芽為譬。約此
-<lb n="0250a22" ed="T"/><note n="0250a2201" resp="CBETA" type="add" note_key="T38.0250a22.01">兩【CB】，雨【大】</note><app n="0250a2201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">兩<note type="cf1">T31n1610_p0808c08</note></lem><rdg wit="【大】">雨</rdg></app>因，故佛說三身果。一者因住自性佛性故
-<lb n="0250a23" ed="T"/>說法身。法身有四種功德，是故說毀敗布<note n="0250a2301" resp="CBETA" type="add" note_key="T38.0250a23.17">裹【CB】，裏【大】</note><app n="0250a2301"><lem wit="【CB】" resp="CBETA.ting">裹<note type="cf1">T31n1611_p0814b25</note></lem><rdg wit="【大】">裏</rdg></app>
+<lb n="0250a22" ed="T"/><note 
+n="0250a2201" resp="CBETA" type="add" note_key="T38.0250a22.01">兩【CB】，雨【大】</note><app n="0250a2201">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">兩<note type="cf1">T31n1610_p0808c08</note></lem>
+  <rdg wit="【大】">雨</rdg>
+</app>因，故佛說三身果。一者因住自性佛性故
+<lb n="0250a23" ed="T"/>說法身。法身有四種功德，是故說毀敗布<note 
+n="0250a2301" resp="CBETA" type="add" note_key="T38.0250a23.17">裹【CB】，裏【大】</note><app n="0250a2301">
+  <lem wit="【CB】" resp="CBETA.ting">裹<note type="cf1">T31n1611_p0814b25</note></lem>
+  <rdg wit="【大】">裏</rdg>
+</app>
 <lb n="0250a24" ed="T"/>真金譬。二者因引佛性故說應身，是故說貧
-<lb n="0250a25" ed="T"/>女如<note n="0250a2501" resp="CBETA" type="add" note_key="T38.0250a25.03">懷【CB】，壞【大】</note><app n="0250a2501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">懷<note type="cf1">T31n1610_p0808a04</note></lem><rdg wit="【大】">壞</rdg></app>輪王譬。三者因引出佛性，故復出化
+<lb n="0250a25" ed="T"/>女如<note 
+n="0250a2501" resp="CBETA" type="add" note_key="T38.0250a25.03">懷【CB】，壞【大】</note><app n="0250a2501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">懷<note type="cf1">T31n1610_p0808a04</note></lem>
+  <rdg wit="【大】">壞</rdg>
+</app>輪王譬。三者因引出佛性，故復出化
 <lb n="0250a26" ed="T"/>身，故說羅漢中佛像為譬」乃至廣說。此論意
 <lb n="0250a27" ed="T"/>者，應得因中具三佛性。彼應得因，如理為體
 <lb n="0250a28" ed="T"/>故，如性淨門中真如佛性通為三身而作正
@@ -1098,7 +1229,8 @@
 <lb n="0250b12" ed="T"/>心正為還靜法身之因。若依是門，得說法身
 <lb n="0250b13" ed="T"/>亦是作法，以修諸行始得成靜故。如《楞伽經》
 <lb n="0250b14" ed="T"/>言「若如來法身非作法者，言有修行無量功
-<lb n="0250b15" ed="T"/>德一切行者，皆是虛妄故。」因果門竟。</p><p xml:id="pT38p0250b1515" cb:place="inline">次第三
+<lb n="0250b15" ed="T"/>德一切行者，皆是虛妄故。」因果門竟。</p>
+<p xml:id="pT38p0250b1515" cb:place="inline">次第三
 <lb n="0250b16" ed="T"/>明見性門者，謂至何位得見佛性？有人說言：
 <lb n="0250b17" ed="T"/>佛性法界雖無二體，而義不同，見位亦異。是
 <lb n="0250b18" ed="T"/>故初地證見真如法界，而未能見佛性之義。
@@ -1154,7 +1286,8 @@
 <lb n="0251a08" ed="T"/>智，是知初地菩薩二智皆能證見真如佛性。
 <lb n="0251a09" ed="T"/>但正體智宜證真如佛性實體，名如實行。其
 <lb n="0251a10" ed="T"/>後得智見諸眾生悉有佛性，故名遍行。遍不
-<lb n="0251a11" ed="T"/>遍門，文義如是。</p><p xml:id="pT38p0251a1107" cb:place="inline">究竟不究竟門，文證者，〈師子
+<lb n="0251a11" ed="T"/>遍門，文義如是。</p>
+<p xml:id="pT38p0251a1107" cb:place="inline">究竟不究竟門，文證者，〈師子
 <lb n="0251a12" ed="T"/>吼〉中言「佛性亦二。言色者，阿耨菩提。非色者，
 <lb n="0251a13" ed="T"/>凡夫乃至十住菩薩見不了，不了故名非色。
 <lb n="0251a14" ed="T"/>色者名為眼見，非色者名為聞見。」《瑜伽論》云
@@ -1178,7 +1311,8 @@
 <lb n="0251b02" ed="T"/>近曉惠眼事同輕繫。依是五義，未能窮照，故
 <lb n="0251b03" ed="T"/>說如是五種譬喻。於中通難會相違文，具如
 <lb n="0251b04" ed="T"/>二障義中廣說。第三重內文義如是。若知如
-<lb n="0251b05" ed="T"/>是三重別義，諸文進退無所不通也。</p><p xml:id="pT38p0251b0515" cb:place="inline">第四、明
+<lb n="0251b05" ed="T"/>是三重別義，諸文進退無所不通也。</p>
+<p xml:id="pT38p0251b0515" cb:place="inline">第四、明
 <lb n="0251b06" ed="T"/>有無者，有無差別，略有二句：一就聖位、二約
 <lb n="0251b07" ed="T"/>凡位。聖位有無先作五階，謂前五地為第一
 <lb n="0251b08" ed="T"/>位，以十度行配十地門，未得波若相同凡位
@@ -1218,7 +1352,8 @@
 <lb n="0251c12" ed="T"/>漏，故說淨德通於五位。離妄為真義，在見分。
 <lb n="0251c13" ed="T"/>不虛為實義，當相分。無漏見相非妄非虛，故
 <lb n="0251c14" ed="T"/>說此二亦通五位。然此十事有無之義，但約
-<lb n="0251c15" ed="T"/>一邊顯其階級，未必一向定為然也。</p><p xml:id="pT38p0251c1515" cb:place="inline">次約凡
+<lb n="0251c15" ed="T"/>一邊顯其階級，未必一向定為然也。</p>
+<p xml:id="pT38p0251c1515" cb:place="inline">次約凡
 <lb n="0251c16" ed="T"/>夫位說有無者，如〈迦葉品〉四句中說「或有佛
 <lb n="0251c17" ed="T"/>性，一闡提有、善根人無。或有佛性，善根人有、
 <lb n="0251c18" ed="T"/>一闡提無。或有佛性，二人俱有。或有佛性，二
@@ -1240,7 +1375,8 @@
 <lb n="0252a04" ed="T"/>即第三句所說二人齊無，緣起門中果性當
 <lb n="0252a05" ed="T"/>時未得無上菩提故。故知此二句顯二果性。
 <lb n="0252a06" ed="T"/>如此經意寬無所不苞，通取二門以說四句。
-<lb n="0252a07" ed="T"/>初義如是。</p><p xml:id="pT38p0252a0705" cb:place="inline">第二義者，宜就緣起一門而說。前
+<lb n="0252a07" ed="T"/>初義如是。</p>
+<p xml:id="pT38p0252a0705" cb:place="inline">第二義者，宜就緣起一門而說。前
 <lb n="0252a08" ed="T"/>立三句明因差別，最後一句顯果無二。何者？
 <lb n="0252a09" ed="T"/>初句中言闡提人有、善根人無者，是明一切
 <lb n="0252a10" ed="T"/>斷善根人所有不善五陰亦作報佛之性。第
@@ -1251,7 +1387,8 @@
 <lb n="0252a15" ed="T"/>心轉所作故。為顯三性皆為佛性故，作三句
 <lb n="0252a16" ed="T"/>明因差別也。第四句言二人俱無者，謂前二
 <lb n="0252a17" ed="T"/>人雖有三因而皆未得報佛果性。為顯極果
-<lb n="0252a18" ed="T"/>純一善性故，立一句顯無二也。二義如是。</p><p xml:id="pT38p0252a1817" cb:place="inline">第
+<lb n="0252a18" ed="T"/>純一善性故，立一句顯無二也。二義如是。</p>
+<p xml:id="pT38p0252a1817" cb:place="inline">第
 <lb n="0252a19" ed="T"/>三意者，為四種意故說四句。第一句者，抑引
 <lb n="0252a20" ed="T"/>意說，引斷善根者除絕望心故，抑善根人持
 <lb n="0252a21" ed="T"/>善夢惡故。第二句者，勸請意說，既除夢惡勸
@@ -1262,7 +1399,8 @@
 <lb n="0252a26" ed="T"/>無觀覺，無觀覺者長沒苦海故。此四意內所
 <lb n="0252a27" ed="T"/>詮義者，第一句中約邪見說，第二句中約信
 <lb n="0252a28" ed="T"/>心說。第四同望當果，指當有義說為俱有，據
-<lb n="0252a29" ed="T"/>現無義亦說俱無。三義如是。</p><p xml:id="pT38p0252a2912" cb:place="inline">第四義者，為離
+<lb n="0252a29" ed="T"/>現無義亦說俱無。三義如是。</p>
+<p xml:id="pT38p0252a2912" cb:place="inline">第四義者，為離
 <pb n="0252b" ed="T" xml:id="T38.1769.0252b"/>
 <lb n="0252b01" ed="T"/>二邊故說四句，謂前二句別顯離邊，後之二
 <lb n="0252b02" ed="T"/>句總顯離邊。言別顯者，謂初句言闡提人有，
@@ -1289,7 +1427,8 @@
 <lb n="0252b23" ed="T"/>立句者，依表詮門以示中道。中道之義通於
 <lb n="0252b24" ed="T"/>二人，是故合說。二邊之執隨人各起，所以別
 <lb n="0252b25" ed="T"/>說。然佛說四句意趣眾多，今且略爾四種義
-<lb n="0252b26" ed="T"/>耳。有無門竟。</p><p xml:id="pT38p0252b2606" cb:place="inline">第五、明三世非三世，略有二義：
+<lb n="0252b26" ed="T"/>耳。有無門竟。</p>
+<p xml:id="pT38p0252b2606" cb:place="inline">第五、明三世非三世，略有二義：
 <lb n="0252b27" ed="T"/>先就法身、後約報佛。若就別門，法身佛性雖
 <lb n="0252b28" ed="T"/>復因名，應得果名。至得其體平等無生無滅，
 <lb n="0252b29" ed="T"/>是故一向非三世攝。是義灼然，不勞引證也。
@@ -1303,7 +1442,8 @@
 <lb n="0252c07" ed="T"/>名為現在，現得滿因故，猶未謝故非過去。如
 <lb n="0252c08" ed="T"/>經言「如來佛性非過去非現在未來。後身菩
 <lb n="0252c09" ed="T"/>薩佛性現在未來少可見故，得名現在。未具
-<lb n="0252c10" ed="T"/>見故，名為未來」故。</p><p xml:id="pT38p0252c1008" cb:place="inline">問：未具見義猶是現在有，
+<lb n="0252c10" ed="T"/>見故，名為未來」故。</p>
+<p xml:id="pT38p0252c1008" cb:place="inline">問：未具見義猶是現在有，
 <lb n="0252c11" ed="T"/>何得說是名為未來？又若菩薩現得少見故
 <lb n="0252c12" ed="T"/>名現在者，是即如來現得其見應名現在。答：
 <lb n="0252c13" ed="T"/>如來現得，得遍三世，畢竟不為時節所遷，故雖
@@ -1335,21 +1475,33 @@
 <lb n="0253a09" ed="T"/>陰二種：一者因、二者果。是因五陰，是過現未。
 <lb n="0253a10" ed="T"/>是果五陰，亦是過去現在未來，亦非過去現在
 <lb n="0253a11" ed="T"/>未來。』」依是文證，當知宜就一果五陰亦是三
-<lb n="0253a12" ed="T"/>世亦非三世。</p><p xml:id="pT38p0253a1206" cb:place="inline">第三句者，宜就菩薩因果相對
+<lb n="0253a12" ed="T"/>世亦非三世。</p>
+<p xml:id="pT38p0253a1206" cb:place="inline">第三句者，宜就菩薩因果相對
 <lb n="0253a13" ed="T"/>以辨三世者，菩薩佛性未免生死，望後為因、
 <lb n="0253a14" ed="T"/>望前為果，種子為因、現行為果。如是因皆隨
 <lb n="0253a15" ed="T"/>三世，未至理原，無非三世。如經云「後身菩薩
 <lb n="0253a16" ed="T"/>佛性因故，亦是過去現在未來，果亦如是。九
 <lb n="0253a17" ed="T"/>地菩薩佛性因故，亦是過去現在未來，果亦如
-<lb n="0253a18" ed="T"/>是。<note n="0253001" resp="Taisho" type="orig" place="foot text">〔九地…是〕二十字－？</note><note n="0253001" resp="CBETA" type="mod">（九地…是）二十字【大】，〔－〕【考偽-大】</note><app n="0253001"><lem resp="Taisho" wit="【大】">九地菩薩佛性因故，亦是過去現在未來，
-<lb n="0253a19" ed="T"/>果亦如是</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>」乃至廣說故。</p><p xml:id="pT38p0253a1910" cb:place="inline">問：第二句中明如來
+<lb n="0253a18" ed="T"/>是。<note 
+n="0253001" resp="Taisho" type="orig" place="foot text">〔九地…是〕二十字－？</note><note 
+n="0253001" resp="CBETA" type="mod">（九地…是）二十字【大】，〔－〕【考偽-大】</note><app n="0253001">
+  <lem resp="Taisho" wit="【大】">九地菩薩佛性因故，亦是過去現在未來，
+<lb n="0253a19" ed="T"/>果亦如是</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>」乃至廣說故。</p>
+<p xml:id="pT38p0253a1910" cb:place="inline">問：第二句中明如來
 <lb n="0253a20" ed="T"/>因乃取未成佛時因性，今第三句明菩薩果
 <lb n="0253a21" ed="T"/>廣說當成時果性，何故此中不取當果？解云：
 <lb n="0253a22" ed="T"/>不例立果望因，因是已修故得取。因在望果，
 <lb n="0253a23" ed="T"/>果非已證，所以不取。是故宜就菩薩位內前
-<lb n="0253a24" ed="T"/>後相望而說因果三世。三世門竟。</p><p xml:id="pT38p0253a2414" cb:place="inline">第六、會
+<lb n="0253a24" ed="T"/>後相望而說因果三世。三世門竟。</p>
+<p xml:id="pT38p0253a2414" cb:place="inline">第六、會
 <lb n="0253a25" ed="T"/>通。於中有二：初通文異、後會義同。通異文者，
-<lb n="0253a26" ed="T"/>問，如因果門所引文云「未得阿耨菩提之<note n="0253a2601" resp="CBETA" type="add" note_key="T38.0253a26.17">時【CB】，［－］【大】</note><app n="0253a2601"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">時<note type="cf1">T38n1769_p0250a10</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>，約一
+<lb n="0253a26" ed="T"/>問，如因果門所引文云「未得阿耨菩提之<note 
+n="0253a2601" resp="CBETA" type="add" note_key="T38.0253a26.17">時【CB】，［－］【大】</note><app n="0253a2601">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">時<note type="cf1">T38n1769_p0250a10</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>，約一
 <lb n="0253a27" ed="T"/>切善不善無記法盡名佛性。」若依是文，菩提
 <lb n="0253a28" ed="T"/>之心六度等行皆是佛性。何故〈師子吼〉中言
 <lb n="0253a29" ed="T"/>「正因者名為佛性，緣因者發菩提心。」如是相
@@ -1358,7 +1510,8 @@
 <lb n="0253b02" ed="T"/>一切盡名佛性。以行望性，有性非行，故分性
 <lb n="0253b03" ed="T"/>行以說二因。又復性有二義：一是因義、二非
 <lb n="0253b04" ed="T"/>作義。就因義故，盡名佛性。約非作義，行即非
-<lb n="0253b05" ed="T"/>性。由是道理，故不相違也。</p><p xml:id="pT38p0253b0511" cb:place="inline">問：如體相門所引
+<lb n="0253b05" ed="T"/>性。由是道理，故不相違也。</p>
+<p xml:id="pT38p0253b0511" cb:place="inline">問：如體相門所引
 <lb n="0253b06" ed="T"/>文言「非佛性者，所謂一切牆壁瓦石無情之
 <lb n="0253b07" ed="T"/>物。」又復〈迦葉品〉中說云「或云佛性住五陰中
 <lb n="0253b08" ed="T"/>果。或言佛性性離陰而有，猶如虛空，是故如
@@ -1369,7 +1522,8 @@
 <lb n="0253b13" ed="T"/>佛性。若就唯識所變現門，內外無二合為佛
 <lb n="0253b14" ed="T"/>性，此是唯約報佛性說。又復前說文說報佛
 <lb n="0253b15" ed="T"/>性，後所引文說法佛性。若作是說，亦不相違
-<lb n="0253b16" ed="T"/>也。</p><p xml:id="pT38p0253b1602" cb:place="inline">問：見性門內所引論說「初地菩薩無礙智
+<lb n="0253b16" ed="T"/>也。</p>
+<p xml:id="pT38p0253b1602" cb:place="inline">問：見性門內所引論說「初地菩薩無礙智
 <lb n="0253b17" ed="T"/>眼見諸眾生悉有佛性。」何故是經不能見？如
 <lb n="0253b18" ed="T"/>〈德王品〉第九功德中言「住九地者，見法有性，不
 <lb n="0253b19" ed="T"/>見佛性。住十住者，見法無性，方見佛性。」又〈師
@@ -1400,7 +1554,8 @@
 <lb n="0253c14" ed="T"/>一乘者正因佛性，如來常者是果佛性。十住
 <lb n="0253c15" ed="T"/>因滿故見因性，未得圓果不見果性。即依是
 <lb n="0253c16" ed="T"/>義。故後文說言「菩薩未得名一切覺，是故雖
-<lb n="0253c17" ed="T"/>見而不明了也。」餘文相違准此可通。</p><p xml:id="pT38p0253c1715" cb:place="inline">次會義
+<lb n="0253c17" ed="T"/>見而不明了也。」餘文相違准此可通。</p>
+<p xml:id="pT38p0253c1715" cb:place="inline">次會義
 <lb n="0253c18" ed="T"/>同者，於同類義有異文句，以義類而會諸文。
 <lb n="0253c19" ed="T"/>佛性之義有無量門，以類相攝不出五種：一
 <lb n="0253c20" ed="T"/>性淨門，常住佛性。二隨染門，無常佛性。是二
@@ -1430,14 +1585,16 @@
 <lb n="0254a14" ed="T"/>空、名智惠者，是會諸部《般若》教意。又名一乘
 <lb n="0254a15" ed="T"/>者，是會《法花經》等。又名真解脫者，是會《維摩
 <lb n="0254a16" ed="T"/>經》等。為顯是等諸經異文同旨，故於一佛性
-<lb n="0254a17" ed="T"/>立是諸名也。</p><p xml:id="pT38p0254a1706" cb:place="inline">第二、隨染門中報佛性者，〈師子
+<lb n="0254a17" ed="T"/>立是諸名也。</p>
+<p xml:id="pT38p0254a1706" cb:place="inline">第二、隨染門中報佛性者，〈師子
 <lb n="0254a18" ed="T"/>吼〉中言「佛性者名大信心。何以？信心故，菩薩
 <lb n="0254a19" ed="T"/>能具六波羅蜜。」又言「佛性者名慈悲喜捨，佛
 <lb n="0254a20" ed="T"/>性者名四無礙知。乃至佛性者名灌頂三昧。」
 <lb n="0254a21" ed="T"/>〈迦葉品〉云「後身菩薩佛性有六，乃至初地佛
 <lb n="0254a22" ed="T"/>性有五，皆是過去現在未來。」又言「未得菩提
 <lb n="0254a23" ed="T"/>之時，善不善等盡名佛性。」如是等文，同顯隨
-<lb n="0254a24" ed="T"/>染門內報佛性也。</p><p xml:id="pT38p0254a2408" cb:place="inline">第三、明現果佛性者，〈師子
+<lb n="0254a24" ed="T"/>染門內報佛性也。</p>
+<p xml:id="pT38p0254a2408" cb:place="inline">第三、明現果佛性者，〈師子
 <lb n="0254a25" ed="T"/>吼〉中言「佛性者，亦色、非色、非色非非色，亦相、
 <lb n="0254a26" ed="T"/>非相、非相非非相。云何為色？金剛身故。云何
 <lb n="0254a27" ed="T"/>非色？十八不共非色法故。云何非色非非色？
@@ -1457,7 +1614,8 @@
 <lb n="0254b11" ed="T"/>葉品〉云「如汝先問，斷善根人有佛性者，亦有
 <lb n="0254b12" ed="T"/>如來佛性，亦有後身佛性。是二佛性障未來
 <lb n="0254b13" ed="T"/>故，得名為無。畢竟得故，得名為有。」如是等文
-<lb n="0254b14" ed="T"/>明當果佛性。</p><p xml:id="pT38p0254b1406" cb:place="inline">第五、明非因非果非常非無常性
+<lb n="0254b14" ed="T"/>明當果佛性。</p>
+<p xml:id="pT38p0254b1406" cb:place="inline">第五、明非因非果非常非無常性
 <lb n="0254b15" ed="T"/>者，如〈德王品〉云「善有二種，有漏、無漏。是佛性
 <lb n="0254b16" ed="T"/>非有漏、非無漏，是故不斷。復有二種，一者常、
 <lb n="0254b17" ed="T"/>二者無常。佛性非常非無常，是故不斷。」〈師子
@@ -1478,7 +1636,8 @@
 <lb n="0254c02" ed="T"/>一性，非隨異門而有別性，即無有異，何得有
 <lb n="0254c03" ed="T"/>一？由非一故，能當諸門。由非異故，諸門一味。
 <lb n="0254c04" ed="T"/>佛性之義略判如是。上來所說涅槃佛性，全
-<lb n="0254c05" ed="T"/>為第二廣經宗竟。</p><p xml:id="pT38p0254c0508" cb:place="inline">第三、明教體者，先敘異
+<lb n="0254c05" ed="T"/>為第二廣經宗竟。</p>
+<p xml:id="pT38p0254c0508" cb:place="inline">第三、明教體者，先敘異
 <lb n="0254c06" ed="T"/>部、後顯大乘。《迦退論》中以名句味以為經體，
 <lb n="0254c07" ed="T"/>故彼論說「十二部經名何等法？答曰：名身語
 <lb n="0254c08" ed="T"/>身次第住故。」若依《雜心》有二師說，如〈界品〉。八
@@ -1494,7 +1653,11 @@
 <lb n="0254c18" ed="T"/>別故。為對治此行，佛世尊正說八萬法陰。如
 <lb n="0254c19" ed="T"/>八萬法陰相，五陰中色行二陰攝。」以是文證，
 <lb n="0254c20" ed="T"/>得知評家取此第三也。雖有是說，而實不然。
-<lb n="0254c21" ed="T"/>所以然者，彼不能顯論文分齊，<note n="0254c2101" resp="CBETA" type="add" note_key="T38.0254c21.13">濫【CB】，監【大】</note><app n="0254c2101"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">濫</lem><rdg wit="【大】">監</rdg></app>取異文作
+<lb n="0254c21" ed="T"/>所以然者，彼不能顯論文分齊，<note 
+n="0254c2101" resp="CBETA" type="add" note_key="T38.0254c21.13">濫【CB】，監【大】</note><app n="0254c2101">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">濫</lem>
+  <rdg wit="【大】">監</rdg>
+</app>取異文作
 <lb n="0254c22" ed="T"/>是妄說。彼論前文已出二師說攝陰竟，次說
 <lb n="0254c23" ed="T"/>八萬法陰之量，一出三師義。此言諸師異判如
 <lb n="0254c24" ed="T"/>是已下，正成第三評家之說。說法陰量已竟，
@@ -1515,11 +1678,20 @@
 <lb n="0255a09" ed="T"/>言「云何為體？謂契經體略有二種：一文、二義。
 <lb n="0255a10" ed="T"/>文是所依，義是能依。云何為文？謂有六種：一
 <lb n="0255a11" ed="T"/>者名身、二者句身、三者語身、四者字身、五者
-<lb n="0255a12" ed="T"/>行相、<note n="0255a1201" resp="CBETA" type="add" note_key="T38.0255a12.03">六【CB】，□【大】</note><app n="0255a1201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">六</lem><rdg wit="【大】">□</rdg></app>者機請」乃至廣說。是論意者，欲顯教
+<lb n="0255a12" ed="T"/>行相、<note 
+n="0255a1201" resp="CBETA" type="add" note_key="T38.0255a12.03">六【CB】，□【大】</note><app n="0255a1201">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-11-22)">六</lem>
+  <rdg wit="【大】">□</rdg>
+</app>者機請」乃至廣說。是論意者，欲顯教
 <lb n="0255a13" ed="T"/>體無別自□□□緣含，能生物解，故說諸緣為
 <lb n="0255a14" ed="T"/>教體耳。於中餘□□□□□，如《楞伽經疏》中
-<lb n="0255a15" ed="T"/>說。</p><p xml:id="pT38p0255a1502" cb:place="inline">第四、明教迹者，昔來□□□□南土諸
-<lb n="0255a16" ed="T"/>師，多依武都山隱士<note n="0255a1601" resp="CBETA" type="add" note_key="T38.0255a16.09">劉【CB】，㔁【大】</note><app n="0255a1601"><lem wit="【CB】" resp="CBETA.maha CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">劉<note type="cf1">T44n1851_p0465a11</note></lem><rdg wit="【大】">㔁</rdg></app><g ref="#CB04756"/>義云：如□□□□
+<lb n="0255a15" ed="T"/>說。</p>
+<p xml:id="pT38p0255a1502" cb:place="inline">第四、明教迹者，昔來□□□□南土諸
+<lb n="0255a16" ed="T"/>師，多依武都山隱士<note 
+n="0255a1601" resp="CBETA" type="add" note_key="T38.0255a16.09">劉【CB】，㔁【大】</note><app n="0255a1601">
+  <lem wit="【CB】" resp="CBETA.maha CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">劉<note type="cf1">T44n1851_p0465a11</note></lem>
+  <rdg wit="【大】">㔁</rdg>
+</app><g ref="#CB04756"/>義云：如□□□□
 <lb n="0255a17" ed="T"/>說無出頓漸。《花嚴》等經是其頓教，餘名漸□
 <lb n="0255a18" ed="T"/>□□內有其五時：一、佛初成道已，為提胃等
 <lb n="0255a19" ed="T"/>說五戒十善人天教門。二、佛成道已十二年
@@ -1559,7 +1731,8 @@
 <lb n="0255b23" ed="T"/>不可數知故。」又言「我淨土不毀，而眾生見燒
 <lb n="0255b24" ed="T"/>盡者，報佛如來真淨土第一義諦之所攝故。」
 <lb n="0255b25" ed="T"/>既顯常命及真淨土，而言是不了說者，不應
-<lb n="0255b26" ed="T"/>道理。</p><p xml:id="pT38p0255b2603" cb:place="inline">問：南北二說，何者為得為失？答：若執一
+<lb n="0255b26" ed="T"/>道理。</p>
+<p xml:id="pT38p0255b2603" cb:place="inline">問：南北二說，何者為得為失？答：若執一
 <lb n="0255b27" ed="T"/>邊謂一向爾者，二說皆失。若就隨分無其義
 <lb n="0255b28" ed="T"/>者，二說俱得。所以然者，佛說般若等諸教意，
 <lb n="0255b29" ed="T"/>廣大甚深，淺通復不可定限於一邊故。又如

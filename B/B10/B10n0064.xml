@@ -2,83 +2,96 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="B10n0064">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Supplement to the Dazangjing</title>
-			<title level="s" xml:lang="zh-Hant">大藏經補編</title>
-			<title level="m" xml:lang="zh-Hant">大圓滿</title>
-			<title>Supplement to the Dazangjing, Electronic version, No. 64 大圓滿</title>
-			<title xml:lang="zh-Hant">大藏經補編數位版, No. 64 大圓滿</title>
-			<author>郭元興著　慈威校註</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">B</idno>.<idno type="vol">10</idno>.<idno type="no">64</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大藏經補編</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【補編】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2015-02-26">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Supplement to the Dazangjing</title>
+      <title level="s" xml:lang="zh-Hant">大藏經補編</title>
+      <title level="m" xml:lang="zh-Hant">大圓滿</title>
+      <title>Supplement to the Dazangjing, Electronic version, No. 64 大圓滿</title>
+      <title xml:lang="zh-Hant">大藏經補編數位版, No. 64 大圓滿</title>
+      <author>郭元興著　慈威校註</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">B</idno>.<idno type="vol">10</idno>.<idno type="no">64</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大藏經補編</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【補編】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2015-02-26">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="B" xml:id="B10.0064.0419a" n="0419a"/>
-<lb ed="B" n="0419a01"/><cb:mulu type="卷" n="1"/><byline cb:type="author">密乘教幢居士郭元興撰稿</byline>
+<lb ed="B" n="0419a01"/><cb:mulu type="卷" n="1"/>
+<byline cb:type="author">密乘教幢居士郭元興撰稿</byline>
 <lb ed="B" n="0419a02"/><byline cb:type="other">金剛阿闍黎慈威上師校註</byline>
 <lb ed="B" n="0419a03"/><p xml:id="pB10p0419a0301" style="margin-left:6em">蓮華金剛藏本</p>
 <lb ed="B" n="0419a04"/><cb:div type="other"><cb:mulu type="其他" level="1">一、大圓滿的意義和內容</cb:mulu><head>一、大圓滿的意義和內容</head>
-<lb ed="B" n="0419a05"/><p xml:id="pB10p0419a0501" style="margin-left:0em;text-indent:2em">西藏的寧瑪派（<note n="0419a0501" resp="CBETA" type="add" note_key="B10.0419a05.07">RN̄IṄ【CB】，RN̄IN【補編】（CBETA 按：「RN̄IN」有誤，修訂作「RN̄IṄ」（音：寧）。）</note><app n="0419a0501"><lem wit="【CB】" resp="CBETA.liyi">RN̄IṄ</lem><rdg wit="【補編】">RN̄IN</rdg></app>-MA-PA）是指以前宏期
+<lb ed="B" n="0419a05"/><p xml:id="pB10p0419a0501" style="margin-left:0em;text-indent:2em">西藏的寧瑪派（<note 
+n="0419a0501" resp="CBETA" type="add" note_key="B10.0419a05.07">RN̄IṄ【CB】，RN̄IN【補編】（CBETA 按：「RN̄IN」有誤，修訂作「RN̄IṄ」（音：寧）。）</note><app n="0419a0501">
+  <lem wit="【CB】" resp="CBETA.liyi">RN̄IṄ</lem>
+  <rdg wit="【補編】">RN̄IN</rdg>
+</app>-MA-PA）是指以前宏期
 <lb ed="B" n="0419a06"/>入藏的蓮華生（梵 PADMA-SAM-BHAVA 藏 PAD
-<lb ed="B" n="0419a07"/>MA-<note n="0419a0701" resp="CBETA" type="add" note_key="B10.0419a07.03">HBYUṄ【CB】，HBYUN̄【補編】</note><app n="0419a0701"><lem wit="【CB】" resp="CBETA.liyi">HBYUṄ<note type="cf1">B10n0064_p0449a06</note></lem><rdg wit="【補編】">HBYUN̄</rdg></app>-LDAN 或梵 PADMA-KARA 藏 PAD
-<lb ed="B" n="0419a08"/>MA-<note n="0419a0801" resp="CBETA" type="add" note_key="B10.0419a08.03">HBYUṄ【CB】，HBYNĀ【補編】</note><app n="0419a0801"><lem wit="【CB】" resp="CBETA.liyi">HBYUṄ<note type="cf1">B10n0064_p0449a06</note></lem><rdg wit="【補編】">HBYNĀ</rdg></app>-GNAS）和無垢友（梵 VIMALAMITR
+<lb ed="B" n="0419a07"/>MA-<note 
+n="0419a0701" resp="CBETA" type="add" note_key="B10.0419a07.03">HBYUṄ【CB】，HBYUN̄【補編】</note><app n="0419a0701">
+  <lem wit="【CB】" resp="CBETA.liyi">HBYUṄ<note type="cf1">B10n0064_p0449a06</note></lem>
+  <rdg wit="【補編】">HBYUN̄</rdg>
+</app>-LDAN 或梵 PADMA-KARA 藏 PAD
+<lb ed="B" n="0419a08"/>MA-<note 
+n="0419a0801" resp="CBETA" type="add" note_key="B10.0419a08.03">HBYUṄ【CB】，HBYNĀ【補編】</note><app n="0419a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">HBYUṄ<note type="cf1">B10n0064_p0449a06</note></lem>
+  <rdg wit="【補編】">HBYNĀ</rdg>
+</app>-GNAS）和無垢友（梵 VIMALAMITR
 <lb ed="B" n="0419a09"/>A 藏 DIRMED-BCES-GN̄EN）等為主所傳承下來
 <lb ed="B" n="0419a10"/>的密咒教法，這一派在理論上和修學實踐上都和印度
 <pb ed="B" xml:id="B10.0064.0420a" n="0420a"/>
@@ -94,40 +107,125 @@
 <lb ed="B" n="0420a10"/>即因仍人天乘（藏 SOR-BSHAG-LHA-MIKI-T
 <pb ed="B" xml:id="B10.0064.0421a" n="0421a"/>
 <lb ed="B" n="0421a01"/>HEG-PA）顛倒外道乘（PHYIN-CILOG-MUTE
-<lb ed="B" n="0421a02"/>G-KYI-THEG-PA）和真實內道乘（藏 <note n="0421a0201" resp="CBETA" type="add" note_key="B10.0421a02.18">YAṄ【CB】，YAN̄【補編】（CBETA 按：「YAN̄」有誤，修訂作「YAṄ」-DAG（真實）。）</note><app n="0421a0201"><lem wit="【CB】" resp="CBETA.liyi">YAṄ</lem><rdg wit="【補編】">YAN̄</rdg></app>-
-<lb ed="B" n="0421a03"/>DAG-PA-<note n="0421a0301" resp="CBETA" type="add" note_key="B10.0421a03.06">NAṄ【CB】，NAN̄【補編】<note type="cf1">B10n0064_p0438a05</note></note><app n="0421a0301"><lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0438a05</note></lem><rdg wit="【補編】">NAN̄</rdg></app>-PAHI-THEG-PA）人天乘包括世
+<lb ed="B" n="0421a02"/>G-KYI-THEG-PA）和真實內道乘（藏 <note 
+n="0421a0201" resp="CBETA" type="add" note_key="B10.0421a02.18">YAṄ【CB】，YAN̄【補編】（CBETA 按：「YAN̄」有誤，修訂作「YAṄ」-DAG（真實）。）</note><app n="0421a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">YAṄ</lem>
+  <rdg wit="【補編】">YAN̄</rdg>
+</app>-
+<lb ed="B" n="0421a03"/>DAG-PA-<note 
+n="0421a0301" resp="CBETA" type="add" note_key="B10.0421a03.06">NAṄ【CB】，NAN̄【補編】<note type="cf1">B10n0064_p0438a05</note></note><app n="0421a0301">
+  <lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0438a05</note></lem>
+  <rdg wit="【補編】">NAN̄</rdg>
+</app>-PAHI-THEG-PA）人天乘包括世
 <lb ed="B" n="0421a04"/>間一切善法學術，外道乘包括一切顛倒邪執的外道宗
 <lb ed="B" n="0421a05"/>派，內道乘則指佛法，在內道乘中又可分為九乘，就
-<lb ed="B" n="0421a06"/>是通常所稱的九乘次第（藏 THEG-PA-RIM-<note n="0421a0601" resp="CBETA" type="add" note_key="B10.0421a06.21">DGU【CB】，DYU【補編】（CBETA 按：「DYU」有誤，修訂作「DGU」（九）。）</note><app n="0421a0601"><lem wit="【CB】" resp="CBETA.liyi">DGU</lem><rdg wit="【補編】">DYU</rdg></app>）
+<lb ed="B" n="0421a06"/>是通常所稱的九乘次第（藏 THEG-PA-RIM-<note 
+n="0421a0601" resp="CBETA" type="add" note_key="B10.0421a06.21">DGU【CB】，DYU【補編】（CBETA 按：「DYU」有誤，修訂作「DGU」（九）。）</note><app n="0421a0601">
+  <lem wit="【CB】" resp="CBETA.liyi">DGU</lem>
+  <rdg wit="【補編】">DYU</rdg>
+</app>）
 <lb ed="B" n="0421a07"/>現在我們把九乘的分類列一表如下（依無垢光宗派藏論
 <lb ed="B" n="0421a08"/>說）。
 <lb ed="B" n="0421a09"/>
-<lb ed="B" n="0421a10"/><table cols="6"><row><cell cols="1" rows="9">真實內道乘</cell><cell cols="1" rows="3">因乘三</cell><cell>下下聲聞乘</cell><cell cols="2" rows="2">小乘二佛法</cell><cell cols="1" rows="9">九乘佛法</cell></row>
-<lb ed="B" n="0421a11"/><row><cell>下中獨覺乘</cell></row>
+<lb ed="B" n="0421a10"/><table cols="6">
+  <row>
+    <cell cols="1" rows="9">真實內道乘</cell>
+    <cell cols="1" rows="3">因乘三</cell>
+    <cell>下下聲聞乘</cell>
+    <cell cols="2" rows="2">小乘二佛法</cell>
+    <cell cols="1" rows="9">九乘佛法</cell>
+  </row>
+<lb ed="B" n="0421a11"/>
+  <row>
+    <cell>下中獨覺乘</cell>
+  </row>
 <pb ed="B" xml:id="B10.0064.0422a" n="0422a"/>
-<lb ed="B" n="0422a01"/><row><cell>下上菩薩乘</cell><cell cols="2">因乘一</cell></row>
-<lb ed="B" n="0422a02"/><row><cell cols="1" rows="6">果乘六</cell><cell cols="1" rows="3">外牟尼續乘三</cell><cell>中下事乘</cell><cell cols="1" rows="6">果乘六</cell></row>
-<lb ed="B" n="0422a03"/><row><cell>中中近乘</cell></row>
-<lb ed="B" n="0422a04"/><row><cell>中上瑜伽乘</cell></row>
-<lb ed="B" n="0422a05"/><row><cell cols="1" rows="3">內大密咒乘三</cell><cell>上下摩阿瑜伽乘</cell></row>
-<lb ed="B" n="0422a06"/><row><cell>上中阿努瑜伽乘</cell></row>
-<lb ed="B" n="0422a07"/><row><cell>上上阿底瑜伽乘</cell></row></table></p>
+<lb ed="B" n="0422a01"/>
+  <row>
+    <cell>下上菩薩乘</cell>
+    <cell cols="2">因乘一</cell>
+  </row>
+<lb ed="B" n="0422a02"/>
+  <row>
+    <cell cols="1" rows="6">果乘六</cell>
+    <cell cols="1" rows="3">外牟尼續乘三</cell>
+    <cell>中下事乘</cell>
+    <cell cols="1" rows="6">果乘六</cell>
+  </row>
+<lb ed="B" n="0422a03"/>
+  <row>
+    <cell>中中近乘</cell>
+  </row>
+<lb ed="B" n="0422a04"/>
+  <row>
+    <cell>中上瑜伽乘</cell>
+  </row>
+<lb ed="B" n="0422a05"/>
+  <row>
+    <cell cols="1" rows="3">內大密咒乘三</cell>
+    <cell>上下摩阿瑜伽乘</cell>
+  </row>
+<lb ed="B" n="0422a06"/>
+  <row>
+    <cell>上中阿努瑜伽乘</cell>
+  </row>
+<lb ed="B" n="0422a07"/>
+  <row>
+    <cell>上上阿底瑜伽乘</cell>
+  </row>
+</table></p>
 <lb ed="B" n="0422a08"/>
 <lb ed="B" n="0422a09"/>
 <pb ed="B" xml:id="B10.0064.0423a" n="0423a"/>
 <lb ed="B" n="0423a01"/><p xml:id="pB10p0423a0101" style="margin-left:0em;text-indent:2em">在這九乘中，初三乘認為是化身佛釋迦牟尼所說，名
-<lb ed="B" n="0423a02"/>為共乘（藏 THUN-<note n="0423a0201" resp="CBETA" type="add" note_key="B10.0423a02.09">MOṄ【CB】，MON【補編】（CBETA 按：「MON」有誤，修訂作 THUN-「MOṄ」（共）。）</note><app n="0423a0201"><lem wit="【CB】" resp="CBETA.liyi">MOṄ</lem><rdg wit="【補編】">MON</rdg></app>-GI-THEG-PA）中三乘
-<lb ed="B" n="0423a03"/>認為是報身佛金剛薩埵所說，名為密咒外乘（藏 <note n="0423a0301" resp="CBETA" type="add" note_key="B10.0423a03.20">GSAṄ【CB】，GSAN【補編】</note><app n="0423a0301"><lem wit="【CB】" resp="CBETA.liyi">GS
-<lb ed="B" n="0423a04"/>AṄ<note type="cf1">B10n0064_p0438a06</note></lem><rdg wit="【補編】">GS<lb ed="B" n="0423a04"/>AN</rdg></app>-<note n="0423a0401" resp="CBETA" type="add" note_key="B10.0423a04.03">SṄAGS【CB】，SN̄AGS【補編】（CBETA 按：「SN̄AGS」有誤，修訂作「SṄAGS」（咒）。）</note><app n="0423a0401"><lem wit="【CB】" resp="CBETA.liyi">SṄAGS</lem><rdg wit="【補編】">SN̄AGS</rdg></app>-KYI-PHYIHI-THEG-PA）也有
+<lb ed="B" n="0423a02"/>為共乘（藏 THUN-<note 
+n="0423a0201" resp="CBETA" type="add" note_key="B10.0423a02.09">MOṄ【CB】，MON【補編】（CBETA 按：「MON」有誤，修訂作 THUN-「MOṄ」（共）。）</note><app n="0423a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">MOṄ</lem>
+  <rdg wit="【補編】">MON</rdg>
+</app>-GI-THEG-PA）中三乘
+<lb ed="B" n="0423a03"/>認為是報身佛金剛薩埵所說，名為密咒外乘（藏 <note 
+n="0423a0301" resp="CBETA" type="add" note_key="B10.0423a03.20">GSAṄ【CB】，GSAN【補編】</note><app n="0423a0301">
+  <lem wit="【CB】" resp="CBETA.liyi">GS
+<lb ed="B" n="0423a04"/>AṄ<note type="cf1">B10n0064_p0438a06</note></lem>
+  <rdg wit="【補編】">GS<lb ed="B" n="0423a04"/>AN</rdg>
+</app>-<note 
+n="0423a0401" resp="CBETA" type="add" note_key="B10.0423a04.03">SṄAGS【CB】，SN̄AGS【補編】（CBETA 按：「SN̄AGS」有誤，修訂作「SṄAGS」（咒）。）</note><app n="0423a0401">
+  <lem wit="【CB】" resp="CBETA.liyi">SṄAGS</lem>
+  <rdg wit="【補編】">SN̄AGS</rdg>
+</app>-KYI-PHYIHI-THEG-PA）也有
 <lb ed="B" n="0423a05"/>把這三乘分開來判，認為事乘（梵 KRIYA 藏 BYA-
 <lb ed="B" n="0423a06"/>RGYUD）是釋迦牟尼自說，而近乘（梵 UPA 藏 SP
 <lb ed="B" n="0423a07"/>YOD-RGYUD 行續）和瑜伽乘（梵 YOGA 藏 RNAL
 <lb ed="B" n="0423a08"/>-HBYOR-RGYUD）為毗盧遮那所說，上三乘認為
-<lb ed="B" n="0423a09"/>是法身佛普賢所說，名為內無上乘（<note n="0423a0901" resp="CBETA" type="add" note_key="B10.0423a09.15">NAṄ【CB】，NAN̄【補編】</note><app n="0423a0901"><lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0438a05</note></lem><rdg wit="【補編】">NAN̄</rdg></app>-GI-TH
+<lb ed="B" n="0423a09"/>是法身佛普賢所說，名為內無上乘（<note 
+n="0423a0901" resp="CBETA" type="add" note_key="B10.0423a09.15">NAṄ【CB】，NAN̄【補編】</note><app n="0423a0901">
+  <lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0438a05</note></lem>
+  <rdg wit="【補編】">NAN̄</rdg>
+</app>-GI-TH
 <lb ed="B" n="0423a10"/>EG-PA-BLA-NA-MED-PA）也有認為是大金剛
 <pb ed="B" xml:id="B10.0064.0424a" n="0424a"/>
-<lb ed="B" n="0424a01"/>持（RDO-<note n="0424a0101" resp="CBETA" type="add" note_key="B10.0424a01.05">RZE【CB】，RYE【補編】</note><app n="0424a0101"><lem wit="【CB】" resp="CBETA.liyi">RZE<note type="cf1">B10n0064_p0440a10</note></lem><rdg wit="【補編】">RYE</rdg></app>-<note n="0424a0102" resp="CBETA" type="add" note_key="B10.0424a01.08">HCHAṄ【CB】，HCHAN【補編】（CBETA 按：「HCHAN」有誤，修訂作「HCHAṄ」（持）。）</note><app n="0424a0102"><lem wit="【CB】" resp="CBETA.liyi">HCHAṄ</lem><rdg wit="【補編】">HCHAN</rdg></app>-CHEN-PA）在廣大法
-<lb ed="B" n="0424a02"/>生剎土（CHOS-<note n="0424a0201" resp="CBETA" type="add" note_key="B10.0424a02.08">HBYUṄ【CB】，HBYUN̄【補編】</note><app n="0424a0201"><lem wit="【CB】" resp="CBETA.liyi">HBYUṄ<note type="cf1">B10n0064_p0449a06</note></lem><rdg wit="【補編】">HBYUN̄</rdg></app>-<note n="0424a0202" resp="CBETA" type="add" note_key="B10.0424a02.13">YAṄS【CB】，YAN̄S【補編】（CBETA 按：「YAN̄S」有誤，修訂作「YAṄS」（廣）。）</note><app n="0424a0202"><lem wit="【CB】" resp="CBETA.liyi">YAṄS</lem><rdg wit="【補編】">YAN̄S</rdg></app>-PAHI-<note n="0424a0203" resp="CBETA" type="add" note_key="B10.0424a02.21">SHIṄ【CB】，SHIN【補編】（CBETA 按：「SHIN」有誤，修訂作「SHIṄ」-KHAMS（土）。）</note><app n="0424a0203"><lem wit="【CB】" resp="CBETA.liyi">SHIṄ</lem><rdg wit="【補編】">SHIN</rdg></app>-
+<lb ed="B" n="0424a01"/>持（RDO-<note 
+n="0424a0101" resp="CBETA" type="add" note_key="B10.0424a01.05">RZE【CB】，RYE【補編】</note><app n="0424a0101">
+  <lem wit="【CB】" resp="CBETA.liyi">RZE<note type="cf1">B10n0064_p0440a10</note></lem>
+  <rdg wit="【補編】">RYE</rdg>
+</app>-<note 
+n="0424a0102" resp="CBETA" type="add" note_key="B10.0424a01.08">HCHAṄ【CB】，HCHAN【補編】（CBETA 按：「HCHAN」有誤，修訂作「HCHAṄ」（持）。）</note><app n="0424a0102">
+  <lem wit="【CB】" resp="CBETA.liyi">HCHAṄ</lem>
+  <rdg wit="【補編】">HCHAN</rdg>
+</app>-CHEN-PA）在廣大法
+<lb ed="B" n="0424a02"/>生剎土（CHOS-<note 
+n="0424a0201" resp="CBETA" type="add" note_key="B10.0424a02.08">HBYUṄ【CB】，HBYUN̄【補編】</note><app n="0424a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">HBYUṄ<note type="cf1">B10n0064_p0449a06</note></lem>
+  <rdg wit="【補編】">HBYUN̄</rdg>
+</app>-<note 
+n="0424a0202" resp="CBETA" type="add" note_key="B10.0424a02.13">YAṄS【CB】，YAN̄S【補編】（CBETA 按：「YAN̄S」有誤，修訂作「YAṄS」（廣）。）</note><app n="0424a0202">
+  <lem wit="【CB】" resp="CBETA.liyi">YAṄS</lem>
+  <rdg wit="【補編】">YAN̄S</rdg>
+</app>-PAHI-<note 
+n="0424a0203" resp="CBETA" type="add" note_key="B10.0424a02.21">SHIṄ【CB】，SHIN【補編】（CBETA 按：「SHIN」有誤，修訂作「SHIṄ」-KHAMS（土）。）</note><app n="0424a0203">
+  <lem wit="【CB】" resp="CBETA.liyi">SHIṄ</lem>
+  <rdg wit="【補編】">SHIN</rdg>
+</app>-
 <lb ed="B" n="0424a03"/>KHAMS）中所說的。</p>
 <lb ed="B" n="0424a04"/><p xml:id="pB10p0424a0401" style="margin-left:0em;text-indent:2em">這九乘的次第和印度晚期，以及西藏後宏期新派的
 <lb ed="B" n="0424a05"/>密宗理論比較起來，中三乘相當於新派所說的下三部，
@@ -145,7 +243,11 @@
 <lb ed="B" n="0425a06"/>契經乘，因為以佛說契經為宗之故）更殊勝的，因為
 <lb ed="B" n="0425a07"/>密咒乘以光明心和它所有的諸法為鏡，而顯乘（MT
 <lb ed="B" n="0425a08"/>SHAN-N̄ID-KYI-THEG-PA）則於如實的體道
-<lb ed="B" n="0425a09"/>果（GSHI-LAM-<note n="0425a0901" resp="CBETA" type="add" note_key="B10.0425a09.09">HBRAS【CB】，HBROS【補編】</note><app n="0425a0901"><lem wit="【CB】" resp="CBETA.liyi">HBRAS<note type="cf1">B10n0064_p0443a03</note></lem><rdg wit="【補編】">HBROS</rdg></app>-BU）昧於抉擇，而且
+<lb ed="B" n="0425a09"/>果（GSHI-LAM-<note 
+n="0425a0901" resp="CBETA" type="add" note_key="B10.0425a09.09">HBRAS【CB】，HBROS【補編】</note><app n="0425a0901">
+  <lem wit="【CB】" resp="CBETA.liyi">HBRAS<note type="cf1">B10n0064_p0443a03</note></lem>
+  <rdg wit="【補編】">HBROS</rdg>
+</app>-BU）昧於抉擇，而且
 <lb ed="B" n="0425a10"/>顯乘總是從因明門來審察，用正比量來校量勝義諦理，
 <pb ed="B" xml:id="B10.0064.0426a" n="0426a"/>
 <lb ed="B" n="0426a01"/>安立止觀法門，要經時多刼才能得一分果證，法門
@@ -177,7 +279,11 @@
 <lb ed="B" n="0428a05"/>乘，於自三昧耶身前，觀本尊智身如兄弟或同伴而求
 <lb ed="B" n="0428a06"/>悉地。</p>
 <lb ed="B" n="0428a07"/><p xml:id="pB10p0428a0701" style="margin-left:0em;text-indent:2em">3.瑜伽乘（梵 YOGATANTRA 藏 RNAL-HBYOR-
-<lb ed="B" n="0428a08"/>KYI-RGYUD）是把情器（<note n="0428a0801" resp="CBETA" type="add" note_key="B10.0428a08.13">SNAṄ【CB】，SNAŪ【補編】（CBETA 按：「SNAŪ」有誤，修訂作「SNAṄ」-SRID（情器）。）</note><app n="0428a0801"><lem wit="【CB】" resp="CBETA.liyi">SNAṄ</lem><rdg wit="【補編】">SNAŪ</rdg></app>̄-SRID）一切世
+<lb ed="B" n="0428a08"/>KYI-RGYUD）是把情器（<note 
+n="0428a0801" resp="CBETA" type="add" note_key="B10.0428a08.13">SNAṄ【CB】，SNAŪ【補編】（CBETA 按：「SNAŪ」有誤，修訂作「SNAṄ」-SRID（情器）。）</note><app n="0428a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">SNAṄ</lem>
+  <rdg wit="【補編】">SNAŪ</rdg>
+</app>̄-SRID）一切世
 <lb ed="B" n="0428a09"/>俗諦法，在勝義菩提心性中予以淨治，以五相現證菩
 <lb ed="B" n="0428a10"/>提為道，在生起本尊曼荼羅時，於自己三昧耶身中請
 <pb ed="B" xml:id="B10.0064.0429a" n="0429a"/>
@@ -186,7 +292,8 @@
 <lb ed="B" n="0429a03"/>父續（藏 THABS-CHEN-PO-PHAHI-RGYUD）
 <lb ed="B" n="0429a04"/>它認為一切法本來成佛，都是身智（三身五智）的遊
 <lb ed="B" n="0429a05"/>戲，以生起次第方便為主，自己和本尊智身平等一體，
-<lb ed="B" n="0429a06"/>三業（<note n="0429a0601" resp="CBETA.liyi" type="add" note_key="B10.0429a06.03">CBETA 按：「三業」的藏文，原書作「SGO-GA-SU-MA」，抄寫有誤，應作「SGO-GSUM」。</note><figure><graphic url="../figures/B/B10p0429_01.gif"/></figure>）和三曼荼羅自性不離，以「微
+<lb ed="B" n="0429a06"/>三業（<note 
+n="0429a0601" resp="CBETA.liyi" type="add" note_key="B10.0429a06.03">CBETA 按：「三業」的藏文，原書作「SGO-GA-SU-MA」，抄寫有誤，應作「SGO-GSUM」。</note><figure><graphic url="../figures/B/B10p0429_01.gif"/></figure>）和三曼荼羅自性不離，以「微
 <lb ed="B" n="0429a07"/>細息風瑜伽」為道而求悉地。</p>
 <lb ed="B" n="0429a08"/><p xml:id="pB10p0429a0801" style="margin-left:0em;text-indent:2em">5.隨瑜伽乘（梵 ANU-YOGA-TANTRA）也呌做般若
 <lb ed="B" n="0429a09"/>母續（藏 CES-RAB-MAKI-RGYUD）它認為一切
@@ -197,17 +304,41 @@
 <lb ed="B" n="0430a03"/>大圓滿（藏GN̄IS-SU-MED-PAHI-RDSOGS-
 <lb ed="B" n="0430a04"/>PA-CHEN-PO）它認為一切法本來在菩提心中圓
 <lb ed="B" n="0430a05"/>滿具足，所以生死涅槃不出菩提心曼荼羅，無為本具，
-<lb ed="B" n="0430a06"/>不證本達，一切悉地不出本分法身（<note n="0430a0601" resp="CBETA" type="add" note_key="B10.0430a06.15">RAṄ【CB】，RAN̄【補編】</note><app n="0430a0601"><lem wit="【CB】" resp="CBETA.liyi">RAṄ<note type="cf1">B10n0064_p0436a06</note></lem><rdg wit="【補編】">RAN̄</rdg></app>-CHAS
+<lb ed="B" n="0430a06"/>不證本達，一切悉地不出本分法身（<note 
+n="0430a0601" resp="CBETA" type="add" note_key="B10.0430a06.15">RAṄ【CB】，RAN̄【補編】</note><app n="0430a0601">
+  <lem wit="【CB】" resp="CBETA.liyi">RAṄ<note type="cf1">B10n0064_p0436a06</note></lem>
+  <rdg wit="【補編】">RAN̄</rdg>
+</app>-CHAS
 <lb ed="B" n="0430a07"/>-CHOS-SKU）以最後一乘無二大圓滿為最殊勝，
-<lb ed="B" n="0430a08"/>這上面三乘也呌做內方便續（<note n="0430a0801" resp="CBETA" type="add" note_key="B10.0430a08.13">NAṄ【CB】，NAN̄【補編】</note><app n="0430a0801"><lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0438a05</note></lem><rdg wit="【補編】">NAN̄</rdg></app>-GI-<note n="0430a0802" resp="CBETA" type="add" note_key="B10.0430a08.18">THABS【CB】，THOBS【補編】</note><app n="0430a0802"><lem wit="【CB】" resp="CBETA.liyi">THABS<note type="cf1">B10n0064_p0429a03</note></lem><rdg wit="【補編】">THOBS</rdg></app>-
-<lb ed="B" n="0430a09"/>KYI-<note n="0430a0901" resp="CBETA" type="add" note_key="B10.0430a09.04">RGYUD【CB】，RGYND【補編】</note><app n="0430a0901"><lem wit="【CB】" resp="CBETA.liyi">RGYUD<note type="cf1">B10n0064_p0423a07</note></lem><rdg wit="【補編】">RGYND</rdg></app>）大圓滿是指一種現前離垢明空豁朗
-<lb ed="B" n="0430a10"/>的內證智（梵 <note n="0430a1001" resp="CBETA" type="add" note_key="B10.0430a10.06">SAṀ【CB】，SAM̄【補編】</note><app n="0430a1001"><lem wit="【CB】" resp="CBETA.liyi">SAṀ<note type="cf1">B10n0064_p0449a04</note></lem><rdg wit="【補編】">SAM̄</rdg></app>-VEDANA 藏 RIG-PA）它的意
+<lb ed="B" n="0430a08"/>這上面三乘也呌做內方便續（<note 
+n="0430a0801" resp="CBETA" type="add" note_key="B10.0430a08.13">NAṄ【CB】，NAN̄【補編】</note><app n="0430a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0438a05</note></lem>
+  <rdg wit="【補編】">NAN̄</rdg>
+</app>-GI-<note 
+n="0430a0802" resp="CBETA" type="add" note_key="B10.0430a08.18">THABS【CB】，THOBS【補編】</note><app n="0430a0802">
+  <lem wit="【CB】" resp="CBETA.liyi">THABS<note type="cf1">B10n0064_p0429a03</note></lem>
+  <rdg wit="【補編】">THOBS</rdg>
+</app>-
+<lb ed="B" n="0430a09"/>KYI-<note 
+n="0430a0901" resp="CBETA" type="add" note_key="B10.0430a09.04">RGYUD【CB】，RGYND【補編】</note><app n="0430a0901">
+  <lem wit="【CB】" resp="CBETA.liyi">RGYUD<note type="cf1">B10n0064_p0423a07</note></lem>
+  <rdg wit="【補編】">RGYND</rdg>
+</app>）大圓滿是指一種現前離垢明空豁朗
+<lb ed="B" n="0430a10"/>的內證智（梵 <note 
+n="0430a1001" resp="CBETA" type="add" note_key="B10.0430a10.06">SAṀ【CB】，SAM̄【補編】</note><app n="0430a1001">
+  <lem wit="【CB】" resp="CBETA.liyi">SAṀ<note type="cf1">B10n0064_p0449a04</note></lem>
+  <rdg wit="【補編】">SAM̄</rdg>
+</app>-VEDANA 藏 RIG-PA）它的意
 <pb ed="B" xml:id="B10.0064.0431a" n="0431a"/>
 <lb ed="B" n="0431a01"/>思是說，三有所顯和生死涅槃所持的一切法無不在這
 <lb ed="B" n="0431a02"/>個證智空性中圓滿具足，所以呌做圓滿，解脫生死的
 <lb ed="B" n="0431a03"/>方便，沒有比這個更殊勝的，所以呌做大，這個內證
-<lb ed="B" n="0431a04"/>智也就是心性光明的菩提心，又名自然光明智（<note n="0431a0401" resp="CBETA" type="add" note_key="B10.0431a04.20">RAṄ-BYUṄ【CB】，RAṄN-BYUN【補編】</note><app n="0431a0401"><lem wit="【CB】" resp="CBETA.liyi">RAṄ
-<lb ed="B" n="0431a05"/>-BYUṄ<note type="cf1">B10n0064_p0450a03</note></lem><rdg wit="【補編】">RAṄ<lb ed="B" n="0431a05"/>N-BYUN</rdg></app>-GI-YE-CES-HOD-GSAL）從修持果
+<lb ed="B" n="0431a04"/>智也就是心性光明的菩提心，又名自然光明智（<note 
+n="0431a0401" resp="CBETA" type="add" note_key="B10.0431a04.20">RAṄ-BYUṄ【CB】，RAṄN-BYUN【補編】</note><app n="0431a0401">
+  <lem wit="【CB】" resp="CBETA.liyi">RAṄ
+<lb ed="B" n="0431a05"/>-BYUṄ<note type="cf1">B10n0064_p0450a03</note></lem>
+  <rdg wit="【補編】">RAṄ<lb ed="B" n="0431a05"/>N-BYUN</rdg>
+</app>-GI-YE-CES-HOD-GSAL）從修持果
 <lb ed="B" n="0431a06"/>果證方面來說，這個自然智的本體空分即法身、本性
 <lb ed="B" n="0431a07"/>顯了分即報身、大悲明證分即化身，三身本來在本分
 <lb ed="B" n="0431a08"/>上具足，不必另有精勤修作即已圓滿，所以呌做大圓
@@ -223,7 +354,11 @@
 <lb ed="B" n="0432a07"/>而大圓滿則為無取無捨之菩提心，大瑜伽乘求證金剛
 <lb ed="B" n="0432a08"/>持位，所以用方便勝慧（般若）為趣入門，而大圓滿
 <lb ed="B" n="0432a09"/>之菩提心則超越勤修（RTSOL-SGRUB）隨瑜伽求
-<lb ed="B" n="0432a10"/>證無別（DBYER-MED）故以界智（<note n="0432a1001" resp="CBETA" type="add" note_key="B10.0432a10.16">DBYIṄS【CB】，DBYINS【補編】（CBETA 按：「DBYINS」有誤，修訂作「DBYIṄS」（界）。）</note><app n="0432a1001"><lem wit="【CB】" resp="CBETA.liyi">DBYIṄS</lem><rdg wit="【補編】">DBYINS</rdg></app>-D
+<lb ed="B" n="0432a10"/>證無別（DBYER-MED）故以界智（<note 
+n="0432a1001" resp="CBETA" type="add" note_key="B10.0432a10.16">DBYIṄS【CB】，DBYINS【補編】（CBETA 按：「DBYINS」有誤，修訂作「DBYIṄS」（界）。）</note><app n="0432a1001">
+  <lem wit="【CB】" resp="CBETA.liyi">DBYIṄS</lem>
+  <rdg wit="【補編】">DBYINS</rdg>
+</app>-D
 <pb ed="B" xml:id="B10.0064.0433a" n="0433a"/>
 <lb ed="B" n="0433a01"/>AṄ-YE-CES）為入門，而大圓滿之菩提心則超越
 <lb ed="B" n="0433a02"/>因果，總括地說，下八乘不用自然智，所以都以漸修
@@ -239,10 +374,37 @@
 <lb ed="B" n="0434a01"/>「果」上沒有所斷所證的，所以遠離自他的觀待，這
 <lb ed="B" n="0434a02"/>大圓滿的修法又可以分為三部。</p>
 <lb ed="B" n="0434a03"/><p xml:id="pB10p0434a0301" style="margin-left:0em;text-indent:2em">內容如下表（以上參無垢光宗派藏第七品）</p>
-<lb ed="B" n="0434a04"/><list rend="no-marker"><item xml:id="itemB10p0434a0401"><p xml:id="pB10p0434a0401" style="margin-left:2em">大圓滿</p>
-<lb ed="B" n="0434a05"/><list rend="no-marker"><item xml:id="itemB10p0434a0501"><p xml:id="pB10p0434a0501" style="margin-left:2em">心部（SEMS-SDE）</p></item>
-<lb ed="B" n="0434a06"/><item xml:id="itemB10p0434a0601"><p xml:id="pB10p0434a0601" style="margin-left:2em">界部（<note n="0434a0601" resp="CBETA" type="add" note_key="B10.0434a06.03">KLOṄ【CB】，KLON̄【補編】</note><app n="0434a0601"><lem wit="【CB】" resp="CBETA.liyi">KLOṄ<note type="cf1">B10n0064_p0468a10</note></lem><rdg wit="【補編】">KLON̄</rdg></app>-SDE）</p></item>
-<lb ed="B" n="0434a07"/><item xml:id="itemB10p0434a0701"><p xml:id="pB10p0434a0701" style="margin-left:2em">要門部（MAN-<note n="0434a0701" resp="CBETA" type="add" note_key="B10.0434a07.07">ṄAGGI【CB】，N̄AGGI【補編】</note><app n="0434a0701"><lem wit="【CB】" resp="CBETA.liyi">ṄAGGI<note type="cf1">B10n0064_p0438a04</note><note type="cf2">B10n0064_p0454a04</note></lem><rdg wit="【補編】">N̄AGGI</rdg></app>-SDE）</p><list rend="no-marker"><item xml:id="itemB10p0434a0718"><p xml:id="pB10p0434a0718" style="margin-left:2em" cb:place="inline">外（PHYI）</p></item><item xml:id="itemB10p0434a0723"><p xml:id="pB10p0434a0723" style="margin-left:2em" cb:place="inline">內（<note n="0434a0702" resp="CBETA" type="add" note_key="B10.0434a07.22">NAṄ【CB】，MAN̄【補編】</note><app n="0434a0702"><lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0430a08</note></lem><rdg wit="【補編】">MAN̄</rdg></app>）</p></item><item xml:id="itemB10p0434a0728"><p xml:id="pB10p0434a0728" style="margin-left:2em" cb:place="inline">秘密（<note n="0434a0703" resp="CBETA" type="add" note_key="B10.0434a07.29">GSAṄ【CB】，GSAN̄【補編】</note><app n="0434a0703"><lem wit="【CB】" resp="CBETA.liyi">GSAṄ<note type="cf1">B10n0064_p0438a05-06</note></lem><rdg wit="【補編】">GSAN̄</rdg></app>-BA）</p></item><item xml:id="itemB10p0434a0738"><p xml:id="pB10p0434a0738" style="margin-left:2em" cb:place="inline">無上（BLA-MED）</p></item></list></item></list></item></list>
+<lb ed="B" n="0434a04"/><list rend="no-marker">
+  <item xml:id="itemB10p0434a0401"><p xml:id="pB10p0434a0401" style="margin-left:2em">大圓滿</p>
+<lb ed="B" n="0434a05"/><list rend="no-marker">
+    <item xml:id="itemB10p0434a0501"><p xml:id="pB10p0434a0501" style="margin-left:2em">心部（SEMS-SDE）</p></item>
+<lb ed="B" n="0434a06"/>
+    <item xml:id="itemB10p0434a0601"><p xml:id="pB10p0434a0601" style="margin-left:2em">界部（<note 
+n="0434a0601" resp="CBETA" type="add" note_key="B10.0434a06.03">KLOṄ【CB】，KLON̄【補編】</note><app n="0434a0601">
+      <lem wit="【CB】" resp="CBETA.liyi">KLOṄ<note type="cf1">B10n0064_p0468a10</note></lem>
+      <rdg wit="【補編】">KLON̄</rdg>
+    </app>-SDE）</p></item>
+<lb ed="B" n="0434a07"/>
+    <item xml:id="itemB10p0434a0701"><p xml:id="pB10p0434a0701" style="margin-left:2em">要門部（MAN-<note 
+n="0434a0701" resp="CBETA" type="add" note_key="B10.0434a07.07">ṄAGGI【CB】，N̄AGGI【補編】</note><app n="0434a0701">
+      <lem wit="【CB】" resp="CBETA.liyi">ṄAGGI<note type="cf1">B10n0064_p0438a04</note><note type="cf2">B10n0064_p0454a04</note></lem>
+      <rdg wit="【補編】">N̄AGGI</rdg>
+    </app>-SDE）</p><list rend="no-marker">
+      <item xml:id="itemB10p0434a0718"><p xml:id="pB10p0434a0718" style="margin-left:2em" cb:place="inline">外（PHYI）</p></item>
+      <item xml:id="itemB10p0434a0723"><p xml:id="pB10p0434a0723" style="margin-left:2em" cb:place="inline">內（<note 
+n="0434a0702" resp="CBETA" type="add" note_key="B10.0434a07.22">NAṄ【CB】，MAN̄【補編】</note><app n="0434a0702">
+        <lem wit="【CB】" resp="CBETA.liyi">NAṄ<note type="cf1">B10n0064_p0430a08</note></lem>
+        <rdg wit="【補編】">MAN̄</rdg>
+      </app>）</p></item>
+      <item xml:id="itemB10p0434a0728"><p xml:id="pB10p0434a0728" style="margin-left:2em" cb:place="inline">秘密（<note 
+n="0434a0703" resp="CBETA" type="add" note_key="B10.0434a07.29">GSAṄ【CB】，GSAN̄【補編】</note><app n="0434a0703">
+        <lem wit="【CB】" resp="CBETA.liyi">GSAṄ<note type="cf1">B10n0064_p0438a05-06</note></lem>
+        <rdg wit="【補編】">GSAN̄</rdg>
+      </app>-BA）</p></item>
+      <item xml:id="itemB10p0434a0738"><p xml:id="pB10p0434a0738" style="margin-left:2em" cb:place="inline">無上（BLA-MED）</p></item>
+    </list></item>
+  </list></item>
+</list>
 <lb ed="B" n="0434a08"/><p xml:id="pB10p0434a0801" style="margin-left:0em;text-indent:2em">這大圓滿內三部的意義如下</p>
 <lb ed="B" n="0434a09"/><p xml:id="pB10p0434a0901" style="margin-left:0em;text-indent:2em">1.心部認為所現皆心，都是在心性自然智中起現，所
 <lb ed="B" n="0434a10"/>以除了自然智，就沒有其餘的可得了，這一部的引
@@ -265,7 +427,11 @@
 <lb ed="B" n="0436a05"/>起生死湼槃都無分別的內證智性法性之境，所以能
 <lb ed="B" n="0436a06"/>成熟為自證智連繫身（RAṄ-RIG-LUG-GU-
 <lb ed="B" n="0436a07"/>RGYUD-KYI-SKU）而得解脫，這一部法以超
-<lb ed="B" n="0436a08"/>越道（THOD-RGAL）之光明（<note n="0436a0801" resp="CBETA" type="add" note_key="B10.0436a08.14">SNAṄ【CB】，SNAN【補編】</note><app n="0436a0801"><lem wit="【CB】" resp="CBETA.liyi">SNAṄ<note type="cf1">B10n0064_p0454a09</note></lem><rdg wit="【補編】">SNAN</rdg></app>-BA）為
+<lb ed="B" n="0436a08"/>越道（THOD-RGAL）之光明（<note 
+n="0436a0801" resp="CBETA" type="add" note_key="B10.0436a08.14">SNAṄ【CB】，SNAN【補編】</note><app n="0436a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">SNAṄ<note type="cf1">B10n0064_p0454a09</note></lem>
+  <rdg wit="【補編】">SNAN</rdg>
+</app>-BA）為
 <lb ed="B" n="0436a09"/>主，雖然和新派的六加行（SBYOR-DRUG）相似，
 <lb ed="B" n="0436a10"/>本質上還是很不同的，六加行用收束五種息風趣
 <pb ed="B" xml:id="B10.0064.0437a" n="0437a"/>
@@ -287,22 +453,50 @@
 <lb ed="B" n="0438a05"/>要門部中又分外（PHYI）內（NAṄ）秘密（GSA
 <lb ed="B" n="0438a06"/>Ṅ-BA）無上（BLA-MED）四部，這要門部中的無
 <lb ed="B" n="0438a07"/>上部，又稱為自性大圓滿心髓金剛藏乘（RAṄ-BSH
-<lb ed="B" n="0438a08"/>IN-RDSOGS-PA-CHEN-PO-<note n="0438a0801" resp="CBETA" type="add" note_key="B10.0438a08.17">SN̄IṄ【CB】，SN̄EN̄【補編】（CBETA 按：「SN̄EN̄」有誤，修訂作「SN̄IṄ」（心）。）</note><app n="0438a0801"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄EN̄</rdg></app>-THIG-
-<lb ed="B" n="0438a09"/>RDORZE-<note n="0438a0901" resp="CBETA" type="add" note_key="B10.0438a09.07">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0438a0901"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN̄</rdg></app>-POHI-THEG-PA）簡稱大圓
-<lb ed="B" n="0438a10"/>滿的寧提（<note n="0438a1001" resp="CBETA" type="add" note_key="B10.0438a10.05">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（心）。）</note><app n="0438a1001"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN̄</rdg></app>-THIG 心髓）這寧提的傳承主要
+<lb ed="B" n="0438a08"/>IN-RDSOGS-PA-CHEN-PO-<note 
+n="0438a0801" resp="CBETA" type="add" note_key="B10.0438a08.17">SN̄IṄ【CB】，SN̄EN̄【補編】（CBETA 按：「SN̄EN̄」有誤，修訂作「SN̄IṄ」（心）。）</note><app n="0438a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄EN̄</rdg>
+</app>-THIG-
+<lb ed="B" n="0438a09"/>RDORZE-<note 
+n="0438a0901" resp="CBETA" type="add" note_key="B10.0438a09.07">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0438a0901">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN̄</rdg>
+</app>-POHI-THEG-PA）簡稱大圓
+<lb ed="B" n="0438a10"/>滿的寧提（<note 
+n="0438a1001" resp="CBETA" type="add" note_key="B10.0438a10.05">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（心）。）</note><app n="0438a1001">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN̄</rdg>
+</app>-THIG 心髓）這寧提的傳承主要
 <pb ed="B" xml:id="B10.0064.0439a" n="0439a"/>
-<lb ed="B" n="0439a01"/>的有兩派，一派是由吉祥師子（<note n="0439a0101" resp="CBETA" type="add" note_key="B10.0439a01.13">SRISINHA【CB】，SRISINIHA【補編】（CBETA 按：「SINIHA」有誤，修訂作「SINHA」（師子）。）</note><app n="0439a0101"><lem wit="【CB】" resp="CBETA.liyi">SRISINHA</lem><rdg wit="【補編】">SRISINIHA</rdg></app>）傳蓮
+<lb ed="B" n="0439a01"/>的有兩派，一派是由吉祥師子（<note 
+n="0439a0101" resp="CBETA" type="add" note_key="B10.0439a01.13">SRISINHA【CB】，SRISINIHA【補編】（CBETA 按：「SINIHA」有誤，修訂作「SINHA」（師子）。）</note><app n="0439a0101">
+  <lem wit="【CB】" resp="CBETA.liyi">SRISINHA</lem>
+  <rdg wit="【補編】">SRISINIHA</rdg>
+</app>）傳蓮
 <lb ed="B" n="0439a02"/>華生，空行智慧海王（YE-ṠES-MTSHO-RGYAL）
 <lb ed="B" n="0439a03"/>而傳下來的，叫做空行寧提（MKHAH-HGRO-
-<lb ed="B" n="0439a04"/><note n="0439a0401" resp="CBETA" type="add" note_key="B10.0439a04.01">SN̄IṄ【CB】，SN̄ĖN̄【補編】（CBETA  按：「SN̄ĖN̄」有誤，修訂作「SN̄IṄ」（音譯；寧）。）</note><app n="0439a0401"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄ĖN̄</rdg></app>-THIG）一派是由吉祥師子經智經（YE-SE
+<lb ed="B" n="0439a04"/><note 
+n="0439a0401" resp="CBETA" type="add" note_key="B10.0439a04.01">SN̄IṄ【CB】，SN̄ĖN̄【補編】（CBETA  按：「SN̄ĖN̄」有誤，修訂作「SN̄IṄ」（音譯；寧）。）</note><app n="0439a0401">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄ĖN̄</rdg>
+</app>-THIG）一派是由吉祥師子經智經（YE-SE
 <lb ed="B" n="0439a05"/>S-MDO）無垢友（VIMALA-MITRA）傳下來的叫
-<lb ed="B" n="0439a06"/>做上師寧提（BLA-MA-<note n="0439a0601" resp="CBETA" type="add" note_key="B10.0439a06.11">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（音譯：寧）。）</note><app n="0439a0601"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN̄</rdg></app>-THIG）二派的理
+<lb ed="B" n="0439a06"/>做上師寧提（BLA-MA-<note 
+n="0439a0601" resp="CBETA" type="add" note_key="B10.0439a06.11">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（音譯：寧）。）</note><app n="0439a0601">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN̄</rdg>
+</app>-THIG）二派的理
 <lb ed="B" n="0439a07"/>論大致相同，祇不過修法方面少有區別。</p>
 <lb ed="B" n="0439a08"/><p xml:id="pB10p0439a0801" style="margin-left:0em;text-indent:2em">要門部所依的本續，傳說甚多，它的內容有二萬另
 <lb ed="B" n="0439a09"/>十二部別異（SO-SO-BA）三萬五千品，六百四十
-<lb ed="B" n="0439a10"/>萬頌（SLOKA）五千樞要、（GNAD）八大護（<note n="0439a1001" resp="CBETA" type="add" note_key="B10.0439a10.19">HPHYOṄ【CB】，HPHYON̄【補編】（CBETA  按：「HPHYON̄」有誤，修訂作「HPHYOṄ」（護）。）</note><app n="0439a1001"><lem wit="【CB】" resp="CBETA.liyi">HPH
+<lb ed="B" n="0439a10"/>萬頌（SLOKA）五千樞要、（GNAD）八大護（<note 
+n="0439a1001" resp="CBETA" type="add" note_key="B10.0439a10.19">HPHYOṄ【CB】，HPHYON̄【補編】（CBETA  按：「HPHYON̄」有誤，修訂作「HPHYOṄ」（護）。）</note><app n="0439a1001">
+  <lem wit="【CB】" resp="CBETA.liyi">HPH
 <pb ed="B" xml:id="B10.0064.0440a" n="0440a"/>
-<lb ed="B" n="0440a01"/>YOṄ</lem><rdg wit="【補編】">HPH<lb ed="B" n="0440a01"/>YON̄</rdg></app>-BA）一百八十訂定（GZER-BU）九十萬遮
+<lb ed="B" n="0440a01"/>YOṄ</lem>
+  <rdg wit="【補編】">HPH<lb ed="B" n="0440a01"/>YON̄</rdg>
+</app>-BA）一百八十訂定（GZER-BU）九十萬遮
 <lb ed="B" n="0440a02"/>遣（GAGS）七萬判分（SAN-HBYED）十五萬斷捨
 <lb ed="B" n="0440a03"/>（LA-ZLA-BA）及聖語（BKAH-STSAL-PA）
 <lb ed="B" n="0440a04"/>等，但是西藏譯出的只有少分，而且根據一般的見解
@@ -311,18 +505,38 @@
 <lb ed="B" n="0440a07"/><p xml:id="pB10p0440a0701" style="margin-left:0em;text-indent:2em">我們這裏只把要門部的無上部的見修行果簡單說明一
 <lb ed="B" n="0440a08"/>下，這一部名為自性大圓滿心髓金剛藏乘，又名證智自顯
 <lb ed="B" n="0440a09"/>妙道金剛藏大秘密乘（RIG-PA-RAṄ-SNAṄ-GI-
-<lb ed="B" n="0440a10"/>LAM-BZAṄS-RDO-RZE-<note n="0440a1001" resp="CBETA" type="add" note_key="B10.0440a10.15">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0440a1001"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN̄</rdg></app>-POKI-<note n="0440a1002" resp="CBETA" type="add" note_key="B10.0440a10.23">GSAṄ【CB】，GSAN̄【補編】</note><app n="0440a1002"><lem wit="【CB】" resp="CBETA.liyi">GSAṄ<note type="cf1">B10n0064_p0438a06</note></lem><rdg wit="【補編】">GSAN̄</rdg></app>
+<lb ed="B" n="0440a10"/>LAM-BZAṄS-RDO-RZE-<note 
+n="0440a1001" resp="CBETA" type="add" note_key="B10.0440a10.15">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0440a1001">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN̄</rdg>
+</app>-POKI-<note 
+n="0440a1002" resp="CBETA" type="add" note_key="B10.0440a10.23">GSAṄ【CB】，GSAN̄【補編】</note><app n="0440a1002">
+  <lem wit="【CB】" resp="CBETA.liyi">GSAṄ<note type="cf1">B10n0064_p0438a06</note></lem>
+  <rdg wit="【補編】">GSAN̄</rdg>
+</app>
 <pb ed="B" xml:id="B10.0064.0441a" n="0441a"/>
 <lb ed="B" n="0441a01"/>-BA-CHEN-PO）又名光明金剛藏乘（HOD-GS
-<lb ed="B" n="0441a02"/>AL-RDO-RZE-<note n="0441a0201" resp="CBETA" type="add" note_key="B10.0441a02.09">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0441a0201"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN̄</rdg></app>-POHI-THEG-PO）簡稱
-<lb ed="B" n="0441a03"/>寧提（<note n="0441a0301" resp="CBETA" type="add" note_key="B10.0441a03.03">SN̄IṄ【CB】，SN̄IN【補編】（CBETA 按：「SN̄IN」有誤，修訂作「SN̄IṄ」（心）。）</note><app n="0441a0301"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN</rdg></app>-THIG心髓）大圓滿法的全部勝於下
+<lb ed="B" n="0441a02"/>AL-RDO-RZE-<note 
+n="0441a0201" resp="CBETA" type="add" note_key="B10.0441a02.09">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0441a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN̄</rdg>
+</app>-POHI-THEG-PO）簡稱
+<lb ed="B" n="0441a03"/>寧提（<note 
+n="0441a0301" resp="CBETA" type="add" note_key="B10.0441a03.03">SN̄IṄ【CB】，SN̄IN【補編】（CBETA 按：「SN̄IN」有誤，修訂作「SN̄IṄ」（心）。）</note><app n="0441a0301">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN</rdg>
+</app>-THIG心髓）大圓滿法的全部勝於下
 <lb ed="B" n="0441a04"/>八乘，而這一部法又是大圓滿中的最深之法，為大圓
 <lb ed="B" n="0441a05"/>滿的極頂，所以比下九乘，大圓滿中其餘法門包括在
 <lb ed="B" n="0441a06"/>內都更殊勝，殊勝的道理有以下各點（見無垢光勝乘
 <lb ed="B" n="0441a07"/>藏論宗義差別段，及宗派藏第八品）：</p>
 <lb ed="B" n="0441a08"/><p xml:id="pB10p0441a0801" style="margin-left:0em;text-indent:2em">1.餘的法門都偏重般若，所以可以速得開悟，但
 <lb ed="B" n="0441a09"/>欠缺超脫力（KROL）所以不能即身解脫，本部法有
-<lb ed="B" n="0441a10"/>見根法要（MTHOṄ-BA-<note n="0441a1001" resp="CBETA" type="add" note_key="B10.0441a10.12">DBAṄ【CB】，DBAN【補編】（CBETA 按：「DBAN」有誤，修訂作「DBAṄ」（根）。）</note><app n="0441a1001"><lem wit="【CB】" resp="CBETA.liyi">DBAṄ</lem><rdg wit="【補編】">DBAN</rdg></app>-POHI-GNAD 指
+<lb ed="B" n="0441a10"/>見根法要（MTHOṄ-BA-<note 
+n="0441a1001" resp="CBETA" type="add" note_key="B10.0441a10.12">DBAṄ【CB】，DBAN【補編】（CBETA 按：「DBAN」有誤，修訂作「DBAṄ」（根）。）</note><app n="0441a1001">
+  <lem wit="【CB】" resp="CBETA.liyi">DBAṄ</lem>
+  <rdg wit="【補編】">DBAN</rdg>
+</app>-POHI-GNAD 指
 <pb ed="B" xml:id="B10.0064.0442a" n="0442a"/>
 <lb ed="B" n="0442a01"/>淨眼根）只論精勤的大小，不管根機的利鈍，都可成
 <lb ed="B" n="0442a02"/>就。</p>
@@ -357,7 +571,11 @@
 <lb ed="B" n="0444a09"/>種動靜相為究竟，但事實上沒有真正看見，仍不過是
 <lb ed="B" n="0444a10"/>意識審察之境，本部法能以真實法要（GNAD-ṄES
 <pb ed="B" xml:id="B10.0064.0445a" n="0445a"/>
-<lb ed="B" n="0445a01"/>-PA）現前明見（MṄON-DU-<note n="0445a0101" resp="CBETA" type="add" note_key="B10.0445a01.13">MTHOṄ【CB】，MTHON【補編】（CBETA 按：「MTHON」有誤，修訂作「MTHOṄ」（見）。）</note><app n="0445a0101"><lem wit="【CB】" resp="CBETA.liyi">MTHOṄ</lem><rdg wit="【補編】">MTHON</rdg></app>-PA）當然
+<lb ed="B" n="0445a01"/>-PA）現前明見（MṄON-DU-<note 
+n="0445a0101" resp="CBETA" type="add" note_key="B10.0445a01.13">MTHOṄ【CB】，MTHON【補編】（CBETA 按：「MTHON」有誤，修訂作「MTHOṄ」（見）。）</note><app n="0445a0101">
+  <lem wit="【CB】" resp="CBETA.liyi">MTHOṄ</lem>
+  <rdg wit="【補編】">MTHON</rdg>
+</app>-PA）當然
 <lb ed="B" n="0445a02"/>更殊勝了，又要門中的外內密三部，道果方面仍然要
 <lb ed="B" n="0445a03"/>以中有位的境界為憑藉，本部法則現生即可解脫為光
 <lb ed="B" n="0445a04"/>明身，為了上面這些原因，光明金剛藏乘所以成為一
@@ -413,24 +631,55 @@
 <lb ed="B" n="0449a10"/>氣所障，因此它的體性極難覩見，但並非沒有，它是
 <pb ed="B" xml:id="B10.0064.0450a" n="0450a"/>
 <lb ed="B" n="0450a01"/>周徧一切有情，以各各有情之身為依而存在的，所以
-<lb ed="B" n="0450a02"/>說「本初界，自然智，如來藏」（GDOD-<note n="0450a0201" resp="CBETA" type="add" note_key="B10.0450a02.15">MAHI【CB】，MAHV【補編】（CBETA 按：「MAHV」有誤，「HI」是屬格助詞，修訂作「MAHI」。）</note><app n="0450a0201"><lem wit="【CB】" resp="CBETA.liyi">MAHI</lem><rdg wit="【補編】">MAHV</rdg></app>-
-<lb ed="B" n="0450a03"/><note n="0450a0301" resp="CBETA" type="add" note_key="B10.0450a03.01">DBYIṄS【CB】，DBYINS【補編】（CBETA 按：「DBYINS」有誤，修訂作「DBYIṄS」（界）。）</note><app n="0450a0301"><lem wit="【CB】" resp="CBETA.liyi">DBYIṄS</lem><rdg wit="【補編】">DBYINS</rdg></app>-RAṄ-BYUṄ-GI-YE-CES-<note n="0450a0302" resp="CBETA.liyi" type="add" note_key="B10.0450a03.21">CBETA 按：BDER-GCHGS，若 wylie 轉寫則作 bde gshegs（善逝）。</note>BDER-
-<lb ed="B" n="0450a04"/>GCHGS-<note n="0450a0401" resp="CBETA" type="add" note_key="B10.0450a04.06">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」-PO（藏）。）</note><app n="0450a0401"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN̄</rdg></app>-PO-RIG-PA）在現前的肉身中
+<lb ed="B" n="0450a02"/>說「本初界，自然智，如來藏」（GDOD-<note 
+n="0450a0201" resp="CBETA" type="add" note_key="B10.0450a02.15">MAHI【CB】，MAHV【補編】（CBETA 按：「MAHV」有誤，「HI」是屬格助詞，修訂作「MAHI」。）</note><app n="0450a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">MAHI</lem>
+  <rdg wit="【補編】">MAHV</rdg>
+</app>-
+<lb ed="B" n="0450a03"/><note 
+n="0450a0301" resp="CBETA" type="add" note_key="B10.0450a03.01">DBYIṄS【CB】，DBYINS【補編】（CBETA 按：「DBYINS」有誤，修訂作「DBYIṄS」（界）。）</note><app n="0450a0301">
+  <lem wit="【CB】" resp="CBETA.liyi">DBYIṄS</lem>
+  <rdg wit="【補編】">DBYINS</rdg>
+</app>-RAṄ-BYUṄ-GI-YE-CES-<note 
+n="0450a0302" resp="CBETA.liyi" type="add" note_key="B10.0450a03.21">CBETA 按：BDER-GCHGS，若 wylie 轉寫則作 bde gshegs（善逝）。</note>BDER-
+<lb ed="B" n="0450a04"/>GCHGS-<note 
+n="0450a0401" resp="CBETA" type="add" note_key="B10.0450a04.06">SN̄IṄ【CB】，SN̄IN̄【補編】（CBETA 按：「SN̄IN̄」有誤，修訂作「SN̄IṄ」-PO（藏）。）</note><app n="0450a0401">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN̄</rdg>
+</app>-PO-RIG-PA）在現前的肉身中
 <lb ed="B" n="0450a05"/>周徧而住。</p>
 <lb ed="B" n="0450a06"/><p xml:id="pB10p0450a0601" style="margin-left:2em">（以上見無垢光宗派藏論第八品，又見勝乘藏論及
 <lb ed="B" n="0450a07"/>句義藏論）</p>
 <lb ed="B" n="0450a08"/><p xml:id="pB10p0450a0801" style="margin-left:2em">其次關於修持的方法，也和一般真言道相同，分為
 <lb ed="B" n="0450a09"/>能成熟的灌頂和能解脫的修持，兩部分如下表：</p>
-<lb ed="B" n="0450a10"/><list rend="no-marker"><item xml:id="itemB10p0450a1001"><p xml:id="pB10p0450a1001" style="margin-left:2em">修持</p>
+<lb ed="B" n="0450a10"/><list rend="no-marker">
+  <item xml:id="itemB10p0450a1001"><p xml:id="pB10p0450a1001" style="margin-left:2em">修持</p>
 <pb ed="B" xml:id="B10.0064.0451a" n="0451a"/>
-<lb ed="B" n="0451a01"/><list rend="no-marker"><item xml:id="itemB10p0451a0101"><p xml:id="pB10p0451a0101" style="margin-left:2em">能成熟道</p>
-<lb ed="B" n="0451a02"/><list rend="no-marker"><item xml:id="itemB10p0451a0201"><p xml:id="pB10p0451a0201" style="margin-left:2em">四灌頂</p>
-<lb ed="B" n="0451a03"/><list rend="no-marker"><item xml:id="itemB10p0451a0301"><p xml:id="pB10p0451a0301" style="margin-left:2em">外有戲論寶瓶灌頂——除身障</p></item>
-<lb ed="B" n="0451a04"/><item xml:id="itemB10p0451a0401"><p xml:id="pB10p0451a0401" style="margin-left:2em">內無戲論秘密灌頂——除語障</p></item>
-<lb ed="B" n="0451a05"/><item xml:id="itemB10p0451a0501"><p xml:id="pB10p0451a0501" style="margin-left:2em">極戲論智慧灌頂——除意障</p></item>
-<lb ed="B" n="0451a06"/><item xml:id="itemB10p0451a0601"><p xml:id="pB10p0451a0601" style="margin-left:2em">最極無戲論辭灌頂——除所知障</p></item></list></item></list></item>
-<lb ed="B" n="0451a07"/><item xml:id="itemB10p0451a0701"><p xml:id="pB10p0451a0701" style="margin-left:2em">能解脫道</p>
-<lb ed="B" n="0451a08"/><list rend="no-marker"><item xml:id="itemB10p0451a0801"><p xml:id="pB10p0451a0801" style="margin-left:2em">前行</p><list rend="no-marker"><item xml:id="itemB10p0451a0803"><p xml:id="pB10p0451a0803" style="margin-left:2em" cb:place="inline">共同前行</p></item><item xml:id="itemB10p0451a0807"><p xml:id="pB10p0451a0807" style="margin-left:2em" cb:place="inline">不共前行</p></item></list></item><item xml:id="itemB10p0451a0811"><p xml:id="pB10p0451a0811" style="margin-left:2em" cb:place="inline">不共正行</p></item></list></item></list></item></list>
+<lb ed="B" n="0451a01"/><list rend="no-marker">
+    <item xml:id="itemB10p0451a0101"><p xml:id="pB10p0451a0101" style="margin-left:2em">能成熟道</p>
+<lb ed="B" n="0451a02"/><list rend="no-marker">
+      <item xml:id="itemB10p0451a0201"><p xml:id="pB10p0451a0201" style="margin-left:2em">四灌頂</p>
+<lb ed="B" n="0451a03"/><list rend="no-marker">
+        <item xml:id="itemB10p0451a0301"><p xml:id="pB10p0451a0301" style="margin-left:2em">外有戲論寶瓶灌頂——除身障</p></item>
+<lb ed="B" n="0451a04"/>
+        <item xml:id="itemB10p0451a0401"><p xml:id="pB10p0451a0401" style="margin-left:2em">內無戲論秘密灌頂——除語障</p></item>
+<lb ed="B" n="0451a05"/>
+        <item xml:id="itemB10p0451a0501"><p xml:id="pB10p0451a0501" style="margin-left:2em">極戲論智慧灌頂——除意障</p></item>
+<lb ed="B" n="0451a06"/>
+        <item xml:id="itemB10p0451a0601"><p xml:id="pB10p0451a0601" style="margin-left:2em">最極無戲論辭灌頂——除所知障</p></item>
+      </list></item>
+    </list></item>
+<lb ed="B" n="0451a07"/>
+    <item xml:id="itemB10p0451a0701"><p xml:id="pB10p0451a0701" style="margin-left:2em">能解脫道</p>
+<lb ed="B" n="0451a08"/><list rend="no-marker">
+      <item xml:id="itemB10p0451a0801"><p xml:id="pB10p0451a0801" style="margin-left:2em">前行</p><list rend="no-marker">
+        <item xml:id="itemB10p0451a0803"><p xml:id="pB10p0451a0803" style="margin-left:2em" cb:place="inline">共同前行</p></item>
+        <item xml:id="itemB10p0451a0807"><p xml:id="pB10p0451a0807" style="margin-left:2em" cb:place="inline">不共前行</p></item>
+      </list></item>
+      <item xml:id="itemB10p0451a0811"><p xml:id="pB10p0451a0811" style="margin-left:2em" cb:place="inline">不共正行</p></item>
+    </list></item>
+  </list></item>
+</list>
 <lb ed="B" n="0451a09"/><p xml:id="pB10p0451a0901" style="margin-left:0em;text-indent:2em">這四種灌頂都需要圓受，受寶瓶灌頂可於生起次第修
 <lb ed="B" n="0451a10"/>法得自在，受秘密灌頂，可於修圓滿次第「拙火」
 <pb ed="B" xml:id="B10.0064.0452a" n="0452a"/>
@@ -473,7 +722,11 @@
 <lb ed="B" n="0455a04"/><p xml:id="pB10p0455a0401" style="margin-left:0em;text-indent:2em">3.證智完量光明（RIG-PA-TSHAD-PHEBS-
 <lb ed="B" n="0455a05"/>SNAṄ-BA）。</p>
 <lb ed="B" n="0455a06"/><p xml:id="pB10p0455a0601" style="margin-left:0em;text-indent:2em">4.法性窮盡光明（CHOS-N̄ID-ZAD-PAHI
-<lb ed="B" n="0455a07"/>-<note n="0455a0701" resp="CBETA" type="add" note_key="B10.0455a07.01">SNAṄ【CB】，SNAN【補編】</note><app n="0455a0701"><lem wit="【CB】" resp="CBETA.liyi">SNAṄ<note type="cf1">B10n0064_p0454a09</note></lem><rdg wit="【補編】">SNAN</rdg></app>-BA）。</p>
+<lb ed="B" n="0455a07"/>-<note 
+n="0455a0701" resp="CBETA" type="add" note_key="B10.0455a07.01">SNAṄ【CB】，SNAN【補編】</note><app n="0455a0701">
+  <lem wit="【CB】" resp="CBETA.liyi">SNAṄ<note type="cf1">B10n0064_p0454a09</note></lem>
+  <rdg wit="【補編】">SNAN</rdg>
+</app>-BA）。</p>
 <lb ed="B" n="0455a08"/><p xml:id="pB10p0455a0801" style="margin-left:0em;text-indent:2em">第四步光明又有漸盡（RIM-GYIS-ZAD-PA）和
 <lb ed="B" n="0455a09"/>頓盡（GCIG-CHAR-ZAD-PA）的分別。</p>
 <lb ed="B" n="0455a10"/><p xml:id="pB10p0455a1001" style="margin-left:0em;text-indent:2em">在這現見光明的剎那證智中，阿賴耶俱三界心心所
@@ -500,7 +753,11 @@
 <lb ed="B" n="0457a09"/>光明時，在外面顯現的光中就現出一千二百個佛土，
 <lb ed="B" n="0457a10"/>如果把自己的光輝（HOD-ZER）分照那里，再收
 <pb ed="B" xml:id="B10.0064.0458a" n="0458a"/>
-<lb ed="B" n="0458a01"/>攝到本來光明（<note n="0458a0101" resp="CBETA" type="add" note_key="B10.0458a01.07">RAṄ-SNAṄ【CB】，RAN-SNON【補編】</note><app n="0458a0101"><lem wit="【CB】" resp="CBETA.liyi">RAṄ-SNAṄ<note type="cf1">B10n0064_p0440a09</note></lem><rdg wit="【補編】">RAN-SNON</rdg></app>）中，那末就到那一剎土去
+<lb ed="B" n="0458a01"/>攝到本來光明（<note 
+n="0458a0101" resp="CBETA" type="add" note_key="B10.0458a01.07">RAṄ-SNAṄ【CB】，RAN-SNON【補編】</note><app n="0458a0101">
+  <lem wit="【CB】" resp="CBETA.liyi">RAṄ-SNAṄ<note type="cf1">B10n0064_p0440a09</note></lem>
+  <rdg wit="【補編】">RAN-SNON</rdg>
+</app>）中，那末就到那一剎土去
 <lb ed="B" n="0458a02"/>了，身頸轉動一下，就可震動照耀百佛世界，內心又能
 <lb ed="B" n="0458a03"/>入出百種法性無分別三摩地，所以此已遠超下乘之地了。</p>
 <lb ed="B" n="0458a04"/><p xml:id="pB10p0458a0401" style="margin-left:0em;text-indent:2em">依這個法要以見根（淨眼根）現量瞻覩的一剎那，
@@ -512,7 +769,11 @@
 <lb ed="B" n="0458a10"/>次第」現證遠離邊際的「般若」這樣「方便」「般若」
 <pb ed="B" xml:id="B10.0064.0459a" n="0459a"/>
 <lb ed="B" n="0459a01"/>「生起」「圓滿」「法身」「色身」「顯相」「空性」
-<lb ed="B" n="0459a02"/>（SNAṄ-BA-DAṄ-<note n="0459a0201" resp="CBETA" type="add" note_key="B10.0459a02.10">STOṄ【CB】，STON【補編】</note><app n="0459a0201"><lem wit="【CB】" resp="CBETA.liyi">STOṄ<note type="cf1">B10n0064_p0449a05</note></lem><rdg wit="【補編】">STON</rdg></app>-PA）「福德」「智
+<lb ed="B" n="0459a02"/>（SNAṄ-BA-DAṄ-<note 
+n="0459a0201" resp="CBETA" type="add" note_key="B10.0459a02.10">STOṄ【CB】，STON【補編】</note><app n="0459a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">STOṄ<note type="cf1">B10n0064_p0449a05</note></lem>
+  <rdg wit="【補編】">STON</rdg>
+</app>-PA）「福德」「智
 <lb ed="B" n="0459a03"/>慧」等資糧都在修「決斷」「超越」時剎那圓滿，這
 <lb ed="B" n="0459a04"/>時五身五智也都剎那圓滿，因為心一境性遠離戲論就
 <lb ed="B" n="0459a05"/>是法身，自顯無執就是報身，現種種境就是化身，遣
@@ -567,23 +828,55 @@
 <lb ed="B" n="0463a10"/><p xml:id="pB10p0463a1001" style="margin-left:0em;text-indent:2em">關於阿底瑜伽要門部的傳承，寧瑪派中傳說分為天
 <pb ed="B" xml:id="B10.0064.0464a" n="0464a"/>
 <lb ed="B" n="0464a01"/>上和人間兩個階段，天上為提婆賢護（DEVA-BZA
-<lb ed="B" n="0464a02"/>Ṅ-SKYOṄ）之子慶喜藏（KUN-DGAH-<note n="0464a0201" resp="CBETA" type="add" note_key="B10.0464a02.19">SN̄IṄ【CB】，SN̄IN【補編】（CBETA 按：「SN̄IN」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0464a0201"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN</rdg></app>-
-<lb ed="B" n="0464a03"/>PO）名為具勝心天子（LHAHI-BU-SEMS-<note n="0464a0301" resp="CBETA" type="add" note_key="B10.0464a03.21">LHAG【CB】，LKAG【補編】（CBETA 按：「LKAG」有誤，修訂作「LHAG」（勝）。）</note><app n="0464a0301"><lem wit="【CB】" resp="CBETA.liyi">LHA
-<lb ed="B" n="0464a04"/>G</lem><rdg wit="【補編】">LKA<lb ed="B" n="0464a04"/>G</rdg></app>-CAN）受金剛手的傳受，人間的傳承，是由具勝
+<lb ed="B" n="0464a02"/>Ṅ-SKYOṄ）之子慶喜藏（KUN-DGAH-<note 
+n="0464a0201" resp="CBETA" type="add" note_key="B10.0464a02.19">SN̄IṄ【CB】，SN̄IN【補編】（CBETA 按：「SN̄IN」有誤，修訂作「SN̄IṄ」（藏）。）</note><app n="0464a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN</rdg>
+</app>-
+<lb ed="B" n="0464a03"/>PO）名為具勝心天子（LHAHI-BU-SEMS-<note 
+n="0464a0301" resp="CBETA" type="add" note_key="B10.0464a03.21">LHAG【CB】，LKAG【補編】（CBETA 按：「LKAG」有誤，修訂作「LHAG」（勝）。）</note><app n="0464a0301">
+  <lem wit="【CB】" resp="CBETA.liyi">LHA
+<lb ed="B" n="0464a04"/>G</lem>
+  <rdg wit="【補編】">LKA<lb ed="B" n="0464a04"/>G</rdg>
+</app>-CAN）受金剛手的傳受，人間的傳承，是由具勝
 <lb ed="B" n="0464a05"/>心降生烏萇國（UDDI-YANA-U-RGYAN）為
 <lb ed="B" n="0464a06"/>烏波囉遮（UPARĀCA）王女華明（ME-TOG-
 <lb ed="B" n="0464a07"/>GSAL）之子，名為極喜金剛（DGAH-BAHI-
-<lb ed="B" n="0464a08"/><note n="0464a0801" resp="CBETA" type="add" note_key="B10.0464a08.01">RAB【CB】，RSB【補編】</note><app n="0464a0801"><lem wit="【CB】" resp="CBETA.liyi">RAB<note type="cf1">B10n0064_p0475a08</note></lem><rdg wit="【補編】">RSB</rdg></app>-RDO-RZE <note n="0464a0802" resp="CBETA" type="add" note_key="B10.0464a08.10">或【CB】，〔－〕【補編】（CBETA 按：新增「或」，「極喜金剛」全稱作「DGAH-BAHI-RAB-RDO-RZE」，簡稱作「DGAH-RAB-RDO-RZE」。）</note><app n="0464a0802"><lem wit="【CB】" resp="CBETA.liyi">或</lem><rdg wit="【補編】"><space quantity="0"/></rdg></app> DGAH-RAB-RDO-RZ
+<lb ed="B" n="0464a08"/><note 
+n="0464a0801" resp="CBETA" type="add" note_key="B10.0464a08.01">RAB【CB】，RSB【補編】</note><app n="0464a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">RAB<note type="cf1">B10n0064_p0475a08</note></lem>
+  <rdg wit="【補編】">RSB</rdg>
+</app>-RDO-RZE <note 
+n="0464a0802" resp="CBETA" type="add" note_key="B10.0464a08.10">或【CB】，〔－〕【補編】（CBETA 按：新增「或」，「極喜金剛」全稱作「DGAH-BAHI-RAB-RDO-RZE」，簡稱作「DGAH-RAB-RDO-RZE」。）</note><app n="0464a0802">
+  <lem wit="【CB】" resp="CBETA.liyi">或</lem>
+  <rdg wit="【補編】"><space quantity="0"/></rdg>
+</app> DGAH-RAB-RDO-RZ
 <lb ed="B" n="0464a09"/>E）又名喜金剛（DGYES-PA-RDO-RZ
 <pb ed="B" xml:id="B10.0064.0465a" n="0465a"/>
 <lb ed="B" n="0465a01"/>E）又名笑金剛（BSHAD-PA-RDO-RZE）極喜金
 <lb ed="B" n="0465a02"/>剛執政時，金剛手親來灌頂傳法，後極喜金剛傳法于
 <lb ed="B" n="0465a03"/>阿闍黎妙吉祥友（HZAM-DPAL-BṠAS-GN̄EN）
-<lb ed="B" n="0465a04"/>妙吉祥友傳法于吉祥獅子（ṠRĒ-<note n="0465a0401" resp="CBETA" type="add" note_key="B10.0465a04.15">SINHA【CB】，SINIHA【補編】（CBETA 按：「SINIHA」有誤，修訂作「SINHA」（獅子）。）</note><app n="0465a0401"><lem wit="【CB】" resp="CBETA.liyi">SINHA</lem><rdg wit="【補編】">SINIHA</rdg></app>）吉祥獅
-<lb ed="B" n="0465a05"/>子是<g ref="#CB32816"/>地戍奢洲（ṠOṠAHI-<note n="0465a0501" resp="CBETA" type="add" note_key="B10.0465a05.14">GLIṄ【CB】，GLIN̄【補編】（CBETA 按：「GLIN̄」有誤，修訂作「GLIṄ」（洲）。）</note><app n="0465a0501"><lem wit="【CB】" resp="CBETA.liyi">GLIṄ</lem><rdg wit="【補編】">GLIN̄</rdg></app>）人，父名具善
+<lb ed="B" n="0465a04"/>妙吉祥友傳法于吉祥獅子（ṠRĒ-<note 
+n="0465a0401" resp="CBETA" type="add" note_key="B10.0465a04.15">SINHA【CB】，SINIHA【補編】（CBETA 按：「SINIHA」有誤，修訂作「SINHA」（獅子）。）</note><app n="0465a0401">
+  <lem wit="【CB】" resp="CBETA.liyi">SINHA</lem>
+  <rdg wit="【補編】">SINIHA</rdg>
+</app>）吉祥獅
+<lb ed="B" n="0465a05"/>子是<g ref="#CB32816"/>地戍奢洲（ṠOṠAHI-<note 
+n="0465a0501" resp="CBETA" type="add" note_key="B10.0465a05.14">GLIṄ【CB】，GLIN̄【補編】（CBETA 按：「GLIN̄」有誤，修訂作「GLIṄ」（洲）。）</note><app n="0465a0501">
+  <lem wit="【CB】" resp="CBETA.liyi">GLIṄ</lem>
+  <rdg wit="【補編】">GLIN̄</rdg>
+</app>）人，父名具善
 <lb ed="B" n="0465a06"/>（DGELDAN）母名光顯女（SNAṄ-GSAL-MA）
 <lb ed="B" n="0465a07"/>他在二十五歲時，遇妙吉祥友，圓滿承受阿底一切教
-<lb ed="B" n="0465a08"/>法，妙吉祥友傳烏萇第二佛（O-<note n="0465a0801" resp="CBETA" type="add" note_key="B10.0465a08.13">RGYAN【CB】，SGYAN【補編】</note><app n="0465a0801"><lem wit="【CB】" resp="CBETA.liyi">RGYAN<note type="cf1">B10n0064_p0471a05</note></lem><rdg wit="【補編】">SGYAN</rdg></app>-<note n="0465a0802" resp="CBETA" type="add" note_key="B10.0465a08.18">SAṄS【CB】，SANS【補編】</note><app n="0465a0802"><lem wit="【CB】" resp="CBETA.liyi">SAṄS<note type="cf1">B10n0064_p0445a10</note></lem><rdg wit="【補編】">SANS</rdg></app>-
+<lb ed="B" n="0465a08"/>法，妙吉祥友傳烏萇第二佛（O-<note 
+n="0465a0801" resp="CBETA" type="add" note_key="B10.0465a08.13">RGYAN【CB】，SGYAN【補編】</note><app n="0465a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">RGYAN<note type="cf1">B10n0064_p0471a05</note></lem>
+  <rdg wit="【補編】">SGYAN</rdg>
+</app>-<note 
+n="0465a0802" resp="CBETA" type="add" note_key="B10.0465a08.18">SAṄS【CB】，SANS【補編】</note><app n="0465a0802">
+  <lem wit="【CB】" resp="CBETA.liyi">SAṄS<note type="cf1">B10n0064_p0445a10</note></lem>
+  <rdg wit="【補編】">SANS</rdg>
+</app>-
 <lb ed="B" n="0465a09"/>RGYAS-GN̄IS-PA 指蓮華生）智者若那修多羅
 <lb ed="B" n="0465a10"/>（ZN̄ĀNA-SUTRA-YE-SES-MDO 即智經）大哲無
 <pb ed="B" xml:id="B10.0064.0466a" n="0466a"/>
@@ -592,22 +885,62 @@
 <lb ed="B" n="0466a03"/>子以下都是持明表示傳承（RIG-HDSIN-BRDAH
 <lb ed="B" n="0466a04"/>I-BRGYUD）蓮華生無垢友以下都是補特伽羅耳傳
 <lb ed="B" n="0466a05"/>（GAṄ-ZAG-SN̄AN-BRGYUD）這耳傳又分兩系，
-<lb ed="B" n="0466a06"/>一系是蓮華生傳空行智慧海王（MKHAH-<note n="0466a0601" resp="CBETA" type="add" note_key="B10.0466a06.19">HGRO【CB】，HGRD【補編】</note><app n="0466a0601"><lem wit="【CB】" resp="CBETA.liyi">HGRO<note type="cf1">B10n0064_p0467a02</note></lem><rdg wit="【補編】">HGRD</rdg></app>-
+<lb ed="B" n="0466a06"/>一系是蓮華生傳空行智慧海王（MKHAH-<note 
+n="0466a0601" resp="CBETA" type="add" note_key="B10.0466a06.19">HGRO【CB】，HGRD【補編】</note><app n="0466a0601">
+  <lem wit="【CB】" resp="CBETA.liyi">HGRO<note type="cf1">B10n0064_p0467a02</note></lem>
+  <rdg wit="【補編】">HGRD</rdg>
+</app>-
 <lb ed="B" n="0466a07"/>YE-ṠES-MTSHO-RGYAL）埋藏法寶以待有緣，
 <lb ed="B" n="0466a08"/>後由蓮華業緣力（PADMA-LAS-HBREL-RTSAL）
-<lb ed="B" n="0466a09"/>取藏傳遍智自然金剛（KUN-MKHYEN-RAṄ-<note n="0466a0901" resp="CBETA" type="add" note_key="B10.0466a09.22">BYUṄ【CB】，BYUN【補編】</note><app n="0466a0901"><lem wit="【CB】" resp="CBETA.liyi">BY
-<lb ed="B" n="0466a10"/>UṄ<note type="cf1">B10n0064_p0450a03</note></lem><rdg wit="【補編】">BY<lb ed="B" n="0466a10"/>UN</rdg></app>-RDO-RZE）大寶法王第三世，及雍敦金剛吉祥
+<lb ed="B" n="0466a09"/>取藏傳遍智自然金剛（KUN-MKHYEN-RAṄ-<note 
+n="0466a0901" resp="CBETA" type="add" note_key="B10.0466a09.22">BYUṄ【CB】，BYUN【補編】</note><app n="0466a0901">
+  <lem wit="【CB】" resp="CBETA.liyi">BY
+<lb ed="B" n="0466a10"/>UṄ<note type="cf1">B10n0064_p0450a03</note></lem>
+  <rdg wit="【補編】">BY<lb ed="B" n="0466a10"/>UN</rdg>
+</app>-RDO-RZE）大寶法王第三世，及雍敦金剛吉祥
 <pb ed="B" xml:id="B10.0064.0467a" n="0467a"/>
 <lb ed="B" n="0467a01"/>（GYUN-STON-RDO-RZE-DPAL）等為空行寧
-<lb ed="B" n="0467a02"/>提（MKHAH-HGRO-<note n="0467a0201" resp="CBETA" type="add" note_key="B10.0467a02.11">SN̄IṄ【CB】，SN̄IN【補編】（CBETA 按：「SN̄IN」有誤，修訂作「SN̄IṄ」。）</note><app n="0467a0201"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SN̄IN</rdg></app>-THIG）一派，另外
-<lb ed="B" n="0467a03"/>一系是由無垢友傳孃定賢（MYAṄ-<note n="0467a0301" resp="CBETA" type="add" note_key="B10.0467a03.16">TIṄ【CB】，TIN【補編】（CBETA 按：「TIN」有誤，修訂作「TIṄ」。）</note><app n="0467a0301"><lem wit="【CB】" resp="CBETA.liyi">TIṄ</lem><rdg wit="【補編】">TIN</rdg></app>-HDSIN-
-<lb ed="B" n="0467a04"/><note n="0467a0401" resp="CBETA" type="add" note_key="B10.0467a04.01">BZAṄ【CB】，BZAN【補編】</note><app n="0467a0401"><lem wit="【CB】" resp="CBETA.liyi">BZAṄ<note type="cf1">B10n0064_p0464a01-02</note></lem><rdg wit="【補編】">BZAN</rdg></app>-PO）他建烏汝奢寺，埋藏教授，後由登瑪倫
-<lb ed="B" n="0467a05"/>賈（<note n="0467a0501" resp="CBETA" type="add" note_key="B10.0467a05.02">LDAṄ【CB】，LDAN【補編】（CBETA 按：「LDAN」有誤，修訂作「LDAṄ]。）</note><app n="0467a0501"><lem wit="【CB】" resp="CBETA.liyi">LDAṄ</lem><rdg wit="【補編】">LDAN</rdg></app>-MA-LHUN-RGYAL）取出傳給孃法尊
-<lb ed="B" n="0467a06"/>師子自在（<note n="0467a0601" resp="CBETA" type="add" note_key="B10.0467a06.05">MYAṄ【CB】，MYAN【補編】</note><app n="0467a0601"><lem wit="【CB】" resp="CBETA.liyi">MYAṄ<note type="cf1">B10n0064_p0467a03</note></lem><rdg wit="【補編】">MYAN</rdg></app>-LCE-BTSUN-SEṄ-GE-<note n="0467a0602" resp="CBETA" type="add" note_key="B10.0467a06.22">DBAṄ【CB】，DBAN【補編】（CBETA 按：「DBAN」有誤，修訂作「DBAṄ」。）</note><app n="0467a0602"><lem wit="【CB】" resp="CBETA.liyi">DBA
-<lb ed="B" n="0467a07"/>Ṅ</lem><rdg wit="【補編】">DBA<lb ed="B" n="0467a07"/>N</rdg></app>-PHYUG）由他遞傳給孃迦當巴（MYAṄ-<note n="0467a0702" resp="CBETA" type="add" note_key="B10.0467a07.20">BKAH【CB】，BKSH【補編】（CBETA 按：「BKSH」有誤，修訂作「BKAH」。）</note><app n="0467a0702"><lem wit="【CB】" resp="CBETA.liyi">BKAH</lem><rdg wit="【補編】">BKSH</rdg></app>
+<lb ed="B" n="0467a02"/>提（MKHAH-HGRO-<note 
+n="0467a0201" resp="CBETA" type="add" note_key="B10.0467a02.11">SN̄IṄ【CB】，SN̄IN【補編】（CBETA 按：「SN̄IN」有誤，修訂作「SN̄IṄ」。）</note><app n="0467a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SN̄IN</rdg>
+</app>-THIG）一派，另外
+<lb ed="B" n="0467a03"/>一系是由無垢友傳孃定賢（MYAṄ-<note 
+n="0467a0301" resp="CBETA" type="add" note_key="B10.0467a03.16">TIṄ【CB】，TIN【補編】（CBETA 按：「TIN」有誤，修訂作「TIṄ」。）</note><app n="0467a0301">
+  <lem wit="【CB】" resp="CBETA.liyi">TIṄ</lem>
+  <rdg wit="【補編】">TIN</rdg>
+</app>-HDSIN-
+<lb ed="B" n="0467a04"/><note 
+n="0467a0401" resp="CBETA" type="add" note_key="B10.0467a04.01">BZAṄ【CB】，BZAN【補編】</note><app n="0467a0401">
+  <lem wit="【CB】" resp="CBETA.liyi">BZAṄ<note type="cf1">B10n0064_p0464a01-02</note></lem>
+  <rdg wit="【補編】">BZAN</rdg>
+</app>-PO）他建烏汝奢寺，埋藏教授，後由登瑪倫
+<lb ed="B" n="0467a05"/>賈（<note 
+n="0467a0501" resp="CBETA" type="add" note_key="B10.0467a05.02">LDAṄ【CB】，LDAN【補編】（CBETA 按：「LDAN」有誤，修訂作「LDAṄ]。）</note><app n="0467a0501">
+  <lem wit="【CB】" resp="CBETA.liyi">LDAṄ</lem>
+  <rdg wit="【補編】">LDAN</rdg>
+</app>-MA-LHUN-RGYAL）取出傳給孃法尊
+<lb ed="B" n="0467a06"/>師子自在（<note 
+n="0467a0601" resp="CBETA" type="add" note_key="B10.0467a06.05">MYAṄ【CB】，MYAN【補編】</note><app n="0467a0601">
+  <lem wit="【CB】" resp="CBETA.liyi">MYAṄ<note type="cf1">B10n0064_p0467a03</note></lem>
+  <rdg wit="【補編】">MYAN</rdg>
+</app>-LCE-BTSUN-SEṄ-GE-<note 
+n="0467a0602" resp="CBETA" type="add" note_key="B10.0467a06.22">DBAṄ【CB】，DBAN【補編】（CBETA 按：「DBAN」有誤，修訂作「DBAṄ」。）</note><app n="0467a0602">
+  <lem wit="【CB】" resp="CBETA.liyi">DBA
+<lb ed="B" n="0467a07"/>Ṅ</lem>
+  <rdg wit="【補編】">DBA<lb ed="B" n="0467a07"/>N</rdg>
+</app>-PHYUG）由他遞傳給孃迦當巴（MYAṄ-<note 
+n="0467a0702" resp="CBETA" type="add" note_key="B10.0467a07.20">BKAH【CB】，BKSH【補編】（CBETA 按：「BKSH」有誤，修訂作「BKAH」。）</note><app n="0467a0702">
+  <lem wit="【CB】" resp="CBETA.liyi">BKAH</lem>
+  <rdg wit="【補編】">BKSH</rdg>
+</app>
 <lb ed="B" n="0467a08"/>-GDAMS-PA）他把教授埋藏三處，三十年後由結
 <lb ed="B" n="0467a09"/>貢那薄（LCE-SGOM-NAG-PO）在公元一〇六七
-<lb ed="B" n="0467a10"/>年取出，這時陸續取藏的還有嚮巴日巴（<note n="0467a1001" resp="CBETA" type="add" note_key="B10.0467a10.17">ṠAṄS【CB】，ṠAN̄S【補編】（CBETA 按：「ṠAN̄S」有誤，修訂作「ṠAṄS」。）</note><app n="0467a1001"><lem wit="【CB】" resp="CBETA.liyi">ṠAṄS</lem><rdg wit="【補編】">ṠAN̄S</rdg></app>-PA
+<lb ed="B" n="0467a10"/>年取出，這時陸續取藏的還有嚮巴日巴（<note 
+n="0467a1001" resp="CBETA" type="add" note_key="B10.0467a10.17">ṠAṄS【CB】，ṠAN̄S【補編】（CBETA 按：「ṠAN̄S」有誤，修訂作「ṠAṄS」。）</note><app n="0467a1001">
+  <lem wit="【CB】" resp="CBETA.liyi">ṠAṄS</lem>
+  <rdg wit="【補編】">ṠAN̄S</rdg>
+</app>-PA
 <pb ed="B" xml:id="B10.0064.0468a" n="0468a"/>
 <lb ed="B" n="0468a01"/>-RAS-PA）漾敦諾札（SHAD-STON-NOR-BK
 <lb ed="B" n="0468a02"/>RA 即吉祥金剛 BKRA-ṠIS-RDO-RZE 公元一〇
@@ -621,13 +954,21 @@
 <lb ed="B" n="0468a10"/>巴（KLOṄ-CHEN-RAB-HBYAMS-PA 公元一三
 <pb ed="B" xml:id="B10.0064.0469a" n="0469a"/>
 <lb ed="B" n="0469a01"/>〇八戊申～一三六三癸卯）這一系叫做上師寧提（BI
-<lb ed="B" n="0469a02"/>A-MA-<note n="0469a0201" resp="CBETA" type="add" note_key="B10.0469a02.04">SN̄IṄ【CB】，SNIN̄【補編】（CBETA 按：「SNIN̄」有誤，修訂作「SN̄IṄ」。）</note><app n="0469a0201"><lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem><rdg wit="【補編】">SNIN̄</rdg></app>-THIG）隆欽饒降巴又名無垢光，他
+<lb ed="B" n="0469a02"/>A-MA-<note 
+n="0469a0201" resp="CBETA" type="add" note_key="B10.0469a02.04">SN̄IṄ【CB】，SNIN̄【補編】（CBETA 按：「SNIN̄」有誤，修訂作「SN̄IṄ」。）</note><app n="0469a0201">
+  <lem wit="【CB】" resp="CBETA.liyi">SN̄IṄ</lem>
+  <rdg wit="【補編】">SNIN̄</rdg>
+</app>-THIG）隆欽饒降巴又名無垢光，他
 <lb ed="B" n="0469a03"/>也曾受學空行寧提，又遍學後宏期新派密法，關於明
 <lb ed="B" n="0469a04"/>處，顯經密咒的著作極多，被推為舊派中智者之首，
 <lb ed="B" n="0469a05"/>從現存史料上看，自無垢光開始大圓滿的教義，才成
 <lb ed="B" n="0469a06"/>了有組織的和系統的書面的學說，現在西藏方面寧瑪
 <lb ed="B" n="0469a07"/>派的寺院，有金剛崖（RDO-RZE-BRAG）成熟解
-<lb ed="B" n="0469a08"/>脫洲（SMIN-SGROL-<note n="0469a0801" resp="CBETA" type="add" note_key="B10.0469a08.12">GLIṄ【CB】，GLIN【補編】（CBETA 按：「GLIN」有誤，修訂作「GLIṄ」（洲）。）</note><app n="0469a0801"><lem wit="【CB】" resp="CBETA.liyi">GLIṄ</lem><rdg wit="【補編】">GLIN</rdg></app>）和桑耶（BSAM-
+<lb ed="B" n="0469a08"/>脫洲（SMIN-SGROL-<note 
+n="0469a0801" resp="CBETA" type="add" note_key="B10.0469a08.12">GLIṄ【CB】，GLIN【補編】（CBETA 按：「GLIN」有誤，修訂作「GLIṄ」（洲）。）</note><app n="0469a0801">
+  <lem wit="【CB】" resp="CBETA.liyi">GLIṄ</lem>
+  <rdg wit="【補編】">GLIN</rdg>
+</app>）和桑耶（BSAM-
 <lb ed="B" n="0469a09"/>YAS）等寺，西康方面有白玉寺（DPAL-YUL-DG
 <lb ed="B" n="0469a10"/>ON-PA）迦陀寺（KAH-THOG-DGON-PA）竹箐
 <pb ed="B" xml:id="B10.0064.0470a" n="0470a"/>
@@ -692,13 +1033,25 @@
 <lb ed="B" n="0475a04"/>該說不是偶然的。</p>
 <lb ed="B" n="0475a05"/><p xml:id="pB10p0475a0501" style="margin-left:0em;text-indent:2em">其次，關於極喜金剛這個人的問題，在後宏期西藏
 <lb ed="B" n="0475a06"/>的佛教史籍中（如多羅那他印度佛教史）找不到關於
-<lb ed="B" n="0475a07"/>他的資料，但是從他的西藏譯名看來，（DGAH-<note n="0475a0701" resp="CBETA" type="add" note_key="B10.0475a07.20">BAHI【CB】，BAHH【補編】</note><app n="0475a0701"><lem wit="【CB】" resp="CBETA.liyi">B
-<lb ed="B" n="0475a08"/>AHI<note type="cf1">B10n0064_p0464a07</note></lem><rdg wit="【補編】">B<lb ed="B" n="0475a08"/>AHH</rdg></app>-RAB,DGAH-RAB）梵文應當是以難陀
-<lb ed="B" n="0475a09"/>（<note n="0475a0901" resp="CBETA" type="add" note_key="B10.0475a09.01">NANDA【CB】，MANDA【補編】（CBETA 按：「MANDA」，梵語拼寫有誤，修訂作「NANDA」（音譯：難陀；意譯：喜）。）</note><app n="0475a0901"><lem wit="【CB】" resp="CBETA.liyi">NANDA</lem><rdg wit="【補編】">MANDA</rdg></app>）開頭的一個名字，我們在義淨求法高僧傳
+<lb ed="B" n="0475a07"/>他的資料，但是從他的西藏譯名看來，（DGAH-<note 
+n="0475a0701" resp="CBETA" type="add" note_key="B10.0475a07.20">BAHI【CB】，BAHH【補編】</note><app n="0475a0701">
+  <lem wit="【CB】" resp="CBETA.liyi">B
+<lb ed="B" n="0475a08"/>AHI<note type="cf1">B10n0064_p0464a07</note></lem>
+  <rdg wit="【補編】">B<lb ed="B" n="0475a08"/>AHH</rdg>
+</app>-RAB,DGAH-RAB）梵文應當是以難陀
+<lb ed="B" n="0475a09"/>（<note 
+n="0475a0901" resp="CBETA" type="add" note_key="B10.0475a09.01">NANDA【CB】，MANDA【補編】（CBETA 按：「MANDA」，梵語拼寫有誤，修訂作「NANDA」（音譯：難陀；意譯：喜）。）</note><app n="0475a0901">
+  <lem wit="【CB】" resp="CBETA.liyi">NANDA</lem>
+  <rdg wit="【補編】">MANDA</rdg>
+</app>）開頭的一個名字，我們在義淨求法高僧傳
 <lb ed="B" n="0475a10"/>中正發現他提到一個持明咒藏的大成就者，叫做難陀
 <pb ed="B" xml:id="B10.0064.0476a" n="0476a"/>
-<lb ed="B" n="0476a01"/>的，但他說這個難陀是阿離耶那伽曷樹那（<note n="0476a0101" resp="CBETA" type="add">ĀRYA-NĀGĀRZUNE【CB】，ĀRYANĀGĀR ZUNE【補編】（CBETA 按：依詞義調整斷詞；「ārya」（聖），「nāga」（龍），「arjuna」（樹）。）</note><app n="0476a0101"><lem wit="【CB】" resp="CBETA.liyi">ĀRYA-N
-<lb ed="B" n="0476a02"/>ĀGĀRZUNE</lem><rdg wit="【補編】">ĀRYAN<lb ed="B" n="0476a02"/>ĀGĀR ZUNE</rdg></app> 聖龍樹）的門人，現在日本的佛教
+<lb ed="B" n="0476a01"/>的，但他說這個難陀是阿離耶那伽曷樹那（<note 
+n="0476a0101" resp="CBETA" type="add">ĀRYA-NĀGĀRZUNE【CB】，ĀRYANĀGĀR ZUNE【補編】（CBETA 按：依詞義調整斷詞；「ārya」（聖），「nāga」（龍），「arjuna」（樹）。）</note><app n="0476a0101">
+  <lem wit="【CB】" resp="CBETA.liyi">ĀRYA-N
+<lb ed="B" n="0476a02"/>ĀGĀRZUNE</lem>
+  <rdg wit="【補編】">ĀRYAN<lb ed="B" n="0476a02"/>ĀGĀR ZUNE</rdg>
+</app> 聖龍樹）的門人，現在日本的佛教
 <lb ed="B" n="0476a03"/>學者已多認為密宗中的龍樹大約是在公元六四五年左
 <lb ed="B" n="0476a04"/>右在世的，那末在一百年之內（六四五～七四九）經
 <lb ed="B" n="0476a05"/>過四傳而到蓮華生（依佛海考蓮華生於七四九入藏）
@@ -736,7 +1089,15 @@
 <lb ed="B" n="0479a04"/>方，但總算是一部比實翔實的著作，他在傳中提到蓮
 <lb ed="B" n="0479a05"/>華生在印度修大印悉地得到成就以後，立名大樂金剛
 <lb ed="B" n="0479a06"/>（MAHĀSUKHAVAZRA）又提到他從智足學到的法，
-<lb ed="B" n="0479a07"/>有吉祥勝初（<note n="0479a0701" resp="CBETA" type="add" note_key="B10.0479a07.06">DPAL【CB】，APAL【補編】</note><app n="0479a0701"><lem wit="【CB】" resp="CBETA.liyi">DPAL<note type="cf1">B10n0064_p0484a04</note></lem><rdg wit="【補編】">APAL</rdg></app>-MCHOG-<note n="0479a0702" resp="CBETA" type="add" note_key="B10.0479a07.15">DAṄ【CB】，DAN【補編】（CBETA 按：「DAN」有誤，修訂作「DAṄ」（洲）。）</note><app n="0479a0702"><lem wit="【CB】" resp="CBETA.liyi">DAṄ</lem><rdg wit="【補編】">DAN</rdg></app>-PO）又提到
+<lb ed="B" n="0479a07"/>有吉祥勝初（<note 
+n="0479a0701" resp="CBETA" type="add" note_key="B10.0479a07.06">DPAL【CB】，APAL【補編】</note><app n="0479a0701">
+  <lem wit="【CB】" resp="CBETA.liyi">DPAL<note type="cf1">B10n0064_p0484a04</note></lem>
+  <rdg wit="【補編】">APAL</rdg>
+</app>-MCHOG-<note 
+n="0479a0702" resp="CBETA" type="add" note_key="B10.0479a07.15">DAṄ【CB】，DAN【補編】（CBETA 按：「DAN」有誤，修訂作「DAṄ」（洲）。）</note><app n="0479a0702">
+  <lem wit="【CB】" resp="CBETA.liyi">DAṄ</lem>
+  <rdg wit="【補編】">DAN</rdg>
+</app>-PO）又提到
 <lb ed="B" n="0479a08"/>他得到大成就以後，修降三世的獨鈷杵（PHUR-BU
 <lb ed="B" n="0479a09"/>-KILIKILA 鐝）去降伏外道的一回事，這些事情
 <lb ed="B" n="0479a10"/>很可以同中國傳譯的幾部經軌印證起來，中國唐玄奘
@@ -758,27 +1119,37 @@
 <lb ed="B" n="0481a04"/>（即勝初）大樂金剛不空三昧大教王經七卷，不空所
 <lb ed="B" n="0481a05"/>翻的和這部經有關的儀軌。</p>
 <lb ed="B" n="0481a06"/><p xml:id="pB10p0481a0601" style="margin-left:0em;text-indent:2em">下列九種：</p>
-<lb ed="B" n="0481a07"/><list rend="no-marker"><item xml:id="itemB10p0481a0701"><p xml:id="pB10p0481a0701" style="margin-left:2em;text-indent:-2em">一、大樂金剛不空真實三昧耶經般若波羅密多理趣釋
+<lb ed="B" n="0481a07"/><list rend="no-marker">
+  <item xml:id="itemB10p0481a0701"><p xml:id="pB10p0481a0701" style="margin-left:2em;text-indent:-2em">一、大樂金剛不空真實三昧耶經般若波羅密多理趣釋
 <lb ed="B" n="0481a08"/>二卷（公元八七九年）。</p></item>
-<lb ed="B" n="0481a09"/><item xml:id="itemB10p0481a0901"><p xml:id="pB10p0481a0901" style="margin-left:2em;text-indent:-2em">二、金剛頂勝初瑜伽普賢菩薩念誦法一卷（公元八七
+<lb ed="B" n="0481a09"/>
+  <item xml:id="itemB10p0481a0901"><p xml:id="pB10p0481a0901" style="margin-left:2em;text-indent:-2em">二、金剛頂勝初瑜伽普賢菩薩念誦法一卷（公元八七
 <lb ed="B" n="0481a10"/>九年）。</p></item>
 <pb ed="B" xml:id="B10.0064.0482a" n="0482a"/>
-<lb ed="B" n="0482a01"/><item xml:id="itemB10p0482a0101"><p xml:id="pB10p0482a0101" style="margin-left:2em;text-indent:-2em">三、普賢金剛薩埵瑜伽念誦儀軌一卷（公元八七九年
+<lb ed="B" n="0482a01"/>
+  <item xml:id="itemB10p0482a0101"><p xml:id="pB10p0482a0101" style="margin-left:2em;text-indent:-2em">三、普賢金剛薩埵瑜伽念誦儀軌一卷（公元八七九年
 <lb ed="B" n="0482a02"/>）。</p></item>
-<lb ed="B" n="0482a03"/><item xml:id="itemB10p0482a0301"><p xml:id="pB10p0482a0301" style="margin-left:2em;text-indent:-2em">四、大樂金剛薩埵修行成就儀軌一卷（公元八八〇年
+<lb ed="B" n="0482a03"/>
+  <item xml:id="itemB10p0482a0301"><p xml:id="pB10p0482a0301" style="margin-left:2em;text-indent:-2em">四、大樂金剛薩埵修行成就儀軌一卷（公元八八〇年
 <lb ed="B" n="0482a04"/>）。</p></item>
-<lb ed="B" n="0482a05"/><item xml:id="itemB10p0482a0501"><p xml:id="pB10p0482a0501" style="margin-left:2em;text-indent:-2em">五、般若波羅密多理趣經大安樂不空三昧耶真實金剛
+<lb ed="B" n="0482a05"/>
+  <item xml:id="itemB10p0482a0501"><p xml:id="pB10p0482a0501" style="margin-left:2em;text-indent:-2em">五、般若波羅密多理趣經大安樂不空三昧耶真實金剛
 <lb ed="B" n="0482a06"/>菩薩等一十七尊大曼荼羅義述一卷（公元八八〇
 <lb ed="B" n="0482a07"/>年）。</p></item>
-<lb ed="B" n="0482a08"/><item xml:id="itemB10p0482a0801"><p xml:id="pB10p0482a0801" style="margin-left:2em;text-indent:-2em">六、金剛頂吉祥勝初瑜伽經中略出大樂金剛薩埵念誦
+<lb ed="B" n="0482a08"/>
+  <item xml:id="itemB10p0482a0801"><p xml:id="pB10p0482a0801" style="margin-left:2em;text-indent:-2em">六、金剛頂吉祥勝初瑜伽經中略出大樂金剛薩埵念誦
 <lb ed="B" n="0482a09"/>儀軌一卷（公元八八〇年）。</p></item>
-<lb ed="B" n="0482a10"/><item xml:id="itemB10p0482a1001"><p xml:id="pB10p0482a1001" style="margin-left:2em;text-indent:-2em">七、大樂金剛薩埵修行成就儀軌一卷（公元八八〇年
+<lb ed="B" n="0482a10"/>
+  <item xml:id="itemB10p0482a1001"><p xml:id="pB10p0482a1001" style="margin-left:2em;text-indent:-2em">七、大樂金剛薩埵修行成就儀軌一卷（公元八八〇年
 <pb ed="B" xml:id="B10.0064.0483a" n="0483a"/>
 <lb ed="B" n="0483a01"/>）。</p></item>
-<lb ed="B" n="0483a02"/><item xml:id="itemB10p0483a0201"><p xml:id="pB10p0483a0201" style="margin-left:2em;text-indent:-2em">八、金剛頂瑜伽金剛薩埵五秘密修行念誦儀軌一卷
+<lb ed="B" n="0483a02"/>
+  <item xml:id="itemB10p0483a0201"><p xml:id="pB10p0483a0201" style="margin-left:2em;text-indent:-2em">八、金剛頂瑜伽金剛薩埵五秘密修行念誦儀軌一卷
 <lb ed="B" n="0483a03"/>（公元八八〇年）。</p></item>
-<lb ed="B" n="0483a04"/><item xml:id="itemB10p0483a0401"><p xml:id="pB10p0483a0401" style="margin-left:2em;text-indent:-2em">九、金剛頂瑜伽他化自在天理趣會普賢修行念誦儀軌
-<lb ed="B" n="0483a05"/>一卷（公元八八一年）。</p></item></list>
+<lb ed="B" n="0483a04"/>
+  <item xml:id="itemB10p0483a0401"><p xml:id="pB10p0483a0401" style="margin-left:2em;text-indent:-2em">九、金剛頂瑜伽他化自在天理趣會普賢修行念誦儀軌
+<lb ed="B" n="0483a05"/>一卷（公元八八一年）。</p></item>
+</list>
 <lb ed="B" n="0483a06"/><p xml:id="pB10p0483a0601" style="margin-left:0em;text-indent:2em">上面這些經軌，連他所翻的本經共計十種，另加有關
 <lb ed="B" n="0483a07"/>的金剛王菩薩秘密念誦儀軌，和金剛壽命陀羅尼念誦
 <lb ed="B" n="0483a08"/>法（大樂金剛即普賢延命）則有十二種，這可以說是
@@ -854,11 +1225,15 @@
 <lb ed="B" n="0490a01"/>程來看，它到是早期密乘中一種淵源深厚的純正的古
 <lb ed="B" n="0490a02"/>學的一支。</p></cb:div>
 <lb ed="B" n="0490a03"/><cb:div type="other"><cb:mulu type="其他" level="1">參考書目</cb:mulu><head>〔參考書目〕</head>
-<lb ed="B" n="0490a04"/><list style="margin-left:2em"><item xml:id="itemB10p0490a0401">無垢光：宗派藏論，勝乘藏論，法界藏論，無畏洲
+<lb ed="B" n="0490a04"/><list style="margin-left:2em">
+  <item xml:id="itemB10p0490a0401">無垢光：宗派藏論，勝乘藏論，法界藏論，無畏洲
 <lb ed="B" n="0490a05"/>大圓滿前導，土官舊派史。</item>
-<lb ed="B" n="0490a06"/><item xml:id="itemB10p0490a0601">松巴：如意賢樹（佛教史），西藏大藏經目錄，精
+<lb ed="B" n="0490a06"/>
+  <item xml:id="itemB10p0490a0601">松巴：如意賢樹（佛教史），西藏大藏經目錄，精
 <lb ed="B" n="0490a07"/>刻大藏經目錄。</item>
-<lb ed="B" n="0490a08"/><item xml:id="itemB10p0490a0801">不空：十八會指<note place="inline">來玄</note>，十七金義述，五秘密經勝初軌。
+<lb ed="B" n="0490a08"/>
+  <item xml:id="itemB10p0490a0801">不空：十八會指<note place="inline">來玄</note>，十七金義述，五秘密經勝初軌。
 <lb ed="B" n="0490a09"/>窺基：理趣般若述贊，漢書西域傳，洛陽伽藍記，
-<lb ed="B" n="0490a10"/>大唐西域記，隋唐書西域傳。</item></list></cb:div>
+<lb ed="B" n="0490a10"/>大唐西域記，隋唐書西域傳。</item>
+</list></cb:div>
 </body></text></TEI>

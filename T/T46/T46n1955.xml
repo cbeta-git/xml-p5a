@@ -2,82 +2,83 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T46n1955">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">顯密圓通成佛心要集</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1955 顯密圓通成佛心要集</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1955 顯密圓通成佛心要集</title>
-			<author>遼 道<g ref="#CB00142"/>集</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>2卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">46</idno>.<idno type="no">1955</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Chen Bo-Xun</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，陳伯勳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="sa-Sidd">Sanskrit-Siddam</language>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-09-01T14:06:44">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">顯密圓通成佛心要集</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1955 顯密圓通成佛心要集</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1955 顯密圓通成佛心要集</title>
+      <author>遼 道<g ref="#CB00142"/>集</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">46</idno>.<idno type="no">1955</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Chen Bo-Xun</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，陳伯勳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="sa-Sidd">Sanskrit-Siddam</language>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-09-01T14:06:44">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0989b" ed="T" xml:id="T46.1955.0989b"/>
 <lb n="0989b01" ed="T"/>
 <lb n="0989b02" ed="T"/><cb:docNumber>No. 1955</cb:docNumber>
-<lb n="0989b03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">顯密圓通成佛心要集序</cb:mulu><head><note n="0989003" resp="Taisho" type="orig" place="foot text">【原】萬曆四十二年刊增上寺報恩藏本</note>顯密圓通成佛心要集序</head>
+<lb n="0989b03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">顯密圓通成佛心要集序</cb:mulu><head><note 
+n="0989003" resp="Taisho" type="orig" place="foot text">【原】萬曆四十二年刊增上寺報恩藏本</note>顯密圓通成佛心要集序</head>
 <lb n="0989b04" ed="T"/>
 <lb n="0989b05" ed="T"/><byline cb:type="author"><note place="inline">宣政殿學士金紫榮祿大夫行給事中知武定軍節度使事上護軍頴川郡開國公食邑三千戶同
 <lb n="0989b06" ed="T"/>修國史陳覺撰</note></byline>
@@ -108,7 +109,11 @@
 <lb n="0989c01" ed="T"/>之會要，為後人之指南。使披覽者似獲隨意
 <lb n="0989c02" ed="T"/>之珠，所求皆遂；遵依者如食善見之果，無疾
 <lb n="0989c03" ed="T"/>不瘳。覺學愧荒虛，辭非華麗，曾因暇日，得造
-<lb n="0989c04" ed="T"/>吾師，每親揮<note n="0989c0401" resp="CBETA" type="add">麈【CB】，塵【大】</note><app n="0989c0401"><lem resp="CBETA.maha" wit="【CB】">麈</lem><rdg wit="【大】">塵</rdg></app>之談、頗廣窺班之見，屬當傳
+<lb n="0989c04" ed="T"/>吾師，每親揮<note 
+n="0989c0401" resp="CBETA" type="add">麈【CB】，塵【大】</note><app n="0989c0401">
+  <lem resp="CBETA.maha" wit="【CB】">麈</lem>
+  <rdg wit="【大】">塵</rdg>
+</app>之談、頗廣窺班之見，屬當傳
 <lb n="0989c05" ed="T"/>世，爰託撰文，素慚舒理之能，聊著冠篇之
 <lb n="0989c06" ed="T"/>引。</p></cb:div>
 <lb n="0989c07" ed="T"/>
@@ -116,7 +121,8 @@
 <lb n="0989c09" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead>顯密圓通成佛心要集卷上</cb:jhead></cb:juan>
 <lb n="0989c10" ed="T"/>
 <lb n="0989c11" ed="T"/><byline cb:type="Collector">五臺山金河寺沙門道<g ref="#CB00142"/>集</byline>
-<lb n="0989c12" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">顯密圓通成佛心要</cb:mulu><p xml:id="pT46p0989c1201">原夫如來一代教海，雖文言浩瀚，理趣淵沖，
+<lb n="0989c12" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">顯密圓通成佛心要</cb:mulu>
+<p xml:id="pT46p0989c1201">原夫如來一代教海，雖文言浩瀚，理趣淵沖，
 <lb n="0989c13" ed="T"/>而顯之與密統盡無遺，顯謂諸乘經律論是
 <lb n="0989c14" ed="T"/>也，密謂諸部陀羅尼是也。爰自摩騰入漢，三
 <lb n="0989c15" ed="T"/>藏漸布於支那，無畏來唐，五密盛興於華夏，
@@ -128,7 +134,8 @@
 <lb n="0989c21" ed="T"/>韻。今廼不揆瑣才，雙依顯密二宗，略宗成佛
 <lb n="0989c22" ed="T"/>心要，庶望將來悉得圓通。故依教理略啟四
 <lb n="0989c23" ed="T"/>門：一、顯教心要，二、密教心要，三、顯密雙辯，四、
-<lb n="0989c24" ed="T"/>慶遇述懷。<note place="inline">已下四段之中，為避文繁，或暗用聖教，或義引經文，覽者應知。</note></p><p xml:id="pT46p0989c2429" cb:place="inline">且初顯
+<lb n="0989c24" ed="T"/>慶遇述懷。<note place="inline">已下四段之中，為避文繁，或暗用聖教，或義引經文，覽者應知。</note></p>
+<p xml:id="pT46p0989c2429" cb:place="inline">且初顯
 <lb n="0989c25" ed="T"/>教心要者，謂賢首、清涼，共判如來一代時教
 <lb n="0989c26" ed="T"/>而有五種：一、小乘教，謂《阿含》等六百餘卷經，
 <lb n="0989c27" ed="T"/>《婆沙》等六百餘卷論，說一切法從因緣生，明
@@ -174,7 +181,11 @@
 <lb n="0990b08" ed="T"/>極小，虛空比於真心尚爾極小，況諸世界在虛空中耶？</note>又云：「空生大覺中，如
 <lb n="0990b09" ed="T"/>海一漚發，有漏微塵國，皆依空所生。」<note place="inline">大覺即是真心
 <lb n="0990b10" ed="T"/>異名，真心廣大猶如大海，虛空微小似一浮漚，況諸國土皆依虛空生耶？若比真心即是小中之小。</note>又
-<lb n="0990b11" ed="T"/>云：「真心遍圓含<note n="0990b1101" resp="CBETA" type="add" note_key="T46.0990b11.07">裹【CB】【北藏-CB】，裏【大】</note><app n="0990b1101"><lem resp="CBETA.ting" wit="【CB】【北藏-CB】">裹<note type="cf1">P137n1470_p0005a10</note></lem><rdg wit="【大】">裏</rdg></app>十方，反觀父母所生之身，
+<lb n="0990b11" ed="T"/>云：「真心遍圓含<note 
+n="0990b1101" resp="CBETA" type="add" note_key="T46.0990b11.07">裹【CB】【北藏-CB】，裏【大】</note><app n="0990b1101">
+  <lem resp="CBETA.ting" wit="【CB】【北藏-CB】">裹<note type="cf1">P137n1470_p0005a10</note></lem>
+  <rdg wit="【大】">裏</rdg>
+</app>十方，反觀父母所生之身，
 <lb n="0990b12" ed="T"/>如彼十方虛空之內，吹一微塵若存若亡。」又
 <lb n="0990b13" ed="T"/>云：「不知色身外洎山河虛空大地，咸是妙明
 <lb n="0990b14" ed="T"/>真心中物。」又云：「一切世間諸所有物，皆即菩
@@ -256,7 +267,8 @@
 <lb n="0991b04" ed="T"/>賢行海浩瀚無涯，<note place="inline">一藏教中所說行門，皆是華嚴普賢之行，但應權淺根宜之流出也。</note>
 <lb n="0991b05" ed="T"/>今就觀行略示五門：一、諸法如夢幻觀，二、真
 <lb n="0991b06" ed="T"/>如絕相觀，三、事理無礙觀，四、帝網無盡觀，五、
-<lb n="0991b07" ed="T"/>無障礙法界觀。</p><p xml:id="pT46p0991b0707" cb:place="inline">且初諸法如夢幻觀者，<note place="inline">即當事法界觀</note>
+<lb n="0991b07" ed="T"/>無障礙法界觀。</p>
+<p xml:id="pT46p0991b0707" cb:place="inline">且初諸法如夢幻觀者，<note place="inline">即當事法界觀</note>
 <lb n="0991b08" ed="T"/>謂常觀一切染淨諸法，全體不實皆如夢幻，
 <lb n="0991b09" ed="T"/>此能觀智亦如夢幻。《華嚴經》云：「譬如夢中見，
 <lb n="0991b10" ed="T"/>種種諸異相，世間亦如是，與夢無差別。」又云：
@@ -296,7 +308,11 @@
 <lb n="0991c16" ed="T"/>然悅樂，然更諦觀微細之息，及觀全身三十六物內外不淨。又觀心識剎那不住，如是修習覺息出入遍諸毛
 <lb n="0991c17" ed="T"/>孔，心眼開明，徹見身內三十六物及諸蟲戶，方更轉修。」其餘行門更有別說，恐繁且止。如經中說，觀出入
 <lb n="0991c18" ed="T"/>息，三世諸佛入道之初門也。或作我空觀，應須作意推尋，今此之身本來無我，但是色心二法和合為相。色有
-<lb n="0991c19" ed="T"/>地水火風之四類，所謂毛髮爪齒、皮肉筋骨、髓腦垢色皆是其地；涕唾膿血、津液涎<note n="0991c1901" resp="CBETA" type="add">沫【CB】，沬【大】</note><app n="0991c1901"><lem resp="CBETA" wit="【CB】">沫</lem><rdg wit="【大】">沬</rdg></app>、痰淚精氣、大小便利皆是其
+<lb n="0991c19" ed="T"/>地水火風之四類，所謂毛髮爪齒、皮肉筋骨、髓腦垢色皆是其地；涕唾膿血、津液涎<note 
+n="0991c1901" resp="CBETA" type="add">沫【CB】，沬【大】</note><app n="0991c1901">
+  <lem resp="CBETA" wit="【CB】">沫</lem>
+  <rdg wit="【大】">沬</rdg>
+</app>、痰淚精氣、大小便利皆是其
 <lb n="0991c20" ed="T"/>水；暖是其火；動轉是風。心有受想行識之四類，所謂領納是受，取像是想，造作是行，了別是識。於此八類
 <lb n="0991c21" ed="T"/>何者是我？若皆是我，即有八我。又況色中復有三百六十段骨，段段各別，皮毛筋肉肝心脾腎各不同，是諸心
 <lb n="0991c22" ed="T"/>數等亦各不同，見不是聞、喜不是怒，既有此眾多之物，不知定取何者為我？若皆是我，我即百千，一身之中多生
@@ -305,7 +321,8 @@
 <lb n="0991c25" ed="T"/>今既常觀此身本來無我，即三毒自滅，三毒既滅三界自離也。或他法空觀，應須諦觀此身色心二法，色有地水
 <pb n="0992a" ed="T" xml:id="T46.1955.0992a"/>
 <lb n="0992a01" ed="T"/>火風，心有受想行識，於此八法一一諦觀，皆從緣生都無自性，八法當體皆是空也。初心行者，宜習此等觀
-<lb n="0992a02" ed="T"/>門，隨心所樂或一或二，乃至五種皆得修習。心觀法門唯貴修鍊，鍊之有味，說之言淡也。</note></p><p xml:id="pT46p0992a0235" cb:place="inline">二真
+<lb n="0992a02" ed="T"/>門，隨心所樂或一或二，乃至五種皆得修習。心觀法門唯貴修鍊，鍊之有味，說之言淡也。</note></p>
+<p xml:id="pT46p0992a0235" cb:place="inline">二真
 <lb n="0992a03" ed="T"/>如絕相觀者，<note place="inline">即當理法界觀</note>於中安心復有三門：一者
 <lb n="0992a04" ed="T"/>常觀遍法界，唯是一味清淨真如，本無差別
 <lb n="0992a05" ed="T"/>事相，此能觀智亦是一味真如。《華嚴經》云：「一
@@ -344,7 +361,8 @@
 <lb n="0992b09" ed="T"/>師《圓覺疏》中亦有三門，大同於此，一、先悟圓覺性，謂一味清淨真心；二、次發菩提心，謂大悲大智大願；三、後修
 <lb n="0992b10" ed="T"/>菩薩行，謂六度萬行等法。斯之三門，禪學之者甚為切要，若不圓修三門，無由離諸邪見，謂古來禪宗諸家語
 <lb n="0992b11" ed="T"/>錄，多分但應當時根宜，或唯說見性，或但言安心，或只談發行，又於安心發行中復各有多途，或但明一途等
-<lb n="0992b12" ed="T"/>云云。今此諸門心若通達，然後披覽諸家禪教，乃各知其旨歸。</note></p><p xml:id="pT46p0992b1225" cb:place="inline">三、事理無礙觀者，
+<lb n="0992b12" ed="T"/>云云。今此諸門心若通達，然後披覽諸家禪教，乃各知其旨歸。</note></p>
+<p xml:id="pT46p0992b1225" cb:place="inline">三、事理無礙觀者，
 <lb n="0992b13" ed="T"/><note place="inline">即當事理無礙法界觀</note>謂常觀一切染淨事法，緣生無性
 <lb n="0992b14" ed="T"/>全是真理，真理全是一切染淨事法，如觀波
 <lb n="0992b15" ed="T"/>全是濕、濕全是波，故《起信論》云：「雖念諸法
@@ -416,7 +434,8 @@
 <lb n="0993a25" ed="T"/>外求無念者，尚未得於真無念。真無念者，念本無無，何能更得念與無念之無礙？又若得真無念，但是無盡行中
 <pb n="0993b" ed="T" xml:id="T46.1955.0993b"/>
 <lb n="0993b01" ed="T"/>之一行，豈得總遮無盡之圓行耶？」此問答意，出《華嚴大疏》，若不習帝網相即等觀，終不能得無礙佛果。今有小
-<lb n="0993b02" ed="T"/>根聞此法門，即嫌繁亂全不介懷，昔人云：「井蛙不能居海，泰山難以處囊。」是也。</note></p><p xml:id="pT46p0993b0231" cb:place="inline">五、無障礙
+<lb n="0993b02" ed="T"/>根聞此法門，即嫌繁亂全不介懷，昔人云：「井蛙不能居海，泰山難以處囊。」是也。</note></p>
+<p xml:id="pT46p0993b0231" cb:place="inline">五、無障礙
 <lb n="0993b03" ed="T"/>法界觀者，<note place="inline">即當四法界所依總法界觀</note>謂常觀想一切染淨諸
 <lb n="0993b04" ed="T"/>法，舉體全是無障礙法界之心，此能觀智，亦
 <lb n="0993b05" ed="T"/>想全是法界之心。《華嚴經》云：「知一切法即心
@@ -486,7 +505,8 @@
 <lb n="0994a10" ed="T"/>賢首但據顯教，正判《華嚴》為圓，今神變疏鈔、
 <lb n="0994a11" ed="T"/>曼荼羅疏鈔，類彼顯圓，判斯密教亦是圓宗。
 <lb n="0994a12" ed="T"/>顯密既異，乃諸師無違也。」依密圓修鍊亦分
-<lb n="0994a13" ed="T"/>為二：一、持誦儀軌，二、驗成行相。</p><p xml:id="pT46p0994a1313" cb:place="inline">且初持誦儀
+<lb n="0994a13" ed="T"/>為二：一、持誦儀軌，二、驗成行相。</p>
+<p xml:id="pT46p0994a1313" cb:place="inline">且初持誦儀
 <lb n="0994a14" ed="T"/>軌者，謂真言行者，每日欲依法持誦時，先須
 <lb n="0994a15" ed="T"/>金剛正坐，<note place="inline">以右脚壓左脚脾上，或隨意坐亦得。</note>手結大三昧印，
 <lb n="0994a16" ed="T"/><note place="inline">二手仰掌展舒，以右手在左手上，二大拇指甲相著，安臍輪下，此印能滅一切狂亂妄念雜染思惟。</note>澄
@@ -508,8 +528,10 @@
 <lb n="0994b03" ed="T"/>眾罪除，一切觸穢處，當加此字門。」<note place="inline">若實外緣不具，無水
 <lb n="0994b04" ed="T"/>洗浴闕新淨衣，但用此㘕字淨之，若外緣具者，先用水了著新淨衣，更用此㘕字淨之，即內外具清淨也，廣
 <lb n="0994b05" ed="T"/>如諸真言儀軌經說。</note></p>
-<lb n="0994b06" ed="T"/><p xml:id="pT46p0994b0601">次誦護身真言二十一遍，真言曰：</p><p xml:id="pT46p0994b0614" cb:type="dharani" cb:place="inline">「唵齒𡄦
-<lb n="0994b07" ed="T"/><note place="inline">二合，𡄦字去聲彈舌呼之。</note><term xml:lang="sa-Sidd"><g ref="#SD-E074"/><g ref="#SD-E350"/>」</term><note place="inline">此是梵書唵齒𡄦字，已下例准知之。</note></p><p xml:id="pT46p0994b0727" cb:place="inline">若誦此呪能
+<lb n="0994b06" ed="T"/><p xml:id="pT46p0994b0601">次誦護身真言二十一遍，真言曰：</p>
+<p xml:id="pT46p0994b0614" cb:type="dharani" cb:place="inline">「唵齒𡄦
+<lb n="0994b07" ed="T"/><note place="inline">二合，𡄦字去聲彈舌呼之。</note><term xml:lang="sa-Sidd"><g ref="#SD-E074"/><g ref="#SD-E350"/>」</term><note place="inline">此是梵書唵齒𡄦字，已下例准知之。</note></p>
+<p xml:id="pT46p0994b0727" cb:place="inline">若誦此呪能
 <lb n="0994b08" ed="T"/>滅五逆十惡一切罪業，能除一切種種病苦、
 <lb n="0994b09" ed="T"/>災障惡夢、邪魅鬼神諸不祥事，而能成辦一
 <lb n="0994b10" ed="T"/>切勝事，令一切所願皆得圓滿。此呪是諸佛
@@ -517,7 +539,8 @@
 <lb n="0994b12" ed="T"/>天魔不敢侵近，誦兩遍能守護同伴，誦三遍
 <lb n="0994b13" ed="T"/>能守一宅中人，誦四遍能守護一城中人，乃至
 <lb n="0994b14" ed="T"/>七遍能守護四天下人。<note place="inline">廣如《文殊根本一字呪經》說。上二呪各持一百八遍亦得。</note></p>
-<lb n="0994b15" ed="T"/><p xml:id="pT46p0994b1501">次誦六字大明真言一百八遍，真言曰：</p><p xml:id="pT46p0994b1516" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt>
+<lb n="0994b15" ed="T"/><p xml:id="pT46p0994b1501">次誦六字大明真言一百八遍，真言曰：</p>
+<p xml:id="pT46p0994b1516" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt>
 <lb n="0994b16" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5E5"/></cb:t><cb:t xml:lang="zh-Hant">麼</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A54D"/></cb:t><cb:t xml:lang="zh-Hant">抳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5B5"/></cb:t><cb:t xml:lang="zh-Hant">鉢</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E243"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>訥銘</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E351"/></cb:t><cb:t xml:lang="zh-Hant">吽」</cb:t></cb:tt></p>
 <lb n="0994b17" ed="T"/><p xml:id="pT46p0994b1701">若誦此呪，隨所住處，有無量諸佛菩薩天龍
 <lb n="0994b18" ed="T"/>八部集會，又具無量三昧法門，誦持之人七
@@ -543,8 +566,13 @@
 <lb n="0994c08" ed="T"/>其手印。<note place="inline">或有不樂大輪呪者，只持准提真言亦得。准提印法，以二手無名指并小指相叉於內，二
 <lb n="0994c09" ed="T"/>中指直竪相拄，二頭指屈附二中指第一節，二大拇指捻右手無名指中節，若有請召，二頭指來去，正結印誦
 <lb n="0994c10" ed="T"/>呪。欲記數時，於自身分手指上記，或准提菩薩手臂上記，或於觀心上記，或十記皆得。或結印誦得一千八十
-<lb n="0994c11" ed="T"/>遍更好，或一百八遍，外但以左手作金剛拳印，右手<note n="0994c1101" resp="CBETA" type="add" note_key="T46.0994c11.21">掐【CB】，搯【大】</note><app n="0994c1101"><lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0225c01</note></lem><rdg wit="【大】">搯</rdg></app>數珠持亦得，若務忙者只散持之。</note>七俱胝
-<lb n="0994c12" ed="T"/>佛母心大准提陀羅尼真言曰：</p><p xml:id="pT46p0994c1213" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">南</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">無</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">颯</cb:t></cb:tt>
+<lb n="0994c11" ed="T"/>遍更好，或一百八遍，外但以左手作金剛拳印，右手<note 
+n="0994c1101" resp="CBETA" type="add" note_key="T46.0994c11.21">掐【CB】，搯【大】</note><app n="0994c1101">
+  <lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0225c01</note></lem>
+  <rdg wit="【大】">搯</rdg>
+</app>數珠持亦得，若務忙者只散持之。</note>七俱胝
+<lb n="0994c12" ed="T"/>佛母心大准提陀羅尼真言曰：</p>
+<p xml:id="pT46p0994c1213" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">南</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">無</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">颯</cb:t></cb:tt>
 <lb n="0994c13" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-CEE4"/></cb:t><cb:t xml:lang="zh-Hant">哆</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E040"/></cb:t><cb:t xml:lang="zh-Hant">喃</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">三</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A8A6"/></cb:t><cb:t xml:lang="zh-Hant">藐</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA40"/></cb:t><cb:t xml:lang="zh-Hant">三</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E3AD"/></cb:t><cb:t xml:lang="zh-Hant">菩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-D9FA"/></cb:t><cb:t xml:lang="zh-Hant">馱</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A444"/></cb:t><cb:t xml:lang="zh-Hant">俱</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A4DD"/></cb:t><cb:t xml:lang="zh-Hant">胝</cb:t></cb:tt>
 <lb n="0994c14" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E040"/></cb:t><cb:t xml:lang="zh-Hant">喃</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA4A"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>儞也</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A564"/></cb:t><cb:t xml:lang="zh-Hant">他」</cb:t></cb:tt></p>
 <lb n="0994c15" ed="T"/><p xml:id="pT46p0994c1501" cb:type="dharani"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A47C"/></cb:t><cb:t xml:lang="zh-Hant">折</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A650"/></cb:t><cb:t xml:lang="zh-Hant">隸</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E1D3"/></cb:t><cb:t xml:lang="zh-Hant">主</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A650"/></cb:t><cb:t xml:lang="zh-Hant">隸</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E352"/></cb:t><cb:t xml:lang="zh-Hant">准</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A575"/></cb:t><cb:t xml:lang="zh-Hant">提</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B065"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>娑婆</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt>
@@ -579,7 +607,11 @@
 <lb n="0995a14" ed="T"/>佛像前隨月十五日夜，面向東方置鏡坐前，
 <lb n="0995a15" ed="T"/>隨力莊嚴諸供養具，燒安息香及淨水，然後
 <lb n="0995a16" ed="T"/>結印在於心上，呪鏡一百八遍，以囊盛鏡常
-<lb n="0995a17" ed="T"/>將隨身，每欲念誦但以<note n="0995a1701" resp="CBETA" type="add">鏡【CB】，境【大】</note><app n="0995a1701"><lem resp="CBETA" wit="【CB】">鏡</lem><rdg wit="【大】">境</rdg></app>壇置於面前，結印
+<lb n="0995a17" ed="T"/>將隨身，每欲念誦但以<note 
+n="0995a1701" resp="CBETA" type="add">鏡【CB】，境【大】</note><app n="0995a1701">
+  <lem resp="CBETA" wit="【CB】">鏡</lem>
+  <rdg wit="【大】">境</rdg>
+</app>壇置於面前，結印
 <lb n="0995a18" ed="T"/>誦呪。若不能逐日對鏡念誦，但於十齋日對
 <lb n="0995a19" ed="T"/>鏡念誦，除十齋日外不對鏡壇持誦亦得。
 <lb n="0995a20" ed="T"/><note place="inline">密藏之中今此鏡壇最為要妙，總攝一切諸壇。若無鏡者，但想一鏡者於面前持誦，《淨諸惡趣經》等多說想成壇法
@@ -587,10 +619,15 @@
 <lb n="0995a22" ed="T"/>四日、二十八日、二十九日、三十日。</note>此准提呪，一切諸佛菩薩等
 <lb n="0995a23" ed="T"/>同說，獨部別行，總攝二十五部真言壇法。准
 <lb n="0995a24" ed="T"/>梵本有十萬偈說文，龍樹菩薩以偈讚曰：</p>
-<lb n="0995a25" ed="T"/><lg xml:id="lgT46p0995a2501" type="regular" style="margin-left:1em;text-indent:-1em"><l>「准提功德聚，<caesura/>寂靜心常誦，</l>
-<lb n="0995a26" ed="T"/><l>一切諸大難，<caesura/>無能侵是人，</l>
-<lb n="0995a27" ed="T"/><l>天上及人間，<caesura/>受福如佛等，</l>
-<lb n="0995a28" ed="T"/><l>遇此如意珠，<caesura/>定獲無等等。」</l></lg>
+<lb n="0995a25" ed="T"/><lg xml:id="lgT46p0995a2501" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「准提功德聚，<caesura/>寂靜心常誦，</l>
+<lb n="0995a26" ed="T"/>
+  <l>一切諸大難，<caesura/>無能侵是人，</l>
+<lb n="0995a27" ed="T"/>
+  <l>天上及人間，<caesura/>受福如佛等，</l>
+<lb n="0995a28" ed="T"/>
+  <l>遇此如意珠，<caesura/>定獲無等等。」</l>
+</lg>
 <pb n="0995b" ed="T" xml:id="T46.1955.0995b"/>
 <lb n="0995b01" ed="T"/><p xml:id="pT46p0995b0101">　　<note place="inline">廣如諸准提經并持明藏龍樹儀說。又此準提，或名准泥、或名尊那等，但是梵音不同耳。</note></p>
 <lb n="0995b02" ed="T"/><p xml:id="pT46p0995b0201">大輪一字呪，即部林是也，亦名末法中一字
@@ -605,7 +642,11 @@
 <lb n="0995b11" ed="T"/>言恐不成就，即用此呪共餘真言一處同誦
 <lb n="0995b12" ed="T"/>持之，決定成就；若不成就及無現驗，其呪神
 <lb n="0995b13" ed="T"/>等即當頭破七分。是知此呪能助一切真言疾
-<lb n="0995b14" ed="T"/>得成就，或別持此呪亦得。<note place="inline">廣如《文殊儀軌經》。於《<note n="0995b1401" resp="CBETA" type="add">末【CB】，［－］【大】</note><app n="0995b1401"><lem resp="CBETA.maha" wit="【CB】">末<note type="cf1">T19n0956_p0315c16</note><note type="cf2">T54n2128_p0538c23</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>法中一字心呪經》說。</note>上
+<lb n="0995b14" ed="T"/>得成就，或別持此呪亦得。<note place="inline">廣如《文殊儀軌經》。於《<note 
+n="0995b1401" resp="CBETA" type="add">末【CB】，［－］【大】</note><app n="0995b1401">
+  <lem resp="CBETA.maha" wit="【CB】">末<note type="cf1">T19n0956_p0315c16</note><note type="cf2">T54n2128_p0538c23</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>法中一字心呪經》說。</note>上
 <lb n="0995b15" ed="T"/>來次第持誦至准提呪，若不能結得准提印
 <lb n="0995b16" ed="T"/>者，但以左手作金剛拳印，右手持珠誦之。或
 <lb n="0995b17" ed="T"/>不能從前淨法界真言等次等持誦者，只持
@@ -634,10 +675,22 @@
 <lb n="0995c10" ed="T"/>令自耳聞之，不緩不急，字字須得分明稱之。
 <lb n="0995c11" ed="T"/>五、高聲持，令他聞之滅罪。復有二種持誦：一、
 <lb n="0995c12" ed="T"/>無數持誦，謂不持珠定數，常無間斷持之。二、
-<lb n="0995c13" ed="T"/>有數持誦，謂<note n="0995c1301" resp="CBETA" type="add" note_key="T46.0995c13.06">掐【CB】，搯【大】</note><app n="0995c1301"><lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0230b24</note></lem><rdg wit="【大】">搯</rdg></app>數珠，每日須得限定，其數不
-<lb n="0995c14" ed="T"/>須闕少。<note place="inline">若<note n="0995c1401" resp="CBETA" type="add" note_key="T46.0995c14.05">掐【CB】，搯【大】</note><app n="0995c1401"><lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0230b24</note></lem><rdg wit="【大】">搯</rdg></app>數珠所獲功德，諸經廣讚，如《數珠功德經》說。若有人手持數珠，雖不念誦佛名及陀羅
+<lb n="0995c13" ed="T"/>有數持誦，謂<note 
+n="0995c1301" resp="CBETA" type="add" note_key="T46.0995c13.06">掐【CB】，搯【大】</note><app n="0995c1301">
+  <lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0230b24</note></lem>
+  <rdg wit="【大】">搯</rdg>
+</app>數珠，每日須得限定，其數不
+<lb n="0995c14" ed="T"/>須闕少。<note place="inline">若<note 
+n="0995c1401" resp="CBETA" type="add" note_key="T46.0995c14.05">掐【CB】，搯【大】</note><app n="0995c1401">
+  <lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0230b24</note></lem>
+  <rdg wit="【大】">搯</rdg>
+</app>數珠所獲功德，諸經廣讚，如《數珠功德經》說。若有人手持數珠，雖不念誦佛名及陀羅
 <lb n="0995c15" ed="T"/>尼者，此人亦獲福無量。又《金剛頂念珠經》偈云：「若安頂髻淨無間，由戴頂上滅四重，手持臂上除眾罪，能令行
-<lb n="0995c16" ed="T"/>人速清淨。」又《一字頂輪儀》說，若用㘕字真言加持數珠七遍，用持課時，一遍或千遍，若<note n="0995c1601" resp="CBETA" type="add" note_key="T46.0995c16.34">掐【CB】，搯【大】</note><app n="0995c1601"><lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0230b24</note></lem><rdg wit="【大】">搯</rdg></app>數珠，至母珠却迴，不
+<lb n="0995c16" ed="T"/>人速清淨。」又《一字頂輪儀》說，若用㘕字真言加持數珠七遍，用持課時，一遍或千遍，若<note 
+n="0995c1601" resp="CBETA" type="add" note_key="T46.0995c16.34">掐【CB】，搯【大】</note><app n="0995c1601">
+  <lem resp="CBETA.maha" wit="【CB】">掐<note type="cf1">X59n1077_p0230b24</note></lem>
+  <rdg wit="【大】">搯</rdg>
+</app>數珠，至母珠却迴，不
 <lb n="0995c17" ed="T"/>得越過母珠。</note>每日依法持誦時，須限定其時分，若
 <lb n="0995c18" ed="T"/>一時持謂早晨，若二時持并黃昏，若三時持
 <lb n="0995c19" ed="T"/>加正午。<note place="inline">若忙務者不拘時分，但有暇時持之。</note>若上根持，謂須得
@@ -668,7 +721,11 @@
 <lb n="0996a15" ed="T"/>用供具方能成就。<note place="inline">有財物者，廣造佛像多辦供具，於佛像前安置鏡壇，對之持誦更
 <lb n="0996a16" ed="T"/>妙。</note>三為准提不揀染淨得持誦故，不問在家
 <lb n="0996a17" ed="T"/>出家、飲酒食肉、有妻子等皆持誦，不同餘呪
-<lb n="0996a18" ed="T"/>須要持戒方得誦習，<note place="inline">今為俗流之輩，帶妻挾子飲<note n="0996a1801" resp="CBETA" type="add">酒【CB】，洒【大】</note><app n="0996a1801"><lem resp="CBETA" wit="【CB】">酒</lem><rdg wit="【大】">洒</rdg></app>噉肉是其常業，雖逢僧人
+<lb n="0996a18" ed="T"/>須要持戒方得誦習，<note place="inline">今為俗流之輩，帶妻挾子飲<note 
+n="0996a1801" resp="CBETA" type="add">酒【CB】，洒【大】</note><app n="0996a1801">
+  <lem resp="CBETA" wit="【CB】">酒</lem>
+  <rdg wit="【大】">洒</rdg>
+</app>噉肉是其常業，雖逢僧人
 <lb n="0996a19" ed="T"/>教示，習性難以改革，若不用此大不思議呪法救脫，如是人等何日得出生死？其有齋戒清淨依法持誦者，更
 <lb n="0996a20" ed="T"/>為勝妙，故《准提經》云：『何況更能結齋具戒、依法持誦，不轉空身往第四天，得入神足是也。』</note>所以多
 <lb n="0996a21" ed="T"/>示准提真言令人持誦。若有樂持餘真言者，
@@ -813,7 +870,8 @@
 <lb n="0997c14" ed="T"/>取少分置閼伽水，燒安息香、然芥子油燈，以
 <lb n="0997c15" ed="T"/>忿怒心相應，從二十四日午時或夜半起首，
 <lb n="0997c16" ed="T"/>至月盡日滿。每日澡浴斷食，念誦法準前行。
-<lb n="0997c17" ed="T"/>妙言曰：</p><p xml:id="pT46p0997c1704" cb:type="dharani" cb:place="inline">「吽折隸主隸准提吽<cb:tt place="inline"><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>發吒</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5C1"/><g ref="#SD-E046"/>」</cb:t></cb:tt><note place="inline">此是梵書
+<lb n="0997c17" ed="T"/>妙言曰：</p>
+<p xml:id="pT46p0997c1704" cb:type="dharani" cb:place="inline">「吽折隸主隸准提吽<cb:tt place="inline"><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>發吒</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5C1"/><g ref="#SD-E046"/>」</cb:t></cb:tt><note place="inline">此是梵書
 <lb n="0997c18" ed="T"/>發吒字，若惡人等身心不安，或得大病或命欲終，即當勸彼令發善心，若是悔過自責永斷惡心者，即為彼人作
 <lb n="0997c19" ed="T"/>息災法念誦，彼人即免災難。此上是四種成就之法，若欲於此四種法中求成就者，須得預前持誦准提真言五
 <lb n="0997c20" ed="T"/>十萬遍、或七十萬遍、或百萬遍而為先行，方於四種成就法中，隨心所欲作一法時決定成就。每見今時或釋或
@@ -849,7 +907,8 @@
 <lb n="0998a22" ed="T"/>性差別，於其中間必獲三昧現前，即於定中
 <lb n="0998a23" ed="T"/>見無數佛會聞妙法音，證得十地菩薩之位。
 <lb n="0998a24" ed="T"/><note place="inline">此一種法，唯求出世間，若欲於此法中求成就者，須得預前持誦准提真言五百萬遍、或七百萬遍、或千萬遍而
-<lb n="0998a25" ed="T"/>為先行，方作此法定有靈驗。</note></p><p xml:id="pT46p0998a2512" cb:place="inline">二驗成行相者，謂《准泥陀羅尼
+<lb n="0998a25" ed="T"/>為先行，方作此法定有靈驗。</note></p>
+<p xml:id="pT46p0998a2512" cb:place="inline">二驗成行相者，謂《准泥陀羅尼
 <lb n="0998a26" ed="T"/>經》、《金剛頂經蘇悉地》等，共十餘本經皆說，真
 <lb n="0998a27" ed="T"/>言行者用功持誦，或夢見諸佛菩薩聖僧天
 <lb n="0998a28" ed="T"/>女，或夢見自身騰空自在，或渡大海或浮江
@@ -939,7 +998,8 @@
 <lb n="0999a23" ed="T"/>人多見聞不假讚揚；密圓神呪是諸佛之頂、
 <lb n="0999a24" ed="T"/>菩薩之心，功能廣大利樂無邊，為時流少知，
 <lb n="0999a25" ed="T"/>今略敘述，亦分為二：一、敘述密呪功德深廣；
-<lb n="0999a26" ed="T"/>二、問答密呪法器勝劣。</p><p xml:id="pT46p0999a2610" cb:place="inline">且初敘述密呪功德
+<lb n="0999a26" ed="T"/>二、問答密呪法器勝劣。</p>
+<p xml:id="pT46p0999a2610" cb:place="inline">且初敘述密呪功德
 <lb n="0999a27" ed="T"/>深廣者，粗依聖教略出十門，廣有無量。<note place="inline">為人多不知密
 <lb n="0999a28" ed="T"/>教深勝，故以十門讚揚用警未聞。若實一向捨顯讚密，亦非通人，《華嚴經》云：「受一非餘，魔所攝持。」勸諸後學若
 <lb n="0999a29" ed="T"/>顯若密，或性或相，行則任在一門，信須圓通無礙，勿同盲人摸象弟子洗足。余曾有偈云：「大聖親宣五教文，千
@@ -1027,7 +1087,11 @@
 <lb n="1000a21" ed="T"/>持我神呪。若未能誦，寫於禪堂或戴身上，一
 <lb n="1000a22" ed="T"/>切諸魔所不能動。』如是等文藏教彌多。現見
 <lb n="1000a23" ed="T"/>世人被鬼神惱害，持呪者尚能除得，況於自
-<lb n="1000a24" ed="T"/><note n="1000a2401" resp="CBETA" type="add">己【CB】，已【大】</note><app n="1000a2401"><lem resp="CBETA" wit="【CB】">己</lem><rdg wit="【大】">已</rdg></app>敢惱害耶？」</p>
+<lb n="1000a24" ed="T"/><note 
+n="1000a2401" resp="CBETA" type="add">己【CB】，已【大】</note><app n="1000a2401">
+  <lem resp="CBETA" wit="【CB】">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>敢惱害耶？」</p>
 <lb n="1000a25" ed="T"/><p xml:id="pT46p1000a2501">三、除身心病增長福慧門者，謂《聖六字陀羅
 <lb n="1000a26" ed="T"/>尼經》、《普賢陀羅尼經》、《文殊一字呪》等十五餘
 <lb n="1000a27" ed="T"/>本經皆說：「真言行人能除種種身心病苦。言
@@ -1071,7 +1135,11 @@
 <lb n="1000c05" ed="T"/>結界上下散灑，災橫爾時皆即除滅；十一者不為一切暴惡鬼神羅剎等吸奪精氣；十二者一切有情見聞歡喜，愛
 <lb n="1000c06" ed="T"/>樂尊重常無厭足；十三者常不怖畏一切怨讐；十四者設有怨讐速自消滅；十五者人非人等不能侵害；十六者厭
 <lb n="1000c07" ed="T"/>魅呪詛蠱道不著；十七者煩惱纏垢不數現行；十八者刀毒水火不能傷害；十九者諸天善神常隨衛護；二十者生
-<lb n="1000c08" ed="T"/>生不離慈悲喜捨。」又《<note n="1000c0801" resp="CBETA" type="add" note_key="T46.1000c08.09">十【CB】，下【大】</note><app n="1000c0801"><lem resp="CBETA.ting" wit="【CB】" cb:provider="來函：顿律 (2022-10-23)">十<note type="cf1">T46n1955_p1001c24</note></lem><rdg wit="【大】">下</rdg></app>一面觀世音神呪經》云：「若有淨信善男子善女人等，誦持神呪者，現身獲得十勝利。何
+<lb n="1000c08" ed="T"/>生不離慈悲喜捨。」又《<note 
+n="1000c0801" resp="CBETA" type="add" note_key="T46.1000c08.09">十【CB】，下【大】</note><app n="1000c0801">
+  <lem resp="CBETA.ting" wit="【CB】" cb:provider="來函：顿律 (2022-10-23)">十<note type="cf1">T46n1955_p1001c24</note></lem>
+  <rdg wit="【大】">下</rdg>
+</app>一面觀世音神呪經》云：「若有淨信善男子善女人等，誦持神呪者，現身獲得十勝利。何
 <lb n="1000c09" ed="T"/>等為十？一者身常無病；二者恒為十方諸佛攝受；三者財寶衣食受用無盡；四者能伏怨敵而無所畏；五者令諸
 <lb n="1000c10" ed="T"/>尊貴恭敬信言；六者蠱毒鬼魅不能中傷；七者一切刀杖所不能害；八者水不能溺；九者火不能燒；十者冬不橫
 <lb n="1000c11" ed="T"/>死。」</note></p>
@@ -1167,7 +1235,11 @@
 <lb n="1001c14" ed="T"/>之深廣也，唯宜諦而信之。」故《觀世音菩薩祕
 <lb n="1001c15" ed="T"/>密藏神呪經》云：「若有受持神呪之者，凡有所
 <lb n="1001c16" ed="T"/>作必得成就，唯須深信，不得生疑。」<note place="inline">持呪之者既能利樂有情救脫
-<lb n="1001c17" ed="T"/>幽靈，準《千手千眼觀世音菩薩大悲心陀羅尼經》說：「其持呪人不受<note n="1001c1701" resp="CBETA" type="add" note_key="T46.1001c17.27">十【CB】【嘉興乙-CB】，<space quantity="1" unit="chars"/>【大】</note><app n="1001c1701"><lem resp="CBETA.ting" wit="【CB】【嘉興乙-CB】" cb:provider="來函：顿律 (2023-04-13)">十<note type="cf1">《嘉興藏》（日本東京大學綜合圖書館藏正編第178帙第5冊第50圖右欄第3行）</note></lem><rdg wit="【大】"><space quantity="1" unit="chars"/></rdg></app>五種惡死：一者不令其人飢餓困苦死；二者
+<lb n="1001c17" ed="T"/>幽靈，準《千手千眼觀世音菩薩大悲心陀羅尼經》說：「其持呪人不受<note 
+n="1001c1701" resp="CBETA" type="add" note_key="T46.1001c17.27">十【CB】【嘉興乙-CB】，<space quantity="1" unit="chars"/>【大】</note><app n="1001c1701">
+  <lem resp="CBETA.ting" wit="【CB】【嘉興乙-CB】" cb:provider="來函：顿律 (2023-04-13)">十<note type="cf1">《嘉興藏》（日本東京大學綜合圖書館藏正編第178帙第5冊第50圖右欄第3行）</note></lem>
+  <rdg wit="【大】"><space quantity="1" unit="chars"/></rdg>
+</app>五種惡死：一者不令其人飢餓困苦死；二者
 <lb n="1001c18" ed="T"/>不為枷禁杖楚死；三者不為冤家讐對死；四者不為軍陣相殺死；五者不為虎狼惡獸殘害死；六者不為毒蛇蚖蝎
 <lb n="1001c19" ed="T"/>所中死；七者不為水火漂焚死；八者不為毒藥所中死；九者不為蠱毒所害死；十者不為狂亂失念死；十一者不
 <lb n="1001c20" ed="T"/>為山樹崖岸墜落死；十二者不為惡人厭魅死；十三者不為邪神惡鬼得便死。十四者不為惡病纏身死；十五者不
@@ -1274,7 +1346,11 @@
 <lb n="1003a05" ed="T"/><p xml:id="pT46p1003a0501">九、具自他力現成菩提門者，謂顯教中有自
 <lb n="1003a06" ed="T"/>力他力二門，《十住論》、《念佛鏡》等說：一、自力門，
 <lb n="1003a07" ed="T"/>謂修六度萬行等，名難行道，如人陸地步行
-<lb n="1003a08" ed="T"/>千里程則遲到。二、他力門，謂念佛等名<note n="1003a0801" resp="CBETA" type="add">易【CB】，亦【大】</note><app n="1003a0801"><lem resp="CBETA.maha" wit="【CB】">易<note type="cf1">X59n1077_p0236c07</note></lem><rdg wit="【大】">亦</rdg></app>行
+<lb n="1003a08" ed="T"/>千里程則遲到。二、他力門，謂念佛等名<note 
+n="1003a0801" resp="CBETA" type="add">易【CB】，亦【大】</note><app n="1003a0801">
+  <lem resp="CBETA.maha" wit="【CB】">易<note type="cf1">X59n1077_p0236c07</note></lem>
+  <rdg wit="【大】">亦</rdg>
+</app>行
 <lb n="1003a09" ed="T"/>道，如人水路乘船行千里程則疾到。今真言
 <lb n="1003a10" ed="T"/>中密具自他二力，謂《大乘寶王》等諸經中說：
 <lb n="1003a11" ed="T"/>真言行者日日得具，六波羅蜜圓滿功德。又
@@ -1406,10 +1482,15 @@
 <lb n="1004b19" ed="T"/>率士之內流通二教，一介微僧幸得遭逢，感
 <lb n="1004b20" ed="T"/>慶之心終日有懷，似病人逢靈丹妙藥、窘夫
 <lb n="1004b21" ed="T"/>得如意寶珠，喜躍不已形於詠言，乃成頌曰：</p>
-<lb n="1004b22" ed="T"/><lg xml:id="lgT46p1004b2201" type="regular" style="margin-left:1em;text-indent:-1em"><l>「數年何幸頓忘愁，<caesura/>顯密雙逢稱所求，</l>
-<lb n="1004b23" ed="T"/><l>五部神功功可賴，<caesura/>十玄妙觀觀無休。</l>
-<lb n="1004b24" ed="T"/><l>音高音下真言轉，<caesura/>身去身來華藏遊，</l>
-<lb n="1004b25" ed="T"/><l>法界眾生歡喜事，<caesura/>只疑都在我心頭。」</l></lg></cb:div>
+<lb n="1004b22" ed="T"/><lg xml:id="lgT46p1004b2201" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「數年何幸頓忘愁，<caesura/>顯密雙逢稱所求，</l>
+<lb n="1004b23" ed="T"/>
+  <l>五部神功功可賴，<caesura/>十玄妙觀觀無休。</l>
+<lb n="1004b24" ed="T"/>
+  <l>音高音下真言轉，<caesura/>身去身來華藏遊，</l>
+<lb n="1004b25" ed="T"/>
+  <l>法界眾生歡喜事，<caesura/>只疑都在我心頭。」</l>
+</lg></cb:div>
 <lb n="1004b26" ed="T"/><cb:juan n="002" fun="close"><cb:jhead>顯密圓通成佛心要卷下</cb:jhead></cb:juan>
 <lb n="1004b27" ed="T"/>
 <lb n="1004b28" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">供佛利生儀</cb:mulu><head>供佛利生儀</head>
@@ -1425,18 +1506,21 @@
 <lb n="1004c08" ed="T"/>方始以飲食香華等隨力所辦之物，并盛飲
 <lb n="1004c09" ed="T"/>食器物等，皆以普通吉祥印印之，<note place="inline">石手拇指與無名指相捻，餘
 <lb n="1004c10" ed="T"/>三指皆捨散。</note>誦淨法界真言加持二十一遍，真言
-<lb n="1004c11" ed="T"/>曰：</p><p xml:id="pT46p1004c1102" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E349"/></cb:t><cb:t xml:lang="zh-Hant">㘕」</cb:t></cb:tt></p>
+<lb n="1004c11" ed="T"/>曰：</p>
+<p xml:id="pT46p1004c1102" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E349"/></cb:t><cb:t xml:lang="zh-Hant">㘕」</cb:t></cb:tt></p>
 <lb n="1004c12" ed="T"/><p xml:id="pT46p1004c1201">由誦㘕字真言加持及手印力，其飲食器物
 <lb n="1004c13" ed="T"/>等，自然清淨遍法界也。次誦無量威德自在
 <lb n="1004c14" ed="T"/>光明勝劣力變食真言，加持二十一遍，真言
-<lb n="1004c15" ed="T"/>曰：</p><p xml:id="pT46p1004c1502" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">娜</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">薩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B7A3"/></cb:t><cb:t xml:lang="zh-Hant">嚩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A564"/></cb:t><cb:t xml:lang="zh-Hant">他</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A458"/></cb:t><cb:t xml:lang="zh-Hant">蘖</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A558"/></cb:t><cb:t xml:lang="zh-Hant">多</cb:t></cb:tt>
+<lb n="1004c15" ed="T"/>曰：</p>
+<p xml:id="pT46p1004c1502" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">娜</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">薩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B7A3"/></cb:t><cb:t xml:lang="zh-Hant">嚩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A564"/></cb:t><cb:t xml:lang="zh-Hant">他</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A458"/></cb:t><cb:t xml:lang="zh-Hant">蘖</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A558"/></cb:t><cb:t xml:lang="zh-Hant">多</cb:t></cb:tt>
 <lb n="1004c16" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A656"/></cb:t><cb:t xml:lang="zh-Hant">嚩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A652"/></cb:t><cb:t xml:lang="zh-Hant">盧</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A442"/></cb:t><cb:t xml:lang="zh-Hant">枳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A55D"/></cb:t><cb:t xml:lang="zh-Hant">帝</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A6"/></cb:t><cb:t xml:lang="zh-Hant">參</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5D9"/></cb:t><cb:t xml:lang="zh-Hant">婆</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5FD"/></cb:t><cb:t xml:lang="zh-Hant">囉</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A6"/></cb:t><cb:t xml:lang="zh-Hant">參</cb:t></cb:tt>
 <lb n="1004c17" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5D9"/></cb:t><cb:t xml:lang="zh-Hant">婆</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5FD"/></cb:t><cb:t xml:lang="zh-Hant">囉</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E2F6"/></cb:t><cb:t xml:lang="zh-Hant">吽」</cb:t></cb:tt></p>
 <lb n="1004c18" ed="T"/><p xml:id="pT46p1004c1801">由加持力，其飲食等即變成諸天種種餚膳
 <lb n="1004c19" ed="T"/>上味，奉獻供養滿十方佛法僧三寶，亦為讚
 <lb n="1004c20" ed="T"/>歎、勸請、隨喜功德。後結出生供養印，<note place="inline">二手當心合掌，以十
 <lb n="1004c21" ed="T"/>指右壓左頭指，交復安在頂上。</note>誦出生供養真言二十一遍，真
-<lb n="1004c22" ed="T"/>言曰：</p><p xml:id="pT46p1004c2203" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵」</cb:t></cb:tt></p>
+<lb n="1004c22" ed="T"/>言曰：</p>
+<p xml:id="pT46p1004c2203" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵」</cb:t></cb:tt></p>
 <lb n="1004c23" ed="T"/><p xml:id="pT46p1004c2301">由誦唵字真言及印不思議力，自然遍法界
 <lb n="1004c24" ed="T"/>有無盡香華燈燭、幢旛傘蓋、衣服臥具、樓閣宮
 <lb n="1004c25" ed="T"/>殿、音樂歌舞等種種諸供養具，盡供養遍法
@@ -1466,7 +1550,8 @@
 <lb n="1005a19" ed="T"/><p xml:id="pT46p1005a1901">若欲施水，取水一掬，用甘露呪呪之七遍，
 <lb n="1005a20" ed="T"/>散於空中。其水一滴即皆變成十斛甘露，
 <lb n="1005a21" ed="T"/>一切餓鬼並得飲之，無有之少皆得飽足。甘
-<lb n="1005a22" ed="T"/>露呪曰：</p><p xml:id="pT46p1005a2204" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">南</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">無</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0BC"/></cb:t><cb:t xml:lang="zh-Hant">素</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642"/></cb:t><cb:t xml:lang="zh-Hant">嚕</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5B5"/></cb:t><cb:t xml:lang="zh-Hant">皤</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F1"/></cb:t><cb:t xml:lang="zh-Hant">耶</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt>
+<lb n="1005a22" ed="T"/>露呪曰：</p>
+<p xml:id="pT46p1005a2204" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">南</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">無</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0BC"/></cb:t><cb:t xml:lang="zh-Hant">素</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642"/></cb:t><cb:t xml:lang="zh-Hant">嚕</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5B5"/></cb:t><cb:t xml:lang="zh-Hant">皤</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F1"/></cb:t><cb:t xml:lang="zh-Hant">耶</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt>
 <lb n="1005a23" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A564"/></cb:t><cb:t xml:lang="zh-Hant">他</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A458"/></cb:t><cb:t xml:lang="zh-Hant">揭</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">多</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F1"/></cb:t><cb:t xml:lang="zh-Hant">耶</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA4A"/></cb:t><cb:t xml:lang="zh-Hant">姪</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">他</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0BC"/></cb:t><cb:t xml:lang="zh-Hant">素</cb:t></cb:tt>
 <lb n="1005a24" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642"/></cb:t><cb:t xml:lang="zh-Hant">嚕</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0BC"/></cb:t><cb:t xml:lang="zh-Hant">素</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642"/></cb:t><cb:t xml:lang="zh-Hant">嚕</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5B5"/></cb:t><cb:t xml:lang="zh-Hant">皤</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5FD"/></cb:t><cb:t xml:lang="zh-Hant">囉</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0BC"/></cb:t><cb:t xml:lang="zh-Hant">素</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642"/></cb:t><cb:t xml:lang="zh-Hant">嚕</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5B5"/></cb:t><cb:t xml:lang="zh-Hant">皤</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5FD"/></cb:t><cb:t xml:lang="zh-Hant">囉</cb:t></cb:tt>
 <lb n="1005a25" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0BC"/></cb:t><cb:t xml:lang="zh-Hant">素</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642"/></cb:t><cb:t xml:lang="zh-Hant">嚕</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B065"/></cb:t><cb:t xml:lang="zh-Hant">莎</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A9"/></cb:t><cb:t xml:lang="zh-Hant">呵」</cb:t></cb:tt><note place="inline">《曼荼羅疏》云：「夫為道者祈運為宗，上若不供諸佛菩薩，
@@ -1474,7 +1559,8 @@
 <lb n="1005a27" ed="T"/><p xml:id="pT46p1005a2701">若救地獄，誦智炬如來心破地獄真言一遍，
 <pb n="1005b" ed="T" xml:id="T46.1955.1005b"/>
 <lb n="1005b01" ed="T"/>無間地獄碎如微塵，於中受苦眾生，悉生極
-<lb n="1005b02" ed="T"/>樂世界。真言曰：</p><p xml:id="pT46p1005b0207" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-CFC5"/></cb:t><cb:t xml:lang="zh-Hant">阿</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B547"/></cb:t><cb:t xml:lang="zh-Hant">灑吒</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A665"/></cb:t><cb:t xml:lang="zh-Hant">
+<lb n="1005b02" ed="T"/>樂世界。真言曰：</p>
+<p xml:id="pT46p1005b0207" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-CFC5"/></cb:t><cb:t xml:lang="zh-Hant">阿</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B547"/></cb:t><cb:t xml:lang="zh-Hant">灑吒</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A665"/></cb:t><cb:t xml:lang="zh-Hant">
 <lb n="1005b03" ed="T"/>悉</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A55A"/></cb:t><cb:t xml:lang="zh-Hant">底</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E040"/></cb:t><cb:t xml:lang="zh-Hant">喃</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">三</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A8A6"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>摩也</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA40"/></cb:t><cb:t xml:lang="zh-Hant">三</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E3AD"/></cb:t><cb:t xml:lang="zh-Hant">母</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-D9FA"/></cb:t><cb:t xml:lang="zh-Hant">馱</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A444"/></cb:t><cb:t xml:lang="zh-Hant">
 <lb n="1005b04" ed="T"/>故</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A4DC"/></cb:t><cb:t xml:lang="zh-Hant">緻</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E040"/></cb:t><cb:t xml:lang="zh-Hant">喃</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0A4"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>艮齧</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A656"/></cb:t><cb:t xml:lang="zh-Hant">嚩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5D9"/></cb:t><cb:t xml:lang="zh-Hant">婆</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67C"/></cb:t><cb:t xml:lang="zh-Hant">
 <lb n="1005b05" ed="T"/>悉</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A4E8"/></cb:t><cb:t xml:lang="zh-Hant">蹄</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A640"/></cb:t><cb:t xml:lang="zh-Hant">哩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A57D"/></cb:t><cb:t xml:lang="zh-Hant">提</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A640"/></cb:t><cb:t xml:lang="zh-Hant">哩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E2F6"/></cb:t><cb:t xml:lang="zh-Hant">吽」</cb:t></cb:tt><note place="inline">若書此陀羅尼，於鍾鼓鈴鐸作聲木上等，
@@ -1488,7 +1574,8 @@
 <lb n="1005b13" ed="T"/>獄餓鬼傍生修羅等中，以此真言神通威力
 <lb n="1005b14" ed="T"/>加持土砂之力，應時即得光明及身，除諸罪
 <lb n="1005b15" ed="T"/>報捨所苦身，往於西方極樂國土，蓮花化生
-<lb n="1005b16" ed="T"/>更不墮落，直至成佛。真言曰：</p><p xml:id="pT46p1005b1612" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E047"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-CFC5"/></cb:t><cb:t xml:lang="zh-Hant">阿</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t>
+<lb n="1005b16" ed="T"/>更不墮落，直至成佛。真言曰：</p>
+<p xml:id="pT46p1005b1612" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-E047"/></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-CFC5"/></cb:t><cb:t xml:lang="zh-Hant">阿</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t>
 <lb n="1005b17" ed="T"/><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A464"/></cb:t><cb:t xml:lang="zh-Hant">伽</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A65D"/></cb:t><cb:t xml:lang="zh-Hant">尼</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642"/></cb:t><cb:t xml:lang="zh-Hant">嚧</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A47C"/></cb:t><cb:t xml:lang="zh-Hant">左</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5E5"/></cb:t><cb:t xml:lang="zh-Hant">摩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A9"/></cb:t><cb:t xml:lang="zh-Hant">賀</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E043"/></cb:t><cb:t xml:lang="zh-Hant">母</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-AA76"/></cb:t>
 <lb n="1005b18" ed="T"/><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>捺囉</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5E5"/></cb:t><cb:t xml:lang="zh-Hant">麼</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A54D"/></cb:t><cb:t xml:lang="zh-Hant">抳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5B5"/></cb:t><cb:t xml:lang="zh-Hant">鉢</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DAAF"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>納麼</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-AEB8"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>入嚩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A64A"/></cb:t><cb:t xml:lang="zh-Hant">
 <lb n="1005b19" ed="T"/>攞</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-AABC"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>鉢囉</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A656"/></cb:t><cb:t xml:lang="zh-Hant">靺</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B6B0"/></cb:t><cb:t xml:lang="zh-Hant">哆</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F1"/></cb:t><cb:t xml:lang="zh-Hant">野</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E2F6"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>吽</cb:zi><cb:sg>引</cb:sg>」</cb:yin></cb:t></cb:tt><note place="inline">或用紙帛等書此諸真
@@ -1503,7 +1590,8 @@
 <pb n="1005c" ed="T" xml:id="T46.1955.1005c"/>
 <lb n="1005c01" ed="T"/>一切無間等罪，若得遇此持明人影暫映其
 <lb n="1005c02" ed="T"/>身，忽得共語或聞語聲，彼人罪障悉得消滅。
-<lb n="1005c03" ed="T"/>真言曰：</p><p xml:id="pT46p1005c0304" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5FD"/></cb:t><cb:t xml:lang="zh-Hant">囉</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA4B"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>怛曩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-AA5E"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>怛囉</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F2"/></cb:t>
+<lb n="1005c03" ed="T"/>真言曰：</p>
+<p xml:id="pT46p1005c0304" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5FD"/></cb:t><cb:t xml:lang="zh-Hant">囉</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA4B"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>怛曩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-AA5E"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>怛囉</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F2"/></cb:t>
 <lb n="1005c04" ed="T"/><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>夜</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F1"/></cb:t><cb:t xml:lang="zh-Hant">野</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5ED"/></cb:t><cb:t xml:lang="zh-Hant">謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-CFC5"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>阿</cb:zi><cb:sg>去引</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B769"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>哩也</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A656"/></cb:t><cb:t xml:lang="zh-Hant">嚩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A652"/></cb:t><cb:t xml:lang="zh-Hant">
 <lb n="1005c05" ed="T"/>路</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A442"/></cb:t><cb:t xml:lang="zh-Hant">枳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A55D"/></cb:t><cb:t xml:lang="zh-Hant">帝</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0AB"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>濕嚩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5FD"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>囉</cb:zi><cb:sg>平引</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F1"/></cb:t><cb:t xml:lang="zh-Hant">野</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A65E"/></cb:t><cb:t xml:lang="zh-Hant">冐</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A57D"/></cb:t><cb:t xml:lang="zh-Hant">地</cb:t></cb:tt>
 <lb n="1005c06" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">薩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-AF59"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>怛嚩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F1"/></cb:t><cb:t xml:lang="zh-Hant">野</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5E5"/></cb:t><cb:t xml:lang="zh-Hant">摩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A9"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>賀</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">薩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-AF59"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>怛嚩
@@ -1511,7 +1599,8 @@
 <lb n="1005c08" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA4A"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>爾也</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A564"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>他</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>唵</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0C1"/></cb:t><cb:t xml:lang="zh-Hant">度</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5AB"/></cb:t><cb:t xml:lang="zh-Hant">𩕳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0C1"/></cb:t><cb:t xml:lang="zh-Hant">度</cb:t></cb:tt>
 <lb n="1005c09" ed="T"/><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5AB"/></cb:t><cb:t xml:lang="zh-Hant">𩕳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A440"/></cb:t><cb:t xml:lang="zh-Hant">迦</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E0C1"/></cb:t><cb:t xml:lang="zh-Hant">度</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5AB"/></cb:t><cb:t xml:lang="zh-Hant">𩕳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA49"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>婆嚩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A9"/></cb:t><cb:t xml:lang="zh-Hant">賀」</cb:t></cb:tt><note place="inline">樂略者，只唵字已
 <lb n="1005c10" ed="T"/>下持之，唵字已上是歸敬辭，唵字等是正呪也。若書此陀羅尼，於鍾鼓鈴鐸等一切出聲物上，或有撞擊吹振出
-<lb n="1005c11" ed="T"/>聲，一切眾生聞此聲者悉皆清淨命終得生西方淨土。</note></p><p xml:id="pT46p1005c1122" cb:place="inline">若欲利樂一切四生等
+<lb n="1005c11" ed="T"/>聲，一切眾生聞此聲者悉皆清淨命終得生西方淨土。</note></p>
+<p xml:id="pT46p1005c1122" cb:place="inline">若欲利樂一切四生等
 <lb n="1005c12" ed="T"/>有情者，應書大寶廣博樓閣善住祕密陀羅
 <lb n="1005c13" ed="T"/>尼，在於幢上堂殿上，或素㲲上、或紙帛上、或
 <lb n="1005c14" ed="T"/>經卷上、或牆壁牌版等上，有諸眾生暫得眼
@@ -1543,7 +1632,8 @@
 <lb n="1006a10" ed="T"/>傍生鹿鳥蚊虻飛蛾螻蟻，乃至胎生卵生濕
 <lb n="1006a11" ed="T"/>生化生，諸有情等聞此陀羅尼名者，或身觸
 <lb n="1006a12" ed="T"/>者或影中過者，決定當得無上菩提等云云。
-<lb n="1006a13" ed="T"/>大寶廣博樓閣善住祕密陀羅尼曰：</p><p xml:id="pT46p1006a1315" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F0"/></cb:t><cb:t xml:lang="zh-Hant">
+<lb n="1006a13" ed="T"/>大寶廣博樓閣善住祕密陀羅尼曰：</p>
+<p xml:id="pT46p1006a1315" cb:type="dharani" cb:place="inline"><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">「<g ref="#SD-A5A9"/></cb:t><cb:t xml:lang="zh-Hant">曩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F0"/></cb:t><cb:t xml:lang="zh-Hant">
 <lb n="1006a14" ed="T"/>謨</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A67A"/></cb:t><cb:t xml:lang="zh-Hant">薩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B7A3"/></cb:t><cb:t xml:lang="zh-Hant">嚩</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A564"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>他</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A458"/></cb:t><cb:t xml:lang="zh-Hant">蘖</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A558"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>多</cb:zi><cb:sg>去聲</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E040"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>南</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t></cb:tt><note place="inline">一</note>
 <lb n="1006a15" ed="T"/>　<cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-E074"/></cb:t><cb:t xml:lang="zh-Hant">俺</cb:t></cb:tt><note place="inline">二</note>　<cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A658"/></cb:t><cb:t xml:lang="zh-Hant">尾</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5B9"/></cb:t><cb:t xml:lang="zh-Hant">補</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A64A"/></cb:t><cb:t xml:lang="zh-Hant">攞</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A458"/></cb:t><cb:t xml:lang="zh-Hant">蘖</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5E5"/></cb:t><cb:t xml:lang="zh-Hant">陛</cb:t></cb:tt><note place="inline">三</note>　<cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5E5"/></cb:t><cb:t xml:lang="zh-Hant">麼</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A54D"/></cb:t><cb:t xml:lang="zh-Hant">抳</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd">
 <lb n="1006a16" ed="T"/><g ref="#SD-AABC"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>鉢囉</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5DF"/></cb:t><cb:t xml:lang="zh-Hant">陛</cb:t></cb:tt><note place="inline">四</note>　<cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant">怛</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A564"/></cb:t><cb:t xml:lang="zh-Hant">他</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A458"/></cb:t><cb:t xml:lang="zh-Hant">蘖</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A558"/></cb:t><cb:t xml:lang="zh-Hant">多</cb:t></cb:tt><note place="inline">五</note>　<cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5AB"/></cb:t><cb:t xml:lang="zh-Hant">儞</cb:t></cb:tt>
@@ -1555,7 +1645,8 @@
 <lb n="1006a22" ed="T"/></cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>多</cb:zi><cb:sg>上聲</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A458"/></cb:t><cb:t xml:lang="zh-Hant">蘗</cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B757"/></cb:t><cb:t xml:lang="zh-Hant">陛</cb:t></cb:tt><note place="inline">十六</note>　<cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-B065"/></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>娑嚩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt place="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A9"/></cb:t><cb:t xml:lang="zh-Hant">訶</cb:t></cb:tt><note place="inline">十七</note>」<note place="inline">又若人於
 <lb n="1006a23" ed="T"/>高山頂上誦此陀羅尼者，盡眼所見處一切眾生，皆得滅一切罪業，得離一切地獄業，得免一切傍生身。上來諸
 <lb n="1006a24" ed="T"/>呪藏中各有數本不同，皆是前後三藏西天諸國語音有異，但依一本誦持無得揀擇。寡學之者，多分受一、非餘
-<lb n="1006a25" ed="T"/>呵斥。聖賢寄語後人，勿霑斯咎。</note></p><p xml:id="pT46p1006a2513" cb:place="inline">上來供佛利生諸真言等，若
+<lb n="1006a25" ed="T"/>呵斥。聖賢寄語後人，勿霑斯咎。</note></p>
+<p xml:id="pT46p1006a2513" cb:place="inline">上來供佛利生諸真言等，若
 <lb n="1006a26" ed="T"/>不能都各誦持書寫得，皆用准提真言亦得，
 <lb n="1006a27" ed="T"/>故《持明藏儀軌經》云：「此准提呪似如意珠，若
 <lb n="1006a28" ed="T"/>有行人處處用之，皆得成就。」是也。</p>

@@ -2,76 +2,79 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="GA001n0003">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Zhongguo Fosi Shizhi Huikan</title>
-			<title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
-			<title level="m" xml:lang="zh-Hant">洛陽伽藍記鉤沈</title>
-			<title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 3 洛陽伽藍記鉤沈</title>
-			<title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 3 洛陽伽藍記鉤沈</title>
-			<author>民國 唐晏鉤沈</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>5卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">GA</idno>.<idno type="vol">1</idno>.<idno type="no">3</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>中國佛寺史志彙刊</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
-			<p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【志彙】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2017-05-03">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Zhongguo Fosi Shizhi Huikan</title>
+      <title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
+      <title level="m" xml:lang="zh-Hant">洛陽伽藍記鉤沈</title>
+      <title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 3 洛陽伽藍記鉤沈</title>
+      <title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 3 洛陽伽藍記鉤沈</title>
+      <author>民國 唐晏鉤沈</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>5卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">GA</idno>.<idno type="vol">1</idno>.<idno type="no">3</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>中國佛寺史志彙刊</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+      <p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【志彙】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2017-05-03">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="GA" xml:id="GA001.0003.0271a" n="0271a"/>
-<lb ed="GA" n="0271a01"/><cb:mulu type="卷" n="1"/><cb:div type="other"><cb:mulu type="其他" level="1">版本說明</cb:mulu><p xml:id="pGA001p0271a0101" style="margin-left:0em;text-indent:2em"><note n="0271a0101" resp="CBETA" type="add">此「版本說明」一文原為書本開頭無頁碼之插頁，今為標記架構上之需要移到此處，且以 p0271a 為虛擬頁欄碼。</note>吳若準旣聞顧廣圻改定洛陽伽藍記本注之說於其舅，而有「集證」之作。唯吳本正文太簡，子注
+<lb ed="GA" n="0271a01"/><cb:mulu type="卷" n="1"/>
+<cb:div type="other"><cb:mulu type="其他" level="1">版本說明</cb:mulu>
+<p xml:id="pGA001p0271a0101" style="margin-left:0em;text-indent:2em"><note 
+n="0271a0101" resp="CBETA" type="add">此「版本說明」一文原為書本開頭無頁碼之插頁，今為標記架構上之需要移到此處，且以 p0271a 為虛擬頁欄碼。</note>吳若準旣聞顧廣圻改定洛陽伽藍記本注之說於其舅，而有「集證」之作。唯吳本正文太簡，子注
 <lb ed="GA" n="0271a02"/>過繁，其所分析疑與楊記舊觀相去甚遠，唐晏因是有「洛陽伽藍記鉤沈」之作。晏本滿州人，姓
 <lb ed="GA" n="0271a03"/>瓜爾佳氏，淸社旣屋，始改氏唐，光緒八年（一八八二）進士，精於詞章書畫金石考據之學。民
 <lb ed="GA" n="0271a04"/>國四年（一九一五）避居滬上，因嫌吳氏集證『限域未淸，混淆不免，雖少勝於舊編，猶未盡夫塵
@@ -88,7 +91,8 @@
 <lb ed="GA" n="0271a15"/>强為分析，終不免於千慮之失耳。唐氏鉤沈上繼吳氏集證而作，下啟張氏合校本出，因據民國六
 <lb ed="GA" n="0271a16"/>年潮陽鄭氏刋本景印。因係僅供學者比閱，故「集證」與「鉤沈」兩本，皆以四合一縮印之。</p></cb:div>
 <pb ed="GA" xml:id="GA001.0003.0272a" n="0272a"/>
-<lb ed="GA" n="0272a01"/><cb:div type="other"><cb:mulu type="其他" level="1">總圖</cb:mulu><head>洛陽伽藍記總圖<note n="0272001" resp="DILA" place="foot text" type="orig">七里橋、崇義里、洛陽縣、靈應寺、魏昌寺、綏民里、東石橋、建陽里、明懸寺、土台、白社、十寺、石橋、景興寺、秦太上君寺、龍華寺、租場里、太倉、莊嚴寺、馬市、正始寺、敬義里、孝義里、平等寺、東安里、昭義里、殖貨里、小市、典虞曹、景甯里、鴻池陂、阮曲、延賢里、勤學里、正覺寺、大覺寺、龍華寺、三寶寺、追聖寺、報德寺、甯遠寺、太上公二寺、明堂、永橋、利民里、大統寺、景明寺、漢國子學堂、靈台、圓邱、白象坊、獅子坊、四館、四里、菩提寺、歸正、四通市、中甘里、高陽王寺、崇虛寺、建春、東陽、青陽、景林寺、開陽、平昌、宣陽、津陽、衣冠里、凌隂里、修梵寺、嵩明寺、景樂寺、宜壽里、永和里、昭儀尼寺、閶闔門、萬春門、雲龍門、神虎門、千秋門、司農寺、藏氷室、將作曹、太尉府、右衛府、九級府、太社、左衛府、司空府、太廟、國子學堂、宗正寺、護軍府、義井里、太倉、導官、治粟里、勾盾、典農、籍田、苗茨堂、西遊圓、晉太倉、步廣里、聽松觀、河南尹、景陽山、廣漠、大夏、淩雲台、濛氾池、翟泉、天淵池、華林園、洛陽小城、金墉城、瑤光寺、長秋寺、建中寺、延年里、永康里、武庫、乘黃署、太僕寺、御史台、永甯寺、胡統寺、昭元曹、金市、西明、西陽、閶闔、承明、沖覺寺、宣忠寺、白馬寺、王典御寺、融覺寺、永明寺、大覺寺、臨淮王宅、光寶寺、法靈寺、開善寺、靈仙寺、河陽縣、通商里、達貨里、樂律里、調音里、皇女台、準財里、慈孝里、奉終里、宜牛里、金肆里、退酤里、治觴里、追光寺、壽邱里、大市、長分橋、千金堨、邙山、宣武觀、閱武場、禪虛寺、凝元寺。</note></head>
+<lb ed="GA" n="0272a01"/><cb:div type="other"><cb:mulu type="其他" level="1">總圖</cb:mulu><head>洛陽伽藍記總圖<note 
+n="0272001" resp="DILA" place="foot text" type="orig">七里橋、崇義里、洛陽縣、靈應寺、魏昌寺、綏民里、東石橋、建陽里、明懸寺、土台、白社、十寺、石橋、景興寺、秦太上君寺、龍華寺、租場里、太倉、莊嚴寺、馬市、正始寺、敬義里、孝義里、平等寺、東安里、昭義里、殖貨里、小市、典虞曹、景甯里、鴻池陂、阮曲、延賢里、勤學里、正覺寺、大覺寺、龍華寺、三寶寺、追聖寺、報德寺、甯遠寺、太上公二寺、明堂、永橋、利民里、大統寺、景明寺、漢國子學堂、靈台、圓邱、白象坊、獅子坊、四館、四里、菩提寺、歸正、四通市、中甘里、高陽王寺、崇虛寺、建春、東陽、青陽、景林寺、開陽、平昌、宣陽、津陽、衣冠里、凌隂里、修梵寺、嵩明寺、景樂寺、宜壽里、永和里、昭儀尼寺、閶闔門、萬春門、雲龍門、神虎門、千秋門、司農寺、藏氷室、將作曹、太尉府、右衛府、九級府、太社、左衛府、司空府、太廟、國子學堂、宗正寺、護軍府、義井里、太倉、導官、治粟里、勾盾、典農、籍田、苗茨堂、西遊圓、晉太倉、步廣里、聽松觀、河南尹、景陽山、廣漠、大夏、淩雲台、濛氾池、翟泉、天淵池、華林園、洛陽小城、金墉城、瑤光寺、長秋寺、建中寺、延年里、永康里、武庫、乘黃署、太僕寺、御史台、永甯寺、胡統寺、昭元曹、金市、西明、西陽、閶闔、承明、沖覺寺、宣忠寺、白馬寺、王典御寺、融覺寺、永明寺、大覺寺、臨淮王宅、光寶寺、法靈寺、開善寺、靈仙寺、河陽縣、通商里、達貨里、樂律里、調音里、皇女台、準財里、慈孝里、奉終里、宜牛里、金肆里、退酤里、治觴里、追光寺、壽邱里、大市、長分橋、千金堨、邙山、宣武觀、閱武場、禪虛寺、凝元寺。</note></head>
 <lb ed="GA" n="0272a02"/><p xml:id="pGA001p0272a0201"><figure><graphic url="../figures/GA/GA001p0272_01.gif"/></figure></p></cb:div>
 <pb ed="GA" xml:id="GA001.0003.0273a" n="0273a"/>
 <lb ed="GA" n="0273a01"/><cb:div type="other"><cb:mulu type="其他" level="1">鉤沈序</cb:mulu><head>洛陽伽藍記鉤沈序</head>
@@ -108,33 +112,80 @@
 <lb ed="GA" n="0273a15"/>之悲無可寄慨乃於洛陽伽藍託其懷舊之思焉豈真
 <lb ed="GA" n="0273a16"/>為彼教之助乎宜其寥寥一篇孤行殆將千二百年而
 <lb ed="GA" n="0273a17"/>莫之能廢也殺青既竟更為條例敘之左方</p>
-<lb ed="GA" n="0273a18"/><list style="margin-left:1em"><item xml:id="itemGA001p0273a1801"><note n="0273a1801" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273a1801"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>古人箸書必有一定體裁北魏人箸述在者惟此暨
+<lb ed="GA" n="0273a18"/><list style="margin-left:1em">
+  <item xml:id="itemGA001p0273a1801"><note 
+n="0273a1801" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273a1801">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>古人箸書必有一定體裁北魏人箸述在者惟此暨
 <lb ed="GA" n="0273a19"/>水經注耳故今刊定此書全用水經注體裁</item>
-<lb ed="GA" n="0273a20"/><item xml:id="itemGA001p0273a2001"><note n="0273a2001" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273a2001"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>書記伽藍自應以寺為主而時事輔之故凡涉及寺
+<lb ed="GA" n="0273a20"/>
+  <item xml:id="itemGA001p0273a2001"><note 
+n="0273a2001" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273a2001">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>書記伽藍自應以寺為主而時事輔之故凡涉及寺
 <pb ed="GA" xml:id="GA001.0003.0273b" n="0273b"/>
 <lb ed="GA" n="0273b01"/>事例高一格書而餘文坿之</item>
-<lb ed="GA" n="0273b02"/><item xml:id="itemGA001p0273b0201"><note n="0273b0201" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0201"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>名稱洛陽則凡市里亦概入正文高一格書之官寺
+<lb ed="GA" n="0273b02"/>
+  <item xml:id="itemGA001p0273b0201"><note 
+n="0273b0201" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0201">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>名稱洛陽則凡市里亦概入正文高一格書之官寺
 <lb ed="GA" n="0273b03"/>亦然</item>
-<lb ed="GA" n="0273b04"/><item xml:id="itemGA001p0273b0401"><note n="0273b0401" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0401"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>凡涉及時人第宅亦高一格然必由里及居不復特
+<lb ed="GA" n="0273b04"/>
+  <item xml:id="itemGA001p0273b0401"><note 
+n="0273b0401" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0401">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>凡涉及時人第宅亦高一格然必由里及居不復特
 <lb ed="GA" n="0273b05"/>出</item>
-<lb ed="GA" n="0273b06"/><item xml:id="itemGA001p0273b0601"><note n="0273b0601" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0601"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>此外坿注概為低一格書若坿注之外有楊氏案語
+<lb ed="GA" n="0273b06"/>
+  <item xml:id="itemGA001p0273b0601"><note 
+n="0273b0601" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0601">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>此外坿注概為低一格書若坿注之外有楊氏案語
 <lb ed="GA" n="0273b07"/>則作夾行書所謂注中有注也</item>
-<lb ed="GA" n="0273b08"/><item xml:id="itemGA001p0273b0801"><note n="0273b0801" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0801"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>此書誤字極多有可考訂則再三斟酌而從其一若
+<lb ed="GA" n="0273b08"/>
+  <item xml:id="itemGA001p0273b0801"><note 
+n="0273b0801" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b0801">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>此書誤字極多有可考訂則再三斟酌而從其一若
 <lb ed="GA" n="0273b09"/>竟無可從而灼見其為某字間有以意定之者然必以
 <lb ed="GA" n="0273b10"/>△別之</item>
-<lb ed="GA" n="0273b11"/><item xml:id="itemGA001p0273b1101"><note n="0273b1101" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b1101"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>此書各本互有不同吳氏別為考異今仿阮氏刻經
+<lb ed="GA" n="0273b11"/>
+  <item xml:id="itemGA001p0273b1101"><note 
+n="0273b1101" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b1101">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>此書各本互有不同吳氏別為考異今仿阮氏刻經
 <lb ed="GA" n="0273b12"/>疏例凡遇考訂之字旁以圈別之</item>
-<lb ed="GA" n="0273b13"/><item xml:id="itemGA001p0273b1301"><note n="0273b1301" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b1301"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>楊氏此書意在借伽藍而存時事故於元氏諸王及
+<lb ed="GA" n="0273b13"/>
+  <item xml:id="itemGA001p0273b1301"><note 
+n="0273b1301" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b1301">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>楊氏此書意在借伽藍而存時事故於元氏諸王及
 <lb ed="GA" n="0273b14"/>公卿多述其行事而河陰一役言之尤詳今搜採魏書
 <lb ed="GA" n="0273b15"/>及北史凡書中人物皆略注其大概而它有足以引證
 <lb ed="GA" n="0273b16"/>此書者亦坿焉</item>
-<lb ed="GA" n="0273b17"/><item xml:id="itemGA001p0273b1701"><note n="0273b1701" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b1701"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一</rdg></app>吳氏書有圖一紙而小有未合今改訂而仍以冠於
-<lb ed="GA" n="0273b18"/>其首焉</item></list>
+<lb ed="GA" n="0273b17"/>
+  <item xml:id="itemGA001p0273b1701"><note 
+n="0273b1701" resp="CBETA" type="add">［－］【CB】，一【志彙】</note><app n="0273b1701">
+    <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+    <rdg wit="【志彙】">一</rdg>
+  </app>吳氏書有圖一紙而小有未合今改訂而仍以冠於
+<lb ed="GA" n="0273b18"/>其首焉</item>
+</list>
 <lb ed="GA" n="0273b19"/><p xml:id="pGA001p0273b1901" style="margin-left:1em">乙卯春二月漯川居士唐晏敘於海上飛塵小住</p></cb:div>
 <lb ed="GA" n="0273b20"/>
 <pb ed="GA" xml:id="GA001.0003.0274a" n="0274a"/>
 <lb ed="GA" n="0274a01"/><cb:juan fun="open" n="1"><cb:jhead>洛陽伽藍記鉤沈卷一</cb:jhead></cb:juan>
-<lb ed="GA" n="0274a02"/><cb:div type="other"><cb:mulu type="其他" level="1">原序</cb:mulu><head>原序</head><byline cb:type="author">魏撫軍府司馬楊衒之譔</byline>
+<lb ed="GA" n="0274a02"/><cb:div type="other"><cb:mulu type="其他" level="1">原序</cb:mulu><head>原序</head>
+<byline cb:type="author">魏撫軍府司馬楊衒之譔</byline>
 <lb ed="GA" n="0274a03"/><p xml:id="pGA001p0274a0301">三墳五典之說九流百代之言並理在寰區而義兼天
 <lb ed="GA" n="0274a04"/>外至於一乘二諦之原三明六通之旨西域備詳東土
 <lb ed="GA" n="0274a05"/>靡記自頂日感夢滿月流光陽門飾豪眉之像夜臺圖
@@ -155,9 +206,11 @@
 <lb ed="GA" n="0274a20"/>箸述多有遺漏後之君子詳其闕焉</p>
 <pb ed="GA" xml:id="GA001.0003.0274b" n="0274b"/>
 <lb ed="GA" n="0274b01"/><p xml:id="pGA001p0274b0101" style="margin-left:2em">〔魏書〕孝武帝紀永熙三年冬十月高歡推清河王
-<lb ed="GA" n="0274b02"/>亶子善見為主徙都鄴是為東</p><p xml:id="pGA001p0274b0213" style="margin-left:2em" cb:place="inline">〔又〕東魏孝靜
+<lb ed="GA" n="0274b02"/>亶子善見為主徙都鄴是為東</p>
+<p xml:id="pGA001p0274b0213" style="margin-left:2em" cb:place="inline">〔又〕東魏孝靜
 <lb ed="GA" n="0274b03"/>帝第三改元曰武定凡八年武定五年正月高歡
-<lb ed="GA" n="0274b04"/>死</p><p xml:id="pGA001p0274b0402" style="margin-left:2em" cb:place="inline">〔按〕法苑珠林楊衒之官銜作期城郡守而廣
+<lb ed="GA" n="0274b04"/>死</p>
+<p xml:id="pGA001p0274b0402" style="margin-left:2em" cb:place="inline">〔按〕法苑珠林楊衒之官銜作期城郡守而廣
 <lb ed="GA" n="0274b05"/>宏明集則作祕書監右北平人</p>
 <lb ed="GA" n="0274b06"/><p xml:id="pGA001p0274b0601">太和十七年後魏高祖遷都洛陽詔司空公穆亮營造
 <lb ed="GA" n="0274b07"/>宮室洛陽城門依魏晉舊名東面有三門北頭第一曰建
@@ -210,11 +263,13 @@
 <lb ed="GA" n="0275b12"/>以西至於大夏門宮觀相連被諸城上也</p>
 <lb ed="GA" n="0275b13"/><p xml:id="pGA001p0275b1301">一門有三道所謂九逵</p></cb:div>
 <lb ed="GA" n="0275b14"/><cb:div type="other"><cb:mulu type="其他" level="1">城內</cb:mulu><head>城內</head>
-<lb ed="GA" n="0275b15"/><cb:div type="other"><cb:mulu type="其他" level="2">永甯寺</cb:mulu><head>永甯寺</head><p xml:id="pGA001p0275b1504" cb:place="inline">熙平元年靈太后胡氏所立也在宮前閶闔門
+<lb ed="GA" n="0275b15"/><cb:div type="other"><cb:mulu type="其他" level="2">永甯寺</cb:mulu><head>永甯寺</head>
+<p xml:id="pGA001p0275b1504" cb:place="inline">熙平元年靈太后胡氏所立也在宮前閶闔門
 <lb ed="GA" n="0275b16"/>南一里御道西</p>
 <lb ed="GA" n="0275b17"/><p xml:id="pGA001p0275b1701" style="margin-left:1em">其寺東有太尉府西對永康里南界昭玄曹北鄰御
 <lb ed="GA" n="0275b18"/>史臺</p>
-<lb ed="GA" n="0275b19"/><p xml:id="pGA001p0275b1901" style="margin-left:2em">〔魏書〕宣武帝靈皇后胡氏司徒國珍女也</p><p xml:id="pGA001p0275b1917" style="margin-left:2em" cb:place="inline">〔又按〕
+<lb ed="GA" n="0275b19"/><p xml:id="pGA001p0275b1901" style="margin-left:2em">〔魏書〕宣武帝靈皇后胡氏司徒國珍女也</p>
+<p xml:id="pGA001p0275b1917" style="margin-left:2em" cb:place="inline">〔又按〕
 <lb ed="GA" n="0275b20"/>魏書釋老志先是立監福曹太和二十一年改昭
 <pb ed="GA" xml:id="GA001.0003.0276a" n="0276a"/>
 <lb ed="GA" n="0276a01"/>元曹備具官屬以斷僧務世宗即位詔僧犯殺人
@@ -223,7 +278,8 @@
 <lb ed="GA" n="0276a04"/>國子學堂</p>
 <lb ed="GA" n="0276a05"/><p xml:id="pGA001p0276a0501" style="margin-left:1em">內有孔丘像顏淵問仁子路問政在側</p>
 <lb ed="GA" n="0276a06"/><p xml:id="pGA001p0276a0601" style="margin-left:2em">〔魏書本紀〕高祖太和十九年八月立國子太學四
-<lb ed="GA" n="0276a07"/>門小學於洛陽</p><p xml:id="pGA001p0276a0707" style="margin-left:2em" cb:place="inline">〔又〕肅宗正光二年春正月車駕
+<lb ed="GA" n="0276a07"/>門小學於洛陽</p>
+<p xml:id="pGA001p0276a0707" style="margin-left:2em" cb:place="inline">〔又〕肅宗正光二年春正月車駕
 <lb ed="GA" n="0276a08"/>幸國子學講孝經祠孔子以顏淵配</p>
 <lb ed="GA" n="0276a09"/><p xml:id="pGA001p0276a0901">國子南有宗正寺寺南有太廟廟南有護軍府府南有
 <lb ed="GA" n="0276a10"/>衣冠里御道西有<note place="inline">右衛府府南太尉府府南</note>有將作曹曹南有九級
@@ -283,12 +339,17 @@
 <lb ed="GA" n="0277b01"/>事等農家惟有經史盈車滿架景所著文集數百餘
 <lb ed="GA" n="0277b02"/>篇給事封暐伯作序行於世</p>
 <lb ed="GA" n="0277b03"/><p xml:id="pGA001p0277b0301" style="margin-left:2em">〔魏書〕高綽字僧裕渤海蓨人允之孫也厯尚書右
-<lb ed="GA" n="0277b04"/>丞豫并二州刺史諡文簡</p><p xml:id="pGA001p0277b0411" style="margin-left:2em" cb:place="inline">〔又〕祖瑩字元珍范陽
+<lb ed="GA" n="0277b04"/>丞豫并二州刺史諡文簡</p>
+<p xml:id="pGA001p0277b0411" style="margin-left:2em" cb:place="inline">〔又〕祖瑩字元珍范陽
 <lb ed="GA" n="0277b05"/>遒人也官至車騎大將軍封文安縣子以文學知
-<lb ed="GA" n="0277b06"/>名</p><p xml:id="pGA001p0277b0602" style="margin-left:2em" cb:place="inline">〔又〕劉芳字伯文彭城叢亭里人官太子左庶
-<lb ed="GA" n="0277b07"/>子員外散騎常侍</p><p xml:id="pGA001p0277b0708" style="margin-left:2em" cb:place="inline">〔又〕彭城王勰字彥和獻文第
-<lb ed="GA" n="0277b08"/>六子太和九年封始平王改彭城王</p><p xml:id="pGA001p0277b0815" style="margin-left:2em" cb:place="inline">〔又〕常景字
-<lb ed="GA" n="0277b09"/>永昌河內温人爽子</p><p xml:id="pGA001p0277b0909" style="margin-left:2em" cb:place="inline">〔又〕李琰之字景珍小字默
+<lb ed="GA" n="0277b06"/>名</p>
+<p xml:id="pGA001p0277b0602" style="margin-left:2em" cb:place="inline">〔又〕劉芳字伯文彭城叢亭里人官太子左庶
+<lb ed="GA" n="0277b07"/>子員外散騎常侍</p>
+<p xml:id="pGA001p0277b0708" style="margin-left:2em" cb:place="inline">〔又〕彭城王勰字彥和獻文第
+<lb ed="GA" n="0277b08"/>六子太和九年封始平王改彭城王</p>
+<p xml:id="pGA001p0277b0815" style="margin-left:2em" cb:place="inline">〔又〕常景字
+<lb ed="GA" n="0277b09"/>永昌河內温人爽子</p>
+<p xml:id="pGA001p0277b0909" style="margin-left:2em" cb:place="inline">〔又〕李琰之字景珍小字默
 <lb ed="GA" n="0277b10"/>蠡隴西狄道人車騎將軍儀同三司贈司徒諡文
 <lb ed="GA" n="0277b11"/>簡</p>
 <lb ed="GA" n="0277b12"/><p xml:id="pGA001p0277b1201">裝飾畢功明帝與太后共登之視宮內如掌中臨京師
@@ -333,20 +394,29 @@
 <lb ed="GA" n="0278b09"/>徒驚駭未出莊帝肇升太極解綱垂仁唯散騎常侍
 <lb ed="GA" n="0278b10"/>山偉一人拜恩南闕加榮使持節中外諸軍事大將
 <lb ed="GA" n="0278b11"/>軍開府北道大行臺都督十州諸軍事領左右太原
-<lb ed="GA" n="0278b12"/>王其天穆為侍中太尉公世襲并州<note n="0278b1201" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0278b1201"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【志彙】">剌</rdg></app>史上黨王起
+<lb ed="GA" n="0278b12"/>王其天穆為侍中太尉公世襲并州<note 
+n="0278b1201" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0278b1201">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【志彙】">剌</rdg>
+</app>史上黨王起
 <lb ed="GA" n="0278b13"/>家為公卿牧守者不可勝數二十日洛中草草猶自
 <lb ed="GA" n="0278b14"/>不安死生相怨人懷異慮貴室豪家弃宅競竄貧夫
 <lb ed="GA" n="0278b15"/>賤士襁負爭逃於是出詔濫死者普加褒贈三品以
 <lb ed="GA" n="0278b16"/>上贈三公五品以上贈令僕七品以上贈州牧白民
 <lb ed="GA" n="0278b17"/>贈鎮郡於是稍安帝納榮女為皇后進榮為柱國大
 <lb ed="GA" n="0278b18"/>將軍錄尚書事進天穆為將軍餘如故</p>
-<lb ed="GA" n="0278b19"/><p xml:id="pGA001p0278b1901" style="margin-left:2em">〔魏書〕爾朱榮字天寶北秀容人也略與此同</p><p xml:id="pGA001p0278b1918" style="margin-left:2em" cb:place="inline">〔又〕
-<lb ed="GA" n="0278b20"/>元天穆高涼王孤之裔長生之子也</p><p xml:id="pGA001p0278b2015" style="margin-left:2em" cb:place="inline">〔又〕徐紇博
+<lb ed="GA" n="0278b19"/><p xml:id="pGA001p0278b1901" style="margin-left:2em">〔魏書〕爾朱榮字天寶北秀容人也略與此同</p>
+<p xml:id="pGA001p0278b1918" style="margin-left:2em" cb:place="inline">〔又〕
+<lb ed="GA" n="0278b20"/>元天穆高涼王孤之裔長生之子也</p>
+<p xml:id="pGA001p0278b2015" style="margin-left:2em" cb:place="inline">〔又〕徐紇博
 <pb ed="GA" xml:id="GA001.0003.0279a" n="0279a"/>
 <lb ed="GA" n="0279a01"/>昌人官給事黃門諂附清河王懌又附元乂爾朱
-<lb ed="GA" n="0279a02"/>入洛奔梁</p><p xml:id="pGA001p0279a0205" style="margin-left:2em" cb:place="inline">〔又〕李神軌小名青肫頓邱人榮之子
-<lb ed="GA" n="0279a03"/>也襲陳留侯征東將軍死於河陰</p><p xml:id="pGA001p0279a0314" style="margin-left:2em" cb:place="inline">〔又〕山偉字仲
-<lb ed="GA" n="0279a04"/>才洛陽人官至衞大將軍封東阿伯</p><p xml:id="pGA001p0279a0415" style="margin-left:2em" cb:place="inline">〔按〕雷陂魏
+<lb ed="GA" n="0279a02"/>入洛奔梁</p>
+<p xml:id="pGA001p0279a0205" style="margin-left:2em" cb:place="inline">〔又〕李神軌小名青肫頓邱人榮之子
+<lb ed="GA" n="0279a03"/>也襲陳留侯征東將軍死於河陰</p>
+<p xml:id="pGA001p0279a0314" style="margin-left:2em" cb:place="inline">〔又〕山偉字仲
+<lb ed="GA" n="0279a04"/>才洛陽人官至衞大將軍封東阿伯</p>
+<p xml:id="pGA001p0279a0415" style="margin-left:2em" cb:place="inline">〔按〕雷陂魏
 <lb ed="GA" n="0279a05"/>書作高渚</p>
 <lb ed="GA" n="0279a06"/><p xml:id="pGA001p0279a0601">永安二年五月北海王元顥復入洛在此寺聚兵</p>
 <lb ed="GA" n="0279a07"/><p xml:id="pGA001p0279a0701" style="margin-left:1em">顥莊帝從兄也孝昌末鎮汲郡聞爾朱榮入洛陽遂
@@ -390,9 +460,11 @@
 <lb ed="GA" n="0280a03"/>蕭衍至長社為村民斬其首傳送京師二十日帝還
 <lb ed="GA" n="0280a04"/>洛陽進太原王天柱大將軍餘官如故進上黨王太
 <lb ed="GA" n="0280a05"/>宰餘官亦如故</p>
-<lb ed="GA" n="0280a06"/><p xml:id="pGA001p0280a0601" style="margin-left:2em">〔魏書〕北海王顥詳之子也</p><p xml:id="pGA001p0280a0611" style="margin-left:2em" cb:place="inline">〔又〕安豐王延明猛之
+<lb ed="GA" n="0280a06"/><p xml:id="pGA001p0280a0601" style="margin-left:2em">〔魏書〕北海王顥詳之子也</p>
+<p xml:id="pGA001p0280a0611" style="margin-left:2em" cb:place="inline">〔又〕安豐王延明猛之
 <lb ed="GA" n="0280a07"/>子也與中山王熙及臨淮王彧等以才學令望並
-<lb ed="GA" n="0280a08"/>有名於時元顥敗奔梁</p><p xml:id="pGA001p0280a0810" style="margin-left:2em" cb:place="inline">〔又〕劉靈助燕郡人賣卜
+<lb ed="GA" n="0280a08"/>有名於時元顥敗奔梁</p>
+<p xml:id="pGA001p0280a0810" style="margin-left:2em" cb:place="inline">〔又〕劉靈助燕郡人賣卜
 <lb ed="GA" n="0280a09"/>於市爾朱榮信卜筮靈助所占屢中被親信官至
 <lb ed="GA" n="0280a10"/>尚書僕射後起兵為高歡所誅</p>
 <lb ed="GA" n="0280a11"/><p xml:id="pGA001p0280a1101">永安三年逆賊爾朱兆囚莊帝於寺</p>
@@ -412,7 +484,11 @@
 <lb ed="GA" n="0280b04"/>官爵如故歸曰臣從太原王來朝陛下何忽今日枉
 <lb ed="GA" n="0280b05"/>致無理臣欲還晉陽不忍空去願得太原王尸喪生
 <lb ed="GA" n="0280b06"/>死無恨發言雨淚哀不自勝羣胡慟哭聲震京師帝
-<lb ed="GA" n="0280b07"/>聞之亦為傷懷遣侍中朱元龍齎鐵<note n="0280b0701" resp="CBETA" type="add">券【CB】，劵【志彙】</note><app n="0280b0701"><lem wit="【CB】" resp="CBETA.maha">券</lem><rdg wit="【志彙】">劵</rdg></app>與世隆待之
+<lb ed="GA" n="0280b07"/>聞之亦為傷懷遣侍中朱元龍齎鐵<note 
+n="0280b0701" resp="CBETA" type="add">券【CB】，劵【志彙】</note><app n="0280b0701">
+  <lem wit="【CB】" resp="CBETA.maha">券</lem>
+  <rdg wit="【志彙】">劵</rdg>
+</app>與世隆待之
 <lb ed="GA" n="0280b08"/>不死官位如故世隆謂元龍曰太原王功格天地造
 <lb ed="GA" n="0280b09"/>濟生民赤心奉國神明所知長樂不顧信誓枉害忠
 <lb ed="GA" n="0280b10"/>良今日兩行鐵字何足可信吾為太原王報仇終不
@@ -431,25 +507,43 @@
 <lb ed="GA" n="0281a02"/>帝初以黃河奔急謂兆未得猝濟不意兆不由舟楫
 <lb ed="GA" n="0281a03"/>憑流而渡是日水淺不沒馬腹故及此難書契所記
 <lb ed="GA" n="0281a04"/>未之有也<note place="inline">衒之曰昔光武受命冰橋凝於滹水昭烈中起的盧踊於泥溝皆理合於天神祇所
-<lb ed="GA" n="0281a05"/>福故能功濟宇宙大庇生民若兆者蜂目豺聲行<note n="0281a0501" resp="CBETA" type="add">窮【CB】，<unclear/>【志彙】</note><app n="0281a0501"><lem wit="【CB】" resp="CBETA.maha">窮</lem><rdg wit="【志彙】"><unclear/></rdg></app>梟獍阻兵安忍賊害君親皇靈有知鑒其凶德反使
+<lb ed="GA" n="0281a05"/>福故能功濟宇宙大庇生民若兆者蜂目豺聲行<note 
+n="0281a0501" resp="CBETA" type="add">窮【CB】，<unclear/>【志彙】</note><app n="0281a0501">
+  <lem wit="【CB】" resp="CBETA.maha">窮</lem>
+  <rdg wit="【志彙】"><unclear/></rdg>
+</app>梟獍阻兵安忍賊害君親皇靈有知鑒其凶德反使
 <lb ed="GA" n="0281a06"/>孟津由膝贊其逆心易稱天道禍盈鬼神福謙以此驗之信為虚說</note>時兆營軍尚書省建
 <lb ed="GA" n="0281a07"/>天子金鼓庭設刻漏嬪御妃主皆擁之於幕鎖帝於
 <lb ed="GA" n="0281a08"/>寺門樓上時十二月帝患寒隨兆乞頭巾兆不與囚
 <lb ed="GA" n="0281a09"/>帝送晉陽縊於三級寺帝臨崩禮佛願不為國王又
-<lb ed="GA" n="0281a10"/>作五言曰：</p><lg type="regular" xml:id="lgGA001p0281a1005" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">權去生道促　憂來死路長</l><l style="text-indent:1em">懷恨出國門　含
-<lb ed="GA" n="0281a11"/>悲入鬼鄉</l><l style="text-indent:1em">隧門一時閉　幽庭豈復光</l><l style="text-indent:1em">思鳥吟青松　哀
-<lb ed="GA" n="0281a12"/>風吹白楊</l><l style="text-indent:1em">昔來聞死苦　何言身自當</l></lg><p xml:id="pGA001p0281a1215" style="margin-left:1em" cb:place="inline">至太昌元年冬
+<lb ed="GA" n="0281a10"/>作五言曰：</p>
+<lg type="regular" xml:id="lgGA001p0281a1005" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">權去生道促　憂來死路長</l>
+  <l style="text-indent:1em">懷恨出國門　含
+<lb ed="GA" n="0281a11"/>悲入鬼鄉</l>
+  <l style="text-indent:1em">隧門一時閉　幽庭豈復光</l>
+  <l style="text-indent:1em">思鳥吟青松　哀
+<lb ed="GA" n="0281a12"/>風吹白楊</l>
+  <l style="text-indent:1em">昔來聞死苦　何言身自當</l>
+</lg>
+<p xml:id="pGA001p0281a1215" style="margin-left:1em" cb:place="inline">至太昌元年冬
 <lb ed="GA" n="0281a13"/>始迎梓宮赴京師葬帝<reg>靖</reg>陵所作五言詩即為挽歌
 <lb ed="GA" n="0281a14"/>詞朝野聞之莫不悲慟百姓觀者悉皆掩涕而已</p>
-<lb ed="GA" n="0281a15"/><p xml:id="pGA001p0281a1501" style="margin-left:2em">〔魏書〕爾朱兆字萬仁榮從子</p><p xml:id="pGA001p0281a1512" style="margin-left:2em" cb:place="inline">〔又〕世隆字榮宗榮
-<lb ed="GA" n="0281a16"/>從弟</p><p xml:id="pGA001p0281a1603" style="margin-left:2em" cb:place="inline">〔又〕李苗字子宣梓潼人兼尚書右丞西北
-<lb ed="GA" n="0281a17"/>道行臺死後諡忠烈</p><p xml:id="pGA001p0281a1709" style="margin-left:2em" cb:place="inline">〔又〕長廣王<reg>曄</reg>字華興小字
-<lb ed="GA" n="0281a18"/>盆子南安王楨孫</p><p xml:id="pGA001p0281a1808" style="margin-left:2em" cb:place="inline">〔又〕朱瑞字元龍代郡桑乾人
+<lb ed="GA" n="0281a15"/><p xml:id="pGA001p0281a1501" style="margin-left:2em">〔魏書〕爾朱兆字萬仁榮從子</p>
+<p xml:id="pGA001p0281a1512" style="margin-left:2em" cb:place="inline">〔又〕世隆字榮宗榮
+<lb ed="GA" n="0281a16"/>從弟</p>
+<p xml:id="pGA001p0281a1603" style="margin-left:2em" cb:place="inline">〔又〕李苗字子宣梓潼人兼尚書右丞西北
+<lb ed="GA" n="0281a17"/>道行臺死後諡忠烈</p>
+<p xml:id="pGA001p0281a1709" style="margin-left:2em" cb:place="inline">〔又〕長廣王<reg>曄</reg>字華興小字
+<lb ed="GA" n="0281a18"/>盆子南安王楨孫</p>
+<p xml:id="pGA001p0281a1808" style="margin-left:2em" cb:place="inline">〔又〕朱瑞字元龍代郡桑乾人
 <lb ed="GA" n="0281a19"/>爾朱榮引為大行臺<reg>郎</reg>中官至侍中封樂陵郡公
-<lb ed="GA" n="0281a20"/>雖為爾朱所重乃心帝室為世隆所害</p><p xml:id="pGA001p0281a2016" style="margin-left:2em" cb:place="inline">〔又〕源子
+<lb ed="GA" n="0281a20"/>雖為爾朱所重乃心帝室為世隆所害</p>
+<p xml:id="pGA001p0281a2016" style="margin-left:2em" cb:place="inline">〔又〕源子
 <pb ed="GA" xml:id="GA001.0003.0281b" n="0281b"/>
 <lb ed="GA" n="0281b01"/>恭字靈順西平樂都人賀之曾孫也屢爭伐立功
-<lb ed="GA" n="0281b02"/>封臨汝縣子除中書監諡文獻</p><p xml:id="pGA001p0281b0213" style="margin-left:2em" cb:place="inline">〔又〕楊寛字蒙仁
+<lb ed="GA" n="0281b02"/>封臨汝縣子除中書監諡文獻</p>
+<p xml:id="pGA001p0281b0213" style="margin-left:2em" cb:place="inline">〔又〕楊寛字蒙仁
 <lb ed="GA" n="0281b03"/>華陰人華州大中正除澄城縣伯爾朱兆入洛奔
 <lb ed="GA" n="0281b04"/>梁復還魏為大將軍</p>
 <lb ed="GA" n="0281b05"/><p xml:id="pGA001p0281b0501">永熙三年二月浮圖為火所燒</p>
@@ -464,10 +558,16 @@
 <lb ed="GA" n="0281b14"/>安十月而京師遷鄴</p>
 <lb ed="GA" n="0281b15"/><p xml:id="pGA001p0281b1501" style="margin-left:2em">〔魏書〕文帝寶炬永安二年封南陽王從孝武入關
 <lb ed="GA" n="0281b16"/>拜太宰錄尚書事孝武崩宇文泰率羣臣勸進在
-<lb ed="GA" n="0281b17"/>位十七年</p><p xml:id="pGA001p0281b1705" style="margin-left:2em" cb:place="inline">〔又〕長孫嵩曾孫冀歸高祖以其幼承
+<lb ed="GA" n="0281b17"/>位十七年</p>
+<p xml:id="pGA001p0281b1705" style="margin-left:2em" cb:place="inline">〔又〕長孫嵩曾孫冀歸高祖以其幼承
 <lb ed="GA" n="0281b18"/>家學賜名稚字承業靈太后時除尚書右僕射雍
-<lb ed="GA" n="0281b19"/>州<note n="0281b1901" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0281b1901"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【志彙】">剌</rdg></app>史</p></cb:div>
-<lb ed="GA" n="0281b20"/><cb:div type="other"><cb:mulu type="其他" level="2">建中寺</cb:mulu><head>建中寺</head><p xml:id="pGA001p0281b2004" cb:place="inline">普泰元年尚書令樂平王爾朱世隆所立也本
+<lb ed="GA" n="0281b19"/>州<note 
+n="0281b1901" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0281b1901">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【志彙】">剌</rdg>
+</app>史</p></cb:div>
+<lb ed="GA" n="0281b20"/><cb:div type="other"><cb:mulu type="其他" level="2">建中寺</cb:mulu><head>建中寺</head>
+<p xml:id="pGA001p0281b2004" cb:place="inline">普泰元年尚書令樂平王爾朱世隆所立也本
 <pb ed="GA" xml:id="GA001.0003.0282a" n="0282a"/>
 <lb ed="GA" n="0282a01"/>是閹官司空劉騰宅屋宇奢侈梁棟踰制一里之間廊
 <lb ed="GA" n="0282a02"/>廡充溢堂比宣光殿門匹乾明門博敞宏麗諸王莫及
@@ -499,7 +599,8 @@
 <lb ed="GA" n="0282b07"/>乂遂殺之遂幽胡太后乂與高陽王輔政肅宗呼
 <lb ed="GA" n="0282b08"/>為姨父後為高陽王解其兵柄乂解侍中為人告
 <lb ed="GA" n="0282b09"/>謀反賜死</p></cb:div>
-<lb ed="GA" n="0282b10"/><cb:div type="other"><cb:mulu type="其他" level="2">長秋寺</cb:mulu><head>長秋寺</head><p xml:id="pGA001p0282b1004" cb:place="inline">劉騰所立也騰為長秋令卿因以為名在西陽
+<lb ed="GA" n="0282b10"/><cb:div type="other"><cb:mulu type="其他" level="2">長秋寺</cb:mulu><head>長秋寺</head>
+<p xml:id="pGA001p0282b1004" cb:place="inline">劉騰所立也騰為長秋令卿因以為名在西陽
 <lb ed="GA" n="0282b11"/>陽門內御道北一里亦在延年里</p>
 <lb ed="GA" n="0282b12"/><p xml:id="pGA001p0282b1201" style="margin-left:1em">即是晉中朝時金市處</p>
 <lb ed="GA" n="0282b13"/><p xml:id="pGA001p0282b1301" style="margin-left:2em">〔水經注〕引故洛陽記曰淩雲臺西有金市金市北
@@ -513,7 +614,8 @@
 <pb ed="GA" xml:id="GA001.0003.0283a" n="0283a"/>
 <lb ed="GA" n="0283a01"/>綵幢上索詭譎不常奇伎異服冠於都市像停之處
 <lb ed="GA" n="0283a02"/>觀者如堵迭相踐躍常有死人</p></cb:div>
-<lb ed="GA" n="0283a03"/><cb:div type="other"><cb:mulu type="其他" level="2">瑤光寺</cb:mulu><head>瑤光寺</head><p xml:id="pGA001p0283a0304" cb:place="inline">世宗宣武皇帝所立在閶闔門御道北東去千
+<lb ed="GA" n="0283a03"/><cb:div type="other"><cb:mulu type="其他" level="2">瑤光寺</cb:mulu><head>瑤光寺</head>
+<p xml:id="pGA001p0283a0304" cb:place="inline">世宗宣武皇帝所立在閶闔門御道北東去千
 <lb ed="GA" n="0283a04"/>秋門二里</p>
 <lb ed="GA" n="0283a05"/><p xml:id="pGA001p0283a0501" style="margin-left:1em">千秋門內道北有西遊園園中有淩雲臺即是魏文
 <lb ed="GA" n="0283a06"/>帝所築者臺上有八角井高祖於井北造涼風觀登
@@ -524,7 +626,8 @@
 <lb ed="GA" n="0283a11"/>下釣臺南有宣光殿北有嘉福殿西有九龍殿殿前
 <lb ed="GA" n="0283a12"/>九龍吐水成一海凡四殿皆有飛閣向靈芝臺往來
 <lb ed="GA" n="0283a13"/>三伏之月皇帝在靈芝臺以避暑</p>
-<lb ed="GA" n="0283a14"/><p xml:id="pGA001p0283a1401" style="margin-left:2em">〔三國志文帝紀〕黃初二年築淩雲臺</p><p xml:id="pGA001p0283a1415" style="margin-left:2em" cb:place="inline">〔太平御覽〕
+<lb ed="GA" n="0283a14"/><p xml:id="pGA001p0283a1401" style="margin-left:2em">〔三國志文帝紀〕黃初二年築淩雲臺</p>
+<p xml:id="pGA001p0283a1415" style="margin-left:2em" cb:place="inline">〔太平御覽〕
 <lb ed="GA" n="0283a15"/>引晉宮閣名曰靈芝池廣長百五十步深二丈上
 <lb ed="GA" n="0283a16"/>有連樓飛觀四出閣道釣臺中有鳴鶴舟指南舟
 <lb ed="GA" n="0283a17"/>以此考之則靈芝之名不始元魏也</p>
@@ -555,7 +658,8 @@
 <pb ed="GA" xml:id="GA001.0003.0284a" n="0284a"/>
 <lb ed="GA" n="0284a01"/>故向城也永嘉之亂結以為壘號洛陽壘故洛陽
 <lb ed="GA" n="0284a02"/>記曰西有金市淩雲臺北對洛陽壘者也</p></cb:div>
-<lb ed="GA" n="0284a03"/><cb:div type="other"><cb:mulu type="其他" level="2">景樂寺</cb:mulu><head>景樂寺</head><p xml:id="pGA001p0284a0304" cb:place="inline">太傅清河文獻王懌所立也</p>
+<lb ed="GA" n="0284a03"/><cb:div type="other"><cb:mulu type="其他" level="2">景樂寺</cb:mulu><head>景樂寺</head>
+<p xml:id="pGA001p0284a0304" cb:place="inline">太傅清河文獻王懌所立也</p>
 <lb ed="GA" n="0284a04"/><p xml:id="pGA001p0284a0401" style="margin-left:1em">懌是孝文皇帝之子宣武帝之弟</p>
 <lb ed="GA" n="0284a05"/><p xml:id="pGA001p0284a0501" style="margin-left:2em">〔魏書〕懌宇宣仁太和二十一年封為孝文及彭城
 <lb ed="GA" n="0284a06"/>王所器後為元乂劉騰所害</p>
@@ -579,7 +683,8 @@
 <lb ed="GA" n="0284b03"/>覩異端奇術總萃其中剝驢扳并植棗種瓜須臾之
 <lb ed="GA" n="0284b04"/>閒皆得賜食士女觀者目亂睛迷自建義以後京師
 <lb ed="GA" n="0284b05"/>頻有大兵此戲遂隱也</p></cb:div>
-<lb ed="GA" n="0284b06"/><cb:div type="other"><cb:mulu type="其他" level="2">昭儀尼寺</cb:mulu><head>昭儀尼寺</head><p xml:id="pGA001p0284b0605" cb:place="inline">閹宦所立也在東陽門內一里御道南東陽
+<lb ed="GA" n="0284b06"/><cb:div type="other"><cb:mulu type="其他" level="2">昭儀尼寺</cb:mulu><head>昭儀尼寺</head>
+<p xml:id="pGA001p0284b0605" cb:place="inline">閹宦所立也在東陽門內一里御道南東陽
 <lb ed="GA" n="0284b07"/>門內御道北太倉導官二署東南治粟里倉司官屬住
 <lb ed="GA" n="0284b08"/>其內</p>
 <lb ed="GA" n="0284b09"/><p xml:id="pGA001p0284b0901" style="margin-left:1em">太后臨朝閹寺專寵宦者之家積金滿堂是以蕭忻
@@ -611,13 +716,15 @@
 <lb ed="GA" n="0285a14"/>光明寺時人咸云此荀勗舊宅其後盜者欲竊此像
 <lb ed="GA" n="0285a15"/>像與菩薩合聲喝賊盜者驚怖應即殞倒眾僧聞像
 <lb ed="GA" n="0285a16"/>呌聲遂來捉得賊</p></cb:div>
-<lb ed="GA" n="0285a17"/><cb:div type="other"><cb:mulu type="其他" level="2">胡統寺</cb:mulu><head>胡統寺</head><p xml:id="pGA001p0285a1704" cb:place="inline">太后從姑所立也入道為尼遂居此寺在永甯
+<lb ed="GA" n="0285a17"/><cb:div type="other"><cb:mulu type="其他" level="2">胡統寺</cb:mulu><head>胡統寺</head>
+<p xml:id="pGA001p0285a1704" cb:place="inline">太后從姑所立也入道為尼遂居此寺在永甯
 <lb ed="GA" n="0285a18"/>南一里</p>
 <lb ed="GA" n="0285a19"/><p xml:id="pGA001p0285a1901" style="margin-left:1em">寶塔五重金剎高聳洞房周匝對戶交疏朱柱素壁
 <lb ed="GA" n="0285a20"/>甚為佳麗其寺諸尼帝城名德善於開導工談義理
 <pb ed="GA" xml:id="GA001.0003.0285b" n="0285b"/>
 <lb ed="GA" n="0285b01"/>常入宮與太后說法其資養緇流從無與比也</p></cb:div>
-<lb ed="GA" n="0285b02"/><cb:div type="other"><cb:mulu type="其他" level="2">修梵寺</cb:mulu><head>修梵寺</head><p xml:id="pGA001p0285b0204" cb:place="inline">在青陽門內御道北嵩明寺復在修梵寺西並
+<lb ed="GA" n="0285b02"/><cb:div type="other"><cb:mulu type="其他" level="2">修梵寺</cb:mulu><head>修梵寺</head>
+<p xml:id="pGA001p0285b0204" cb:place="inline">在青陽門內御道北嵩明寺復在修梵寺西並
 <lb ed="GA" n="0285b03"/>雕牆峻宇比屋連甍亦是名寺也</p>
 <lb ed="GA" n="0285b04"/><p xml:id="pGA001p0285b0401" style="margin-left:1em">修梵寺有金剛鳩鴿不入鳥鵲不棲菩提達摩云得
 <lb ed="GA" n="0285b05"/>其真相也</p>
@@ -631,14 +738,26 @@
 <lb ed="GA" n="0285b13"/>丹砂及錢數十萬銘云董太師之物後卓夜中隨巒
 <lb ed="GA" n="0285b14"/>索此物巒不與之經年巒遂卒矣</p>
 <lb ed="GA" n="0285b15"/><p xml:id="pGA001p0285b1501" style="margin-left:2em">〔魏書〕郭祚字季祐太原人尚書右僕射領太子少
-<lb ed="GA" n="0285b16"/>師諡文貞</p><p xml:id="pGA001p0285b1605" style="margin-left:2em" cb:place="inline">〔又〕邢巒字洪濱河間人官殿中尚書
-<lb ed="GA" n="0285b17"/>諡文定</p><p xml:id="pGA001p0285b1704" style="margin-left:2em" cb:place="inline">〔又〕元洪超遼西公意烈之元孫也北軍
-<lb ed="GA" n="0285b18"/>將軍光祿大夫本傳不言為廷尉卿</p><p xml:id="pGA001p0285b1815" style="margin-left:2em" cb:place="inline">〔又〕尉聿字
+<lb ed="GA" n="0285b16"/>師諡文貞</p>
+<p xml:id="pGA001p0285b1605" style="margin-left:2em" cb:place="inline">〔又〕邢巒字洪濱河間人官殿中尚書
+<lb ed="GA" n="0285b17"/>諡文定</p>
+<p xml:id="pGA001p0285b1704" style="margin-left:2em" cb:place="inline">〔又〕元洪超遼西公意烈之元孫也北軍
+<lb ed="GA" n="0285b18"/>將軍光祿大夫本傳不言為廷尉卿</p>
+<p xml:id="pGA001p0285b1815" style="margin-left:2em" cb:place="inline">〔又〕尉聿字
 <lb ed="GA" n="0285b19"/>成興代人尉古真之族元孫官武衞將軍見元乂
-<lb ed="GA" n="0285b20"/>長揖不拜出為涼州<note n="0285b2001" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0285b2001"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【志彙】">剌</rdg></app>史</p></cb:div>
+<lb ed="GA" n="0285b20"/>長揖不拜出為涼州<note 
+n="0285b2001" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0285b2001">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【志彙】">剌</rdg>
+</app>史</p></cb:div>
 <pb ed="GA" xml:id="GA001.0003.0286a" n="0286a"/>
-<lb ed="GA" n="0286a01"/><cb:div type="other"><cb:mulu type="其他" level="2">景林寺</cb:mulu><head>景林寺</head><p xml:id="pGA001p0286a0104" cb:place="inline">在開陽門內御道東</p>
-<lb ed="GA" n="0286a02"/><p xml:id="pGA001p0286a0201" style="margin-left:1em">講殿曡起房屋連屬丹檻炫日繡桷迎風實為勝<note n="0286a0201" resp="CBETA" type="add">地【CB】，<unclear/>【志彙】</note><app n="0286a0201"><lem wit="【CB】" resp="CBETA.maha">地</lem><rdg wit="【志彙】"><unclear/></rdg></app>
+<lb ed="GA" n="0286a01"/><cb:div type="other"><cb:mulu type="其他" level="2">景林寺</cb:mulu><head>景林寺</head>
+<p xml:id="pGA001p0286a0104" cb:place="inline">在開陽門內御道東</p>
+<lb ed="GA" n="0286a02"/><p xml:id="pGA001p0286a0201" style="margin-left:1em">講殿曡起房屋連屬丹檻炫日繡桷迎風實為勝<note 
+n="0286a0201" resp="CBETA" type="add">地【CB】，<unclear/>【志彙】</note><app n="0286a0201">
+  <lem wit="【CB】" resp="CBETA.maha">地</lem>
+  <rdg wit="【志彙】"><unclear/></rdg>
+</app>
 <lb ed="GA" n="0286a03"/>寺西有園多饒奇果春鳥秋蟬鳴聲相續</p>
 <lb ed="GA" n="0286a04"/><p xml:id="pGA001p0286a0401">有禪房一所內置泜洹清舍</p>
 <lb ed="GA" n="0286a05"/><p xml:id="pGA001p0286a0501" style="margin-left:1em">形製雖小巧構難比加以禪閣虛靜隱室凝邃嘉樹
@@ -703,7 +822,8 @@
 <pb ed="GA" xml:id="GA001.0003.0288a" n="0288a"/>
 <lb ed="GA" n="0288a01"/><cb:mulu type="卷" n="2"/><cb:juan fun="open" n="2"><cb:jhead>洛陽伽藍記鉤沈卷二</cb:jhead></cb:juan>
 <lb ed="GA" n="0288a02"/><cb:div type="other"><cb:mulu type="其他" level="1">城東</cb:mulu><head>城東</head>
-<lb ed="GA" n="0288a03"/><cb:div type="other"><cb:mulu type="其他" level="2">明縣尼寺</cb:mulu><head>明縣尼寺</head><p xml:id="pGA001p0288a0305" cb:place="inline">彭城宣王勰所立也在建春門外石橋南</p>
+<lb ed="GA" n="0288a03"/><cb:div type="other"><cb:mulu type="其他" level="2">明縣尼寺</cb:mulu><head>明縣尼寺</head>
+<p xml:id="pGA001p0288a0305" cb:place="inline">彭城宣王勰所立也在建春門外石橋南</p>
 <lb ed="GA" n="0288a04"/><p xml:id="pGA001p0288a0401" style="margin-left:1em">穀水周圍繞城至建春門外東入陽渠石橋橋有四
 <lb ed="GA" n="0288a05"/>柱在道南銘曰漢陽嘉四年將作大匠馬憲造逮我
 <lb ed="GA" n="0288a06"/>孝昌三年大雨頹橋柱始埋沒道北二柱至今猶存
@@ -712,11 +832,13 @@
 <lb ed="GA" n="0288a09"/><p xml:id="pGA001p0288a0901" style="margin-left:2em">〔水經注曰〕橋首建兩石柱銘云陽嘉四年乙酉壬
 <lb ed="GA" n="0288a10"/>申詔書以城下漕渠東通河濟南達江淮方貢委
 <lb ed="GA" n="0288a11"/>輸所由而至使中謁者魏郡清淵馬憲監作石橋
-<lb ed="GA" n="0288a12"/>梁柱敦敕工匠盡要妙之巧云</p><p xml:id="pGA001p0288a1213" style="margin-left:2em" cb:place="inline">〔又按〕道元以此
+<lb ed="GA" n="0288a12"/>梁柱敦敕工匠盡要妙之巧云</p>
+<p xml:id="pGA001p0288a1213" style="margin-left:2em" cb:place="inline">〔又按〕道元以此
 <lb ed="GA" n="0288a13"/>橋水南即刑稽康處亦合二橋為一</p>
 <lb ed="GA" n="0288a14"/><p xml:id="pGA001p0288a1401">有三層塔一所未加莊嚴寺東有中朝時常滿倉</p>
 <lb ed="GA" n="0288a15"/><p xml:id="pGA001p0288a1501" style="margin-left:1em">高祖令為租場天下貢賦所聚蓄也</p></cb:div>
-<lb ed="GA" n="0288a16"/><cb:div type="other"><cb:mulu type="其他" level="2">龍華寺</cb:mulu><head>龍華寺</head><p xml:id="pGA001p0288a1604" cb:place="inline">宿衞羽林虎賁等所立也在建春門外陽渠南
+<lb ed="GA" n="0288a16"/><cb:div type="other"><cb:mulu type="其他" level="2">龍華寺</cb:mulu><head>龍華寺</head>
+<p xml:id="pGA001p0288a1604" cb:place="inline">宿衞羽林虎賁等所立也在建春門外陽渠南
 <lb ed="GA" n="0288a17"/>寺南有租塲里陽渠北有建陽里里有土臺高三丈上
 <lb ed="GA" n="0288a18"/>作二精舍</p>
 <lb ed="GA" n="0288a19"/><p xml:id="pGA001p0288a1901" style="margin-left:1em">趙逸云此臺是中朝旂亭也上有二層樓懸鼓擊之
@@ -741,7 +863,8 @@
 <lb ed="GA" n="0288b17"/><p xml:id="pGA001p0288b1701" style="margin-left:2em">〔魏書〕蕭贊字德文本名綜為南齊東昬遺腹梁武
 <lb ed="GA" n="0288b18"/>帝子之及長奔魏封丹陽王官至齊州刺史爾朱
 <lb ed="GA" n="0288b19"/>之亂棄州為沙門按此作世務異乎魏書</p></cb:div>
-<lb ed="GA" n="0288b20"/><cb:div type="other"><cb:mulu type="其他" level="2">瓔珞寺</cb:mulu><head>瓔珞寺</head><p xml:id="pGA001p0288b2004" cb:place="inline">在建春門外御道北所謂建陽里也</p>
+<lb ed="GA" n="0288b20"/><cb:div type="other"><cb:mulu type="其他" level="2">瓔珞寺</cb:mulu><head>瓔珞寺</head>
+<p xml:id="pGA001p0288b2004" cb:place="inline">在建春門外御道北所謂建陽里也</p>
 <pb ed="GA" xml:id="GA001.0003.0289a" n="0289a"/>
 <lb ed="GA" n="0289a01"/><p xml:id="pGA001p0289a0101" style="margin-left:1em">即中朝時白社地董威輦所居處</p>
 <lb ed="GA" n="0289a02"/><p xml:id="pGA001p0289a0201" style="margin-left:2em">〔按〕董威輦名京晉初逸民晉書有傳</p>
@@ -787,12 +910,14 @@
 <pb ed="GA" xml:id="GA001.0003.0290a" n="0290a"/>
 <lb ed="GA" n="0290a01"/>步時人談以枉死宣明少有名譽精通經史危行及
 <lb ed="GA" n="0290a02"/>於誅也</p></cb:div>
-<lb ed="GA" n="0290a03"/><cb:div type="other"><cb:mulu type="其他" level="2">魏昌尼寺</cb:mulu><head>魏昌尼寺</head><p xml:id="pGA001p0290a0305" cb:place="inline">閹官瀛州刺史李次壽所立也在里東南角
+<lb ed="GA" n="0290a03"/><cb:div type="other"><cb:mulu type="其他" level="2">魏昌尼寺</cb:mulu><head>魏昌尼寺</head>
+<p xml:id="pGA001p0290a0305" cb:place="inline">閹官瀛州刺史李次壽所立也在里東南角
 <lb ed="GA" n="0290a04"/>即中朝牛馬市處也</p>
 <lb ed="GA" n="0290a05"/><p xml:id="pGA001p0290a0501" style="margin-left:1em">刑嵇康之所臨東石橋此橋南北行晉太康元年中
 <lb ed="GA" n="0290a06"/>朝時市南橋也澄之等蓋見此橋銘因而以橋為太
 <lb ed="GA" n="0290a07"/>康所造也</p></cb:div>
-<lb ed="GA" n="0290a08"/><cb:div type="other"><cb:mulu type="其他" level="2">景興尼寺</cb:mulu><p xml:id="pGA001p0290a0801">石橋南道有景興尼寺亦閹官等所共立也</p>
+<lb ed="GA" n="0290a08"/><cb:div type="other"><cb:mulu type="其他" level="2">景興尼寺</cb:mulu>
+<p xml:id="pGA001p0290a0801">石橋南道有景興尼寺亦閹官等所共立也</p>
 <lb ed="GA" n="0290a09"/><p xml:id="pGA001p0290a0901" style="margin-left:1em">有金像輦去地三尺施寶蓋四面垂金鈴七寶珠飛
 <lb ed="GA" n="0290a10"/>天伎樂望之雲表作工甚精難可揚搉像出之日常
 <lb ed="GA" n="0290a11"/>詔羽林一百人舉此像絲竹雜伎皆由旨給</p>
@@ -841,15 +966,19 @@
 <lb ed="GA" n="0291a12"/><p xml:id="pGA001p0291a1201">七里橋東一里郭門開三道時人號為三門</p>
 <lb ed="GA" n="0291a13"/><p xml:id="pGA001p0291a1301" style="margin-left:1em">離別多云相送三門外京師士子送去迎歸常在此
 <lb ed="GA" n="0291a14"/>處也</p></cb:div>
-<lb ed="GA" n="0291a15"/><cb:div type="other"><cb:mulu type="其他" level="2">莊嚴寺</cb:mulu><head>莊嚴寺</head><p xml:id="pGA001p0291a1504" cb:place="inline">在東陽門外一里御道北所謂東安里也北為租場
+<lb ed="GA" n="0291a15"/><cb:div type="other"><cb:mulu type="其他" level="2">莊嚴寺</cb:mulu><head>莊嚴寺</head>
+<p xml:id="pGA001p0291a1504" cb:place="inline">在東陽門外一里御道北所謂東安里也北為租場
 <lb ed="GA" n="0291a16"/>里內有駙馬都尉司馬悅濟州刺史介宣幽州刺史李
 <lb ed="GA" n="0291a17"/>真奴豫州刺史公孫驤四宅</p>
 <lb ed="GA" n="0291a18"/><p xml:id="pGA001p0291a1801" style="margin-left:2em">〔魏書〕司馬悅字慶宗晉宣帝弟馗之八世孫也官
-<lb ed="GA" n="0291a19"/>至豫州刺史封漁陽子</p><p xml:id="pGA001p0291a1910" style="margin-left:2em" cb:place="inline">〔又按〕悅子朏官駙馬都
-<lb ed="GA" n="0291a20"/>尉尚華陽公主</p><p xml:id="pGA001p0291a2007" style="margin-left:2em" cb:place="inline">〔又〕李訢字元盛小名真奴范陽
+<lb ed="GA" n="0291a19"/>至豫州刺史封漁陽子</p>
+<p xml:id="pGA001p0291a1910" style="margin-left:2em" cb:place="inline">〔又按〕悅子朏官駙馬都
+<lb ed="GA" n="0291a20"/>尉尚華陽公主</p>
+<p xml:id="pGA001p0291a2007" style="margin-left:2em" cb:place="inline">〔又〕李訢字元盛小名真奴范陽
 <pb ed="GA" xml:id="GA001.0003.0291b" n="0291b"/>
 <lb ed="GA" n="0291b01"/>人也為湘州刺史遷司空封范陽公以罪誅</p></cb:div>
-<lb ed="GA" n="0291b02"/><cb:div type="other"><cb:mulu type="其他" level="2">秦太上君寺</cb:mulu><head>秦太上君寺</head><p xml:id="pGA001p0291b0206" cb:place="inline">胡太后所立也在東陽門外二里御道北
+<lb ed="GA" n="0291b02"/><cb:div type="other"><cb:mulu type="其他" level="2">秦太上君寺</cb:mulu><head>秦太上君寺</head>
+<p xml:id="pGA001p0291b0206" cb:place="inline">胡太后所立也在東陽門外二里御道北
 <lb ed="GA" n="0291b03"/>所謂暉文里</p>
 <lb ed="GA" n="0291b04"/><p xml:id="pGA001p0291b0401" style="margin-left:1em">當時太后正號崇訓母儀天下號父為秦太上公母
 <lb ed="GA" n="0291b05"/>為秦太上君為母追福因以名焉中有五層浮圖一
@@ -871,7 +1000,11 @@
 <pb ed="GA" xml:id="GA001.0003.0292a" n="0292a"/>
 <lb ed="GA" n="0292a01"/>側不曉懷甎之義私問舍人温子昇子昇曰聞至尊
 <lb ed="GA" n="0292a02"/>兄彭城王作青州刺史問其賓客從至青州云齊土
-<lb ed="GA" n="0292a03"/>之民風俗淺薄虛論高談<note n="0292a0301" resp="CBETA" type="add">專【CB】，<unclear/>【志彙】</note><app n="0292a0301"><lem wit="【CB】" resp="CBETA.maha">專</lem><rdg wit="【志彙】"><unclear/></rdg></app>在榮利太守初欲入境
+<lb ed="GA" n="0292a03"/>之民風俗淺薄虛論高談<note 
+n="0292a0301" resp="CBETA" type="add">專【CB】，<unclear/>【志彙】</note><app n="0292a0301">
+  <lem wit="【CB】" resp="CBETA.maha">專</lem>
+  <rdg wit="【志彙】"><unclear/></rdg>
+</app>在榮利太守初欲入境
 <lb ed="GA" n="0292a04"/>皆懷甎叩首以美其來及其代下還家以甎擊之言
 <lb ed="GA" n="0292a05"/>其向背速於反掌是以京師謠語曰獄中無繫囚舍
 <lb ed="GA" n="0292a06"/>內無青州假令家道惡腹中不懷愁懷甎之義起在
@@ -885,20 +1018,33 @@
 <lb ed="GA" n="0292a14"/>遲足為天下模楷荀濟人非許郭不識東家雖復莠
 <lb ed="GA" n="0292a15"/>言自口未宜榮辱也</p>
 <lb ed="GA" n="0292a16"/><p xml:id="pGA001p0292a1601" style="margin-left:2em">〔魏書〕崔光字長仁清河人官至侍中封平恩侯贈
-<lb ed="GA" n="0292a17"/>太傅</p><p xml:id="pGA001p0292a1703" style="margin-left:2em" cb:place="inline">〔又〕又李延實字禧隴西人尚書僕射沖之子
+<lb ed="GA" n="0292a17"/>太傅</p>
+<p xml:id="pGA001p0292a1703" style="margin-left:2em" cb:place="inline">〔又〕又李延實字禧隴西人尚書僕射沖之子
 <lb ed="GA" n="0292a18"/>襲父爵清泉侯莊帝即位封濮陽郡公司徒出為
-<lb ed="GA" n="0292a19"/>青州刺史為爾朱兆所害</p><p xml:id="pGA001p0292a1911" style="margin-left:2em" cb:place="inline">〔又〕又李韶字元伯寶之
-<lb ed="GA" n="0292a20"/>孫也官至冀定二州<note n="0292a2001" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0292a2001"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【志彙】">剌</rdg></app>史</p><p xml:id="pGA001p0292a2012" style="margin-left:2em" cb:place="inline">〔又〕鄭道昭字僖伯滎
+<lb ed="GA" n="0292a19"/>青州刺史為爾朱兆所害</p>
+<p xml:id="pGA001p0292a1911" style="margin-left:2em" cb:place="inline">〔又〕又李韶字元伯寶之
+<lb ed="GA" n="0292a20"/>孫也官至冀定二州<note 
+n="0292a2001" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0292a2001">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【志彙】">剌</rdg>
+</app>史</p>
+<p xml:id="pGA001p0292a2012" style="margin-left:2em" cb:place="inline">〔又〕鄭道昭字僖伯滎
 <pb ed="GA" xml:id="GA001.0003.0292b" n="0292b"/>
-<lb ed="GA" n="0292b01"/>陽人羲之子官至祕書監</p><p xml:id="pGA001p0292b0111" style="margin-left:2em" cb:place="inline">〔又〕崔叔仁清河人休
-<lb ed="GA" n="0292b02"/>子驃騎將軍　州刺史</p><p xml:id="pGA001p0292b0209" style="margin-left:2em" cb:place="inline">〔又〕崔孝忠博陵安平人
-<lb ed="GA" n="0292b03"/>修子官祕書<reg>郎</reg></p><p xml:id="pGA001p0292b0307" style="margin-left:2em" cb:place="inline">〔又〕温子昇字鵬舉太原人為廣
+<lb ed="GA" n="0292b01"/>陽人羲之子官至祕書監</p>
+<p xml:id="pGA001p0292b0111" style="margin-left:2em" cb:place="inline">〔又〕崔叔仁清河人休
+<lb ed="GA" n="0292b02"/>子驃騎將軍　州刺史</p>
+<p xml:id="pGA001p0292b0209" style="margin-left:2em" cb:place="inline">〔又〕崔孝忠博陵安平人
+<lb ed="GA" n="0292b03"/>修子官祕書<reg>郎</reg></p>
+<p xml:id="pGA001p0292b0307" style="margin-left:2em" cb:place="inline">〔又〕温子昇字鵬舉太原人為廣
 <lb ed="GA" n="0292b04"/>陽王淵賤客常景見其文而善之始知名永熙中
-<lb ed="GA" n="0292b05"/>為侍讀兼舍人後為高洋餓死於獄</p><p xml:id="pGA001p0292b0515" style="margin-left:2em" cb:place="inline">〔又〕荀濟字
+<lb ed="GA" n="0292b05"/>為侍讀兼舍人後為高洋餓死於獄</p>
+<p xml:id="pGA001p0292b0515" style="margin-left:2em" cb:place="inline">〔又〕荀濟字
 <lb ed="GA" n="0292b06"/>子通潁川人世為梁人與梁武為布衣交後奔魏
-<lb ed="GA" n="0292b07"/>為高澄所殺</p><p xml:id="pGA001p0292b0706" style="margin-left:2em" cb:place="inline">〔戴延之西征記曰〕東陽門外道北
+<lb ed="GA" n="0292b07"/>為高澄所殺</p>
+<p xml:id="pGA001p0292b0706" style="margin-left:2em" cb:place="inline">〔戴延之西征記曰〕東陽門外道北
 <lb ed="GA" n="0292b08"/>吳蜀二主弟宅去城二里墟基猶存</p></cb:div>
-<lb ed="GA" n="0292b09"/><cb:div type="other"><cb:mulu type="其他" level="2">正始寺</cb:mulu><head>正始寺</head><p xml:id="pGA001p0292b0904" cb:place="inline">百官等所立也正始中立因以為名在東陽門
+<lb ed="GA" n="0292b09"/><cb:div type="other"><cb:mulu type="其他" level="2">正始寺</cb:mulu><head>正始寺</head>
+<p xml:id="pGA001p0292b0904" cb:place="inline">百官等所立也正始中立因以為名在東陽門
 <lb ed="GA" n="0292b10"/>外御道南所謂敬義里也里內有典虞曹</p>
 <lb ed="GA" n="0292b11"/><p xml:id="pGA001p0292b1101" style="margin-left:1em">簷宇精淨美於景林眾僧房前高林對牖青松綠檉
 <lb ed="GA" n="0292b12"/>連枝交映多有枳樹而不中食有石碑一枚背上有
@@ -948,12 +1094,16 @@
 <lb ed="GA" n="0293b14"/>共遊陟白骨兮徒自朽方寸心兮何所憶</p>
 <lb ed="GA" n="0293b15"/><p xml:id="pGA001p0293b1501" style="margin-left:2em">〔魏書〕游肇字伯始廣平人明根子官至侍中高肇
 <lb ed="GA" n="0293b16"/>以與己名同欲令改易肇不可元乂殺清河王懌
-<lb ed="GA" n="0293b17"/>獨不下署</p><p xml:id="pGA001p0293b1705" style="margin-left:2em" cb:place="inline">〔又〕李彪字道固頓邱人孝文以有史
-<lb ed="GA" n="0293b18"/>才故賜名官祕書丞參著作</p><p xml:id="pGA001p0293b1812" style="margin-left:2em" cb:place="inline">〔又〕崔休字思盛清
-<lb ed="GA" n="0293b19"/>河人逞元孫官度支七兵殿中三尚書</p><p xml:id="pGA001p0293b1916" style="margin-left:2em" cb:place="inline">〔又〕張倫
+<lb ed="GA" n="0293b17"/>獨不下署</p>
+<p xml:id="pGA001p0293b1705" style="margin-left:2em" cb:place="inline">〔又〕李彪字道固頓邱人孝文以有史
+<lb ed="GA" n="0293b18"/>才故賜名官祕書丞參著作</p>
+<p xml:id="pGA001p0293b1812" style="margin-left:2em" cb:place="inline">〔又〕崔休字思盛清
+<lb ed="GA" n="0293b19"/>河人逞元孫官度支七兵殿中三尚書</p>
+<p xml:id="pGA001p0293b1916" style="margin-left:2em" cb:place="inline">〔又〕張倫
 <lb ed="GA" n="0293b20"/>字天念上谷温人衮子官大司農卿</p></cb:div>
 <pb ed="GA" xml:id="GA001.0003.0294a" n="0294a"/>
-<lb ed="GA" n="0294a01"/><cb:div type="other"><cb:mulu type="其他" level="2">平等寺</cb:mulu><head>平等寺</head><p xml:id="pGA001p0294a0104" cb:place="inline">廣平武穆王懷捨宅所立在青陽門外二里御
+<lb ed="GA" n="0294a01"/><cb:div type="other"><cb:mulu type="其他" level="2">平等寺</cb:mulu><head>平等寺</head>
+<p xml:id="pGA001p0294a0104" cb:place="inline">廣平武穆王懷捨宅所立在青陽門外二里御
 <lb ed="GA" n="0294a02"/>道北所謂孝敬里也</p>
 <lb ed="GA" n="0294a03"/><p xml:id="pGA001p0294a0301" style="margin-left:1em">堂宇宏美林木蕭森平臺複道獨顯當世</p>
 <lb ed="GA" n="0294a04"/><p xml:id="pGA001p0294a0401" style="margin-left:2em">〔魏書〕廣平王懷孝文弟三子大和二十一年封</p>
@@ -992,7 +1142,11 @@
 <lb ed="GA" n="0294b16"/>愧自惟寡薄本枝疏遠豈宜仰異天情俯乖民望唯
 <lb ed="GA" n="0294b17"/>王德表生民聲高萬古往以運屬殷憂時遭多難卷
 <lb ed="GA" n="0294b18"/>懷積載括囊有年今天眷明德民懷奧主厯數允集
-<lb ed="GA" n="0294b19"/>歌訟同臻乃徐發樞機副茲<note n="0294b1901" resp="CBETA" type="add">竚【CB】，<unclear/>【志彙】</note><app n="0294b1901"><lem wit="【CB】" resp="DILA">竚</lem><rdg wit="【志彙】"><unclear/></rdg></app>屬便敬奉璽綬歸於
+<lb ed="GA" n="0294b19"/>歌訟同臻乃徐發樞機副茲<note 
+n="0294b1901" resp="CBETA" type="add">竚【CB】，<unclear/>【志彙】</note><app n="0294b1901">
+  <lem wit="【CB】" resp="DILA">竚</lem>
+  <rdg wit="【志彙】"><unclear/></rdg>
+</app>屬便敬奉璽綬歸於
 <lb ed="GA" n="0294b20"/>別邸王其寅踐成業允執厥中雖休勿休日慎一日
 <pb ed="GA" xml:id="GA001.0003.0295a" n="0295a"/>
 <lb ed="GA" n="0295a01"/>敬之哉恭讓曰天命至重厯數匪輕自非德協三才
@@ -1042,16 +1196,23 @@
 <lb ed="GA" n="0296a03"/>移上古有此陛下何怪也帝乃還宮七月中帝為侍
 <lb ed="GA" n="0296a04"/>中斛斯椿所使奔於長安至十月終而京師遷鄴焉</p>
 <lb ed="GA" n="0296a05"/><p xml:id="pGA001p0296a0501" style="margin-left:2em">〔齊書〕魏收字伯起鉅鹿下曲陽人魏代官中書侍
-<lb ed="GA" n="0296a06"/><reg>郎</reg>入齊官右僕射</p><p xml:id="pGA001p0296a0608" style="margin-left:2em" cb:place="inline">〔又〕斛斯椿字法壽廣牧富昌
-<lb ed="GA" n="0296a07"/>人也厯位司徒太傅封恆山郡公諡文宣</p><p xml:id="pGA001p0296a0717" style="margin-left:2em" cb:place="inline">〔又〕孝
+<lb ed="GA" n="0296a06"/><reg>郎</reg>入齊官右僕射</p>
+<p xml:id="pGA001p0296a0608" style="margin-left:2em" cb:place="inline">〔又〕斛斯椿字法壽廣牧富昌
+<lb ed="GA" n="0296a07"/>人也厯位司徒太傅封恆山郡公諡文宣</p>
+<p xml:id="pGA001p0296a0717" style="margin-left:2em" cb:place="inline">〔又〕孝
 <lb ed="GA" n="0296a08"/>武帝紀帝內圖高歡增置勳府庶子廂別六百人
 <lb ed="GA" n="0296a09"/>騎廂別二百人閣內部曲千人以斛斯椿為領軍
 <lb ed="GA" n="0296a10"/>使軍謀朝政皆決於椿下詔伐梁實謀討歡己丑
 <lb ed="GA" n="0296a11"/>帝親統六軍次河橋歡引軍東度丙午帝奔長安</p></cb:div>
-<lb ed="GA" n="0296a12"/><cb:div type="other"><cb:mulu type="其他" level="2">景甯寺</cb:mulu><head>景甯寺</head><p xml:id="pGA001p0296a1204" cb:place="inline">太保司徒公楊椿所立也在清陽門外三里御
+<lb ed="GA" n="0296a12"/><cb:div type="other"><cb:mulu type="其他" level="2">景甯寺</cb:mulu><head>景甯寺</head>
+<p xml:id="pGA001p0296a1204" cb:place="inline">太保司徒公楊椿所立也在清陽門外三里御
 <lb ed="GA" n="0296a13"/>道南所謂景甯里也</p>
 <lb ed="GA" n="0296a14"/><p xml:id="pGA001p0296a1401" style="margin-left:1em">高祖遷都洛邑椿創居此里遂分宅為寺因以名之
-<lb ed="GA" n="0296a15"/>制飾甚美綺柱珠簾椿弟慎冀州<note n="0296a1501" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0296a1501"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【志彙】">剌</rdg></app>史慎弟津司空
+<lb ed="GA" n="0296a15"/>制飾甚美綺柱珠簾椿弟慎冀州<note 
+n="0296a1501" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0296a1501">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【志彙】">剌</rdg>
+</app>史慎弟津司空
 <lb ed="GA" n="0296a16"/>竝立性寬雅貴義輕財四世同居一門三從朝貴義
 <lb ed="GA" n="0296a17"/>居未之有也普泰中為爾朱世隆所誅後捨宅為建
 <lb ed="GA" n="0296a18"/>中寺</p>
@@ -1118,7 +1279,11 @@
 <lb ed="GA" n="0297b16"/>知諸貴為交友故時人弗識也或有人慕其高義投
 <lb ed="GA" n="0297b17"/>刺在門元慎稱疾高臥加以意思深長善於解夢孝
 <lb ed="GA" n="0297b18"/>昌元年廣陽王淵初除儀同三司總眾十萬討葛榮
-<lb ed="GA" n="0297b19"/>夜夢著衮衣倚槐樹而立以為<note n="0297b1901" resp="CBETA" type="add">吉【CB】，<unclear/>【志彙】</note><app n="0297b1901"><lem wit="【CB】" resp="CBETA.maha">吉</lem><rdg wit="【志彙】"><unclear/></rdg></app>徵問於元慎曰三
+<lb ed="GA" n="0297b19"/>夜夢著衮衣倚槐樹而立以為<note 
+n="0297b1901" resp="CBETA" type="add">吉【CB】，<unclear/>【志彙】</note><app n="0297b1901">
+  <lem wit="【CB】" resp="CBETA.maha">吉</lem>
+  <rdg wit="【志彙】"><unclear/></rdg>
+</app>徵問於元慎曰三
 <lb ed="GA" n="0297b20"/>公之祥淵甚悅之元慎退還告人曰廣陽死矣槐字
 <pb ed="GA" xml:id="GA001.0003.0298a" n="0298a"/>
 <lb ed="GA" n="0298a01"/>是木㫄鬼死後當得三公廣陽果為葛榮所殺追贈
@@ -1131,7 +1296,8 @@
 <lb ed="GA" n="0298a08"/>古諸侯以此論之亦為妙著時人譬之周宣及爾朱
 <lb ed="GA" n="0298a09"/>兆入洛陽即棄官與華陰隱士王騰周遊上洛山</p>
 <lb ed="GA" n="0298a10"/><p xml:id="pGA001p0298a1001" style="margin-left:2em">〔南史〕陳慶之字子雲義興國山人也官至南北司
-<lb ed="GA" n="0298a11"/>州刺史封永興縣侯</p><p xml:id="pGA001p0298a1109" style="margin-left:2em" cb:place="inline">〔魏書〕廣陽王淵嘉之子也</p>
+<lb ed="GA" n="0298a11"/>州刺史封永興縣侯</p>
+<p xml:id="pGA001p0298a1109" style="margin-left:2em" cb:place="inline">〔魏書〕廣陽王淵嘉之子也</p>
 <lb ed="GA" n="0298a12"/><p xml:id="pGA001p0298a1201" style="margin-left:2em">〔南史〕朱异錢塘人以薦為通事舍人至侍中勸
 <lb ed="GA" n="0298a13"/>納侯景遂以亾梁</p>
 <lb ed="GA" n="0298a14"/><p xml:id="pGA001p0298a1401">孝義里東市北植貨里</p>
@@ -1156,7 +1322,8 @@
 <pb ed="GA" xml:id="GA001.0003.0299a" n="0299a"/>
 <lb ed="GA" n="0299a01"/><cb:mulu type="卷" n="3"/><cb:juan fun="open" n="3"><cb:jhead>洛陽伽藍記鉤沈卷三</cb:jhead></cb:juan>
 <lb ed="GA" n="0299a02"/><cb:div type="other"><cb:mulu type="其他" level="1">城南</cb:mulu><head>城南</head>
-<lb ed="GA" n="0299a03"/><cb:div type="other"><cb:mulu type="其他" level="2">景明寺</cb:mulu><head>景明寺</head><p xml:id="pGA001p0299a0304" cb:place="inline">宣武皇帝所立也景明年中立因以為名在宣
+<lb ed="GA" n="0299a03"/><cb:div type="other"><cb:mulu type="其他" level="2">景明寺</cb:mulu><head>景明寺</head>
+<p xml:id="pGA001p0299a0304" cb:place="inline">宣武皇帝所立也景明年中立因以為名在宣
 <lb ed="GA" n="0299a04"/>陽門外一里御道東</p>
 <lb ed="GA" n="0299a05"/><p xml:id="pGA001p0299a0501" style="margin-left:1em">其寺東西南北方五百步前望嵩山少室却負帝城
 <lb ed="GA" n="0299a06"/>青林垂影綠水為文形勝之地爽塏獨美山縣臺觀
@@ -1200,17 +1367,20 @@
 <lb ed="GA" n="0300a02"/>時戎馬在郊朝廷多事國朝禮儀咸自子才出所制
 <lb ed="GA" n="0300a03"/>詩賦詔策章表碑頌贊記五百篇皆傳於世鄰國欽
 <lb ed="GA" n="0300a04"/>其模楷朝野以為美談也</p>
-<lb ed="GA" n="0300a05"/><p xml:id="pGA001p0300a0501" style="margin-left:2em">〔按〕邢子才傳在北齊書</p><p xml:id="pGA001p0300a0510" style="margin-left:2em" cb:place="inline">〔又按〕魏書彭城王勰為
+<lb ed="GA" n="0300a05"/><p xml:id="pGA001p0300a0501" style="margin-left:2em">〔按〕邢子才傳在北齊書</p>
+<p xml:id="pGA001p0300a0510" style="margin-left:2em" cb:place="inline">〔又按〕魏書彭城王勰為
 <lb ed="GA" n="0300a06"/>高肇所搆無罪見害景明報德二寺千餘僧鳴鐘
 <lb ed="GA" n="0300a07"/>將齋聞勰薨皆嗟歎不食飲水而罷</p></cb:div>
-<lb ed="GA" n="0300a08"/><cb:div type="other"><cb:mulu type="其他" level="2">大統寺</cb:mulu><head>大統寺</head><p xml:id="pGA001p0300a0804" cb:place="inline">在景明寺西所謂利民里寺南有三公令史高
+<lb ed="GA" n="0300a08"/><cb:div type="other"><cb:mulu type="其他" level="2">大統寺</cb:mulu><head>大統寺</head>
+<p xml:id="pGA001p0300a0804" cb:place="inline">在景明寺西所謂利民里寺南有三公令史高
 <lb ed="GA" n="0300a09"/>顯略宅</p>
 <lb ed="GA" n="0300a10"/><p xml:id="pGA001p0300a1001" style="margin-left:1em">每於夜見赤光行於堂前如此者非一向光明所掘
 <lb ed="GA" n="0300a11"/>地丈餘得黃金千斤銘云蘇秦家金得者為吾造功
 <lb ed="GA" n="0300a12"/>德顯略遂造招福寺以是△人謂此地是蘇秦舊宅當
 <lb ed="GA" n="0300a13"/>時元乂秉政聞其得金就略索之以二十斤與之<note place="inline">衒之
 <lb ed="GA" n="0300a14"/>按蘇秦時未有佛法功德者不必是寺應是碑銘之類頌其聲跡也</note></p></cb:div>
-<lb ed="GA" n="0300a15"/><cb:div type="other"><cb:mulu type="其他" level="2">雙女寺</cb:mulu><p xml:id="pGA001p0300a1501">東有秦太上公二寺在景明南一里西寺太后所立東
+<lb ed="GA" n="0300a15"/><cb:div type="other"><cb:mulu type="其他" level="2">雙女寺</cb:mulu>
+<p xml:id="pGA001p0300a1501">東有秦太上公二寺在景明南一里西寺太后所立東
 <lb ed="GA" n="0300a16"/>寺皇姨所造竝為父追福因以名之時人號為雙女寺</p>
 <lb ed="GA" n="0300a17"/><p xml:id="pGA001p0300a1701" style="margin-left:1em">竝門鄰洛水林木扶疏布葉垂陰各有五層浮圖一
 <lb ed="GA" n="0300a18"/>高五十丈素綵布工比於景明至於六齋常有中黃
@@ -1238,7 +1408,8 @@
 <lb ed="GA" n="0300b19"/>酒是其血也及還彭城子淵已失矣元寶子淵同戍
 <lb ed="GA" n="0300b20"/>三年不知是洛水之神也</p></cb:div>
 <pb ed="GA" xml:id="GA001.0003.0301a" n="0301a"/>
-<lb ed="GA" n="0301a01"/><cb:div type="other"><cb:mulu type="其他" level="2">報德寺</cb:mulu><head>報德寺</head><p xml:id="pGA001p0301a0104" cb:place="inline">高祖孝文皇帝所立也為馮太后追福在開陽
+<lb ed="GA" n="0301a01"/><cb:div type="other"><cb:mulu type="其他" level="2">報德寺</cb:mulu><head>報德寺</head>
+<p xml:id="pGA001p0301a0104" cb:place="inline">高祖孝文皇帝所立也為馮太后追福在開陽
 <lb ed="GA" n="0301a02"/>門外三里開陽門御道東有漢國子學堂堂前有三種
 <lb ed="GA" n="0301a03"/>字石經二十五碑</p>
 <lb ed="GA" n="0301a04"/><p xml:id="pGA001p0301a0401" style="margin-left:1em">表裏刻之寫春秋二部作篆科蚪隸三種字漢右中
@@ -1248,14 +1419,17 @@
 <lb ed="GA" n="0301a08"/>太和十七年猶有四碑</p>
 <lb ed="GA" n="0301a09"/><p xml:id="pGA001p0301a0901">高祖題為勸學里里有大覺三寶甯遠三寺武定四年
 <lb ed="GA" n="0301a10"/>大將軍遷石經於鄴</p>
-<lb ed="GA" n="0301a11"/><p xml:id="pGA001p0301a1101" style="margin-left:2em">〔魏書〕釋老志太和四年詔以鷹坊為報德寺</p><p xml:id="pGA001p0301a1118" style="margin-left:2em" cb:place="inline">〔又〕
+<lb ed="GA" n="0301a11"/><p xml:id="pGA001p0301a1101" style="margin-left:2em">〔魏書〕釋老志太和四年詔以鷹坊為報德寺</p>
+<p xml:id="pGA001p0301a1118" style="margin-left:2em" cb:place="inline">〔又〕
 <lb ed="GA" n="0301a12"/>世宗二年於恆農郡荊山造珉玉丈六像迎置洛
-<lb ed="GA" n="0301a13"/>濱報德寺世宗躬親致敬</p><p xml:id="pGA001p0301a1311" style="margin-left:2em" cb:place="inline">〔通鑑〕東魏武定四年
+<lb ed="GA" n="0301a13"/>濱報德寺世宗躬親致敬</p>
+<p xml:id="pGA001p0301a1311" style="margin-left:2em" cb:place="inline">〔通鑑〕東魏武定四年
 <lb ed="GA" n="0301a14"/>丞相歡如鄴高澄遷洛陽石經五十二碑於鄴</p>
 <lb ed="GA" n="0301a15"/><p xml:id="pGA001p0301a1501" style="margin-left:1em">周迴有園珍果出焉有大谷棃重十斤從樹著地盡
 <lb ed="GA" n="0301a16"/>化為水如承光之柰承光寺亦多果木柰味甚美冠
 <lb ed="GA" n="0301a17"/>於京師</p></cb:div>
-<lb ed="GA" n="0301a18"/><cb:div type="other"><cb:mulu type="其他" level="2">正覺寺</cb:mulu><p xml:id="pGA001p0301a1801">勸學里東有延賢里里內有正覺寺尚書令王肅所立
+<lb ed="GA" n="0301a18"/><cb:div type="other"><cb:mulu type="其他" level="2">正覺寺</cb:mulu>
+<p xml:id="pGA001p0301a1801">勸學里東有延賢里里內有正覺寺尚書令王肅所立
 <lb ed="GA" n="0301a19"/>也</p>
 <lb ed="GA" n="0301a20"/><p xml:id="pGA001p0301a2001" style="margin-left:1em">肅字恭懿琅邪人偽齊雍州刺史奐之子也贍學多
 <pb ed="GA" xml:id="GA001.0003.0301b" n="0301b"/>
@@ -1264,9 +1438,19 @@
 <lb ed="GA" n="0301b03"/>祖甚重之常呼王生延賢之名因肅立之肅在江南
 <lb ed="GA" n="0301b04"/>日聘謝氏為妻及至京師復尚公主其後謝氏入道
 <lb ed="GA" n="0301b05"/>為尼亦來奔肅見肅尚主謝作五言詩以贈之其詩
-<lb ed="GA" n="0301b06"/>曰：</p><lg xml:id="lgGA001p0301b0602" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">本為簿上蠶　今作機上絲</l><l style="text-indent:1em">得路逐勝去　頗憶<g ref="#CB32010"/>緜
-<lb ed="GA" n="0301b07"/>時</l></lg><p xml:id="pGA001p0301b0702" style="margin-left:1em" cb:place="inline">公主代肅答謝云：</p><lg xml:id="lgGA001p0301b0709" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">鍼是貫線物　目中恆任絲</l><l style="text-indent:1em">得帛
-<lb ed="GA" n="0301b08"/>縫新去　何能納故時</l></lg><p xml:id="pGA001p0301b0809" style="margin-left:1em" cb:place="inline">甚有愧謝之色遂造正覺寺
+<lb ed="GA" n="0301b06"/>曰：</p>
+<lg xml:id="lgGA001p0301b0602" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">本為簿上蠶　今作機上絲</l>
+  <l style="text-indent:1em">得路逐勝去　頗憶<g ref="#CB32010"/>緜
+<lb ed="GA" n="0301b07"/>時</l>
+</lg>
+<p xml:id="pGA001p0301b0702" style="margin-left:1em" cb:place="inline">公主代肅答謝云：</p>
+<lg xml:id="lgGA001p0301b0709" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">鍼是貫線物　目中恆任絲</l>
+  <l style="text-indent:1em">得帛
+<lb ed="GA" n="0301b08"/>縫新去　何能納故時</l>
+</lg>
+<p xml:id="pGA001p0301b0809" style="margin-left:1em" cb:place="inline">甚有愧謝之色遂造正覺寺
 <lb ed="GA" n="0301b09"/>以憩之肅憶父非理受禍常有子胥報楚之意畢身
 <lb ed="GA" n="0301b10"/>素服不聽樂時人以此稱之肅初入國不食羊肉及
 <lb ed="GA" n="0301b11"/>酪漿等常飯鯽魚羹渴飲茗汁京師士子見肅一飲
@@ -1292,30 +1476,67 @@
 <lb ed="GA" n="0302a10"/>正德歸降時元乂欲為之設茗飲先問卿於水厄多
 <lb ed="GA" n="0302a11"/>少正德不曉乂意答曰下官雖生長水鄉而立身已
 <lb ed="GA" n="0302a12"/>來不遭陽侯之難元乂與舉座之客大笑焉</p>
-<lb ed="GA" n="0302a13"/><p xml:id="pGA001p0302a1301" style="margin-left:2em">〔魏書〕王肅傳與此大同</p><p xml:id="pGA001p0302a1310" style="margin-left:2em" cb:place="inline">〔又〕甄琛字思伯中山無
+<lb ed="GA" n="0302a13"/><p xml:id="pGA001p0302a1301" style="margin-left:2em">〔魏書〕王肅傳與此大同</p>
+<p xml:id="pGA001p0302a1310" style="margin-left:2em" cb:place="inline">〔又〕甄琛字思伯中山無
 <lb ed="GA" n="0302a14"/>極人少敏悟學覽經史頗有刀筆官至車騎將軍
-<lb ed="GA" n="0302a15"/>侍中諡孝穆</p><p xml:id="pGA001p0302a1506" style="margin-left:2em" cb:place="inline">〔梁書〕蕭正德文帝子臨川王宏之
+<lb ed="GA" n="0302a15"/>侍中諡孝穆</p>
+<p xml:id="pGA001p0302a1506" style="margin-left:2em" cb:place="inline">〔梁書〕蕭正德文帝子臨川王宏之
 <lb ed="GA" n="0302a16"/>此云蕭衍子蓋緣正德入北自稱梁太子也</p></cb:div>
-<lb ed="GA" n="0302a17"/><cb:div type="other"><cb:mulu type="其他" level="2">龍華寺</cb:mulu><head>龍華寺</head><p xml:id="pGA001p0302a1704" cb:place="inline">廣陵王所立也追聖寺北海王所立也竝在報
+<lb ed="GA" n="0302a17"/><cb:div type="other"><cb:mulu type="其他" level="2">龍華寺</cb:mulu><head>龍華寺</head>
+<p xml:id="pGA001p0302a1704" cb:place="inline">廣陵王所立也追聖寺北海王所立也竝在報
 <lb ed="GA" n="0302a18"/>德寺之東</p>
 <lb ed="GA" n="0302a19"/><p xml:id="pGA001p0302a1901" style="margin-left:1em">法事僧房比秦太上公京師寺皆種雜果而此二寺
 <lb ed="GA" n="0302a20"/>園林茂盛莫與之爭</p>
 <pb ed="GA" xml:id="GA001.0003.0302b" n="0302b"/>
 <lb ed="GA" n="0302b01"/><p xml:id="pGA001p0302b0101" style="margin-left:2em">〔北史〕廣陵王欣傳欣字慶樂初封沛王好營產業
-<lb ed="GA" n="0302b02"/>多所樹藝京師名果皆出其園</p><p xml:id="pGA001p0302b0213" style="margin-left:2em" cb:place="inline">〔又〕北海王詳字
+<lb ed="GA" n="0302b02"/>多所樹藝京師名果皆出其園</p>
+<p xml:id="pGA001p0302b0213" style="margin-left:2em" cb:place="inline">〔又〕北海王詳字
 <lb ed="GA" n="0302b03"/>季豫獻文帝弟七子太和九年封</p>
 <lb ed="GA" n="0302b04"/><p xml:id="pGA001p0302b0401">宣陽門外四里至洛水上作浮橋所謂永橋也</p>
-<lb ed="GA" n="0302b05"/><p xml:id="pGA001p0302b0501" style="margin-left:1em">神龜中常景為勒銘其辭曰：</p><lg xml:id="lgGA001p0302b0512" cb:place="inline" style="margin-left:0em;text-indent:0em;"><l style="text-indent:1em">浩浩大川　泱泱清洛</l><l style="text-indent:1em">導
-<lb ed="GA" n="0302b06"/>源熊耳　控流巨壑</l><l style="text-indent:1em">納穀吐伊　貫周淹亳</l><l style="text-indent:1em">近達河宗　遠
-<lb ed="GA" n="0302b07"/>朝海若</l><l style="text-indent:1em">兆惟洛食　實曰土中</l><l style="text-indent:1em">上應張柳　下據河崧</l><l style="text-indent:1em">寒
-<lb ed="GA" n="0302b08"/>暑攸叶　日月載融</l><l style="text-indent:1em">帝世光宅　圅夏同風</l><l style="text-indent:1em">前臨少室　却
-<lb ed="GA" n="0302b09"/>負太行</l><l style="text-indent:1em">制巖東邑　峭峘西疆</l><l style="text-indent:1em">四險之地　六達之莊</l><l style="text-indent:1em">恃
-<lb ed="GA" n="0302b10"/>德則固　失道則亾</l><l style="text-indent:1em">詳觀古昔　列見邱墳</l><l style="text-indent:1em">乃禪乃革
-<lb ed="GA" n="0302b11"/>　或質或文</l><l style="text-indent:1em">周餘九裂　漢季三分</l><l style="text-indent:1em">魏風衰晚　晉景雕曛</l><l style="text-indent:1em">天
-<lb ed="GA" n="0302b12"/>地發輝　圖書受命</l><l style="text-indent:1em">皇建有極　神功無競</l><l style="text-indent:1em">魏籙仰天　元
-<lb ed="GA" n="0302b13"/>符握鏡</l><l style="text-indent:1em">璽運會昌　龍圖受<note n="0302b1301" resp="CBETA" type="add">命【CB】，□【志彙】</note><app n="0302b1301"><lem wit="【CB】" resp="DILA">命</lem><rdg wit="【志彙】">□</rdg></app><note n="0302001" resp="DILA" place="foot text" type="orig">「命」字底本闕漏，茲依本叢書第一輯第一冊《洛陽伽藍記》p. 116 補入。</note></l><l style="text-indent:1em">乃睠書軌　永懷保定</l><l style="text-indent:1em">敷
-<lb ed="GA" n="0302b14"/>茲景跡　流美洪謨</l><l style="text-indent:1em">襲我冠冕　正我神樞</l><l style="text-indent:1em">水陸兼會　周
-<lb ed="GA" n="0302b15"/>鄭交衢</l><l style="text-indent:1em">爰勒洛汭　敢告中區</l></lg><p xml:id="pGA001p0302b1512" style="margin-left:1em" cb:place="inline">南北兩岸有華表舉高
+<lb ed="GA" n="0302b05"/><p xml:id="pGA001p0302b0501" style="margin-left:1em">神龜中常景為勒銘其辭曰：</p>
+<lg xml:id="lgGA001p0302b0512" cb:place="inline" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:1em">浩浩大川　泱泱清洛</l>
+  <l style="text-indent:1em">導
+<lb ed="GA" n="0302b06"/>源熊耳　控流巨壑</l>
+  <l style="text-indent:1em">納穀吐伊　貫周淹亳</l>
+  <l style="text-indent:1em">近達河宗　遠
+<lb ed="GA" n="0302b07"/>朝海若</l>
+  <l style="text-indent:1em">兆惟洛食　實曰土中</l>
+  <l style="text-indent:1em">上應張柳　下據河崧</l>
+  <l style="text-indent:1em">寒
+<lb ed="GA" n="0302b08"/>暑攸叶　日月載融</l>
+  <l style="text-indent:1em">帝世光宅　圅夏同風</l>
+  <l style="text-indent:1em">前臨少室　却
+<lb ed="GA" n="0302b09"/>負太行</l>
+  <l style="text-indent:1em">制巖東邑　峭峘西疆</l>
+  <l style="text-indent:1em">四險之地　六達之莊</l>
+  <l style="text-indent:1em">恃
+<lb ed="GA" n="0302b10"/>德則固　失道則亾</l>
+  <l style="text-indent:1em">詳觀古昔　列見邱墳</l>
+  <l style="text-indent:1em">乃禪乃革
+<lb ed="GA" n="0302b11"/>　或質或文</l>
+  <l style="text-indent:1em">周餘九裂　漢季三分</l>
+  <l style="text-indent:1em">魏風衰晚　晉景雕曛</l>
+  <l style="text-indent:1em">天
+<lb ed="GA" n="0302b12"/>地發輝　圖書受命</l>
+  <l style="text-indent:1em">皇建有極　神功無競</l>
+  <l style="text-indent:1em">魏籙仰天　元
+<lb ed="GA" n="0302b13"/>符握鏡</l>
+  <l style="text-indent:1em">璽運會昌　龍圖受<note 
+n="0302b1301" resp="CBETA" type="add">命【CB】，□【志彙】</note><app n="0302b1301">
+    <lem wit="【CB】" resp="DILA">命</lem>
+    <rdg wit="【志彙】">□</rdg>
+  </app><note 
+n="0302001" resp="DILA" place="foot text" type="orig">「命」字底本闕漏，茲依本叢書第一輯第一冊《洛陽伽藍記》p. 116 補入。</note></l>
+  <l style="text-indent:1em">乃睠書軌　永懷保定</l>
+  <l style="text-indent:1em">敷
+<lb ed="GA" n="0302b14"/>茲景跡　流美洪謨</l>
+  <l style="text-indent:1em">襲我冠冕　正我神樞</l>
+  <l style="text-indent:1em">水陸兼會　周
+<lb ed="GA" n="0302b15"/>鄭交衢</l>
+  <l style="text-indent:1em">爰勒洛汭　敢告中區</l>
+</lg>
+<p xml:id="pGA001p0302b1512" style="margin-left:1em" cb:place="inline">南北兩岸有華表舉高
 <lb ed="GA" n="0302b16"/>二十丈華表上作鳳皇似欲沖天勢</p>
 <lb ed="GA" n="0302b17"/><p xml:id="pGA001p0302b1701" style="margin-left:2em">〔魏書〕常景傳蕭綜降附徐州清復遣景兼尚書持
 <lb ed="GA" n="0302b18"/>節馳與行臺都督觀機部分景行經洛汭乃作銘
@@ -1367,7 +1588,8 @@
 <lb ed="GA" n="0304a01"/>子胡以波斯道遠不可送達遂在路殺師子而返有
 <lb ed="GA" n="0304a02"/>司劾罪以違旨論廣陵王曰豈以師子而罪人也遂
 <lb ed="GA" n="0304a03"/>赦之</p></cb:div>
-<lb ed="GA" n="0304a04"/><cb:div type="other"><cb:mulu type="其他" level="2">菩提寺</cb:mulu><head>菩提寺</head><p xml:id="pGA001p0304a0404" cb:place="inline">西域胡人所立也在慕義里</p>
+<lb ed="GA" n="0304a04"/><cb:div type="other"><cb:mulu type="其他" level="2">菩提寺</cb:mulu><head>菩提寺</head>
+<p xml:id="pGA001p0304a0404" cb:place="inline">西域胡人所立也在慕義里</p>
 <lb ed="GA" n="0304a05"/><p xml:id="pGA001p0304a0501" style="margin-left:1em">沙門達多發冢取甎得一人以進時太后與明帝在
 <lb ed="GA" n="0304a06"/>華林都堂以為妖異謂黃門侍<reg>郎</reg>徐紇曰上古以來
 <lb ed="GA" n="0304a07"/>頗有此事否紇曰昔魏時發冢得霍光女壻范明友
@@ -1392,7 +1614,8 @@
 <lb ed="GA" n="0304b05"/>見人發鬼兵有一鬼訴稱是柏棺應免主兵吏曰爾雖柏
 <lb ed="GA" n="0304b06"/>棺桑木為榱遂不免兵京師聞此柏木湧貴人疑賣
 <lb ed="GA" n="0304b07"/>棺者貨涵為此言也</p></cb:div>
-<lb ed="GA" n="0304b08"/><cb:div type="other"><cb:mulu type="其他" level="2">高陽王寺</cb:mulu><head>高陽王寺</head><p xml:id="pGA001p0304b0805" cb:place="inline">高陽王雍之宅也在津陽門外三里御道西
+<lb ed="GA" n="0304b08"/><cb:div type="other"><cb:mulu type="其他" level="2">高陽王寺</cb:mulu><head>高陽王寺</head>
+<p xml:id="pGA001p0304b0805" cb:place="inline">高陽王雍之宅也在津陽門外三里御道西
 <lb ed="GA" n="0304b09"/>雍之為爾朱榮所害也捨宅以為寺</p>
 <lb ed="GA" n="0304b10"/><p xml:id="pGA001p0304b1001" style="margin-left:1em">正光中雍為丞相給羽葆鼓吹虎賁班劒百人貴極
 <lb ed="GA" n="0304b11"/>人臣富兼山海居止第宅匹於帝宮白壁丹楹窈窕
@@ -1431,7 +1654,8 @@
 <lb ed="GA" n="0305b02"/>錘信非虛言也舉學皆笑焉</p>
 <lb ed="GA" n="0305b03"/><p xml:id="pGA001p0305b0301" style="margin-left:2em">〔按〕北史儒林傳於服氏春秋有潘叔虔當即崇和
 <lb ed="GA" n="0305b04"/>之字</p></cb:div>
-<lb ed="GA" n="0305b05"/><cb:div type="other"><cb:mulu type="其他" level="2">崇虛寺</cb:mulu><head>崇虛寺</head><p xml:id="pGA001p0305b0504" cb:place="inline">在城西即漢之躍龍園也</p>
+<lb ed="GA" n="0305b05"/><cb:div type="other"><cb:mulu type="其他" level="2">崇虛寺</cb:mulu><head>崇虛寺</head>
+<p xml:id="pGA001p0305b0504" cb:place="inline">在城西即漢之躍龍園也</p>
 <lb ed="GA" n="0305b06"/><p xml:id="pGA001p0305b0601" style="margin-left:1em">延熹九年桓帝祠老子於躍龍園設華蓋之座用郊
 <lb ed="GA" n="0305b07"/>天之樂此其地也高祖遷京之始以地給民憩者多
 <lb ed="GA" n="0305b08"/>見妖怪是以人皆去之遂立寺焉</p>
@@ -1441,7 +1665,8 @@
 <pb ed="GA" xml:id="GA001.0003.0306a" n="0306a"/>
 <lb ed="GA" n="0306a01"/><cb:mulu type="卷" n="4"/><cb:juan fun="open" n="4"><cb:jhead>洛陽伽藍記鉤沈卷四</cb:jhead></cb:juan>
 <lb ed="GA" n="0306a02"/><cb:div type="other"><cb:mulu type="其他" level="1">城西</cb:mulu><head>城西</head>
-<lb ed="GA" n="0306a03"/><cb:div type="other"><cb:mulu type="其他" level="2">沖覺寺</cb:mulu><head>沖覺寺</head><p xml:id="pGA001p0306a0304" cb:place="inline">太傅清河王懌捨宅所立也在西明門外一里
+<lb ed="GA" n="0306a03"/><cb:div type="other"><cb:mulu type="其他" level="2">沖覺寺</cb:mulu><head>沖覺寺</head>
+<p xml:id="pGA001p0306a0304" cb:place="inline">太傅清河王懌捨宅所立也在西明門外一里
 <lb ed="GA" n="0306a04"/>御道北</p>
 <lb ed="GA" n="0306a05"/><p xml:id="pGA001p0306a0501" style="margin-left:1em">懌親王之中最有名行世宗愛之特隆諸弟延昌四
 <lb ed="GA" n="0306a06"/>年世宗崩懌與高陽王雍廣平王懷竝受遺詔輔翼
@@ -1463,12 +1688,15 @@
 <lb ed="GA" n="0306b01"/>建始殿拔清河國<reg>郎</reg>中令韓子熙為黃門侍<reg>郎</reg>從王
 <lb ed="GA" n="0306b02"/>國三卿為持戟者近代所無也</p>
 <lb ed="GA" n="0306b03"/><p xml:id="pGA001p0306b0301" style="margin-left:2em">〔魏書〕清河王懌孝文帝弟五子太和二十一年封
-<lb ed="GA" n="0306b04"/>正光中為元乂所害</p><p xml:id="pGA001p0306b0409" style="margin-left:2em" cb:place="inline">〔又〕韓子熙字元雍昌黎棘
+<lb ed="GA" n="0306b04"/>正光中為元乂所害</p>
+<p xml:id="pGA001p0306b0409" style="margin-left:2em" cb:place="inline">〔又〕韓子熙字元雍昌黎棘
 <lb ed="GA" n="0306b05"/>城人懌死子熙屏居田野太后反政子熙伏闕
 <lb ed="GA" n="0306b06"/>訴懌之冤後官祭酒加大將軍</p>
 <lb ed="GA" n="0306b07"/><p xml:id="pGA001p0306b0701">為文獻追福建五層浮圖一所工作與瑤光寺相似也</p></cb:div>
-<lb ed="GA" n="0306b08"/><cb:div type="other"><cb:mulu type="其他" level="2">宣忠寺</cb:mulu><head>宣忠寺</head><p xml:id="pGA001p0306b0804" cb:place="inline">司州牧城陽王徽所立也在西陽門外一里御道
-<lb ed="GA" n="0306b09"/>南</p><p xml:id="pGA001p0306b0902" style="margin-left:1em" cb:place="inline">永安中北海入洛莊帝北巡自餘諸王各懷二望唯
+<lb ed="GA" n="0306b08"/><cb:div type="other"><cb:mulu type="其他" level="2">宣忠寺</cb:mulu><head>宣忠寺</head>
+<p xml:id="pGA001p0306b0804" cb:place="inline">司州牧城陽王徽所立也在西陽門外一里御道
+<lb ed="GA" n="0306b09"/>南</p>
+<p xml:id="pGA001p0306b0902" style="margin-left:1em" cb:place="inline">永安中北海入洛莊帝北巡自餘諸王各懷二望唯
 <lb ed="GA" n="0306b10"/>徽獨從莊帝至長子城大兵阻河雄雌未決徽願入
 <lb ed="GA" n="0306b11"/>洛陽捨宅為寺及北海敗散國道重暉遂捨宅焉永
 <lb ed="GA" n="0306b12"/>安末莊帝謀殺爾朱榮恐事不果謀計於徽徽曰以
@@ -1499,10 +1727,12 @@
 <lb ed="GA" n="0307a16"/>斃之使祖仁備經楚撻窮其塗炭雖魏其侯之笞田蚡秦王之刺姚萇以此論之不能加也</note></p>
 <lb ed="GA" n="0307a17"/><p xml:id="pGA001p0307a1701" style="margin-left:2em">〔魏書〕城陽王徽字顯順長壽之子景穆曾孫也與
 <lb ed="GA" n="0307a18"/>彧等勸帝圖榮及爾朱兆之入莊帝步出雲龍門
-<lb ed="GA" n="0307a19"/>見徽呼之徽不顧而去</p><p xml:id="pGA001p0307a1910" style="margin-left:2em" cb:place="inline">〔又〕寇彌謙之之弟讚之
+<lb ed="GA" n="0307a19"/>見徽呼之徽不顧而去</p>
+<p xml:id="pGA001p0307a1910" style="margin-left:2em" cb:place="inline">〔又〕寇彌謙之之弟讚之
 <lb ed="GA" n="0307a20"/>孫為尚書<reg>郎</reg>害徽時論深責之後歿關西</p></cb:div>
 <pb ed="GA" xml:id="GA001.0003.0307b" n="0307b"/>
-<lb ed="GA" n="0307b01"/><cb:div type="other"><cb:mulu type="其他" level="2">宣忠寺</cb:mulu><head>宣忠寺</head><p xml:id="pGA001p0307b0104" cb:place="inline">東王典御寺閹官王桃湯所立也</p>
+<lb ed="GA" n="0307b01"/><cb:div type="other"><cb:mulu type="其他" level="2">宣忠寺</cb:mulu><head>宣忠寺</head>
+<p xml:id="pGA001p0307b0104" cb:place="inline">東王典御寺閹官王桃湯所立也</p>
 <lb ed="GA" n="0307b02"/><p xml:id="pGA001p0307b0201" style="margin-left:1em">時閹官伽藍皆為尼寺惟桃湯獨造僧寺世人稱□
 <lb ed="GA" n="0307b03"/>英雄</p>
 <lb ed="GA" n="0307b04"/><p xml:id="pGA001p0307b0401" style="margin-left:2em">〔魏書〕閹宦傳王温字桃湯趙郡人車騎將軍武陽
@@ -1510,7 +1740,8 @@
 <lb ed="GA" n="0307b06"/><p xml:id="pGA001p0307b0601">門有三層浮圖一所</p>
 <lb ed="GA" n="0307b07"/><p xml:id="pGA001p0307b0701" style="margin-left:1em">工踰昭儀宦者昭提最為入室至於六齋常擊鼓歌
 <lb ed="GA" n="0307b08"/>舞也</p></cb:div>
-<lb ed="GA" n="0307b09"/><cb:div type="other"><cb:mulu type="其他" level="2">白馬寺</cb:mulu><head>白馬寺</head><p xml:id="pGA001p0307b0904" cb:place="inline">漢明帝所立也佛入中國之始寺在西陽門外
+<lb ed="GA" n="0307b09"/><cb:div type="other"><cb:mulu type="其他" level="2">白馬寺</cb:mulu><head>白馬寺</head>
+<p xml:id="pGA001p0307b0904" cb:place="inline">漢明帝所立也佛入中國之始寺在西陽門外
 <lb ed="GA" n="0307b10"/>三里御道南</p>
 <lb ed="GA" n="0307b11"/><p xml:id="pGA001p0307b1101" style="margin-left:1em">帝夢金人長丈六項背日月光明胡神號曰佛遣使
 <lb ed="GA" n="0307b12"/>向西域求之乃得經象焉時白馬負經而來因以為
@@ -1534,7 +1765,8 @@
 <lb ed="GA" n="0308a09"/>經十餘日法和父喪大竹箭者苴杖東廂屋者倚廬
 <lb ed="GA" n="0308a10"/>初造十二辰歌終其言也</p>
 <lb ed="GA" n="0308a11"/><p xml:id="pGA001p0308a1101" style="margin-left:2em">〔按〕此段與前後文不屬未知當在何條下</p></cb:div>
-<lb ed="GA" n="0308a12"/><cb:div type="other"><cb:mulu type="其他" level="2">光寶寺</cb:mulu><head>光寶寺</head><p xml:id="pGA001p0308a1204" cb:place="inline">在西陽門外御道北</p>
+<lb ed="GA" n="0308a12"/><cb:div type="other"><cb:mulu type="其他" level="2">光寶寺</cb:mulu><head>光寶寺</head>
+<p xml:id="pGA001p0308a1204" cb:place="inline">在西陽門外御道北</p>
 <lb ed="GA" n="0308a13"/><p xml:id="pGA001p0308a1301" style="margin-left:1em">有三層浮圖一所以石為基形制甚古畫工雕刻隱
 <lb ed="GA" n="0308a14"/>士趙逸見而歎曰晉朝石塔寺今為光寶寺也人問
 <lb ed="GA" n="0308a15"/>其故逸曰晉朝三十二寺盡皆湮滅惟有此寺獨存
@@ -1551,7 +1783,8 @@
 <lb ed="GA" n="0308b05"/>東市也</p>
 <lb ed="GA" n="0308b06"/><p xml:id="pGA001p0308b0601" style="margin-left:2em">〔魏書〕爾朱天光榮從祖兄子少勇決榮特愛之及
 <lb ed="GA" n="0308b07"/>向京師委以後事封廣宗王為高歡所殺</p></cb:div>
-<lb ed="GA" n="0308b08"/><cb:div type="other"><cb:mulu type="其他" level="2">法雲寺</cb:mulu><head>法雲寺</head><p xml:id="pGA001p0308b0804" cb:place="inline">西域烏傷國胡沙門曇摩羅所立也在光寶寺
+<lb ed="GA" n="0308b08"/><cb:div type="other"><cb:mulu type="其他" level="2">法雲寺</cb:mulu><head>法雲寺</head>
+<p xml:id="pGA001p0308b0804" cb:place="inline">西域烏傷國胡沙門曇摩羅所立也在光寶寺
 <lb ed="GA" n="0308b09"/>西隔牆竝門</p>
 <lb ed="GA" n="0308b10"/><p xml:id="pGA001p0308b1001" style="margin-left:1em">摩羅聰慧利根學窮釋氏至中國即曉魏言隸書凡
 <lb ed="GA" n="0308b11"/>所聞見無不通解是以道俗貴賤咸歸仰之作祗洹
@@ -1565,7 +1798,8 @@
 <lb ed="GA" n="0308b19"/><p xml:id="pGA001p0308b1901">寺北有侍中尚書令臨淮王彧宅</p>
 <lb ed="GA" n="0308b20"/><p xml:id="pGA001p0308b2001" style="margin-left:1em">彧博通典籍辨慧清悟風儀詳審容止亦觀至三元
 <pb ed="GA" xml:id="GA001.0003.0309a" n="0309a"/>
-<lb ed="GA" n="0309a01"/><note n="0309001" resp="DILA" place="foot text" type="orig">底本頁碼誤做 209。以下連續三頁同誤，今已訂正。</note>肇慶萬國齊臻貂蟬耀首寶玉鳴腰負荷執笏逶迤
+<lb ed="GA" n="0309a01"/><note 
+n="0309001" resp="DILA" place="foot text" type="orig">底本頁碼誤做 209。以下連續三頁同誤，今已訂正。</note>肇慶萬國齊臻貂蟬耀首寶玉鳴腰負荷執笏逶迤
 <lb ed="GA" n="0309a02"/>複道觀者忘疲莫不歎服彧性愛林泉又重賓客至
 <lb ed="GA" n="0309a03"/>於春風扇揚花樹如錦晨食南館夜遊後園寮采成
 <lb ed="GA" n="0309a04"/>羣俊民滿席絲桐發響羽觴流行詩賦竝陳清言乍
@@ -1638,7 +1872,8 @@
 <lb ed="GA" n="0310b08"/>重門啟扇閣道交通迭相臨望金銀緹繡奴婢裳衣
 <lb ed="GA" n="0310b09"/>五味八珍僕隸畢□神龜年中以工商上僭議不聽
 <lb ed="GA" n="0310b10"/>衣金銀緹繡雖立此制竟不施行</p></cb:div>
-<lb ed="GA" n="0310b11"/><cb:div type="other"><cb:mulu type="其他" level="2">開善寺</cb:mulu><p xml:id="pGA001p0310b1101">準財里內有開善寺京兆人韋英宅也</p>
+<lb ed="GA" n="0310b11"/><cb:div type="other"><cb:mulu type="其他" level="2">開善寺</cb:mulu>
+<p xml:id="pGA001p0310b1101">準財里內有開善寺京兆人韋英宅也</p>
 <lb ed="GA" n="0310b12"/><p xml:id="pGA001p0310b1201" style="margin-left:1em">英早卒其妻梁氏不治喪而嫁更納河內人向子集
 <lb ed="GA" n="0310b13"/>為夫雖云改嫁仍居英宅英聞梁嫁白日來歸乘馬
 <lb ed="GA" n="0310b14"/>將數人至於庭前呼曰阿梁卿忘我也子集驚怖引弓
@@ -1685,7 +1920,11 @@
 <lb ed="GA" n="0311b13"/>歎不覺生疾還家臥三日不起江陽王繼來省疾謂
 <lb ed="GA" n="0311b14"/>曰卿之財產應得抗衡何為歎羨以至於此融曰常
 <lb ed="GA" n="0311b15"/>謂高陽一人寶貨多於融誰知河閒瞻之在前繼笑
-<lb ed="GA" n="0311b16"/>曰卿欲作袁術之在淮南不知世<note n="0311b1601" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0311b1601"><lem wit="【CB】" resp="CBETA.maha">間</lem><rdg wit="【志彙】">閒</rdg></app>復有劉備也融
+<lb ed="GA" n="0311b16"/>曰卿欲作袁術之在淮南不知世<note 
+n="0311b1601" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0311b1601">
+  <lem wit="【CB】" resp="CBETA.maha">間</lem>
+  <rdg wit="【志彙】">閒</rdg>
+</app>復有劉備也融
 <lb ed="GA" n="0311b17"/>乃蹶起置酒作樂于時國家殷富庫藏盈溢錢絹露
 <lb ed="GA" n="0311b18"/>積於廊廡者不可較數及太后賜百官絹任意自取
 <lb ed="GA" n="0311b19"/>朝臣莫不稱力而去惟融與陳留侯李崇負絹過任
@@ -1699,13 +1938,17 @@
 <lb ed="GA" n="0312a06"/>出池綠萍浮水飛梁跨樹層閣出雲咸皆嘖嘖雖梁
 <lb ed="GA" n="0312a07"/>王兔苑想之不如也</p>
 <lb ed="GA" n="0312a08"/><p xml:id="pGA001p0312a0801" style="margin-left:2em">〔魏書〕河閒王琛文成帝孫拜定州刺史還朝胡太
-<lb ed="GA" n="0312a09"/>后詔曰琛在定州唯不將中山宮來</p><p xml:id="pGA001p0312a0915" style="margin-left:2em" cb:place="inline">〔又〕章武敬
+<lb ed="GA" n="0312a09"/>后詔曰琛在定州唯不將中山宮來</p>
+<p xml:id="pGA001p0312a0915" style="margin-left:2em" cb:place="inline">〔又〕章武敬
 <lb ed="GA" n="0312a10"/>王太洛無子以南安惠王弟二子彬為後彬子融
-<lb ed="GA" n="0312a11"/>字永興諡莊</p><p xml:id="pGA001p0312a1106" style="margin-left:2em" cb:place="inline">〔又〕京兆王黎子吐根改封江陽王
-<lb ed="GA" n="0312a12"/>無子以南平王霄弟三子繼襲繼字世仁</p><p xml:id="pGA001p0312a1217" style="margin-left:2em" cb:place="inline">〔又〕釋
+<lb ed="GA" n="0312a11"/>字永興諡莊</p>
+<p xml:id="pGA001p0312a1106" style="margin-left:2em" cb:place="inline">〔又〕京兆王黎子吐根改封江陽王
+<lb ed="GA" n="0312a12"/>無子以南平王霄弟三子繼襲繼字世仁</p>
+<p xml:id="pGA001p0312a1217" style="margin-left:2em" cb:place="inline">〔又〕釋
 <lb ed="GA" n="0312a13"/>老志河陰之酷朝士死者其家多捨宅以施僧尼
 <lb ed="GA" n="0312a14"/>京師第舍略為寺矣</p></cb:div>
-<lb ed="GA" n="0312a15"/><cb:div type="other"><cb:mulu type="其他" level="2">追光寺</cb:mulu><head>追光寺</head><p xml:id="pGA001p0312a1504" cb:place="inline">侍中尚書令東平王略之宅也</p>
+<lb ed="GA" n="0312a15"/><cb:div type="other"><cb:mulu type="其他" level="2">追光寺</cb:mulu><head>追光寺</head>
+<p xml:id="pGA001p0312a1504" cb:place="inline">侍中尚書令東平王略之宅也</p>
 <lb ed="GA" n="0312a16"/><p xml:id="pGA001p0312a1601" style="margin-left:1em">略生而歧嶷幼則老成博洽羣書好道不倦神龜中
 <lb ed="GA" n="0312a17"/>為黃門侍<reg>郎</reg>元乂專政虐加宰輔略與其兄相州刺
 <lb ed="GA" n="0312a18"/>史中山王熙欲起義兵問罪君側雄規不就釁起同
@@ -1713,7 +1956,11 @@
 <lb ed="GA" n="0312a20"/>素聞略名見其器度寬雅文學優贍甚敬重之謂曰
 <pb ed="GA" xml:id="GA001.0003.0312b" n="0312b"/>
 <lb ed="GA" n="0312b01"/>洛中如王者幾人略曰臣在本朝之日承乏攝官至
-<lb ed="GA" n="0312b02"/>於宗廟之美百官之富鴛鸞接翼<note n="0312b0201" resp="CBETA" type="add">杞【CB】，𣏌【志彙】</note><app n="0312b0201"><lem wit="【CB】" resp="CBETA.maha">杞</lem><rdg wit="【志彙】">𣏌</rdg></app>梓成陰如臣之
+<lb ed="GA" n="0312b02"/>於宗廟之美百官之富鴛鸞接翼<note 
+n="0312b0201" resp="CBETA" type="add">杞【CB】，𣏌【志彙】</note><app n="0312b0201">
+  <lem wit="【CB】" resp="CBETA.maha">杞</lem>
+  <rdg wit="【志彙】">𣏌</rdg>
+</app>梓成陰如臣之
 <lb ed="GA" n="0312b03"/>比趙咨所云車載斗量不可數盡衍大笑乃封略為
 <lb ed="GA" n="0312b04"/>中山王食邑千戶儀比王子又除宣城太守給鼓吹
 <lb ed="GA" n="0312b05"/>一部劒卒千人略為政清肅甚有治聲江東朝貴侈
@@ -1739,12 +1986,15 @@
 <lb ed="GA" n="0313a04"/>嗣王景式捨宅為此寺</p>
 <lb ed="GA" n="0313a05"/><p xml:id="pGA001p0313a0501" style="margin-left:2em">〔魏書〕東平王略字雋興南安王楨之孫由梁歸國
 <lb ed="GA" n="0313a06"/>封東平王爾朱榮略之姑夫略素所輕忽又黨於
-<lb ed="GA" n="0313a07"/>鄭儼徐紇榮之入洛見害於河陰</p><p xml:id="pGA001p0313a0714" style="margin-left:2em" cb:place="inline">〔又〕中山王熙
+<lb ed="GA" n="0313a07"/>鄭儼徐紇榮之入洛見害於河陰</p>
+<p xml:id="pGA001p0313a0714" style="margin-left:2em" cb:place="inline">〔又〕中山王熙
 <lb ed="GA" n="0313a08"/>字真興好學雋爽然性輕躁浮動襲封中山王及
-<lb ed="GA" n="0313a09"/>元乂殺青河王懌熙起兵討之為乂所誅</p><p xml:id="pGA001p0313a0917" style="margin-left:2em" cb:place="inline">〔梁書〕
+<lb ed="GA" n="0313a09"/>元乂殺青河王懌熙起兵討之為乂所誅</p>
+<p xml:id="pGA001p0313a0917" style="margin-left:2em" cb:place="inline">〔梁書〕
 <lb ed="GA" n="0313a10"/>江革字休映考城人為豫王長史彭城失守為魏
 <lb ed="GA" n="0313a11"/>所得返梁官都官尚書</p></cb:div>
-<lb ed="GA" n="0313a12"/><cb:div type="other"><cb:mulu type="其他" level="2">融覺寺</cb:mulu><head>融覺寺</head><p xml:id="pGA001p0313a1204" cb:place="inline">清河文獻王懌所立也在閶闔門外御道南有
+<lb ed="GA" n="0313a12"/><cb:div type="other"><cb:mulu type="其他" level="2">融覺寺</cb:mulu><head>融覺寺</head>
+<p xml:id="pGA001p0313a1204" cb:place="inline">清河文獻王懌所立也在閶闔門外御道南有
 <lb ed="GA" n="0313a13"/>五層浮圖一所與沖覺寺齊等佛殿僧房充溢一里</p>
 <lb ed="GA" n="0313a14"/><p xml:id="pGA001p0313a1401" style="margin-left:1em">比邱曇謨最善於禪學講涅槃華嚴僧徒千人天竺
 <lb ed="GA" n="0313a15"/>國胡沙門菩提流支見而禮之號為菩薩流支解佛
@@ -1754,7 +2004,8 @@
 <lb ed="GA" n="0313a19"/>贊歎唱言微妙即為胡書傳之於西域西域沙門常
 <lb ed="GA" n="0313a20"/>東嚮遙禮之號曇謨最為東方聖人</p></cb:div>
 <pb ed="GA" xml:id="GA001.0003.0313b" n="0313b"/>
-<lb ed="GA" n="0313b01"/><cb:div type="other"><cb:mulu type="其他" level="2">大覺寺</cb:mulu><head>大覺寺</head><p xml:id="pGA001p0313b0104" cb:place="inline">廣平王懷捨宅也在融覺寺西一里許</p>
+<lb ed="GA" n="0313b01"/><cb:div type="other"><cb:mulu type="其他" level="2">大覺寺</cb:mulu><head>大覺寺</head>
+<p xml:id="pGA001p0313b0104" cb:place="inline">廣平王懷捨宅也在融覺寺西一里許</p>
 <lb ed="GA" n="0313b02"/><p xml:id="pGA001p0313b0201" style="margin-left:1em">北瞻芒領南眺洛汭東望宮闕西顧旗亭神皋顯敞
 <lb ed="GA" n="0313b03"/>實為勝地是以温子昇碑云面水背山左朝右市是
 <lb ed="GA" n="0313b04"/>也環所居之堂上置七佛林池飛閣比之景明至於
@@ -1763,7 +2014,8 @@
 <lb ed="GA" n="0313b07"/><p xml:id="pGA001p0313b0701">永熙年中平陽王即位造甎浮圖一所</p>
 <lb ed="GA" n="0313b08"/><p xml:id="pGA001p0313b0801" style="margin-left:1em">是土石之工窮精極麗詔中書舍人温子昇以為文
 <lb ed="GA" n="0313b09"/>也</p></cb:div>
-<lb ed="GA" n="0313b10"/><cb:div type="other"><cb:mulu type="其他" level="2">永明寺</cb:mulu><head>永明寺</head><p xml:id="pGA001p0313b1004" cb:place="inline">宣武皇帝所立也在大覺寺東</p>
+<lb ed="GA" n="0313b10"/><cb:div type="other"><cb:mulu type="其他" level="2">永明寺</cb:mulu><head>永明寺</head>
+<p xml:id="pGA001p0313b1004" cb:place="inline">宣武皇帝所立也在大覺寺東</p>
 <lb ed="GA" n="0313b11"/><p xml:id="pGA001p0313b1101" style="margin-left:1em">時佛法經像盛於洛陽異國沙門咸來輻輳負錫持
 <lb ed="GA" n="0313b12"/>經適茲樂土宣武故立此寺俾以憩之房廡連亙一
 <lb ed="GA" n="0313b13"/>千餘閒庭列修竹檐拂高松奇花異草駢闐階砌百
@@ -1801,8 +2053,10 @@
 <lb ed="GA" n="0314b03"/>其年冬京師遷鄴武定五年暉為洛州開府長史重
 <lb ed="GA" n="0314b04"/>加採訪寥無影跡</p>
 <lb ed="GA" n="0314b05"/><p xml:id="pGA001p0314b0501" style="margin-left:2em">〔魏書〕陳留王祚字龍壽初兄建以罪失王爵祚欲
-<lb ed="GA" n="0314b06"/>求本封有司不許聽襲公卒於河州刺史</p><p xml:id="pGA001p0314b0617" style="margin-left:2em" cb:place="inline">〔又〕胡
-<lb ed="GA" n="0314b07"/>祥字元吉安定臨涇人國珍子襲封安定公</p><p xml:id="pGA001p0314b0718" style="margin-left:2em" cb:place="inline">〔又
+<lb ed="GA" n="0314b06"/>求本封有司不許聽襲公卒於河州刺史</p>
+<p xml:id="pGA001p0314b0617" style="margin-left:2em" cb:place="inline">〔又〕胡
+<lb ed="GA" n="0314b07"/>祥字元吉安定臨涇人國珍子襲封安定公</p>
+<p xml:id="pGA001p0314b0718" style="margin-left:2em" cb:place="inline">〔又
 <lb ed="GA" n="0314b08"/>〕釋老志當時名僧有僧暹惠光道希法榮此云超
 <lb ed="GA" n="0314b09"/>光𣆴榮疑當作暹光晞榮</p>
 <lb ed="GA" n="0314b10"/><p xml:id="pGA001p0314b1001">出閶闔門城外七里長分橋</p>
@@ -1831,13 +2085,15 @@
 <pb ed="GA" xml:id="GA001.0003.0316a" n="0316a"/>
 <lb ed="GA" n="0316a01"/><cb:mulu type="卷" n="5"/><cb:juan fun="open" n="5"><cb:jhead>洛陽伽藍記鉤沈卷五</cb:jhead></cb:juan>
 <lb ed="GA" n="0316a02"/><cb:div type="other"><cb:mulu type="其他" level="1">城北</cb:mulu><head>城北</head>
-<lb ed="GA" n="0316a03"/><cb:div type="other"><cb:mulu type="其他" level="2">禪虛寺</cb:mulu><head>禪虛寺</head><p xml:id="pGA001p0316a0304" cb:place="inline">在大夏門御道西寺前有閱武場</p>
+<lb ed="GA" n="0316a03"/><cb:div type="other"><cb:mulu type="其他" level="2">禪虛寺</cb:mulu><head>禪虛寺</head>
+<p xml:id="pGA001p0316a0304" cb:place="inline">在大夏門御道西寺前有閱武場</p>
 <lb ed="GA" n="0316a04"/><p xml:id="pGA001p0316a0401" style="margin-left:1em">歲終農隙甲士習戰千乘萬騎常在於此羽林馬僧
 <lb ed="GA" n="0316a05"/>相善觝角戲擲戟與百尺樹齊等虎賁張車渠擲刀
 <lb ed="GA" n="0316a06"/>出樓一丈帝亦觀戲在樓恆令二人對為角戲中朝
 <lb ed="GA" n="0316a07"/>時宣武場在大夏門東北今為光風園苜蓿出焉</p>
 <lb ed="GA" n="0316a08"/><p xml:id="pGA001p0316a0801" style="margin-left:2em">〔按〕出字何作在吳作生今從御覽</p></cb:div>
-<lb ed="GA" n="0316a09"/><cb:div type="other"><cb:mulu type="其他" level="2">凝玄寺</cb:mulu><head>凝玄寺</head><p xml:id="pGA001p0316a0904" cb:place="inline">閹官濟州刺史賈粲所立也在廣莫門外一里
+<lb ed="GA" n="0316a09"/><cb:div type="other"><cb:mulu type="其他" level="2">凝玄寺</cb:mulu><head>凝玄寺</head>
+<p xml:id="pGA001p0316a0904" cb:place="inline">閹官濟州刺史賈粲所立也在廣莫門外一里
 <lb ed="GA" n="0316a10"/>御道東所謂永平里也注即漢太上王廣處</p>
 <lb ed="GA" n="0316a11"/><p xml:id="pGA001p0316a1101" style="margin-left:1em">遷京之初創居此里直母亾捨以為寺地形高顯下
 <lb ed="GA" n="0316a12"/>臨城闕房廡精麗竹柏成林實是淨行息心之所也
@@ -1851,7 +2107,11 @@
 <lb ed="GA" n="0316a20"/><p xml:id="pGA001p0316a2001">洛陽城東北有上高里殷之頑民所居處也高祖名聞
 <pb ed="GA" xml:id="GA001.0003.0316b" n="0316b"/>
 <lb ed="GA" n="0316b01"/>義里</p>
-<lb ed="GA" n="0316b02"/><p xml:id="pGA001p0316b0201" style="margin-left:1em">遷京之始朝士住其中迭相譏<note n="0316b0201" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0316b0201"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【志彙】">剌</rdg></app>竟皆去之惟有造
+<lb ed="GA" n="0316b02"/><p xml:id="pGA001p0316b0201" style="margin-left:1em">遷京之始朝士住其中迭相譏<note 
+n="0316b0201" resp="CBETA" type="add">刺【CB】，剌【志彙】</note><app n="0316b0201">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【志彙】">剌</rdg>
+</app>竟皆去之惟有造
 <lb ed="GA" n="0316b03"/>瓦者止其內京師瓦器出焉世人歌曰洛城東北上高
 <lb ed="GA" n="0316b04"/>里殷之頑民昔所止今日百姓造罋子人皆棄去住
 <lb ed="GA" n="0316b05"/>者恥唯冠軍將軍郭文遠遊憩其中堂宇園林匹於
@@ -1901,7 +2161,11 @@
 <lb ed="GA" n="0317b07"/>形為佛從空而見真容王五體投地即於杏樹下置
 <lb ed="GA" n="0317b08"/>立寺舍畫作羅侯羅像忽然自滅于闐王更作精舍
 <lb ed="GA" n="0317b09"/>籠之令覆罋之影恆出屋外見之者無不回向其中
-<lb ed="GA" n="0317b10"/>有辟支佛鞾於今不爛非皮非綵莫能審之案于<note n="0317b1001" resp="CBETA" type="add">闐【CB】，<unclear/>【志彙】</note><app n="0317b1001"><lem wit="【CB】" resp="CBETA.maha">闐</lem><rdg wit="【志彙】"><unclear/></rdg></app>
+<lb ed="GA" n="0317b10"/>有辟支佛鞾於今不爛非皮非綵莫能審之案于<note 
+n="0317b1001" resp="CBETA" type="add">闐【CB】，<unclear/>【志彙】</note><app n="0317b1001">
+  <lem wit="【CB】" resp="CBETA.maha">闐</lem>
+  <rdg wit="【志彙】"><unclear/></rdg>
+</app>
 <lb ed="GA" n="0317b11"/>國境東西不過三千餘里神龜二年七月二十九日
 <lb ed="GA" n="0317b12"/>入朱駒波國人民山居五穀甚豐食則麥麩不立屠
 <lb ed="GA" n="0317b13"/>殺食肉者以自死肉風俗言音與于闐相似文字與
@@ -2024,7 +2288,11 @@
 <lb ed="GA" n="0320b04"/>境寒暑驟移不無頓弊王答曰不能降伏小國愧卿
 <lb ed="GA" n="0320b05"/>此問宋雲初謂王是夷人不可以禮責任其坐受詔
 <lb ed="GA" n="0320b06"/>書及親往復乃有人情遂責之曰山有高下水有大
-<lb ed="GA" n="0320b07"/>小人處世<note n="0320b0701" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0320b0701"><lem wit="【CB】" resp="CBETA.maha">間</lem><rdg wit="【志彙】">閒</rdg></app>亦有尊卑厭達烏場王竝拜受詔書大
+<lb ed="GA" n="0320b07"/>小人處世<note 
+n="0320b0701" resp="CBETA" type="add">間【CB】，閒【志彙】</note><app n="0320b0701">
+  <lem wit="【CB】" resp="CBETA.maha">間</lem>
+  <rdg wit="【志彙】">閒</rdg>
+</app>亦有尊卑厭達烏場王竝拜受詔書大
 <lb ed="GA" n="0320b08"/>王何獨不拜王答曰我見魏主則拜得書坐讀有何
 <lb ed="GA" n="0320b09"/>可怪世人得父母書猶自坐讀大魏如我父母我亦
 <lb ed="GA" n="0320b10"/>坐讀書於理無失雲無以屈之遂將雲至一寺供給
@@ -2104,7 +2372,8 @@
 <pb ed="GA" xml:id="GA001.0003.0322b" n="0322b"/>
 <lb ed="GA" n="0322b01"/>具錄至正光二年二月始還天闕<note place="inline">衒之按惠生行記事多不盡錄今依
 <lb ed="GA" n="0322b02"/>道榮傳宋雲家記故竝載之以備缺文</note></p></cb:div></cb:div>
-<lb ed="GA" n="0322b03"/><cb:div type="other"><cb:mulu type="其他" level="1">結語</cb:mulu><p xml:id="pGA001p0322b0301">京師東西二十里南北十五里<reg>戶</reg>十萬九千餘廟社宮
+<lb ed="GA" n="0322b03"/><cb:div type="other"><cb:mulu type="其他" level="1">結語</cb:mulu>
+<p xml:id="pGA001p0322b0301">京師東西二十里南北十五里<reg>戶</reg>十萬九千餘廟社宮
 <lb ed="GA" n="0322b04"/>室府曹以外方三百步為一里里開四門門置里正二
 <lb ed="GA" n="0322b05"/>人吏四人門士八人合有二百二十里寺有一千三百
 <lb ed="GA" n="0322b06"/>六十七所天平元年遷都鄴城洛陽餘寺四百二十一

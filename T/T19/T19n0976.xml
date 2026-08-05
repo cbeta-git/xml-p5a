@@ -2,85 +2,88 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T19n0976">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛頂大白傘蓋陀羅尼經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 976 佛頂大白傘蓋陀羅尼經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 976 佛頂大白傘蓋陀羅尼經</title>
-			<author>元 沙囉巴譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">19</idno>.<idno type="no">976</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-27T11:51:07">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛頂大白傘蓋陀羅尼經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 976 佛頂大白傘蓋陀羅尼經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 976 佛頂大白傘蓋陀羅尼經</title>
+      <author>元 沙囉巴譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">19</idno>.<idno type="no">976</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-27T11:51:07">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0401a20" ed="T"/>
 <lb n="0401a21" ed="T"/>
-<lb n="0401a22" ed="T"/><cb:docNumber>No. 976</cb:docNumber><cb:div type="jing">
-<lb n="0401a23" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0401006" resp="Taisho" type="orig" place="foot text">【原】元本</note>佛頂大白傘蓋陀羅尼經</cb:jhead></cb:juan>
+<lb n="0401a22" ed="T"/><cb:docNumber>No. 976</cb:docNumber>
+<cb:div type="jing">
+<lb n="0401a23" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0401006" resp="Taisho" type="orig" place="foot text">【原】元本</note>佛頂大白傘蓋陀羅尼經</cb:jhead></cb:juan>
 <lb n="0401a24" ed="T"/>
 <lb n="0401a25" ed="T"/><byline cb:type="Translator">光祿大夫大司徒三藏
 <lb n="0401a26" ed="T"/>法師沙囉巴奉　詔譯</byline>
-<lb n="0401a27" ed="T"/><p xml:id="pT19p0401a2701">如是我聞：</p><p xml:id="pT19p0401a2705" cb:place="inline">一時婆伽梵在三十三天善法堂
+<lb n="0401a27" ed="T"/><p xml:id="pT19p0401a2701">如是我聞：</p>
+<p xml:id="pT19p0401a2705" cb:place="inline">一時婆伽梵在三十三天善法堂
 <lb n="0401a28" ed="T"/>中，與諸比丘、諸大菩薩、天主帝釋無量眾俱。
 <lb n="0401a29" ed="T"/>爾時婆伽梵敷座而坐，即入普觀烏瑟尾沙
 <pb n="0401b" ed="T" xml:id="T19.0976.0401b"/>
@@ -118,17 +121,29 @@
 <lb n="0401c02" ed="T"/>令二十八宿生大歡喜，亦能移迴一切冤害
 <lb n="0401c03" ed="T"/>所有一切起毒害者，并諸惡夢皆使殄滅，又
 <lb n="0401c04" ed="T"/>能救除毒藥器械水火等難。</p>
-<lb n="0401c05" ed="T"/><lg xml:id="lgT19p0401c0501" type="regular" style="margin-left:1em;text-indent:-1em"><l>「無敵大勢力，<caesura/>暴惡大力母，</l>
-<lb n="0401c06" ed="T"/><l>熾盛威光母，<caesura/>白蓋大力母，</l>
-<lb n="0401c07" ed="T"/><l>焰鬘白衣母，<caesura/>多羅<g ref="#CB03614"/>蹙相，</l>
-<lb n="0401c08" ed="T"/><l>稱鬘勝金剛，<caesura/>蓮相金剛相，</l>
-<lb n="0401c09" ed="T"/><l>具鬘無能敵，<caesura/>金剛牆摧母，</l>
-<lb n="0401c10" ed="T"/><l>諸善天恭敬，<caesura/>善相大威光，</l>
-<lb n="0401c11" ed="T"/><l>救度大力母，<caesura/>金剛鋜諸等，</l>
-<lb n="0401c12" ed="T"/><l>金剛童持種，<caesura/>持杵種金鬘，</l>
-<lb n="0401c13" ed="T"/><l>赭色寶珠母，<caesura/>光明金剛鬘，</l>
-<lb n="0401c14" ed="T"/><l>窈窕母持杵，<caesura/>眼如金光母，</l>
-<lb n="0401c15" ed="T"/><l>金剛炬白母，<caesura/>蓮華日月光。</l></lg>
+<lb n="0401c05" ed="T"/><lg xml:id="lgT19p0401c0501" type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「無敵大勢力，<caesura/>暴惡大力母，</l>
+<lb n="0401c06" ed="T"/>
+  <l>熾盛威光母，<caesura/>白蓋大力母，</l>
+<lb n="0401c07" ed="T"/>
+  <l>焰鬘白衣母，<caesura/>多羅<g ref="#CB03614"/>蹙相，</l>
+<lb n="0401c08" ed="T"/>
+  <l>稱鬘勝金剛，<caesura/>蓮相金剛相，</l>
+<lb n="0401c09" ed="T"/>
+  <l>具鬘無能敵，<caesura/>金剛牆摧母，</l>
+<lb n="0401c10" ed="T"/>
+  <l>諸善天恭敬，<caesura/>善相大威光，</l>
+<lb n="0401c11" ed="T"/>
+  <l>救度大力母，<caesura/>金剛鋜諸等，</l>
+<lb n="0401c12" ed="T"/>
+  <l>金剛童持種，<caesura/>持杵種金鬘，</l>
+<lb n="0401c13" ed="T"/>
+  <l>赭色寶珠母，<caesura/>光明金剛鬘，</l>
+<lb n="0401c14" ed="T"/>
+  <l>窈窕母持杵，<caesura/>眼如金光母，</l>
+<lb n="0401c15" ed="T"/>
+  <l>金剛炬白母，<caesura/>蓮華日月光。</l>
+</lg>
 <lb n="0401c16" ed="T"/><p xml:id="pT19p0401c1601">「諸手印眾，願擁護我願擁護我。</p>
 <lb n="0401c17" ed="T"/><p xml:id="pT19p0401c1701" cb:type="dharani">「唵唎瑟羯拏般囉<note place="inline">二合</note>舍悉多<note place="inline">二合</note>耶<note place="inline">一</note>　薩唎嚩
 <lb n="0401c18" ed="T"/><note place="inline">二合</note>怛他伽跢<note place="inline">二</note>　烏瑟尼沙悉怛<note place="inline">引</note>怛鉢帝唎<note place="inline">二
@@ -164,7 +179,8 @@
 <lb n="0402a18" ed="T"/>水者、食殘食者、食吐者、食涎者、食涕者、食膿
 <lb n="0402a19" ed="T"/>者、食施食者、食鬘者、食香者、食香氣者、奪意
 <lb n="0402a20" ed="T"/>者、食華者、食果者、食五穀者、食燒施者，於
-<lb n="0402a21" ed="T"/>是等中願安隱我。</p><p xml:id="pT19p0402a2108" cb:place="inline">「如是等眾及諸鬼魅所造
+<lb n="0402a21" ed="T"/>是等中願安隱我。</p>
+<p xml:id="pT19p0402a2108" cb:place="inline">「如是等眾及諸鬼魅所造
 <lb n="0402a22" ed="T"/>明呪，悉皆斷除。釘金剛鐝，遍行所造明呪，悉
 <lb n="0402a23" ed="T"/>皆斷除。釘金剛鐝，空行空行母所造明呪，悉
 <lb n="0402a24" ed="T"/>皆斷除。釘金剛鐝，大鉢修鉢帝所造明呪，悉
@@ -175,7 +191,11 @@
 <lb n="0402a29" ed="T"/>斷除。釘金剛鐝，能勝作蜜辦諸事業所造明
 <pb n="0402b" ed="T" xml:id="T19.0976.0402b"/>
 <lb n="0402b01" ed="T"/>呪，悉皆斷除。釘金剛鐝，四姊妹眾所造明呪，
-<lb n="0402b02" ed="T"/>悉皆斷除。<note n="0402b0201" resp="CBETA" type="add" note_key="T19.0402b02.05">釘【CB】，頂【大】</note><app n="0402b0201"><lem wit="【CB】" resp="CBETA.sy" cb:provider="CBETA 新式標點專案 (2022-07-26)">釘<note type="cf1">T19n0976_p0402a22</note><note type="cf2">T19n0976_p0402a23</note><note type="cf3">T19n0976_p0402a24</note></lem><rdg wit="【大】">頂</rdg></app>金剛鐝，毘訖利帝慾樂自在集
+<lb n="0402b02" ed="T"/>悉皆斷除。<note 
+n="0402b0201" resp="CBETA" type="add" note_key="T19.0402b02.05">釘【CB】，頂【大】</note><app n="0402b0201">
+  <lem wit="【CB】" resp="CBETA.sy" cb:provider="CBETA 新式標點專案 (2022-07-26)">釘<note type="cf1">T19n0976_p0402a22</note><note type="cf2">T19n0976_p0402a23</note><note type="cf3">T19n0976_p0402a24</note></lem>
+  <rdg wit="【大】">頂</rdg>
+</app>金剛鐝，毘訖利帝慾樂自在集
 <lb n="0402b03" ed="T"/>主等眾所造明呪，悉皆斷除。釘金剛鐝，無衣
 <lb n="0402b04" ed="T"/>勸善所造明呪，悉皆斷除。釘金剛鐝，阿羅漢
 <lb n="0402b05" ed="T"/>所造明呪，悉皆斷除。釘金剛鐝，離慾所造明
@@ -244,7 +264,8 @@
 <lb n="0403a08" ed="T"/>食漏水者、食殘食者、食唾者、食涎者、
 <lb n="0403a09" ed="T"/>食涕者、食膿者、食施食者、食鬘者
 <lb n="0403a10" ed="T"/>食香者、食香氣者、奪意者、食花者、食
-<lb n="0403a11" ed="T"/>果者、食五穀者、食燒施者。</p><p xml:id="pT19p0403a1111" cb:place="inline">「復有起嗔恨
+<lb n="0403a11" ed="T"/>果者、食五穀者、食燒施者。</p>
+<p xml:id="pT19p0403a1111" cb:place="inline">「復有起嗔恨
 <lb n="0403a12" ed="T"/>心者、起毒害心者、起暴惡心者，天魅眾、
 <lb n="0403a13" ed="T"/>龍魅眾、非天魅眾、風神魅眾、飛空魅
 <lb n="0403a14" ed="T"/>眾、尋香魅眾、人非人魅眾、大腹行魅眾、
@@ -253,10 +274,15 @@
 <lb n="0403a17" ed="T"/>臭鬼魅眾、奇臭鬼魅眾、塞建陀魅眾、
 <lb n="0403a18" ed="T"/>昏忌魅眾、顛魅眾、魘魅眾、伏魅眾、利
 <lb n="0403a19" ed="T"/>鉢帝魅眾、焰魔魅眾、禽魅眾、母鬼喜魅
-<lb n="0403a20" ed="T"/>眾、遍羅魅眾、除棘魅眾。</p><p xml:id="pT19p0403a2010" cb:place="inline">「或有疫熱病、
+<lb n="0403a20" ed="T"/>眾、遍羅魅眾、除棘魅眾。</p>
+<p xml:id="pT19p0403a2010" cb:place="inline">「或有疫熱病、
 <lb n="0403a21" ed="T"/>一日二日三日四日病、或常熱病、極煩熱病、
 <lb n="0403a22" ed="T"/>時發病、部多鬼病、風黃痰病、眾和合病，所有
-<lb n="0403a23" ed="T"/>熱病頭痛半頭痛，願皆消除。復有硬<note n="0403a2301" resp="CBETA" type="add" note_key="T19.0403a23.15">噎【CB】【中華-CB】，曀【大】</note><app n="0403a2301"><lem wit="【CB】【中華-CB】" resp="CBETA.shin">噎<note type="cf1">C071n1652_p0006c21</note></lem><rdg wit="【大】">曀</rdg></app>病、眼
+<lb n="0403a23" ed="T"/>熱病頭痛半頭痛，願皆消除。復有硬<note 
+n="0403a2301" resp="CBETA" type="add" note_key="T19.0403a23.15">噎【CB】【中華-CB】，曀【大】</note><app n="0403a2301">
+  <lem wit="【CB】【中華-CB】" resp="CBETA.shin">噎<note type="cf1">C071n1652_p0006c21</note></lem>
+  <rdg wit="【大】">曀</rdg>
+</app>病、眼
 <lb n="0403a24" ed="T"/>病、鼻病、口病、項病、心病，喉痛、耳痛、齒痛、心痛、
 <lb n="0403a25" ed="T"/>腦痛、脅痛、背痛、腹痛、腰痛、隱密處痛、髀痛、腨
 <lb n="0403a26" ed="T"/>痛、手痛、足痛、肢節等痛，願令消除，願擁護我。
@@ -282,12 +308,14 @@
 <lb n="0403b16" ed="T"/>守護，於八萬四千大劫之中得宿命智，生生
 <lb n="0403b17" ed="T"/>世世不生藥叉、羅剎、富單那、迦吒、富單那畢、部
 <lb n="0403b18" ed="T"/>多鬼等諸惡趣中，亦不受生於貧窮下賤，獲
-<lb n="0403b19" ed="T"/>得無量無邊恒河沙數諸佛福德之聚。</p><p xml:id="pT19p0403b1916" cb:place="inline">「若人
+<lb n="0403b19" ed="T"/>得無量無邊恒河沙數諸佛福德之聚。</p>
+<p xml:id="pT19p0403b1916" cb:place="inline">「若人
 <lb n="0403b20" ed="T"/>持此佛頂大白傘蓋般囉<note place="inline">二合</note>當雞囉母陀羅
 <lb n="0403b21" ed="T"/>尼經者，不梵行者亦成梵行，不持戒者亦成
 <lb n="0403b22" ed="T"/>持戒，不清淨者亦成清淨，不布薩者亦成布
 <lb n="0403b23" ed="T"/>薩，不清齋者亦成清齋。若有五無間罪及無
-<lb n="0403b24" ed="T"/>始來所有宿殃，舊業陳罪盡滅無餘。</p><p xml:id="pT19p0403b2415" cb:place="inline">「若有
+<lb n="0403b24" ed="T"/>始來所有宿殃，舊業陳罪盡滅無餘。</p>
+<p xml:id="pT19p0403b2415" cb:place="inline">「若有
 <lb n="0403b25" ed="T"/>女人設欲求男，能受持斯佛頂大白傘蓋般
 <lb n="0403b26" ed="T"/>囉<note place="inline">二合</note>當雞囉母陀羅尼經者，便生智慧之男，
 <lb n="0403b27" ed="T"/>福德壽命色力圓滿，命終之後隨得往生極
@@ -317,7 +345,8 @@
 <lb n="0403c21" ed="T"/>怛多鉢底唎<note place="inline">二合</note><note place="inline">十五</note>　吽發吒莎嚩訶<note place="inline">十六</note>　吽麻麻吽
 <lb n="0403c22" ed="T"/>尼<note place="inline">十七</note>　莎嚩訶<note place="inline">十八</note></p>
 <lb n="0403c23" ed="T"/><p xml:id="pT19p0403c2301">「若能依佛修習，所有一切諸天龍王隨順時
-<lb n="0403c24" ed="T"/>序降霔甘雨。」</p><p xml:id="pT19p0403c2406" cb:place="inline">爾時一切諸佛、諸大菩薩、天、龍、
+<lb n="0403c24" ed="T"/>序降霔甘雨。」</p>
+<p xml:id="pT19p0403c2406" cb:place="inline">爾時一切諸佛、諸大菩薩、天、龍、
 <lb n="0403c25" ed="T"/>藥叉、徤達縛、阿素洛、揭路荼、緊捺洛、莫呼洛伽、
 <lb n="0403c26" ed="T"/>人非人等，一切大眾聞佛所說，皆大歡喜，信
 <lb n="0403c27" ed="T"/>受奉行。</p>

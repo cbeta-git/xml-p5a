@@ -2,81 +2,82 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T48n2021">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">禪宗決疑集</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2021 禪宗決疑集</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2021 禪宗決疑集</title>
-			<author>元 智徹述</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">48</idno>.<idno type="no">2021</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS), Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-09-14T11:10:39">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">禪宗決疑集</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2021 禪宗決疑集</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2021 禪宗決疑集</title>
+      <author>元 智徹述</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">48</idno>.<idno type="no">2021</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS), Text as provided by Anonymous from USA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-09-14T11:10:39">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="1009c" xml:id="T48.2021.1009c" ed="T"/>
 <lb n="1009c01" ed="T"/>
 <lb n="1009c02" ed="T"/><cb:docNumber>No. 2021</cb:docNumber>
-<lb n="1009c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="1009001" resp="Taisho" place="foot text" type="orig">【原】增上寺報恩藏明本</note>禪宗決疑集</cb:jhead></cb:juan>
+<lb n="1009c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="1009001" resp="Taisho" place="foot text" type="orig">【原】增上寺報恩藏明本</note>禪宗決疑集</cb:jhead></cb:juan>
 <lb n="1009c04" ed="T"/>
 <lb n="1009c05" ed="T"/><byline cb:type="author">西蜀野衲智徹述</byline>
 <lb n="1009c06" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">源湛流清門</cb:mulu><head>源湛流清門</head>
@@ -109,7 +110,11 @@
 <lb n="1010a03" ed="T"/>盤縱橫無礙。到此不知有身在地上行。亦不
 <lb n="1010a04" ed="T"/>知有世間之事動靜寒溫。折旋俯仰大小便
 <lb n="1010a05" ed="T"/>利。都無計較分別之心。只隨此疑信步而行。
-<lb n="1010a06" ed="T"/>喫粥喫飯信手拈匙放<note n="1010a0601" resp="CBETA" type="add" note_key="T48.1010a06.10">筯【CB】【嘉興乙-CB】，筋【大】</note><app n="1010a0601"><lem wit="【CB】【嘉興乙-CB】" resp="CBETA.ting">筯<note type="cf1">《嘉興藏》（日本東京大學綜合圖書館藏正編第244帙第4冊第26圖左欄第8行）</note></lem><rdg wit="【大】">筋</rdg></app>。又不知飯食中辛
+<lb n="1010a06" ed="T"/>喫粥喫飯信手拈匙放<note 
+n="1010a0601" resp="CBETA" type="add" note_key="T48.1010a06.10">筯【CB】【嘉興乙-CB】，筋【大】</note><app n="1010a0601">
+  <lem wit="【CB】【嘉興乙-CB】" resp="CBETA.ting">筯<note type="cf1">《嘉興藏》（日本東京大學綜合圖書館藏正編第244帙第4冊第26圖左欄第8行）</note></lem>
+  <rdg wit="【大】">筋</rdg>
+</app>。又不知飯食中辛
 <lb n="1010a07" ed="T"/>酸醎淡之味。到此方知是淨念相繼。制之一
 <lb n="1010a08" ed="T"/>處的工夫也。余舉此一事。或有未做工夫之
 <lb n="1010a09" ed="T"/>人疑而不信者。謾說二小喻。譬如世有勇士。
@@ -382,10 +387,15 @@
 <lb n="1013a06" ed="T"/>萬金消得。正恁麼時三塗苦趣同證菩提。四
 <lb n="1013a07" ed="T"/>重深恩一時酬畢。智徹忝居同學幸垂回顧
 <lb n="1013a08" ed="T"/>提携。誓在他生處處同為法侶。</p>
-<lb n="1013a09" ed="T"/><lg type="regular" xml:id="lgT48p1013a0901"><l>來源孝敬理事圓融<caesura/>體用雙修陰翊王化</l>
-<lb n="1013a10" ed="T"/><l>雙林遺誡眾等遵依<caesura/>懺悔法門菩提行願</l>
-<lb n="1013a11" ed="T"/><l>憶昔出塵承兄警誡<caesura/>復懲懈惰止境息迷</l>
-<lb n="1013a12" ed="T"/><l>來源孝敬理事圓融</l></lg>
+<lb n="1013a09" ed="T"/><lg type="regular" xml:id="lgT48p1013a0901">
+  <l>來源孝敬理事圓融<caesura/>體用雙修陰翊王化</l>
+<lb n="1013a10" ed="T"/>
+  <l>雙林遺誡眾等遵依<caesura/>懺悔法門菩提行願</l>
+<lb n="1013a11" ed="T"/>
+  <l>憶昔出塵承兄警誡<caesura/>復懲懈惰止境息迷</l>
+<lb n="1013a12" ed="T"/>
+  <l>來源孝敬理事圓融</l>
+</lg>
 <lb n="1013a13" ed="T"/><p xml:id="pT48p1013a1301">已上所舉話頭工夫動靜節次。與初機入道
 <lb n="1013a14" ed="T"/>四眾安頓手脚處一一具陳。向下正與學人
 <lb n="1013a15" ed="T"/>論根本始末來源去就。何為根本。以五戒是
@@ -501,7 +511,11 @@
 <lb n="1014b06" ed="T"/>無言可措。只得拱手倒走三千。何故蓋謂到
 <lb n="1014b07" ed="T"/>此無他入門處。無他栖泊處。無他立身處。無
 <lb n="1014b08" ed="T"/>他開口處。云何如此。邪不干正。豈不聞古德
-<lb n="1014b09" ed="T"/>云。汝之伎倆有盡。我之不<note n="1014b0901" resp="CBETA" type="add">采【CB】，釆【大】</note><app n="1014b0901"><lem wit="【CB】" resp="CBETA">采</lem><rdg wit="【大】">釆</rdg></app>無窮。誠哉是言
+<lb n="1014b09" ed="T"/>云。汝之伎倆有盡。我之不<note 
+n="1014b0901" resp="CBETA" type="add">采【CB】，釆【大】</note><app n="1014b0901">
+  <lem wit="【CB】" resp="CBETA">采</lem>
+  <rdg wit="【大】">釆</rdg>
+</app>無窮。誠哉是言
 <lb n="1014b10" ed="T"/>也。前云五戒者。防邪止惡故名為戒。</p></cb:div>
 <lb n="1014b11" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">懺悔法門菩提行願</cb:mulu><head>懺悔法門菩提行願</head>
 <lb n="1014b12" ed="T"/><p xml:id="pT48p1014b1201" style="margin-left:3em"><note place="inline">學人於二六時中。須向諸佛菩薩像前五體投地。然指然香發露懺悔。此下請三寶證明懺悔。
@@ -583,7 +597,11 @@
 <lb n="1015a28" ed="T"/>學人有好多聞者。有根性遲鈍者。看前輩尊
 <lb n="1015a29" ed="T"/>宿警策法語。皆言往古善知識般若之力深
 <pb n="1015b" xml:id="T48.2021.1015b" ed="T"/>
-<lb n="1015b01" ed="T"/>根<note n="1015b0101" resp="CBETA" type="add">固【CB】，回【大】</note><app n="1015b0101"><lem wit="【CB】" resp="CBETA.maha">固<note type="cf1">TW48n2021_p1015b01</note><note type="cf2">T47n1997_p0780a23</note></lem><rdg wit="【大】">回</rdg></app>蔕。纔入法門不用施工一聞千悟。此事
+<lb n="1015b01" ed="T"/>根<note 
+n="1015b0101" resp="CBETA" type="add">固【CB】，回【大】</note><app n="1015b0101">
+  <lem wit="【CB】" resp="CBETA.maha">固<note type="cf1">TW48n2021_p1015b01</note><note type="cf2">T47n1997_p0780a23</note></lem>
+  <rdg wit="【大】">回</rdg>
+</app>蔕。纔入法門不用施工一聞千悟。此事
 <lb n="1015b02" ed="T"/>非吾輩淺機所為。我等今生且下些般若種
 <lb n="1015b03" ed="T"/>子待於來世。文敏見如是說者多矣。可憐自
 <lb n="1015b04" ed="T"/>生退屈。若將和尚日前工夫微密處。從頭舉
@@ -604,7 +622,11 @@
 <lb n="1015b19" ed="T"/>從來去無妨。自是一般快活。於此不耐安閑。
 <lb n="1015b20" ed="T"/>遂將昔日行履陳爛葛藤一提提起。且與學
 <lb n="1015b21" ed="T"/>人熱亂一場。正眼傍觀却是平地起風波。把
-<lb n="1015b22" ed="T"/>學人手脚。打教七橫<note n="1015b2201" resp="CBETA" type="add">八【CB】，入【大】</note><app n="1015b2201"><lem wit="【CB】" resp="CBETA.maha">八<note type="cf1">TW48n2021_p1015b22</note></lem><rdg wit="【大】">入</rdg></app>竪。無安措處。到此不
+<lb n="1015b22" ed="T"/>學人手脚。打教七橫<note 
+n="1015b2201" resp="CBETA" type="add">八【CB】，入【大】</note><app n="1015b2201">
+  <lem wit="【CB】" resp="CBETA.maha">八<note type="cf1">TW48n2021_p1015b22</note></lem>
+  <rdg wit="【大】">入</rdg>
+</app>竪。無安措處。到此不
 <lb n="1015b23" ed="T"/>免與他整新安頓。諦當處更教諦當去也。且
 <lb n="1015b24" ed="T"/>道即今諦當事。作麼生分付學人。惺惺著諦
 <lb n="1015b25" ed="T"/>當事直下來也。各各努力承當記取。記取萬

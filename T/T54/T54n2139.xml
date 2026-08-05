@@ -2,83 +2,86 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T54n2139">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">老子化胡經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2139 老子化胡經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2139 老子化胡經</title>
-			<author/>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>2卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">54</idno>.<idno type="no">2139</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2001-03-06T14:34:43">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">老子化胡經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2139 老子化胡經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2139 老子化胡經</title>
+      <author/>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">54</idno>.<idno type="no">2139</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2001-03-06T14:34:43">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="1266a24" ed="T"/>
 <lb n="1266a25" ed="T"/>
-<lb n="1266a26" ed="T"/><cb:docNumber>No. 2139</cb:docNumber><cb:div type="other">
-<lb n="1266a27" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="1266003" resp="Taisho" place="foot text" type="orig">【原】嗚沙石室佚書續編</note>老子化胡經</cb:jhead></cb:juan>
+<lb n="1266a26" ed="T"/><cb:docNumber>No. 2139</cb:docNumber>
+<cb:div type="other">
+<lb n="1266a27" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="1266003" resp="Taisho" place="foot text" type="orig">【原】嗚沙石室佚書續編</note>老子化胡經</cb:jhead></cb:juan>
 <lb n="1266a28" ed="T"/>
-<lb n="1266a29" ed="T"/><cb:mulu level="1" type="其他">1 卷第一</cb:mulu><p xml:id="pT54p1266a2901">□□□□□□□□□□□止開之則約□□
+<lb n="1266a29" ed="T"/><cb:mulu level="1" type="其他">1 卷第一</cb:mulu>
+<p xml:id="pT54p1266a2901">□□□□□□□□□□□止開之則約□□
 <pb n="1266b" xml:id="T54.2139.1266b" ed="T"/>
 <lb n="1266b01" ed="T"/>□□□□□□□□之始吾欲書之非筆□□
 <lb n="1266b02" ed="T"/>□□體之無形可擬飄乎無外或沈或□□□
@@ -152,7 +155,11 @@
 <lb n="1267a10" ed="T"/>唯食血肉。斷眾生命。我今為汝說夜叉經。令
 <lb n="1267a11" ed="T"/>汝斷肉專食麥<g ref="#CB00595"/>。勿為屠殺。不能斷者。以自
 <lb n="1267a12" ed="T"/>死肉。胡人佷戾。不識親疎。唯好貪婬。一無恩
-<lb n="1267a13" ed="T"/>義。鬚髮拳鞠。<note n="1267a1301" resp="CBETA" type="add">梳【CB】，疏【大】</note><app n="1267a1301"><lem wit="【CB】" resp="CBETA">梳</lem><rdg wit="【大】">疏</rdg></app>洗至難。性既羶腥。體多垢
+<lb n="1267a13" ed="T"/>義。鬚髮拳鞠。<note 
+n="1267a1301" resp="CBETA" type="add">梳【CB】，疏【大】</note><app n="1267a1301">
+  <lem wit="【CB】" resp="CBETA">梳</lem>
+  <rdg wit="【大】">疏</rdg>
+</app>洗至難。性既羶腥。體多垢
 <lb n="1267a14" ed="T"/>穢。使其修道。煩惱行人。是故普令剔除鬚髮。
 <lb n="1267a15" ed="T"/>隨汝本俗而衣氈裘。教汝小道。令漸修學。兼
 <lb n="1267a16" ed="T"/>持禁戒。稍習慈悲。每月十五日。常須懺悔。又
@@ -206,7 +213,8 @@
 <lb n="1267c03" ed="T"/>
 <lb n="1267c04" ed="T"/><cb:juan n="010" fun="open"><cb:mulu n="10" type="卷"/><cb:jhead>老子化胡經玄□卷第十</cb:jhead></cb:juan>
 <lb n="1267c05" ed="T"/>
-<lb n="1267c06" ed="T"/><cb:mulu level="1" type="其他">10 卷第十</cb:mulu><p xml:id="pT54p1267c0601">我往化胡時。頭載通天威。金紫照虛空。焰焰
+<lb n="1267c06" ed="T"/><cb:mulu level="1" type="其他">10 卷第十</cb:mulu>
+<p xml:id="pT54p1267c0601">我往化胡時。頭載通天威。金紫照虛空。焰焰
 <lb n="1267c07" ed="T"/>有光暉。胡王心憊戾。不尊我為師。吾作變通
 <lb n="1267c08" ed="T"/>力。要之出神威。麾日使東走。須彌而西頹。足
 <lb n="1267c09" ed="T"/>蹋乾神橋。日月左右廻。天地晝闇昏。星辰牙
@@ -392,7 +400,11 @@
 <lb n="1269c09" ed="T"/>語言。有生有死須臾間。如水東流何時還。邂
 <lb n="1269c10" ed="T"/>逅相代不得停。何不習善求長生。槃散流俗
 <lb n="1269c11" ed="T"/>入膠盆。不能免離喪子身。欲求度世於中禪。
-<lb n="1269c12" ed="T"/>搦心不堅固仙根。<note n="1269c1201" resp="CBETA" type="add">盲【CB】，肓【大】</note><app n="1269c1201"><lem wit="【CB】" resp="CBETA">盲</lem><rdg wit="【大】">肓</rdg></app>聾音瘂教不倫。由子前
+<lb n="1269c12" ed="T"/>搦心不堅固仙根。<note 
+n="1269c1201" resp="CBETA" type="add">盲【CB】，肓【大】</note><app n="1269c1201">
+  <lem wit="【CB】" resp="CBETA">盲</lem>
+  <rdg wit="【大】">肓</rdg>
+</app>聾音瘂教不倫。由子前
 <lb n="1269c13" ed="T"/>身謗經文。論說道士毀聖人。在惡必報受罪
 <lb n="1269c14" ed="T"/>緣。但勤自責莫怨天。</p>
 <lb n="1269c15" ed="T"/><p xml:id="pT54p1269c1501">十一變之時。生在南方閻浮地。造作天地作

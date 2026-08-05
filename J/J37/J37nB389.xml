@@ -2,97 +2,131 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="J37nB389">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
-			<title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
-			<title level="m" xml:lang="zh-Hant">洪山俞昭允汾禪師語錄</title>
-			<title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B389 洪山俞昭允汾禪師語錄</title>
-			<title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B389 洪山俞昭允汾禪師語錄</title>
-			<author>清 允汾說　上睿等編（依駒本印）</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>6卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">J</idno>.<idno type="vol">37</idno>.<idno type="no">B389</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>嘉興大藏經（新文豐版）</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Text as provided by LINDEN, Punctuated text as provided by CBETA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），LINDEN 大德提供，CBETA 提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【嘉興】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2009-01-19T17:23:17">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
+      <title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
+      <title level="m" xml:lang="zh-Hant">洪山俞昭允汾禪師語錄</title>
+      <title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B389 洪山俞昭允汾禪師語錄</title>
+      <title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B389 洪山俞昭允汾禪師語錄</title>
+      <author>清 允汾說　上睿等編（依駒本印）</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>6卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">J</idno>.<idno type="vol">37</idno>.<idno type="no">B389</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>嘉興大藏經（新文豐版）</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Text as provided by LINDEN, Punctuated text as provided by CBETA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），LINDEN 大德提供，CBETA 提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【嘉興】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2009-01-19T17:23:17">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0505a" ed="J" xml:id="J37.B389.0505a"/>
 <lb n="0505a01" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">目錄</cb:mulu><head>俞昭禪師語錄目錄</head>
-<lb n="0505a02" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a0201">卷首
-<lb n="0505a03" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a0301">序文</item><item xml:id="itemJ37p0505a0303">目錄</item></list></item>
-<lb n="0505a04" ed="J"/><item xml:id="itemJ37p0505a0401"><note n="0505a0401" resp="CBETA" type="add">一【CB】，［－］【嘉興】</note><app n="0505a0401"><lem resp="CBETA.maha" wit="【CB】">一</lem><rdg wit="【嘉興】"><space quantity="0"/></rdg></app>卷
-<lb n="0505a05" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a0501">住江西廬山西林乾明寺語錄</item></list></item>
-<lb n="0505a06" ed="J"/><item xml:id="itemJ37p0505a0601">二卷
-<lb n="0505a07" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a0701">住郢州潼泉山法興禪寺語錄</item></list></item>
-<lb n="0505a08" ed="J"/><item xml:id="itemJ37p0505a0801">三卷
-<lb n="0505a09" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a0901">住武昌東巖廣慧禪寺語錄</item>
-<lb n="0505a10" ed="J"/><item xml:id="itemJ37p0505a1001">住竟陵紫芝菴語錄</item></list></item>
-<lb n="0505a11" ed="J"/><item xml:id="itemJ37p0505a1101">四卷
-<lb n="0505a12" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a1201">住鄂渚洪山寶通報國禪寺語錄</item></list></item>
-<lb n="0505a13" ed="J"/><item xml:id="itemJ37p0505a1301">五卷
-<lb n="0505a14" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a1401">住齊安天臺赤城禪寺語錄</item>
-<lb n="0505a15" ed="J"/><item xml:id="itemJ37p0505a1501">示眾</item><item xml:id="itemJ37p0505a1503">機緣</item>
-<lb n="0505a16" ed="J"/><item xml:id="itemJ37p0505a1601">頌古</item><item xml:id="itemJ37p0505a1603">塔銘</item>
-<lb n="0505a17" ed="J"/><item xml:id="itemJ37p0505a1701">重修洪山寺疏</item><item xml:id="itemJ37p0505a1707">佛事</item></list></item>
-<lb n="0505a18" ed="J"/><item xml:id="itemJ37p0505a1801">六卷
-<lb n="0505a19" ed="J"/><list rend="no-marker"><item xml:id="itemJ37p0505a1901">雜偈</item></list></item></list>
+<lb n="0505a02" ed="J"/><list rend="no-marker">
+  <item xml:id="itemJ37p0505a0201">卷首
+<lb n="0505a03" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ37p0505a0301">序文</item>
+    <item xml:id="itemJ37p0505a0303">目錄</item>
+  </list></item>
+<lb n="0505a04" ed="J"/>
+  <item xml:id="itemJ37p0505a0401"><note 
+n="0505a0401" resp="CBETA" type="add">一【CB】，［－］【嘉興】</note><app n="0505a0401">
+    <lem resp="CBETA.maha" wit="【CB】">一</lem>
+    <rdg wit="【嘉興】"><space quantity="0"/></rdg>
+  </app>卷
+<lb n="0505a05" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ37p0505a0501">住江西廬山西林乾明寺語錄</item>
+  </list></item>
+<lb n="0505a06" ed="J"/>
+  <item xml:id="itemJ37p0505a0601">二卷
+<lb n="0505a07" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ37p0505a0701">住郢州潼泉山法興禪寺語錄</item>
+  </list></item>
+<lb n="0505a08" ed="J"/>
+  <item xml:id="itemJ37p0505a0801">三卷
+<lb n="0505a09" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ37p0505a0901">住武昌東巖廣慧禪寺語錄</item>
+<lb n="0505a10" ed="J"/>
+    <item xml:id="itemJ37p0505a1001">住竟陵紫芝菴語錄</item>
+  </list></item>
+<lb n="0505a11" ed="J"/>
+  <item xml:id="itemJ37p0505a1101">四卷
+<lb n="0505a12" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ37p0505a1201">住鄂渚洪山寶通報國禪寺語錄</item>
+  </list></item>
+<lb n="0505a13" ed="J"/>
+  <item xml:id="itemJ37p0505a1301">五卷
+<lb n="0505a14" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ37p0505a1401">住齊安天臺赤城禪寺語錄</item>
+<lb n="0505a15" ed="J"/>
+    <item xml:id="itemJ37p0505a1501">示眾</item>
+    <item xml:id="itemJ37p0505a1503">機緣</item>
+<lb n="0505a16" ed="J"/>
+    <item xml:id="itemJ37p0505a1601">頌古</item>
+    <item xml:id="itemJ37p0505a1603">塔銘</item>
+<lb n="0505a17" ed="J"/>
+    <item xml:id="itemJ37p0505a1701">重修洪山寺疏</item>
+    <item xml:id="itemJ37p0505a1707">佛事</item>
+  </list></item>
+<lb n="0505a18" ed="J"/>
+  <item xml:id="itemJ37p0505a1801">六卷
+<lb n="0505a19" ed="J"/><list rend="no-marker">
+    <item xml:id="itemJ37p0505a1901">雜偈</item>
+  </list></item>
+</list>
 <lb n="0505a20" ed="J"/><p xml:id="pJ37p0505a2001">目錄終</p></cb:div>
 <lb n="0505a21" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">敘</cb:mulu><head>嘯堂和尚語錄敘</head>
 <lb n="0505a22" ed="J"/><p xml:id="pJ37p0505a2201">嘯堂汾和尚挾複子上靈巖，時予在侍寮典記，見其
@@ -121,7 +155,11 @@
 <lb n="0505b14" ed="J"/>語，門人住京都翊教楚林睿公編次共若干卷，將壽
 <lb n="0505b15" ed="J"/>諸梓，以廣流布，不遠數千里走山中，乞一言弁其首。
 <lb n="0505b16" ed="J"/>予嘉其志，而敘夙昔之同在師門一段，以表終始，翛
-<lb n="0505b17" ed="J"/>然自得。事皆緣會而興，非若屈<note n="0505b1701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0505b1701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>從人，喪其固有，卒
+<lb n="0505b17" ed="J"/>然自得。事皆緣會而興，非若屈<note 
+n="0505b1701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0505b1701">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>從人，喪其固有，卒
 <lb n="0505b18" ed="J"/>被聲利所束縛，而為智人之所深愍者，可同日語也。
 <lb n="0505b19" ed="J"/>昔人有言曰：沙門華言離欲。離欲則方寸自虛，而萬
 <lb n="0505b20" ed="J"/>景畢入，入必有所展泄，垂慈應物，發為心聲。此教之
@@ -130,15 +168,21 @@
 <lb n="0505b23" ed="J"/>機而成其應耳。詎非古人虛靈寂妙之旨，併所謂識
 <lb n="0505b24" ed="J"/>取無依，佛亦無得者乎？輓近說法，必主摹仿，否則以
 <lb n="0505b25" ed="J"/>為杜撰而共非之。墨數行循，一摸脫出，雖充棟汗生，
-<lb n="0505b26" ed="J"/>真如像龍，不能行雨，雖多亦<note n="0505b2601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0505b2601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>奚為？讀斯錄者，蓋可
-<lb n="0505b27" ed="J"/>少悟其翛然自得之旨矣。</p><p xml:id="pJ37p0505b2711" cb:place="inline" style="margin-left:0em;text-indent:1em">時
+<lb n="0505b26" ed="J"/>真如像龍，不能行雨，雖多亦<note 
+n="0505b2601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0505b2601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>奚為？讀斯錄者，蓋可
+<lb n="0505b27" ed="J"/>少悟其翛然自得之旨矣。</p>
+<p xml:id="pJ37p0505b2711" cb:place="inline" style="margin-left:0em;text-indent:1em">時
 <lb n="0505b28" ed="J" type="honorific"/>康熙丙寅秋日，前住靈巖同門法弟曉青題於華山
 <lb n="0505b29" ed="J"/>之臥雲深處。</p></cb:div>
 <lb n="0505b30" ed="J"/>
 <pb n="0505c" ed="J" xml:id="J37.B389.0505c"/>
 <lb n="0505c01" ed="J"/><cb:juan n="1" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead>俞昭允汾禪師住廬山西林乾明禪寺語錄卷之一</cb:jhead></cb:juan>
 <lb n="0505c02" ed="J"/><byline cb:type="editor">住北京翊教寺嗣法門人上睿等編</byline>
-<lb n="0505c03" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住江西廬山西林乾明禪寺語錄</cb:mulu><p xml:id="pJ37p0505c0301">師順治丁酉十一月十七日在蘇州靈巖受請，十二
+<lb n="0505c03" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住江西廬山西林乾明禪寺語錄</cb:mulu>
+<p xml:id="pJ37p0505c0301">師順治丁酉十一月十七日在蘇州靈巖受請，十二
 <lb n="0505c04" ed="J"/>月二十二日到寺。</p>
 <lb n="0505c05" ed="J"/><p xml:id="pJ37p0505c0501">山門。「無門之門，阿誰篆額？看得分明，君子可入。」</p>
 <lb n="0505c06" ed="J"/><p xml:id="pJ37p0505c0601">佛殿。「太尊貴生，自號滿覺，三拜不施，令人疑著。」</p>
@@ -162,7 +206,11 @@
 <lb n="0505c24" ed="J"/>穿過
 <lb n="0505c25" ed="J" type="honorific"/>靈巖山頭，面無慚色。這老和尚一雙鼻孔，特與諸人
 <lb n="0505c26" ed="J"/>出氣。」插入爐中，便攬衣就座。上首白槌云：「法筵龍象
-<lb n="0505c27" ed="J"/>眾，當觀第一義。」師云：「第一義諦放下槌來，早<note n="0505c2701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0505c2701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>千里
+<lb n="0505c27" ed="J"/>眾，當觀第一義。」師云：「第一義諦放下槌來，早<note 
+n="0505c2701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0505c2701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>千里
 <lb n="0505c28" ed="J"/>萬里，捫空追響，勞汝心神。有不離當處直下取證底
 <lb n="0505c29" ed="J"/>衲僧出來，乘風起舞，相席打令看。」僧問：「機先一著，到
 <lb n="0505c30" ed="J"/>者方知。有一句子，請師答話。」師云：「香谷林中風颯颯。」
@@ -177,8 +225,16 @@
 <lb n="0506a08" ed="J"/>風？」師云：「徹骨徹髓。」進云：「客來將何款待？」師云：「兩人共
 <lb n="0506a09" ed="J"/>一碗。」僧便禮拜，師云：「來日更與一頓。」問：「如何是乾明
 <lb n="0506a10" ed="J"/>境？」師云：「橫看成嶺側成峰。」進云：「如何是境中人？」師云：
-<lb n="0506a11" ed="J"/>「不住孤峰頂，常<note n="0506a1101" resp="CBETA" type="add">伴【CB】，件【嘉興】</note><app n="0506a1101"><lem resp="CBETA.maha" wit="【CB】">伴</lem><rdg wit="【嘉興】">件</rdg></app>白雲閒。」進云：「未審人在境中？境在
-<lb n="0506a12" ed="J"/>人中？」師云：「你向甚處去來？」進云：「人境<note n="0506a1201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0506a1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>蒙師指示，祖
+<lb n="0506a11" ed="J"/>「不住孤峰頂，常<note 
+n="0506a1101" resp="CBETA" type="add">伴【CB】，件【嘉興】</note><app n="0506a1101">
+  <lem resp="CBETA.maha" wit="【CB】">伴</lem>
+  <rdg wit="【嘉興】">件</rdg>
+</app>白雲閒。」進云：「未審人在境中？境在
+<lb n="0506a12" ed="J"/>人中？」師云：「你向甚處去來？」進云：「人境<note 
+n="0506a1201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0506a1201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>蒙師指示，祖
 <lb n="0506a13" ed="J"/>意西來更若何？」師云：「五九盡日又逢春。」又一僧出，師
 <lb n="0506a14" ed="J"/>云：「且住，三世諸佛橫說豎說，徒逞詞鋒；歷代祖師全
 <lb n="0506a15" ed="J"/>提半提，虛張意氣。山僧今日打頭貴遇作家，實情好
@@ -230,7 +286,11 @@
 <lb n="0506b30" ed="J"/>頭一千五百坐得骨臀生胝，不見冷灰豆爆，祗聽熱
 <pb n="0506c" ed="J" xml:id="J37.B389.0506c"/>
 <lb n="0506c01" ed="J"/>碗鳴聲。乾明這裏斬新握方外鉗鎚，乘時開作家爐
-<lb n="0506c02" ed="J"/>韝，無論栴檀荊棘一齊投入。」喝一喝，云：「直得<note n="0506c0201" resp="CBETA" type="add">陝【CB】，陜【嘉興】</note><app n="0506c0201"><lem resp="CBETA.maha" wit="【CB】">陝</lem><rdg wit="【嘉興】">陜</rdg></app>府鐵
+<lb n="0506c02" ed="J"/>韝，無論栴檀荊棘一齊投入。」喝一喝，云：「直得<note 
+n="0506c0201" resp="CBETA" type="add">陝【CB】，陜【嘉興】</note><app n="0506c0201">
+  <lem resp="CBETA.maha" wit="【CB】">陝</lem>
+  <rdg wit="【嘉興】">陜</rdg>
+</app>府鐵
 <lb n="0506c03" ed="J"/>牛通身汗下，嘉州大象滿面光生，諸禪德當爐不避
 <lb n="0506c04" ed="J"/>火，迸眨上眉毛，看是甚麼火色？」便下座。</p>
 <lb n="0506c05" ed="J"/><p xml:id="pJ37p0506c0501">上堂。「冰枯雪槁，天寒人寒，一有多種，二無兩般。少室
@@ -252,7 +312,11 @@
 <lb n="0506c21" ed="J"/>「元正啟祚，萬物咸新，一句無私，請師便道。」師云：「拄杖
 <lb n="0506c22" ed="J"/>抽條丈二長。」進云：「果然恩大難酬。」師隨聲便喝，僧罔
 <lb n="0506c23" ed="J"/>措，師云：「惱亂春風。」乃云：「化育之本，物我同途，生佛之
-<lb n="0506c24" ed="J"/>元，古今不易。」卓拄杖一下，云：「山僧今日<note n="0506c2401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0506c2401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>是打開門
+<lb n="0506c24" ed="J"/>元，古今不易。」卓拄杖一下，云：「山僧今日<note 
+n="0506c2401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0506c2401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>是打開門
 <lb n="0506c25" ed="J"/>戶了也，乾坤大地、日月星辰、草木昆虫、森羅萬象總
 <lb n="0506c26" ed="J"/>在這裏𨁝跳，山門頭合掌、佛殿裏燒香，揖釋迦、拜彌
 <lb n="0506c27" ed="J"/>勒，禱祝咒願遞相慶賀，直是有意氣時添意氣，不風
@@ -347,7 +411,11 @@
 <lb n="0507c23" ed="J"/><p xml:id="pJ37p0507c2301">上堂。「滴水滴凍，道一句善言，言者言所不能言；崖崩
 <lb n="0507c24" ed="J"/>石裂，示一機善跡，跡者跡所不能跡。諸人終日區區，
 <lb n="0507c25" ed="J"/>有口只是喫飯，乾明冷地相為，不妨好手彰名。」遂拈
-<lb n="0507c26" ed="J"/>拄杖卓一下，云：「<note n="0507c2601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0507c2601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>是徹困向汝也。」</p>
+<lb n="0507c26" ed="J"/>拄杖卓一下，云：「<note 
+n="0507c2601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0507c2601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>是徹困向汝也。」</p>
 <lb n="0507c27" ed="J"/><p xml:id="pJ37p0507c2701">上堂。拈拄杖云：「丁一卓二有手腳，放兩拋三無背面，
 <lb n="0507c28" ed="J"/>明眼人看不見。看得見，山僧實落分付與你。」卓一卓，
 <lb n="0507c29" ed="J"/>云：「切忌謾承當。」</p>
@@ -408,7 +476,11 @@
 <lb n="0508b22" ed="J"/>云：「等閒模著虛空鼻，生死猶如戲一場。」師打一棒，云：
 <lb n="0508b23" ed="J"/>「免怪空疏。」乃云：「去卻一，拈得七，上下四維無等匹，逼
 <lb n="0508b24" ed="J"/>得鯰魚上竹竿，俊鶻迅鷹趁弗及。諸人未得箇入處，
-<lb n="0508b25" ed="J"/>但向<note n="0508b2501" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0508b2501"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>求；有箇入處，莫就他覓。絕羅籠，脫羈勒，不風
+<lb n="0508b25" ed="J"/>但向<note 
+n="0508b2501" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0508b2501">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>求；有箇入處，莫就他覓。絕羅籠，脫羈勒，不風
 <lb n="0508b26" ed="J"/>流處也風流，大抵還他好丰骨，這邊與那邊，許汝放
 <lb n="0508b27" ed="J"/>膽說。」喝一喝。</p>
 <lb n="0508b28" ed="J"/><p xml:id="pJ37p0508b2801">解制，上堂。「今朝正月十五，雪霽雲收天宇，叢林制解
@@ -423,7 +495,11 @@
 <lb n="0508c06" ed="J"/><p xml:id="pJ37p0508c0601">上堂。「劫外靈機，悟心者始顯；聲前活路，達道者能行。
 <lb n="0508c07" ed="J"/>雲在嶺頭，乍舒乍卷；水流澗底，可淺可深。花開葉落，
 <lb n="0508c08" ed="J"/>豈是榮枯？春去秋來，原非遷變。復生居士二十五年
-<lb n="0508c09" ed="J"/>前與山僧欣逢白鶴古寺，早<note n="0508c0901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0508c0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>聞斯道矣。今秋七月
+<lb n="0508c09" ed="J"/>前與山僧欣逢白鶴古寺，早<note 
+n="0508c0901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0508c0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>聞斯道矣。今秋七月
 <lb n="0508c10" ed="J"/>廿六，正值從心之辰，特到山中齋我一眾，山僧更說
 <lb n="0508c11" ed="J"/>箇甚麼以資綿遠？」良久，朗吟曰：「佛法人情不用分，抬
 <lb n="0508c12" ed="J"/>頭撞著自家底，火棗冰梨信手拈，子子孫孫皆可喜。」
@@ -440,7 +516,8 @@
 <lb n="0509a01" ed="J"/><cb:mulu n="2" type="卷"/><cb:juan n="2" fun="open"><cb:jhead>俞昭允汾禪師住郢州潼泉山法興禪寺語錄卷之
 <lb n="0509a02" ed="J"/>二</cb:jhead></cb:juan>
 <lb n="0509a03" ed="J"/><byline cb:type="editor">住北京翊教寺嗣法門人上睿等編</byline>
-<lb n="0509a04" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住郢州潼泉山法興禪寺語錄</cb:mulu><p xml:id="pJ37p0509a0401">師於順治辛丑冬住寺，今
+<lb n="0509a04" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住郢州潼泉山法興禪寺語錄</cb:mulu>
+<p xml:id="pJ37p0509a0401">師於順治辛丑冬住寺，今
 <lb n="0509a05" ed="J" type="honorific"/>康熙乙巳二月初一日，郡邑紳衿護法，遠近檀信，諸
 <lb n="0509a06" ed="J"/>剎耆宿，入山敷座，同請開堂。</p>
 <lb n="0509a07" ed="J"/><p xml:id="pJ37p0509a0701">指法座云：「妙寶莊嚴，眾香圍繞，坐斷報化，直踏毘盧。
@@ -464,21 +541,37 @@
 <lb n="0509a25" ed="J"/>「此一瓣香，別無伎倆，必有地頭，道是郢州土宜，迥超
 <lb n="0509a26" ed="J"/>江南尊貴，冷眼曾覷見，熱心實難忘，廣眾中第五回
 <lb n="0509a27" ed="J"/>親拈剎塵海做一爐滿卻，正為供養見住蘇州靈巖
-<lb n="0509a28" ed="J"/>山崇報禪寺本師退翁老和尚，用酬法乳。」<note n="0509a2801" resp="CBETA" type="add">斂【CB】，歛【嘉興】</note><app n="0509a2801"><lem resp="CBETA.maha" wit="【CB】">斂</lem><rdg wit="【嘉興】">歛</rdg></app>衣就座。
+<lb n="0509a28" ed="J"/>山崇報禪寺本師退翁老和尚，用酬法乳。」<note 
+n="0509a2801" resp="CBETA" type="add">斂【CB】，歛【嘉興】</note><app n="0509a2801">
+  <lem resp="CBETA.maha" wit="【CB】">斂</lem>
+  <rdg wit="【嘉興】">歛</rdg>
+</app>衣就座。
 <lb n="0509a29" ed="J"/>上首白槌云：「法筵龍象眾，當觀第一義。」師云：「第一義
 <lb n="0509a30" ed="J"/>諦，上下四維，春風包裹不得。山僧拄杖子久默斯要，
 <pb n="0509b" ed="J" xml:id="J37.B389.0509b"/>
-<lb n="0509b01" ed="J"/>不務速說。今朝事不獲<note n="0509b0101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0509b0101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>，全身出現，為諸人打開蟄
+<lb n="0509b01" ed="J"/>不務速說。今朝事不獲<note 
+n="0509b0101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0509b0101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，全身出現，為諸人打開蟄
 <lb n="0509b02" ed="J"/>戶，雲行雨施。不論橫點豎點，有擊頭知尾者，便請出
 <lb n="0509b03" ed="J"/>眾相見。」僧問：「深山古剎，澗冷雲封。今日生面重開，未
 <lb n="0509b04" ed="J"/>審作何宗調？」師云：「一曲少林無孔笛，逆風吹了順風
 <lb n="0509b05" ed="J"/>吹。」僧云：「實謂罕聞。」師云：「也要闍黎接拍。」乃云：「我此法
-<lb n="0509b06" ed="J"/>印，為欲利益世間故說。如鐘在<note n="0509b0601" resp="CBETA" type="add">虡【CB】，𥵂【嘉興】</note><app n="0509b0601"><lem resp="CBETA.maha" wit="【CB】">虡</lem><rdg wit="【嘉興】">𥵂</rdg></app>，扣之則鳴；似鏡臨
+<lb n="0509b06" ed="J"/>印，為欲利益世間故說。如鐘在<note 
+n="0509b0601" resp="CBETA" type="add">虡【CB】，𥵂【嘉興】</note><app n="0509b0601">
+  <lem resp="CBETA.maha" wit="【CB】">虡</lem>
+  <rdg wit="【嘉興】">𥵂</rdg>
+</app>，扣之則鳴；似鏡臨
 <lb n="0509b07" ed="J"/>臺，物來斯鑑。揭露靈山奧旨，洞明少室真機。離相離
 <lb n="0509b08" ed="J"/>名，破塵破的。非寂默無言可造，豈譬喻分別能知？妙
 <lb n="0509b09" ed="J"/>德空生，只可從傍讚歎；龍天釋梵，惟有動地雨華。諸
 <lb n="0509b10" ed="J"/>仁若也聽能出聲、見能超色，方知盡乾坤是沙門雙
-<lb n="0509b11" ed="J"/>眼，遍十方皆自<note n="0509b1101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0509b1101"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>光明。不妨隨處立宗，應緣接物。於
+<lb n="0509b11" ed="J"/>眼，遍十方皆自<note 
+n="0509b1101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0509b1101">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>光明。不妨隨處立宗，應緣接物。於
 <lb n="0509b12" ed="J"/>有為境示無為道，而不壞有為之相；居一佛國作多
 <lb n="0509b13" ed="J"/>佛事，而不礙一佛之身。自然水到渠成，風行草偃。雖
 <lb n="0509b14" ed="J"/>然如是，建化場中觀光足矣，衲僧門下據令奚堪？且
@@ -497,7 +590,11 @@
 <lb n="0509b27" ed="J"/>冷弗贈冰，救渴不進火，就實而論，絕無奇特。從古天
 <lb n="0509b28" ed="J"/>地、日月、草木、山川，現今老幼、尊卑、僧俗、男女，喫飯穿
 <lb n="0509b29" ed="J"/>衣，夜眠蚤起，看山玩水，瞬目揚眉，送客迎賓，低頭舉
-<lb n="0509b30" ed="J"/>手，匪借他力，惟憑<note n="0509b3001" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0509b3001"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>為。春、夏、秋、冬應其時，士、農、工、商
+<lb n="0509b30" ed="J"/>手，匪借他力，惟憑<note 
+n="0509b3001" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0509b3001">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>為。春、夏、秋、冬應其時，士、農、工、商
 <pb n="0509c" ed="J" xml:id="J37.B389.0509c"/>
 <lb n="0509c01" ed="J"/>居其業，事事成辦，物物變通，諸聖同途，群靈一轍，何
 <lb n="0509c02" ed="J"/>迷？何悟？誰欠？誰餘？倘能依而行之，自解轉身吐氣。」遂
@@ -517,7 +614,11 @@
 <lb n="0509c16" ed="J"/>眼，那時正恐猝急救你不得。」隨卓拄杖一下，云：「寧為
 <lb n="0509c17" ed="J"/>頑石，毋效假玉。」</p>
 <lb n="0509c18" ed="J"/><p xml:id="pJ37p0509c1801">上堂。「雪峰輥毬，兩箇三箇還有麼？禾山打鼓，千槌百
-<lb n="0509c19" ed="J"/>槌<note n="0509c1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0509c1901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>破也。秘魔擎义，好勇少謀；道吾舞笏，足恭堪恥；
+<lb n="0509c19" ed="J"/>槌<note 
+n="0509c1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0509c1901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>破也。秘魔擎义，好勇少謀；道吾舞笏，足恭堪恥；
 <lb n="0509c20" ed="J"/>潼泉鐵壁排衙，清流遶座。不用如許閑家，具北往南
 <lb n="0509c21" ed="J"/>來底，入門領覽，驗在目前。」良久，喝一喝，云：「有甚麼諱
 <lb n="0509c22" ed="J"/>處？」</p>
@@ -535,7 +636,11 @@
 <lb n="0510a03" ed="J"/>快漆桶，更莫提來；穿破草鞋，直須掉卻。」以拄杖一時
 <lb n="0510a04" ed="J"/>打散，云：「千錯萬錯，是伊不錯。」</p>
 <lb n="0510a05" ed="J"/><p xml:id="pJ37p0510a0501">虎爪山湛一典客率徒頓超、睿生請上堂。「乾坤既位，
-<lb n="0510a06" ed="J"/>世界<note n="0510a0601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0510a0601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>形。擁之令聚而不聚，虛空粉碎，大地平沉；撥
+<lb n="0510a06" ed="J"/>世界<note 
+n="0510a0601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0510a0601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>形。擁之令聚而不聚，虛空粉碎，大地平沉；撥
 <lb n="0510a07" ed="J"/>之令散而不散，一出一入，全滅全生。側耳欲聞而不
 <lb n="0510a08" ed="J"/>聞，半合半開，同明同暗；瞪目欲見而不見。」拈拄杖卓
 <lb n="0510a09" ed="J"/>一下，云：「豈更替他說道理？」</p>
@@ -557,7 +662,11 @@
 <lb n="0510a25" ed="J"/>一接。」師云：「光剃頭。」僧云：「百尺竿頭如何進步？」師云：「淨
 <lb n="0510a26" ed="J"/>洗腳。」僧云：「直得百藝百窮。」師打一棒，云：「壹是皆以修
 <lb n="0510a27" ed="J"/>身為本。」乃云：「脫俗離塵，知慚識愧，始名出家。爾諸大
-<lb n="0510a28" ed="J"/>德既<note n="0510a2801" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0510a2801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>頓捨世間深重恩愛，光剃頭、淨洗腳，父母非
+<lb n="0510a28" ed="J"/>德既<note 
+n="0510a2801" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0510a2801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>頓捨世間深重恩愛，光剃頭、淨洗腳，父母非
 <lb n="0510a29" ed="J"/>我親，誰是最親者？諸佛非我道，誰是最道者？袈裟下
 <lb n="0510a30" ed="J"/>一坐具地，從曠劫來四至界畔一一分明，中心樹子
 <pb n="0510b" ed="J" xml:id="J37.B389.0510b"/>
@@ -584,7 +693,11 @@
 <lb n="0510b21" ed="J"/>看額，自喜到來，山僧主道雖麤，幸從一地所生，鄉談
 <lb n="0510b22" ed="J"/>未改，面面相對，不事囊藏，始信夫子鼻孔、達磨眼睛
 <lb n="0510b23" ed="J"/>原同一致，那有兩般？忘其陋劣，不妨直與。」遂喝一喝，
-<lb n="0510b24" ed="J"/>云：「惟憑青嶂留知<note n="0510b2401" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0510b2401"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，恰際春深筍蕨肥。」</p>
+<lb n="0510b24" ed="J"/>云：「惟憑青嶂留知<note 
+n="0510b2401" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0510b2401">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，恰際春深筍蕨肥。」</p>
 <lb n="0510b25" ed="J"/><p xml:id="pJ37p0510b2501">嘉魚弟子李志玳、法名久端，皮氏、法名久章，請上堂。
 <lb n="0510b26" ed="J"/>「忽然，忽然，海口難宣；奇特，奇特，真成越格。金剛腳下
 <lb n="0510b27" ed="J"/>鐵崑崙，捉得明州憨布袋。千般巧說，莫益其心；萬種
@@ -605,12 +718,20 @@
 <lb n="0510c11" ed="J"/>行，山河大地與你證明。」</p>
 <lb n="0510c12" ed="J"/><p xml:id="pJ37p0510c1201">成臼蓮華寺文陵、慎以二師請上堂。「列豎臨濟三門，
 <lb n="0510c13" ed="J"/>滿地華狼籍；分張曹洞五位，一堂風冷澹。諸方粗心
-<lb n="0510c14" ed="J"/>轉勝，潼泉大笑不<note n="0510c1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0510c1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>。」驀喚維那，維那應諾，師云：「今日
+<lb n="0510c14" ed="J"/>轉勝，潼泉大笑不<note 
+n="0510c1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0510c1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>。」驀喚維那，維那應諾，師云：「今日
 <lb n="0510c15" ed="J"/>幾人新到？」維那云：「幾人新到？」師云：「若問老僧佛法，但
 <lb n="0510c16" ed="J"/>道開口不在舌頭上，遇茶祗喫茶、遇飯祗喫飯，但不
 <lb n="0510c17" ed="J"/>得從東過西、從西過東。何故？切忌亂走。」</p>
 <lb n="0510c18" ed="J"/><p xml:id="pJ37p0510c1801">師受業師終，七師弟天然請上堂。「平生快性罕人儔，
-<lb n="0510c19" ed="J"/>驀地藏鋒理事休，不重<note n="0510c1901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0510c1901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>靈不慕聖，又乘好月過滄
+<lb n="0510c19" ed="J"/>驀地藏鋒理事休，不重<note 
+n="0510c1901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0510c1901">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>靈不慕聖，又乘好月過滄
 <lb n="0510c20" ed="J"/>洲。得自由，且自由，萬里神光頂後相，何須更上一層
 <lb n="0510c21" ed="J"/>樓？朝香夕燈，繼志述事，天然師弟可謂孝矣。潼泉山
 <lb n="0510c22" ed="J"/>高水遠，眼折心枯，無法當情，但知懷義，五味拈來蘸
@@ -630,7 +751,15 @@
 <lb n="0511a05" ed="J"/>僧近日改絃易轍去也。」卓一卓云：「一條界破青山色，
 <lb n="0511a06" ed="J"/>誰敢當頭正眼看？」</p>
 <lb n="0511a07" ed="J"/><p xml:id="pJ37p0511a0701">解制，寒河禪喜菴非異闍黎請上堂。僧問：「四月初三
-<lb n="0511a08" ed="J"/>日<note n="0511a0801" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0511a0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>前，乾坤把定；四月初三日<note n="0511a0802" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0511a0802"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>後，日月放行。正恁
+<lb n="0511a08" ed="J"/>日<note 
+n="0511a0801" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0511a0801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>前，乾坤把定；四月初三日<note 
+n="0511a0802" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0511a0802">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>後，日月放行。正恁
 <lb n="0511a09" ed="J"/>麼時，學人是東去？是西去？」師云：「山高豈礙白雲飛？」僧
 <lb n="0511a10" ed="J"/>云：「瀑布崖前親薦得，隨行得路總逍遙。」師云：「直是千
 <lb n="0511a11" ed="J"/>里萬里。」乃云：「三月以來，諸兄弟在我這裏不為看山
@@ -668,7 +797,11 @@
 <lb n="0511b12" ed="J"/>裏分化此界，郢水湘雲同心共照。茲聽遺音，痛傷何
 <lb n="0511b13" ed="J"/>及？」乃撫几者三，復云：「誰人知此意？令我憶南泉。」</p>
 <lb n="0511b14" ed="J"/><p xml:id="pJ37p0511b1401">佛成道日，弟子馬文舉、法名行智，周氏、法名行慧，請
-<lb n="0511b15" ed="J"/>上堂。僧問：「無量劫來<note n="0511b1501" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0511b1501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>成佛道，深山午夜悟箇甚麼？」
+<lb n="0511b15" ed="J"/>上堂。僧問：「無量劫來<note 
+n="0511b1501" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0511b1501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>成佛道，深山午夜悟箇甚麼？」
 <lb n="0511b16" ed="J"/>師云：「三更失卻牛。」僧云：「今日事如何？」師云：「天明拾得
 <lb n="0511b17" ed="J"/>馬。」僧云：「屈！屈！」師打一棒，云：「要騎便騎，要下便下。」乃云：
 <lb n="0511b18" ed="J"/>「釋迦老子冷坐，垢面蓬頭，經歷六載，昨夜睹明星，豁
@@ -691,7 +824,11 @@
 <lb n="0511c04" ed="J"/>應敵？」師又打云：「立破。」僧云：「謝與一龍騎出洞，若逢天
 <lb n="0511c05" ed="J"/>旱便為霖。」師云：「總是預搔待癢。」乃云：「年年十月十五，
 <lb n="0511c06" ed="J"/>諸方盡道開爐，一隊來來往往，不論兩浙三吳，多於
-<lb n="0511c07" ed="J"/>冷地坐煞寒灰，槁木何殊潼泉？今日不是衒曜<note n="0511c0701" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0511c0701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>見，
+<lb n="0511c07" ed="J"/>冷地坐煞寒灰，槁木何殊潼泉？今日不是衒曜<note 
+n="0511c0701" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0511c0701">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>見，
 <lb n="0511c08" ed="J"/>只圖光顯先宗，以重重華藏世界海為一爐韝，百億
 <lb n="0511c09" ed="J"/>須彌山作枚炭墼，拈發無煙之火，運起沒量之錘，直
 <lb n="0511c10" ed="J"/>饒煆了精金，到此更須鎔過。」遂拈拄杖卓一下云：「大
@@ -722,7 +859,11 @@
 <lb n="0512a04" ed="J"/>又僧問：「千眼觀音，窺覷難見；八背那吒，摸索不得。四
 <lb n="0512a05" ed="J"/>眾臨筵，願聞提唱。」師云：「滿面無慚色。」僧轉身擬進，師
 <lb n="0512a06" ed="J"/>咄云：「看腳下。」乃云：「真諦以言非有，俗諦以言非無，真
-<lb n="0512a07" ed="J"/>俗不二，是名聖諦第一義。咄！咄！咄！力<note n="0512a0701" resp="CBETA" type="add" note_key="J37.0512a07.15">囗【CB】，口【嘉興】</note><app n="0512a0701"><lem resp="CBETA.maha" wit="【CB】">囗<note type="cf1">X71n1419_p0525b22</note><note type="cf2">X71n1412_p0209b06</note><note type="cf3">T48n2006_p0312c19</note></lem><rdg wit="【嘉興】">口</rdg></app>希，禪子訝，中
+<lb n="0512a07" ed="J"/>俗不二，是名聖諦第一義。咄！咄！咄！力<note 
+n="0512a0701" resp="CBETA" type="add" note_key="J37.0512a07.15">囗【CB】，口【嘉興】</note><app n="0512a0701">
+  <lem resp="CBETA.maha" wit="【CB】">囗<note type="cf1">X71n1419_p0525b22</note><note type="cf2">X71n1412_p0209b06</note><note type="cf3">T48n2006_p0312c19</note></lem>
+  <rdg wit="【嘉興】">口</rdg>
+</app>希，禪子訝，中
 <lb n="0512a08" ed="J"/>眉垂，腳瘦艸鞋寬，腰粗皮帶闊，相逢把手上高山，天
 <lb n="0512a09" ed="J"/>外出頭誰受屈？第一義不落言詮，如何只靠山僧說？」
 <lb n="0512a10" ed="J"/>驀拈拄杖卓一下，云：「若要說，最直截，雖親父子不相
@@ -737,7 +878,15 @@
 <lb n="0512a19" ed="J"/>云：『百骸俱潰散，一物鎮長靈。百骸潰散皆歸上，一物
 <lb n="0512a20" ed="J"/>長靈甚處安？』南堂靜和尚云：『一物長靈甚處安？長空
 <lb n="0512a21" ed="J"/>雲散碧天寬，蓮宮佛剎華無數，眨起眉毛子細觀。』」師
-<lb n="0512a22" ed="J"/>云：「一華一佛國，一葉一如來，<note n="0512a2201" resp="CBETA" type="add" note_key="J37.0512a22.12">眨【CB】，貶【嘉興】</note><app n="0512a2201"><lem resp="CBETA.shin" wit="【CB】">眨</lem><rdg wit="【嘉興】">貶</rdg></app>起眉毛早<note n="0512a2202" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0512a2202"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>蹉過，喚
+<lb n="0512a22" ed="J"/>云：「一華一佛國，一葉一如來，<note 
+n="0512a2201" resp="CBETA" type="add" note_key="J37.0512a22.12">眨【CB】，貶【嘉興】</note><app n="0512a2201">
+  <lem resp="CBETA.shin" wit="【CB】">眨</lem>
+  <rdg wit="【嘉興】">貶</rdg>
+</app>起眉毛早<note 
+n="0512a2202" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0512a2202">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>蹉過，喚
 <lb n="0512a23" ed="J"/>甚麼作一物？」喝一喝，云：「若暉大德惺惺著，三千大千
 <lb n="0512a24" ed="J"/>世界乃至無有如芥子許非是菩薩捨身命處，九年
 <lb n="0512a25" ed="J"/>前潼泉廣座、十位高僧人人相著，保解脫、別解脫汝
@@ -781,7 +930,8 @@
 <pb n="0512c" ed="J" xml:id="J37.B389.0512c"/>
 <lb n="0512c01" ed="J"/><cb:mulu n="3" type="卷"/><cb:juan n="3" fun="open"><cb:jhead>俞昭允汾禪師住鄂州東巖廣慧禪寺語錄卷之三</cb:jhead></cb:juan>
 <lb n="0512c02" ed="J"/><byline cb:type="editor">住北京翊教寺嗣法門人上睿等編</byline>
-<lb n="0512c03" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住鄂州東巖廣慧禪寺語錄</cb:mulu><p xml:id="pJ37p0512c0301">上堂。拈拄杖，云：「我說法要，譬彼天澤。」卓一卓，云：「點點
+<lb n="0512c03" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住鄂州東巖廣慧禪寺語錄</cb:mulu>
+<p xml:id="pJ37p0512c0301">上堂。拈拄杖，云：「我說法要，譬彼天澤。」卓一卓，云：「點點
 <lb n="0512c04" ed="J"/>不落別處。諸仁！若也根本端正，何須更論得失？拈香
 <lb n="0512c05" ed="J"/>底只管拈香，揖客底只管揖客，維那院主豎透金圈，
 <lb n="0512c06" ed="J"/>直歲典客橫吞栗棘，監修司庫、行者人力，齒鏃破關，
@@ -803,7 +953,11 @@
 <lb n="0512c22" ed="J"/>力？腳下何曾別有師？」</p>
 <lb n="0512c23" ed="J"/><p xml:id="pJ37p0512c2301">荷湖悟心闍黎七十，請上堂。「天機圓活，黃河三千年
 <lb n="0512c24" ed="J"/>一清；正眼洞明，蟠桃五百年一熟。平田淺草峭巍巍，
-<lb n="0512c25" ed="J"/>帶水拖泥淨裸裸。千差靡間，一味尋常。在<note n="0512c2501" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0512c2501"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>在人，頭
+<lb n="0512c25" ed="J"/>帶水拖泥淨裸裸。千差靡間，一味尋常。在<note 
+n="0512c2501" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0512c2501">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>在人，頭
 <lb n="0512c26" ed="J"/>頭今時樞要；涉事涉理，法法上古風規。日用自來現
 <lb n="0512c27" ed="J"/>成，年深何有變易？分明真實箇漢，端的無量壽王。山
 <lb n="0512c28" ed="J"/>僧與麼稱道，也只是因齋慶讚，拄杖子相席打令。雖
@@ -830,7 +984,11 @@
 <lb n="0513a18" ed="J"/>平歡。」</p>
 <lb n="0513a19" ed="J"/><p xml:id="pJ37p0513a1901">徑山老和尚訃至，上堂。「在今天下具大眼目、真善知
 <lb n="0513a20" ed="J"/>識，無如我徑山法叔老師者。允汾昔年行腳，首於靈
-<lb n="0513a21" ed="J"/>隱覺場得親爐韝，深受鉗鎚。茲忽訃聞，化緣<note n="0513a2101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0513a2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>畢，於
+<lb n="0513a21" ed="J"/>隱覺場得親爐韝，深受鉗鎚。茲忽訃聞，化緣<note 
+n="0513a2101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0513a2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>畢，於
 <lb n="0513a22" ed="J"/>廣陵道示般涅槃，四眾失所依歸，百萬松杉雙徑杳；
 <lb n="0513a23" ed="J"/>諸山罕聞繼美，三千樓閣五峰寒。」遂失聲作哀云：「和
 <lb n="0513a24" ed="J"/>尚！和尚！詎不念此正宗澹泊、異道崢嶸，識海濤翻、見
@@ -844,7 +1002,11 @@
 <lb n="0513b01" ed="J"/><p xml:id="pJ37p0513b0101">付楚林睿首座，上堂。拈起拄杖，云：「拈一機，則機機透
 <lb n="0513b02" ed="J"/>脫。」卓一下，云：「垂一句，則句句流通。麗萬象於當陽，耀
 <lb n="0513b03" ed="J"/>天光彩；融千差於一智，擲地金聲。越祖超師，順物齊
-<lb n="0513b04" ed="J"/><note n="0513b0401" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0513b0401"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>。正恁麼時，事存函蓋，理應箭鋒，祗合與汝平展，不
+<lb n="0513b04" ed="J"/><note 
+n="0513b0401" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0513b0401">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>。正恁麼時，事存函蓋，理應箭鋒，祗合與汝平展，不
 <lb n="0513b05" ed="J"/>合與世商量。且阿那箇解身裏出門？」遂擲下，云：「分付
 <lb n="0513b06" ed="J"/>今朝首座睿。」</p>
 <lb n="0513b07" ed="J"/><p xml:id="pJ37p0513b0701">竟陵尹何方、郭茂行二文學請上堂。「山僧自小不曾
@@ -867,7 +1029,11 @@
 <lb n="0513b24" ed="J"/>堂慣得其便，東家六六成堆，西家九九足算。知客兩
 <lb n="0513b25" ed="J"/>片脣皮，動說多多益善，一搕總收來，主賓誰落賺？爾
 <lb n="0513b26" ed="J"/>禪流莫須亂人，搬柴一束兩束柴，搬人三轉五轉，齊
-<lb n="0513b27" ed="J"/>放下，真堪羨。且道<note n="0513b2701" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0513b2701"><lem resp="CBETA.maha" wit="【CB】">羨</lem><rdg wit="【嘉興】">羡</rdg></app>箇甚麼？且喜一冬燒不盡，寒山
+<lb n="0513b27" ed="J"/>放下，真堪羨。且道<note 
+n="0513b2701" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0513b2701">
+  <lem resp="CBETA.maha" wit="【CB】">羨</lem>
+  <rdg wit="【嘉興】">羡</rdg>
+</app>箇甚麼？且喜一冬燒不盡，寒山
 <lb n="0513b28" ed="J"/>那管滿頭灰？」</p>
 <lb n="0513b29" ed="J"/><p xml:id="pJ37p0513b2901">臘八，上堂。「東巖長笑老釋迦，成道當初指臘八，雪山
 <lb n="0513b30" ed="J"/>深處枉用心，一睹明星眼皮熱。智慧德相碗脫丘，妄
@@ -877,7 +1043,11 @@
 <lb n="0513c03" ed="J"/>踏你覆轍？」喝一喝，下座。</p>
 <lb n="0513c04" ed="J"/><p xml:id="pJ37p0513c0401">師五十誕辰，觀察婁公、則山居士、孔月、恒太翁、胡內
 <lb n="0513c05" ed="J"/>寧，暨雲杜、竟陵、沱潛、南嘉、齊安，遠邇護法、紳衿、緇素、
-<lb n="0513c06" ed="J"/>弟子等普設大齋，請上堂。拈香畢，<note n="0513c0601" resp="CBETA" type="add">斂【CB】，歛【嘉興】</note><app n="0513c0601"><lem resp="CBETA.maha" wit="【CB】">斂</lem><rdg wit="【嘉興】">歛</rdg></app>衣就座，云：「㘞！只
+<lb n="0513c06" ed="J"/>弟子等普設大齋，請上堂。拈香畢，<note 
+n="0513c0601" resp="CBETA" type="add">斂【CB】，歛【嘉興】</note><app n="0513c0601">
+  <lem resp="CBETA.maha" wit="【CB】">斂</lem>
+  <rdg wit="【嘉興】">歛</rdg>
+</app>衣就座，云：「㘞！只
 <lb n="0513c07" ed="J"/>者條通天活路，千聖共行，萬靈同轍，乃古乃今，無彼
 <lb n="0513c08" ed="J"/>無此。山僧自出母胎，密之三寸，不曾容易與人道破。
 <lb n="0513c09" ed="J"/>今朝承諸護法、宰官、居士、遠邇緇素，以茲辰是山僧
@@ -898,9 +1068,17 @@
 <lb n="0513c24" ed="J"/><p xml:id="pJ37p0513c2401">天臺澹然和尚八十誕日，觀察婁公就修靜寺設齋
 <lb n="0513c25" ed="J"/>稱壽，請陞座。「天臺古佛八旬誕辰，鏡湖文星設齋榮
 <lb n="0513c26" ed="J"/>祝，群賢畢至，海眾齊臨，瑞藹祥雲，堆堆疊疊，奇特殊
-<lb n="0513c27" ed="J"/>勝，甚非小緣，多因法苑成知<note n="0513c2701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0513c2701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，曾記靈山一會來。故
+<lb n="0513c27" ed="J"/>勝，甚非小緣，多因法苑成知<note 
+n="0513c2701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0513c2701">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，曾記靈山一會來。故
 <lb n="0513c28" ed="J"/>有此以佛祖為標準，而佛祖尊師之老宿；即有此以
-<lb n="0513c29" ed="J"/>聖賢歸自<note n="0513c2901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0513c2901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，與聖賢作主之宰官。驀拶相逢，天然意
+<lb n="0513c29" ed="J"/>聖賢歸自<note 
+n="0513c2901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0513c2901">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，與聖賢作主之宰官。驀拶相逢，天然意
 <lb n="0513c30" ed="J"/>氣，一以堅心智力、一以無礙辯才，夫子鼻孔、達磨眼
 <pb n="0514a" ed="J" xml:id="J37.B389.0514a"/>
 <lb n="0514a01" ed="J"/>睛，展拓縱橫，游刃磅礡，提持前佛慧命、揭示後聖紀
@@ -935,7 +1113,11 @@
 <lb n="0514a30" ed="J"/>壽，請陞座。僧問：「香煙匼匝，花雨繽紛，是慶讚因齋？是
 <pb n="0514b" ed="J" xml:id="J37.B389.0514b"/>
 <lb n="0514b01" ed="J"/>獨尊現瑞？」師云：「<unclear/>開五百，桃熟三千。」進云：「一條拄杖
-<lb n="0514b02" ed="J"/>扶雙曜，萬里清風匝地生。」師云：「<note n="0514b0201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0514b0201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>在言前。」又僧問：「須
+<lb n="0514b02" ed="J"/>扶雙曜，萬里清風匝地生。」師云：「<note 
+n="0514b0201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0514b0201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>在言前。」又僧問：「須
 <lb n="0514b03" ed="J"/>彌喝彩，寶掌呈祥，正坐當堂，冀垂指示。」師示：「古錦寫
 <lb n="0514b04" ed="J"/>迴文。」進云：「而今拈卻風幡句，請師別展透時機。」師云：
 <lb n="0514b05" ed="J"/>「一字不著畫。」乃云：「千華現瑞，亙古同春，不涉諸緣，全
@@ -972,7 +1154,11 @@
 <lb n="0514c05" ed="J"/>獨運，蕩蕩無私，日月未足喻其明，虛空詎能量其廣？
 <lb n="0514c06" ed="J"/>一大藏教廣詮密注，盡扯爛葛藤；古今佛祖半舉全
 <lb n="0514c07" ed="J"/>提，總弄閒家具。諸仁並肩挨足，簇簇向前，氣宇昂霄，
-<lb n="0514c08" ed="J"/>腳跟點地，便好一一從自<note n="0514c0801" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0514c0801"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>胸襟流出，與我蓋天蓋
+<lb n="0514c08" ed="J"/>腳跟點地，便好一一從自<note 
+n="0514c0801" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0514c0801">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>胸襟流出，與我蓋天蓋
 <lb n="0514c09" ed="J"/>地去，豈肯有口只堪喫飯？就中要妙，轉處孤危，不立
 <lb n="0514c10" ed="J"/>一塵，不捨一法。到者裏，即委靈山奧旨，非可泥言沉
 <lb n="0514c11" ed="J"/>默；少室真印，何關杜見絕聞？鬧市裏耳竅洞開，百草
@@ -996,7 +1182,11 @@
 <lb n="0514c29" ed="J"/>一擊，云：「聞麼？聞見分明是箇甚麼？果能於此一立一
 <lb n="0514c30" ed="J"/>切立、一成一切成，虎嘯龍吟、珠迴玉轉，遍界無纖毫
 <pb n="0515a" ed="J" xml:id="J37.B389.0515a"/>
-<lb n="0515a01" ed="J"/>過患，觸處悉自<note n="0515a0101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0515a0101"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>光明，日照天臨，雲騰雨致，甚生標
+<lb n="0515a01" ed="J"/>過患，觸處悉自<note 
+n="0515a0101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0515a0101">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>光明，日照天臨，雲騰雨致，甚生標
 <lb n="0515a02" ed="J"/>格，越樣風流？如是，則可與山僧拄杖子齊肩並躅，頭
 <lb n="0515a03" ed="J"/>頭響順聲和，處處形端影直，業大名崇，福圓壽永。且
 <lb n="0515a04" ed="J"/>拄杖子更有過人處也無？」拈拄杖，縱橫作舞，云：「長長
@@ -1055,7 +1245,11 @@
 <lb n="0515b26" ed="J"/>云：「翕如也，純如也，繳如也，繹如也，不消禮拜歸方丈，
 <lb n="0515b27" ed="J"/>相逢自有知音知。若問本來人，十餘年前，有箇跨虎
 <lb n="0515b28" ed="J"/>松門，要騎便騎，要下便下，自云：『擔雪老漢始從天台
-<lb n="0515b29" ed="J"/>來，卻往南嶽去，西澨江頭驀拶相逢，蚤<note n="0515b2901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0515b2901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>勘驗過。』潼
+<lb n="0515b29" ed="J"/>來，卻往南嶽去，西澨江頭驀拶相逢，蚤<note 
+n="0515b2901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0515b2901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>勘驗過。』潼
 <lb n="0515b30" ed="J"/>泉更不必與露柱添眉，取笑識者。」仍靠拄杖休去。</p>
 <pb n="0515c" ed="J" xml:id="J37.B389.0515c"/>
 <lb n="0515c01" ed="J"/><p xml:id="pJ37p0515c0101">歐陽則明居士請上堂。問：「十方俱擊鼓，十處一齊聞，
@@ -1076,7 +1270,11 @@
 <lb n="0515c16" ed="J"/>回向，拈梳插髻，便乃出去，是有所求，是無所求？」師云：
 <lb n="0515c17" ed="J"/>「別人口裏討不得。」進云：「今朝作齋底，當於甚處回向？」
 <lb n="0515c18" ed="J"/>師云：「好日多同。」進云：「沒弦琴上無生曲，有語分明說
-<lb n="0515c19" ed="J"/>向誰？」師打一棒，云：「和煙搭在玉欄干。」問：「王令<note n="0515c1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0515c1901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>行天
+<lb n="0515c19" ed="J"/>向誰？」師打一棒，云：「和煙搭在玉欄干。」問：「王令<note 
+n="0515c1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0515c1901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>行天
 <lb n="0515c20" ed="J"/>下遍，將軍塞外絕煙塵，眨上眉毛是何境界？」師云：「沒
 <lb n="0515c21" ed="J"/>鐙驢子夜三更。」進云：「不是與人難共住，大都緇素要
 <lb n="0515c22" ed="J"/>分明。」師云：「萬里崖州君自去，不妨長作嶺南人。」問：「法
@@ -1114,7 +1312,8 @@
 <lb n="0516b01" ed="J"/><cb:mulu n="4" type="卷"/><cb:juan n="4" fun="open"><cb:jhead>俞昭允汾禪師住鄂州大洪山寶通報國禪寺語錄
 <lb n="0516b02" ed="J"/>卷之四</cb:jhead></cb:juan>
 <lb n="0516b03" ed="J"/><byline cb:type="editor">住北京翊教寺嗣法門人上睿等編</byline>
-<lb n="0516b04" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住鄂州大洪山寶通報國禪寺語錄</cb:mulu><p xml:id="pJ37p0516b0401">康熙十六年丁巳秋，
+<lb n="0516b04" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住鄂州大洪山寶通報國禪寺語錄</cb:mulu>
+<p xml:id="pJ37p0516b0401">康熙十六年丁巳秋，
 <lb n="0516b05" ed="J" type="honorific"/>巡撫部院張公，方伯徐公，遣使持書至雲杜潼泉山，
 <lb n="0516b06" ed="J"/>請師中興洪山；三辭不免，於十七年戊午二月八日
 <lb n="0516b07" ed="J"/>入院。</p>
@@ -1171,7 +1370,11 @@
 <lb n="0516c27" ed="J"/>義。」師云：「第一義諦，觀即不無，山僧有願，不撒沙頂門，
 <lb n="0516c28" ed="J"/>具正眼底試出眾相見。」僧問：「今古洪山巨剎，三楚名
 <lb n="0516c29" ed="J"/>藍，和尚中興，將說何法？」師云：「滿眼滿耳。」僧云：「若不問
-<lb n="0516c30" ed="J"/>過，爭知端的？」師便打，僧一喝，師云：「譬如閒。」<note n="0516c3001" resp="CBETA" type="add">斂【CB】，歛【嘉興】</note><app n="0516c3001"><lem resp="CBETA.maha" wit="【CB】">斂</lem><rdg wit="【嘉興】">歛</rdg></app>衣就座。
+<lb n="0516c30" ed="J"/>過，爭知端的？」師便打，僧一喝，師云：「譬如閒。」<note 
+n="0516c3001" resp="CBETA" type="add">斂【CB】，歛【嘉興】</note><app n="0516c3001">
+  <lem resp="CBETA.maha" wit="【CB】">斂</lem>
+  <rdg wit="【嘉興】">歛</rdg>
+</app>衣就座。
 <pb n="0517a" ed="J" xml:id="J37.B389.0517a"/>
 <lb n="0517a01" ed="J"/>乃云：「形問答，立機境，意句交馳，主賓互換，總是宗乘
 <lb n="0517a02" ed="J"/>末邊事。山僧今日也是知而故犯，由為初機，與諸人
@@ -1186,7 +1389,11 @@
 <lb n="0517a11" ed="J"/>恩報恩一句作麼生道？萬里山河歸有道，一人端拱
 <lb n="0517a12" ed="J"/>賀無私。」復舉：「僧問投子：『如何是一大事因緣？』投子云：
 <lb n="0517a13" ed="J"/>『刀司空與老僧開堂。』」師云：「問不違時，答亦中節。若於
-<lb n="0517a14" ed="J"/>理上會，者僧謾投子不得；於事上看，投子<note n="0517a1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517a1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>是話行。
+<lb n="0517a14" ed="J"/>理上會，者僧謾投子不得；於事上看，投子<note 
+n="0517a1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517a1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>是話行。
 <lb n="0517a15" ed="J"/>仔細檢點將來，猶涉理事，未為圓通。山僧則不然，設
 <lb n="0517a16" ed="J"/>有人問：『如何是一大事因緣？』但向道：『我不敢輕於汝
 <lb n="0517a17" ed="J"/>等，汝等皆當作佛。』者裏承當得下、擔荷得行，世、出世
@@ -1198,10 +1405,18 @@
 <lb n="0517a23" ed="J"/>社幸乎得人，叢林自然增氣，應緣化物，起舞乘風，於
 <lb n="0517a24" ed="J"/>以興慈運悲、於以解粘去縛、於以入淨入染、於以越
 <lb n="0517a25" ed="J"/>聖超凡、於以廣度眾生、於以承事諸佛，總在諸知識，
-<lb n="0517a26" ed="J"/>各就自<note n="0517a2601" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517a2601"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>本分，依而行之。」喝一喝，云：「還信得及麼？倒
+<lb n="0517a26" ed="J"/>各就自<note 
+n="0517a2601" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517a2601">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>本分，依而行之。」喝一喝，云：「還信得及麼？倒
 <lb n="0517a27" ed="J"/>跨楊岐三腳驢，黧奴白牯無驚異。」</p>
 <lb n="0517a28" ed="J"/><p xml:id="pJ37p0517a2801">結制開爐，漢口江善人汝達居士，請上堂。問答不錄。
-<lb n="0517a29" ed="J"/>喝一喝，云：「陳爛火種，<note n="0517a2901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517a2901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>見光輝，大冶精金，應無變色，
+<lb n="0517a29" ed="J"/>喝一喝，云：「陳爛火種，<note 
+n="0517a2901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517a2901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>見光輝，大冶精金，應無變色，
 <lb n="0517a30" ed="J"/>三世諸佛，於此拈卻炙脂帽子，六代祖師，於此脫卻
 <pb n="0517b" ed="J" xml:id="J37.B389.0517b"/>
 <lb n="0517b01" ed="J"/>鶻臭布衫，古今天下老和尚，百匝千重，聯芳續燄。你
@@ -1214,7 +1429,11 @@
 <lb n="0517b08" ed="J"/><p xml:id="pJ37p0517b0801">重新佛殿，眾護法檀越請上堂。「選佛覺場，為選佛所
 <lb n="0517b09" ed="J"/>以重興；大人境界，遇大人始能顯赫。契物契機，如理
 <lb n="0517b10" ed="J"/>如事，洪山古剎，三楚名藍，奇引瀟湘，秀連廬嶽。巍峨
-<lb n="0517b11" ed="J"/>廣殿，多年<note n="0517b1101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517b1101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>被塵封；委宛長廊，盡日惟憑風掃。今者
+<lb n="0517b11" ed="J"/>廣殿，多年<note 
+n="0517b1101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517b1101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>被塵封；委宛長廊，盡日惟憑風掃。今者
 <lb n="0517b12" ed="J"/>時節既至，檀護斯臨，土石為之發光，草木亦當稽首，
 <lb n="0517b13" ed="J"/>頓使煙霞烜彩，梵宮高峙層霄；金碧流輝，鴻業永垂
 <lb n="0517b14" ed="J"/>勝壤。山僧安能伸頌萬一？」遂喝一喝，云：「古寺緣逢此
@@ -1242,8 +1461,16 @@
 <lb n="0517c05" ed="J"/>彌近前來，沙彌近前，師云：「汝名甚麼？」云：「某甲。」師云：「過
 <lb n="0517c06" ed="J"/>左邊立。」喚第二位沙彌近前來，沙彌近前，師云：「汝名
 <lb n="0517c07" ed="J"/>甚麼？」云：「某甲。」師云：「過右邊立。」乃召眾沙彌，沙彌齊舉
-<lb n="0517c08" ed="J"/>首，師云：「頭圓像天，足方似地，古貌崚層，丈夫意氣。<note n="0517c0801" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0517c0801"><lem resp="CBETA.maha" wit="【CB】">佳</lem><rdg wit="【嘉興】">隹</rdg></app>
-<lb n="0517c09" ed="J"/>作仁，士尚志，禮之用，和為貴，識取自<note n="0517c0901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517c0901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>本名，箇箇爭
+<lb n="0517c08" ed="J"/>首，師云：「頭圓像天，足方似地，古貌崚層，丈夫意氣。<note 
+n="0517c0801" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0517c0801">
+  <lem resp="CBETA.maha" wit="【CB】">佳</lem>
+  <rdg wit="【嘉興】">隹</rdg>
+</app>
+<lb n="0517c09" ed="J"/>作仁，士尚志，禮之用，和為貴，識取自<note 
+n="0517c0901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517c0901">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>本名，箇箇爭
 <lb n="0517c10" ed="J"/>先及第。洞庭無蓋，缽盂無底，勿以小緣，妨於大事。」遂
 <lb n="0517c11" ed="J"/>喝一喝，云：「山僧苦口更叮嚀，不妨又是從頭起。佛者，
 <lb n="0517c12" ed="J"/>心清淨是；法者，心光明是；道者，處處無礙淨光是。」良
@@ -1253,7 +1480,11 @@
 <lb n="0517c16" ed="J"/>日是如來降誕之日，灌沐金軀之時，汝等各各眼親
 <lb n="0517c17" ed="J"/>手辦，東家杓柄長，西家杓柄短，一總謾你們不得，更
 <lb n="0517c18" ed="J"/>要山僧潑郎潑賴作麼？雖然，有大檀越慣於好日生
-<lb n="0517c19" ed="J"/>懽，定然慶時納祐，炊香梵宇，齋惠緇流，釋迦老子<note n="0517c1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517c1901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>
+<lb n="0517c19" ed="J"/>懽，定然慶時納祐，炊香梵宇，齋惠緇流，釋迦老子<note 
+n="0517c1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0517c1901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>
 <lb n="0517c20" ed="J"/>是滿面增光、洪山野僧亦且隨列得益，你諸人還識
 <lb n="0517c21" ed="J"/>隨隨三昧麼？欲知千古意，豈惜一盆湯？」</p>
 <lb n="0517c22" ed="J"/><p xml:id="pJ37p0517c2201">巡撫部院張大護法壽誕，司道眾宰官修建延生道
@@ -1261,9 +1492,17 @@
 <lb n="0517c24" ed="J"/>獨露，域中正體全彰。大野風清，當空日麗，伐鼓聲鐘，
 <lb n="0517c25" ed="J"/>誦經禮懺，一一眼所共見，耳所共聞，天之普覆，地之
 <lb n="0517c26" ed="J"/>普載，日之普照，月之普臨，風之普吹，雨之普潤，森羅
-<lb n="0517c27" ed="J"/>萬象，明暗色空，一切諸法，無不是自<note n="0517c2701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517c2701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>般若智光發
+<lb n="0517c27" ed="J"/>萬象，明暗色空，一切諸法，無不是自<note 
+n="0517c2701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517c2701">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>般若智光發
 <lb n="0517c28" ed="J"/>現處；治國齊家，修身誠意，經天下之大經，立天下之
-<lb n="0517c29" ed="J"/>大本，無不是自<note n="0517c2901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517c2901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>金剛妙心圓轉時。行住坐臥，語默
+<lb n="0517c29" ed="J"/>大本，無不是自<note 
+n="0517c2901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0517c2901">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>金剛妙心圓轉時。行住坐臥，語默
 <lb n="0517c30" ed="J"/>動靜，接物利生，隨根授道，何理不契？何事不成？何德
 <pb n="0518a" ed="J" xml:id="J37.B389.0518a"/>
 <lb n="0518a01" ed="J"/>不周？何恩不報？故經云：『如來者，即諸法如義。』又云：『應
@@ -1279,14 +1518,22 @@
 <lb n="0518a11" ed="J"/><p xml:id="pJ37p0518a1101">開爐，張成之居士請上堂。「冬令當行，落葉打窗粗裏
 <lb n="0518a12" ed="J"/>細；天寒水肅，冷風吹帽正中偏。齒牙敲磕處，一字元
 <lb n="0518a13" ed="J"/>無；父母未生前，三心莫得。大家在者裏，有甚別商量？
-<lb n="0518a14" ed="J"/>洪山爐冶新開，抑不獲<note n="0518a1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518a1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>，要使諸人脊背汗出，箇箇
+<lb n="0518a14" ed="J"/>洪山爐冶新開，抑不獲<note 
+n="0518a1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518a1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，要使諸人脊背汗出，箇箇
 <lb n="0518a15" ed="J"/>光揚宗眼。若是躍冶之流，不祥莫甚。眾中有本色赤
 <lb n="0518a16" ed="J"/>純底，快就山僧好手。」卓拄杖，下座。</p>
 <lb n="0518a17" ed="J"/><p xml:id="pJ37p0518a1701">竟陵吳晞齋老居士七十壽誕，請上堂。「日月星辰繫
 <lb n="0518a18" ed="J"/>於天，而天不高，江河淮濟注於海，而海不溢；草木叢
 <lb n="0518a19" ed="J"/>林發於地，而地不厚；耳目手足見於身，而身不大。眾
 <lb n="0518a20" ed="J"/>生雖迷無二心，諸佛雖悟無二道，明如杲日，霓若太
-<lb n="0518a21" ed="J"/>虛。以之修身，即以之齊家，以之利<note n="0518a2101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518a2101"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，即以之導物；以
+<lb n="0518a21" ed="J"/>虛。以之修身，即以之齊家，以之利<note 
+n="0518a2101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518a2101">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，即以之導物；以
 <lb n="0518a22" ed="J"/>之報君親，以之教子弟；以之廣慧命，以之敦福基。言
 <lb n="0518a23" ed="J"/>無展事，玉轉珠回；語不投機，川流岳峙。頭頭非取捨，
 <lb n="0518a24" ed="J"/>處處弗張乖。大眾！洪山與麼播揚，出我口，入你耳，躍
@@ -1298,16 +1545,28 @@
 <lb n="0518a30" ed="J"/>悟卻天下人。亦能鈍置古今人，亦能轉移古今人。若
 <pb n="0518b" ed="J" xml:id="J37.B389.0518b"/>
 <lb n="0518b01" ed="J"/>是倚他門戶靠他牆，空拳指上生實解底，決不能獨
-<lb n="0518b02" ed="J"/>脫無依、翛然自得。汝諸佛子，既<note n="0518b0201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518b0201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>割愛辭親，出家學
+<lb n="0518b02" ed="J"/>脫無依、翛然自得。汝諸佛子，既<note 
+n="0518b0201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518b0201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>割愛辭親，出家學
 <lb n="0518b03" ed="J"/>道，光剃頭淨洗足，終日拈香擇火，不知真箇道場。地
-<lb n="0518b04" ed="J"/>靈步步雪山草，病者仍舊病在膏<note n="0518b0401" resp="CBETA" type="add">肓【CB】，盲【嘉興】</note><app n="0518b0401"><lem resp="CBETA.maha" wit="【CB】">肓</lem><rdg wit="【嘉興】">盲</rdg></app>；僧寶人人滄海
+<lb n="0518b04" ed="J"/>靈步步雪山草，病者仍舊病在膏<note 
+n="0518b0401" resp="CBETA" type="add">肓【CB】，盲【嘉興】</note><app n="0518b0401">
+  <lem resp="CBETA.maha" wit="【CB】">肓</lem>
+  <rdg wit="【嘉興】">盲</rdg>
+</app>；僧寶人人滄海
 <lb n="0518b05" ed="J"/>珠，貧者依前貧徹骨髓。直須奮決烈之志，啟特達之
 <lb n="0518b06" ed="J"/>懷，向父母未生前眨上眉毛，一眼覷透，此十二種事
 <lb n="0518b07" ed="J"/>只是一法，一法亦無可得。於無可得處，瞥起繁興大
 <lb n="0518b08" ed="J"/>用，則缽盂倒覆乾坤，拄杖橫擔日月，腳腳踏著實地，
 <lb n="0518b09" ed="J"/>口口吞盡虛空。說外那有絲毫行不盡底，行外那有
 <lb n="0518b10" ed="J"/>少許說不盡底。用心若此，則何恩不報？何德不圓？」遂
-<lb n="0518b11" ed="J"/>震聲喝云：「依而行之，所作<note n="0518b1101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518b1101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>辦。」</p>
+<lb n="0518b11" ed="J"/>震聲喝云：「依而行之，所作<note 
+n="0518b1101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518b1101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>辦。」</p>
 <lb n="0518b12" ed="J"/><p xml:id="pJ37p0518b1201">上堂。「一滴滴水，一滴滴凍，天寒人寒，風動幡動，內不
 <lb n="0518b13" ed="J"/>住受想行識，外不著聲香味觸，入息不居陰界，出息
 <lb n="0518b14" ed="J"/>不涉眾緣，不是心，不是佛，不是物，是甚麼？」喝一喝，云：
@@ -1325,14 +1584,26 @@
 <lb n="0518b26" ed="J"/>麼，缽盂當圓枕；保解脫更別解脫，袈裟裏草鞋。有事
 <lb n="0518b27" ed="J"/>則上令下從，閒行亦小出大遇。過溪度嶺，撥草只要
 <lb n="0518b28" ed="J"/>蛇驚；拄戶搘門，打地自然賊走。長長在手，往往如斯。
-<lb n="0518b29" ed="J"/>得益人時且益人，非關<note n="0518b2901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518b2901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>事何關<note n="0518b2902" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518b2902"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>？」遂喝一喝，云：「諸
+<lb n="0518b29" ed="J"/>得益人時且益人，非關<note 
+n="0518b2901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518b2901">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>事何關<note 
+n="0518b2902" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518b2902">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>？」遂喝一喝，云：「諸
 <lb n="0518b30" ed="J"/>比丘能持否？爾衲僧休莽鹵，傳法度迷情，吾故來茲
 <pb n="0518c" ed="J" xml:id="J37.B389.0518c"/>
 <lb n="0518c01" ed="J"/>土。」復卓拄杖，下座。</p>
 <lb n="0518c02" ed="J"/><p xml:id="pJ37p0518c0201">上堂。「日日日東上，日日日西沒，頭上是天，腳下是地，
 <lb n="0518c03" ed="J"/>眼臨綠水，背靠青山，人人道我會也，仔細看來，十里
 <lb n="0518c04" ed="J"/>大王相似。忽若拽取占波共新羅關額，南辰與北斗
-<lb n="0518c05" ed="J"/>交參，掀翻澥嶽求知<note n="0518c0501" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518c0501"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，撥亂乾坤見太平，又作麼生
+<lb n="0518c05" ed="J"/>交參，掀翻澥嶽求知<note 
+n="0518c0501" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518c0501">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，撥亂乾坤見太平，又作麼生
 <lb n="0518c06" ed="J"/>商量？」拈拄杖卓一下，云：「明眼人難瞞。」</p>
 <lb n="0518c07" ed="J"/><p xml:id="pJ37p0518c0701">上堂。「飯籮邊，漆桶裏，金不博金，水不洗水。諸仁在處
 <lb n="0518c08" ed="J"/>參方，佛祖如生冤家。月裏走金烏，可惜許迅速光陰，
@@ -1341,9 +1612,21 @@
 <lb n="0518c11" ed="J"/>界，也無內脫身心，為無為，益無益，梯航九有，津濟四
 <lb n="0518c12" ed="J"/>生，萬般此道，一信前緣，任運騰騰，惺惺到老。眾中若
 <lb n="0518c13" ed="J"/>有難謾衲子衝前云：『某甲何人？』洪山拄杖子未免惡
-<lb n="0518c14" ed="J"/>發，不信自<note n="0518c1401" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518c1401"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，好怪得他。」</p>
-<lb n="0518c15" ed="J"/><p xml:id="pJ37p0518c1501">弟子曹思贊、法名久依，請上堂。「今朝臘月中，<note n="0518c1501" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518c1501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>到大
-<lb n="0518c16" ed="J"/>寒節，江河有凍痕，地皮多折裂。<note n="0518c1601" resp="CBETA" type="add">陝【CB】，陜【嘉興】</note><app n="0518c1601"><lem resp="CBETA.maha" wit="【CB】">陝</lem><rdg wit="【嘉興】">陜</rdg></app>府鐵牛，不行心處
+<lb n="0518c14" ed="J"/>發，不信自<note 
+n="0518c1401" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0518c1401">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>，好怪得他。」</p>
+<lb n="0518c15" ed="J"/><p xml:id="pJ37p0518c1501">弟子曹思贊、法名久依，請上堂。「今朝臘月中，<note 
+n="0518c1501" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0518c1501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>到大
+<lb n="0518c16" ed="J"/>寒節，江河有凍痕，地皮多折裂。<note 
+n="0518c1601" resp="CBETA" type="add">陝【CB】，陜【嘉興】</note><app n="0518c1601">
+  <lem resp="CBETA.maha" wit="【CB】">陝</lem>
+  <rdg wit="【嘉興】">陜</rdg>
+</app>府鐵牛，不行心處
 <lb n="0518c17" ed="J"/>路；嘉州大象，靡蹈聖凡轍。物外無為僧，蒙頭一布衲，
 <lb n="0518c18" ed="J"/>忘卻祖師禪，有口真閒煞。旭口照高林，爛爛黃金色，
 <lb n="0518c19" ed="J"/>開門看遠山，忽至一檀越。謂是久皈依，禮拜勤請法，
@@ -1392,7 +1675,11 @@
 <pb n="0519b" ed="J" xml:id="J37.B389.0519b"/>
 <lb n="0519b01" ed="J"/>有假於他術也。今朝東湖園庭有齋，乃吳太夫人本
 <lb n="0519b02" ed="J"/>覺道人七十誕辰，飯僧營供，特請山僧陞座說法，利
-<lb n="0519b03" ed="J"/>益一切。洪山口門闊大，<note n="0519b0301" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0519b0301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>如實說了，現前諸仁復云
+<lb n="0519b03" ed="J"/>益一切。洪山口門闊大，<note 
+n="0519b0301" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0519b0301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>如實說了，現前諸仁復云
 <lb n="0519b04" ed="J"/>何讚歎？苟或讚歎不盡，無量壽王如來從山僧舌本
 <lb n="0519b05" ed="J"/>上湧出全身，重伸其義，汝等諦聽，善思念之。」遂震聲
 <lb n="0519b06" ed="J"/>一喝云：「百年三萬六千日，日日日頭東畔出，六根門
@@ -1410,7 +1697,11 @@
 <lb n="0519b18" ed="J"/>濃茶，大底大圓，小底小圓，有功者罰，無功者賞，諸人
 <lb n="0519b19" ed="J"/>拂袖便行，總與本分草料。」</p>
 <lb n="0519b20" ed="J"/><p xml:id="pJ37p0519b2001">打七，上堂。「大事未明，如喪考妣相罵，饒你接嘴；大事
-<lb n="0519b21" ed="J"/><note n="0519b2101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0519b2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>明，如喪考妣相唾，饒你潑水。拈卻缽盂、匙箸，喫飯
+<lb n="0519b21" ed="J"/><note 
+n="0519b2101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0519b2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>明，如喪考妣相唾，饒你潑水。拈卻缽盂、匙箸，喫飯
 <lb n="0519b22" ed="J"/>不得；併卻咽喉、脣吻，出氣不得。諸人也沒量罪過，山
 <lb n="0519b23" ed="J"/>僧也沒量罪過，拄杖子也沒量罪過。」遂拈起拄杖，云：
 <lb n="0519b24" ed="J"/>「罪過深，復何憑？提來勝得豐城劍，報盡人間兩不平。」
@@ -1456,22 +1747,35 @@
 <lb n="0520a01" ed="J"/><cb:mulu n="5" type="卷"/><cb:juan n="5" fun="open"><cb:jhead>俞昭允汾禪師住齊安天臺山赤城禪寺語錄卷之
 <lb n="0520a02" ed="J"/>五</cb:jhead></cb:juan>
 <lb n="0520a03" ed="J"/><byline cb:type="editor">住北京翊教寺嗣法門人上睿等編</byline>
-<lb n="0520a04" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住齊安天臺山赤城禪寺語錄</cb:mulu><p xml:id="pJ37p0520a0401">示眾。「赤城這裏，峰巒峻異，鳥道虛玄，虎嘯幽巖，猿吟
+<lb n="0520a04" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">住齊安天臺山赤城禪寺語錄</cb:mulu>
+<p xml:id="pJ37p0520a0401">示眾。「赤城這裏，峰巒峻異，鳥道虛玄，虎嘯幽巖，猿吟
 <lb n="0520a05" ed="J"/>古木，白雲為蓋，流泉作琴，風回清曉之松，露滴中宵
 <lb n="0520a06" ed="J"/>之月，見無見色，聞無聞聲，一味蕭然，何可趣向？是汝
 <lb n="0520a07" ed="J"/>諸人，江東西、湖南北，大屋寬堂稱㫰皮草慣了，更恁
 <lb n="0520a08" ed="J"/>千里萬里、跛跛挈挈，來此圖箇甚麼？」喝一喝，下座。</p>
 <lb n="0520a09" ed="J"/><p xml:id="pJ37p0520a0901">示眾。舉：「無著往臺山禮文殊，殊問：『大德從何方而來？』
 <lb n="0520a10" ed="J"/>著云：『南方。』殊云：『南方佛法如何住持？』著云：『末法比丘，
-<lb n="0520a11" ed="J"/>少奉戒律。』殊云：『多少眾？』著云：『或三<note n="0520a1101" resp="CBETA" type="add">百【CB】，白【嘉興】</note><app n="0520a1101"><lem resp="CBETA.maha" wit="【CB】">百</lem><rdg wit="【嘉興】">白</rdg></app>，或五百。』無著卻
+<lb n="0520a11" ed="J"/>少奉戒律。』殊云：『多少眾？』著云：『或三<note 
+n="0520a1101" resp="CBETA" type="add">百【CB】，白【嘉興】</note><app n="0520a1101">
+  <lem resp="CBETA.maha" wit="【CB】">百</lem>
+  <rdg wit="【嘉興】">白</rdg>
+</app>，或五百。』無著卻
 <lb n="0520a12" ed="J"/>問：『和尚此間佛法如何住持？』殊云：『凡聖同居，龍蛇混
 <lb n="0520a13" ed="J"/>雜。』著云：『多少眾？』殊云：『前三三，後三三。』」師云：「大小文殊，
 <lb n="0520a14" ed="J"/>自家山裏人也分疏不落，直恁訛言亂眾。」驀顧眾云：
 <lb n="0520a15" ed="J"/>「此間莫有從南來者麼？試與文殊作主。」</p>
 <lb n="0520a16" ed="J"/><p xml:id="pJ37p0520a1601">示眾。舉：「白雲端和尚上堂云：『古人留下一言半句，未
-<lb n="0520a17" ed="J"/>透時撞著鐵壁相似。忽然一日覷透，方知自<note n="0520a1701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0520a1701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>便是
+<lb n="0520a17" ed="J"/>透時撞著鐵壁相似。忽然一日覷透，方知自<note 
+n="0520a1701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0520a1701">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>便是
 <lb n="0520a18" ed="J"/>鐵壁。且道如今作麼生透？』乃云：『鐵壁，鐵壁。』」師云：「鐵壁，
-<lb n="0520a19" ed="J"/>鐵壁，自<note n="0520a1901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0520a1901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>不識。轉得身來，未有棒喫。」驀拈拄杖卓一
+<lb n="0520a19" ed="J"/>鐵壁，自<note 
+n="0520a1901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0520a1901">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>不識。轉得身來，未有棒喫。」驀拈拄杖卓一
 <lb n="0520a20" ed="J"/>下，云：「一言半句，我也弗惜。」</p>
 <lb n="0520a21" ed="J"/><p xml:id="pJ37p0520a2101">示眾。舉：「僧問風穴：『如何是清淨法身？』穴云：『金沙灘頭
 <lb n="0520a22" ed="J"/>馬郎婦。』」師云：「揚帆出帝都，草木盡扶蘇，春色無高下，
@@ -1494,7 +1798,11 @@
 <lb n="0520b08" ed="J"/><p xml:id="pJ37p0520b0801">示眾。舉：「僧問仰山：『法身還解說法也無？』山云：『我說不
 <lb n="0520b09" ed="J"/>得，別有一人說得。』僧云：『說得底人在甚麼處？』仰山推
 <lb n="0520b10" ed="J"/>出枕子。溈山聞，云：『寂子用劍刃上事。』」師云：「昨夜三腳
-<lb n="0520b11" ed="J"/>驢，踏破虛空背，萬象盡喫驚，露柱猶瞌睡。」喝一喝<note n="0520b1101" resp="CBETA" type="add">［－］【CB】，一【嘉興】</note><app n="0520b1101"><lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/></lem><rdg wit="【嘉興】">一</rdg></app>。</p>
+<lb n="0520b11" ed="J"/>驢，踏破虛空背，萬象盡喫驚，露柱猶瞌睡。」喝一喝<note 
+n="0520b1101" resp="CBETA" type="add">［－］【CB】，一【嘉興】</note><app n="0520b1101">
+  <lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/></lem>
+  <rdg wit="【嘉興】">一</rdg>
+</app>。</p>
 <lb n="0520b12" ed="J"/><p xml:id="pJ37p0520b1201">示眾。「諸方三百五百，說禪浩浩地，言多去道轉遠，爭
 <lb n="0520b13" ed="J"/>如我這裏，栽田博飯喫？昨日雨，今朝晴，東谿牽犁，釋
 <lb n="0520b14" ed="J"/>迦不先；西溪拽耙，彌勒不後。水牯牛瞌睡，也未曾打
@@ -1528,7 +1836,11 @@
 <lb n="0520c11" ed="J"/>說細？』來日又同赴齋，濟復問：『今日供養何似昨日？』化
 <lb n="0520c12" ed="J"/>又趯倒飯床，濟云：『得即得，太粗生！』化喝云：『瞎漢！佛法
 <lb n="0520c13" ed="J"/>說什麼粗細？』濟乃吐舌。」師云：「兩箇無慚愧漢，食到口
-<lb n="0520c14" ed="J"/>邊，祗宜隨分，卻乃鼓粥飯氣以較精麤，<note n="0520c1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0520c1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>是不著，便
+<lb n="0520c14" ed="J"/>邊，祗宜隨分，卻乃鼓粥飯氣以較精麤，<note 
+n="0520c1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0520c1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>是不著，便
 <lb n="0520c15" ed="J"/>是汝諸人，更作佛法商量，彼彼有何利益？」</p>
 <lb n="0520c16" ed="J"/><p xml:id="pJ37p0520c1601">示眾。「雲山聚會，意為平生。十箇五箇，兩道行纏。走上
 <lb n="0520c17" ed="J"/>走下，被他諸方，甜唇美齒，說作配當。旦旦而鳴，宵宵
@@ -1562,7 +1874,11 @@
 <lb n="0521a14" ed="J"/>理？』趙州云：『明年與和尚作領布衫。』雪竇云：『別處容和
 <lb n="0521a15" ed="J"/>尚不得。』」師云：「日中則市，爭之不足，退一步看，南泉未
 <lb n="0521a16" ed="J"/>免叫悔。何故？不見道：從來滯貨沒人爭。」</p>
-<lb n="0521a17" ed="J"/><p xml:id="pJ37p0521a1701">示眾。舉：「龍濟云：『是柱不見柱，非柱不見柱，是非<note n="0521a1701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0521a1701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>去
+<lb n="0521a17" ed="J"/><p xml:id="pJ37p0521a1701">示眾。舉：「龍濟云：『是柱不見柱，非柱不見柱，是非<note 
+n="0521a1701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0521a1701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>去
 <lb n="0521a18" ed="J"/>了，是非裏薦取。』」師云：「纔得南收又北征，長安道上未
 <lb n="0521a19" ed="J"/>停兵，從前汗馬功無惜，只要重題蓋代名。」</p>
 <lb n="0521a20" ed="J"/><p xml:id="pJ37p0521a2001">示眾。舉：「大愚上堂云：『大家相聚喫莖虀，若喚作一莖
@@ -1635,7 +1951,11 @@
 <lb n="0521c25" ed="J"/>頭從傍云：「蒼天！蒼天！」師云：「你自手作底，何得叫冤叫
 <lb n="0521c26" ed="J"/>屈？」頭亦無語。師云：「勞而無功。」</p>
 <lb n="0521c27" ed="J"/><p xml:id="pJ37p0521c2701">師垂問：「恁麼也不得，不恁麼也不得，恁麼不恁麼，總
-<lb n="0521c28" ed="J"/>不得，自<note n="0521c2801" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0521c2801"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>胸中流出一句來。」一僧云：「展。」一僧云：「切。」師
+<lb n="0521c28" ed="J"/>不得，自<note 
+n="0521c2801" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0521c2801">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>胸中流出一句來。」一僧云：「展。」一僧云：「切。」師
 <lb n="0521c29" ed="J"/>云：「前者落節，後者拔本。」復一僧出，擬進語，師即以手
 <lb n="0521c30" ed="J"/>掩其口，云：「路不拾遺。」</p>
 <pb n="0522a" ed="J" xml:id="J37.B389.0522a"/>
@@ -1647,7 +1967,11 @@
 <lb n="0522a06" ed="J"/><p xml:id="pJ37p0522a0601">師問僧：「不思善，不思惡，正恁麼時，那箇是你本來面
 <lb n="0522a07" ed="J"/>目？」僧云：「風從華裏過來香。」師云：「隔。」僧擺手云：「灑灑落
 <lb n="0522a08" ed="J"/>落去也。」師云：「他時方信路行難。」</p>
-<lb n="0522a09" ed="J"/><p xml:id="pJ37p0522a0901">僧參，師便喝，僧亦喝，師又喝，僧無語，師云：「<note n="0522a0901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0522a0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>後不得
+<lb n="0522a09" ed="J"/><p xml:id="pJ37p0522a0901">僧參，師便喝，僧亦喝，師又喝，僧無語，師云：「<note 
+n="0522a0901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0522a0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>後不得
 <lb n="0522a10" ed="J"/>學老僧。」</p>
 <lb n="0522a11" ed="J"/><p xml:id="pJ37p0522a1101">師問一居士：「不是心，不是佛，不是物，是甚麼？」士云：「和
 <lb n="0522a12" ed="J"/>盤托出大家看。」師便打，士擬議，師又打，士作禮云：「學
@@ -1747,12 +2071,20 @@
 <lb n="0523a13" ed="J"/>求指示。翁曰：「途路中無暇為汝說得，且隨我去天台，
 <lb n="0523a14" ed="J"/>許多山水也不惡。」師自是得與籌室，每有咨問，翁即
 <lb n="0523a15" ed="J"/>憑陵曰：「我這裏無一字挂他齒頰，苦要向人口裏討
-<lb n="0523a16" ed="J"/>甚麼？漆桶速退。」曾不少假辭色。師以<note n="0523a1601" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0523a1601"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>事未明，復遭
+<lb n="0523a16" ed="J"/>甚麼？漆桶速退。」曾不少假辭色。師以<note 
+n="0523a1601" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0523a1601">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>事未明，復遭
 <lb n="0523a17" ed="J"/>詬罵，殊憤憤不樂。辛卯元日，會同參八九輩起精進
 <lb n="0523a18" ed="J"/>七，師亦與焉。午後，值翁下堂，師近前作禮，翁便打，師
 <lb n="0523a19" ed="J"/>擬伸問，翁又打，曰：「汝儗作佛法會耶？」師於言下灑然
 <lb n="0523a20" ed="J"/>領旨，遂拈古詩作投機頌曰：「朝辭白帝彩雲間，千里
-<lb n="0523a21" ed="J"/>江陵一日還，兩岸猿聲啼不住，扁舟<note n="0523a2101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0523a2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>過萬重山。」翁
+<lb n="0523a21" ed="J"/>江陵一日還，兩岸猿聲啼不住，扁舟<note 
+n="0523a2101" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0523a2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>過萬重山。」翁
 <lb n="0523a22" ed="J"/>笑曰：「我助汝喜，子今得達故鄉也。」一日，翁上堂，師出
 <lb n="0523a23" ed="J"/>問曰：「昨日有人從淮揚來，報道：懷州牛喫禾，益州馬
 <lb n="0523a24" ed="J"/>腹脹，直得世醫拱手，敢請別選官方。」翁曰：「事久多變。」
@@ -1784,17 +2116,28 @@
 <lb n="0523b19" ed="J"/>之東南隅。以予與師同門中交契最深，睿公不遠三
 <lb n="0523b20" ed="J"/>千餘里，來乞塔上之銘。予謹按其歲月，編次其行事，
 <lb n="0523b21" ed="J"/>序而銘之。銘曰：</p>
-<lb n="0523b22" ed="J"/><lg xml:id="lgJ37p0523b2201" type="regular"><l>師誕於楚，<caesura/>祥鍾延陵。<caesura/>母氏聖善，<caesura/>俾從大僧。</l>
-<lb n="0523b23" ed="J"/><l>慧刀裂綱，<caesura/>玉泉扃戶。<caesura/>習學貫花，<caesura/>荊門獨步。</l>
-<lb n="0523b24" ed="J"/><l>露地白牛，<caesura/>如風旋轉。<caesura/>心忽生疑，<caesura/>是稱勇敢。</l>
-<lb n="0523b25" ed="J"/><l>老宿者誰，<caesura/>弗彰名字。<caesura/>特為指南，<caesura/>其志以肆。</l>
-<lb n="0523b26" ed="J"/><l>靈隱發機，<caesura/>靈巖脫韝。<caesura/>臨濟來源，<caesura/>特明授受。</l>
-<lb n="0523b27" ed="J"/><l>出領乾明，<caesura/>匡盧雲曉。<caesura/>法鼓一撾，<caesura/>佛日杲杲。</l>
-<lb n="0523b28" ed="J"/><l>江漢風高，<caesura/>湖湘化溥。<caesura/>歸根無口，<caesura/>萬物皆我。</l>
-<lb n="0523b29" ed="J"/><l>洪山再開，<caesura/>勛居元席。<caesura/>師示大公，<caesura/>人難企及。</l>
-<lb n="0523b30" ed="J"/><l>雪花飛彩，<caesura/>冰燄騰輝。<caesura/>藏身無跡，<caesura/>用告真歸。</l>
+<lb n="0523b22" ed="J"/><lg xml:id="lgJ37p0523b2201" type="regular">
+  <l>師誕於楚，<caesura/>祥鍾延陵。<caesura/>母氏聖善，<caesura/>俾從大僧。</l>
+<lb n="0523b23" ed="J"/>
+  <l>慧刀裂綱，<caesura/>玉泉扃戶。<caesura/>習學貫花，<caesura/>荊門獨步。</l>
+<lb n="0523b24" ed="J"/>
+  <l>露地白牛，<caesura/>如風旋轉。<caesura/>心忽生疑，<caesura/>是稱勇敢。</l>
+<lb n="0523b25" ed="J"/>
+  <l>老宿者誰，<caesura/>弗彰名字。<caesura/>特為指南，<caesura/>其志以肆。</l>
+<lb n="0523b26" ed="J"/>
+  <l>靈隱發機，<caesura/>靈巖脫韝。<caesura/>臨濟來源，<caesura/>特明授受。</l>
+<lb n="0523b27" ed="J"/>
+  <l>出領乾明，<caesura/>匡盧雲曉。<caesura/>法鼓一撾，<caesura/>佛日杲杲。</l>
+<lb n="0523b28" ed="J"/>
+  <l>江漢風高，<caesura/>湖湘化溥。<caesura/>歸根無口，<caesura/>萬物皆我。</l>
+<lb n="0523b29" ed="J"/>
+  <l>洪山再開，<caesura/>勛居元席。<caesura/>師示大公，<caesura/>人難企及。</l>
+<lb n="0523b30" ed="J"/>
+  <l>雪花飛彩，<caesura/>冰燄騰輝。<caesura/>藏身無跡，<caesura/>用告真歸。</l>
 <pb n="0523c" ed="J" xml:id="J37.B389.0523c"/>
-<lb n="0523c01" ed="J"/><l>落落團團，<caesura/>黃金充國。<caesura/>潭北湘南，<caesura/>千秋永式。</l></lg>
+<lb n="0523c01" ed="J"/>
+  <l>落落團團，<caesura/>黃金充國。<caesura/>潭北湘南，<caesura/>千秋永式。</l>
+</lg>
 <lb n="0523c02" ed="J"/><p xml:id="pJ37p0523c0201" style="margin-left:0em;text-indent:3em">時
 <lb n="0523c03" ed="J" type="honorific"/>康熙歲次丙寅秋月　　前住三峰靈巖同門法弟
 <lb n="0523c04" ed="J"/>華山曉青謹撰</p></cb:div>
@@ -1818,7 +2161,11 @@
 <lb n="0523c22" ed="J"/>寒雨，空賦曩哲招提之詩；畫棟朱甍，敬遵
 <lb n="0523c23" ed="J" type="honorific"/>大人布金之願。欲開大乘福地，端藉禪宿耆賢。夙聞
 <lb n="0523c24" ed="J"/>武昌洪山左側，
-<lb n="0523c25" ed="J" type="honorific"/>東巖俞昭和尚，承源鷲嶺，振錫精藍。白石清泉，久<note n="0523c2501" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0523c2501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>
+<lb n="0523c25" ed="J" type="honorific"/>東巖俞昭和尚，承源鷲嶺，振錫精藍。白石清泉，久<note 
+n="0523c2501" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0523c2501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>
 <lb n="0523c26" ed="J"/>鑿山開道；法幢方丈，時欽杖策登峰。緬懷夏口崇巒，
 <lb n="0523c27" ed="J"/>慧居迴新法界，瞻言渚宮荒阜，樂土詎少同心？邀龍
 <lb n="0523c28" ed="J"/>象以經行，披榛闢艸；盻珠幡而至止，準古開今。翹首
@@ -1826,7 +2173,8 @@
 <lb n="0523c30" ed="J"/>蚤成六度良因。從此
 <pb n="0524a" ed="J" xml:id="J37.B389.0524a"/>
 <lb n="0524a01" ed="J" type="honorific"/>玉節輝煌，偕眾生同登仁域；將見金城雄峙，普慈航
-<lb n="0524a02" ed="J"/>俱仰宗風矣。</p><p xml:id="pJ37p0524a0206" cb:place="inline">時
+<lb n="0524a02" ed="J"/>俱仰宗風矣。</p>
+<p xml:id="pJ37p0524a0206" cb:place="inline">時
 <lb n="0524a03" ed="J" type="honorific"/>康熙丁巳菊月既望，楚北承宣使者徐　盥沭敬書。</p></cb:div>
 <lb n="0524a04" ed="J"/>
 <lb n="0524a05" ed="J"/>
@@ -1862,10 +2210,18 @@
 <lb n="0524b04" ed="J"/>把火炬，云：「首座人天眼目，合宜如是威光。」攛火炬，云：
 <lb n="0524b05" ed="J"/>「清機歷歷，烈燄煌煌，玄微銷爍盡，文彩見全彰。」</p></cb:div>
 <lb n="0524b06" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">入塔</cb:mulu><head>入塔</head>
-<lb n="0524b07" ed="J"/><p xml:id="pJ37p0524b0701">「穩密田地，<note n="0524b0701" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0524b0701"><lem resp="CBETA.maha" wit="【CB】">佳</lem><rdg wit="【嘉興】">隹</rdg></app>秀林巒，一錐獨露白雲堆，千嶂奇攢青
+<lb n="0524b07" ed="J"/><p xml:id="pJ37p0524b0701">「穩密田地，<note 
+n="0524b0701" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0524b0701">
+  <lem resp="CBETA.maha" wit="【CB】">佳</lem>
+  <rdg wit="【嘉興】">隹</rdg>
+</app>秀林巒，一錐獨露白雲堆，千嶂奇攢青
 <lb n="0524b08" ed="J"/>宰堵。基成劫外，樣越今時，到底到尖，渾沒絲縫，摩空
 <lb n="0524b09" ed="J"/>摩日，愈見孤高。」棒起骨石，云：「湛首座猶有者箇在。山
-<lb n="0524b10" ed="J"/>僧常懷論實，不惜腕頭之力，定然放得你著。」送入<note n="0524b1001" resp="CBETA" type="add">塔【CB】，搭【嘉興】</note><app n="0524b1001"><lem resp="CBETA.maha" wit="【CB】">塔</lem><rdg wit="【嘉興】">搭</rdg></app>
+<lb n="0524b10" ed="J"/>僧常懷論實，不惜腕頭之力，定然放得你著。」送入<note 
+n="0524b1001" resp="CBETA" type="add">塔【CB】，搭【嘉興】</note><app n="0524b1001">
+  <lem resp="CBETA.maha" wit="【CB】">塔</lem>
+  <rdg wit="【嘉興】">搭</rdg>
+</app>
 <lb n="0524b11" ed="J"/>中，喝一喝，云：「水繞山長層落落，龍迴虎顧影團團。」</p></cb:div>
 <lb n="0524b12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">為悟心闍黎舉火</cb:mulu><head>為悟心闍黎舉火</head>
 <lb n="0524b13" ed="J"/><p xml:id="pJ37p0524b1301">「般若大火聚，本光瑞如此。悟公我戒兄，雪腸直數你。
@@ -1912,380 +2268,674 @@
 <lb n="0525a01" ed="J"/><cb:mulu n="6" type="卷"/><cb:juan n="6" fun="open"><cb:jhead>俞昭允汾禪師語錄卷之六</cb:jhead></cb:juan>
 <lb n="0525a02" ed="J"/><byline cb:type="editor">住北京翊教寺嗣法門人上睿等編</byline>
 <lb n="0525a03" ed="J"/><cb:div type="other"><cb:mulu level="1" type="其他">詩偈</cb:mulu><head>詩偈</head>
-<lb n="0525a04" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">周注西刺史北旋贈別</cb:mulu><head>周注西<note n="0525a0401" resp="CBETA" type="add">刺【CB】，剌【嘉興】</note><app n="0525a0401"><lem resp="CBETA.maha" wit="【CB】">刺</lem><rdg wit="【嘉興】">剌</rdg></app>史北旋贈別</head>
-<lb n="0525a05" ed="J"/><lg xml:id="lgJ37p0525a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">般若緣深一見真，暖風和日對相親，此歸憑豁金剛
-<lb n="0525a06" ed="J"/>眼，去看嵩華翠色新。</l></lg>
-<lb n="0525a07" ed="J"/><lg xml:id="lgJ37p0525a0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">技盡懸河義未該，入門一喝笑盈腮，潼泉也合遭人
-<lb n="0525a08" ed="J"/>怪，錯與周公說破來。</l></lg></cb:div>
+<lb n="0525a04" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">周注西刺史北旋贈別</cb:mulu><head>周注西<note 
+n="0525a0401" resp="CBETA" type="add">刺【CB】，剌【嘉興】</note><app n="0525a0401">
+  <lem resp="CBETA.maha" wit="【CB】">刺</lem>
+  <rdg wit="【嘉興】">剌</rdg>
+</app>史北旋贈別</head>
+<lb n="0525a05" ed="J"/><lg xml:id="lgJ37p0525a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">般若緣深一見真，暖風和日對相親，此歸憑豁金剛
+<lb n="0525a06" ed="J"/>眼，去看嵩華翠色新。</l>
+</lg>
+<lb n="0525a07" ed="J"/><lg xml:id="lgJ37p0525a0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">技盡懸河義未該，入門一喝笑盈腮，潼泉也合遭人
+<lb n="0525a08" ed="J"/>怪，錯與周公說破來。</l>
+</lg></cb:div>
 <lb n="0525a09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">東吳延皋孝廉三絕</cb:mulu><head>東吳延皋孝廉三絕</head>
-<lb n="0525a10" ed="J"/><lg xml:id="lgJ37p0525a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">小雨溼松花，披衣巖下坐，起身謝白雲，不覺莓苔破。
+<lb n="0525a10" ed="J"/><lg xml:id="lgJ37p0525a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">小雨溼松花，披衣巖下坐，起身謝白雲，不覺莓苔破。
 <lb n="0525a11" ed="J"/>荳葉開新畝，藤花爛舊棚，庭分朝樹色，溪轉夜泉聲。
-<lb n="0525a12" ed="J"/>終朝看瀑流，夜復坐空閣，明月上高峰，幽人不寂寞。</l></lg></cb:div>
+<lb n="0525a12" ed="J"/>終朝看瀑流，夜復坐空閣，明月上高峰，幽人不寂寞。</l>
+</lg></cb:div>
 <lb n="0525a13" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈卞令之廉憲</cb:mulu><head>贈卞令之廉憲</head>
-<lb n="0525a14" ed="J"/><lg xml:id="lgJ37p0525a1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">一會靈山法道親，利生權現宰官身，三千里外擎香
-<lb n="0525a15" ed="J"/>飯，正使金牛笑轉新。</l></lg>
-<lb n="0525a16" ed="J"/><lg xml:id="lgJ37p0525a1601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">補袞調羹信自優，文情天宇至風流，楚江寬闊行相
-<lb n="0525a17" ed="J"/>訂，為與空王啟壯猷。</l></lg></cb:div>
+<lb n="0525a14" ed="J"/><lg xml:id="lgJ37p0525a1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">一會靈山法道親，利生權現宰官身，三千里外擎香
+<lb n="0525a15" ed="J"/>飯，正使金牛笑轉新。</l>
+</lg>
+<lb n="0525a16" ed="J"/><lg xml:id="lgJ37p0525a1601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">補袞調羹信自優，文情天宇至風流，楚江寬闊行相
+<lb n="0525a17" ed="J"/>訂，為與空王啟壯猷。</l>
+</lg></cb:div>
 <lb n="0525a18" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈孔月恒居士</cb:mulu><head>贈孔月恒居士</head>
-<lb n="0525a19" ed="J"/><lg xml:id="lgJ37p0525a1901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">頻來問祖意，雪夕與花陰，寡過無他伎，修名但了心。
-<lb n="0525a20" ed="J"/>意消忘覿面，疑失笑披襟，松下時烹茗，濡毫作孝箴。</l></lg></cb:div>
+<lb n="0525a19" ed="J"/><lg xml:id="lgJ37p0525a1901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">頻來問祖意，雪夕與花陰，寡過無他伎，修名但了心。
+<lb n="0525a20" ed="J"/>意消忘覿面，疑失笑披襟，松下時烹茗，濡毫作孝箴。</l>
+</lg></cb:div>
 <lb n="0525a21" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈孔魏公居士</cb:mulu><head>贈孔魏公居士</head>
-<lb n="0525a22" ed="J"/><lg xml:id="lgJ37p0525a2201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">籃輿重至意翩翩，滿口平傾不涉詮，況是鴻儒能慕
-<lb n="0525a23" ed="J"/>道，方期振起兩宗傳。</l></lg>
-<lb n="0525a24" ed="J"/><lg xml:id="lgJ37p0525a2401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">夫子達磨元一貫，多門謬解豈其然，人窮返本方堪
-<lb n="0525a25" ed="J"/>語，試看昌黎問大顛。</l></lg></cb:div>
+<lb n="0525a22" ed="J"/><lg xml:id="lgJ37p0525a2201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">籃輿重至意翩翩，滿口平傾不涉詮，況是鴻儒能慕
+<lb n="0525a23" ed="J"/>道，方期振起兩宗傳。</l>
+</lg>
+<lb n="0525a24" ed="J"/><lg xml:id="lgJ37p0525a2401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">夫子達磨元一貫，多門謬解豈其然，人窮返本方堪
+<lb n="0525a25" ed="J"/>語，試看昌黎問大顛。</l>
+</lg></cb:div>
 <lb n="0525a26" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈陳曇侯鄭公常二居士</cb:mulu><head>贈陳曇侯鄭公常二居士</head>
-<lb n="0525a27" ed="J"/><lg xml:id="lgJ37p0525a2701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">調高人和寡，二子信知音，不有大儒口，安明古佛心。
-<lb n="0525a28" ed="J"/>素行常格物，卓立見垂箴，剩有林泉美，相期一放吟。</l></lg></cb:div>
+<lb n="0525a27" ed="J"/><lg xml:id="lgJ37p0525a2701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">調高人和寡，二子信知音，不有大儒口，安明古佛心。
+<lb n="0525a28" ed="J"/>素行常格物，卓立見垂箴，剩有林泉美，相期一放吟。</l>
+</lg></cb:div>
 <lb n="0525a29" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">辛丑除夜示諸禪徒</cb:mulu><head>辛丑除夜示諸禪徒</head>
-<lb n="0525a30" ed="J"/><lg xml:id="lgJ37p0525a3001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">萬峰深處結幽關，道出常情用不慳，松火一爐當歲
+<lb n="0525a30" ed="J"/><lg xml:id="lgJ37p0525a3001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">萬峰深處結幽關，道出常情用不慳，松火一爐當歲
 <pb n="0525b" ed="J" xml:id="J37.B389.0525b"/>
-<lb n="0525b01" ed="J"/>盡，總輸我輩得真閒。</l></lg></cb:div>
+<lb n="0525b01" ed="J"/>盡，總輸我輩得真閒。</l>
+</lg></cb:div>
 <lb n="0525b02" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">壬寅元日示眾</cb:mulu><head>壬寅元日示眾</head>
-<lb n="0525b03" ed="J"/><lg xml:id="lgJ37p0525b0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">曆木常年原未辦，縱多好日少他求，出門閒向石橋
-<lb n="0525b04" ed="J"/>步，兩派清泉抱寺流。</l></lg></cb:div>
+<lb n="0525b03" ed="J"/><lg xml:id="lgJ37p0525b0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">曆木常年原未辦，縱多好日少他求，出門閒向石橋
+<lb n="0525b04" ed="J"/>步，兩派清泉抱寺流。</l>
+</lg></cb:div>
 <lb n="0525b05" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">客普潤菴鐙巖文吏部同公郎允信右獻過聚</cb:mulu><head>客普潤菴鐙巖文吏部同公郎允信右獻過聚</head>
-<lb n="0525b06" ed="J"/><lg xml:id="lgJ37p0525b0601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">垂楊近冰綠千條，最喜幽人冷挂瓢，乞食江千容懶
+<lb n="0525b06" ed="J"/><lg xml:id="lgJ37p0525b0601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">垂楊近冰綠千條，最喜幽人冷挂瓢，乞食江千容懶
 <lb n="0525b07" ed="J"/>拙，放參湖上問漁樵。深山有社堪招炳，今日相逢宛
-<lb n="0525b08" ed="J"/>似陶，風雨匡廬登未得，好將真意論逍遙。</l></lg></cb:div>
+<lb n="0525b08" ed="J"/>似陶，風雨匡廬登未得，好將真意論逍遙。</l>
+</lg></cb:div>
 <lb n="0525b09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示諸行務</cb:mulu><head>示諸行務</head>
-<lb n="0525b10" ed="J"/><lg xml:id="lgJ37p0525b1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">山居家風，別無絡索，廚庫僧堂，尋常矩矱。放下笊篱，
+<lb n="0525b10" ed="J"/><lg xml:id="lgJ37p0525b1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">山居家風，別無絡索，廚庫僧堂，尋常矩矱。放下笊篱，
 <lb n="0525b11" ed="J"/>提起木杓，飯是米炊，麵是麥作。茄看花開，瓠連蒂落，
-<lb n="0525b12" ed="J"/>逐日生涯，大好不惡。</l></lg></cb:div>
+<lb n="0525b12" ed="J"/>逐日生涯，大好不惡。</l>
+</lg></cb:div>
 <lb n="0525b13" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">悼解菴張新愚居士</cb:mulu><head>悼解菴張新愚居士</head>
-<lb n="0525b14" ed="J"/><lg xml:id="lgJ37p0525b1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">沙路環菴瑣舊苔，高山何夢不君來，軍持帶有寒泉
-<lb n="0525b15" ed="J"/>水，忍向風前奠一杯。</l></lg></cb:div>
+<lb n="0525b14" ed="J"/><lg xml:id="lgJ37p0525b1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">沙路環菴瑣舊苔，高山何夢不君來，軍持帶有寒泉
+<lb n="0525b15" ed="J"/>水，忍向風前奠一杯。</l>
+</lg></cb:div>
 <lb n="0525b16" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">悼張爾歲文學</cb:mulu><head>悼張爾歲文學</head>
-<lb n="0525b17" ed="J"/><lg xml:id="lgJ37p0525b1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">借語庭空影尚陪，愁生細柳綠成堆，也將一陌錢焚
-<lb n="0525b18" ed="J"/>去，日暮河風卷淨灰。</l></lg></cb:div>
+<lb n="0525b17" ed="J"/><lg xml:id="lgJ37p0525b1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">借語庭空影尚陪，愁生細柳綠成堆，也將一陌錢焚
+<lb n="0525b18" ed="J"/>去，日暮河風卷淨灰。</l>
+</lg></cb:div>
 <lb n="0525b19" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">鄂州夏伏不雨寄湛智水</cb:mulu><head>鄂州夏伏不雨寄湛智水</head>
-<lb n="0525b20" ed="J"/><lg xml:id="lgJ37p0525b2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">極暑難為畫打眠，江流稍引到池蓮，何人不愛山中
-<lb n="0525b21" ed="J"/>寺，日午時聞樹裏泉。</l></lg></cb:div>
+<lb n="0525b20" ed="J"/><lg xml:id="lgJ37p0525b2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">極暑難為畫打眠，江流稍引到池蓮，何人不愛山中
+<lb n="0525b21" ed="J"/>寺，日午時聞樹裏泉。</l>
+</lg></cb:div>
 <lb n="0525b22" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈一菴居士游夏公則菴居士游賡臣兩兄弟</cb:mulu><head>贈一菴居士游夏公、則菴居士游賡臣兩兄弟</head>
-<lb n="0525b23" ed="J"/><lg xml:id="lgJ37p0525b2301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">游家兄弟表人龍，格外金提肯過從，莫謂不情還打
-<lb n="0525b24" ed="J"/>與，出林正好話千峰。</l></lg></cb:div>
+<lb n="0525b23" ed="J"/><lg xml:id="lgJ37p0525b2301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">游家兄弟表人龍，格外金提肯過從，莫謂不情還打
+<lb n="0525b24" ed="J"/>與，出林正好話千峰。</l>
+</lg></cb:div>
 <lb n="0525b25" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">客嘉魚有懷檗菴法兄</cb:mulu><head>客嘉魚有懷檗菴法兄</head>
-<lb n="0525b26" ed="J"/><lg xml:id="lgJ37p0525b2601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">石床支倦水雲間，楖櫪摩挲影自閒，一宿鳳凰峰頂
-<lb n="0525b27" ed="J"/>夜，也曾清夢到魚山。</l></lg>
-<lb n="0525b28" ed="J"/><lg xml:id="lgJ37p0525b2801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">萋萋古道荷長鑱，風落橫江織暮帆，獨上幽巖仍打
-<lb n="0525b29" ed="J"/>坐，浪花平湧濕衣衫。</l></lg></cb:div>
+<lb n="0525b26" ed="J"/><lg xml:id="lgJ37p0525b2601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">石床支倦水雲間，楖櫪摩挲影自閒，一宿鳳凰峰頂
+<lb n="0525b27" ed="J"/>夜，也曾清夢到魚山。</l>
+</lg>
+<lb n="0525b28" ed="J"/><lg xml:id="lgJ37p0525b2801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">萋萋古道荷長鑱，風落橫江織暮帆，獨上幽巖仍打
+<lb n="0525b29" ed="J"/>坐，浪花平湧濕衣衫。</l>
+</lg></cb:div>
 <lb n="0525b30" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">宿普度菴逢任仙孟詞林</cb:mulu><head>宿普度菴逢任仙孟詞林</head>
 <pb n="0525c" ed="J" xml:id="J37.B389.0525c"/>
-<lb n="0525c01" ed="J"/><lg xml:id="lgJ37p0525c0101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">水落江天淨，山城一水連，正思過別浦，相識有奇緣。
-<lb n="0525c02" ed="J"/>宿望名垂遠，斯文道借傳，好懷言不盡，且共佛燈眠。</l></lg></cb:div>
+<lb n="0525c01" ed="J"/><lg xml:id="lgJ37p0525c0101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">水落江天淨，山城一水連，正思過別浦，相識有奇緣。
+<lb n="0525c02" ed="J"/>宿望名垂遠，斯文道借傳，好懷言不盡，且共佛燈眠。</l>
+</lg></cb:div>
 <lb n="0525c03" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">與蘇菴豁菴大心分韻書懷得笻字</cb:mulu><head>與蘇菴、豁菴、大心分韻書懷得笻字</head>
-<lb n="0525c04" ed="J"/><lg xml:id="lgJ37p0525c0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">作客多時賓似主，竹爐炊茗解疏慵，是非不上閒名
+<lb n="0525c04" ed="J"/><lg xml:id="lgJ37p0525c0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">作客多時賓似主，竹爐炊茗解疏慵，是非不上閒名
 <lb n="0525c05" ed="J"/>牒，去住難羈了事笻。落日鳴蟬增旅況，平湖秋水照
-<lb n="0525c06" ed="J"/>衰容，疊來清坐知何意，午飯前頭到夜鍾。</l></lg></cb:div>
+<lb n="0525c06" ed="J"/>衰容，疊來清坐知何意，午飯前頭到夜鍾。</l>
+</lg></cb:div>
 <lb n="0525c07" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">宿李氏書館</cb:mulu><head>宿李氏書館</head>
-<lb n="0525c08" ed="J"/><lg xml:id="lgJ37p0525c0801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">東嶺連嘉渚，書聲載草堂，遠山藍潑几，近水綠迴觴。
-<lb n="0525c09" ed="J"/>里靜門無鑰，沙寬月似霜，我來勤下榻，恰好值新涼。</l></lg></cb:div>
+<lb n="0525c08" ed="J"/><lg xml:id="lgJ37p0525c0801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">東嶺連嘉渚，書聲載草堂，遠山藍潑几，近水綠迴觴。
+<lb n="0525c09" ed="J"/>里靜門無鑰，沙寬月似霜，我來勤下榻，恰好值新涼。</l>
+</lg></cb:div>
 <lb n="0525c10" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">客夜別友</cb:mulu><head>客夜別友</head>
-<lb n="0525c11" ed="J"/><lg xml:id="lgJ37p0525c1101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">風雨留人又一宵，別君燒燭度溪橋，百錢買得舟人
-<lb n="0525c12" ed="J"/>醉，明日雖晴莫放橈。</l></lg></cb:div>
+<lb n="0525c11" ed="J"/><lg xml:id="lgJ37p0525c1101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">風雨留人又一宵，別君燒燭度溪橋，百錢買得舟人
+<lb n="0525c12" ed="J"/>醉，明日雖晴莫放橈。</l>
+</lg></cb:div>
 <lb n="0525c13" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">陶溪過訪戴小宋文學同廣生兄</cb:mulu><head>陶溪過訪戴小宋文學同廣生兄</head>
-<lb n="0525c14" ed="J"/><lg xml:id="lgJ37p0525c1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">山深春淺共驅車，攻苦人真似仲舒，側理舊藏宣德
-<lb n="0525c15" ed="J"/>製，花時再到倩君書。</l></lg></cb:div>
+<lb n="0525c14" ed="J"/><lg xml:id="lgJ37p0525c1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">山深春淺共驅車，攻苦人真似仲舒，側理舊藏宣德
+<lb n="0525c15" ed="J"/>製，花時再到倩君書。</l>
+</lg></cb:div>
 <lb n="0525c16" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">再過小宋郊居</cb:mulu><head>再過小宋郊居</head>
-<lb n="0525c17" ed="J"/><lg xml:id="lgJ37p0525c1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">澹圃疏籬菊正扶，秋香掠徑好朋俱，新詩半在黃梅
-<lb n="0525c18" ed="J"/>裏，收盡奇峰入畫圖。</l></lg></cb:div>
+<lb n="0525c17" ed="J"/><lg xml:id="lgJ37p0525c1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">澹圃疏籬菊正扶，秋香掠徑好朋俱，新詩半在黃梅
+<lb n="0525c18" ed="J"/>裏，收盡奇峰入畫圖。</l>
+</lg></cb:div>
 <lb n="0525c19" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">許衡叔尹蘭友甸方秋試訪寓東巖賦贈</cb:mulu><head>許衡叔尹蘭友甸方秋試訪寓東巖賦贈</head>
-<lb n="0525c20" ed="J"/><lg xml:id="lgJ37p0525c2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">乘漲輕來一夜船，快移行李就林邊，選官選佛名雜
+<lb n="0525c20" ed="J"/><lg xml:id="lgJ37p0525c2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">乘漲輕來一夜船，快移行李就林邊，選官選佛名雜
 <lb n="0525c21" ed="J"/>異，觀海觀河見不遷。幾處弟兄團此日，閒窗風雨憶
-<lb n="0525c22" ed="J"/>當年，攤書問我如何說，為指秋空月正圓。</l></lg></cb:div>
+<lb n="0525c22" ed="J"/>當年，攤書問我如何說，為指秋空月正圓。</l>
+</lg></cb:div>
 <lb n="0525c23" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">過訪王報菴解元</cb:mulu><head>過訪王報菴解元</head>
-<lb n="0525c24" ed="J"/><lg xml:id="lgJ37p0525c2401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">廿年師友夢相關，鶴澤今看喜破顏，曾憶截江風雨
-<lb n="0525c25" ed="J"/>句，手緘曾寄玉泉山。</l></lg></cb:div>
+<lb n="0525c24" ed="J"/><lg xml:id="lgJ37p0525c2401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">廿年師友夢相關，鶴澤今看喜破顏，曾憶截江風雨
+<lb n="0525c25" ed="J"/>句，手緘曾寄玉泉山。</l>
+</lg></cb:div>
 <lb n="0525c26" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">壽王報菴</cb:mulu><head>壽王報菴</head>
-<lb n="0525c27" ed="J"/><lg xml:id="lgJ37p0525c2701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">南國人文合遜尊，都來鶴澤訊寒暄，疏經日暖花成
+<lb n="0525c27" ed="J"/><lg xml:id="lgJ37p0525c2701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">南國人文合遜尊，都來鶴澤訊寒暄，疏經日暖花成
 <lb n="0525c28" ed="J"/>巷，愛客荷香水到門。藜擁多男森樹玉，霜清兩鬢健
-<lb n="0525c29" ed="J"/>加餐，長齡不借安期棗，一粒真丹內久存。</l></lg></cb:div>
+<lb n="0525c29" ed="J"/>加餐，長齡不借安期棗，一粒真丹內久存。</l>
+</lg></cb:div>
 <lb n="0525c30" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">題龍門寺壁</cb:mulu><head>題龍門寺壁</head>
 <pb n="0526a" ed="J" xml:id="J37.B389.0526a"/>
-<lb n="0526a01" ed="J"/><lg xml:id="lgJ37p0526a0101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">澗道盤蜒上，霜根結斷霞，鼓鍾開佛地，雞犬靜人家。
-<lb n="0526a02" ed="J"/>竹榻橙香雨，松鐺石火茶，別山秋到葉，輕重落平沙。</l></lg></cb:div>
+<lb n="0526a01" ed="J"/><lg xml:id="lgJ37p0526a0101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">澗道盤蜒上，霜根結斷霞，鼓鍾開佛地，雞犬靜人家。
+<lb n="0526a02" ed="J"/>竹榻橙香雨，松鐺石火茶，別山秋到葉，輕重落平沙。</l>
+</lg></cb:div>
 <lb n="0526a03" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">柬黃安植聖澹老師</cb:mulu><head>柬黃安植聖澹老師</head>
-<lb n="0526a04" ed="J"/><lg xml:id="lgJ37p0526a0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">竹簾茅屋一身閒，只為閒多復閉關，怪底白雲風不
-<lb n="0526a05" ed="J"/>問，仍來覆我蘚苔斑。</l></lg></cb:div>
+<lb n="0526a04" ed="J"/><lg xml:id="lgJ37p0526a0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">竹簾茅屋一身閒，只為閒多復閉關，怪底白雲風不
+<lb n="0526a05" ed="J"/>問，仍來覆我蘚苔斑。</l>
+</lg></cb:div>
 <lb n="0526a06" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄懷秦茂林居士</cb:mulu><head>寄懷秦茂林居士</head>
-<lb n="0526a07" ed="J"/><lg xml:id="lgJ37p0526a0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">光黃奇勝昔曾探，植聖松門至再三，最愛清溪秦處
-<lb n="0526a08" ed="J"/>士，好山遍捨作精藍。</l></lg></cb:div>
+<lb n="0526a07" ed="J"/><lg xml:id="lgJ37p0526a0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">光黃奇勝昔曾探，植聖松門至再三，最愛清溪秦處
+<lb n="0526a08" ed="J"/>士，好山遍捨作精藍。</l>
+</lg></cb:div>
 <lb n="0526a09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">壽郭些菴</cb:mulu><head>壽郭些菴</head>
-<lb n="0526a10" ed="J"/><lg xml:id="lgJ37p0526a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">春日花香透水流，補山晴色上眉稠，七旬四海稱元
+<lb n="0526a10" ed="J"/><lg xml:id="lgJ37p0526a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">春日花香透水流，補山晴色上眉稠，七旬四海稱元
 <lb n="0526a11" ed="J"/>老，一衲深林法比丘。潔淨躬行誰與等，虛閒心境復
-<lb n="0526a12" ed="J"/>何求，古今多少存疑史，檢定精神日見優。</l></lg></cb:div>
+<lb n="0526a12" ed="J"/>何求，古今多少存疑史，檢定精神日見優。</l>
+</lg></cb:div>
 <lb n="0526a13" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示死心道人</cb:mulu><head>示死心道人</head>
-<lb n="0526a14" ed="J"/><lg xml:id="lgJ37p0526a1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">夜行不許投明到，正是出身轉位時，更把吹毛揮向
-<lb n="0526a15" ed="J"/>上，空輪無跡刃無虧。</l></lg></cb:div>
+<lb n="0526a14" ed="J"/><lg xml:id="lgJ37p0526a1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">夜行不許投明到，正是出身轉位時，更把吹毛揮向
+<lb n="0526a15" ed="J"/>上，空輪無跡刃無虧。</l>
+</lg></cb:div>
 <lb n="0526a16" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">付睿首座楚林法偈</cb:mulu><head>付睿首座楚林法偈</head>
-<lb n="0526a17" ed="J"/><lg xml:id="lgJ37p0526a1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">天山法道巍寰宇，奕葉芬芳祖氣鍾，十載求人今得
-<lb n="0526a18" ed="J"/>子，直承大統啟綱宗。</l></lg></cb:div>
+<lb n="0526a17" ed="J"/><lg xml:id="lgJ37p0526a1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">天山法道巍寰宇，奕葉芬芳祖氣鍾，十載求人今得
+<lb n="0526a18" ed="J"/>子，直承大統啟綱宗。</l>
+</lg></cb:div>
 <lb n="0526a19" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">坐潤慈開士郭北靜室</cb:mulu><head>坐潤慈開士郭北靜室</head>
-<lb n="0526a20" ed="J"/><lg xml:id="lgJ37p0526a2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">放住閒心自不群，石城精舍鎖重雲，一聲午磬高寒
-<lb n="0526a21" ed="J"/>裏，雪路何人駐馬聞。</l></lg></cb:div>
+<lb n="0526a20" ed="J"/><lg xml:id="lgJ37p0526a2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">放住閒心自不群，石城精舍鎖重雲，一聲午磬高寒
+<lb n="0526a21" ed="J"/>裏，雪路何人駐馬聞。</l>
+</lg></cb:div>
 <lb n="0526a22" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">付祚西堂慈裔法偈</cb:mulu><head>付祚西堂慈裔法偈</head>
-<lb n="0526a23" ed="J"/><lg xml:id="lgJ37p0526a2301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">信知汝力能擔荷，是我尋常慣用伊，會向深峰深處
-<lb n="0526a24" ed="J"/>卓，抽條成蔭見施為。</l></lg></cb:div>
+<lb n="0526a23" ed="J"/><lg xml:id="lgJ37p0526a2301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">信知汝力能擔荷，是我尋常慣用伊，會向深峰深處
+<lb n="0526a24" ed="J"/>卓，抽條成蔭見施為。</l>
+</lg></cb:div>
 <lb n="0526a25" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">留別禪喜非異</cb:mulu><head>留別禪喜非異</head>
-<lb n="0526a26" ed="J"/><lg xml:id="lgJ37p0526a2601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">依依楊柳采茶天，又欲之吳問曉船，七十二峰青正
-<lb n="0526a27" ed="J"/>好，歸期多半在來年。</l></lg></cb:div>
+<lb n="0526a26" ed="J"/><lg xml:id="lgJ37p0526a2601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">依依楊柳采茶天，又欲之吳問曉船，七十二峰青正
+<lb n="0526a27" ed="J"/>好，歸期多半在來年。</l>
+</lg></cb:div>
 <lb n="0526a28" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">憶匡山伊菴禪師</cb:mulu><head>憶匡山伊菴禪師</head>
-<lb n="0526a29" ed="J"/><lg xml:id="lgJ37p0526a2901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">玉門擎出滿壺冰，向日開窗榻遠朋，笑指鄱湖千頃
-<lb n="0526a30" ed="J"/>月，當余蓮社一枝燈。</l></lg></cb:div>
+<lb n="0526a29" ed="J"/><lg xml:id="lgJ37p0526a2901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">玉門擎出滿壺冰，向日開窗榻遠朋，笑指鄱湖千頃
+<lb n="0526a30" ed="J"/>月，當余蓮社一枝燈。</l>
+</lg></cb:div>
 <pb n="0526b" ed="J" xml:id="J37.B389.0526b"/>
 <lb n="0526b01" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">與卞令之廉憲</cb:mulu><head>與卞令之廉憲</head>
-<lb n="0526b02" ed="J"/><lg xml:id="lgJ37p0526b0201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">燕子磯頭正遇時，箭鋒相拄句無私，春江春色洵空
-<lb n="0526b03" ed="J"/>闊，大笑聲先忘所知。</l></lg>
-<lb n="0526b04" ed="J"/><lg xml:id="lgJ37p0526b0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">妙轉大機超佛祖，倒施密用度賢愚，迦文尼父道無
-<lb n="0526b05" ed="J"/>二，全賴高高兩手扶。</l></lg></cb:div>
+<lb n="0526b02" ed="J"/><lg xml:id="lgJ37p0526b0201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">燕子磯頭正遇時，箭鋒相拄句無私，春江春色洵空
+<lb n="0526b03" ed="J"/>闊，大笑聲先忘所知。</l>
+</lg>
+<lb n="0526b04" ed="J"/><lg xml:id="lgJ37p0526b0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">妙轉大機超佛祖，倒施密用度賢愚，迦文尼父道無
+<lb n="0526b05" ed="J"/>二，全賴高高兩手扶。</l>
+</lg></cb:div>
 <lb n="0526b06" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">尹蘭友嵩山甸方屏山覃谷育有郭茂行至山</cb:mulu><head>尹蘭友嵩山甸方屏山覃谷育有郭茂行至山</head>
-<lb n="0526b07" ed="J"/><lg xml:id="lgJ37p0526b0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">微雨灑高林，同人枉屐尋，有懷勞夢寐，得聚感秋陰。
-<lb n="0526b08" ed="J"/>居僻容逃禮，來稀苦索吟，果然怡此道，一宿可明心。</l></lg></cb:div>
+<lb n="0526b07" ed="J"/><lg xml:id="lgJ37p0526b0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">微雨灑高林，同人枉屐尋，有懷勞夢寐，得聚感秋陰。
+<lb n="0526b08" ed="J"/>居僻容逃禮，來稀苦索吟，果然怡此道，一宿可明心。</l>
+</lg></cb:div>
 <lb n="0526b09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">送友往天台</cb:mulu><head>送友往天台</head>
-<lb n="0526b10" ed="J"/><lg xml:id="lgJ37p0526b1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">先於鏡水汲新瓶，木葉飛黃打眼青，桐柏仙蹤華頂
-<lb n="0526b11" ed="J"/>日，歸來說與弟兄聽。</l></lg></cb:div>
+<lb n="0526b10" ed="J"/><lg xml:id="lgJ37p0526b1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">先於鏡水汲新瓶，木葉飛黃打眼青，桐柏仙蹤華頂
+<lb n="0526b11" ed="J"/>日，歸來說與弟兄聽。</l>
+</lg></cb:div>
 <lb n="0526b12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">與孔則山居士</cb:mulu><head>與孔則山居士</head>
-<lb n="0526b13" ed="J"/><lg xml:id="lgJ37p0526b1301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">拈來妙用憑好手，授與則山意不輕，向上古今無二
-<lb n="0526b14" ed="J"/>路，為人指點甚分明。</l></lg></cb:div>
+<lb n="0526b13" ed="J"/><lg xml:id="lgJ37p0526b1301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">拈來妙用憑好手，授與則山意不輕，向上古今無二
+<lb n="0526b14" ed="J"/>路，為人指點甚分明。</l>
+</lg></cb:div>
 <lb n="0526b15" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">送友歸里</cb:mulu><head>送友歸里</head>
-<lb n="0526b16" ed="J"/><lg xml:id="lgJ37p0526b1601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">侵曉來言別，孤笻出翠微，反愁春色好，偏引故人歸。
-<lb n="0526b17" ed="J"/>共折河邊柳，誰分身上衣，也當尋舊隱，耕破白雲肥。</l></lg></cb:div>
+<lb n="0526b16" ed="J"/><lg xml:id="lgJ37p0526b1601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">侵曉來言別，孤笻出翠微，反愁春色好，偏引故人歸。
+<lb n="0526b17" ed="J"/>共折河邊柳，誰分身上衣，也當尋舊隱，耕破白雲肥。</l>
+</lg></cb:div>
 <lb n="0526b18" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄五峰怡然師</cb:mulu><head>寄五峰怡然師</head>
-<lb n="0526b19" ed="J"/><lg xml:id="lgJ37p0526b1901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">木落空山萬慮忘，病兼風雨度重陽，寶林秋色<note n="0526b1901" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0526b1901"><lem resp="CBETA.maha" wit="【CB】">佳</lem><rdg wit="【嘉興】">隹</rdg></app>無
-<lb n="0526b20" ed="J"/>恙，記許霜柑欲就嘗。</l></lg></cb:div>
+<lb n="0526b19" ed="J"/><lg xml:id="lgJ37p0526b1901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">木落空山萬慮忘，病兼風雨度重陽，寶林秋色<note 
+n="0526b1901" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0526b1901">
+    <lem resp="CBETA.maha" wit="【CB】">佳</lem>
+    <rdg wit="【嘉興】">隹</rdg>
+  </app>無
+<lb n="0526b20" ed="J"/>恙，記許霜柑欲就嘗。</l>
+</lg></cb:div>
 <lb n="0526b21" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">胡內寧朱元公和前賢遊洪山詩因步其韻</cb:mulu><head>胡內寧朱元公和前賢遊洪山詩因步其韻</head>
-<lb n="0526b22" ed="J"/><lg xml:id="lgJ37p0526b2201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">選勝懽吟唱和隨，調高今古若同時，春晴柔柳牽條
+<lb n="0526b22" ed="J"/><lg xml:id="lgJ37p0526b2201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">選勝懽吟唱和隨，調高今古若同時，春晴柔柳牽條
 <lb n="0526b23" ed="J"/>緒，雲淨歸鴻見羽儀。歲月俱從花裏度，宮商漸向遂
-<lb n="0526b24" ed="J"/>中移，會當境曠心忘處，問取誰為造物師。</l></lg></cb:div>
+<lb n="0526b24" ed="J"/>中移，會當境曠心忘處，問取誰為造物師。</l>
+</lg></cb:div>
 <lb n="0526b25" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">夏田寺作示宛然</cb:mulu><head>夏田寺作示宛然</head>
-<lb n="0526b26" ed="J"/><lg xml:id="lgJ37p0526b2601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">夏田江上寺，紺殿聳雲峰，靜夜濤聲落，長途客夢重。
-<lb n="0526b27" ed="J"/>高林巢老鶴，古岸護神龍，安得年豐稔，常鳴說法鍾。</l></lg></cb:div>
+<lb n="0526b26" ed="J"/><lg xml:id="lgJ37p0526b2601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">夏田江上寺，紺殿聳雲峰，靜夜濤聲落，長途客夢重。
+<lb n="0526b27" ed="J"/>高林巢老鶴，古岸護神龍，安得年豐稔，常鳴說法鍾。</l>
+</lg></cb:div>
 <lb n="0526b28" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">宿洪初洲頭柳菴</cb:mulu><head>宿洪初洲頭柳菴</head>
-<lb n="0526b29" ed="J"/><lg xml:id="lgJ37p0526b2901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">層林青似嶂，沙路識通津，淨綠搖龕影，床頭月色新。</l></lg></cb:div>
+<lb n="0526b29" ed="J"/><lg xml:id="lgJ37p0526b2901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">層林青似嶂，沙路識通津，淨綠搖龕影，床頭月色新。</l>
+</lg></cb:div>
 <lb n="0526b30" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">再過耿氏書館</cb:mulu><head>再過耿氏書館</head>
 <pb n="0526c" ed="J" xml:id="J37.B389.0526c"/>
-<lb n="0526c01" ed="J"/><lg xml:id="lgJ37p0526c0101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">林下有高士，重來話遠情，移籬寬菊圃，聽雨度書聲。
-<lb n="0526c02" ed="J"/>江外峰千朵，階前月二更，相期惟此道，詎欲浪閒名。</l></lg></cb:div>
+<lb n="0526c01" ed="J"/><lg xml:id="lgJ37p0526c0101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">林下有高士，重來話遠情，移籬寬菊圃，聽雨度書聲。
+<lb n="0526c02" ed="J"/>江外峰千朵，階前月二更，相期惟此道，詎欲浪閒名。</l>
+</lg></cb:div>
 <lb n="0526c03" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">持缽嘉渚憩張于海館中</cb:mulu><head>持缽嘉渚憩張于海館中</head>
-<lb n="0526c04" ed="J"/><lg xml:id="lgJ37p0526c0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">胡為不自嬾，六月暑行廛，野巷逢人指，深林借榻眠。
-<lb n="0526c05" ed="J"/>農經言可試，聖學講稀傳，幸遇簞瓢隱，重論秋水篇。</l></lg></cb:div>
+<lb n="0526c04" ed="J"/><lg xml:id="lgJ37p0526c0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">胡為不自嬾，六月暑行廛，野巷逢人指，深林借榻眠。
+<lb n="0526c05" ed="J"/>農經言可試，聖學講稀傳，幸遇簞瓢隱，重論秋水篇。</l>
+</lg></cb:div>
 <lb n="0526c06" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寓去瑕闍黎曠菴</cb:mulu><head>寓去瑕闍黎曠菴</head>
-<lb n="0526c07" ed="J"/><lg xml:id="lgJ37p0526c0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">作客江村裏，茅菴且共投，淡煙浮遠水，秀色起平疇。
-<lb n="0526c08" ed="J"/>總似情無著，非關苦見留，門門齋欲赴，何日定歸舟。</l></lg></cb:div>
+<lb n="0526c07" ed="J"/><lg xml:id="lgJ37p0526c0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">作客江村裏，茅菴且共投，淡煙浮遠水，秀色起平疇。
+<lb n="0526c08" ed="J"/>總似情無著，非關苦見留，門門齋欲赴，何日定歸舟。</l>
+</lg></cb:div>
 <lb n="0526c09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">岳菴蘇菴豁菴以德為鄰兼贈一偈</cb:mulu><head>岳菴、蘇菴、豁菴以德為鄰，兼贈一偈</head>
-<lb n="0526c10" ed="J"/><lg xml:id="lgJ37p0526c1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">綠樹垂垂覆短溪，一家東住兩家西，有時罷展蓮華
-<lb n="0526c11" ed="J"/>帙，彼此忘言聽鳥啼。</l></lg></cb:div>
+<lb n="0526c10" ed="J"/><lg xml:id="lgJ37p0526c1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">綠樹垂垂覆短溪，一家東住兩家西，有時罷展蓮華
+<lb n="0526c11" ed="J"/>帙，彼此忘言聽鳥啼。</l>
+</lg></cb:div>
 <lb n="0526c12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">簰洲眾居士求偈</cb:mulu><head>簰洲眾居士求偈</head>
-<lb n="0526c13" ed="J"/><lg xml:id="lgJ37p0526c1301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">蓬門問絡似山菴，返照參差一水涵，芳草渡頭船子
-<lb n="0526c14" ed="J"/>泊，何分兩兩與三三？</l></lg></cb:div>
+<lb n="0526c13" ed="J"/><lg xml:id="lgJ37p0526c1301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">蓬門問絡似山菴，返照參差一水涵，芳草渡頭船子
+<lb n="0526c14" ed="J"/>泊，何分兩兩與三三？</l>
+</lg></cb:div>
 <lb n="0526c15" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">壬子六月再到廣賢與端公夜話賦此留別</cb:mulu><head>壬子六月再到廣賢與端公夜話賦此留別</head>
-<lb n="0526c16" ed="J"/><lg xml:id="lgJ37p0526c1601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">倒指十年說法曾，幽懷未隔水層層，青溪照影重來
+<lb n="0526c16" ed="J"/><lg xml:id="lgJ37p0526c1601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">倒指十年說法曾，幽懷未隔水層層，青溪照影重來
 <lb n="0526c17" ed="J"/>訪，白屋炊香取次應。宿鳥林深歸似舍，炎宵話久冷
-<lb n="0526c18" ed="J"/>如冰，雜華書就秋隨至，斫額峰尖望一登。</l></lg></cb:div>
+<lb n="0526c18" ed="J"/>如冰，雜華書就秋隨至，斫額峰尖望一登。</l>
+</lg></cb:div>
 <lb n="0526c19" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">客中連雨與端公言懷張常伯皮瑤庭適至</cb:mulu><head>客中連雨與端公言懷張常伯皮瑤庭適至</head>
-<lb n="0526c20" ed="J"/><lg xml:id="lgJ37p0526c2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">不待晴來屐輾泥，知因久客句無題，沙村雨鬧官過
-<lb n="0526c21" ed="J"/>驛，草樹宵涼水到堤。薊北遠書孤雁帶，江南<note n="0526c2101" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0526c2101"><lem resp="CBETA.maha" wit="【CB】">佳</lem><rdg wit="【嘉興】">隹</rdg></app>話野
-<lb n="0526c22" ed="J"/>僧提，一瓢獨往無深意，舊結蘿菴在郢西。</l></lg></cb:div>
+<lb n="0526c20" ed="J"/><lg xml:id="lgJ37p0526c2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">不待晴來屐輾泥，知因久客句無題，沙村雨鬧官過
+<lb n="0526c21" ed="J"/>驛，草樹宵涼水到堤。薊北遠書孤雁帶，江南<note 
+n="0526c2101" resp="CBETA" type="add">佳【CB】，隹【嘉興】</note><app n="0526c2101">
+    <lem resp="CBETA.maha" wit="【CB】">佳</lem>
+    <rdg wit="【嘉興】">隹</rdg>
+  </app>話野
+<lb n="0526c22" ed="J"/>僧提，一瓢獨往無深意，舊結蘿菴在郢西。</l>
+</lg></cb:div>
 <lb n="0526c23" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示死心道人</cb:mulu><head>示死心道人</head>
-<lb n="0526c24" ed="J"/><lg xml:id="lgJ37p0526c2401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">越格堂堂悟處深，自能死卻聖凡心，一肩濟北家風
-<lb n="0526c25" ed="J"/>峻，竭力斯宗正在今。</l></lg></cb:div>
+<lb n="0526c24" ed="J"/><lg xml:id="lgJ37p0526c2401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">越格堂堂悟處深，自能死卻聖凡心，一肩濟北家風
+<lb n="0526c25" ed="J"/>峻，竭力斯宗正在今。</l>
+</lg></cb:div>
 <lb n="0526c26" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示一念道人</cb:mulu><head>示一念道人</head>
-<lb n="0526c27" ed="J"/><lg xml:id="lgJ37p0526c2701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">履道無過一念純，眾中躍出見天真，珠迴玉轉祖師
-<lb n="0526c28" ed="J"/>意，歷歷明明用到親。</l></lg></cb:div>
+<lb n="0526c27" ed="J"/><lg xml:id="lgJ37p0526c2701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">履道無過一念純，眾中躍出見天真，珠迴玉轉祖師
+<lb n="0526c28" ed="J"/>意，歷歷明明用到親。</l>
+</lg></cb:div>
 <lb n="0526c29" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">甲寅歲朝試作</cb:mulu><head>甲寅歲朝試作</head>
-<lb n="0526c30" ed="J"/><lg xml:id="lgJ37p0526c3001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">啟戶晨鍾接響圓，春來松色倍悠然，高峰雲擁千層
+<lb n="0526c30" ed="J"/><lg xml:id="lgJ37p0526c3001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">啟戶晨鍾接響圓，春來松色倍悠然，高峰雲擁千層
 <pb n="0527a" ed="J" xml:id="J37.B389.0527a"/>
 <lb n="0527a01" ed="J"/>磴，古寺橋迴兩道泉。佛祖并拈紅燄雪，王侯遠遜綠
-<lb n="0527a02" ed="J"/>蘿煙，因人不識唐朝塔，指點梅花當拜年。</l></lg></cb:div>
+<lb n="0527a02" ed="J"/>蘿煙，因人不識唐朝塔，指點梅花當拜年。</l>
+</lg></cb:div>
 <lb n="0527a03" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">六日猶雪</cb:mulu><head>六日猶雪</head>
-<lb n="0527a04" ed="J"/><lg xml:id="lgJ37p0527a0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">應是寒威重，連朝六不收，齊腰人鮮立，擁澗客稀投。
-<lb n="0527a05" ed="J"/>炙火聽春沸，頑吟喜病瘳，深山閒衲子，曷<note n="0527a0501" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0527a0501"><lem resp="CBETA.maha" wit="【CB】">羨</lem><rdg wit="【嘉興】">羡</rdg></app>有重裘。</l></lg></cb:div>
+<lb n="0527a04" ed="J"/><lg xml:id="lgJ37p0527a0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">應是寒威重，連朝六不收，齊腰人鮮立，擁澗客稀投。
+<lb n="0527a05" ed="J"/>炙火聽春沸，頑吟喜病瘳，深山閒衲子，曷<note 
+n="0527a0501" resp="CBETA" type="add">羨【CB】，羡【嘉興】</note><app n="0527a0501">
+    <lem resp="CBETA.maha" wit="【CB】">羨</lem>
+    <rdg wit="【嘉興】">羡</rdg>
+  </app>有重裘。</l>
+</lg></cb:div>
 <lb n="0527a06" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">雪夜圍爐柬孔則山</cb:mulu><head>雪夜圍爐柬孔則山</head>
-<lb n="0527a07" ed="J"/><lg xml:id="lgJ37p0527a0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">取性然松每夜闌，深山不見有重寒，砂鍋煮爛石頭
-<lb n="0527a08" ed="J"/>汁，品字龍膏火未殘。</l></lg></cb:div>
+<lb n="0527a07" ed="J"/><lg xml:id="lgJ37p0527a0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">取性然松每夜闌，深山不見有重寒，砂鍋煮爛石頭
+<lb n="0527a08" ed="J"/>汁，品字龍膏火未殘。</l>
+</lg></cb:div>
 <lb n="0527a09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">付野潛柱知藏</cb:mulu><head>付野潛柱知藏</head>
-<lb n="0527a10" ed="J"/><lg xml:id="lgJ37p0527a1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">風吹石裂與麼來，按過重關了不猜，真實方堪行祖
-<lb n="0527a11" ed="J"/>道，頭頭止眼為人開。</l></lg></cb:div>
+<lb n="0527a10" ed="J"/><lg xml:id="lgJ37p0527a1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">風吹石裂與麼來，按過重關了不猜，真實方堪行祖
+<lb n="0527a11" ed="J"/>道，頭頭止眼為人開。</l>
+</lg></cb:div>
 <lb n="0527a12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">馬賁玉居士以笻杖見貽</cb:mulu><head>馬賁玉居士以笻杖見貽</head>
-<lb n="0527a13" ed="J"/><lg xml:id="lgJ37p0527a1301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">大宛笻何得，遺來目未曛，一尋剛少尺，九節自生文。
-<lb n="0527a14" ed="J"/>指月晴無翳，敲空響特聞，好山隨徙倚，還可劃秋雲。</l></lg></cb:div>
+<lb n="0527a13" ed="J"/><lg xml:id="lgJ37p0527a1301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">大宛笻何得，遺來目未曛，一尋剛少尺，九節自生文。
+<lb n="0527a14" ed="J"/>指月晴無翳，敲空響特聞，好山隨徙倚，還可劃秋雲。</l>
+</lg></cb:div>
 <lb n="0527a15" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">付聞思綮維那</cb:mulu><head>付聞思綮維那</head>
-<lb n="0527a16" ed="J"/><lg xml:id="lgJ37p0527a1601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em"><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>
-<lb n="0527a17" ed="J"/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>。</l></lg></cb:div>
+<lb n="0527a16" ed="J"/><lg xml:id="lgJ37p0527a1601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em"><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>
+<lb n="0527a17" ed="J"/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>。</l>
+</lg></cb:div>
 <lb n="0527a18" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">病眠</cb:mulu><head>病眠</head>
-<lb n="0527a19" ed="J"/><lg xml:id="lgJ37p0527a1901" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">佛法身心何處著，也能自<note n="0527a1901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0527a1901"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>笑愚狂，沙彌喚起無他
-<lb n="0527a20" ed="J"/>炙，一盞薑湯穩肚腸。</l></lg></cb:div>
+<lb n="0527a19" ed="J"/><lg xml:id="lgJ37p0527a1901" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">佛法身心何處著，也能自<note 
+n="0527a1901" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0527a1901">
+    <lem resp="CBETA.maha" wit="【CB】">己</lem>
+    <rdg wit="【嘉興】">巳</rdg>
+  </app>笑愚狂，沙彌喚起無他
+<lb n="0527a20" ed="J"/>炙，一盞薑湯穩肚腸。</l>
+</lg></cb:div>
 <lb n="0527a21" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">余病稍愈紹徙忽冒風熱幸得汗晨起示徹徒</cb:mulu><head>余病稍愈，紹徙忽冒風熱，幸得汗，晨起示徹徒</head>
-<lb n="0527a22" ed="J"/><lg xml:id="lgJ37p0527a2201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">樹引泉聲病覺安，四山春好試行看，必須汝弟芒鞋
-<lb n="0527a23" ed="J"/>健，去理東巖舊藥欄。</l></lg></cb:div>
+<lb n="0527a22" ed="J"/><lg xml:id="lgJ37p0527a2201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">樹引泉聲病覺安，四山春好試行看，必須汝弟芒鞋
+<lb n="0527a23" ed="J"/>健，去理東巖舊藥欄。</l>
+</lg></cb:div>
 <lb n="0527a24" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄懷抱法師</cb:mulu><head>寄懷抱法師</head>
-<lb n="0527a25" ed="J"/><lg xml:id="lgJ37p0527a2501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">半塘白水貯新月，又種前灣柳一隄，想對高雲晴說
-<lb n="0527a26" ed="J"/>法，自將如意指鶯啼。</l></lg></cb:div>
+<lb n="0527a25" ed="J"/><lg xml:id="lgJ37p0527a2501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">半塘白水貯新月，又種前灣柳一隄，想對高雲晴說
+<lb n="0527a26" ed="J"/>法，自將如意指鶯啼。</l>
+</lg></cb:div>
 <lb n="0527a27" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄懷別雲和尚</cb:mulu><head>寄懷別雲和尚</head>
-<lb n="0527a28" ed="J"/><lg xml:id="lgJ37p0527a2801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">唱提祖道曾無倦，同自南歸住復開，但與青松衡友
-<lb n="0527a29" ed="J"/>誼，關心還是水西梅。</l></lg></cb:div>
+<lb n="0527a28" ed="J"/><lg xml:id="lgJ37p0527a2801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">唱提祖道曾無倦，同自南歸住復開，但與青松衡友
+<lb n="0527a29" ed="J"/>誼，關心還是水西梅。</l>
+</lg></cb:div>
 <lb n="0527a30" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">漫作</cb:mulu><head>漫作</head>
 <pb n="0527b" ed="J" xml:id="J37.B389.0527b"/>
-<lb n="0527b01" ed="J"/><lg xml:id="lgJ37p0527b0101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">池上松花落，人間事日非，斫林遷虎臥，步嶺喝雲飛。
-<lb n="0527b02" ed="J"/>世亂先還拙，名浮可息機，病餘閒鏡影，猶喜對晨暉。</l></lg></cb:div>
+<lb n="0527b01" ed="J"/><lg xml:id="lgJ37p0527b0101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">池上松花落，人間事日非，斫林遷虎臥，步嶺喝雲飛。
+<lb n="0527b02" ed="J"/>世亂先還拙，名浮可息機，病餘閒鏡影，猶喜對晨暉。</l>
+</lg></cb:div>
 <lb n="0527b03" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈恰菴居士劉是玉</cb:mulu><head>贈恰菴居士劉是玉</head>
-<lb n="0527b04" ed="J"/><lg xml:id="lgJ37p0527b0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">七十懽登選佛場，心空及第好能強，隨隨恰恰別無
-<lb n="0527b05" ed="J"/>妙，丈室何容置一床？</l></lg></cb:div>
+<lb n="0527b04" ed="J"/><lg xml:id="lgJ37p0527b0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">七十懽登選佛場，心空及第好能強，隨隨恰恰別無
+<lb n="0527b05" ed="J"/>妙，丈室何容置一床？</l>
+</lg></cb:div>
 <lb n="0527b06" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">付則文磷書記</cb:mulu><head>付則文磷書記</head>
-<lb n="0527b07" ed="J"/><lg xml:id="lgJ37p0527b0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em"><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>
-<lb n="0527b08" ed="J"/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>。</l></lg></cb:div>
+<lb n="0527b07" ed="J"/><lg xml:id="lgJ37p0527b0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em"><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>
+<lb n="0527b08" ed="J"/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>。</l>
+</lg></cb:div>
 <lb n="0527b09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示凝虛益先師徒</cb:mulu><head>示凝虛益先師徒</head>
-<lb n="0527b10" ed="J"/><lg xml:id="lgJ37p0527b1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">人情日下思前哲，法運垂秋倚大僧，接待不嫌雲水
-<lb n="0527b11" ed="J"/>廣，勝他九上與三登。</l></lg></cb:div>
-<lb n="0527b12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">劉濟甫孝廉以詩見訪依韻答之</cb:mulu><head>劉濟<note n="0527b1201" resp="CBETA" type="add">甫【CB】，<unclear/>【嘉興】</note><app n="0527b1201"><lem resp="CBETA.maha" wit="【CB】">甫</lem><rdg wit="【嘉興】"><unclear/></rdg></app>孝廉以詩見訪，依韻答之</head>
-<lb n="0527b13" ed="J"/><lg xml:id="lgJ37p0527b1301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">豁盡南來山水眼，更逢蕭寺豈徒然，一窗風雨聲搖
+<lb n="0527b10" ed="J"/><lg xml:id="lgJ37p0527b1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">人情日下思前哲，法運垂秋倚大僧，接待不嫌雲水
+<lb n="0527b11" ed="J"/>廣，勝他九上與三登。</l>
+</lg></cb:div>
+<lb n="0527b12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">劉濟甫孝廉以詩見訪依韻答之</cb:mulu><head>劉濟<note 
+n="0527b1201" resp="CBETA" type="add">甫【CB】，<unclear/>【嘉興】</note><app n="0527b1201">
+  <lem resp="CBETA.maha" wit="【CB】">甫</lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app>孝廉以詩見訪，依韻答之</head>
+<lb n="0527b13" ed="J"/><lg xml:id="lgJ37p0527b1301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">豁盡南來山水眼，更逢蕭寺豈徒然，一窗風雨聲搖
 <lb n="0527b14" ed="J"/>夢，半壁圖書影伴禪。宇內今知名未老，天涯獨信句
-<lb n="0527b15" ed="J"/>重妍，高冠大別長相對，與子刪霞挽月鐫。</l></lg></cb:div>
+<lb n="0527b15" ed="J"/>重妍，高冠大別長相對，與子刪霞挽月鐫。</l>
+</lg></cb:div>
 <lb n="0527b16" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">夢歸竟陵</cb:mulu><head>夢歸竟陵</head>
-<lb n="0527b17" ed="J"/><lg xml:id="lgJ37p0527b1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">家驚移住惟添井，竹喜成藂可蔭門，老母扶將霜雪
-<lb n="0527b18" ed="J"/>影，為兒拂去水雲痕。</l></lg></cb:div>
+<lb n="0527b17" ed="J"/><lg xml:id="lgJ37p0527b1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">家驚移住惟添井，竹喜成藂可蔭門，老母扶將霜雪
+<lb n="0527b18" ed="J"/>影，為兒拂去水雲痕。</l>
+</lg></cb:div>
 <lb n="0527b19" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄懷雲水居士毛子霞舊儀部</cb:mulu><head>寄懷雲水居士毛子霞舊儀部</head>
-<lb n="0527b20" ed="J"/><lg xml:id="lgJ37p0527b2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">地老天荒只著書，延陵肝膽孰能如，種松別院思招
-<lb n="0527b21" ed="J"/>隱，六月新涼動草廬。</l></lg>
-<lb n="0527b22" ed="J"/><lg xml:id="lgJ37p0527b2201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">自提蠟屐遍名山，幕府才高舊夢刪，黃鶴不飛紅樹
-<lb n="0527b23" ed="J"/>底，野情常寄翠微間。</l></lg></cb:div>
+<lb n="0527b20" ed="J"/><lg xml:id="lgJ37p0527b2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">地老天荒只著書，延陵肝膽孰能如，種松別院思招
+<lb n="0527b21" ed="J"/>隱，六月新涼動草廬。</l>
+</lg>
+<lb n="0527b22" ed="J"/><lg xml:id="lgJ37p0527b2201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">自提蠟屐遍名山，幕府才高舊夢刪，黃鶴不飛紅樹
+<lb n="0527b23" ed="J"/>底，野情常寄翠微間。</l>
+</lg></cb:div>
 <lb n="0527b24" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄懷素巖傅兄</cb:mulu><head>寄懷素巖傅兄</head>
-<lb n="0527b25" ed="J"/><lg xml:id="lgJ37p0527b2501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">柴門雖設畫常開，別岫飛雲入望來，近日光黃峰色
-<lb n="0527b26" ed="J"/>好，武林春到亟須回。</l></lg></cb:div>
+<lb n="0527b25" ed="J"/><lg xml:id="lgJ37p0527b2501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">柴門雖設畫常開，別岫飛雲入望來，近日光黃峰色
+<lb n="0527b26" ed="J"/>好，武林春到亟須回。</l>
+</lg></cb:div>
 <lb n="0527b27" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈耿二戶部公府</cb:mulu><head>贈耿二戶部公府</head>
-<lb n="0527b28" ed="J"/><lg xml:id="lgJ37p0527b2801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">蕉葉離披醒蝶夢，榴華爛熳點苔痕，東林社裏雖寥
-<lb n="0527b29" ed="J"/>落，三笑餘音聽尚存。</l></lg></cb:div>
+<lb n="0527b28" ed="J"/><lg xml:id="lgJ37p0527b2801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">蕉葉離披醒蝶夢，榴華爛熳點苔痕，東林社裏雖寥
+<lb n="0527b29" ed="J"/>落，三笑餘音聽尚存。</l>
+</lg></cb:div>
 <lb n="0527b30" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">柬耿遠情文學</cb:mulu><head>柬耿遠情文學</head>
 <pb n="0527c" ed="J" xml:id="J37.B389.0527c"/>
-<lb n="0527c01" ed="J"/><lg xml:id="lgJ37p0527c0101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">點易先應瘳癖病，解莊別自有精神，感君下榻成知
-<lb n="0527c02" ed="J"/><note n="0527c0201" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0527c0201"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，延我來山作主人。</l></lg></cb:div>
+<lb n="0527c01" ed="J"/><lg xml:id="lgJ37p0527c0101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">點易先應瘳癖病，解莊別自有精神，感君下榻成知
+<lb n="0527c02" ed="J"/><note 
+n="0527c0201" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0527c0201">
+    <lem resp="CBETA.maha" wit="【CB】">己</lem>
+    <rdg wit="【嘉興】">巳</rdg>
+  </app>，延我來山作主人。</l>
+</lg></cb:div>
 <lb n="0527c03" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">智泓尼日誦華嚴偈以示之</cb:mulu><head>智泓尼日誦華嚴偈以示之</head>
-<lb n="0527c04" ed="J"/><lg xml:id="lgJ37p0527c0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">華藏海底穿針孔，繡出鴛鴦看有誰，五十三人沒意
-<lb n="0527c05" ed="J"/>智，大家賺箇善財兒。</l></lg></cb:div>
+<lb n="0527c04" ed="J"/><lg xml:id="lgJ37p0527c0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">華藏海底穿針孔，繡出鴛鴦看有誰，五十三人沒意
+<lb n="0527c05" ed="J"/>智，大家賺箇善財兒。</l>
+</lg></cb:div>
 <lb n="0527c06" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">買石得雲饒</cb:mulu><head>買石得雲饒</head>
-<lb n="0527c07" ed="J"/><lg xml:id="lgJ37p0527c0701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">不是華山山頂骨，亦非鬼斧削鴻濛，一錢博得千峰
-<lb n="0527c08" ed="J"/>色，喜見龍吟出袖中。</l></lg></cb:div>
+<lb n="0527c07" ed="J"/><lg xml:id="lgJ37p0527c0701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">不是華山山頂骨，亦非鬼斧削鴻濛，一錢博得千峰
+<lb n="0527c08" ed="J"/>色，喜見龍吟出袖中。</l>
+</lg></cb:div>
 <lb n="0527c09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">夜讀魯論至顏回章</cb:mulu><head>夜讀魯論至顏回章</head>
-<lb n="0527c10" ed="J"/><lg xml:id="lgJ37p0527c1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">桐華月影疏，愧讀古人書，孰以回為死，誰從子所居。
-<lb n="0527c11" ed="J"/>簞瓢流歲月，風雨壞門廬，師弟存知<note n="0527c1101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0527c1101"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>，斯文未喪子。</l></lg></cb:div>
+<lb n="0527c10" ed="J"/><lg xml:id="lgJ37p0527c1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">桐華月影疏，愧讀古人書，孰以回為死，誰從子所居。
+<lb n="0527c11" ed="J"/>簞瓢流歲月，風雨壞門廬，師弟存知<note 
+n="0527c1101" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0527c1101">
+    <lem resp="CBETA.maha" wit="【CB】">己</lem>
+    <rdg wit="【嘉興】">巳</rdg>
+  </app>，斯文未喪子。</l>
+</lg></cb:div>
 <lb n="0527c12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">柬嵩杲</cb:mulu><head>柬嵩杲</head>
-<lb n="0527c13" ed="J"/><lg xml:id="lgJ37p0527c1301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">古寺宵寒發素琴，高梧露滴答空音，懷人海國鴻無
+<lb n="0527c13" ed="J"/><lg xml:id="lgJ37p0527c1301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">古寺宵寒發素琴，高梧露滴答空音，懷人海國鴻無
 <lb n="0527c14" ed="J"/>影，作客天涯歲漸深。杖策擬尋芳草徑，披雲更選綠
-<lb n="0527c15" ed="J"/>蘿陰，出門幾度猶回首，為爾長年共此心。</l></lg></cb:div>
+<lb n="0527c15" ed="J"/>蘿陰，出門幾度猶回首，為爾長年共此心。</l>
+</lg></cb:div>
 <lb n="0527c16" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">賦沖雲鷂</cb:mulu><head>賦沖雲鷂</head>
-<lb n="0527c17" ed="J"/><lg xml:id="lgJ37p0527c1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">眼底秋聲驚到樹，好風不借翼偏牢，凌虛始見孤標
+<lb n="0527c17" ed="J"/><lg xml:id="lgJ37p0527c1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">眼底秋聲驚到樹，好風不借翼偏牢，凌虛始見孤標
 <lb n="0527c18" ed="J"/>格，在野何殊眾羽毛。豈為牽群常落影，肯隨輕舉尚
-<lb n="0527c19" ed="J"/>回翱，兒童那解騫飛意，拍手惟論燕雀高。</l></lg></cb:div>
+<lb n="0527c19" ed="J"/>回翱，兒童那解騫飛意，拍手惟論燕雀高。</l>
+</lg></cb:div>
 <lb n="0527c20" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">基隆山禮無念有禪師遺像</cb:mulu><head>基隆山禮無念有禪師遺像</head>
-<lb n="0527c21" ed="J"/><lg xml:id="lgJ37p0527c2101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">塔豎別峰影在茲，楸杉秋滿碧參差，苔荒古砌蟲啼
+<lb n="0527c21" ed="J"/><lg xml:id="lgJ37p0527c2101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">塔豎別峰影在茲，楸杉秋滿碧參差，苔荒古砌蟲啼
 <lb n="0527c22" ed="J"/>冷，煙鎖閒龕月上遲。機裏無言全殺活，罵中有藥喪
-<lb n="0527c23" ed="J"/>情癡，比來此道多文藻，拜起愴然長憶師。</l></lg></cb:div>
+<lb n="0527c23" ed="J"/>情癡，比來此道多文藻，拜起愴然長憶師。</l>
+</lg></cb:div>
 <lb n="0527c24" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">題五峰寺壁</cb:mulu><head>題五峰寺壁</head>
-<lb n="0527c25" ed="J"/><lg xml:id="lgJ37p0527c2501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">我悅山中住，栽成五嶺松，種田秋博飯，說法午鳴鐘。
-<lb n="0527c26" ed="J"/>遶屋流清澗，長吟醒睡龍，舉頭雲影外，明月上高峰。</l></lg></cb:div>
+<lb n="0527c25" ed="J"/><lg xml:id="lgJ37p0527c2501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">我悅山中住，栽成五嶺松，種田秋博飯，說法午鳴鐘。
+<lb n="0527c26" ed="J"/>遶屋流清澗，長吟醒睡龍，舉頭雲影外，明月上高峰。</l>
+</lg></cb:div>
 <lb n="0527c27" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">趙公遠夏言讀書紫雲山</cb:mulu><head>趙公遠夏言讀書紫雲山</head>
-<lb n="0527c28" ed="J"/><lg xml:id="lgJ37p0527c2801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">秋光寸寸寫幽奇，別業深雲護作籬，白日山中天地
+<lb n="0527c28" ed="J"/><lg xml:id="lgJ37p0527c2801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">秋光寸寸寫幽奇，別業深雲護作籬，白日山中天地
 <lb n="0527c29" ed="J"/>老，清宵月下弟兄宜。圖書代主先留客，花木因人亦
-<lb n="0527c30" ed="J"/>笑時，近得好峰堪置我，免從風雨起遐思。</l></lg></cb:div>
+<lb n="0527c30" ed="J"/>笑時，近得好峰堪置我，免從風雨起遐思。</l>
+</lg></cb:div>
 <pb n="0528a" ed="J" xml:id="J37.B389.0528a"/>
 <lb n="0528a01" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">懷國清曇兄能仁無兄二和尚</cb:mulu><head>懷國清曇兄、能仁無兄二和尚</head>
-<lb n="0528a02" ed="J"/><lg xml:id="lgJ37p0528a0201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">昨書云其丹丘隱，又轉剡溪走一回，好鏡新機酬唱
-<lb n="0528a03" ed="J"/>盡，明春定到楚山來。</l></lg></cb:div>
+<lb n="0528a02" ed="J"/><lg xml:id="lgJ37p0528a0201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">昨書云其丹丘隱，又轉剡溪走一回，好鏡新機酬唱
+<lb n="0528a03" ed="J"/>盡，明春定到楚山來。</l>
+</lg></cb:div>
 <lb n="0528a04" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈桐巖靜主</cb:mulu><head>贈桐巖靜主</head>
-<lb n="0528a05" ed="J"/><lg xml:id="lgJ37p0528a0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">三十餘年住此山，渠儂意氣果能閒，支笻且趁月明
-<lb n="0528a06" ed="J"/>夜，種得青松耐老看。</l></lg></cb:div>
+<lb n="0528a05" ed="J"/><lg xml:id="lgJ37p0528a0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">三十餘年住此山，渠儂意氣果能閒，支笻且趁月明
+<lb n="0528a06" ed="J"/>夜，種得青松耐老看。</l>
+</lg></cb:div>
 <lb n="0528a07" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">喜秦公蘧文學至山</cb:mulu><head>喜秦公蘧文學至山</head>
-<lb n="0528a08" ed="J"/><lg xml:id="lgJ37p0528a0801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">天臺卓出萬山中，君到山頭秋正紅，為問十年得力
-<lb n="0528a09" ed="J"/>句，夜深清露滴枯桐。</l></lg></cb:div>
+<lb n="0528a08" ed="J"/><lg xml:id="lgJ37p0528a0801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">天臺卓出萬山中，君到山頭秋正紅，為問十年得力
+<lb n="0528a09" ed="J"/>句，夜深清露滴枯桐。</l>
+</lg></cb:div>
 <lb n="0528a10" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示湛維那</cb:mulu><head>示湛維那</head>
-<lb n="0528a11" ed="J"/><lg xml:id="lgJ37p0528a1101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">草菴忽卸琉璃瓦，萬丈深寒徹底窮，獨有梅華知此
-<lb n="0528a12" ed="J"/>意，一枝斜放短牆東。</l></lg></cb:div>
+<lb n="0528a11" ed="J"/><lg xml:id="lgJ37p0528a1101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">草菴忽卸琉璃瓦，萬丈深寒徹底窮，獨有梅華知此
+<lb n="0528a12" ed="J"/>意，一枝斜放短牆東。</l>
+</lg></cb:div>
 <lb n="0528a13" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示學副寺</cb:mulu><head>示學副寺</head>
-<lb n="0528a14" ed="J"/><lg xml:id="lgJ37p0528a1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">大統綱宗須識句，多年古灶冷重搘，家風切莫嫌疏
-<lb n="0528a15" ed="J"/>澹，想像楊岐乍住時。</l></lg></cb:div>
+<lb n="0528a14" ed="J"/><lg xml:id="lgJ37p0528a1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">大統綱宗須識句，多年古灶冷重搘，家風切莫嫌疏
+<lb n="0528a15" ed="J"/>澹，想像楊岐乍住時。</l>
+</lg></cb:div>
 <lb n="0528a16" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">歲朝示眾</cb:mulu><head>歲朝示眾</head>
-<lb n="0528a17" ed="J"/><lg xml:id="lgJ37p0528a1701" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">年頭佛法無多子，拄杖抬頭又見春，莫謂青山能放
-<lb n="0528a18" ed="J"/>嬾，青山慣肯笑閒人。</l></lg></cb:div>
+<lb n="0528a17" ed="J"/><lg xml:id="lgJ37p0528a1701" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">年頭佛法無多子，拄杖抬頭又見春，莫謂青山能放
+<lb n="0528a18" ed="J"/>嬾，青山慣肯笑閒人。</l>
+</lg></cb:div>
 <lb n="0528a19" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">懷寶安去兄和尚</cb:mulu><head>懷寶安去兄和尚</head>
-<lb n="0528a20" ed="J"/><lg xml:id="lgJ37p0528a2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">錫山華里寺，別忽逾三年，默坐枯腸響，還思第一泉。</l></lg></cb:div>
+<lb n="0528a20" ed="J"/><lg xml:id="lgJ37p0528a2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">錫山華里寺，別忽逾三年，默坐枯腸響，還思第一泉。</l>
+</lg></cb:div>
 <lb n="0528a21" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示喻君華</cb:mulu><head>示喻君華</head>
-<lb n="0528a22" ed="J"/><lg xml:id="lgJ37p0528a2201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">赤城深固誰能到，到者應須息萬端，歸去逢人直舉
-<lb n="0528a23" ed="J"/>似，從教平地起波瀾。</l></lg></cb:div>
+<lb n="0528a22" ed="J"/><lg xml:id="lgJ37p0528a2201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">赤城深固誰能到，到者應須息萬端，歸去逢人直舉
+<lb n="0528a23" ed="J"/>似，從教平地起波瀾。</l>
+</lg></cb:div>
 <lb n="0528a24" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">贈解菴居士</cb:mulu><head>贈解菴居士</head>
-<lb n="0528a25" ed="J"/><lg xml:id="lgJ37p0528a2501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">林間常聽說張三，無事於心只放憨，今日相逢重接
-<lb n="0528a26" ed="J"/>過，深山應許結蘿菴。</l></lg></cb:div>
+<lb n="0528a25" ed="J"/><lg xml:id="lgJ37p0528a2501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">林間常聽說張三，無事於心只放憨，今日相逢重接
+<lb n="0528a26" ed="J"/>過，深山應許結蘿菴。</l>
+</lg></cb:div>
 <lb n="0528a27" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">寄懷玉泉東旭師</cb:mulu><head>寄懷玉泉東旭師</head>
-<lb n="0528a28" ed="J"/><lg xml:id="lgJ37p0528a2801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">聞將葛葉來炊釜，賴得泉聲可息機，歲晚寧無風雨
-<lb n="0528a29" ed="J"/>倦，山寒徒有夢魂飛。</l></lg></cb:div>
+<lb n="0528a28" ed="J"/><lg xml:id="lgJ37p0528a2801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">聞將葛葉來炊釜，賴得泉聲可息機，歲晚寧無風雨
+<lb n="0528a29" ed="J"/>倦，山寒徒有夢魂飛。</l>
+</lg></cb:div>
 <lb n="0528a30" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">雪天示諸禪者</cb:mulu><head>雪天示諸禪者</head>
 <pb n="0528b" ed="J" xml:id="J37.B389.0528b"/>
-<lb n="0528b01" ed="J"/><lg xml:id="lgJ37p0528b0101" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">寒寒寒，胡僧兩耳帶金環，草鞋踏破赤腳走，那許閒
-<lb n="0528b02" ed="J"/>名落世間。</l></lg>
-<lb n="0528b03" ed="J"/><lg xml:id="lgJ37p0528b0301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">寒寒寒，古廟香爐灰冷殘，大意西來覓不得，推出神
-<lb n="0528b04" ed="J"/>前酒臺盤。</l></lg>
-<lb n="0528b05" ed="J"/><lg xml:id="lgJ37p0528b0501" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">寒寒寒，萬壑千巖行路難，五九盡日春自至，碧眼黃
-<lb n="0528b06" ed="J"/>頭帶笑看。</l></lg></cb:div>
+<lb n="0528b01" ed="J"/><lg xml:id="lgJ37p0528b0101" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">寒寒寒，胡僧兩耳帶金環，草鞋踏破赤腳走，那許閒
+<lb n="0528b02" ed="J"/>名落世間。</l>
+</lg>
+<lb n="0528b03" ed="J"/><lg xml:id="lgJ37p0528b0301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">寒寒寒，古廟香爐灰冷殘，大意西來覓不得，推出神
+<lb n="0528b04" ed="J"/>前酒臺盤。</l>
+</lg>
+<lb n="0528b05" ed="J"/><lg xml:id="lgJ37p0528b0501" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">寒寒寒，萬壑千巖行路難，五九盡日春自至，碧眼黃
+<lb n="0528b06" ed="J"/>頭帶笑看。</l>
+</lg></cb:div>
 <lb n="0528b07" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示楞侍者</cb:mulu><head>示楞侍者</head>
-<lb n="0528b08" ed="J"/><lg xml:id="lgJ37p0528b0801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">春無三日晴，獨坐兩眉橫，拄杖抽枝後，法堂前草生。</l></lg></cb:div>
+<lb n="0528b08" ed="J"/><lg xml:id="lgJ37p0528b0801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">春無三日晴，獨坐兩眉橫，拄杖抽枝後，法堂前草生。</l>
+</lg></cb:div>
 <lb n="0528b09" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">悼圓鑒居士耿三兵憲</cb:mulu><head>悼圓鑒居士耿三兵憲</head>
-<lb n="0528b10" ed="J"/><lg xml:id="lgJ37p0528b1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">秦越官尊致隱遲，柩回始獲拜靈祠，傷心最是雙溪
-<lb n="0528b11" ed="J"/>水，耳畔聲寒下哭時。</l></lg></cb:div>
+<lb n="0528b10" ed="J"/><lg xml:id="lgJ37p0528b1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">秦越官尊致隱遲，柩回始獲拜靈祠，傷心最是雙溪
+<lb n="0528b11" ed="J"/>水，耳畔聲寒下哭時。</l>
+</lg></cb:div>
 <lb n="0528b12" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">付運機璿記錄</cb:mulu><head>付運機璿記錄</head>
-<lb n="0528b13" ed="J"/><lg xml:id="lgJ37p0528b1301" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em"><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>
-<lb n="0528b14" ed="J"/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>。</l></lg></cb:div>
+<lb n="0528b13" ed="J"/><lg xml:id="lgJ37p0528b1301" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em"><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>
+<lb n="0528b14" ed="J"/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/><unclear/>。</l>
+</lg></cb:div>
 <lb n="0528b15" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">山居雜詠</cb:mulu><head>山居雜詠</head>
-<lb n="0528b16" ed="J"/><lg xml:id="lgJ37p0528b1601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">百卉青青二月春，梨華綻處只如銀，雨晴隨意經行
-<lb n="0528b17" ed="J"/>入，萬樹寒香擁一身。</l></lg>
-<lb n="0528b18" ed="J"/><lg xml:id="lgJ37p0528b1801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">不嫌眼冷眉撐月，且放籬荒水過林，新竹纔成低戶
-<lb n="0528b19" ed="J"/>影，曉雲慣作覆巖陰。</l></lg>
-<lb n="0528b20" ed="J"/><lg xml:id="lgJ37p0528b2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">一日天晴兩日雨，藤華未摘<note n="0528b2001" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0528b2001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>春闌，枝頭小鳥聲如
-<lb n="0528b21" ed="J"/>渴，報我西谿欲放完。</l></lg>
-<lb n="0528b22" ed="J"/><lg xml:id="lgJ37p0528b2201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">芳草離離覆石根，無端終日雨煙屯，時人那解飛龍
-<lb n="0528b23" ed="J"/>處，輕作尋常埜水論。</l></lg>
-<lb n="0528b24" ed="J"/><lg xml:id="lgJ37p0528b2401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">翠壁如屏啟戶前，落華曉砌石幢邊，缽盂有口平吞
-<lb n="0528b25" ed="J"/>盡，折腳鐺中栗棘圓。</l></lg>
-<lb n="0528b26" ed="J"/><lg xml:id="lgJ37p0528b2601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">天涯身寄綠蘿菴，雨過群峰似潑藍，幾點客雲歸遠
-<lb n="0528b27" ed="J"/>岫，杜鵑聲裏憶江南。</l></lg>
-<lb n="0528b28" ed="J"/><lg xml:id="lgJ37p0528b2801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">閣筆聊成他日史，灰心猶憶去年梅，鶴鳴階下吟初
-<lb n="0528b29" ed="J"/>穩，華壓枝梢夢正回。</l></lg>
-<lb n="0528b30" ed="J"/><lg xml:id="lgJ37p0528b3001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">深林無暑倍精神，石上披雲憶古人，長嘯一聲天地
+<lb n="0528b16" ed="J"/><lg xml:id="lgJ37p0528b1601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">百卉青青二月春，梨華綻處只如銀，雨晴隨意經行
+<lb n="0528b17" ed="J"/>入，萬樹寒香擁一身。</l>
+</lg>
+<lb n="0528b18" ed="J"/><lg xml:id="lgJ37p0528b1801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">不嫌眼冷眉撐月，且放籬荒水過林，新竹纔成低戶
+<lb n="0528b19" ed="J"/>影，曉雲慣作覆巖陰。</l>
+</lg>
+<lb n="0528b20" ed="J"/><lg xml:id="lgJ37p0528b2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">一日天晴兩日雨，藤華未摘<note 
+n="0528b2001" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0528b2001">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【嘉興】">巳</rdg>
+  </app>春闌，枝頭小鳥聲如
+<lb n="0528b21" ed="J"/>渴，報我西谿欲放完。</l>
+</lg>
+<lb n="0528b22" ed="J"/><lg xml:id="lgJ37p0528b2201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">芳草離離覆石根，無端終日雨煙屯，時人那解飛龍
+<lb n="0528b23" ed="J"/>處，輕作尋常埜水論。</l>
+</lg>
+<lb n="0528b24" ed="J"/><lg xml:id="lgJ37p0528b2401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">翠壁如屏啟戶前，落華曉砌石幢邊，缽盂有口平吞
+<lb n="0528b25" ed="J"/>盡，折腳鐺中栗棘圓。</l>
+</lg>
+<lb n="0528b26" ed="J"/><lg xml:id="lgJ37p0528b2601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">天涯身寄綠蘿菴，雨過群峰似潑藍，幾點客雲歸遠
+<lb n="0528b27" ed="J"/>岫，杜鵑聲裏憶江南。</l>
+</lg>
+<lb n="0528b28" ed="J"/><lg xml:id="lgJ37p0528b2801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">閣筆聊成他日史，灰心猶憶去年梅，鶴鳴階下吟初
+<lb n="0528b29" ed="J"/>穩，華壓枝梢夢正回。</l>
+</lg>
+<lb n="0528b30" ed="J"/><lg xml:id="lgJ37p0528b3001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">深林無暑倍精神，石上披雲憶古人，長嘯一聲天地
 <pb n="0528c" ed="J" xml:id="J37.B389.0528c"/>
-<lb n="0528c01" ed="J"/>裂，不知何處著渾身。</l></lg>
-<lb n="0528c02" ed="J"/><lg xml:id="lgJ37p0528c0201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">荷華開盡紫荊開，無事閒行上古臺，日暮路長騎馬
-<lb n="0528c03" ed="J"/>走，利名誰放入出來。</l></lg>
-<lb n="0528c04" ed="J"/><lg xml:id="lgJ37p0528c0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">南山雲起北山頭，王老東村笑不休，白荳華開天又
-<lb n="0528c05" ed="J"/>雨，今年秋勝去年秋。</l></lg>
-<lb n="0528c06" ed="J"/><lg xml:id="lgJ37p0528c0601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">扇子芭蕉自剪為，幽居是事獲便宜，秋心不在梧桐
-<lb n="0528c07" ed="J"/>上，葉落空庭曉未知。</l></lg>
-<lb n="0528c08" ed="J"/><lg xml:id="lgJ37p0528c0801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">石田數畝刈方休，不上高峰即負秋，紅葉幾家村影
-<lb n="0528c09" ed="J"/>亂，穿來一串杖頭收。</l></lg>
-<lb n="0528c10" ed="J"/><lg xml:id="lgJ37p0528c1001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">幸有殘霞箋寄遠，堪從鴈語識行藏，一時道大名還
-<lb n="0528c11" ed="J"/>老，高枕山隈水更香。</l></lg>
-<lb n="0528c12" ed="J"/><lg xml:id="lgJ37p0528c1201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">雙桂香飄幾葉孫，撩天鼻孔漫尋真，皮膚脫盡無多
-<lb n="0528c13" ed="J"/>子，始信渠儂意氣新。</l></lg>
-<lb n="0528c14" ed="J"/><lg xml:id="lgJ37p0528c1401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">霜作鬚眉紙作衣，德涼<note n="0528c1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0528c1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>較古人非，幾回坐落山尖
-<lb n="0528c15" ed="J"/>月，不覺疏煙濕翠微。</l></lg>
-<lb n="0528c16" ed="J"/><lg xml:id="lgJ37p0528c1601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">苔徑斜暉侵錫影，石床華雨放閒身，敲空作響翻成
-<lb n="0528c17" ed="J"/>拙，道在何方此日貧。</l></lg>
-<lb n="0528c18" ed="J"/><lg xml:id="lgJ37p0528c1801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">都知傀儡倒棚休，宇宙勞勞事更悠，洞口縱無黃葉
-<lb n="0528c19" ed="J"/>出，靈源端在古溪頭。</l></lg>
-<lb n="0528c20" ed="J"/><lg xml:id="lgJ37p0528c2001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">三更還自煮雲芽，挂壁青燈照影斜，手接南星忘把
-<lb n="0528c21" ed="J"/>盞，為伊一伴惜年華。</l></lg>
-<lb n="0528c22" ed="J"/><lg xml:id="lgJ37p0528c2201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">地爐煙穩火猶紅，壞衲情深肯伴窮，幾處寒聲驚落
-<lb n="0528c23" ed="J"/>木，故人千里自同風。</l></lg>
-<lb n="0528c24" ed="J"/><lg xml:id="lgJ37p0528c2401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">老屋三椽僅蓋頭，春泉脈脈遶床流，白雲不放青山
-<lb n="0528c25" ed="J"/>嬾，出入松門意未休。</l></lg>
-<lb n="0528c26" ed="J"/><lg xml:id="lgJ37p0528c2601" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">橫鉤新月較眉粗，曾照華亭江上夫，夜靜綸斜霜墜
-<lb n="0528c27" ed="J"/>餌，竿頭躍出化龍魚。</l></lg>
-<lb n="0528c28" ed="J"/><lg xml:id="lgJ37p0528c2801" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">鬧市城中熱萬端，數來相對眼同寒，問余祖意秋江
-<lb n="0528c29" ed="J"/>上，一曲漁歌過遠灘。</l></lg>
-<lb n="0528c30" ed="J"/><lg xml:id="lgJ37p0528c3001" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">自棹輕舟自掃除，清晨迓我過松廬，一湖秋水當門
+<lb n="0528c01" ed="J"/>裂，不知何處著渾身。</l>
+</lg>
+<lb n="0528c02" ed="J"/><lg xml:id="lgJ37p0528c0201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">荷華開盡紫荊開，無事閒行上古臺，日暮路長騎馬
+<lb n="0528c03" ed="J"/>走，利名誰放入出來。</l>
+</lg>
+<lb n="0528c04" ed="J"/><lg xml:id="lgJ37p0528c0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">南山雲起北山頭，王老東村笑不休，白荳華開天又
+<lb n="0528c05" ed="J"/>雨，今年秋勝去年秋。</l>
+</lg>
+<lb n="0528c06" ed="J"/><lg xml:id="lgJ37p0528c0601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">扇子芭蕉自剪為，幽居是事獲便宜，秋心不在梧桐
+<lb n="0528c07" ed="J"/>上，葉落空庭曉未知。</l>
+</lg>
+<lb n="0528c08" ed="J"/><lg xml:id="lgJ37p0528c0801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">石田數畝刈方休，不上高峰即負秋，紅葉幾家村影
+<lb n="0528c09" ed="J"/>亂，穿來一串杖頭收。</l>
+</lg>
+<lb n="0528c10" ed="J"/><lg xml:id="lgJ37p0528c1001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">幸有殘霞箋寄遠，堪從鴈語識行藏，一時道大名還
+<lb n="0528c11" ed="J"/>老，高枕山隈水更香。</l>
+</lg>
+<lb n="0528c12" ed="J"/><lg xml:id="lgJ37p0528c1201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">雙桂香飄幾葉孫，撩天鼻孔漫尋真，皮膚脫盡無多
+<lb n="0528c13" ed="J"/>子，始信渠儂意氣新。</l>
+</lg>
+<lb n="0528c14" ed="J"/><lg xml:id="lgJ37p0528c1401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">霜作鬚眉紙作衣，德涼<note 
+n="0528c1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0528c1401">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【嘉興】">巳</rdg>
+  </app>較古人非，幾回坐落山尖
+<lb n="0528c15" ed="J"/>月，不覺疏煙濕翠微。</l>
+</lg>
+<lb n="0528c16" ed="J"/><lg xml:id="lgJ37p0528c1601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">苔徑斜暉侵錫影，石床華雨放閒身，敲空作響翻成
+<lb n="0528c17" ed="J"/>拙，道在何方此日貧。</l>
+</lg>
+<lb n="0528c18" ed="J"/><lg xml:id="lgJ37p0528c1801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">都知傀儡倒棚休，宇宙勞勞事更悠，洞口縱無黃葉
+<lb n="0528c19" ed="J"/>出，靈源端在古溪頭。</l>
+</lg>
+<lb n="0528c20" ed="J"/><lg xml:id="lgJ37p0528c2001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">三更還自煮雲芽，挂壁青燈照影斜，手接南星忘把
+<lb n="0528c21" ed="J"/>盞，為伊一伴惜年華。</l>
+</lg>
+<lb n="0528c22" ed="J"/><lg xml:id="lgJ37p0528c2201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">地爐煙穩火猶紅，壞衲情深肯伴窮，幾處寒聲驚落
+<lb n="0528c23" ed="J"/>木，故人千里自同風。</l>
+</lg>
+<lb n="0528c24" ed="J"/><lg xml:id="lgJ37p0528c2401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">老屋三椽僅蓋頭，春泉脈脈遶床流，白雲不放青山
+<lb n="0528c25" ed="J"/>嬾，出入松門意未休。</l>
+</lg>
+<lb n="0528c26" ed="J"/><lg xml:id="lgJ37p0528c2601" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">橫鉤新月較眉粗，曾照華亭江上夫，夜靜綸斜霜墜
+<lb n="0528c27" ed="J"/>餌，竿頭躍出化龍魚。</l>
+</lg>
+<lb n="0528c28" ed="J"/><lg xml:id="lgJ37p0528c2801" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">鬧市城中熱萬端，數來相對眼同寒，問余祖意秋江
+<lb n="0528c29" ed="J"/>上，一曲漁歌過遠灘。</l>
+</lg>
+<lb n="0528c30" ed="J"/><lg xml:id="lgJ37p0528c3001" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">自棹輕舟自掃除，清晨迓我過松廬，一湖秋水當門
 <pb n="0529a" ed="J" xml:id="J37.B389.0529a"/>
-<lb n="0529a01" ed="J"/>碧，大富還他長者居。</l></lg>
-<lb n="0529a02" ed="J"/><lg xml:id="lgJ37p0529a0201" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">莫待身閒事始休，乾坤終不置閒郵，直須剔起眉毛
-<lb n="0529a03" ed="J"/>看，大地山河一指頭。</l></lg>
-<lb n="0529a04" ed="J"/><lg xml:id="lgJ37p0529a0401" style="margin-left:0em;text-indent:0em;"><l style="text-indent:0em">莫謂吾宗法社寒，東西各住好峰巒，閒行指點松千
-<lb n="0529a05" ed="J"/>樹，特過平分月一團。</l></lg></cb:div></cb:div>
+<lb n="0529a01" ed="J"/>碧，大富還他長者居。</l>
+</lg>
+<lb n="0529a02" ed="J"/><lg xml:id="lgJ37p0529a0201" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">莫待身閒事始休，乾坤終不置閒郵，直須剔起眉毛
+<lb n="0529a03" ed="J"/>看，大地山河一指頭。</l>
+</lg>
+<lb n="0529a04" ed="J"/><lg xml:id="lgJ37p0529a0401" style="margin-left:0em;text-indent:0em;">
+  <l style="text-indent:0em">莫謂吾宗法社寒，東西各住好峰巒，閒行指點松千
+<lb n="0529a05" ed="J"/>樹，特過平分月一團。</l>
+</lg></cb:div></cb:div>
 <lb n="0529a06" ed="J"/>
 <lb n="0529a07" ed="J"/>
 <lb n="0529a08" ed="J"/>

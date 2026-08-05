@@ -2,88 +2,94 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T33n1695">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">大般若波羅蜜多經般若理趣分述讚</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1695 大般若波羅蜜多經般若理趣分述讚</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1695 大般若波羅蜜多經般若理趣分述讚</title>
-			<author>唐 窺基撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>3卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">33</idno>.<idno type="no">1695</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-03-28T11:44:05">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">大般若波羅蜜多經般若理趣分述讚</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1695 大般若波羅蜜多經般若理趣分述讚</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1695 大般若波羅蜜多經般若理趣分述讚</title>
+      <author>唐 窺基撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">33</idno>.<idno type="no">1695</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-03-28T11:44:05">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0025a" ed="T" xml:id="T33.1695.0025a"/>
 <lb n="0025a01" ed="T"/>
 <lb n="0025a02" ed="T"/><cb:docNumber>No. 1695 [cf. No. 220(10)]</cb:docNumber>
-<lb n="0025a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0025001" resp="Taisho" type="orig" place="foot text">【原】享保元年刊宗教大學藏本</note>大般若波羅蜜多經般若理趣分
+<lb n="0025a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0025001" resp="Taisho" type="orig" place="foot text">【原】享保元年刊宗教大學藏本</note>大般若波羅蜜多經般若理趣分
 <lb n="0025a04" ed="T"/>述讚卷第一</cb:jhead></cb:juan>
 <lb n="0025a05" ed="T"/>
 <lb n="0025a06" ed="T"/><byline cb:type="author">大慈恩寺沙門　基撰</byline>
-<lb n="0025a07" ed="T"/><cb:div type="jing"><lg xml:id="lgT33p0025a0701" type="regular"><l>稽首離性相，<caesura/>心言本空寂，</l>
-<lb n="0025a08" ed="T"/><l>常住真三寶，<caesura/>及我親教尊。</l>
-<lb n="0025a09" ed="T"/><l>理趣甚深法，<caesura/>非我所能讚，</l>
-<lb n="0025a10" ed="T"/><l>今依尊智悲，<caesura/>加持力故說。</l></lg>
+<lb n="0025a07" ed="T"/><cb:div type="jing"><lg xml:id="lgT33p0025a0701" type="regular">
+  <l>稽首離性相，<caesura/>心言本空寂，</l>
+<lb n="0025a08" ed="T"/>
+  <l>常住真三寶，<caesura/>及我親教尊。</l>
+<lb n="0025a09" ed="T"/>
+  <l>理趣甚深法，<caesura/>非我所能讚，</l>
+<lb n="0025a10" ed="T"/>
+  <l>今依尊智悲，<caesura/>加持力故說。</l>
+</lg>
 <lb n="0025a11" ed="T"/><p xml:id="pT33p0025a1101">《瑜伽論》第八十二云「諸說法師將欲開闡，先
 <lb n="0025a12" ed="T"/>當讚佛，或略或廣。」略讚佛者，由五種相：一者
 <lb n="0025a13" ed="T"/>妙色，具三十二大丈夫相圓滿莊嚴，八十隨
@@ -152,7 +158,8 @@
 <lb n="0025c16" ed="T"/>住上法方可說聽，若不住此，徒設劬勞終無
 <lb n="0025c17" ed="T"/>大果。</p>
 <lb n="0025c18" ed="T"/><p xml:id="pT33p0025c1801">將讚經文，略以四門解釋：一、敘經宗旨；二、顯經
-<lb n="0025c19" ed="T"/>體性；三、彰經勝德；四、釋經本文。</p><p xml:id="pT33p0025c1913" cb:place="inline">敘經宗
+<lb n="0025c19" ed="T"/>體性；三、彰經勝德；四、釋經本文。</p>
+<p xml:id="pT33p0025c1913" cb:place="inline">敘經宗
 <lb n="0025c20" ed="T"/>旨者，佛滅度後九百年間，有應真大士厥名清
 <lb n="0025c21" ed="T"/>辨，身同數論之儀、示無朋黨之執，心處釋迦
 <lb n="0025c22" ed="T"/>之理、宗無偏滯之情，時人號為妙吉祥菩薩，
@@ -179,7 +186,8 @@
 <lb n="0026a13" ed="T"/>彌勒《中邊》頌曰「虛妄分別有，於此二都無。此
 <lb n="0026a14" ed="T"/>中唯有空，於彼亦有此。故說一切法，非空非不
 <lb n="0026a15" ed="T"/>空。有無及有故，是即契中道。」此以無所執有
-<lb n="0026a16" ed="T"/>有無為以為宗，廣如常說。</p><p xml:id="pT33p0026a1611" cb:place="inline">二、顯經體性
+<lb n="0026a16" ed="T"/>有無為以為宗，廣如常說。</p>
+<p xml:id="pT33p0026a1611" cb:place="inline">二、顯經體性
 <lb n="0026a17" ed="T"/>者，般若有五：一者實相；二者觀照；三者文字；
 <lb n="0026a18" ed="T"/>四者境界，謂真俗二諦；五者眷屬，謂一切福
 <lb n="0026a19" ed="T"/>智。如開題中已略顯示。經體有二：一者文、二
@@ -205,7 +213,8 @@
 <lb n="0026b09" ed="T"/>句文以為教體，以假及實為教體故。《十地論》
 <lb n="0026b10" ed="T"/>云「說者聽者俱以二事而得究竟：一者聲、二
 <lb n="0026b11" ed="T"/>善字。由熏習力、唯識變力，於說法者識心之上
-<lb n="0026b12" ed="T"/>聚集現故。」如別章說，不能煩引。</p><p xml:id="pT33p0026b1213" cb:place="inline">三、彰經勝
+<lb n="0026b12" ed="T"/>聚集現故。」如別章說，不能煩引。</p>
+<p xml:id="pT33p0026b1213" cb:place="inline">三、彰經勝
 <lb n="0026b13" ed="T"/>德者，此經總名般若理趣，準義名別有十四
 <lb n="0026b14" ed="T"/>種：一、此一切法甚深微妙清淨法門。若聞已
 <lb n="0026b15" ed="T"/>信受，得八勝果：一、乃至當坐妙菩提座，一切
@@ -255,8 +264,10 @@
 <lb n="0026c29" ed="T"/>隨願往生；十八、乃至菩提不墮惡趣。諸有
 <pb n="0027a" ed="T" xml:id="T33.1695.0027a"/>
 <lb n="0027a01" ed="T"/>情類受持此經定獲無邊勝利功德，我今略
-<lb n="0027a02" ed="T"/>說如是少分。</p><p xml:id="pT33p0027a0206" cb:place="inline">四、釋經本文者。</p>
-<lb n="0027a03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0027a0301">經曰：如是我聞。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0027a0307" cb:place="inline">述曰：於此經中略有三分：
+<lb n="0027a02" ed="T"/>說如是少分。</p>
+<p xml:id="pT33p0027a0206" cb:place="inline">四、釋經本文者。</p>
+<lb n="0027a03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0027a0301">經曰：如是我聞。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0027a0307" cb:place="inline">述曰：於此經中略有三分：
 <lb n="0027a04" ed="T"/>初從「如是乃至圓滿清白梵行」，是序分也；「爾
 <lb n="0027a05" ed="T"/>時世尊為諸菩薩說一切法甚深微妙乃至略
 <lb n="0027a06" ed="T"/>說如是少分」，是正宗分也；「時薄伽梵乃至奉
@@ -276,7 +287,12 @@
 <lb n="0027a20" ed="T"/>如何治惡性？經首置何言？佛言：戒能訓誨，可以
 <lb n="0027a21" ed="T"/>為師。念處破倒，依之而住。梵法默，伏彼惡人。
 <lb n="0027a22" ed="T"/>一切經初皆標六事。」初是正行，次是正解，後辨
-<lb n="0027a23" ed="T"/>治障修<note n="0027001" resp="Taisho" type="orig" place="foot text">〔解〕ィ－【原】</note><note n="0027001" resp="CBETA" type="mod">解【大】，〔－〕【校異-原】</note><app n="0027001"><lem wit="【大】">解</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>行之緣。然此三門必依聖教，故但
+<lb n="0027a23" ed="T"/>治障修<note 
+n="0027001" resp="Taisho" type="orig" place="foot text">〔解〕ィ－【原】</note><note 
+n="0027001" resp="CBETA" type="mod">解【大】，〔－〕【校異-原】</note><app n="0027001">
+  <lem wit="【大】">解</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>行之緣。然此三門必依聖教，故但
 <lb n="0027a24" ed="T"/>四問不減不增。《智度論》云阿㝹樓馱教阿難
 <lb n="0027a25" ed="T"/>請四事，《大悲經》說優波離教，今謂二人同教。
 <lb n="0027a26" ed="T"/>又廣明結集因緣，如別抄記。真諦云：「微細律
@@ -295,7 +311,8 @@
 <lb n="0027b09" ed="T"/>等謗，第五如是此經因果非非有非非無名
 <lb n="0027b10" ed="T"/>戲論謗，第四句名愚癡謗。」光宅云：「如是將傳
 <lb n="0027b11" ed="T"/>所聞，前題舉一部也。如是一部經義，我親從
-<lb n="0027b12" ed="T"/>佛聞，即為我聞作<note n="0027002" resp="Taisho" type="orig" place="foot text">底本冠註曰吉藏法花義疏呼徹作𠱚胤</note>呼徹也。」梁武帝云：「如是
+<lb n="0027b12" ed="T"/>佛聞，即為我聞作<note 
+n="0027002" resp="Taisho" type="orig" place="foot text">底本冠註曰吉藏法花義疏呼徹作𠱚胤</note>呼徹也。」梁武帝云：「如是
 <lb n="0027b13" ed="T"/>如斯之言，是佛所說，故言如是。」上來五解，竝
 <lb n="0027b14" ed="T"/>是吉藏法師之所引也。真諦及長耳皆云：「如
 <lb n="0027b15" ed="T"/>是有三：一、就佛，三世諸佛共說不異名如，以
@@ -342,7 +359,12 @@
 <lb n="0027c26" ed="T"/>本。作意所生、觸所集起、受所引攝、定為增上、
 <lb n="0027c27" ed="T"/>慧為最勝解脫為堅固、出離為後邊。」信既為
 <lb n="0027c28" ed="T"/>欲依，所以初說。三、學佛法者如大龍象，以信
-<lb n="0027c29" ed="T"/>為手、以捨為<note n="0027003" resp="Taisho" type="orig" place="foot text">牙＝身ィ【原】</note><note n="0027003" resp="CBETA" type="mod">牙【大】，身【校異-原】</note><app n="0027003"><lem wit="【大】">牙</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">身</rdg></app>、以念為頸、以慧為頭，於其
+<lb n="0027c29" ed="T"/>為手、以捨為<note 
+n="0027003" resp="Taisho" type="orig" place="foot text">牙＝身ィ【原】</note><note 
+n="0027003" resp="CBETA" type="mod">牙【大】，身【校異-原】</note><app n="0027003">
+  <lem wit="【大】">牙</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">身</rdg>
+</app>、以念為頸、以慧為頭，於其
 <pb n="0028a" ed="T" xml:id="T33.1695.0028a"/>
 <lb n="0028a01" ed="T"/>兩肩擔集善法。此乃《大毘婆沙》說也。四、法為
 <lb n="0028a02" ed="T"/>諸佛手，信為眾生手。故《俱舍》言「拔眾生出生
@@ -372,7 +394,8 @@
 <lb n="0028a26" ed="T"/>流布我，謂世共傳張王等姓、天授等名世流
 <lb n="0028a27" ed="T"/>之我。今傳法者隨順世間自指之言，稱之為
 <lb n="0028a28" ed="T"/>我，不同前二，非妄執故、非假施設，然體即是
-<lb n="0028a29" ed="T"/>無我之我也。</p><p xml:id="pT33p0028a2906" cb:place="inline">問：諸佛說法本除我執，何故阿難
+<lb n="0028a29" ed="T"/>無我之我也。</p>
+<p xml:id="pT33p0028a2906" cb:place="inline">問：諸佛說法本除我執，何故阿難
 <pb n="0028b" ed="T" xml:id="T33.1695.0028b"/>
 <lb n="0028b01" ed="T"/>不稱名字乃稱於我？答：以理而言亦應稱字，
 <lb n="0028b02" ed="T"/>略有三義但總稱我。一、示不乖俗。宗雖顯真、
@@ -396,7 +419,8 @@
 <lb n="0028b20" ed="T"/>然耳不能親取諸法差別名等，如〈聞所成地〉
 <lb n="0028b21" ed="T"/>從方便說，因聞成法竝名耳聞，如觀第二月
 <lb n="0028b22" ed="T"/>見旋火輪等，如毘留離王為殺諸釋種，語皆
-<lb n="0028b23" ed="T"/>唯意識，自耳不緣故。</p><p xml:id="pT33p0028b2309" cb:place="inline">問：阿難于時親見佛說
+<lb n="0028b23" ed="T"/>唯意識，自耳不緣故。</p>
+<p xml:id="pT33p0028b2309" cb:place="inline">問：阿難于時親見佛說
 <lb n="0028b24" ed="T"/>亦親覺知佛說，何故不言如是我見我覺我
 <lb n="0028b25" ed="T"/>知，但言我聞？答：有三義。一、欲證深理、欲悟所
 <lb n="0028b26" ed="T"/>詮要依聞教，見覺知等非初達理，雖亦實見
@@ -407,7 +431,8 @@
 <lb n="0028c01" ed="T"/>覺知等；今顯異彼，故但言聞。三、欲顯智覺菩
 <lb n="0028c02" ed="T"/>提要因熏習方得。若不聽聞正法，三慧無由
 <lb n="0028c03" ed="T"/>得生，故經首言聞，令熏習增長有漏無漏，遞
-<lb n="0028c04" ed="T"/>相增長能生出世世間果等，故但言聞。</p><p xml:id="pT33p0028c0416" cb:place="inline">問：《大
+<lb n="0028c04" ed="T"/>相增長能生出世世間果等，故但言聞。</p>
+<p xml:id="pT33p0028c0416" cb:place="inline">問：《大
 <lb n="0028c05" ed="T"/>般若》等佛自說言：「我從成道終至涅槃，於其
 <lb n="0028c06" ed="T"/>中間不說一字。」何故慶喜謗佛說法，自稱我
 <lb n="0028c07" ed="T"/>聞？又《升攝波葉喻經》言「已所說法如手中葉，
@@ -453,7 +478,8 @@
 <lb n="0029a17" ed="T"/>教者依如來教初說此言，為令眾生恭敬信
 <lb n="0029a18" ed="T"/>受，言如是法我從佛聞，文義決定無所增減，
 <lb n="0029a19" ed="T"/>是故聞者應正聞已，如理思惟常勤修學。</p></cb:div>
-<lb n="0029a20" ed="T"/><cb:div type="orig"><p xml:id="pT33p0029a2001">經曰：一時。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0029a2005" cb:place="inline">述曰：第二、明說教時分，即化辰
+<lb n="0029a20" ed="T"/><cb:div type="orig"><p xml:id="pT33p0029a2001">經曰：一時。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0029a2005" cb:place="inline">述曰：第二、明說教時分，即化辰
 <lb n="0029a21" ed="T"/>也。法王啟化之日，大眾嘉會之時，此就剎那
 <lb n="0029a22" ed="T"/>相續無斷、說聽究竟，隨其分位總名一時。不
 <lb n="0029a23" ed="T"/>爾字等，說聽時異，云何名一？此中不定約剎
@@ -478,13 +504,19 @@
 <lb n="0029b12" ed="T"/>名現在，即名為時，說為三世。今此三世事緒
 <lb n="0029b13" ed="T"/>究竟總名一時。二者、此時說聽二徒識心之上
 <lb n="0029b14" ed="T"/>變作行相，三時體起，即是世識，謂是一念或
-<lb n="0029b15" ed="T"/>復多劫，事緒究竟假名一時。如人夢中<note n="0029001" resp="Taisho" type="orig" place="foot text">〔夢〕ィ－【原】</note><note n="0029001" resp="CBETA" type="mod">夢【大】，〔－〕【校異-原】</note><app n="0029001"><lem wit="【大】">夢</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>見
+<lb n="0029b15" ed="T"/>復多劫，事緒究竟假名一時。如人夢中<note 
+n="0029001" resp="Taisho" type="orig" place="foot text">〔夢〕ィ－【原】</note><note 
+n="0029001" resp="CBETA" type="mod">夢【大】，〔－〕【校異-原】</note><app n="0029001">
+  <lem wit="【大】">夢</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>見
 <lb n="0029b16" ed="T"/>多生生死謂三世遷流，覺竟但有一虛妄心，
 <lb n="0029b17" ed="T"/>知無三世。今以理說，時體亦爾，但有妄心變
 <lb n="0029b18" ed="T"/>似三世，事緒究竟總名一時。由義說故，唯意
 <lb n="0029b19" ed="T"/>所緣行蘊，法處法界所攝。何不別說十二時
 <lb n="0029b20" ed="T"/>等？如淨穢處、晝夜時分，諸方不定。處則方定，
-<lb n="0029b21" ed="T"/>故於時中但總言一。</p><p xml:id="pT33p0029b2109" cb:place="inline">問：處中有淨穢，不定但
+<lb n="0029b21" ed="T"/>故於時中但總言一。</p>
+<p xml:id="pT33p0029b2109" cb:place="inline">問：處中有淨穢，不定但
 <lb n="0029b22" ed="T"/>說一，諸方時不同，何妨亦定說。凡夫見穢處，
 <lb n="0029b23" ed="T"/>知聖居淨土。何不別論此時說，準餘知別時。
 <lb n="0029b24" ed="T"/>答：或一剎那或復多劫不可定說，準不解故，
@@ -492,7 +524,8 @@
 <lb n="0029b26" ed="T"/>促延、或所執以雙泯、或依他以妄法、或實性
 <lb n="0029b27" ed="T"/>以平等、或聖力以加持，故有延促。無勞疑惑，
 <lb n="0029b28" ed="T"/>義準應釋。</p></cb:div>
-<lb n="0029b29" ed="T"/><cb:div type="orig"><p xml:id="pT33p0029b2901">經曰：薄伽梵。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0029b2906" cb:place="inline">述曰：自下第三、別說教主。欲
+<lb n="0029b29" ed="T"/><cb:div type="orig"><p xml:id="pT33p0029b2901">經曰：薄伽梵。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0029b2906" cb:place="inline">述曰：自下第三、別說教主。欲
 <pb n="0029c" ed="T" xml:id="T33.1695.0029c"/>
 <lb n="0029c01" ed="T"/>歎法出勝人，其法必勝。顯教主中有二：初標
 <lb n="0029c02" ed="T"/>名、後歎德。此標名也。古名婆伽婆，義當世尊
@@ -512,7 +545,12 @@
 <lb n="0029c16" ed="T"/>故，具尊貴義。或能破壞四魔怨故，名薄伽梵。
 <lb n="0029c17" ed="T"/>四魔怨者，謂煩惱、蘊、死、自在天魔。破諸有
 <lb n="0029c18" ed="T"/>情所修善等，名之為魔。入第三劫破煩惱死
-<lb n="0029c19" ed="T"/>魔，將至金剛心<note n="0029002" resp="Taisho" type="orig" place="foot text">〔取〕ィ－【原】</note><note n="0029002" resp="CBETA" type="mod">取【大】，〔－〕【校異-原】</note><app n="0029002"><lem wit="【大】">取</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>破其天魔，解脫道起破其
+<lb n="0029c19" ed="T"/>魔，將至金剛心<note 
+n="0029002" resp="Taisho" type="orig" place="foot text">〔取〕ィ－【原】</note><note 
+n="0029002" resp="CBETA" type="mod">取【大】，〔－〕【校異-原】</note><app n="0029002">
+  <lem wit="【大】">取</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>破其天魔，解脫道起破其
 <lb n="0029c20" ed="T"/>蘊魔。若論其相，金剛心時破煩惱魔，菩提樹
 <lb n="0029c21" ed="T"/>下破自在天魔，捨第五分壽入無餘滅破其蘊
 <lb n="0029c22" ed="T"/>魔，更留三月破其死魔。若其實義，惱亂菩薩
@@ -522,7 +560,8 @@
 <lb n="0029c26" ed="T"/>信菩薩八相成道已應伏天魔。或十住第六
 <lb n="0029c27" ed="T"/>心始伏天魔。是中永離生死出三界故，可伏
 <lb n="0029c28" ed="T"/>天魔。或入初地即伏天魔。《佛地論》初地已上
-<lb n="0029c29" ed="T"/>離麁四魔，隨情取捨。故破四魔名薄伽梵。</p><p xml:id="pT33p0029c2917" cb:place="inline">問：
+<lb n="0029c29" ed="T"/>離麁四魔，隨情取捨。故破四魔名薄伽梵。</p>
+<p xml:id="pT33p0029c2917" cb:place="inline">問：
 <pb n="0030a" ed="T" xml:id="T33.1695.0030a"/>
 <lb n="0030a01" ed="T"/>佛具十號，何故經首佛教慶喜說此名也？答：
 <lb n="0030a02" ed="T"/>由此一名世咸尊重故，諸外道皆稱本師名薄
@@ -574,7 +613,8 @@
 <lb n="0030b18" ed="T"/>成辨無餘。<note place="inline">七</note>一切有情種種希願隨其無罪皆
 <lb n="0030b19" ed="T"/>能滿足。<note place="inline">八</note>已善安住三世平等常無斷盡廣大
 <lb n="0030b20" ed="T"/>遍照。<note place="inline">九</note>身語心性猶若金剛等諸如來無動無
-<lb n="0030b21" ed="T"/>壞。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0030b2102" cb:place="inline">述曰：此中九句歎如來德。依諸經論略
+<lb n="0030b21" ed="T"/>壞。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0030b2102" cb:place="inline">述曰：此中九句歎如來德。依諸經論略
 <lb n="0030b22" ed="T"/>為三釋：第一、且依此經文解。其第一句總歎
 <lb n="0030b23" ed="T"/>如來兼以下德，餘之八句別歎如來列諸德
 <lb n="0030b24" ed="T"/>異。然下正宗有十四段，以顯世尊十四實德。
@@ -585,8 +625,17 @@
 <lb n="0030b29" ed="T"/>顯也。舉下一德二種法門其種種希有殊勝
 <pb n="0030c" ed="T" xml:id="T33.1695.0030c"/>
 <lb n="0030c01" ed="T"/>功德者，總指餘七句所有勝德，餘十二段所
-<lb n="0030c02" ed="T"/>有法門不可一一具足<note n="0030c0201" resp="CBETA" type="add" note_key="T33.0030c02.10">列【CB】【卍續-CB】，烈【大】</note><app n="0030c0201"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">列<note type="cf1">X24n0453_p0358a21</note></lem><rdg wit="【大】">烈</rdg></app>故。此總解已。別解
-<lb n="0030c03" ed="T"/>釋者，妙者功德微細故，善者非佛不<note n="0030001" resp="Taisho" type="orig" place="foot text">惻＝測【原】</note><note n="0030001" resp="CBETA" type="mod">惻【大】，測【原】</note><app n="0030001"><lem wit="【大】">惻</lem><rdg resp="Taisho" wit="【原】">測</rdg></app>故。又
+<lb n="0030c02" ed="T"/>有法門不可一一具足<note 
+n="0030c0201" resp="CBETA" type="add" note_key="T33.0030c02.10">列【CB】【卍續-CB】，烈【大】</note><app n="0030c0201">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">列<note type="cf1">X24n0453_p0358a21</note></lem>
+  <rdg wit="【大】">烈</rdg>
+</app>故。此總解已。別解
+<lb n="0030c03" ed="T"/>釋者，妙者功德微細故，善者非佛不<note 
+n="0030001" resp="Taisho" type="orig" place="foot text">惻＝測【原】</note><note 
+n="0030001" resp="CBETA" type="mod">惻【大】，測【原】</note><app n="0030001">
+  <lem wit="【大】">惻</lem>
+  <rdg resp="Taisho" wit="【原】">測</rdg>
+</app>故。又
 <lb n="0030c04" ed="T"/>內道不了名妙，外道不知名善。又智深難測
 <lb n="0030c05" ed="T"/>名妙，福細叵識為善。言成就者，自在任運能
 <lb n="0030c06" ed="T"/>現前義。又剋獲圓滿名為成就。一切如來者，
@@ -642,14 +691,24 @@
 <lb n="0031a26" ed="T"/>佛之長子名為太子，十方諸佛是其師傅，各
 <lb n="0031a27" ed="T"/>舒慧手及右臂手，以三世佛清淨法水灌灑其
 <lb n="0031a28" ed="T"/>頂，頂謂心首及其頭首，除無始來二障垢穢
-<lb n="0031a29" ed="T"/>有漏染污，遍滿清淨無漏潔白殊勝法<note n="0031001" resp="Taisho" type="orig" place="foot text">〔王〕ィ－【原】</note><note n="0031001" resp="CBETA" type="mod">王【大】，〔－〕【校異-原】</note><app n="0031001"><lem wit="【大】">王</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>位。
+<lb n="0031a29" ed="T"/>有漏染污，遍滿清淨無漏潔白殊勝法<note 
+n="0031001" resp="Taisho" type="orig" place="foot text">〔王〕ィ－【原】</note><note 
+n="0031001" resp="CBETA" type="mod">王【大】，〔－〕【校異-原】</note><app n="0031001">
+  <lem wit="【大】">王</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>位。
 <pb n="0031b" ed="T" xml:id="T33.1695.0031b"/>
 <lb n="0031b01" ed="T"/>如世太子既灌頂已將受王位，戴王之冠、著王
 <lb n="0031b02" ed="T"/>之服、處王之殿。佛法太子亦復如是，將受法
 <lb n="0031b03" ed="T"/>王法主之位，戴佛之冠，謂一切智、一切種智，
 <lb n="0031b04" ed="T"/>是佛心首所戴持故，即是觀照波羅蜜多，此
 <lb n="0031b05" ed="T"/>功德法真實珍寶，七聖財中名為慧財，故此
-<lb n="0031b06" ed="T"/>冠冤名為寶冠。服<note n="0031002" resp="Taisho" type="orig" place="foot text">二＝三ィ【原】</note><note n="0031002" resp="CBETA" type="mod">二【大】，三【校異-原】</note><app n="0031002"><lem wit="【大】">二</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">三</rdg></app>際佛功德法衣，即是慚
+<lb n="0031b06" ed="T"/>冠冤名為寶冠。服<note 
+n="0031002" resp="Taisho" type="orig" place="foot text">二＝三ィ【原】</note><note 
+n="0031002" resp="CBETA" type="mod">二【大】，三【校異-原】</note><app n="0031002">
+  <lem wit="【大】">二</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">三</rdg>
+</app>際佛功德法衣，即是慚
 <lb n="0031b07" ed="T"/>愧柔和忍辱之上衣也。此智慧冠是大智藏，
 <lb n="0031b08" ed="T"/>一切善法因此生故。處十方佛空寂寶殿，由
 <lb n="0031b09" ed="T"/>戴如是冠衣等故，無始惡友以煩惱水澆其
@@ -658,7 +717,12 @@
 <lb n="0031b12" ed="T"/>永為棄捨，永更不入三界牢獄，故名降伏眾
 <lb n="0031b13" ed="T"/>惡普勝法門，亦名灌頂智藏法門。由如是故
 <lb n="0031b14" ed="T"/>為三界主，出諸有漏生死繫縛超三界也。自
-<lb n="0031b15" ed="T"/>體無漏名為<note n="0031003" resp="Taisho" type="orig" place="foot text">遍＝過ヵ【原】</note><note n="0031003" resp="CBETA" type="mod">遍【大】，過【考偽-原】</note><app n="0031003"><lem resp="Taisho" wit="【大】">遍</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">過</rdg></app>也。故下經云「若以世間灌頂
+<lb n="0031b15" ed="T"/>體無漏名為<note 
+n="0031003" resp="Taisho" type="orig" place="foot text">遍＝過ヵ【原】</note><note 
+n="0031003" resp="CBETA" type="mod">遍【大】，過【考偽-原】</note><app n="0031003">
+  <lem resp="Taisho" wit="【大】">遍</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">過</rdg>
+</app>也。故下經云「若以世間灌頂
 <lb n="0031b16" ed="T"/>位施，當得出世法王位果」。第三句云「遍金剛
 <lb n="0031b17" ed="T"/>智大觀自在」者，即下十四段中第十二一切有
 <lb n="0031b18" ed="T"/>情住持遍滿勝藏法門，謂佛具證一切有情
@@ -766,7 +830,8 @@
 <pb n="0032c" ed="T" xml:id="T33.1695.0032c"/>
 <lb n="0032c01" ed="T"/>此已當發勝心欣求證得。或顯世尊具此諸
 <lb n="0032c02" ed="T"/>德超過一切，是故所說甚深理趣最為殊勝
-<lb n="0032c03" ed="T"/>可依修學。</p><p xml:id="pT33p0032c0305" cb:place="inline">第二又解：依諸經中說佛具有二
+<lb n="0032c03" ed="T"/>可依修學。</p>
+<p xml:id="pT33p0032c0305" cb:place="inline">第二又解：依諸經中說佛具有二
 <lb n="0032c04" ed="T"/>十一德，別配此等九句。經文金剛住持平等
 <lb n="0032c05" ed="T"/>性智者，謂佛不二現行一向無障殊勝功德，
 <lb n="0032c06" ed="T"/>及顯逮得一切佛平等性，得一切佛相似事
@@ -803,7 +868,12 @@
 <lb n="0033a07" ed="T"/>佛位超過三界。此第二句世尊之德，無始不
 <lb n="0033a08" ed="T"/>成今時始得，名之為獲。第三句云遍金剛智
 <lb n="0033a09" ed="T"/>大觀自在，即佛三德：一不可轉法、二住於佛
-<lb n="0033a10" ed="T"/><note n="0033001" resp="Taisho" type="orig" place="foot text">住＝位ィ【原】</note><note n="0033001" resp="CBETA" type="mod">住【大】，位【校異-原】</note><app n="0033001"><lem wit="【大】">住</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">位</rdg></app>、三於一切行成就大覺。此中初句降伏外
+<lb n="0033a10" ed="T"/><note 
+n="0033001" resp="Taisho" type="orig" place="foot text">住＝位ィ【原】</note><note 
+n="0033001" resp="CBETA" type="mod">住【大】，位【校異-原】</note><app n="0033001">
+  <lem wit="【大】">住</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">位</rdg>
+</app>、三於一切行成就大覺。此中初句降伏外
 <lb n="0033a11" ed="T"/>道殊勝功德，謂佛正法一切外道不能退轉，
 <lb n="0033a12" ed="T"/>降伏彼已顯自正道，以由成就遍金剛智，說
 <lb n="0033a13" ed="T"/>甚深法降伏外道；又由成就遍諸法智，能說
@@ -846,7 +916,12 @@
 <lb n="0033b20" ed="T"/>中不染。此真如理印於諸法契畢竟空，方能
 <lb n="0033b21" ed="T"/>證會佛皆圓證。第六句云於諸能作所作事
 <lb n="0033b22" ed="T"/>業皆得善巧成辨無餘者，此顯世尊二種功
-<lb n="0033b23" ed="T"/>德：一其身流<note n="0033002" resp="Taisho" type="orig" place="foot text">布＝下ィ【原】</note><note n="0033002" resp="CBETA" type="mod">布【大】，下【校異-原】</note><app n="0033002"><lem wit="【大】">布</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">下</rdg></app>一切世界、二其所成立不可
+<lb n="0033b23" ed="T"/>德：一其身流<note 
+n="0033002" resp="Taisho" type="orig" place="foot text">布＝下ィ【原】</note><note 
+n="0033002" resp="CBETA" type="mod">布【大】，下【校異-原】</note><app n="0033002">
+  <lem wit="【大】">布</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">下</rdg>
+</app>一切世界、二其所成立不可
 <lb n="0033b24" ed="T"/>思議。此中第一句現從覩史多天宮來下殊
 <lb n="0033b25" ed="T"/>勝功德。謂現化身普於一切世界洲渚同時
 <lb n="0033b26" ed="T"/>流下入母胎故，謂即八相示現成道，此即世
@@ -897,11 +972,16 @@
 <lb n="0034a11" ed="T"/>無漏。猶如金剛以一切佛非餘動壞，此第二
 <lb n="0034a12" ed="T"/>句能正攝受無染自身殊勝功德。謂佛自身
 <lb n="0034a13" ed="T"/>非是虛妄分別所起，無煩惱業生雜染故。以
-<lb n="0034a14" ed="T"/>如來身非<note n="0034a1401" resp="CBETA" type="add">是【CB】，<space quantity="1" unit="chars"/>【大】</note><app n="0034a1401"><lem resp="CBETA.maha" wit="【CB】">是<note type="cf1">TW33n1695_p0034a14</note><note type="cf2">T26n1530_p0296c22</note></lem><rdg wit="【大】"><space quantity="1" unit="chars"/></rdg></app>雜染分別起故、不可分別故。佛
+<lb n="0034a14" ed="T"/>如來身非<note 
+n="0034a1401" resp="CBETA" type="add">是【CB】，<space quantity="1" unit="chars"/>【大】</note><app n="0034a1401">
+  <lem resp="CBETA.maha" wit="【CB】">是<note type="cf1">TW33n1695_p0034a14</note><note type="cf2">T26n1530_p0296c22</note></lem>
+  <rdg wit="【大】"><space quantity="1" unit="chars"/></rdg>
+</app>雜染分別起故、不可分別故。佛
 <lb n="0034a15" ed="T"/>三業由離過失，猶若金剛不可動壞，等一切
 <lb n="0034a16" ed="T"/>佛。此中九句文義開合總歎二十一德。此中
 <lb n="0034a17" ed="T"/>且依《佛地》初釋，恐文繁廣不錄後師。《攝大乘》
-<lb n="0034a18" ed="T"/>等隨應廣說，不能一一。</p><p xml:id="pT33p0034a1810" cb:place="inline">第三又解：此九句經，
+<lb n="0034a18" ed="T"/>等隨應廣說，不能一一。</p>
+<p xml:id="pT33p0034a1810" cb:place="inline">第三又解：此九句經，
 <lb n="0034a19" ed="T"/>初四句嘆報身：第一句總歎四智微圓報身
 <lb n="0034a20" ed="T"/>實德，不論法界；第二句歎道勝位尊；第三
 <lb n="0034a21" ed="T"/>句歎悲深智遍二果齊圓；第四句歎慧廣智
@@ -920,10 +1000,20 @@
 <lb n="0034b04" ed="T"/>識眾像影現故，由此名為一切智者，故佛身
 <lb n="0034b05" ed="T"/>諸德此能住持。又由鏡智自餘相續出世世
 <lb n="0034b06" ed="T"/>善諸處境識皆依鏡智而得生，故名為住持。
-<lb n="0034b07" ed="T"/>二、又如圓鏡無動無搖。眾生觀察自身<note n="0034001" resp="Taisho" type="orig" place="foot text">得＝德ィ【原】</note><note n="0034001" resp="CBETA" type="mod">得【大】，德【校異-原】</note><app n="0034001"><lem wit="【大】">得</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">德</rdg></app>失，
+<lb n="0034b07" ed="T"/>二、又如圓鏡無動無搖。眾生觀察自身<note 
+n="0034001" resp="Taisho" type="orig" place="foot text">得＝德ィ【原】</note><note 
+n="0034001" resp="CBETA" type="mod">得【大】，德【校異-原】</note><app n="0034001">
+  <lem wit="【大】">得</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">德</rdg>
+</app>失，
 <lb n="0034b08" ed="T"/>為欲存德捨諸失。喻如來鏡智懸法界幢無
 <lb n="0034b09" ed="T"/>間斷故無所動搖，無數眾生觀於染淨，為欲
-<lb n="0034b10" ed="T"/>存淨捨諸染故。三、如鏡善<note n="0034002" resp="Taisho" type="orig" place="foot text">鑒＝瑩ヵ【原】</note><note n="0034002" resp="CBETA" type="mod">鑒【大】，瑩【考偽-原】</note><app n="0034002"><lem resp="Taisho" wit="【大】">鑒</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">瑩</rdg></app>鑒淨無垢光明
+<lb n="0034b10" ed="T"/>存淨捨諸染故。三、如鏡善<note 
+n="0034002" resp="Taisho" type="orig" place="foot text">鑒＝瑩ヵ【原】</note><note 
+n="0034002" resp="CBETA" type="mod">鑒【大】，瑩【考偽-原】</note><app n="0034002">
+  <lem resp="Taisho" wit="【大】">鑒</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">瑩</rdg>
+</app>鑒淨無垢光明
 <lb n="0034b11" ed="T"/>遍照。喻如來鏡智離二障垢，極善磨瑩、為
 <lb n="0034b12" ed="T"/>定攝持、鑒淨無垢，作大利樂事，名光明遍照。
 <lb n="0034b13" ed="T"/>四、如鏡依緣本質種種影相生起。喻如來鏡
@@ -946,7 +1036,12 @@
 <pb n="0034c" ed="T" xml:id="T33.1695.0034c"/>
 <lb n="0034c01" ed="T"/>緣，非聖法器，故非彼緣。由此九喻，隨其所應
 <lb n="0034c02" ed="T"/>與自他身、有性無性、世出世善為因緣故，名
-<lb n="0034c03" ed="T"/>為住持。平等<note n="0034003" resp="Taisho" type="orig" place="foot text">性＋（智）ィ【原】</note><note n="0034003" resp="CBETA" type="mod">性【大】，性智【校異-原】</note><app n="0034003"><lem wit="【大】">性</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">性智</rdg></app>者，謂十平等：一、諸相增上喜
+<lb n="0034c03" ed="T"/>為住持。平等<note 
+n="0034003" resp="Taisho" type="orig" place="foot text">性＋（智）ィ【原】</note><note 
+n="0034003" resp="CBETA" type="mod">性【大】，性智【校異-原】</note><app n="0034003">
+  <lem wit="【大】">性</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">性智</rdg>
+</app>者，謂十平等：一、諸相增上喜
 <lb n="0034c04" ed="T"/>愛平等法性。謂於相好生喜愛故，今證法性
 <lb n="0034c05" ed="T"/>悉皆平等。二、一切領受緣起平等法性。謂內
 <lb n="0034c06" ed="T"/>外緣起。三、遠離異相非相平等法性。色等諸
@@ -998,7 +1093,11 @@
 <lb n="0035a22" ed="T"/>切境相頓起生因也。三、歡喜因。此智可玩，波
 <lb n="0035a23" ed="T"/>羅蜜多、<anchor xml:id="fxT33p0035a01"/>菩提分法、十力、無畏、不共佛法之所
 <lb n="0035a24" ed="T"/>莊嚴，甚可愛樂。四、分別因。此智之上世及出
-<lb n="0035a25" ed="T"/>世衰盛因果、三乘圓證無餘觀察，妙飾間<note n="0035a2501" resp="CBETA" type="add" note_key="T33.0035a25.17">列【CB】【卍續-CB】，烈【大】</note><app n="0035a2501"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">列<note type="cf1">X24n0453_p0363b04</note></lem><rdg wit="【大】">烈</rdg></app>。
+<lb n="0035a25" ed="T"/>世衰盛因果、三乘圓證無餘觀察，妙飾間<note 
+n="0035a2501" resp="CBETA" type="add" note_key="T33.0035a25.17">列【CB】【卍續-CB】，烈【大】</note><app n="0035a2501">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">列<note type="cf1">X24n0453_p0363b04</note></lem>
+  <rdg wit="【大】">烈</rdg>
+</app>。
 <lb n="0035a26" ed="T"/>世間惡趣善趣以為衰盛因果，出世以二乘
 <lb n="0035a27" ed="T"/>大乘為衰盛因果也。又有異解，如《佛地》第五。
 <lb n="0035a28" ed="T"/>五、受用因。此智助平等智為增上緣，擊發鏡
@@ -1068,7 +1167,12 @@
 <lb n="0036a02" ed="T"/>來現在等義。此四即是一向、分別、返問、置記
 <lb n="0036a03" ed="T"/>四種論說，謂三寶性良福田等。此三業化即
 <lb n="0036a04" ed="T"/>三神變，謂神通、記說、教戒三種。由此義故，說
-<lb n="0036a05" ed="T"/>佛世尊名大<note n="0036001" resp="Taisho" type="orig" place="foot text">〔聖〕ィ－【原】</note><note n="0036001" resp="CBETA" type="mod">聖【大】，〔－〕【校異-原】</note><app n="0036001"><lem wit="【大】">聖</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>智藥，能除一切煩惱病故。妙
+<lb n="0036a05" ed="T"/>佛世尊名大<note 
+n="0036001" resp="Taisho" type="orig" place="foot text">〔聖〕ィ－【原】</note><note 
+n="0036001" resp="CBETA" type="mod">聖【大】，〔－〕【校異-原】</note><app n="0036001">
+  <lem wit="【大】">聖</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>智藥，能除一切煩惱病故。妙
 <lb n="0036a06" ed="T"/>觀察智、成所作智各有十因，故名種種希有功
 <lb n="0036a07" ed="T"/>德。此句總顯報身實德，故以四智初門讚述。
 <lb n="0036a08" ed="T"/>餘色非色諸有為德，皆是四智品類攝故。第
@@ -1090,7 +1194,12 @@
 <lb n="0036a24" ed="T"/>拔無有遺漏，名大觀自在。顯佛諸德莫過此
 <lb n="0036a25" ed="T"/>二，攝法周盡隨應廣攝。　第四句云決定諸
 <lb n="0036a26" ed="T"/>法大妙智印者，歎慧廣智德，總印一切有空
-<lb n="0036a27" ed="T"/>事理，證不謬故。智有二種，二種無<note n="0036002" resp="Taisho" type="orig" place="foot text">智＝知ィ【原】</note><note n="0036002" resp="CBETA" type="mod">智【大】，知【校異-原】</note><app n="0036002"><lem wit="【大】">智</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">知</rdg></app>皆已斷
+<lb n="0036a27" ed="T"/>事理，證不謬故。智有二種，二種無<note 
+n="0036002" resp="Taisho" type="orig" place="foot text">智＝知ィ【原】</note><note 
+n="0036002" resp="CBETA" type="mod">智【大】，知【校異-原】</note><app n="0036002">
+  <lem wit="【大】">智</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">知</rdg>
+</app>皆已斷
 <lb n="0036a28" ed="T"/>盡，故得二智。有為智能知有為定無常，無為
 <lb n="0036a29" ed="T"/>智能知無為定寂靜。此二無我印法定然，必
 <pb n="0036b" ed="T" xml:id="T33.1695.0036b"/>
@@ -1122,7 +1231,12 @@
 <lb n="0036b26" ed="T"/>財已增長惡業所以不與。《攝大乘》云「寧使貧
 <lb n="0036b27" ed="T"/>乏於財位，遠離惡趣諸惡行，勿彼起過亂諸
 <lb n="0036b28" ed="T"/>根，能感當來眾苦器。」諸根缺等，類此應知。若
-<lb n="0036b29" ed="T"/>求智<note n="0036003" resp="Taisho" type="orig" place="foot text">門＝明ィ【原】</note><note n="0036003" resp="CBETA" type="mod">門【大】，明【校異-原】</note><app n="0036003"><lem wit="【大】">門</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">明</rdg></app>無罪福慧，然必皆與。如末利夫人願
+<lb n="0036b29" ed="T"/>求智<note 
+n="0036003" resp="Taisho" type="orig" place="foot text">門＝明ィ【原】</note><note 
+n="0036003" resp="CBETA" type="mod">門【大】，明【校異-原】</note><app n="0036003">
+  <lem wit="【大】">門</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">明</rdg>
+</app>無罪福慧，然必皆與。如末利夫人願
 <pb n="0036c" ed="T" xml:id="T33.1695.0036c"/>
 <lb n="0036c01" ed="T"/>為王妃，後獲聖果。五百聖種願見佛身說本
 <lb n="0036c02" ed="T"/>生事。迦葉夫婦願為道心夫妻眷屬，後得聖
@@ -1136,17 +1250,28 @@
 <lb n="0036c10" ed="T"/>世尊記心輪能為說法。天眼通知現在世，如
 <lb n="0036c11" ed="T"/>知人間牛產犢事。生死智知未來，知未來婆
 <lb n="0036c12" ed="T"/>羅門等旃遮謗已後自敗事。亦知欝頭藍子
-<lb n="0036c13" ed="T"/>生天已，為著翅<note n="0036004" resp="Taisho" type="orig" place="foot text">狸＝猫ィ【原】</note><note n="0036004" resp="CBETA" type="mod">狸【大】，猫【校異-原】</note><app n="0036004"><lem wit="【大】">狸</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">猫</rdg></app>後入地獄事。以宿住智知
+<lb n="0036c13" ed="T"/>生天已，為著翅<note 
+n="0036004" resp="Taisho" type="orig" place="foot text">狸＝猫ィ【原】</note><note 
+n="0036004" resp="CBETA" type="mod">狸【大】，猫【校異-原】</note><app n="0036004">
+  <lem wit="【大】">狸</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">猫</rdg>
+</app>後入地獄事。以宿住智知
 <lb n="0036c14" ed="T"/>下乞兒久發善根，為其說法拔濟饒益，記別
 <lb n="0036c15" ed="T"/>三世而為說法。行利樂事無有差別，名為平
 <lb n="0036c16" ed="T"/>等。能觀此智相續現前常無斷盡，無所不知
 <lb n="0036c17" ed="T"/>廣大遍照。第九句云身語心性猶若金剛等
 <lb n="0036c18" ed="T"/>諸如來無動無壞者，歎漏盡輪能現離染教
-<lb n="0036c19" ed="T"/>誡教授。三<note n="0036005" resp="Taisho" type="orig" place="foot text">身＝業ヵ【原】</note><note n="0036005" resp="CBETA" type="mod">身【大】，業【考偽-原】</note><app n="0036005"><lem resp="Taisho" wit="【大】">身</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">業</rdg></app>之中惑業皆盡，故似金剛等於
+<lb n="0036c19" ed="T"/>誡教授。三<note 
+n="0036005" resp="Taisho" type="orig" place="foot text">身＝業ヵ【原】</note><note 
+n="0036005" resp="CBETA" type="mod">身【大】，業【考偽-原】</note><app n="0036005">
+  <lem resp="Taisho" wit="【大】">身</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">業</rdg>
+</app>之中惑業皆盡，故似金剛等於
 <lb n="0036c20" ed="T"/>諸佛，不為一切外道天魔、生死惡友之所動
 <lb n="0036c21" ed="T"/>亂破壞令起惡業等也。由三業中一切漏盡，
 <lb n="0036c22" ed="T"/>故能教誡教授眾生，故名漏盡。如《對法論》第
-<lb n="0036c23" ed="T"/>一疏解。</p><p xml:id="pT33p0036c2304" cb:place="inline">又第四解：此中九句，初之一句總歎
+<lb n="0036c23" ed="T"/>一疏解。</p>
+<p xml:id="pT33p0036c2304" cb:place="inline">又第四解：此中九句，初之一句總歎
 <lb n="0036c24" ed="T"/>四智法身報身，次有二句歎位尊德廣，次三
 <lb n="0036c25" ed="T"/>句別歎三德，後三句別歎三神變。欲令眾生
 <lb n="0036c26" ed="T"/>聞佛功德，生勝歡喜殷重聞法起趣求故。佛
@@ -1225,7 +1350,8 @@
 <lb n="0037c09" ed="T"/>雜嚴飾其殿。二大殿二身所居，如如意珠隨
 <lb n="0037c10" ed="T"/>欲所求一切皆得。末尼無價，更飾之以七珍；
 <lb n="0037c11" ed="T"/>境智莫方，加嚴之以萬德。此其總嚴也。</p></cb:div>
-<lb n="0037c12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0037c1201">經曰：眾色交映放大光明。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0037c1211" cb:place="inline">讚曰：自下第二、
+<lb n="0037c12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0037c1201">經曰：眾色交映放大光明。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0037c1211" cb:place="inline">讚曰：自下第二、
 <lb n="0037c13" ed="T"/>列別嚴也。於中總有十四別嚴，此有二嚴也。
 <lb n="0037c14" ed="T"/>七珍間錯所以眾色交映，四輝<g ref="#CB04496"/>燿故能放
 <lb n="0037c15" ed="T"/>大光明。又朱紫相雜，舉事而論交映；素黃飛
@@ -1248,10 +1374,19 @@
 <lb n="0038a02" ed="T"/>釋。</p></cb:div>
 <lb n="0038a03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038a0301">經曰：綺蓋、繒旛、華幢、綵拂、寶珠、纓絡、半滿月等。</p></cb:div>
 <lb n="0038a04" ed="T"/><cb:div type="commentary"><p xml:id="pT33p0038a0401">讚曰：此有八嚴。羅蓋扶疎，飛圓華而孕綺；
-<lb n="0038a05" ed="T"/>霞旛飄颺，曳曲<note n="0038001" resp="Taisho" type="orig" place="foot text"><g ref="#CB04494"/>＝影ィ【原】</note><note n="0038001" resp="CBETA" type="mod"><g ref="#CB04494"/>【大】，影【校異-原】</note><app n="0038001"><lem wit="【大】"><g ref="#CB04494"/></lem><rdg resp="Taisho" wit="【原】" type="variantRemark">影</rdg></app>以疑虹；華幢肅以干雲；綵
+<lb n="0038a05" ed="T"/>霞旛飄颺，曳曲<note 
+n="0038001" resp="Taisho" type="orig" place="foot text"><g ref="#CB04494"/>＝影ィ【原】</note><note 
+n="0038001" resp="CBETA" type="mod"><g ref="#CB04494"/>【大】，影【校異-原】</note><app n="0038001">
+  <lem wit="【大】"><g ref="#CB04494"/></lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">影</rdg>
+</app>以疑虹；華幢肅以干雲；綵
 <lb n="0038a06" ed="T"/>拂嚴而曳地；明珠磊磊映明銀星，珍纓絡
 <lb n="0038a07" ed="T"/>絡潔逾金鏡；輪低翠嶺，同浮半月之暉；璧掛
-<lb n="0038a08" ed="T"/>青巖，如含滿月之彩。即其化土所居天宮<note n="0038a0801" resp="CBETA" type="add">之【CB】，<unclear/>【大】</note><app n="0038a0801"><lem resp="CBETA.maha" wit="【CB】">之<note type="cf1">TW33n1695_p0038a08</note><note type="cf2">佛教大藏經128_p0511b13</note></lem><rdg wit="【大】"><unclear/></rdg></app>
+<lb n="0038a08" ed="T"/>青巖，如含滿月之彩。即其化土所居天宮<note 
+n="0038a0801" resp="CBETA" type="add">之【CB】，<unclear/>【大】</note><app n="0038a0801">
+  <lem resp="CBETA.maha" wit="【CB】">之<note type="cf1">TW33n1695_p0038a08</note><note type="cf2">佛教大藏經128_p0511b13</note></lem>
+  <rdg wit="【大】"><unclear/></rdg>
+</app>
 <lb n="0038a09" ed="T"/>麗飾也。此意總顯報法二土。四無量如綺
 <lb n="0038a10" ed="T"/>蓋以蔭群生。四總持若繒旛而轉眾惡。三三
 <lb n="0038a11" ed="T"/>摩地喻彼華幢，百千功德所莊飾故。四種
@@ -1267,20 +1402,27 @@
 <lb n="0038a21" ed="T"/>三未發心修斷願發心修斷、四未成佛者願
 <lb n="0038a22" ed="T"/>早成佛。無畏、十力，至下當知。此上第二列別
 <lb n="0038a23" ed="T"/>嚴也。</p></cb:div>
-<lb n="0038a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038a2401">經曰：種種雜飾而用莊嚴。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0038a2411" cb:place="inline">讚曰：此即第三、列
-<lb n="0038a25" ed="T"/>餘嚴也。末尼<note n="0038a2501" resp="CBETA" type="add">之【CB】，六【大】</note><app n="0038a2501"><lem resp="CBETA.maha" wit="【CB】">之<note type="cf1">TW33n1695_p0038a25</note><note type="cf2">佛教大藏經128_p0512a13</note></lem><rdg wit="【大】">六</rdg></app>殿大嚴如是，子細別嚴今總
+<lb n="0038a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038a2401">經曰：種種雜飾而用莊嚴。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0038a2411" cb:place="inline">讚曰：此即第三、列
+<lb n="0038a25" ed="T"/>餘嚴也。末尼<note 
+n="0038a2501" resp="CBETA" type="add">之【CB】，六【大】</note><app n="0038a2501">
+  <lem resp="CBETA.maha" wit="【CB】">之<note type="cf1">TW33n1695_p0038a25</note><note type="cf2">佛教大藏經128_p0512a13</note></lem>
+  <rdg wit="【大】">六</rdg>
+</app>殿大嚴如是，子細別嚴今總
 <lb n="0038a26" ed="T"/>彰舉。所謂戶牖軒窓、甍棟蘭楯皆隨具有，即
 <lb n="0038a27" ed="T"/>顯解脫、勝處、遍處、無諍、願智、永斷習氣、一
 <lb n="0038a28" ed="T"/>切種妙智、百千功德，所嚴二土有為無為理
 <lb n="0038a29" ed="T"/>應爾故。</p></cb:div>
 <pb n="0038b" ed="T" xml:id="T33.1695.0038b"/>
-<lb n="0038b01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038b0101">經曰：賢聖天仙之所愛樂。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0038b0111" cb:place="inline">讚曰：此即第四、
+<lb n="0038b01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038b0101">經曰：賢聖天仙之所愛樂。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0038b0111" cb:place="inline">讚曰：此即第四、
 <lb n="0038b02" ed="T"/>寶重勝也。五乘凡夫曰賢，三乘證果曰聖。五
 <lb n="0038b03" ed="T"/>趣之極曰天，人有神德曰仙。寶而重之為愛，
 <lb n="0038b04" ed="T"/>欣求傾渴為樂。此化土也。今顯三乘之中若
 <lb n="0038b05" ed="T"/>凡若聖俱生愛重欣求趣證名為愛樂，此顯
 <lb n="0038b06" ed="T"/>法報二身隨應土也。</p></cb:div>
-<lb n="0038b07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038b0701">經曰：與八十億大菩薩俱。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0038b0711" cb:place="inline">讚曰：自下第五、
+<lb n="0038b07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038b0701">經曰：與八十億大菩薩俱。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0038b0711" cb:place="inline">讚曰：自下第五、
 <lb n="0038b08" ed="T"/>教所被機。然此經中實通凡聖，如下經云「金
 <lb n="0038b09" ed="T"/>剛手等諸大菩薩及餘天眾，聞佛所說信受奉
 <lb n="0038b10" ed="T"/>行。」金剛手等，聖人眾也。餘天等者，凡夫眾也。
@@ -1291,7 +1433,12 @@
 <lb n="0038b15" ed="T"/>明大士咸處淨方。然則教迹幽深非愚所測，
 <lb n="0038b16" ed="T"/>故乃但題菩薩應此通機。化處舉勝而說天
 <lb n="0038b17" ed="T"/>宮，聽眾標尊但言菩薩，理兼通也。又法門
-<lb n="0038b18" ed="T"/><note n="0038002" resp="Taisho" type="orig" place="foot text">仲＝冲ヵ【原】</note><note n="0038002" resp="CBETA" type="mod">仲【大】，冲【考偽-原】</note><app n="0038002"><lem resp="Taisho" wit="【大】">仲</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">冲</rdg></app>邃但被一乘之人，玄宗寥廓遂隔二乘之
+<lb n="0038b18" ed="T"/><note 
+n="0038002" resp="Taisho" type="orig" place="foot text">仲＝冲ヵ【原】</note><note 
+n="0038002" resp="CBETA" type="mod">仲【大】，冲【考偽-原】</note><app n="0038002">
+  <lem resp="Taisho" wit="【大】">仲</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">冲</rdg>
+</app>邃但被一乘之人，玄宗寥廓遂隔二乘之
 <lb n="0038b19" ed="T"/>眾也。此被機中，文勢有四：一舉數、二陳德、三
 <lb n="0038b20" ed="T"/>列名、四彰軌。此舉數也。與者，兼并及會之義。
 <lb n="0038b21" ed="T"/>十萬為億，八十億者八百萬也。所言大者略
@@ -1314,19 +1461,27 @@
 <lb n="0038c08" ed="T"/>三昧等。無礙妙辯，謂法、義、詞、辯說無礙。初之
 <lb n="0038c09" ed="T"/>二德舉自利行，第三之德舉利他行。此三體
 <lb n="0038c10" ed="T"/>性、依處、修法、得位，一切義門如別處說。</p></cb:div>
-<lb n="0038c11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038c1101">經曰：如是等類無量功德，設經多劫<note n="0038003" resp="Taisho" type="orig" place="foot text">說＝讚ィ【原】</note><note n="0038003" resp="CBETA" type="mod">說【大】，讚【校異-原】</note><app n="0038003"><lem wit="【大】">說</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">讚</rdg></app>不能
-<lb n="0038c12" ed="T"/>盡。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0038c1202" cb:place="inline">述曰：此指例也。劫者，時分。菩薩修因，時
+<lb n="0038c11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038c1101">經曰：如是等類無量功德，設經多劫<note 
+n="0038003" resp="Taisho" type="orig" place="foot text">說＝讚ィ【原】</note><note 
+n="0038003" resp="CBETA" type="mod">說【大】，讚【校異-原】</note><app n="0038003">
+  <lem wit="【大】">說</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">讚</rdg>
+</app>不能
+<lb n="0038c12" ed="T"/>盡。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0038c1202" cb:place="inline">述曰：此指例也。劫者，時分。菩薩修因，時
 <lb n="0038c13" ed="T"/>行並大，故讚功德經劫不窮。謂轉法輪無生
 <lb n="0038c14" ed="T"/>忍等，恐文繁廣故例指也。何故須讚菩薩功
 <lb n="0038c15" ed="T"/>德？為捨眾生輕慢心故。有作是言：諸聲聞眾
 <lb n="0038c16" ed="T"/>久修梵行，諸菩薩眾應當敬禮。又令眾生起
 <lb n="0038c17" ed="T"/>淨心故。菩薩尚有如是功德，何況如來。故諸
 <lb n="0038c18" ed="T"/>有情至心歸禮，竝願速證。</p></cb:div>
-<lb n="0038c19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038c1901"><note n="0038004" resp="Taisho" type="orig" place="foot text">原本冠註曰此疏原本自下牒經舉前後文置乃至言省略中間贊主疏述體例多爾而今為便檢讀牒經具文除疏乃至二字尚恐失本製加以「」幟其新增覽者應知</note>經曰：其名曰金剛手菩薩摩訶薩觀自在菩
+<lb n="0038c19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0038c1901"><note 
+n="0038004" resp="Taisho" type="orig" place="foot text">原本冠註曰此疏原本自下牒經舉前後文置乃至言省略中間贊主疏述體例多爾而今為便檢讀牒經具文除疏乃至二字尚恐失本製加以「」幟其新增覽者應知</note>經曰：其名曰金剛手菩薩摩訶薩觀自在菩
 <lb n="0038c20" ed="T"/>薩摩訶薩、虛空藏菩薩摩訶薩、金剛拳菩薩摩
 <lb n="0038c21" ed="T"/>訶薩、妙吉祥菩薩摩訶薩、大空藏菩薩摩訶薩、
 <lb n="0038c22" ed="T"/>發心即轉法輪菩薩摩訶薩摧伏一切魔怨菩
-<lb n="0038c23" ed="T"/>薩摩訶薩。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0038c2305" cb:place="inline">述曰：下列名也。此有八人，舉
+<lb n="0038c23" ed="T"/>薩摩訶薩。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0038c2305" cb:place="inline">述曰：下列名也。此有八人，舉
 <lb n="0038c24" ed="T"/>其勝者。言菩薩摩訶薩者，菩提言覺，即一切
 <lb n="0038c25" ed="T"/>智。薩埵言有情，即求菩提之有情也。此通三
 <lb n="0038c26" ed="T"/>乘。摩訶言大，薩埵如前，為簡取大故言摩訶
@@ -1366,14 +1521,16 @@
 <pb n="0039b" ed="T" xml:id="T33.1695.0039b"/>
 <lb n="0039b01" ed="T"/>所應，準名知義。</p></cb:div>
 <lb n="0039b02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0039b0201">經曰：如是上首，有八百萬大菩薩眾前後圍
-<lb n="0039b03" ed="T"/>遶。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0039b0302" cb:place="inline">讚曰：此第四、彰軌也。八百萬者，八十億
+<lb n="0039b03" ed="T"/>遶。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0039b0302" cb:place="inline">讚曰：此第四、彰軌也。八百萬者，八十億
 <lb n="0039b04" ed="T"/>也。言前後者，以方為首故有前後。各見世尊
 <lb n="0039b05" ed="T"/>在其前坐為其說法，既無背面寧有前後？如
 <lb n="0039b06" ed="T"/>珠星而拱朗月，譬金山而輔妙高，若眾梵之
 <lb n="0039b07" ed="T"/>繞梵王，似諸天之圍天帝。尊人重道渴法希
 <lb n="0039b08" ed="T"/>益，翹注一心冀聞深致。</p></cb:div>
 <lb n="0039b09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0039b0901">經曰：宣說正法初中後善，文義巧妙純一圓滿
-<lb n="0039b10" ed="T"/>清白梵行。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0039b1005" cb:place="inline">讚曰：此即第六、歎法勝德。宣說
+<lb n="0039b10" ed="T"/>清白梵行。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0039b1005" cb:place="inline">讚曰：此即第六、歎法勝德。宣說
 <lb n="0039b11" ed="T"/>正法，是總句也。刊定可軌、離邪分別，名為正
 <lb n="0039b12" ed="T"/>法。宣顯未聞，為初開智；說彰舊理，為久悟人。
 <lb n="0039b13" ed="T"/>初中等者，總有十德以彰教勝。《瑜伽師論》八
@@ -1382,7 +1539,12 @@
 <lb n="0039b16" ed="T"/>自釋言「初善者，謂聽聞時生歡喜故。由法殊
 <lb n="0039b17" ed="T"/>勝，初有聽聞即令生喜。中善者，謂修行時無
 <lb n="0039b18" ed="T"/>有艱苦，遠離二邊，依中行故。既聽聞已正修
-<lb n="0039b19" ed="T"/>行時，遠離苦樂邪<note n="0039001" resp="Taisho" type="orig" place="foot text">怠＝惡ィ【原】</note><note n="0039001" resp="CBETA" type="mod">怠【大】，惡【校異-原】</note><app n="0039001"><lem wit="【大】">怠</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">惡</rdg></app>二邊，依處中行以求出
+<lb n="0039b19" ed="T"/>行時，遠離苦樂邪<note 
+n="0039001" resp="Taisho" type="orig" place="foot text">怠＝惡ィ【原】</note><note 
+n="0039001" resp="CBETA" type="mod">怠【大】，惡【校異-原】</note><app n="0039001">
+  <lem wit="【大】">怠</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">惡</rdg>
+</app>二邊，依處中行以求出
 <lb n="0039b20" ed="T"/>世，故中善也。後善者，謂極究竟離諸垢故，及
 <lb n="0039b21" ed="T"/>一切究竟離欲為後邊故。」謂佛言教理極究
 <lb n="0039b22" ed="T"/>竟，性離諸垢，能現涅槃，依修行者能離欲故。
@@ -1405,7 +1567,8 @@
 <lb n="0039c09" ed="T"/>相之所顯說，故八聖道名為梵行。若依此解，
 <lb n="0039c10" ed="T"/>與古不同。此上十德總顯經勝。</p></cb:div>
 <lb n="0039c11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0039c1101">經曰：爾時世尊為諸菩薩說一切法甚深微妙
-<lb n="0039c12" ed="T"/>般若理趣清淨法門此門即是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0039c1217" cb:place="inline">讚
+<lb n="0039c12" ed="T"/>般若理趣清淨法門此門即是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0039c1217" cb:place="inline">讚
 <lb n="0039c13" ed="T"/>曰：自下明第二、應機廣說分。於中總有十四
 <lb n="0039c14" ed="T"/>段經，合之為三：初六段明菩薩境、次六段
 <lb n="0039c15" ed="T"/>明菩薩行、後二段明菩薩果。一切佛教所詮
@@ -1449,7 +1612,12 @@
 <lb n="0040a23" ed="T"/>謂法性道理義理。趣謂意況所趣旨趣。此意
 <lb n="0040a24" ed="T"/>即說般若之文所詮，深趣觀照般若所取意趣。
 <lb n="0040a25" ed="T"/>自性潔白名清，離諸垢染名淨。門者虛通趣
-<lb n="0040a26" ed="T"/>入之<note n="0040001" resp="Taisho" type="orig" place="foot text">道＝徑ィ【原】</note><note n="0040001" resp="CBETA" type="mod">道【大】，徑【校異-原】</note><app n="0040001"><lem wit="【大】">道</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">徑</rdg></app>。即顯照理會證之由。欲證二空要聞
+<lb n="0040a26" ed="T"/>入之<note 
+n="0040001" resp="Taisho" type="orig" place="foot text">道＝徑ィ【原】</note><note 
+n="0040001" resp="CBETA" type="mod">道【大】，徑【校異-原】</note><app n="0040001">
+  <lem wit="【大】">道</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">徑</rdg>
+</app>。即顯照理會證之由。欲證二空要聞
 <lb n="0040a27" ed="T"/>此教理，依之修學方可會真，不知何名強名
 <lb n="0040a28" ed="T"/>門也。此門是何？此門即是菩薩句義。菩薩三
 <lb n="0040a29" ed="T"/>義已釋如前。言句義者，句謂能詮聲之差別。
@@ -1467,10 +1635,12 @@
 <lb n="0040b11" ed="T"/>此言菩薩，略有三位：一初發心、二修正行、三
 <lb n="0040b12" ed="T"/>證法性。三位皆須依此修學，方可得證，故名
 <lb n="0040b13" ed="T"/>為門。</p></cb:div>
-<lb n="0040b14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0040b1401">經曰：云何名為菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0040b1411" cb:place="inline">讚曰：自下第二、
+<lb n="0040b14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0040b1401">經曰：云何名為菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0040b1411" cb:place="inline">讚曰：自下第二、
 <lb n="0040b15" ed="T"/>敘佛所說理趣之義。於中有三：初佛自問、次
 <lb n="0040b16" ed="T"/>述其義、後勸修學。此初問也。</p></cb:div>
-<lb n="0040b17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0040b1701">經曰：謂極妙樂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0040b1716" cb:place="inline">讚曰：
+<lb n="0040b17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0040b1701">經曰：謂極妙樂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0040b1716" cb:place="inline">讚曰：
 <lb n="0040b18" ed="T"/>自下述其義。於中有二：初釋其義、後釋所由。
 <lb n="0040b19" ed="T"/>若依清辨，世俗可有，勝義皆空；今說正義空
 <lb n="0040b20" ed="T"/>寂。若依護法，應依下釋。就釋義中，合有四十
@@ -1505,7 +1675,8 @@
 <lb n="0040c19" ed="T"/>句義。詮辨聞行，即此是故。下文所說菩薩句
 <lb n="0040c20" ed="T"/>義，竝準此知，更不重釋。</p></cb:div>
 <lb n="0040c21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0040c2101">經曰：諸見永寂清淨句義是菩薩句義，微妙
-<lb n="0040c22" ed="T"/>適悅清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0040c2212" cb:place="inline">讚曰：此中二
+<lb n="0040c22" ed="T"/>適悅清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0040c2212" cb:place="inline">讚曰：此中二
 <lb n="0040c23" ed="T"/>句義，即五果中離種種想得法苑樂。由見永
 <lb n="0040c24" ed="T"/>寂故離諸相，諸相多由諸見生故。由得法苑
 <lb n="0040c25" ed="T"/>樂，故微妙適悅。諸見者，五見等。地前地上伏
@@ -1516,7 +1687,8 @@
 <pb n="0041a" ed="T" xml:id="T33.1695.0041a"/>
 <lb n="0041a01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0041a0101">經曰：渴愛永息清淨句義是菩薩句義，胎藏超
 <lb n="0041a02" ed="T"/>越清淨句義是菩薩句義，眾德莊嚴清淨句義
-<lb n="0041a03" ed="T"/>是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0041a0306" cb:place="inline">讚曰：此中三句。渴愛者，謂貪
+<lb n="0041a03" ed="T"/>是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0041a0306" cb:place="inline">讚曰：此中三句。渴愛者，謂貪
 <lb n="0041a04" ed="T"/>欲由渴愛生，故名渴愛。謂如鹿渴，遙見陽煙
 <lb n="0041a05" ed="T"/>將以為水，而起貪求奔走往趣。有情亦爾，
 <lb n="0041a06" ed="T"/>由煩惱渴，見不淨物謂以為淨，廣起貪求，故
@@ -1559,7 +1731,11 @@
 <lb n="0041b13" ed="T"/>腸、二十小腸、二十一屎、二十二尿、二十三洟、二
 <lb n="0041b14" ed="T"/>十四唾、二十五涎、二十六淚、二十七垢、二十八
 <lb n="0041b15" ed="T"/>汗、二十九淡、三十膿、三十一肪、三十二𦙽、三十
-<lb n="0041b16" ed="T"/>三腦、三十四膜、三十五<note n="0041b1601" resp="CBETA" type="add"><g ref="#CB02274"/>【CB】，<g ref="#CB04478"/>【大】</note><app n="0041b1601"><lem resp="CBETA.maha" wit="【CB】"><g ref="#CB02274"/><note type="cf1">T07n0220_p0485c05</note></lem><rdg wit="【大】"><g ref="#CB04478"/></rdg></app>、三十六聹。既生長
+<lb n="0041b16" ed="T"/>三腦、三十四膜、三十五<note 
+n="0041b1601" resp="CBETA" type="add"><g ref="#CB02274"/>【CB】，<g ref="#CB04478"/>【大】</note><app n="0041b1601">
+  <lem resp="CBETA.maha" wit="【CB】"><g ref="#CB02274"/><note type="cf1">T07n0220_p0485c05</note></lem>
+  <rdg wit="【大】"><g ref="#CB04478"/></rdg>
+</app>、三十六聹。既生長
 <lb n="0041b17" ed="T"/>已次起六觸，次隨世學，次耽家室，次造生業，
 <lb n="0041b18" ed="T"/>次受色等苦樂境界，次隨其業流隨五趣復
 <lb n="0041b19" ed="T"/>受此身。菩薩不爾，隨願受生，設入母胎即至
@@ -1569,7 +1745,8 @@
 <lb n="0041b23" ed="T"/>超越。變易之身，無是事也。具三十二相八十
 <lb n="0041b24" ed="T"/>隨好，故名眾德莊嚴，悲智熏修得是身故。</p></cb:div>
 <lb n="0041b25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0041b2501">經曰：意極猗適清淨句義是菩薩句義，得大光
-<lb n="0041b26" ed="T"/>明清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0041b2611" cb:place="inline">讚曰：此中二句
+<lb n="0041b26" ed="T"/>明清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0041b2611" cb:place="inline">讚曰：此中二句
 <lb n="0041b27" ed="T"/>義即是能正了知無量無分限相大法光明，得
 <lb n="0041b28" ed="T"/>達法界等十方無邊無分量相，故極猗適。顯
 <lb n="0041b29" ed="T"/>照行故，名法光明。既能廣達契會法性證真
@@ -1578,7 +1755,8 @@
 <lb n="0041c02" ed="T"/>明。此二離垢，故名清淨。</p></cb:div>
 <lb n="0041c03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0041c0301">經曰：身善安樂清淨句義是菩薩句義，語善安
 <lb n="0041c04" ed="T"/>樂清淨句義是菩薩句義，意善安樂清淨句義
-<lb n="0041c05" ed="T"/>是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0041c0506" cb:place="inline">讚曰：此中三句即是第五為令
+<lb n="0041c05" ed="T"/>是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0041c0506" cb:place="inline">讚曰：此中三句即是第五為令
 <lb n="0041c06" ed="T"/>法身圓滿成辨能正攝受後後勝因。第十地
 <lb n="0041c07" ed="T"/>名圓滿，在佛地名成辨，感此之因最是殊勝說
 <lb n="0041c08" ed="T"/>為勝因。即是此中三業安樂清淨之義。正由
@@ -1599,7 +1777,8 @@
 <lb n="0041c23" ed="T"/>淨句義是菩薩句義，聲、香、味、觸、法界空寂清淨
 <lb n="0041c24" ed="T"/>句義是菩薩句義。眼識界空寂清淨句義是菩
 <lb n="0041c25" ed="T"/>薩句義，耳、鼻、舌、身、意識界空寂清淨句義是菩
-<lb n="0041c26" ed="T"/>薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0041c2604" cb:place="inline">讚曰：自下第二、三十一門依諸法
+<lb n="0041c26" ed="T"/>薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0041c2604" cb:place="inline">讚曰：自下第二、三十一門依諸法
 <lb n="0041c27" ed="T"/>本性及所由空寂清淨句義，以顯菩薩所有句
 <lb n="0041c28" ed="T"/>義。於中分二：初有二十六門，明世俗勝義法
 <lb n="0041c29" ed="T"/>所依所從本性空寂清淨句義，以顯菩薩所
@@ -1665,7 +1844,8 @@
 <lb n="0042b29" ed="T"/>所生諸受空寂清淨句義是菩薩句義，耳鼻舌
 <pb n="0042c" ed="T" xml:id="T33.1695.0042c"/>
 <lb n="0042c01" ed="T"/>身意觸為緣所生諸受空寂清淨句義是菩薩
-<lb n="0042c02" ed="T"/>句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0042c0203" cb:place="inline">讚曰：此中二句義，於心所中舉二為
+<lb n="0042c02" ed="T"/>句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0042c0203" cb:place="inline">讚曰：此中二句義，於心所中舉二為
 <lb n="0042c03" ed="T"/>首，以有三位五位別故、根等生時近而勝故、
 <lb n="0042c04" ed="T"/>能生心所觸等強故。觸謂觸對，即是觸數。令
 <lb n="0042c05" ed="T"/>心心所同觸於境，名之為觸。觸由根境識三
@@ -1678,7 +1858,8 @@
 <lb n="0042c12" ed="T"/>有句義，即是菩薩所有句義，不說自餘諸心
 <lb n="0042c13" ed="T"/>所等。</p></cb:div>
 <lb n="0042c14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0042c1401">經曰：地界空寂清淨句義是菩薩句義，水、火、風、
-<lb n="0042c15" ed="T"/>空、識界空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0042c1515" cb:place="inline">讚曰：此
+<lb n="0042c15" ed="T"/>空、識界空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0042c1515" cb:place="inline">讚曰：此
 <lb n="0042c16" ed="T"/>一法門即是六界成眾生者。四大可知。所言
 <lb n="0042c17" ed="T"/>空者，即內身中空界之色。識謂八識。此中但
 <lb n="0042c18" ed="T"/>說三種根本，謂色所依但說四大。行動所依
@@ -1687,11 +1868,16 @@
 <lb n="0042c21" ed="T"/>聚形故說四大，能起分別故說於識。能有往
 <lb n="0042c22" ed="T"/>來轉動等業故說空寂不增不減。</p></cb:div>
 <lb n="0042c23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0042c2301">經曰：苦聖諦空寂清淨句義是菩薩句義，集、
-<lb n="0042c24" ed="T"/>滅、道聖諦空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0042c2416" cb:place="inline">讚
+<lb n="0042c24" ed="T"/>滅、道聖諦空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0042c2416" cb:place="inline">讚
 <lb n="0042c25" ed="T"/>曰：此一法門即是四諦。為二乘者差別安立，
 <lb n="0042c26" ed="T"/>故名世俗。苦者逼迫、不安穩、不可樂義，即有
 <lb n="0042c27" ed="T"/>漏法一切皆是。一切有情及器世界並是苦
-<lb n="0042c28" ed="T"/>故，煩惱業<note n="0042c2801" resp="CBETA" type="add">［－］【CB】，[01]【大】</note><app n="0042c2801"><lem resp="CBETA.eva" wit="【CB】"><space quantity="0"/></lem><rdg wit="【大】">[01]</rdg></app>苦並是苦故。果苦有三或說有
+<lb n="0042c28" ed="T"/>故，煩惱業<note 
+n="0042c2801" resp="CBETA" type="add">［－］【CB】，[01]【大】</note><app n="0042c2801">
+  <lem resp="CBETA.eva" wit="【CB】"><space quantity="0"/></lem>
+  <rdg wit="【大】">[01]</rdg>
+</app>苦並是苦故。果苦有三或說有
 <lb n="0042c29" ed="T"/>八。三謂行苦、苦苦、壞苦。八謂生苦、老苦、病苦、
 <pb n="0043a" ed="T" xml:id="T33.1695.0043a"/>
 <lb n="0043a01" ed="T"/>死苦、怨憎會苦、愛別離苦、求不得苦，略攝一
@@ -1733,7 +1919,8 @@
 <lb n="0043b07" ed="T"/>盡。</p></cb:div>
 <lb n="0043b08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0043b0801">經曰：無明空寂清淨句義是菩薩句義，行、識、名
 <lb n="0043b09" ed="T"/>色、六處、觸、受、愛、取、有、生、老死空寂清淨句義
-<lb n="0043b10" ed="T"/>是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0043b1006" cb:place="inline">讚曰：此十二緣起中，無明以
+<lb n="0043b10" ed="T"/>是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0043b1006" cb:place="inline">讚曰：此十二緣起中，無明以
 <lb n="0043b11" ed="T"/>癡為體，發業之惑。行通三業，非福及福、不動
 <lb n="0043b12" ed="T"/>之業。此二皆通現行、種子。識唯本識。名色通
 <lb n="0043b13" ed="T"/>五蘊。六處唯六根。觸受二法唯異熟性，當體
@@ -1750,7 +1937,8 @@
 <lb n="0043b24" ed="T"/>等廣說其相。</p></cb:div>
 <lb n="0043b25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0043b2501">經曰：布施波羅蜜多空寂清淨句義是菩薩句
 <lb n="0043b26" ed="T"/>義，淨戒、安忍、精進、靜慮、般若波羅蜜多空寂清
-<lb n="0043b27" ed="T"/>淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0043b2709" cb:place="inline">讚曰：自下第二有十
+<lb n="0043b27" ed="T"/>淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0043b2709" cb:place="inline">讚曰：自下第二有十
 <lb n="0043b28" ed="T"/>六門，明勝義法所由本性空寂句義，以顯菩
 <lb n="0043b29" ed="T"/>薩所有句義。於中有三：一明行有六門、二明
 <pb n="0043c" ed="T" xml:id="T33.1695.0043c"/>
@@ -1797,8 +1985,16 @@
 <lb n="0044a11" ed="T"/>提座，名施廣大意樂。三歡喜意樂，菩薩如是
 <lb n="0044a12" ed="T"/>行施之時，於來求者生大歡喜，來求之者雖
 <lb n="0044a13" ed="T"/>生歡喜不如菩薩，名施歡喜意樂。四恩德意
-<lb n="0044a14" ed="T"/>樂，菩薩如是行施之時，觀彼求者於我<note n="0044a1401" resp="CBETA" type="add" note_key="T33.0044a14.16">己【CB】，已【大】</note><app n="0044a1401"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem><rdg wit="【大】">已</rdg></app>身
-<lb n="0044a15" ed="T"/>有大恩德，不見<note n="0044a1501" resp="CBETA" type="add" note_key="T33.0044a15.07">己【CB】，已【大】</note><app n="0044a1501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem><rdg wit="【大】">已</rdg></app>身於彼有恩，由資助我無
+<lb n="0044a14" ed="T"/>樂，菩薩如是行施之時，觀彼求者於我<note 
+n="0044a1401" resp="CBETA" type="add" note_key="T33.0044a14.16">己【CB】，已【大】</note><app n="0044a1401">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>身
+<lb n="0044a15" ed="T"/>有大恩德，不見<note 
+n="0044a1501" resp="CBETA" type="add" note_key="T33.0044a15.07">己【CB】，已【大】</note><app n="0044a1501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>身於彼有恩，由資助我無
 <lb n="0044a16" ed="T"/>上菩提故，名施恩德意樂。五無染意樂，菩薩
 <lb n="0044a17" ed="T"/>如是雖於無量諸有情所興大施福，而不祈
 <lb n="0044a18" ed="T"/>報恩當來異熟，名施無染意樂。六善好意樂，
@@ -1815,8 +2011,13 @@
 <lb n="0044a29" ed="T"/>性、不虛妄性、不變異性、平等性、離生性、法定、法
 <pb n="0044b" ed="T" xml:id="T33.1695.0044b"/>
 <lb n="0044b01" ed="T"/>住、實際、虛空界、不思議界空寂清淨句義是菩
-<lb n="0044b02" ed="T"/>薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0044b0204" cb:place="inline">讚曰：第二所觀理行。此前應說二
-<lb n="0044b03" ed="T"/>十空等，以空即空寂。名字既同，不應<note n="0044b0301" resp="CBETA" type="add">更【CB】，<g ref="#CB04456"/>【大】</note><app n="0044b0301"><lem resp="CBETA.maha" wit="【CB】">更<note type="cf1">TW33n1695_p0044b03</note><note type="cf2">佛教大藏經128_p0529b03</note></lem><rdg wit="【大】"><g ref="#CB04456"/></rdg></app>立，所
+<lb n="0044b02" ed="T"/>薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0044b0204" cb:place="inline">讚曰：第二所觀理行。此前應說二
+<lb n="0044b03" ed="T"/>十空等，以空即空寂。名字既同，不應<note 
+n="0044b0301" resp="CBETA" type="add">更【CB】，<g ref="#CB04456"/>【大】</note><app n="0044b0301">
+  <lem resp="CBETA.maha" wit="【CB】">更<note type="cf1">TW33n1695_p0044b03</note><note type="cf2">佛教大藏經128_p0529b03</note></lem>
+  <rdg wit="【大】"><g ref="#CB04456"/></rdg>
+</app>立，所
 <lb n="0044b04" ed="T"/>以不說。此真如等，體雖即空寂之所顯，名字
 <lb n="0044b05" ed="T"/>既別，所以別立。此中八名體一。真如，真謂真
 <lb n="0044b06" ed="T"/>實，顯非虛妄。如謂如常，表無變異。即是湛然
@@ -1832,7 +2033,8 @@
 <lb n="0044b16" ed="T"/>二名，《對法》等中有其六名。體但一如，名有差
 <lb n="0044b17" ed="T"/>別，約其所治、隨其詮別故成多種。</p></cb:div>
 <lb n="0044b18" ed="T"/><cb:div type="orig"><p xml:id="pT33p0044b1801">經曰：四靜慮空寂清淨句義是菩薩句義，四無
-<lb n="0044b19" ed="T"/>量、四無色定空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0044b1917" cb:place="inline">讚
+<lb n="0044b19" ed="T"/>量、四無色定空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0044b1917" cb:place="inline">讚
 <lb n="0044b20" ed="T"/>曰：自下第三別修起行。於中有四：一禪無色
 <lb n="0044b21" ed="T"/>行、二菩提分行、三解脫門行、四別對治行。此
 <lb n="0044b22" ed="T"/>即初也。靜其心、專一慮，定慧齊均、功德殊勝，
@@ -1849,7 +2051,8 @@
 <lb n="0044c03" ed="T"/>非想處。此通有無漏，三乘俱起。</p></cb:div>
 <lb n="0044c04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0044c0401">經曰：四念住空寂清淨句義是菩薩句義，四正
 <lb n="0044c05" ed="T"/>斷、四神足、五根、五力、七等覺支、八聖道支空寂
-<lb n="0044c06" ed="T"/>清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0044c0610" cb:place="inline">讚曰：此即第二菩
+<lb n="0044c06" ed="T"/>清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0044c0610" cb:place="inline">讚曰：此即第二菩
 <lb n="0044c07" ed="T"/>提分行。四念住者，身、受、心、法，以慧為性。慧由
 <lb n="0044c08" ed="T"/>相應之念，住此四境之中，名為念住。四正斷
 <lb n="0044c09" ed="T"/>者，一律儀斷，謂已生惡法為令斷故，生欲策
@@ -1883,7 +2086,11 @@
 <lb n="0045a07" ed="T"/>十尋，即正思惟，實體即慧。十一色，即無表戒、
 <lb n="0045a08" ed="T"/>正語業命。此中假實、修法、廢立、開合、學攝、
 <lb n="0045a09" ed="T"/>體支、對辨，並如別鈔。</p></cb:div>
-<lb n="0045a10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0045a1001">經曰：空解脫門空寂清淨句義是菩薩句義，<note n="0045a1001" resp="CBETA" type="add" note_key="T33.0045a10.18">無【CB】【卍續-CB】，地【大】</note><app n="0045a1001"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">無<note type="cf1">X24n0453_p0374a12</note><note type="cf2">T07n0220_p0987a11</note></lem><rdg wit="【大】">地</rdg></app>
+<lb n="0045a10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0045a1001">經曰：空解脫門空寂清淨句義是菩薩句義，<note 
+n="0045a1001" resp="CBETA" type="add" note_key="T33.0045a10.18">無【CB】【卍續-CB】，地【大】</note><app n="0045a1001">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">無<note type="cf1">X24n0453_p0374a12</note><note type="cf2">T07n0220_p0987a11</note></lem>
+  <rdg wit="【大】">地</rdg>
+</app>
 <lb n="0045a11" ed="T"/>相、無願解脫門空寂清淨句義是菩薩句義。</p></cb:div>
 <lb n="0045a12" ed="T"/><cb:div type="commentary"><p xml:id="pT33p0045a1201">讚曰：自下第三解脫門行。觀空無我名之為
 <lb n="0045a13" ed="T"/>空，觀滅離相名為無相，觀苦集道諸有為法
@@ -1896,7 +2103,8 @@
 <lb n="0045a20" ed="T"/>空，離愛說無願，離無明說無相。</p></cb:div>
 <lb n="0045a21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0045a2101">經曰：八解脫空寂清淨句義是菩薩句義，八勝
 <lb n="0045a22" ed="T"/>處、九次第定、十遍處空寂清淨句義是菩薩句
-<lb n="0045a23" ed="T"/>義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0045a2302" cb:place="inline">述曰：自下第四別對治行。八解脫者，一
+<lb n="0045a23" ed="T"/>義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0045a2302" cb:place="inline">述曰：自下第四別對治行。八解脫者，一
 <lb n="0045a24" ed="T"/>內有色觀諸色、二內無色觀諸色、三淨解脫
 <lb n="0045a25" ed="T"/>身作證、四空處、五識處、六無所有處、七非
 <lb n="0045a26" ed="T"/>想非非想處、八滅盡解脫。謂諸聖者能順無
@@ -1915,8 +2123,17 @@
 <lb n="0045b09" ed="T"/>所由無量義門，如別處說。</p></cb:div>
 <lb n="0045b10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0045b1001">經曰：極喜地空寂清淨句義是菩薩句義，離垢
 <lb n="0045b11" ed="T"/>地、發光地、焰慧地、極難勝地、現前地、遠行地、不
-<lb n="0045b12" ed="T"/>動地<note n="0045b1201" resp="CBETA" type="add" note_key="T33.0045b12.03">〔－〕【CB】【卍續-CB】，雲無法【大】</note><app n="0045b1201"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">X24n0453_p0374b15</note><note type="cf2">T07n0220_p0987a16</note></lem><rdg wit="【大】">雲無法</rdg></app>、善慧地、<note n="0045b1202" resp="CBETA" type="add" note_key="T33.0045b12.06">法雲地【CB】【卍續-CB】，〔－〕【大】</note><app n="0045b1202"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">法雲地<note type="cf1">X24n0453_p0374b15</note><note type="cf2">T07n0220_p0987a16</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>空寂清淨句義是菩薩句
-<lb n="0045b13" ed="T"/>義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0045b1302" cb:place="inline">讚曰：自下第二明勝義位。於中有二：初
+<lb n="0045b12" ed="T"/>動地<note 
+n="0045b1201" resp="CBETA" type="add" note_key="T33.0045b12.03">〔－〕【CB】【卍續-CB】，雲無法【大】</note><app n="0045b1201">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">X24n0453_p0374b15</note><note type="cf2">T07n0220_p0987a16</note></lem>
+  <rdg wit="【大】">雲無法</rdg>
+</app>、善慧地、<note 
+n="0045b1202" resp="CBETA" type="add" note_key="T33.0045b12.06">法雲地【CB】【卍續-CB】，〔－〕【大】</note><app n="0045b1202">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">法雲地<note type="cf1">X24n0453_p0374b15</note><note type="cf2">T07n0220_p0987a16</note></lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>空寂清淨句義是菩薩句
+<lb n="0045b13" ed="T"/>義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0045b1302" cb:place="inline">讚曰：自下第二明勝義位。於中有二：初
 <lb n="0045b14" ed="T"/>大乘位，後三乘位。此即初也，但明因中菩薩
 <lb n="0045b15" ed="T"/>十地。一極喜地。初獲聖性，具證二空，能益自
 <lb n="0045b16" ed="T"/>他，生大喜故。二離垢地。具淨尸羅，遠離能起
@@ -1947,8 +2164,16 @@
 <lb n="0045c11" ed="T"/>漢向前數故，即住見道前十五心。具見地者
 <lb n="0045c12" ed="T"/>謂預流果，此位具足十六心故。薄地謂一來，
 <lb n="0045c13" ed="T"/>於欲界九品惑已斷六品故。離欲地謂不還，
-<lb n="0045c14" ed="T"/>決定全離欲界惑故。已<note n="0045c1401" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0045c1401"><lem resp="CBETA.maha" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>地者謂阿羅漢，我
-<lb n="0045c15" ed="T"/>生已盡所、作已<note n="0045c1501" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0045c1501"><lem resp="CBETA.maha" wit="【CB】">辦</lem><rdg wit="【大】">辨</rdg></app>故。餘之三地，隨名釋義。前
+<lb n="0045c14" ed="T"/>決定全離欲界惑故。已<note 
+n="0045c1401" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0045c1401">
+  <lem resp="CBETA.maha" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>地者謂阿羅漢，我
+<lb n="0045c15" ed="T"/>生已盡所、作已<note 
+n="0045c1501" resp="CBETA" type="add">辦【CB】，辨【大】</note><app n="0045c1501">
+  <lem resp="CBETA.maha" wit="【CB】">辦</lem>
+  <rdg wit="【大】">辨</rdg>
+</app>故。餘之三地，隨名釋義。前
 <lb n="0045c16" ed="T"/>唯一乘，今通師弟長短作說，故十地別。</p></cb:div>
 <lb n="0045c17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0045c1701">經曰：一切陀羅尼門空寂清淨句義是菩薩句
 <lb n="0045c18" ed="T"/>義，一切三摩地門空寂清淨句義是菩薩句義。</p></cb:div>
@@ -1957,7 +2182,8 @@
 <lb n="0045c21" ed="T"/>總持門、二是等持門。前此經序菩薩德中已
 <lb n="0045c22" ed="T"/>略解訖，由此二種引生諸德故。</p></cb:div>
 <lb n="0045c23" ed="T"/><cb:div type="orig"><p xml:id="pT33p0045c2301">經曰：五眼空寂清淨句義是菩薩句義，六神通
-<lb n="0045c24" ed="T"/>空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0045c2412" cb:place="inline">讚曰：此即第
+<lb n="0045c24" ed="T"/>空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0045c2412" cb:place="inline">讚曰：此即第
 <lb n="0045c25" ed="T"/>二觀照化生德。五眼者，謂肉、天、慧、法及佛眼。
 <lb n="0045c26" ed="T"/>照了導義，名之為眼。六神通者，一神境通、二
 <lb n="0045c27" ed="T"/>天耳通、三心差別通、四宿住隨念通、五死生通、
@@ -1967,7 +2193,8 @@
 <lb n="0046a01" ed="T"/>十九，《對法論》中第十四卷等文解釋。</p></cb:div>
 <lb n="0046a02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0046a0201">經曰：如來十力空寂清淨句義是菩薩句義，四
 <lb n="0046a03" ed="T"/>無所畏、四無礙解、大慈大悲大喜大捨、十八佛
-<lb n="0046a04" ed="T"/>不共法空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0046a0415" cb:place="inline">讚曰：此
+<lb n="0046a04" ed="T"/>不共法空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0046a0415" cb:place="inline">讚曰：此
 <lb n="0046a05" ed="T"/>即第三降伏不共德。十力者，一處非處智力、
 <lb n="0046a06" ed="T"/>二自業智力、三靜慮解脫等持等至智力、四
 <lb n="0046a07" ed="T"/>根勝劣智力、五種種勝解智力、六種種界智
@@ -1983,7 +2210,12 @@
 <lb n="0046a17" ed="T"/>生，行境寬廣，故名為大。慈悲等相如前已說。
 <lb n="0046a18" ed="T"/>四無量境狹在欲色，通在三乘，假實觀攝。此
 <lb n="0046a19" ed="T"/>唯佛具，境行寬遍通在三界，唯是實觀。十八
-<lb n="0046a20" ed="T"/>佛不共法者，一身無誤失越<note n="0046001" resp="Taisho" type="orig" place="foot text">杌＝坑ィ【原】</note><note n="0046001" resp="CBETA" type="mod">杌【大】，坑【校異-原】</note><app n="0046001"><lem wit="【大】">杌</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">坑</rdg></app>等、二無卒
+<lb n="0046a20" ed="T"/>佛不共法者，一身無誤失越<note 
+n="0046001" resp="Taisho" type="orig" place="foot text">杌＝坑ィ【原】</note><note 
+n="0046001" resp="CBETA" type="mod">杌【大】，坑【校異-原】</note><app n="0046001">
+  <lem wit="【大】">杌</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">坑</rdg>
+</app>等、二無卒
 <lb n="0046a21" ed="T"/>暴揚聲等、三無忘失念久所作等、四無不定
 <lb n="0046a22" ed="T"/>心恒在定故、五無種種相生死涅槃等、六無
 <lb n="0046a23" ed="T"/>不擇捨利樂等，此上六種由所知障有此習
@@ -1998,7 +2230,8 @@
 <lb n="0046b02" ed="T"/>義門廢立增減，如《瑜伽》等廣說其相。然此大
 <lb n="0046b03" ed="T"/>經亦具宣說，應勘異同。</p></cb:div>
 <lb n="0046b04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0046b0401">經曰：三十二相空寂清淨句義是菩薩句義，八
-<lb n="0046b05" ed="T"/>十隨好空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0046b0515" cb:place="inline">讚曰：此
+<lb n="0046b05" ed="T"/>十隨好空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0046b0515" cb:place="inline">讚曰：此
 <lb n="0046b06" ed="T"/>即第四相好殊異德。今依《大般若波羅蜜多
 <lb n="0046b07" ed="T"/>經》卷第三百八十一「佛言：善現！云何如來應
 <lb n="0046b08" ed="T"/>正等覺三十二大士相？善現！世尊足下有平
@@ -2148,7 +2381,8 @@
 <lb n="0048a02" ed="T"/>多時，能以財法二種布施攝諸有情。是為甚
 <lb n="0048a03" ed="T"/>奇希有之法。」</p></cb:div>
 <lb n="0048a04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048a0401">經曰：無忘失法空寂清淨句義是菩薩句義，
-<lb n="0048a05" ed="T"/>恒住捨性空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0048a0516" cb:place="inline">讚
+<lb n="0048a05" ed="T"/>恒住捨性空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0048a0516" cb:place="inline">讚
 <lb n="0048a06" ed="T"/>曰：此即第五常記平等德。謂諸如來常隨記
 <lb n="0048a07" ed="T"/>念若事若處若如若時，有所為作皆隨正念，
 <lb n="0048a08" ed="T"/>普於一切所作事業、普於一切方處差別、普
@@ -2157,7 +2391,8 @@
 <lb n="0048a11" ed="T"/>恒住法。於六根門不憂不喜，但起正捨平
 <lb n="0048a12" ed="T"/>等觀境。</p></cb:div>
 <lb n="0048a13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048a1301">經曰：一切智空寂清淨句義是菩薩句義，道相
-<lb n="0048a14" ed="T"/>智、一切相智空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0048a1417" cb:place="inline">讚
+<lb n="0048a14" ed="T"/>智、一切相智空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0048a1417" cb:place="inline">讚
 <lb n="0048a15" ed="T"/>曰：此即第六覺了空有德。觀空性智名一切
 <lb n="0048a16" ed="T"/>智，即正體智。觀有智中分之為二：一觀無漏
 <lb n="0048a17" ed="T"/>道、一觀所餘法相。相者相狀，差別之相即後
@@ -2165,14 +2400,16 @@
 <lb n="0048a19" ed="T"/>一切相智。一切種智分為二故。</p></cb:div>
 <lb n="0048a20" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048a2001">經曰：一切菩薩摩訶薩行空寂清淨句義是菩
 <lb n="0048a21" ed="T"/>薩句義，諸佛無上正等菩提空寂清淨句義是
-<lb n="0048a22" ed="T"/>菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0048a2205" cb:place="inline">讚曰：此即第七第八二門，明因
+<lb n="0048a22" ed="T"/>菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0048a2205" cb:place="inline">讚曰：此即第七第八二門，明因
 <lb n="0048a23" ed="T"/>果位二滿總德。此上所說諸功德等，若在因
 <lb n="0048a24" ed="T"/>位名菩薩行，若在果位名佛菩提。菩提覺義。
 <lb n="0048a25" ed="T"/>其菩提智及菩提斷，一切竝名為菩提故。有
 <lb n="0048a26" ed="T"/>為無為一切功德，隨應皆攝在此二故。</p></cb:div>
 <lb n="0048a27" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048a2701">經曰：一切異生法空寂清淨句義是菩薩句義，
 <lb n="0048a28" ed="T"/>一切預流、一來、不還、阿羅漢、獨覺、菩薩、如來法
-<lb n="0048a29" ed="T"/>空寂清淨句義是菩薩句義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0048a2912" cb:place="inline">讚曰：此即第
+<lb n="0048a29" ed="T"/>空寂清淨句義是菩薩句義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0048a2912" cb:place="inline">讚曰：此即第
 <pb n="0048b" ed="T" xml:id="T33.1695.0048b"/>
 <lb n="0048b01" ed="T"/>三總明世俗勝義法所依本性空寂句義，以
 <lb n="0048b02" ed="T"/>顯菩薩所有句義。一切異生唯在凡位，以業
@@ -2215,18 +2452,21 @@
 <lb n="0048c09" ed="T"/>名出世間。此等差別所依本性真如空寂清
 <lb n="0048c10" ed="T"/>淨句義，以顯菩薩所有句義，妄即真故、性即
 <lb n="0048c11" ed="T"/>相故。</p></cb:div>
-<lb n="0048c12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048c1201">經曰：所以者何。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0048c1207" cb:place="inline">讚曰：大文第二、釋其所由。
+<lb n="0048c12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048c1201">經曰：所以者何。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0048c1207" cb:place="inline">讚曰：大文第二、釋其所由。
 <lb n="0048c13" ed="T"/>於中有二：初問、後釋。此初問也。謂此諸法清
 <lb n="0048c14" ed="T"/>淨句義即是菩薩所有句義。此義之所以者，
 <lb n="0048c15" ed="T"/>何謂也。</p></cb:div>
-<lb n="0048c16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048c1601">經曰：以一切法自性空故自性遠離。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0048c1615" cb:place="inline">讚曰：
+<lb n="0048c16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048c1601">經曰：以一切法自性空故自性遠離。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0048c1615" cb:place="inline">讚曰：
 <lb n="0048c17" ed="T"/>下釋所由如幻㝹等世俗妄有勝義，知空故
 <lb n="0048c18" ed="T"/>說諸法空寂句義即是菩薩所有句義。故言
 <lb n="0048c19" ed="T"/>諸法自性空故釋上所由，為欲顯發般若尊
 <lb n="0048c20" ed="T"/>勝以自性空釋遠離等，由此諸法勝義自性
 <lb n="0048c21" ed="T"/>空無性故，遠離虛妄顛倒相也。</p></cb:div>
 <lb n="0048c22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0048c2201">經曰：由遠離故自性寂靜，由寂靜故自性清淨，
-<lb n="0048c23" ed="T"/>由清淨故甚深般若波羅蜜多最勝甚深。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0048c2317" cb:place="inline">讚
+<lb n="0048c23" ed="T"/>由清淨故甚深般若波羅蜜多最勝甚深。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0048c2317" cb:place="inline">讚
 <lb n="0048c24" ed="T"/>曰：生死囂煩、真如寂靜，故由遠離，自性亦靜。
 <lb n="0048c25" ed="T"/>煩惱有染、空性清淨，故由寂靜顯體清淨。此
 <lb n="0048c26" ed="T"/>意總顯由一切法自性空故，空寂句義即是菩
@@ -2238,21 +2478,24 @@
 <lb n="0049a02" ed="T"/>淨，故文字等甚深般若最勝清淨。清辨、護法
 <lb n="0049a03" ed="T"/>二釋隨應。</p></cb:div>
 <lb n="0049a04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0049a0401">經曰：如是般若波羅蜜多當知即是菩薩句義，
-<lb n="0049a05" ed="T"/>諸菩薩眾皆應修學。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0049a0509" cb:place="inline">讚曰：此即第三、結勸
+<lb n="0049a05" ed="T"/>諸菩薩眾皆應修學。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0049a0509" cb:place="inline">讚曰：此即第三、結勸
 <lb n="0049a06" ed="T"/>修學。文字般若即菩薩句義，求此學此名為
 <lb n="0049a07" ed="T"/>句故。餘四般若名菩薩義，菩薩之教詮此四
 <lb n="0049a08" ed="T"/>故。既成菩薩由此五種，五種即是菩薩能詮
 <lb n="0049a09" ed="T"/>所詮之義。諸菩薩中下位望進勝上位者，應
 <lb n="0049a10" ed="T"/>勤精進學此五種。</p></cb:div>
 <lb n="0049a11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0049a1101">經曰：佛說如是菩薩句義般若理趣清淨法
-<lb n="0049a12" ed="T"/>已。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0049a1202" cb:place="inline">讚曰：自下第三、敘佛所說法門之德。於
+<lb n="0049a12" ed="T"/>已。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0049a1202" cb:place="inline">讚曰：自下第三、敘佛所說法門之德。於
 <lb n="0049a13" ed="T"/>中有二：初結前義以發經端、後正告陳所說
 <lb n="0049a14" ed="T"/>之德。此即初也。</p></cb:div>
 <lb n="0049a15" ed="T"/><cb:div type="orig"><p xml:id="pT33p0049a1501">經曰：告金剛手菩薩等言：若有得聞此一切法
 <lb n="0049a16" ed="T"/>甚深微妙般若理趣清淨法門深信受者，乃至
 <lb n="0049a17" ed="T"/>當坐妙菩提座，一切障蓋皆不能染，謂煩惱障、
 <lb n="0049a18" ed="T"/>業障、法障雖多積集而不能染，雖造種種極重
-<lb n="0049a19" ed="T"/>惡業而易消滅不墮惡趣。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0049a1911" cb:place="inline">讚曰：於中復二，
+<lb n="0049a19" ed="T"/>惡業而易消滅不墮惡趣。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0049a1911" cb:place="inline">讚曰：於中復二，
 <lb n="0049a20" ed="T"/>初明聞經深信受果、後明受持精勤等果。所
 <lb n="0049a21" ed="T"/>以但告金剛手者，欲令有情取一切佛大珍寶
 <lb n="0049a22" ed="T"/>故。聞者聽聞，信者能順，受者領納。殷重供養
@@ -2281,7 +2524,8 @@
 <lb n="0049b15" ed="T"/>三障故銷。</p></cb:div>
 <lb n="0049b16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0049b1601">經曰：若能受持日日讀誦精勤無間如理思惟，
 <lb n="0049b17" ed="T"/>彼於此生定得一切法平等性金剛等持，於一
-<lb n="0049b18" ed="T"/>切法皆得自在，恒受一切勝妙喜樂。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0049b1815" cb:place="inline">讚曰：下
+<lb n="0049b18" ed="T"/>切法皆得自在，恒受一切勝妙喜樂。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0049b1815" cb:place="inline">讚曰：下
 <lb n="0049b19" ed="T"/>明受持精勤等果。言受持者愛樂寶重領受
 <lb n="0049b20" ed="T"/>在心持之不忘，如念子等不忘在心。日日讀
 <lb n="0049b21" ed="T"/>者披文，誦者暗說，精者專精，勤者勇勵身心。
@@ -2305,7 +2549,8 @@
 <lb n="0049c09" ed="T"/>俗體妄，既無憂恚，故得恒時受妙喜樂，既聞
 <lb n="0049c10" ed="T"/>法性真喜未曾得故。</p></cb:div>
 <lb n="0049c11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0049c1101">經曰：當經十六大菩薩生，定得如來執金剛性，
-<lb n="0049c12" ed="T"/>疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0049c1209" cb:place="inline">讚曰：世尊自說善修
+<lb n="0049c12" ed="T"/>疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0049c1209" cb:place="inline">讚曰：世尊自說善修
 <lb n="0049c13" ed="T"/>神足能住一劫或一劫餘，菩薩十六大生即
 <lb n="0049c14" ed="T"/>義當十六劫。金剛性者謂，真如性能破裂生
 <lb n="0049c15" ed="T"/>死過失名為金剛。諸法之體，故名為性。執者
@@ -2313,7 +2558,12 @@
 <lb n="0049c17" ed="T"/>空。或執金剛之性即是真如，經十六生得此
 <lb n="0049c18" ed="T"/>真性故。由於此經行前法行能超生死，不經
 <lb n="0049c19" ed="T"/>僧祇，經十六劫便入初地。以經所明實相之
-<lb n="0049c20" ed="T"/>理有大神驗，聞此法等故超生死無邊劫<note n="0049001" resp="Taisho" type="orig" place="foot text">量＋（地前）ィ【原】</note><note n="0049001" resp="CBETA" type="mod">量【大】，量地前【校異-原】</note><app n="0049001"><lem wit="【大】">量</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">量地前</rdg></app>，
+<lb n="0049c20" ed="T"/>理有大神驗，聞此法等故超生死無邊劫<note 
+n="0049001" resp="Taisho" type="orig" place="foot text">量＋（地前）ィ【原】</note><note 
+n="0049001" resp="CBETA" type="mod">量【大】，量地前【校異-原】</note><app n="0049001">
+  <lem wit="【大】">量</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">量地前</rdg>
+</app>，
 <lb n="0049c21" ed="T"/>既爾故能疾證無上菩提。此中所說現在定
 <lb n="0049c22" ed="T"/>得金剛等持，於法自在受勝喜樂，後生之障
 <lb n="0049c23" ed="T"/>皆不能染不墮惡趣，得金剛性疾得菩提，經
@@ -2326,21 +2576,28 @@
 <lb n="0050a03" ed="T"/>述讚卷第三</cb:jhead></cb:juan>
 <lb n="0050a04" ed="T"/>
 <lb n="0050a05" ed="T"/><byline cb:type="author">大慈恩寺沙門　基撰</byline></cb:div>
-<lb n="0050a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050a0601">經曰：爾時世尊復依遍照如來之相。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050a0615" cb:place="inline">讚曰：上
+<lb n="0050a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050a0601">經曰：爾時世尊復依遍照如來之相。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050a0615" cb:place="inline">讚曰：上
 <lb n="0050a07" ed="T"/>來第一、明實相境法。此下第二、寂靜法性現
 <lb n="0050a08" ed="T"/>等覺門，即是觀照正智體境。前門真性，此明
 <lb n="0050a09" ed="T"/>智相。於中亦三：初、敘佛說法門之號。此門有
 <lb n="0050a10" ed="T"/>二：初明所依如來之相、後陳所說法門之名。
 <lb n="0050a11" ed="T"/>此即初也。前門明性，本體之法不說為相。下
 <lb n="0050a12" ed="T"/>門是義，所以稱相。如來總體別有多能，今依
-<lb n="0050a13" ed="T"/>一義即是遍照如來之相。相謂義<note n="0050001" resp="Taisho" type="orig" place="foot text">相＋（體相）ィ【原】</note><note n="0050001" resp="CBETA" type="mod">相【大】，相體相【校異-原】</note><app n="0050001"><lem wit="【大】">相</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">相體相</rdg></app>相狀，非
+<lb n="0050a13" ed="T"/>一義即是遍照如來之相。相謂義<note 
+n="0050001" resp="Taisho" type="orig" place="foot text">相＋（體相）ィ【原】</note><note 
+n="0050001" resp="CBETA" type="mod">相【大】，相體相【校異-原】</note><app n="0050001">
+  <lem wit="【大】">相</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">相體相</rdg>
+</app>相狀，非
 <lb n="0050a14" ed="T"/>是分別有相之相。今於無相之法後說義相
 <lb n="0050a15" ed="T"/>之相，由一切智、一切種智斷惑遊觀二種智
 <lb n="0050a16" ed="T"/>故。於一切法皆能了知名為遍照，遍照之智
 <lb n="0050a17" ed="T"/>即如來相。今依此體相而說於法門，故名為
 <lb n="0050a18" ed="T"/>依遍照之相。</p></cb:div>
 <lb n="0050a19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050a1901">經曰：為諸菩薩宣說般若波羅蜜多一切如來
-<lb n="0050a20" ed="T"/>寂靜法性其深理趣現等覺門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050a2013" cb:place="inline">讚曰：此陳
+<lb n="0050a20" ed="T"/>寂靜法性其深理趣現等覺門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050a2013" cb:place="inline">讚曰：此陳
 <lb n="0050a21" ed="T"/>所說法門之名。一切如來寂靜法性甚深理
 <lb n="0050a22" ed="T"/>趣者，即前所說實相妙法是一切佛寂靜法
 <lb n="0050a23" ed="T"/>性甚深理趣。現等覺門者，現謂顯現，現前明
@@ -2351,7 +2608,8 @@
 <lb n="0050a28" ed="T"/>為由能入現等覺故。</p></cb:div>
 <lb n="0050a29" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050a2901">經曰：謂金剛平等性現等覺門，以大菩提堅實
 <pb n="0050b" ed="T" xml:id="T33.1695.0050b"/>
-<lb n="0050b01" ed="T"/>難壞如金剛故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050b0107" cb:place="inline">讚曰：此下第二，有四門：第
+<lb n="0050b01" ed="T"/>難壞如金剛故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050b0107" cb:place="inline">讚曰：此下第二，有四門：第
 <lb n="0050b02" ed="T"/>一能斷生死，性堅實故。金剛平等性現等覺
 <lb n="0050b03" ed="T"/>者能破生死，現等之覺猶如金剛，以智所證
 <lb n="0050b04" ed="T"/>法性菩提堅牢真實難可破壞若破金剛，故
@@ -2363,26 +2621,35 @@
 <lb n="0050b10" ed="T"/>為等義皆悉平等，以法本性真如菩提其義
 <lb n="0050b11" ed="T"/>一故性無差別。</p></cb:div>
 <lb n="0050b12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050b1201">經曰：法平等性現等覺門，以大菩提自性淨
-<lb n="0050b13" ed="T"/>故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050b1302" cb:place="inline">讚曰：此即第三觀察能詮智。以所證理
+<lb n="0050b13" ed="T"/>故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050b1302" cb:place="inline">讚曰：此即第三觀察能詮智。以所證理
 <lb n="0050b14" ed="T"/>大菩提性自性清淨故，於能詮教悟其平等。</p></cb:div>
 <lb n="0050b15" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050b1501">經曰：一切法平等性現等覺門，以大菩提於一
-<lb n="0050b16" ed="T"/>切法無分別故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050b1607" cb:place="inline">讚曰：此即第四通證諸法
+<lb n="0050b16" ed="T"/>切法無分別故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050b1607" cb:place="inline">讚曰：此即第四通證諸法
 <lb n="0050b17" ed="T"/>智。一切法者，有為無為。諸法之中皆現等覺，
 <lb n="0050b18" ed="T"/>以法本性於諸法中無有分別，故能證智證
 <lb n="0050b19" ed="T"/>諸法時皆亦不分別，故法本性亦性平等。由
 <lb n="0050b20" ed="T"/>如空中種種雲霧、如屏風上種種像貌，空及
 <lb n="0050b21" ed="T"/>屏風竝無分別，雲及畫像種種相起。</p></cb:div>
 <lb n="0050b22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050b2201">經曰：佛說如是寂靜法性般若理趣現等覺
-<lb n="0050b23" ed="T"/>已。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050b2302" cb:place="inline">讚曰：自下第三結歎法德。此即結也。</p></cb:div>
+<lb n="0050b23" ed="T"/>已。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050b2302" cb:place="inline">讚曰：自下第三結歎法德。此即結也。</p></cb:div>
 <lb n="0050b24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050b2401">經曰：告金剛手菩薩等言：若有得聞如是四種
 <lb n="0050b25" ed="T"/>般若理趣現等覺門，信解受持讀誦修習乃至
 <lb n="0050b26" ed="T"/>當坐妙菩提座，雖造一切極重惡業，而能超越
-<lb n="0050b27" ed="T"/>一切惡趣，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050b2713" cb:place="inline">讚曰：此即
+<lb n="0050b27" ed="T"/>一切惡趣，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050b2713" cb:place="inline">讚曰：此即
 <lb n="0050b28" ed="T"/>歎德。然準經中有十法行，此中但說有六法
 <lb n="0050b29" ed="T"/>行：一聞、二信解、三受持、四讀、五誦、六修習。始
 <pb n="0050c" ed="T" xml:id="T33.1695.0050c"/>
 <lb n="0050c01" ed="T"/>從今日於十法行初首行時，乃至未來坐菩
-<lb n="0050c02" ed="T"/>提座成<note n="0050002" resp="Taisho" type="orig" place="foot text">佛＝道ィ【原】</note><note n="0050002" resp="CBETA" type="mod">佛【大】，道【校異-原】</note><app n="0050002"><lem wit="【大】">佛</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">道</rdg></app>已來，雖造一切極重惡業，謂見中
+<lb n="0050c02" ed="T"/>提座成<note 
+n="0050002" resp="Taisho" type="orig" place="foot text">佛＝道ィ【原】</note><note 
+n="0050002" resp="CBETA" type="mod">佛【大】，道【校異-原】</note><app n="0050002">
+  <lem wit="【大】">佛</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">道</rdg>
+</app>已來，雖造一切極重惡業，謂見中
 <lb n="0050c03" ed="T"/>邪見、業中意業、逆中破和合僧等雖皆具造，
 <lb n="0050c04" ed="T"/>由悟解故不為被染，而能超越一切惡趣。由
 <lb n="0050c05" ed="T"/>聞經行等大威神力，此諸惡業作不增長，故不
@@ -2390,7 +2657,8 @@
 <lb n="0050c07" ed="T"/>德應與前同，但為別讚經之勝用故各別
 <lb n="0050c08" ed="T"/>說。</p></cb:div>
 <lb n="0050c09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050c0901">經曰：爾時世尊復依調伏一切惡法釋迦牟
-<lb n="0050c10" ed="T"/>尼如來之相。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050c1006" cb:place="inline">讚曰：自下第二，有二段經明行
+<lb n="0050c10" ed="T"/>尼如來之相。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050c1006" cb:place="inline">讚曰：自下第二，有二段經明行
 <lb n="0050c11" ed="T"/>境法。於中有二：初段調伏眾惡普勝法門，由
 <lb n="0050c12" ed="T"/>觀實相能伏眾惡；後段平等智印清淨法門，
 <lb n="0050c13" ed="T"/>由觀觀照智慧照明。今此初段於中有三：初
@@ -2401,7 +2669,8 @@
 <lb n="0050c18" ed="T"/>生死法，故名能寂默如來之相。依此調伏一
 <lb n="0050c19" ed="T"/>切惡法，能寂如來之相，說此法門也。</p></cb:div>
 <lb n="0050c20" ed="T"/><cb:div type="orig"><p xml:id="pT33p0050c2001">經曰：為諸菩薩宣說般若波羅蜜多攝受一切
-<lb n="0050c21" ed="T"/>法平等性甚深理趣普勝法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050c2113" cb:place="inline">讚曰：此陳
+<lb n="0050c21" ed="T"/>法平等性甚深理趣普勝法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050c2113" cb:place="inline">讚曰：此陳
 <lb n="0050c22" ed="T"/>所說法門之名。攝受一切法平等性者，謂攝
 <lb n="0050c23" ed="T"/>一切染淨因果皆入平等性法界中，由此故
 <lb n="0050c24" ed="T"/>能普勝眾惡，由此法門名普勝法。</p></cb:div>
@@ -2409,7 +2678,8 @@
 <lb n="0050c26" ed="T"/>恚性無戲論故愚癡性亦無戲論，愚癡性無戲
 <lb n="0050c27" ed="T"/>論故猶預性亦無戲論，猶預性無戲論故諸見
 <lb n="0050c28" ed="T"/>性亦無戲論，諸見性無戲論故憍慢性亦無戲
-<lb n="0050c29" ed="T"/>論。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0050c2902" cb:place="inline">讚曰：此下第二正說法門。於中有三：初
+<lb n="0050c29" ed="T"/>論。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0050c2902" cb:place="inline">讚曰：此下第二正說法門。於中有三：初
 <pb n="0051a" ed="T" xml:id="T33.1695.0051a"/>
 <lb n="0051a01" ed="T"/>別說生死惑業苦法性無戲論、次陳諸染淨
 <lb n="0051a02" ed="T"/>法性無戲論、後說般若亦無戲論結歸深趣。
@@ -2422,12 +2692,17 @@
 <lb n="0051a09" ed="T"/>別故生死生。知無戲論染淨亡，染淨亡性
 <lb n="0051a10" ed="T"/>無分別，無分別故生死滅，故能除惡。下皆準
 <lb n="0051a11" ed="T"/>知。初三三毒。猶預者疑。諸見謂五見，即耶
-<lb n="0051a12" ed="T"/>推度。憍謂憍逸。慢謂七慢，恃<note n="0051a1201" resp="CBETA" type="add" note_key="T33.0051a12.12">己【CB】，已【大】</note><app n="0051a1201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem><rdg wit="【大】">已</rdg></app>陵人名之為
+<lb n="0051a12" ed="T"/>推度。憍謂憍逸。慢謂七慢，恃<note 
+n="0051a1201" resp="CBETA" type="add" note_key="T33.0051a12.12">己【CB】，已【大】</note><app n="0051a1201">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">己</lem>
+  <rdg wit="【大】">已</rdg>
+</app>陵人名之為
 <lb n="0051a13" ed="T"/>慢。此六根本真如本性性無戲論，性無戲論
 <lb n="0051a14" ed="T"/>故能離分別。契此本性，離分別、無戲論，一切
 <lb n="0051a15" ed="T"/>惡法悉能降伏。</p></cb:div>
 <lb n="0051a16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051a1601">經曰：憍慢性無戲論故諸纏性亦無戲論，諸纏
-<lb n="0051a17" ed="T"/>性無戲論故煩惱垢性亦無戲論。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051a1714" cb:place="inline">讚曰：此
+<lb n="0051a17" ed="T"/>性無戲論故煩惱垢性亦無戲論。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051a1714" cb:place="inline">讚曰：此
 <lb n="0051a18" ed="T"/>明隨惑。纏謂數數增盛，現前纏繞於心，故名
 <lb n="0051a19" ed="T"/>纏也。此有八種，謂惛、沈睡眠於止為障，掉舉、
 <lb n="0051a20" ed="T"/>惡作於舉為障，嫉慳於捨為障，無慚、無愧於
@@ -2435,29 +2710,34 @@
 <lb n="0051a22" ed="T"/>誑、憍，垢穢眾生故名為垢。此六相麁，毀責之
 <lb n="0051a23" ed="T"/>甚，立以垢名。</p></cb:div>
 <lb n="0051a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051a2401">經曰：煩惱垢性無戲論故諸惡業性亦無戲論，
-<lb n="0051a25" ed="T"/>諸惡業性無戲論故諸果報性亦無戲論。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051a2517" cb:place="inline">讚
+<lb n="0051a25" ed="T"/>諸惡業性無戲論故諸果報性亦無戲論。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051a2517" cb:place="inline">讚
 <lb n="0051a26" ed="T"/>曰：上惑無戲論，業果亦復然，總名生死法性
 <lb n="0051a27" ed="T"/>無戲論。證此無戲論故，離生死一切惡法。</p></cb:div>
 <lb n="0051a28" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051a2801">經曰：諸果報性無戲論故雜染法性亦無戲論，
 <lb n="0051a29" ed="T"/>雜染法性無戲論故清淨法性亦無戲論，清淨
 <pb n="0051b" ed="T" xml:id="T33.1695.0051b"/>
-<lb n="0051b01" ed="T"/>法性無戲論故一切法性亦無戲論。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051b0115" cb:place="inline">讚曰：此
+<lb n="0051b01" ed="T"/>法性無戲論故一切法性亦無戲論。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051b0115" cb:place="inline">讚曰：此
 <lb n="0051b02" ed="T"/>第二明諸染淨法性無戲論。雜染者，總攝一
 <lb n="0051b03" ed="T"/>切有漏法盡，與染雜故。清淨者，總攝一切無
 <lb n="0051b04" ed="T"/>漏法盡。一切法者，總攝一切有漏無漏、有為
 <lb n="0051b05" ed="T"/>無為、生死有情。先染後淨、先別後總，義次第
 <lb n="0051b06" ed="T"/>故。</p></cb:div>
 <lb n="0051b07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051b0701">經曰：一切法性無戲論故當知般若波羅蜜多
-<lb n="0051b08" ed="T"/>亦無戲論。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051b0805" cb:place="inline">讚曰：由所觀境性無戲論，能觀
+<lb n="0051b08" ed="T"/>亦無戲論。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051b0805" cb:place="inline">讚曰：由所觀境性無戲論，能觀
 <lb n="0051b09" ed="T"/>之智亦無戲論，如實知故。由此境智悉無戲
 <lb n="0051b10" ed="T"/>論，故離生死一切分別，降伏一切惡法皆盡。</p></cb:div>
 <lb n="0051b11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051b1101">經曰：佛說如是調伏眾惡般若理趣普勝法
-<lb n="0051b12" ed="T"/>已。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051b1202" cb:place="inline">讚曰：自下第三歎此經德，意此結前已。</p></cb:div>
+<lb n="0051b12" ed="T"/>已。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051b1202" cb:place="inline">讚曰：自下第三歎此經德，意此結前已。</p></cb:div>
 <lb n="0051b13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051b1301">經曰：告金剛手菩薩等言：若有得聞如是般若
 <lb n="0051b14" ed="T"/>波羅蜜多甚深理趣，信解受持讀誦修習，假使
 <lb n="0051b15" ed="T"/>殺害三界所攝一切有情，而不由斯墮於地獄、
 <lb n="0051b16" ed="T"/>傍生、鬼界，以能調伏一切煩惱及隨煩惱惡業
-<lb n="0051b17" ed="T"/>等故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051b1703" cb:place="inline">讚曰：以經威力能調眾惡，故是殺罪
+<lb n="0051b17" ed="T"/>等故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051b1703" cb:place="inline">讚曰：以經威力能調眾惡，故是殺罪
 <lb n="0051b18" ed="T"/>竝得銷除。由悟法性起斯勝行，故此大罪不
 <lb n="0051b19" ed="T"/>招惡果。以經威力善能調伏一切煩惱及隨
 <lb n="0051b20" ed="T"/>煩惱惡業等故，設有是罪不招惡果。相縛縛
@@ -2466,12 +2746,14 @@
 <lb n="0051b23" ed="T"/>今離戲論、斷諸分別，分別既盡惑業亦亡，故
 <lb n="0051b24" ed="T"/>此大罪聞經信解定得消滅。</p></cb:div>
 <lb n="0051b25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051b2501">經曰：常生善趣受勝妙樂，修諸菩薩摩訶薩
-<lb n="0051b26" ed="T"/>行，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051b2610" cb:place="inline">讚曰：上能除惡、下
+<lb n="0051b26" ed="T"/>行，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051b2610" cb:place="inline">讚曰：上能除惡、下
 <lb n="0051b27" ed="T"/>能攝善。於中二果：一世間果、二出世果。</p></cb:div>
 <lb n="0051b28" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051b2801">經曰：爾時世尊復依性淨如來之相，為諸菩薩
 <lb n="0051b29" ed="T"/>宣說般若波羅蜜多一切法平等性觀自在妙
 <pb n="0051c" ed="T" xml:id="T33.1695.0051c"/>
-<lb n="0051c01" ed="T"/>智印甚深理趣清淨法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051c0111" cb:place="inline">讚曰：此第四段
+<lb n="0051c01" ed="T"/>智印甚深理趣清淨法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051c0111" cb:place="inline">讚曰：此第四段
 <lb n="0051c02" ed="T"/>由觀觀照智慧照明，以顯行境界。文中有三，
 <lb n="0051c03" ed="T"/>竝同前解。由能觀智證會諸法本性清淨故，
 <lb n="0051c04" ed="T"/>分別相智皆離之名為性淨，今名得清淨。一
@@ -2483,55 +2765,70 @@
 <lb n="0051c10" ed="T"/>令世間愚癡清淨，一切愚癡本性清淨極照明
 <lb n="0051c11" ed="T"/>故能令世間疑惑清淨，一切疑惑本性清淨極
 <lb n="0051c12" ed="T"/>照明故能令世間見趣清淨，一切見趣本性清
-<lb n="0051c13" ed="T"/>淨極照明故能令世間憍慢清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051c1314" cb:place="inline">讚曰：此文
+<lb n="0051c13" ed="T"/>淨極照明故能令世間憍慢清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051c1314" cb:place="inline">讚曰：此文
 <lb n="0051c14" ed="T"/>有三，同前文說。前文是境，此文是智，照明前
 <lb n="0051c15" ed="T"/>故。謂於貪欲本性真如清淨境中極照明故，
 <lb n="0051c16" ed="T"/>能照明者即是智。以貪欲為本，生於嗔等故。</p></cb:div>
 <lb n="0051c17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051c1701">經曰：一切憍慢本性清淨極照明故能令世間
 <lb n="0051c18" ed="T"/>纏結清淨，一切纏結本性清淨極照明故能令
-<lb n="0051c19" ed="T"/>世間垢穢清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051c1907" cb:place="inline">述曰：此明於隨煩惱本性
+<lb n="0051c19" ed="T"/>世間垢穢清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051c1907" cb:place="inline">述曰：此明於隨煩惱本性
 <lb n="0051c20" ed="T"/>清淨極照明也。纏垢等義，竝如前解。所言結
 <lb n="0051c21" ed="T"/>者，即是九結，謂愛、恚、慢、無明、見取、疑、嫉、
 <lb n="0051c22" ed="T"/>慳、結。結是結縛，能和合苦，難可解故，名之為
 <lb n="0051c23" ed="T"/>結。</p></cb:div>
 <lb n="0051c24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051c2401">經曰：一切垢穢本性清淨極照明故能令世間
 <lb n="0051c25" ed="T"/>惡法清淨，一切惡法本性清淨極照明故能令
-<lb n="0051c26" ed="T"/>世間生死清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0051c2607" cb:place="inline">讚曰：上明惑，此明業果。以
+<lb n="0051c26" ed="T"/>世間生死清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0051c2607" cb:place="inline">讚曰：上明惑，此明業果。以
 <lb n="0051c27" ed="T"/>生死業逼迫果業，故名惡法。言生死者，謂異
 <lb n="0051c28" ed="T"/>熟果，即前惡業所招苦果。</p></cb:div>
 <lb n="0051c29" ed="T"/><cb:div type="orig"><p xml:id="pT33p0051c2901">經曰：一切生死本性清淨極照明故能令世間
 <pb n="0052a" ed="T" xml:id="T33.1695.0052a"/>
-<lb n="0052a01" ed="T"/>諸法清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052a0105" cb:place="inline">讚曰：世間諸法即雜染法，總攝
+<lb n="0052a01" ed="T"/>諸法清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052a0105" cb:place="inline">讚曰：世間諸法即雜染法，總攝
 <lb n="0052a02" ed="T"/>有漏。自下第二總攝諸法。</p></cb:div>
 <lb n="0052a03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052a0301">經曰：以一切法本性清淨極照明故能令世
-<lb n="0052a04" ed="T"/>間有情清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052a0406" cb:place="inline">讚曰：由有漏法成有情故，故
+<lb n="0052a04" ed="T"/>間有情清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052a0406" cb:place="inline">讚曰：由有漏法成有情故，故
 <lb n="0052a05" ed="T"/>有漏後明其有情。</p></cb:div>
 <lb n="0052a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052a0601">經曰：一切有情本性清淨極照明故能令世
-<lb n="0052a07" ed="T"/>間一切智清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052a0707" cb:place="inline">讚曰：出世間中一切智為
+<lb n="0052a07" ed="T"/>間一切智清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052a0707" cb:place="inline">讚曰：出世間中一切智為
 <lb n="0052a08" ed="T"/>本，舉此攝餘，清淨法盡。三乘總觀諸無我智，
 <lb n="0052a09" ed="T"/>名一切智。</p></cb:div>
 <lb n="0052a10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052a1001">經曰：以一切智本性清淨極照明故能令世間
-<lb n="0052a11" ed="T"/>甚深般若波羅蜜多最勝清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052a1113" cb:place="inline">讚曰：此即
+<lb n="0052a11" ed="T"/>甚深般若波羅蜜多最勝清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052a1113" cb:place="inline">讚曰：此即
 <lb n="0052a12" ed="T"/>第三般若清淨。由能照明一切法性本性清
 <lb n="0052a13" ed="T"/>淨，故能觀智最勝清淨，與所緣境極相應故。</p></cb:div>
 <lb n="0052a14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052a1401">經曰：佛說如是平等智印般若理趣清淨法
-<lb n="0052a15" ed="T"/>已。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052a1502" cb:place="inline">讚曰：自下第三文陳經勝德。平等智
+<lb n="0052a15" ed="T"/>已。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052a1502" cb:place="inline">讚曰：自下第三文陳經勝德。平等智
 <lb n="0052a16" ed="T"/>印者，謂一切法性無戲論能觀之智名平等
 <lb n="0052a17" ed="T"/>智印。</p></cb:div>
 <lb n="0052a18" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052a1801">經曰：告金剛手菩薩等言：若有得聞如是般若
 <lb n="0052a19" ed="T"/>波羅蜜多清淨理趣，信解受持讀誦修習，雖住
 <lb n="0052a20" ed="T"/>一切貪嗔癡等客塵煩惱垢穢聚中，而猶蓮華
-<lb n="0052a21" ed="T"/>不為一切客塵垢穢過失所染。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052a2113" cb:place="inline">讚曰：由能
+<lb n="0052a21" ed="T"/>不為一切客塵垢穢過失所染。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052a2113" cb:place="inline">讚曰：由能
 <lb n="0052a22" ed="T"/>觀智觀染淨法本性清淨，故住煩惱不為染
 <lb n="0052a23" ed="T"/>污，悟本性故。此說離過。</p></cb:div>
 <lb n="0052a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052a2401">經曰：常能修習菩薩勝行，疾證無上正等菩
-<lb n="0052a25" ed="T"/>提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052a2502" cb:place="inline">讚曰：此釋得善果。由起法行悟於真智，
+<lb n="0052a25" ed="T"/>提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052a2502" cb:place="inline">讚曰：此釋得善果。由起法行悟於真智，
 <lb n="0052a26" ed="T"/>故常修習菩薩勝行，乃至終後疾證菩提。</p></cb:div>
 <lb n="0052a27" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052a2701">經曰：爾時世尊復依一切三界勝主如來之相。</p></cb:div>
 <lb n="0052a28" ed="T"/><cb:div type="commentary"><p xml:id="pT33p0052a2801">讚曰：明境六中，自下第三，有二段經明果
 <lb n="0052a29" ed="T"/>法境。於二段中，初段法王灌頂智藏法門，顯
 <pb n="0052b" ed="T" xml:id="T33.1695.0052b"/>
-<lb n="0052b01" ed="T"/>由二行得<note n="0052001" resp="Taisho" type="orig" place="foot text">財＝職ヵ【原】</note><note n="0052001" resp="CBETA" type="mod">財【大】，職【考偽-原】</note><app n="0052001"><lem resp="Taisho" wit="【大】">財</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">職</rdg></app>位果；後段如來智印金剛法門，
+<lb n="0052b01" ed="T"/>由二行得<note 
+n="0052001" resp="Taisho" type="orig" place="foot text">財＝職ヵ【原】</note><note 
+n="0052001" resp="CBETA" type="mod">財【大】，職【考偽-原】</note><app n="0052001">
+  <lem resp="Taisho" wit="【大】">財</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">職</rdg>
+</app>位果；後段如來智印金剛法門，
 <lb n="0052b02" ed="T"/>顯由二行得自體果。今此初段。於中有三，準
 <lb n="0052b03" ed="T"/>前應釋。初標所說法門號中，文復有二：初明
 <lb n="0052b04" ed="T"/>所依如來之相、後明所說法門之名。此即初
@@ -2541,7 +2838,8 @@
 <lb n="0052b08" ed="T"/>尊稱三界主。佛為法王，故言勝主，依此尊位
 <lb n="0052b09" ed="T"/>以說法門。</p></cb:div>
 <lb n="0052b10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0052b1001">經曰：為諸菩薩宣說般若波羅蜜多一切如來
-<lb n="0052b11" ed="T"/>和合灌頂甚深理趣智藏法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052b1113" cb:place="inline">讚曰：此明
+<lb n="0052b11" ed="T"/>和合灌頂甚深理趣智藏法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052b1113" cb:place="inline">讚曰：此明
 <lb n="0052b12" ed="T"/>所說法門之號。至第十地將受如來法王位
 <lb n="0052b13" ed="T"/>時，一切十方如來和合咸灌其頂，如剎帝利
 <lb n="0052b14" ed="T"/>受王位法。今此菩薩受佛尊位，以何法水灌
@@ -2554,7 +2852,8 @@
 <lb n="0052b21" ed="T"/>以出世間無上義施，當得一切希願滿足。以出
 <lb n="0052b22" ed="T"/>世間無上法施，於一切法當得自在。若以世間
 <lb n="0052b23" ed="T"/>財食等施，當得一切身語心樂。若以種種財法
-<lb n="0052b24" ed="T"/>等施，能令布施波羅蜜多速得圓滿。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052b2415" cb:place="inline">讚曰：自
+<lb n="0052b24" ed="T"/>等施，能令布施波羅蜜多速得圓滿。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052b2415" cb:place="inline">讚曰：自
 <lb n="0052b25" ed="T"/>下第二正顯所說法門。六度不同，隨成六段。
 <lb n="0052b26" ed="T"/>施中有五：一位施、二義施、三法施、四財施、五總
 <lb n="0052b27" ed="T"/>無畏施。其實五施一一竝得多果，此中且說
@@ -2568,7 +2867,13 @@
 <lb n="0052c05" ed="T"/>種：一至心、二信心、三隨時、四自手、五如法。如
 <lb n="0052c06" ed="T"/>有頌言「施者殊勝信等具足，恭敬應時自手
 <lb n="0052c07" ed="T"/>施」等。又有頌言「利他加行於有情，不簡有力
-<lb n="0052c08" ed="T"/>及無力，於一切時一切施，隨力所能廣<note n="0052002" resp="Taisho" type="orig" place="foot text">〔說法〕ィ－【原】</note><note n="0052002" resp="CBETA" type="mod" note_key="T33.0052c08.16">〔－〕【CB】【校異-原】，說法【大】</note><app n="0052002"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">T31n1598_p0421b20</note></lem><rdg wit="【大】">說法</rdg><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>
+<lb n="0052c08" ed="T"/>及無力，於一切時一切施，隨力所能廣<note 
+n="0052002" resp="Taisho" type="orig" place="foot text">〔說法〕ィ－【原】</note><note 
+n="0052002" resp="CBETA" type="mod" note_key="T33.0052c08.16">〔－〕【CB】【校異-原】，說法【大】</note><app n="0052002">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">T31n1598_p0421b20</note></lem>
+  <rdg wit="【大】">說法</rdg>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>
 <lb n="0052c09" ed="T"/>饒益。」不應施有五：非理財不應施，不淨故；酒
 <lb n="0052c10" ed="T"/>及毒不應施，亂生故；罝羅機網不應施，惱生
 <lb n="0052c11" ed="T"/>故；刀杖弓箭不應施，害生故；音樂女色不應
@@ -2584,7 +2889,8 @@
 <lb n="0052c21" ed="T"/>蜜多速得圓滿。於一切時修習精進，能令精進
 <lb n="0052c22" ed="T"/>波羅蜜多速得圓滿。於一切境修行靜慮，能令
 <lb n="0052c23" ed="T"/>靜慮波羅蜜多速得圓滿。於一切法常修妙慧，
-<lb n="0052c24" ed="T"/>能令般若波羅蜜多速得圓滿。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0052c2413" cb:place="inline">讚曰：三種
+<lb n="0052c24" ed="T"/>能令般若波羅蜜多速得圓滿。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0052c2413" cb:place="inline">讚曰：三種
 <lb n="0052c25" ed="T"/>戒法皆能圓滿，草結鵝珠而能不壞。三戒非
 <lb n="0052c26" ed="T"/>一故言種種。事事能忍，一切時能勤無懈疲
 <lb n="0052c27" ed="T"/>故。於一切境能靜慮，無散亂心故。於一切法
@@ -2595,7 +2901,8 @@
 <lb n="0053a02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053a0201">經曰：佛說如是灌頂法門般若理趣智藏法
 <lb n="0053a03" ed="T"/>已，告金剛手菩薩等言：若有得聞如是灌頂甚
 <lb n="0053a04" ed="T"/>深理趣智藏法門，信解受持讀誦修習，速能滿
-<lb n="0053a05" ed="T"/>足諸菩薩行，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053a0514" cb:place="inline">讚曰：由
+<lb n="0053a05" ed="T"/>足諸菩薩行，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053a0514" cb:place="inline">讚曰：由
 <lb n="0053a06" ed="T"/>聞六度菩薩行成，所求菩提亦能速得。</p></cb:div>
 <lb n="0053a07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053a0701">經曰：爾時世尊復依一切如來智印持一切佛
 <lb n="0053a08" ed="T"/>祕密法門如來之相，為諸菩薩宣說般若波羅
@@ -2609,11 +2916,13 @@
 <lb n="0053a16" ed="T"/>一切生死智體堅實，故名金剛。</p></cb:div>
 <lb n="0053a17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053a1701">經曰：謂具攝受一切如來金剛身印，當證一切
 <lb n="0053a18" ed="T"/>如來法身。若具攝受一切如來金剛語印，於一
-<lb n="0053a19" ed="T"/>切法當得自在。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053a1907" cb:place="inline">讚曰：由在因中別行如來
+<lb n="0053a19" ed="T"/>切法當得自在。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053a1907" cb:place="inline">讚曰：由在因中別行如來
 <lb n="0053a20" ed="T"/>三業因印，得果之時得如金剛法身等果。</p></cb:div>
 <lb n="0053a21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053a2101">經曰：若具攝受一切如來金剛心印，於一切定
 <lb n="0053a22" ed="T"/>當得自在。若具攝受一切如來金剛智印，能得
-<lb n="0053a23" ed="T"/>最上妙身語心猶若金剛無動無壞。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053a2315" cb:place="inline">讚曰：由
+<lb n="0053a23" ed="T"/>最上妙身語心猶若金剛無動無壞。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053a2315" cb:place="inline">讚曰：由
 <lb n="0053a24" ed="T"/>在因中具行三業金剛智印，得果之時能得最
 <lb n="0053a25" ed="T"/>上妙身語心，謂如金剛，不為耶友所動、不為
 <lb n="0053a26" ed="T"/>生死所壞。此中意說別行三業殊勝之因別
@@ -2624,17 +2933,20 @@
 <lb n="0053b01" ed="T"/>告金剛手菩薩等言：若有得聞如是智印甚深
 <lb n="0053b02" ed="T"/>理趣金剛法門，信解受持讀誦修習，一切事業
 <lb n="0053b03" ed="T"/>皆能成辦，常與一切勝事和合，所欲修行一切
-<lb n="0053b04" ed="T"/>勝智諸勝福業皆速圓滿。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053b0411" cb:place="inline">讚曰：自下第三
+<lb n="0053b04" ed="T"/>勝智諸勝福業皆速圓滿。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053b0411" cb:place="inline">讚曰：自下第三
 <lb n="0053b05" ed="T"/>歎此經德。一切事業皆得成辨者，謂諸無罪
 <lb n="0053b06" ed="T"/>順理善事。常與一切勝事和合者，現在後生
 <lb n="0053b07" ed="T"/>常與勝事和合相應，衰減等事皆悉遠離，所
 <lb n="0053b08" ed="T"/>修福慧皆速圓滿。此說因位所得勝利。</p></cb:div>
 <lb n="0053b09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053b0901">經曰：當得最勝淨身語心，猶若金剛不可破
-<lb n="0053b10" ed="T"/>壞，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053b1010" cb:place="inline">讚曰：此說未來所
+<lb n="0053b10" ed="T"/>壞，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053b1010" cb:place="inline">讚曰：此說未來所
 <lb n="0053b11" ed="T"/>得果位殊勝妙果。</p></cb:div>
 <lb n="0053b12" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053b1201">經曰：爾時世尊復依一切無戲論法如來之相，
 <lb n="0053b13" ed="T"/>為諸菩薩宣說般若波羅蜜多甚深理趣輪
-<lb n="0053b14" ed="T"/>字法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053b1404" cb:place="inline">讚曰：上六段經明勝境訖。次有六段
+<lb n="0053b14" ed="T"/>字法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053b1404" cb:place="inline">讚曰：上六段經明勝境訖。次有六段
 <lb n="0053b15" ed="T"/>當明勝行，復分為三：初二段顯依實相斷修
 <lb n="0053b16" ed="T"/>之相、次二段顯依觀照修斷之相、後二段顯
 <lb n="0053b17" ed="T"/>依二法遍修之相。就初二段顯依實相斷修
@@ -2652,22 +2964,31 @@
 <lb n="0053b29" ed="T"/>如是展轉。</p></cb:div>
 <pb n="0053c" ed="T" xml:id="T33.1695.0053c"/>
 <lb n="0053c01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053c0101">經曰：謂一切法空，無自性故；一切法無相，離眾
-<lb n="0053c02" ed="T"/>相故；一切法無願，無所願故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053c0212" cb:place="inline">讚曰：以下第
+<lb n="0053c02" ed="T"/>相故；一切法無願，無所願故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053c0212" cb:place="inline">讚曰：以下第
 <lb n="0053c03" ed="T"/>二正陳所說。於中有四：初、三解脫門境。遍計
 <lb n="0053c04" ed="T"/>所執一切皆空，圓成無相，依他無願。又此
 <lb n="0053c05" ed="T"/>三種皆通三性。又但有二，謂妄與真。真妄皆
 <lb n="0053c06" ed="T"/>通，有三種故。非我有名空，離十名無相，不希
 <lb n="0053c07" ed="T"/>名無願。</p></cb:div>
 <lb n="0053c08" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053c0801">經曰：一切法遠離，無所著故；一切法寂靜，永
-<lb n="0053c09" ed="T"/>寂滅故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053c0904" cb:place="inline">讚曰：此即第二離著離生。</p></cb:div>
+<lb n="0053c09" ed="T"/>寂滅故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053c0904" cb:place="inline">讚曰：此即第二離著離生。</p></cb:div>
 <lb n="0053c10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053c1001">經曰：一切法無常，性常無故；一切法無樂，非可
 <lb n="0053c11" ed="T"/>樂故；一切法無我，不自在故；一切法無淨，離
-<lb n="0053c12" ed="T"/>淨相故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053c1204" cb:place="inline">讚曰：此即第三離四倒<note n="0053001" resp="Taisho" type="orig" place="foot text">執＝想ィ【原】</note><note n="0053001" resp="CBETA" type="mod">執【大】，想【校異-原】</note><app n="0053001"><lem wit="【大】">執</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">想</rdg></app>。</p></cb:div>
+<lb n="0053c12" ed="T"/>淨相故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053c1204" cb:place="inline">讚曰：此即第三離四倒<note 
+n="0053001" resp="Taisho" type="orig" place="foot text">執＝想ィ【原】</note><note 
+n="0053001" resp="CBETA" type="mod">執【大】，想【校異-原】</note><app n="0053001">
+  <lem wit="【大】">執</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">想</rdg>
+</app>。</p></cb:div>
 <lb n="0053c13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053c1301">經曰：一切法不可得，推尋其性不可得故；一切
 <lb n="0053c14" ed="T"/>法不思議，思議其性無所有故；一切法無所有，
 <lb n="0053c15" ed="T"/>眾緣和合假施設故；一切法無戲論，本性空寂
 <lb n="0053c16" ed="T"/>離言說故；一切法本性淨，甚深般若波羅蜜多
-<lb n="0053c17" ed="T"/>本性淨故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053c1705" cb:place="inline">讚曰：此第四離諸執著也。無如
+<lb n="0053c17" ed="T"/>本性淨故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053c1705" cb:place="inline">讚曰：此第四離諸執著也。無如
 <lb n="0053c18" ed="T"/>所執有所得故，尋思之心言說之議不可思
 <lb n="0053c19" ed="T"/>議故。法假施設，無實有故。法性離言，無戲論
 <lb n="0053c20" ed="T"/>故。法性本淨，實相般若本性淨故。此既是法
@@ -2675,11 +2996,13 @@
 <lb n="0053c22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053c2201">經曰：佛說如是離諸戲論般若理趣輪字法已，
 <lb n="0053c23" ed="T"/>告金剛手菩薩等言：若有得聞此無戲論般若
 <lb n="0053c24" ed="T"/>理趣輪字法門，信解受持讀誦修習，於一切法
-<lb n="0053c25" ed="T"/>得無礙智，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053c2513" cb:place="inline">讚曰：此即第
+<lb n="0053c25" ed="T"/>得無礙智，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053c2513" cb:place="inline">讚曰：此即第
 <lb n="0053c26" ed="T"/>三歎經勝德。達法性空，故於諸法得無礙智。</p></cb:div>
 <lb n="0053c27" ed="T"/><cb:div type="orig"><p xml:id="pT33p0053c2701">經曰：爾時世尊復依一切如來輪攝如來之相，
 <lb n="0053c28" ed="T"/>為諸菩薩宣說般若波羅蜜多入廣大輪甚深
-<lb n="0053c29" ed="T"/>理趣平等性門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0053c2907" cb:place="inline">讚曰：此即第二入廣大輪
+<lb n="0053c29" ed="T"/>理趣平等性門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0053c2907" cb:place="inline">讚曰：此即第二入廣大輪
 <pb n="0054a" ed="T" xml:id="T33.1695.0054a"/>
 <lb n="0054a01" ed="T"/>平等性門，由觀平等修證真故。於中有三，此
 <lb n="0054a02" ed="T"/>標所說法門之名。前明輪字未明攝法，今明
@@ -2688,8 +3011,13 @@
 <lb n="0054a05" ed="T"/>故名為性。</p></cb:div>
 <lb n="0054a06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054a0601">經曰：謂入金剛平等性，能入一切如來性輪故。
 <lb n="0054a07" ed="T"/>入義平等性，能入一切菩薩性輪故。入法平等
-<lb n="0054a08" ed="T"/>性，能入一切法性輪故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054a0810" cb:place="inline">讚曰：自下第二正
-<lb n="0054a09" ed="T"/>陳所說。於中有<note n="0054a0901" resp="CBETA" type="add" note_key="T33.0054a09.07">二【CB】，三【大】</note><app n="0054a0901"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">二</lem><rdg wit="【大】">三</rdg></app>：初別明性輪、後總明性輪。
+<lb n="0054a08" ed="T"/>性，能入一切法性輪故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054a0810" cb:place="inline">讚曰：自下第二正
+<lb n="0054a09" ed="T"/>陳所說。於中有<note 
+n="0054a0901" resp="CBETA" type="add" note_key="T33.0054a09.07">二【CB】，三【大】</note><app n="0054a0901">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">二</lem>
+  <rdg wit="【大】">三</rdg>
+</app>：初別明性輪、後總明性輪。
 <lb n="0054a10" ed="T"/>別明性輪中有三：初明聖者性輪、二明法性
 <lb n="0054a11" ed="T"/>輪、三明有情性輪。初中有三：初明佛性輪。法
 <lb n="0054a12" ed="T"/>身本性能破生死，堅實難壞如金剛故。菩薩
@@ -2701,13 +3029,15 @@
 <lb n="0054a18" ed="T"/>於法性輪故，隨順說別，性竝即真。</p></cb:div>
 <lb n="0054a19" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054a1901">經曰：入蘊平等性，能入一切蘊性輪故。入處平
 <lb n="0054a20" ed="T"/>等性，能入一切處性輪故。入界平等性，能入一
-<lb n="0054a21" ed="T"/>切界性輪故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054a2106" cb:place="inline">讚曰：自下第二明法性輪。於
+<lb n="0054a21" ed="T"/>切界性輪故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054a2106" cb:place="inline">讚曰：自下第二明法性輪。於
 <lb n="0054a22" ed="T"/>中有三：初別法、次通法、後位法。別法中有七，
 <lb n="0054a23" ed="T"/>此初三科也。義別說三，體真法性。</p></cb:div>
 <lb n="0054a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054a2401">經曰：入諦平等性，能入一切諦性輪故。入緣起
 <lb n="0054a25" ed="T"/>平等性，能入一切緣起性輪故。入寶平等性，能
 <lb n="0054a26" ed="T"/>入一切寶性輪故。入食平等性，能入一切食性
-<lb n="0054a27" ed="T"/>輪故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054a2703" cb:place="inline">讚曰：此四別法。諦謂四諦，緣起有十
+<lb n="0054a27" ed="T"/>輪故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054a2703" cb:place="inline">讚曰：此四別法。諦謂四諦，緣起有十
 <lb n="0054a28" ed="T"/>二，寶謂三寶。食謂四食，謂段、觸、思及與識食。
 <lb n="0054a29" ed="T"/>香、味、觸三名為段食。觸謂觸數，第六識俱。思
 <pb n="0054b" ed="T" xml:id="T33.1695.0054b"/>
@@ -2722,19 +3052,22 @@
 <lb n="0054b09" ed="T"/>性，能入一切有為法性輪故。入無為法平等性，
 <lb n="0054b10" ed="T"/>能入一切無為法性輪故。入世間法平等性，能
 <lb n="0054b11" ed="T"/>入一切世間法性輪故。入出世間法平等性，能
-<lb n="0054b12" ed="T"/>入一切出世間法性輪故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054b1211" cb:place="inline">讚曰：此即第二
+<lb n="0054b12" ed="T"/>入一切出世間法性輪故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054b1211" cb:place="inline">讚曰：此即第二
 <lb n="0054b13" ed="T"/>明諸通法入法性輪。於中有五，其義如文。此
 <lb n="0054b14" ed="T"/>五通在人法二種。</p></cb:div>
 <lb n="0054b15" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054b1501">經曰：入異生法平等性，能入一切異生法性輪
 <lb n="0054b16" ed="T"/>故。入聲聞法平等性，能入一切聲聞法性輪故。
 <lb n="0054b17" ed="T"/>入獨覺法平等性，能入一切獨覺法性輪故。入
 <lb n="0054b18" ed="T"/>菩薩法平等性，能入一切菩薩法性輪故。入如
-<lb n="0054b19" ed="T"/>來法平等性，能入如來法性輪故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054b1914" cb:place="inline">讚曰：此即
+<lb n="0054b19" ed="T"/>來法平等性，能入如來法性輪故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054b1914" cb:place="inline">讚曰：此即
 <lb n="0054b20" ed="T"/>第三明諸位法入法性輪。於中有五，一凡法、
 <lb n="0054b21" ed="T"/>四聖法，如應當知。</p></cb:div>
 <lb n="0054b22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054b2201">經曰：入有情平等性，能入一切有情性輪故。</p></cb:div>
 <lb n="0054b23" ed="T"/><cb:div type="commentary"><p xml:id="pT33p0054b2301">讚曰：此即第三明有情入本性輪。</p></cb:div>
-<lb n="0054b24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054b2401">經曰：入一切平等性，能入一切性輪故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054b2416" cb:place="inline">讚曰：
+<lb n="0054b24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054b2401">經曰：入一切平等性，能入一切性輪故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054b2416" cb:place="inline">讚曰：
 <lb n="0054b25" ed="T"/>此即第二總明性輪。若聖若凡、若人若法，一
 <lb n="0054b26" ed="T"/>切皆入本性輪故。欲顯一切皆歸本性廣大
 <lb n="0054b27" ed="T"/>輪攝。</p></cb:div>
@@ -2742,13 +3075,15 @@
 <lb n="0054b29" ed="T"/>已，告金剛手菩薩等言：若有得聞如是輪性甚
 <pb n="0054c" ed="T" xml:id="T33.1695.0054c"/>
 <lb n="0054c01" ed="T"/>深理趣平等性門，信解受持讀誦修習，能善悟
-<lb n="0054c02" ed="T"/>入諸平等性，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054c0214" cb:place="inline">讚曰：此
+<lb n="0054c02" ed="T"/>入諸平等性，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054c0214" cb:place="inline">讚曰：此
 <lb n="0054c03" ed="T"/>即第三歎經勝德。由聞此故，現在後生能善
 <lb n="0054c04" ed="T"/>悟入諸平等性，學悟證悟皆善悟入，乃至究
 <lb n="0054c05" ed="T"/>竟疾得菩提。</p></cb:div>
 <lb n="0054c06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0054c0601">經曰：爾時世尊復依一切廣受供養真淨器田
 <lb n="0054c07" ed="T"/>如來之相，為諸菩薩宣說般若波羅蜜多一切
-<lb n="0054c08" ed="T"/>供養甚深理趣無上法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054c0811" cb:place="inline">讚曰：明行中自
+<lb n="0054c08" ed="T"/>供養甚深理趣無上法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054c0811" cb:place="inline">讚曰：明行中自
 <lb n="0054c09" ed="T"/>下兩段，顯依觀照修斷之相。初段真淨供養
 <lb n="0054c10" ed="T"/>無上法門，由依觀照修供養故；後段能善調
 <lb n="0054c11" ed="T"/>伏智藏法門，由依觀照除忿等故。此即初也。
@@ -2764,7 +3099,8 @@
 <lb n="0054c21" ed="T"/>如來廣設供養。修行一切五眼六通，於諸如來
 <lb n="0054c22" ed="T"/>廣設供養。修行一切靜慮解脫，於諸如來廣設
 <lb n="0054c23" ed="T"/>供養。修行一切慈悲喜捨，於諸如來廣設供養。
-<lb n="0054c24" ed="T"/>修行一切佛不共法，於諸如來廣設供養。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0054c2417" cb:place="inline">讚
+<lb n="0054c24" ed="T"/>修行一切佛不共法，於諸如來廣設供養。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0054c2417" cb:place="inline">讚
 <lb n="0054c25" ed="T"/>曰：自下正說。由在因中行正供養，後為淨因。
 <lb n="0054c26" ed="T"/>於中有三：初修習行、次觀察行、後法行行。此
 <lb n="0054c27" ed="T"/>即初也。就中復三：初發心行、次攝護行、後
@@ -2822,11 +3158,16 @@
 <lb n="0055b19" ed="T"/>來廣設供養。觀一切法若樂若苦皆不可得，於
 <lb n="0055b20" ed="T"/>諸如來廣設供養。觀一切法若我若無我皆不
 <lb n="0055b21" ed="T"/>可得，於諸如來廣設供養。觀一切法若淨若不
-<lb n="0055b22" ed="T"/>淨皆不可得，於諸如來廣設供養。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0055b2214" cb:place="inline">讚曰：自下
+<lb n="0055b22" ed="T"/>淨皆不可得，於諸如來廣設供養。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0055b2214" cb:place="inline">讚曰：自下
 <lb n="0055b23" ed="T"/>第二觀察行相。於中復三：一離四倒行、二三
 <lb n="0055b24" ed="T"/>門行、三離著生滅行。此則初也。異生多執身
 <lb n="0055b25" ed="T"/>受心法以為淨樂我常，為破彼故說四諦理。
-<lb n="0055b26" ed="T"/>既無常無樂無我無淨，令<note n="0055b2601" resp="CBETA" type="add" note_key="T33.0055b26.11">厭【CB】【卍續-CB】，壓【大】</note><app n="0055b2601"><lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">厭<note type="cf1">X24n0453_p0385c16</note></lem><rdg wit="【大】">壓</rdg></app>生死趣求二乘。
+<lb n="0055b26" ed="T"/>既無常無樂無我無淨，令<note 
+n="0055b2601" resp="CBETA" type="add" note_key="T33.0055b26.11">厭【CB】【卍續-CB】，壓【大】</note><app n="0055b2601">
+  <lem wit="【CB】【卍續-CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">厭<note type="cf1">X24n0453_p0385c16</note></lem>
+  <rdg wit="【大】">壓</rdg>
+</app>生死趣求二乘。
 <lb n="0055b27" ed="T"/>二乘遂執真實有彼無常等四，既有法執附
 <lb n="0055b28" ed="T"/>著小果，不欲大乘。世尊後說大般涅槃常樂
 <lb n="0055b29" ed="T"/>我淨，令捨小果趣求大乘。彼聞厭捨，遂得佛
@@ -2839,7 +3180,8 @@
 <lb n="0055c06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0055c0601">經曰：觀一切法若空若不空皆不可得，於諸如
 <lb n="0055c07" ed="T"/>來廣設供養。觀一切法若有相若無相皆不可
 <lb n="0055c08" ed="T"/>得，於諸如來廣設供養，觀一切法若有願若無
-<lb n="0055c09" ed="T"/>願皆不可得，於諸如來廣設供養。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0055c0914" cb:place="inline">讚曰：此即
+<lb n="0055c09" ed="T"/>願皆不可得，於諸如來廣設供養。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0055c0914" cb:place="inline">讚曰：此即
 <lb n="0055c10" ed="T"/>第二三門行也。若是二乘，觀苦為空，即空無
 <lb n="0055c11" ed="T"/>我行故；觀集道全、苦諦少分，為無願行；觀於
 <lb n="0055c12" ed="T"/>滅諦，為無相行，欣厭事成。若大乘者，觀遍計
@@ -2853,7 +3195,8 @@
 <lb n="0055c20" ed="T"/>空之性故。」</p></cb:div>
 <lb n="0055c21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0055c2101">經曰：觀一切法若遠離若不遠離皆不可得，於
 <lb n="0055c22" ed="T"/>諸如來廣設供養。觀一切法若寂靜若不寂靜
-<lb n="0055c23" ed="T"/>皆不可得，於諸如來廣設供養。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0055c2313" cb:place="inline">讚曰：凡夫
+<lb n="0055c23" ed="T"/>皆不可得，於諸如來廣設供養。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0055c2313" cb:place="inline">讚曰：凡夫
 <lb n="0055c24" ed="T"/>妄想樂著生死性不寂靜，有不遠離及不寂靜。
 <lb n="0055c25" ed="T"/>為破彼故，說為遠離及於寂靜，依於遠離及
 <lb n="0055c26" ed="T"/>寂靜門破彼病故，以入於真名為遠離及寂
@@ -2863,8 +3206,15 @@
 <pb n="0056a" ed="T" xml:id="T33.1695.0056a"/>
 <lb n="0056a01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056a0101">經曰：於深般若波羅蜜多書寫聽聞受持讀誦
 <lb n="0056a02" ed="T"/>思惟修習廣為有情宣說流布，或自供養或轉
-<lb n="0056a03" ed="T"/>施他，於諸如來廣設供養。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056a0311" cb:place="inline">讚曰：自下第三
-<lb n="0056a04" ed="T"/>行<note n="0056001" resp="Taisho" type="orig" place="foot text">門＝相ィ【原】</note><note n="0056001" resp="CBETA" type="mod" note_key="T33.0056a04.02">相【CB】【校異-原】，門【大】</note><app n="0056001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">相<note type="cf1">T33n1695_p0056a04</note></lem><rdg wit="【大】">門</rdg><rdg resp="Taisho" wit="【原】" type="variantRemark">相</rdg></app>法行行。一書寫、二聽聞、三受持，愛樂
+<lb n="0056a03" ed="T"/>施他，於諸如來廣設供養。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056a0311" cb:place="inline">讚曰：自下第三
+<lb n="0056a04" ed="T"/>行<note 
+n="0056001" resp="Taisho" type="orig" place="foot text">門＝相ィ【原】</note><note 
+n="0056001" resp="CBETA" type="mod" note_key="T33.0056a04.02">相【CB】【校異-原】，門【大】</note><app n="0056001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)">相<note type="cf1">T33n1695_p0056a04</note></lem>
+  <rdg wit="【大】">門</rdg>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">相</rdg>
+</app>法行行。一書寫、二聽聞、三受持，愛樂
 <lb n="0056a05" ed="T"/>寶重不離於心，生死威儀願相隨故。四讀、五
 <lb n="0056a06" ed="T"/>誦、六思惟、七修習，如說行也。八廣為有情宣
 <lb n="0056a07" ed="T"/>說流布、九自供養、十施他。此十名為行法行
@@ -2877,13 +3227,20 @@
 <lb n="0056a14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056a1401">經曰：佛說如是真淨供養甚深理趣無上法已，
 <lb n="0056a15" ed="T"/>告金剛手菩薩等言：若有得聞如是供養般若
 <lb n="0056a16" ed="T"/>理趣無上法門，信解受持讀誦修習，速能圓滿
-<lb n="0056a17" ed="T"/>諸菩薩行，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056a1713" cb:place="inline">讚曰：此即
+<lb n="0056a17" ed="T"/>諸菩薩行，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056a1713" cb:place="inline">讚曰：此即
 <lb n="0056a18" ed="T"/>第三歎經勝德。以法供養即菩薩行，故菩薩
 <lb n="0056a19" ed="T"/>行速得圓滿。</p></cb:div>
 <lb n="0056a20" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056a2001">經曰：爾時世尊復依一切能善調伏如來之相，
 <lb n="0056a21" ed="T"/>為諸菩薩宣說般若波羅蜜多攝受智密調伏
-<lb n="0056a22" ed="T"/>有情甚深理趣智藏法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056a2211" cb:place="inline">讚曰：明依觀照
-<lb n="0056a23" ed="T"/>修<note n="0056002" resp="Taisho" type="orig" place="foot text">行＝斷ィ【原】</note><note n="0056002" resp="CBETA" type="mod">行【大】，斷【校異-原】</note><app n="0056002"><lem wit="【大】">行</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">斷</rdg></app>相中自下第二能善調伏智藏法門，由
+<lb n="0056a22" ed="T"/>有情甚深理趣智藏法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056a2211" cb:place="inline">讚曰：明依觀照
+<lb n="0056a23" ed="T"/>修<note 
+n="0056002" resp="Taisho" type="orig" place="foot text">行＝斷ィ【原】</note><note 
+n="0056002" resp="CBETA" type="mod">行【大】，斷【校異-原】</note><app n="0056002">
+  <lem wit="【大】">行</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">斷</rdg>
+</app>相中自下第二能善調伏智藏法門，由
 <lb n="0056a24" ed="T"/>依觀照除忿等故。文意有三，準前應釋。此即
 <lb n="0056a25" ed="T"/>第一總標所說法門之名。能善調伏者，能除
 <lb n="0056a26" ed="T"/>忿等名善調伏。攝受智密調伏有情者，觀照
@@ -2904,7 +3261,8 @@
 <lb n="0056b11" ed="T"/>切有情無所有性即忿無所有性，一切有情難
 <lb n="0056b12" ed="T"/>思議性即忿難思議性，一切有情無戲論性即
 <lb n="0056b13" ed="T"/>忿無戲論性，一切有情如金剛性即忿如金剛
-<lb n="0056b14" ed="T"/>性。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056b1402" cb:place="inline">讚曰：此下第二正陳所說。文中有二：初
+<lb n="0056b14" ed="T"/>性。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056b1402" cb:place="inline">讚曰：此下第二正陳所說。文中有二：初
 <lb n="0056b15" ed="T"/>說十七實相即忿實相、後釋所由。此即初也。
 <lb n="0056b16" ed="T"/>文分為五：初以不二除斷無變三種實相以
 <lb n="0056b17" ed="T"/>即於忿。他忿之時應作此念：法既平等，何有
@@ -2923,7 +3281,8 @@
 <pb n="0056c" ed="T" xml:id="T33.1695.0056c"/>
 <lb n="0056c01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056c0101">經曰：所以者何？一切有情真調伏性即是無上
 <lb n="0056c02" ed="T"/>正等菩提，亦是般若波羅蜜多，亦是諸佛一切
-<lb n="0056c03" ed="T"/>智智。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056c0303" cb:place="inline">讚曰：自下第二釋其所由。以有情本
+<lb n="0056c03" ed="T"/>智智。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056c0303" cb:place="inline">讚曰：自下第二釋其所由。以有情本
 <lb n="0056c04" ed="T"/>調伏性，實相即是法身無上正等菩提。此說
 <lb n="0056c05" ed="T"/>實相本性菩提，亦是能觀觀照般若，法性法
 <lb n="0056c06" ed="T"/>相體不異故。如刀之利，體無別故。由此故知
@@ -2939,19 +3298,23 @@
 <lb n="0056c16" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056c1601">經曰：佛說如是能善調伏甚深理趣智藏法
 <lb n="0056c17" ed="T"/>已，告金剛手菩薩等言：若有得聞如是調伏般
 <lb n="0056c18" ed="T"/>若理趣智藏法門，信解受持讀誦修習，能自調
-<lb n="0056c19" ed="T"/>伏忿恚等過，亦能調伏一切有情。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056c1914" cb:place="inline">讚曰：自
+<lb n="0056c19" ed="T"/>伏忿恚等過，亦能調伏一切有情。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056c1914" cb:place="inline">讚曰：自
 <lb n="0056c20" ed="T"/>下第三歎經勝德。此雜染失忿恚等者，通諸
 <lb n="0056c21" ed="T"/>染也。</p></cb:div>
 <lb n="0056c22" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056c2201">經曰：常生善趣受諸妙樂，現世怨敵皆起慈
-<lb n="0056c23" ed="T"/>心。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056c2302" cb:place="inline">讚曰：此即第二世間勝果。忿唯不善，起
+<lb n="0056c23" ed="T"/>心。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056c2302" cb:place="inline">讚曰：此即第二世間勝果。忿唯不善，起
 <lb n="0056c24" ed="T"/>必招苦。今離忿等，故生善趣受勝樂果，以無
 <lb n="0056c25" ed="T"/>忿故。不惱於他，故現怨家慈心相向。</p></cb:div>
 <lb n="0056c26" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056c2601">經曰：能善修行諸菩薩行，疾證無上正等菩
-<lb n="0056c27" ed="T"/>提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0056c2702" cb:place="inline">讚曰：此即出世勝善果也。</p></cb:div>
+<lb n="0056c27" ed="T"/>提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0056c2702" cb:place="inline">讚曰：此即出世勝善果也。</p></cb:div>
 <lb n="0056c28" ed="T"/><cb:div type="orig"><p xml:id="pT33p0056c2801">經曰：爾時世尊復依一切能善建立性平等法
 <lb n="0056c29" ed="T"/>如來之相，為諸菩薩宣說般若波羅蜜多一切
 <pb n="0057a" ed="T" xml:id="T33.1695.0057a"/>
-<lb n="0057a01" ed="T"/>法性甚深理趣最勝法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057a0111" cb:place="inline">讚曰：明行之中
+<lb n="0057a01" ed="T"/>法性甚深理趣最勝法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057a0111" cb:place="inline">讚曰：明行之中
 <lb n="0057a02" ed="T"/>總有六段，自下末後二段，顯依二法遍修之
 <lb n="0057a03" ed="T"/>相。此段性平等性最勝法門，修觀實相人法
 <lb n="0057a04" ed="T"/>平等皆遍滿故；後段有情住持勝藏法門，修
@@ -2967,12 +3330,20 @@
 <lb n="0057a14" ed="T"/>波羅蜜多亦性調伏。一切法性調伏故，甚深般
 <lb n="0057a15" ed="T"/>若波羅蜜多亦性調伏。一切有情有實義故，甚
 <lb n="0057a16" ed="T"/>深般若波羅蜜多亦有實義。一切法有實義故，
-<lb n="0057a17" ed="T"/>甚深般若波羅蜜多亦有實義。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057a1713" cb:place="inline">讚曰：此下
+<lb n="0057a17" ed="T"/>甚深般若波羅蜜多亦有實義。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057a1713" cb:place="inline">讚曰：此下
 <lb n="0057a18" ed="T"/>第二正陳所說。於中有六：第一、以人法遍滿
 <lb n="0057a19" ed="T"/>離染真理三種以即般若，皆同前門。第三名
 <lb n="0057a20" ed="T"/>無變。此名真理者，前名真法，此名實義故。世
 <lb n="0057a21" ed="T"/>出世間莫過二種：一有情、二法，悟此二種即
-<lb n="0057a22" ed="T"/>是般若波羅蜜多觀照之智。二種本性即<note n="0057001" resp="Taisho" type="orig" place="foot text">成＝或ィ【原】，〔成〕ヵ－【原】</note><note n="0057001" resp="CBETA" type="mod" note_key="T33.0057a22.17">〔－〕【CB】【考偽-原】，成【大】，或【校異-原】</note><app n="0057001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">T33n1695_p0057a22</note></lem><rdg resp="Taisho" wit="【大】">成</rdg><rdg resp="Taisho" wit="【原】" type="variantRemark">或</rdg><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>
+<lb n="0057a22" ed="T"/>是般若波羅蜜多觀照之智。二種本性即<note 
+n="0057001" resp="Taisho" type="orig" place="foot text">成＝或ィ【原】，〔成〕ヵ－【原】</note><note 
+n="0057001" resp="CBETA" type="mod" note_key="T33.0057a22.17">〔－〕【CB】【考偽-原】，成【大】，或【校異-原】</note><app n="0057001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="CBETA 新式標點專案 (2021-06-25)"><space quantity="0"/><note type="cf1">T33n1695_p0057a22</note></lem>
+  <rdg resp="Taisho" wit="【大】">成</rdg>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">或</rdg>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>
 <lb n="0057a23" ed="T"/>是實相般若波羅蜜多，故皆相即。</p></cb:div>
 <lb n="0057a24" ed="T"/><cb:div type="orig"><p xml:id="pT33p0057a2401">經曰：一切有情即真如故，甚深般若波羅蜜多
 <lb n="0057a25" ed="T"/>亦即真如。一切法即真如故，甚深般若波羅蜜
@@ -2983,7 +3354,8 @@
 <pb n="0057b" ed="T" xml:id="T33.1695.0057b"/>
 <lb n="0057b01" ed="T"/>深般若波羅蜜多亦即法性。一切有情即實際
 <lb n="0057b02" ed="T"/>故，甚深般若波羅蜜多亦即實際。一切法即實
-<lb n="0057b03" ed="T"/>際故，甚深般若波羅蜜多亦即實際。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057b0315" cb:place="inline">讚曰：
+<lb n="0057b03" ed="T"/>際故，甚深般若波羅蜜多亦即實際。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057b0315" cb:place="inline">讚曰：
 <lb n="0057b04" ed="T"/>第二以人法實常德性法體真境四種以即
 <lb n="0057b05" ed="T"/>般若。</p></cb:div>
 <lb n="0057b06" ed="T"/><cb:div type="orig"><p xml:id="pT33p0057b0601">經曰：一切有情即本空故，甚深般若波羅蜜
@@ -2992,13 +3364,15 @@
 <lb n="0057b09" ed="T"/>波羅蜜多亦即無相。一切法即無相故，甚深般
 <lb n="0057b10" ed="T"/>若波羅蜜多亦即無相。一切有情即無願故，甚
 <lb n="0057b11" ed="T"/>深般若波羅蜜多亦即無願。一切法即無願故，
-<lb n="0057b12" ed="T"/>甚深般若波羅蜜多亦即無願。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057b1213" cb:place="inline">讚曰：第三
+<lb n="0057b12" ed="T"/>甚深般若波羅蜜多亦即無願。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057b1213" cb:place="inline">讚曰：第三
 <lb n="0057b13" ed="T"/>以人法非有離相不求三種以即般若。</p></cb:div>
 <lb n="0057b14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0057b1401">經曰：一切有情即遠離故，甚深般若波羅蜜多
 <lb n="0057b15" ed="T"/>亦即遠離。一切法即遠離故，甚深般若波羅蜜
 <lb n="0057b16" ed="T"/>多亦即遠離。一切有情即寂靜故，甚深般若波
 <lb n="0057b17" ed="T"/>羅蜜多亦即寂靜。一切法即寂靜故，甚深般若
-<lb n="0057b18" ed="T"/>波羅蜜多亦即寂靜。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057b1809" cb:place="inline">讚曰：第四以人法離
+<lb n="0057b18" ed="T"/>波羅蜜多亦即寂靜。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057b1809" cb:place="inline">讚曰：第四以人法離
 <lb n="0057b19" ed="T"/>染離生二種以即般若。</p></cb:div>
 <lb n="0057b20" ed="T"/><cb:div type="orig"><p xml:id="pT33p0057b2001">經曰：一切有情不可得故，甚深般若波羅蜜多
 <lb n="0057b21" ed="T"/>亦不可得。一切法不可得故，甚深般若波羅蜜
@@ -3008,7 +3382,8 @@
 <lb n="0057b25" ed="T"/>般若波羅蜜多亦不思議。一切法不思議故，甚
 <lb n="0057b26" ed="T"/>深般若波羅蜜多亦不思議。一切有情無戲論
 <lb n="0057b27" ed="T"/>故，甚深般若波羅蜜多亦無戲論。一切法無戲
-<lb n="0057b28" ed="T"/>論故，甚深般若波羅蜜多亦無戲論。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057b2815" cb:place="inline">讚曰：
+<lb n="0057b28" ed="T"/>論故，甚深般若波羅蜜多亦無戲論。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057b2815" cb:place="inline">讚曰：
 <lb n="0057b29" ed="T"/>第五以人法無得虛偽深妙離言四種以即
 <pb n="0057c" ed="T" xml:id="T33.1695.0057c"/>
 <lb n="0057c01" ed="T"/>般若。</p></cb:div>
@@ -3016,28 +3391,37 @@
 <lb n="0057c03" ed="T"/>多亦無邊際。一切法無邊際故，甚深般若波羅
 <lb n="0057c04" ed="T"/>蜜多亦無邊際。一切有情有業用故，當知般若
 <lb n="0057c05" ed="T"/>波羅蜜多亦有業用。一切法有業用故，當知般
-<lb n="0057c06" ed="T"/>若波羅蜜多亦有業用。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057c0610" cb:place="inline">讚曰：第六以人法
+<lb n="0057c06" ed="T"/>若波羅蜜多亦有業用。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057c0610" cb:place="inline">讚曰：第六以人法
 <lb n="0057c07" ed="T"/>廣大作用二種即於般若。以境廣大，智亦如
 <lb n="0057c08" ed="T"/>是。以境具有流轉業用，般若亦有觀照境界
 <lb n="0057c09" ed="T"/>除斷之用。</p></cb:div>
 <lb n="0057c10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0057c1001">經曰：佛說如是性平等性甚深理趣最勝法已，
 <lb n="0057c11" ed="T"/>告金剛手菩薩等言：若有得聞如是平等般若
 <lb n="0057c12" ed="T"/>理趣最勝法門，信解受持讀誦修習，則能通達
-<lb n="0057c13" ed="T"/>平等法性甚深般若波羅蜜多。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057c1313" cb:place="inline">讚曰：第三
+<lb n="0057c13" ed="T"/>平等法性甚深般若波羅蜜多。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057c1313" cb:place="inline">讚曰：第三
 <lb n="0057c14" ed="T"/>歎德。性平等性者，真如實相體性平等人法
 <lb n="0057c15" ed="T"/>本性，故名性平等性。則能通達平等法性，由
 <lb n="0057c16" ed="T"/>聞信等此性平等威神力故，故能通達平等
 <lb n="0057c17" ed="T"/>法性。平等法性即深般若波羅蜜多，深般若
-<lb n="0057c18" ed="T"/>波羅蜜多義<note n="0057002" resp="Taisho" type="orig" place="foot text">合＝含ヵ【原】</note><note n="0057002" resp="CBETA" type="mod">合【大】，含【考偽-原】</note><app n="0057002"><lem resp="Taisho" wit="【大】">合</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">含</rdg></app>二種：一實相、二觀照。今達實
+<lb n="0057c18" ed="T"/>波羅蜜多義<note 
+n="0057002" resp="Taisho" type="orig" place="foot text">合＝含ヵ【原】</note><note 
+n="0057002" resp="CBETA" type="mod">合【大】，含【考偽-原】</note><app n="0057002">
+  <lem resp="Taisho" wit="【大】">合</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">含</rdg>
+</app>二種：一實相、二觀照。今達實
 <lb n="0057c19" ed="T"/>相，由觀本性遍人法故。前文所即深般若者，
 <lb n="0057c20" ed="T"/>即是觀照。不爾，如何實相般若亦有業用？</p></cb:div>
 <lb n="0057c21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0057c2101">經曰：於諸有情心無罣礙，疾證無上正等菩
-<lb n="0057c22" ed="T"/>提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057c2202" cb:place="inline">讚曰：所依法性尚能通達，能依人法理
+<lb n="0057c22" ed="T"/>提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057c2202" cb:place="inline">讚曰：所依法性尚能通達，能依人法理
 <lb n="0057c23" ed="T"/>亦無礙。罣者障也，礙者拘礙。通達人法亦無
 <lb n="0057c24" ed="T"/>障礙，達所依故能依亦達。</p></cb:div>
 <lb n="0057c25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0057c2501">經曰：爾時世尊復依一切住持藏法如來之相，
 <lb n="0057c26" ed="T"/>為諸菩薩宣說般若波羅蜜多一切有情住持
-<lb n="0057c27" ed="T"/>遍滿甚深理趣勝藏法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0057c2711" cb:place="inline">讚曰：此第二段
+<lb n="0057c27" ed="T"/>遍滿甚深理趣勝藏法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0057c2711" cb:place="inline">讚曰：此第二段
 <lb n="0057c28" ed="T"/>有情住持勝藏法門，修觀觀照遍諸人法皆
 <lb n="0057c29" ed="T"/>善緣故。文中有三，此即第一標所說法門之
 <pb n="0058a" ed="T" xml:id="T33.1695.0058a"/>
@@ -3052,7 +3436,8 @@
 <lb n="0058a09" ed="T"/>為法門。如來藏義是根本名，故不說餘金剛
 <lb n="0058a10" ed="T"/>藏等。</p></cb:div>
 <lb n="0058a11" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058a1101">經曰：謂一切有情皆如來藏，普賢菩薩自體
-<lb n="0058a12" ed="T"/>遍故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058a1203" cb:place="inline">讚曰：自下第二正陳所說。於中有四，
+<lb n="0058a12" ed="T"/>遍故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058a1203" cb:place="inline">讚曰：自下第二正陳所說。於中有四，
 <lb n="0058a13" ed="T"/>此即第一。一切有情皆如來藏者，如來藏者
 <lb n="0058a14" ed="T"/>即是真如在纏之名，出纏之時名法身故。藏
 <lb n="0058a15" ed="T"/>謂庫藏，諸佛所有一切功德皆在其中，名如來
@@ -3068,7 +3453,8 @@
 <lb n="0058a25" ed="T"/>故說普賢菩薩自體遍有情體，故有情者皆
 <lb n="0058a26" ed="T"/>如來藏。廢用顯體，名普賢遍。</p></cb:div>
 <lb n="0058a27" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058a2701">經曰：一切有情皆金剛藏，以金剛藏所灌灑
-<lb n="0058a28" ed="T"/>故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058a2802" cb:place="inline">讚曰：此即第二一切有情皆金剛藏。即
+<lb n="0058a28" ed="T"/>故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058a2802" cb:place="inline">讚曰：此即第二一切有情皆金剛藏。即
 <lb n="0058a29" ed="T"/>如來藏堅實難壞，能有破裂生死之德，名金
 <pb n="0058b" ed="T" xml:id="T33.1695.0058b"/>
 <lb n="0058b01" ed="T"/>剛藏。金剛藏菩薩能證於此金剛藏理，亦能
@@ -3078,7 +3464,8 @@
 <lb n="0058b05" ed="T"/>金剛藏。灌者入身心之義，灑者破生死之業，
 <lb n="0058b06" ed="T"/>以彼展轉金剛藏教所灌灑時破生死故。</p></cb:div>
 <lb n="0058b07" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058b0701">經曰：一切有情皆正法藏，一切皆隨正語轉
-<lb n="0058b08" ed="T"/>故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058b0802" cb:place="inline">讚曰：此即第三一切有情皆正法藏。正
+<lb n="0058b08" ed="T"/>故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058b0802" cb:place="inline">讚曰：此即第三一切有情皆正法藏。正
 <lb n="0058b09" ed="T"/>法即是般若真教，藏謂庫藏，一切有情皆是
 <lb n="0058b10" ed="T"/>正法之庫藏也，以諸有情皆能隨順正語轉
 <lb n="0058b11" ed="T"/>故。言正語者，謂順理語，即是契經。謂諸有情
@@ -3086,7 +3473,8 @@
 <lb n="0058b13" ed="T"/>教法行，得堅實法故。有情性相竝名有情。從
 <lb n="0058b14" ed="T"/>諸有情發起正語，故諸有情名正法藏。</p></cb:div>
 <lb n="0058b15" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058b1501">經曰：一切有情皆妙業藏，一切事業加行依
-<lb n="0058b16" ed="T"/>故。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058b1602" cb:place="inline">讚曰：此即第四一切有情皆妙業藏。妙
+<lb n="0058b16" ed="T"/>故。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058b1602" cb:place="inline">讚曰：此即第四一切有情皆妙業藏。妙
 <lb n="0058b17" ed="T"/>業即是菩薩所有諸善三業，藏義同前。一切
 <lb n="0058b18" ed="T"/>有情皆是菩薩妙業庫藏。菩薩欲起諸善事
 <lb n="0058b19" ed="T"/>業皆為有情，或為證彼有情本性，或欲拔彼
@@ -3098,13 +3486,15 @@
 <lb n="0058b25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058b2501">經曰：佛說如是有情住持甚深理趣勝藏法已，
 <lb n="0058b26" ed="T"/>告金剛手菩薩等言：若有得聞如是遍滿般若
 <lb n="0058b27" ed="T"/>理趣勝藏法門，信解受持讀誦修習，則能通達
-<lb n="0058b28" ed="T"/>勝藏法性，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058b2813" cb:place="inline">讚曰：自下
+<lb n="0058b28" ed="T"/>勝藏法性，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058b2813" cb:place="inline">讚曰：自下
 <lb n="0058b29" ed="T"/>第三歎經勝德。勝藏法性即如來藏等四種
 <pb n="0058c" ed="T" xml:id="T33.1695.0058c"/>
 <lb n="0058c01" ed="T"/>勝藏，法本性故。由今聞等，故後通達。</p></cb:div>
 <lb n="0058c02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058c0201">經曰：爾時世尊復依究竟無邊際法如來之相，
 <lb n="0058c03" ed="T"/>為諸菩薩宣說般若波羅蜜多究竟住持法義
-<lb n="0058c04" ed="T"/>平等金剛法門。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058c0407" cb:place="inline">讚曰：自下第三二段明行
+<lb n="0058c04" ed="T"/>平等金剛法門。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058c0407" cb:place="inline">讚曰：自下第三二段明行
 <lb n="0058c05" ed="T"/>得果。於中分二：初無邊無際究竟法門，得二
 <lb n="0058c06" ed="T"/>果時廣深一味極殊勝故，自利果德；後甚深
 <lb n="0058c07" ed="T"/>理趣無上法門得二果已，自利利他為三界
@@ -3121,7 +3511,8 @@
 <lb n="0058c18" ed="T"/>究竟住持，住持一切諸佛法故。法義平等相
 <lb n="0058c19" ed="T"/>順無二。金剛法者，能破生死堅實法門。</p></cb:div>
 <lb n="0058c20" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058c2001">經曰：謂甚深般若波羅蜜多無邊故，一切如
-<lb n="0058c21" ed="T"/>來亦無邊。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058c2105" cb:place="inline">讚曰：此下第二正陳所說。前性
+<lb n="0058c21" ed="T"/>來亦無邊。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058c2105" cb:place="inline">讚曰：此下第二正陳所說。前性
 <lb n="0058c22" ed="T"/>平等性最勝法門中，說一切有情無邊等故甚
 <lb n="0058c23" ed="T"/>深般若波羅蜜多亦無邊。般若既通實相觀照
 <lb n="0058c24" ed="T"/>文字等五，三身如來隨亦無邊。實相之理法
@@ -3129,13 +3520,15 @@
 <lb n="0058c26" ed="T"/>應物，隨緣即現業用無邊。無邊者，廣量難測
 <lb n="0058c27" ed="T"/>故。諸根相好一一無邊，無限善根所引生故。</p></cb:div>
 <lb n="0058c28" ed="T"/><cb:div type="orig"><p xml:id="pT33p0058c2801">經曰：甚深般若波羅蜜多無際故，一切如來
-<lb n="0058c29" ed="T"/>亦無際。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0058c2904" cb:place="inline">讚曰：無際者，深妙難知故，亦由三
+<lb n="0058c29" ed="T"/>亦無際。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0058c2904" cb:place="inline">讚曰：無際者，深妙難知故，亦由三
 <pb n="0059a" ed="T" xml:id="T33.1695.0059a"/>
 <lb n="0059a01" ed="T"/>劫難修所得故，深般若名為無際，此成三身
 <lb n="0059a02" ed="T"/>亦名無際。非是二乘凡夫等類、十地菩薩所
 <lb n="0059a03" ed="T"/>能知故。</p></cb:div>
 <lb n="0059a04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0059a0401">經曰：甚深般若波羅蜜多一味故，一切法亦
-<lb n="0059a05" ed="T"/>一味。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0059a0503" cb:place="inline">讚曰：此能觀觀照及所觀理方便等
+<lb n="0059a05" ed="T"/>一味。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0059a0503" cb:place="inline">讚曰：此能觀觀照及所觀理方便等
 <lb n="0059a06" ed="T"/>五法皆一味故，名為平等。一味者，一相義，謂
 <lb n="0059a07" ed="T"/>無相和合義、無分別義。又一味者，堅實故、離
 <lb n="0059a08" ed="T"/>苦樂相無歡戚故。其一切法若教若義皆亦
@@ -3176,7 +3569,8 @@
 <lb n="0059b13" ed="T"/>解所修成故。所餘法譬，隨義可知。」菩薩既然，
 <lb n="0059b14" ed="T"/>故修成時成佛之位，三身萬德各唯一味。</p></cb:div>
 <lb n="0059b15" ed="T"/><cb:div type="orig"><p xml:id="pT33p0059b1501">經曰：甚深般若波羅蜜多究竟故，一切法亦
-<lb n="0059b16" ed="T"/>究竟。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0059b1603" cb:place="inline">讚曰：此觀照及境文字等五最勝第
+<lb n="0059b16" ed="T"/>究竟。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0059b1603" cb:place="inline">讚曰：此觀照及境文字等五最勝第
 <lb n="0059b17" ed="T"/>一名為究竟，諸法及義隨般若亦爾。此中意
 <lb n="0059b18" ed="T"/>顯由深般若因位、文字、眷屬、境界、無邊無
 <lb n="0059b19" ed="T"/>際一味究竟，所行之行得三身果，所說法義
@@ -3186,7 +3580,8 @@
 <lb n="0059b23" ed="T"/>已，告金剛手菩薩等言：若有得聞如是究竟般
 <lb n="0059b24" ed="T"/>若理趣金剛法門，信解受持讀誦修習，一切障
 <lb n="0059b25" ed="T"/>法皆悉消除，定得如來執金剛性，疾證無上
-<lb n="0059b26" ed="T"/>正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0059b2605" cb:place="inline">讚曰：此即第三歎經勝德。既聞
+<lb n="0059b26" ed="T"/>正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0059b2605" cb:place="inline">讚曰：此即第三歎經勝德。既聞
 <lb n="0059b27" ed="T"/>般若及佛三身所有法義無邊際等，一切障
 <lb n="0059b28" ed="T"/>法皆悉銷除，定得如來執金剛性。謂領受此
 <lb n="0059b29" ed="T"/>能破生死真實本性真如法界，疾證無上正
@@ -3223,7 +3618,8 @@
 <pb n="0060a" ed="T" xml:id="T33.1695.0060a"/>
 <lb n="0060a01" ed="T"/>法性等。</p></cb:div>
 <lb n="0060a02" ed="T"/><cb:div type="orig"><p xml:id="pT33p0060a0201">經曰：謂大貪等最勝成就，令大菩薩大樂最
-<lb n="0060a03" ed="T"/>勝成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0060a0304" cb:place="inline">讚曰：自下第二正陳所說。文中有
+<lb n="0060a03" ed="T"/>勝成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0060a0304" cb:place="inline">讚曰：自下第二正陳所說。文中有
 <lb n="0060a04" ed="T"/>二：初以三復次說菩薩行十惡業道等因所得
 <lb n="0060a05" ed="T"/>果利、後三復次說陀羅尼。初中有三復次。初
 <lb n="0060a06" ed="T"/>復次中有二：初明惡業道貪等為因所得果
@@ -3236,7 +3632,12 @@
 <lb n="0060a13" ed="T"/>中，翻其生死十惡業道，自行出世十惡業道：
 <lb n="0060a14" ed="T"/>一能殺生，謂斷眾生生死流轉，斷是殺義。二
 <lb n="0060a15" ed="T"/>不與取，無有與者自然攝取，是無他求自攝
-<lb n="0060a16" ed="T"/>益義。三欲邪行，了知欲為邪而修於正<note n="0060001" resp="Taisho" type="orig" place="foot text">行＋（若境界欲）ィ【原】</note><note n="0060001" resp="CBETA" type="mod">行【大】，行若境界欲【校異-原】</note><app n="0060001"><lem wit="【大】">行</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">行若境界欲</rdg></app>。
+<lb n="0060a16" ed="T"/>益義。三欲邪行，了知欲為邪而修於正<note 
+n="0060001" resp="Taisho" type="orig" place="foot text">行＋（若境界欲）ィ【原】</note><note 
+n="0060001" resp="CBETA" type="mod">行【大】，行若境界欲【校異-原】</note><app n="0060001">
+  <lem wit="【大】">行</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">行若境界欲</rdg>
+</app>。
 <lb n="0060a17" ed="T"/>若分別欲實知唯邪，如有頌言「佛說貪恚癡，
 <lb n="0060a18" ed="T"/>皆從分別起。淨不淨顛倒，此亦為緣生。淨不
 <lb n="0060a19" ed="T"/>淨顛倒，為緣而有者，彼自性皆無，故顯非真
@@ -3251,7 +3652,12 @@
 <lb n="0060a28" ed="T"/>正說法品類差別。八貪欲，《攝大乘》說，若有數
 <lb n="0060a29" ed="T"/>數欲自證得無上靜慮。此意但說從散引生，
 <pb n="0060b" ed="T" xml:id="T33.1695.0060b"/>
-<lb n="0060b01" ed="T"/>但言貪<note n="0060002" resp="Taisho" type="orig" place="foot text">定＝欲ィ【原】</note><note n="0060002" resp="CBETA" type="mod">定【大】，欲【校異-原】</note><app n="0060002"><lem wit="【大】">定</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">欲</rdg></app>。謂起大貪欲，欲無上菩提。貪於生
+<lb n="0060b01" ed="T"/>但言貪<note 
+n="0060002" resp="Taisho" type="orig" place="foot text">定＝欲ィ【原】</note><note 
+n="0060002" resp="CBETA" type="mod">定【大】，欲【校異-原】</note><app n="0060002">
+  <lem wit="【大】">定</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">欲</rdg>
+</app>。謂起大貪欲，欲無上菩提。貪於生
 <lb n="0060b02" ed="T"/>死度脫有情，名為貪欲。九嗔恚，若於其心能
 <lb n="0060b03" ed="T"/>正憎害一切煩惱，已斷已滅，是憎害義。十邪
 <lb n="0060b04" ed="T"/>見，若一切處遍行邪性皆如實見，即見一切
@@ -3261,14 +3667,17 @@
 <lb n="0060b08" ed="T"/>勝於凡位所有諸樂，故名最勝。又大樂者謂
 <lb n="0060b09" ed="T"/>五修果，離種種相得法苑樂，如前已辨。</p></cb:div>
 <lb n="0060b10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0060b1001">經曰：大樂最勝成就，令大菩薩一切如來大
-<lb n="0060b11" ed="T"/>覺最勝成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0060b1106" cb:place="inline">讚曰：證得五樂法苑樂故，能
+<lb n="0060b11" ed="T"/>覺最勝成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0060b1106" cb:place="inline">讚曰：證得五樂法苑樂故，能
 <lb n="0060b12" ed="T"/>得大覺覺自及他，若理若事。菩薩位得一切
 <lb n="0060b13" ed="T"/>佛因，佛位名得大覺圓滿。</p></cb:div>
 <lb n="0060b14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0060b1401">經曰：一切如來大覺最勝成就，令大菩薩降
-<lb n="0060b15" ed="T"/>伏一切大魔最勝成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0060b1510" cb:place="inline">讚曰：由覺事理自
+<lb n="0060b15" ed="T"/>伏一切大魔最勝成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0060b1510" cb:place="inline">讚曰：由覺事理自
 <lb n="0060b16" ed="T"/>他邪正，故能永斷四種大魔。</p></cb:div>
 <lb n="0060b17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0060b1701">經曰：降伏一切大魔最勝成就，令大菩薩普大
-<lb n="0060b18" ed="T"/>三界自在最勝成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0060b1809" cb:place="inline">讚曰：由降四魔超過
+<lb n="0060b18" ed="T"/>三界自在最勝成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0060b1809" cb:place="inline">讚曰：由降四魔超過
 <lb n="0060b19" ed="T"/>三界，得尊位果，故普大三界。不為生死四魔
 <lb n="0060b20" ed="T"/>所壞，故名自在。略說自在，有其十種，謂壽自
 <lb n="0060b21" ed="T"/>在、心自在、眾具自在，此三因施度圓滿。業自
@@ -3285,14 +3694,20 @@
 <lb n="0060c02" ed="T"/>莊嚴，故為最勝。</p></cb:div>
 <lb n="0060c03" ed="T"/><cb:div type="orig"><p xml:id="pT33p0060c0301">經曰：普大三界自在最勝成就，令大菩薩能
 <lb n="0060c04" ed="T"/>無遺餘拔有情界，利益安樂一切有情畢竟
-<lb n="0060c05" ed="T"/>大樂最勝成就。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0060c0507" cb:place="inline">讚曰：上明自利，下明利他。
+<lb n="0060c05" ed="T"/>大樂最勝成就。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0060c0507" cb:place="inline">讚曰：上明自利，下明利他。
 <lb n="0060c06" ed="T"/>於中有二：初明廣大第一之心利他之行；「所
 <lb n="0060c07" ed="T"/>以者何」下，後明常心不顛倒心利他之行。
 <lb n="0060c08" ed="T"/>能無遺餘拔有情界者，即所有眾生。眾生所
 <lb n="0060c09" ed="T"/>攝卵生、胎生、濕生、化生，若有色、若無色，若有想、
 <lb n="0060c10" ed="T"/>若無想、若非有想、若非無想，竝皆拔苦而與其
 <lb n="0060c11" ed="T"/>樂。無一眾生非悲智境，故無遺餘。遺者遺落，
-<lb n="0060c12" ed="T"/>失沒之義。餘者剩<note n="0060003" resp="Taisho" type="orig" place="foot text">杖＝枚ヵ【原】</note><note n="0060003" resp="CBETA" type="mod">杖【大】，枚【考偽-原】</note><app n="0060003"><lem resp="Taisho" wit="【大】">杖</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">枚</rdg></app>，殘不盡義。拔謂拔濟。拔
+<lb n="0060c12" ed="T"/>失沒之義。餘者剩<note 
+n="0060003" resp="Taisho" type="orig" place="foot text">杖＝枚ヵ【原】</note><note 
+n="0060003" resp="CBETA" type="mod">杖【大】，枚【考偽-原】</note><app n="0060003">
+  <lem resp="Taisho" wit="【大】">杖</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">枚</rdg>
+</app>，殘不盡義。拔謂拔濟。拔
 <lb n="0060c13" ed="T"/>諸有情，無一有情遺落失沒剩杖殘叢而不拔
 <lb n="0060c14" ed="T"/>者。意樂遍滿十方三界五趣四生，故名廣大
 <lb n="0060c15" ed="T"/>心也。利益安樂畢竟大樂最勝成就者，利益
@@ -3301,7 +3716,12 @@
 <lb n="0060c18" ed="T"/>七此世利、八他世利、九畢竟利、十不畢竟利。
 <lb n="0060c19" ed="T"/>安樂有五，如前已說。又攝善名利益，離惡名
 <lb n="0060c20" ed="T"/>安樂。等有十對，解如唯識疏。畢竟大樂所謂
-<lb n="0060c21" ed="T"/>涅槃，《金<note n="0060004" resp="Taisho" type="orig" place="foot text">剛＋（般若）ィ【原】</note><note n="0060004" resp="CBETA" type="mod">剛【大】，剛般若【校異-原】</note><app n="0060004"><lem wit="【大】">剛</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">剛般若</rdg></app>經》云「我皆令入無餘涅槃」。彼通三
+<lb n="0060c21" ed="T"/>涅槃，《金<note 
+n="0060004" resp="Taisho" type="orig" place="foot text">剛＋（般若）ィ【原】</note><note 
+n="0060004" resp="CBETA" type="mod">剛【大】，剛般若【校異-原】</note><app n="0060004">
+  <lem wit="【大】">剛</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">剛般若</rdg>
+</app>經》云「我皆令入無餘涅槃」。彼通三
 <lb n="0060c22" ed="T"/>乘，但說涅槃不說餘者。今取菩提及涅槃樂，
 <lb n="0060c23" ed="T"/>即是有為無為一切無漏所有功德，令諸有
 <lb n="0060c24" ed="T"/>情怡適調順，無所違損、無所逼惱，故名大樂。
@@ -3312,7 +3732,12 @@
 <lb n="0060c29" ed="T"/>餘致涅槃界之所以者，何謂是也。乃至生死流
 <pb n="0061a" ed="T" xml:id="T33.1695.0061a"/>
 <lb n="0061a01" ed="T"/>轉住處者，能盡未來時無限也，能隨十方一
-<lb n="0061a02" ed="T"/>切有情生死流轉之時<note n="0061001" resp="Taisho" type="orig" place="foot text">時名＝名時【原】</note><note n="0061001" resp="CBETA" type="mod">時名【大】，名時【原】</note><app n="0061001"><lem wit="【大】">時名</lem><rdg resp="Taisho" wit="【原】">名時</rdg></app>節。十方世界住
+<lb n="0061a02" ed="T"/>切有情生死流轉之時<note 
+n="0061001" resp="Taisho" type="orig" place="foot text">時名＝名時【原】</note><note 
+n="0061001" resp="CBETA" type="mod">時名【大】，名時【原】</note><app n="0061001">
+  <lem wit="【大】">時名</lem>
+  <rdg resp="Taisho" wit="【原】">名時</rdg>
+</app>節。十方世界住
 <lb n="0061a03" ed="T"/>處所在，即顯處廣時廣。有勝智者，謂能共離
 <lb n="0061a04" ed="T"/>我及我所。離人法執名勝智者，生法二智悉
 <lb n="0061a05" ed="T"/>皆圓滿，即是其言心不顛倒也。名勝智者，離
@@ -3328,7 +3753,8 @@
 <lb n="0061a15" ed="T"/>能濟拔十方法界皆度脫盡。即是金剛四種
 <lb n="0061a16" ed="T"/>心因得四果也。</p></cb:div>
 <lb n="0061a17" ed="T"/><cb:div type="orig"><p xml:id="pT33p0061a1701">經曰：又以般若波羅蜜多方便善巧成立勝智，
-<lb n="0061a18" ed="T"/>善辦一切清淨事業，能令諸有皆得清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0061a1817" cb:place="inline">讚
+<lb n="0061a18" ed="T"/>善辦一切清淨事業，能令諸有皆得清淨。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0061a1817" cb:place="inline">讚
 <lb n="0061a19" ed="T"/>曰：初復次中，上來以貪等為因所得果利，此
 <lb n="0061a20" ed="T"/>以般若為因所得果利。方便者，由智慧力隨
 <lb n="0061a21" ed="T"/>諸有情病行機器意樂，應時即為顯現說法等
@@ -3355,7 +3781,8 @@
 <lb n="0061b12" ed="T"/>為因，體即般若，以異名說；一切皆以般若為
 <lb n="0061b13" ed="T"/>性。此上總是初復次解。</p></cb:div>
 <lb n="0061b14" ed="T"/><cb:div type="orig"><p xml:id="pT33p0061b1401">經曰：又以貪等調伏世間普遍恒時，乃至諸
-<lb n="0061b15" ed="T"/>有皆令清淨自然調伏。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0061b1510" cb:place="inline">讚曰：自下第二重解
+<lb n="0061b15" ed="T"/>有皆令清淨自然調伏。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0061b1510" cb:place="inline">讚曰：自下第二重解
 <lb n="0061b16" ed="T"/>貪等所得果利。於中有二：初明利他、後明自
 <lb n="0061b17" ed="T"/>利。此利他也。謂以貪等調伏世間等者，謂佛
 <lb n="0061b18" ed="T"/>菩薩觀諸有情多慳所蔽，雖有珍財不能修
@@ -3366,13 +3793,19 @@
 <lb n="0061b23" ed="T"/>身名利、諸眾眷屬恭敬，故起一貪增百千善。
 <lb n="0061b24" ed="T"/>由是善財求善知識，遇見一王殺縛鞭杖無
 <lb n="0061b25" ed="T"/>量眾生。善財心悔，王語之言：「此諸眾生愚鈍
-<lb n="0061b26" ed="T"/><note n="0061002" resp="Taisho" type="orig" place="foot text">恨＝佷ィ【原】</note><note n="0061002" resp="CBETA" type="mod">恨【大】，佷【校異-原】</note><app n="0061002"><lem wit="【大】">恨</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">佷</rdg></app>悷，若不苦楚終不調伏。故我苦之。」善財方
+<lb n="0061b26" ed="T"/><note 
+n="0061002" resp="Taisho" type="orig" place="foot text">恨＝佷ィ【原】</note><note 
+n="0061002" resp="CBETA" type="mod">恨【大】，佷【校異-原】</note><app n="0061002">
+  <lem wit="【大】">恨</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">佷</rdg>
+</app>悷，若不苦楚終不調伏。故我苦之。」善財方
 <lb n="0061b27" ed="T"/>解。如仙譽國王殺五百波羅門更增功德，此
 <lb n="0061b28" ed="T"/>亦如是。一切十惡所有業道皆準此知，故起
 <lb n="0061b29" ed="T"/>貪時菩薩大利。</p></cb:div>
 <pb n="0061c" ed="T" xml:id="T33.1695.0061c"/>
 <lb n="0061c01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0061c0101">經曰：又如蓮華形色光淨，不為一切穢物所染。
-<lb n="0061c02" ed="T"/>如是貪等饒益世間，住過有過常不能染。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0061c0217" cb:place="inline">讚
+<lb n="0061c02" ed="T"/>如是貪等饒益世間，住過有過常不能染。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0061c0217" cb:place="inline">讚
 <lb n="0061c03" ed="T"/>曰：此明貪等自利之行。菩薩身心起此貪等，
 <lb n="0061c04" ed="T"/>形色光淨，不為一切穢物煩惱所能染污，故
 <lb n="0061c05" ed="T"/>留煩惱助願受生作大自在。若是佛者，似其
@@ -3381,7 +3814,8 @@
 <lb n="0061c08" ed="T"/>於此三性，一切時中不能染污。如蓮華等雖
 <lb n="0061c09" ed="T"/>出泥中，泥不能染，菩薩之心亦復如是。</p></cb:div>
 <lb n="0061c10" ed="T"/><cb:div type="orig"><p xml:id="pT33p0061c1001">經曰：又大貪等能得清淨大樂大財，三界自在，
-<lb n="0061c11" ed="T"/>常能堅固饒益有情。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0061c1109" cb:place="inline">讚曰：此即第三復次
+<lb n="0061c11" ed="T"/>常能堅固饒益有情。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0061c1109" cb:place="inline">讚曰：此即第三復次
 <lb n="0061c12" ed="T"/>重釋。又大貪等者，謂我貪等貪名貪好，恐身
 <lb n="0061c13" ed="T"/>造惡當墮生死。貪為自身，修道離苦。故《維摩》
 <lb n="0061c14" ed="T"/>云「寧起我見如須彌山，不起空見如毛髮許」，
@@ -3395,7 +3829,8 @@
 <lb n="0061c22" ed="T"/>所逼說相似貪。第三為求利己說相似貪。然
 <lb n="0061c23" ed="T"/>正起行，生死煩惱惡業皆滅，故染貪等一切
 <lb n="0061c24" ed="T"/>皆亡，如何說起。</p></cb:div>
-<lb n="0061c25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0061c2501">經曰：爾時如來即說神呪：</p><p xml:id="pT33p0061c2511" cb:type="dharani" cb:place="inline">「納慕薄伽筏帝<note place="inline">一</note>　鉢
+<lb n="0061c25" ed="T"/><cb:div type="orig"><p xml:id="pT33p0061c2501">經曰：爾時如來即說神呪：</p>
+<p xml:id="pT33p0061c2511" cb:type="dharani" cb:place="inline">「納慕薄伽筏帝<note place="inline">一</note>　鉢
 <lb n="0061c26" ed="T"/>剌壤波囉弭多曳<note place="inline">二</note>　薄底<note place="inline">丁履反下同</note>筏攃<note place="inline">七葛反</note>羅曳
 <lb n="0061c27" ed="T"/><note place="inline">三</note>　罨跛履弭多窶拏曳<note place="inline">四</note>　薩縛呾他揭多跛履
 <lb n="0061c28" ed="T"/>布視多曳<note place="inline">五</note>　薩縛呾他揭多奴壤多奴壤多邲
@@ -3410,19 +3845,26 @@
 <lb n="0062a07" ed="T"/>揭車<note place="inline">二十五</note>　薄伽筏底<note place="inline">二十六</note>　麼毘濫婆<note place="inline">二十七</note>　莎訶<note place="inline">二十八</note>」</p>
 <lb n="0062a08" ed="T"/><p xml:id="pT33p0062a0801">如是神呪，三世諸佛皆共宣說、同所護念，能
 <lb n="0062a09" ed="T"/>受持者一切障滅，隨心所欲無不成辨，疾證無
-<lb n="0062a10" ed="T"/>上正等菩提。</p><p xml:id="pT33p0062a1006" cb:place="inline">爾時如來復說神呪：</p><p xml:id="pT33p0062a1014" cb:type="dharani" cb:place="inline">「納慕薄伽
+<lb n="0062a10" ed="T"/>上正等菩提。</p>
+<p xml:id="pT33p0062a1006" cb:place="inline">爾時如來復說神呪：</p>
+<p xml:id="pT33p0062a1014" cb:type="dharani" cb:place="inline">「納慕薄伽
 <lb n="0062a11" ed="T"/>筏帝<note place="inline">一</note>　鉢剌壤波囉弭多曳<note place="inline">二</note>　呾姪他<note place="inline">三</note>　牟尼
 <lb n="0062a12" ed="T"/>達謎<note place="inline">四</note>　僧揭洛訶達謎<note place="inline">五</note>　遏奴揭洛訶達謎<note place="inline">六</note>　
 <lb n="0062a13" ed="T"/>毘目底達謎<note place="inline">七</note>　薩馱奴揭洛訶達謎<note place="inline">八</note>　吠室洛
 <lb n="0062a14" ed="T"/>末拏達謎<note place="inline">九</note>　參漫多奴跛履筏剌呾那達謎<note place="inline">十</note>　
 <lb n="0062a15" ed="T"/>窶拏僧揭洛訶達謎<note place="inline">十一</note>　薩縛迦羅跛履波剌那
-<lb n="0062a16" ed="T"/>達謎<note place="inline">十二</note>　莎訶<note place="inline">十三</note>」</p><p xml:id="pT33p0062a1609" cb:place="inline">如是神呪是諸佛母，能誦持者
+<lb n="0062a16" ed="T"/>達謎<note place="inline">十二</note>　莎訶<note place="inline">十三</note>」</p>
+<p xml:id="pT33p0062a1609" cb:place="inline">如是神呪是諸佛母，能誦持者
 <lb n="0062a17" ed="T"/>一切罪滅，常見諸佛得宿住智，疾證無上正等
-<lb n="0062a18" ed="T"/>菩提。</p><p xml:id="pT33p0062a1803" cb:place="inline">爾時如來復說神呪：</p><p xml:id="pT33p0062a1811" cb:type="dharani" cb:place="inline">「納慕薄伽筏帝<note place="inline">一</note>　鉢
+<lb n="0062a18" ed="T"/>菩提。</p>
+<p xml:id="pT33p0062a1803" cb:place="inline">爾時如來復說神呪：</p>
+<p xml:id="pT33p0062a1811" cb:type="dharani" cb:place="inline">「納慕薄伽筏帝<note place="inline">一</note>　鉢
 <lb n="0062a19" ed="T"/>剌壤波囉弭多曳<note place="inline">二</note>　怛姪他<note place="inline">三</note>　室囇曳<note place="inline">四</note>　室囇
-<lb n="0062a20" ed="T"/>曳<note place="inline">五</note>　室囇曳<note place="inline">六</note>　室囇曳細<note place="inline">七</note>　莎訶<note place="inline">八</note>」</p><p xml:id="pT33p0062a2015" cb:place="inline">如是神呪具
+<lb n="0062a20" ed="T"/>曳<note place="inline">五</note>　室囇曳<note place="inline">六</note>　室囇曳細<note place="inline">七</note>　莎訶<note place="inline">八</note>」</p>
+<p xml:id="pT33p0062a2015" cb:place="inline">如是神呪具
 <lb n="0062a21" ed="T"/>大威力，能受持者業障消除，所聞正法總持不
-<lb n="0062a22" ed="T"/>忘，疾證無上正等菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062a2210" cb:place="inline">讚曰：自下第二段三
+<lb n="0062a22" ed="T"/>忘，疾證無上正等菩提。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062a2210" cb:place="inline">讚曰：自下第二段三
 <lb n="0062a23" ed="T"/>復次呪。此第一呪。歎德如文。諸佛口同說，心
 <lb n="0062a24" ed="T"/>皆共護念。護者加持，念者記憶，諸佛之心加
 <lb n="0062a25" ed="T"/>持不忘，隨心所欲除諸惡願，善者皆從。其第
@@ -3437,7 +3879,8 @@
 <lb n="0062b04" ed="T"/><cb:div type="orig"><p xml:id="pT33p0062b0401">經曰：爾時世尊說是呪已，告金剛手菩薩等言：
 <lb n="0062b05" ed="T"/>若諸有情於每日旦，至心聽誦如是般若波羅
 <lb n="0062b06" ed="T"/>蜜多甚深理趣最勝法門無間斷者，諸惡業障
-<lb n="0062b07" ed="T"/>皆得消滅，諸勝喜樂常現在前。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062b0713" cb:place="inline">讚曰：自下第
+<lb n="0062b07" ed="T"/>皆得消滅，諸勝喜樂常現在前。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062b0713" cb:place="inline">讚曰：自下第
 <lb n="0062b08" ed="T"/>三歎經勝德。於中分二：初別歎此處一段法
 <lb n="0062b09" ed="T"/>門、第二總歎一卷經德。就初之中文有其三：
 <lb n="0062b10" ed="T"/>初歎滅惡攝善德、次歎種因方遇德、後歎所
@@ -3445,7 +3888,8 @@
 <lb n="0062b12" ed="T"/>別歎引生諸善德。此為初也。</p></cb:div>
 <lb n="0062b13" ed="T"/><cb:div type="orig"><p xml:id="pT33p0062b1301">經曰：大樂金剛不空神呪，現身必得究竟成滿
 <lb n="0062b14" ed="T"/>一切如來金剛祕密最勝成就，不久當得大執
-<lb n="0062b15" ed="T"/>金剛及如來性。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062b1507" cb:place="inline">讚曰：自下別歎引生諸善
+<lb n="0062b15" ed="T"/>金剛及如來性。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062b1507" cb:place="inline">讚曰：自下別歎引生諸善
 <lb n="0062b16" ed="T"/>德。於中有三：一成滿大樂金剛呪；二成就金
 <lb n="0062b17" ed="T"/>剛祕祕法，此即教行及理法寶現前必得；三
 <lb n="0062b18" ed="T"/>得執金剛如來性，此在佛位大執金剛，謂佛真
@@ -3453,7 +3897,8 @@
 <lb n="0062b20" ed="T"/>因位不成，故言當得，至佛得故。</p></cb:div>
 <lb n="0062b21" ed="T"/><cb:div type="orig"><p xml:id="pT33p0062b2101">經曰：若有情類未多佛所植眾善根久發大願，
 <lb n="0062b22" ed="T"/>於此般若波羅蜜多甚深理趣最勝法門，不能
-<lb n="0062b23" ed="T"/>聽聞書寫讀誦供養恭敬思惟修習。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062b2315" cb:place="inline">讚曰：此
+<lb n="0062b23" ed="T"/>聽聞書寫讀誦供養恭敬思惟修習。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062b2315" cb:place="inline">讚曰：此
 <lb n="0062b24" ed="T"/>下第二種因方遇德。凡所修習，行願必兼。若
 <lb n="0062b25" ed="T"/>先無二，不能於此起十法行。於中有七：一聽
 <lb n="0062b26" ed="T"/>聞、二書寫、三讀、四誦、五供養恭敬、六思惟、七修
@@ -3463,11 +3908,13 @@
 <pb n="0062c" ed="T" xml:id="T33.1695.0062c"/>
 <lb n="0062c01" ed="T"/><cb:div type="orig"><p xml:id="pT33p0062c0101">經曰：要多佛所植眾善根久發大願，乃能於此
 <lb n="0062c02" ed="T"/>甚深理趣最勝法門，下至聽聞一句一字，況能
-<lb n="0062c03" ed="T"/>具足讀誦受持。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062c0307" cb:place="inline">讚曰：自下正論有因方遇。
+<lb n="0062c03" ed="T"/>具足讀誦受持。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062c0307" cb:place="inline">讚曰：自下正論有因方遇。
 <lb n="0062c04" ed="T"/>其文可解，義準前知。不能具說十種竝然。</p></cb:div>
 <lb n="0062c05" ed="T"/><cb:div type="orig"><p xml:id="pT33p0062c0501">經曰：若諸有情供養恭敬尊重讚歎八十殑伽
 <lb n="0062c06" ed="T"/>沙等俱胝那庾多佛，乃能具足聞此般若波羅
-<lb n="0062c07" ed="T"/>蜜多甚深理趣。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062c0707" cb:place="inline">讚曰：上明一句一字尚假
+<lb n="0062c07" ed="T"/>蜜多甚深理趣。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062c0707" cb:place="inline">讚曰：上明一句一字尚假
 <lb n="0062c08" ed="T"/>先因，此明從首至終，故資多行。四事俱羅號
 <lb n="0062c09" ed="T"/>為供養，三業虔奉立恭敬名，頂載慇懃復稱
 <lb n="0062c10" ed="T"/>尊重，先談不已又名讚歎。殑伽者恒神之名，
@@ -3480,7 +3927,8 @@
 <lb n="0062c17" ed="T"/>遇，歡哉今者幸遇靈文。</p></cb:div>
 <lb n="0062c18" ed="T"/><cb:div type="orig"><p xml:id="pT33p0062c1801">經曰：若他方所流行此經，一切天人阿素洛等
 <lb n="0062c19" ed="T"/>皆應供養如佛制多；有置此經在身或手，諸天
-<lb n="0062c20" ed="T"/>人等皆應禮敬。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062c2007" cb:place="inline">讚曰：自下第三所在應尊
+<lb n="0062c20" ed="T"/>人等皆應禮敬。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062c2007" cb:place="inline">讚曰：自下第三所在應尊
 <lb n="0062c21" ed="T"/>德。在處處尊、在人人貴，隨文可解。佛制多者，
 <lb n="0062c22" ed="T"/>舊云支提，即塔廟。塔廟安置化身遺骨尚可
 <lb n="0062c23" ed="T"/>敬嚴，況此法身能無供養？</p></cb:div>
@@ -3489,7 +3937,8 @@
 <lb n="0062c26" ed="T"/>天王及餘天眾常隨擁衛未曾暫捨，終不橫死
 <lb n="0062c27" ed="T"/>枉遭衰患，諸佛菩薩常共護持，令一切時善增
 <lb n="0062c28" ed="T"/>惡減，於諸佛土隨願往生，乃至菩提不墮惡
-<lb n="0062c29" ed="T"/>趣。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0062c2902" cb:place="inline">讚曰：自下第二總歎一卷經之勝德。於
+<lb n="0062c29" ed="T"/>趣。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0062c2902" cb:place="inline">讚曰：自下第二總歎一卷經之勝德。於
 <pb n="0063a" ed="T" xml:id="T33.1695.0063a"/>
 <lb n="0063a01" ed="T"/>中有二：初略別歎、後總結歎。此即初也。於中
 <lb n="0063a02" ed="T"/>有十德：一多劫得宿住智；二所生常精進修
@@ -3500,13 +3949,15 @@
 <lb n="0063a07" ed="T"/>提不墮三惡趣。惡趣之言，通攝人中三種惡
 <lb n="0063a08" ed="T"/>趣皆亦不墮，謂無形黃門、二形、女人。</p></cb:div>
 <lb n="0063a09" ed="T"/><cb:div type="orig"><p xml:id="pT33p0063a0901">經曰：諸有情類受持此經，定獲無邊勝利功德。
-<lb n="0063a10" ed="T"/>我今略說如是少分。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0063a1009" cb:place="inline">讚曰：此總結歎也。所
+<lb n="0063a10" ed="T"/>我今略說如是少分。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0063a1009" cb:place="inline">讚曰：此總結歎也。所
 <lb n="0063a11" ed="T"/>詮真相窮本性之甚深，能詮教門因玄宗之
 <lb n="0063a12" ed="T"/>極妙，受持者獲利無邊未可具言，故說少分。
 <lb n="0063a13" ed="T"/>故修行者欲證此德，當勤修學究竟取證，方
 <lb n="0063a14" ed="T"/>知此經勝利無盡。</p></cb:div>
 <lb n="0063a15" ed="T"/><cb:div type="orig"><p xml:id="pT33p0063a1501">經曰：時薄伽梵說是經已，金剛手等諸大菩薩，
-<lb n="0063a16" ed="T"/>及餘天眾，聞佛所說皆大歡喜，信受奉行。</p></cb:div><cb:div type="commentary"><p xml:id="pT33p0063a1617" cb:place="inline">讚
+<lb n="0063a16" ed="T"/>及餘天眾，聞佛所說皆大歡喜，信受奉行。</p></cb:div>
+<cb:div type="commentary"><p xml:id="pT33p0063a1617" cb:place="inline">讚
 <lb n="0063a17" ed="T"/>曰：此即第三感悟修行分。諸大菩薩集報土
 <lb n="0063a18" ed="T"/>之上人，及餘天眾會化身之大士，皆感如來
 <lb n="0063a19" ed="T"/>盛說能悟寂止之宏宗，順領深心修行散席。</p></cb:div>

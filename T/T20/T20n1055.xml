@@ -2,126 +2,181 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T20n1055">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛說聖觀自在菩薩梵讚</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1055 佛說聖觀自在菩薩梵讚</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1055 佛說聖觀自在菩薩梵讚</title>
-			<author>宋 法賢譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1055</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-24T11:15:03">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛說聖觀自在菩薩梵讚</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1055 佛說聖觀自在菩薩梵讚</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1055 佛說聖觀自在菩薩梵讚</title>
+      <author>宋 法賢譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1055</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-24T11:15:03">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0070c10" ed="T"/>
 <lb n="0070c11" ed="T"/>
 <lb n="0070c12" ed="T"/><cb:docNumber>No. 1055</cb:docNumber>
-<lb n="0070c13" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">大明太宗文皇帝御製觀音讚</cb:mulu><head><note n="0070018" resp="Taisho" type="orig" place="foot text">【原】麗本，此觀音讚依明本載之</note>大明太宗文皇帝御製觀音讚</head>
+<lb n="0070c13" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">大明太宗文皇帝御製觀音讚</cb:mulu><head><note 
+n="0070018" resp="Taisho" type="orig" place="foot text">【原】麗本，此觀音讚依明本載之</note>大明太宗文皇帝御製觀音讚</head>
 <lb n="0070c14" ed="T"/>
-<lb n="0070c15" ed="T"/><lg xml:id="lgT20p0070c1501" type="regular"><l>大聖自在觀世音，<caesura/>百千萬億應無盡，</l>
-<lb n="0070c16" ed="T"/><l>神通無礙無所住，<caesura/>大慈大悲愍眾生，</l>
-<lb n="0070c17" ed="T"/><l>六根互用智慧深，<caesura/>聞思修入三摩地，</l>
-<lb n="0070c18" ed="T"/><l>濟度隨機而顯現，<caesura/>有如一月印千江。</l>
-<lb n="0070c19" ed="T"/><l>一江有月一江明，<caesura/>明照惟一本無二，</l>
-<lb n="0070c20" ed="T"/><l>世人但以眼觀色，<caesura/>菩薩乃以目觀聲，</l>
-<lb n="0070c21" ed="T"/><l>彼惟有所窒於觀，<caesura/>是故不能神妙用，</l>
-<lb n="0070c22" ed="T"/><l>大士有目冥不覩，<caesura/>耳鼻舌身意亦然。</l>
-<lb n="0070c23" ed="T"/><l>能以此觀如是觀，<caesura/>終不顛倒成妄想，</l>
-<lb n="0070c24" ed="T"/><l>熏習見聞既寂滅，<caesura/>亦復無是妙色身。</l>
-<lb n="0070c25" ed="T"/><l>有能洞此十方空，<caesura/>同證圓通三昧海，</l>
-<lb n="0070c26" ed="T"/><l>身心無量遍沙界，<caesura/>不動本際應所求。</l>
-<lb n="0070c27" ed="T"/><l>譬如萬卉遇春風，<caesura/>種種萌芽自生發，</l>
-<lb n="0070c28" ed="T"/><l>敷榮暢達各長茂，<caesura/>或為枝葉結果成，</l>
-<lb n="0070c29" ed="T"/><l>酸鹹甜苦及青紅，<caesura/>一切皆令如願足。</l>
+<lb n="0070c15" ed="T"/><lg xml:id="lgT20p0070c1501" type="regular">
+  <l>大聖自在觀世音，<caesura/>百千萬億應無盡，</l>
+<lb n="0070c16" ed="T"/>
+  <l>神通無礙無所住，<caesura/>大慈大悲愍眾生，</l>
+<lb n="0070c17" ed="T"/>
+  <l>六根互用智慧深，<caesura/>聞思修入三摩地，</l>
+<lb n="0070c18" ed="T"/>
+  <l>濟度隨機而顯現，<caesura/>有如一月印千江。</l>
+<lb n="0070c19" ed="T"/>
+  <l>一江有月一江明，<caesura/>明照惟一本無二，</l>
+<lb n="0070c20" ed="T"/>
+  <l>世人但以眼觀色，<caesura/>菩薩乃以目觀聲，</l>
+<lb n="0070c21" ed="T"/>
+  <l>彼惟有所窒於觀，<caesura/>是故不能神妙用，</l>
+<lb n="0070c22" ed="T"/>
+  <l>大士有目冥不覩，<caesura/>耳鼻舌身意亦然。</l>
+<lb n="0070c23" ed="T"/>
+  <l>能以此觀如是觀，<caesura/>終不顛倒成妄想，</l>
+<lb n="0070c24" ed="T"/>
+  <l>熏習見聞既寂滅，<caesura/>亦復無是妙色身。</l>
+<lb n="0070c25" ed="T"/>
+  <l>有能洞此十方空，<caesura/>同證圓通三昧海，</l>
+<lb n="0070c26" ed="T"/>
+  <l>身心無量遍沙界，<caesura/>不動本際應所求。</l>
+<lb n="0070c27" ed="T"/>
+  <l>譬如萬卉遇春風，<caesura/>種種萌芽自生發，</l>
+<lb n="0070c28" ed="T"/>
+  <l>敷榮暢達各長茂，<caesura/>或為枝葉結果成，</l>
+<lb n="0070c29" ed="T"/>
+  <l>酸鹹甜苦及青紅，<caesura/>一切皆令如願足。</l>
 <pb n="0071a" ed="T" xml:id="T20.1055.0071a"/>
-<lb n="0071a01" ed="T"/><l>現前是法不思議，<caesura/>不著諸相乃為真，</l>
-<lb n="0071a02" ed="T"/><l>一毛遍量法界空，<caesura/>洗淨五濁諸熱惱，</l>
-<lb n="0071a03" ed="T"/><l>摧裂障山悉消蕩，<caesura/>無邊苦趣總脫離，</l>
-<lb n="0071a04" ed="T"/><l>娑婆世界為樂城，<caesura/>妙相恒沙俱顯露。</l>
-<lb n="0071a05" ed="T"/><l>以太虛空為體相，<caesura/>寶髻攢聚五須彌，</l>
-<lb n="0071a06" ed="T"/><l>以四大海為口門，<caesura/>曜日月光為兩目。</l>
-<lb n="0071a07" ed="T"/><l>森羅萬像為瓔珞，<caesura/>發無上願具辯才，</l>
-<lb n="0071a08" ed="T"/><l>引施十四無畏功，<caesura/>妙顯三十二身應，</l>
-<lb n="0071a09" ed="T"/><l>普為眾生之瞻仰，<caesura/>廣運諸佛慈悲心，</l>
-<lb n="0071a10" ed="T"/><l>身與眾生為一身，<caesura/>隨感而應觸處動。</l>
-<lb n="0071a11" ed="T"/><l>爾以正見能見我，<caesura/>我以無見觀自在，</l>
-<lb n="0071a12" ed="T"/><l>如鏡照鏡谷答響，<caesura/>含攝朗徹皆自然。</l>
-<lb n="0071a13" ed="T"/><l>證此三昧即超凡，<caesura/>一法具足一切佛，</l>
-<lb n="0071a14" ed="T"/><l>開啟慈悲功德藏，<caesura/>溥示善功方便門，</l>
-<lb n="0071a15" ed="T"/><l>賢劫未來諸眾生，<caesura/>咸證菩提登正覺。</l></lg></cb:div>
+<lb n="0071a01" ed="T"/>
+  <l>現前是法不思議，<caesura/>不著諸相乃為真，</l>
+<lb n="0071a02" ed="T"/>
+  <l>一毛遍量法界空，<caesura/>洗淨五濁諸熱惱，</l>
+<lb n="0071a03" ed="T"/>
+  <l>摧裂障山悉消蕩，<caesura/>無邊苦趣總脫離，</l>
+<lb n="0071a04" ed="T"/>
+  <l>娑婆世界為樂城，<caesura/>妙相恒沙俱顯露。</l>
+<lb n="0071a05" ed="T"/>
+  <l>以太虛空為體相，<caesura/>寶髻攢聚五須彌，</l>
+<lb n="0071a06" ed="T"/>
+  <l>以四大海為口門，<caesura/>曜日月光為兩目。</l>
+<lb n="0071a07" ed="T"/>
+  <l>森羅萬像為瓔珞，<caesura/>發無上願具辯才，</l>
+<lb n="0071a08" ed="T"/>
+  <l>引施十四無畏功，<caesura/>妙顯三十二身應，</l>
+<lb n="0071a09" ed="T"/>
+  <l>普為眾生之瞻仰，<caesura/>廣運諸佛慈悲心，</l>
+<lb n="0071a10" ed="T"/>
+  <l>身與眾生為一身，<caesura/>隨感而應觸處動。</l>
+<lb n="0071a11" ed="T"/>
+  <l>爾以正見能見我，<caesura/>我以無見觀自在，</l>
+<lb n="0071a12" ed="T"/>
+  <l>如鏡照鏡谷答響，<caesura/>含攝朗徹皆自然。</l>
+<lb n="0071a13" ed="T"/>
+  <l>證此三昧即超凡，<caesura/>一法具足一切佛，</l>
+<lb n="0071a14" ed="T"/>
+  <l>開啟慈悲功德藏，<caesura/>溥示善功方便門，</l>
+<lb n="0071a15" ed="T"/>
+  <l>賢劫未來諸眾生，<caesura/>咸證菩提登正覺。</l>
+</lg></cb:div>
 <lb n="0071a16" ed="T"/>
 <lb n="0071a17" ed="T"/>
 <lb n="0071a18" ed="T"/>
 <lb n="0071a19" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead>佛說聖觀自在菩薩梵讚</cb:jhead></cb:juan>
 <lb n="0071a20" ed="T"/>
-<lb n="0071a21" ed="T"/><byline cb:type="Translator"><note n="0071001" resp="Taisho" type="orig" place="foot text">西天譯經三藏＝宋【明】</note><note n="0071001" resp="CBETA" type="mod">西天譯經三藏【大】，宋【明】</note><app n="0071001"><lem wit="【大】">西天譯經三藏</lem><rdg resp="Taisho" wit="【明】">宋</rdg></app>朝散大夫試鴻臚卿
-<lb n="0071a22" ed="T"/><note n="0071002" resp="Taisho" type="orig" place="foot text">傳＝明【明】【宋】</note><note n="0071002" resp="CBETA" type="mod">傳【大】，明【明】【宋】</note><app n="0071002"><lem wit="【大】">傳</lem><rdg resp="Taisho" wit="【明】【宋】">明</rdg></app>教大師<note n="0071003" resp="Taisho" type="orig" place="foot text">臣法賢＝法天【明】</note><note n="0071003" resp="CBETA" type="mod">臣法賢【大】，法天【明】</note><app n="0071003"><lem wit="【大】">臣法賢</lem><rdg resp="Taisho" wit="【明】">法天</rdg></app>奉　詔譯</byline>
-<lb n="0071a23" ed="T"/><cb:div type="other"><lg xml:id="lgT20p0071a2301" type="regular"><l>歸命佛法僧，<caesura/>頂禮觀自在，</l>
-<lb n="0071a24" ed="T"/><l>我今稱讚彼，<caesura/>大悲功德林。</l></lg></cb:div>
+<lb n="0071a21" ed="T"/><byline cb:type="Translator"><note 
+n="0071001" resp="Taisho" type="orig" place="foot text">西天譯經三藏＝宋【明】</note><note 
+n="0071001" resp="CBETA" type="mod">西天譯經三藏【大】，宋【明】</note><app n="0071001">
+  <lem wit="【大】">西天譯經三藏</lem>
+  <rdg resp="Taisho" wit="【明】">宋</rdg>
+</app>朝散大夫試鴻臚卿
+<lb n="0071a22" ed="T"/><note 
+n="0071002" resp="Taisho" type="orig" place="foot text">傳＝明【明】【宋】</note><note 
+n="0071002" resp="CBETA" type="mod">傳【大】，明【明】【宋】</note><app n="0071002">
+  <lem wit="【大】">傳</lem>
+  <rdg resp="Taisho" wit="【明】【宋】">明</rdg>
+</app>教大師<note 
+n="0071003" resp="Taisho" type="orig" place="foot text">臣法賢＝法天【明】</note><note 
+n="0071003" resp="CBETA" type="mod">臣法賢【大】，法天【明】</note><app n="0071003">
+  <lem wit="【大】">臣法賢</lem>
+  <rdg resp="Taisho" wit="【明】">法天</rdg>
+</app>奉　詔譯</byline>
+<lb n="0071a23" ed="T"/><cb:div type="other"><lg xml:id="lgT20p0071a2301" type="regular">
+  <l>歸命佛法僧，<caesura/>頂禮觀自在，</l>
+<lb n="0071a24" ed="T"/>
+  <l>我今稱讚彼，<caesura/>大悲功德林。</l>
+</lg></cb:div>
 <lb n="0071a25" ed="T"/><cb:div type="other"><cb:mulu n="1" level="1" type="其他">1 梵讚</cb:mulu><head><title>梵讚</title>第一</head>
 <lb n="0071a26" ed="T"/><p xml:id="pT20p0071a2601" cb:type="dharani">部嚩曩怛囉<note place="inline">二合</note>野晚禰多路迦虞隴阿摩囉
 <lb n="0071a27" ed="T"/>地波底孕<note place="inline">二合</note>窣覩<note place="inline">二合</note>帝沒囉<note place="inline">二合</note>憾摩<note place="inline">二合</note>嚩
-<lb n="0071a28" ed="T"/>覽母儞囉<note place="inline">引</note>惹覽度<note n="0071004" resp="Taisho" type="orig" place="foot text">魯＝嚕【明】</note><note n="0071004" resp="CBETA" type="mod">魯【大】，嚕【明】</note><app n="0071004"><lem wit="【大】">魯</lem><rdg resp="Taisho" wit="【明】">嚕</rdg></app><note place="inline">二合</note>嚩悉地迦覽鉢囉
+<lb n="0071a28" ed="T"/>覽母儞囉<note place="inline">引</note>惹覽度<note 
+n="0071004" resp="Taisho" type="orig" place="foot text">魯＝嚕【明】</note><note 
+n="0071004" resp="CBETA" type="mod">魯【大】，嚕【明】</note><app n="0071004">
+  <lem wit="【大】">魯</lem>
+  <rdg resp="Taisho" wit="【明】">嚕</rdg>
+</app><note place="inline">二合</note>嚩悉地迦覽鉢囉
 <lb n="0071a29" ed="T"/><note place="inline">二合</note>拏摩<note place="inline">引</note>彌嚩路吉多曩<note place="inline">引</note>他嚩覽</p></cb:div>
 <pb n="0071b" ed="T" xml:id="T20.1055.0071b"/>
 <lb n="0071b01" ed="T"/><cb:div type="other"><cb:mulu n="2" level="1" type="其他">2 梵讚</cb:mulu><head><title>梵讚</title>第二</head>

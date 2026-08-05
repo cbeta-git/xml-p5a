@@ -2,84 +2,89 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T45n1862">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">勸發菩提心集</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1862 勸發菩提心集</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1862 勸發菩提心集</title>
-			<author>唐 慧沼撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>3卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1862</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Gao-Meng</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，高萌大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-08-01T15:06:59">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">勸發菩提心集</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1862 勸發菩提心集</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1862 勸發菩提心集</title>
+      <author>唐 慧沼撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1862</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Gao-Meng</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，高萌大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-08-01T15:06:59">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0375a" ed="T" xml:id="T45.1862.0375a"/>
 <lb n="0375a01" ed="T"/>
 <lb n="0375a02" ed="T"/><cb:docNumber>No. 1862</cb:docNumber>
-<lb n="0375a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷">上</cb:mulu><cb:jhead><note n="0375001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經</note>勸發菩提心集卷上</cb:jhead></cb:juan>
+<lb n="0375a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷">上</cb:mulu><cb:jhead><note 
+n="0375001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經</note>勸發菩提心集卷上</cb:jhead></cb:juan>
 <lb n="0375a04" ed="T"/>
 <lb n="0375a05" ed="T"/><byline cb:type="author">翻經沙門慧沼撰</byline>
-<lb n="0375a06" ed="T"/><cb:div type="jing"><p xml:id="pT45p0375a0601">一明菩薩種姓相門　二明發心因緣門　<note n="0375a0601" resp="CBETA" type="add">三【CB】，二【大】</note><app n="0375a0601"><lem resp="CBETA" wit="【CB】">三</lem><rdg wit="【大】">二</rdg></app>
+<lb n="0375a06" ed="T"/><cb:div type="jing"><p xml:id="pT45p0375a0601">一明菩薩種姓相門　二明發心因緣門　<note 
+n="0375a0601" resp="CBETA" type="add">三【CB】，二【大】</note><app n="0375a0601">
+  <lem resp="CBETA" wit="【CB】">三</lem>
+  <rdg wit="【大】">二</rdg>
+</app>
 <lb n="0375a07" ed="T"/>顯勝負論門　四譬喻讚歎門　五勸發勝劣
 <lb n="0375a08" ed="T"/>重廣門　六立誓發願門　七復說發心及哀
 <lb n="0375a09" ed="T"/>愍門　八雜明修行及退不退門　九依觀普
@@ -93,59 +98,95 @@
 <lb n="0375a17" ed="T"/>於此他世，無罪利事。若請不請，如理為說。若
 <lb n="0375a18" ed="T"/>有怖於王賊水火，施以無畏。能於極怖，隨
 <lb n="0375a19" ed="T"/>力拔濟。受他寄物，未甞差違。若負他債，終
-<lb n="0375a20" ed="T"/>不抵拒。於共財所，無欺<note n="0375002" resp="Taisho" type="orig" place="foot text">網＝誷ヵ【原】</note><note n="0375002" resp="CBETA" type="mod">網【大】，誷【考偽-原】</note><app n="0375002"><lem resp="Taisho" wit="【大】">網</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">誷</rdg></app>心。得大財寶，尚
-<lb n="0375a21" ed="T"/>不貪著，何況小利。如是等名施種姓相。</p><p xml:id="pT45p0375a2116" cb:place="inline">戒種
+<lb n="0375a20" ed="T"/>不抵拒。於共財所，無欺<note 
+n="0375002" resp="Taisho" type="orig" place="foot text">網＝誷ヵ【原】</note><note 
+n="0375002" resp="CBETA" type="mod">網【大】，誷【考偽-原】</note><app n="0375002">
+  <lem resp="Taisho" wit="【大】">網</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">誷</rdg>
+</app>心。得大財寶，尚
+<lb n="0375a21" ed="T"/>不貪著，何況小利。如是等名施種姓相。</p>
+<p xml:id="pT45p0375a2116" cb:place="inline">戒種
 <lb n="0375a22" ed="T"/>姓相者，謂諸菩薩本性成就，耎品不善身語
 <lb n="0375a23" ed="T"/>意業，不極暴惡。於諸有情，不極損惱。雖作惡
 <lb n="0375a24" ed="T"/>業，速疾能悔。常行恥愧，不生歡喜。不以刀等
 <lb n="0375a25" ed="T"/>惱害有情，性常慈愛。於所應敬，現前禮拜。修
 <lb n="0375a26" ed="T"/>和敬業，機捷不愚。善順他心，常先含咲。舒顏
 <lb n="0375a27" ed="T"/>平視，遠離顰蹙。先言問訊，知恩報恩。來求質
-<lb n="0375a28" ed="T"/>直，不以<note n="0375a2801" resp="CBETA" type="add" note_key="T45.0375a28.04">諂【CB】，謟【大】</note><app n="0375a2801"><lem resp="CBETA.ting" wit="【CB】">諂<note type="cf1">T30n1579_p0479b13</note></lem><rdg wit="【大】">謟</rdg></app>謝。如法求財，不以非法。不以卒
+<lb n="0375a28" ed="T"/>直，不以<note 
+n="0375a2801" resp="CBETA" type="add" note_key="T45.0375a28.04">諂【CB】，謟【大】</note><app n="0375a2801">
+  <lem resp="CBETA.ting" wit="【CB】">諂<note type="cf1">T30n1579_p0479b13</note></lem>
+  <rdg wit="【大】">謟</rdg>
+</app>謝。如法求財，不以非法。不以卒
 <lb n="0375a29" ed="T"/>暴，喜樂修福。尚㢡勸他，況不自為。聞他種
 <pb n="0375b" ed="T" xml:id="T45.1862.0375b"/>
 <lb n="0375b01" ed="T"/>種苦所逼切，過於自身。少罪深怖，何況多罪。
 <lb n="0375b02" ed="T"/>一切如法悉與同事，非法不隨，惡心不續，隨
 <lb n="0375b03" ed="T"/>生隨捨。賢善尊重實語不誑，於己僕使，尚不
-<lb n="0375b04" ed="T"/>苦言，況於他所。如是等類名戒種相。</p><p xml:id="pT45p0375b0415" cb:place="inline">忍種姓
+<lb n="0375b04" ed="T"/>苦言，況於他所。如是等類名戒種相。</p>
+<p xml:id="pT45p0375b0415" cb:place="inline">忍種姓
 <lb n="0375b05" ed="T"/>相者，謂諸菩薩性於他所遭不饒益，無恚害
 <lb n="0375b06" ed="T"/>心，亦不反報。若他諫謝，速能納受，終不結
-<lb n="0375b07" ed="T"/>恨，不久懷惡。如是等類名為忍相。</p><p xml:id="pT45p0375b0714" cb:place="inline">精進相者，
+<lb n="0375b07" ed="T"/>恨，不久懷惡。如是等類名為忍相。</p>
+<p xml:id="pT45p0375b0714" cb:place="inline">精進相者，
 <lb n="0375b08" ed="T"/>謂諸菩薩性自翹勤，夙興夜寐，不樂睡眠，所
-<lb n="0375b09" ed="T"/>作勇決，樂為不<note n="0375003" resp="Taisho" type="orig" place="foot text">忘＝怠ヵ【原】</note><note n="0375003" resp="CBETA" type="mod">忘【大】，怠【考偽-原】</note><app n="0375003"><lem resp="Taisho" wit="【大】">忘</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">怠</rdg></app>。所為事業堅固究竟，終
+<lb n="0375b09" ed="T"/>作勇決，樂為不<note 
+n="0375003" resp="Taisho" type="orig" place="foot text">忘＝怠ヵ【原】</note><note 
+n="0375003" resp="CBETA" type="mod">忘【大】，怠【考偽-原】</note><app n="0375003">
+  <lem resp="Taisho" wit="【大】">忘</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">怠</rdg>
+</app>。所為事業堅固究竟，終
 <lb n="0375b10" ed="T"/>不間廢，大義無怯，不自輕蔑。有力能證難行
 <lb n="0375b11" ed="T"/>事業，無畏無憚，能引義利。大事務中尚無
-<lb n="0375b12" ed="T"/>深倦，何況小事。如是等類名精進相。</p><p xml:id="pT45p0375b1215" cb:place="inline">靜慮
+<lb n="0375b12" ed="T"/>深倦，何況小事。如是等類名精進相。</p>
+<p xml:id="pT45p0375b1215" cb:place="inline">靜慮
 <lb n="0375b13" ed="T"/>相者，謂諸菩薩性於法義能審思惟，無多散
 <lb n="0375b14" ed="T"/>亂。見聞若山巖林邊具人不狎習，離惡眾生，
 <lb n="0375b15" ed="T"/>隨順宴默，便生愛樂。性薄煩惱，至遠離處，思
 <lb n="0375b16" ed="T"/>量自義。心不極為諸惡尋思之所纏擾，於怨
 <lb n="0375b17" ed="T"/>尚慈，況親中庸。見苦生悲，隨力拔濟。性聰
 <lb n="0375b18" ed="T"/>敏，於法能受能持思念，久事既憶，亦令他憶。
-<lb n="0375b19" ed="T"/>如是等類名靜慮種相。</p><p xml:id="pT45p0375b1910" cb:place="inline">慧種姓相者，謂諸菩
+<lb n="0375b19" ed="T"/>如是等類名靜慮種相。</p>
+<p xml:id="pT45p0375b1910" cb:place="inline">慧種姓相者，謂諸菩
 <lb n="0375b20" ed="T"/>薩成俱生慧，能入一切明處境界。性不鈍昧，
 <lb n="0375b21" ed="T"/>於放逸處，有力思擇。如是等類名慧種姓。</p>
 <lb n="0375b22" ed="T"/><p xml:id="pT45p0375b2201">由諸菩薩所有種姓，與如是等功德相應，成
 <lb n="0375b23" ed="T"/>就賢善諸白淨法。是故與難得無上如來果
 <lb n="0375b24" ed="T"/>位，為證得因。乃至未為白法相違四隨煩惱
-<lb n="0375b25" ed="T"/>若具不具之所染污。白法相應若<note n="0375004" resp="Taisho" type="orig" place="foot text">沒＝被ヵ【原】</note><note n="0375004" resp="CBETA" type="mod">沒【大】，被【考偽-原】</note><app n="0375004"><lem resp="Taisho" wit="【大】">沒</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">被</rdg></app>染污，如
+<lb n="0375b25" ed="T"/>若具不具之所染污。白法相應若<note 
+n="0375004" resp="Taisho" type="orig" place="foot text">沒＝被ヵ【原】</note><note 
+n="0375004" resp="CBETA" type="mod">沒【大】，被【考偽-原】</note><app n="0375004">
+  <lem resp="Taisho" wit="【大】">沒</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">被</rdg>
+</app>染污，如
 <lb n="0375b26" ed="T"/>是白法皆不顯現。何如白法相違四惑？謂放
 <lb n="0375b27" ed="T"/>逸者，由先串習諸煩惱故，性成猛利，長時煩
 <lb n="0375b28" ed="T"/>惱。是名第一。又愚癡者，不善巧者，依附惡友。
-<lb n="0375b29" ed="T"/>是名第二。又為尊長夫主王賊怨<note n="0375b2901" resp="CBETA" type="add" note_key="T45.0375b29.14">敵【CB】，歒【大】</note><app n="0375b2901"><lem resp="CBETA.liyi" wit="【CB】">敵</lem><rdg wit="【大】">歒</rdg></app>等拘，不
+<lb n="0375b29" ed="T"/>是名第二。又為尊長夫主王賊怨<note 
+n="0375b2901" resp="CBETA" type="add" note_key="T45.0375b29.14">敵【CB】，歒【大】</note><app n="0375b2901">
+  <lem resp="CBETA.liyi" wit="【CB】">敵</lem>
+  <rdg wit="【大】">歒</rdg>
+</app>等拘，不
 <pb n="0375c" ed="T" xml:id="T45.1862.0375c"/>
 <lb n="0375c01" ed="T"/>得自在，心迷亂。是名第三。又資生具有匱乏
-<lb n="0375c02" ed="T"/>者，顧戀身命。是名第四。</p><p xml:id="pT45p0375c0210" cb:place="inline">隨煩惱性，雖具種姓，
+<lb n="0375c02" ed="T"/>者，顧戀身命。是名第四。</p>
+<p xml:id="pT45p0375c0210" cb:place="inline">隨煩惱性，雖具種姓，
 <lb n="0375c03" ed="T"/>由四因緣，不能速證無上菩提。何等為四？謂
 <lb n="0375c04" ed="T"/>諸菩薩先未值遇諸佛菩薩真善知識為說菩
 <lb n="0375c05" ed="T"/>提無顛倒道，是名第一因。又諸菩薩雖遇善
-<lb n="0375c06" ed="T"/>友為說正道，而顛倒執，於<note n="0375005" resp="Taisho" type="orig" place="foot text">所正＝正所ヵ【原】</note><note n="0375005" resp="CBETA" type="mod">所正【大】，正所【考偽-原】</note><app n="0375005"><lem resp="Taisho" wit="【大】">所正</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">正所</rdg></app>學中顛倒
+<lb n="0375c06" ed="T"/>友為說正道，而顛倒執，於<note 
+n="0375005" resp="Taisho" type="orig" place="foot text">所正＝正所ヵ【原】</note><note 
+n="0375005" resp="CBETA" type="mod">所正【大】，正所【考偽-原】</note><app n="0375005">
+  <lem resp="Taisho" wit="【大】">所正</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">正所</rdg>
+</app>學中顛倒
 <lb n="0375c07" ed="T"/>修學，名第二因。又諸菩薩雖遇善友為說正
 <lb n="0375c08" ed="T"/>道能正修學，而於加行方便慢緩，不能勇猛
 <lb n="0375c09" ed="T"/>熾然精進，名第三因。又諸菩薩雖遇善友為
 <lb n="0375c10" ed="T"/>說正道加行勇猛，善根未熟，資糧未圓，未長
 <lb n="0375c11" ed="T"/>時修菩提分法，名第四因。</p></cb:div>
-<lb n="0375c12" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">明發心因緣門</cb:mulu><head><note n="0375006" resp="Taisho" type="orig" place="foot text">原本冠註曰項目新補入，以下新補入項目者付＊印表之</note><note n="0375006" resp="CBETA" type="mod"><!--CBETA todo type: ＊-->原本冠註曰項目新補入，以下新補入項目者付＊印表之</note>明發心因緣門</head>
+<lb n="0375c12" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">明發心因緣門</cb:mulu><head><note 
+n="0375006" resp="Taisho" type="orig" place="foot text">原本冠註曰項目新補入，以下新補入項目者付＊印表之</note><note 
+n="0375006" resp="CBETA" type="mod"><!--CBETA todo type: ＊-->原本冠註曰項目新補入，以下新補入項目者付＊印表之</note>明發心因緣門</head>
 <lb n="0375c13" ed="T"/><p xml:id="pT45p0375c1301">發菩提心者，《瑜伽．發心品》云略有五種：一自
 <lb n="0375c14" ed="T"/>性，二行相，三所緣，四功德，五最勝。菩薩最
 <lb n="0375c15" ed="T"/>初發心，於諸菩薩所有正願是初正願，普能
@@ -160,25 +201,30 @@
 <lb n="0375c24" ed="T"/>善根為上首，故是善極善，是妙極妙，能盡
 <lb n="0375c25" ed="T"/>一切有情處所，三業功德相應。又諸菩薩最
 <lb n="0375c26" ed="T"/>初發心所起正願，於餘一切希求世間出世
-<lb n="0375c27" ed="T"/>間義妙善正願，最為第一。</p><p xml:id="pT45p0375c2711" cb:place="inline">菩薩發心由四種
-<lb n="0375c28" ed="T"/>緣、四因、四力。</p><p xml:id="pT45p0375c2806" cb:place="inline">初四緣者，一謂善男子或善女
+<lb n="0375c27" ed="T"/>間義妙善正願，最為第一。</p>
+<p xml:id="pT45p0375c2711" cb:place="inline">菩薩發心由四種
+<lb n="0375c28" ed="T"/>緣、四因、四力。</p>
+<p xml:id="pT45p0375c2806" cb:place="inline">初四緣者，一謂善男子或善女
 <lb n="0375c29" ed="T"/>人，若見諸佛及諸菩薩有不思議神變威力，
 <pb n="0376a" ed="T" xml:id="T45.1862.0376a"/>
 <lb n="0376a01" ed="T"/>或從可信聞如是事，既見聞已便作是念：無
 <lb n="0376a02" ed="T"/>上菩提具大功德，令安住者及修行者成就
 <lb n="0376a03" ed="T"/>如是不思議神變功德威力。由此見聞增上
 <lb n="0376a04" ed="T"/>力故，於大菩提深生信解。因斯發起大菩提
-<lb n="0376a05" ed="T"/>心，是名第一<note place="inline">此應為說佛菩薩所能修學之能證得故令發心</note>。</p><p xml:id="pT45p0376a0525" cb:place="inline">二雖不見
+<lb n="0376a05" ed="T"/>心，是名第一<note place="inline">此應為說佛菩薩所能修學之能證得故令發心</note>。</p>
+<p xml:id="pT45p0376a0525" cb:place="inline">二雖不見
 <lb n="0376a06" ed="T"/>聞佛及菩薩神通功德，於菩薩藏聞已深信，
 <lb n="0376a07" ed="T"/>由聞正法及深信力故，於如來神變功德深
 <lb n="0376a08" ed="T"/>生信解，為得如來微妙智故，發菩提心<note place="inline">前約自見或聞
-<lb n="0376a09" ed="T"/>他佛及菩薩神變功德，據他見佛餘說者，此約依教聞已生信</note>。</p><p xml:id="pT45p0376a0925" cb:place="inline">三或有一類，雖不
+<lb n="0376a09" ed="T"/>他佛及菩薩神變功德，據他見佛餘說者，此約依教聞已生信</note>。</p>
+<p xml:id="pT45p0376a0925" cb:place="inline">三或有一類，雖不
 <lb n="0376a10" ed="T"/>見聞及以聽說如上正法，而見一切菩薩藏
 <lb n="0376a11" ed="T"/>法將欲滅沒，便作是念：菩薩藏法久住於世，
 <lb n="0376a12" ed="T"/>能拔無量眾生大苦，我應住持菩薩藏法，發
 <lb n="0376a13" ed="T"/>菩提心，為滅無量眾生大苦。由為護持菩薩
 <lb n="0376a14" ed="T"/>藏法增上力故，於如來智深生信解，為得如
-<lb n="0376a15" ed="T"/>來妙智故，發菩提心。</p><p xml:id="pT45p0376a1509" cb:place="inline">四者或有一類，雖不
+<lb n="0376a15" ed="T"/>來妙智故，發菩提心。</p>
+<p xml:id="pT45p0376a1509" cb:place="inline">四者或有一類，雖不
 <lb n="0376a16" ed="T"/>覩見正法欲滅，而於末劫末世末時，見諸濁
 <lb n="0376a17" ed="T"/>惡眾生身心十隨煩惱之所惱亂，謂多愚癡，
 <lb n="0376a18" ed="T"/>多無慚愧，多諸慳嫉，多諸憂苦，多諸麁重，多
@@ -189,10 +235,12 @@
 <lb n="0376a23" ed="T"/>我當應發大菩提心，令此惡世無量有情，隨
 <lb n="0376a24" ed="T"/>學於我起菩提願。由見惡世發心難得增上
 <lb n="0376a25" ed="T"/>力故，於大菩提深生信解，因斯發起大菩提
-<lb n="0376a26" ed="T"/>心。是名四緣。</p><p xml:id="pT45p0376a2606" cb:place="inline">云何四因？謂諸菩薩種姓具足，
+<lb n="0376a26" ed="T"/>心。是名四緣。</p>
+<p xml:id="pT45p0376a2606" cb:place="inline">云何四因？謂諸菩薩種姓具足，
 <lb n="0376a27" ed="T"/>是名第一。賴佛菩薩善友攝受，是名第二。於
 <lb n="0376a28" ed="T"/>諸眾生多起悲心，是名第三。於極長時生死
-<lb n="0376a29" ed="T"/>大苦難行苦行，無有怯畏，是名第四。</p><p xml:id="pT45p0376a2915" cb:place="inline">第一
+<lb n="0376a29" ed="T"/>大苦難行苦行，無有怯畏，是名第四。</p>
+<p xml:id="pT45p0376a2915" cb:place="inline">第一
 <pb n="0376b" ed="T" xml:id="T45.1862.0376b"/>
 <lb n="0376b01" ed="T"/>具菩薩種姓，二者具四種相。當知菩薩善友
 <lb n="0376b02" ed="T"/>具足，謂諸菩薩所遇善友，性不愚鈍，聰明黠
@@ -217,7 +265,8 @@
 <lb n="0376b21" ed="T"/>忍有力，是第一因。性自聰敏能正思惟，具
 <lb n="0376b22" ed="T"/>思擇力，是第二因。能於無上正等菩提，成
 <lb n="0376b23" ed="T"/>就上品清淨信解，是第三因。於諸眾生，成
-<lb n="0376b24" ed="T"/>就上品深心悲愍，是第四因<note place="inline">如其次第釋上四因</note>。</p><p xml:id="pT45p0376b2420" cb:place="inline">四力
+<lb n="0376b24" ed="T"/>就上品深心悲愍，是第四因<note place="inline">如其次第釋上四因</note>。</p>
+<p xml:id="pT45p0376b2420" cb:place="inline">四力
 <lb n="0376b25" ed="T"/>者，謂諸菩薩由自功力，能於無上正等菩提
 <lb n="0376b26" ed="T"/>深生愛樂，是名第一。由他功力，於大菩提深
 <lb n="0376b27" ed="T"/>生愛樂，是名第二。宿習大乘相應善法，今得
@@ -226,7 +275,8 @@
 <pb n="0376c" ed="T" xml:id="T45.1862.0376c"/>
 <lb n="0376c01" ed="T"/>於現法中，親近善士，聽聞正法，諦思惟等，長
 <lb n="0376c02" ed="T"/>時修習種種善法，由此加行發菩提心，名第
-<lb n="0376c03" ed="T"/>四力。</p><p xml:id="pT45p0376c0303" cb:place="inline">退菩提心門有四因緣，能令菩薩退菩
+<lb n="0376c03" ed="T"/>四力。</p>
+<p xml:id="pT45p0376c0303" cb:place="inline">退菩提心門有四因緣，能令菩薩退菩
 <lb n="0376c04" ed="T"/>提心。一種姓不具，二惡友所攝，三於諸眾生
 <lb n="0376c05" ed="T"/>悲心微薄，四於極長時生死大苦難行苦行
 <lb n="0376c06" ed="T"/>怯畏驚怖也。</p></cb:div>
@@ -252,7 +302,8 @@
 <lb n="0376c26" ed="T"/>若迷悶等，一切魍魎人非人等不能嬈害。又
 <lb n="0376c27" ed="T"/>此轉受餘生，由如是福所護攝持故，少病無
 <lb n="0376c28" ed="T"/>病不為長時重病所觸，常益眾生，無勞無損，
-<lb n="0376c29" ed="T"/>廣說勝事。</p><p xml:id="pT45p0376c2905" cb:place="inline">《大莊嚴論》第二，菩薩發心有四種
+<lb n="0376c29" ed="T"/>廣說勝事。</p>
+<p xml:id="pT45p0376c2905" cb:place="inline">《大莊嚴論》第二，菩薩發心有四種
 <pb n="0377a" ed="T" xml:id="T45.1862.0377a"/>
 <lb n="0377a01" ed="T"/>大：一勇猛大，謂弘誓精進甚深難作，長時隨
 <lb n="0377a02" ed="T"/>順故。二方便大，謂被弘誓鎧，已恒時方便勤
@@ -265,18 +316,25 @@
 <lb n="0377a09" ed="T"/>為難，起異乘心故。以增善為功德，以福智為
 <lb n="0377a10" ed="T"/>自性，以習諸度為出離，以地滿為究竟，由地
 <lb n="0377a11" ed="T"/>地勤方便與彼彼相應故。從初世俗發心，謂
-<lb n="0377a12" ed="T"/>從地聞持覺解心而發心者，名世俗發心。</p><p xml:id="pT45p0377a1217" cb:place="inline">此
+<lb n="0377a12" ed="T"/>從地聞持覺解心而發心者，名世俗發心。</p>
+<p xml:id="pT45p0377a1217" cb:place="inline">此
 <lb n="0377a13" ed="T"/>由四力。一者友力，發心謂得善知識隨順故。
 <lb n="0377a14" ed="T"/>二因力，或過去世曾發心為性故。三者根力，
 <lb n="0377a15" ed="T"/>或過去曾行善根所滿足故。四聞力，或處處
 <lb n="0377a16" ed="T"/>說法時，無量眾生發菩提心故。《顯揚論》第二，
-<lb n="0377a17" ed="T"/>世俗發心<note n="0377001" resp="Taisho" type="orig" place="foot text">之＝者ヵ【原】</note><note n="0377001" resp="CBETA" type="mod">之【大】，者【考偽-原】</note><app n="0377001"><lem resp="Taisho" wit="【大】">之</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">者</rdg></app>謂，如有一類，智者前恭敬而
+<lb n="0377a17" ed="T"/>世俗發心<note 
+n="0377001" resp="Taisho" type="orig" place="foot text">之＝者ヵ【原】</note><note 
+n="0377001" resp="CBETA" type="mod">之【大】，者【考偽-原】</note><app n="0377001">
+  <lem resp="Taisho" wit="【大】">之</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">者</rdg>
+</app>謂，如有一類，智者前恭敬而
 <lb n="0377a18" ed="T"/>住，起增上意發誓願言：「長老憶念，或言聖者
 <lb n="0377a19" ed="T"/>憶念，或言鄔波陀耶。我如是名，從今日始，發
 <lb n="0377a20" ed="T"/>阿耨菩提心，為欲饒益諸有情故。從今已往，
 <lb n="0377a21" ed="T"/>願我所修六波羅蜜一切萬行，皆為證得無
 <lb n="0377a22" ed="T"/>上菩提故。我今與諸菩薩摩訶薩和合出家，
-<lb n="0377a23" ed="T"/>願尊證知我是菩薩。」第二第三亦復如是。</p><p xml:id="pT45p0377a2317" cb:place="inline">第
+<lb n="0377a23" ed="T"/>願尊證知我是菩薩。」第二第三亦復如是。</p>
+<p xml:id="pT45p0377a2317" cb:place="inline">第
 <lb n="0377a24" ed="T"/>一義發心有三種勝：一教授勝，親近正遍知
 <lb n="0377a25" ed="T"/>故。二隨順勝，善集福智故。三得果勝，生無
 <lb n="0377a26" ed="T"/>分別智，長此發心，名歡喜地。此勝以何為因？
@@ -284,7 +342,8 @@
 <lb n="0377a28" ed="T"/>等，由至得自他平等故。三所作平等，由令他
 <lb n="0377a29" ed="T"/>盡苦如自盡苦故。四佛體平等，由法界與我
 <pb n="0377b" ed="T" xml:id="T45.1862.0377b"/>
-<lb n="0377b01" ed="T"/>無別決定能通達故。此第一義發心。</p><p xml:id="pT45p0377b0115" cb:place="inline">復有六
+<lb n="0377b01" ed="T"/>無別決定能通達故。此第一義發心。</p>
+<p xml:id="pT45p0377b0115" cb:place="inline">復有六
 <lb n="0377b02" ed="T"/>勝：一生位，二願位，三勇猛，四淨依，五餘巧，
 <lb n="0377b03" ed="T"/>六餘出。生勝有四：一種子勝，信大法為種子。
 <lb n="0377b04" ed="T"/>二生母勝，般若波羅蜜為生母故。三胎藏勝，
@@ -296,7 +355,8 @@
 <lb n="0377b10" ed="T"/>有情，如般若說。六了知器界及有情界。七嚴
 <lb n="0377b11" ed="T"/>淨一切諸佛國土。八不離一切菩薩諸佛。九
 <lb n="0377b12" ed="T"/>利益眾生，猶如藥樹，如如意珠，生遇皆益。十
-<lb n="0377b13" ed="T"/>隨所利生，常無休息，非同二乘速入涅槃。</p><p xml:id="pT45p0377b1317" cb:place="inline">如
+<lb n="0377b13" ed="T"/>隨所利生，常無休息，非同二乘速入涅槃。</p>
+<p xml:id="pT45p0377b1317" cb:place="inline">如
 <lb n="0377b14" ed="T"/>第一供養有三。一一切佛無餘。二供養無餘，
 <lb n="0377b15" ed="T"/>有三：一利供養，謂衣服等；二敬供養，謂香華
 <lb n="0377b16" ed="T"/>等；三修行供養，謂修信戒等。三恭敬無餘，有
@@ -306,11 +366,17 @@
 <lb n="0377b20" ed="T"/>生生故。二世界盡，謂何處住界。三虛空界盡，
 <lb n="0377b21" ed="T"/>謂一切虛空。四法界盡，謂說何等法教化法。
 <lb n="0377b22" ed="T"/>五涅槃界盡，隨所化生置何涅槃界故。六佛
-<lb n="0377b23" ed="T"/>出世界盡。七如來智界盡<note n="0377002" resp="Taisho" type="orig" place="foot text">〔故〕－？</note><note n="0377002" resp="CBETA" type="mod">故【大】，〔－〕【考偽-大】</note><app n="0377002"><lem resp="Taisho" wit="【大】">故</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>，以何善巧方便
+<lb n="0377b23" ed="T"/>出世界盡。七如來智界盡<note 
+n="0377002" resp="Taisho" type="orig" place="foot text">〔故〕－？</note><note 
+n="0377002" resp="CBETA" type="mod">故【大】，〔－〕【考偽-大】</note><app n="0377002">
+  <lem resp="Taisho" wit="【大】">故</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>，以何善巧方便
 <lb n="0377b24" ed="T"/>如來智盡故。八心所緣界盡，隨所緣心緣界
 <lb n="0377b25" ed="T"/>盡故。九佛境界智入界盡，復隨何界佛境界
 <lb n="0377b26" ed="T"/>智入盡。十世間轉法輪智轉界盡，發此願勝
-<lb n="0377b27" ed="T"/>故，勇猛恒不退，能行難行，永不退故。</p><p xml:id="pT45p0377b2715" cb:place="inline">淨依者
+<lb n="0377b27" ed="T"/>故，勇猛恒不退，能行難行，永不退故。</p>
+<p xml:id="pT45p0377b2715" cb:place="inline">淨依者
 <lb n="0377b28" ed="T"/>依二利生：一知自近菩提，二知利他方便故。
 <lb n="0377b29" ed="T"/>巧便勝得進上地方便故，出離勝者善思惟，
 <pb n="0377c" ed="T" xml:id="T45.1862.0377c"/>
@@ -324,7 +390,12 @@
 <lb n="0377c08" ed="T"/>譬如淨金者，依相應發心亦如是，利益安樂
 <lb n="0377c09" ed="T"/>不退壞故。譬如新月，勤相應發心如是，一
 <lb n="0377c10" ed="T"/>切善法漸漸增故。譬如增火，極依相應發心
-<lb n="0377c11" ed="T"/>如是，益薪火熾積行依極故。譬如<note n="0377003" resp="Taisho" type="orig" place="foot text">火＝大ヵ【原】</note><note n="0377003" resp="CBETA" type="mod">火【大】，大【考偽-原】</note><app n="0377003"><lem resp="Taisho" wit="【大】">火</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">大</rdg></app>藏，檀
+<lb n="0377c11" ed="T"/>如是，益薪火熾積行依極故。譬如<note 
+n="0377003" resp="Taisho" type="orig" place="foot text">火＝大ヵ【原】</note><note 
+n="0377003" resp="CBETA" type="mod">火【大】，大【考偽-原】</note><app n="0377003">
+  <lem resp="Taisho" wit="【大】">火</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">大</rdg>
+</app>藏，檀
 <lb n="0377c12" ed="T"/>波羅蜜相應發心亦如是，以財周給亦無盡
 <lb n="0377c13" ed="T"/>故。譬如寶篋，尸羅相應發心亦如是，功德
 <lb n="0377c14" ed="T"/>法寶從彼生故。譬如大海，忍波羅蜜相應發
@@ -348,12 +419,19 @@
 <lb n="0378a02" ed="T"/>心亦如是，求解脫者所樂聞故。譬如河流，自
 <lb n="0378a03" ed="T"/>性相應發心亦如是，無生忍道自然而流，不
 <lb n="0378a04" ed="T"/>作意故。譬如大雲，能成世間方便相應發心
-<lb n="0378a05" ed="T"/>亦如是，示現八相成道，化眾生故。</p><p xml:id="pT45p0378a0514" cb:place="inline">《如無盡
+<lb n="0378a05" ed="T"/>亦如是，示現八相成道，化眾生故。</p>
+<p xml:id="pT45p0378a0514" cb:place="inline">《如無盡
 <lb n="0378a06" ed="T"/>意經》有三十二喻，菩薩有四樂：一思利樂，謂
 <lb n="0378a07" ed="T"/>思惟於利他時。二得方便樂，謂至得巧方便
-<lb n="0378a08" ed="T"/>時。三解義樂，謂解了大乘<note n="0378001" resp="Taisho" type="orig" place="foot text">意＝空ィ【原】</note><note n="0378001" resp="CBETA" type="mod">意【大】，空【校異-原】</note><app n="0378001"><lem wit="【大】">意</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">空</rdg></app>時。四證實樂，
+<lb n="0378a08" ed="T"/>時。三解義樂，謂解了大乘<note 
+n="0378001" resp="Taisho" type="orig" place="foot text">意＝空ィ【原】</note><note 
+n="0378001" resp="CBETA" type="mod">意【大】，空【校異-原】</note><app n="0378001">
+  <lem wit="【大】">意</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">空</rdg>
+</app>時。四證實樂，
 <lb n="0378a09" ed="T"/>謂證入法無我時。若人棄捨眾生趣向寂滅，
-<lb n="0378a10" ed="T"/>應知是人不得菩薩如是四樂<note place="inline">此說不發心菩薩過</note>。</p><p xml:id="pT45p0378a1021" cb:place="inline">次說
+<lb n="0378a10" ed="T"/>應知是人不得菩薩如是四樂<note place="inline">此說不發心菩薩過</note>。</p>
+<p xml:id="pT45p0378a1021" cb:place="inline">次說
 <lb n="0378a11" ed="T"/>歎發心者。若菩薩初發大菩提心，爾時依無
 <lb n="0378a12" ed="T"/>邊眾生，即得善護，不作諸惡。為此故，是人遠
 <lb n="0378a13" ed="T"/>離退墮惡道畏。復次由有善及增故，於樂常
@@ -366,7 +444,8 @@
 <lb n="0378a20" ed="T"/>功德而為自嚴，以利懷喜而為自食，以作意
 <lb n="0378a21" ed="T"/>生處而為園地，以神通變化而為戲喜。如是
 <lb n="0378a22" ed="T"/>四事，唯菩薩有，二乘人無。既有如是四事，云
-<lb n="0378a23" ed="T"/>何當退。</p><p xml:id="pT45p0378a2304" cb:place="inline">次遮思苦心。菩薩既以大悲為體，是
+<lb n="0378a23" ed="T"/>何當退。</p>
+<p xml:id="pT45p0378a2304" cb:place="inline">次遮思苦心。菩薩既以大悲為體，是
 <lb n="0378a24" ed="T"/>故極勤利他，雖入阿毘地獄，如遊樂處。菩薩
 <lb n="0378a25" ed="T"/>如是，於餘苦中，豈生怖畏，因此怖故而退
 <lb n="0378a26" ed="T"/>心耶？諸菩薩以大悲闍梨常在心中，若見眾
@@ -377,7 +456,8 @@
 <lb n="0378b01" ed="T"/>薩發心以荷負眾生重擔，若去賒緩此是醜
 <lb n="0378b02" ed="T"/>事，非為第一端政眾生。菩薩應思若自若他
 <lb n="0378b03" ed="T"/>種種急縛，謂惑業生，為解此縛，應須精進
-<lb n="0378b04" ed="T"/>百倍過彼聲聞獨覺作所應作。</p><p xml:id="pT45p0378b0413" cb:place="inline">次說隨順行
+<lb n="0378b04" ed="T"/>百倍過彼聲聞獨覺作所應作。</p>
+<p xml:id="pT45p0378b0413" cb:place="inline">次說隨順行
 <lb n="0378b05" ed="T"/>自他利行<note place="inline">有六大</note>：大依者，依止大菩提而發心
 <lb n="0378b06" ed="T"/>故。大行者，為利自他而發行故。大果者，今得
 <lb n="0378b07" ed="T"/>無上大菩提故。大取者，初發心時攝一切眾
@@ -409,7 +489,8 @@
 <lb n="0378c03" ed="T"/>盡。況復一日一月一歲乃至百歲，所習諸心
 <lb n="0378c04" ed="T"/>福德果報，豈可說盡。何以故？菩薩所行無
 <lb n="0378c05" ed="T"/>盡，欲令一切眾生皆住無生法忍，得無上菩
-<lb n="0378c06" ed="T"/>提故。」</p><p xml:id="pT45p0378c0603" cb:place="inline">次舉喻顯勝，云：「諸佛子！菩薩初始發菩
+<lb n="0378c06" ed="T"/>提故。」</p>
+<p xml:id="pT45p0378c0603" cb:place="inline">次舉喻顯勝，云：「諸佛子！菩薩初始發菩
 <lb n="0378c07" ed="T"/>提心，譬如大海初漸起時，當知皆為下中上
 <lb n="0378c08" ed="T"/>價乃至無價如意寶珠作所住處，此寶皆從
 <lb n="0378c09" ed="T"/>大海生故。菩薩發心亦復如是，為三乘人禪
@@ -428,10 +509,15 @@
 <lb n="0378c22" ed="T"/>菩薩，聞如是說，不驚不怖，不退不沒，當知是
 <lb n="0378c23" ed="T"/>人決定能發菩提之心。假令無量諸佛如來，
 <lb n="0378c24" ed="T"/>於無量劫讚其功德，亦不可盡。何以故？以
-<lb n="0378c25" ed="T"/>菩提心無限齊故。」</p><p xml:id="pT45p0378c2508" cb:place="inline">次說發菩提心因緣，云：「若
+<lb n="0378c25" ed="T"/>菩提心無限齊故。」</p>
+<p xml:id="pT45p0378c2508" cb:place="inline">次說發菩提心因緣，云：「若
 <lb n="0378c26" ed="T"/>諸菩薩親近善知識，供養諸佛，修集善根，志
 <lb n="0378c27" ed="T"/>求勝法，心常柔和，遭苦能忍，慈悲淳厚，深心
-<lb n="0378c28" ed="T"/>平等，信樂<note n="0378c2801" resp="CBETA" type="add">大【CB】，太【大】</note><app n="0378c2801"><lem resp="CBETA" wit="【CB】">大</lem><rdg wit="【大】">太</rdg></app>乘，求佛智慧。若人能具如是十
+<lb n="0378c28" ed="T"/>平等，信樂<note 
+n="0378c2801" resp="CBETA" type="add">大【CB】，太【大】</note><app n="0378c2801">
+  <lem resp="CBETA" wit="【CB】">大</lem>
+  <rdg wit="【大】">太</rdg>
+</app>乘，求佛智慧。若人能具如是十
 <lb n="0378c29" ed="T"/>法，乃能發阿耨菩提之心。」且親近善友有八，
 <pb n="0379a" ed="T" xml:id="T45.1862.0379a"/>
 <lb n="0379a01" ed="T"/>《大莊嚴論》第九偈云：「調靜除德增，有勇阿含
@@ -481,14 +567,16 @@
 <lb n="0379b15" ed="T"/>死煩惱大海，我亦丈夫，亦當能度，緣此事故。
 <lb n="0379b16" ed="T"/>五者思惟三世諸佛發大精進，捨身命財求
 <lb n="0379b17" ed="T"/>一切智，我今亦當隨學諸佛，緣此事故，觀身
-<lb n="0379b18" ed="T"/>過患，發菩提心。</p><p xml:id="pT45p0379b1807" cb:place="inline">復有五種：一者自觀我身
+<lb n="0379b18" ed="T"/>過患，發菩提心。</p>
+<p xml:id="pT45p0379b1807" cb:place="inline">復有五種：一者自觀我身
 <lb n="0379b19" ed="T"/>五陰四大俱能興造無量惡業，欲捨離故。二
 <lb n="0379b20" ed="T"/>者自觀我身九孔常流臭穢不淨，生厭離故。
 <lb n="0379b21" ed="T"/>三者自觀我身有貪瞋癡無量煩惱燒然善
 <lb n="0379b22" ed="T"/>心，欲滅除故。四者自觀我身如泡如沫，念念
 <lb n="0379b23" ed="T"/>生滅是可捨法，欲棄捐故。五者自觀我身無
 <lb n="0379b24" ed="T"/>明所覆常造惡業輪迴五趣無利益故，求最
-<lb n="0379b25" ed="T"/>勝果，發菩提心。</p><p xml:id="pT45p0379b2507" cb:place="inline">復有五事：一者見諸如來相
+<lb n="0379b25" ed="T"/>勝果，發菩提心。</p>
+<p xml:id="pT45p0379b2507" cb:place="inline">復有五事：一者見諸如來相
 <lb n="0379b26" ed="T"/>好莊嚴光明清徹遇者除惱，為修集故。二者
 <lb n="0379b27" ed="T"/>見諸如來法身常住清淨無染，為修集故。三
 <lb n="0379b28" ed="T"/>者見諸如來有戒定慧解脫解脫知見清淨法
@@ -496,27 +584,33 @@
 <pb n="0379c" ed="T" xml:id="T45.1862.0379c"/>
 <lb n="0379c01" ed="T"/>大悲三念，為修集故。五者見諸如來有一切
 <lb n="0379c02" ed="T"/>智，憐愍眾生慈悲普覆，能為一切愚迷正道，
-<lb n="0379c03" ed="T"/>為修集故。慈愍眾生，發菩提心。</p><p xml:id="pT45p0379c0313" cb:place="inline">復有五事：一
+<lb n="0379c03" ed="T"/>為修集故。慈愍眾生，發菩提心。</p>
+<p xml:id="pT45p0379c0313" cb:place="inline">復有五事：一
 <lb n="0379c04" ed="T"/>者見諸眾生為無明所纏故。二者見諸眾生
 <lb n="0379c05" ed="T"/>為眾苦所纏。三者見諸眾生集不善業。四者
 <lb n="0379c06" ed="T"/>見諸眾生造極重惡。五者見諸眾生不修正
-<lb n="0379c07" ed="T"/>法無明所纏。</p><p xml:id="pT45p0379c0706" cb:place="inline">復有四事：一者見諸眾生為癡
+<lb n="0379c07" ed="T"/>法無明所纏。</p>
+<p xml:id="pT45p0379c0706" cb:place="inline">復有四事：一者見諸眾生為癡
 <lb n="0379c08" ed="T"/>愛所惑受大劇苦。二見諸眾生不信因果造
 <lb n="0379c09" ed="T"/>作惡業。三見諸眾生捨離正法信受邪法。四
-<lb n="0379c10" ed="T"/>見諸眾生沒煩惱河，四流所漂眾苦所纏。</p><p xml:id="pT45p0379c1017" cb:place="inline">復
+<lb n="0379c10" ed="T"/>見諸眾生沒煩惱河，四流所漂眾苦所纏。</p>
+<p xml:id="pT45p0379c1017" cb:place="inline">復
 <lb n="0379c11" ed="T"/>有四事：一見諸眾生畏生老病死，不求解脫，
 <lb n="0379c12" ed="T"/>而復造業。二見諸眾生憂悲苦惱而常造作，
 <lb n="0379c13" ed="T"/>無有休息。三見諸眾生愛別離苦而不覺悟，
 <lb n="0379c14" ed="T"/>方便染著。四者見諸眾生怨憎會苦，常起嫌
-<lb n="0379c15" ed="T"/>嫉，更復造惡，集不善業。</p><p xml:id="pT45p0379c1510" cb:place="inline">復有四事：一見諸眾
+<lb n="0379c15" ed="T"/>嫉，更復造惡，集不善業。</p>
+<p xml:id="pT45p0379c1510" cb:place="inline">復有四事：一見諸眾
 <lb n="0379c16" ed="T"/>生為愛欲故造作諸惡。二見諸眾生知欲生
 <lb n="0379c17" ed="T"/>苦而不捨欲。三見眾生雖欲求樂不具戒足。
-<lb n="0379c18" ed="T"/>四見眾生雖不樂苦造苦不息造極重惡。</p><p xml:id="pT45p0379c1817" cb:place="inline">復
+<lb n="0379c18" ed="T"/>四見眾生雖不樂苦造苦不息造極重惡。</p>
+<p xml:id="pT45p0379c1817" cb:place="inline">復
 <lb n="0379c19" ed="T"/>有四事：一者眾生毀犯重戒，雖復憂懼而猶
 <lb n="0379c20" ed="T"/>放逸。二見眾生興造極惡，五無間苦凶頑自
 <lb n="0379c21" ed="T"/>蔽，不生慚愧。三見眾生謗毀大乘方等正法，
 <lb n="0379c22" ed="T"/>專愚自執方起憍慢。四見眾生雖懷聰哲而
-<lb n="0379c23" ed="T"/>具斷善根，反自貢高永無改悔，不修正法。</p><p xml:id="pT45p0379c2317" cb:place="inline">復
+<lb n="0379c23" ed="T"/>具斷善根，反自貢高永無改悔，不修正法。</p>
+<p xml:id="pT45p0379c2317" cb:place="inline">復
 <lb n="0379c24" ed="T"/>有四事：一見眾生生於八難不聞正法不知
 <lb n="0379c25" ed="T"/>修善。二見眾生值佛出世聞說正法不能受
 <lb n="0379c26" ed="T"/>持。三見眾生染習外道苦身修業永不出離。
@@ -554,7 +648,8 @@
 <lb n="0380a28" ed="T"/>正法已，雖行正法，心無所行，如諸菩薩行於
 <lb n="0380a29" ed="T"/>正法而無所行亦無不行，為化眾生，不捨正
 <pb n="0380b" ed="T" xml:id="T45.1862.0380b"/>
-<lb n="0380b01" ed="T"/>願。</p><p xml:id="pT45p0380b0102" cb:place="inline">次立決定誓者，有五事持：一能堅固其心；
+<lb n="0380b01" ed="T"/>願。</p>
+<p xml:id="pT45p0380b0102" cb:place="inline">次立決定誓者，有五事持：一能堅固其心；
 <lb n="0380b02" ed="T"/>二能制伏煩惱；三能遮放逸；四破五蓋；五
 <lb n="0380b03" ed="T"/>能勤修六波羅蜜。云何立誓？若有人來種種
 <lb n="0380b04" ed="T"/>求索，我於爾時隨有施與，乃至不生一念慳
@@ -572,7 +667,8 @@
 <lb n="0380b16" ed="T"/>禪智求淨報者，我即欺誑十方世界無量無
 <lb n="0380b17" ed="T"/>邊阿僧祇現在諸佛，於未來不證菩提。菩薩
 <lb n="0380b18" ed="T"/>以十大願持正法行，以六大誓制放逸心，必
-<lb n="0380b19" ed="T"/>能精進修集六波羅蜜，成無上菩提。</p><p xml:id="pT45p0380b1915" cb:place="inline">《瑜伽》四
+<lb n="0380b19" ed="T"/>能精進修集六波羅蜜，成無上菩提。</p>
+<p xml:id="pT45p0380b1915" cb:place="inline">《瑜伽》四
 <lb n="0380b20" ed="T"/>十五有五大願及十大願。五願者：一發心願；
 <lb n="0380b21" ed="T"/>二受生願；三所行願；四正願；五大願。若諸菩
 <lb n="0380b22" ed="T"/>薩於其無上正等菩提，最初發心，名發心願。
@@ -594,7 +690,8 @@
 <lb n="0380c08" ed="T"/>佛土，名第七願。願於當來，一切菩薩皆同一
 <lb n="0380c09" ed="T"/>種意樂加行，趣入大乘，名第八願。願於當來，
 <lb n="0380c10" ed="T"/>所有一切無倒加行，皆不唐捐，名第九願。願
-<lb n="0380c11" ed="T"/>於當來，速證無上正等菩提，名第十願。</p><p xml:id="pT45p0380c1116" cb:place="inline">四十
+<lb n="0380c11" ed="T"/>於當來，速證無上正等菩提，名第十願。</p>
+<p xml:id="pT45p0380c1116" cb:place="inline">四十
 <lb n="0380c12" ed="T"/>七云：由得清淨勝意樂故。為欲供養最勝有
 <lb n="0380c13" ed="T"/>情真實福田大師法王，是故引發第一大願。
 <lb n="0380c14" ed="T"/>為欲受持彼所宣說無上正法，是故引發第
@@ -602,7 +699,12 @@
 <lb n="0380c16" ed="T"/>引發第三大願。為欲隨彼行菩薩行，是故引
 <lb n="0380c17" ed="T"/>發第四大願。為欲成熟彼器有情，是故引發
 <lb n="0380c18" ed="T"/>第五大願。為欲往趣諸佛國土，奉見如來，承
-<lb n="0380c19" ed="T"/>事供<note n="0380001" resp="Taisho" type="orig" place="foot text">養＋（聽受）ヵ【原】</note><note n="0380001" resp="CBETA" type="mod">養【大】，養聽受【考偽-原】</note><app n="0380001"><lem resp="Taisho" wit="【大】">養</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">養聽受</rdg></app>正法，是故引發第六大願。為淨修
+<lb n="0380c19" ed="T"/>事供<note 
+n="0380001" resp="Taisho" type="orig" place="foot text">養＋（聽受）ヵ【原】</note><note 
+n="0380001" resp="CBETA" type="mod">養【大】，養聽受【考偽-原】</note><app n="0380001">
+  <lem resp="Taisho" wit="【大】">養</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">養聽受</rdg>
+</app>正法，是故引發第六大願。為淨修
 <lb n="0380c20" ed="T"/>治自佛國土，是故引發第七大願。為於一切
 <lb n="0380c21" ed="T"/>在所生處，常不遠離諸佛菩薩，與諸菩薩常
 <lb n="0380c22" ed="T"/>同一味意樂加行，是故引發第八大願。常為
@@ -616,11 +718,22 @@
 <pb n="0381a" ed="T" xml:id="T45.1862.0381a"/>
 <lb n="0381a01" ed="T"/>故<note place="inline">論釋云：為遠離身口意業一切惡行，發大精進也</note>。四者內發，以不虛妄
 <lb n="0381a02" ed="T"/>分別一切諸眾生故<note place="inline">論云：以化一切眾生，令學彼處，不虛分別者，以不著
-<lb n="0381a03" ed="T"/>諸法故</note>。五者外發，於一切眾生，平等行故<note place="inline">論云：以遠離<note n="0381001" resp="Taisho" type="orig" place="foot text">增＝憎ヵ【原】</note><note n="0381001" resp="CBETA" type="mod">增【大】，憎【考偽-原】</note><app n="0381001"><lem resp="Taisho" wit="【大】">增</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">憎</rdg></app>
+<lb n="0381a03" ed="T"/>諸法故</note>。五者外發，於一切眾生，平等行故<note place="inline">論云：以遠離<note 
+n="0381001" resp="Taisho" type="orig" place="foot text">增＝憎ヵ【原】</note><note 
+n="0381001" resp="CBETA" type="mod">增【大】，憎【考偽-原】</note><app n="0381001">
+  <lem resp="Taisho" wit="【大】">增</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">憎</rdg>
+</app>
 <lb n="0381a04" ed="T"/>愛故</note>。六者智發，以具足佛智清淨故<note place="inline">論云：以平等教化一切眾
 <lb n="0381a05" ed="T"/>生故</note>。七清淨國土發，以示一切諸佛國土功德
 <lb n="0381a06" ed="T"/>莊嚴故<note place="inline">論云：以如實知心，便隨相應說法故</note>。十無為智滿足心發，
-<lb n="0381a07" ed="T"/>以不著三界故<note place="inline">論云：以證實法，<note n="0381002" resp="Taisho" type="orig" place="foot text">不＋（著）ヵ【原】</note><note n="0381002" resp="CBETA" type="mod">不【大】，不著【考偽-原】</note><app n="0381002"><lem resp="Taisho" wit="【大】">不</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">不著</rdg></app>三界故，又離虛妄法故</note>。</p><p xml:id="pT45p0381a0723" cb:place="inline">《瑜伽》七十
+<lb n="0381a07" ed="T"/>以不著三界故<note place="inline">論云：以證實法，<note 
+n="0381002" resp="Taisho" type="orig" place="foot text">不＋（著）ヵ【原】</note><note 
+n="0381002" resp="CBETA" type="mod">不【大】，不著【考偽-原】</note><app n="0381002">
+  <lem resp="Taisho" wit="【大】">不</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">不著</rdg>
+</app>三界故，又離虛妄法故</note>。</p>
+<p xml:id="pT45p0381a0723" cb:place="inline">《瑜伽》七十
 <lb n="0381a08" ed="T"/>二有十發心。謂世俗受發心，得法性發心，不
 <lb n="0381a09" ed="T"/>決定發心，決定發心，不清淨發心，清淨發
 <lb n="0381a10" ed="T"/>心，羸劣發心，強盛發心，未成果發心，已成果
@@ -631,7 +744,8 @@
 <lb n="0381a15" ed="T"/>違，名為清淨，為貪瞋癡纏所蔽伏，捨於正法，
 <lb n="0381a16" ed="T"/>處於邪行，名羸劣發。與此相違，名為強盛。謂
 <lb n="0381a17" ed="T"/>勝解乃至十地，名未成果，謂如來地，名已成
-<lb n="0381a18" ed="T"/>果。</p><p xml:id="pT45p0381a1802" cb:place="inline">《瑜伽》四十七，謂諸菩薩有五真實菩薩之
+<lb n="0381a18" ed="T"/>果。</p>
+<p xml:id="pT45p0381a1802" cb:place="inline">《瑜伽》四十七，謂諸菩薩有五真實菩薩之
 <lb n="0381a19" ed="T"/>相。若成就者，墮菩薩數。何等為五？一者哀
 <lb n="0381a20" ed="T"/>愍，二者愛語，三者勇猛，四者舒手惠施，五者
 <lb n="0381a21" ed="T"/>能解甚深義。此各有五種：一自性，二依處，三
@@ -663,7 +777,8 @@
 <lb n="0381b17" ed="T"/>非愛，終不以惡欲加於彼，名廣大。普於一切
 <lb n="0381b18" ed="T"/>諸有情類，平等平等，於有情界，無有分限，是
 <lb n="0381b19" ed="T"/>名平等憐愍。菩薩與此七種行相憐愍相應，
-<lb n="0381b20" ed="T"/>名善意樂、極善意樂。</p><p xml:id="pT45p0381b2009" cb:place="inline">七十二云：復次若於五
+<lb n="0381b20" ed="T"/>名善意樂、極善意樂。</p>
+<p xml:id="pT45p0381b2009" cb:place="inline">七十二云：復次若於五
 <lb n="0381b21" ed="T"/>種有情眾中起邪行時，說名無哀無愍無有
 <lb n="0381b22" ed="T"/>傷嘆。一於乞求者，二於危厄者，三於有恩者，
 <lb n="0381b23" ed="T"/>四於樂樂者，五於樂法者。乞求有五，乞四事
@@ -705,13 +820,19 @@
 <lb n="0381c29" ed="T"/>說法師。二放逸懈怠。三於諸煩惱，親近執著。
 <pb n="0382a" ed="T" xml:id="T45.1862.0382a"/>
 <lb n="0382a01" ed="T"/>四於諸惡行，親近執著。五與餘菩薩，挍量勝
-<lb n="0382a02" ed="T"/>劣，起增上慢。與上相違，名順勝法。</p><p xml:id="pT45p0382a0214" cb:place="inline">《發菩提心
+<lb n="0382a02" ed="T"/>劣，起增上慢。與上相違，名順勝法。</p>
+<p xml:id="pT45p0382a0214" cb:place="inline">《發菩提心
 <lb n="0382a03" ed="T"/>論．下》云：菩薩修習六波羅蜜，求無上菩提者，
 <lb n="0382a04" ed="T"/>應離七法：一者離惡知識，惡知識者，所謂
 <lb n="0382a05" ed="T"/>教人捨離上信上欲上精進，集眾雜行。二者
 <lb n="0382a06" ed="T"/>離於女色貪著嗜欲，染習世人而專俗事。三
 <lb n="0382a07" ed="T"/>者離於惡覺自觀形容，貪悋愛重染著守護，
-<lb n="0382a08" ed="T"/>謂可久保。四者離瞋恚舉慢嫉<note n="0382001" resp="Taisho" type="orig" place="foot text">忘＝忌ヵ【原】</note><note n="0382001" resp="CBETA" type="mod">忘【大】，忌【考偽-原】</note><app n="0382001"><lem resp="Taisho" wit="【大】">忘</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">忌</rdg></app>，興起諍
+<lb n="0382a08" ed="T"/>謂可久保。四者離瞋恚舉慢嫉<note 
+n="0382001" resp="Taisho" type="orig" place="foot text">忘＝忌ヵ【原】</note><note 
+n="0382001" resp="CBETA" type="mod">忘【大】，忌【考偽-原】</note><app n="0382001">
+  <lem resp="Taisho" wit="【大】">忘</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">忌</rdg>
+</app>，興起諍
 <lb n="0382a09" ed="T"/>訟，壞亂善心。五者離於放逸憍慢懈怠，自恃
 <lb n="0382a10" ed="T"/>小善，輕蔑於人。六離於外道書論，及世文頌
 <lb n="0382a11" ed="T"/>綺飾文詞，非佛所說不應讚誦。七者不應親
@@ -736,7 +857,8 @@
 <pb n="0382b" ed="T" xml:id="T45.1862.0382b"/>
 <lb n="0382b01" ed="T"/>持戒以何為本？答：以正憶念為本。又問：正憶
 <lb n="0382b02" ed="T"/>念以何為本？答：以正觀為本。又問：正觀以何
-<lb n="0382b03" ed="T"/>為本。答：以堅念不忘為本。</p><p xml:id="pT45p0382b0311" cb:place="inline">《文殊問經論．下》云：
+<lb n="0382b03" ed="T"/>為本。答：以堅念不忘為本。</p>
+<p xml:id="pT45p0382b0311" cb:place="inline">《文殊問經論．下》云：
 <lb n="0382b04" ed="T"/>菩薩有十種對治，即十波羅蜜所對治法：對
 <lb n="0382b05" ed="T"/>治慳貪，布施故。治破戒心，身口意業清淨故。
 <lb n="0382b06" ed="T"/>治瞋恚心，修行清淨大慈悲故。治懈怠心，求
@@ -797,7 +919,8 @@
 <lb n="0383a01" ed="T"/>重罪，障蔽穢濁，盲無所見。願佛大慈哀愍覆
 <lb n="0383a02" ed="T"/>護，普賢菩薩乘大法船普度一切，十方無量
 <lb n="0383a03" ed="T"/>諸菩薩伴，唯願慈哀聽我悔過眼根不善惡
-<lb n="0383a04" ed="T"/>業障法。」如是三說，五體投地。</p><p xml:id="pT45p0383a0412" cb:place="inline">次懺悔耳根，準
+<lb n="0383a04" ed="T"/>業障法。」如是三說，五體投地。</p>
+<p xml:id="pT45p0383a0412" cb:place="inline">次懺悔耳根，準
 <lb n="0383a05" ed="T"/>經有先勸文，次云：是時行者聞是語已，復
 <lb n="0383a06" ed="T"/>更合掌，五體投地，而作是言：「正遍知世尊，現
 <lb n="0383a07" ed="T"/>為我證方等經典，為慈悲主。唯願觀我聽我
@@ -908,7 +1031,12 @@
 <lb n="0384a21" ed="T"/>切皆失。譬如有人常供養天，其人貧窮，一心
 <lb n="0384a22" ed="T"/>供養，滿十二歲，求索富貴。天愍此人，自現其
 <lb n="0384a23" ed="T"/>身<note place="inline">廣說如常也</note>。復次，持戒之人，人所樂施不惜財物，
-<lb n="0384a24" ed="T"/>不修世利而無所乏，得<note n="0384001" resp="Taisho" type="orig" place="foot text">〔得〕－ヵ【原】</note><note n="0384001" resp="CBETA" type="mod">得【大】，〔－〕【考偽-原】</note><app n="0384001"><lem resp="Taisho" wit="【大】">得</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>生天上十方佛前，
+<lb n="0384a24" ed="T"/>不修世利而無所乏，得<note 
+n="0384001" resp="Taisho" type="orig" place="foot text">〔得〕－ヵ【原】</note><note 
+n="0384001" resp="CBETA" type="mod">得【大】，〔－〕【考偽-原】</note><app n="0384001">
+  <lem resp="Taisho" wit="【大】">得</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>生天上十方佛前，
 <lb n="0384a25" ed="T"/>入三乘道而得解脫。唯種種邪見而持戒者，
 <lb n="0384a26" ed="T"/>後無所獲。復次，持戒之人，雖無兵杖，眾苦
 <lb n="0384a27" ed="T"/>不加。持戒之財，無能奪者。持戒親親雖死不
@@ -957,7 +1085,12 @@
 <lb n="0384c10" ed="T"/>不殺生戒，則無所益。何以故？雖在富貴處，生
 <lb n="0384c11" ed="T"/>勢力豪強，而無壽命，誰受此樂故。諸罪殺罪
 <lb n="0384c12" ed="T"/>重，諸功德不殺勝。又世間中惜命為第一，何
-<lb n="0384c13" ed="T"/>以知之？一切世人甘受<note n="0384002" resp="Taisho" type="orig" place="foot text">形＝刑罰ィ【原】</note><note n="0384002" resp="CBETA" type="mod">形【大】，刑罰【校異-原】</note><app n="0384002"><lem wit="【大】">形</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">刑罰</rdg></app>種種考掠，以護壽
+<lb n="0384c13" ed="T"/>以知之？一切世人甘受<note 
+n="0384002" resp="Taisho" type="orig" place="foot text">形＝刑罰ィ【原】</note><note 
+n="0384002" resp="CBETA" type="mod">形【大】，刑罰【校異-原】</note><app n="0384002">
+  <lem wit="【大】">形</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">刑罰</rdg>
+</app>種種考掠，以護壽
 <lb n="0384c14" ed="T"/>命。又佛說有五大施者，即是五戒。復次，行慈
 <lb n="0384c15" ed="T"/>三昧，其福無量，水火不害，刀杖不傷，一切惡
 <lb n="0384c16" ed="T"/>毒所不能中。以五大施故，所得如是。又復次，
@@ -967,7 +1100,8 @@
 <lb n="0384c20" ed="T"/>惡事。四眾生畏，之如見蛇。五睡時心怖，覺
 <lb n="0384c21" ed="T"/>亦不安。六常有惡夢。七者命終之時狂怖惡
 <lb n="0384c22" ed="T"/>死。八者種短命因。九者身壞命終墮泥犁中。
-<lb n="0384c23" ed="T"/>十者若出為人，常當短命。</p><p xml:id="pT45p0384c2311" cb:place="inline">問：若不侵我，殺心
+<lb n="0384c23" ed="T"/>十者若出為人，常當短命。</p>
+<p xml:id="pT45p0384c2311" cb:place="inline">問：若不侵我，殺心
 <lb n="0384c24" ed="T"/>可息；若為侵害，是當云何？答曰：應量輕重。若
 <lb n="0384c25" ed="T"/>人殺己先自思惟：全戒利重，全身利重？破戒
 <lb n="0384c26" ed="T"/>為失，喪身為失？如是思惟已，知持戒為重，全
@@ -977,19 +1111,30 @@
 <pb n="0385a" ed="T" xml:id="T45.1862.0385a"/>
 <lb n="0385a01" ed="T"/>不善事，今乃得為持淨戒。故不惜此身捨命
 <lb n="0385a02" ed="T"/>持戒，勝於捨戒全身，百千萬倍不可為喻。如
-<lb n="0385a03" ed="T"/>是定心，應當捨身以護淨戒。<note n="0385001" resp="Taisho" type="orig" place="foot text">〔全〕－ヵ【原】</note><note n="0385001" resp="CBETA" type="mod">全【大】，〔－〕【考偽-原】</note><app n="0385001"><lem resp="Taisho" wit="【大】">全</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>如一須陀洹
+<lb n="0385a03" ed="T"/>是定心，應當捨身以護淨戒。<note 
+n="0385001" resp="Taisho" type="orig" place="foot text">〔全〕－ヵ【原】</note><note 
+n="0385001" resp="CBETA" type="mod">全【大】，〔－〕【考偽-原】</note><app n="0385001">
+  <lem resp="Taisho" wit="【大】">全</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>如一須陀洹
 <lb n="0385a04" ed="T"/>人，生屠殺家，年向成人，應當修其家業，而不
 <lb n="0385a05" ed="T"/>背殺。父母與刀并一口羊，閉著屋中而語之
 <lb n="0385a06" ed="T"/>言：「若不殺羊，不令汝出，得見日月生活飲食。」
 <lb n="0385a07" ed="T"/>兒自思惟言：我若殺此一羊，便當終為此業。
 <lb n="0385a08" ed="T"/>豈以身故為此大罪。便以刀自殺。父母開門
 <lb n="0385a09" ed="T"/>見，羊在一面立，兒已命終。當自殺時即生
-<lb n="0385a10" ed="T"/>天上。若如此者，是為不惜壽命而護淨戒。</p><p xml:id="pT45p0385a1017" cb:place="inline">如
+<lb n="0385a10" ed="T"/>天上。若如此者，是為不惜壽命而護淨戒。</p>
+<p xml:id="pT45p0385a1017" cb:place="inline">如
 <lb n="0385a11" ed="T"/>佛說，不與取者有十罪。何等為十？一者物生
 <lb n="0385a12" ed="T"/>當嗔；二者重疑；三者非時行不籌度；四者朋
 <lb n="0385a13" ed="T"/>黨惡人，遠離賢善；五者破善相；六者得罪於
 <lb n="0385a14" ed="T"/>官；七者財物沒入；八者種貧窮業；九者死入
-<lb n="0385a15" ed="T"/>地獄；十者若出為人勤苦求財，五家<note n="0385002" resp="Taisho" type="orig" place="foot text">〔苦〕－ヵ【原】</note><note n="0385002" resp="CBETA" type="mod">苦【大】，〔－〕【考偽-原】</note><app n="0385002"><lem resp="Taisho" wit="【大】">苦</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>共。</p>
+<lb n="0385a15" ed="T"/>地獄；十者若出為人勤苦求財，五家<note 
+n="0385002" resp="Taisho" type="orig" place="foot text">〔苦〕－ヵ【原】</note><note 
+n="0385002" resp="CBETA" type="mod">苦【大】，〔－〕【考偽-原】</note><app n="0385002">
+  <lem resp="Taisho" wit="【大】">苦</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>共。</p>
 <lb n="0385a16" ed="T"/><p xml:id="pT45p0385a1601">有邪婬者問曰：若夫主不知不見不惱他有
 <lb n="0385a17" ed="T"/>何罪？答曰：夫妻之情異身同體，奪所愛敬破
 <lb n="0385a18" ed="T"/>他本心，是名為賊。又復惡名醜聲為人所憎，
@@ -1008,8 +1153,14 @@
 <lb n="0385b01" ed="T"/>法日日增長，於諸善法日日損減。四者不守
 <lb n="0385b02" ed="T"/>護身，妻子孤寡。五者財產日耗。六者有諸惡
 <lb n="0385b03" ed="T"/>事，常為人疑。七者親屬知識所不喜愛。八
-<lb n="0385b04" ed="T"/>者種怨家業。九者身壞命終<note n="0385003" resp="Taisho" type="orig" place="foot text">死生＝墮於ィ【原】</note><note n="0385003" resp="CBETA" type="mod">死生【大】，墮於【校異-原】</note><app n="0385003"><lem wit="【大】">死生</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">墮於</rdg></app>地獄。十者
-<lb n="0385b05" ed="T"/>若出為女，多人共夫。若為男子，婦不貞潔。</p><p xml:id="pT45p0385b0517" cb:place="inline">妄
+<lb n="0385b04" ed="T"/>者種怨家業。九者身壞命終<note 
+n="0385003" resp="Taisho" type="orig" place="foot text">死生＝墮於ィ【原】</note><note 
+n="0385003" resp="CBETA" type="mod">死生【大】，墮於【校異-原】</note><app n="0385003">
+  <lem wit="【大】">死生</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">墮於</rdg>
+</app>地獄。十者
+<lb n="0385b05" ed="T"/>若出為女，多人共夫。若為男子，婦不貞潔。</p>
+<p xml:id="pT45p0385b0517" cb:place="inline">妄
 <lb n="0385b06" ed="T"/>語之人先自誑身，然後誑人，以實為虛，以虛
 <lb n="0385b07" ed="T"/>為實，虛實顛倒。不受善法。譬如覆瓶水不得
 <lb n="0385b08" ed="T"/>入，妄語之人心無慚愧，閉塞天道涅槃之門，
@@ -1062,18 +1213,25 @@
 <lb n="0385c25" ed="T"/>未盡。二十阿浮陀地獄中壽，為一尼羅浮陀
 <lb n="0385c26" ed="T"/>地獄中壽，如是餘者皆二十數。俱迦離墮是
 <lb n="0385c27" ed="T"/>摩訶波頭摩地獄中，出其大舌，以五百釘釘
-<lb n="0385c28" ed="T"/>之，五百犁耕之。」爾時世尊說此偈云：「<note n="0385004" resp="Taisho" type="orig" place="foot text">大＝夫ヵ【原】</note><note n="0385004" resp="CBETA" type="mod">大【大】，夫【考偽-原】</note><app n="0385004"><lem resp="Taisho" wit="【大】">大</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">夫</rdg></app>士
+<lb n="0385c28" ed="T"/>之，五百犁耕之。」爾時世尊說此偈云：「<note 
+n="0385004" resp="Taisho" type="orig" place="foot text">大＝夫ヵ【原】</note><note 
+n="0385004" resp="CBETA" type="mod">大【大】，夫【考偽-原】</note><app n="0385004">
+  <lem resp="Taisho" wit="【大】">大</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">夫</rdg>
+</app>士
 <lb n="0385c29" ed="T"/>之生，斧在口中。所以斬身，由其惡言。應呵而
 <pb n="0386a" ed="T" xml:id="T45.1862.0386a"/>
 <lb n="0386a01" ed="T"/>讚，應讚而呵，口集諸惡，終不見樂。心依邪
 <lb n="0386a02" ed="T"/>見，破賢聖語，如竹生實，自毀其形。受罪如是，
-<lb n="0386a03" ed="T"/>不應妄語。」</p><p xml:id="pT45p0386a0305" cb:place="inline">佛說妄語有十罪，何等為十？一口
+<lb n="0386a03" ed="T"/>不應妄語。」</p>
+<p xml:id="pT45p0386a0305" cb:place="inline">佛說妄語有十罪，何等為十？一口
 <lb n="0386a04" ed="T"/>氣臭。二者善神遠之，非人得便。三者雖有
 <lb n="0386a05" ed="T"/>實語，人不信受。四者智人謀議，常不參預。五
 <lb n="0386a06" ed="T"/>者常被誹謗，醜惡之聲，周聞天下。六者人所
 <lb n="0386a07" ed="T"/>不敬，雖有教勅，人不承用。七者常多憂愁。八
 <lb n="0386a08" ed="T"/>者種誹謗業。九者死墮地獄。十出得為人，常
-<lb n="0386a09" ed="T"/>被誹謗。如是種種故不應妄語。</p><p xml:id="pT45p0386a0913" cb:place="inline">酒有三種，謂
+<lb n="0386a09" ed="T"/>被誹謗。如是種種故不應妄語。</p>
+<p xml:id="pT45p0386a0913" cb:place="inline">酒有三種，謂
 <lb n="0386a10" ed="T"/>穀、果、菜，各有多種，但能令人心動放逸，是名
 <lb n="0386a11" ed="T"/>為酒，一切不應飲，是名不飲酒。問曰：酒能破
 <lb n="0386a12" ed="T"/>冷，益身歡喜，何以不飲？答曰：益身甚少，所損
@@ -1099,7 +1257,8 @@
 <lb n="0386b02" ed="T"/>逸故。三十二遠離涅槃。三十三種愚癡因。三
 <lb n="0386b03" ed="T"/>十四身壞命終墮惡道中。三十五若得為人，
 <lb n="0386b04" ed="T"/>所生之處常當狂騃。是三十五罪種種過失，
-<lb n="0386b05" ed="T"/>是故不應飲。</p><p xml:id="pT45p0386b0506" cb:place="inline">復次，白衣處世，當官理務，家業
+<lb n="0386b05" ed="T"/>是故不應飲。</p>
+<p xml:id="pT45p0386b0506" cb:place="inline">復次，白衣處世，當官理務，家業
 <lb n="0386b06" ed="T"/>作使，是故難持不惡口法等。五戒有五種受，
 <lb n="0386b07" ed="T"/>名五種優婆塞：一者一分行。二者小分行。三
 <lb n="0386b08" ed="T"/>者多分行。四者滿分行。五者斷婬。受一名
@@ -1112,8 +1271,14 @@
 <lb n="0386b15" ed="T"/>心，雖復終身持戒，不如有大心人一日戒也。
 <lb n="0386b16" ed="T"/>譬如軟夫為將，雖將終身，智勇不足，卒無
 <lb n="0386b17" ed="T"/>功名。若英雄奮發，禍亂立定，一日之勳，功蓋
-<lb n="0386b18" ed="T"/>天下。</p><p xml:id="pT45p0386b1803" cb:place="inline">復次，雖破戒墮罪，罪畢得解脫。如《優鉢
-<lb n="0386b19" ed="T"/>羅華比丘尼本生經》中說：佛在世時，<note n="0386001" resp="Taisho" type="orig" place="foot text">諸＝是ヵ【原】</note><note n="0386001" resp="CBETA" type="mod">諸【大】，是【考偽-原】</note><app n="0386001"><lem resp="Taisho" wit="【大】">諸</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">是</rdg></app>比丘
+<lb n="0386b18" ed="T"/>天下。</p>
+<p xml:id="pT45p0386b1803" cb:place="inline">復次，雖破戒墮罪，罪畢得解脫。如《優鉢
+<lb n="0386b19" ed="T"/>羅華比丘尼本生經》中說：佛在世時，<note 
+n="0386001" resp="Taisho" type="orig" place="foot text">諸＝是ヵ【原】</note><note 
+n="0386001" resp="CBETA" type="mod">諸【大】，是【考偽-原】</note><app n="0386001">
+  <lem resp="Taisho" wit="【大】">諸</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">是</rdg>
+</app>比丘
 <lb n="0386b20" ed="T"/>尼得六神通阿羅漢，入貴人舍，常讚出家法。
 <lb n="0386b21" ed="T"/>語諸貴人婦女云：「姊妹可出家。」諸貴婦女言：
 <lb n="0386b22" ed="T"/>「我等少壯容色盛美，持戒為難，或當破戒。」比
@@ -1138,7 +1303,12 @@
 <lb n="0386c11" ed="T"/><p xml:id="pT45p0386c1101">引《蘇陀摩王經》中說：不惜身命，以全禁戒。如
 <lb n="0386c12" ed="T"/>菩薩本身曾作大力毒龍，若眾生在前身力
 <lb n="0386c13" ed="T"/>弱者，眼視便死；身力強者，氣往而死。是龍受
-<lb n="0386c14" ed="T"/>一日戒出家，<note n="0386002" resp="Taisho" type="orig" place="foot text">〔出家〕－ヵ【原】</note><note n="0386002" resp="CBETA" type="mod">出家【大】，〔－〕【考偽-原】</note><app n="0386002"><lem resp="Taisho" wit="【大】">出家</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>求靜入林。樹間思惟，坐久
+<lb n="0386c14" ed="T"/>一日戒出家，<note 
+n="0386002" resp="Taisho" type="orig" place="foot text">〔出家〕－ヵ【原】</note><note 
+n="0386002" resp="CBETA" type="mod">出家【大】，〔－〕【考偽-原】</note><app n="0386002">
+  <lem resp="Taisho" wit="【大】">出家</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>求靜入林。樹間思惟，坐久
 <lb n="0386c15" ed="T"/>疲懈而睡，時形狀如蛇，身有文章，七寶雜色。
 <lb n="0386c16" ed="T"/>獵者見之驚喜言曰：「以此希有難得之皮，獻
 <lb n="0386c17" ed="T"/>上國王，以為服飾，不亦宜乎？」便以杖按其頭，
@@ -1173,7 +1343,8 @@
 <lb n="0387a16" ed="T"/>施。眾生見者慕其所行，又為說法令其開語。
 <lb n="0387a17" ed="T"/>又自思惟：我當持戒，與一切生作供養福田，
 <lb n="0387a18" ed="T"/>令諸眾生得無量福。如是種種名法施。一切
-<lb n="0387a19" ed="T"/>眾生皆畏於死，持戒不害，是則無畏施。</p><p xml:id="pT45p0387a1916" cb:place="inline">復次
+<lb n="0387a19" ed="T"/>眾生皆畏於死，持戒不害，是則無畏施。</p>
+<p xml:id="pT45p0387a1916" cb:place="inline">復次
 <lb n="0387a20" ed="T"/>菩薩自念：我當持戒，以此戒報，為諸眾生，作
 <lb n="0387a21" ed="T"/>轉輪王，或作閻浮王，若作天王，令諸眾生滿
 <lb n="0387a22" ed="T"/>足於財，無所乏短。然後坐佛樹下，降伏魔
@@ -1216,7 +1387,8 @@
 <lb n="0387b29" ed="T"/>諸菩薩當學，現在諸菩薩今學，是諸佛正法
 <pb n="0387c" ed="T" xml:id="T45.1862.0387c"/>
 <lb n="0387c01" ed="T"/>戒。若一切菩薩不入此正法戒門，得無上道
-<lb n="0387c02" ed="T"/>果者，無有是處。</p><p xml:id="pT45p0387c0207" cb:place="inline">將欲受戒，先教禮三寶云：「弟
+<lb n="0387c02" ed="T"/>果者，無有是處。</p>
+<p xml:id="pT45p0387c0207" cb:place="inline">將欲受戒，先教禮三寶云：「弟
 <lb n="0387c03" ed="T"/>子某甲等，敬禮過去世盡過去際一切諸佛。」
 <lb n="0387c04" ed="T"/>未來現在各准此<note place="inline">三說</note>。禮法云：「弟子某甲等，敬
 <lb n="0387c05" ed="T"/>禮過去世盡過去際十二分教清淨真法，未
@@ -1224,7 +1396,8 @@
 <lb n="0387c07" ed="T"/>世盡過去際三乘聖眾，未來現在亦爾<note place="inline">並各三說</note>。」
 <lb n="0387c08" ed="T"/>次教受四不壞信云：「弟子某甲等，願從今時，
 <lb n="0387c09" ed="T"/>盡未來際，歸依佛、歸依法、歸依賢聖僧、歸依
-<lb n="0387c10" ed="T"/>正法戒<note place="inline">三說</note>。」</p><p xml:id="pT45p0387c1006" cb:place="inline">次教懺悔十重惡業，既悔過已，即
+<lb n="0387c10" ed="T"/>正法戒<note place="inline">三說</note>。」</p>
+<p xml:id="pT45p0387c1006" cb:place="inline">次教懺悔十重惡業，既悔過已，即
 <lb n="0387c11" ed="T"/>與受十無盡戒云：「汝等善聽！佛子從今身至
 <lb n="0387c12" ed="T"/>佛身盡未來際，於其中間不得故殺生。若有
 <lb n="0387c13" ed="T"/>犯者，非菩薩行。失四十二賢聖法，不得犯。能
@@ -1248,9 +1421,15 @@
 <lb n="0388a01" ed="T"/>過三劫生死之罪。是故應受。受有十分，隨受
 <lb n="0388a02" ed="T"/>於一，乃至具十。又是菩薩十重，八萬威儀戒
 <lb n="0388a03" ed="T"/>中，十重有犯無悔，得使重受戒。八萬威儀戒
-<lb n="0388a04" ed="T"/>盡名輕，有犯得使悔過，對<note n="0388001" resp="Taisho" type="orig" place="foot text">手＝首ヵ【原】</note><note n="0388001" resp="CBETA" type="mod">手【大】，首【考偽-原】</note><app n="0388001"><lem resp="Taisho" wit="【大】">手</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">首</rdg></app>悔滅。一切菩
+<lb n="0388a04" ed="T"/>盡名輕，有犯得使悔過，對<note 
+n="0388001" resp="Taisho" type="orig" place="foot text">手＝首ヵ【原】</note><note 
+n="0388001" resp="CBETA" type="mod">手【大】，首【考偽-原】</note><app n="0388001">
+  <lem resp="Taisho" wit="【大】">手</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">首</rdg>
+</app>悔滅。一切菩
 <lb n="0388a05" ed="T"/>薩凡聖戒盡心為體，是故心亦盡戒亦盡，心
-<lb n="0388a06" ed="T"/>無盡故戒亦無盡，六道眾生受得。</p><p xml:id="pT45p0388a0614" cb:place="inline">依《文殊問
+<lb n="0388a06" ed="T"/>無盡故戒亦無盡，六道眾生受得。</p>
+<p xml:id="pT45p0388a0614" cb:place="inline">依《文殊問
 <lb n="0388a07" ed="T"/>經．世間戒品》受十戒法云：爾時，文殊師利白
 <lb n="0388a08" ed="T"/>佛言：「世尊！云何歸依？」佛告文殊師利：「歸依
 <lb n="0388a09" ed="T"/>者應如是言：『大德！我某甲，乃至菩提歸依佛，
@@ -1268,7 +1447,8 @@
 <lb n="0388a21" ed="T"/>波羅蜜，大慈大悲。』」佛說此祇夜：「發誓至菩提，
 <lb n="0388a22" ed="T"/>歸依於三寶。受持十種戒，亦誓至菩提。六度
 <lb n="0388a23" ed="T"/>及四等，皆當令具足。如是修行者，與大乘
-<lb n="0388a24" ed="T"/>相應。」</p><p xml:id="pT45p0388a2403" cb:place="inline">將欲受戒，應先發誓願。〈菩薩受戒品〉云：
+<lb n="0388a24" ed="T"/>相應。」</p>
+<p xml:id="pT45p0388a2403" cb:place="inline">將欲受戒，應先發誓願。〈菩薩受戒品〉云：
 <lb n="0388a25" ed="T"/>爾時文殊師利白佛言：「世尊！若善男子、善女
 <lb n="0388a26" ed="T"/>人，受菩薩所受戒法，當云何？」佛告文殊師利：
 <lb n="0388a27" ed="T"/>「應於佛前至誠禮拜，作如是言：『我某甲，願諸
@@ -1282,7 +1462,8 @@
 <lb n="0388b05" ed="T"/>須財法一切施與，以此財法攝受一切眾生，
 <lb n="0388b06" ed="T"/>漸漸隨宜。為解脫眾生出生死故，乃至令安
 <lb n="0388b07" ed="T"/>住無上菩提。我當起精進，我當不放逸。』如
-<lb n="0388b08" ed="T"/>是再三，是名菩薩摩訶薩初發菩提心。」</p><p xml:id="pT45p0388b0816" cb:place="inline">若依
+<lb n="0388b08" ed="T"/>是再三，是名菩薩摩訶薩初發菩提心。」</p>
+<p xml:id="pT45p0388b0816" cb:place="inline">若依
 <lb n="0388b09" ed="T"/>《梵網經》，說十重戒與《瓔珞經》同，然彼具說自
 <lb n="0388b10" ed="T"/>作教他，隨喜殺因殺緣殺業等，廣略別爾。《淨
 <lb n="0388b11" ed="T"/>行優婆塞戒經》受十無盡，同《瓔珞本業經》。又
@@ -1300,7 +1481,8 @@
 <lb n="0388b23" ed="T"/>更能度人。是故佛子應受應持。若有持者，從
 <lb n="0388b24" ed="T"/>初發心，乃至妙覺，隨緣施化。若有眾生，感真
 <lb n="0388b25" ed="T"/>法者，現菩薩形，而往度之。若感應者，現優
-<lb n="0388b26" ed="T"/>婆塞形，而往度之<note place="inline">如觀音等</note>。」已下請受。</p><p xml:id="pT45p0388b2616" cb:place="inline">爾時，東方
+<lb n="0388b26" ed="T"/>婆塞形，而往度之<note place="inline">如觀音等</note>。」已下請受。</p>
+<p xml:id="pT45p0388b2616" cb:place="inline">爾時，東方
 <lb n="0388b27" ed="T"/>有世界名光淨，有八千大梵天王，其第一者
 <lb n="0388b28" ed="T"/>淨業為名，各有百千眷屬，其一一方亦如此
 <lb n="0388b29" ed="T"/>數。於此世界，淨居天王名曰淨志，亦與眷屬
@@ -1309,23 +1491,32 @@
 <lb n="0388c02" ed="T"/>住如立，白佛言：「世尊！我等今日，居煩惱海，住
 <lb n="0388c03" ed="T"/>生死河，雖欲越渡，無牢船栰，沒命中流，還來
 <lb n="0388c04" ed="T"/>此岸。如是展轉，永無出期。世尊大慈拯救一
-<lb n="0388c05" ed="T"/>切，願賜<note n="0388002" resp="Taisho" type="orig" place="foot text">六＝大ヵ【原】</note><note n="0388002" resp="CBETA" type="mod">六【大】，大【考偽-原】</note><app n="0388002"><lem resp="Taisho" wit="【大】">六</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">大</rdg></app>船，過度險難。我等度已，亦教一
-<lb n="0388c06" ed="T"/>切眾生，令得出離。於後惡世，流布不絕。」</p><p xml:id="pT45p0388c0616" cb:place="inline">次佛
+<lb n="0388c05" ed="T"/>切，願賜<note 
+n="0388002" resp="Taisho" type="orig" place="foot text">六＝大ヵ【原】</note><note 
+n="0388002" resp="CBETA" type="mod">六【大】，大【考偽-原】</note><app n="0388002">
+  <lem resp="Taisho" wit="【大】">六</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">大</rdg>
+</app>船，過度險難。我等度已，亦教一
+<lb n="0388c06" ed="T"/>切眾生，令得出離。於後惡世，流布不絕。」</p>
+<p xml:id="pT45p0388c0616" cb:place="inline">次佛
 <lb n="0388c07" ed="T"/>教立願云：「佛子當發大願，願一切眾生普成
 <lb n="0388c08" ed="T"/>正覺。若有一人隨苦惱者，我當代之令彼得
 <lb n="0388c09" ed="T"/>樂，至心頭面著地。又願一切眾生，普慈相向，
 <lb n="0388c10" ed="T"/>如父如子，身體清淨，如淨瑠璃。若有一人不
 <lb n="0388c11" ed="T"/>如此者，我當代之。又願眾生，自識宿命，智慧
 <lb n="0388c12" ed="T"/>具足，明達三世。若有一人，不適意者，我當代
-<lb n="0388c13" ed="T"/>之。」</p><p xml:id="pT45p0388c1302" cb:place="inline">次教懺悔，懺悔訖歸依三寶。次云：「佛子已
+<lb n="0388c13" ed="T"/>之。」</p>
+<p xml:id="pT45p0388c1302" cb:place="inline">次教懺悔，懺悔訖歸依三寶。次云：「佛子已
 <lb n="0388c14" ed="T"/>發大願，懺悔復訖，三寶歸已，三業清淨，真是
 <lb n="0388c15" ed="T"/>如來法身之子，一切眾生法橋之主，至心頭
-<lb n="0388c16" ed="T"/>面著地，攝持身心，隨語稱字。」</p><p xml:id="pT45p0388c1612" cb:place="inline">次正說相云：「佛
+<lb n="0388c16" ed="T"/>面著地，攝持身心，隨語稱字。」</p>
+<p xml:id="pT45p0388c1612" cb:place="inline">次正說相云：「佛
 <lb n="0388c17" ed="T"/>子！從今身至佛身，於其中間常行檀波羅蜜，
 <lb n="0388c18" ed="T"/>悉令具足，不得懈怠有所犯，若犯非菩薩。能
 <lb n="0388c19" ed="T"/>持不？<note place="inline">教答</note>能持<note place="inline">准前隨從稱名，應云某甲能持</note>。尸羅波羅蜜、羼
 <lb n="0388c20" ed="T"/>提波羅蜜、毘梨耶波羅蜜、禪波羅蜜、般若波
-<lb n="0388c21" ed="T"/>羅蜜<note place="inline">准檀說之</note>。」</p><p xml:id="pT45p0388c2107" cb:place="inline">次說云：「佛子！此六波羅蜜戒常當
+<lb n="0388c21" ed="T"/>羅蜜<note place="inline">准檀說之</note>。」</p>
+<p xml:id="pT45p0388c2107" cb:place="inline">次說云：「佛子！此六波羅蜜戒常當
 <lb n="0388c22" ed="T"/>護持，勤行修習，勿令懈怠。若退，失四十二賢
 <lb n="0388c23" ed="T"/>聖法。堅固其心，不得故犯。能持不？<note place="inline">教答能持。</note>」若准
 <lb n="0388c24" ed="T"/>第十，具有受法、持衣、結界、安居、自恣等，廣如
@@ -1354,11 +1545,17 @@
 <lb n="0389a17" ed="T"/>此身，何時脫捨淨髮。』爾時，知其悔心善根已
 <lb n="0389a18" ed="T"/>至，為說六度十善因緣，復為懺悔除所障罪
 <lb n="0389a19" ed="T"/>咎，即授齋法五分法身解脫分戒。既受戒已，
-<lb n="0389a20" ed="T"/><note n="0389001" resp="Taisho" type="orig" place="foot text">頭＝頂ヵ【原】</note><note n="0389001" resp="CBETA" type="mod">頭【大】，頂【考偽-原】</note><app n="0389001"><lem resp="Taisho" wit="【大】">頭</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">頂</rdg></app>禮致敬，辭別如去。母子思量經七日夜，
+<lb n="0389a20" ed="T"/><note 
+n="0389001" resp="Taisho" type="orig" place="foot text">頭＝頂ヵ【原】</note><note 
+n="0389001" resp="CBETA" type="mod">頭【大】，頂【考偽-原】</note><app n="0389001">
+  <lem resp="Taisho" wit="【大】">頭</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">頂</rdg>
+</app>禮致敬，辭別如去。母子思量經七日夜，
 <lb n="0389a21" ed="T"/>俱時命終，生南天竺大婆羅門家，還為眷屬。
 <lb n="0389a22" ed="T"/>戒力因緣自然具足，聰明叡智，三業清淨，得
 <lb n="0389a23" ed="T"/>不退心。」當知此戒一受不失，乃至畜生。此名
-<lb n="0389a24" ed="T"/>優婆塞戒不可思議。</p><p xml:id="pT45p0389a2409" cb:place="inline">又復往昔有一婦人，隱
+<lb n="0389a24" ed="T"/>優婆塞戒不可思議。</p>
+<p xml:id="pT45p0389a2409" cb:place="inline">又復往昔有一婦人，隱
 <lb n="0389a25" ed="T"/>避其夫，獨食無度，以偷食故墮餓狗中，貧
 <lb n="0389a26" ed="T"/>賤家生。薄福德故，形容醜陋，身體疥癩，叨哭
 <lb n="0389a27" ed="T"/>之力反耳，嘷吠災怪數作，人所憎嫉，門打推
@@ -1371,20 +1568,31 @@
 <lb n="0389b04" ed="T"/>已，飢餓甚困，值遇押酒，偷食其糟，食飽訖
 <lb n="0389b05" ed="T"/>已，不敢近屋，恐畏醉後或能打殺。即移在
 <lb n="0389b06" ed="T"/>無人行處，恣意熟眠，三日醒已，飢虛甚困。顧
-<lb n="0389b07" ed="T"/><note n="0389002" resp="Taisho" type="orig" place="foot text">盱＝䀎ヵ【原】</note><note n="0389002" resp="CBETA" type="mod">盱【大】，䀎【考偽-原】</note><app n="0389002"><lem resp="Taisho" wit="【大】">盱</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">䀎</rdg></app>食飲，無可得者。徘徊之頃，主人女郎擔
+<lb n="0389b07" ed="T"/><note 
+n="0389002" resp="Taisho" type="orig" place="foot text">盱＝䀎ヵ【原】</note><note 
+n="0389002" resp="CBETA" type="mod">盱【大】，䀎【考偽-原】</note><app n="0389002">
+  <lem resp="Taisho" wit="【大】">盱</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">䀎</rdg>
+</app>食飲，無可得者。徘徊之頃，主人女郎擔
 <lb n="0389b08" ed="T"/>米一斗，盛著坩中，蓋口而去。看人去已，以鼻
 <lb n="0389b09" ed="T"/>推之，就中食米。食米訖竟，拔頭不得，畏人來
 <lb n="0389b10" ed="T"/>見，盡力東西去不得脫，在中無聲住。須臾之
 <lb n="0389b11" ed="T"/>頃，便至終於死。此還狗身，傾有菩薩名曰
 <lb n="0389b12" ed="T"/>無言，即與說法五分戒，因教令修持。捨此身
 <lb n="0389b13" ed="T"/>已，生長生王家，聰明智慧，得不退菩提。優婆
-<lb n="0389b14" ed="T"/>塞戒乃有如是不思議力。</p><p xml:id="pT45p0389b1411" cb:place="inline">善男子！汝等修道
+<lb n="0389b14" ed="T"/>塞戒乃有如是不思議力。</p>
+<p xml:id="pT45p0389b1411" cb:place="inline">善男子！汝等修道
 <lb n="0389b15" ed="T"/>忍辱為先。何以故？昔有一人名曰高王，出家
 <lb n="0389b16" ed="T"/>受戒，輕賤其師，常懷慢心，於諸同道，亦復如
 <lb n="0389b17" ed="T"/>是，鬪諍嗔忿口縱四過。命終之後墮大地獄，
 <lb n="0389b18" ed="T"/>以經七佛猶不得出，却盡賢劫始可免難。餘
 <lb n="0389b19" ed="T"/>報劫數，說不可盡。是故修道先當忍辱。又有
-<lb n="0389b20" ed="T"/>一人作大國王，名曰<note n="0389003" resp="Taisho" type="orig" place="foot text"><g ref="#CB05078"/>＝桀ヵ【原】</note><note n="0389003" resp="CBETA" type="mod"><g ref="#CB05078"/>【大】，桀【考偽-原】</note><app n="0389003"><lem resp="Taisho" wit="【大】"><g ref="#CB05078"/></lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">桀</rdg></app>盧伽，為大臻王之所
+<lb n="0389b20" ed="T"/>一人作大國王，名曰<note 
+n="0389003" resp="Taisho" type="orig" place="foot text"><g ref="#CB05078"/>＝桀ヵ【原】</note><note 
+n="0389003" resp="CBETA" type="mod"><g ref="#CB05078"/>【大】，桀【考偽-原】</note><app n="0389003">
+  <lem resp="Taisho" wit="【大】"><g ref="#CB05078"/></lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">桀</rdg>
+</app>盧伽，為大臻王之所
 <lb n="0389b21" ed="T"/>討殄。王有一子名曰信住，其父滅已，藏身隱
 <lb n="0389b22" ed="T"/>伏。年既長大，貧無資產，被遣事王。王時遊
 <lb n="0389b23" ed="T"/>觀，身力疲極，失其眾侶，共王二人到一水
@@ -1404,11 +1612,13 @@
 <lb n="0389c07" ed="T"/>受樂，後生天中乃至大果，故持戒者忍力為
 <lb n="0389c08" ed="T"/>大。</p></cb:div>
 <lb n="0389c09" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">受十善戒門</cb:mulu><head>受十善戒門</head>
-<lb n="0389c10" ed="T"/><p xml:id="pT45p0389c1001">初起思惟，應修十善。</p><p xml:id="pT45p0389c1009" cb:place="inline">《十地經》云：菩薩作是思
+<lb n="0389c10" ed="T"/><p xml:id="pT45p0389c1001">初起思惟，應修十善。</p>
+<p xml:id="pT45p0389c1009" cb:place="inline">《十地經》云：菩薩作是思
 <lb n="0389c11" ed="T"/>惟：一切眾生墮諸惡道，皆由不離十不善業
 <lb n="0389c12" ed="T"/>道集因緣故。是故我當先住善法，亦令他人
 <lb n="0389c13" ed="T"/>住於善法。何以故？若人自不行善、不具善行，
-<lb n="0389c14" ed="T"/>為他說法令住善者，無有是處。</p><p xml:id="pT45p0389c1413" cb:place="inline">次思惟十不
+<lb n="0389c14" ed="T"/>為他說法令住善者，無有是處。</p>
+<p xml:id="pT45p0389c1413" cb:place="inline">次思惟十不
 <lb n="0389c15" ed="T"/>善果，云是菩薩復作是思惟：此十不善業道，
 <lb n="0389c16" ed="T"/>上者地獄因緣、中者畜生因緣、下者餓鬼因
 <lb n="0389c17" ed="T"/>緣，於中殺生之罪，能令眾生墮於地獄、畜生、
@@ -1430,7 +1640,8 @@
 <lb n="0390a03" ed="T"/>若生人中，得二種果報：一者常為他人求其
 <lb n="0390a04" ed="T"/>長短、二者常為他人所惱害。邪見之罪，若
 <lb n="0390a05" ed="T"/>生人中，得二種果報：一者常生邪見家、二者
-<lb n="0390a06" ed="T"/>心恒諂曲。</p><p xml:id="pT45p0390a0605" cb:place="inline">既知惡果，次思遠離云：我當遠離
+<lb n="0390a06" ed="T"/>心恒諂曲。</p>
+<p xml:id="pT45p0390a0605" cb:place="inline">既知惡果，次思遠離云：我當遠離
 <lb n="0390a07" ed="T"/>十不善業道，樂行善法，作利益眾生故。當住
 <lb n="0390a08" ed="T"/>十善業道，亦令他人住於十善業道。以自住
 <lb n="0390a09" ed="T"/>善法遠離彼障修行對治，亦令眾生住善法
@@ -1467,8 +1678,10 @@
 <lb n="0390b10" ed="T"/>閉在世間牢獄之處，眾多患苦多惱妄想，愛
 <lb n="0390b11" ed="T"/>憎繫縛，憂悲共行，愛瑣所繫，入於三界無明
 <lb n="0390b12" ed="T"/>稠林。我應令彼遠離一切三界牢獄所愛著
-<lb n="0390b13" ed="T"/>處，令住離相無礙涅槃。</p><p xml:id="pT45p0390b1310" cb:place="inline">發是念已，次為受
-<lb n="0390b14" ed="T"/>戒，法如常儀。</p><p xml:id="pT45p0390b1406" cb:place="inline">又《彌勒問經》云：菩薩修行十善
+<lb n="0390b13" ed="T"/>處，令住離相無礙涅槃。</p>
+<p xml:id="pT45p0390b1310" cb:place="inline">發是念已，次為受
+<lb n="0390b14" ed="T"/>戒，法如常儀。</p>
+<p xml:id="pT45p0390b1406" cb:place="inline">又《彌勒問經》云：菩薩修行十善
 <lb n="0390b15" ed="T"/>業道，有五希奇。何等為五？一者起勇猛心、二
 <lb n="0390b16" ed="T"/>者精進、三者堅固、四者智慧、五者果<note place="inline">如名起</note>。又
 <lb n="0390b17" ed="T"/>諸菩薩以願堅固故，依大慈悲起，利益眾生，
@@ -1536,7 +1749,12 @@
 <lb n="0391a19" ed="T"/>命，我亦應免。」「云何引婬女？」無字白王：「婬女貌
 <lb n="0391a20" ed="T"/>美殊特，多有人與共來往，脫有思智度外人
 <lb n="0391a21" ed="T"/>之計，脫能得賊，我即無罪。」王知之有智，愛重
-<lb n="0391a22" ed="T"/><note n="0391001" resp="Taisho" type="orig" place="foot text">如＝加ヵ【原】</note><note n="0391001" resp="CBETA" type="mod">如【大】，加【考偽-原】</note><app n="0391001"><lem resp="Taisho" wit="【大】">如</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">加</rdg></app>之，恒令自近。王後山獵見群鹿獸，走馬
+<lb n="0391a22" ed="T"/><note 
+n="0391001" resp="Taisho" type="orig" place="foot text">如＝加ヵ【原】</note><note 
+n="0391001" resp="CBETA" type="mod">如【大】，加【考偽-原】</note><app n="0391001">
+  <lem resp="Taisho" wit="【大】">如</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">加</rdg>
+</app>之，恒令自近。王後山獵見群鹿獸，走馬
 <lb n="0391a23" ed="T"/>逐之，失大眾侶，唯共無字二人相隨。王時疲
 <lb n="0391a24" ed="T"/>極止息樹下，無字二坐懷杭王頭。王時眠熟
 <lb n="0391a25" ed="T"/>不自覺悟，無字爾時嗔心內發，拔劒擬王。親
@@ -1554,10 +1772,21 @@
 <lb n="0391b07" ed="T"/>今若殺王，違我父願，非孝子也。我不殺王，令
 <lb n="0391b08" ed="T"/>王知也。」扶王上馬，共歸王宮。既到宮已，召集
 <lb n="0391b09" ed="T"/>諸臣，王曰：「今得長生王子，為當殺之，為當
-<lb n="0391b10" ed="T"/><note n="0391002" resp="Taisho" type="orig" place="foot text">到＝致ヵ【原】</note><note n="0391002" resp="CBETA" type="mod">到【大】，致【考偽-原】</note><app n="0391002"><lem resp="Taisho" wit="【大】">到</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">致</rdg></app>賞？」諸臣皆言：「亡國之子不可賞也，聽當
-<lb n="0391b11" ed="T"/>殺。」王<note n="0391003" resp="Taisho" type="orig" place="foot text">白＝曰ヵ【原】</note><note n="0391003" resp="CBETA" type="mod">白【大】，曰【考偽-原】</note><app n="0391003"><lem resp="Taisho" wit="【大】">白</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">曰</rdg></app>：「不然。」具說前事，即以女妻之，到為
+<lb n="0391b10" ed="T"/><note 
+n="0391002" resp="Taisho" type="orig" place="foot text">到＝致ヵ【原】</note><note 
+n="0391002" resp="CBETA" type="mod">到【大】，致【考偽-原】</note><app n="0391002">
+  <lem resp="Taisho" wit="【大】">到</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">致</rdg>
+</app>賞？」諸臣皆言：「亡國之子不可賞也，聽當
+<lb n="0391b11" ed="T"/>殺。」王<note 
+n="0391003" resp="Taisho" type="orig" place="foot text">白＝曰ヵ【原】</note><note 
+n="0391003" resp="CBETA" type="mod">白【大】，曰【考偽-原】</note><app n="0391003">
+  <lem resp="Taisho" wit="【大】">白</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">曰</rdg>
+</app>：「不然。」具說前事，即以女妻之，到為
 <lb n="0391b12" ed="T"/>本國之主，王自歸還本土，二國通好，不相征
-<lb n="0391b13" ed="T"/>討。</p><p xml:id="pT45p0391b1302" cb:place="inline">菩薩之人怨親平等，父怨猶赦，況餘怨也。
+<lb n="0391b13" ed="T"/>討。</p>
+<p xml:id="pT45p0391b1302" cb:place="inline">菩薩之人怨親平等，父怨猶赦，況餘怨也。
 <lb n="0391b14" ed="T"/>菩薩之心，廣如山海，如能容受無量諸惡沒
 <lb n="0391b15" ed="T"/>習之徒。應如是觀，菩薩和光，作此一國王
 <lb n="0391b16" ed="T"/>及臣民，普行十善，極救幽苦，慈悲相向。如父
@@ -1566,7 +1795,12 @@
 <lb n="0391b19" ed="T"/>益，忍辱大力能摧煩惱。</p></cb:div>
 <lb n="0391b20" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">白衣互受門</cb:mulu><head>白衣互受門</head>
 <lb n="0391b21" ed="T"/><p xml:id="pT45p0391b2101"><note place="inline">夫妻相勸</note>《優婆塞戒經》云：善男子！我本往墮邪見
-<lb n="0391b22" ed="T"/>家，或<note n="0391004" resp="Taisho" type="orig" place="foot text">綱＝網ヵ【原】</note><note n="0391004" resp="CBETA" type="mod">綱【大】，網【考偽-原】</note><app n="0391004"><lem resp="Taisho" wit="【大】">綱</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">網</rdg></app>自我善。我於爾時名曰廣利，妻名
+<lb n="0391b22" ed="T"/>家，或<note 
+n="0391004" resp="Taisho" type="orig" place="foot text">綱＝網ヵ【原】</note><note 
+n="0391004" resp="CBETA" type="mod">綱【大】，網【考偽-原】</note><app n="0391004">
+  <lem resp="Taisho" wit="【大】">綱</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">網</rdg>
+</app>自我善。我於爾時名曰廣利，妻名
 <lb n="0391b23" ed="T"/>女，精進勇猛，度脫無量，十善化導。我於爾時
 <lb n="0391b24" ed="T"/>心生殺獵，貪嗜酒肉，懶墮懈怠，不能精進。妻
 <lb n="0391b25" ed="T"/>時語我：「止其獵殺，戒斷酒肉，勤加精進，得脫
@@ -1618,7 +1852,8 @@
 <lb n="0392a11" ed="T"/>行能行故；七者依止行，由諸波羅蜜故；八者
 <lb n="0392a12" ed="T"/>依止正念，由如法不倒故；九者依止正見，由
 <lb n="0392a13" ed="T"/>如實覺了故；十者依止解脫，由聲聞煩惱滅
-<lb n="0392a14" ed="T"/>故；十一者依止真實，由得大菩提故。</p><p xml:id="pT45p0392a1415" cb:place="inline">五種自
+<lb n="0392a14" ed="T"/>故；十一者依止真實，由得大菩提故。</p>
+<p xml:id="pT45p0392a1415" cb:place="inline">五種自
 <lb n="0392a15" ed="T"/>意供養如來，應知此供養為最上供養。何謂
 <lb n="0392a16" ed="T"/>為五？一者淨信、二者深心、三者神通、四者方
 <lb n="0392a17" ed="T"/>便、五者和合。淨信者，於大乘法說供養處，生
@@ -1627,10 +1862,16 @@
 <lb n="0392a20" ed="T"/>心、七勝利心、八無染心、九善淨心；神通者，
 <lb n="0392a21" ed="T"/>謂依虛空藏等諸三摩提故；方便者，謂無分
 <lb n="0392a22" ed="T"/>別智方便攝故；和合者，謂一切諸大菩薩和
-<lb n="0392a23" ed="T"/>合一果入一切果故。</p><p xml:id="pT45p0392a2309" cb:place="inline">《文殊問經．上卷》云：有三
+<lb n="0392a23" ed="T"/>合一果入一切果故。</p>
+<p xml:id="pT45p0392a2309" cb:place="inline">《文殊問經．上卷》云：有三
 <lb n="0392a24" ed="T"/>十五大供養，是菩薩摩訶薩應知。然燈、燒香、
 <lb n="0392a25" ed="T"/>塗身，塗地香、末香、袈裟及繖；若龍子幡，并諸餘
-<lb n="0392a26" ed="T"/>幡，螺鼓、大鼓、鈴盤、舞歌<note n="0392001" resp="Taisho" type="orig" place="foot text">（及）ヵ＋以【原】</note><note n="0392001" resp="CBETA" type="mod">以【大】，及以【考偽-原】</note><app n="0392001"><lem resp="Taisho" wit="【大】">以</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">及以</rdg></app>臥具，或三節鼓、腰
+<lb n="0392a26" ed="T"/>幡，螺鼓、大鼓、鈴盤、舞歌<note 
+n="0392001" resp="Taisho" type="orig" place="foot text">（及）ヵ＋以【原】</note><note 
+n="0392001" resp="CBETA" type="mod">以【大】，及以【考偽-原】</note><app n="0392001">
+  <lem resp="Taisho" wit="【大】">以</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">及以</rdg>
+</app>臥具，或三節鼓、腰
 <lb n="0392a27" ed="T"/>鼓、節鼓并及截鼓；曼陀羅華掃地灑地，貫華懸
 <lb n="0392a28" ed="T"/>繒；飯、水、漿飲可食、可噉，及以可味香和檳榔、楊
 <lb n="0392a29" ed="T"/>枝、浴香，并及澡豆，此謂大供養。</p></cb:div>
@@ -1644,15 +1885,33 @@
 <lb n="0392b07" ed="T"/>世尊！一切諸華云何入佛華中？世尊！用此華
 <lb n="0392b08" ed="T"/>法，為有一種、為有多種？此呪為有一種、為有
 <lb n="0392b09" ed="T"/>多種？」佛告文殊師利：「各各華，各各呪，一一華
-<lb n="0392b10" ed="T"/>呪一百八遍。誦佛華呪曰：</p><p xml:id="pT45p0392b1011" cb:type="dharani" cb:place="inline">「『南無佛闥寫冶
-<lb n="0392b11" ed="T"/>莎訶』」</p><p xml:id="pT45p0392b1103" cb:place="inline">「般若波羅蜜華呪曰：</p><p xml:id="pT45p0392b1111" cb:type="dharani" cb:place="inline">「『那末阿盧履<note place="inline">民旨反</note>波
-<lb n="0392b12" ed="T"/>若波羅蜜多裔莎訶』」</p><p xml:id="pT45p0392b1209" cb:place="inline">「佛足華呪曰：</p><p xml:id="pT45p0392b1214" cb:type="dharani" cb:place="inline">「『那莫波陀
-<lb n="0392b13" ed="T"/>制點耽鹽莎訶』」</p><p xml:id="pT45p0392b1307" cb:place="inline">「菩提樹華呪曰：</p><p xml:id="pT45p0392b1313" cb:type="dharani" cb:place="inline">「『南無菩提逼
-<lb n="0392b14" ed="T"/>力龕嵐莎訶』」</p><p xml:id="pT45p0392b1406" cb:place="inline">「轉法輪處華呪曰：</p><p xml:id="pT45p0392b1413" cb:type="dharani" cb:place="inline">「『南無達摩斫
-<lb n="0392b15" ed="T"/>柯羅夜莎訶』」</p><p xml:id="pT45p0392b1506" cb:place="inline">「塔華呪曰：</p><p xml:id="pT45p0392b1510" cb:type="dharani" cb:place="inline">「『那莫鍮跋耶莎訶』」</p><p xml:id="pT45p0392b1517" cb:place="inline">「菩
-<lb n="0392b16" ed="T"/>薩華呪曰：</p><p xml:id="pT45p0392b1605" cb:type="dharani" cb:place="inline">「『南無菩提薩埵冶莎訶』」</p><p xml:id="pT45p0392b1614" cb:place="inline">「眾僧華呪
-<lb n="0392b17" ed="T"/>曰：</p><p xml:id="pT45p0392b1702" cb:type="dharani" cb:place="inline">「『那莫僧伽冶莎訶』」</p><p xml:id="pT45p0392b1709" cb:place="inline">「佛像華呪曰：</p><p xml:id="pT45p0392b1714" cb:type="dharani" cb:place="inline">「『那莫波
-<lb n="0392b18" ed="T"/>羅底耶莎訶』」</p><p xml:id="pT45p0392b1806" cb:place="inline">「文殊師利！呪經如是，汝當受持。」
+<lb n="0392b10" ed="T"/>呪一百八遍。誦佛華呪曰：</p>
+<p xml:id="pT45p0392b1011" cb:type="dharani" cb:place="inline">「『南無佛闥寫冶
+<lb n="0392b11" ed="T"/>莎訶』」</p>
+<p xml:id="pT45p0392b1103" cb:place="inline">「般若波羅蜜華呪曰：</p>
+<p xml:id="pT45p0392b1111" cb:type="dharani" cb:place="inline">「『那末阿盧履<note place="inline">民旨反</note>波
+<lb n="0392b12" ed="T"/>若波羅蜜多裔莎訶』」</p>
+<p xml:id="pT45p0392b1209" cb:place="inline">「佛足華呪曰：</p>
+<p xml:id="pT45p0392b1214" cb:type="dharani" cb:place="inline">「『那莫波陀
+<lb n="0392b13" ed="T"/>制點耽鹽莎訶』」</p>
+<p xml:id="pT45p0392b1307" cb:place="inline">「菩提樹華呪曰：</p>
+<p xml:id="pT45p0392b1313" cb:type="dharani" cb:place="inline">「『南無菩提逼
+<lb n="0392b14" ed="T"/>力龕嵐莎訶』」</p>
+<p xml:id="pT45p0392b1406" cb:place="inline">「轉法輪處華呪曰：</p>
+<p xml:id="pT45p0392b1413" cb:type="dharani" cb:place="inline">「『南無達摩斫
+<lb n="0392b15" ed="T"/>柯羅夜莎訶』」</p>
+<p xml:id="pT45p0392b1506" cb:place="inline">「塔華呪曰：</p>
+<p xml:id="pT45p0392b1510" cb:type="dharani" cb:place="inline">「『那莫鍮跋耶莎訶』」</p>
+<p xml:id="pT45p0392b1517" cb:place="inline">「菩
+<lb n="0392b16" ed="T"/>薩華呪曰：</p>
+<p xml:id="pT45p0392b1605" cb:type="dharani" cb:place="inline">「『南無菩提薩埵冶莎訶』」</p>
+<p xml:id="pT45p0392b1614" cb:place="inline">「眾僧華呪
+<lb n="0392b17" ed="T"/>曰：</p>
+<p xml:id="pT45p0392b1702" cb:type="dharani" cb:place="inline">「『那莫僧伽冶莎訶』」</p>
+<p xml:id="pT45p0392b1709" cb:place="inline">「佛像華呪曰：</p>
+<p xml:id="pT45p0392b1714" cb:type="dharani" cb:place="inline">「『那莫波
+<lb n="0392b18" ed="T"/>羅底耶莎訶』」</p>
+<p xml:id="pT45p0392b1806" cb:place="inline">「文殊師利！呪經如是，汝當受持。」
 <lb n="0392b19" ed="T"/>復告文殊師利：「用此華法，若比丘、比丘尼、優
 <lb n="0392b20" ed="T"/>婆塞、優婆夷，若能信修行，應當早起清淨澡
 <lb n="0392b21" ed="T"/>瀨，念佛功德恭敬此華，不以足蹈及跨華上，
@@ -1665,7 +1924,8 @@
 <lb n="0392b28" ed="T"/>其頂上，貪結漸消，常為一切所愛敬。若天雨
 <lb n="0392b29" ed="T"/>不止，於空閑處，以火燒華，令雨即止。若天亢
 <pb n="0392c" ed="T" xml:id="T45.1862.0392c"/>
-<lb n="0392c01" ed="T"/>旱，在空閑處，以華置水中，復呪冷水更<note n="0392002" resp="Taisho" type="orig" place="foot text">冠註曰麗經作灑</note>麗
+<lb n="0392c01" ed="T"/>旱，在空閑處，以華置水中，復呪冷水更<note 
+n="0392002" resp="Taisho" type="orig" place="foot text">冠註曰麗經作灑</note>麗
 <lb n="0392c02" ed="T"/>華上，天即降雨。若牛馬象等本性不調，以華
 <lb n="0392c03" ed="T"/>飲之即便調伏。若諸果樹華實不茂，以冷水
 <lb n="0392c04" ed="T"/>牛糞摩取華汁，以塗其根，不得踐蹈，華實
@@ -1688,16 +1948,19 @@
 <lb n="0392c21" ed="T"/>須或塗或散，悉皆有果。若得百種華，抹以為
 <lb n="0392c22" ed="T"/>散，水和為丸；若惡腫病摩其瘡上，其病即愈。
 <lb n="0392c23" ed="T"/>若癕、若癤、若諸毒，或服此丸，或以塗膚，病即
-<lb n="0392c24" ed="T"/>得除。若人常患氣<note n="0392003" resp="Taisho" type="orig" place="foot text">冠註曰味經作嗽</note>味，身體消滅，以大小麥汁
+<lb n="0392c24" ed="T"/>得除。若人常患氣<note 
+n="0392003" resp="Taisho" type="orig" place="foot text">冠註曰味經作嗽</note>味，身體消滅，以大小麥汁
 <lb n="0392c25" ed="T"/>摩於華，塗其身上即便充悅。復以未利華汁，
 <lb n="0392c26" ed="T"/>和華散為丸塗其額上，一切怨家見生愛念。」
-<lb n="0392c27" ed="T"/>「文殊師利！此華呪法：</p><p xml:id="pT45p0392c2709" cb:type="dharani" cb:place="inline">「『南無佛闥寫冶莎訶<note place="inline">一</note>　那
+<lb n="0392c27" ed="T"/>「文殊師利！此華呪法：</p>
+<p xml:id="pT45p0392c2709" cb:type="dharani" cb:place="inline">「『南無佛闥寫冶莎訶<note place="inline">一</note>　那
 <lb n="0392c28" ed="T"/>末柯盧履<note place="inline">民旨反</note>般若波羅蜜多<g ref="#CB02370"/>莎訶<note place="inline">二</note>　那莫
 <lb n="0392c29" ed="T"/>波陀制點耽鹽莎訶<note place="inline">三</note>　南無菩提逼力龕嵐莎
 <pb n="0393a" ed="T" xml:id="T45.1862.0393a"/>
 <lb n="0393a01" ed="T"/>訶<note place="inline">四</note>　南無達摩斫柯羅夜莎訶<note place="inline">五</note>　那莫鍮跋耶
 <lb n="0393a02" ed="T"/>莎訶<note place="inline">六</note>　南無菩提薩埵野莎訶<note place="inline">七</note>　那莫僧伽野
-<lb n="0393a03" ed="T"/>莎訶<note place="inline">八</note>　那莫波羅底耶莎訶<note place="inline">九</note>』</p><p xml:id="pT45p0393a0313" cb:place="inline">「一一呪誦百八
+<lb n="0393a03" ed="T"/>莎訶<note place="inline">八</note>　那莫波羅底耶莎訶<note place="inline">九</note>』</p>
+<p xml:id="pT45p0393a0313" cb:place="inline">「一一呪誦百八
 <lb n="0393a04" ed="T"/>遍，此呪章句，汝於處處當說。如佛華法，餘華
 <lb n="0393a05" ed="T"/>亦如是。」</p></cb:div>
 <lb n="0393a06" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">障治門</cb:mulu><head>障治門</head>
@@ -1730,7 +1993,8 @@
 <lb n="0393b03" ed="T"/>於有，名為不食；七智者讚歎，捨二乘迴向世
 <lb n="0393b04" ed="T"/>間，捨大乘迴向小乘，名智者不讚歎，是故
 <lb n="0393b05" ed="T"/>菩薩於二乘中不迴向世間，於大乘中不迴
-<lb n="0393b06" ed="T"/>向二乘，名智者所讚。</p><p xml:id="pT45p0393b0609" cb:place="inline">「應知，菩薩有五種法，修
+<lb n="0393b06" ed="T"/>向二乘，名智者所讚。</p>
+<p xml:id="pT45p0393b0609" cb:place="inline">「應知，菩薩有五種法，修
 <lb n="0393b07" ed="T"/>行十善業道，能過世間：一者願，菩薩從初發
 <lb n="0393b08" ed="T"/>心乃至道場，常為一切世間天人而作福田，
 <lb n="0393b09" ed="T"/>勝諸二乘故。二者安穩，菩薩修行雖為世間
@@ -1738,7 +2002,8 @@
 <lb n="0393b11" ed="T"/>最勝心修行故，以諸菩薩最深愛心修行十
 <lb n="0393b12" ed="T"/>善故。四善清淨，以菩薩有三種清淨，行十善
 <lb n="0393b13" ed="T"/>道故。五方便者，菩薩於何等法中，以何等方
-<lb n="0393b14" ed="T"/>便，修行十善故。</p><p xml:id="pT45p0393b1407" cb:place="inline">「復有五種法故，修行無量
+<lb n="0393b14" ed="T"/>便，修行十善故。</p>
+<p xml:id="pT45p0393b1407" cb:place="inline">「復有五種法故，修行無量
 <lb n="0393b15" ed="T"/>十善業道。何等為五？一無量世，以無量時修
 <lb n="0393b16" ed="T"/>行故。二無量善法，以彼善法無量故。菩薩起
 <lb n="0393b17" ed="T"/>無量善業道，集一切功德，令生受用故。三無
@@ -1765,7 +2030,8 @@
 <lb n="0393c08" ed="T"/>違拒等事，非愛言路，種種惡行，皆悉能忍。七
 <lb n="0393c09" ed="T"/>者無倦，其力充強，能多思擇，處眾說法，言無
 <lb n="0393c10" ed="T"/>蹇澁，心不疲厭。八者善詞，語具圓滿，不壞法
-<lb n="0393c11" ed="T"/>性，言詞辨了，善友所作。</p><p xml:id="pT45p0393c1110" cb:place="inline">〈菩薩地〉云：若諸菩薩
+<lb n="0393c11" ed="T"/>性，言詞辨了，善友所作。</p>
+<p xml:id="pT45p0393c1110" cb:place="inline">〈菩薩地〉云：若諸菩薩
 <lb n="0393c12" ed="T"/>具五種相，眾德相應，能為善友，所作不虛。一
 <lb n="0393c13" ed="T"/>者於他先欲求作利益安樂；二者於彼利益
 <lb n="0393c14" ed="T"/>安樂，如實了知，無顛倒覺；三者於彼善權方
@@ -1779,9 +2045,11 @@
 <lb n="0393c22" ed="T"/>威儀。四者無嫉，終不於他所得利養恭敬，生
 <lb n="0393c23" ed="T"/>不堪忍，而常請說，後勸於彼，廣施恭敬。無諂
 <lb n="0393c24" ed="T"/>偽心，見彼說法及利恭敬，深生隨喜，如自所
-<lb n="0393c25" ed="T"/>得。五者儉約，尠儲隨捨。</p><p xml:id="pT45p0393c2510" cb:place="inline">善友菩薩由五種相，
+<lb n="0393c25" ed="T"/>得。五者儉約，尠儲隨捨。</p>
+<p xml:id="pT45p0393c2510" cb:place="inline">善友菩薩由五種相，
 <lb n="0393c26" ed="T"/>於所化生為善友事：一能諫舉、二能令憶、三
-<lb n="0393c27" ed="T"/>能教授、四能教誡、五能說法。</p><p xml:id="pT45p0393c2712" cb:place="inline">當知菩薩由四
+<lb n="0393c27" ed="T"/>能教授、四能教誡、五能說法。</p>
+<p xml:id="pT45p0393c2712" cb:place="inline">當知菩薩由四
 <lb n="0393c28" ed="T"/>種相，方得圓滿親近善友：一於善友有病無
 <lb n="0393c29" ed="T"/>病，隨時供侍，恒常發起愛敬淨信。二於善友
 <pb n="0394a" ed="T" xml:id="T45.1862.0394a"/>
@@ -1795,7 +2063,8 @@
 <lb n="0394a08" ed="T"/>解深法空、無相、無作、無生無滅。了達諸法從
 <lb n="0394a09" ed="T"/>本以來究竟平等，無業無報、無因無果，性相如
 <lb n="0394a10" ed="T"/>如，住於實際，於畢竟空中熾然建立。」是善知
-<lb n="0394a11" ed="T"/>識，舉喻顯能。</p><p xml:id="pT45p0394a1106" cb:place="inline">《法句經》云：「善男子！善知識者，是
+<lb n="0394a11" ed="T"/>識，舉喻顯能。</p>
+<p xml:id="pT45p0394a1106" cb:place="inline">《法句經》云：「善男子！善知識者，是
 <lb n="0394a12" ed="T"/>汝父母，養育汝等菩提身故；善知識者，是汝
 <lb n="0394a13" ed="T"/>眼目，示導汝等菩提路故<note place="inline">下略不具善知識言。准此</note>；是汝
 <lb n="0394a14" ed="T"/>脚足，荷負汝等離生死故；是汝梯蹬，扶持汝
@@ -1820,7 +2089,8 @@
 <lb n="0394b03" ed="T"/>日值於如來，得聞深法，如是遇者，善知識力，
 <lb n="0394b04" ed="T"/>非我力能。」自念：「我等從本已來，未曾報恩方
 <lb n="0394b05" ed="T"/>便親近。」說此語已，重復舉聲。知識大文與《瑜
-<lb n="0394b06" ed="T"/>伽》同。</p><p xml:id="pT45p0394b0603" cb:place="inline">《尸迦羅越六向拜經》云：惡知識有四輩：
+<lb n="0394b06" ed="T"/>伽》同。</p>
+<p xml:id="pT45p0394b0603" cb:place="inline">《尸迦羅越六向拜經》云：惡知識有四輩：
 <lb n="0394b07" ed="T"/>一者內有怨心，外強為知識；二者於人前好
 <lb n="0394b08" ed="T"/>言語，背後說人惡；三者有急時，於人前愁憂，
 <lb n="0394b09" ed="T"/>背後歡喜；四者外如親厚，內興怨謀。善知識
@@ -1851,33 +2121,39 @@
 <lb n="0394c04" ed="T"/>四者當念父母恩；五者父母病瘦，當恐懼求
 <lb n="0394c05" ed="T"/>醫師治之。父母視子亦有五事：一者當教去
 <lb n="0394c06" ed="T"/>惡就善、二者當教計算書疏、三當教持經戒、
-<lb n="0394c07" ed="T"/>四者當為早娶婦、五者家中所有當與之。</p><p xml:id="pT45p0394c0717" cb:place="inline">弟
+<lb n="0394c07" ed="T"/>四者當為早娶婦、五者家中所有當與之。</p>
+<p xml:id="pT45p0394c0717" cb:place="inline">弟
 <lb n="0394c08" ed="T"/>子事師當有五事：一者當敬歎、二者當念其
 <lb n="0394c09" ed="T"/>恩、三者所教隨之、四者思念不厭、五者於後
 <lb n="0394c10" ed="T"/>當稱譽之。師教弟子亦有五事：一當令疾知、
 <lb n="0394c11" ed="T"/>二當令勝他弟子、三欲令知不忘、四諸疑難悉
-<lb n="0394c12" ed="T"/>為解之、五欲令弟子智勝師。</p><p xml:id="pT45p0394c1212" cb:place="inline">婦事夫有五事：
+<lb n="0394c12" ed="T"/>為解之、五欲令弟子智勝師。</p>
+<p xml:id="pT45p0394c1212" cb:place="inline">婦事夫有五事：
 <lb n="0394c13" ed="T"/>一夫從外來，當起迎之；二夫出不在，當炊蒸
 <lb n="0394c14" ed="T"/>掃除待之；三不得有婬心於外，夫罵詈之，不
 <lb n="0394c15" ed="T"/>得還言作怒；四當用夫教誡，所有財物不得
 <lb n="0394c16" ed="T"/>藏隱；五夫休息蓋藏乃得臥。夫視婦亦有五
 <lb n="0394c17" ed="T"/>事：一者出入當敬於婦、二飲食衣被當用與、
 <lb n="0394c18" ed="T"/>三用給金銀珠璣、四家中所有少多悉付之、
-<lb n="0394c19" ed="T"/>五不得於外有邪心畜侍御人。</p><p xml:id="pT45p0394c1913" cb:place="inline">親屬朋友當
+<lb n="0394c19" ed="T"/>五不得於外有邪心畜侍御人。</p>
+<p xml:id="pT45p0394c1913" cb:place="inline">親屬朋友當
 <lb n="0394c20" ed="T"/>有五事：一見作非惡，私於屏處諫曉呵止；二
 <lb n="0394c21" ed="T"/>有小急，當奔赴救護；三有私語，不得為他說；
-<lb n="0394c22" ed="T"/>四當相敬歎；五所有好物當多少分與之。</p><p xml:id="pT45p0394c2217" cb:place="inline">大
+<lb n="0394c22" ed="T"/>四當相敬歎；五所有好物當多少分與之。</p>
+<p xml:id="pT45p0394c2217" cb:place="inline">大
 <lb n="0394c23" ed="T"/>夫視奴客婢使亦有五事：一當以時與飲食
 <lb n="0394c24" ed="T"/>衣被；二病瘦當為呼醫治之；三不妄撾打之；
 <lb n="0394c25" ed="T"/>四有私財不得奪之；五分物當平等。奴客婢
 <lb n="0394c26" ed="T"/>使事大夫亦有五事：一當自早起勿令大夫
 <lb n="0394c27" ed="T"/>呼；二所當作自用心為之；三當惜大夫物不
 <lb n="0394c28" ed="T"/>得棄捐乞丐人；四大夫出入當送迎；五當於
-<lb n="0394c29" ed="T"/>後稱譽大夫善，不得說其惡。</p><p xml:id="pT45p0394c2912" cb:place="inline">人事沙門道人
+<lb n="0394c29" ed="T"/>後稱譽大夫善，不得說其惡。</p>
+<p xml:id="pT45p0394c2912" cb:place="inline">人事沙門道人
 <pb n="0395a" ed="T" xml:id="T45.1862.0395a"/>
 <lb n="0395a01" ed="T"/>當用五事：一以善心向之；二擇好言與語；三
 <lb n="0395a02" ed="T"/>以身敬之；四當慈慕之；五沙門道人，人中雄
-<lb n="0395a03" ed="T"/>師，當敬事之。</p><p xml:id="pT45p0395a0306" cb:place="inline">問度世事，沙門道人，當以六意
+<lb n="0395a03" ed="T"/>師，當敬事之。</p>
+<p xml:id="pT45p0395a0306" cb:place="inline">問度世事，沙門道人，當以六意
 <lb n="0395a04" ed="T"/>視凡夫，教布施乃至智慧為六。沙門道人教
 <lb n="0395a05" ed="T"/>去惡為善，開示正道，恩大於父母也。</p></cb:div>
 <lb n="0395a06" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">婦行門</cb:mulu><head>婦行門</head>
@@ -1891,7 +2167,8 @@
 <lb n="0395a14" ed="T"/>悅輒喜嗔恚則懼。七者、懷姙產生甚難。八者、
 <lb n="0395a15" ed="T"/>女人少為父母所撿錄。九者、中為婿禁制。十
 <lb n="0395a16" ed="T"/>者、年老為兒孫所呵，從生至終不得自在。是
-<lb n="0395a17" ed="T"/>為十惡。」</p><p xml:id="pT45p0395a1704" cb:place="inline">佛告玉耶：「婦事公姑夫婿，有五善三
+<lb n="0395a17" ed="T"/>為十惡。」</p>
+<p xml:id="pT45p0395a1704" cb:place="inline">佛告玉耶：「婦事公姑夫婿，有五善三
 <lb n="0395a18" ed="T"/>惡。何為五善？一者、為婦當晚臥早起，櫛梳髮
 <lb n="0395a19" ed="T"/>綵整頓衣服，洗拭面目勿有垢穢，執於事
 <lb n="0395a20" ed="T"/>作先啟所尊，心常恭順。設有甘美不得先
@@ -1902,19 +2179,35 @@
 <lb n="0395a25" ed="T"/>姑夫婿，但欲美食先取噉之，未瞑早臥日出
 <lb n="0395a26" ed="T"/>不起。夫若呵教嗔目視夫，應拒獨罵。二者、不
 <lb n="0395a27" ed="T"/>一心向夫婿，但念他男子。三者、欲令夫死早
-<lb n="0395a28" ed="T"/>得更嫁，是為三惡。」</p><p xml:id="pT45p0395a2808" cb:place="inline">佛告玉耶：「世間復七輩婦：
-<lb n="0395a29" ed="T"/>一、婦如母，二、如妹，三、如善知識，四、<note n="0395001" resp="Taisho" type="orig" place="foot text">如婦＝婦奴ィ【原】</note><note n="0395001" resp="CBETA" type="mod">如婦【大】，婦奴【校異-原】</note><app n="0395001"><lem wit="【大】">如婦</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">婦奴</rdg></app>，五、
+<lb n="0395a28" ed="T"/>得更嫁，是為三惡。」</p>
+<p xml:id="pT45p0395a2808" cb:place="inline">佛告玉耶：「世間復七輩婦：
+<lb n="0395a29" ed="T"/>一、婦如母，二、如妹，三、如善知識，四、<note 
+n="0395001" resp="Taisho" type="orig" place="foot text">如婦＝婦奴ィ【原】</note><note 
+n="0395001" resp="CBETA" type="mod">如婦【大】，婦奴【校異-原】</note><app n="0395001">
+  <lem wit="【大】">如婦</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">婦奴</rdg>
+</app>，五、
 <pb n="0395b" ed="T" xml:id="T45.1862.0395b"/>
 <lb n="0395b01" ed="T"/>如婢，六、如怨家，七、如奪命。母婦者，愛念夫
 <lb n="0395b02" ed="T"/>婿猶若慈母，侍其晨夜不離左右，供養盡
-<lb n="0395b03" ed="T"/>心不失時宜，夫若行來恐<note n="0395002" resp="Taisho" type="orig" place="foot text">入＝人ヵ【原】</note><note n="0395002" resp="CBETA" type="mod">入【大】，人【考偽-原】</note><app n="0395002"><lem resp="Taisho" wit="【大】">入</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">人</rdg></app>輕易，見則憐
+<lb n="0395b03" ed="T"/>心不失時宜，夫若行來恐<note 
+n="0395002" resp="Taisho" type="orig" place="foot text">入＝人ヵ【原】</note><note 
+n="0395002" resp="CBETA" type="mod">入【大】，人【考偽-原】</note><app n="0395002">
+  <lem resp="Taisho" wit="【大】">入</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">人</rdg>
+</app>輕易，見則憐
 <lb n="0395b04" ed="T"/>念心無疲厭，憐夫如子。如妹婦者，承事夫婿
 <lb n="0395b05" ed="T"/>盡其敬誠，若如兄弟同氣分形，骨肉至親無
 <lb n="0395b06" ed="T"/>有二情，尊奉敬之如妹事兄。善知識婦者，侍
 <lb n="0395b07" ed="T"/>其夫婿愛念懇至，依依戀戀不能相棄，私密
 <lb n="0395b08" ed="T"/>之事常相告示，見過依呵令行無失，善事相
 <lb n="0395b09" ed="T"/>教使益明智，相親愛欲令度世如善知識也。
-<lb n="0395b10" ed="T"/><note n="0395003" resp="Taisho" type="orig" place="foot text">婦＝奴ィ【原】</note><note n="0395003" resp="CBETA" type="mod">婦【大】，奴【校異-原】</note><app n="0395003"><lem wit="【大】">婦</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">奴</rdg></app>婦者，供養大人竭誠盡敬，承事夫婿謙
+<lb n="0395b10" ed="T"/><note 
+n="0395003" resp="Taisho" type="orig" place="foot text">婦＝奴ィ【原】</note><note 
+n="0395003" resp="CBETA" type="mod">婦【大】，奴【校異-原】</note><app n="0395003">
+  <lem wit="【大】">婦</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">奴</rdg>
+</app>婦者，供養大人竭誠盡敬，承事夫婿謙
 <lb n="0395b11" ed="T"/>遜順命，夙興夜寐恭諾言令，口無逸言身無
 <lb n="0395b12" ed="T"/>逸行，有善推讓過則稱己，誨訓仁施勸進為
 <lb n="0395b13" ed="T"/>道，心端意一無有邪瞻，靖修婦節終無𨷂
@@ -1925,19 +2218,30 @@
 <lb n="0395b18" ed="T"/>朴直信，恒自嚴整，以禮自將，夫婿納幸不以
 <lb n="0395b19" ed="T"/>憍慢，設不接遇不以為怨，或得捶杖分受不
 <lb n="0395b20" ed="T"/>恚，及見罵辱默而不恨，甘心樂受無有二
-<lb n="0395b21" ed="T"/>意，勸進所好不妬聲色，遇己曲薄不<note n="0395004" resp="Taisho" type="orig" place="foot text">訴＝計ィ【原】</note><note n="0395004" resp="CBETA" type="mod">訴【大】，計【校異-原】</note><app n="0395004"><lem wit="【大】">訴</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">計</rdg></app>求
+<lb n="0395b21" ed="T"/>意，勸進所好不妬聲色，遇己曲薄不<note 
+n="0395004" resp="Taisho" type="orig" place="foot text">訴＝計ィ【原】</note><note 
+n="0395004" resp="CBETA" type="mod">訴【大】，計【校異-原】</note><app n="0395004">
+  <lem wit="【大】">訴</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">計</rdg>
+</app>求
 <lb n="0395b22" ed="T"/>直，務修婦節不擇衣飡，專精恭敬唯恐不
 <lb n="0395b23" ed="T"/>及，敬奉夫婿如婢事大家，是為婢婦也。怨家
 <lb n="0395b24" ed="T"/>婦者，見夫不歡喜恒懷嗔恚，晝夜思念欲得
 <lb n="0395b25" ed="T"/>解離，為夫婦心常如寄客，偘偘鬪諍無所畏
-<lb n="0395b26" ed="T"/>避，亂頭勤不肯作<note n="0395005" resp="Taisho" type="orig" place="foot text">〔使〕ィ－【原】</note><note n="0395005" resp="CBETA" type="mod">使【大】，〔－〕【校異-原】</note><app n="0395005"><lem wit="【大】">使</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>，不念治家養活兒子，
+<lb n="0395b26" ed="T"/>避，亂頭勤不肯作<note 
+n="0395005" resp="Taisho" type="orig" place="foot text">〔使〕ィ－【原】</note><note 
+n="0395005" resp="CBETA" type="mod">使【大】，〔－〕【校異-原】</note><app n="0395005">
+  <lem wit="【大】">使</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>，不念治家養活兒子，
 <lb n="0395b27" ed="T"/>或行婬蕩不知羞恥，狀如犬畜毀辱親里，譬
 <lb n="0395b28" ed="T"/>如怨家。奪命婦者，晝夜不寢毒心相向，當何
 <lb n="0395b29" ed="T"/>方便得相遠離？欲與毒藥恐人覺知，或至親
 <pb n="0395c" ed="T" xml:id="T45.1862.0395c"/>
 <lb n="0395c01" ed="T"/>里遠近寄之，作便嗔恚詳共賊之，若持寶
 <lb n="0395c02" ed="T"/>物雇人害之，或使傍夫伺而殺之，怨枉夫命，
-<lb n="0395c03" ed="T"/>是奪命婦。」</p><p xml:id="pT45p0395c0305" cb:place="inline">佛告玉耶：「五善婦者常有顯名，言
+<lb n="0395c03" ed="T"/>是奪命婦。」</p>
+<p xml:id="pT45p0395c0305" cb:place="inline">佛告玉耶：「五善婦者常有顯名，言
 <lb n="0395c04" ed="T"/>行有法眾人愛敬，宗親九族并蒙其榮，天龍
 <lb n="0395c05" ed="T"/>鬼神皆來擁護，使不枉橫，萬分之後得生天
 <lb n="0395c06" ed="T"/>上七寶宮殿，在所自然。天上壽盡下生世間，
@@ -1964,7 +2268,11 @@
 <lb n="0395c26" ed="T"/>業得短命報門　十業長壽報門　十業多病
 <lb n="0395c27" ed="T"/>不病門　十業醜好報門　十業生下上族門
 <lb n="0395c28" ed="T"/>　禮塔十功德門　施蓋十功德門　施旛十
-<lb n="0395c29" ed="T"/>功德門　施<note n="0395c2901" resp="CBETA" type="add" note_key="T45.0395c29.05">鈴【CB】，飲【大】</note><app n="0395c2901"><lem resp="CBETA.maha" wit="【CB】" cb:provider="李偉澤 (2018-04-12)">鈴</lem><rdg wit="【大】">飲</rdg></app>十功德門　施衣十功德門
+<lb n="0395c29" ed="T"/>功德門　施<note 
+n="0395c2901" resp="CBETA" type="add" note_key="T45.0395c29.05">鈴【CB】，飲【大】</note><app n="0395c2901">
+  <lem resp="CBETA.maha" wit="【CB】" cb:provider="李偉澤 (2018-04-12)">鈴</lem>
+  <rdg wit="【大】">飲</rdg>
+</app>十功德門　施衣十功德門
 <pb n="0396a" ed="T" xml:id="T45.1862.0396a"/>
 <lb n="0396a01" ed="T"/>　施器及飲食得十功德門　施香十功德門
 <lb n="0396a02" ed="T"/>　施燈十功德門　恭敬合掌十功德門</p></cb:div>
@@ -1976,7 +2284,12 @@
 <lb n="0396a08" ed="T"/>心，欲受戒時，發深重心，方與受之。深重心
 <lb n="0396a09" ed="T"/>者，斷一切惡，修一切善，度脫一切眾生心是。
 <lb n="0396a10" ed="T"/>若先未曾歸依三寶者，教令歸依，若已曾歸
-<lb n="0396a11" ed="T"/>依者，不須教之。歸依<note n="0396001" resp="Taisho" type="orig" place="foot text">云＝曰ィ【原】＊</note><note n="0396001" resp="CBETA" type="mod">云【大】＊，曰【校異-原】＊</note><app n="0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0396a11" ed="T"/>依者，不須教之。歸依<note 
+n="0396001" resp="Taisho" type="orig" place="foot text">云＝曰ィ【原】＊</note><note 
+n="0396001" resp="CBETA" type="mod">云【大】＊，曰【校異-原】＊</note><app n="0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <lb n="0396a12" ed="T"/><p xml:id="pT45p0396a1201">「弟子某甲等，願從今身，盡未來際，歸依佛，兩
 <lb n="0396a13" ed="T"/>足尊；歸依法，離欲尊；歸依僧，眾中尊。<note place="inline">如是三唱</note>。」</p>
 <lb n="0396a14" ed="T"/><p xml:id="pT45p0396a1401">「弟子某甲等，願從今身盡未來際，歸依佛竟，
@@ -1985,37 +2298,65 @@
 <lb n="0396a17" ed="T"/>願三寶慈悲攝受。」</p>
 <lb n="0396a18" ed="T"/><p xml:id="pT45p0396a1801">次教請己為受菩薩戒師云：</p>
 <lb n="0396a19" ed="T"/><p xml:id="pT45p0396a1901">「弟子某甲等，今於師所求受菩薩戒，大德於
-<lb n="0396a20" ed="T"/>我不憚勞者，慈愍故<note place="inline">三說</note>。」戒師答<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：「好！」</p>
-<lb n="0396a21" ed="T"/><p xml:id="pT45p0396a2101">次教請釋迦如來為受戒和上<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0396a20" ed="T"/>我不憚勞者，慈愍故<note place="inline">三說</note>。」戒師答<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：「好！」</p>
+<lb n="0396a21" ed="T"/><p xml:id="pT45p0396a2101">次教請釋迦如來為受戒和上<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <lb n="0396a22" ed="T"/><p xml:id="pT45p0396a2201">「弟子某甲等，奉請本師釋迦牟尼、如來、應、正
 <lb n="0396a23" ed="T"/>等覺，為受菩薩戒和上。我依和上故，得受菩
 <lb n="0396a24" ed="T"/>薩戒，慈愍故<note place="inline">三說</note>。」</p>
-<lb n="0396a25" ed="T"/><p xml:id="pT45p0396a2501">次教請曼殊室利為阿闍梨<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0396a25" ed="T"/><p xml:id="pT45p0396a2501">次教請曼殊室利為阿闍梨<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <lb n="0396a26" ed="T"/><p xml:id="pT45p0396a2601">「弟子某甲等，奉請曼殊室利菩薩摩訶薩，為
 <lb n="0396a27" ed="T"/>受菩薩戒阿闍梨。我依阿闍梨故，得受菩薩
 <lb n="0396a28" ed="T"/>戒，慈愍故<note place="inline">三說</note>。」</p>
-<lb n="0396a29" ed="T"/><p xml:id="pT45p0396a2901">次教請彌勒菩薩為教授師<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0396a29" ed="T"/><p xml:id="pT45p0396a2901">次教請彌勒菩薩為教授師<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <pb n="0396b" ed="T" xml:id="T45.1862.0396b"/>
 <lb n="0396b01" ed="T"/><p xml:id="pT45p0396b0101">「弟子某甲等，奉請彌勒菩薩摩訶薩，為受菩
 <lb n="0396b02" ed="T"/>薩戒教授師。我依教授師故，得受菩薩戒，慈
 <lb n="0396b03" ed="T"/>愍故<note place="inline">三說</note>。」</p>
-<lb n="0396b04" ed="T"/><p xml:id="pT45p0396b0401">次教請十方諸佛為證戒師<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0396b04" ed="T"/><p xml:id="pT45p0396b0401">次教請十方諸佛為證戒師<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <lb n="0396b05" ed="T"/><p xml:id="pT45p0396b0501">「弟子某甲等，奉請十方諸佛如來、應、正等覺，
 <lb n="0396b06" ed="T"/>為受菩薩戒證戒師。我依證戒師故，得受菩
 <lb n="0396b07" ed="T"/>薩戒，慈愍故<note place="inline">三說</note>。」</p>
-<lb n="0396b08" ed="T"/><p xml:id="pT45p0396b0801">次教請十方菩薩為同法侶<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0396b08" ed="T"/><p xml:id="pT45p0396b0801">次教請十方菩薩為同法侶<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <lb n="0396b09" ed="T"/><p xml:id="pT45p0396b0901">「弟子某甲等，奉請十方一切菩薩摩訶薩，為
 <lb n="0396b10" ed="T"/>受菩薩戒同法侶。我依同法侶故，得受菩薩
 <lb n="0396b11" ed="T"/>戒，慈愍故<note place="inline">三說</note>。」</p>
 <lb n="0396b12" ed="T"/><p xml:id="pT45p0396b1201">次教發菩提心云：「菩提心者，廣則無邊，略有
 <lb n="0396b13" ed="T"/>三種：一者厭離有為心、二者欣求菩提心、三
 <lb n="0396b14" ed="T"/>者深念眾生心。厭離有為心者，即是廣說生
-<lb n="0396b15" ed="T"/>死過患，令深生厭離，五法相似，<note n="0396002" resp="Taisho" type="orig" place="foot text">生死大海＝大海生死ヵ【原】</note><note n="0396002" resp="CBETA" type="mod">生死大海【大】，大海生死【考偽-原】</note><app n="0396002"><lem resp="Taisho" wit="【大】">生死大海</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">大海生死</rdg></app>。
+<lb n="0396b15" ed="T"/>死過患，令深生厭離，五法相似，<note 
+n="0396002" resp="Taisho" type="orig" place="foot text">生死大海＝大海生死ヵ【原】</note><note 
+n="0396002" resp="CBETA" type="mod">生死大海【大】，大海生死【考偽-原】</note><app n="0396002">
+  <lem resp="Taisho" wit="【大】">生死大海</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">大海生死</rdg>
+</app>。
 <lb n="0396b16" ed="T"/>得大海名，一處所無邊相似故，二甚深相似
 <lb n="0396b17" ed="T"/>故，三難度相似故，四不可飲相似故，五大寶
 <lb n="0396b18" ed="T"/>所依相似故。求菩提心者，即是廣說三身菩
 <lb n="0396b19" ed="T"/>提所有功德，令起忻求。深念眾生心者，即是
-<lb n="0396b20" ed="T"/>廣說怨親等<note n="0396003" resp="Taisho" type="orig" place="foot text">想＝相ィ【原】</note><note n="0396003" resp="CBETA" type="mod">想【大】，相【校異-原】</note><app n="0396003"><lem wit="【大】">想</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">相</rdg></app>，令俱生慈愍發心度脫。」</p>
+<lb n="0396b20" ed="T"/>廣說怨親等<note 
+n="0396003" resp="Taisho" type="orig" place="foot text">想＝相ィ【原】</note><note 
+n="0396003" resp="CBETA" type="mod">想【大】，相【校異-原】</note><app n="0396003">
+  <lem wit="【大】">想</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">相</rdg>
+</app>，令俱生慈愍發心度脫。」</p>
 <lb n="0396b21" ed="T"/><p xml:id="pT45p0396b2101">次言：「善男子、善女人等諦聽！我今問汝，隨汝
 <lb n="0396b22" ed="T"/>意答，汝發菩提心未？」<note place="inline">教答云：發。</note></p>
 <lb n="0396b23" ed="T"/><p xml:id="pT45p0396b2301">次教懺悔云：</p>
@@ -2029,7 +2370,11 @@
 <lb n="0396c01" ed="T"/>一切出家人所，若有戒、若無戒、持戒、破戒、打
 <lb n="0396c02" ed="T"/>罵呵責、說其過惡、禁閉牢獄、或奪袈裟、逼令
 <lb n="0396c03" ed="T"/>還俗、策役驅使、責其發調、斷其命根，或殺
-<lb n="0396c04" ed="T"/>父、害母、出佛身血、殺阿羅<note n="0396c0401" resp="CBETA" type="add">漢【CB】，漠【大】</note><app n="0396c0401"><lem resp="CBETA" wit="【CB】">漢</lem><rdg wit="【大】">漠</rdg></app>、破和合僧，起
+<lb n="0396c04" ed="T"/>父、害母、出佛身血、殺阿羅<note 
+n="0396c0401" resp="CBETA" type="add">漢【CB】，漠【大】</note><app n="0396c0401">
+  <lem resp="CBETA" wit="【CB】">漢</lem>
+  <rdg wit="【大】">漠</rdg>
+</app>、破和合僧，起
 <lb n="0396c05" ed="T"/>大邪見，謗無因果，長夜常行十不善業，所謂
 <lb n="0396c06" ed="T"/>身業不善，行殺、盜、婬；語業不善，妄言、綺語、兩
 <lb n="0396c07" ed="T"/>舌、惡口；意業不善，貪、瞋、邪見、污父、污母、污比
@@ -2046,27 +2391,61 @@
 <lb n="0396c18" ed="T"/>意答，汝是菩薩非？」<note place="inline">答言：是</note></p>
 <lb n="0396c19" ed="T"/><p xml:id="pT45p0396c1901">言菩薩者，信是身中實有菩薩種姓，堪受菩
 <lb n="0396c20" ed="T"/>薩淨戒，名為菩薩，非已有證名為菩薩。</p>
-<lb n="0396c21" ed="T"/><p xml:id="pT45p0396c2101">次<note n="0396004" resp="Taisho" type="orig" place="foot text">為＝正ィ【原】</note><note n="0396004" resp="CBETA" type="mod">為【大】，正【校異-原】</note><app n="0396004"><lem wit="【大】">為</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">正</rdg></app>受令諦聽發深重心<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
-<lb n="0396c22" ed="T"/><p xml:id="pT45p0396c2201">「善男子、善女人等諦聽！<note n="0396005" resp="Taisho" type="orig" place="foot text">〔汝等〕ィ－【原】</note><note n="0396005" resp="CBETA" type="mod">汝等【大】，〔－〕【校異-原】</note><app n="0396005"><lem wit="【大】">汝等</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>今於我所，求受
+<lb n="0396c21" ed="T"/><p xml:id="pT45p0396c2101">次<note 
+n="0396004" resp="Taisho" type="orig" place="foot text">為＝正ィ【原】</note><note 
+n="0396004" resp="CBETA" type="mod">為【大】，正【校異-原】</note><app n="0396004">
+  <lem wit="【大】">為</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">正</rdg>
+</app>受令諦聽發深重心<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
+<lb n="0396c22" ed="T"/><p xml:id="pT45p0396c2201">「善男子、善女人等諦聽！<note 
+n="0396005" resp="Taisho" type="orig" place="foot text">〔汝等〕ィ－【原】</note><note 
+n="0396005" resp="CBETA" type="mod">汝等【大】，〔－〕【校異-原】</note><app n="0396005">
+  <lem wit="【大】">汝等</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>今於我所，求受
 <lb n="0396c23" ed="T"/>一切菩薩學處，求受一切菩薩淨戒，所謂律
 <lb n="0396c24" ed="T"/>儀戒、攝善法戒、饒益有情戒，此諸學處、此諸
 <lb n="0396c25" ed="T"/>淨戒，過去一切菩薩已學，未來一切菩薩當
 <lb n="0396c26" ed="T"/>學，現在一切菩薩今學，汝等從今時盡未來
 <lb n="0396c27" ed="T"/>際不得犯。能持不？」教答言：能。<note place="inline">三說</note>。</p>
-<lb n="0396c28" ed="T"/><p xml:id="pT45p0396c2801">次受戒師自稱己名，請<note n="0396006" resp="Taisho" type="orig" place="foot text">（諸）ィ＋佛【原】</note><note n="0396006" resp="CBETA" type="mod">佛【大】，諸佛【校異-原】</note><app n="0396006"><lem wit="【大】">佛</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">諸佛</rdg></app>證明，起立手執香
-<lb n="0396c29" ed="T"/>爐，若在高座不須起立<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0396c28" ed="T"/><p xml:id="pT45p0396c2801">次受戒師自稱己名，請<note 
+n="0396006" resp="Taisho" type="orig" place="foot text">（諸）ィ＋佛【原】</note><note 
+n="0396006" resp="CBETA" type="mod">佛【大】，諸佛【校異-原】</note><app n="0396006">
+  <lem wit="【大】">佛</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">諸佛</rdg>
+</app>證明，起立手執香
+<lb n="0396c29" ed="T"/>爐，若在高座不須起立<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <pb n="0397a" ed="T" xml:id="T45.1862.0397a"/>
 <lb n="0397a01" ed="T"/><p xml:id="pT45p0397a0101">「弟子某甲等，仰啟盡虛空遍法界一切諸佛，
 <lb n="0397a02" ed="T"/>今於此索訶世界，一四天下，南贍部洲，人主地
 <lb n="0397a03" ed="T"/>某聚落某伽藍此道場中，有眾多菩薩，來於
-<lb n="0397a04" ed="T"/>我所，三說求受菩薩戒。<note n="0397001" resp="Taisho" type="orig" place="foot text">〔我〕ィ－【原】</note><note n="0397001" resp="CBETA" type="mod">我【大】，〔－〕【校異-原】</note><app n="0397001"><lem wit="【大】">我</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>已為作證，唯願慈
+<lb n="0397a04" ed="T"/>我所，三說求受菩薩戒。<note 
+n="0397001" resp="Taisho" type="orig" place="foot text">〔我〕ィ－【原】</note><note 
+n="0397001" resp="CBETA" type="mod">我【大】，〔－〕【校異-原】</note><app n="0397001">
+  <lem wit="【大】">我</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>已為作證，唯願慈
 <lb n="0397a05" ed="T"/>悲亦為作證<note place="inline">禮拜三請</note>。」</p>
 <lb n="0397a06" ed="T"/><p xml:id="pT45p0397a0601">次當為說三品心受戒。於十方諸佛所，有三
 <lb n="0397a07" ed="T"/>品相現，或涼風、或妙香、或異聲、或光明等，種
 <lb n="0397a08" ed="T"/>種相現。彼諸菩薩各各問佛，何因緣故有此
-<lb n="0397a09" ed="T"/>相現？彼佛各答<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：「於某方處索訶世界，在
+<lb n="0397a09" ed="T"/>相現？彼佛各答<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：「於某方處索訶世界，在
 <lb n="0397a10" ed="T"/>某處所，有某甲眾多菩薩，於某甲師所，說受
-<lb n="0397a11" ed="T"/>菩薩戒，<note n="0397002" resp="Taisho" type="orig" place="foot text">今＋（請）ィ【原】</note><note n="0397002" resp="CBETA" type="mod">今【大】，今請【校異-原】</note><app n="0397002"><lem wit="【大】">今</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">今請</rdg></app>證明所以有此三品相現。」彼彼
+<lb n="0397a11" ed="T"/>菩薩戒，<note 
+n="0397002" resp="Taisho" type="orig" place="foot text">今＋（請）ィ【原】</note><note 
+n="0397002" resp="CBETA" type="mod">今【大】，今請【校異-原】</note><app n="0397002">
+  <lem wit="【大】">今</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">今請</rdg>
+</app>證明所以有此三品相現。」彼彼
 <lb n="0397a12" ed="T"/>菩薩咸生歡喜，各各皆言：「於如是等極惡處
 <lb n="0397a13" ed="T"/>所，如此具足雜染煩惱惡業有情，能發如是
 <lb n="0397a14" ed="T"/>極勝之心，受菩薩戒，甚為希有，深生憐愍，於
@@ -2090,7 +2469,11 @@
 <lb n="0397b02" ed="T"/>能持不？」<note place="inline">答言：能</note>。</p>
 <lb n="0397b03" ed="T"/><p xml:id="pT45p0397b0301">「善男子、善女人等諦聽！三者、若有菩薩，於戒
 <lb n="0397b04" ed="T"/>師所，三說求受菩薩戒竟，先時共他鬪諍違
-<lb n="0397b05" ed="T"/>競，他來求悔，以瞋恨心不隨彼請，<note n="0397b0501" resp="CBETA" type="add" note_key="T45.0397b05.14">己【CB】，已【大】</note><app n="0397b0501"><lem resp="CBETA.liyi" wit="【CB】">己<note type="cf1">T30n1579_p0515b28-c03</note><note type="cf2">T30n1581_p0913b07-09</note><note type="cf3">T30n1583_p1015a10-13</note></lem><rdg wit="【大】">已</rdg></app>不於他
+<lb n="0397b05" ed="T"/>競，他來求悔，以瞋恨心不隨彼請，<note 
+n="0397b0501" resp="CBETA" type="add" note_key="T45.0397b05.14">己【CB】，已【大】</note><app n="0397b0501">
+  <lem resp="CBETA.liyi" wit="【CB】">己<note type="cf1">T30n1579_p0515b28-c03</note><note type="cf2">T30n1581_p0913b07-09</note><note type="cf3">T30n1583_p1015a10-13</note></lem>
+  <rdg wit="【大】">已</rdg>
+</app>不於他
 <lb n="0397b06" ed="T"/>速求懺悔，非真菩薩，假名菩薩，無慚無愧，犯
 <lb n="0397b07" ed="T"/>波羅夷。汝等從今身盡未來際，不得犯，能持
 <lb n="0397b08" ed="T"/>不？」<note place="inline">答言：能</note></p>
@@ -2100,11 +2483,24 @@
 <lb n="0397b12" ed="T"/>薩，無慚無愧，犯波羅夷。汝等從今身盡未來
 <lb n="0397b13" ed="T"/>際，不得犯，能持不？」<note place="inline">答言：能</note>。</p>
 <lb n="0397b14" ed="T"/><p xml:id="pT45p0397b1401">上所受戒正是起行。起行既訖。</p>
-<lb n="0397b15" ed="T"/><p xml:id="pT45p0397b1501">次教發願<app type="star" corresp="#0396001"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg></app>：</p>
+<lb n="0397b15" ed="T"/><p xml:id="pT45p0397b1501">次教發願<app type="star" corresp="#0396001">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">曰</rdg>
+</app>：</p>
 <lb n="0397b16" ed="T"/><p xml:id="pT45p0397b1601">「弟子某甲等，願以如是懺悔受戒所生功德，
 <lb n="0397b17" ed="T"/>迴施一切眾生，未離苦者願皆離苦，未得樂
-<lb n="0397b18" ed="T"/>者願令得樂，未發菩提<note n="0397003" resp="Taisho" type="orig" place="foot text">心＋（願令發菩提心未）ィ【原】</note><note n="0397003" resp="CBETA" type="mod">心【大】，心願令發菩提心未【校異-原】</note><app n="0397003"><lem wit="【大】">心</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">心願令發菩提心未</rdg></app>斷惡修善者願
-<lb n="0397b19" ed="T"/><note n="0397004" resp="Taisho" type="orig" place="foot text">〔發菩提心〕ィ－【原】</note><note n="0397004" resp="CBETA" type="mod">發菩提心【大】，〔－〕【校異-原】</note><app n="0397004"><lem wit="【大】">發菩提心</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>斷惡修善，未成佛者願早成佛。又
+<lb n="0397b18" ed="T"/>者願令得樂，未發菩提<note 
+n="0397003" resp="Taisho" type="orig" place="foot text">心＋（願令發菩提心未）ィ【原】</note><note 
+n="0397003" resp="CBETA" type="mod">心【大】，心願令發菩提心未【校異-原】</note><app n="0397003">
+  <lem wit="【大】">心</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">心願令發菩提心未</rdg>
+</app>斷惡修善者願
+<lb n="0397b19" ed="T"/><note 
+n="0397004" resp="Taisho" type="orig" place="foot text">〔發菩提心〕ィ－【原】</note><note 
+n="0397004" resp="CBETA" type="mod">發菩提心【大】，〔－〕【校異-原】</note><app n="0397004">
+  <lem wit="【大】">發菩提心</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>斷惡修善，未成佛者願早成佛。又
 <lb n="0397b20" ed="T"/>以如是所生功德，願共一切眾生，捨此身竟，
 <lb n="0397b21" ed="T"/>得生覩史多天，奉見彌勒，龍華三會願登初
 <lb n="0397b22" ed="T"/>首，聞法悟道，證無生忍，獲大神通，遊歷十
@@ -2117,7 +2513,9 @@
 <lb n="0397b29" ed="T"/>修善，聞我說法者得大智慧，知我心者早得
 <pb n="0397c" ed="T" xml:id="T45.1862.0397c"/>
 <lb n="0397c01" ed="T"/>成佛。」</p></cb:div>
-<lb n="0397c02" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">得捨門</cb:mulu><head><note n="0397005" resp="Taisho" type="orig" place="foot text">原本冠註曰項目新補入，以下新補入項目者付＊印表之</note><note n="0397005" resp="CBETA" type="mod"><!--CBETA todo type: ＊-->原本冠註曰項目新補入，以下新補入項目者付＊印表之</note>得捨門</head>
+<lb n="0397c02" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">得捨門</cb:mulu><head><note 
+n="0397005" resp="Taisho" type="orig" place="foot text">原本冠註曰項目新補入，以下新補入項目者付＊印表之</note><note 
+n="0397005" resp="CBETA" type="mod"><!--CBETA todo type: ＊-->原本冠註曰項目新補入，以下新補入項目者付＊印表之</note>得捨門</head>
 <lb n="0397c03" ed="T"/><p xml:id="pT45p0397c0301">〈菩薩地〉四十云：菩薩於四他勝處法，隨犯一
 <lb n="0397c04" ed="T"/>種，況犯一切，不復堪能於現法中增長攝受
 <lb n="0397c05" ed="T"/>菩薩廣大菩提資糧，不復堪能於現法中意
@@ -2125,12 +2523,14 @@
 <lb n="0397c07" ed="T"/>若用軟中品纏，毀犯四種他勝處法，不捨菩
 <lb n="0397c08" ed="T"/>薩淨戒律儀。上品纏犯，即名為捨。若諸菩薩
 <lb n="0397c09" ed="T"/>毀犯四種他勝處法，數數現行，都無慚愧，深
-<lb n="0397c10" ed="T"/>生愛樂，見是功德，當知說名上品纏犯。</p><p xml:id="pT45p0397c1016" cb:place="inline">非諸
+<lb n="0397c10" ed="T"/>生愛樂，見是功德，當知說名上品纏犯。</p>
+<p xml:id="pT45p0397c1016" cb:place="inline">非諸
 <lb n="0397c11" ed="T"/>菩薩暫一現行他勝處法，便捨菩薩淨戒律
 <lb n="0397c12" ed="T"/>儀，如諸苾芻犯他勝處法，即便棄捨別解脫
 <lb n="0397c13" ed="T"/>戒。若諸菩薩由此毀犯，棄捨菩薩淨戒律儀，
 <lb n="0397c14" ed="T"/>於現法中堪任更受，非不堪任。如苾芻住別
-<lb n="0397c15" ed="T"/>解脫戒，犯他勝處法，於現法中不任更受。</p><p xml:id="pT45p0397c1517" cb:place="inline">略
+<lb n="0397c15" ed="T"/>解脫戒，犯他勝處法，於現法中不任更受。</p>
+<p xml:id="pT45p0397c1517" cb:place="inline">略
 <lb n="0397c16" ed="T"/>由二緣，捨諸菩薩淨戒律儀：一者、棄捨無上
 <lb n="0397c17" ed="T"/>正等大菩提願，二者、現行上品纏犯他勝處
 <lb n="0397c18" ed="T"/>法。若諸菩薩，雖復轉身遍十方界，在在生處
@@ -2141,7 +2541,8 @@
 <lb n="0397c23" ed="T"/><p xml:id="pT45p0397c2301">準七十五，有四緣捨：一決定發起受心不同
 <lb n="0397c24" ed="T"/>分心；二於有識別大丈夫前故意發起棄捨
 <lb n="0397c25" ed="T"/>語言；三總別毀犯四他勝法；四以增上品纏
-<lb n="0397c26" ed="T"/>總別毀犯隨順四種他勝處法。</p><p xml:id="pT45p0397c2613" cb:place="inline">又此菩薩一
+<lb n="0397c26" ed="T"/>總別毀犯隨順四種他勝處法。</p>
+<p xml:id="pT45p0397c2613" cb:place="inline">又此菩薩一
 <lb n="0397c27" ed="T"/>切違犯，當知皆是惡作所攝，應向有力於語
 <lb n="0397c28" ed="T"/>表義能覺、能受，小乘、大乘補特伽羅，發露悔
 <lb n="0397c29" ed="T"/>滅。若諸菩薩以上品纏違犯如上他勝處法，
@@ -2174,10 +2575,12 @@
 <lb n="0398a26" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">八勝五想門</cb:mulu><head><anchor xml:id="fxT45p0398a02"/>八勝五想門</head>
 <lb n="0398a27" ed="T"/><p xml:id="pT45p0398a2701">初說行殊勝相：一趣道勝、二發心、三福田、四
 <lb n="0398a28" ed="T"/>功德、五受罪輕微、六處胎、七神通、八果報
-<lb n="0398a29" ed="T"/>勝。</p><p xml:id="pT45p0398a2902" cb:place="inline">發五觀心：第一、觀一切眾生猶如聖人想；
+<lb n="0398a29" ed="T"/>勝。</p>
+<p xml:id="pT45p0398a2902" cb:place="inline">發五觀心：第一、觀一切眾生猶如聖人想；
 <pb n="0398b" ed="T" xml:id="T45.1862.0398b"/>
 <lb n="0398b01" ed="T"/>第二、猶如父母想；第三、猶如師長想；第四、猶
-<lb n="0398b02" ed="T"/>如國王想；第五、猶如家想。</p><p xml:id="pT45p0398b0211" cb:place="inline">又發四願：第一、所
+<lb n="0398b02" ed="T"/>如國王想；第五、猶如家想。</p>
+<p xml:id="pT45p0398b0211" cb:place="inline">又發四願：第一、所
 <lb n="0398b03" ed="T"/>有功德與十方一切眾生同有；第二、願十方
 <lb n="0398b04" ed="T"/>一切眾生度生死煩惱海；第三、願十方一切
 <lb n="0398b05" ed="T"/>眾生共通十二部經，文義了了；第四、願十方
@@ -2201,7 +2604,8 @@
 <lb n="0398b23" ed="T"/>飾，我今不應從彼聽法，但依於義不依於文。」
 <lb n="0398b24" ed="T"/>五、於壞語不作異意，謂不作心：「此語麁惡多
 <lb n="0398b25" ed="T"/>懷忿恚，不以美言宣說諸法，我今不應從彼
-<lb n="0398b26" ed="T"/>聽法。」</p><p xml:id="pT45p0398b2603" cb:place="inline">《瑜伽》三十八，云何求聞正法？謂諸菩薩
+<lb n="0398b26" ed="T"/>聽法。」</p>
+<p xml:id="pT45p0398b2603" cb:place="inline">《瑜伽》三十八，云何求聞正法？謂諸菩薩
 <lb n="0398b27" ed="T"/>於善說法，應當安住猛利愛重求聞正法。略
 <lb n="0398b28" ed="T"/>說猛利愛重之相，謂諸菩薩為欲聽聞一善
 <lb n="0398b29" ed="T"/>說法，假使路由猛焰熾然大熱鐵地，無餘方
@@ -2276,7 +2680,8 @@
 <lb n="0399b08" ed="T"/>義故；四如涅槃想，苦滅義故。由法是相好莊
 <lb n="0399b09" ed="T"/>嚴因故，如妙寶想。由法是滅煩惱病因故，如
 <lb n="0399b10" ed="T"/>良藥想。由法是神通自在因故，如財物想。由
-<lb n="0399b11" ed="T"/>法是正法無盡因故，如涅槃想。</p><p xml:id="pT45p0399b1113" cb:place="inline">求法有三種
+<lb n="0399b11" ed="T"/>法是正法無盡因故，如涅槃想。</p>
+<p xml:id="pT45p0399b1113" cb:place="inline">求法有三種
 <lb n="0399b12" ed="T"/>大：一者方便大，由最上精進求世諦第一諦
 <lb n="0399b13" ed="T"/>實不倒故；二他利大，由法作世間依怙以第
 <lb n="0399b14" ed="T"/>一義安置故；三自利大，由一切功德如海滿
@@ -2287,17 +2692,20 @@
 <lb n="0399b19" ed="T"/>入佛寺，初欲入時，於寺門外五體投地，應作
 <lb n="0399b20" ed="T"/>是念：此是善人住處，是空行者住處，無想行
 <lb n="0399b21" ed="T"/>者住處，無願行者住處，行慈悲喜捨者住處，
-<lb n="0399b22" ed="T"/>正行正念者住處。</p><p xml:id="pT45p0399b2208" cb:place="inline">若見諸比丘隨所見業，見
+<lb n="0399b22" ed="T"/>正行正念者住處。</p>
+<p xml:id="pT45p0399b2208" cb:place="inline">若見諸比丘隨所見業，見
 <lb n="0399b23" ed="T"/>已恭肅敬心，禮拜親近問訊，應作是念：若
 <lb n="0399b24" ed="T"/>我恒沙劫，常於天祀中，大施不休廢，不如一
 <lb n="0399b25" ed="T"/>出家。又念：在家多諸過患，出家皆無。隨應廣
 <lb n="0399b26" ed="T"/>說，念出家者所行法事、所得功德、我何時得？
-<lb n="0399b27" ed="T"/>廣說三乘所有行相。</p><p xml:id="pT45p0399b2709" cb:place="inline">是在家菩薩已慕尚出
+<lb n="0399b27" ed="T"/>廣說三乘所有行相。</p>
+<p xml:id="pT45p0399b2709" cb:place="inline">是在家菩薩已慕尚出
 <lb n="0399b28" ed="T"/>家，若入塔寺敬禮佛時，應生三心：一我當何
 <lb n="0399b29" ed="T"/>時得於八部受諸供養；二何時當得神力，舍
 <pb n="0399c" ed="T" xml:id="T45.1862.0399c"/>
 <lb n="0399c01" ed="T"/>利流布世間利益眾生；三我今深心行大精
-<lb n="0399c02" ed="T"/>進得大菩提，我作佛已入無餘涅槃。</p><p xml:id="pT45p0399c0215" cb:place="inline">次隨所
+<lb n="0399c02" ed="T"/>進得大菩提，我作佛已入無餘涅槃。</p>
+<p xml:id="pT45p0399c0215" cb:place="inline">次隨所
 <lb n="0399c03" ed="T"/>作詣諸比丘，請諸法性相詣論師所，問戒持
 <lb n="0399c04" ed="T"/>犯詣律師所，坐禪習定詣禪師所等。</p></cb:div>
 <lb n="0399c05" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">應護正法門</cb:mulu><head><anchor xml:id="fxT45p0399c02"/>應護正法門</head>
@@ -2307,8 +2715,14 @@
 <lb n="0399c09" ed="T"/>《瑜伽》七十云：由三過故不能無倒聽聞正法，
 <lb n="0399c10" ed="T"/>一散亂故；二愚癡故；三不恭敬故。有五種相
 <lb n="0399c11" ed="T"/>為聞修器：一謙下心；二奉行心；三攝受義心；
-<lb n="0399c12" ed="T"/>四善攝受義心；五恭敬心。</p><p xml:id="pT45p0399c1211" cb:place="inline">《文殊問般若經》云：
-<lb n="0399c13" ed="T"/>六時不聲：禮佛時、聽法時、眾和合時、<note n="0399001" resp="Taisho" type="orig" place="foot text">吃＝乞ィ【原】</note><note n="0399001" resp="CBETA" type="mod">吃【大】，乞【校異-原】</note><app n="0399001"><lem wit="【大】">吃</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">乞</rdg></app>食
+<lb n="0399c12" ed="T"/>四善攝受義心；五恭敬心。</p>
+<p xml:id="pT45p0399c1211" cb:place="inline">《文殊問般若經》云：
+<lb n="0399c13" ed="T"/>六時不聲：禮佛時、聽法時、眾和合時、<note 
+n="0399001" resp="Taisho" type="orig" place="foot text">吃＝乞ィ【原】</note><note 
+n="0399001" resp="CBETA" type="mod">吃【大】，乞【校異-原】</note><app n="0399001">
+  <lem wit="【大】">吃</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">乞</rdg>
+</app>食
 <lb n="0399c14" ed="T"/>時、正食時、大小便時。何故？如是天清淨心為
 <lb n="0399c15" ed="T"/>聞法故，以彼聲故，心不得定故，諸天還以天
 <lb n="0399c16" ed="T"/>去故，惡鬼來作不饒益事。</p></cb:div>
@@ -2316,34 +2730,41 @@
 <lb n="0399c18" ed="T"/><p xml:id="pT45p0399c1801">《大乘莊嚴論第七．度攝品》云：此中六波羅蜜，
 <lb n="0399c19" ed="T"/>有十種義：一制數、二顯相、三次第、四釋名、
 <lb n="0399c20" ed="T"/>五修習、六差別、七攝行、八治障、九功德、十
-<lb n="0399c21" ed="T"/>互顯。初數六。</p><p xml:id="pT45p0399c2106" cb:place="inline">復次釋第一云：為攝自利三事
+<lb n="0399c21" ed="T"/>互顯。初數六。</p>
+<p xml:id="pT45p0399c2106" cb:place="inline">復次釋第一云：為攝自利三事
 <lb n="0399c22" ed="T"/>故唯有六，一增進、二不染、三不倒，初四如次
 <lb n="0399c23" ed="T"/>令四事進。一資生成就，由布施故；二自身成
 <lb n="0399c24" ed="T"/>就，由持戒故；三眷屬成就，由於忍辱；四發起
 <lb n="0399c25" ed="T"/>成就，由於精進，一切事業由此成故。第五禪
 <lb n="0399c26" ed="T"/>定，能令煩惱不染，折伏煩惱故，由此力故。第
-<lb n="0399c27" ed="T"/>六般若，令業不顛倒，一切所作如實知故。</p><p xml:id="pT45p0399c2717" cb:place="inline">第
+<lb n="0399c27" ed="T"/>六般若，令業不顛倒，一切所作如實知故。</p>
+<p xml:id="pT45p0399c2717" cb:place="inline">第
 <lb n="0399c28" ed="T"/>二復次為攝二利六事故，數唯六。初為攝利
 <lb n="0399c29" ed="T"/>他三事故，在前三度令起正勤：一者施彼、二
 <pb n="0400a" ed="T" xml:id="T45.1862.0400a"/>
 <lb n="0400a01" ed="T"/>不惱彼、三忍彼惱。後為攝自利三事故在後
 <lb n="0400a02" ed="T"/>三：一者有因由，依精進故；二者心住，由心不
-<lb n="0400a03" ed="T"/>定故；三者解脫，由心已定令解脫故。</p><p xml:id="pT45p0400a0315" cb:place="inline">第三復
+<lb n="0400a03" ed="T"/>定故；三者解脫，由心已定令解脫故。</p>
+<p xml:id="pT45p0400a0315" cb:place="inline">第三復
 <lb n="0400a04" ed="T"/>次為攝利他六事故，如其次第於彼受用令
 <lb n="0400a05" ed="T"/>不乏故，不惱彼故，忍彼惱故，助彼所作令不
 <lb n="0400a06" ed="T"/>退故，以神通力令歸向故，以善說法斷彼疑
-<lb n="0400a07" ed="T"/>故，如是利他即成自利。</p><p xml:id="pT45p0400a0710" cb:place="inline">第四復次為攝大乘
+<lb n="0400a07" ed="T"/>故，如是利他即成自利。</p>
+<p xml:id="pT45p0400a0710" cb:place="inline">第四復次為攝大乘
 <lb n="0400a08" ed="T"/>四種因故，度唯有六：一不染、二極敬、三不退、
 <lb n="0400a09" ed="T"/>四無分別。修行施時，於財不染，無顧戀故。受
 <lb n="0400a10" ed="T"/>持戒時，於諸學處，起極敬故。行忍進時二不
 <lb n="0400a11" ed="T"/>退，忍於眾生非眾生所作苦，得不退故。進於
 <lb n="0400a12" ed="T"/>行善時，得不退故。行禪定般若時，此二無分
-<lb n="0400a13" ed="T"/>別，止觀平等攝故。</p><p xml:id="pT45p0400a1308" cb:place="inline">第五復次為攝大乘六道
+<lb n="0400a13" ed="T"/>別，止觀平等攝故。</p>
+<p xml:id="pT45p0400a1308" cb:place="inline">第五復次為攝大乘六道
 <lb n="0400a14" ed="T"/>故。道者何義？答：有方便者為道。由施故，於資
 <lb n="0400a15" ed="T"/>財不著為道。由戒故，於境不亂為道。由忍故，
 <lb n="0400a16" ed="T"/>於生不捨為道。由進故，於彼諸善增長為道。
 <lb n="0400a17" ed="T"/>由定故，令煩惱清淨為道。由般若故，於智障
-<lb n="0400a18" ed="T"/>清淨為道。</p><p xml:id="pT45p0400a1805" cb:place="inline">第六復次同《唯識》等攝三學釋。</p><p xml:id="pT45p0400a1817" cb:place="inline">第
+<lb n="0400a18" ed="T"/>清淨為道。</p>
+<p xml:id="pT45p0400a1805" cb:place="inline">第六復次同《唯識》等攝三學釋。</p>
+<p xml:id="pT45p0400a1817" cb:place="inline">第
 <lb n="0400a19" ed="T"/>二，顯相者皆有四相：一治障、二合智、三滿願、
 <lb n="0400a20" ed="T"/>四成生。治障者，檀等如次治慳等六。合智
 <lb n="0400a21" ed="T"/>者，與無分別智共行，由通達法無我故。滿
@@ -2352,14 +2773,18 @@
 <lb n="0400a24" ed="T"/>業隨欲助之，定於學定隨欲授法，智於有疑
 <lb n="0400a25" ed="T"/>隨欲決斷。成生者，先以施攝，後以三乘法隨
 <lb n="0400a26" ed="T"/>其所應而成熟之。先安立於戒等中，後以三
-<lb n="0400a27" ed="T"/>乘成熟亦爾。</p><p xml:id="pT45p0400a2706" cb:place="inline">第三，次第者有三因緣：一前後、
+<lb n="0400a27" ed="T"/>乘成熟亦爾。</p>
+<p xml:id="pT45p0400a2706" cb:place="inline">第三，次第者有三因緣：一前後、
 <lb n="0400a28" ed="T"/>二下上、三麁細。以施為先，引後戒等故。以施
 <lb n="0400a29" ed="T"/>為下，戒等上故。以施為麁，戒等細故。皆以次
 <pb n="0400b" ed="T" xml:id="T45.1862.0400b"/>
-<lb n="0400b01" ed="T"/>知。</p><p xml:id="pT45p0400b0102" cb:place="inline">第四，釋名者，能除貧窮故名為施。能令清
+<lb n="0400b01" ed="T"/>知。</p>
+<p xml:id="pT45p0400b0102" cb:place="inline">第四，釋名者，能除貧窮故名為施。能令清
 <lb n="0400b02" ed="T"/>涼故名戒，能破瞋恚故名忍，能建立善故名
-<lb n="0400b03" ed="T"/>進，能持心故名定，解真法故名慧。</p><p xml:id="pT45p0400b0314" cb:place="inline">第五修習
-<lb n="0400b04" ed="T"/>者，同《雜集》、《唯識論》等。</p><p xml:id="pT45p0400b0409" cb:place="inline">第六差別者，各有六義：
+<lb n="0400b03" ed="T"/>進，能持心故名定，解真法故名慧。</p>
+<p xml:id="pT45p0400b0314" cb:place="inline">第五修習
+<lb n="0400b04" ed="T"/>者，同《雜集》、《唯識論》等。</p>
+<p xml:id="pT45p0400b0409" cb:place="inline">第六差別者，各有六義：
 <lb n="0400b05" ed="T"/>一自性、一因、三果、四業、五相應、六品類。自
 <lb n="0400b06" ed="T"/>性者，由以己物施諸受者故。施因者，由無貪
 <lb n="0400b07" ed="T"/>善根與思俱生故。施果者，由財及身成就故。
@@ -2374,14 +2799,16 @@
 <lb n="0400b16" ed="T"/>故。三者無畏，由不能起一切怖憎等諸罪緣
 <lb n="0400b17" ed="T"/>起。相應者，由一切時身口意業皆行善行故。
 <lb n="0400b18" ed="T"/>品類者，謂二得一受，得即波羅提木叉二法，
-<lb n="0400b19" ed="T"/>得即定道戒<note place="inline">餘煩不述。更檢文</note>。</p><p xml:id="pT45p0400b1913" cb:place="inline">八對治者，檀離七著
+<lb n="0400b19" ed="T"/>得即定道戒<note place="inline">餘煩不述。更檢文</note>。</p>
+<p xml:id="pT45p0400b1913" cb:place="inline">八對治者，檀離七著
 <lb n="0400b20" ed="T"/>故：一資財著、二慢緩著、三偏執著、四報恩
 <lb n="0400b21" ed="T"/>著、五果報著、六障礙著、七散亂著。此中障礙
 <lb n="0400b22" ed="T"/>著者，謂檀所治貪隨眠不斷故。散亂著者有
 <lb n="0400b23" ed="T"/>二：一下意散亂，求小乘故；二分別散亂，分別
 <lb n="0400b24" ed="T"/>三輪故。餘六障治初五翻前，謂戒離破戒著
 <lb n="0400b25" ed="T"/>等，戒等離障礙著者，彼障礙隨眠皆斷故。戒
-<lb n="0400b26" ed="T"/>等離分別著者，隨其三輪不分別故。</p><p xml:id="pT45p0400b2615" cb:place="inline">九功德
+<lb n="0400b26" ed="T"/>等離分別著者，隨其三輪不分別故。</p>
+<p xml:id="pT45p0400b2615" cb:place="inline">九功德
 <lb n="0400b27" ed="T"/>者，一恒時捨，謂諸菩薩一切時施自身命與
 <lb n="0400b28" ed="T"/>一切求者故。二離求不求報恩及以愛果，由
 <lb n="0400b29" ed="T"/>大悲為因故。三建菩提，由施建立一切眾生
@@ -2408,7 +2835,12 @@
 <lb n="0400c20" ed="T"/><p xml:id="pT45p0400c2001">《莊嚴》第十二，菩薩有七似饒益：一似母、二似
 <lb n="0400c21" ed="T"/>父、三似善友、四似同侶、五似健奴、六似闍
 <lb n="0400c22" ed="T"/>梨、七似和上。似母者，譬如慈母於子作五饒
-<lb n="0400c23" ed="T"/>益業：一<note n="0400001" resp="Taisho" type="orig" place="foot text">懷＝入ィ【原】</note><note n="0400001" resp="CBETA" type="mod">懷【大】，入【校異-原】</note><app n="0400001"><lem wit="【大】">懷</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">入</rdg></app>胎、二出生、三長養、四防害、五教
+<lb n="0400c23" ed="T"/>益業：一<note 
+n="0400001" resp="Taisho" type="orig" place="foot text">懷＝入ィ【原】</note><note 
+n="0400001" resp="CBETA" type="mod">懷【大】，入【校異-原】</note><app n="0400001">
+  <lem wit="【大】">懷</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">入</rdg>
+</app>胎、二出生、三長養、四防害、五教
 <lb n="0400c24" ed="T"/>語。菩薩饒益眾生五業亦爾：一等心向眾生、
 <lb n="0400c25" ed="T"/>二生之於聖地、三長養諸善根、四防護諸惡
 <lb n="0400c26" ed="T"/>作、五教習以多聞。譬如慈父於子作五種饒
@@ -2437,10 +2869,19 @@
 <lb n="0401a19" ed="T"/>四口知愛語、五心無悕望。譬如和上於弟子
 <lb n="0401a20" ed="T"/>所作五饒益業：一度令出家、二與其受戒、三
 <lb n="0401a21" ed="T"/>禁斷諸過、四攝持以財、五教授以法。菩薩亦
-<lb n="0401a22" ed="T"/>然：一令滿<note n="0401001" resp="Taisho" type="orig" place="foot text">二＝三ィ【原】</note><note n="0401001" resp="CBETA" type="mod">二【大】，三【校異-原】</note><app n="0401001"><lem wit="【大】">二</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">三</rdg></app>聚、二令得解脫、三令斷諸障、
+<lb n="0401a22" ed="T"/>然：一令滿<note 
+n="0401001" resp="Taisho" type="orig" place="foot text">二＝三ィ【原】</note><note 
+n="0401001" resp="CBETA" type="mod">二【大】，三【校異-原】</note><app n="0401001">
+  <lem wit="【大】">二</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">三</rdg>
+</app>聚、二令得解脫、三令斷諸障、
 <lb n="0401a23" ed="T"/>四與世間樂、五與出世利。</p></cb:div>
 <lb n="0401a24" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">菩薩五悕望門</cb:mulu><head><anchor xml:id="fxT45p0401a02"/>菩薩五悕望門</head>
-<lb n="0401a25" ed="T"/><p xml:id="pT45p0401a2501">菩薩五處常起悕望：一<note n="0401a2501" resp="CBETA" type="add" note_key="T45.0401a25.10">悕【CB】，怖【大】</note><app n="0401a2501"><lem resp="CBETA.poyung" wit="【CB】" cb:provider="趙文平 (2021-07-27)">悕<note type="cf1">T31n1604_p0651c03</note></lem><rdg wit="【大】">怖</rdg></app>望六度增長、二六
+<lb n="0401a25" ed="T"/><p xml:id="pT45p0401a2501">菩薩五處常起悕望：一<note 
+n="0401a2501" resp="CBETA" type="add" note_key="T45.0401a25.10">悕【CB】，怖【大】</note><app n="0401a2501">
+  <lem resp="CBETA.poyung" wit="【CB】" cb:provider="趙文平 (2021-07-27)">悕<note type="cf1">T31n1604_p0651c03</note></lem>
+  <rdg wit="【大】">怖</rdg>
+</app>望六度增長、二六
 <lb n="0401a26" ed="T"/>蔽損減、三成就眾生、四勝進諸地、五悕望無
 <lb n="0401a27" ed="T"/>上菩提。</p></cb:div>
 <lb n="0401a28" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">六決定應作門</cb:mulu><head><anchor xml:id="fxT45p0401a04"/>六決定應作門</head>
@@ -2467,34 +2908,46 @@
 <lb n="0401b19" ed="T"/>一、自性者，能施一切所應施物，無貪俱生思
 <lb n="0401b20" ed="T"/>及因所發。能施一切無罪施物，身語二業定
 <lb n="0401b21" ed="T"/>有果見，隨所希求，即以此物而行惠施，名施
-<lb n="0401b22" ed="T"/>自性。</p><p xml:id="pT45p0401b2203" cb:place="inline">二、一切施者，略有二種：一內所施物、二
+<lb n="0401b22" ed="T"/>自性。</p>
+<p xml:id="pT45p0401b2203" cb:place="inline">二、一切施者，略有二種：一內所施物、二
 <lb n="0401b23" ed="T"/>外所施物。但施己身名內所施，若慜食吐活
 <lb n="0401b24" ed="T"/>命眾生數數食已吐所飯食施，名內外雜施。
 <lb n="0401b25" ed="T"/>除上所說施，餘一切所應施物，名唯外施。知
 <lb n="0401b26" ed="T"/>內外施於彼眾生，唯令安樂不作利益，或不
 <lb n="0401b27" ed="T"/>利益亦不安樂，即不施與。翻此即施。廣有無
-<lb n="0401b28" ed="T"/>量應施不施，思準可知。</p><p xml:id="pT45p0401b2810" cb:place="inline">三、難行施者，財物尠
+<lb n="0401b28" ed="T"/>量應施不施，思準可知。</p>
+<p xml:id="pT45p0401b2810" cb:place="inline">三、難行施者，財物尠
 <lb n="0401b29" ed="T"/>少，自忍貧苦惠施於他，第一難行；所可愛物
 <pb n="0401c" ed="T" xml:id="T45.1862.0401c"/>
 <lb n="0401c01" ed="T"/>極生耽著，能自開意惠施於他，第二難行；極
-<lb n="0401c02" ed="T"/>大艱辛所獲財物惠施於他，第三難行。</p><p xml:id="pT45p0401c0216" cb:place="inline">四、一
+<lb n="0401c02" ed="T"/>大艱辛所獲財物惠施於他，第三難行。</p>
+<p xml:id="pT45p0401c0216" cb:place="inline">四、一
 <lb n="0401c03" ed="T"/>切門者，一自財物、二他所得、三施親養愛僕、
-<lb n="0401c04" ed="T"/>四施他來求。</p><p xml:id="pT45p0401c0406" cb:place="inline">五、善士施者，略有五相：淨信而
+<lb n="0401c04" ed="T"/>四施他來求。</p>
+<p xml:id="pT45p0401c0406" cb:place="inline">五、善士施者，略有五相：淨信而
 <lb n="0401c05" ed="T"/>施、恭敬而施、自身而施、應時而施、不損惱他
-<lb n="0401c06" ed="T"/>而行惠施。</p><p xml:id="pT45p0401c0605" cb:place="inline">六、一切種施者，有十三相：一無依、
+<lb n="0401c06" ed="T"/>而行惠施。</p>
+<p xml:id="pT45p0401c0605" cb:place="inline">六、一切種施者，有十三相：一無依、
 <lb n="0401c07" ed="T"/>二廣大、三歡喜、四數數、五田器、六非田器、
 <lb n="0401c08" ed="T"/>七一切物、八一切處、九一切時、十無罪、十一
-<lb n="0401c09" ed="T"/>有情物、十二方土物、十三財穀物施。<note n="0401002" resp="Taisho" type="orig" place="foot text">一＝七？</note><note n="0401002" resp="CBETA" type="mod">一【大】，七【考偽-大】</note><app n="0401002"><lem resp="Taisho" wit="【大】">一</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">七</rdg></app>遂
+<lb n="0401c09" ed="T"/>有情物、十二方土物、十三財穀物施。<note 
+n="0401002" resp="Taisho" type="orig" place="foot text">一＝七？</note><note 
+n="0401002" resp="CBETA" type="mod">一【大】，七【考偽-大】</note><app n="0401002">
+  <lem resp="Taisho" wit="【大】">一</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">七</rdg>
+</app>遂
 <lb n="0401c10" ed="T"/>求施者有八相：一匱飲食、二匱車乘、三匱衣
 <lb n="0401c11" ed="T"/>服、四匱嚴具、五匱資什、六匱塗飾香鬘、七匱
 <lb n="0401c12" ed="T"/>舍宅、八匱乏光明，而求乞者施以光明。上
-<lb n="0401c13" ed="T"/>七準此。</p><p xml:id="pT45p0401c1304" cb:place="inline">八、此世他世樂施者，略有九相：財有
+<lb n="0401c13" ed="T"/>七準此。</p>
+<p xml:id="pT45p0401c1304" cb:place="inline">八、此世他世樂施者，略有九相：財有
 <lb n="0401c14" ed="T"/>三，一妙淨如法物而行惠施、二調伏慳悋垢
 <lb n="0401c15" ed="T"/>而行惠施、三調伏積藏垢而行惠施；無畏有
 <lb n="0401c16" ed="T"/>三，一拔濟師子虎狼等畏、二拔濟王賊畏、三
 <lb n="0401c17" ed="T"/>拔濟水火等畏。法施有三，一無倒說法、二稱
 <lb n="0401c18" ed="T"/>理說法、三勸修學處。如是九相能令眾生此
-<lb n="0401c19" ed="T"/>他世樂，財、無畏此世，法施他世。</p><p xml:id="pT45p0401c1913" cb:place="inline">九、清淨施者，
+<lb n="0401c19" ed="T"/>他世樂，財、無畏此世，法施他世。</p>
+<p xml:id="pT45p0401c1913" cb:place="inline">九、清淨施者，
 <lb n="0401c20" ed="T"/>有十相：一不留滯施、二不執取施、三不積聚、
 <lb n="0401c21" ed="T"/>四不高舉、五無所依、六不退轉、七不下劣、八
 <lb n="0401c22" ed="T"/>無向背、九不望報恩、十不希異熟。速施不留
@@ -2511,23 +2964,28 @@
 <lb n="0402a03" ed="T"/>護故，離諸惡作。又初二是法，後二是前二法
 <lb n="0402a04" ed="T"/>所引。又初二第四能令不毀，犯已還淨令犯
 <lb n="0402a05" ed="T"/>還出，具四功德，能利自他，利益安樂無量眾
-<lb n="0402a06" ed="T"/>生，哀愍世間諸人天等故。</p><p xml:id="pT45p0402a0611" cb:place="inline">二、一切戒者有二
-<lb n="0402a07" ed="T"/>種：謂在家分戒、出家分戒。此二略。</p><p xml:id="pT45p0402a0714" cb:place="inline">三、即三聚
+<lb n="0402a06" ed="T"/>生，哀愍世間諸人天等故。</p>
+<p xml:id="pT45p0402a0611" cb:place="inline">二、一切戒者有二
+<lb n="0402a07" ed="T"/>種：謂在家分戒、出家分戒。此二略。</p>
+<p xml:id="pT45p0402a0714" cb:place="inline">三、即三聚
 <lb n="0402a08" ed="T"/>戒，三難行戒者略有三種：一謂諸菩薩現具
 <lb n="0402a09" ed="T"/>大財，族姓增上能棄，受持菩薩淨戒，名第一
 <lb n="0402a10" ed="T"/>難。若遭急難，乃至失命，於所受戒尚無少缺，
 <lb n="0402a11" ed="T"/>何況全犯，名第二難。遍於一切行住作意，恒
 <lb n="0402a12" ed="T"/>住正念，常無放逸，乃至命終無誤犯輕，何況
-<lb n="0402a13" ed="T"/>犯重，名第三難。</p><p xml:id="pT45p0402a1307" cb:place="inline">四、一切門戒者略有四種：一
+<lb n="0402a13" ed="T"/>犯重，名第三難。</p>
+<p xml:id="pT45p0402a1307" cb:place="inline">四、一切門戒者略有四種：一
 <lb n="0402a14" ed="T"/>者正受戒、二本性戒、三串習戒、四方便相應
 <lb n="0402a15" ed="T"/>戒。正受者，受先所受三聚淨戒。本性者，住種
 <lb n="0402a16" ed="T"/>姓位本性仁賢，身語二業恒清淨轉。串習者，
 <lb n="0402a17" ed="T"/>多生修習三種淨戒，一切惡法不樂現行，惡
 <lb n="0402a18" ed="T"/>法深厭，善法樂修，深生忻慕。相應戒者，依四
-<lb n="0402a19" ed="T"/>攝事，於諸有情善業恒轉故。</p><p xml:id="pT45p0402a1912" cb:place="inline">五、善士戒者略
+<lb n="0402a19" ed="T"/>攝事，於諸有情善業恒轉故。</p>
+<p xml:id="pT45p0402a1912" cb:place="inline">五、善士戒者略
 <lb n="0402a20" ed="T"/>有五種：謂諸菩薩自具尸羅、勸他受戒、讚戒
 <lb n="0402a21" ed="T"/>功德、見同法者、深生歡喜。設有毀犯，如法悔
-<lb n="0402a22" ed="T"/>除。</p><p xml:id="pT45p0402a2202" cb:place="inline">六、一切種戒者，以要言之，六種七種。言六
+<lb n="0402a22" ed="T"/>除。</p>
+<p xml:id="pT45p0402a2202" cb:place="inline">六、一切種戒者，以要言之，六種七種。言六
 <lb n="0402a23" ed="T"/>種者：一迴向戒，迴向大菩提故；二廣博戒，廣
 <lb n="0402a24" ed="T"/>攝一切所學處故；三無罪歡喜處戒，遠離耽
 <lb n="0402a25" ed="T"/>著欲樂自苦二邊行故；四恒常戒，雖盡壽命
@@ -2538,17 +2996,20 @@
 <pb n="0402b" ed="T" xml:id="T45.1862.0402b"/>
 <lb n="0402b01" ed="T"/>饒益有情故；三防護戒，隨護止息轉作戒故；
 <lb n="0402b02" ed="T"/>四大士相異熟戒；五增上心異熟戒；六可愛
-<lb n="0402b03" ed="T"/>趣異熟戒；七利有情異熟戒。</p><p xml:id="pT45p0402b0312" cb:place="inline">七、遂求戒者略
+<lb n="0402b03" ed="T"/>趣異熟戒；七利有情異熟戒。</p>
+<p xml:id="pT45p0402b0312" cb:place="inline">七、遂求戒者略
 <lb n="0402b04" ed="T"/>有八種：謂諸菩薩自諦思惟：如我悕求，勿
 <lb n="0402b05" ed="T"/>彼於我現行斷命、不與而取、穢邪、虛妄、離間、麁
 <lb n="0402b06" ed="T"/>惡、綺語、手塊杖等、諸非愛觸加害於我。於他
 <lb n="0402b07" ed="T"/>亦然，不遂求，俱不悅故。如是審思惟己命難
 <lb n="0402b08" ed="T"/>因緣，亦不於他現行八種所求不遂不悅意
-<lb n="0402b09" ed="T"/>事。</p><p xml:id="pT45p0402b0902" cb:place="inline">八、此世他世樂戒者，略有九種：謂諸菩薩
+<lb n="0402b09" ed="T"/>事。</p>
+<p xml:id="pT45p0402b0902" cb:place="inline">八、此世他世樂戒者，略有九種：謂諸菩薩
 <lb n="0402b10" ed="T"/>為諸有情、應遮而遮、應開而開、應攝正攝、應
 <lb n="0402b11" ed="T"/>調正調。菩薩於中身語二業常清淨轉，名為
 <lb n="0402b12" ed="T"/>四種。復有所餘五度俱行淨戒，即為五種：說
-<lb n="0402b13" ed="T"/>名為九，能令自他現後安樂，名二世樂戒。</p><p xml:id="pT45p0402b1317" cb:place="inline">九、
+<lb n="0402b13" ed="T"/>名為九，能令自他現後安樂，名二世樂戒。</p>
+<p xml:id="pT45p0402b1317" cb:place="inline">九、
 <lb n="0402b14" ed="T"/>清淨戒者，略有十種：一、初善受戒，為三菩提
 <lb n="0402b15" ed="T"/>不為命故；二、不太沈戒，於違犯時生悔愧故，
 <lb n="0402b16" ed="T"/>及不太舉戒，達離非處生悔愧故；三、離懈怠
@@ -2564,7 +3025,8 @@
 <lb n="0402b26" ed="T"/>大功德藏滿；五、現後戒成性。</p>
 <lb n="0402b27" ed="T"/><p xml:id="pT45p0402b2701">忍九門者：一、自性者，或思擇力，或由自性，堪
 <lb n="0402b28" ed="T"/>忍怨害，由無染心，純悲愍故。能有堪忍，此名
-<lb n="0402b29" ed="T"/>自性。</p><p xml:id="pT45p0402b2903" cb:place="inline">二、一切忍者，在家出家各具三忍：耐怨
+<lb n="0402b29" ed="T"/>自性。</p>
+<p xml:id="pT45p0402b2903" cb:place="inline">二、一切忍者，在家出家各具三忍：耐怨
 <pb n="0402c" ed="T" xml:id="T45.1862.0402c"/>
 <lb n="0402c01" ed="T"/>害忍，起念五想略如能斷疏。云何名忍？自無
 <lb n="0402c02" ed="T"/>憤勃，不報他怨，亦不隨眠，流注恒續，故名為
@@ -2584,20 +3046,24 @@
 <lb n="0402c16" ed="T"/>佛菩薩大神力處、四因處、五果處、六應得義
 <lb n="0402c17" ed="T"/>處、七自於彼義得方便處、八一切所知所應
 <lb n="0402c18" ed="T"/>行處。由二因緣於彼諸處善能安立，一長時
-<lb n="0402c19" ed="T"/>串習故、二證善淨智故。</p><p xml:id="pT45p0402c1910" cb:place="inline">三、難行忍者，有三：於
+<lb n="0402c19" ed="T"/>串習故、二證善淨智故。</p>
+<p xml:id="pT45p0402c1910" cb:place="inline">三、難行忍者，有三：於
 <lb n="0402c20" ed="T"/>劣有情所，忍彼所作不饒益，名第一難。居尊
 <lb n="0402c21" ed="T"/>位，於自臣隷不饒益事，堪能忍受，名第二難。
 <lb n="0402c22" ed="T"/>於其種姓婢賤有情所作增上不饒益事，堪
-<lb n="0402c23" ed="T"/>能忍受，名第三難。</p><p xml:id="pT45p0402c2308" cb:place="inline">四、一切門者，略有四種：一
+<lb n="0402c23" ed="T"/>能忍受，名第三難。</p>
+<p xml:id="pT45p0402c2308" cb:place="inline">四、一切門者，略有四種：一
 <lb n="0402c24" ed="T"/>於親所作不饒益事、二於怨所作、三於中所
 <lb n="0402c25" ed="T"/>作、四及於彼三劣等勝品，不饒益事皆能忍
-<lb n="0402c26" ed="T"/>受。</p><p xml:id="pT45p0402c2602" cb:place="inline">五、善士忍者，略有五種：謂諸菩薩先於其
+<lb n="0402c26" ed="T"/>受。</p>
+<p xml:id="pT45p0402c2602" cb:place="inline">五、善士忍者，略有五種：謂諸菩薩先於其
 <lb n="0402c27" ed="T"/>忍見諸勝利，謂能堪忍補特伽羅，於當來世，
 <lb n="0402c28" ed="T"/>無多怨敵，無多乖離，有多喜樂，臨終無悔；於
 <lb n="0402c29" ed="T"/>身壞後，當生善趣天世界中，見勝利已，自能
 <pb n="0403a" ed="T" xml:id="T45.1862.0403a"/>
 <lb n="0403a01" ed="T"/>堪忍，勸他行忍，讚忍功德，見能行忍，慰意慶
-<lb n="0403a02" ed="T"/>喜。</p><p xml:id="pT45p0403a0202" cb:place="inline">六、一切種忍，有六、七種，六者，了知不忍受
+<lb n="0403a02" ed="T"/>喜。</p>
+<p xml:id="pT45p0403a0202" cb:place="inline">六、一切種忍，有六、七種，六者，了知不忍受
 <lb n="0403a03" ed="T"/>非愛異熟，由怖故忍；於生哀憐心悲愍親愛
 <lb n="0403a04" ed="T"/>心親善故忍；無上菩提為忍圓滿故修行忍；
 <lb n="0403a05" ed="T"/>夫出家者具忍辱力，非不行忍；由法受故修
@@ -2605,19 +3071,22 @@
 <lb n="0403a07" ed="T"/>有情唯見諸法故修行忍。七種，謂於一切不
 <lb n="0403a08" ed="T"/>饒益忍，從一切所忍；一切處忍；一切時忍；一
 <lb n="0403a09" ed="T"/>切身忍，不捶打故；語忍，不出非愛故；意忍，不
-<lb n="0403a10" ed="T"/>憤發故。</p><p xml:id="pT45p0403a1004" cb:place="inline">七、遂求忍者，略有八種：於諸有苦來
+<lb n="0403a10" ed="T"/>憤發故。</p>
+<p xml:id="pT45p0403a1004" cb:place="inline">七、遂求忍者，略有八種：於諸有苦來
 <lb n="0403a11" ed="T"/>求索者，要逼能忍；於極凶暴上品惡業諸有
 <lb n="0403a12" ed="T"/>情類，悲不惱忍；於諸犯戒，悲不惱忍；復有五
 <lb n="0403a13" ed="T"/>種：耐勤苦忍；堪耐除有情苦勤苦，耐求法勤
 <lb n="0403a14" ed="T"/>苦；耐法隨法行勤苦；耐為他說法勤苦；耐
-<lb n="0403a15" ed="T"/>為有情所作正所有勤苦。</p><p xml:id="pT45p0403a1511" cb:place="inline">八、此世他世樂忍
+<lb n="0403a15" ed="T"/>為有情所作正所有勤苦。</p>
+<p xml:id="pT45p0403a1511" cb:place="inline">八、此世他世樂忍
 <lb n="0403a16" ed="T"/>者，略有九種：謂諸菩薩住不放逸，於諸善法
 <lb n="0403a17" ed="T"/>悉能堪忍、於寒熱能忍、於飢渴能忍、於蚊虻
 <lb n="0403a18" ed="T"/>能忍、於風日能忍、於蛇蝎能忍、於劬勞憂惱
 <lb n="0403a19" ed="T"/>能忍、於墮生老病死苦有情、哀愍而行能忍。
 <lb n="0403a20" ed="T"/>如是能令自身於現法中得安樂住，不為一
 <lb n="0403a21" ed="T"/>切惡不善法之所陵雜，能引後世安樂因緣，
-<lb n="0403a22" ed="T"/>亦能令他修行二世安樂行，名二世樂。</p><p xml:id="pT45p0403a2216" cb:place="inline">清淨
+<lb n="0403a22" ed="T"/>亦能令他修行二世安樂行，名二世樂。</p>
+<p xml:id="pT45p0403a2216" cb:place="inline">清淨
 <lb n="0403a23" ed="T"/>忍者，略有十種：謂諸菩薩遇他所作不饒益
 <lb n="0403a24" ed="T"/>事損惱違越，終不返報，亦不意憤，亦無怨嫌，
 <lb n="0403a25" ed="T"/>意樂相續恒常現前，欲作饒益，先後無異，非
@@ -2640,7 +3109,12 @@
 <lb n="0403b12" ed="T"/>別本隨惑異論苦觸不傾動故；二、堅固進，殷
 <lb n="0403b13" ed="T"/>重加行故；三、無量進，能現證一切明處故；四、
 <lb n="0403b14" ed="T"/>方便相應進，所應得義無倒順行等通達故；
-<lb n="0403b15" ed="T"/>五、無倒進，為欲證得<note n="0403001" resp="Taisho" type="orig" place="foot text">義＝善ィ【原】</note><note n="0403001" resp="CBETA" type="mod">義【大】，善【校異-原】</note><app n="0403001"><lem wit="【大】">義</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">善</rdg></app>願所引故；六、恒常
+<lb n="0403b15" ed="T"/>五、無倒進，為欲證得<note 
+n="0403001" resp="Taisho" type="orig" place="foot text">義＝善ィ【原】</note><note 
+n="0403001" resp="CBETA" type="mod">義【大】，善【校異-原】</note><app n="0403001">
+  <lem wit="【大】">義</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">善</rdg>
+</app>願所引故；六、恒常
 <lb n="0403b16" ed="T"/>進，無間加行故；七、離慢進，由勸精進離高
 <lb n="0403b17" ed="T"/>舉故。由此疾證無上菩提一切善法最勝因
 <lb n="0403b18" ed="T"/>緣。云何饒益有情進？此有十一，如戒品說：彼
@@ -2648,15 +3122,18 @@
 <lb n="0403b20" ed="T"/>間遠離衣想、食想、臥想、身想，於善無間修無
 <lb n="0403b21" ed="T"/>懈廢，名第一難。如是精進盡眾同分，於一切
 <lb n="0403b22" ed="T"/>時曾無懈廢，名第二難。平等通達功德相應，
-<lb n="0403b23" ed="T"/>不緩不急，無倒能引義利精進，名第三難。</p><p xml:id="pT45p0403b2317" cb:place="inline">一
+<lb n="0403b23" ed="T"/>不緩不急，無倒能引義利精進，名第三難。</p>
+<p xml:id="pT45p0403b2317" cb:place="inline">一
 <lb n="0403b24" ed="T"/>切門者，略有四種：一離染法進、二引自法進、
-<lb n="0403b25" ed="T"/>三淨除業、四增長智進。</p><p xml:id="pT45p0403b2510" cb:place="inline">善士進者，略有五種：
+<lb n="0403b25" ed="T"/>三淨除業、四增長智進。</p>
+<p xml:id="pT45p0403b2510" cb:place="inline">善士進者，略有五種：
 <lb n="0403b26" ed="T"/>一、無所棄捨進，不捨一切欲加行故；二、無退
 <lb n="0403b27" ed="T"/>減進，如先所受隨長養故；三、無下劣進，勇猛
 <lb n="0403b28" ed="T"/>熾然長時策勵，無怯無退故；四、無倒進，能引
 <lb n="0403b29" ed="T"/>義利方便善巧所攝持故；五、勤勇加行進，能
 <pb n="0403c" ed="T" xml:id="T45.1862.0403c"/>
-<lb n="0403c01" ed="T"/>於無上正等菩提，速進趣故。</p><p xml:id="pT45p0403c0112" cb:place="inline">一切種進者，六
+<lb n="0403c01" ed="T"/>於無上正等菩提，速進趣故。</p>
+<p xml:id="pT45p0403c0112" cb:place="inline">一切種進者，六
 <lb n="0403c02" ed="T"/>種、七種，總有十三種。六者：一、無間進，謂一切
 <lb n="0403c03" ed="T"/>時修加行故；二、殷重進，謂能周備修加行故；
 <lb n="0403c04" ed="T"/>三、等流進，謂先因力所任持故；四、加行進，數
@@ -2670,7 +3147,8 @@
 <lb n="0403c12" ed="T"/>五、修學進，於所修學法隨法行，能成辦故；六、
 <lb n="0403c13" ed="T"/>利他進，於前說十一種相應知其相故；七、善
 <lb n="0403c14" ed="T"/>護進，所有精進起正加行，善自防守犯如法
-<lb n="0403c15" ed="T"/>悔故。二世樂如忍應知。</p><p xml:id="pT45p0403c1510" cb:place="inline">清淨者略有十種：一
+<lb n="0403c15" ed="T"/>悔故。二世樂如忍應知。</p>
+<p xml:id="pT45p0403c1510" cb:place="inline">清淨者略有十種：一
 <lb n="0403c16" ed="T"/>相稱進、二串習、三無緩、四善攝、五應時修
 <lb n="0403c17" ed="T"/>習、六通達眾相、七不退弱轉、八不捨軛、九平
 <lb n="0403c18" ed="T"/>等、十迴向。大菩提相稱者，為斷彼彼諸隨煩
@@ -2679,7 +3157,8 @@
 <lb n="0403c21" ed="T"/><p xml:id="pT45p0403c2101">靜慮九門者：自性，謂諸菩薩於菩薩藏聞思
 <lb n="0403c22" ed="T"/>為先，所有妙善世出世間，心一境性，心正安
 <lb n="0403c23" ed="T"/>住，或奢摩他品、或毘鉢舍那品、或雙運道靜
-<lb n="0403c24" ed="T"/>慮自性。</p><p xml:id="pT45p0403c2404" cb:place="inline">一切靜慮者，略有二種：即世、出世，
+<lb n="0403c24" ed="T"/>慮自性。</p>
+<p xml:id="pT45p0403c2404" cb:place="inline">一切靜慮者，略有二種：即世、出世，
 <lb n="0403c25" ed="T"/>此各有現法樂住、能引菩薩等持功德、饒益有
 <lb n="0403c26" ed="T"/>情。所有靜慮身心輕安，離過泯相，名現法樂。
 <lb n="0403c27" ed="T"/>能引十方解脫願智等，名為能引。饒益靜慮
@@ -2690,27 +3169,38 @@
 <lb n="0404a02" ed="T"/>恩，於怖為救，於喪失處能解愁憂，於匱乏者
 <lb n="0404a03" ed="T"/>施於眾善，匡御於諸有情善隨心轉，於實有
 <lb n="0404a04" ed="T"/>德讚美令喜，於諸有過能正調伏，為物現通，
-<lb n="0404a05" ed="T"/>恐怖引攝，名一切靜慮。</p><p xml:id="pT45p0404a0510" cb:place="inline">難行者，略有三種：已
+<lb n="0404a05" ed="T"/>恐怖引攝，名一切靜慮。</p>
+<p xml:id="pT45p0404a0510" cb:place="inline">難行者，略有三種：已
 <lb n="0404a06" ed="T"/>能安住廣大殊勝極善靜慮，為利有情還生
 <lb n="0404a07" ed="T"/>欲界，名第一難。依止靜慮，能發無量超過二
-<lb n="0404a08" ed="T"/><note n="0404001" resp="Taisho" type="orig" place="foot text">種＝乘ィ【原】</note><note n="0404001" resp="CBETA" type="mod">種【大】，乘【校異-原】</note><app n="0404001"><lem wit="【大】">種</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">乘</rdg></app>所行境菩薩等持，名第二難。依止靜慮，
-<lb n="0404a09" ed="T"/>速證無上正等菩提，名第三難。</p><p xml:id="pT45p0404a0913" cb:place="inline">一切門有四：
+<lb n="0404a08" ed="T"/><note 
+n="0404001" resp="Taisho" type="orig" place="foot text">種＝乘ィ【原】</note><note 
+n="0404001" resp="CBETA" type="mod">種【大】，乘【校異-原】</note><app n="0404001">
+  <lem wit="【大】">種</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">乘</rdg>
+</app>所行境菩薩等持，名第二難。依止靜慮，
+<lb n="0404a09" ed="T"/>速證無上正等菩提，名第三難。</p>
+<p xml:id="pT45p0404a0913" cb:place="inline">一切門有四：
 <lb n="0404a10" ed="T"/>一有尋有伺靜慮、二喜俱行靜慮、三樂俱行
-<lb n="0404a11" ed="T"/>靜慮、四捨俱行靜慮。</p><p xml:id="pT45p0404a1109" cb:place="inline">善士有五：一者無愛味
+<lb n="0404a11" ed="T"/>靜慮、四捨俱行靜慮。</p>
+<p xml:id="pT45p0404a1109" cb:place="inline">善士有五：一者無愛味
 <lb n="0404a12" ed="T"/>靜慮、二慈俱行、三悲俱行、四喜俱行、五捨俱
-<lb n="0404a13" ed="T"/>行靜慮。</p><p xml:id="pT45p0404a1304" cb:place="inline">一切種者，六種、七種。言六種者：一善
+<lb n="0404a13" ed="T"/>行靜慮。</p>
+<p xml:id="pT45p0404a1304" cb:place="inline">一切種者，六種、七種。言六種者：一善
 <lb n="0404a14" ed="T"/>靜慮、二無記變化、三奢摩他品、四毘鉢舍
 <lb n="0404a15" ed="T"/>那品、五自他利正審思惟、六能引神通威力
 <lb n="0404a16" ed="T"/>功德靜慮。言七種者：一者名緣靜慮、二義緣、
 <lb n="0404a17" ed="T"/>三止相緣、四舉相緣、五捨相緣、六現法樂住、
-<lb n="0404a18" ed="T"/>七能饒益他。</p><p xml:id="pT45p0404a1806" cb:place="inline">遂求有八：一、於諸毒藥霜雹災
+<lb n="0404a18" ed="T"/>七能饒益他。</p>
+<p xml:id="pT45p0404a1806" cb:place="inline">遂求有八：一、於諸毒藥霜雹災
 <lb n="0404a19" ed="T"/>患，能息能成呪術所依靜慮；二、於界違所生
 <lb n="0404a20" ed="T"/>眾患能除靜慮；三、於諸飢饉火災旱等現前
 <lb n="0404a21" ed="T"/>在時，興致甘雨靜慮；四、於怖畏能拔濟；五、於
 <lb n="0404a22" ed="T"/>乏食墮在曠野諸有情類，能施飲食；六、於乏
 <lb n="0404a23" ed="T"/>財位所化有情，能施財位；七、於十方界放逸
 <lb n="0404a24" ed="T"/>有情，能正諫誨；八、於諸有情，隨所生起，應作
-<lb n="0404a25" ed="T"/>正作靜慮。</p><p xml:id="pT45p0404a2505" cb:place="inline">此世他世樂有九：一、神通變現調
+<lb n="0404a25" ed="T"/>正作靜慮。</p>
+<p xml:id="pT45p0404a2505" cb:place="inline">此世他世樂有九：一、神通變現調
 <lb n="0404a26" ed="T"/>伏有情靜慮；二、記說變現調伏有情；三、教誡
 <lb n="0404a27" ed="T"/>變現調伏有情；四、於造惡者示現惡趣；五、於
 <lb n="0404a28" ed="T"/>失辨才能施辨才；六、於失念能施憶念；七、制
@@ -2727,15 +3217,19 @@
 <lb n="0404b09" ed="T"/>知障清淨靜慮。</p>
 <lb n="0404b10" ed="T"/><p xml:id="pT45p0404b1001">慧九門者，一、自性，謂能悟入一切所知，及已
 <lb n="0404b11" ed="T"/>悟入一切所知，簡擇諸法，普緣一切五明處
-<lb n="0404b12" ed="T"/>轉，即慧自性。</p><p xml:id="pT45p0404b1206" cb:place="inline">二、一切有二，謂世、出世，此各有
+<lb n="0404b12" ed="T"/>轉，即慧自性。</p>
+<p xml:id="pT45p0404b1206" cb:place="inline">二、一切有二，謂世、出世，此各有
 <lb n="0404b13" ed="T"/>三：一、能於所知真實，隨覺通達慧；二、能於
 <lb n="0404b14" ed="T"/>如所說五明處及三聚中，決定善巧慧；三、能
-<lb n="0404b15" ed="T"/>作一切有情義利慧。</p><p xml:id="pT45p0404b1509" cb:place="inline">難行慧者，有三種：能知
+<lb n="0404b15" ed="T"/>作一切有情義利慧。</p>
+<p xml:id="pT45p0404b1509" cb:place="inline">難行慧者，有三種：能知
 <lb n="0404b16" ed="T"/>甚深法無我智，名第一難；能了有情調伏方
 <lb n="0404b17" ed="T"/>便智，名第二難；了知一切所知境界無障礙
-<lb n="0404b18" ed="T"/>智；名第三難。</p><p xml:id="pT45p0404b1806" cb:place="inline">一切門者，略有四種：於二藏中，
+<lb n="0404b18" ed="T"/>智；名第三難。</p>
+<p xml:id="pT45p0404b1806" cb:place="inline">一切門者，略有四種：於二藏中，
 <lb n="0404b19" ed="T"/>勝妙聞思二慧，及所應作隨轉，所不應作止
-<lb n="0404b20" ed="T"/>息慧，及修習力所攝三摩呬多地無量慧。</p><p xml:id="pT45p0404b2017" cb:place="inline">善
+<lb n="0404b20" ed="T"/>息慧，及修習力所攝三摩呬多地無量慧。</p>
+<p xml:id="pT45p0404b2017" cb:place="inline">善
 <lb n="0404b21" ed="T"/>士慧者有五：一聽聞正法所集成慧、二內正
 <lb n="0404b22" ed="T"/>作意俱行慧、三自他利行方便俱行慧、四於
 <lb n="0404b23" ed="T"/>諸法中善決定慧、五捨煩惱慧。復有異門：一
@@ -2743,21 +3237,25 @@
 <lb n="0404b25" ed="T"/>入所知盡所有性故；三俱生慧，宿智資糧所
 <lb n="0404b26" ed="T"/>集成故；四具教慧，能於諸佛已入大地諸菩
 <lb n="0404b27" ed="T"/>薩眾，所聞法義具受持故；五具證慧，從淨
-<lb n="0404b28" ed="T"/>意樂地乃至到究竟地所攝受故。</p><p xml:id="pT45p0404b2814" cb:place="inline">一切種，六、
+<lb n="0404b28" ed="T"/>意樂地乃至到究竟地所攝受故。</p>
+<p xml:id="pT45p0404b2814" cb:place="inline">一切種，六、
 <lb n="0404b29" ed="T"/>七，六謂四諦、盡、無生智，是名六慧；七謂法智、
 <pb n="0404c" ed="T" xml:id="T45.1862.0404c"/>
 <lb n="0404c01" ed="T"/>類智、世俗智、神通智、相智、十力前行智、四
-<lb n="0404c02" ed="T"/>道理中正道理智。</p><p xml:id="pT45p0404c0208" cb:place="inline">遂求慧有八：一、依法異門
+<lb n="0404c02" ed="T"/>道理中正道理智。</p>
+<p xml:id="pT45p0404c0208" cb:place="inline">遂求慧有八：一、依法異門
 <lb n="0404c03" ed="T"/>智，謂法無礙慧；二、依法相智；三、依法釋詞智；
 <lb n="0404c04" ed="T"/>四、依法品類句差別智，即三無礙解；五、菩薩
 <lb n="0404c05" ed="T"/>一切摧伏他論慧；六、菩薩一切成立自論慧；
 <lb n="0404c06" ed="T"/>七、菩薩一切正訓營為宗屬家產慧；八、菩薩
-<lb n="0404c07" ed="T"/>一切善解種種王正世務慧。</p><p xml:id="pT45p0404c0712" cb:place="inline">二世樂有九：謂
+<lb n="0404c07" ed="T"/>一切善解種種王正世務慧。</p>
+<p xml:id="pT45p0404c0712" cb:place="inline">二世樂有九：謂
 <lb n="0404c08" ed="T"/>諸菩薩於內明處，能善明淨，善安住慧。餘四
 <lb n="0404c09" ed="T"/>明處能善明淨，非安住慧。一切菩薩即用如
 <lb n="0404c10" ed="T"/>是於五明處善明淨慧，以為依止，於他愚癡、
 <lb n="0404c11" ed="T"/>放逸、怯弱、勤修、正行所化有情，如其次第，示
-<lb n="0404c12" ed="T"/>現教導讚勵慶慰慧。</p><p xml:id="pT45p0404c1209" cb:place="inline">清淨有十：於真實義有
+<lb n="0404c12" ed="T"/>現教導讚勵慶慰慧。</p>
+<p xml:id="pT45p0404c1209" cb:place="inline">清淨有十：於真實義有
 <lb n="0404c13" ed="T"/>二慧，謂由盡所有性及如所有性。於流轉有
 <lb n="0404c14" ed="T"/>二慧，謂取正因果故。於執受義有二慧，謂
 <lb n="0404c15" ed="T"/>倒不倒如實了知故。於方便義有二慧，謂應
@@ -2848,9 +3346,15 @@
 <lb n="0405c10" ed="T"/>魅非處乞求；六乞求父母或復隨一非所施
 <lb n="0405c11" ed="T"/>物；七能為無義。</p></cb:div>
 <lb n="0405c12" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">四攝如度九種門</cb:mulu><head><anchor xml:id="fxT45p0405c04"/>四攝如度九種門</head>
-<lb n="0405c13" ed="T"/><p xml:id="pT45p0405c1301">四攝九門，<note n="0405001" resp="Taisho" type="orig" place="foot text">頌＝施ヵ【原】</note><note n="0405001" resp="CBETA" type="mod">頌【大】，施【考偽-原】</note><app n="0405001"><lem resp="Taisho" wit="【大】">頌</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">施</rdg></app>如前度。自性愛語，於諸有情，常
+<lb n="0405c13" ed="T"/><p xml:id="pT45p0405c1301">四攝九門，<note 
+n="0405001" resp="Taisho" type="orig" place="foot text">頌＝施ヵ【原】</note><note 
+n="0405001" resp="CBETA" type="mod">頌【大】，施【考偽-原】</note><app n="0405001">
+  <lem resp="Taisho" wit="【大】">頌</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">施</rdg>
+</app>如前度。自性愛語，於諸有情，常
 <lb n="0405c14" ed="T"/>樂宣說悅可意語、諦語、法語、引攝義語，為愛
-<lb n="0405c15" ed="T"/>語自性。</p><p xml:id="pT45p0405c1504" cb:place="inline">一切愛語者，略有三種：一、設慰喻語，
+<lb n="0405c15" ed="T"/>語自性。</p>
+<p xml:id="pT45p0405c1504" cb:place="inline">一切愛語者，略有三種：一、設慰喻語，
 <lb n="0405c16" ed="T"/>恒對有情遠離嚬蹙。先發善言，舒顏平視，含
 <lb n="0405c17" ed="T"/>笑為先，或問安隱吉祥，或問諸界調適，或問
 <lb n="0405c18" ed="T"/>晝夜怡樂，或命前進善來，以是等相慰問有
@@ -2859,7 +3363,8 @@
 <lb n="0405c21" ed="T"/>悅，或知信戒聞捨慧增，亦復慶悅。三、設勝
 <lb n="0405c22" ed="T"/>益語，宣說一切種德圓滿法教相應之語，利
 <lb n="0405c23" ed="T"/>益安樂一切有情，恒常現前以勝益言而為
-<lb n="0405c24" ed="T"/>饒益。</p><p xml:id="pT45p0405c2403" cb:place="inline">難行愛語者，略有三種：於能殺害怨家
+<lb n="0405c24" ed="T"/>饒益。</p>
+<p xml:id="pT45p0405c2403" cb:place="inline">難行愛語者，略有三種：於能殺害怨家
 <lb n="0405c25" ed="T"/>惡友，以善淨心無穢濁心，思擇為說如前三
 <lb n="0405c26" ed="T"/>語，名第一難。於其上品愚癡鈍根諸有情所，
 <lb n="0405c27" ed="T"/>心無疑慮，思擇為說種種法教，誓受疲勞，如
@@ -2867,12 +3372,14 @@
 <lb n="0405c29" ed="T"/>親教、軌範、尊者、長老真實福田，行邪惡行諸有
 <pb n="0406a" ed="T" xml:id="T45.1862.0406a"/>
 <lb n="0406a01" ed="T"/>情所，無嫌恨心，無恚惱心，思擇為說如前三
-<lb n="0406a02" ed="T"/>語，名第三難。</p><p xml:id="pT45p0406a0206" cb:place="inline">一切門語有四：一、欲斷諸蓋趣向
+<lb n="0406a02" ed="T"/>語，名第三難。</p>
+<p xml:id="pT45p0406a0206" cb:place="inline">一切門語有四：一、欲斷諸蓋趣向
 <lb n="0406a03" ed="T"/>善者，為說先時作法；二、遠離諸蓋心調善者，
 <lb n="0406a04" ed="T"/>為說增進四聖諦等相應正法；三、在家出家
 <lb n="0406a05" ed="T"/>多放逸者，無倒諫誨，方便令其出離放逸行，
 <lb n="0406a06" ed="T"/>住不放逸行；四、於諸法中多疑惑者，為令當
-<lb n="0406a07" ed="T"/>來離疑惑故，為說正法論議決擇。</p><p xml:id="pT45p0406a0714" cb:place="inline">善士愛語
+<lb n="0406a07" ed="T"/>來離疑惑故，為說正法論議決擇。</p>
+<p xml:id="pT45p0406a0714" cb:place="inline">善士愛語
 <lb n="0406a08" ed="T"/>略有五種：為所化生能說，如來及諸菩薩有
 <lb n="0406a09" ed="T"/>因緣法、有出離法、有所依法、有勇決法、有神
 <lb n="0406a10" ed="T"/>變法。若所說法得處有因制立學處，名有因
@@ -2880,7 +3387,8 @@
 <lb n="0406a12" ed="T"/>名有出離。若所說法四依所攝，施設無倒法
 <lb n="0406a13" ed="T"/>律正行，名有所依。若所說法能正顯示出一
 <lb n="0406a14" ed="T"/>切苦不退還行，名有勇決。若所說法作三神
-<lb n="0406a15" ed="T"/>變，一切所說終不唐捐，名有神變。</p><p xml:id="pT45p0406a1514" cb:place="inline">一切種
+<lb n="0406a15" ed="T"/>變，一切所說終不唐捐，名有神變。</p>
+<p xml:id="pT45p0406a1514" cb:place="inline">一切種
 <lb n="0406a16" ed="T"/>愛語，六種、七種。言六種者：一於應聽法開聽
 <lb n="0406a17" ed="T"/>愛語、二應制法遮制、三開示諸法法門、四開
 <lb n="0406a18" ed="T"/>示無倒法相、五開示無倒訓釋諸法言詞、六
@@ -2889,19 +3397,24 @@
 <lb n="0406a21" ed="T"/>一切所作及以正至少希欲中，廣恣愛語；四
 <lb n="0406a22" ed="T"/>安愍種種驚怖；五如理宣說所攝；六為欲令
 <lb n="0406a23" ed="T"/>他出不善處安住善處，正見聞疑舉呵；七請
-<lb n="0406a24" ed="T"/>他有力饒益愛語。</p><p xml:id="pT45p0406a2408" cb:place="inline">遂求有八：謂依四淨語起
+<lb n="0406a24" ed="T"/>他有力饒益愛語。</p>
+<p xml:id="pT45p0406a2408" cb:place="inline">遂求有八：謂依四淨語起
 <lb n="0406a25" ed="T"/>八聖語，四淨語謂四善語業，八聖語謂見言
-<lb n="0406a26" ed="T"/>見等。</p><p xml:id="pT45p0406a2603" cb:place="inline">二世樂有九：一說正法斷親屬難愁憂
+<lb n="0406a26" ed="T"/>見等。</p>
+<p xml:id="pT45p0406a2603" cb:place="inline">二世樂有九：一說正法斷親屬難愁憂
 <lb n="0406a27" ed="T"/>愛語、二說正法斷財位難愁憂、三說正法斷
 <lb n="0406a28" ed="T"/>無病難愁憂、四說正法斷淨戒難眾苦、五說
 <lb n="0406a29" ed="T"/>正法斷正見難眾苦、六說正法讚美淨戒圓
 <pb n="0406b" ed="T" xml:id="T45.1862.0406b"/>
 <lb n="0406b01" ed="T"/>滿、七說正法讚美正見圓滿、八說正法讚美
-<lb n="0406b02" ed="T"/>軌則圓滿、九說正法讚美正命圓滿愛語。</p><p xml:id="pT45p0406b0217" cb:place="inline">清
-<lb n="0406b03" ed="T"/>淨愛語有二十種，如前力品。</p><p xml:id="pT45p0406b0312" cb:place="inline">自性利行，由彼
+<lb n="0406b02" ed="T"/>軌則圓滿、九說正法讚美正命圓滿愛語。</p>
+<p xml:id="pT45p0406b0217" cb:place="inline">清
+<lb n="0406b03" ed="T"/>淨愛語有二十種，如前力品。</p>
+<p xml:id="pT45p0406b0312" cb:place="inline">自性利行，由彼
 <lb n="0406b04" ed="T"/>愛語，為諸有情，示現正理，隨其所應，於諸所
 <lb n="0406b05" ed="T"/>學，隨義利行法隨法行，如是行中安住悲心
-<lb n="0406b06" ed="T"/>無愛染心，勸導調伏安處建立，略名自性。</p><p xml:id="pT45p0406b0617" cb:place="inline">一
+<lb n="0406b06" ed="T"/>無愛染心，勸導調伏安處建立，略名自性。</p>
+<p xml:id="pT45p0406b0617" cb:place="inline">一
 <lb n="0406b07" ed="T"/>切利行，略有二種：一未成熟有情能成熟利
 <lb n="0406b08" ed="T"/>行、二已成熟有情令解脫利行。復由三門：一
 <lb n="0406b09" ed="T"/>於現法利勸導利行、二於後法利勸導利行、
@@ -2913,18 +3426,22 @@
 <lb n="0406b15" ed="T"/>決定獲得後法安樂，不必獲得現法安樂。於
 <lb n="0406b16" ed="T"/>現後利勸導利行者，正勸導在家或出家者，
 <lb n="0406b17" ed="T"/>漸次修行趣向離欲，由此能令現得輕安，後
-<lb n="0406b18" ed="T"/>生淨天或無餘依界般涅槃。</p><p xml:id="pT45p0406b1812" cb:place="inline">難行利行者，略
+<lb n="0406b18" ed="T"/>生淨天或無餘依界般涅槃。</p>
+<p xml:id="pT45p0406b1812" cb:place="inline">難行利行者，略
 <lb n="0406b19" ed="T"/>有三種：於先未行勝善根，因諸有情所能行
 <lb n="0406b20" ed="T"/>利行，名第一難。難勸導故，於有善因現前
 <lb n="0406b21" ed="T"/>耽著廣大財位眾具圓滿有情利行，名第二
 <lb n="0406b22" ed="T"/>難。廣大放逸耽著轉故，於諸外道著本異道
 <lb n="0406b23" ed="T"/>邪見邪行有情利行，名第三難。彼於自宗愚
-<lb n="0406b24" ed="T"/>癡執故，於正法律憎背執故。</p><p xml:id="pT45p0406b2412" cb:place="inline">一切門利行，有
+<lb n="0406b24" ed="T"/>癡執故，於正法律憎背執故。</p>
+<p xml:id="pT45p0406b2412" cb:place="inline">一切門利行，有
 <lb n="0406b25" ed="T"/>四：不信有情於信勸導、犯戒有情於戒勸導、
-<lb n="0406b26" ed="T"/>惡慧有情於慧勸導、慳悋有情於捨勸導。</p><p xml:id="pT45p0406b2617" cb:place="inline">善
+<lb n="0406b26" ed="T"/>惡慧有情於慧勸導、慳悋有情於捨勸導。</p>
+<p xml:id="pT45p0406b2617" cb:place="inline">善
 <lb n="0406b27" ed="T"/>士利行，略有五種：於真實義勸導有情、於應
 <lb n="0406b28" ed="T"/>時宜勸導、於攝妙義勸導、於諸有情柔濡勸
-<lb n="0406b29" ed="T"/>導、於諸有情慈心勸導。</p><p xml:id="pT45p0406b2910" cb:place="inline">一切種利行，有六、七
+<lb n="0406b29" ed="T"/>導、於諸有情慈心勸導。</p>
+<p xml:id="pT45p0406b2910" cb:place="inline">一切種利行，有六、七
 <pb n="0406c" ed="T" xml:id="T45.1862.0406c"/>
 <lb n="0406c01" ed="T"/>種。六謂：若諸有情應正攝受正攝受之、應正
 <lb n="0406c02" ed="T"/>調伏正調伏之、憎背聖教除其恚惱、處中住
@@ -2933,13 +3450,16 @@
 <lb n="0406c05" ed="T"/>養，隨小大乘或於遠離，或於心一境性，或於
 <lb n="0406c06" ed="T"/>清淨諸障，或於修習作意正安處之，若有二
 <lb n="0406c07" ed="T"/>乘種即於二乘而正安處，若大乘種即於大
-<lb n="0406c08" ed="T"/>乘安處。</p><p xml:id="pT45p0406c0804" cb:place="inline">遂求利行者，有八：謂見有情，於應慚
+<lb n="0406c08" ed="T"/>乘安處。</p>
+<p xml:id="pT45p0406c0804" cb:place="inline">遂求利行者，有八：謂見有情，於應慚
 <lb n="0406c09" ed="T"/>處為無慚纏之所纏繞，方便開解令離彼纏，
-<lb n="0406c10" ed="T"/>於餘七纏亦爾。</p><p xml:id="pT45p0406c1007" cb:place="inline">二世樂有九：謂於他有情，依
+<lb n="0406c10" ed="T"/>於餘七纏亦爾。</p>
+<p xml:id="pT45p0406c1007" cb:place="inline">二世樂有九：謂於他有情，依
 <lb n="0406c11" ed="T"/>淨身業，勸離殺生、離不與取、離欲邪行、離一
 <lb n="0406c12" ed="T"/>切窣羅若迷麗耶及以末陀放逸處酒；依淨
 <lb n="0406c13" ed="T"/>語業，勸離一切妄語、離離語、離麁語、離穢
-<lb n="0406c14" ed="T"/>語；依淨意業，勸離貪、瞋、癡。</p><p xml:id="pT45p0406c1411" cb:place="inline">清淨利行，有十：依
+<lb n="0406c14" ed="T"/>語；依淨意業，勸離貪、瞋、癡。</p>
+<p xml:id="pT45p0406c1411" cb:place="inline">清淨利行，有十：依
 <lb n="0406c15" ed="T"/>外清淨有五，一無罪利行、二不轉、三漸次、四
 <lb n="0406c16" ed="T"/>遍行、五如應。諸惡行者於諸善中能正安處，
 <lb n="0406c17" ed="T"/>名無罪行。於非解脫非定清淨處，求為真解
@@ -3053,7 +3573,11 @@
 <lb n="0408a05" ed="T"/>嚴壽命長遠，五者常於生處施行堅固，六者
 <lb n="0408a06" ed="T"/>有大名稱，七有大威德，八生在上族，九命終
 <lb n="0408a07" ed="T"/>生天，十速得涅槃。</p></cb:div>
-<lb n="0408a08" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">施鈴十功德門</cb:mulu><head><anchor xml:id="fxT45p0408a04"/>施<note n="0408a0801" resp="CBETA" type="add">鈴【CB】，飲【大】</note><app n="0408a0801"><lem resp="CBETA.maha" wit="【CB】" cb:provider="李偉澤 (2018-04-12)">鈴</lem><rdg wit="【大】">飲</rdg></app>十功德門</head>
+<lb n="0408a08" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">施鈴十功德門</cb:mulu><head><anchor xml:id="fxT45p0408a04"/>施<note 
+n="0408a0801" resp="CBETA" type="add">鈴【CB】，飲【大】</note><app n="0408a0801">
+  <lem resp="CBETA.maha" wit="【CB】" cb:provider="李偉澤 (2018-04-12)">鈴</lem>
+  <rdg wit="【大】">飲</rdg>
+</app>十功德門</head>
 <lb n="0408a09" ed="T"/><p xml:id="pT45p0408a0901">以鐘鈴施得十功德：一得梵音聲、二有大名
 <lb n="0408a10" ed="T"/>聞三識宿命、四所出言人皆敬愛、五常有寶
 <lb n="0408a11" ed="T"/>蓋以自莊嚴、六有妙瓔珞以為服飾、七者面

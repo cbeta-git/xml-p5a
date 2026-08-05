@@ -2,87 +2,89 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T46n1930">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">天台八教大意</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1930 天台八教大意</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1930 天台八教大意</title>
-			<author>隋 灌頂撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">46</idno>.<idno type="no">1930</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Ms. Z</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，Z先生提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-09-01T14:06:37">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">天台八教大意</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1930 天台八教大意</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1930 天台八教大意</title>
+      <author>隋 灌頂撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">46</idno>.<idno type="no">1930</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Ms. Z</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，Z先生提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-09-01T14:06:37">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0769a06" ed="T"/>
 <lb n="0769a07" ed="T"/>
 <lb n="0769a08" ed="T"/><cb:docNumber>No. 1930</cb:docNumber>
-<lb n="0769a09" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0769002" resp="Taisho" type="orig" place="foot text">【原】順治十八年刊增上寺報恩藏本，【甲】延寶三年刊大谷大學藏本</note>天台八教大意</cb:jhead></cb:juan>
+<lb n="0769a09" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0769002" resp="Taisho" type="orig" place="foot text">【原】順治十八年刊增上寺報恩藏本，【甲】延寶三年刊大谷大學藏本</note>天台八教大意</cb:jhead></cb:juan>
 <lb n="0769a10" ed="T"/>
 <lb n="0769a11" ed="T"/><byline cb:type="author">隋天台沙門灌頂撰</byline>
 <lb n="0769a12" ed="T"/><cb:div type="jing"><p xml:id="pT46p0769a1201">前佛後佛自行化他，究其旨歸，咸宗一妙佛
 <lb n="0769a13" ed="T"/>之知見。但機緣差品，應物現形，為實施權，故
 <lb n="0769a14" ed="T"/>分乎八：頓、漸、祕密、不定，化之儀式，譬如藥方；
-<lb n="0769a15" ed="T"/>藏、通、別、圓，所化之法，譬如藥味。</p><p xml:id="pT46p0769a1513" cb:place="inline">初言頓者，從
+<lb n="0769a15" ed="T"/>藏、通、別、圓，所化之法，譬如藥味。</p>
+<p xml:id="pT46p0769a1513" cb:place="inline">初言頓者，從
 <lb n="0769a16" ed="T"/>部得名，即《華嚴》也。佛垂迹化，塵劫叵量，因壽
 <lb n="0769a17" ed="T"/>倍之，果寧可喻？且從今日一期降生，託陰摩
 <lb n="0769a18" ed="T"/>耶，主伴互為，唯資大法。譬如日出先照高山，
@@ -91,37 +93,44 @@
 <lb n="0769a21" ed="T"/>牛出乳。」又二乘機生，未受大化，雖復在座，如
 <lb n="0769a22" ed="T"/>聾若盲，初會俱無見聞之益，亦名為乳。故迦
 <lb n="0769a23" ed="T"/>葉領解云：「即遣傍人急追將還，迷悶躄地」等，
-<lb n="0769a24" ed="T"/>即第一時也。</p><p xml:id="pT46p0769a2406" cb:place="inline">次從鹿苑至于般若，名為漸教。
+<lb n="0769a24" ed="T"/>即第一時也。</p>
+<p xml:id="pT46p0769a2406" cb:place="inline">次從鹿苑至于般若，名為漸教。
 <lb n="0769a25" ed="T"/>既二乘全生，貴藥非賤治，不動九會，脫妙著
 <lb n="0769a26" ed="T"/>麁。貫日託陰，納妃生子。示成鹿苑，轉生滅四
 <lb n="0769a27" ed="T"/>諦法輪，小乘生信，先度五人。約譬次第名為
 <lb n="0769a28" ed="T"/>酪味，故迦葉領解云：「密遣二人方便附近」等。
 <lb n="0769a29" ed="T"/>故《涅槃》云：「從十二部經出修多羅，譬從乳出
 <pb n="0769b" ed="T" xml:id="T46.1930.0769b"/>
-<lb n="0769b01" ed="T"/>酪。」即第二時也。</p><p xml:id="pT46p0769b0107" cb:place="inline">次明方等《大集》、《寶積》、《淨名》，褒
+<lb n="0769b01" ed="T"/>酪。」即第二時也。</p>
+<p xml:id="pT46p0769b0107" cb:place="inline">次明方等《大集》、《寶積》、《淨名》，褒
 <lb n="0769b02" ed="T"/>圓歎大，折小彈偏，自悲敗種。約譬次第名生
 <lb n="0769b03" ed="T"/>酥味，故《涅槃》云：「從修多羅出方等典，譬從
 <lb n="0769b04" ed="T"/>酪出生酥。」故迦葉領解云：「過是已後，心相體
 <lb n="0769b05" ed="T"/>信，出入無難，然其所止猶在本處」，即第三味
-<lb n="0769b06" ed="T"/>也。</p><p xml:id="pT46p0769b0602" cb:place="inline">次說諸部《般若》，轉教付財，雖通洮汰。約譬
+<lb n="0769b06" ed="T"/>也。</p>
+<p xml:id="pT46p0769b0602" cb:place="inline">次說諸部《般若》，轉教付財，雖通洮汰。約譬
 <lb n="0769b07" ed="T"/>次第名熟酥味，故迦葉領解云：「長者自知將
-<lb n="0769b08" ed="T"/>死不久」等，即第四味也。</p><p xml:id="pT46p0769b0810" cb:place="inline">此等四味對頓名漸，
+<lb n="0769b08" ed="T"/>死不久」等，即第四味也。</p>
+<p xml:id="pT46p0769b0810" cb:place="inline">此等四味對頓名漸，
 <lb n="0769b09" ed="T"/>《法華》、《涅槃》非頓漸攝，開前頓漸歸會佛乘。約
 <lb n="0769b10" ed="T"/>譬次第名醍醐味，故《涅槃》云：「從《摩訶般若》出
 <lb n="0769b11" ed="T"/>《大涅槃》合於《法華》，譬從熟酥出醍醐味。」故迦
 <lb n="0769b12" ed="T"/>葉領解云：「臨欲終時，而命其子」等，即第五味
-<lb n="0769b13" ed="T"/>也。</p><p xml:id="pT46p0769b1302" cb:place="inline">餘之六教，遍在漸頓之中，同聽異聞，互不
+<lb n="0769b13" ed="T"/>也。</p>
+<p xml:id="pT46p0769b1302" cb:place="inline">餘之六教，遍在漸頓之中，同聽異聞，互不
 <lb n="0769b14" ed="T"/>相知，名祕密教。同聽異聞，彼彼相知，名不定
 <lb n="0769b15" ed="T"/>教。祕密、不定名下之法，只是藏、通、別、圓。佛世
 <lb n="0769b16" ed="T"/>逗機，一音異解，從化儀大判且受二名。略明
-<lb n="0769b17" ed="T"/>化儀四教義竟。</p><p xml:id="pT46p0769b1707" cb:place="inline">次明藏、通、別、圓四教，亦遍頓、
+<lb n="0769b17" ed="T"/>化儀四教義竟。</p>
+<p xml:id="pT46p0769b1707" cb:place="inline">次明藏、通、別、圓四教，亦遍頓、
 <lb n="0769b18" ed="T"/>漸二味之中。《華嚴》頓部，圓教兼別。鹿苑初成，
 <lb n="0769b19" ed="T"/>十二年前說戒、定、慧三，並屬小，但三藏教。十
 <lb n="0769b20" ed="T"/>二年後、《般若》之前，《大集》、《寶積》、《楞伽》、《思益》、《淨名》、《金
 <lb n="0769b21" ed="T"/>光明》，除《般若》外並屬方等，對半明滿，具有四
 <lb n="0769b22" ed="T"/>教。諸部《般若》帶半明滿，具通、別、圓，無三藏教。
 <lb n="0769b23" ed="T"/>《法華》會竟無三，唯一圓教，《涅槃》最後談常，四
-<lb n="0769b24" ed="T"/>教並知圓理，所以二經同醍醐味。</p><p xml:id="pT46p0769b2414" cb:place="inline">第一明三
+<lb n="0769b24" ed="T"/>教並知圓理，所以二經同醍醐味。</p>
+<p xml:id="pT46p0769b2414" cb:place="inline">第一明三
 <lb n="0769b25" ed="T"/>藏教者，仍於《法華》及《大智度論》，對斥小乘得
 <lb n="0769b26" ed="T"/>此名也。《論》云：「迦旃延子自以聰明利根，於
 <lb n="0769b27" ed="T"/>《婆沙》中明三藏義，不讀衍經、非大菩薩。廣破
@@ -133,12 +142,19 @@
 <lb n="0769c03" ed="T"/>於四諦，緣覺觀十二因緣，菩薩修事六度。二
 <lb n="0769c04" ed="T"/>乘則自調自度，菩薩乃弘誓與拔，因雖小異，
 <lb n="0769c05" ed="T"/>俱析實陰而歸但空。」聲聞階位立於七賢七
-<lb n="0769c06" ed="T"/>聖不同，種福乃三生六十劫。</p><p xml:id="pT46p0769c0612" cb:place="inline">次明支佛者，支
+<lb n="0769c06" ed="T"/>聖不同，種福乃三生六十劫。</p>
+<p xml:id="pT46p0769c0612" cb:place="inline">次明支佛者，支
 <lb n="0769c07" ed="T"/>佛此翻緣覺，若出無佛世，觀華飛葉落，頓悟
 <lb n="0769c08" ed="T"/>支佛，名為獨覺；生於佛世，聞說因緣，頓悟支
 <lb n="0769c09" ed="T"/>佛，名為緣覺。並福厚根利，謂四生一百劫所
-<lb n="0769c10" ed="T"/>修因也。</p><p xml:id="pT46p0769c1004" cb:place="inline">三明菩薩乘者，從初發心緣生滅四
-<lb n="0769c11" ed="T"/>諦，發四弘誓願：一<note n="0769003" resp="Taisho" type="orig" place="foot text">味＝未【甲】</note><note n="0769003" resp="CBETA" type="mod">味【大】，未【甲】</note><app n="0769003"><lem wit="【大】">味</lem><rdg resp="Taisho" wit="【甲】">未</rdg></app>度者令度，即眾生無邊
+<lb n="0769c10" ed="T"/>修因也。</p>
+<p xml:id="pT46p0769c1004" cb:place="inline">三明菩薩乘者，從初發心緣生滅四
+<lb n="0769c11" ed="T"/>諦，發四弘誓願：一<note 
+n="0769003" resp="Taisho" type="orig" place="foot text">味＝未【甲】</note><note 
+n="0769003" resp="CBETA" type="mod">味【大】，未【甲】</note><app n="0769003">
+  <lem wit="【大】">味</lem>
+  <rdg resp="Taisho" wit="【甲】">未</rdg>
+</app>度者令度，即眾生無邊
 <lb n="0769c12" ed="T"/>誓願度，謂度天魔外道，愛、見二種六道眾生，
 <lb n="0769c13" ed="T"/>此緣苦諦境而發心也；二未解者令解，即煩
 <lb n="0769c14" ed="T"/>惱無數誓願斷，願斷愛見六道眾生二十五
@@ -164,12 +180,15 @@
 <lb n="0770a04" ed="T"/>釋於二天下自在為一福。」有云：「大千人盲治
 <lb n="0770a05" ed="T"/>差為一福。」有云：「一切人破戒，能為說法，令
 <lb n="0770a06" ed="T"/>捨毀禁為一福。」有云：「不可譬喻，唯佛能知，入
-<lb n="0770a07" ed="T"/>第三僧祇修行大行故福難量。」</p><p xml:id="pT46p0770a0713" cb:place="inline">問：幾時種三
-<lb n="0770a08" ed="T"/>十二相因？</p><p xml:id="pT46p0770a0805" cb:place="inline">答：極遲百劫，極疾九十一劫。故弗
+<lb n="0770a07" ed="T"/>第三僧祇修行大行故福難量。」</p>
+<p xml:id="pT46p0770a0713" cb:place="inline">問：幾時種三
+<lb n="0770a08" ed="T"/>十二相因？</p>
+<p xml:id="pT46p0770a0805" cb:place="inline">答：極遲百劫，極疾九十一劫。故弗
 <lb n="0770a09" ed="T"/>沙佛觀見釋迦弟子根熟，宜在前度，於寶窟
 <lb n="0770a10" ed="T"/>中放光遠照。菩薩尋光至弗沙所，七日七夜
 <lb n="0770a11" ed="T"/>一心觀佛，目不暫眴，苦行讚歎，超彌勒前
-<lb n="0770a12" ed="T"/>九劫獲證。</p><p xml:id="pT46p0770a1205" cb:place="inline">修行六度各有滿時，凡有所施而
+<lb n="0770a12" ed="T"/>九劫獲證。</p>
+<p xml:id="pT46p0770a1205" cb:place="inline">修行六度各有滿時，凡有所施而
 <lb n="0770a13" ed="T"/>無遮礙，如尸毘王代鴿，是檀滿；如須陀摩王
 <lb n="0770a14" ed="T"/>捨國獲偈，護不妄語，是名尸滿；如羼提仙人
 <lb n="0770a15" ed="T"/>為歌利王割截無恨，身體平復，是忍辱滿；如
@@ -180,25 +199,34 @@
 <lb n="0770a20" ed="T"/>尚闍黎仙人入定，鳥巢髻中，待子能飛方乃
 <lb n="0770a21" ed="T"/>出定，是名禪滿；如劬嬪大臣分閻浮提地而
 <lb n="0770a22" ed="T"/>為七分，息國仇諍，是般若滿。此訖前百劫並
-<lb n="0770a23" ed="T"/>下忍位也。</p><p xml:id="pT46p0770a2305" cb:place="inline">次入補處，生兜率；託母胎出生；出
+<lb n="0770a23" ed="T"/>下忍位也。</p>
+<p xml:id="pT46p0770a2305" cb:place="inline">次入補處，生兜率；託母胎出生；出
 <lb n="0770a24" ed="T"/>家降魔；魔軍散已，安坐住禪，即中忍成就；次
 <lb n="0770a25" ed="T"/>一剎那入上忍；次一剎那入世第一；次一剎
 <lb n="0770a26" ed="T"/>那發真無漏，三十四心斷惑證果，十力、無畏
 <lb n="0770a27" ed="T"/>等皆成就名佛；轉于法輪；緣盡入滅；舍利住
-<lb n="0770a28" ed="T"/>世廣福人天。此是三藏三乘之相。</p><p xml:id="pT46p0770a2814" cb:place="inline">問：何故二
+<lb n="0770a28" ed="T"/>世廣福人天。此是三藏三乘之相。</p>
+<p xml:id="pT46p0770a2814" cb:place="inline">問：何故二
 <lb n="0770a29" ed="T"/>乘即生斷結，菩薩從初乃至降魔仍未斷耶？</p>
 <pb n="0770b" ed="T" xml:id="T46.1930.0770b"/>
 <lb n="0770b01" ed="T"/><p xml:id="pT46p0770b0101">答：二乘厭患生死，自求涅槃，故先斷結。菩薩
 <lb n="0770b02" ed="T"/>慈悲，先物後己，設乃因時斷思未得，無漏力
-<lb n="0770b03" ed="T"/>弱，從其元意亦名未斷。</p><p xml:id="pT46p0770b0310" cb:place="inline">問：三乘所修凡具幾
+<lb n="0770b03" ed="T"/>弱，從其元意亦名未斷。</p>
+<p xml:id="pT46p0770b0310" cb:place="inline">問：三乘所修凡具幾
 <lb n="0770b04" ed="T"/>法？答：大而為論，並用十法。能通之門有四，隨
-<lb n="0770b05" ed="T"/>入咸然。</p><p xml:id="pT46p0770b0504" cb:place="inline">今約有門略明十義：一、明所觀之境，
+<lb n="0770b05" ed="T"/>入咸然。</p>
+<p xml:id="pT46p0770b0504" cb:place="inline">今約有門略明十義：一、明所觀之境，
 <lb n="0770b06" ed="T"/>即是識正無明因緣生一切法也。故《大論》云：
 <lb n="0770b07" ed="T"/>「色若麁若細，總而觀之，無常、無我，悉是顛倒。」
 <lb n="0770b08" ed="T"/>如《阿毘曇》廣說，不同外道計微塵世性及自
 <lb n="0770b09" ed="T"/>然等。二、真正發心者，既識無明乃至老死，正
 <lb n="0770b10" ed="T"/>求涅槃，發三乘心，出離見愛，不要名利，唯志
-<lb n="0770b11" ed="T"/>無餘。三、遵定慧者，既誓求出有，依木<note n="0770001" resp="Taisho" type="orig" place="foot text">又＝叉【甲】</note><note n="0770001" resp="CBETA" type="mod">又【大】，叉【甲】</note><app n="0770001"><lem wit="【大】">又</lem><rdg resp="Taisho" wit="【甲】">叉</rdg></app>住
+<lb n="0770b11" ed="T"/>無餘。三、遵定慧者，既誓求出有，依木<note 
+n="0770001" resp="Taisho" type="orig" place="foot text">又＝叉【甲】</note><note 
+n="0770001" resp="CBETA" type="mod">又【大】，叉【甲】</note><app n="0770001">
+  <lem wit="【大】">又</lem>
+  <rdg resp="Taisho" wit="【甲】">叉</rdg>
+</app>住
 <lb n="0770b12" ed="T"/>修道。但遮障紛馳，道何由剋？為修四念、學五
 <lb n="0770b13" ed="T"/>停心。破五種障名停，事觀名定，念處即慧。慧
 <lb n="0770b14" ed="T"/>定均停故名安心。四、破法遍，令見有得道，以
@@ -228,7 +256,8 @@
 <lb n="0770c08" ed="T"/>惑，或超或次得成無學。利人節節得入，鈍
 <lb n="0770c09" ed="T"/>人具乘至十。《阿毘曇》中所明雖廣，不出十意，
 <lb n="0770c10" ed="T"/>名為十法成乘。有門既爾，空門、亦有亦空門、
-<lb n="0770c11" ed="T"/>非有非空門亦如是，廣如大本。三藏教竟。</p><p xml:id="pT46p0770c1117" cb:place="inline">次
+<lb n="0770c11" ed="T"/>非有非空門亦如是，廣如大本。三藏教竟。</p>
+<p xml:id="pT46p0770c1117" cb:place="inline">次
 <lb n="0770c12" ed="T"/>明通教。通者，同也。此教三乘因果大同，故名
 <lb n="0770c13" ed="T"/>通教。故經云：「欲得三乘，當學般若。」論云：「聲
 <lb n="0770c14" ed="T"/>聞及緣覺，解脫涅槃道，皆從般若得。」三人共
@@ -237,7 +266,8 @@
 <lb n="0770c17" ed="T"/>通教體陰則真名巧，三藏析陰方真名拙，即
 <lb n="0770c18" ed="T"/>是界內巧拙相對。相對雖爾，此去三教並屬
 <lb n="0770c19" ed="T"/>大乘。大名雖同，若地若行，名數多少、深淺天
-<lb n="0770c20" ed="T"/>隔。</p><p xml:id="pT46p0770c2002" cb:place="inline">初乾慧地，即是外凡。體陰、界、入如幻如化，
+<lb n="0770c20" ed="T"/>隔。</p>
+<p xml:id="pT46p0770c2002" cb:place="inline">初乾慧地，即是外凡。體陰、界、入如幻如化，
 <lb n="0770c21" ed="T"/>總伏見愛八倒，名四念觀。住是觀中，修正勤、
 <lb n="0770c22" ed="T"/>如意、根、力、覺、道，雖未得煖法相似理水，總相
 <lb n="0770c23" ed="T"/>智慧深利，故稱乾慧地。二、性地者，得煖法理
@@ -261,7 +291,8 @@
 <lb n="0771a11" ed="T"/>佛地。轉無生四諦法輪，化三乘眾入無餘涅
 <lb n="0771a12" ed="T"/>槃，如火燒木無復灰炭，香象度河到於邊底。
 <lb n="0771a13" ed="T"/>故經云：「諸法實性相，三乘亦皆得，而不名為
-<lb n="0771a14" ed="T"/>佛。」</p><p xml:id="pT46p0771a1402" cb:place="inline">三乘觀行亦有四門，今亦約有門明於十
+<lb n="0771a14" ed="T"/>佛。」</p>
+<p xml:id="pT46p0771a1402" cb:place="inline">三乘觀行亦有四門，今亦約有門明於十
 <lb n="0771a15" ed="T"/>法成乘：初明觀境，即六道陰入，能觀所觀
 <lb n="0771a16" ed="T"/>皆如幻化。二、明發心，二乘緣真自行，菩薩體
 <lb n="0771a17" ed="T"/>幻，兼人與樂拔苦，譬於鏡像。三、安心定慧，前
@@ -275,7 +306,8 @@
 <lb n="0771a25" ed="T"/>殊途而不謬濫。九、令安忍乾慧、外凡內外諸
 <lb n="0771a26" ed="T"/>障而入性地。第十，速令內凡性地不著相似
 <lb n="0771a27" ed="T"/>法愛，而入八人見地證真，餘三門亦如是。廣
-<lb n="0771a28" ed="T"/>如大本。通教竟。</p><p xml:id="pT46p0771a2807" cb:place="inline">三、明別教者，此約界外獨菩
+<lb n="0771a28" ed="T"/>如大本。通教竟。</p>
+<p xml:id="pT46p0771a2807" cb:place="inline">三、明別教者，此約界外獨菩
 <lb n="0771a29" ed="T"/>薩法。教理、智斷、行位、因果，別前二教、別後圓
 <pb n="0771b" ed="T" xml:id="T46.1930.0771b"/>
 <lb n="0771b01" ed="T"/>教，故名為別。《涅槃》云：「四諦因緣有無量相，
@@ -285,25 +317,31 @@
 <lb n="0771b05" ed="T"/>佛。《瓔珞》明五十二位，前加十信。《仁王》不論等
 <lb n="0771b06" ed="T"/>覺，但五十一位。《金光明經》但出十地佛果。《勝
 <lb n="0771b07" ed="T"/>天王》但明十地。《涅槃》明五行十功德。既是界
-<lb n="0771b08" ed="T"/>外菩薩行位，隨機利益，豈得定說？</p><p xml:id="pT46p0771b0814" cb:place="inline">今約《瓔珞》
+<lb n="0771b08" ed="T"/>外菩薩行位，隨機利益，豈得定說？</p>
+<p xml:id="pT46p0771b0814" cb:place="inline">今約《瓔珞》
 <lb n="0771b09" ed="T"/>總明七位：一十信、二十住、三十行、四十迴
-<lb n="0771b10" ed="T"/>向、五十地、六等覺、七妙覺。</p><p xml:id="pT46p0771b1011" cb:place="inline">初十信者，十心
+<lb n="0771b10" ed="T"/>向、五十地、六等覺、七妙覺。</p>
+<p xml:id="pT46p0771b1011" cb:place="inline">初十信者，十心
 <lb n="0771b11" ed="T"/>之中以信為本，故云十信。十心者，一信、二
 <lb n="0771b12" ed="T"/>念、三精進、四慧、五定、六不退、七迴向、八護
 <lb n="0771b13" ed="T"/>法、九戒、十願，即是外凡伏忍位也。住、行、向
-<lb n="0771b14" ed="T"/>三並屬內凡柔順忍位。</p><p xml:id="pT46p0771b1410" cb:place="inline">二、明十住者，即習種
+<lb n="0771b14" ed="T"/>三並屬內凡柔順忍位。</p>
+<p xml:id="pT46p0771b1410" cb:place="inline">二、明十住者，即習種
 <lb n="0771b15" ed="T"/>性，從信入住習，從假入空，斷界內見思，故
 <lb n="0771b16" ed="T"/>名習種。一發心、二持地、三修行、四生貴、五
 <lb n="0771b17" ed="T"/>方便具足、六正心、七不退、八童真、九法王子、
-<lb n="0771b18" ed="T"/>十灌頂。</p><p xml:id="pT46p0771b1804" cb:place="inline">三、明十行者，性種性也。從十住空性
+<lb n="0771b18" ed="T"/>十灌頂。</p>
+<p xml:id="pT46p0771b1804" cb:place="inline">三、明十行者，性種性也。從十住空性
 <lb n="0771b19" ed="T"/>而入十行假性，名性種性。一歡喜、二饒益、
 <lb n="0771b20" ed="T"/>三無瞋恨、四無盡、五離癡亂、六善現、七無
-<lb n="0771b21" ed="T"/>著、八尊重、九善法、十真實。</p><p xml:id="pT46p0771b2111" cb:place="inline">四、明十迴向，道種
+<lb n="0771b21" ed="T"/>著、八尊重、九善法、十真實。</p>
+<p xml:id="pT46p0771b2111" cb:place="inline">四、明十迴向，道種
 <lb n="0771b22" ed="T"/>性者，修中道觀，伏界外惑，故名道種。一救護
 <lb n="0771b23" ed="T"/>眾生、二不壞、三等一切諸佛、四遍至一切處、
 <lb n="0771b24" ed="T"/>五無盡功德藏、六隨順一切堅固平等善根、
 <lb n="0771b25" ed="T"/>七等觀一切眾生、八真如相、九無縛無著解
-<lb n="0771b26" ed="T"/>脫、十入法界無量。</p><p xml:id="pT46p0771b2608" cb:place="inline">五、明十地，聖種性者，證
+<lb n="0771b26" ed="T"/>脫、十入法界無量。</p>
+<p xml:id="pT46p0771b2608" cb:place="inline">五、明十地，聖種性者，證
 <lb n="0771b27" ed="T"/>中道觀，故名為聖。一歡喜、二離垢、三明地、
 <lb n="0771b28" ed="T"/>四焰地、五難勝、六現前、七遠行、八不動、九
 <lb n="0771b29" ed="T"/>善慧、十法雲，此之十地破界外十品無明，更
@@ -311,7 +349,8 @@
 <lb n="0771c01" ed="T"/>破一品入於等覺，更破一品入於妙覺，始終
 <lb n="0771c02" ed="T"/>但破十二品無明，乃與圓教第二行齊。以我
 <lb n="0771c03" ed="T"/>之因為汝之果，教權位高者，譬如邊方未靜，
-<lb n="0771c04" ed="T"/>高位目之定爵論功，其官則下。</p><p xml:id="pT46p0771c0413" cb:place="inline">此教緣無量
+<lb n="0771c04" ed="T"/>高位目之定爵論功，其官則下。</p>
+<p xml:id="pT46p0771c0413" cb:place="inline">此教緣無量
 <lb n="0771c05" ed="T"/>四諦發菩提心，苦、集、滅、道皆無量相，若論自
 <lb n="0771c06" ed="T"/>行隨一門竪入，化他始終橫破故。十住自行
 <lb n="0771c07" ed="T"/>從假入空，用生、無生觀六界空。十行入假，廣
@@ -321,7 +360,8 @@
 <lb n="0771c11" ed="T"/>別，名為證道。若有宜聞地上歷別，亦作一
 <lb n="0771c12" ed="T"/>地不知二地說之，故得諸大乘經或明七地
 <lb n="0771c13" ed="T"/>之前猶居方便位也。此則始終約教不同，緣
-<lb n="0771c14" ed="T"/>修地前對地名為教道。</p><p xml:id="pT46p0771c1410" cb:place="inline">且約自行四門之中
+<lb n="0771c14" ed="T"/>修地前對地名為教道。</p>
+<p xml:id="pT46p0771c1410" cb:place="inline">且約自行四門之中
 <lb n="0771c15" ed="T"/>有門所修十法成觀：初明境者，緣於登地中
 <lb n="0771c16" ed="T"/>道妙有之境而為所觀，局出空有之表。二、明
 <lb n="0771c17" ed="T"/>發心者，緣此妙有起四弘誓，故《華嚴》云：「菩
@@ -339,11 +379,13 @@
 <lb n="0771c29" ed="T"/>離違順、強軟二賊。十、無法愛者，策三十心令
 <pb n="0772a" ed="T" xml:id="T46.1930.0772a"/>
 <lb n="0772a01" ed="T"/>入十地，若愛相似之法，名為頂墮。餘三門亦
-<lb n="0772a02" ed="T"/>如是，廣如大本。別教竟。</p><p xml:id="pT46p0772a0210" cb:place="inline">次略明圓教者，圓名
+<lb n="0772a02" ed="T"/>如是，廣如大本。別教竟。</p>
+<p xml:id="pT46p0772a0210" cb:place="inline">次略明圓教者，圓名
 <lb n="0772a03" ed="T"/>圓妙。《華嚴》法界廣大，《淨名》入不二法門，《般
 <lb n="0772a04" ed="T"/>若》最上之乘，《涅槃》一心五行等，並圓妙法也。
 <lb n="0772a05" ed="T"/>此等圓妙一理無他，兼帶半、滿，權覆於實，旨
-<lb n="0772a06" ed="T"/>趣猶隱。</p><p xml:id="pT46p0772a0604" cb:place="inline">今從佛意，卷權歸實，開顯之圓粗騰
+<lb n="0772a06" ed="T"/>趣猶隱。</p>
+<p xml:id="pT46p0772a0604" cb:place="inline">今從佛意，卷權歸實，開顯之圓粗騰
 <lb n="0772a07" ed="T"/>綱要，即以《法華．分別功德品》末明本迹流通。
 <lb n="0772a08" ed="T"/>如來滅後，五品聞經轉說，起觀行成，以為凡
 <lb n="0772a09" ed="T"/>地措心之首。經云：「又復如來滅後，若聞是
@@ -359,7 +401,8 @@
 <lb n="0772a19" ed="T"/>戒、忍辱無瞋，精進勇猛得諸深定，智慧問答，
 <lb n="0772a20" ed="T"/>則是具行六度。」第五品也。初品之初校量叵
 <lb n="0772a21" ed="T"/>測，餘之四品非凡小所知。略如經文，不能具
-<lb n="0772a22" ed="T"/>述。</p><p xml:id="pT46p0772a2202" cb:place="inline">初言隨喜者，隨喜妙法也。法即心法及生、
+<lb n="0772a22" ed="T"/>述。</p>
+<p xml:id="pT46p0772a2202" cb:place="inline">初言隨喜者，隨喜妙法也。法即心法及生、
 <lb n="0772a23" ed="T"/>佛法，此法即心、此心即法，三無差別，凡聖一
 <lb n="0772a24" ed="T"/>如。如即實相，實相遍相百界三千，百界三千
 <lb n="0772a25" ed="T"/>無非實相。故經云：「諸法實相，即指諸佛權實
@@ -372,26 +415,33 @@
 <lb n="0772b02" ed="T"/>也；具心即中，中道第一義諦也。知真即空觀；
 <lb n="0772b03" ed="T"/>知俗即假觀；知中即中觀。常境無相，常智無
 <lb n="0772b04" ed="T"/>緣，無緣而緣，無非三觀；無相而相，三諦宛然。
-<lb n="0772b05" ed="T"/>初心<note n="0772001" resp="Taisho" type="orig" place="foot text">甲本冠註曰此知準四教儀合作知此</note>此知，慶己慶人，故名隨喜，即第五十人
+<lb n="0772b05" ed="T"/>初心<note 
+n="0772001" resp="Taisho" type="orig" place="foot text">甲本冠註曰此知準四教儀合作知此</note>此知，慶己慶人，故名隨喜，即第五十人
 <lb n="0772b06" ed="T"/>也。會初聞說即五品之初，觀念無間，故有異
 <lb n="0772b07" ed="T"/>也。一一品中以五悔為本，故彌勒因時無別
 <lb n="0772b08" ed="T"/>苦行，但修五悔，日夜六時無時有須臾廢，成
-<lb n="0772b09" ed="T"/>等正覺。</p><p xml:id="pT46p0772b0904" cb:place="inline">次以圓解觀心，修行五悔，更加讀誦，
+<lb n="0772b09" ed="T"/>等正覺。</p>
+<p xml:id="pT46p0772b0904" cb:place="inline">次以圓解觀心，修行五悔，更加讀誦，
 <lb n="0772b10" ed="T"/>善言妙義，與心相會，如膏助火。是時心觀益
-<lb n="0772b11" ed="T"/>明，名第二品也。</p><p xml:id="pT46p0772b1107" cb:place="inline">次以增品勝心修行五悔，更
+<lb n="0772b11" ed="T"/>明，名第二品也。</p>
+<p xml:id="pT46p0772b1107" cb:place="inline">次以增品勝心修行五悔，更
 <lb n="0772b12" ed="T"/>加說法，轉其內解，導利前人。以廣濟故，化
-<lb n="0772b13" ed="T"/>功歸己，心倍勝前，名第三品。</p><p xml:id="pT46p0772b1312" cb:place="inline">次增進心修行
+<lb n="0772b13" ed="T"/>功歸己，心倍勝前，名第三品。</p>
+<p xml:id="pT46p0772b1312" cb:place="inline">次增進心修行
 <lb n="0772b14" ed="T"/>五悔，傍行六度，福德力故，倍助觀心，更一重
-<lb n="0772b15" ed="T"/>深進，名第四品。</p><p xml:id="pT46p0772b1507" cb:place="inline">次以圓心修行五悔，正行六
+<lb n="0772b15" ed="T"/>深進，名第四品。</p>
+<p xml:id="pT46p0772b1507" cb:place="inline">次以圓心修行五悔，正行六
 <lb n="0772b16" ed="T"/>度，自行化他，事理具足，心觀無礙，轉勝於前
-<lb n="0772b17" ed="T"/>不可比喻，名第五品。</p><p xml:id="pT46p0772b1709" cb:place="inline">此等五品並外凡位，假
+<lb n="0772b17" ed="T"/>不可比喻，名第五品。</p>
+<p xml:id="pT46p0772b1709" cb:place="inline">此等五品並外凡位，假
 <lb n="0772b18" ed="T"/>名五品。既轉明靜，豁入聞慧，通達無滯，深信
 <lb n="0772b19" ed="T"/>難動，即入十信，六根清淨內凡位也。見思之
 <lb n="0772b20" ed="T"/>惑任運先除，如冶鐵作器，麁垢先盡。故《仁王
 <lb n="0772b21" ed="T"/>般若》云：「十善菩薩發大心，長別三界苦輪海。」
 <lb n="0772b22" ed="T"/>與三藏通教佛果位齊，與別教十迴向齊也。
 <lb n="0772b23" ed="T"/>信名雖同別教，人之與行深淺永殊，住、行、向、
-<lb n="0772b24" ed="T"/>地亦復如是。圓賢位竟。</p><p xml:id="pT46p0772b2410" cb:place="inline">次明聖位。四十二
+<lb n="0772b24" ed="T"/>地亦復如是。圓賢位竟。</p>
+<p xml:id="pT46p0772b2410" cb:place="inline">次明聖位。四十二
 <lb n="0772b25" ed="T"/>品並破界外微細無明，初入十住，破十品無
 <lb n="0772b26" ed="T"/>明，證圓佛性，開佛知見。故《華嚴》云：「初發心
 <lb n="0772b27" ed="T"/>時便成正覺，真實之性不由他悟。」即此意也。
@@ -405,19 +455,22 @@
 <lb n="0772c05" ed="T"/>也。次破一品入等覺，後破一品入妙覺。妙覺
 <lb n="0772c06" ed="T"/>無上，無所復論。始終理等，故名為圓；約事
 <lb n="0772c07" ed="T"/>仍殊，乃分諸位。譬如濕性，氷水無殊，融氷成
-<lb n="0772c08" ed="T"/>水，初後宛然。</p><p xml:id="pT46p0772c0806" cb:place="inline">應明六即，方顯聖理。圓性恒遍，
+<lb n="0772c08" ed="T"/>水，初後宛然。</p>
+<p xml:id="pT46p0772c0806" cb:place="inline">應明六即，方顯聖理。圓性恒遍，
 <lb n="0772c09" ed="T"/>生佛咸如，理即佛性，如理而知；名字佛性，如
 <lb n="0772c10" ed="T"/>知修觀，剎那無間；觀行佛性，獲淨六根；相
 <lb n="0772c11" ed="T"/>似佛性，破界外惑證真；初住乃至等覺，四十
 <lb n="0772c12" ed="T"/>一位分證佛性；妙覺一位智斷俱圓，究竟佛
 <lb n="0772c13" ed="T"/>性。理同故即，事異故六，故名六即。如諸大教
 <lb n="0772c14" ed="T"/>有即名者，生死即涅槃、煩惱即菩提等，並判
-<lb n="0772c15" ed="T"/>六即，方免濫非。</p><p xml:id="pT46p0772c1507" cb:place="inline">問：《華嚴經》云：「初發心住便成
+<lb n="0772c15" ed="T"/>六即，方免濫非。</p>
+<p xml:id="pT46p0772c1507" cb:place="inline">問：《華嚴經》云：「初發心住便成
 <lb n="0772c16" ed="T"/>正覺」，何須更因餘之位耶？答：正覺分成，名成
 <lb n="0772c17" ed="T"/>正覺，非即發心成究竟正覺。譬如闇室分四
 <lb n="0772c18" ed="T"/>十二分，一炷之燈即名室明，可同於二、三乃
 <lb n="0772c19" ed="T"/>至四十二炷？若了此喻，一成一切成，不失初
-<lb n="0772c20" ed="T"/>後，明昧宛然，應知。</p><p xml:id="pT46p0772c2008" cb:place="inline">圓人四門並位位十法淺
+<lb n="0772c20" ed="T"/>後，明昧宛然，應知。</p>
+<p xml:id="pT46p0772c2008" cb:place="inline">圓人四門並位位十法淺
 <lb n="0772c21" ed="T"/>深有異，今且總明十法名相：一、觀不思議境
 <lb n="0772c22" ed="T"/>者，謂觀一念所具之心即無作四諦，達此具
 <lb n="0772c23" ed="T"/>心無非眾生，生、佛一如，涅槃無二，即苦、滅諦
@@ -455,34 +508,41 @@
 <lb n="0773a25" ed="T"/>咸如，名為合行。故《法華》云：「又多僕從」等。八、
 <lb n="0773a26" ed="T"/>知次位，令無上慢。九、能安忍，策進五品而入
 <lb n="0773a27" ed="T"/>十信。十、無法愛，策於十信入證初住。故經總
-<lb n="0773a28" ed="T"/>譬乘是寶車遊於四方，乃至直至道場等。</p><p xml:id="pT46p0773a2817" cb:place="inline">故
+<lb n="0773a28" ed="T"/>譬乘是寶車遊於四方，乃至直至道場等。</p>
+<p xml:id="pT46p0773a2817" cb:place="inline">故
 <lb n="0773a29" ed="T"/>知中下修觀，十法具須。上根體境含諸，或一、
 <pb n="0773b" ed="T" xml:id="T46.1930.0773b"/>
 <lb n="0773b01" ed="T"/>二、三不定，內外作受無不咸然。大車無量，言
 <lb n="0773b02" ed="T"/>豈徒設？以法對譬出自一家，本迹所歸，圓理
 <lb n="0773b03" ed="T"/>無二。不別而別，位位增明，廣如餘文，非此
-<lb n="0773b04" ed="T"/>可具。依文判義，若四若八目擊道存。</p><p xml:id="pT46p0773b0415" cb:place="inline">更引《涅
+<lb n="0773b04" ed="T"/>可具。依文判義，若四若八目擊道存。</p>
+<p xml:id="pT46p0773b0415" cb:place="inline">更引《涅
 <lb n="0773b05" ed="T"/>槃》證成其理，故第六云：「凡夫如乳，須陀洹如
 <lb n="0773b06" ed="T"/>酪，斯陀含如生酥，阿那含如熟酥，阿羅漢、辟
 <lb n="0773b07" ed="T"/>支佛、佛如醍醐。」《大論》云：「聲聞經中稱阿羅漢
 <lb n="0773b08" ed="T"/>名為佛地，故三人同是醍醐。」此譬三藏教五
-<lb n="0773b09" ed="T"/>味也。</p><p xml:id="pT46p0773b0903" cb:place="inline">《涅槃》三十二云：「眾生如雜血乳，須陀洹、
+<lb n="0773b09" ed="T"/>味也。</p>
+<p xml:id="pT46p0773b0903" cb:place="inline">《涅槃》三十二云：「眾生如雜血乳，須陀洹、
 <lb n="0773b10" ed="T"/>斯陀含如淨乳，阿那含如酪，阿羅漢如生酥，
 <lb n="0773b11" ed="T"/>辟支佛如熟酥，佛如醍醐。」此譬通教五味。支
 <lb n="0773b12" ed="T"/>佛侵習小勝聲聞，故與菩薩同為熟酥。佛正
-<lb n="0773b13" ed="T"/>習俱盡名醍醐。</p><p xml:id="pT46p0773b1307" cb:place="inline">《涅槃》第九云：「眾生如牛新生，
+<lb n="0773b13" ed="T"/>習俱盡名醍醐。</p>
+<p xml:id="pT46p0773b1307" cb:place="inline">《涅槃》第九云：「眾生如牛新生，
 <lb n="0773b14" ed="T"/>血乳未別。聲聞如乳，緣覺如酪，菩薩如生
 <lb n="0773b15" ed="T"/>熟酥，佛如醍醐。」此譬別教五味。十信輕毛菩
 <lb n="0773b16" ed="T"/>薩如雜血乳。九住已前斷通見思名乳，比擬
 <lb n="0773b17" ed="T"/>聲聞。十住小深故比擬支佛如酪。十行、十向
-<lb n="0773b18" ed="T"/>如生熟酥。十地之初已名為佛，故如醍醐。</p><p xml:id="pT46p0773b1817" cb:place="inline">《涅
+<lb n="0773b18" ed="T"/>如生熟酥。十地之初已名為佛，故如醍醐。</p>
+<p xml:id="pT46p0773b1817" cb:place="inline">《涅
 <lb n="0773b19" ed="T"/>槃》二十七云：「雪山有草名為忍辱，牛若食者
 <lb n="0773b20" ed="T"/>即成醍醐。」草喻八正，能修八正即見佛性，此
-<lb n="0773b21" ed="T"/>譬圓教不歷四味即成醍醐。</p><p xml:id="pT46p0773b2112" cb:place="inline">又《涅槃》二十七
+<lb n="0773b21" ed="T"/>譬圓教不歷四味即成醍醐。</p>
+<p xml:id="pT46p0773b2112" cb:place="inline">又《涅槃》二十七
 <lb n="0773b22" ed="T"/>云：「置毒乳中，遍於五味皆能殺人。」譬於祕密
 <lb n="0773b23" ed="T"/>及不定教。毒譬佛性了因種子，五味譬受報
 <lb n="0773b24" ed="T"/>五道，殺人譬值佛聞法斷惑。不明諸教，經不
-<lb n="0773b25" ed="T"/>可通，無彼經譬，教何能顯？</p><p xml:id="pT46p0773b2511" cb:place="inline">問：別具五味，亦具
+<lb n="0773b25" ed="T"/>可通，無彼經譬，教何能顯？</p>
+<p xml:id="pT46p0773b2511" cb:place="inline">問：別具五味，亦具
 <lb n="0773b26" ed="T"/>四教，及《方等》、《涅槃》四教何別？答：《涅槃》四教俱
 <lb n="0773b27" ed="T"/>知常住，《方等》四教隔別不融，別具四教法四
 <lb n="0773b28" ed="T"/>人一，謂菩薩人知四種法，雖四不同，善須得

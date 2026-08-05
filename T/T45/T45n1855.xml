@@ -2,84 +2,90 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T45n1855">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">三論遊意義</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1855 三論遊意義</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1855 三論遊意義</title>
-			<author>隋 碩法師撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1855</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-08-01T15:06:52">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">三論遊意義</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1855 三論遊意義</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1855 三論遊意義</title>
+      <author>隋 碩法師撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1855</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-08-01T15:06:52">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0116a" ed="T" xml:id="T45.1855.0116a"/>
 <lb n="0116a01" ed="T"/>
 <lb n="0116a02" ed="T"/><cb:docNumber>No. 1855</cb:docNumber>
-<lb n="0116a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0116001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經</note>三論遊意義</cb:jhead></cb:juan>
+<lb n="0116a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0116001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經</note>三論遊意義</cb:jhead></cb:juan>
 <lb n="0116a04" ed="T"/>
 <lb n="0116a05" ed="T"/><byline cb:type="author">碩法師撰</byline>
-<lb n="0116a06" ed="T"/><cb:div type="jing"><p xml:id="pT45p0116a0601">　　略<note n="0116002" resp="Taisho" type="orig" place="foot text">有＝明ヵ【原】</note><note n="0116002" resp="CBETA" type="mod">有【大】，明【考偽-原】</note><app n="0116002"><lem resp="Taisho" wit="【大】">有</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">明</rdg></app>開四重<note place="inline">一、明經論遊意；二、明四論大歸；三、明中觀宗者；四、明無方問難也</note>。</p>
+<lb n="0116a06" ed="T"/><cb:div type="jing"><p xml:id="pT45p0116a0601">　　略<note 
+n="0116002" resp="Taisho" type="orig" place="foot text">有＝明ヵ【原】</note><note 
+n="0116002" resp="CBETA" type="mod">有【大】，明【考偽-原】</note><app n="0116002">
+  <lem resp="Taisho" wit="【大】">有</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">明</rdg>
+</app>開四重<note place="inline">一、明經論遊意；二、明四論大歸；三、明中觀宗者；四、明無方問難也</note>。</p>
 <lb n="0116a07" ed="T"/><p xml:id="pT45p0116a0701">第一、明經論遊意者，略明三種：一者、明人論
 <lb n="0116a08" ed="T"/>菩薩不同；二、明諸經論不同；三者、所化緣利
 <lb n="0116a09" ed="T"/>鈍不同也。此即是佛菩薩因緣、經論因緣、
@@ -104,10 +110,20 @@
 <lb n="0116a28" ed="T"/>以有龍樹興也。但末世鈍根，聞有作有解，故
 <lb n="0116a29" ed="T"/>有住於有，不識有非有；聞無作無解，故無住
 <pb n="0116b" ed="T" xml:id="T45.1855.0116b"/>
-<lb n="0116b01" ed="T"/>於無，不識無非無。既住有住無，<note n="0116003" resp="Taisho" type="orig" place="foot text">不＝亦ヵ【原】</note><note n="0116003" resp="CBETA" type="mod">不【大】，亦【考偽-原】</note><app n="0116003"><lem resp="Taisho" wit="【大】">不</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">亦</rdg></app>不識有
+<lb n="0116b01" ed="T"/>於無，不識無非無。既住有住無，<note 
+n="0116003" resp="Taisho" type="orig" place="foot text">不＝亦ヵ【原】</note><note 
+n="0116003" resp="CBETA" type="mod">不【大】，亦【考偽-原】</note><app n="0116003">
+  <lem resp="Taisho" wit="【大】">不</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">亦</rdg>
+</app>不識有
 <lb n="0116b02" ed="T"/>非有、無非無，亦不識有無非非有非非無，是
 <lb n="0116b03" ed="T"/>故既告不二亦失於二，既失理，故失於教。如
-<lb n="0116b04" ed="T"/>是二不二皆失，故理教皆失，但成斷常虛<note n="0116004" resp="Taisho" type="orig" place="foot text">忘＝妄ヵ【原】</note><note n="0116004" resp="CBETA" type="mod">忘【大】，妄【考偽-原】</note><app n="0116004"><lem resp="Taisho" wit="【大】">忘</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">妄</rdg></app>，
+<lb n="0116b04" ed="T"/>是二不二皆失，故理教皆失，但成斷常虛<note 
+n="0116004" resp="Taisho" type="orig" place="foot text">忘＝妄ヵ【原】</note><note 
+n="0116004" resp="CBETA" type="mod">忘【大】，妄【考偽-原】</note><app n="0116004">
+  <lem resp="Taisho" wit="【大】">忘</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">妄</rdg>
+</app>，
 <lb n="0116b05" ed="T"/>故序云：上聖為之流滯，大士所以栖惶。是龍
 <lb n="0116b06" ed="T"/>樹出世，破眾生斷常諸見，故明不斷不常即
 <lb n="0116b07" ed="T"/>是中實。既識於中，方了諸佛假名因緣、空有
@@ -118,7 +134,12 @@
 <lb n="0116b12" ed="T"/>使眾生識於空有二諦即是悟不二，如是作
 <lb n="0116b13" ed="T"/>益當時、同表一道，菩薩出世，大意為如此也。
 <lb n="0116b14" ed="T"/>問：云何是經通經別、論通論別？答：如來始自
-<lb n="0116b15" ed="T"/>鹿苑、終訖雙林，說雖有十二部經、八萬<note n="0116005" resp="Taisho" type="orig" place="foot text">八＝四ヵ【原】</note><note n="0116005" resp="CBETA" type="mod">八【大】，四【考偽-原】</note><app n="0116005"><lem resp="Taisho" wit="【大】">八</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">四</rdg></app>千
+<lb n="0116b15" ed="T"/>鹿苑、終訖雙林，說雖有十二部經、八萬<note 
+n="0116005" resp="Taisho" type="orig" place="foot text">八＝四ヵ【原】</note><note 
+n="0116005" resp="CBETA" type="mod">八【大】，四【考偽-原】</note><app n="0116005">
+  <lem resp="Taisho" wit="【大】">八</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">四</rdg>
+</app>千
 <lb n="0116b16" ed="T"/>法藏，推其大歸，皆為息眾生虛妄顛倒，開一
 <lb n="0116b17" ed="T"/>道耳，是眾經通也。</p>
 <lb n="0116b18" ed="T"/><p xml:id="pT45p0116b1801">所言經別者，如來謂大小二種根緣，故開生
@@ -152,9 +173,19 @@
 <lb n="0116c16" ed="T"/>發，名之為觀；觀之所宜，名之為論也。然正由
 <lb n="0116c17" ed="T"/>於緣，緣既非緣、正生非正，所以非緣亦復非
 <lb n="0116c18" ed="T"/>正。既非正即非觀非中，則不經不論、非佛非
-<lb n="0116c19" ed="T"/>菩薩，泯然無際，其道乃平，故開之彌<note n="0116006" resp="Taisho" type="orig" place="foot text">論＝淪ヵ【原】</note><note n="0116006" resp="CBETA" type="mod">論【大】，淪【考偽-原】</note><app n="0116006"><lem resp="Taisho" wit="【大】">論</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">淪</rdg></app>法
+<lb n="0116c19" ed="T"/>菩薩，泯然無際，其道乃平，故開之彌<note 
+n="0116006" resp="Taisho" type="orig" place="foot text">論＝淪ヵ【原】</note><note 
+n="0116006" resp="CBETA" type="mod">論【大】，淪【考偽-原】</note><app n="0116006">
+  <lem resp="Taisho" wit="【大】">論</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">淪</rdg>
+</app>法
 <lb n="0116c20" ed="T"/>界、卷之則一豪無從也。</p>
-<lb n="0116c21" ed="T"/><p xml:id="pT45p0116c2101">第二、重明四論大歸。就中，凡有二<note n="0116007" resp="Taisho" type="orig" place="foot text">意＋（一）？</note><note n="0116007" resp="CBETA" type="mod">意【大】，意一【考偽-大】</note><app n="0116007"><lem resp="Taisho" wit="【大】">意</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">意一</rdg></app>：明四論
+<lb n="0116c21" ed="T"/><p xml:id="pT45p0116c2101">第二、重明四論大歸。就中，凡有二<note 
+n="0116007" resp="Taisho" type="orig" place="foot text">意＋（一）？</note><note 
+n="0116007" resp="CBETA" type="mod">意【大】，意一【考偽-大】</note><app n="0116007">
+  <lem resp="Taisho" wit="【大】">意</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">意一</rdg>
+</app>：明四論
 <lb n="0116c22" ed="T"/>意同、二明四論意異也。第一、明四論意同者，
 <lb n="0116c23" ed="T"/>略有二種同：一者、人同；二者、法同也。人同者，
 <lb n="0116c24" ed="T"/>馬鳴、龍樹、提婆、天親，雖復人世有殊，同是四
@@ -190,7 +221,12 @@
 <lb n="0117a24" ed="T"/>佛一切教，故論二十七品，橫竪破一切法，始
 <lb n="0117a25" ed="T"/>破因緣、終破邪見，二十七條生死涅槃、凡聖
 <lb n="0117a26" ed="T"/>釋惑無不洗破也。竪破者，從因緣訖邪見，五
-<lb n="0117a27" ed="T"/>句皆除，故有二破無二，破<note n="0117001" resp="Taisho" type="orig" place="foot text">〔有〕－ヵ【原】</note><note n="0117001" resp="CBETA" type="mod">有【大】，〔－〕【考偽-原】</note><app n="0117001"><lem resp="Taisho" wit="【大】">有</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>，乃至非有非無、
+<lb n="0117a27" ed="T"/>句皆除，故有二破無二，破<note 
+n="0117001" resp="Taisho" type="orig" place="foot text">〔有〕－ヵ【原】</note><note 
+n="0117001" resp="CBETA" type="mod">有【大】，〔－〕【考偽-原】</note><app n="0117001">
+  <lem resp="Taisho" wit="【大】">有</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>，乃至非有非無、
 <lb n="0117a28" ed="T"/>非非有非非無皆悉破也。眾病既息，佛大小
 <lb n="0117a29" ed="T"/>假名方便二教自然得開，是故別通論也。若
 <pb n="0117b" ed="T" xml:id="T45.1855.0117b"/>
@@ -206,10 +242,21 @@
 <lb n="0117b10" ed="T"/>收取佛教，所以名收。四、非收非破者，明諸法
 <lb n="0117b11" ed="T"/>本性清淨，故實無所破亦無收也。若是三論，
 <lb n="0117b12" ed="T"/>但破眾迷而收取佛教，故異大論也。問：三論
-<lb n="0117b13" ed="T"/>曲破不收，釋論亦收亦破，豈非取捨之<note n="0117002" resp="Taisho" type="orig" place="foot text">必＝心ヵ【原】，意ヵ【原】</note><note n="0117002" resp="CBETA" type="mod">必【大】，心【考偽-原】，意【考偽-原】</note><app n="0117002"><lem resp="Taisho" wit="【大】">必</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">心</rdg><rdg resp="Taisho" wit="【原】" type="correctionRemark">意</rdg></app>？
+<lb n="0117b13" ed="T"/>曲破不收，釋論亦收亦破，豈非取捨之<note 
+n="0117002" resp="Taisho" type="orig" place="foot text">必＝心ヵ【原】，意ヵ【原】</note><note 
+n="0117002" resp="CBETA" type="mod">必【大】，心【考偽-原】，意【考偽-原】</note><app n="0117002">
+  <lem resp="Taisho" wit="【大】">必</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">心</rdg>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">意</rdg>
+</app>？
 <lb n="0117b14" ed="T"/>答：三論雖破，實無所破；釋論雖收，而無所收
 <lb n="0117b15" ed="T"/>也。</p>
-<lb n="0117b16" ed="T"/><p xml:id="pT45p0117b1601">次就三論自明異者，略開十條：一<note n="0117003" resp="Taisho" type="orig" place="foot text">者＝明ヵ【原】</note><note n="0117003" resp="CBETA" type="mod">者【大】，明【考偽-原】</note><app n="0117003"><lem resp="Taisho" wit="【大】">者</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">明</rdg></app>、三論立
+<lb n="0117b16" ed="T"/><p xml:id="pT45p0117b1601">次就三論自明異者，略開十條：一<note 
+n="0117003" resp="Taisho" type="orig" place="foot text">者＝明ヵ【原】</note><note 
+n="0117003" resp="CBETA" type="mod">者【大】，明【考偽-原】</note><app n="0117003">
+  <lem resp="Taisho" wit="【大】">者</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">明</rdg>
+</app>、三論立
 <lb n="0117b17" ed="T"/>名有理教不同；二、明三論有諦智不同；三、明
 <lb n="0117b18" ed="T"/>三論辨諦有於教不同；四、明三論辨智有長
 <lb n="0117b19" ed="T"/>短不同；五、明三論破緣有內外不同；六、明三
@@ -224,9 +271,19 @@
 <lb n="0117b28" ed="T"/>通者，四論并破斷常，皆明中道實，是故四論
 <lb n="0117b29" ed="T"/>通得稱中。又四論并為開道，令眾生反迷悟
 <pb n="0117c" ed="T" xml:id="T45.1855.0117c"/>
-<lb n="0117c01" ed="T"/>入，是故四論皆得稱<note n="0117004" resp="Taisho" type="orig" place="foot text">〔秤〕－ヵ【原】</note><note n="0117004" resp="CBETA" type="mod">秤【大】，〔－〕【考偽-原】</note><app n="0117004"><lem resp="Taisho" wit="【大】">秤</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>門。四論皆有偈數，
+<lb n="0117c01" ed="T"/>入，是故四論皆得稱<note 
+n="0117004" resp="Taisho" type="orig" place="foot text">〔秤〕－ヵ【原】</note><note 
+n="0117004" resp="CBETA" type="mod">秤【大】，〔－〕【考偽-原】</note><app n="0117004">
+  <lem resp="Taisho" wit="【大】">秤</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>門。四論皆有偈數，
 <lb n="0117c02" ed="T"/>是故四論并秤曰百論。四論皆釋佛意，是故
-<lb n="0117c03" ed="T"/>四論通名釋<note n="0117005" resp="Taisho" type="orig" place="foot text">〔四〕－ヵ【原】</note><note n="0117005" resp="CBETA" type="mod">四【大】，〔－〕【考偽-原】</note><app n="0117005"><lem resp="Taisho" wit="【大】">四</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>論也。通而致別，即有四意。若
+<lb n="0117c03" ed="T"/>四論通名釋<note 
+n="0117005" resp="Taisho" type="orig" place="foot text">〔四〕－ヵ【原】</note><note 
+n="0117005" resp="CBETA" type="mod">四【大】，〔－〕【考偽-原】</note><app n="0117005">
+  <lem resp="Taisho" wit="【大】">四</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>論也。通而致別，即有四意。若
 <lb n="0117c04" ed="T"/>是《中論》，從理實為名。若是《十二門》，從言教受
 <lb n="0117c05" ed="T"/>秤；若是《百論》，從偈數立名也。問：《中論》何故從
 <lb n="0117c06" ed="T"/>理實立名？若從理實立名而秤中者，何故不
@@ -261,9 +318,20 @@
 <lb n="0118a05" ed="T"/>外人學佛二諦，成斷常、生滅、來出、一異也；龍
 <lb n="0118a06" ed="T"/>樹了佛二諦不生不滅乃至無來無去。所以
 <lb n="0118a07" ed="T"/>捨初章即牒八不，八不即是二諦，是故以二
-<lb n="0118a08" ed="T"/>諦為宗。若是《百論》面折外道，使<note n="0118001" resp="Taisho" type="orig" place="foot text">故＝彼ヵ【原】，〔故〕－ヵ【原】</note><note n="0118001" resp="CBETA" type="mod">故【大】，彼【考偽-原】，〔－〕【考偽-原】</note><app n="0118001"><lem resp="Taisho" wit="【大】">故</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">彼</rdg><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>九十六種
+<lb n="0118a08" ed="T"/>諦為宗。若是《百論》面折外道，使<note 
+n="0118001" resp="Taisho" type="orig" place="foot text">故＝彼ヵ【原】，〔故〕－ヵ【原】</note><note 
+n="0118001" resp="CBETA" type="mod">故【大】，彼【考偽-原】，〔－〕【考偽-原】</note><app n="0118001">
+  <lem resp="Taisho" wit="【大】">故</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">彼</rdg>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>九十六種
 <lb n="0118a09" ed="T"/>理屈辭窮，故歎此二智有閑邪顯正之功，故
-<lb n="0118a10" ed="T"/>以二智為<note n="0118002" resp="Taisho" type="orig" place="foot text">〔宗〕－ヵ【原】</note><note n="0118002" resp="CBETA" type="mod">宗【大】，〔－〕【考偽-原】</note><app n="0118002"><lem resp="Taisho" wit="【大】">宗</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>《百論》宗也。</p>
+<lb n="0118a10" ed="T"/>以二智為<note 
+n="0118002" resp="Taisho" type="orig" place="foot text">〔宗〕－ヵ【原】</note><note 
+n="0118002" resp="CBETA" type="mod">宗【大】，〔－〕【考偽-原】</note><app n="0118002">
+  <lem resp="Taisho" wit="【大】">宗</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>《百論》宗也。</p>
 <lb n="0118a11" ed="T"/><p xml:id="pT45p0118a1101">第三、明三論辨諦有於教不同者，通明三論
 <lb n="0118a12" ed="T"/>辨諦，即有於諦及以教諦。通而致別，《百論》
 <lb n="0118a13" ed="T"/>即明於諦，《中論》即明教諦。所以然者，於諦即
@@ -281,7 +349,12 @@
 <lb n="0118a25" ed="T"/>方便，《百論》即明實智與權智，故權智即短，實
 <lb n="0118a26" ed="T"/>智長也。問：何故龍樹用實方便智，《百論》用實
 <lb n="0118a27" ed="T"/>與權智？答：提婆面折外道，一時權巧功用，故
-<lb n="0118a28" ed="T"/>權智即短也。《中論》匡正佛法、整<note n="0118003" resp="Taisho" type="orig" place="foot text">里＝理ヵ【原】</note><note n="0118003" resp="CBETA" type="mod">里【大】，理【考偽-原】</note><app n="0118003"><lem resp="Taisho" wit="【大】">里</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">理</rdg></app>家國，非時
+<lb n="0118a28" ed="T"/>權智即短也。《中論》匡正佛法、整<note 
+n="0118003" resp="Taisho" type="orig" place="foot text">里＝理ヵ【原】</note><note 
+n="0118003" resp="CBETA" type="mod">里【大】，理【考偽-原】</note><app n="0118003">
+  <lem resp="Taisho" wit="【大】">里</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">理</rdg>
+</app>家國，非時
 <lb n="0118a29" ed="T"/>用，是故二智則長。例如《大品》、《淨名》二經辨智
 <pb n="0118b" ed="T" xml:id="T45.1855.0118b"/>
 <lb n="0118b01" ed="T"/>有長短。《大品》即明實方便智，故其用則長；《淨
@@ -320,7 +393,12 @@
 <lb n="0118c04" ed="T"/>破外道、傍申佛教。所以然者，《中論》初發始即
 <lb n="0118c05" ed="T"/>牒八不二諦，後方破外，故正申傍破也。若是
 <lb n="0118c06" ed="T"/>《百論》，初發始即歸三寶，故正破傍申也。《十二
-<lb n="0118c07" ed="T"/>門論》與《中論》云何？答：大師有時云：<note n="0118004" resp="Taisho" type="orig" place="foot text">兩＋（論）ヵ【原】</note><note n="0118004" resp="CBETA" type="mod">兩【大】，兩論【考偽-原】</note><app n="0118004"><lem resp="Taisho" wit="【大】">兩</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">兩論</rdg></app>諸義無
+<lb n="0118c07" ed="T"/>門論》與《中論》云何？答：大師有時云：<note 
+n="0118004" resp="Taisho" type="orig" place="foot text">兩＋（論）ヵ【原】</note><note 
+n="0118004" resp="CBETA" type="mod">兩【大】，兩論【考偽-原】</note><app n="0118004">
+  <lem resp="Taisho" wit="【大】">兩</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">兩論</rdg>
+</app>諸義無
 <lb n="0118c08" ed="T"/>有異。有時云：《十二門》申義為強、破義為弱，故
 <lb n="0118c09" ed="T"/>初發即云說曰「今當略解摩訶衍義」也。若是
 <lb n="0118c10" ed="T"/>《中論》，初牒八不破外人，故論文云「諸法無量，
@@ -333,7 +411,12 @@
 <lb n="0118c17" ed="T"/>此是就緣假也。四者、對緣假，如說常，為對治
 <lb n="0118c18" ed="T"/>無常；說無常，為對治常也。若是經中及以大
 <lb n="0118c19" ed="T"/>論，具足四假；若是三論，唯有二假：一者就緣、
-<lb n="0118c20" ed="T"/>二者對緣。若《中論》，正因緣假強、對緣假<note n="0118005" resp="Taisho" type="orig" place="foot text">〔故〕－？</note><note n="0118005" resp="CBETA" type="mod">故【大】，〔－〕【考偽-大】</note><app n="0118005"><lem resp="Taisho" wit="【大】">故</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>弱，
+<lb n="0118c20" ed="T"/>二者對緣。若《中論》，正因緣假強、對緣假<note 
+n="0118005" resp="Taisho" type="orig" place="foot text">〔故〕－？</note><note 
+n="0118005" resp="CBETA" type="mod">故【大】，〔－〕【考偽-大】</note><app n="0118005">
+  <lem resp="Taisho" wit="【大】">故</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>弱，
 <lb n="0118c21" ed="T"/>故龍樹就外人覓生滅、斷常皆不可得。若《百
 <lb n="0118c22" ed="T"/>論》對緣假強、就緣假弱，故外道執一，借異對
 <lb n="0118c23" ed="T"/>破；外道執異，借一對破也。</p>
@@ -369,12 +452,18 @@
 <lb n="0119a23" ed="T"/>出世，令大乘之化重啟閻浮提。後五百三十
 <lb n="0119a24" ed="T"/>年，有龍樹菩薩出世，扇無相之道，三啟末俗
 <lb n="0119a25" ed="T"/>也。八百餘年，有婆羅門種，名曰提婆，是龍樹
-<lb n="0119a26" ed="T"/>上足弟子。其<note n="0119001" resp="Taisho" type="orig" place="foot text">冠註曰人下疑有脫文</note>人皆與玄師並照德與皆機淨
+<lb n="0119a26" ed="T"/>上足弟子。其<note 
+n="0119001" resp="Taisho" type="orig" place="foot text">冠註曰人下疑有脫文</note>人皆與玄師並照德與皆機淨
 <lb n="0119a27" ed="T"/>行，故令佛法興隆、邪道隱塞也。問：《中論》既得
 <lb n="0119a28" ed="T"/>秤中，《百論》亦得秤中不？答：二論俱得秤中。問：
 <lb n="0119a29" ed="T"/>若俱得秤中，更有何異？答：若是《中論》，即對偏
 <pb n="0119b" ed="T" xml:id="T45.1855.0119b"/>
-<lb n="0119b01" ed="T"/>辨中；若是《<note n="0119002" resp="Taisho" type="orig" place="foot text">中＝百？</note><note n="0119002" resp="CBETA" type="mod">中【大】，百【考偽-大】</note><app n="0119002"><lem resp="Taisho" wit="【大】">中</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">百</rdg></app>論》，即對邪辨中。所以然者，《中
+<lb n="0119b01" ed="T"/>辨中；若是《<note 
+n="0119002" resp="Taisho" type="orig" place="foot text">中＝百？</note><note 
+n="0119002" resp="CBETA" type="mod">中【大】，百【考偽-大】</note><app n="0119002">
+  <lem resp="Taisho" wit="【大】">中</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">百</rdg>
+</app>論》，即對邪辨中。所以然者，《中
 <lb n="0119b02" ed="T"/>論》迷教之緣，學佛二諦，不悟二不二，故成偏
 <lb n="0119b03" ed="T"/>執。所以今破此偏二，故明不二之中也。若是
 <lb n="0119b04" ed="T"/>《百論》，不學佛教，故一向邪錯，破此邪錯以明
@@ -402,7 +491,8 @@
 <lb n="0119b26" ed="T"/>定斷、佛果定常。如此人等，即是虛妄也。第
 <lb n="0119b27" ed="T"/>二、自樹之人，即是九十六種外道所行所學
 <lb n="0119b28" ed="T"/>皆是也。邪錯之，是虛妄也。第三、即是任運顛
-<lb n="0119b29" ed="T"/>倒，不學佛教，亦不自樹邪<note n="0119003" resp="Taisho" type="orig" place="foot text">冠註曰候字恐寫誤</note>候，直是隨逐世
+<lb n="0119b29" ed="T"/>倒，不學佛教，亦不自樹邪<note 
+n="0119003" resp="Taisho" type="orig" place="foot text">冠註曰候字恐寫誤</note>候，直是隨逐世
 <pb n="0119c" ed="T" xml:id="T45.1855.0119c"/>
 <lb n="0119c01" ed="T"/>樂、任運失道。故如此三種人皆虛妄也。問：今
 <lb n="0119c02" ed="T"/>辨中實，正對何人？答：通而為論，並對三人；別
@@ -434,7 +524,12 @@
 <lb n="0119c28" ed="T"/>在論文也。今明中略有三種：一、對偏中；二、因
 <lb n="0119c29" ed="T"/>緣中；三、絕待中也。所言對偏中者，學佛教人
 <pb n="0120a" ed="T" xml:id="T45.1855.0120a"/>
-<lb n="0120a01" ed="T"/>既失其旨，故成斷常偏執，對此偏執的<note n="0120001" resp="Taisho" type="orig" place="foot text">申＝中ヵ【原】</note><note n="0120001" resp="CBETA" type="mod">申【大】，中【考偽-原】</note><app n="0120001"><lem resp="Taisho" wit="【大】">申</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">中</rdg></app>，故
+<lb n="0120a01" ed="T"/>既失其旨，故成斷常偏執，對此偏執的<note 
+n="0120001" resp="Taisho" type="orig" place="foot text">申＝中ヵ【原】</note><note 
+n="0120001" resp="CBETA" type="mod">申【大】，中【考偽-原】</note><app n="0120001">
+  <lem resp="Taisho" wit="【大】">申</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">中</rdg>
+</app>，故
 <lb n="0120a02" ed="T"/>言對偏中也。次言因緣中者，如假有不得言
 <lb n="0120a03" ed="T"/>有、不得言不有，此有即是中也。次言絕待中
 <lb n="0120a04" ed="T"/>者，本對偏故，所以有中；在偏既去，中亦不立，
@@ -472,17 +567,42 @@
 <lb n="0120b06" ed="T"/>主往，復為論也。今依關中序云「論者欲以窮
 <lb n="0120b07" ed="T"/>其源、盡其理」也。又言：論者，盡其言也。他問：盡
 <lb n="0120b08" ed="T"/>言為論者，為當用言為論？為當用無言為論？
-<lb n="0120b09" ed="T"/>若用言為論，<note n="0120002" resp="Taisho" type="orig" place="foot text">〔言〕－ヵ【原】</note><note n="0120002" resp="CBETA" type="mod">言【大】，〔－〕【考偽-原】</note><app n="0120002"><lem resp="Taisho" wit="【大】">言</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>那得導盡言？若用無言為論
+<lb n="0120b09" ed="T"/>若用言為論，<note 
+n="0120002" resp="Taisho" type="orig" place="foot text">〔言〕－ヵ【原】</note><note 
+n="0120002" resp="CBETA" type="mod">言【大】，〔－〕【考偽-原】</note><app n="0120002">
+  <lem resp="Taisho" wit="【大】">言</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>那得導盡言？若用無言為論
 <lb n="0120b10" ed="T"/>者，復何秤盡言耶？答：導盡言為論，那得用言
 <lb n="0120b11" ed="T"/>為論？若無言，何得盡？是故賓主交言，為欲盡
-<lb n="0120b12" ed="T"/>言，以為論也。若不交言，言何<note n="0120003" resp="Taisho" type="orig" place="foot text">〔由〕－ヵ【原】</note><note n="0120003" resp="CBETA" type="mod">由【大】，〔－〕【考偽-原】</note><app n="0120003"><lem resp="Taisho" wit="【大】">由</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>盡也。問云：
+<lb n="0120b12" ed="T"/>言，以為論也。若不交言，言何<note 
+n="0120003" resp="Taisho" type="orig" place="foot text">〔由〕－ヵ【原】</note><note 
+n="0120003" resp="CBETA" type="mod">由【大】，〔－〕【考偽-原】</note><app n="0120003">
+  <lem resp="Taisho" wit="【大】">由</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>盡也。問云：
 <lb n="0120b13" ed="T"/>交言為欲盡言？答：論主之難，擬無不摧、外人
 <lb n="0120b14" ed="T"/>無不屈；外人若不屈，即斷常不盡，擬若不摧，
 <lb n="0120b15" ed="T"/>戲論不消，戲論不息則中不生，斷常不盡觀
 <lb n="0120b16" ed="T"/>則不發，中若不生則佛性不現、波若不顯。今
 <lb n="0120b17" ed="T"/>斷常息，所以中生觀發，中生觀發故佛性現、
-<lb n="0120b18" ed="T"/>波<note n="0120004" resp="Taisho" type="orig" place="foot text">□＝若ヵ【原】</note><note n="0120004" resp="CBETA" type="mod">□【大】，若【考偽-原】</note><app n="0120004"><lem resp="Taisho" wit="【大】">□</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">若</rdg></app>顯，是故以盡言為論也。問：但盡邪言為
-<lb n="0120b19" ed="T"/>盡？<note n="0120005" resp="Taisho" type="orig" place="foot text">〔為〕－ヵ【原】</note><note n="0120005" resp="CBETA" type="mod">為【大】，〔－〕【考偽-原】</note><app n="0120005"><lem resp="Taisho" wit="【大】">為</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>盡正言<note n="0120006" resp="Taisho" type="orig" place="foot text">□＝為ヵ【原】</note><note n="0120006" resp="CBETA" type="mod">□【大】，為【考偽-原】</note><app n="0120006"><lem resp="Taisho" wit="【大】">□</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">為</rdg></app>盡耶？答：一往為論，但盡邪
+<lb n="0120b18" ed="T"/>波<note 
+n="0120004" resp="Taisho" type="orig" place="foot text">□＝若ヵ【原】</note><note 
+n="0120004" resp="CBETA" type="mod">□【大】，若【考偽-原】</note><app n="0120004">
+  <lem resp="Taisho" wit="【大】">□</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">若</rdg>
+</app>顯，是故以盡言為論也。問：但盡邪言為
+<lb n="0120b19" ed="T"/>盡？<note 
+n="0120005" resp="Taisho" type="orig" place="foot text">〔為〕－ヵ【原】</note><note 
+n="0120005" resp="CBETA" type="mod">為【大】，〔－〕【考偽-原】</note><app n="0120005">
+  <lem resp="Taisho" wit="【大】">為</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>盡正言<note 
+n="0120006" resp="Taisho" type="orig" place="foot text">□＝為ヵ【原】</note><note 
+n="0120006" resp="CBETA" type="mod">□【大】，為【考偽-原】</note><app n="0120006">
+  <lem resp="Taisho" wit="【大】">□</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">為</rdg>
+</app>盡耶？答：一往為論，但盡邪
 <lb n="0120b20" ed="T"/>言；二往為論，邪言既盡，正言亦息。問：論主既
 <lb n="0120b21" ed="T"/>言，那得盡言？答：論主為論盡言，是故言也。如
 <lb n="0120b22" ed="T"/>《大論》云「執事比丘，舉手唱言，眾皆寂靜。」此是
@@ -509,7 +629,12 @@
 <lb n="0120c13" ed="T"/>生不滅。論即是能論不生不滅，所論不生不
 <lb n="0120c14" ed="T"/>滅既是中，能論不生不滅亦是中也。三字皆
 <lb n="0120c15" ed="T"/>觀者，中即是義相觀，觀即是心行觀，論即是
-<lb n="0120c16" ed="T"/>名字觀，<note n="0120007" resp="Taisho" type="orig" place="foot text">〔□〕－？</note><note n="0120007" resp="CBETA" type="mod">□【大】，〔－〕【考偽-大】</note><app n="0120007"><lem resp="Taisho" wit="【大】">□</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>故三字名觀也。三字皆論者，論則
+<lb n="0120c16" ed="T"/>名字觀，<note 
+n="0120007" resp="Taisho" type="orig" place="foot text">〔□〕－？</note><note 
+n="0120007" resp="CBETA" type="mod">□【大】，〔－〕【考偽-大】</note><app n="0120007">
+  <lem resp="Taisho" wit="【大】">□</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>故三字名觀也。三字皆論者，論則
 <lb n="0120c17" ed="T"/>是能論，故能論既是所論，中、觀亦是也。</p>
 <lb n="0120c18" ed="T"/><p xml:id="pT45p0120c1801">第四、無方問答也。</p>
 <lb n="0120c19" ed="T"/><p xml:id="pT45p0120c1901">問：經中二諦、論中二諦，經中中道、論中中道，
@@ -567,8 +692,18 @@
 <lb n="0121b11" ed="T"/>也。一、就體明不有有者，《大經》云「正法寶城善
 <lb n="0121b12" ed="T"/>有」，此有是不有有也。此妄作。何者？不二正
 <lb n="0121b13" ed="T"/>法非有非無，而強名善有，故此有是不有有
-<lb n="0121b14" ed="T"/>也。二、就側<note n="0121001" resp="Taisho" type="orig" place="foot text">〔有〕－ヵ【原】</note><note n="0121001" resp="CBETA" type="mod">有【大】，〔－〕【考偽-原】</note><app n="0121001"><lem resp="Taisho" wit="【大】">有</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>明不有有者，直從體起有，此
-<lb n="0121b15" ed="T"/>有是不有有。何者？空有故言不有有。所以<note n="0121002" resp="Taisho" type="orig" place="foot text">者＝言ヵ【原】</note><note n="0121002" resp="CBETA" type="mod">者【大】，言【考偽-原】</note><app n="0121002"><lem resp="Taisho" wit="【大】">者</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">言</rdg></app>
+<lb n="0121b14" ed="T"/>也。二、就側<note 
+n="0121001" resp="Taisho" type="orig" place="foot text">〔有〕－ヵ【原】</note><note 
+n="0121001" resp="CBETA" type="mod">有【大】，〔－〕【考偽-原】</note><app n="0121001">
+  <lem resp="Taisho" wit="【大】">有</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>明不有有者，直從體起有，此
+<lb n="0121b15" ed="T"/>有是不有有。何者？空有故言不有有。所以<note 
+n="0121002" resp="Taisho" type="orig" place="foot text">者＝言ヵ【原】</note><note 
+n="0121002" resp="CBETA" type="mod">者【大】，言【考偽-原】</note><app n="0121002">
+  <lem resp="Taisho" wit="【大】">者</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">言</rdg>
+</app>
 <lb n="0121b16" ed="T"/>側者，置無邊言有邊故也。三、就假有明不者
 <lb n="0121b17" ed="T"/>者，此假有是不有有，以假有非真有，故言不
 <lb n="0121b18" ed="T"/>有有也。四、舉用結體明不有者，此用有，如體
@@ -604,8 +739,14 @@
 <lb n="0121c18" ed="T"/>真諦」，作中相可解也。而後師等依《中論》文
 <lb n="0121c19" ed="T"/>「不生不滅等，不轉依生滅」明之也。用小頓悟
 <lb n="0121c20" ed="T"/>師有六家也：一、肇師；二、支道林師；三、真安埵
-<lb n="0121c21" ed="T"/>師；四、邪通師；五、<note n="0121003" resp="Taisho" type="orig" place="foot text">理＝匡ヵ【原】</note><note n="0121003" resp="CBETA" type="mod">理【大】，匡【考偽-原】</note><app n="0121003"><lem resp="Taisho" wit="【大】">理</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">匡</rdg></app>山遠師；六、道安師也。此
-<lb n="0121c22" ed="T"/>師等云：七地以上悟無生忍也。合<note n="0121004" resp="Taisho" type="orig" place="foot text">冠註曰年字原本不明</note>年天子竺
+<lb n="0121c21" ed="T"/>師；四、邪通師；五、<note 
+n="0121003" resp="Taisho" type="orig" place="foot text">理＝匡ヵ【原】</note><note 
+n="0121003" resp="CBETA" type="mod">理【大】，匡【考偽-原】</note><app n="0121003">
+  <lem resp="Taisho" wit="【大】">理</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">匡</rdg>
+</app>山遠師；六、道安師也。此
+<lb n="0121c22" ed="T"/>師等云：七地以上悟無生忍也。合<note 
+n="0121004" resp="Taisho" type="orig" place="foot text">冠註曰年字原本不明</note>年天子竺
 <lb n="0121c23" ed="T"/>道師用大頓悟義也。小緣天子金剛以還皆
 <lb n="0121c24" ed="T"/>是大夢，金剛以後乃是大覺也。又用五時教
 <lb n="0121c25" ed="T"/>師不同也。白衣劉虬云用七時：一、樹王成
@@ -646,7 +787,8 @@
 <pb n="0122b" ed="T" xml:id="T45.1855.0122b"/>
 <lb n="0122b01" ed="T"/>卷者，唯說第一至第一卷也。《涅槃》四十卷者，
 <lb n="0122b02" ed="T"/>智炎法師於武威郡孤臧縣翻也。又曇無讖
-<lb n="0122b03" ed="T"/>法師自中天竺將來諸<note n="0122001" resp="Taisho" type="orig" place="foot text">冠註曰巨字原本不明</note>巨牟儞國，翻為四十
+<lb n="0122b03" ed="T"/>法師自中天竺將來諸<note 
+n="0122001" resp="Taisho" type="orig" place="foot text">冠註曰巨字原本不明</note>巨牟儞國，翻為四十
 <lb n="0122b04" ed="T"/>卷。後東安寺慧嚴師、道場寺慧觀師、謝令郡
 <lb n="0122b05" ed="T"/>作三十六卷，其來所以，如《傳》云也。又竺道生
 <lb n="0122b06" ed="T"/>師，《涅槃》未至漢地時，看六卷泥洹一闡提成

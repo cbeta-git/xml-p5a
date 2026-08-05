@@ -2,186 +2,354 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X62n1170">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
-			<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
-			<title level="m" xml:lang="zh-Hant">雲棲淨土彙語</title>
-			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1170 雲棲淨土彙語</title>
-			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1170 雲棲淨土彙語</title>
-			<author>清 虞執西．嚴培西同錄</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">X</idno>.<idno type="vol">62</idno>.<idno type="no">1170</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>卍新纂大日本續藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【卍續】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2005-07-04T09:38:20">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+      <title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+      <title level="m" xml:lang="zh-Hant">雲棲淨土彙語</title>
+      <title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1170 雲棲淨土彙語</title>
+      <title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1170 雲棲淨土彙語</title>
+      <author>清 虞執西．嚴培西同錄</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">X</idno>.<idno type="vol">62</idno>.<idno type="no">1170</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>卍新纂大日本續藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【卍續】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2005-07-04T09:38:20">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0001a" ed="X" xml:id="X62.1170.0001a"/>
 <lb n="0001a01" ed="X"/>
 <lb n="0001a02" ed="X"/><cb:docNumber>No. 1170</cb:docNumber>
-<lb n="0001a03" ed="X"/><lb n="0130a01" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">目錄</cb:mulu><head><note n="0001001" resp="Xuzangjing" type="orig" place="foot text">目錄新作</note>雲棲淨土彙語</head>
+<lb n="0001a03" ed="X"/><lb n="0130a01" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">目錄</cb:mulu><head><note 
+n="0001001" resp="Xuzangjing" type="orig" place="foot text">目錄新作</note>雲棲淨土彙語</head>
 <lb n="0001a04" ed="X"/>
-<lb n="0001a05" ed="X"/><lb n="0130a02" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001a0501">像贊<note place="inline">廣龠吳應賓</note></item>
-<lb n="0001a06" ed="X"/><lb n="0130a03" ed="R109"/><item xml:id="itemX62p0001a0601">開示
-<lb n="0001a07" ed="X"/><lb n="0130a04" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001a0701">水陸會中普示持名念佛三昧</item>
-<lb n="0001a08" ed="X"/><lb n="0130a05" ed="R109"/><item xml:id="itemX62p0001a0801">普勸念佛往生淨土</item><item xml:id="itemX62p0001a0809">普勸念佛<note place="inline">二章</note></item>
-<lb n="0001a09" ed="X"/><lb n="0130a06" ed="R109"/><item xml:id="itemX62p0001a0901">示閱藏要語</item><item xml:id="itemX62p0001a0906">示在家二眾</item>
-<lb n="0001a10" ed="X"/><lb n="0130a07" ed="R109"/><item xml:id="itemX62p0001a1001">示病人<note place="inline">二章</note></item><item xml:id="itemX62p0001a1006">示耄年居士</item>
-<lb n="0001a11" ed="X"/><lb n="0130a08" ed="R109"/><item xml:id="itemX62p0001a1101">示臨終善女人</item><item xml:id="itemX62p0001a1107">示大同<note place="inline">二章</note></item>
-<lb n="0001a12" ed="X"/><lb n="0130a09" ed="R109"/><item xml:id="itemX62p0001a1201">示王智第</item><item xml:id="itemX62p0001a1205">示明宗大曉</item>
-<lb n="0001a13" ed="X"/><lb n="0130a10" ed="R109"/><item xml:id="itemX62p0001a1301">示吳大峻</item><item xml:id="itemX62p0001a1305">示于廣慧</item>
-<lb n="0001a14" ed="X"/><lb n="0130a11" ed="R109"/><item xml:id="itemX62p0001a1401">示王廣第</item><item xml:id="itemX62p0001a1405">示廣耆</item>
-<lb n="0001a15" ed="X"/><lb n="0130a12" ed="R109"/><item xml:id="itemX62p0001a1501">示吳廣綬</item><item xml:id="itemX62p0001a1505">示福建林榮</item>
-<lb n="0001a16" ed="X"/><lb n="0130a13" ed="R109"/><item xml:id="itemX62p0001a1601">示薛廣閱</item><item xml:id="itemX62p0001a1605">示某居士</item>
-<lb n="0001a17" ed="X"/><lb n="0130a14" ed="R109"/><item xml:id="itemX62p0001a1701">示洞庭山翁門石氏</item><item xml:id="itemX62p0001a1709">示洞庭山許門石氏</item>
-<lb n="0001a18" ed="X"/><lb n="0130a15" ed="R109"/><item xml:id="itemX62p0001a1801">示學者</item><item xml:id="itemX62p0001a1804">警眾</item></list></item>
-<lb n="0001a19" ed="X"/><lb n="0130a16" ed="R109"/><item xml:id="itemX62p0001a1901">書
-<lb n="0001a20" ed="X"/><lb n="0130a17" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001a2001">答江西謝青蓮孝廉廣鉁</item>
-<lb n="0001a21" ed="X"/><lb n="0130a18" ed="R109"/><item xml:id="itemX62p0001a2101">答湖州董潯陽宗伯</item>
-<lb n="0001a22" ed="X"/><lb n="0130b01" ed="R109"/><item xml:id="itemX62p0001a2201">答餘姚孫居士大珩<note place="inline">二章</note></item>
-<lb n="0001a23" ed="X"/><lb n="0130b02" ed="R109"/><item xml:id="itemX62p0001a2301">答德清許廓如居士廣鉞</item>
-<lb n="0001a24" ed="X"/><lb n="0130b03" ed="R109"/><item xml:id="itemX62p0001a2401">答湖廣劉守復居士廣曙</item>
+<lb n="0001a05" ed="X"/><lb n="0130a02" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0001a0501">像贊<note place="inline">廣龠吳應賓</note></item>
+<lb n="0001a06" ed="X"/><lb n="0130a03" ed="R109"/>
+  <item xml:id="itemX62p0001a0601">開示
+<lb n="0001a07" ed="X"/><lb n="0130a04" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001a0701">水陸會中普示持名念佛三昧</item>
+<lb n="0001a08" ed="X"/><lb n="0130a05" ed="R109"/>
+    <item xml:id="itemX62p0001a0801">普勸念佛往生淨土</item>
+    <item xml:id="itemX62p0001a0809">普勸念佛<note place="inline">二章</note></item>
+<lb n="0001a09" ed="X"/><lb n="0130a06" ed="R109"/>
+    <item xml:id="itemX62p0001a0901">示閱藏要語</item>
+    <item xml:id="itemX62p0001a0906">示在家二眾</item>
+<lb n="0001a10" ed="X"/><lb n="0130a07" ed="R109"/>
+    <item xml:id="itemX62p0001a1001">示病人<note place="inline">二章</note></item>
+    <item xml:id="itemX62p0001a1006">示耄年居士</item>
+<lb n="0001a11" ed="X"/><lb n="0130a08" ed="R109"/>
+    <item xml:id="itemX62p0001a1101">示臨終善女人</item>
+    <item xml:id="itemX62p0001a1107">示大同<note place="inline">二章</note></item>
+<lb n="0001a12" ed="X"/><lb n="0130a09" ed="R109"/>
+    <item xml:id="itemX62p0001a1201">示王智第</item>
+    <item xml:id="itemX62p0001a1205">示明宗大曉</item>
+<lb n="0001a13" ed="X"/><lb n="0130a10" ed="R109"/>
+    <item xml:id="itemX62p0001a1301">示吳大峻</item>
+    <item xml:id="itemX62p0001a1305">示于廣慧</item>
+<lb n="0001a14" ed="X"/><lb n="0130a11" ed="R109"/>
+    <item xml:id="itemX62p0001a1401">示王廣第</item>
+    <item xml:id="itemX62p0001a1405">示廣耆</item>
+<lb n="0001a15" ed="X"/><lb n="0130a12" ed="R109"/>
+    <item xml:id="itemX62p0001a1501">示吳廣綬</item>
+    <item xml:id="itemX62p0001a1505">示福建林榮</item>
+<lb n="0001a16" ed="X"/><lb n="0130a13" ed="R109"/>
+    <item xml:id="itemX62p0001a1601">示薛廣閱</item>
+    <item xml:id="itemX62p0001a1605">示某居士</item>
+<lb n="0001a17" ed="X"/><lb n="0130a14" ed="R109"/>
+    <item xml:id="itemX62p0001a1701">示洞庭山翁門石氏</item>
+    <item xml:id="itemX62p0001a1709">示洞庭山許門石氏</item>
+<lb n="0001a18" ed="X"/><lb n="0130a15" ed="R109"/>
+    <item xml:id="itemX62p0001a1801">示學者</item>
+    <item xml:id="itemX62p0001a1804">警眾</item>
+  </list></item>
+<lb n="0001a19" ed="X"/><lb n="0130a16" ed="R109"/>
+  <item xml:id="itemX62p0001a1901">書
+<lb n="0001a20" ed="X"/><lb n="0130a17" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001a2001">答江西謝青蓮孝廉廣鉁</item>
+<lb n="0001a21" ed="X"/><lb n="0130a18" ed="R109"/>
+    <item xml:id="itemX62p0001a2101">答湖州董潯陽宗伯</item>
+<lb n="0001a22" ed="X"/><lb n="0130b01" ed="R109"/>
+    <item xml:id="itemX62p0001a2201">答餘姚孫居士大珩<note place="inline">二章</note></item>
+<lb n="0001a23" ed="X"/><lb n="0130b02" ed="R109"/>
+    <item xml:id="itemX62p0001a2301">答德清許廓如居士廣鉞</item>
+<lb n="0001a24" ed="X"/><lb n="0130b03" ed="R109"/>
+    <item xml:id="itemX62p0001a2401">答湖廣劉守復居士廣曙</item>
 <pb n="0001b" ed="X" xml:id="X62.1170.0001b"/>
-<lb n="0001b01" ed="X"/><lb n="0130b04" ed="R109"/><item xml:id="itemX62p0001b0101">答蘇州遠心遠居士廣綬</item>
-<lb n="0001b02" ed="X"/><lb n="0130b05" ed="R109"/><item xml:id="itemX62p0001b0201">答紹興張居士</item>
-<lb n="0001b03" ed="X"/><lb n="0130b06" ed="R109"/><item xml:id="itemX62p0001b0301">答休寧居伯陽居士廣侒</item>
-<lb n="0001b04" ed="X"/><lb n="0130b07" ed="R109"/><item xml:id="itemX62p0001b0401">答通州孫居士廣諒</item><item xml:id="itemX62p0001b0409">答吳居士大澈</item>
-<lb n="0001b05" ed="X"/><lb n="0130b08" ed="R109"/><item xml:id="itemX62p0001b0501">答張杏苑居士廣經</item><item xml:id="itemX62p0001b0509">答金居士廣聚</item>
-<lb n="0001b06" ed="X"/><lb n="0130b09" ed="R109"/><item xml:id="itemX62p0001b0601">答檀林廣元</item>
-<lb n="0001b07" ed="X"/><lb n="0130b10" ed="R109"/><item xml:id="itemX62p0001b0701">答餘姚韓清泰居士廣梵</item>
-<lb n="0001b08" ed="X"/><lb n="0130b11" ed="R109"/><item xml:id="itemX62p0001b0801">答嘉興孫無高居士廣抑</item>
-<lb n="0001b09" ed="X"/><lb n="0130b12" ed="R109"/><item xml:id="itemX62p0001b0901">答張百戶廣湉</item>
-<lb n="0001b10" ed="X"/><lb n="0130b13" ed="R109"/><item xml:id="itemX62p0001b1001">答徽州吳季立居士大州</item>
-<lb n="0001b11" ed="X"/><lb n="0130b14" ed="R109"/><item xml:id="itemX62p0001b1101">與蘇州劉羅陽居士</item><item xml:id="itemX62p0001b1109">與江陰馮筠居居士</item>
-<lb n="0001b12" ed="X"/><lb n="0130b15" ed="R109"/><item xml:id="itemX62p0001b1201">與嘉興朱西宗居士廣振<note place="inline">五章</note></item>
-<lb n="0001b13" ed="X"/><lb n="0130b16" ed="R109"/><item xml:id="itemX62p0001b1301">與王居士大琸</item><item xml:id="itemX62p0001b1307">與秦明中居士</item>
-<lb n="0001b14" ed="X"/><lb n="0130b17" ed="R109"/><item xml:id="itemX62p0001b1401">與吳江秦任南居士廣俍</item>
-<lb n="0001b15" ed="X"/><lb n="0130b18" ed="R109"/><item xml:id="itemX62p0001b1501">與南城吳念慈居士廣翊</item>
-<lb n="0001b16" ed="X"/><lb n="0131a01" ed="R109"/><item xml:id="itemX62p0001b1601">與太倉王子顒孝廉智第</item></list></item>
-<lb n="0001b17" ed="X"/><lb n="0131a02" ed="R109"/><item xml:id="itemX62p0001b1701">答問
-<lb n="0001b18" ed="X"/><lb n="0131a03" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001b1801">答聞谷廣印</item><item xml:id="itemX62p0001b1806">答錢養淳州守廣霑</item>
-<lb n="0001b19" ed="X"/><lb n="0131a04" ed="R109"/><item xml:id="itemX62p0001b1901">答朱西宗居士</item><item xml:id="itemX62p0001b1907">答江廣宥居士</item>
-<lb n="0001b20" ed="X"/><lb n="0131a05" ed="R109"/><item xml:id="itemX62p0001b2001">答吳廣頴居士</item><item xml:id="itemX62p0001b2007">答餘姚蔣居士</item>
-<lb n="0001b21" ed="X"/><lb n="0131a06" ed="R109"/><item xml:id="itemX62p0001b2101">答龔廣淇居士</item><item xml:id="itemX62p0001b2107">答大鏡</item>
-<lb n="0001b22" ed="X"/><lb n="0131a07" ed="R109"/><item xml:id="itemX62p0001b2201">答姜居士</item><item xml:id="itemX62p0001b2205">答廣鐈為母墮胎求懺</item></list></item>
-<lb n="0001b23" ed="X"/><lb n="0131a08" ed="R109"/><item xml:id="itemX62p0001b2301">附
-<lb n="0001b24" ed="X"/><lb n="0131a09" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001b2401">勸修作福念佛圖說
+<lb n="0001b01" ed="X"/><lb n="0130b04" ed="R109"/>
+    <item xml:id="itemX62p0001b0101">答蘇州遠心遠居士廣綬</item>
+<lb n="0001b02" ed="X"/><lb n="0130b05" ed="R109"/>
+    <item xml:id="itemX62p0001b0201">答紹興張居士</item>
+<lb n="0001b03" ed="X"/><lb n="0130b06" ed="R109"/>
+    <item xml:id="itemX62p0001b0301">答休寧居伯陽居士廣侒</item>
+<lb n="0001b04" ed="X"/><lb n="0130b07" ed="R109"/>
+    <item xml:id="itemX62p0001b0401">答通州孫居士廣諒</item>
+    <item xml:id="itemX62p0001b0409">答吳居士大澈</item>
+<lb n="0001b05" ed="X"/><lb n="0130b08" ed="R109"/>
+    <item xml:id="itemX62p0001b0501">答張杏苑居士廣經</item>
+    <item xml:id="itemX62p0001b0509">答金居士廣聚</item>
+<lb n="0001b06" ed="X"/><lb n="0130b09" ed="R109"/>
+    <item xml:id="itemX62p0001b0601">答檀林廣元</item>
+<lb n="0001b07" ed="X"/><lb n="0130b10" ed="R109"/>
+    <item xml:id="itemX62p0001b0701">答餘姚韓清泰居士廣梵</item>
+<lb n="0001b08" ed="X"/><lb n="0130b11" ed="R109"/>
+    <item xml:id="itemX62p0001b0801">答嘉興孫無高居士廣抑</item>
+<lb n="0001b09" ed="X"/><lb n="0130b12" ed="R109"/>
+    <item xml:id="itemX62p0001b0901">答張百戶廣湉</item>
+<lb n="0001b10" ed="X"/><lb n="0130b13" ed="R109"/>
+    <item xml:id="itemX62p0001b1001">答徽州吳季立居士大州</item>
+<lb n="0001b11" ed="X"/><lb n="0130b14" ed="R109"/>
+    <item xml:id="itemX62p0001b1101">與蘇州劉羅陽居士</item>
+    <item xml:id="itemX62p0001b1109">與江陰馮筠居居士</item>
+<lb n="0001b12" ed="X"/><lb n="0130b15" ed="R109"/>
+    <item xml:id="itemX62p0001b1201">與嘉興朱西宗居士廣振<note place="inline">五章</note></item>
+<lb n="0001b13" ed="X"/><lb n="0130b16" ed="R109"/>
+    <item xml:id="itemX62p0001b1301">與王居士大琸</item>
+    <item xml:id="itemX62p0001b1307">與秦明中居士</item>
+<lb n="0001b14" ed="X"/><lb n="0130b17" ed="R109"/>
+    <item xml:id="itemX62p0001b1401">與吳江秦任南居士廣俍</item>
+<lb n="0001b15" ed="X"/><lb n="0130b18" ed="R109"/>
+    <item xml:id="itemX62p0001b1501">與南城吳念慈居士廣翊</item>
+<lb n="0001b16" ed="X"/><lb n="0131a01" ed="R109"/>
+    <item xml:id="itemX62p0001b1601">與太倉王子顒孝廉智第</item>
+  </list></item>
+<lb n="0001b17" ed="X"/><lb n="0131a02" ed="R109"/>
+  <item xml:id="itemX62p0001b1701">答問
+<lb n="0001b18" ed="X"/><lb n="0131a03" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001b1801">答聞谷廣印</item>
+    <item xml:id="itemX62p0001b1806">答錢養淳州守廣霑</item>
+<lb n="0001b19" ed="X"/><lb n="0131a04" ed="R109"/>
+    <item xml:id="itemX62p0001b1901">答朱西宗居士</item>
+    <item xml:id="itemX62p0001b1907">答江廣宥居士</item>
+<lb n="0001b20" ed="X"/><lb n="0131a05" ed="R109"/>
+    <item xml:id="itemX62p0001b2001">答吳廣頴居士</item>
+    <item xml:id="itemX62p0001b2007">答餘姚蔣居士</item>
+<lb n="0001b21" ed="X"/><lb n="0131a06" ed="R109"/>
+    <item xml:id="itemX62p0001b2101">答龔廣淇居士</item>
+    <item xml:id="itemX62p0001b2107">答大鏡</item>
+<lb n="0001b22" ed="X"/><lb n="0131a07" ed="R109"/>
+    <item xml:id="itemX62p0001b2201">答姜居士</item>
+    <item xml:id="itemX62p0001b2205">答廣鐈為母墮胎求懺</item>
+  </list></item>
+<lb n="0001b23" ed="X"/><lb n="0131a08" ed="R109"/>
+  <item xml:id="itemX62p0001b2301">附
+<lb n="0001b24" ed="X"/><lb n="0131a09" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001b2401">勸修作福念佛圖說
 <pb n="0001c" ed="X" xml:id="X62.1170.0001c"/>
-<lb n="0001c01" ed="X"/><lb n="0131a10" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001c0101">人天路上作福為先</item><item xml:id="itemX62p0001c0109">作福</item>
-<lb n="0001c02" ed="X"/><lb n="0131a11" ed="R109"/><item xml:id="itemX62p0001c0201">念佛</item><item xml:id="itemX62p0001c0203">歸戒圖說</item>
-<lb n="0001c03" ed="X"/><lb n="0131a12" ed="R109"/><item xml:id="itemX62p0001c0301">六齋月齋圖說</item>
-<lb n="0001c04" ed="X"/><lb n="0131a13" ed="R109"/><item xml:id="itemX62p0001c0401">念佛追薦亡靈往生圖說</item></list></item>
-<lb n="0001c05" ed="X"/><lb n="0131a14" ed="R109"/><item xml:id="itemX62p0001c0501">普勸為人必修淨土</item><item xml:id="itemX62p0001c0509">勸修淨土代言</item>
-<lb n="0001c06" ed="X"/><lb n="0131a15" ed="R109"/><item xml:id="itemX62p0001c0601">佛示念佛十種功德</item></list></item>
-<lb n="0001c07" ed="X"/><lb n="0131a16" ed="R109"/><item xml:id="itemX62p0001c0701">記
-<lb n="0001c08" ed="X"/><lb n="0131a17" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001c0801">香光室奉安彌陀聖像記</item></list></item>
-<lb n="0001c09" ed="X"/><lb n="0131a18" ed="R109"/><item xml:id="itemX62p0001c0901">說
-<lb n="0001c10" ed="X"/><lb n="0131b01" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001c1001">骷髏圖記</item></list></item>
-<lb n="0001c11" ed="X"/><lb n="0131b02" ed="R109"/><item xml:id="itemX62p0001c1101">偈頌
-<lb n="0001c12" ed="X"/><lb n="0131b03" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001c1201">勸修四料簡</item><item xml:id="itemX62p0001c1206">示廣位</item>
-<lb n="0001c13" ed="X"/><lb n="0131b04" ed="R109"/><item xml:id="itemX62p0001c1301">示大聞</item><item xml:id="itemX62p0001c1304">示大琸</item>
-<lb n="0001c14" ed="X"/><lb n="0131b05" ed="R109"/><item xml:id="itemX62p0001c1401">劉廣磐請代日祝貞母項偈</item></list></item>
-<lb n="0001c15" ed="X"/><lb n="0131b06" ed="R109"/><item xml:id="itemX62p0001c1501">贊銘
-<lb n="0001c16" ed="X"/><lb n="0131b07" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001c1601">蘭谷居士郁公像贊</item><item xml:id="itemX62p0001c1609">畫像自贊</item></list></item>
-<lb n="0001c17" ed="X"/><lb n="0131b08" ed="R109"/><item xml:id="itemX62p0001c1701">詩歌
-<lb n="0001c18" ed="X"/><lb n="0131b09" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0001c1801">義不可背</item><item xml:id="itemX62p0001c1805">恩不可忘</item>
-<lb n="0001c19" ed="X"/><lb n="0131b10" ed="R109"/><item xml:id="itemX62p0001c1901">情不可係</item><item xml:id="itemX62p0001c1905">怨不可藏</item>
-<lb n="0001c20" ed="X"/><lb n="0131b11" ed="R109"/><item xml:id="itemX62p0001c2001">驅烏嘆</item><item xml:id="itemX62p0001c2004">次高瑞南韻</item>
-<lb n="0001c21" ed="X"/><lb n="0131b12" ed="R109"/><item xml:id="itemX62p0001c2101">沈居士廣珊八十</item><item xml:id="itemX62p0001c2108">題涅槃堂<note place="inline">有序</note></item>
-<lb n="0001c22" ed="X"/><lb n="0131b13" ed="R109"/><item xml:id="itemX62p0001c2201">次韻答王百穀居士</item><item xml:id="itemX62p0001c2209">擬首尾吟<note place="inline">四首</note></item>
-<lb n="0001c23" ed="X"/><lb n="0131b14" ed="R109"/><item xml:id="itemX62p0001c2301">除夕上堂有出多娑婆三韻索偈者口占二首<note place="inline">選</note></item>
-<lb n="0001c24" ed="X"/><lb n="0131b15" ed="R109"/><item xml:id="itemX62p0001c2401">一字至七字與長兄三洲分咏風花雪月<note place="inline">錄花</note></item></list></item>
+<lb n="0001c01" ed="X"/><lb n="0131a10" ed="R109"/><list rend="no-marker">
+      <item xml:id="itemX62p0001c0101">人天路上作福為先</item>
+      <item xml:id="itemX62p0001c0109">作福</item>
+<lb n="0001c02" ed="X"/><lb n="0131a11" ed="R109"/>
+      <item xml:id="itemX62p0001c0201">念佛</item>
+      <item xml:id="itemX62p0001c0203">歸戒圖說</item>
+<lb n="0001c03" ed="X"/><lb n="0131a12" ed="R109"/>
+      <item xml:id="itemX62p0001c0301">六齋月齋圖說</item>
+<lb n="0001c04" ed="X"/><lb n="0131a13" ed="R109"/>
+      <item xml:id="itemX62p0001c0401">念佛追薦亡靈往生圖說</item>
+    </list></item>
+<lb n="0001c05" ed="X"/><lb n="0131a14" ed="R109"/>
+    <item xml:id="itemX62p0001c0501">普勸為人必修淨土</item>
+    <item xml:id="itemX62p0001c0509">勸修淨土代言</item>
+<lb n="0001c06" ed="X"/><lb n="0131a15" ed="R109"/>
+    <item xml:id="itemX62p0001c0601">佛示念佛十種功德</item>
+  </list></item>
+<lb n="0001c07" ed="X"/><lb n="0131a16" ed="R109"/>
+  <item xml:id="itemX62p0001c0701">記
+<lb n="0001c08" ed="X"/><lb n="0131a17" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001c0801">香光室奉安彌陀聖像記</item>
+  </list></item>
+<lb n="0001c09" ed="X"/><lb n="0131a18" ed="R109"/>
+  <item xml:id="itemX62p0001c0901">說
+<lb n="0001c10" ed="X"/><lb n="0131b01" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001c1001">骷髏圖記</item>
+  </list></item>
+<lb n="0001c11" ed="X"/><lb n="0131b02" ed="R109"/>
+  <item xml:id="itemX62p0001c1101">偈頌
+<lb n="0001c12" ed="X"/><lb n="0131b03" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001c1201">勸修四料簡</item>
+    <item xml:id="itemX62p0001c1206">示廣位</item>
+<lb n="0001c13" ed="X"/><lb n="0131b04" ed="R109"/>
+    <item xml:id="itemX62p0001c1301">示大聞</item>
+    <item xml:id="itemX62p0001c1304">示大琸</item>
+<lb n="0001c14" ed="X"/><lb n="0131b05" ed="R109"/>
+    <item xml:id="itemX62p0001c1401">劉廣磐請代日祝貞母項偈</item>
+  </list></item>
+<lb n="0001c15" ed="X"/><lb n="0131b06" ed="R109"/>
+  <item xml:id="itemX62p0001c1501">贊銘
+<lb n="0001c16" ed="X"/><lb n="0131b07" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001c1601">蘭谷居士郁公像贊</item>
+    <item xml:id="itemX62p0001c1609">畫像自贊</item>
+  </list></item>
+<lb n="0001c17" ed="X"/><lb n="0131b08" ed="R109"/>
+  <item xml:id="itemX62p0001c1701">詩歌
+<lb n="0001c18" ed="X"/><lb n="0131b09" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0001c1801">義不可背</item>
+    <item xml:id="itemX62p0001c1805">恩不可忘</item>
+<lb n="0001c19" ed="X"/><lb n="0131b10" ed="R109"/>
+    <item xml:id="itemX62p0001c1901">情不可係</item>
+    <item xml:id="itemX62p0001c1905">怨不可藏</item>
+<lb n="0001c20" ed="X"/><lb n="0131b11" ed="R109"/>
+    <item xml:id="itemX62p0001c2001">驅烏嘆</item>
+    <item xml:id="itemX62p0001c2004">次高瑞南韻</item>
+<lb n="0001c21" ed="X"/><lb n="0131b12" ed="R109"/>
+    <item xml:id="itemX62p0001c2101">沈居士廣珊八十</item>
+    <item xml:id="itemX62p0001c2108">題涅槃堂<note place="inline">有序</note></item>
+<lb n="0001c22" ed="X"/><lb n="0131b13" ed="R109"/>
+    <item xml:id="itemX62p0001c2201">次韻答王百穀居士</item>
+    <item xml:id="itemX62p0001c2209">擬首尾吟<note place="inline">四首</note></item>
+<lb n="0001c23" ed="X"/><lb n="0131b14" ed="R109"/>
+    <item xml:id="itemX62p0001c2301">除夕上堂有出多娑婆三韻索偈者口占二首<note place="inline">選</note></item>
+<lb n="0001c24" ed="X"/><lb n="0131b15" ed="R109"/>
+    <item xml:id="itemX62p0001c2401">一字至七字與長兄三洲分咏風花雪月<note place="inline">錄花</note></item>
+  </list></item>
 <pb n="0002a" ed="X" xml:id="X62.1170.0002a"/>
-<lb n="0002a01" ed="X"/><lb n="0131b16" ed="R109"/><item xml:id="itemX62p0002a0101">記事
-<lb n="0002a02" ed="X"/><lb n="0131b17" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0002a0201">淨業堂對聯</item></list></item>
-<lb n="0002a03" ed="X"/><lb n="0131b18" ed="R109"/><item xml:id="itemX62p0002a0301">竹窗隨筆
-<lb n="0002a04" ed="X"/><lb n="0132a01" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0002a0401">念佛鬼敬</item><item xml:id="itemX62p0002a0405">以苦為樂</item>
-<lb n="0002a05" ed="X"/><lb n="0132a02" ed="R109"/><item xml:id="itemX62p0002a0501">武夷圖</item><item xml:id="itemX62p0002a0504">念佛</item>
-<lb n="0002a06" ed="X"/><lb n="0132a03" ed="R109"/><item xml:id="itemX62p0002a0601">禮懺僧</item><item xml:id="itemX62p0002a0604">念佛不專一</item>
-<lb n="0002a07" ed="X"/><lb n="0132a04" ed="R109"/><item xml:id="itemX62p0002a0701">想見崑崙</item></list></item>
-<lb n="0002a08" ed="X"/><lb n="0132a05" ed="R109"/><item xml:id="itemX62p0002a0801">竹窓二筆
-<lb n="0002a09" ed="X"/><lb n="0132a06" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0002a0901">鴈蕩山</item><item xml:id="itemX62p0002a0904">鮑勔</item>
-<lb n="0002a10" ed="X"/><lb n="0132a07" ed="R109"/><item xml:id="itemX62p0002a1001">結社會</item><item xml:id="itemX62p0002a1004">後身<note place="inline">三章</note></item>
-<lb n="0002a11" ed="X"/><lb n="0132a08" ed="R109"/><item xml:id="itemX62p0002a1101">參究念佛</item><item xml:id="itemX62p0002a1105">淨土難信之法<note place="inline">三章</note></item>
-<lb n="0002a12" ed="X"/><lb n="0132a09" ed="R109"/><item xml:id="itemX62p0002a1201">念佛不礙參禪</item><item xml:id="itemX62p0002a1207">出世間大孝</item>
-<lb n="0002a13" ed="X"/><lb n="0132a10" ed="R109"/><item xml:id="itemX62p0002a1301">得悟人正宣往生淨土</item><item xml:id="itemX62p0002a1310">淨土不可言無</item>
-<lb n="0002a14" ed="X"/><lb n="0132a11" ed="R109"/><item xml:id="itemX62p0002a1401">隨處淨土</item><item xml:id="itemX62p0002a1405">出胎隔陰之迷</item>
-<lb n="0002a15" ed="X"/><lb n="0132a12" ed="R109"/><item xml:id="itemX62p0002a1501">願力</item><item xml:id="itemX62p0002a1503">九品往生</item></list></item>
-<lb n="0002a16" ed="X"/><lb n="0132a13" ed="R109"/><item xml:id="itemX62p0002a1601">竹牕三筆
-<lb n="0002a17" ed="X"/><lb n="0132a14" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0002a1701">晝夜彌陀十萬聲</item><item xml:id="itemX62p0002a1708">遊名山不願西方</item>
-<lb n="0002a18" ed="X"/><lb n="0132a15" ed="R109"/><item xml:id="itemX62p0002a1801">淨土壽終</item><item xml:id="itemX62p0002a1805">不願西方<note place="inline">二章</note></item>
-<lb n="0002a19" ed="X"/><lb n="0132a16" ed="R109"/><item xml:id="itemX62p0002a1901">念佛不見悟人</item><item xml:id="itemX62p0002a1907">一蹉百蹉</item>
-<lb n="0002a20" ed="X"/><lb n="0132a17" ed="R109"/><item xml:id="itemX62p0002a2001">蔑視西方</item><item xml:id="itemX62p0002a2005">出世間大孝</item>
-<lb n="0002a21" ed="X"/><lb n="0132a18" ed="R109"/><item xml:id="itemX62p0002a2101">三難淨土</item><item xml:id="itemX62p0002a2105">念荳佛</item>
-<lb n="0002a22" ed="X"/><lb n="0132b01" ed="R109"/><item xml:id="itemX62p0002a2201">念佛人惟一心不亂</item><item xml:id="itemX62p0002a2209">簡藏鍊磨</item>
-<lb n="0002a23" ed="X"/><lb n="0132b02" ed="R109"/><item xml:id="itemX62p0002a2301">雲棲法彚<note place="inline">四十八問答錄出</note></item><item xml:id="itemX62p0002a2312">壽光禪師偈</item></list></item>
-<lb n="0002a24" ed="X"/><lb n="0132b03" ed="R109"/><item xml:id="itemX62p0002a2401">附
+<lb n="0002a01" ed="X"/><lb n="0131b16" ed="R109"/>
+  <item xml:id="itemX62p0002a0101">記事
+<lb n="0002a02" ed="X"/><lb n="0131b17" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0002a0201">淨業堂對聯</item>
+  </list></item>
+<lb n="0002a03" ed="X"/><lb n="0131b18" ed="R109"/>
+  <item xml:id="itemX62p0002a0301">竹窗隨筆
+<lb n="0002a04" ed="X"/><lb n="0132a01" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0002a0401">念佛鬼敬</item>
+    <item xml:id="itemX62p0002a0405">以苦為樂</item>
+<lb n="0002a05" ed="X"/><lb n="0132a02" ed="R109"/>
+    <item xml:id="itemX62p0002a0501">武夷圖</item>
+    <item xml:id="itemX62p0002a0504">念佛</item>
+<lb n="0002a06" ed="X"/><lb n="0132a03" ed="R109"/>
+    <item xml:id="itemX62p0002a0601">禮懺僧</item>
+    <item xml:id="itemX62p0002a0604">念佛不專一</item>
+<lb n="0002a07" ed="X"/><lb n="0132a04" ed="R109"/>
+    <item xml:id="itemX62p0002a0701">想見崑崙</item>
+  </list></item>
+<lb n="0002a08" ed="X"/><lb n="0132a05" ed="R109"/>
+  <item xml:id="itemX62p0002a0801">竹窓二筆
+<lb n="0002a09" ed="X"/><lb n="0132a06" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0002a0901">鴈蕩山</item>
+    <item xml:id="itemX62p0002a0904">鮑勔</item>
+<lb n="0002a10" ed="X"/><lb n="0132a07" ed="R109"/>
+    <item xml:id="itemX62p0002a1001">結社會</item>
+    <item xml:id="itemX62p0002a1004">後身<note place="inline">三章</note></item>
+<lb n="0002a11" ed="X"/><lb n="0132a08" ed="R109"/>
+    <item xml:id="itemX62p0002a1101">參究念佛</item>
+    <item xml:id="itemX62p0002a1105">淨土難信之法<note place="inline">三章</note></item>
+<lb n="0002a12" ed="X"/><lb n="0132a09" ed="R109"/>
+    <item xml:id="itemX62p0002a1201">念佛不礙參禪</item>
+    <item xml:id="itemX62p0002a1207">出世間大孝</item>
+<lb n="0002a13" ed="X"/><lb n="0132a10" ed="R109"/>
+    <item xml:id="itemX62p0002a1301">得悟人正宣往生淨土</item>
+    <item xml:id="itemX62p0002a1310">淨土不可言無</item>
+<lb n="0002a14" ed="X"/><lb n="0132a11" ed="R109"/>
+    <item xml:id="itemX62p0002a1401">隨處淨土</item>
+    <item xml:id="itemX62p0002a1405">出胎隔陰之迷</item>
+<lb n="0002a15" ed="X"/><lb n="0132a12" ed="R109"/>
+    <item xml:id="itemX62p0002a1501">願力</item>
+    <item xml:id="itemX62p0002a1503">九品往生</item>
+  </list></item>
+<lb n="0002a16" ed="X"/><lb n="0132a13" ed="R109"/>
+  <item xml:id="itemX62p0002a1601">竹牕三筆
+<lb n="0002a17" ed="X"/><lb n="0132a14" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0002a1701">晝夜彌陀十萬聲</item>
+    <item xml:id="itemX62p0002a1708">遊名山不願西方</item>
+<lb n="0002a18" ed="X"/><lb n="0132a15" ed="R109"/>
+    <item xml:id="itemX62p0002a1801">淨土壽終</item>
+    <item xml:id="itemX62p0002a1805">不願西方<note place="inline">二章</note></item>
+<lb n="0002a19" ed="X"/><lb n="0132a16" ed="R109"/>
+    <item xml:id="itemX62p0002a1901">念佛不見悟人</item>
+    <item xml:id="itemX62p0002a1907">一蹉百蹉</item>
+<lb n="0002a20" ed="X"/><lb n="0132a17" ed="R109"/>
+    <item xml:id="itemX62p0002a2001">蔑視西方</item>
+    <item xml:id="itemX62p0002a2005">出世間大孝</item>
+<lb n="0002a21" ed="X"/><lb n="0132a18" ed="R109"/>
+    <item xml:id="itemX62p0002a2101">三難淨土</item>
+    <item xml:id="itemX62p0002a2105">念荳佛</item>
+<lb n="0002a22" ed="X"/><lb n="0132b01" ed="R109"/>
+    <item xml:id="itemX62p0002a2201">念佛人惟一心不亂</item>
+    <item xml:id="itemX62p0002a2209">簡藏鍊磨</item>
+<lb n="0002a23" ed="X"/><lb n="0132b02" ed="R109"/>
+    <item xml:id="itemX62p0002a2301">雲棲法彚<note place="inline">四十八問答錄出</note></item>
+    <item xml:id="itemX62p0002a2312">壽光禪師偈</item>
+  </list></item>
+<lb n="0002a24" ed="X"/><lb n="0132b03" ed="R109"/>
+  <item xml:id="itemX62p0002a2401">附
 <pb n="0002b" ed="X" xml:id="X62.1170.0002b"/>
-<lb n="0002b01" ed="X"/><lb n="0132b04" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0002b0101">答虞德園</item><item xml:id="itemX62p0002b0105">共命鳥</item>
-<lb n="0002b02" ed="X"/><lb n="0132b05" ed="R109"/><item xml:id="itemX62p0002b0201">白<g ref="#CB15112"/></item><item xml:id="itemX62p0002b0203">耳所未聞目所未見</item>
-<lb n="0002b03" ed="X"/><lb n="0132b06" ed="R109"/><item xml:id="itemX62p0002b0301">淨土四十八問答後序<note place="inline">李陽春</note></item>
-<lb n="0002b04" ed="X"/><lb n="0132b07" ed="R109"/><item xml:id="itemX62p0002b0401">淨土疑辨序<note place="inline">陳所蘊</note></item><item xml:id="itemX62p0002b0409">淨土疑辨後䟦</item></list></item></list></cb:div>
+<lb n="0002b01" ed="X"/><lb n="0132b04" ed="R109"/><list rend="no-marker">
+    <item xml:id="itemX62p0002b0101">答虞德園</item>
+    <item xml:id="itemX62p0002b0105">共命鳥</item>
+<lb n="0002b02" ed="X"/><lb n="0132b05" ed="R109"/>
+    <item xml:id="itemX62p0002b0201">白<g ref="#CB15112"/></item>
+    <item xml:id="itemX62p0002b0203">耳所未聞目所未見</item>
+<lb n="0002b03" ed="X"/><lb n="0132b06" ed="R109"/>
+    <item xml:id="itemX62p0002b0301">淨土四十八問答後序<note place="inline">李陽春</note></item>
+<lb n="0002b04" ed="X"/><lb n="0132b07" ed="R109"/>
+    <item xml:id="itemX62p0002b0401">淨土疑辨序<note place="inline">陳所蘊</note></item>
+    <item xml:id="itemX62p0002b0409">淨土疑辨後䟦</item>
+  </list></item>
+</list></cb:div>
 <lb n="0002b05" ed="X"/><lb n="0132b08" ed="R109"/>
-<lb n="0002b06" ed="X"/><lb n="0132b09" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">蓮池大師像贊</cb:mulu><head>蓮池大師像贊</head><byline cb:type="author">廣瀹吳應賓<note place="inline">觀我</note></byline>
-<lb n="0002b07" ed="X"/><lb n="0132b10" ed="R109"/><lg xml:id="lgX62p0002b0701" type="regular"><l>師之目兮，<caesura/>平等一光；<caesura/>師之臂兮，<caesura/>普導羣盲；</l>
-<lb n="0002b08" ed="X"/><lb n="0132b11" ed="R109"/><l>師之舌兮，<caesura/>華開四色；<caesura/>師之身兮，<caesura/>月印千江。</l></lg>
+<lb n="0002b06" ed="X"/><lb n="0132b09" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">蓮池大師像贊</cb:mulu><head>蓮池大師像贊</head>
+<byline cb:type="author">廣瀹吳應賓<note place="inline">觀我</note></byline>
+<lb n="0002b07" ed="X"/><lb n="0132b10" ed="R109"/><lg xml:id="lgX62p0002b0701" type="regular">
+  <l>師之目兮，<caesura/>平等一光；<caesura/>師之臂兮，<caesura/>普導羣盲；</l>
+<lb n="0002b08" ed="X"/><lb n="0132b11" ed="R109"/>
+  <l>師之舌兮，<caesura/>華開四色；<caesura/>師之身兮，<caesura/>月印千江。</l>
+</lg>
 <lb n="0002b09" ed="X"/><lb n="0132b12" ed="R109"/><p xml:id="pX62p0002b0901" style="margin-left:1em">戒皮定肉兮，得微妙之心髓；　六度四攝兮，作九
 <lb n="0002b10" ed="X"/><lb n="0132b13" ed="R109"/>品之津梁。</p></cb:div>
 <lb n="0002b11" ed="X"/>
@@ -197,7 +365,11 @@
 <lb n="0002b21" ed="X"/><lb n="0133a05" ed="R109"/><p xml:id="pX62p0002b2101">竊惟淨土之為教也，肇始於釋迦世尊，闡揚於歷代
 <lb n="0002b22" ed="X"/><lb n="0133a06" ed="R109"/>聖賢。於是以念佛一門而分四種：曰持名念佛、曰觀
 <lb n="0002b23" ed="X"/><lb n="0133a07" ed="R109"/>像念佛、曰觀想念佛、曰實相念佛。雖有四種之殊，究
-<lb n="0002b24" ed="X"/><lb n="0133a08" ed="R109"/>竟歸乎實相而<note n="0002b2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0002b2401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。又以前三約之為二：一為觀想、一
+<lb n="0002b24" ed="X"/><lb n="0133a08" ed="R109"/>竟歸乎實相而<note 
+n="0002b2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0002b2401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。又以前三約之為二：一為觀想、一
 <pb n="0002c" ed="X" xml:id="X62.1170.0002c"/>
 <lb n="0002c01" ed="X"/><lb n="0133a09" ed="R109"/>為持名。觀想則《十六觀經》言之詳矣。此論持名，則《阿
 <lb n="0002c02" ed="X"/><lb n="0133a10" ed="R109"/>彌陀經》云：「聞說阿彌陀佛，執持名號，若一日、二日乃
@@ -216,7 +388,11 @@
 <lb n="0002c15" ed="X"/><lb n="0133b05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">普勸念佛往生淨土</cb:mulu><head>普勸念佛往生淨土</head>
 <lb n="0002c16" ed="X"/><lb n="0133b06" ed="R109"/><p xml:id="pX62p0002c1601">《彌陀經》言：「若人念佛，臨命終時，必生彼國。」又《觀經》言：
 <lb n="0002c17" ed="X"/><lb n="0133b07" ed="R109"/>「念佛之人，生彼國者，蓮分九品。」蓋此念佛法門，不論
-<lb n="0002c18" ed="X"/><lb n="0133b08" ed="R109"/>男女僧俗、不論貴賤賢愚，<note n="0002c1801" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0002c1801"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>一心不亂，隨其功行大
+<lb n="0002c18" ed="X"/><lb n="0133b08" ed="R109"/>男女僧俗、不論貴賤賢愚，<note 
+n="0002c1801" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0002c1801">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>一心不亂，隨其功行大
 <lb n="0002c19" ed="X"/><lb n="0133b09" ed="R109"/>小，九品往生。故知世間，無有一人不堪念佛。若人富
 <lb n="0002c20" ed="X"/><lb n="0133b10" ed="R109"/>貴，受用現成，正好念佛。若人貧窮，家小累少，正好念
 <lb n="0002c21" ed="X"/><lb n="0133b11" ed="R109"/>佛。若人有子，宗祀得記，正好念佛。若人無子，孤身自
@@ -252,11 +428,16 @@
 <lb n="0003b01" ed="X"/><lb n="0134b03" ed="R109"/>好儘心儘力念佛。每日念幾千聲，乃至幾萬。</p>
 <lb n="0003b02" ed="X"/><lb n="0134b04" ed="R109"/><p xml:id="pX62p0003b0201">一勸半忙閒人念佛。半了不了或忙或閒，雖不極閒，
 <lb n="0003b03" ed="X"/><lb n="0134b05" ed="R109"/>亦可忙時治事，閒時念佛。每日念幾百聲，乃至幾千。</p>
-<lb n="0003b04" ed="X"/><lb n="0134b06" ed="R109"/><p xml:id="pX62p0003b0401">一勸極忙人念佛。<note n="0003001" resp="Xuzangjing" type="orig" place="foot text">勸疑勤</note>勸勞王事、奔波家業，雖無閒時，也
+<lb n="0003b04" ed="X"/><lb n="0134b06" ed="R109"/><p xml:id="pX62p0003b0401">一勸極忙人念佛。<note 
+n="0003001" resp="Xuzangjing" type="orig" place="foot text">勸疑勤</note>勸勞王事、奔波家業，雖無閒時，也
 <lb n="0003b05" ed="X"/><lb n="0134b07" ed="R109"/>須忙裏偷閒念佛。每日晨朝十念，乃至日間或念幾
 <lb n="0003b06" ed="X"/><lb n="0134b08" ed="R109"/>百。</p></cb:div>
 <lb n="0003b07" ed="X"/><lb n="0134b09" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">示閱藏要語</cb:mulu><head>示閱藏要語</head>
-<lb n="0003b08" ed="X"/><lb n="0134b10" ed="R109"/><p xml:id="pX62p0003b0801">大藏經所詮者，不過戒定慧而<note n="0003b0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0003b0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。然閱藏者，二種過
+<lb n="0003b08" ed="X"/><lb n="0134b10" ed="R109"/><p xml:id="pX62p0003b0801">大藏經所詮者，不過戒定慧而<note 
+n="0003b0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0003b0801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。然閱藏者，二種過
 <lb n="0003b09" ed="X"/><lb n="0134b11" ed="R109"/>失：一者執文字而迷理致、二者識理致而不會心，徒
 <lb n="0003b10" ed="X"/><lb n="0134b12" ed="R109"/>廢光陰，祇成緣種耳。若能體達戒定慧熏修，則一大
 <lb n="0003b11" ed="X"/><lb n="0134b13" ed="R109"/>藏經教，所謂念念常住，即念百千萬億卷經者，此也。
@@ -281,7 +462,11 @@
 <lb n="0003c05" ed="X"/><lb n="0135a13" ed="R109"/><p xml:id="pX62p0003c0501">古人有言：「病者眾生之良藥。」則人於病中，當生大歡
 <lb n="0003c06" ed="X"/><lb n="0135a14" ed="R109"/>喜。一切不如意處，莫起煩惱。又言：「生死有命。」則人於
 <lb n="0003c07" ed="X"/><lb n="0135a15" ed="R109"/>病中，當生大解脫。任其死生，莫起恐怖。又過去如幻、
-<lb n="0003c08" ed="X"/><lb n="0135a16" ed="R109"/>現在如幻、未來如幻，盡情放下，單持正念而<note n="0003c0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0003c0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。病中
+<lb n="0003c08" ed="X"/><lb n="0135a16" ed="R109"/>現在如幻、未來如幻，盡情放下，單持正念而<note 
+n="0003c0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0003c0801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。病中
 <lb n="0003c09" ed="X"/><lb n="0135a17" ed="R109"/>千萬寧耐，莫懷速愈之<g ref="#CB02578"/>心，乃所以為速愈之良方
 <lb n="0003c10" ed="X"/><lb n="0135a18" ed="R109"/>也。</p>
 <lb n="0003c11" ed="X"/><lb n="0135b01" ed="R109"/><p xml:id="pX62p0003c1101" style="margin-left:3em">又</p>
@@ -330,7 +515,11 @@
 <lb n="0004b04" ed="X"/><lb n="0136b06" ed="R109"/>一念佛。念佛上透，千處萬處俱透。</p></cb:div>
 <lb n="0004b05" ed="X"/><lb n="0136b07" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">示廣耆</cb:mulu><head>示廣耆</head>
 <lb n="0004b06" ed="X"/><lb n="0136b08" ed="R109"/><p xml:id="pX62p0004b0601">龐老云：「十方同聚會，箇箇學無為。此是選佛場，心空
-<lb n="0004b07" ed="X"/><lb n="0136b09" ed="R109"/>及第歸。」未能空心，且勤念佛。念念不<note n="0004b0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0004b0701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，心當自空。</p></cb:div>
+<lb n="0004b07" ed="X"/><lb n="0136b09" ed="R109"/>及第歸。」未能空心，且勤念佛。念念不<note 
+n="0004b0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0004b0701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，心當自空。</p></cb:div>
 <lb n="0004b08" ed="X"/><lb n="0136b10" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">示吳廣綬</cb:mulu><head>示吳廣綬</head>
 <lb n="0004b09" ed="X"/><lb n="0136b11" ed="R109"/><p xml:id="pX62p0004b0901">既不疑生死、不疑古德公案，何得生大怖畏？何得尚
 <lb n="0004b10" ed="X"/><lb n="0136b12" ed="R109"/>慮疑箭入心也？是所云不疑者，猶有疑也。昔二比邱
@@ -360,7 +549,12 @@
 <lb n="0004c09" ed="X"/><lb n="0137a17" ed="R109"/>遠矣。</p></cb:div>
 <lb n="0004c10" ed="X"/><lb n="0137a18" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">示學者</cb:mulu><head>示學者</head>
 <lb n="0004c11" ed="X"/><lb n="0137b01" ed="R109"/><p xml:id="pX62p0004c1101">今人多好說參悟、好說了生死，不知在此土了悟甚
-<lb n="0004c12" ed="X"/><lb n="0137b02" ed="R109"/>難，謂之竪超三界。斯<note n="0004001" resp="Xuzangjing" type="orig" place="foot text">那當作陀</note><note n="0004001" resp="CBETA" type="mod">陀【CB】，那【卍續】，那當作陀</note><app n="0004001"><lem resp="CBETA.maha" wit="【CB】">陀</lem><rdg wit="【卍續】">那</rdg></app>含猶一往一來，況凡人乎！此
+<lb n="0004c12" ed="X"/><lb n="0137b02" ed="R109"/>難，謂之竪超三界。斯<note 
+n="0004001" resp="Xuzangjing" type="orig" place="foot text">那當作陀</note><note 
+n="0004001" resp="CBETA" type="mod">陀【CB】，那【卍續】，那當作陀</note><app n="0004001">
+  <lem resp="CBETA.maha" wit="【CB】">陀</lem>
+  <rdg wit="【卍續】">那</rdg>
+</app>含猶一往一來，況凡人乎！此
 <lb n="0004c13" ed="X"/><lb n="0137b03" ed="R109"/>土眾生多是先生西方，然後了悟。生西方一門，謂之
 <lb n="0004c14" ed="X"/><lb n="0137b04" ed="R109"/>橫超三界，萬無一失。</p></cb:div>
 <lb n="0004c15" ed="X"/><lb n="0137b05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">警眾</cb:mulu><head>警眾</head>
@@ -395,7 +589,11 @@
 <lb n="0005a19" ed="X"/><lb n="0138a15" ed="R109"/>生死根由，如何能得即斷？且萬念紛飛之際，正是做
 <lb n="0005a20" ed="X"/><lb n="0138a16" ed="R109"/>工夫時節，旋收旋散、旋散旋收，久後工夫純熟，自然
 <lb n="0005a21" ed="X"/><lb n="0138a17" ed="R109"/>妄念不起。且汝之能覺妄念重者，虧這句佛耳。如不
-<lb n="0005a22" ed="X"/><lb n="0138a18" ed="R109"/>念佛之時，瀾翻潮湧剎那不停者，自<note n="0005a2201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0005a2201"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>豈能覺乎？</p>
+<lb n="0005a22" ed="X"/><lb n="0138a18" ed="R109"/>念佛之時，瀾翻潮湧剎那不停者，自<note 
+n="0005a2201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0005a2201">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>豈能覺乎？</p>
 <lb n="0005a23" ed="X"/><lb n="0138b01" ed="R109"/><p xml:id="pX62p0005a2301">念佛有默持、有高聲持、有金剛持。然高聲覺太費力，
 <lb n="0005a24" ed="X"/><lb n="0138b02" ed="R109"/>默念又易昏沉。只是綿綿密密，聲在於唇齒之間，乃
 <pb n="0005b" ed="X" xml:id="X62.1170.0005b"/>
@@ -408,10 +606,15 @@
 <lb n="0005b07" ed="X"/><lb n="0138b09" ed="R109"/>德大福、大智大慧、大聖大賢的勾當。轉娑婆，成淨土，
 <lb n="0005b08" ed="X"/><lb n="0138b10" ed="R109"/>不同小可因緣。汝但看此城中，一日一夜死却多少
 <lb n="0005b09" ed="X"/><lb n="0138b11" ed="R109"/>人。不要說生西方，即生天，千百人中尚無一箇。其有
-<lb n="0005b10" ed="X"/><lb n="0138b12" ed="R109"/>自負修行者，秪是不失人身而<note n="0005b1001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0005b1001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。故我世尊，大慈大
+<lb n="0005b10" ed="X"/><lb n="0138b12" ed="R109"/>自負修行者，秪是不失人身而<note 
+n="0005b1001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0005b1001">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。故我世尊，大慈大
 <lb n="0005b11" ed="X"/><lb n="0138b13" ed="R109"/>悲，示此法門，功過乾坤、恩逾父母，粉骨碎身，不足為
 <lb n="0005b12" ed="X"/><lb n="0138b14" ed="R109"/>報。</p>
-<lb n="0005b13" ed="X"/><lb n="0138b15" ed="R109"/><p xml:id="pX62p0005b1301">幼時尚不知念佛，見鄰家一老嫗，每日課佛數千，<note n="0005001" resp="Xuzangjing" type="orig" place="foot text">間當作問</note>間
+<lb n="0005b13" ed="X"/><lb n="0138b15" ed="R109"/><p xml:id="pX62p0005b1301">幼時尚不知念佛，見鄰家一老嫗，每日課佛數千，<note 
+n="0005001" resp="Xuzangjing" type="orig" place="foot text">間當作問</note>間
 <lb n="0005b14" ed="X"/><lb n="0138b16" ed="R109"/>云：「為何如此？」彼云：「先夫往時念佛，去得甚好，故我如
 <lb n="0005b15" ed="X"/><lb n="0138b17" ed="R109"/>此念。先夫去時，並無他病，只與人一請而別。」出家人
 <lb n="0005b16" ed="X"/><lb n="0138b18" ed="R109"/>奈何不念佛。</p></cb:div></cb:div>
@@ -459,8 +662,16 @@
 <lb n="0006a08" ed="X"/><lb n="0140a04" ed="R109"/>彌陀佛垂手接引往生，歡喜無量，何畏之有？</p></cb:div>
 <lb n="0006a09" ed="X"/><lb n="0140a05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答紹興張居士</cb:mulu><head>答紹興張居士</head>
 <lb n="0006a10" ed="X"/><lb n="0140a06" ed="R109"/><p xml:id="pX62p0006a1001">營靜室同修淨業，此世間最上事也。然室不必全美，
-<lb n="0006a11" ed="X"/><lb n="0140a07" ed="R109"/>足供佛及行坐禮拜即<note n="0006a1101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006a1101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。亦不必候家事俱了。日出
-<lb n="0006a12" ed="X"/><lb n="0140a08" ed="R109"/>事生，欲了固無了日也。隨即下手，<note n="0006a1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006a1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>遲遲矣。生死海
+<lb n="0006a11" ed="X"/><lb n="0140a07" ed="R109"/>足供佛及行坐禮拜即<note 
+n="0006a1101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006a1101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。亦不必候家事俱了。日出
+<lb n="0006a12" ed="X"/><lb n="0140a08" ed="R109"/>事生，欲了固無了日也。隨即下手，<note 
+n="0006a1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006a1201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>遲遲矣。生死海
 <lb n="0006a13" ed="X"/><lb n="0140a09" ed="R109"/>中，念佛法門最為第一，宜盡心焉。</p></cb:div>
 <lb n="0006a14" ed="X"/><lb n="0140a10" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答休寧吳伯陽居士廣侒</cb:mulu><head>答休寧吳伯陽居士廣侒</head>
 <lb n="0006a15" ed="X"/><lb n="0140a11" ed="R109"/><p xml:id="pX62p0006a1501">《楞嚴》分別真妄處，曾不談及觀想西方、執持名號等
@@ -480,21 +691,37 @@
 <lb n="0006b04" ed="X"/><lb n="0140b06" ed="R109"/>相應時也。</p></cb:div>
 <lb n="0006b05" ed="X"/><lb n="0140b07" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答張杏苑居士廣經</cb:mulu><head>答張杏苑居士廣經</head>
 <lb n="0006b06" ed="X"/><lb n="0140b08" ed="R109"/><p xml:id="pX62p0006b0601">所問雲門語，不須究。他說教外別傳，只看他說，須退
-<lb n="0006b07" ed="X"/><lb n="0140b09" ed="R109"/>步向自<note n="0006b0701" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0006b0701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>脚跟下推尋是箇甚麼道理。其推尋今亦
+<lb n="0006b07" ed="X"/><lb n="0140b09" ed="R109"/>步向自<note 
+n="0006b0701" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0006b0701">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>脚跟下推尋是箇甚麼道理。其推尋今亦
 <lb n="0006b08" ed="X"/><lb n="0140b10" ed="R109"/>不難。既信念佛，但內看念佛的是誰，便是脚跟下推
 <lb n="0006b09" ed="X"/><lb n="0140b11" ed="R109"/>尋也。久之則正訛中所云：最後窮元極微一叚事，不
 <lb n="0006b10" ed="X"/><lb n="0140b12" ed="R109"/>患其不得矣。</p></cb:div>
 <lb n="0006b11" ed="X"/><lb n="0140b13" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答金居土廣聚</cb:mulu><head>答金居土廣聚</head>
 <lb n="0006b12" ed="X"/><lb n="0140b14" ed="R109"/><p xml:id="pX62p0006b1201">來問曰末後緊關、曰甚深之旨、曰本地相應、曰直提
 <lb n="0006b13" ed="X"/><lb n="0140b15" ed="R109"/>指斯事，緊也、深也、本也、直也，皆切問也，然只在近思
-<lb n="0006b14" ed="X"/><lb n="0140b16" ed="R109"/>而<note n="0006b1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006b1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。除此靈知烱烱外，皆緩耳、淺耳、末耳、曲耳。誠即
+<lb n="0006b14" ed="X"/><lb n="0140b16" ed="R109"/>而<note 
+n="0006b1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006b1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。除此靈知烱烱外，皆緩耳、淺耳、末耳、曲耳。誠即
 <lb n="0006b15" ed="X"/><lb n="0140b17" ed="R109"/>此念佛一念所起，<g ref="#CB15111"/>得破，管取大事了畢。又不可見
-<lb n="0006b16" ed="X"/><lb n="0140b18" ed="R109"/>如是說，便作思惟卜度、穿鑿求通，則反失之矣。<note n="0006b1601" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0006b1601"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>念
+<lb n="0006b16" ed="X"/><lb n="0140b18" ed="R109"/>如是說，便作思惟卜度、穿鑿求通，則反失之矣。<note 
+n="0006b1601" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0006b1601">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>念
 <lb n="0006b17" ed="X"/><lb n="0141a01" ed="R109"/>念體究，真積力久而自得之，方是證悟。</p></cb:div>
 <lb n="0006b18" ed="X"/><lb n="0141a02" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答檀林廣元</cb:mulu><head>答檀林廣元</head>
 <lb n="0006b19" ed="X"/><lb n="0141a03" ed="R109"/><p xml:id="pX62p0006b1901">耆宿未見了了，不足恐怖。葢彼心力，實不曾用盡耳。
 <lb n="0006b20" ed="X"/><lb n="0141a04" ed="R109"/>今既有疾，亦不必以勉強勇作。但依經中執持名號，
-<lb n="0006b21" ed="X"/><lb n="0141a05" ed="R109"/>一心不亂。一味省緣，可省便省，不得<note n="0006b2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006b2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>者然後應之，
+<lb n="0006b21" ed="X"/><lb n="0141a05" ed="R109"/>一心不亂。一味省緣，可省便省，不得<note 
+n="0006b2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0006b2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>者然後應之，
 <lb n="0006b22" ed="X"/><lb n="0141a06" ed="R109"/>自然工夫得力矣。</p></cb:div>
 <lb n="0006b23" ed="X"/><lb n="0141a07" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答餘姚韓清泰居士廣梵</cb:mulu><head>答餘姚韓清泰居士廣梵</head>
 <lb n="0006b24" ed="X"/><lb n="0141a08" ed="R109"/><p xml:id="pX62p0006b2401">來問一門深入之旨，彼葢為門庭各別者言。今念佛
@@ -517,7 +744,11 @@
 <lb n="0006c16" ed="X"/><lb n="0141b06" ed="R109"/>不可忽。</p></cb:div>
 <lb n="0006c17" ed="X"/><lb n="0141b07" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答徽州吳季立居士大州</cb:mulu><head>答徽州吳季立居士大州</head>
 <lb n="0006c18" ed="X"/><lb n="0141b08" ed="R109"/><p xml:id="pX62p0006c1801">不必憂罪業深，不必疑根性鈍。經云：「至心念阿彌陀
-<lb n="0006c19" ed="X"/><lb n="0141b09" ed="R109"/>佛一聲，滅八十<note n="0006c1901" resp="CBETA" type="add">［－］【CB】，萬【卍續】</note><app n="0006c1901"><lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/><note type="cf1">T12n0365_p0346a20</note><note type="cf2">T47n1963_p0101a01</note><note type="cf3">T47n1966_p0121c02</note></lem><rdg wit="【卍續】">萬</rdg></app>億劫生死重罪。」何疑乎業深。又古
+<lb n="0006c19" ed="X"/><lb n="0141b09" ed="R109"/>佛一聲，滅八十<note 
+n="0006c1901" resp="CBETA" type="add">［－］【CB】，萬【卍續】</note><app n="0006c1901">
+  <lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/><note type="cf1">T12n0365_p0346a20</note><note type="cf2">T47n1963_p0101a01</note><note type="cf3">T47n1966_p0121c02</note></lem>
+  <rdg wit="【卍續】">萬</rdg>
+</app>億劫生死重罪。」何疑乎業深。又古
 <lb n="0006c20" ed="X"/><lb n="0141b10" ed="R109"/>聖云：「惟有徑路修行，但念阿彌陀佛。」何憂乎根鈍？見
 <lb n="0006c21" ed="X"/><lb n="0141b11" ed="R109"/>方友，即以此告之。</p></cb:div>
 <lb n="0006c22" ed="X"/><lb n="0141b12" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">與蘇州劉羅陽居士</cb:mulu><head>與蘇州劉羅陽居士</head>
@@ -531,7 +762,11 @@
 <lb n="0007a05" ed="X"/><lb n="0142a01" ed="R109"/>二時中念念提撕。是所至望。</p></cb:div>
 <lb n="0007a06" ed="X"/><lb n="0142a02" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">與江陰馮筠居居士</cb:mulu><head>與江陰馮筠居居士</head>
 <lb n="0007a07" ed="X"/><lb n="0142a03" ed="R109"/><p xml:id="pX62p0007a0701">七十古稀，百年能幾？今此暮景，正宜放開懷抱，看破
-<lb n="0007a08" ed="X"/><lb n="0142a04" ed="R109"/>世間宛如一場戲劇，何有真實？<note n="0007a0801" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0007a0801"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>以一聲阿彌陀佛，
+<lb n="0007a08" ed="X"/><lb n="0142a04" ed="R109"/>世間宛如一場戲劇，何有真實？<note 
+n="0007a0801" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0007a0801">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>以一聲阿彌陀佛，
 <lb n="0007a09" ed="X"/><lb n="0142a05" ed="R109"/>消遣光陰。但以西方極樂世界，為我家舍。我今念佛，
 <lb n="0007a10" ed="X"/><lb n="0142a06" ed="R109"/>日後當生西方，何幸如之。發大歡喜，莫生煩惱。倘遇
 <lb n="0007a11" ed="X"/><lb n="0142a07" ed="R109"/>不如意事，即便撥轉心頭，這一聲佛急急提念，却回
@@ -556,7 +791,8 @@
 <lb n="0007b05" ed="X"/><lb n="0142b07" ed="R109"/>否、身之生死一併放下，是之謂舒。二曰調攝。調攝在
 <lb n="0007b06" ed="X"/><lb n="0142b08" ed="R109"/>節飲食、慎藥餌。飲食不待論矣。藥餌不宜多服。知栢
 <lb n="0007b07" ed="X"/><lb n="0142b09" ed="R109"/>芩連等苦寒之劑，使金寒水冷，陰未能滋、火未能降，
-<lb n="0007b08" ed="X"/><lb n="0142b10" ed="R109"/>而胃氣先敗，食不下咽，或洞洩危矣。<note n="0007001" resp="Xuzangjing" type="orig" place="foot text">宣疑宜</note>宣與高明議之。
+<lb n="0007b08" ed="X"/><lb n="0142b10" ed="R109"/>而胃氣先敗，食不下咽，或洞洩危矣。<note 
+n="0007001" resp="Xuzangjing" type="orig" place="foot text">宣疑宜</note>宣與高明議之。
 <lb n="0007b09" ed="X"/><lb n="0142b11" ed="R109"/>三曰正念。即前所告，苦從身生，身從業生等。病即苦
 <lb n="0007b10" ed="X"/><lb n="0142b12" ed="R109"/>中之一，其展轉相因，亦復如是。應孜孜密密，日夕體
 <lb n="0007b11" ed="X"/><lb n="0142b13" ed="R109"/>究。究之不得，只消提一句本參念佛話頭，回光自看。
@@ -590,7 +826,11 @@
 <lb n="0007c14" ed="X"/><lb n="0143b04" ed="R109"/>心空境寂，妙當何如。願無易而忽之。</p></cb:div>
 <lb n="0007c15" ed="X"/><lb n="0143b05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">與吳江秦任南居士廣俍</cb:mulu><head>與吳江秦任南居士廣俍</head>
 <lb n="0007c16" ed="X"/><lb n="0143b06" ed="R109"/><p xml:id="pX62p0007c1601">所云開幽暗、解業縛，若會則幽暗即是光明、業縛無
-<lb n="0007c17" ed="X"/><lb n="0143b07" ed="R109"/>非解脫。如不會，<note n="0007c1701" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0007c1701"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>時時攝心念佛，久久靜定，自能發
+<lb n="0007c17" ed="X"/><lb n="0143b07" ed="R109"/>非解脫。如不會，<note 
+n="0007c1701" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0007c1701">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>時時攝心念佛，久久靜定，自能發
 <lb n="0007c18" ed="X"/><lb n="0143b08" ed="R109"/>慧。</p></cb:div>
 <lb n="0007c19" ed="X"/><lb n="0143b09" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">與南城吳念慈居士廣翊</cb:mulu><head>與南城吳念慈居士廣翊</head>
 <lb n="0007c20" ed="X"/><lb n="0143b10" ed="R109"/><p xml:id="pX62p0007c2001">入道多門，直捷簡要，無如念佛。念佛一門，上度最勝
@@ -612,27 +852,56 @@
 <lb n="0008a11" ed="X"/><lb n="0144a07" ed="R109"/>所云念者，不必啟口動舌，但默默以心眼返照，一字
 <lb n="0008a12" ed="X"/><lb n="0144a08" ed="R109"/>一字分明，一句一句接續。從朝至暮、從暮至朝，心心
 <lb n="0008a13" ed="X"/><lb n="0144a09" ed="R109"/>靡間。若有痛苦，忍之耐之，一心顧念。經云：「至心念佛
-<lb n="0008a14" ed="X"/><lb n="0144a10" ed="R109"/>一聲，滅八十<note n="0008a1401" resp="CBETA" type="add">［－］【CB】，萬【卍續】</note><app n="0008a1401"><lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/><note type="cf1">T12n0365_p0346a20</note><note type="cf2">T47n1963_p0101a01</note><note type="cf3">T47n1966_p0121c02</note></lem><rdg wit="【卍續】">萬</rdg></app>億劫生死重罪。」故功德懸殊也。</p></cb:div></cb:div>
+<lb n="0008a14" ed="X"/><lb n="0144a10" ed="R109"/>一聲，滅八十<note 
+n="0008a1401" resp="CBETA" type="add">［－］【CB】，萬【卍續】</note><app n="0008a1401">
+  <lem resp="CBETA.maha" wit="【CB】"><space quantity="0"/><note type="cf1">T12n0365_p0346a20</note><note type="cf2">T47n1963_p0101a01</note><note type="cf3">T47n1966_p0121c02</note></lem>
+  <rdg wit="【卍續】">萬</rdg>
+</app>億劫生死重罪。」故功德懸殊也。</p></cb:div></cb:div>
 <lb n="0008a15" ed="X"/><lb n="0144a11" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">答問</cb:mulu><head>答問</head>
 <lb n="0008a16" ed="X"/><lb n="0144a12" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答聞谷廣印</cb:mulu><head>答聞谷廣印</head>
-<lb n="0008a17" ed="X"/><lb n="0144a13" ed="R109"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX62p0008a1701" style="margin-left:1em">問：古人<note n="0008a1701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008a1701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>稟單傳直指，後修淨業而欲往生者。為
+<lb n="0008a17" ed="X"/><lb n="0144a13" ed="R109"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX62p0008a1701" style="margin-left:1em">問：古人<note 
+n="0008a1701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008a1701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>稟單傳直指，後修淨業而欲往生者。為
 <lb n="0008a18" ed="X"/><lb n="0144a14" ed="R109"/>是悟後隨願起行耶？為是未悟二行兼修耶？若兼
-<lb n="0008a19" ed="X"/><lb n="0144a15" ed="R109"/>修者，墮偷心、岐路心，工夫那得成片耶？若<note n="0008a1901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008a1901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>悟，則
+<lb n="0008a19" ed="X"/><lb n="0144a15" ed="R109"/>修者，墮偷心、岐路心，工夫那得成片耶？若<note 
+n="0008a1901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008a1901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>悟，則
 <lb n="0008a20" ed="X"/><lb n="0144a16" ed="R109"/>塵塵華藏、在在蓮<g ref="#CB15131"/>，十方無不可者，何獨樂生西
 <lb n="0008a21" ed="X"/><lb n="0144a17" ed="R109"/>方耶？</p></sp>
-<lb n="0008a22" ed="X"/><lb n="0144a18" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0008a2201">答：真信淨土、決志往生者，不論<note n="0008a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008a2201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>悟未悟，其從事單
-<lb n="0008a23" ed="X"/><lb n="0144b01" ed="R109"/>傳直指而未悟者，雖<note n="0008001" resp="Xuzangjing" type="orig" place="foot text">目疑日</note>目以參禪為務，不妨發願往生。
+<lb n="0008a22" ed="X"/><lb n="0144a18" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0008a2201">答：真信淨土、決志往生者，不論<note 
+n="0008a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008a2201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>悟未悟，其從事單
+<lb n="0008a23" ed="X"/><lb n="0144b01" ed="R109"/>傳直指而未悟者，雖<note 
+n="0008001" resp="Xuzangjing" type="orig" place="foot text">目疑日</note>目以參禪為務，不妨發願往生。
 <lb n="0008a24" ed="X"/><lb n="0144b02" ed="R109"/>以未能不受後有，畢竟有生處故，不是偷心、岐路心
 <pb n="0008b" ed="X" xml:id="X62.1170.0008b"/>
-<lb n="0008b01" ed="X"/><lb n="0144b03" ed="R109"/>也。其<note n="0008b0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008b0101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>悟者，古人云：「汝將謂一悟便可上齊諸佛乎？」
+<lb n="0008b01" ed="X"/><lb n="0144b03" ed="R109"/>也。其<note 
+n="0008b0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008b0101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>悟者，古人云：「汝將謂一悟便可上齊諸佛乎？」
 <lb n="0008b02" ed="X"/><lb n="0144b04" ed="R109"/>故普賢為華嚴長子，雖塵塵華藏，在在蓮<g ref="#CB15131"/>。而〈行願
-<lb n="0008b03" ed="X"/><lb n="0144b05" ed="R109"/>品〉必拳拳乎以往生安樂為言也。<note n="0008b0301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008b0301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>悟尚然，未悟可
+<lb n="0008b03" ed="X"/><lb n="0144b05" ed="R109"/>品〉必拳拳乎以往生安樂為言也。<note 
+n="0008b0301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008b0301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>悟尚然，未悟可
 <lb n="0008b04" ed="X"/><lb n="0144b06" ed="R109"/>知矣。</p></sp></cb:dialog>
 <lb n="0008b05" ed="X"/><lb n="0144b07" ed="R109"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX62p0008b0501" style="margin-left:1em">問：參禪貴一心不生，念佛貴淨念相繼。茲參究念
 <lb n="0008b06" ed="X"/><lb n="0144b08" ed="R109"/>佛一門，意在妙悟而得往生也。今念時雖心佛分
 <lb n="0008b07" ed="X"/><lb n="0144b09" ed="R109"/>明，參時即二俱坐斷。斷故參功漸勝、念力漸微，則
 <lb n="0008b08" ed="X"/><lb n="0144b10" ed="R109"/>他時焉得亦悟亦生耶？</p></sp>
-<lb n="0008b09" ed="X"/><lb n="0144b11" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0008b0901">答：一念不生是禪非參，起念下疑乃名<note n="0008b0901" resp="CBETA" type="add">曰【CB】，日【卍續】</note><app n="0008b0901"><lem resp="CBETA.maha" wit="【CB】">曰</lem><rdg wit="【卍續】">日</rdg></app>參。《楞嚴》云：
+<lb n="0008b09" ed="X"/><lb n="0144b11" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0008b0901">答：一念不生是禪非參，起念下疑乃名<note 
+n="0008b0901" resp="CBETA" type="add">曰【CB】，日【卍續】</note><app n="0008b0901">
+  <lem resp="CBETA.maha" wit="【CB】">曰</lem>
+  <rdg wit="【卍續】">日</rdg>
+</app>參。《楞嚴》云：
 <lb n="0008b10" ed="X"/><lb n="0144b12" ed="R109"/>「又以此心，反覆研究」等是也。念時參時俱屬有念，亦
 <lb n="0008b11" ed="X"/><lb n="0144b13" ed="R109"/>不相悖。</p></sp></cb:dialog></cb:div>
 <lb n="0008b12" ed="X"/><lb n="0144b14" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答錢養淳州守廣霑</cb:mulu><head>答錢養淳州守廣霑</head>
@@ -663,7 +932,11 @@
 <lb n="0008c12" ed="X"/><lb n="0145b02" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0008c1201">答：孔子言終食造次顛沛不違仁。此不違工夫，雖一
 <lb n="0008c13" ed="X"/><lb n="0145b03" ed="R109"/>時不易到，然作之不止，乃成自然。況久久行持，忽地
 <lb n="0008c14" ed="X"/><lb n="0145b04" ed="R109"/>有箇省處，則苦樂逆順道在其中。所謂咳唾掉臂，無
-<lb n="0008c15" ed="X"/><lb n="0145b05" ed="R109"/>不是祖師西來意。亦在乎熟之而<note n="0008c1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008c1501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>矣。</p></sp></cb:dialog>
+<lb n="0008c15" ed="X"/><lb n="0145b05" ed="R109"/>不是祖師西來意。亦在乎熟之而<note 
+n="0008c1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0008c1501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>矣。</p></sp></cb:dialog>
 <lb n="0008c16" ed="X"/><lb n="0145b06" ed="R109"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX62p0008c1601" style="margin-left:1em">問：觀佛廣大相好，不能成就。</p></sp>
 <lb n="0008c17" ed="X"/><lb n="0145b07" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0008c1701">答：古德謂眾生心雜，觀想難成。大聖悲憐，直勸專持
 <lb n="0008c18" ed="X"/><lb n="0145b08" ed="R109"/>名號。今且持名，觀想姑置勿論。</p></sp></cb:dialog></cb:div>
@@ -695,7 +968,11 @@
 <lb n="0009a19" ed="X"/><lb n="0146a15" ed="R109"/>在福事，即不在佛號矣。拈一放一，可謂一心不亂
 <lb n="0009a20" ed="X"/><lb n="0146a16" ed="R109"/>乎？</p></sp>
 <lb n="0009a21" ed="X"/><lb n="0146a17" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0009a2101">答：明鏡本空，物來則現，於鏡空何礙？人但事未至而
-<lb n="0009a22" ed="X"/><lb n="0146a18" ed="R109"/>將迎、事<note n="0009a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0009a2201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>過而留滯，乃為病耳。</p></sp></cb:dialog></cb:div>
+<lb n="0009a22" ed="X"/><lb n="0146a18" ed="R109"/>將迎、事<note 
+n="0009a2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0009a2201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>過而留滯，乃為病耳。</p></sp></cb:dialog></cb:div>
 <lb n="0009a23" ed="X"/><lb n="0146b01" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答餘姚蔣居士</cb:mulu><head>答餘姚蔣居士</head>
 <lb n="0009a24" ed="X"/><lb n="0146b02" ed="R109"/><p xml:id="pX62p0009a2401">欲為生人根本，斷之誠難。有不淨觀，治其標也。反究
 <pb n="0009b" ed="X" xml:id="X62.1170.0009b"/>
@@ -703,7 +980,11 @@
 <lb n="0009b02" ed="X"/><lb n="0146b04" ed="R109"/><p xml:id="pX62p0009b0201">持名念佛，且專一持名。但禮佛時，作觀可也。</p></cb:div>
 <lb n="0009b03" ed="X"/><lb n="0146b05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答龔廣淇居士</cb:mulu><head>答龔廣淇居士</head>
 <lb n="0009b04" ed="X"/><lb n="0146b06" ed="R109"/><p xml:id="pX62p0009b0401">不論在家出家，執持名號，一心不亂，即執持名號四
-<lb n="0009b05" ed="X"/><lb n="0146b07" ed="R109"/><note n="0009b0501" resp="CBETA" type="add" note_key="X62.0009b05.01">字【CB】，宇【卍續】</note><app n="0009b0501"><lem resp="CBETA.ting" wit="【CB】" cb:provider="來函：正行 (2025-01-02)">字<note type="cf1">J33nB277_p0144c14</note></lem><rdg wit="【卍續】">宇</rdg></app>是入頭處。執持二字，莫草草看過。</p>
+<lb n="0009b05" ed="X"/><lb n="0146b07" ed="R109"/><note 
+n="0009b0501" resp="CBETA" type="add" note_key="X62.0009b05.01">字【CB】，宇【卍續】</note><app n="0009b0501">
+  <lem resp="CBETA.ting" wit="【CB】" cb:provider="來函：正行 (2025-01-02)">字<note type="cf1">J33nB277_p0144c14</note></lem>
+  <rdg wit="【卍續】">宇</rdg>
+</app>是入頭處。執持二字，莫草草看過。</p>
 <lb n="0009b06" ed="X"/><lb n="0146b08" ed="R109"/><p xml:id="pX62p0009b0601">返照念佛人是誰，與參禪意同。</p>
 <lb n="0009b07" ed="X"/><lb n="0146b09" ed="R109"/><p xml:id="pX62p0009b0701">諸大乘經可看，而以顧正念為主。</p></cb:div>
 <lb n="0009b08" ed="X"/><lb n="0146b10" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">答大鏡</cb:mulu><head>答大鏡</head>
@@ -716,7 +997,11 @@
 <lb n="0009b15" ed="X"/><lb n="0146b17" ed="R109"/>但勤念佛。一心念佛，蓮花化生。</p>
 <lb n="0009b16" ed="X"/><lb n="0146b18" ed="R109"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX62p0009b1601" style="margin-left:1em">問：一心稱名時，又著求生，不幾二念乎？</p></sp>
 <lb n="0009b17" ed="X"/><lb n="0147a01" ed="R109"/><sp cb:type="answer"><p xml:id="pX62p0009b1701">答：求生須於早晚發願時。若稱名時，一心一念，不可
-<lb n="0009b18" ed="X"/><lb n="0147a02" ed="R109"/>夾雜。<note n="0009b1801" resp="CBETA" type="add">譬【CB】，警【卍續】</note><app n="0009b1801"><lem resp="CBETA.maha" wit="【CB】">譬</lem><rdg wit="【卍續】">警</rdg></app>如舉業家，讀書作文，其行也。其所以讀書作
+<lb n="0009b18" ed="X"/><lb n="0147a02" ed="R109"/>夾雜。<note 
+n="0009b1801" resp="CBETA" type="add">譬【CB】，警【卍續】</note><app n="0009b1801">
+  <lem resp="CBETA.maha" wit="【CB】">譬</lem>
+  <rdg wit="【卍續】">警</rdg>
+</app>如舉業家，讀書作文，其行也。其所以讀書作
 <lb n="0009b19" ed="X"/><lb n="0147a03" ed="R109"/>文者為何？要中舉。中進士，其願也。</p></sp></cb:dialog>
 <lb n="0009b20" ed="X"/><lb n="0147a04" ed="R109"/><p xml:id="pX62p0009b2001" style="margin-left:3em">以上未詳問人。</p>
 <lb n="0009b21" ed="X"/><lb n="0147a05" ed="R109"/><p xml:id="pX62p0009b2101">端坐念佛，恐心難攝，不若經行。</p>
@@ -725,7 +1010,11 @@
 <lb n="0009b24" ed="X"/><lb n="0147a08" ed="R109"/>如鼎三足，缺一不可。</p>
 <pb n="0009c" ed="X" xml:id="X62.1170.0009c"/>
 <lb n="0009c01" ed="X"/><lb n="0147a09" ed="R109"/><p xml:id="pX62p0009c0101">法滅之際，凡舉一莖草，便成鎗刃，可以殺人。此時諸
-<lb n="0009c02" ed="X"/><lb n="0147a10" ed="R109"/>法<note n="0009c0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0009c0201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>滅，止留彌陀一句救人。人有念得一句全者，便
+<lb n="0009c02" ed="X"/><lb n="0147a10" ed="R109"/>法<note 
+n="0009c0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0009c0201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>滅，止留彌陀一句救人。人有念得一句全者，便
 <lb n="0009c03" ed="X"/><lb n="0147a11" ed="R109"/>為世間師。</p>
 <lb n="0009c04" ed="X"/><lb n="0147a12" ed="R109"/><p xml:id="pX62p0009c0401" style="margin-left:4em">以上併未詳問語。</p></cb:div></cb:div>
 <lb n="0009c05" ed="X"/><lb n="0147a13" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">附</cb:mulu><head>附</head>
@@ -737,28 +1026,55 @@
 <lb n="0009c11" ed="X"/><lb n="0147b01" ed="R109"/>盡還沉淪。念佛不作福，入道多苦辛。無福不念佛，地
 <lb n="0009c12" ed="X"/><lb n="0147b02" ed="R109"/>獄鬼畜羣。念佛兼作福，後證兩足尊。」</p></cb:div>
 <lb n="0009c13" ed="X"/><lb n="0147b03" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">作福　但作一福福下一點不論大小多寡</cb:mulu><head>作福　但作一福。福下一點，不論大小多寡</head>
-<lb n="0009c14" ed="X"/><lb n="0147b04" ed="R109"/><lg xml:id="lgX62p0009c1401" type="regular"><l>孝順父母，<caesura/>忠報君王，<caesura/>裝塑佛像，<caesura/>印造經典，</l>
-<lb n="0009c15" ed="X"/><lb n="0147b05" ed="R109"/><l>齋供僧伽，<caesura/>敬事師長，<caesura/>營修寺宇，<caesura/>流通善法，</l>
-<lb n="0009c16" ed="X"/><lb n="0147b06" ed="R109"/><l>禁絕宰殺，<caesura/>買放生命，<caesura/>飯食飢民，<caesura/>衣濟寒凍，</l>
-<lb n="0009c17" ed="X"/><lb n="0147b07" ed="R109"/><l>開掘義井，<caesura/>修理橋梁，<caesura/>平砌街道，<caesura/>普施茶湯，</l>
-<lb n="0009c18" ed="X"/><lb n="0147b08" ed="R109"/><l>看療病人，<caesura/>給散藥餌，<caesura/>伸雪冤枉，<caesura/>出滅刑罪，</l>
-<lb n="0009c19" ed="X"/><lb n="0147b09" ed="R109"/><l>安養衰老，<caesura/>撫育孤孩，<caesura/>埋藏屍骨，<caesura/>給與棺木，</l>
-<lb n="0009c20" ed="X"/><lb n="0147b10" ed="R109"/><l>饒免債負，<caesura/>義讓財產，<caesura/>還他遺失，<caesura/>救濟患苦，</l>
-<lb n="0009c21" ed="X"/><lb n="0147b11" ed="R109"/><l>祈禱災難，<caesura/>薦<g ref="#CB15072"/>亡魂，<caesura/>勸和爭訟，<caesura/>生全人命。</l></lg></cb:div>
+<lb n="0009c14" ed="X"/><lb n="0147b04" ed="R109"/><lg xml:id="lgX62p0009c1401" type="regular">
+  <l>孝順父母，<caesura/>忠報君王，<caesura/>裝塑佛像，<caesura/>印造經典，</l>
+<lb n="0009c15" ed="X"/><lb n="0147b05" ed="R109"/>
+  <l>齋供僧伽，<caesura/>敬事師長，<caesura/>營修寺宇，<caesura/>流通善法，</l>
+<lb n="0009c16" ed="X"/><lb n="0147b06" ed="R109"/>
+  <l>禁絕宰殺，<caesura/>買放生命，<caesura/>飯食飢民，<caesura/>衣濟寒凍，</l>
+<lb n="0009c17" ed="X"/><lb n="0147b07" ed="R109"/>
+  <l>開掘義井，<caesura/>修理橋梁，<caesura/>平砌街道，<caesura/>普施茶湯，</l>
+<lb n="0009c18" ed="X"/><lb n="0147b08" ed="R109"/>
+  <l>看療病人，<caesura/>給散藥餌，<caesura/>伸雪冤枉，<caesura/>出滅刑罪，</l>
+<lb n="0009c19" ed="X"/><lb n="0147b09" ed="R109"/>
+  <l>安養衰老，<caesura/>撫育孤孩，<caesura/>埋藏屍骨，<caesura/>給與棺木，</l>
+<lb n="0009c20" ed="X"/><lb n="0147b10" ed="R109"/>
+  <l>饒免債負，<caesura/>義讓財產，<caesura/>還他遺失，<caesura/>救濟患苦，</l>
+<lb n="0009c21" ed="X"/><lb n="0147b11" ed="R109"/>
+  <l>祈禱災難，<caesura/>薦<g ref="#CB15072"/>亡魂，<caesura/>勸和爭訟，<caesura/>生全人命。</l>
+</lg></cb:div>
 <lb n="0009c22" ed="X"/><lb n="0147b12" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">念佛　千聲填一圈白黃紅青黑可填五次</cb:mulu><head>念佛　千聲填一圈。白黃紅青黑，可填五次</head>
 <lb n="0009c23" ed="X"/><lb n="0147b13" ed="R109"/><p xml:id="pX62p0009c2301">無事身間者，時時勤念。有事纏身者，早晚課念。至心
 <lb n="0009c24" ed="X"/><lb n="0147b14" ed="R109"/>發願，求生淨土。平日遇福便作，作訖還念，即以所作
 <pb n="0010a" ed="X" xml:id="X62.1170.0010a"/>
 <lb n="0010a01" ed="X"/><lb n="0147b15" ed="R109"/>之福迴向淨土，求願往生。善人<note place="inline">某甲</note>受持。</p></cb:div>
 <lb n="0010a02" ed="X"/><lb n="0147b16" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">歸戒圖說</cb:mulu><head>歸戒圖說</head>
-<lb n="0010a03" ed="X"/><lb n="0147b17" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0010a0301">歸依佛，不墮地獄。我今歸依佛。</item>
-<lb n="0010a04" ed="X"/><lb n="0147b18" ed="R109"/><item xml:id="itemX62p0010a0401">歸依法，不墮餓鬼。我今歸依法。</item>
-<lb n="0010a05" ed="X"/><lb n="0148a01" ed="R109"/><item xml:id="itemX62p0010a0501">歸依僧，不墮旁生。我今歸依僧。</item></list>
-<lb n="0010a06" ed="X"/><lb n="0148a02" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0010a0601">一不殺生　凡有命者不得殺害。</item>
-<lb n="0010a07" ed="X"/><lb n="0148a03" ed="R109"/><item xml:id="itemX62p0010a0701">二不偷盜　一針一草不問不取。</item>
-<lb n="0010a08" ed="X"/><lb n="0148a04" ed="R109"/><item xml:id="itemX62p0010a0801">三不邪婬　禮法持身不犯外色。</item>
-<lb n="0010a09" ed="X"/><lb n="0148a05" ed="R109"/><item xml:id="itemX62p0010a0901">四不妄語　妄言、綺語、惡口、兩舌，悉禁不說。</item>
-<lb n="0010a10" ed="X"/><lb n="0148a06" ed="R109"/><item xml:id="itemX62p0010a1001">五不飲<note n="0010a1001" resp="CBETA" type="add">酒【CB】，洒【卍續】</note><app n="0010a1001"><lem resp="CBETA.maha" wit="【CB】">酒</lem><rdg wit="【卍續】">洒</rdg></app>　<note n="0010a1002" resp="CBETA" type="add">酒【CB】，洒【卍續】</note><app n="0010a1002"><lem resp="CBETA.maha" wit="【CB】">酒</lem><rdg wit="【卍續】">洒</rdg></app>名狂藥，亂性迷魂，禁不入口。</item></list>
+<lb n="0010a03" ed="X"/><lb n="0147b17" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0010a0301">歸依佛，不墮地獄。我今歸依佛。</item>
+<lb n="0010a04" ed="X"/><lb n="0147b18" ed="R109"/>
+  <item xml:id="itemX62p0010a0401">歸依法，不墮餓鬼。我今歸依法。</item>
+<lb n="0010a05" ed="X"/><lb n="0148a01" ed="R109"/>
+  <item xml:id="itemX62p0010a0501">歸依僧，不墮旁生。我今歸依僧。</item>
+</list>
+<lb n="0010a06" ed="X"/><lb n="0148a02" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0010a0601">一不殺生　凡有命者不得殺害。</item>
+<lb n="0010a07" ed="X"/><lb n="0148a03" ed="R109"/>
+  <item xml:id="itemX62p0010a0701">二不偷盜　一針一草不問不取。</item>
+<lb n="0010a08" ed="X"/><lb n="0148a04" ed="R109"/>
+  <item xml:id="itemX62p0010a0801">三不邪婬　禮法持身不犯外色。</item>
+<lb n="0010a09" ed="X"/><lb n="0148a05" ed="R109"/>
+  <item xml:id="itemX62p0010a0901">四不妄語　妄言、綺語、惡口、兩舌，悉禁不說。</item>
+<lb n="0010a10" ed="X"/><lb n="0148a06" ed="R109"/>
+  <item xml:id="itemX62p0010a1001">五不飲<note 
+n="0010a1001" resp="CBETA" type="add">酒【CB】，洒【卍續】</note><app n="0010a1001">
+    <lem resp="CBETA.maha" wit="【CB】">酒</lem>
+    <rdg wit="【卍續】">洒</rdg>
+  </app>　<note 
+n="0010a1002" resp="CBETA" type="add">酒【CB】，洒【卍續】</note><app n="0010a1002">
+    <lem resp="CBETA.maha" wit="【CB】">酒</lem>
+    <rdg wit="【卍續】">洒</rdg>
+  </app>名狂藥，亂性迷魂，禁不入口。</item>
+</list>
 <lb n="0010a11" ed="X"/><lb n="0148a07" ed="R109"/><p xml:id="pX62p0010a1101">既受歸戒，諸惡莫作，眾善奉行，一心念佛，求生淨土。
 <lb n="0010a12" ed="X"/><lb n="0148a08" ed="R109"/>諸惡，謂不忠不孝、不仁不義，如是諸惡不能盡舉，但
 <lb n="0010a13" ed="X"/><lb n="0148a09" ed="R109"/>瞞天昧心等事，便不應作。眾善，謂忠孝仁義。如是眾
@@ -779,7 +1095,11 @@
 <lb n="0010b03" ed="X"/><lb n="0148b05" ed="R109"/>察人間，何人孝順父母，何人忠報君王，何人正直公
 <lb n="0010b04" ed="X"/><lb n="0148b06" ed="R109"/>平，何人慈悲方便，何人歸依三寶、戒殺持齋、廣修眾
 <lb n="0010b05" ed="X"/><lb n="0148b07" ed="R109"/>善。如是等人，加福增壽。何人忤逆父母，何人背叛君
-<lb n="0010b06" ed="X"/><lb n="0148b08" ed="R109"/>王，何人欺詐姦巧，何人剛<note n="0010b0601" resp="CBETA" type="add">狠【CB】，狼【卍續】</note><app n="0010b0601"><lem resp="CBETA.maha" wit="【CB】">狠</lem><rdg wit="【卍續】">狼</rdg></app>暴虐，何人不信三寶、宰
+<lb n="0010b06" ed="X"/><lb n="0148b08" ed="R109"/>王，何人欺詐姦巧，何人剛<note 
+n="0010b0601" resp="CBETA" type="add">狠【CB】，狼【卍續】</note><app n="0010b0601">
+  <lem resp="CBETA.maha" wit="【CB】">狠</lem>
+  <rdg wit="【卍續】">狼</rdg>
+</app>暴虐，何人不信三寶、宰
 <lb n="0010b07" ed="X"/><lb n="0148b09" ed="R109"/>殺生命、廣造諸惡。如是等人，削福滅壽。又正、五、九月，
 <lb n="0010b08" ed="X"/><lb n="0148b10" ed="R109"/>天王分鎮南州，考察罪福。又玉皇天帝，正、五、九月，以
 <lb n="0010b09" ed="X"/><lb n="0148b11" ed="R109"/>大寶鏡正照南州，考察罪福。」可不懼哉！可不慎哉！此
@@ -788,19 +1108,39 @@
 <lb n="0010b12" ed="X"/><lb n="0148b14" ed="R109"/>月齋，必守六齋。倘更日日持齋、日日念佛、日日修德，
 <lb n="0010b13" ed="X"/><lb n="0148b15" ed="R109"/>大善大善。</p></cb:div>
 <lb n="0010b14" ed="X"/><lb n="0148b16" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">念佛追薦亡靈往生圖說</cb:mulu><head>念佛追薦亡靈往生圖說</head>
-<lb n="0010b15" ed="X"/><lb n="0148b17" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0010b1501">首七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
-<lb n="0010b16" ed="X"/><lb n="0148b18" ed="R109"/><item xml:id="itemX62p0010b1601">二七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
-<lb n="0010b17" ed="X"/><lb n="0149a01" ed="R109"/><item xml:id="itemX62p0010b1701">三七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
-<lb n="0010b18" ed="X"/><lb n="0149a02" ed="R109"/><item xml:id="itemX62p0010b1801">四七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
-<lb n="0010b19" ed="X"/><lb n="0149a03" ed="R109"/><item xml:id="itemX62p0010b1901">五七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
-<lb n="0010b20" ed="X"/><lb n="0149a04" ed="R109"/><item xml:id="itemX62p0010b2001">六七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
-<lb n="0010b21" ed="X"/><lb n="0149a05" ed="R109"/><item xml:id="itemX62p0010b2101">七七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item></list>
+<lb n="0010b15" ed="X"/><lb n="0148b17" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0010b1501">首七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
+<lb n="0010b16" ed="X"/><lb n="0148b18" ed="R109"/>
+  <item xml:id="itemX62p0010b1601">二七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
+<lb n="0010b17" ed="X"/><lb n="0149a01" ed="R109"/>
+  <item xml:id="itemX62p0010b1701">三七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
+<lb n="0010b18" ed="X"/><lb n="0149a02" ed="R109"/>
+  <item xml:id="itemX62p0010b1801">四七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
+<lb n="0010b19" ed="X"/><lb n="0149a03" ed="R109"/>
+  <item xml:id="itemX62p0010b1901">五七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
+<lb n="0010b20" ed="X"/><lb n="0149a04" ed="R109"/>
+  <item xml:id="itemX62p0010b2001">六七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
+<lb n="0010b21" ed="X"/><lb n="0149a05" ed="R109"/>
+  <item xml:id="itemX62p0010b2101">七七念佛<note place="inline">幾</note>萬<note place="inline">幾</note>千<note place="inline">幾</note>百</item>
+</list>
 <lb n="0010b22" ed="X"/><lb n="0149a06" ed="R109"/><p xml:id="pX62p0010b2201" style="margin-left:2em">通共念佛<note place="inline">幾</note>十萬<note place="inline">幾</note>千<note place="inline">幾</note>百。</p>
-<lb n="0010b23" ed="X"/><lb n="0149a07" ed="R109"/><p xml:id="pX62p0010b2301">凡人於至親亡歿，悲傷不<note n="0010b2301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0010b2301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。然亡者無益，生者有損。
-<lb n="0010b24" ed="X"/><lb n="0149a08" ed="R109"/>不<note n="0010b2401" resp="CBETA" type="add">若【CB】，苦【卍續】</note><app n="0010b2401"><lem resp="CBETA.maha" wit="【CB】">若</lem><rdg wit="【卍續】">苦</rdg></app>停悲，思為薦濟。經言：「人死皆於七七日內托生。」
+<lb n="0010b23" ed="X"/><lb n="0149a07" ed="R109"/><p xml:id="pX62p0010b2301">凡人於至親亡歿，悲傷不<note 
+n="0010b2301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0010b2301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。然亡者無益，生者有損。
+<lb n="0010b24" ed="X"/><lb n="0149a08" ed="R109"/>不<note 
+n="0010b2401" resp="CBETA" type="add">若【CB】，苦【卍續】</note><app n="0010b2401">
+  <lem resp="CBETA.maha" wit="【CB】">若</lem>
+  <rdg wit="【卍續】">苦</rdg>
+</app>停悲，思為薦濟。經言：「人死皆於七七日內托生。」
 <pb n="0010c" ed="X" xml:id="X62.1170.0010c"/>
 <lb n="0010c01" ed="X"/><lb n="0149a09" ed="R109"/>當即此時，作諸功德。今勸七七請僧誦經之外，更加
-<lb n="0010c02" ed="X"/><lb n="0149a10" ed="R109"/>自<note n="0010c0201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0010c0201"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>念佛。每日持念一千五百，有餘力或至二三四
+<lb n="0010c02" ed="X"/><lb n="0149a10" ed="R109"/>自<note 
+n="0010c0201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0010c0201">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>念佛。每日持念一千五百，有餘力或至二三四
 <lb n="0010c03" ed="X"/><lb n="0149a11" ed="R109"/>千。七日總計若千，填註七下。七七日滿，回向焚化。能
 <lb n="0010c04" ed="X"/><lb n="0149a12" ed="R109"/>令亡者，罪障消滅、冤愆解釋，早生善趣，不滯冥途。孝
 <lb n="0010c05" ed="X"/><lb n="0149a13" ed="R109"/>子思親、慈親憶子、兄弟姉妹、夫婦眷屬、師生明友，念
@@ -850,59 +1190,114 @@
 <lb n="0011a24" ed="X"/><lb n="0150b02" ed="R109"/>幸甚。</p></cb:div>
 <pb n="0011b" ed="X" xml:id="X62.1170.0011b"/>
 <lb n="0011b01" ed="X"/><lb n="0150b03" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">勸修淨土代言</cb:mulu><head>勸修淨土代言</head>
-<lb n="0011b02" ed="X"/><lb n="0150b04" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">前文</cb:mulu><p xml:id="pX62p0011b0201">袾宏下劣凡夫，安分守愚，平生所務，惟是南無阿彌
+<lb n="0011b02" ed="X"/><lb n="0150b04" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">前文</cb:mulu>
+<p xml:id="pX62p0011b0201">袾宏下劣凡夫，安分守愚，平生所務，惟是南無阿彌
 <lb n="0011b03" ed="X"/><lb n="0150b05" ed="R109"/>陀佛六字。今老矣，倘有問者，必以此答。猶恐無徵，涉
 <lb n="0011b04" ed="X"/><lb n="0150b06" ed="R109"/>於臆見，況復衰病，艱於語言。謹將佛菩薩所說經論，
 <lb n="0011b05" ed="X"/><lb n="0150b07" ed="R109"/>及古今諸大知識、大居士等種種著述，題名開後，幸
 <lb n="0011b06" ed="X"/><lb n="0150b08" ed="R109"/>隨所見，詳閱而深玩焉。可信與否，惟高明裁之。</p></cb:div>
 <lb n="0011b07" ed="X"/><lb n="0150b09" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">佛菩薩所說經論</cb:mulu><head>佛菩薩所說經論</head>
-<lb n="0011b08" ed="X"/><lb n="0150b10" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0011b0801">佛說阿彌陀經<note place="inline">一卷</note></item><item xml:id="itemX62p0011b0809">佛說無量壽經<note place="inline">一卷</note></item>
-<lb n="0011b09" ed="X"/><lb n="0150b11" ed="R109"/><item xml:id="itemX62p0011b0901">佛說觀無量壽經<note place="inline">一卷</note></item><item xml:id="itemX62p0011b0910">佛說鼓音王經<note place="inline">一卷</note></item>
-<lb n="0011b10" ed="X"/><lb n="0150b12" ed="R109"/><item xml:id="itemX62p0011b1001">天親菩薩往生論<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1010">馬鳴菩薩起信論<note place="inline">一卷</note></item></list></cb:div>
+<lb n="0011b08" ed="X"/><lb n="0150b10" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0011b0801">佛說阿彌陀經<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b0809">佛說無量壽經<note place="inline">一卷</note></item>
+<lb n="0011b09" ed="X"/><lb n="0150b11" ed="R109"/>
+  <item xml:id="itemX62p0011b0901">佛說觀無量壽經<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b0910">佛說鼓音王經<note place="inline">一卷</note></item>
+<lb n="0011b10" ed="X"/><lb n="0150b12" ed="R109"/>
+  <item xml:id="itemX62p0011b1001">天親菩薩往生論<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1010">馬鳴菩薩起信論<note place="inline">一卷</note></item>
+</list></cb:div>
 <lb n="0011b11" ed="X"/><lb n="0150b13" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">諸大知識諸大居士著述</cb:mulu><head>諸大知識諸大居士著述</head>
-<lb n="0011b12" ed="X"/><lb n="0150b14" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0011b1201">智者大師觀經疏<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1210">四明妙宗鈔<note place="inline">三卷</note></item>
-<lb n="0011b13" ed="X"/><lb n="0150b15" ed="R109"/><item xml:id="itemX62p0011b1301">智者大師十疑論<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1310">元曉法師彌陀經疏<note place="inline">一卷</note></item>
-<lb n="0011b14" ed="X"/><lb n="0150b16" ed="R109"/><item xml:id="itemX62p0011b1401">大佑法師彌陀略解<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1411">永明萬善同歸集<note place="inline">三卷</note></item>
-<lb n="0011b15" ed="X"/><lb n="0150b17" ed="R109"/><item xml:id="itemX62p0011b1501">慈雲懺主淨土懺願儀<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1512">決疑行願門<note place="inline">一卷</note></item>
-<lb n="0011b16" ed="X"/><lb n="0150b18" ed="R109"/><item xml:id="itemX62p0011b1601">天如則禪師淨土或問<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1612">大佑淨土指歸<note place="inline">十卷</note></item>
-<lb n="0011b17" ed="X"/><lb n="0151a01" ed="R109"/><item xml:id="itemX62p0011b1701">智徹淨土元門據要<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1711">優曇法師蓮宗寶鑑<note place="inline">一卷</note></item>
-<lb n="0011b18" ed="X"/><lb n="0151a02" ed="R109"/><item xml:id="itemX62p0011b1801">鏡道二師念佛鏡<note place="inline">一卷</note></item><item xml:id="itemX62p0011b1810">道衍淨土善人咏<note place="inline">一卷</note></item>
-<lb n="0011b19" ed="X"/><lb n="0151a03" ed="R109"/><item xml:id="itemX62p0011b1901">四明石芝沙門宗曉樂<g ref="#CB15131"/>文類<note place="inline">六卷</note></item>
-<lb n="0011b20" ed="X"/><lb n="0151a04" ed="R109"/><item xml:id="itemX62p0011b2001">龍舒淨土文<note place="inline">一卷</note></item></list>
+<lb n="0011b12" ed="X"/><lb n="0150b14" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0011b1201">智者大師觀經疏<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1210">四明妙宗鈔<note place="inline">三卷</note></item>
+<lb n="0011b13" ed="X"/><lb n="0150b15" ed="R109"/>
+  <item xml:id="itemX62p0011b1301">智者大師十疑論<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1310">元曉法師彌陀經疏<note place="inline">一卷</note></item>
+<lb n="0011b14" ed="X"/><lb n="0150b16" ed="R109"/>
+  <item xml:id="itemX62p0011b1401">大佑法師彌陀略解<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1411">永明萬善同歸集<note place="inline">三卷</note></item>
+<lb n="0011b15" ed="X"/><lb n="0150b17" ed="R109"/>
+  <item xml:id="itemX62p0011b1501">慈雲懺主淨土懺願儀<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1512">決疑行願門<note place="inline">一卷</note></item>
+<lb n="0011b16" ed="X"/><lb n="0150b18" ed="R109"/>
+  <item xml:id="itemX62p0011b1601">天如則禪師淨土或問<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1612">大佑淨土指歸<note place="inline">十卷</note></item>
+<lb n="0011b17" ed="X"/><lb n="0151a01" ed="R109"/>
+  <item xml:id="itemX62p0011b1701">智徹淨土元門據要<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1711">優曇法師蓮宗寶鑑<note place="inline">一卷</note></item>
+<lb n="0011b18" ed="X"/><lb n="0151a02" ed="R109"/>
+  <item xml:id="itemX62p0011b1801">鏡道二師念佛鏡<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011b1810">道衍淨土善人咏<note place="inline">一卷</note></item>
+<lb n="0011b19" ed="X"/><lb n="0151a03" ed="R109"/>
+  <item xml:id="itemX62p0011b1901">四明石芝沙門宗曉樂<g ref="#CB15131"/>文類<note place="inline">六卷</note></item>
+<lb n="0011b20" ed="X"/><lb n="0151a04" ed="R109"/>
+  <item xml:id="itemX62p0011b2001">龍舒淨土文<note place="inline">一卷</note></item>
+</list>
 <lb n="0011b21" ed="X"/><lb n="0151a05" ed="R109"/><p xml:id="pX62p0011b2101" style="margin-left:2em">以上經論著述，見存流通。</p></cb:div>
 <lb n="0011b22" ed="X"/><lb n="0151a06" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">名存書不存</cb:mulu><head>名存書不存</head>
-<lb n="0011b23" ed="X"/><lb n="0151a07" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0011b2301">道安法師往生論<note place="inline">六卷</note></item><item xml:id="itemX62p0011b2310">懷感法師羣疑集<note place="inline">七卷</note></item>
-<lb n="0011b24" ed="X"/><lb n="0151a08" ed="R109"/><item xml:id="itemX62p0011b2401">道綽禪師安樂論<note place="inline">三卷</note></item><item xml:id="itemX62p0011b2410">慈愍三藏慈悲集<note place="inline">三卷</note></item>
+<lb n="0011b23" ed="X"/><lb n="0151a07" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0011b2301">道安法師往生論<note place="inline">六卷</note></item>
+  <item xml:id="itemX62p0011b2310">懷感法師羣疑集<note place="inline">七卷</note></item>
+<lb n="0011b24" ed="X"/><lb n="0151a08" ed="R109"/>
+  <item xml:id="itemX62p0011b2401">道綽禪師安樂論<note place="inline">三卷</note></item>
+  <item xml:id="itemX62p0011b2410">慈愍三藏慈悲集<note place="inline">三卷</note></item>
 <pb n="0011c" ed="X" xml:id="X62.1170.0011c"/>
-<lb n="0011c01" ed="X"/><lb n="0151a09" ed="R109"/><item xml:id="itemX62p0011c0101">慈恩法師彌陀經通贊<note place="inline">一卷</note></item><item xml:id="itemX62p0011c0112">清涼國師觀經疏<note place="inline">一卷</note></item>
-<lb n="0011c02" ed="X"/><lb n="0151a10" ed="R109"/><item xml:id="itemX62p0011c0201">草堂飛錫法師寶王論<note place="inline">一卷</note></item><item xml:id="itemX62p0011c0212">彌陀經疏<note place="inline">一卷</note></item>
-<lb n="0011c03" ed="X"/><lb n="0151a11" ed="R109"/><item xml:id="itemX62p0011c0301">孤山觀經疏刊正記<note place="inline">四卷</note></item><item xml:id="itemX62p0011c0311">靈芝律師經疏<note place="inline">一卷</note></item>
-<lb n="0011c04" ed="X"/><lb n="0151a12" ed="R109"/><item xml:id="itemX62p0011c0401">宗坦法師觀經甘露疏<note place="inline">四卷</note></item><item xml:id="itemX62p0011c0412">無功居士淨土自信錄</item>
-<lb n="0011c05" ed="X"/><lb n="0151a13" ed="R109"/><item xml:id="itemX62p0011c0501">王侍郎淨土決疑集<note place="inline">三卷</note></item></list>
+<lb n="0011c01" ed="X"/><lb n="0151a09" ed="R109"/>
+  <item xml:id="itemX62p0011c0101">慈恩法師彌陀經通贊<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011c0112">清涼國師觀經疏<note place="inline">一卷</note></item>
+<lb n="0011c02" ed="X"/><lb n="0151a10" ed="R109"/>
+  <item xml:id="itemX62p0011c0201">草堂飛錫法師寶王論<note place="inline">一卷</note></item>
+  <item xml:id="itemX62p0011c0212">彌陀經疏<note place="inline">一卷</note></item>
+<lb n="0011c03" ed="X"/><lb n="0151a11" ed="R109"/>
+  <item xml:id="itemX62p0011c0301">孤山觀經疏刊正記<note place="inline">四卷</note></item>
+  <item xml:id="itemX62p0011c0311">靈芝律師經疏<note place="inline">一卷</note></item>
+<lb n="0011c04" ed="X"/><lb n="0151a12" ed="R109"/>
+  <item xml:id="itemX62p0011c0401">宗坦法師觀經甘露疏<note place="inline">四卷</note></item>
+  <item xml:id="itemX62p0011c0412">無功居士淨土自信錄</item>
+<lb n="0011c05" ed="X"/><lb n="0151a13" ed="R109"/>
+  <item xml:id="itemX62p0011c0501">王侍郎淨土決疑集<note place="inline">三卷</note></item>
+</list>
 <lb n="0011c06" ed="X"/><lb n="0151a14" ed="R109"/><p xml:id="pX62p0011c0601" style="margin-left:2em">以上雖不存。倘偶得之，故開。</p></cb:div>
 <lb n="0011c07" ed="X"/><lb n="0151a15" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">鄙見請益四種附</cb:mulu><head>鄙見請益四種附</head>
-<lb n="0011c08" ed="X"/><lb n="0151a16" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0011c0801">彌陀經疏鈔<note place="inline">四卷</note></item><item xml:id="itemX62p0011c0808">淨土疑辯<note place="inline">一篇</note></item>
-<lb n="0011c09" ed="X"/><lb n="0151a17" ed="R109"/><item xml:id="itemX62p0011c0901">淨土發願文</item><item xml:id="itemX62p0011c0906">往生集<note place="inline">一卷</note></item></list></cb:div></cb:div>
+<lb n="0011c08" ed="X"/><lb n="0151a16" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0011c0801">彌陀經疏鈔<note place="inline">四卷</note></item>
+  <item xml:id="itemX62p0011c0808">淨土疑辯<note place="inline">一篇</note></item>
+<lb n="0011c09" ed="X"/><lb n="0151a17" ed="R109"/>
+  <item xml:id="itemX62p0011c0901">淨土發願文</item>
+  <item xml:id="itemX62p0011c0906">往生集<note place="inline">一卷</note></item>
+</list></cb:div></cb:div>
 <lb n="0011c10" ed="X"/><lb n="0151a18" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">佛示念佛十種功德</cb:mulu><head>佛示念佛十種功德</head>
 <lb n="0011c11" ed="X"/><lb n="0151b01" ed="R109"/><p xml:id="pX62p0011c1101">若人受持一佛名號者，見世當獲十種功德利益。</p>
-<lb n="0011c12" ed="X"/><lb n="0151b02" ed="R109"/><list rend="no-marker"><item xml:id="itemX62p0011c1201">一、晝夜常得諸天大力神將并諸眷屬，隱形守護。</item>
-<lb n="0011c13" ed="X"/><lb n="0151b03" ed="R109"/><item xml:id="itemX62p0011c1301">二、常得二十五大菩薩，如觀世音等，及一切菩薩，常
+<lb n="0011c12" ed="X"/><lb n="0151b02" ed="R109"/><list rend="no-marker">
+  <item xml:id="itemX62p0011c1201">一、晝夜常得諸天大力神將并諸眷屬，隱形守護。</item>
+<lb n="0011c13" ed="X"/><lb n="0151b03" ed="R109"/>
+  <item xml:id="itemX62p0011c1301">二、常得二十五大菩薩，如觀世音等，及一切菩薩，常
 <lb n="0011c14" ed="X"/><lb n="0151b04" ed="R109"/>隨守護。</item>
-<lb n="0011c15" ed="X"/><lb n="0151b05" ed="R109"/><item xml:id="itemX62p0011c1501">三、常為諸佛晝夜護念，阿彌陀佛常放光明攝受此
+<lb n="0011c15" ed="X"/><lb n="0151b05" ed="R109"/>
+  <item xml:id="itemX62p0011c1501">三、常為諸佛晝夜護念，阿彌陀佛常放光明攝受此
 <lb n="0011c16" ed="X"/><lb n="0151b06" ed="R109"/>人。</item>
-<lb n="0011c17" ed="X"/><lb n="0151b07" ed="R109"/><item xml:id="itemX62p0011c1701">四、一切惡鬼若夜叉、羅剎皆不能害。一切毒蛇毒龍
+<lb n="0011c17" ed="X"/><lb n="0151b07" ed="R109"/>
+  <item xml:id="itemX62p0011c1701">四、一切惡鬼若夜叉、羅剎皆不能害。一切毒蛇毒龍
 <lb n="0011c18" ed="X"/><lb n="0151b08" ed="R109"/>毒藥悉不能害。</item>
-<lb n="0011c19" ed="X"/><lb n="0151b09" ed="R109"/><item xml:id="itemX62p0011c1901">五、一切火難水難、冤賊刀箭、牢獄杻枷、橫死枉死，悉
+<lb n="0011c19" ed="X"/><lb n="0151b09" ed="R109"/>
+  <item xml:id="itemX62p0011c1901">五、一切火難水難、冤賊刀箭、牢獄杻枷、橫死枉死，悉
 <lb n="0011c20" ed="X"/><lb n="0151b10" ed="R109"/>皆不受。</item>
-<lb n="0011c21" ed="X"/><lb n="0151b11" ed="R109"/><item xml:id="itemX62p0011c2101">六、先所作罪皆悉消滅。所作冤命，彼蒙解脫，更無執
+<lb n="0011c21" ed="X"/><lb n="0151b11" ed="R109"/>
+  <item xml:id="itemX62p0011c2101">六、先所作罪皆悉消滅。所作冤命，彼蒙解脫，更無執
 <lb n="0011c22" ed="X"/><lb n="0151b12" ed="R109"/>對。</item>
-<lb n="0011c23" ed="X"/><lb n="0151b13" ed="R109"/><item xml:id="itemX62p0011c2301">七、夜夢正直，或復夢見阿彌陀佛勝妙色身。</item>
-<lb n="0011c24" ed="X"/><lb n="0151b14" ed="R109"/><item xml:id="itemX62p0011c2401">八、心常歡喜，顏色光澤，氣力充盛，所作吉利。</item>
+<lb n="0011c23" ed="X"/><lb n="0151b13" ed="R109"/>
+  <item xml:id="itemX62p0011c2301">七、夜夢正直，或復夢見阿彌陀佛勝妙色身。</item>
+<lb n="0011c24" ed="X"/><lb n="0151b14" ed="R109"/>
+  <item xml:id="itemX62p0011c2401">八、心常歡喜，顏色光澤，氣力充盛，所作吉利。</item>
 <pb n="0012a" ed="X" xml:id="X62.1170.0012a"/>
-<lb n="0012a01" ed="X"/><lb n="0151b15" ed="R109"/><item xml:id="itemX62p0012a0101">九、常為一切世間人民恭敬供養禮拜，猶如敬佛。</item>
-<lb n="0012a02" ed="X"/><lb n="0151b16" ed="R109"/><item xml:id="itemX62p0012a0201">十、命終之時心無怖畏，正念現前，得見阿彌陀佛，并
+<lb n="0012a01" ed="X"/><lb n="0151b15" ed="R109"/>
+  <item xml:id="itemX62p0012a0101">九、常為一切世間人民恭敬供養禮拜，猶如敬佛。</item>
+<lb n="0012a02" ed="X"/><lb n="0151b16" ed="R109"/>
+  <item xml:id="itemX62p0012a0201">十、命終之時心無怖畏，正念現前，得見阿彌陀佛，并
 <lb n="0012a03" ed="X"/><lb n="0151b17" ed="R109"/>諸菩薩聖眾手持金臺，接引往生西方淨土，盡未
-<lb n="0012a04" ed="X"/><lb n="0151b18" ed="R109"/>來際，受勝妙樂。</item></list></cb:div></cb:div>
+<lb n="0012a04" ed="X"/><lb n="0151b18" ed="R109"/>來際，受勝妙樂。</item>
+</list></cb:div></cb:div>
 <lb n="0012a05" ed="X"/><lb n="0152a01" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">記</cb:mulu><head>記</head>
 <lb n="0012a06" ed="X"/><lb n="0152a02" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">香光室奉安彌陀聖像記</cb:mulu><head>香光室奉安彌陀聖像記</head>
 <lb n="0012a07" ed="X"/><lb n="0152a03" ed="R109"/><p xml:id="pX62p0012a0701">雲棲供彌陀接引眾生立像一軀，本如居士見其端
@@ -922,7 +1317,11 @@
 <lb n="0012a21" ed="X"/><lb n="0152a17" ed="R109"/>之威神。而所以感彌陀之威神者，居士之精誠也。《楞
 <lb n="0012a22" ed="X"/><lb n="0152a18" ed="R109"/>嚴》云：「憶佛念佛，現前當來，必定見佛。」又言：「如染香人，
 <lb n="0012a23" ed="X"/><lb n="0152b01" ed="R109"/>身有香氣，此則名曰香光嚴嚴。」今可謂見佛不待當
-<lb n="0012a24" ed="X"/><lb n="0152b02" ed="R109"/>來，而香光<note n="0012a2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012a2401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>成莊嚴矣。因捃摭其先後而為之記。</p></cb:div></cb:div>
+<lb n="0012a24" ed="X"/><lb n="0152b02" ed="R109"/>來，而香光<note 
+n="0012a2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012a2401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>成莊嚴矣。因捃摭其先後而為之記。</p></cb:div></cb:div>
 <pb n="0012b" ed="X" xml:id="X62.1170.0012b"/>
 <lb n="0012b01" ed="X"/><lb n="0152b03" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">說</cb:mulu><head>說</head>
 <lb n="0012b02" ed="X"/><lb n="0152b04" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">骷髏圖說</cb:mulu><head>骷髏圖說</head>
@@ -938,7 +1337,11 @@
 <lb n="0012b12" ed="X"/><lb n="0152b14" ed="R109"/>回頭，改惡從善，洗心念佛。豈非徒得人身，虗生浪死？
 <lb n="0012b13" ed="X"/><lb n="0152b15" ed="R109"/>苦哉苦哉！我觀世人，箇箇皆好念佛。今三等列之。一
 <lb n="0012b14" ed="X"/><lb n="0152b16" ed="R109"/>者極閒人，應當無晝無夜，一心念佛。二者半閒半忙
-<lb n="0012b15" ed="X"/><lb n="0152b17" ed="R109"/>人，應當營事<note n="0012b1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012b1501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>畢，即便念佛。三者極忙人，應當忙裏
+<lb n="0012b15" ed="X"/><lb n="0152b17" ed="R109"/>人，應當營事<note 
+n="0012b1501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012b1501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>畢，即便念佛。三者極忙人，應當忙裏
 <lb n="0012b16" ed="X"/><lb n="0152b18" ed="R109"/>偷閒，十念念佛。又復富貴之人，衣祿豐足，正好念佛。
 <lb n="0012b17" ed="X"/><lb n="0153a01" ed="R109"/>貧窮之人，安貧守分，正好念佛。有子孫人，得人替力，
 <lb n="0012b18" ed="X"/><lb n="0153a02" ed="R109"/>正好念佛。無子孫人，心無牽掛，正好念佛。無病之人，
@@ -950,21 +1353,47 @@
 <lb n="0012b24" ed="X"/><lb n="0153a08" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">偈頌</cb:mulu><head>偈頌</head>
 <pb n="0012c" ed="X" xml:id="X62.1170.0012c"/>
 <lb n="0012c01" ed="X"/><lb n="0153a09" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">勸修四料簡</cb:mulu><head>勸修四料簡</head>
-<lb n="0012c02" ed="X"/><lb n="0153a10" ed="R109"/><lg xml:id="lgX62p0012c0201" type="regular"><l>作福不念佛，<caesura/>福盡還沉淪。<caesura/>念佛不作福，</l>
-<lb n="0012c03" ed="X"/><lb n="0153a11" ed="R109"/><l>八道多苦辛。<caesura/>無福不念佛，<caesura/>地獄鬼畜羣。</l>
-<lb n="0012c04" ed="X"/><lb n="0153a12" ed="R109"/><l>念佛兼作福，<caesura/>後證兩足尊。</l></lg></cb:div>
+<lb n="0012c02" ed="X"/><lb n="0153a10" ed="R109"/><lg xml:id="lgX62p0012c0201" type="regular">
+  <l>作福不念佛，<caesura/>福盡還沉淪。<caesura/>念佛不作福，</l>
+<lb n="0012c03" ed="X"/><lb n="0153a11" ed="R109"/>
+  <l>八道多苦辛。<caesura/>無福不念佛，<caesura/>地獄鬼畜羣。</l>
+<lb n="0012c04" ed="X"/><lb n="0153a12" ed="R109"/>
+  <l>念佛兼作福，<caesura/>後證兩足尊。</l>
+</lg></cb:div>
 <lb n="0012c05" ed="X"/><lb n="0153a13" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">示廣位</cb:mulu><head>示廣位</head>
-<lb n="0012c06" ed="X"/><lb n="0153a14" ed="R109"/><lg xml:id="lgX62p0012c0601" type="regular"><l>病從身生，<caesura/>身從業生，<caesura/>不造諸業，<caesura/>禍消福增。</l>
-<lb n="0012c07" ed="X"/><lb n="0153a15" ed="R109"/><l>娑婆念佛，<caesura/>極樂標名，<caesura/>一心不亂，<caesura/>上品位登。</l></lg></cb:div>
+<lb n="0012c06" ed="X"/><lb n="0153a14" ed="R109"/><lg xml:id="lgX62p0012c0601" type="regular">
+  <l>病從身生，<caesura/>身從業生，<caesura/>不造諸業，<caesura/>禍消福增。</l>
+<lb n="0012c07" ed="X"/><lb n="0153a15" ed="R109"/>
+  <l>娑婆念佛，<caesura/>極樂標名，<caesura/>一心不亂，<caesura/>上品位登。</l>
+</lg></cb:div>
 <lb n="0012c08" ed="X"/><lb n="0153a16" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">示大聞</cb:mulu><head>示大聞</head>
-<lb n="0012c09" ed="X"/><lb n="0153a17" ed="R109"/><lg xml:id="lgX62p0012c0901"><l>持戒念佛，<caesura/>乞食支命，<caesura/>如是做去，<caesura/>法話<note n="0012c0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012c0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>竟。</l></lg></cb:div>
+<lb n="0012c09" ed="X"/><lb n="0153a17" ed="R109"/><lg xml:id="lgX62p0012c0901">
+  <l>持戒念佛，<caesura/>乞食支命，<caesura/>如是做去，<caesura/>法話<note 
+n="0012c0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012c0901">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【卍續】">巳</rdg>
+  </app>竟。</l>
+</lg></cb:div>
 <lb n="0012c10" ed="X"/><lb n="0153a18" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">示大琸</cb:mulu><head>示大琸</head>
-<lb n="0012c11" ed="X"/><lb n="0153b01" ed="R109"/><lg xml:id="lgX62p0012c1101" type="regular"><l>有生必有死，<caesura/>長短安足論。<caesura/>今得圓僧相，</l>
-<lb n="0012c12" ed="X"/><lb n="0153b02" ed="R109"/><l>平生願<note n="0012c1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012c1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>滿。<caesura/>常生大歡喜，<caesura/>切勿懷憂惱。</l>
-<lb n="0012c13" ed="X"/><lb n="0153b03" ed="R109"/><l>萬緣俱放下，<caesura/>但一心念佛。<caesura/>往生極樂國，</l>
-<lb n="0012c14" ed="X"/><lb n="0153b04" ed="R109"/><l>上品蓮華生。<caesura/>見佛悟無生，<caesura/>還來度一切。</l></lg></cb:div>
+<lb n="0012c11" ed="X"/><lb n="0153b01" ed="R109"/><lg xml:id="lgX62p0012c1101" type="regular">
+  <l>有生必有死，<caesura/>長短安足論。<caesura/>今得圓僧相，</l>
+<lb n="0012c12" ed="X"/><lb n="0153b02" ed="R109"/>
+  <l>平生願<note 
+n="0012c1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0012c1201">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【卍續】">巳</rdg>
+  </app>滿。<caesura/>常生大歡喜，<caesura/>切勿懷憂惱。</l>
+<lb n="0012c13" ed="X"/><lb n="0153b03" ed="R109"/>
+  <l>萬緣俱放下，<caesura/>但一心念佛。<caesura/>往生極樂國，</l>
+<lb n="0012c14" ed="X"/><lb n="0153b04" ed="R109"/>
+  <l>上品蓮華生。<caesura/>見佛悟無生，<caesura/>還來度一切。</l>
+</lg></cb:div>
 <lb n="0012c15" ed="X"/><lb n="0153b05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">劉廣磐請代日祝貞母項偈</cb:mulu><head>劉廣磐請代日祝貞母項偈</head>
-<lb n="0012c16" ed="X"/><lb n="0153b06" ed="R109"/><p xml:id="pX62p0012c1601">性願承三寶力哀愍加被，母氏克臻上壽，<note n="0012c1601" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0012c1601"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>身長侍
+<lb n="0012c16" ed="X"/><lb n="0153b06" ed="R109"/><p xml:id="pX62p0012c1601">性願承三寶力哀愍加被，母氏克臻上壽，<note 
+n="0012c1601" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0012c1601">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>身長侍
 <lb n="0012c17" ed="X"/><lb n="0153b07" ed="R109"/>慈幃。母子相依，修持淨業。報滿之日，同願往生。</p></cb:div></cb:div>
 <lb n="0012c18" ed="X"/><lb n="0153b08" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">贊銘</cb:mulu><head>贊銘</head>
 <lb n="0012c19" ed="X"/><lb n="0153b09" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">蘭谷居士郁公像贊</cb:mulu><head>蘭谷居士郁公像贊</head>
@@ -976,106 +1405,218 @@
 <pb n="0013a" ed="X" xml:id="X62.1170.0013a"/>
 <lb n="0013a01" ed="X"/><lb n="0153b15" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">詩歌</cb:mulu><head>詩歌</head>
 <lb n="0013a02" ed="X"/><lb n="0153b16" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">義不可背</cb:mulu><head>義不可背</head>
-<lb n="0013a03" ed="X"/><lb n="0153b17" ed="R109"/><lg xml:id="lgX62p0013a0301" type="regular"><l>兩情始相歡，<caesura/>結義重金石。<caesura/>一朝變故生，</l>
-<lb n="0013a04" ed="X"/><lb n="0153b18" ed="R109"/><l>背棄<note n="0013a0401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013a0401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>如擲。<caesura/>嗟哉禽獸心，<caesura/>鬼神瞰其側。</l>
-<lb n="0013a05" ed="X"/><lb n="0154a01" ed="R109"/><l>不見漢曾孫，<caesura/>故劍殷勤覔。<caesura/>母以新情牽，</l>
-<lb n="0013a06" ed="X"/><lb n="0154a02" ed="R109"/><l>頓令舊情失。<caesura/>新舊總歸空，<caesura/>大夢何時極。</l>
-<lb n="0013a07" ed="X"/><lb n="0154a03" ed="R109"/><l>願言盡此身，<caesura/>同生極樂國。</l></lg></cb:div>
+<lb n="0013a03" ed="X"/><lb n="0153b17" ed="R109"/><lg xml:id="lgX62p0013a0301" type="regular">
+  <l>兩情始相歡，<caesura/>結義重金石。<caesura/>一朝變故生，</l>
+<lb n="0013a04" ed="X"/><lb n="0153b18" ed="R109"/>
+  <l>背棄<note 
+n="0013a0401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013a0401">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【卍續】">巳</rdg>
+  </app>如擲。<caesura/>嗟哉禽獸心，<caesura/>鬼神瞰其側。</l>
+<lb n="0013a05" ed="X"/><lb n="0154a01" ed="R109"/>
+  <l>不見漢曾孫，<caesura/>故劍殷勤覔。<caesura/>母以新情牽，</l>
+<lb n="0013a06" ed="X"/><lb n="0154a02" ed="R109"/>
+  <l>頓令舊情失。<caesura/>新舊總歸空，<caesura/>大夢何時極。</l>
+<lb n="0013a07" ed="X"/><lb n="0154a03" ed="R109"/>
+  <l>願言盡此身，<caesura/>同生極樂國。</l>
+</lg></cb:div>
 <lb n="0013a08" ed="X"/><lb n="0154a04" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">恩不可忘</cb:mulu><head>恩不可忘</head>
-<lb n="0013a09" ed="X"/><lb n="0154a05" ed="R109"/><lg xml:id="lgX62p0013a0901" type="regular"><l>壯士有烈心，<caesura/>不忘報一飯。<caesura/>況復知道者，</l>
-<lb n="0013a10" ed="X"/><lb n="0154a06" ed="R109"/><l>忍作瞞心漢。<caesura/>顛危賴扶持，<caesura/>過眼不相看。</l>
-<lb n="0013a11" ed="X"/><lb n="0154a07" ed="R109"/><l>試於靜夜思，<caesura/>寧不愧流汗。<caesura/>平生是男兒，</l>
-<lb n="0013a12" ed="X"/><lb n="0154a08" ed="R109"/><l>方寸常自勘。<caesura/>畢竟了此恩，<caesura/>同登極樂岸。</l></lg></cb:div>
+<lb n="0013a09" ed="X"/><lb n="0154a05" ed="R109"/><lg xml:id="lgX62p0013a0901" type="regular">
+  <l>壯士有烈心，<caesura/>不忘報一飯。<caesura/>況復知道者，</l>
+<lb n="0013a10" ed="X"/><lb n="0154a06" ed="R109"/>
+  <l>忍作瞞心漢。<caesura/>顛危賴扶持，<caesura/>過眼不相看。</l>
+<lb n="0013a11" ed="X"/><lb n="0154a07" ed="R109"/>
+  <l>試於靜夜思，<caesura/>寧不愧流汗。<caesura/>平生是男兒，</l>
+<lb n="0013a12" ed="X"/><lb n="0154a08" ed="R109"/>
+  <l>方寸常自勘。<caesura/>畢竟了此恩，<caesura/>同登極樂岸。</l>
+</lg></cb:div>
 <lb n="0013a13" ed="X"/><lb n="0154a09" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">情不可係</cb:mulu><head>情不可係</head>
-<lb n="0013a14" ed="X"/><lb n="0154a10" ed="R109"/><lg xml:id="lgX62p0013a1401" type="regular"><l>古稱君子交，<caesura/>汪汪澹如水。<caesura/>非彼情獨疎，</l>
-<lb n="0013a15" ed="X"/><lb n="0154a11" ed="R109"/><l>見道者如此。<caesura/>明皇得太真，<caesura/>漆膠誰能比。</l>
-<lb n="0013a16" ed="X"/><lb n="0154a12" ed="R109"/><l>傷心馬嵬驛，<caesura/>一別千年矣。<caesura/>恩愛竟何存，</l>
-<lb n="0013a17" ed="X"/><lb n="0154a13" ed="R109"/><l>空華眼前美。<caesura/>痛哉無始來，<caesura/>四海別離淚。</l>
-<lb n="0013a18" ed="X"/><lb n="0154a14" ed="R109"/><l>大苦永棄捐，<caesura/>同歸極樂會。</l></lg></cb:div>
+<lb n="0013a14" ed="X"/><lb n="0154a10" ed="R109"/><lg xml:id="lgX62p0013a1401" type="regular">
+  <l>古稱君子交，<caesura/>汪汪澹如水。<caesura/>非彼情獨疎，</l>
+<lb n="0013a15" ed="X"/><lb n="0154a11" ed="R109"/>
+  <l>見道者如此。<caesura/>明皇得太真，<caesura/>漆膠誰能比。</l>
+<lb n="0013a16" ed="X"/><lb n="0154a12" ed="R109"/>
+  <l>傷心馬嵬驛，<caesura/>一別千年矣。<caesura/>恩愛竟何存，</l>
+<lb n="0013a17" ed="X"/><lb n="0154a13" ed="R109"/>
+  <l>空華眼前美。<caesura/>痛哉無始來，<caesura/>四海別離淚。</l>
+<lb n="0013a18" ed="X"/><lb n="0154a14" ed="R109"/>
+  <l>大苦永棄捐，<caesura/>同歸極樂會。</l>
+</lg></cb:div>
 <lb n="0013a19" ed="X"/><lb n="0154a15" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">怨不可藏</cb:mulu><head>怨不可藏</head>
-<lb n="0013a20" ed="X"/><lb n="0154a16" ed="R109"/><lg xml:id="lgX62p0013a2001" type="regular"><l>袁盎殺晁錯，<caesura/>遂成千古冤。<caesura/>脫令無盎計，</l>
-<lb n="0013a21" ed="X"/><lb n="0154a17" ed="R109"/><l>錯豈終長年？<caesura/>大命非人為，<caesura/>冥冥使之然。</l>
-<lb n="0013a22" ed="X"/><lb n="0154a18" ed="R109"/><l>四大自生死，<caesura/>於我何與焉。<caesura/>聖哉黃面叟，</l>
-<lb n="0013a23" ed="X"/><lb n="0154b01" ed="R109"/><l>談笑錐刀前。<caesura/>冤親本平等，<caesura/>同遊極樂天。</l></lg></cb:div>
+<lb n="0013a20" ed="X"/><lb n="0154a16" ed="R109"/><lg xml:id="lgX62p0013a2001" type="regular">
+  <l>袁盎殺晁錯，<caesura/>遂成千古冤。<caesura/>脫令無盎計，</l>
+<lb n="0013a21" ed="X"/><lb n="0154a17" ed="R109"/>
+  <l>錯豈終長年？<caesura/>大命非人為，<caesura/>冥冥使之然。</l>
+<lb n="0013a22" ed="X"/><lb n="0154a18" ed="R109"/>
+  <l>四大自生死，<caesura/>於我何與焉。<caesura/>聖哉黃面叟，</l>
+<lb n="0013a23" ed="X"/><lb n="0154b01" ed="R109"/>
+  <l>談笑錐刀前。<caesura/>冤親本平等，<caesura/>同遊極樂天。</l>
+</lg></cb:div>
 <lb n="0013a24" ed="X"/><lb n="0154b02" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">驅烏嘆</cb:mulu><head>驅烏嘆</head>
 <pb n="0013b" ed="X" xml:id="X62.1170.0013b"/>
-<lb n="0013b01" ed="X"/><lb n="0154b03" ed="R109"/><lg xml:id="lgX62p0013b0101" type="regular"><l>萬樹喧啼鳴，<caesura/>好鳥絕音響。<caesura/>毒<g ref="#CB10437"/>所殘害，</l>
-<lb n="0013b02" ed="X"/><lb n="0154b04" ed="R109"/><l>慘酷甚羅網。<caesura/>身在袈裟下，<caesura/>能無慈悲想。</l>
-<lb n="0013b03" ed="X"/><lb n="0154b05" ed="R109"/><l>嗟此濁惡林，<caesura/>我願生安養。</l></lg></cb:div>
+<lb n="0013b01" ed="X"/><lb n="0154b03" ed="R109"/><lg xml:id="lgX62p0013b0101" type="regular">
+  <l>萬樹喧啼鳴，<caesura/>好鳥絕音響。<caesura/>毒<g ref="#CB10437"/>所殘害，</l>
+<lb n="0013b02" ed="X"/><lb n="0154b04" ed="R109"/>
+  <l>慘酷甚羅網。<caesura/>身在袈裟下，<caesura/>能無慈悲想。</l>
+<lb n="0013b03" ed="X"/><lb n="0154b05" ed="R109"/>
+  <l>嗟此濁惡林，<caesura/>我願生安養。</l>
+</lg></cb:div>
 <lb n="0013b04" ed="X"/><lb n="0154b06" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">次高瑞南韻</cb:mulu><head>次高瑞南韻</head>
-<lb n="0013b05" ed="X"/><lb n="0154b07" ed="R109"/><lg xml:id="lgX62p0013b0501" type="regular"><l>肉身本傳舍，<caesura/>迷人自難曉。<caesura/>障緣苦縈牽，</l>
-<lb n="0013b06" ed="X"/><lb n="0154b08" ed="R109"/><l>煩惱何時了？<caesura/>知君起大慧，<caesura/>心似木<note n="0013b0601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013b0601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>槁。</l>
-<lb n="0013b07" ed="X"/><lb n="0154b09" ed="R109"/><l>跳出醉夢關，<caesura/>西方孰云杳。<caesura/>借問何能然？</l>
-<lb n="0013b08" ed="X"/><lb n="0154b10" ed="R109"/><l>燈花發枯草。</l></lg></cb:div>
+<lb n="0013b05" ed="X"/><lb n="0154b07" ed="R109"/><lg xml:id="lgX62p0013b0501" type="regular">
+  <l>肉身本傳舍，<caesura/>迷人自難曉。<caesura/>障緣苦縈牽，</l>
+<lb n="0013b06" ed="X"/><lb n="0154b08" ed="R109"/>
+  <l>煩惱何時了？<caesura/>知君起大慧，<caesura/>心似木<note 
+n="0013b0601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013b0601">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【卍續】">巳</rdg>
+  </app>槁。</l>
+<lb n="0013b07" ed="X"/><lb n="0154b09" ed="R109"/>
+  <l>跳出醉夢關，<caesura/>西方孰云杳。<caesura/>借問何能然？</l>
+<lb n="0013b08" ed="X"/><lb n="0154b10" ed="R109"/>
+  <l>燈花發枯草。</l>
+</lg></cb:div>
 <lb n="0013b09" ed="X"/><lb n="0154b11" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">沈居士廣珊八十</cb:mulu><head>沈居士廣珊八十</head>
-<lb n="0013b10" ed="X"/><lb n="0154b12" ed="R109"/><lg xml:id="lgX62p0013b1001" type="regular"><l>我適生年八十一，<caesura/>君逢初度齊八十，</l>
-<lb n="0013b11" ed="X"/><lb n="0154b13" ed="R109"/><l>我生正月二十二，<caesura/>君生先我纔一日。</l>
-<lb n="0013b12" ed="X"/><lb n="0154b14" ed="R109"/><l>筵前羅綺粲如花，<caesura/>門外賓朋密如織，</l>
-<lb n="0013b13" ed="X"/><lb n="0154b15" ed="R109"/><l>世間祝壽比岡陵，<caesura/>我祝惟期安樂國。</l>
-<lb n="0013b14" ed="X"/><lb n="0154b16" ed="R109"/><l>國中教主阿彌陀，<caesura/>超出人天壽無極，</l>
-<lb n="0013b15" ed="X"/><lb n="0154b17" ed="R109"/><l>願君憶念似慈親，<caesura/>老去光陰莫虗擲。</l></lg></cb:div>
+<lb n="0013b10" ed="X"/><lb n="0154b12" ed="R109"/><lg xml:id="lgX62p0013b1001" type="regular">
+  <l>我適生年八十一，<caesura/>君逢初度齊八十，</l>
+<lb n="0013b11" ed="X"/><lb n="0154b13" ed="R109"/>
+  <l>我生正月二十二，<caesura/>君生先我纔一日。</l>
+<lb n="0013b12" ed="X"/><lb n="0154b14" ed="R109"/>
+  <l>筵前羅綺粲如花，<caesura/>門外賓朋密如織，</l>
+<lb n="0013b13" ed="X"/><lb n="0154b15" ed="R109"/>
+  <l>世間祝壽比岡陵，<caesura/>我祝惟期安樂國。</l>
+<lb n="0013b14" ed="X"/><lb n="0154b16" ed="R109"/>
+  <l>國中教主阿彌陀，<caesura/>超出人天壽無極，</l>
+<lb n="0013b15" ed="X"/><lb n="0154b17" ed="R109"/>
+  <l>願君憶念似慈親，<caesura/>老去光陰莫虗擲。</l>
+</lg></cb:div>
 <lb n="0013b16" ed="X"/><lb n="0154b18" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">題涅槃堂</cb:mulu><head>題涅槃堂<note place="inline">有序</note></head>
-<lb n="0013b17" ed="X"/><lb n="0155a01" ed="R109"/><cb:div type="xu"><cb:mulu level="3" type="序">序</cb:mulu><p xml:id="pX62p0013b1701" style="margin-left:1em">真歇了禪師有涅槃堂詩一律，悽惋警切，令人悲
+<lb n="0013b17" ed="X"/><lb n="0155a01" ed="R109"/><cb:div type="xu"><cb:mulu level="3" type="序">序</cb:mulu>
+<p xml:id="pX62p0013b1701" style="margin-left:1em">真歇了禪師有涅槃堂詩一律，悽惋警切，令人悲
 <lb n="0013b18" ed="X"/><lb n="0155a02" ed="R109"/>感興起。予乃續成四律，置之堂中，未必非病僧藥
 <lb n="0013b19" ed="X"/><lb n="0155a03" ed="R109"/>石云。</p></cb:div>
 <lb n="0013b20" ed="X"/><lb n="0155a04" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">原作</cb:mulu><head>原作</head>
-<lb n="0013b21" ed="X"/><lb n="0155a05" ed="R109"/><lg xml:id="lgX62p0013b2101" type="regular"><l>訪舊論懷實可傷，<caesura/>經年獨臥涅槃堂，</l>
-<lb n="0013b22" ed="X"/><lb n="0155a06" ed="R109"/><l>門無過客牕無紙，<caesura/>爐有寒<g ref="#CB01926"/>席有霜；</l>
-<lb n="0013b23" ed="X"/><lb n="0155a07" ed="R109"/><l>病後始知身是苦，<caesura/>徤時多半為人忙，</l>
-<lb n="0013b24" ed="X"/><lb n="0155a08" ed="R109"/><l>老僧自有安閒法，<caesura/>八苦交煎總不妨。</l></lg></cb:div>
+<lb n="0013b21" ed="X"/><lb n="0155a05" ed="R109"/><lg xml:id="lgX62p0013b2101" type="regular">
+  <l>訪舊論懷實可傷，<caesura/>經年獨臥涅槃堂，</l>
+<lb n="0013b22" ed="X"/><lb n="0155a06" ed="R109"/>
+  <l>門無過客牕無紙，<caesura/>爐有寒<g ref="#CB01926"/>席有霜；</l>
+<lb n="0013b23" ed="X"/><lb n="0155a07" ed="R109"/>
+  <l>病後始知身是苦，<caesura/>徤時多半為人忙，</l>
+<lb n="0013b24" ed="X"/><lb n="0155a08" ed="R109"/>
+  <l>老僧自有安閒法，<caesura/>八苦交煎總不妨。</l>
+</lg></cb:div>
 <pb n="0013c" ed="X" xml:id="X62.1170.0013c"/>
 <lb n="0013c01" ed="X"/><lb n="0155a09" ed="R109"/><cb:div type="other"><cb:mulu level="3" type="其他">今和</cb:mulu><head>今和</head>
-<lb n="0013c02" ed="X"/><lb n="0155a10" ed="R109"/><lg xml:id="lgX62p0013c0201" type="regular"><l>幻質寧知有敗傷，<caesura/>舉頭驚倒涅槃堂，</l>
-<lb n="0013c03" ed="X"/><lb n="0155a11" ed="R109"/><l>一生盡也殘更夢，<caesura/>萬慮<g ref="#CB01926"/>來皎日霜；</l>
-<lb n="0013c04" ed="X"/><lb n="0155a12" ed="R109"/><l>過去業多心主亂，<caesura/>前趨路險脚跟忙，</l>
-<lb n="0013c05" ed="X"/><lb n="0155a13" ed="R109"/><l>而今欲問安閒法，<caesura/>臨渴開池事<note n="0013c0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013c0501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>妨。</l></lg>
-<lb n="0013c06" ed="X"/><lb n="0155a14" ed="R109"/><lg xml:id="lgX62p0013c0601" type="regular"><l>徒入空門最可傷，<caesura/>涅槃今是試僧堂，</l>
-<lb n="0013c07" ed="X"/><lb n="0155a15" ed="R109"/><l>炎燒五內魚遊釜，<caesura/>痛切諸根草被霜；</l>
-<lb n="0013c08" ed="X"/><lb n="0155a16" ed="R109"/><l>獨抱癡禪成底事，<caesura/>旁修外術枉千忙，</l>
-<lb n="0013c09" ed="X"/><lb n="0155a17" ed="R109"/><l>人人道有安閒法，<caesura/>爭奈臨行一句妨。</l></lg>
-<lb n="0013c10" ed="X"/><lb n="0155a18" ed="R109"/><lg xml:id="lgX62p0013c1001" type="regular"><l>脫體無依絕毀傷，<caesura/>沉疴終日自堂堂，</l>
-<lb n="0013c11" ed="X"/><lb n="0155b01" ed="R109"/><l>心燈破暗明如月，<caesura/>慧劍降魔凜似霜；</l>
-<lb n="0013c12" ed="X"/><lb n="0155b02" ed="R109"/><l>藥病兩非何足辯，<caesura/>死生雙幻不須忙，</l>
-<lb n="0013c13" ed="X"/><lb n="0155b03" ed="R109"/><l>從誰更覔安閒法，<caesura/>纔說安閒便有妨。</l></lg></cb:div></cb:div>
+<lb n="0013c02" ed="X"/><lb n="0155a10" ed="R109"/><lg xml:id="lgX62p0013c0201" type="regular">
+  <l>幻質寧知有敗傷，<caesura/>舉頭驚倒涅槃堂，</l>
+<lb n="0013c03" ed="X"/><lb n="0155a11" ed="R109"/>
+  <l>一生盡也殘更夢，<caesura/>萬慮<g ref="#CB01926"/>來皎日霜；</l>
+<lb n="0013c04" ed="X"/><lb n="0155a12" ed="R109"/>
+  <l>過去業多心主亂，<caesura/>前趨路險脚跟忙，</l>
+<lb n="0013c05" ed="X"/><lb n="0155a13" ed="R109"/>
+  <l>而今欲問安閒法，<caesura/>臨渴開池事<note 
+n="0013c0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013c0501">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【卍續】">巳</rdg>
+  </app>妨。</l>
+</lg>
+<lb n="0013c06" ed="X"/><lb n="0155a14" ed="R109"/><lg xml:id="lgX62p0013c0601" type="regular">
+  <l>徒入空門最可傷，<caesura/>涅槃今是試僧堂，</l>
+<lb n="0013c07" ed="X"/><lb n="0155a15" ed="R109"/>
+  <l>炎燒五內魚遊釜，<caesura/>痛切諸根草被霜；</l>
+<lb n="0013c08" ed="X"/><lb n="0155a16" ed="R109"/>
+  <l>獨抱癡禪成底事，<caesura/>旁修外術枉千忙，</l>
+<lb n="0013c09" ed="X"/><lb n="0155a17" ed="R109"/>
+  <l>人人道有安閒法，<caesura/>爭奈臨行一句妨。</l>
+</lg>
+<lb n="0013c10" ed="X"/><lb n="0155a18" ed="R109"/><lg xml:id="lgX62p0013c1001" type="regular">
+  <l>脫體無依絕毀傷，<caesura/>沉疴終日自堂堂，</l>
+<lb n="0013c11" ed="X"/><lb n="0155b01" ed="R109"/>
+  <l>心燈破暗明如月，<caesura/>慧劍降魔凜似霜；</l>
+<lb n="0013c12" ed="X"/><lb n="0155b02" ed="R109"/>
+  <l>藥病兩非何足辯，<caesura/>死生雙幻不須忙，</l>
+<lb n="0013c13" ed="X"/><lb n="0155b03" ed="R109"/>
+  <l>從誰更覔安閒法，<caesura/>纔說安閒便有妨。</l>
+</lg></cb:div></cb:div>
 <lb n="0013c14" ed="X"/><lb n="0155b04" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">次韻答王百穀居士</cb:mulu><head>次韻答王百穀居士</head>
 <lb n="0013c15" ed="X"/><lb n="0155b05" ed="R109"/><p xml:id="pX62p0013c1501" style="margin-left:1em">六十高僧雪滿顛，泥塗老叟亦齊年。可容凡侶為
-<lb n="0013c16" ed="X"/><lb n="0155b06" ed="R109"/>禪侶，<note n="0013c1601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013c1601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>罷塵緣結淨緣。施食每分香積飯，放生何
+<lb n="0013c16" ed="X"/><lb n="0155b06" ed="R109"/>禪侶，<note 
+n="0013c1601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013c1601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>罷塵緣結淨緣。施食每分香積飯，放生何
 <lb n="0013c17" ed="X"/><lb n="0155b07" ed="R109"/>惜<g ref="#CB15112"/>林錢。庭前一畝滄浪水，也學東林種白蓮。</p>
-<lb n="0013c18" ed="X"/><lb n="0155b08" ed="R109"/><lg xml:id="lgX62p0013c1801" type="regular"><l>人世真嗟事倒顛，<caesura/>彭碭徒自各論年。</l>
-<lb n="0013c19" ed="X"/><lb n="0155b09" ed="R109"/><l>繁華冷淡燈前戲，<caesura/>會合分離夢裏緣。</l>
-<lb n="0013c20" ed="X"/><lb n="0155b10" ed="R109"/><l>紫燕情多悲舊壘，<caesura/>青蚨恩重託飛錢。</l>
-<lb n="0013c21" ed="X"/><lb n="0155b11" ed="R109"/><l>知君<note n="0013c2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013c2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>釋琵琶恨，<caesura/>錦字新題七寶蓮。</l></lg></cb:div>
+<lb n="0013c18" ed="X"/><lb n="0155b08" ed="R109"/><lg xml:id="lgX62p0013c1801" type="regular">
+  <l>人世真嗟事倒顛，<caesura/>彭碭徒自各論年。</l>
+<lb n="0013c19" ed="X"/><lb n="0155b09" ed="R109"/>
+  <l>繁華冷淡燈前戲，<caesura/>會合分離夢裏緣。</l>
+<lb n="0013c20" ed="X"/><lb n="0155b10" ed="R109"/>
+  <l>紫燕情多悲舊壘，<caesura/>青蚨恩重託飛錢。</l>
+<lb n="0013c21" ed="X"/><lb n="0155b11" ed="R109"/>
+  <l>知君<note 
+n="0013c2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0013c2101">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【卍續】">巳</rdg>
+  </app>釋琵琶恨，<caesura/>錦字新題七寶蓮。</l>
+</lg></cb:div>
 <lb n="0013c22" ed="X"/><lb n="0155b12" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">擬首尾吟</cb:mulu><head>擬首尾吟<note place="inline">四首</note></head>
-<lb n="0013c23" ed="X"/><lb n="0155b13" ed="R109"/><lg xml:id="lgX62p0013c2301" type="regular"><l>蓮池非是愛栽蓮，<caesura/>蓮是華中大覺仙，</l>
-<lb n="0013c24" ed="X"/><lb n="0155b14" ed="R109"/><l>華發蓮生因帶果，<caesura/>蓮成華落實摧權；</l>
+<lb n="0013c23" ed="X"/><lb n="0155b13" ed="R109"/><lg xml:id="lgX62p0013c2301" type="regular">
+  <l>蓮池非是愛栽蓮，<caesura/>蓮是華中大覺仙，</l>
+<lb n="0013c24" ed="X"/><lb n="0155b14" ed="R109"/>
+  <l>華發蓮生因帶果，<caesura/>蓮成華落實摧權；</l>
 <pb n="0014a" ed="X" xml:id="X62.1170.0014a"/>
-<lb n="0014a01" ed="X"/><lb n="0155b15" ed="R109"/><l>展開千葉全機現，<caesura/>攝人孤房眾德圓，</l>
-<lb n="0014a02" ed="X"/><lb n="0155b16" ed="R109"/><l>醒盡長安紅紫夢，<caesura/>蓮池非是愛栽蓮。</l></lg>
-<lb n="0014a03" ed="X"/><lb n="0155b17" ed="R109"/><lg xml:id="lgX62p0014a0301" type="regular"><l>蓮池非是愛栽蓮，<caesura/>蓮是華中混俗仙，</l>
-<lb n="0014a04" ed="X"/><lb n="0155b18" ed="R109"/><l>內叶魚龍成淨侶，<caesura/>外連萍藻結良緣；</l>
-<lb n="0014a05" ed="X"/><lb n="0156a01" ed="R109"/><l>畵船簫鼓涼風夜，<caesura/>青笠絲綸細雨天，</l>
-<lb n="0014a06" ed="X"/><lb n="0156a02" ed="R109"/><l>身在汙泥渾不染，<caesura/>蓮池非是愛栽蓮。</l></lg>
-<lb n="0014a07" ed="X"/><lb n="0156a03" ed="R109"/><lg xml:id="lgX62p0014a0701" type="regular"><l>蓮池非是愛栽蓮，<caesura/>蓮是華中忍辱仙，</l>
-<lb n="0014a08" ed="X"/><lb n="0156a04" ed="R109"/><l>幸自深根埋濁土，<caesura/>從他名卉占高原；</l>
-<lb n="0014a09" ed="X"/><lb n="0156a05" ed="R109"/><l>顏開赫日烘偏艶，<caesura/>實墜秋霜凜倍堅，</l>
-<lb n="0014a10" ed="X"/><lb n="0156a06" ed="R109"/><l>一點翠心舍造化，<caesura/>蓮池非是愛栽蓮。</l></lg>
-<lb n="0014a11" ed="X"/><lb n="0156a07" ed="R109"/><lg xml:id="lgX62p0014a1101" type="regular"><l>蓮池非是愛栽蓮，<caesura/>蓮是華中解脫仙，</l>
-<lb n="0014a12" ed="X"/><lb n="0156a08" ed="R109"/><l>潔體逈離紅粉鬢，<caesura/>清香不戀綺羅筵；</l>
-<lb n="0014a13" ed="X"/><lb n="0156a09" ed="R109"/><l>密通千孔除諸礙，<caesura/>秀出孤標絕眾纏，</l>
-<lb n="0014a14" ed="X"/><lb n="0156a10" ed="R109"/><l>碧水青天長自在，<caesura/>蓮池非自愛栽蓮。</l></lg></cb:div>
+<lb n="0014a01" ed="X"/><lb n="0155b15" ed="R109"/>
+  <l>展開千葉全機現，<caesura/>攝人孤房眾德圓，</l>
+<lb n="0014a02" ed="X"/><lb n="0155b16" ed="R109"/>
+  <l>醒盡長安紅紫夢，<caesura/>蓮池非是愛栽蓮。</l>
+</lg>
+<lb n="0014a03" ed="X"/><lb n="0155b17" ed="R109"/><lg xml:id="lgX62p0014a0301" type="regular">
+  <l>蓮池非是愛栽蓮，<caesura/>蓮是華中混俗仙，</l>
+<lb n="0014a04" ed="X"/><lb n="0155b18" ed="R109"/>
+  <l>內叶魚龍成淨侶，<caesura/>外連萍藻結良緣；</l>
+<lb n="0014a05" ed="X"/><lb n="0156a01" ed="R109"/>
+  <l>畵船簫鼓涼風夜，<caesura/>青笠絲綸細雨天，</l>
+<lb n="0014a06" ed="X"/><lb n="0156a02" ed="R109"/>
+  <l>身在汙泥渾不染，<caesura/>蓮池非是愛栽蓮。</l>
+</lg>
+<lb n="0014a07" ed="X"/><lb n="0156a03" ed="R109"/><lg xml:id="lgX62p0014a0701" type="regular">
+  <l>蓮池非是愛栽蓮，<caesura/>蓮是華中忍辱仙，</l>
+<lb n="0014a08" ed="X"/><lb n="0156a04" ed="R109"/>
+  <l>幸自深根埋濁土，<caesura/>從他名卉占高原；</l>
+<lb n="0014a09" ed="X"/><lb n="0156a05" ed="R109"/>
+  <l>顏開赫日烘偏艶，<caesura/>實墜秋霜凜倍堅，</l>
+<lb n="0014a10" ed="X"/><lb n="0156a06" ed="R109"/>
+  <l>一點翠心舍造化，<caesura/>蓮池非是愛栽蓮。</l>
+</lg>
+<lb n="0014a11" ed="X"/><lb n="0156a07" ed="R109"/><lg xml:id="lgX62p0014a1101" type="regular">
+  <l>蓮池非是愛栽蓮，<caesura/>蓮是華中解脫仙，</l>
+<lb n="0014a12" ed="X"/><lb n="0156a08" ed="R109"/>
+  <l>潔體逈離紅粉鬢，<caesura/>清香不戀綺羅筵；</l>
+<lb n="0014a13" ed="X"/><lb n="0156a09" ed="R109"/>
+  <l>密通千孔除諸礙，<caesura/>秀出孤標絕眾纏，</l>
+<lb n="0014a14" ed="X"/><lb n="0156a10" ed="R109"/>
+  <l>碧水青天長自在，<caesura/>蓮池非自愛栽蓮。</l>
+</lg></cb:div>
 <lb n="0014a15" ed="X"/><lb n="0156a11" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">除夕上堂有出多娑婆三韻索偈者口占二首</cb:mulu><head>除夕上堂有出多娑婆三韻索偈者口占二
 <lb n="0014a16" ed="X"/><lb n="0156a12" ed="R109"/>首<note place="inline">選一</note></head>
-<lb n="0014a17" ed="X"/><lb n="0156a13" ed="R109"/><lg xml:id="lgX62p0014a1701" type="regular"><l>六字真經攝義多，<caesura/>總持一似唱也娑，</l>
-<lb n="0014a18" ed="X"/><lb n="0156a14" ed="R109"/><l>自從驀直西方去，<caesura/>閒殺臺山指路婆。</l></lg></cb:div>
+<lb n="0014a17" ed="X"/><lb n="0156a13" ed="R109"/><lg xml:id="lgX62p0014a1701" type="regular">
+  <l>六字真經攝義多，<caesura/>總持一似唱也娑，</l>
+<lb n="0014a18" ed="X"/><lb n="0156a14" ed="R109"/>
+  <l>自從驀直西方去，<caesura/>閒殺臺山指路婆。</l>
+</lg></cb:div>
 <lb n="0014a19" ed="X"/><lb n="0156a15" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">一字至七字與長兄三洲分咏風花雪月</cb:mulu><head>一字至七字與長兄三洲分咏風花雪月<note place="inline">錄花</note></head>
 <lb n="0014a20" ed="X"/><lb n="0156a16" ed="R109"/><p xml:id="pX62p0014a2001">花。千枝萬葩紅燦錦，彩鋪霞陪羅綺席，戀王孫家。曉
-<lb n="0014a21" ed="X"/><lb n="0156a17" ed="R109"/>露新粧濕，春風舞袖斜。青帝俄歸幻化，玉容<note n="0014a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0014a2101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>付塵
+<lb n="0014a21" ed="X"/><lb n="0156a17" ed="R109"/>露新粧濕，春風舞袖斜。青帝俄歸幻化，玉容<note 
+n="0014a2101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0014a2101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>付塵
 <lb n="0014a22" ed="X"/><lb n="0156a18" ed="R109"/>沙。洛陽園上無顏色，西土池中有物華。</p></cb:div></cb:div>
 <lb n="0014a23" ed="X"/><lb n="0156b01" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">紀事</cb:mulu><head>紀事</head>
 <lb n="0014a24" ed="X"/><lb n="0156b02" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">淨業堂對聯</cb:mulu><head>淨業堂對聯</head>
 <pb n="0014b" ed="X" xml:id="X62.1170.0014b"/>
 <lb n="0014b01" ed="X"/><lb n="0156b03" ed="R109"/><p xml:id="pX62p0014b0101">主極樂六八大願之慈尊，絕限量壽命光明不離當
-<lb n="0014b02" ed="X"/><lb n="0156b04" ed="R109"/>處。</p><p xml:id="pX62p0014b0202" cb:place="inline">過娑婆萬兆佛<g ref="#CB15131"/>之淨土妙莊嚴樓臺池沼，原
+<lb n="0014b02" ed="X"/><lb n="0156b04" ed="R109"/>處。</p>
+<p xml:id="pX62p0014b0202" cb:place="inline">過娑婆萬兆佛<g ref="#CB15131"/>之淨土妙莊嚴樓臺池沼，原
 <lb n="0014b03" ed="X"/><lb n="0156b05" ed="R109"/>是吾鄉。</p></cb:div></cb:div>
 <lb n="0014b04" ed="X"/><lb n="0156b06" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">竹窗隨筆</cb:mulu><head>竹窗隨筆</head>
 <lb n="0014b05" ed="X"/><lb n="0156b07" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">念佛鬼敬</cb:mulu><head>念佛鬼敬</head>
@@ -1099,14 +1640,19 @@
 <lb n="0014b23" ed="X"/><lb n="0157a07" ed="R109"/>世外，難以形容。則不若繪輞川者之備極工巧，聳人
 <lb n="0014b24" ed="X"/><lb n="0157a08" ed="R109"/>心目故也。彼雞頭摩之所傳、十六觀經之所說，亦略
 <pb n="0014c" ed="X" xml:id="X62.1170.0014c"/>
-<lb n="0014c01" ed="X"/><lb n="0157a09" ed="R109"/>示其槩而<note n="0014c0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0014c0101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。夫極樂世界，忉利、兜率、化樂諸天所不
+<lb n="0014c01" ed="X"/><lb n="0157a09" ed="R109"/>示其槩而<note 
+n="0014c0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0014c0101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。夫極樂世界，忉利、兜率、化樂諸天所不
 <lb n="0014c02" ed="X"/><lb n="0157a10" ed="R109"/>能及其少分。使人得而詳覩，何止四百四病之俱忘，
 <lb n="0014c03" ed="X"/><lb n="0157a11" ed="R109"/>將八萬四千煩惱諸病皆消滅無餘矣。昔人謂神棲
 <lb n="0014c04" ed="X"/><lb n="0157a12" ed="R109"/>安養，又為先送心歸極樂天，豈徒然哉。</p></cb:div>
 <lb n="0014c05" ed="X"/><lb n="0157a13" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">念佛</cb:mulu><head>念佛</head>
 <lb n="0014c06" ed="X"/><lb n="0157a14" ed="R109"/><p xml:id="pX62p0014c0601">世人稍利根，便輕視念佛，謂是愚夫愚婦勾當。彼徒
 <lb n="0014c07" ed="X"/><lb n="0157a15" ed="R109"/>見愚夫愚婦，口誦佛名，心遊千里。而不知此等是名
-<lb n="0014c08" ed="X"/><lb n="0157a16" ed="R109"/>讀佛，非念佛也。念從心，心思憶而不忘，故名曰念。<note n="0014001" resp="Xuzangjing" type="orig" place="foot text">言疑請</note>言
+<lb n="0014c08" ed="X"/><lb n="0157a16" ed="R109"/>讀佛，非念佛也。念從心，心思憶而不忘，故名曰念。<note 
+n="0014001" resp="Xuzangjing" type="orig" place="foot text">言疑請</note>言
 <lb n="0014c09" ed="X"/><lb n="0157a17" ed="R109"/>以儒喻。儒者念念思憶孔子，其去孔子不亦庶幾乎。
 <lb n="0014c10" ed="X"/><lb n="0157a18" ed="R109"/>今念念思憶五欲不以為非，而反以念佛為非。噫！似
 <lb n="0014c11" ed="X"/><lb n="0157b01" ed="R109"/>此一生空過，何如作愚夫愚婦耶？而惜乎智可能也，
@@ -1128,9 +1674,17 @@
 <lb n="0015a02" ed="X"/><lb n="0157b16" ed="R109"/>生產業乎？」僧又無對。</p></cb:div>
 <lb n="0015a03" ed="X"/><lb n="0157b17" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">念佛不專一</cb:mulu><head>念佛不專一</head>
 <lb n="0015a04" ed="X"/><lb n="0157b18" ed="R109"/><p xml:id="pX62p0015a0401">予昔在鍊磨場中，時方丈謂眾云：「中元曰當作盂蘭
-<lb n="0015a05" ed="X"/><lb n="0158a01" ed="R109"/>盆齊。」予以為設供也。俄而無設，唯念佛三日而<note n="0015a0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0015a0501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。又
+<lb n="0015a05" ed="X"/><lb n="0158a01" ed="R109"/>盆齊。」予以為設供也。俄而無設，唯念佛三日而<note 
+n="0015a0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0015a0501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。又
 <lb n="0015a06" ed="X"/><lb n="0158a02" ed="R109"/>聞昔有院主為官司所勾攝，堂中第一座集眾救護，
-<lb n="0015a07" ed="X"/><lb n="0158a03" ed="R109"/>眾以為持誦也，亦高聲念佛而<note n="0015a0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0015a0701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。此二事，逈出常情，
+<lb n="0015a07" ed="X"/><lb n="0158a03" ed="R109"/>眾以為持誦也，亦高聲念佛而<note 
+n="0015a0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0015a0701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。此二事，逈出常情，
 <lb n="0015a08" ed="X"/><lb n="0158a04" ed="R109"/>有大人作略，真可師法。彼今之念佛者名為專修，至
 <lb n="0015a09" ed="X"/><lb n="0158a05" ed="R109"/>於禱壽命則《藥師經》，解罪愆則梁皇懺，濟厄難則消
 <lb n="0015a10" ed="X"/><lb n="0158a06" ed="R109"/>災呪，求智慧則觀音文。向所念佛，束之高閣，若無補
@@ -1151,7 +1705,11 @@
 <pb n="0015b" ed="X" xml:id="X62.1170.0015b"/>
 <lb n="0015b01" ed="X"/><lb n="0158b03" ed="R109"/>白予為鴈蕩遊。予欲往，而忻然從遊者百餘眾。因計
 <lb n="0015b02" ed="X"/><lb n="0158b04" ed="R109"/>彼山久無接待，徘徊歷覧，往返不下半月費粟數石。
-<lb n="0015b03" ed="X"/><lb n="0158b05" ed="R109"/>院貧不能支，遂堅執<note n="0015b0301" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0015b0301"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>之。眾怏怏，乃慰之曰：鴈蕩之
+<lb n="0015b03" ed="X"/><lb n="0158b05" ed="R109"/>院貧不能支，遂堅執<note 
+n="0015b0301" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0015b0301">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>之。眾怏怏，乃慰之曰：鴈蕩之
 <lb n="0015b04" ed="X"/><lb n="0158b06" ed="R109"/>勝，在震旦中尚有過之者。即震旦最勝處，不及天宮。
 <lb n="0015b05" ed="X"/><lb n="0158b07" ed="R109"/>天宮展轉最勝處，不及西方極樂世界。公等不慕極
 <lb n="0015b06" ed="X"/><lb n="0158b08" ed="R109"/>樂，而沾沾鴈蕩是慕也。竟不去。</p></cb:div>
@@ -1159,7 +1717,11 @@
 <lb n="0015b08" ed="X"/><lb n="0158b10" ed="R109"/><p xml:id="pX62p0015b0801">《真誥》云：「鮑勔未知道，但朝暮扣齒不息，鬼使不能取。
 <lb n="0015b09" ed="X"/><lb n="0158b11" ed="R109"/>蓋扣齒集身中之神，神不離故，鬼不得近。向使以扣
 <lb n="0015b10" ed="X"/><lb n="0158b12" ed="R109"/>齒之力修真，何真之不成。」予謂豈獨修真。以扣齒之
-<lb n="0015b11" ed="X"/><lb n="0158b13" ed="R109"/>力，念念扣<note n="0015b1101" resp="CBETA" type="add" note_key="X62.0015b11.05">己【CB】，巳【卍續】</note><app n="0015b1101"><lem wit="【CB】" resp="CBETA.ting">己</lem><rdg wit="【卍續】">巳</rdg></app>而參，何佛之不成乎。夫身中之神，秪是
+<lb n="0015b11" ed="X"/><lb n="0158b13" ed="R109"/>力，念念扣<note 
+n="0015b1101" resp="CBETA" type="add" note_key="X62.0015b11.05">己【CB】，巳【卍續】</note><app n="0015b1101">
+  <lem wit="【CB】" resp="CBETA.ting">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>而參，何佛之不成乎。夫身中之神，秪是
 <lb n="0015b12" ed="X"/><lb n="0158b14" ed="R109"/>一精魂耳，力尚伏鬼。況經云：「受持一佛名者，有百千
 <lb n="0015b13" ed="X"/><lb n="0158b15" ed="R109"/>大力天神為之擁護。」又云：「念佛之人，佛在其頂。」今也
 <lb n="0015b14" ed="X"/><lb n="0158b16" ed="R109"/>勤為扣齒之細故，而甘捨念佛之大道，惜哉。</p></cb:div>
@@ -1175,7 +1737,8 @@
 <lb n="0015b24" ed="X"/><lb n="0159a08" ed="R109"/>片時而散。母侈費齋供、毋耽玩光陰，可也。願與同衣
 <pb n="0015c" ed="X" xml:id="X62.1170.0015c"/>
 <lb n="0015c01" ed="X"/><lb n="0159a09" ed="R109"/>共守之。</p></cb:div>
-<lb n="0015c02" ed="X"/><lb n="0159a10" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">後身</cb:mulu><cb:div type="other"><cb:mulu level="3" type="其他">後身(一)</cb:mulu><head>後身<note place="inline">一</note></head>
+<lb n="0015c02" ed="X"/><lb n="0159a10" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">後身</cb:mulu>
+<cb:div type="other"><cb:mulu level="3" type="其他">後身(一)</cb:mulu><head>後身<note place="inline">一</note></head>
 <lb n="0015c03" ed="X"/><lb n="0159a11" ed="R109"/><p xml:id="pX62p0015c0301">讚西方者，記戒禪師後身為蘇子瞻，青草堂後身為
 <lb n="0015c04" ed="X"/><lb n="0159a12" ed="R109"/>曾魯公，遜長老後身為李侍郎，南菴主後身為陳忠
 <lb n="0015c05" ed="X"/><lb n="0159a13" ed="R109"/>肅，知藏某後身為張文定，嚴首座後身為王龜齡。其
@@ -1211,14 +1774,19 @@
 <lb n="0016a10" ed="X"/><lb n="0160a06" ed="R109"/><p xml:id="pX62p0016a1001">國朝洪永間，有空谷、天奇、毒峯三大老，其論念佛，天
 <lb n="0016a11" ed="X"/><lb n="0160a07" ed="R109"/>毒二師俱教人看念佛是誰，唯空谷謂只直念去亦
 <lb n="0016a12" ed="X"/><lb n="0160a08" ed="R109"/>有悟門。此二各隨機宜，皆是也。而空谷但言直念亦
-<lb n="0016a13" ed="X"/><lb n="0160a09" ed="R109"/>可，不曰參究為非也。予於《疏鈔》<note n="0016a1301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016a1301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>略陳之。而猶有疑
+<lb n="0016a13" ed="X"/><lb n="0160a09" ed="R109"/>可，不曰參究為非也。予於《疏鈔》<note 
+n="0016a1301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016a1301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>略陳之。而猶有疑
 <lb n="0016a14" ed="X"/><lb n="0160a10" ed="R109"/>者，謂參究主於見性，單持乃切往生，遂欲廢參究而
 <lb n="0016a15" ed="X"/><lb n="0160a11" ed="R109"/>事單持，言經中止云執持名號，曾無參究之說。此論
 <lb n="0016a16" ed="X"/><lb n="0160a12" ed="R109"/>亦甚有理，依而行之決定往生。但欲存此廢彼，則不
 <lb n="0016a17" ed="X"/><lb n="0160a13" ed="R109"/>可。葢念佛人見性，正上品上生事，而反憂其不生耶？
 <lb n="0016a18" ed="X"/><lb n="0160a14" ed="R109"/>故《疏鈔》兩存而待擇，請無疑焉。若夫以誰字逼氣下
 <lb n="0016a19" ed="X"/><lb n="0160a15" ed="R109"/>行，而謂是追究念佛者，此邪謬誤人，獲罪無量。</p></cb:div>
-<lb n="0016a20" ed="X"/><lb n="0160a16" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">淨土難信之法</cb:mulu><cb:div type="other"><cb:mulu level="3" type="其他">淨土難信之法(一)</cb:mulu><head>淨土難信之法</head>
+<lb n="0016a20" ed="X"/><lb n="0160a16" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">淨土難信之法</cb:mulu>
+<cb:div type="other"><cb:mulu level="3" type="其他">淨土難信之法(一)</cb:mulu><head>淨土難信之法</head>
 <lb n="0016a21" ed="X"/><lb n="0160a17" ed="R109"/><p xml:id="pX62p0016a2101">淺淨土者，以為愚夫愚婦所行道。天如斥之，謂非鄙
 <lb n="0016a22" ed="X"/><lb n="0160a18" ed="R109"/>愚夫愚婦，是鄙馬鳴、龍樹、文殊、普賢也。故予作《彌陀
 <lb n="0016a23" ed="X"/><lb n="0160b01" ed="R109"/>經疏鈔》，乃發其甚深旨趣。則又以為解此經不宜太
@@ -1254,12 +1822,28 @@
 <lb n="0016c03" ed="X"/><lb n="0161a11" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">出世間大孝</cb:mulu><head>出世間大孝</head>
 <lb n="0016c04" ed="X"/><lb n="0161a12" ed="R109"/><p xml:id="pX62p0016c0401">人子於父母，服勞奉養以安之，孝也。立身行道以顯
 <lb n="0016c05" ed="X"/><lb n="0161a13" ed="R109"/>之，大孝也。勸以念佛法門，俾得生淨土，大孝之大孝
-<lb n="0016c06" ed="X"/><lb n="0161a14" ed="R109"/>也。予生晚，甫聞佛法，而風<note n="0016c0601" resp="CBETA" type="add" note_key="X62.0016c06.11">木【CB】，水【卍續】</note><app n="0016c0601"><lem resp="CBETA.poyung" wit="【CB】" cb:provider="來函：妙音偉澤 (2022-09-13)">木<note type="cf1">X62n1185_p0391b05</note><note type="cf2">J33nB277_p0051a05</note></lem><rdg wit="【卍續】">水</rdg></app>之悲<note n="0016c0602" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016c0602"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>至。痛極終天，雖
-<lb n="0016c07" ed="X"/><lb n="0161a15" ed="R109"/>欲追之，末繇也<note n="0016c0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016c0701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。奉告諸人，父母在堂，早勸念佛。父
+<lb n="0016c06" ed="X"/><lb n="0161a14" ed="R109"/>也。予生晚，甫聞佛法，而風<note 
+n="0016c0601" resp="CBETA" type="add" note_key="X62.0016c06.11">木【CB】，水【卍續】</note><app n="0016c0601">
+  <lem resp="CBETA.poyung" wit="【CB】" cb:provider="來函：妙音偉澤 (2022-09-13)">木<note type="cf1">X62n1185_p0391b05</note><note type="cf2">J33nB277_p0051a05</note></lem>
+  <rdg wit="【卍續】">水</rdg>
+</app>之悲<note 
+n="0016c0602" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016c0602">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>至。痛極終天，雖
+<lb n="0016c07" ed="X"/><lb n="0161a15" ed="R109"/>欲追之，末繇也<note 
+n="0016c0701" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016c0701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。奉告諸人，父母在堂，早勸念佛。父
 <lb n="0016c08" ed="X"/><lb n="0161a16" ed="R109"/>母亡日，課佛三年。其不能者，或一週歲、或七七日，皆
 <lb n="0016c09" ed="X"/><lb n="0161a17" ed="R109"/>可也。孝子欲報劬勞之恩，不可不知此。</p></cb:div>
 <lb n="0016c10" ed="X"/><lb n="0161a18" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">得悟人正宜往生淨土</cb:mulu><head>得悟人正宜往生淨土</head>
-<lb n="0016c11" ed="X"/><lb n="0161b01" ed="R109"/><p xml:id="pX62p0016c1101">或問：某甲向修淨土，有禪者曰：「但悟自佛即<note n="0016c1101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016c1101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>，何必
+<lb n="0016c11" ed="X"/><lb n="0161b01" ed="R109"/><p xml:id="pX62p0016c1101">或問：某甲向修淨土，有禪者曰：「但悟自佛即<note 
+n="0016c1101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0016c1101">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>，何必
 <lb n="0016c12" ed="X"/><lb n="0161b02" ed="R109"/>外求他佛而願往生？」此意何如。予謂此實最上開示，
 <lb n="0016c13" ed="X"/><lb n="0161b03" ed="R109"/>但執之亦能有悞。請以喻明。假使有人，頴悟同於顏
 <lb n="0016c14" ed="X"/><lb n="0161b04" ed="R109"/>子，而百里千里之外有聖如夫子者，倡道於其間，七
@@ -1278,7 +1862,11 @@
 <lb n="0017a02" ed="X"/><lb n="0161b16" ed="R109"/>天樂異香幢幡樓閣等，惟彼一人獨見，可云自心。而
 <lb n="0017a03" ed="X"/><lb n="0161b17" ed="R109"/>一時大眾悉皆見之，有聞天樂隱隱向西而去者，有
 <lb n="0017a04" ed="X"/><lb n="0161b18" ed="R109"/>異香在室多日不散者。夫天樂不向他方，而西向以
-<lb n="0017a05" ed="X"/><lb n="0162a01" ed="R109"/>去。彼人<note n="0017a0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0017a0501"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>故，此香猶在。是得謂無淨土乎？圓照本禪
+<lb n="0017a05" ed="X"/><lb n="0162a01" ed="R109"/>去。彼人<note 
+n="0017a0501" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0017a0501">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>故，此香猶在。是得謂無淨土乎？圓照本禪
 <lb n="0017a06" ed="X"/><lb n="0162a02" ed="R109"/>師，人見其標名蓮品，豈得他人之心作圓照之心乎？
 <lb n="0017a07" ed="X"/><lb n="0162a03" ed="R109"/>又試問汝：「臨終地獄相現者，非心乎？」曰：「心也。」「其人墮
 <lb n="0017a08" ed="X"/><lb n="0162a04" ed="R109"/>地獄乎？」曰：「墮也。」夫既墮地獄，則地獄之有明矣。淨土
@@ -1286,7 +1874,11 @@
 <lb n="0017a10" ed="X"/><lb n="0162a06" ed="R109"/>生實有之淨土乎？寧說有如須彌，莫說無如芥子。戒
 <lb n="0017a11" ed="X"/><lb n="0162a07" ed="R109"/>之戒之。</p></cb:div>
 <lb n="0017a12" ed="X"/><lb n="0162a08" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">隨處淨土</cb:mulu><head>隨處淨土</head>
-<lb n="0017a13" ed="X"/><lb n="0162a09" ed="R109"/><p xml:id="pX62p0017a1301">有謂吾非不信淨土，亦非薄淨土而不往。<note n="0017a1301" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0017a1301"><lem resp="CBETA.maha" wit="【CB】">但</lem><rdg wit="【卍續】">伹</rdg></app>吾所往
+<lb n="0017a13" ed="X"/><lb n="0162a09" ed="R109"/><p xml:id="pX62p0017a1301">有謂吾非不信淨土，亦非薄淨土而不往。<note 
+n="0017a1301" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0017a1301">
+  <lem resp="CBETA.maha" wit="【CB】">但</lem>
+  <rdg wit="【卍續】">伹</rdg>
+</app>吾所往
 <lb n="0017a14" ed="X"/><lb n="0162a10" ed="R109"/>與人異，東方有佛吾東往，西方有佛吾西往。四維上
 <lb n="0017a15" ed="X"/><lb n="0162a11" ed="R109"/>下天堂地獄，但有佛處吾則隨往。非如天台、永明諸
 <lb n="0017a16" ed="X"/><lb n="0162a12" ed="R109"/>求淨土者，必專往西方之極樂世界也。此說語甚高、
@@ -1297,10 +1889,18 @@
 <lb n="0017a21" ed="X"/><lb n="0162a17" ed="R109"/>不忘西向者，豈不知隨方皆有佛國耶？大解脫人，任
 <lb n="0017a22" ed="X"/><lb n="0162a18" ed="R109"/>意所之。如其不然，恪遵佛敕。</p></cb:div>
 <lb n="0017a23" ed="X"/><lb n="0162b01" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">出胎隔陰之迷</cb:mulu><head>出胎隔陰之迷</head>
-<lb n="0017a24" ed="X"/><lb n="0162b02" ed="R109"/><p xml:id="pX62p0017a2401">古云：「聲聞尚昧出胎，菩薩猶昏隔陰。」予初疑聲聞<note n="0017a2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0017a2401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>
+<lb n="0017a24" ed="X"/><lb n="0162b02" ed="R109"/><p xml:id="pX62p0017a2401">古云：「聲聞尚昧出胎，菩薩猶昏隔陰。」予初疑聲聞<note 
+n="0017a2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0017a2401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>
 <pb n="0017b" ed="X" xml:id="X62.1170.0017b"/>
 <lb n="0017b01" ed="X"/><lb n="0162b03" ed="R109"/>具六通、菩薩雙修定慧，何繇昏昧均未能免？及考之
-<lb n="0017b02" ed="X"/><lb n="0162b04" ed="R109"/>自<note n="0017b0201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0017b0201"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>、稽之他人，昨宵之事，平旦忽爾落然，況隔陰乎。
+<lb n="0017b02" ed="X"/><lb n="0162b04" ed="R109"/>自<note 
+n="0017b0201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0017b0201">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>、稽之他人，昨宵之事，平旦忽爾落然，況隔陰乎。
 <lb n="0017b03" ed="X"/><lb n="0162b05" ed="R109"/>乍遷一房，夜起不知南北，況出胎乎。彼諸賢聖之昏
 <lb n="0017b04" ed="X"/><lb n="0162b06" ed="R109"/>昧，蓋暫昏而即明、俄昧而漸覺者也。而我等凡夫，則
 <lb n="0017b05" ed="X"/><lb n="0162b07" ed="R109"/>終於昏昧而不自知也。捨身受身，利害有如此者。為
@@ -1313,21 +1913,26 @@
 <lb n="0017b12" ed="X"/><lb n="0162b14" ed="R109"/>若好問、若用中，皆貴顯而奉佛。夫文正亦秪是人，世
 <lb n="0017b13" ed="X"/><lb n="0162b15" ed="R109"/>之善願而竟酬所期，至累世不絕。況求生淨土，為出
 <lb n="0017b14" ed="X"/><lb n="0162b16" ed="R109"/>世間之大願乎。文正之願，取必於子孫者，得否未可
-<lb n="0017b15" ed="X"/><lb n="0162b17" ed="R109"/>知。況求生淨土，取必於自<note n="0017b1501" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0017b1501"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>有乎。故知淨土不成，良
+<lb n="0017b15" ed="X"/><lb n="0162b17" ed="R109"/>知。況求生淨土，取必於自<note 
+n="0017b1501" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0017b1501">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>有乎。故知淨土不成，良
 <lb n="0017b16" ed="X"/><lb n="0162b18" ed="R109"/>以其精誠之未至耳。昔有貴室供養一僧，問僧云：「師
 <lb n="0017b17" ed="X"/><lb n="0163a01" ed="R109"/>百年後，肯來某家否？」僧一笑，遂為其子。近世總戎范
 <lb n="0017b18" ed="X"/><lb n="0163a02" ed="R109"/>君，亦其父所供僧也。二事正類。夫一時之笑諾，即朵
 <lb n="0017b19" ed="X"/><lb n="0163a03" ed="R109"/>質於豪門。豈得積久之精誠，不托胎於蓮品？因果必
 <lb n="0017b20" ed="X"/><lb n="0163a04" ed="R109"/>然，無容擬議矣。</p></cb:div>
 <lb n="0017b21" ed="X"/><lb n="0163a05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">九品往生</cb:mulu><head>九品往生</head>
-<lb n="0017b22" ed="X"/><lb n="0163a06" ed="R109"/><p xml:id="pX62p0017b2201"><note n="0017001" resp="Xuzangjing" type="orig" place="foot text">土疑士下同</note>土人有薄淨土而不修者，曰：「譬如吾輩，當以科名入
-<lb n="0017b23" ed="X"/><lb n="0163a07" ed="R109"/>仕，奈何作歲貢授官耶？」一<note type="star" corresp="#0017001"></note>土人云。「此喻大謬。蓮臺自
+<lb n="0017b22" ed="X"/><lb n="0163a06" ed="R109"/><p xml:id="pX62p0017b2201"><note 
+n="0017001" resp="Xuzangjing" type="orig" place="foot text">土疑士下同</note>土人有薄淨土而不修者，曰：「譬如吾輩，當以科名入
+<lb n="0017b23" ed="X"/><lb n="0163a07" ed="R109"/>仕，奈何作歲貢授官耶？」一<note type="star" corresp="#0017001"/>土人云。「此喻大謬。蓮臺自
 <lb n="0017b24" ed="X"/><lb n="0163a08" ed="R109"/>分九品，公何不取其最上，而甘作下品乎？今蓮士科
 <pb n="0017c" ed="X" xml:id="X62.1170.0017c"/>
 <lb n="0017c01" ed="X"/><lb n="0163a09" ed="R109"/>三百，亦可分上中下而九品之也，公何不取彼魁元，
 <lb n="0017c02" ed="X"/><lb n="0163a10" ed="R109"/>而甘作榜尾乎？」上品上生，即蓮科之榜首也。故頌之
 <lb n="0017c03" ed="X"/><lb n="0163a11" ed="R109"/>者曰：「三心圓發，諦理深明。金臺隨往，即證無生。」其在
-<lb n="0017c04" ed="X"/><lb n="0163a12" ed="R109"/>宗門則大徹大悟。而所謂心空及第歸者，此也。向<note type="star" corresp="#0017001"></note>土
+<lb n="0017c04" ed="X"/><lb n="0163a12" ed="R109"/>宗門則大徹大悟。而所謂心空及第歸者，此也。向<note type="star" corresp="#0017001"/>土
 <lb n="0017c05" ed="X"/><lb n="0163a13" ed="R109"/>人憮然曰：「吾疑於是冰泮。」</p></cb:div></cb:div>
 <lb n="0017c06" ed="X"/><lb n="0163a14" ed="R109"/><cb:div type="other"><cb:mulu level="1" type="其他">竹牕三筆</cb:mulu><head>竹牕三筆</head>
 <lb n="0017c07" ed="X"/><lb n="0163a15" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">晝夜彌陀十萬聲</cb:mulu><head>晝夜彌陀十萬聲</head>
@@ -1351,11 +1956,17 @@
 <pb n="0018a" ed="X" xml:id="X62.1170.0018a"/>
 <lb n="0018a01" ed="X"/><lb n="0163b15" ed="R109"/>有生有死，特不墮落耳，何謂生彼國者皆無量壽？曰：
 <lb n="0018a02" ed="X"/><lb n="0163b16" ed="R109"/>後不云乎：「國中天人壽皆無量；除其本願，願出度生
-<lb n="0018a03" ed="X"/><lb n="0163b17" ed="R109"/>者。」《十疑論》亦曰：「生彼國土，得無生忍<note n="0018a0301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018a0301"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。還來此世，救
+<lb n="0018a03" ed="X"/><lb n="0163b17" ed="R109"/>者。」《十疑論》亦曰：「生彼國土，得無生忍<note 
+n="0018a0301" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018a0301">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。還來此世，救
 <lb n="0018a04" ed="X"/><lb n="0163b18" ed="R109"/>苦眾生。」則悲願行化，非此土死生比也。</p></cb:div>
-<lb n="0018a05" ed="X"/><lb n="0164a01" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">不願西方</cb:mulu><cb:div type="other"><cb:mulu level="3" type="其他">不願西方(一)</cb:mulu><head>不願西方<note place="inline">一</note></head>
+<lb n="0018a05" ed="X"/><lb n="0164a01" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">不願西方</cb:mulu>
+<cb:div type="other"><cb:mulu level="3" type="其他">不願西方(一)</cb:mulu><head>不願西方<note place="inline">一</note></head>
 <lb n="0018a06" ed="X"/><lb n="0164a02" ed="R109"/><p xml:id="pX62p0018a0601">或問一僧：「公願生西方否？」曰：「吾不願也。乃所願來生
-<lb n="0018a07" ed="X"/><lb n="0164a03" ed="R109"/>著<note n="0018001" resp="Xuzangjing" type="orig" place="foot text">緣疑綠下同</note>緣袍，一妻一妾而處室也。此即吾之極樂國也。」問
+<lb n="0018a07" ed="X"/><lb n="0164a03" ed="R109"/>著<note 
+n="0018001" resp="Xuzangjing" type="orig" place="foot text">緣疑綠下同</note>緣袍，一妻一妾而處室也。此即吾之極樂國也。」問
 <lb n="0018a08" ed="X"/><lb n="0164a04" ed="R109"/>者嘿然以告予。予謂各人有志。志在富貴，何西方之
 <lb n="0018a09" ed="X"/><lb n="0164a05" ed="R109"/>為？雖然。富貴雖非道人美事，而亦須修頑福以得之。
 <lb n="0018a10" ed="X"/><lb n="0164a06" ed="R109"/>倘不修福，未必得為緣袍郎。而或作緣衣人也，未必
@@ -1375,14 +1986,30 @@
 <lb n="0018a24" ed="X"/><lb n="0164b02" ed="R109"/>隨生，未必其真能作主，而不被業牽也。曰無生，未必
 <pb n="0018b" ed="X" xml:id="X62.1170.0018b"/>
 <lb n="0018b01" ed="X"/><lb n="0164b03" ed="R109"/>其真得無生法忍而常住寂光也。如未能，則戲論而
-<lb n="0018b02" ed="X"/><lb n="0164b04" ed="R109"/><note n="0018b0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。又未能，則大言不慚而<note n="0018b0202" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0202"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。難矣哉。</p></cb:div></cb:div>
+<lb n="0018b02" ed="X"/><lb n="0164b04" ed="R109"/><note 
+n="0018b0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。又未能，則大言不慚而<note 
+n="0018b0202" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0202">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。難矣哉。</p></cb:div></cb:div>
 <lb n="0018b03" ed="X"/><lb n="0164b05" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">念佛不見悟人</cb:mulu><head>念佛不見悟人</head>
 <lb n="0018b04" ed="X"/><lb n="0164b06" ed="R109"/><p xml:id="pX62p0018b0401">或問：「參禪得悟者，相望於冊。念佛得悟者，何寥寥其
 <lb n="0018b05" ed="X"/><lb n="0164b07" ed="R109"/>未聞也。」噫！葢有之矣。子未之見也。且參禪人得理之
 <lb n="0018b06" ed="X"/><lb n="0164b08" ed="R109"/>後，終不嘵嘵以自鳴也。龍天推出，然後聲振一時，而
 <lb n="0018b07" ed="X"/><lb n="0164b09" ed="R109"/>名垂後也。彼曹溪佩黃梅之心印，苟不失口於風旛，
-<lb n="0018b08" ed="X"/><lb n="0164b10" ed="R109"/>一獵人之守網夫而<note n="0018b0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。清素受慈明密記，苟非邂逅
-<lb n="0018b09" ed="X"/><lb n="0164b11" ed="R109"/>於茘枝，一叢林之閒老漢而<note n="0018b0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>。子何自而知之？況實
+<lb n="0018b08" ed="X"/><lb n="0164b10" ed="R109"/>一獵人之守網夫而<note 
+n="0018b0801" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0801">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。清素受慈明密記，苟非邂逅
+<lb n="0018b09" ed="X"/><lb n="0164b11" ed="R109"/>於茘枝，一叢林之閒老漢而<note 
+n="0018b0901" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0018b0901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>。子何自而知之？況實
 <lb n="0018b10" ed="X"/><lb n="0164b12" ed="R109"/>心念佛者，志出娑婆、精求淨土，念念如救頭然。即其
 <lb n="0018b11" ed="X"/><lb n="0164b13" ed="R109"/>悟本性之彌陀、了惟心之極樂，若終身隱而不出，子
 <lb n="0018b12" ed="X"/><lb n="0164b14" ed="R109"/>亦烏得而知之也。凡上上品生者，皆得悟人也。《往生
@@ -1475,7 +2102,11 @@
 <lb n="0019b24" ed="X"/><lb n="0167a08" ed="R109"/>界，佛攝神力，而依然娑婆矣。又一人問：「經言：『至心念
 <pb n="0019c" ed="X" xml:id="X62.1170.0019c"/>
 <lb n="0019c01" ed="X"/><lb n="0167a09" ed="R109"/>阿彌陀佛一聲，滅八十億劫生死重罪。』斯言論事乎？
-<lb n="0019c02" ed="X"/><lb n="0167a10" ed="R109"/>論理乎？」噫！經云：「一稱南無佛，皆<note n="0019c0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0019c0201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>成佛道。」又云：「禮佛
+<lb n="0019c02" ed="X"/><lb n="0167a10" ed="R109"/>論理乎？」噫！經云：「一稱南無佛，皆<note 
+n="0019c0201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0019c0201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>成佛道。」又云：「禮佛
 <lb n="0019c03" ed="X"/><lb n="0167a11" ed="R109"/>一拜，從其足跟至金剛際，一塵一轉輪王位。」今正不
 <lb n="0019c04" ed="X"/><lb n="0167a12" ed="R109"/>必論其事之與理，但於至心二字上著倒。惟患心之
 <lb n="0019c05" ed="X"/><lb n="0167a13" ed="R109"/>不至，勿患罪之不滅。事如是，理亦如是；理如是，事亦
@@ -1510,7 +2141,8 @@
 <lb n="0020a09" ed="X"/><lb n="0168a05" ed="R109"/>欲得易成佛，無念之心不較多。』無念念佛，奈何以有
 <lb n="0020a10" ed="X"/><lb n="0168a06" ed="R109"/>念念佛？」曰：此為散心念佛而不觀心者，勸發語也。不
 <lb n="0020a11" ed="X"/><lb n="0168a07" ed="R109"/>曰歲久而一心不亂者成魔也。未曾念佛，先憂有念，
-<lb n="0020a12" ed="X"/><lb n="0168a08" ed="R109"/>是猶饑人欲<note n="0020001" resp="Xuzangjing" type="orig" place="foot text">飲疑飯</note>飲，先憂飽脹而不食者矣。又問：「六祖云：
+<lb n="0020a12" ed="X"/><lb n="0168a08" ed="R109"/>是猶饑人欲<note 
+n="0020001" resp="Xuzangjing" type="orig" place="foot text">飲疑飯</note>飲，先憂飽脹而不食者矣。又問：「六祖云：
 <lb n="0020a13" ed="X"/><lb n="0168a09" ed="R109"/>『東方人造惡，念佛求生西方。』意旨何如？」曰：六祖言惡
 <lb n="0020a14" ed="X"/><lb n="0168a10" ed="R109"/>人念佛求生，不曰善人念佛一心不亂者求生也。且
 <lb n="0020a15" ed="X"/><lb n="0168a11" ed="R109"/>惡人必不念佛。其有念佛者，偽也，非真念也。喻如惡
@@ -1524,7 +2156,8 @@
 <lb n="0020a23" ed="X"/><lb n="0168b01" ed="R109"/>字吾不喜聞，不言一心不亂四字吾不喜聞也。彼言
 <lb n="0020a24" ed="X"/><lb n="0168b02" ed="R109"/>佛來也殺、魔來也殺，不言一心不亂來亦殺也。夫歸
 <pb n="0020b" ed="X" xml:id="X62.1170.0020b"/>
-<lb n="0020b01" ed="X"/><lb n="0168b03" ed="R109"/>元無二，方便多<note n="0020002" resp="Xuzangjing" type="orig" place="foot text">聞疑門</note>聞。是故歸家是一，舟車各行。以舟笑
+<lb n="0020b01" ed="X"/><lb n="0168b03" ed="R109"/>元無二，方便多<note 
+n="0020002" resp="Xuzangjing" type="orig" place="foot text">聞疑門</note>聞。是故歸家是一，舟車各行。以舟笑
 <lb n="0020b02" ed="X"/><lb n="0168b04" ed="R109"/>車、以車笑舟，俱成戲論。此理自明，無煩贅語矣。又問：
 <lb n="0020b03" ed="X"/><lb n="0168b05" ed="R109"/>「近有人言吾不念佛，良繇內有能念之心，外有所念
 <lb n="0020b04" ed="X"/><lb n="0168b06" ed="R109"/>之佛，能所未忘，焉得名道？」噫！彼葢以獨守空靜為道
@@ -1546,11 +2179,20 @@
 <lb n="0020b20" ed="X"/><lb n="0169a04" ed="R109"/>輕緣熱，承法力亦得往生。罪重緣疏，止滅罪改形善
 <lb n="0020b21" ed="X"/><lb n="0169a05" ed="R109"/>趣。放生呪願之人，福不唐喪。目連度蜂，作盟證。</p></cb:div>
 <lb n="0020b22" ed="X"/><lb n="0169a06" ed="R109"/><cb:div type="other"><cb:mulu level="2" type="其他">壽光禪師偈云</cb:mulu><head>壽光禪師偈云</head>
-<lb n="0020b23" ed="X"/><lb n="0169a07" ed="R109"/><lg xml:id="lgX62p0020b2301" type="regular"><l>放生贖命事雖庸，<caesura/>無限陰功在此中，</l>
-<lb n="0020b24" ed="X"/><lb n="0169a08" ed="R109"/><l>一歲積成千種福，<caesura/>十年培養萬重功。</l>
+<lb n="0020b23" ed="X"/><lb n="0169a07" ed="R109"/><lg xml:id="lgX62p0020b2301" type="regular">
+  <l>放生贖命事雖庸，<caesura/>無限陰功在此中，</l>
+<lb n="0020b24" ed="X"/><lb n="0169a08" ed="R109"/>
+  <l>一歲積成千種福，<caesura/>十年培養萬重功。</l>
 <pb n="0020c" ed="X" xml:id="X62.1170.0020c"/>
-<lb n="0020c01" ed="X"/><lb n="0169a09" ed="R109"/><l><note n="0020c0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0020c0101"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>赴網羅遭困阨，<caesura/>將投湯火近驚忡，</l>
-<lb n="0020c02" ed="X"/><lb n="0169a10" ed="R109"/><l>臨形遇赦恩無極，<caesura/>彼壽隆兮爾壽隆。</l></lg></cb:div>
+<lb n="0020c01" ed="X"/><lb n="0169a09" ed="R109"/>
+  <l><note 
+n="0020c0101" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0020c0101">
+    <lem resp="CBETA.maha" wit="【CB】">已</lem>
+    <rdg wit="【卍續】">巳</rdg>
+  </app>赴網羅遭困阨，<caesura/>將投湯火近驚忡，</l>
+<lb n="0020c02" ed="X"/><lb n="0169a10" ed="R109"/>
+  <l>臨形遇赦恩無極，<caesura/>彼壽隆兮爾壽隆。</l>
+</lg></cb:div>
 <lb n="0020c03" ed="X"/><lb n="0169a11" ed="R109"/>
 <lb n="0020c04" ed="X"/><lb n="0169a12" ed="R109"/><p xml:id="pX62p0020c0401" style="margin-left:6em">淨業弟子　　<note place="inline">虞執西　嚴培西</note>仝敬錄</p></cb:div>
 <lb n="0020c05" ed="X"/><lb n="0169a13" ed="R109"/>
@@ -1560,7 +2202,8 @@
 <lb n="0020c09" ed="X"/>
 <lb n="0020c10" ed="X"/>
 <lb n="0020c11" ed="X"/><cb:div type="w"><cb:mulu level="1" type="附文">No. 1170-A 附</cb:mulu><head>No. 1170-A
-<lb n="0020c12" ed="X"/><lb n="0169a16" ed="R109"/> <note n="0020003" resp="Xuzangjing" type="orig" place="foot text">已下依別本載之</note>附</head>
+<lb n="0020c12" ed="X"/><lb n="0169a16" ed="R109"/> <note 
+n="0020003" resp="Xuzangjing" type="orig" place="foot text">已下依別本載之</note>附</head>
 <lb n="0020c13" ed="X"/>
 <lb n="0020c14" ed="X"/><lb n="0169a17" ed="R109"/><cb:div type="w"><cb:mulu level="2" type="附文">答虞德園</cb:mulu><head>答虞德園</head>
 <lb n="0020c15" ed="X"/><lb n="0169a18" ed="R109"/><p xml:id="pX62p0020c1501">前與彼辨者，姑置勿論，更辨之。前辨是折伏狂愚，今
@@ -1568,7 +2211,11 @@
 <lb n="0020c17" ed="X"/><lb n="0169b02" ed="R109"/>士愛我，必欲此刻為全書耳。我今此辨，亦如居士愛
 <lb n="0020c18" ed="X"/><lb n="0169b03" ed="R109"/>我，惟諒照是幸。</p></cb:div>
 <lb n="0020c19" ed="X"/><lb n="0169b04" ed="R109"/><cb:div type="w"><cb:mulu level="2" type="附文">共命鳥</cb:mulu><head>共命鳥</head>
-<lb n="0020c20" ed="X"/><lb n="0169b05" ed="R109"/><p xml:id="pX62p0020c2001">「非也」，<note n="0020c2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0020c2001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>改作「恐非矣」。然不可不辨。共命不專極樂，雪
+<lb n="0020c20" ed="X"/><lb n="0169b05" ed="R109"/><p xml:id="pX62p0020c2001">「非也」，<note 
+n="0020c2001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0020c2001">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>改作「恐非矣」。然不可不辨。共命不專極樂，雪
 <lb n="0020c21" ed="X"/><lb n="0169b06" ed="R109"/>山五天竺皆有之。《法華》諸經屢取為喻。註釋者止言
 <lb n="0020c22" ed="X"/><lb n="0169b07" ed="R109"/>兩頭，及《翻譯名義》俱然，曾無人身之說。即雞頭摩所
 <lb n="0020c23" ed="X"/><lb n="0169b08" ed="R109"/>傳圖繪，然亦無存，亦未聞何經傳載。此五通菩薩言
@@ -1614,10 +2261,15 @@
 <lb n="0021b13" ed="X"/><lb n="0170b10" ed="R109"/>王師子之座、爭尺寸于繩床。非所望于後身之金粟
 <lb n="0021b14" ed="X"/><lb n="0170b11" ed="R109"/>也。如不肖者，不希法師之位、不慕善知識之名、不貪
 <lb n="0021b15" ed="X"/><lb n="0170b12" ed="R109"/>求四眾歸仰。即謗滿天下，甚而覆瓿代薪，亦任之而
-<lb n="0021b16" ed="X"/><lb n="0170b13" ed="R109"/><note n="0021b1601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0021b1601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>矣。</p></cb:div></cb:div>
+<lb n="0021b16" ed="X"/><lb n="0170b13" ed="R109"/><note 
+n="0021b1601" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0021b1601">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>矣。</p></cb:div></cb:div>
 <lb n="0021b17" ed="X"/>
 <lb n="0021b18" ed="X"/><cb:div type="xu"><cb:mulu level="1" type="序">No. 1170-B 後序</cb:mulu><head>No. 1170-B
-<lb n="0021b19" ed="X"/><lb n="0170b14" ed="R109"/> <note n="0021001" resp="Xuzangjing" type="orig" place="foot text">已下三章載于別行淨土四十八問答及疑辨今取收于茲</note>後序</head>
+<lb n="0021b19" ed="X"/><lb n="0170b14" ed="R109"/> <note 
+n="0021001" resp="Xuzangjing" type="orig" place="foot text">已下三章載于別行淨土四十八問答及疑辨今取收于茲</note>後序</head>
 <lb n="0021b20" ed="X"/>
 <lb n="0021b21" ed="X"/><lb n="0170b15" ed="R109"/><p xml:id="pX62p0021b2101">自西有國名極樂，一名安養、一名清泰。余意即西域。
 <lb n="0021b22" ed="X"/><lb n="0170b16" ed="R109"/>而舘甥長孺謂，是界外不思議之境。其主預十六王
@@ -1627,9 +2279,17 @@
 <lb n="0021c01" ed="X"/><lb n="0171a01" ed="R109"/>曰：「香光空說莊嚴，龍門點額。」孺曰：「唯唯。菩薩往焉，如
 <lb n="0021c02" ed="X"/><lb n="0171a02" ed="R109"/>稻麻竹葦焉。觀音證入佛慧，與勢至同攝眾生耶？否
 <lb n="0021c03" ed="X"/><lb n="0171a03" ed="R109"/>耶？」學一先生者曰：「舉足誕登道岸，無取遐方。」孺曰：「唯
-<lb n="0021c04" ed="X"/><lb n="0171a04" ed="R109"/>唯。名流頌焉，如綺<note n="0021c0401" resp="CBETA" type="add">采【CB】，釆【卍續】</note><app n="0021c0401"><lem resp="CBETA.maha" wit="【CB】">采</lem><rdg wit="【卍續】">釆</rdg></app>琳珪焉。孔稱西方聖人，即釋讚
+<lb n="0021c04" ed="X"/><lb n="0171a04" ed="R109"/>唯。名流頌焉，如綺<note 
+n="0021c0401" resp="CBETA" type="add">采【CB】，釆【卍續】</note><app n="0021c0401">
+  <lem resp="CBETA.maha" wit="【CB】">采</lem>
+  <rdg wit="【卍續】">釆</rdg>
+</app>琳珪焉。孔稱西方聖人，即釋讚
 <lb n="0021c05" ed="X"/><lb n="0171a05" ed="R109"/>無量壽佛耶？否耶？」<note place="inline">梁簡文帝、徐陵、宗炳、謝靈運、劉孝儀、梁肅、蘇頲、李白、柳宗元、權德興、
-<lb n="0021c06" ed="X"/><lb n="0171a06" ed="R109"/>于邵、穆員、王維、劉禹錫、任華、白居易、韋臯、姚合、張蠙、劉長卿、楊億、宋白、蘇易簡、文彥博、王旦、蘇軾、趙<note n="0021c0601" resp="CBETA" type="add">孟【CB】，盂【卍續】</note><app n="0021c0601"><lem resp="CBETA.maha" wit="【CB】">孟</lem><rdg wit="【卍續】">盂</rdg></app>頫，先後
+<lb n="0021c06" ed="X"/><lb n="0171a06" ed="R109"/>于邵、穆員、王維、劉禹錫、任華、白居易、韋臯、姚合、張蠙、劉長卿、楊億、宋白、蘇易簡、文彥博、王旦、蘇軾、趙<note 
+n="0021c0601" resp="CBETA" type="add">孟【CB】，盂【卍續】</note><app n="0021c0601">
+  <lem resp="CBETA.maha" wit="【CB】">孟</lem>
+  <rdg wit="【卍續】">盂</rdg>
+</app>頫，先後
 <lb n="0021c07" ed="X"/><lb n="0171a07" ed="R109"/>讚頌西方之詞，並載文苑諸書。伏羲、女媧，及侍郎庾詵、縣尉馬子雲、錄事唐于昶輩往生淨土事，載正史并須
 <lb n="0021c08" ed="X"/><lb n="0171a08" ed="R109"/>彌像圖諸書。餘見《往生集》。</note>淪七趣者曰：「蓬來大有佳境，何必樂<g ref="#CB15131"/>？」
 <lb n="0021c09" ed="X"/><lb n="0171a09" ed="R109"/>孺曰：「唯唯。羽士悟焉，如披砂值寶焉。金丹西是本鄉，
@@ -1643,7 +2303,8 @@
 <lb n="0021c17" ed="X"/><lb n="0171a17" ed="R109"/>若強問之，而若強聽之矣。」於是雲棲以無答答，強名
 <lb n="0021c18" ed="X"/><lb n="0171a18" ed="R109"/>曰答。一夕眾疑與余同釋也。曰：「良哉開士，無論<g ref="#CB13893"/>鉢
 <lb n="0021c19" ed="X"/><lb n="0171b01" ed="R109"/>之王，何宗門之游夏，殆珍域之三聖哉。請為三聖，流
-<lb n="0021c20" ed="X"/><lb n="0171b02" ed="R109"/>通此答。」孺曰：「唯唯。熙不勝大願。」</p><p xml:id="pX62p0021c2013" cb:place="inline">佛成道日，樗放居士
+<lb n="0021c20" ed="X"/><lb n="0171b02" ed="R109"/>通此答。」孺曰：「唯唯。熙不勝大願。」</p>
+<p xml:id="pX62p0021c2013" cb:place="inline">佛成道日，樗放居士
 <lb n="0021c21" ed="X"/><lb n="0171b03" ed="R109"/>李陽春書。</p></cb:div>
 <lb n="0021c22" ed="X"/>
 <lb n="0021c23" ed="X"/>
@@ -1660,13 +2321,29 @@
 <lb n="0022a09" ed="X"/><lb n="0171b06" ed="R109"/><p xml:id="pX62p0022a0901">蓮池禪師作《淨土疑辨》，摧慢幢、破癡網，如闇得燈、如
 <lb n="0022a10" ed="X"/><lb n="0171b07" ed="R109"/>貧得寶，真渡苦海之慈航哉。即天台、永明之論，未有
 <lb n="0022a11" ed="X"/><lb n="0171b08" ed="R109"/>若此之精切而著明者也。修淨土者，最宜服膺。或疑
-<lb n="0022a12" ed="X"/><lb n="0171b09" ed="R109"/>末後，戒彼恣意妄談，貽苦報於無盡。其言得無<note n="0022a1201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0022a1201"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>甚
-<lb n="0022a13" ed="X"/><lb n="0171b10" ed="R109"/>乎。余曰：非<note n="0022a1301" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0022a1301"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>甚也。甞考唐房翥暴卒，至冥間見王。王
-<lb n="0022a14" ed="X"/><lb n="0171b11" ed="R109"/>曰：「據案簿，君曾勸一老人念佛，<note n="0022a1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0022a1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【卍續】">巳</rdg></app>生淨土。君承此福，
+<lb n="0022a12" ed="X"/><lb n="0171b09" ed="R109"/>末後，戒彼恣意妄談，貽苦報於無盡。其言得無<note 
+n="0022a1201" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0022a1201">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>甚
+<lb n="0022a13" ed="X"/><lb n="0171b10" ed="R109"/>乎。余曰：非<note 
+n="0022a1301" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0022a1301">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>甚也。甞考唐房翥暴卒，至冥間見王。王
+<lb n="0022a14" ed="X"/><lb n="0171b11" ed="R109"/>曰：「據案簿，君曾勸一老人念佛，<note 
+n="0022a1401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0022a1401">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>生淨土。君承此福，
 <lb n="0022a15" ed="X"/><lb n="0171b12" ed="R109"/>亦合生淨土。」遂放還。呂師證云：「闡提之輩，不信有西
 <lb n="0022a16" ed="X"/><lb n="0171b13" ed="R109"/>方。不能自修，又障他人修，入地獄如箭射。」夫一口業
 <lb n="0022a17" ed="X"/><lb n="0171b14" ed="R109"/>也。勸人念佛，亦令生淨土；障人念佛，入地獄如箭射。
-<lb n="0022a18" ed="X"/><lb n="0171b15" ed="R109"/>恣口業者，其真可懼也哉。故曰蓮池禪師之言，非<note n="0022a1801" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0022a1801"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【卍續】">巳</rdg></app>
+<lb n="0022a18" ed="X"/><lb n="0171b15" ed="R109"/>恣口業者，其真可懼也哉。故曰蓮池禪師之言，非<note 
+n="0022a1801" resp="CBETA" type="add">己【CB】，巳【卍續】</note><app n="0022a1801">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【卍續】">巳</rdg>
+</app>
 <lb n="0022a19" ed="X"/><lb n="0171b16" ed="R109"/>甚也。</p></cb:div>
 <lb n="0022a20" ed="X"/>
 <lb n="0022a21" ed="X"/>

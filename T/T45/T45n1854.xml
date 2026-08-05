@@ -2,80 +2,81 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T45n1854">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">二諦義</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1854 二諦義</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1854 二諦義</title>
-			<author>隋 吉藏撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>3卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1854</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-08-01T15:06:52">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">二諦義</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1854 二諦義</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1854 二諦義</title>
+      <author>隋 吉藏撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1854</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-08-01T15:06:52">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0077b24" ed="T"/>
 <lb n="0077b25" ed="T"/><cb:docNumber>No. 1854</cb:docNumber>
-<lb n="0077b26" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">補刻二諦章敘</cb:mulu><head><note n="0077001" resp="Taisho" type="orig" place="foot text">【原】寶永六年刊大谷大學藏本，【甲】元祿十年刊宗教大學藏本</note>補刻二諦章敘</head>
+<lb n="0077b26" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">補刻二諦章敘</cb:mulu><head><note 
+n="0077001" resp="Taisho" type="orig" place="foot text">【原】寶永六年刊大谷大學藏本，【甲】元祿十年刊宗教大學藏本</note>補刻二諦章敘</head>
 <lb n="0077b27" ed="T"/><p xml:id="pT45p0077b2701">嘉祥藏大師所撰二諦義章三卷，傳流吾國
 <lb n="0077b28" ed="T"/>已來僅一千年奇矣，寵藏之古名藍之間而
 <lb n="0077b29" ed="T"/>不以廣其傳者也久矣。向者龍寶與公偶得
@@ -101,7 +102,12 @@
 <lb n="0077c19" ed="T"/><p xml:id="pT45p0077c1901">寶永七年歲次庚寅孟春日</p>
 <lb n="0077c20" ed="T"/><p xml:id="pT45p0077c2001">　洛西五智山沙門慧旭寂謹書於忘慮亭</p></cb:div>
 <lb n="0077c21" ed="T"/>
-<lb n="0077c22" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">鐫二諦章敘</cb:mulu><head>鐫二諦<note n="0077002" resp="Taisho" type="orig" place="foot text">章＝義【甲】</note><note n="0077002" resp="CBETA" type="mod">章【大】，義【甲】</note><app n="0077002"><lem wit="【大】">章</lem><rdg resp="Taisho" wit="【甲】">義</rdg></app>敘</head>
+<lb n="0077c22" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">鐫二諦章敘</cb:mulu><head>鐫二諦<note 
+n="0077002" resp="Taisho" type="orig" place="foot text">章＝義【甲】</note><note 
+n="0077002" resp="CBETA" type="mod">章【大】，義【甲】</note><app n="0077002">
+  <lem wit="【大】">章</lem>
+  <rdg resp="Taisho" wit="【甲】">義</rdg>
+</app>敘</head>
 <lb n="0077c23" ed="T"/><p xml:id="pT45p0077c2301">夫不了二諦則契實之境、照俗之智不可融
 <lb n="0077c24" ed="T"/>徹，境智不融徹而入薩波若海者，未有之也。
 <lb n="0077c25" ed="T"/>宜哉諸佛說法常依二諦矣，支桑道學之士
@@ -125,12 +131,27 @@
 <lb n="0078a13" ed="T"/><byline cb:type="author">胡吉藏撰</byline>
 <lb n="0078a14" ed="T"/><cb:div type="other"><p xml:id="pT45p0078a1401">叡師《中論．序》云「《百論》治外以閑邪，斯文祛內
 <lb n="0078a15" ed="T"/>以流滯，《大智釋論》之淵博，《十二門觀》之精詣，
-<lb n="0078a16" ed="T"/>尋斯四<note n="0078001" resp="Taisho" type="orig" place="foot text">〔論〕－【甲】</note><note n="0078001" resp="CBETA" type="mod">論【大】，〔－〕【甲】</note><app n="0078001"><lem wit="【大】">論</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>者，真若日月在懷，無不朗然鑒徹
-<lb n="0078a17" ed="T"/>矣。若通此四論，<note n="0078002" resp="Taisho" type="orig" place="foot text">則＝即【甲】</note><note n="0078002" resp="CBETA" type="mod">則【大】，即【甲】</note><app n="0078002"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】">即</rdg></app>佛法可明也。」師云：此四
+<lb n="0078a16" ed="T"/>尋斯四<note 
+n="0078001" resp="Taisho" type="orig" place="foot text">〔論〕－【甲】</note><note 
+n="0078001" resp="CBETA" type="mod">論【大】，〔－〕【甲】</note><app n="0078001">
+  <lem wit="【大】">論</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>者，真若日月在懷，無不朗然鑒徹
+<lb n="0078a17" ed="T"/>矣。若通此四論，<note 
+n="0078002" resp="Taisho" type="orig" place="foot text">則＝即【甲】</note><note 
+n="0078002" resp="CBETA" type="mod">則【大】，即【甲】</note><app n="0078002">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】">即</rdg>
+</app>佛法可明也。」師云：此四
 <lb n="0078a18" ed="T"/>論雖復名部不同，統其大歸，竝為申乎二諦、
 <lb n="0078a19" ed="T"/>顯不二之道。若了於二諦，四論則煥然可領。
 <lb n="0078a20" ed="T"/>若於二諦不了，四論則便不明。為是因緣，須
-<lb n="0078a21" ed="T"/>識二諦<note n="0078003" resp="Taisho" type="orig" place="foot text">〔也〕－【甲】</note><note n="0078003" resp="CBETA" type="mod">也【大】，〔－〕【甲】</note><app n="0078003"><lem wit="【大】">也</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>。若解二諦，非但四論可明，亦眾經
+<lb n="0078a21" ed="T"/>識二諦<note 
+n="0078003" resp="Taisho" type="orig" place="foot text">〔也〕－【甲】</note><note 
+n="0078003" resp="CBETA" type="mod">也【大】，〔－〕【甲】</note><app n="0078003">
+  <lem wit="【大】">也</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>。若解二諦，非但四論可明，亦眾經
 <lb n="0078a22" ed="T"/>皆了。何以知然？故論云「諸佛常依二諦說法」。
 <lb n="0078a23" ed="T"/>既十方諸佛常依二諦說法，故眾經莫出二
 <lb n="0078a24" ed="T"/>諦。眾經既不出二諦，二諦若明，故眾經皆了
@@ -144,7 +165,12 @@
 <lb n="0078b02" ed="T"/>以為十重者，正為對開善法師二諦義。彼明
 <lb n="0078b03" ed="T"/>二諦義有十重，對彼十重故明十重，一一重
 <lb n="0078b04" ed="T"/>以辨正之。」師唯噵此義有重數，所餘諸義
-<lb n="0078b05" ed="T"/><note n="0078004" resp="Taisho" type="orig" place="foot text">普＝竝【甲】</note><note n="0078004" resp="CBETA" type="mod">普【大】，竝【甲】</note><app n="0078004"><lem wit="【大】">普</lem><rdg resp="Taisho" wit="【甲】">竝</rdg></app>皆不開。若有重數者，非興皇者說也。十
+<lb n="0078b05" ed="T"/><note 
+n="0078004" resp="Taisho" type="orig" place="foot text">普＝竝【甲】</note><note 
+n="0078004" resp="CBETA" type="mod">普【大】，竝【甲】</note><app n="0078004">
+  <lem wit="【大】">普</lem>
+  <rdg resp="Taisho" wit="【甲】">竝</rdg>
+</app>皆不開。若有重數者，非興皇者說也。十
 <lb n="0078b06" ed="T"/>重者，初則二諦大意、最後二諦同異。今第一
 <lb n="0078b07" ed="T"/>明二諦大意也。然師噵二諦義，多依二處：一
 <lb n="0078b08" ed="T"/>依《大品經》、二依《中論》。今且依《中論》明二諦義。
@@ -153,7 +179,8 @@
 <lb n="0078b11" ed="T"/>二諦也。《中論．四諦品》云「諸佛依二諦，為眾生
 <lb n="0078b12" ed="T"/>說法」。此語即難解。若為依二諦說法耶？解云：
 <lb n="0078b13" ed="T"/>二諦是本、說法是末，二諦是所依、說法是能
-<lb n="0078b14" ed="T"/>依。然此語驚耳，非從來所知也。</p><p xml:id="pT45p0078b1413" cb:place="inline">問：何以得知
+<lb n="0078b14" ed="T"/>依。然此語驚耳，非從來所知也。</p>
+<p xml:id="pT45p0078b1413" cb:place="inline">問：何以得知
 <lb n="0078b15" ed="T"/>諸佛依二諦說法，二諦是所依耶？解云：出論，
 <lb n="0078b16" ed="T"/>不假人解，故云經有論故義即易解。今依論
 <lb n="0078b17" ed="T"/>釋之。論〈四諦品〉前釋二諦，次釋依二諦說法。
@@ -170,14 +197,16 @@
 <lb n="0078b28" ed="T"/>說空為依二諦說法耶？今明如上有於凡為
 <lb n="0078b29" ed="T"/>實名俗諦，空於聖是實名第一義諦，依此二
 <pb n="0078c" ed="T" xml:id="T45.1854.0078c"/>
-<lb n="0078c01" ed="T"/>諦為眾生說法也。</p><p xml:id="pT45p0078c0108" cb:place="inline">又且問：諸佛何意依二諦
+<lb n="0078c01" ed="T"/>諦為眾生說法也。</p>
+<p xml:id="pT45p0078c0108" cb:place="inline">又且問：諸佛何意依二諦
 <lb n="0078c02" ed="T"/>說法耶？解云：欲明十方諸佛所說皆實，故依
 <lb n="0078c03" ed="T"/>二諦說法。何者？諦是實義，有於凡實、空於聖
 <lb n="0078c04" ed="T"/>實，是二皆實。諸佛依此二實說法，是故諸佛
 <lb n="0078c05" ed="T"/>所說皆實也。外道九十六種所說，何意虛假
 <lb n="0078c06" ed="T"/>不實？以其不依二諦故，所以虛假不實。諸佛
 <lb n="0078c07" ed="T"/>依二諦說法故，凡所說法皆實。以諸佛所說
-<lb n="0078c08" ed="T"/>皆實故，所以諸佛依二諦說法也。</p><p xml:id="pT45p0078c0814" cb:place="inline">又問：若為
+<lb n="0078c08" ed="T"/>皆實故，所以諸佛依二諦說法也。</p>
+<p xml:id="pT45p0078c0814" cb:place="inline">又問：若為
 <lb n="0078c09" ed="T"/>依二諦說法，說法皆實耶？解云：諸賢聖如實
 <lb n="0078c10" ed="T"/>悟諸法性空，如來依彼如實悟而說，故諸佛
 <lb n="0078c11" ed="T"/>所說亦實，此則依第一義諦說法是實。世人
@@ -194,7 +223,12 @@
 <lb n="0078c22" ed="T"/>者，如來誠諦之言，依凡有說有，有不住有，
 <lb n="0078c23" ed="T"/>有表不有；依聖無說無，無不住無，無表不無，
 <lb n="0078c24" ed="T"/>此則有無二表非有非無不二，二不二、不二
-<lb n="0078c25" ed="T"/>二。不二二則是理教，二不二<note n="0078005" resp="Taisho" type="orig" place="foot text">〔則〕－【甲】</note><note n="0078005" resp="CBETA" type="mod">則【大】，〔－〕【甲】</note><app n="0078005"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>教理。教理
+<lb n="0078c25" ed="T"/>二。不二二則是理教，二不二<note 
+n="0078005" resp="Taisho" type="orig" place="foot text">〔則〕－【甲】</note><note 
+n="0078005" resp="CBETA" type="mod">則【大】，〔－〕【甲】</note><app n="0078005">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>教理。教理
 <lb n="0078c26" ed="T"/>應教、理教表理，理教二不二因緣，是為得也。」
 <lb n="0078c27" ed="T"/>然教諦如此，雖如此而復未可解。何者？汝依
 <lb n="0078c28" ed="T"/>二諦說法、依二諦與說法，皆是教諦不？若皆
@@ -203,18 +237,40 @@
 <lb n="0079a01" ed="T"/>謂有，為世諦；諸賢聖真知顛倒性空，為第一義
 <lb n="0079a02" ed="T"/>諦。」諸佛依此二諦說法，那忽併是教諦耶？今
 <lb n="0079a03" ed="T"/>正此一句明依二諦說法，所依是於諦、說法是
-<lb n="0079a04" ed="T"/>教諦也。</p><p xml:id="pT45p0079a0404" cb:place="inline">問：所依二諦為得為失者，論自判。論
+<lb n="0079a04" ed="T"/>教諦也。</p>
+<p xml:id="pT45p0079a0404" cb:place="inline">問：所依二諦為得為失者，論自判。論
 <lb n="0079a05" ed="T"/>云：諸法性空，世間顛倒謂有，於凡是諦。諸賢
 <lb n="0079a06" ed="T"/>聖真知顛倒性空無生，於聖是諦。此則開凡
 <lb n="0079a07" ed="T"/>聖二諦異。凡聖雖復不二，不二而二，有凡諦、
-<lb n="0079a08" ed="T"/>聖諦，凡諦即是失、聖諦<note n="0079001" resp="Taisho" type="orig" place="foot text">即＝則【甲】</note><note n="0079001" resp="CBETA" type="mod">即【大】，則【甲】</note><app n="0079001"><lem wit="【大】">即</lem><rdg resp="Taisho" wit="【甲】">則</rdg></app>是得。何者？既云
+<lb n="0079a08" ed="T"/>聖諦，凡諦即是失、聖諦<note 
+n="0079001" resp="Taisho" type="orig" place="foot text">即＝則【甲】</note><note 
+n="0079001" resp="CBETA" type="mod">即【大】，則【甲】</note><app n="0079001">
+  <lem wit="【大】">即</lem>
+  <rdg resp="Taisho" wit="【甲】">則</rdg>
+</app>是得。何者？既云
 <lb n="0079a09" ed="T"/>諸法性空顛倒謂有，諸賢聖真知顛倒性空，
 <lb n="0079a10" ed="T"/>故知凡諦失、聖諦得。何以故？凡諦是顛倒故
-<lb n="0079a11" ed="T"/>是失，聖諦<note n="0079002" resp="Taisho" type="orig" place="foot text">〔是〕－【甲】</note><note n="0079002" resp="CBETA" type="mod">是【大】，〔－〕【甲】</note><app n="0079002"><lem wit="【大】">是</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>不顛倒故是得。此即開凡諦聖
-<lb n="0079a12" ed="T"/>諦、倒諦不倒諦也。</p><p xml:id="pT45p0079a1208" cb:place="inline">問：若所依二諦有倒不倒者，
+<lb n="0079a11" ed="T"/>是失，聖諦<note 
+n="0079002" resp="Taisho" type="orig" place="foot text">〔是〕－【甲】</note><note 
+n="0079002" resp="CBETA" type="mod">是【大】，〔－〕【甲】</note><app n="0079002">
+  <lem wit="【大】">是</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>不顛倒故是得。此即開凡諦聖
+<lb n="0079a12" ed="T"/>諦、倒諦不倒諦也。</p>
+<p xml:id="pT45p0079a1208" cb:place="inline">問：若所依二諦有倒不倒者，
 <lb n="0079a13" ed="T"/>不可解。何者？佛可依不倒說，云何依顛倒為
-<lb n="0079a14" ed="T"/>眾生說耶？若<note n="0079003" resp="Taisho" type="orig" place="foot text">〔言〕－【甲】</note><note n="0079003" resp="CBETA" type="mod">言【大】，〔－〕【甲】</note><app n="0079003"><lem wit="【大】">言</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>二於諦皆不顛倒，則乖論文。
-<lb n="0079a15" ed="T"/>論文<note n="0079004" resp="Taisho" type="orig" place="foot text">〔云〕－【甲】</note><note n="0079004" resp="CBETA" type="mod">云【大】，〔－〕【甲】</note><app n="0079004"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>「世間顛倒謂有為世諦，諸賢聖真知
+<lb n="0079a14" ed="T"/>眾生說耶？若<note 
+n="0079003" resp="Taisho" type="orig" place="foot text">〔言〕－【甲】</note><note 
+n="0079003" resp="CBETA" type="mod">言【大】，〔－〕【甲】</note><app n="0079003">
+  <lem wit="【大】">言</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>二於諦皆不顛倒，則乖論文。
+<lb n="0079a15" ed="T"/>論文<note 
+n="0079004" resp="Taisho" type="orig" place="foot text">〔云〕－【甲】</note><note 
+n="0079004" resp="CBETA" type="mod">云【大】，〔－〕【甲】</note><app n="0079004">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>「世間顛倒謂有為世諦，諸賢聖真知
 <lb n="0079a16" ed="T"/>顛倒性空為第一義諦，依是二諦為眾生說
 <lb n="0079a17" ed="T"/>法。」故知依倒不倒說。若順論文，諸佛菩薩豈
 <lb n="0079a18" ed="T"/>得依顛倒說法耶？進退難解，未釋云云。問：前
@@ -222,11 +278,17 @@
 <lb n="0079a20" ed="T"/>師云「二於諦是失」，今何得判二於諦有得有失
 <lb n="0079a21" ed="T"/>耶？解云：汝言於諦竝是失，是何處語耶？今明
 <lb n="0079a22" ed="T"/>於諦皆失者，非是所依於諦皆失，乃是稟教
-<lb n="0079a23" ed="T"/>成於，<note n="0079005" resp="Taisho" type="orig" place="foot text">此＝是【甲】</note><note n="0079005" resp="CBETA" type="mod">此【大】，是【甲】</note><app n="0079005"><lem wit="【大】">此</lem><rdg resp="Taisho" wit="【甲】">是</rdg></app>於諦皆失。何者？如來說有為表不
+<lb n="0079a23" ed="T"/>成於，<note 
+n="0079005" resp="Taisho" type="orig" place="foot text">此＝是【甲】</note><note 
+n="0079005" resp="CBETA" type="mod">此【大】，是【甲】</note><app n="0079005">
+  <lem wit="【大】">此</lem>
+  <rdg resp="Taisho" wit="【甲】">是</rdg>
+</app>於諦皆失。何者？如來說有為表不
 <lb n="0079a24" ed="T"/>有、說無為表不無、說二為表不二。彼聞有作
 <lb n="0079a25" ed="T"/>有解、聞無作無解。聞有作有解，有於凡實，名
 <lb n="0079a26" ed="T"/>俗諦；聞無作無解，無於聖實，名第一義諦。此
-<lb n="0079a27" ed="T"/>之二諦皆失。</p><p xml:id="pT45p0079a2706" cb:place="inline">問：若為失耶？解云：如來說有為
+<lb n="0079a27" ed="T"/>之二諦皆失。</p>
+<p xml:id="pT45p0079a2706" cb:place="inline">問：若為失耶？解云：如來說有為
 <lb n="0079a28" ed="T"/>表不有、說無為表不無、說二令識不二，舉指
 <lb n="0079a29" ed="T"/>令得月。而眾生聞有住有、聞無住無，守指忘
 <pb n="0079b" ed="T" xml:id="T45.1854.0079b"/>
@@ -238,12 +300,22 @@
 <lb n="0079b06" ed="T"/>諦，釋迦依此二諦為眾生說法。何者？諸佛說
 <lb n="0079b07" ed="T"/>法無不依二諦，故發趾即依二諦而說，當知
 <lb n="0079b08" ed="T"/>所依於諦是本也。迷教於諦是末者，眾生稟
-<lb n="0079b09" ed="T"/>如來有無二諦教，作有無<note n="0079006" resp="Taisho" type="orig" place="foot text">解＝義ィ【原】</note><note n="0079006" resp="CBETA" type="mod">解【大】，義【校異-原】</note><app n="0079006"><lem wit="【大】">解</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">義</rdg></app>成於，故此於諦
+<lb n="0079b09" ed="T"/>如來有無二諦教，作有無<note 
+n="0079006" resp="Taisho" type="orig" place="foot text">解＝義ィ【原】</note><note 
+n="0079006" resp="CBETA" type="mod">解【大】，義【校異-原】</note><app n="0079006">
+  <lem wit="【大】">解</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">義</rdg>
+</app>成於，故此於諦
 <lb n="0079b10" ed="T"/>在後也。又有三異，謂前後、能所、通別。從後釋
 <lb n="0079b11" ed="T"/>之。言通別者，所依於諦則通，迷教於諦則別。
 <lb n="0079b12" ed="T"/>所依於諦通者，世間顛倒謂有，於世間是實，
 <lb n="0079b13" ed="T"/>為世諦；諸賢聖真知顛倒性空，為第一義諦。此
-<lb n="0079b14" ed="T"/>之二諦，通一切凡聖，如《涅槃經》。《涅槃經》<note n="0079007" resp="Taisho" type="orig" place="foot text">〔云〕－【甲】</note><note n="0079007" resp="CBETA" type="mod">云【大】，〔－〕【甲】</note><app n="0079007"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>：文
+<lb n="0079b14" ed="T"/>之二諦，通一切凡聖，如《涅槃經》。《涅槃經》<note 
+n="0079007" resp="Taisho" type="orig" place="foot text">〔云〕－【甲】</note><note 
+n="0079007" resp="CBETA" type="mod">云【大】，〔－〕【甲】</note><app n="0079007">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>：文
 <lb n="0079b15" ed="T"/>殊問云：「世諦之中有第一義不？第一義中有
 <lb n="0079b16" ed="T"/>世諦不。如其有者，即是一諦；如其無者，將非
 <lb n="0079b17" ed="T"/>如來虛妄說耶？」佛答云：「世諦即第一義諦，隨
@@ -271,7 +343,8 @@
 <lb n="0079c09" ed="T"/>教諦、無方便不識理成於諦，故前後為異也。
 <lb n="0079c10" ed="T"/>次更簡一句，前云「諸賢聖真知顛倒性空，於
 <lb n="0079c11" ed="T"/>聖人名第一義諦」，如《涅槃經》「一切世諦，若於
-<lb n="0079c12" ed="T"/>如來是第一義諦」。</p><p xml:id="pT45p0079c1208" cb:place="inline">問：既云一切世諦於如來
+<lb n="0079c12" ed="T"/>如來是第一義諦」。</p>
+<p xml:id="pT45p0079c1208" cb:place="inline">問：既云一切世諦於如來
 <lb n="0079c13" ed="T"/>是第一義諦者，亦得言一切第一義諦若於
 <lb n="0079c14" ed="T"/>凡夫是世諦不？解云：如此，只出論文。論云「世
 <lb n="0079c15" ed="T"/>諦者一切法性空，而世間顛倒謂有，於世人
@@ -281,7 +354,8 @@
 <lb n="0079c19" ed="T"/>諦也。如《大品》云「諸法無所有如是有，如是有
 <lb n="0079c20" ed="T"/>無所有。」如是有，於聖人無所有，即世諦為第
 <lb n="0079c21" ed="T"/>一義諦。無所有，於凡如是有，第一義諦為世
-<lb n="0079c22" ed="T"/>諦也。</p><p xml:id="pT45p0079c2203" cb:place="inline">問：何意開凡聖二諦耶？解云：今開凡聖
+<lb n="0079c22" ed="T"/>諦也。</p>
+<p xml:id="pT45p0079c2203" cb:place="inline">問：何意開凡聖二諦耶？解云：今開凡聖
 <lb n="0079c23" ed="T"/>得失二諦者，示聖得凡失令轉悟，明此是凡
 <lb n="0079c24" ed="T"/>諦、此是聖諦，此是倒諦、此是不倒諦，示是凡
 <lb n="0079c25" ed="T"/>聖，令捨凡學聖棄、倒從不倒。為是義故，開凡
@@ -292,7 +366,12 @@
 <pb n="0080a" ed="T" xml:id="T45.1854.0080a"/>
 <lb n="0080a01" ed="T"/>「若不依俗諦，不得第一義。不得第一義，則不
 <lb n="0080a02" ed="T"/>得涅槃。」說世諦令得說第一義、說第一義令
-<lb n="0080a03" ed="T"/>得涅槃，故開二諦<note n="0080001" resp="Taisho" type="orig" place="foot text">〔也〕－【甲】</note><note n="0080001" resp="CBETA" type="mod">也【大】，〔－〕【甲】</note><app n="0080001"><lem wit="【大】">也</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>。又《大品》云「般若波羅
+<lb n="0080a03" ed="T"/>得涅槃，故開二諦<note 
+n="0080001" resp="Taisho" type="orig" place="foot text">〔也〕－【甲】</note><note 
+n="0080001" resp="CBETA" type="mod">也【大】，〔－〕【甲】</note><app n="0080001">
+  <lem wit="【大】">也</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>。又《大品》云「般若波羅
 <lb n="0080a04" ed="T"/>蜜，為大事故起，所謂示是道是非道。」非道即
 <lb n="0080a05" ed="T"/>是倒、是道即非倒，示是道是非道，令舉非道
 <lb n="0080a06" ed="T"/>從道；亦示倒示不倒，令舉倒從不倒。為是
@@ -301,11 +380,17 @@
 <lb n="0080a09" ed="T"/>聖中自判二諦、三者就凡中自判二諦。就凡
 <lb n="0080a10" ed="T"/>聖判二諦者，凡所解為世諦、聖所解為第一
 <lb n="0080a11" ed="T"/>義諦。此判凡聖者，就知性空、不知性空判凡
-<lb n="0080a12" ed="T"/>聖，未知性空為凡、若知性空為聖<note n="0080002" resp="Taisho" type="orig" place="foot text">〔人〕－【甲】</note><note n="0080002" resp="CBETA" type="mod">人【大】，〔－〕【甲】</note><app n="0080002"><lem wit="【大】">人</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>，就此
+<lb n="0080a12" ed="T"/>聖，未知性空為凡、若知性空為聖<note 
+n="0080002" resp="Taisho" type="orig" place="foot text">〔人〕－【甲】</note><note 
+n="0080002" resp="CBETA" type="mod">人【大】，〔－〕【甲】</note><app n="0080002">
+  <lem wit="【大】">人</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>，就此
 <lb n="0080a13" ed="T"/>判二諦也。就聖中自判二諦者，聖人了有是
 <lb n="0080a14" ed="T"/>空有、空是有空，此之二諦皆是聖二諦也。何
 <lb n="0080a15" ed="T"/>者？如四諦者，苦、集、滅、道皆名聖諦。二諦亦爾，
-<lb n="0080a16" ed="T"/>真俗兩種皆是聖諦也。</p><p xml:id="pT45p0080a1610" cb:place="inline">問：何處作此說耶？解
+<lb n="0080a16" ed="T"/>真俗兩種皆是聖諦也。</p>
+<p xml:id="pT45p0080a1610" cb:place="inline">問：何處作此說耶？解
 <lb n="0080a17" ed="T"/>云：如《般若．四攝品》末所明。自有時情轉千開，
 <lb n="0080a18" ed="T"/>有時須文義明據，今宜須文義分明也。彼文
 <lb n="0080a19" ed="T"/>云「凡夫若知世諦，應是須陀洹乃至於佛。」若
@@ -316,9 +401,19 @@
 <lb n="0080a24" ed="T"/>況甚深第一義諦。」約此而論，二乘不知二諦，
 <lb n="0080a25" ed="T"/>唯菩薩知於二諦也。此則從來義壞。何者？從
 <lb n="0080a26" ed="T"/>來云：三乘皆會真諦、竝解二諦。聖則真解二
-<lb n="0080a27" ed="T"/>諦、賢則似解二諦，小乘七方便、大乘<note n="0080003" resp="Taisho" type="orig" place="foot text">三十＝一【甲】</note><note n="0080003" resp="CBETA" type="mod">三十【大】，一【甲】</note><app n="0080003"><lem wit="【大】">三十</lem><rdg resp="Taisho" wit="【甲】">一</rdg></app>
+<lb n="0080a27" ed="T"/>諦、賢則似解二諦，小乘七方便、大乘<note 
+n="0080003" resp="Taisho" type="orig" place="foot text">三十＝一【甲】</note><note 
+n="0080003" resp="CBETA" type="mod">三十【大】，一【甲】</note><app n="0080003">
+  <lem wit="【大】">三十</lem>
+  <rdg resp="Taisho" wit="【甲】">一</rdg>
+</app>
 <lb n="0080a28" ed="T"/>心相似解，小乘苦忍以上、大乘初地已上，真
-<lb n="0080a29" ed="T"/>解二諦。解世諦通緣<note n="0080004" resp="Taisho" type="orig" place="foot text">似＝假ィ【原】</note><note n="0080004" resp="CBETA" type="mod">似【大】，假【校異-原】</note><app n="0080004"><lem wit="【大】">似</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">假</rdg></app>理，解真諦四絕百
+<lb n="0080a29" ed="T"/>解二諦。解世諦通緣<note 
+n="0080004" resp="Taisho" type="orig" place="foot text">似＝假ィ【原】</note><note 
+n="0080004" resp="CBETA" type="mod">似【大】，假【校異-原】</note><app n="0080004">
+  <lem wit="【大】">似</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">假</rdg>
+</app>理，解真諦四絕百
 <pb n="0080b" ed="T" xml:id="T45.1854.0080b"/>
 <lb n="0080b01" ed="T"/>非，三乘竝解二諦。若是《涅槃經》明五百聲聞
 <lb n="0080b02" ed="T"/>不知二諦，尚不知世諦，況甚深第一義諦。故
@@ -338,7 +433,12 @@
 <lb n="0080b16" ed="T"/>無斷常二見也。又有於凡實為諦，亦空於凡
 <lb n="0080b17" ed="T"/>實為諦。實有此空故空為諦，所以凡亦有二
 <lb n="0080b18" ed="T"/>諦也。此則皆開三種二諦。從來人二諦，任運
-<lb n="0080b19" ed="T"/>墮凡夫二諦中。何者？我有三<note n="0080005" resp="Taisho" type="orig" place="foot text">〔種〕－【甲】</note><note n="0080005" resp="CBETA" type="mod">種【大】，〔－〕【甲】</note><app n="0080005"><lem wit="【大】">種</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>二諦：一凡
+<lb n="0080b19" ed="T"/>墮凡夫二諦中。何者？我有三<note 
+n="0080005" resp="Taisho" type="orig" place="foot text">〔種〕－【甲】</note><note 
+n="0080005" resp="CBETA" type="mod">種【大】，〔－〕【甲】</note><app n="0080005">
+  <lem wit="【大】">種</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>二諦：一凡
 <lb n="0080b20" ed="T"/>聖判二諦、二就聖中自判二諦、三就凡中判
 <lb n="0080b21" ed="T"/>二諦。凡二諦者，三假為凡俗諦、四絕為凡真
 <lb n="0080b22" ed="T"/>諦。汝義若為耶？汝義三假是俗諦、四絕是真
@@ -346,7 +446,12 @@
 <lb n="0080b24" ed="T"/>內外義，汝作義自落我理外中也。論文云「諸
 <lb n="0080b25" ed="T"/>佛依二諦，為眾生說法。」前來略釋依二諦竟。</p>
 <lb n="0080b26" ed="T"/><p xml:id="pT45p0080b2601">次釋依二諦為眾生說法。問：既云依二諦說
-<lb n="0080b27" ed="T"/>法，為<note n="0080006" resp="Taisho" type="orig" place="foot text">何＋（物）ィ【原】</note><note n="0080006" resp="CBETA" type="mod">何【大】，何物【校異-原】</note><app n="0080006"><lem wit="【大】">何</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">何物</rdg></app>人說何物法耶？諸人領大師語云：
+<lb n="0080b27" ed="T"/>法，為<note 
+n="0080006" resp="Taisho" type="orig" place="foot text">何＋（物）ィ【原】</note><note 
+n="0080006" resp="CBETA" type="mod">何【大】，何物【校異-原】</note><app n="0080006">
+  <lem wit="【大】">何</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">何物</rdg>
+</app>人說何物法耶？諸人領大師語云：
 <lb n="0080b28" ed="T"/>為凡說有法、為聖說空法。為凡聖兩人說空
 <lb n="0080b29" ed="T"/>有二法，名依二諦說法。問：師有此語不？答：然，
 <pb n="0080c" ed="T" xml:id="T45.1854.0080c"/>
@@ -360,7 +465,8 @@
 <lb n="0080c08" ed="T"/>何更為說空耶？今所明者如論釋。論云「諸佛
 <lb n="0080c09" ed="T"/>依二諦，為眾生說法」，親噵依二諦為眾生說
 <lb n="0080c10" ed="T"/>法，何時噵為聖說法耶？為凡夫眾生說法，不
-<lb n="0080c11" ed="T"/>為聖人說法也。</p><p xml:id="pT45p0080c1107" cb:place="inline">問：此就何義判為眾生說二
+<lb n="0080c11" ed="T"/>為聖人說法也。</p>
+<p xml:id="pT45p0080c1107" cb:place="inline">問：此就何義判為眾生說二
 <lb n="0080c12" ed="T"/>諦耶？解云：此就迷悟、能所判為說不為說，明
 <lb n="0080c13" ed="T"/>眾生迷有無、未悟有無故。為眾生說有說無，
 <lb n="0080c14" ed="T"/>明此是有、此是無，此是凡、此是聖，此是倒、此是
@@ -391,7 +497,17 @@
 <lb n="0081a09" ed="T"/>如前也。次釋法品。問：法品何意為凡說二諦、
 <lb n="0081a10" ed="T"/>為聖說二諦耶？解云：為凡說我無我，如前為
 <lb n="0081a11" ed="T"/>凡說有無，令轉悟不有無。我無我亦爾。眾生
-<lb n="0081a12" ed="T"/>迷<note n="0081001" resp="Taisho" type="orig" place="foot text">我＋（迷）ィ【原】</note><note n="0081001" resp="CBETA" type="mod">我【大】，我迷【校異-原】</note><app n="0081001"><lem wit="【大】">我</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">我迷</rdg></app>無我，為其說我說無我，令離<note n="0081002" resp="Taisho" type="orig" place="foot text">我＋（離）ィ【原】</note><note n="0081002" resp="CBETA" type="mod">我【大】，我離【校異-原】</note><app n="0081002"><lem wit="【大】">我</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">我離</rdg></app>無我。
+<lb n="0081a12" ed="T"/>迷<note 
+n="0081001" resp="Taisho" type="orig" place="foot text">我＋（迷）ィ【原】</note><note 
+n="0081001" resp="CBETA" type="mod">我【大】，我迷【校異-原】</note><app n="0081001">
+  <lem wit="【大】">我</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">我迷</rdg>
+</app>無我，為其說我說無我，令離<note 
+n="0081002" resp="Taisho" type="orig" place="foot text">我＋（離）ィ【原】</note><note 
+n="0081002" resp="CBETA" type="mod">我【大】，我離【校異-原】</note><app n="0081002">
+  <lem wit="【大】">我</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">我離</rdg>
+</app>無我。
 <lb n="0081a13" ed="T"/>離我即離常、離無我即離斷，令其離斷常、悟
 <lb n="0081a14" ed="T"/>中道，故為凡說我無我也。為聖人說我無我
 <lb n="0081a15" ed="T"/>者，聖人解我無我，是故為聖人說我無我。前
@@ -408,7 +524,12 @@
 <lb n="0081a26" ed="T"/>解云：此不就利益為說，直明凡不解我無我、
 <lb n="0081a27" ed="T"/>聖解我無我。以聖解我無我故，為聖說我無
 <lb n="0081a28" ed="T"/>我，此為益凡，利他不自利。如阿難稱我聞，為
-<lb n="0081a29" ed="T"/>益眾生也。次大師<note n="0081003" resp="Taisho" type="orig" place="foot text">〔云〕－【甲】</note><note n="0081003" resp="CBETA" type="mod">云【大】，〔－〕【甲】</note><app n="0081003"><lem wit="【大】">云</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>：為凡說有、為聖說空者，
+<lb n="0081a29" ed="T"/>益眾生也。次大師<note 
+n="0081003" resp="Taisho" type="orig" place="foot text">〔云〕－【甲】</note><note 
+n="0081003" resp="CBETA" type="mod">云【大】，〔－〕【甲】</note><app n="0081003">
+  <lem wit="【大】">云</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>：為凡說有、為聖說空者，
 <pb n="0081b" ed="T" xml:id="T45.1854.0081b"/>
 <lb n="0081b01" ed="T"/>此之凡聖是所化緣、稟教凡聖。有於凡實，為
 <lb n="0081b02" ed="T"/>凡說有，令悟不有；空於聖實，為聖說空，令悟
@@ -421,7 +542,8 @@
 <lb n="0081b09" ed="T"/>為世諦理、四亡為真諦理，有二諦道理。今明
 <lb n="0081b10" ed="T"/>隨凡說有、隨聖說無，乃是隨凡隨聖說有無，
 <lb n="0081b11" ed="T"/>何處有二諦道理耶？為是義故，云為凡聖說
-<lb n="0081b12" ed="T"/>有無也。此則釋為眾生竟。</p><p xml:id="pT45p0081b1211" cb:place="inline">次釋說法。然說法
+<lb n="0081b12" ed="T"/>有無也。此則釋為眾生竟。</p>
+<p xml:id="pT45p0081b1211" cb:place="inline">次釋說法。然說法
 <lb n="0081b13" ed="T"/>凡有三種：或具說二諦、或但說第一義諦不
 <lb n="0081b14" ed="T"/>說世諦、或但說世諦不說第一義諦。此三種
 <lb n="0081b15" ed="T"/>竝出經論。《大智論》釋〈往生品〉云「問曰：前〈習應
@@ -436,32 +558,43 @@
 <lb n="0081b24" ed="T"/>門說；「當以世諦而解說之」，此即是就世諦門
 <lb n="0081b25" ed="T"/>說也。《大智論》云「欲說第一義悉檀故，說波若
 <lb n="0081b26" ed="T"/>波羅蜜經」，此即但說第一義諦。又《大經》云「與
-<lb n="0081b27" ed="T"/>彌勒共論世諦，五百聲聞不覺不知」，此<note n="0081004" resp="Taisho" type="orig" place="foot text">即＝則【甲】下同</note><note n="0081004" resp="CBETA" type="mod">即【大】下同，則【甲】下同</note><app n="0081004"><lem wit="【大】">即</lem><rdg resp="Taisho" wit="【甲】">則</rdg></app>但
+<lb n="0081b27" ed="T"/>彌勒共論世諦，五百聲聞不覺不知」，此<note 
+n="0081004" resp="Taisho" type="orig" place="foot text">即＝則【甲】下同</note><note 
+n="0081004" resp="CBETA" type="mod">即【大】下同，則【甲】下同</note><app n="0081004">
+  <lem wit="【大】">即</lem>
+  <rdg resp="Taisho" wit="【甲】">則</rdg>
+</app>但
 <lb n="0081b28" ed="T"/>說世諦。雖復三種不同，如來所說不出二諦
-<lb n="0081b29" ed="T"/>也。</p><p xml:id="pT45p0081b2902" cb:place="inline">問：何意如來說法不出二諦耶？解云：二諦
+<lb n="0081b29" ed="T"/>也。</p>
+<p xml:id="pT45p0081b2902" cb:place="inline">問：何意如來說法不出二諦耶？解云：二諦
 <pb n="0081c" ed="T" xml:id="T45.1854.0081c"/>
 <lb n="0081c01" ed="T"/>即是四悉檀，三悉檀即是世諦、第一義悉檀即
 <lb n="0081c02" ed="T"/>是第一義諦。四悉檀攝十二部經、攝八萬四
 <lb n="0081c03" ed="T"/>千法藏攝法既盡，二諦攝法亦盡。此就不盡
 <lb n="0081c04" ed="T"/>盡明義也。以二諦攝法盡故，如來就二諦說
-<lb n="0081c05" ed="T"/>法也。</p><p xml:id="pT45p0081c0503" cb:place="inline">問曰：二諦與四悉檀攝法皆盡，何意諸
+<lb n="0081c05" ed="T"/>法也。</p>
+<p xml:id="pT45p0081c0503" cb:place="inline">問曰：二諦與四悉檀攝法皆盡，何意諸
 <lb n="0081c06" ed="T"/>佛依二諦說法，不依四悉檀說耶？解云：通皆
 <lb n="0081c07" ed="T"/>得。既依二諦說，亦依四悉檀說。別即不例。何
 <lb n="0081c08" ed="T"/>者？此有義，欲明諸佛所說皆實。《金剛波若》云
 <lb n="0081c09" ed="T"/>「如來是真語者、實語者」，是故依二諦說。四悉
-<lb n="0081c10" ed="T"/>檀名不的主實，是故不依四悉檀說也。</p><p xml:id="pT45p0081c1016" cb:place="inline">問：不
+<lb n="0081c10" ed="T"/>檀名不的主實，是故不依四悉檀說也。</p>
+<p xml:id="pT45p0081c1016" cb:place="inline">問：不
 <lb n="0081c11" ed="T"/>依四悉檀說法，用四悉檀何為？解云：二諦是
 <lb n="0081c12" ed="T"/>所依，依二諦說四悉檀法。此亦兩種，各取一
 <lb n="0081c13" ed="T"/>義明。實而說義名四悉檀，說而實義稱二諦。
 <lb n="0081c14" ed="T"/>此即依於二諦方便屬緣不同，是故有四種
-<lb n="0081c15" ed="T"/>悉檀也。</p><p xml:id="pT45p0081c1504" cb:place="inline">問：若為依二諦說四悉檀耶？解云：依
+<lb n="0081c15" ed="T"/>悉檀也。</p>
+<p xml:id="pT45p0081c1504" cb:place="inline">問：若為依二諦說四悉檀耶？解云：依
 <lb n="0081c16" ed="T"/>第一義諦說第一義悉檀，依世諦說三悉檀。
 <lb n="0081c17" ed="T"/>依第一義諦說，合而不開；依世諦說，開而不
 <lb n="0081c18" ed="T"/>合，以依第一義諦還說第一義悉檀故合而
-<lb n="0081c19" ed="T"/>不開，依世諦說三悉檀故開而不合也。</p><p xml:id="pT45p0081c1916" cb:place="inline">問：何
+<lb n="0081c19" ed="T"/>不開，依世諦說三悉檀故開而不合也。</p>
+<p xml:id="pT45p0081c1916" cb:place="inline">問：何
 <lb n="0081c20" ed="T"/>意依第一義諦合而不開，依世諦開而不合
 <lb n="0081c21" ed="T"/>耶？解云：既有二諦，那怱併合開。真俗因緣，
-<lb n="0081c22" ed="T"/>開合因緣也。</p><p xml:id="pT45p0081c2206" cb:place="inline">問：等是二諦因緣，何故第一義
+<lb n="0081c22" ed="T"/>開合因緣也。</p>
+<p xml:id="pT45p0081c2206" cb:place="inline">問：等是二諦因緣，何故第一義
 <lb n="0081c23" ed="T"/>諦合而不開，世諦開而不合耶？解云：世諦是
 <lb n="0081c24" ed="T"/>空有，第一義諦是有空。第一義諦差別無差
 <lb n="0081c25" ed="T"/>別，世諦無差別差別。第一義諦二不二，世諦
@@ -536,7 +669,12 @@
 <lb n="0082c04" ed="T"/>悟不二，此二諦竝得。何者？因二悟不二，二即
 <lb n="0082c05" ed="T"/>是理教、不二即是教理，二即中假、不二即假
 <lb n="0082c06" ed="T"/>中，二即體用、不二即用體，故此二諦是得也。
-<lb n="0082c07" ed="T"/>次詺前二諦凡諦、聖諦。世諦是凡諦，性空<note n="0082001" resp="Taisho" type="orig" place="foot text">（是）＋即【甲】</note><note n="0082001" resp="CBETA" type="mod">即【大】，是即【甲】</note><app n="0082001"><lem wit="【大】">即</lem><rdg resp="Taisho" wit="【甲】">是即</rdg></app>
+<lb n="0082c07" ed="T"/>次詺前二諦凡諦、聖諦。世諦是凡諦，性空<note 
+n="0082001" resp="Taisho" type="orig" place="foot text">（是）＋即【甲】</note><note 
+n="0082001" resp="CBETA" type="mod">即【大】，是即【甲】</note><app n="0082001">
+  <lem wit="【大】">即</lem>
+  <rdg resp="Taisho" wit="【甲】">是即</rdg>
+</app>
 <lb n="0082c08" ed="T"/>聖諦。第二二諦竝是凡諦。為著有眾生說空、
 <lb n="0082c09" ed="T"/>為著空說有，借有破無、借無破有，此之有無
 <lb n="0082c10" ed="T"/>竝是凡夫諦也。然復有聖諦義。何者？所借有
@@ -544,7 +682,12 @@
 <lb n="0082c12" ed="T"/>諦，二悟不二假中義，此二諦竝聖。何者？如《中
 <lb n="0082c13" ed="T"/>論》云「因緣所生法，我說即是空，亦為是假名，
 <lb n="0082c14" ed="T"/>亦是中道義。」從來明此是三、是義：一因緣即
-<lb n="0082c15" ed="T"/>是空、二是<note n="0082002" resp="Taisho" type="orig" place="foot text">假＋（名）ィ【原】</note><note n="0082002" resp="CBETA" type="mod">假【大】，假名【校異-原】</note><app n="0082002"><lem wit="【大】">假</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">假名</rdg></app>、三是中。此之二諦，豈凡夫所
+<lb n="0082c15" ed="T"/>是空、二是<note 
+n="0082002" resp="Taisho" type="orig" place="foot text">假＋（名）ィ【原】</note><note 
+n="0082002" resp="CBETA" type="mod">假【大】，假名【校異-原】</note><app n="0082002">
+  <lem wit="【大】">假</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">假名</rdg>
+</app>、三是中。此之二諦，豈凡夫所
 <lb n="0082c16" ed="T"/>知？唯聖能了。又非二乘所及，但菩薩境界也。</p>
 <lb n="0082c17" ed="T"/><p xml:id="pT45p0082c1701">問：何故就二諦說法？說二諦有何利益耶？解
 <lb n="0082c18" ed="T"/>云：略出兩論文。一者《中論．四諦品》云「若人不
@@ -555,7 +698,8 @@
 <lb n="0082c23" ed="T"/>諦，則不得自利、他利、共利；若知二諦，則得三
 <lb n="0082c24" ed="T"/>利。」此之二論互出耳。然此二益攝一切益盡，
 <lb n="0082c25" ed="T"/>《中論》明知深佛法益、《十二門》明利眾生益，上
-<lb n="0082c26" ed="T"/>求下化不出二益也。</p><p xml:id="pT45p0082c2609" cb:place="inline">問：若為人不知二諦，無
+<lb n="0082c26" ed="T"/>求下化不出二益也。</p>
+<p xml:id="pT45p0082c2609" cb:place="inline">問：若為人不知二諦，無
 <lb n="0082c27" ed="T"/>利益耶？解云：佛法中即薩衛、方廣不知二諦，
 <lb n="0082c28" ed="T"/>大損佛法。何者？薩衛等計一切法皆有，則不
 <lb n="0082c29" ed="T"/>識如來第一義諦。由識第一義諦所以成聖，
@@ -566,13 +710,28 @@
 <lb n="0083a04" ed="T"/>切法空如龜毛菟角，無因果、君臣父子忠孝之
 <lb n="0083a05" ed="T"/>道，此人不識如來世諦。若不識世諦，此有何
 <lb n="0083a06" ed="T"/>過？失世諦則失第一義諦，失第一義諦則不
-<lb n="0083a07" ed="T"/>得涅槃。《中論》云「若不<note n="0083001" resp="Taisho" type="orig" place="foot text">因＝見【甲】</note><note n="0083001" resp="CBETA" type="mod">因【大】，見【甲】</note><app n="0083001"><lem wit="【大】">因</lem><rdg resp="Taisho" wit="【甲】">見</rdg></app>世諦，不得第一義。
+<lb n="0083a07" ed="T"/>得涅槃。《中論》云「若不<note 
+n="0083001" resp="Taisho" type="orig" place="foot text">因＝見【甲】</note><note 
+n="0083001" resp="CBETA" type="mod">因【大】，見【甲】</note><app n="0083001">
+  <lem wit="【大】">因</lem>
+  <rdg resp="Taisho" wit="【甲】">見</rdg>
+</app>世諦，不得第一義。
 <lb n="0083a08" ed="T"/>不得第一義，則不得涅槃。」故此人過失極大
 <lb n="0083a09" ed="T"/>也。此二人攝一切盡。若內外大小一切計有
-<lb n="0083a10" ed="T"/>者，同薩衛有失；一切<note n="0083002" resp="Taisho" type="orig" place="foot text">大小內外＝內外大小ィ【原】</note><note n="0083002" resp="CBETA" type="mod">大小內外【大】，內外大小【校異-原】</note><app n="0083002"><lem wit="【大】">大小內外</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">內外大小</rdg></app>計無者；同方
+<lb n="0083a10" ed="T"/>者，同薩衛有失；一切<note 
+n="0083002" resp="Taisho" type="orig" place="foot text">大小內外＝內外大小ィ【原】</note><note 
+n="0083002" resp="CBETA" type="mod">大小內外【大】，內外大小【校異-原】</note><app n="0083002">
+  <lem wit="【大】">大小內外</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">內外大小</rdg>
+</app>計無者；同方
 <lb n="0083a11" ed="T"/>廣無失也。又如《中論》初云「佛滅度後五百歲，
 <lb n="0083a12" ed="T"/>人根轉鈍，求十二因緣、五陰等決定相，此即
-<lb n="0083a13" ed="T"/>不識第一義諦。聞大乘<note n="0083003" resp="Taisho" type="orig" place="foot text">〔法〕ィ－【原】</note><note n="0083003" resp="CBETA" type="mod">法【大】，〔－〕【校異-原】</note><app n="0083003"><lem wit="【大】">法</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>說畢竟空，不知何
+<lb n="0083a13" ed="T"/>不識第一義諦。聞大乘<note 
+n="0083003" resp="Taisho" type="orig" place="foot text">〔法〕ィ－【原】</note><note 
+n="0083003" resp="CBETA" type="mod">法【大】，〔－〕【校異-原】</note><app n="0083003">
+  <lem wit="【大】">法</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>說畢竟空，不知何
 <lb n="0083a14" ed="T"/>因緣故空。若都畢竟空，則無罪福報應等，此
 <lb n="0083a15" ed="T"/>即不知世諦。此有無二見眾生，龍樹菩薩，為
 <lb n="0083a16" ed="T"/>此等故造此《中論》，即是住二諦破眾生二見。」
@@ -611,7 +770,8 @@
 <lb n="0083b19" ed="T"/>論》云「因緣所生法，我說即是空。」既即是空，失
 <lb n="0083b20" ed="T"/>有即失空。空既然，有亦爾。為是義故，此二人
 <lb n="0083b21" ed="T"/>皆失二諦。以皆失二諦故，破失令識如來二
-<lb n="0083b22" ed="T"/>諦也。</p><p xml:id="pT45p0083b2203" cb:place="inline">問：何人失二諦耶？解云：大而為言，有
+<lb n="0083b22" ed="T"/>諦也。</p>
+<p xml:id="pT45p0083b2203" cb:place="inline">問：何人失二諦耶？解云：大而為言，有
 <lb n="0083b23" ed="T"/>兩種人失二諦：一者不學二諦失二諦、二者
 <lb n="0083b24" ed="T"/>學二諦失二諦，凡失二諦不出此二種也。若
 <lb n="0083b25" ed="T"/>是《百論》，即對不學二諦失二諦緣。何者？《百論》
@@ -642,7 +802,8 @@
 <lb n="0083c20" ed="T"/>竟空，云何分別有罪福報應等？若有罪福則
 <lb n="0083c21" ed="T"/>不應空。推畫空便起邪見也。既起空見，即不
 <lb n="0083c22" ed="T"/>識世諦；既不識世諦，即不識第一義諦。又此
-<lb n="0083c23" ed="T"/>空是邪見空，故二諦皆失也。</p><p xml:id="pT45p0083c2312" cb:place="inline">問：三藏明諸法
+<lb n="0083c23" ed="T"/>空是邪見空，故二諦皆失也。</p>
+<p xml:id="pT45p0083c2312" cb:place="inline">問：三藏明諸法
 <lb n="0083c24" ed="T"/>有，云何於三藏起邪見耶？解云：於外道中尚
 <lb n="0083c25" ed="T"/>得起邪見，如六師中云：無黑業無黑業報等。
 <lb n="0083c26" ed="T"/>於外道中尚得起邪見，況於三藏中不得起
@@ -700,7 +861,12 @@
 <lb n="0084b17" ed="T"/>兩失攝一切失。破此兩失，則申一切教。何者？
 <lb n="0084b18" ed="T"/>此二失障二諦，破此二失則二諦通，二諦通
 <lb n="0084b19" ed="T"/>則一切經申。若爾，故知三論不可思議。所以
-<lb n="0084b20" ed="T"/>關中歎云：「《中》、《百》兩論文未及此，人<note n="0084001" resp="Taisho" type="orig" place="foot text">又無＝皆無此ィ【原】</note><note n="0084001" resp="CBETA" type="mod">又無【大】，皆無此【校異-原】</note><app n="0084001"><lem wit="【大】">又無</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">皆無此</rdg></app>通
+<lb n="0084b20" ed="T"/>關中歎云：「《中》、《百》兩論文未及此，人<note 
+n="0084001" resp="Taisho" type="orig" place="foot text">又無＝皆無此ィ【原】</note><note 
+n="0084001" resp="CBETA" type="mod">又無【大】，皆無此【校異-原】</note><app n="0084001">
+  <lem wit="【大】">又無</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">皆無此</rdg>
+</app>通
 <lb n="0084b21" ed="T"/>鑒，誰與正之？」及至之後，歎云：「後談道之人，始
 <lb n="0084b22" ed="T"/>可與論實矣。」實理如此。何者？失不出此二，《中》、
 <lb n="0084b23" ed="T"/>《百》兩論既破此二失，二諦即通。二諦通，一切
@@ -733,7 +899,8 @@
 <lb n="0084c20" ed="T"/>若爾，望毘曇則有二諦，望摩訶衍則無二諦，
 <lb n="0084c21" ed="T"/>但是世諦。何者？今摩訶衍正以諸法本性空
 <lb n="0084c22" ed="T"/>為第一義諦。彼但折法明空，所以無第一義
-<lb n="0084c23" ed="T"/>諦也。</p><p xml:id="pT45p0084c2303" cb:place="inline">問：用此語為何耶？解云：欲釋《十二門論》
+<lb n="0084c23" ed="T"/>諦也。</p>
+<p xml:id="pT45p0084c2303" cb:place="inline">問：用此語為何耶？解云：欲釋《十二門論》
 <lb n="0084c24" ed="T"/>中一句語。彼論云「汝今聞世諦，謂是第一義
 <lb n="0084c25" ed="T"/>諦。」今將數論等釋此語。問：若為聞世諦謂是
 <lb n="0084c26" ed="T"/>第一義諦也。解云：毘曇亦明二諦義，謂十六
@@ -746,11 +913,32 @@
 <lb n="0085a03" ed="T"/>處也。二諦既倒，則一切皆倒。何者？諸佛依二
 <lb n="0085a04" ed="T"/>諦說法，二諦既倒故一切皆倒，所以墮在失
 <lb n="0085a05" ed="T"/>處也。次《成論》聞世諦謂是第一義諦者，明諸
-<lb n="0085a06" ed="T"/>法有為世諦，<note n="0085001" resp="Taisho" type="orig" place="foot text">拆＝折【甲】＊</note><note n="0085001" resp="CBETA" type="mod">拆【大】＊，折【甲】＊</note><app n="0085001"><lem wit="【大】">拆</lem><rdg resp="Taisho" wit="【甲】">折</rdg></app>法空為第一義諦。<note n="0085002" resp="Taisho" type="orig" place="foot text">今＋（家）ィ【原】</note><note n="0085002" resp="CBETA" type="mod">今【大】，今家【校異-原】</note><app n="0085002"><lem wit="【大】">今</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">今家</rdg></app>明諸
-<lb n="0085a07" ed="T"/>法有、<app type="star" corresp="#0085001"><lem wit="【大】">拆</lem><rdg resp="Taisho" wit="【甲】">折</rdg></app>法空竝是世諦。何者？今就性空非
+<lb n="0085a06" ed="T"/>法有為世諦，<note 
+n="0085001" resp="Taisho" type="orig" place="foot text">拆＝折【甲】＊</note><note 
+n="0085001" resp="CBETA" type="mod">拆【大】＊，折【甲】＊</note><app n="0085001">
+  <lem wit="【大】">拆</lem>
+  <rdg resp="Taisho" wit="【甲】">折</rdg>
+</app>法空為第一義諦。<note 
+n="0085002" resp="Taisho" type="orig" place="foot text">今＋（家）ィ【原】</note><note 
+n="0085002" resp="CBETA" type="mod">今【大】，今家【校異-原】</note><app n="0085002">
+  <lem wit="【大】">今</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">今家</rdg>
+</app>明諸
+<lb n="0085a07" ed="T"/>法有、<app type="star" corresp="#0085001">
+  <lem wit="【大】">拆</lem>
+  <rdg resp="Taisho" wit="【甲】">折</rdg>
+</app>法空竝是世諦。何者？今就性空非
 <lb n="0085a08" ed="T"/>性空以判二諦，性空為第一義諦、非性空為
-<lb n="0085a09" ed="T"/>世諦。汝<app type="star" corresp="#0085001"><lem wit="【大】">拆</lem><rdg resp="Taisho" wit="【甲】">折</rdg></app>法空非性空，故是世諦。汝謂是
-<lb n="0085a10" ed="T"/>第一義，故墮<note n="0085003" resp="Taisho" type="orig" place="foot text">〔在〕－【甲】</note><note n="0085003" resp="CBETA" type="mod">在【大】，〔－〕【甲】</note><app n="0085003"><lem wit="【大】">在</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>失處。何者？汝論宗云正明
+<lb n="0085a09" ed="T"/>世諦。汝<app type="star" corresp="#0085001">
+  <lem wit="【大】">拆</lem>
+  <rdg resp="Taisho" wit="【甲】">折</rdg>
+</app>法空非性空，故是世諦。汝謂是
+<lb n="0085a10" ed="T"/>第一義，故墮<note 
+n="0085003" resp="Taisho" type="orig" place="foot text">〔在〕－【甲】</note><note 
+n="0085003" resp="CBETA" type="mod">在【大】，〔－〕【甲】</note><app n="0085003">
+  <lem wit="【大】">在</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>失處。何者？汝論宗云正明
 <lb n="0085a11" ed="T"/>三藏，龍樹云佛以三藏中不說性空，故無第
 <lb n="0085a12" ed="T"/>一義。若有第一義，則乖汝論宗，且應云故我
 <lb n="0085a13" ed="T"/>欲正論摩訶衍實義。而傳格噵正論三藏義，
@@ -799,12 +987,25 @@
 <lb n="0085b26" ed="T"/>橙中；聞說諸法有，即內置世諦橙中。世諦不
 <lb n="0085b27" ed="T"/>得空、真諦不得有，如此有無皆礙，礙故悉是
 <lb n="0085b28" ed="T"/>世諦。」彼即云：我有真俗二諦，云何併是世諦
-<lb n="0085b29" ed="T"/>耶？解云：有無礙皆是世諦，汝自<note n="0085004" resp="Taisho" type="orig" place="foot text">為＝謂ィ【原】＊</note><note n="0085004" resp="CBETA" type="mod">為【大】＊，謂【校異-原】＊</note><app n="0085004"><lem wit="【大】">為</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">謂</rdg></app>是第一
+<lb n="0085b29" ed="T"/>耶？解云：有無礙皆是世諦，汝自<note 
+n="0085004" resp="Taisho" type="orig" place="foot text">為＝謂ィ【原】＊</note><note 
+n="0085004" resp="CBETA" type="mod">為【大】＊，謂【校異-原】＊</note><app n="0085004">
+  <lem wit="【大】">為</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">謂</rdg>
+</app>是第一
 <pb n="0085c" ed="T" xml:id="T45.1854.0085c"/>
-<lb n="0085c01" ed="T"/>義，故是聞世諦<app type="star" corresp="#0085004"><lem wit="【大】">為</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">謂</rdg></app>是第一義諦也。如此等
+<lb n="0085c01" ed="T"/>義，故是聞世諦<app type="star" corresp="#0085004">
+  <lem wit="【大】">為</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">謂</rdg>
+</app>是第一義諦也。如此等
 <lb n="0085c02" ed="T"/>竝失如來二諦，不能知佛法深義。若能知二
 <lb n="0085c03" ed="T"/>諦，則知佛法深義。何者？識知毘曇二諦是毘
-<lb n="0085c04" ed="T"/>曇二諦，知此二諦竝是<note n="0085005" resp="Taisho" type="orig" place="foot text">世＝法【甲】</note><note n="0085005" resp="CBETA" type="mod">世【大】，法【甲】</note><app n="0085005"><lem wit="【大】">世</lem><rdg resp="Taisho" wit="【甲】">法</rdg></app>諦，終不學如此二
+<lb n="0085c04" ed="T"/>曇二諦，知此二諦竝是<note 
+n="0085005" resp="Taisho" type="orig" place="foot text">世＝法【甲】</note><note 
+n="0085005" resp="CBETA" type="mod">世【大】，法【甲】</note><app n="0085005">
+  <lem wit="【大】">世</lem>
+  <rdg resp="Taisho" wit="【甲】">法</rdg>
+</app>諦，終不學如此二
 <lb n="0085c05" ed="T"/>諦。識成論二諦是《成實論》折法二諦，非是諸
 <lb n="0085c06" ed="T"/>法性空二諦。識從來有得大乘是有礙二諦，
 <lb n="0085c07" ed="T"/>識諸佛菩薩無礙二諦。識如此等二諦，故知
@@ -822,7 +1023,8 @@
 <lb n="0085c19" ed="T"/>實二智，名自利。菩薩如實而悟，今還如實而
 <lb n="0085c20" ed="T"/>說，令眾生亦了真俗二諦，發生權實二智，名
 <lb n="0085c21" ed="T"/>為他利。自他皆了二諦，皆生二智，名為共利
-<lb n="0085c22" ed="T"/>也。</p><p xml:id="pT45p0085c2202" cb:place="inline">問：此兩種二智何異耶？解云：初則就真俗
+<lb n="0085c22" ed="T"/>也。</p>
+<p xml:id="pT45p0085c2202" cb:place="inline">問：此兩種二智何異耶？解云：初則就真俗
 <lb n="0085c23" ed="T"/>判二智，後就自他內外判二智。前真俗判二
 <lb n="0085c24" ed="T"/>智者，了世諦第一義諦，名方便實智；了第一
 <lb n="0085c25" ed="T"/>義諦世諦，名實方便智。了二諦判二智也。後
@@ -849,7 +1051,8 @@
 <lb n="0086a16" ed="T"/>不行中道、不見佛性，不見佛性即無性佛等。
 <lb n="0086a17" ed="T"/>若了二諦，即離斷常，行於中道、見佛性，即有
 <lb n="0086a18" ed="T"/>性佛等。為是故，當知識二諦有大利益也。略
-<lb n="0086a19" ed="T"/>明得失利益如此。</p><p xml:id="pT45p0086a1908" cb:place="inline">次明悟教生智義。此義難
+<lb n="0086a19" ed="T"/>明得失利益如此。</p>
+<p xml:id="pT45p0086a1908" cb:place="inline">次明悟教生智義。此義難
 <lb n="0086a20" ed="T"/>解，若為生智耶？大師舊語云：「稟教得悟，發生
 <lb n="0086a21" ed="T"/>二智，教轉名境。若不悟即不生智。言不悟者，
 <lb n="0086a22" ed="T"/>聞有作有解，有即住有，有不表不有；聞無作
@@ -859,16 +1062,24 @@
 <lb n="0086a26" ed="T"/>無不二、為悟有無二耶？若因有無二，悟非有
 <lb n="0086a27" ed="T"/>非無不二，應生不二智，云何生二智耶？若言
 <lb n="0086a28" ed="T"/>悟有無二者，此乃是悟教，不應悟理。既不悟
-<lb n="0086a29" ed="T"/>理，那得名悟耶？進退難明，未釋云云。」</p><p xml:id="pT45p0086a2915" cb:place="inline">次明二
+<lb n="0086a29" ed="T"/>理，那得名悟耶？進退難明，未釋云云。」</p>
+<p xml:id="pT45p0086a2915" cb:place="inline">次明二
 <pb n="0086b" ed="T" xml:id="T45.1854.0086b"/>
 <lb n="0086b01" ed="T"/>諦是教義。攝嶺、興皇已來，竝明二諦是教。所
-<lb n="0086b02" ed="T"/>以山中師手本《二諦疏》云「二諦者，<note n="0086001" resp="Taisho" type="orig" place="foot text">乃＋（至）【甲】</note><note n="0086001" resp="CBETA" type="mod">乃【大】，乃至【甲】</note><app n="0086001"><lem wit="【大】">乃</lem><rdg resp="Taisho" wit="【甲】">乃至</rdg></app>是表中
+<lb n="0086b02" ed="T"/>以山中師手本《二諦疏》云「二諦者，<note 
+n="0086001" resp="Taisho" type="orig" place="foot text">乃＋（至）【甲】</note><note 
+n="0086001" resp="CBETA" type="mod">乃【大】，乃至【甲】</note><app n="0086001">
+  <lem wit="【大】">乃</lem>
+  <rdg resp="Taisho" wit="【甲】">乃至</rdg>
+</app>是表中
 <lb n="0086b03" ed="T"/>道之妙教、窮文言之極說。道非有無，寄有無
 <lb n="0086b04" ed="T"/>以顯道；理非一二，因一二以明理。故知二諦
 <lb n="0086b05" ed="T"/>是教也。」所以明二諦是教者，有二義：一者為
 <lb n="0086b06" ed="T"/>對他、二者為釋經論。為對他明二諦是境，彼
 <lb n="0086b07" ed="T"/>有四種法寶：言教法寶、境界法寶、無為果法
-<lb n="0086b08" ed="T"/>寶、善業<note n="0086002" resp="Taisho" type="orig" place="foot text">〔法寶…滅顛〕－【甲】(cf. P. 91c [02])</note><note n="0086002" resp="CBETA" type="mod"><!--CBETA todo type: a-->法寶…滅顛【大】，〔－〕【甲】，(cf. P. 91c [02])</note>法寶。二諦即境界法寶，有佛無佛
+<lb n="0086b08" ed="T"/>寶、善業<note 
+n="0086002" resp="Taisho" type="orig" place="foot text">〔法寶…滅顛〕－【甲】(cf. P. 91c [02])</note><note 
+n="0086002" resp="CBETA" type="mod"><!--CBETA todo type: a-->法寶…滅顛【大】，〔－〕【甲】，(cf. P. 91c [02])</note>法寶。二諦即境界法寶，有佛無佛
 <lb n="0086b09" ed="T"/>常有此境，迷之即有六道紛然、悟之即有三
 <lb n="0086b10" ed="T"/>乘十地，故二諦是迷悟之境。今對彼明二諦
 <lb n="0086b11" ed="T"/>是教也。言釋經論者，《中論》云「諸佛依二諦，為
@@ -895,7 +1106,8 @@
 <lb n="0086c02" ed="T"/>論文。諸法性空，世間顛倒謂有，於世人為實，
 <lb n="0086c03" ed="T"/>名之為諦。諸賢聖真知顛倒，性空於聖人是
 <lb n="0086c04" ed="T"/>實，名之為諦。此即二於諦，諸佛依此而說，名
-<lb n="0086c05" ed="T"/>為教諦也。</p><p xml:id="pT45p0086c0505" cb:place="inline">問：教若為名諦耶？解：有數意。一者
+<lb n="0086c05" ed="T"/>為教諦也。</p>
+<p xml:id="pT45p0086c0505" cb:place="inline">問：教若為名諦耶？解：有數意。一者
 <lb n="0086c06" ed="T"/>依實而說，故所說亦實，是故名諦。二者如來
 <lb n="0086c07" ed="T"/>誠諦之言，是故名諦。三者說有無教，實能表
 <lb n="0086c08" ed="T"/>道，是故名諦。外道所說何故不名諦？外道所
@@ -907,7 +1119,12 @@
 <lb n="0086c14" ed="T"/>無有顛倒名一實諦。今亦爾，所說不顛倒故，
 <lb n="0086c15" ed="T"/>所以名諦。外道所說皆悉顛倒，不得名諦。諸
 <lb n="0086c16" ed="T"/>佛菩薩說無有顛倒，是故名諦。六者得如實
-<lb n="0086c17" ed="T"/><note n="0086003" resp="Taisho" type="orig" place="foot text">悟＝語ヵ【原】</note><note n="0086003" resp="CBETA" type="mod">悟【大】，語【考偽-原】</note><app n="0086003"><lem resp="Taisho" wit="【大】">悟</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">語</rdg></app>，如實而說，是故名諦。故經云「如語者、實
+<lb n="0086c17" ed="T"/><note 
+n="0086003" resp="Taisho" type="orig" place="foot text">悟＝語ヵ【原】</note><note 
+n="0086003" resp="CBETA" type="mod">悟【大】，語【考偽-原】</note><app n="0086003">
+  <lem resp="Taisho" wit="【大】">悟</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">語</rdg>
+</app>，如實而說，是故名諦。故經云「如語者、實
 <lb n="0086c18" ed="T"/>語者、不異語者、不誑語者」，此即如來誠諦不
 <lb n="0086c19" ed="T"/>虛，故教名諦也。次明於諦。何因緣名諦耶？為
 <lb n="0086c20" ed="T"/>從謂情為名、為從境為稱、為從解為目耶？解
@@ -953,15 +1170,22 @@
 <pb n="0087b" ed="T" xml:id="T45.1854.0087b"/>
 <lb n="0087b01" ed="T"/>有真俗不？不解義者必云教諦亦有真俗。何
 <lb n="0087b02" ed="T"/>者？有兩諦？有於諦、有教諦。於諦有真俗，教諦
-<lb n="0087b03" ed="T"/>亦有真俗也。</p><p xml:id="pT45p0087b0306" cb:place="inline">問：若為教諦有真俗耶？解云：說
+<lb n="0087b03" ed="T"/>亦有真俗也。</p>
+<p xml:id="pT45p0087b0306" cb:place="inline">問：若為教諦有真俗耶？解云：說
 <lb n="0087b04" ed="T"/>俗名俗教諦，說真名真教諦。問：說俗名俗教，
 <lb n="0087b05" ed="T"/>教是俗；說真教，教是真不？說真之說，此是言
 <lb n="0087b06" ed="T"/>教，那忽是真？若說俗之說，說是俗諦；說真之
 <lb n="0087b07" ed="T"/>說，說亦是俗諦者，即成他義。他亦明真不可
 <lb n="0087b08" ed="T"/>說，寄俗說真，說真之說還屬俗諦。今亦爾，
 <lb n="0087b09" ed="T"/>故同舊義。三論之義，還是我義也。所以成論
-<lb n="0087b10" ed="T"/><note n="0087001" resp="Taisho" type="orig" place="foot text">冠註曰暄正二字未詳</note>暄正讀中論，《中論》云「言說是俗諦，第一義
-<lb n="0087b11" ed="T"/>諦不可言說。」若爾，言說皆是俗諦，<note n="0087002" resp="Taisho" type="orig" place="foot text">（三論人）ィ＋何【原】</note><note n="0087002" resp="CBETA" type="mod">何【大】，三論人何【校異-原】</note><app n="0087002"><lem wit="【大】">何</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">三論人何</rdg></app>得言二
+<lb n="0087b10" ed="T"/><note 
+n="0087001" resp="Taisho" type="orig" place="foot text">冠註曰暄正二字未詳</note>暄正讀中論，《中論》云「言說是俗諦，第一義
+<lb n="0087b11" ed="T"/>諦不可言說。」若爾，言說皆是俗諦，<note 
+n="0087002" resp="Taisho" type="orig" place="foot text">（三論人）ィ＋何【原】</note><note 
+n="0087002" resp="CBETA" type="mod">何【大】，三論人何【校異-原】</note><app n="0087002">
+  <lem wit="【大】">何</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">三論人何</rdg>
+</app>得言二
 <lb n="0087b12" ed="T"/>諦竝是教耶？若又二諦是教，教唯是俗諦者，
 <lb n="0087b13" ed="T"/>即學二諦成一俗諦。前來諸人學二諦成一
 <lb n="0087b14" ed="T"/>諦既失，汝今學二諦成一諦，失之甚也。又難：
@@ -976,7 +1200,8 @@
 <lb n="0087b23" ed="T"/>空為真諦者，說空之說是真不？若說空之說
 <lb n="0087b24" ed="T"/>是真，即竝難。若說空與空說皆為真諦者，色
 <lb n="0087b25" ed="T"/>空與空色皆真諦，反詰云云。前來至此，都有
-<lb n="0087b26" ed="T"/>四難未解，後當釋之。</p><p xml:id="pT45p0087b2609" cb:place="inline">今更簡得失義。前得失
+<lb n="0087b26" ed="T"/>四難未解，後當釋之。</p>
+<p xml:id="pT45p0087b2609" cb:place="inline">今更簡得失義。前得失
 <lb n="0087b27" ed="T"/>凡有四種，今簡最後學二諦失二諦者。若是
 <lb n="0087b28" ed="T"/>小乘，不足可簡，但正為學二諦失二諦人也。
 <lb n="0087b29" ed="T"/>明他家辨二諦義，今時亦辨二諦義，何異？解
@@ -1001,7 +1226,8 @@
 <lb n="0087c18" ed="T"/>智非因緣義。今對此明真俗是教，悟教生智，
 <lb n="0087c19" ed="T"/>教轉名境，由智故境、由境故智，境能為智所、
 <lb n="0087c20" ed="T"/>智能為境所，境所為智能、智所為境能，境智
-<lb n="0087c21" ed="T"/>因緣不二而二也。</p><p xml:id="pT45p0087c2108" cb:place="inline">問：諸有二者無道無果，何
+<lb n="0087c21" ed="T"/>因緣不二而二也。</p>
+<p xml:id="pT45p0087c2108" cb:place="inline">問：諸有二者無道無果，何
 <lb n="0087c22" ed="T"/>故明二耶？解云：為對他無智有境，今明由智
 <lb n="0087c23" ed="T"/>故境、由境故智，境智因緣不二二也。然今明
 <lb n="0087c24" ed="T"/>二諦是教門者，正為拔二理之見。彼埋二理
@@ -1043,7 +1269,12 @@
 <pb n="0088b" ed="T" xml:id="T45.1854.0088b"/>
 <lb n="0088b01" ed="T"/>則具有體有用也。九者明本末。不二是本、二
 <lb n="0088b02" ed="T"/>是末。他既無本，何有末？今具有二不二、具
-<lb n="0088b03" ed="T"/><note n="0088001" resp="Taisho" type="orig" place="foot text">〔有〕ィ－【原】</note><note n="0088001" resp="CBETA" type="mod">有【大】，〔－〕【校異-原】</note><app n="0088001"><lem wit="【大】">有</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>本末，故云二諦是教、不二是理也。十者明
+<lb n="0088b03" ed="T"/><note 
+n="0088001" resp="Taisho" type="orig" place="foot text">〔有〕ィ－【原】</note><note 
+n="0088001" resp="CBETA" type="mod">有【大】，〔－〕【校異-原】</note><app n="0088001">
+  <lem wit="【大】">有</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>本末，故云二諦是教、不二是理也。十者明
 <lb n="0088b04" ed="T"/>了義不了義。由來釋了義不了義者，明小乘
 <lb n="0088b05" ed="T"/>教為不了義、摩訶衍教為了義。就大乘教中
 <lb n="0088b06" ed="T"/>復有二：《般若》、《法華》等為不了義。第五《涅槃》常
@@ -1089,7 +1320,8 @@
 <lb n="0088c16" ed="T"/>中道耶？為是故今明二諦是教門、不二是中
 <lb n="0088c17" ed="T"/>道也。又他無不有無、有有無，今有不有無、無
 <lb n="0088c18" ed="T"/>有無，反之也。他唯有有無二理、無不二之道，
-<lb n="0088c19" ed="T"/>今即唯有不二之道、無有無也。</p><p xml:id="pT45p0088c1913" cb:place="inline">問：既無有無，
+<lb n="0088c19" ed="T"/>今即唯有不二之道、無有無也。</p>
+<p xml:id="pT45p0088c1913" cb:place="inline">問：既無有無，
 <lb n="0088c20" ed="T"/>應無二諦。解云：實無有無，但方便故假言有
 <lb n="0088c21" ed="T"/>無，假言有無為悟不有無。以是義故，明二諦
 <lb n="0088c22" ed="T"/>是教門也。然二諦更無有二，只同學一二諦
@@ -1105,7 +1337,8 @@
 <lb n="0089a02" ed="T"/>露成毒藥、有方便者服向毒藥成甘露。學二
 <lb n="0089a03" ed="T"/>諦人亦爾，無方便學因緣成自性、有方便學
 <lb n="0089a04" ed="T"/>自性成因緣。為是故學二諦有得有失、有自
-<lb n="0089a05" ed="T"/>性有因緣也。</p><p xml:id="pT45p0089a0506" cb:place="inline">問：彼學因緣成自性天然之理，
+<lb n="0089a05" ed="T"/>性有因緣也。</p>
+<p xml:id="pT45p0089a0506" cb:place="inline">問：彼學因緣成自性天然之理，
 <lb n="0089a06" ed="T"/>為當取此理、不取此理耶？解云：具有取不取。
 <lb n="0089a07" ed="T"/>言取者，今時亦有此二理。何者？於凡有凡理、
 <lb n="0089a08" ed="T"/>於聖有聖理。有於凡有理、空於聖有理，然理
@@ -1134,7 +1367,8 @@
 <lb n="0089b01" ed="T"/>以現見，而有生滅者，是即為癡妄，而見有生
 <lb n="0089b02" ed="T"/>滅。」若爾，癡妄故見有無生滅，實無汝所見有
 <lb n="0089b03" ed="T"/>無生滅也。前取即於二緣有二理，今破謂有
-<lb n="0089b04" ed="T"/>實無有也。</p><p xml:id="pT45p0089b0405" cb:place="inline">問：前明二諦是教門時，為當如來
+<lb n="0089b04" ed="T"/>實無有也。</p>
+<p xml:id="pT45p0089b0405" cb:place="inline">問：前明二諦是教門時，為當如來
 <lb n="0089b05" ed="T"/>說因緣有無為教、為當即眼見耳聞有無為
 <lb n="0089b06" ed="T"/>教耶？然師答此語開合不同，今還作開合兩
 <lb n="0089b07" ed="T"/>意釋之。言開者，即是理內外義，明理外亦有
@@ -1170,7 +1404,8 @@
 <lb n="0089c07" ed="T"/>藥、巧服毒藥成甘露。今亦爾，無方便學因緣
 <lb n="0089c08" ed="T"/>成自性、有方便學自性成因緣。猶如一色，不
 <lb n="0089c09" ed="T"/>了者言定有、不知不有，了者知色有不有故。
-<lb n="0089c10" ed="T"/>只是此有無，兩人學教，非教異也。</p><p xml:id="pT45p0089c1014" cb:place="inline">問：何故前
+<lb n="0089c10" ed="T"/>只是此有無，兩人學教，非教異也。</p>
+<p xml:id="pT45p0089c1014" cb:place="inline">問：何故前
 <lb n="0089c11" ed="T"/>開理內外異，後復合明之耶？解云：開合竝為
 <lb n="0089c12" ed="T"/>對緣。前開理內外，正為對由來人。由來人唯
 <lb n="0089c13" ed="T"/>知有一種有無二諦，不知有兩有無二諦；唯
@@ -1184,7 +1419,8 @@
 <lb n="0089c21" ed="T"/>有理內外異，更成理內外二見。為此人故明
 <lb n="0089c22" ed="T"/>二諦何曾有二？特是無方便不了者詺為理
 <lb n="0089c23" ed="T"/>外、有方便了者即名理內，然二諦實無異。為
-<lb n="0089c24" ed="T"/>是故明開合兩種也。</p><p xml:id="pT45p0089c2409" cb:place="inline">問：何故明此開合兩種
+<lb n="0089c24" ed="T"/>是故明開合兩種也。</p>
+<p xml:id="pT45p0089c2409" cb:place="inline">問：何故明此開合兩種
 <lb n="0089c25" ed="T"/>耶？解云：此之兩種，竝為開道令眾生悟入也。
 <lb n="0089c26" ed="T"/>前開理內外令悟者，明有所得理外有無不
 <lb n="0089c27" ed="T"/>能表道，明無所得有無，有是無有、無是有無，
@@ -1196,7 +1432,8 @@
 <lb n="0090a03" ed="T"/>有無有無即不有無，悟於正道。故此二種竝
 <lb n="0090a04" ed="T"/>令悟於一道。經文皆爾。故《法華》云「唯有一大
 <lb n="0090a05" ed="T"/>事因緣故，出現於世」，又云「說種種乘皆為一
-<lb n="0090a06" ed="T"/>乘」也。</p><p xml:id="pT45p0090a0603" cb:place="inline">次問：既皆為顯道者，何不發初即為說
+<lb n="0090a06" ed="T"/>乘」也。</p>
+<p xml:id="pT45p0090a0603" cb:place="inline">次問：既皆為顯道者，何不發初即為說
 <lb n="0090a07" ed="T"/>非有非無令悟正道，而忽諸法非有非無，說
 <lb n="0090a08" ed="T"/>有無表不有無，然後令悟非有非無。何乃迂
 <lb n="0090a09" ed="T"/>迴者耶？解云：此可有兩意，今且作一種釋之。
@@ -1232,11 +1469,17 @@
 <lb n="0090b09" ed="T"/>月，故舉指令識月。凡夫眾生亦爾，不識理故，
 <lb n="0090b10" ed="T"/>須二諦教。故經云「眾生癡如小兒，亦名著者」，
 <lb n="0090b11" ed="T"/>故不得前說不二之法也。前已作一種釋，明
-<lb n="0090b12" ed="T"/><note n="0090001" resp="Taisho" type="orig" place="foot text">〔如〕ィ－【原】</note><note n="0090001" resp="CBETA" type="mod">如【大】，〔－〕【校異-原】</note><app n="0090001"><lem wit="【大】">如</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>須依二諦說法，不得發始即說諸法非有
+<lb n="0090b12" ed="T"/><note 
+n="0090001" resp="Taisho" type="orig" place="foot text">〔如〕ィ－【原】</note><note 
+n="0090001" resp="CBETA" type="mod">如【大】，〔－〕【校異-原】</note><app n="0090001">
+  <lem wit="【大】">如</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>須依二諦說法，不得發始即說諸法非有
 <lb n="0090b13" ed="T"/>非無。何者？說有是世諦、說空是真諦，已驚潛
 <lb n="0090b14" ed="T"/>不受，況為說非有非無耶？如脫珍御服也。今
 <lb n="0090b15" ed="T"/>更作一種釋，明依二諦說，不得說非有非無
-<lb n="0090b16" ed="T"/>也，然前須作一問然後乃得釋之。</p><p xml:id="pT45p0090b1614" cb:place="inline">問云：經中
+<lb n="0090b16" ed="T"/>也，然前須作一問然後乃得釋之。</p>
+<p xml:id="pT45p0090b1614" cb:place="inline">問云：經中
 <lb n="0090b17" ed="T"/>具有說有說無，及說非有非無、非真非俗、非
 <lb n="0090b18" ed="T"/>色非空。如《涅槃經》云「即於波羅奈轉正法輪，
 <lb n="0090b19" ed="T"/>宣說中道。一切眾生，不破諸結、非不能破，非
@@ -1249,7 +1492,8 @@
 <lb n="0090b26" ed="T"/>是理。一往開理教者，教有言說，理不可說。理
 <lb n="0090b27" ed="T"/>既不可說，云何得悟？所以得悟理者，必假言
 <lb n="0090b28" ed="T"/>說。為是故說有無、說非有無，竝是教，皆令悟
-<lb n="0090b29" ed="T"/>理也。</p><p xml:id="pT45p0090b2903" cb:place="inline">問：說有無可是二諦教，說非有無不二，
+<lb n="0090b29" ed="T"/>理也。</p>
+<p xml:id="pT45p0090b2903" cb:place="inline">問：說有無可是二諦教，說非有無不二，
 <pb n="0090c" ed="T" xml:id="T45.1854.0090c"/>
 <lb n="0090c01" ed="T"/>云何亦是二諦教耶？答：為是義故，所以山門
 <lb n="0090c02" ed="T"/>相承、興皇祖述，明三種二諦。第一明說有為
@@ -1329,7 +1573,8 @@
 <lb n="0091b16" ed="T"/>諦但是我家世諦也。彼即云：我亦有非真非
 <lb n="0091b17" ed="T"/>俗中道義。為是故第三節明二不二為世諦。
 <lb n="0091b18" ed="T"/>汝若二諦若中道，悉是我家世諦。為是故明
-<lb n="0091b19" ed="T"/>此三種二諦義也。</p><p xml:id="pT45p0091b1908" cb:place="inline">問：從來明有三諦義，一世
+<lb n="0091b19" ed="T"/>此三種二諦義也。</p>
+<p xml:id="pT45p0091b1908" cb:place="inline">問：從來明有三諦義，一世
 <lb n="0091b20" ed="T"/>諦、二真諦、三非真非俗諦。故經云「有諦、無諦、中
 <lb n="0091b21" ed="T"/>道第一義諦。」若爾，云何言諸佛常依二諦說
 <lb n="0091b22" ed="T"/>法耶？諸佛常依二諦說法？此即時長佛廣，常
@@ -1339,7 +1584,12 @@
 <lb n="0091b26" ed="T"/>三諦；雖有三諦，不乖常依二諦說法。何者？今
 <lb n="0091b27" ed="T"/>真俗是二諦，攝真俗二為世諦、不真俗為第
 <lb n="0091b28" ed="T"/>一義。若爾，唯是二諦，故云諸佛常依二諦說
-<lb n="0091b29" ed="T"/>法也。次<note n="0091001" resp="Taisho" type="orig" place="foot text">時＝特ヵ【原】</note><note n="0091001" resp="CBETA" type="mod">時【大】，特【考偽-原】</note><app n="0091001"><lem resp="Taisho" wit="【大】">時</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">特</rdg></app>明二諦廢立義。問：有無表不有
+<lb n="0091b29" ed="T"/>法也。次<note 
+n="0091001" resp="Taisho" type="orig" place="foot text">時＝特ヵ【原】</note><note 
+n="0091001" resp="CBETA" type="mod">時【大】，特【考偽-原】</note><app n="0091001">
+  <lem resp="Taisho" wit="【大】">時</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">特</rdg>
+</app>明二諦廢立義。問：有無表不有
 <pb n="0091c" ed="T" xml:id="T45.1854.0091c"/>
 <lb n="0091c01" ed="T"/>無，悟不有無時，為廢有無、為不廢耶？次結二
 <lb n="0091c02" ed="T"/>難。若悟不有無廢有無，如得月忘指者，不然。
@@ -1354,7 +1604,8 @@
 <lb n="0091c11" ed="T"/>約謂情邊，即須廢之。何者？明汝所見有者，竝
 <lb n="0091c12" ed="T"/>顛倒所感，如瓶衣等皆是眾生顛倒所感、妄
 <lb n="0091c13" ed="T"/>想見有。故《中論》云「若謂以現見而有生滅者，
-<lb n="0091c14" ed="T"/>即為是癡妄而見有生滅。顛<note n="0091002" resp="Taisho" type="orig" place="foot text">(cf. P. 86b [01])</note><note n="0091002" type="cf." place="foot">(cf. P. 86b [01])</note>倒感得此眼，求
+<lb n="0091c14" ed="T"/>即為是癡妄而見有生滅。顛<note 
+n="0091002" resp="Taisho" type="orig" place="foot text">(cf. P. 86b [01])</note><note n="0091002" type="cf." place="foot">(cf. P. 86b [01])</note>倒感得此眼，求
 <lb n="0091c15" ed="T"/>此眼不可得，諸法亦不可得，特癡妄見有。」
 <lb n="0091c16" ed="T"/>是故須廢也。此則用空廢有，若更著空亦復
 <lb n="0091c17" ed="T"/>須廢。何者？本由有故有空；既無有，何得有
@@ -1362,10 +1613,16 @@
 <lb n="0091c19" ed="T"/>「若有不空法，可有於空法。不空法尚無，何得
 <lb n="0091c20" ed="T"/>有空法？」此之空有皆是情謂，故皆須廢。乃至
 <lb n="0091c21" ed="T"/>第三節，謂情言有亦皆須廢。何者？竝是謂情，
-<lb n="0091c22" ed="T"/>皆須廢之也。</p><p xml:id="pT45p0091c2206" cb:place="inline">問：若此三種二諦皆廢，用何物
+<lb n="0091c22" ed="T"/>皆須廢之也。</p>
+<p xml:id="pT45p0091c2206" cb:place="inline">問：若此三種二諦皆廢，用何物
 <lb n="0091c23" ed="T"/>為二諦教耶？解云：約緣邊即是謂情，佛為說
 <lb n="0091c24" ed="T"/>邊即是教門。今明此等皆謂情，皆須廢之
-<lb n="0091c25" ed="T"/><note n="0091003" resp="Taisho" type="orig" place="foot text">〔也〕－【甲】</note><note n="0091003" resp="CBETA" type="mod">也【大】，〔－〕【甲】</note><app n="0091003"><lem wit="【大】">也</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>。何以故？謂情所見皆是虛妄，故廢之也。
+<lb n="0091c25" ed="T"/><note 
+n="0091003" resp="Taisho" type="orig" place="foot text">〔也〕－【甲】</note><note 
+n="0091003" resp="CBETA" type="mod">也【大】，〔－〕【甲】</note><app n="0091003">
+  <lem wit="【大】">也</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>。何以故？謂情所見皆是虛妄，故廢之也。
 <lb n="0091c26" ed="T"/>又非但廢妄，亦無有實。本有虛故有實，既無
 <lb n="0091c27" ed="T"/>虛即無實，顯清淨正道。此亦名法身，亦名正
 <lb n="0091c28" ed="T"/>道，亦名實相也。然此已拔從來也。何者？從來
@@ -1380,9 +1637,15 @@
 <lb n="0092a07" ed="T"/>道果報名為世諦；斷取相煩惱、六道果報謝，
 <lb n="0092a08" ed="T"/>此即廢世諦而有真諦之境，由真諦境生佛
 <lb n="0092a09" ed="T"/>妙智，此即廢世諦立真諦。今明此之二諦竝
-<lb n="0092a10" ed="T"/>是謂情，皆悉須廢。何但初<note n="0092001" resp="Taisho" type="orig" place="foot text">〔節〕－【甲】</note><note n="0092001" resp="CBETA" type="mod">節【大】，〔－〕【甲】</note><app n="0092001"><lem wit="【大】">節</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>二諦須廢，乃
+<lb n="0092a10" ed="T"/>是謂情，皆悉須廢。何但初<note 
+n="0092001" resp="Taisho" type="orig" place="foot text">〔節〕－【甲】</note><note 
+n="0092001" resp="CBETA" type="mod">節【大】，〔－〕【甲】</note><app n="0092001">
+  <lem wit="【大】">節</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>二諦須廢，乃
 <lb n="0092a11" ed="T"/>至第三重皆須廢。何以故？此皆謂情，故須廢
-<lb n="0092a12" ed="T"/>之也。此即一往廢三，不廢不三也。</p><p xml:id="pT45p0092a1214" cb:place="inline">次就三種
+<lb n="0092a12" ed="T"/>之也。此即一往廢三，不廢不三也。</p>
+<p xml:id="pT45p0092a1214" cb:place="inline">次就三種
 <lb n="0092a13" ed="T"/>二諦中論廢不廢，明無方便三即廢、有方便
 <lb n="0092a14" ed="T"/>三即不廢。無方便三廢者，明此三倒謂有三，
 <lb n="0092a15" ed="T"/>實無此三，是故須廢。如陽炎謂是水，實無水
@@ -1397,7 +1660,12 @@
 <lb n="0092a24" ed="T"/>不二二，橫竪無礙。故肇師云「欲言其有，有
 <lb n="0092a25" ed="T"/>非真生；欲言其無，事像既形」，又云「譬如幻化
 <lb n="0092a26" ed="T"/>人，非無幻化人，幻化人非真人也」。此唯幻化
-<lb n="0092a27" ed="T"/>人非人，非人不無幻化人。<note n="0092002" resp="Taisho" type="orig" place="foot text">〔幻〕－【甲】</note><note n="0092002" resp="CBETA" type="mod">幻【大】，〔－〕【甲】</note><app n="0092002"><lem wit="【大】">幻</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>化人非人，非
+<lb n="0092a27" ed="T"/>人非人，非人不無幻化人。<note 
+n="0092002" resp="Taisho" type="orig" place="foot text">〔幻〕－【甲】</note><note 
+n="0092002" resp="CBETA" type="mod">幻【大】，〔－〕【甲】</note><app n="0092002">
+  <lem wit="【大】">幻</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>化人非人，非
 <lb n="0092a28" ed="T"/>人人。諸法亦爾，故不廢也。此就有方便無方
 <lb n="0092a29" ed="T"/>便、因緣不因緣論廢不廢如此。次更就謂情
 <pb n="0092b" ed="T" xml:id="T45.1854.0092b"/>
@@ -1410,16 +1678,27 @@
 <lb n="0092b07" ed="T"/>人。何故謂為除糞人？欲鄙之耳。故經云「念子
 <lb n="0092b08" ed="T"/>愚劣，樂為鄙事。」二乘斷惑既是除糞，菩薩斷
 <lb n="0092b09" ed="T"/>惑亦是除糞，齊而過甚。何者？同斷故是齊，斷
-<lb n="0092b10" ed="T"/>少多故過甚。二乘除糞，蓋<note n="0092003" resp="Taisho" type="orig" place="foot text">〔是〕－【甲】</note><note n="0092003" resp="CBETA" type="mod">是【大】，〔－〕【甲】</note><app n="0092003"><lem wit="【大】">是</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>不足言。菩薩時
+<lb n="0092b10" ed="T"/>少多故過甚。二乘除糞，蓋<note 
+n="0092003" resp="Taisho" type="orig" place="foot text">〔是〕－【甲】</note><note 
+n="0092003" resp="CBETA" type="mod">是【大】，〔－〕【甲】</note><app n="0092003">
+  <lem wit="【大】">是</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>不足言。菩薩時
 <lb n="0092b11" ed="T"/>長、除糞廣故，過之甚也。今明菩薩知惑本不
-<lb n="0092b12" ed="T"/>生、今不滅，何所斷？斯即生在佛家、種<note n="0092004" resp="Taisho" type="orig" place="foot text">姓＝性【甲】</note><note n="0092004" resp="CBETA" type="mod">姓【大】，性【甲】</note><app n="0092004"><lem wit="【大】">姓</lem><rdg resp="Taisho" wit="【甲】">性</rdg></app>尊
+<lb n="0092b12" ed="T"/>生、今不滅，何所斷？斯即生在佛家、種<note 
+n="0092004" resp="Taisho" type="orig" place="foot text">姓＝性【甲】</note><note 
+n="0092004" resp="CBETA" type="mod">姓【大】，性【甲】</note><app n="0092004">
+  <lem wit="【大】">姓</lem>
+  <rdg resp="Taisho" wit="【甲】">性</rdg>
+</app>尊
 <lb n="0092b13" ed="T"/>貴，如轉輪聖王皇太子也。唯見客作賤人除
 <lb n="0092b14" ed="T"/>糞，何曾聞長者之兒擔屎？故今明菩薩不斷
 <lb n="0092b15" ed="T"/>惑。何者？菩薩知惑本不生、今不滅，故無所斷
 <lb n="0092b16" ed="T"/>也。所以《淨名經》云「法本不生，今則無滅」，《法華》
 <lb n="0092b17" ed="T"/>云「諸法從本來，常自寂滅相」。從來云：菩薩無
 <lb n="0092b18" ed="T"/>生滅觀。何故明無生滅耶？如向所辨，知本不
-<lb n="0092b19" ed="T"/>生、今無所滅，故言菩薩不生不滅觀也。</p><p xml:id="pT45p0092b1916" cb:place="inline">問：他
+<lb n="0092b19" ed="T"/>生、今無所滅，故言菩薩不生不滅觀也。</p>
+<p xml:id="pT45p0092b1916" cb:place="inline">問：他
 <lb n="0092b20" ed="T"/>斷二惑得小聖，斷五住惑得大果。汝今不斷，
 <lb n="0092b21" ed="T"/>云何得言小聖大果耶？解云：汝斷惑得有聖；
 <lb n="0092b22" ed="T"/>我本無惑，豈無聖耶？又反之。汝見惑生今斷，
@@ -1435,29 +1714,39 @@
 <milestone n="2" unit="juan"/>
 <lb n="0092c02" ed="T"/>
 <lb n="0092c03" ed="T"/>
-<lb n="0092c04" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="2" type="卷">中</cb:mulu><cb:jhead><note n="0092005" resp="Taisho" type="orig" place="foot text">此卷甲本闕</note>二諦義中卷</cb:jhead></cb:juan>
+<lb n="0092c04" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="2" type="卷">中</cb:mulu><cb:jhead><note 
+n="0092005" resp="Taisho" type="orig" place="foot text">此卷甲本闕</note>二諦義中卷</cb:jhead></cb:juan>
 <lb n="0092c05" ed="T"/>
 <lb n="0092c06" ed="T"/><byline cb:type="author">胡吉藏撰</byline>
-<lb n="0092c07" ed="T"/><p xml:id="pT45p0092c0701">釋二諦名<note n="0092006" resp="Taisho" type="orig" place="foot text">者＝第二ィ【原】</note><note n="0092006" resp="CBETA" type="mod">者【大】，第二【校異-原】</note><app n="0092006"><lem wit="【大】">者</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">第二</rdg></app>，此義極難。解二諦名者，俗是浮
+<lb n="0092c07" ed="T"/><p xml:id="pT45p0092c0701">釋二諦名<note 
+n="0092006" resp="Taisho" type="orig" place="foot text">者＝第二ィ【原】</note><note 
+n="0092006" resp="CBETA" type="mod">者【大】，第二【校異-原】</note><app n="0092006">
+  <lem wit="【大】">者</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">第二</rdg>
+</app>，此義極難。解二諦名者，俗是浮
 <lb n="0092c08" ed="T"/>虛義、真是真實義，從來久解。今未知那得二
 <lb n="0092c09" ed="T"/>諦名而欲釋耶？解此問者，我家明二諦有兩
 <lb n="0092c10" ed="T"/>種：一教二諦、二於二諦。如來誠諦之言，名教二
 <lb n="0092c11" ed="T"/>諦；兩種謂情，名於二諦。此則就情智判於教
-<lb n="0092c12" ed="T"/>二諦也。</p><p xml:id="pT45p0092c1204" cb:place="inline">問：教諦是佛教，教諦名從佛起。於諦
+<lb n="0092c12" ed="T"/>二諦也。</p>
+<p xml:id="pT45p0092c1204" cb:place="inline">問：教諦是佛教，教諦名從佛起。於諦
 <lb n="0092c13" ed="T"/>是緣於，於諦名從緣起不？解云：教諦是佛教，
 <lb n="0092c14" ed="T"/>教諦名從佛起；於諦是緣於，於諦名亦從佛
 <lb n="0092c15" ed="T"/>起。難云：教諦是佛教，教諦從佛起；於諦是緣
 <lb n="0092c16" ed="T"/>於，於諦那得從佛起耶？解云：領僻。我云：教諦
 <lb n="0092c17" ed="T"/>是佛教，教諦名從佛起；於諦是緣於，於諦名
 <lb n="0092c18" ed="T"/>從佛起。於諦與於諦名，此語大挍。今明教諦
-<lb n="0092c19" ed="T"/>名從佛起，於諦名亦從佛起也。</p><p xml:id="pT45p0092c1913" cb:place="inline">問：教諦從佛
+<lb n="0092c19" ed="T"/>名從佛起，於諦名亦從佛起也。</p>
+<p xml:id="pT45p0092c1913" cb:place="inline">問：教諦從佛
 <lb n="0092c20" ed="T"/>起，於諦亦從佛起。教諦既是教，於諦亦是教。
-<lb n="0092c21" ed="T"/>反詰云云。解云：兩種二諦皆是佛教。</p><p xml:id="pT45p0092c2115" cb:place="inline">問：教諦
+<lb n="0092c21" ed="T"/>反詰云云。解云：兩種二諦皆是佛教。</p>
+<p xml:id="pT45p0092c2115" cb:place="inline">問：教諦
 <lb n="0092c22" ed="T"/>可是教，於諦若為亦是教？既有於教之殊，云
 <lb n="0092c23" ed="T"/>何併是教耶？解云：二於諦名，亦是為眾生故
 <lb n="0092c24" ed="T"/>說。為眾生說有，於凡是世諦；為眾生說空，於
 <lb n="0092c25" ed="T"/>聖人是真諦。為眾生說空有，是二於諦，故二
-<lb n="0092c26" ed="T"/>於諦亦是教也。</p><p xml:id="pT45p0092c2607" cb:place="inline">問二於諦名是佛說，名從佛
+<lb n="0092c26" ed="T"/>於諦亦是教也。</p>
+<p xml:id="pT45p0092c2607" cb:place="inline">問二於諦名是佛說，名從佛
 <lb n="0092c27" ed="T"/>起；空有二諦從何起耶？解云：只空有二諦，諸
 <lb n="0092c28" ed="T"/>佛出世故有，佛未出世則無。縮長為短釋。佛
 <lb n="0092c29" ed="T"/>未出世時，雖言空有，不知空有是二諦。如佛
@@ -1475,7 +1764,8 @@
 <lb n="0093a11" ed="T"/>於諦、二情智二於諦。兩情二於諦可解。何者？
 <lb n="0093a12" ed="T"/>兩情二於諦，從佛教起。明佛為眾生說二諦
 <lb n="0093a13" ed="T"/>教，眾生不了，作空有兩解，成兩於諦，此於從
-<lb n="0093a14" ed="T"/>教起也。</p><p xml:id="pT45p0093a1404" cb:place="inline">問情智二於諦，何因得有耶？解云：一
+<lb n="0093a14" ed="T"/>教起也。</p>
+<p xml:id="pT45p0093a1404" cb:place="inline">問情智二於諦，何因得有耶？解云：一
 <lb n="0093a15" ed="T"/>於但一、一於有二。一於但一者，凡夫顛倒，謂
 <lb n="0093a16" ed="T"/>瓶衣等諸法為有。此瓶衣等物，有佛無佛常
 <lb n="0093a17" ed="T"/>於凡夫是有。如《涅槃經》云「十二因緣，有佛無
@@ -1509,7 +1799,12 @@
 <lb n="0093b15" ed="T"/>節轉二節轉，何者是耶？一節轉者，說有於凡
 <lb n="0093b16" ed="T"/>是諦，說空於聖是諦。作如此說者，令眾生轉
 <lb n="0093b17" ed="T"/>有入空。何者？有於凡是有，此有實無所有。
-<lb n="0093b18" ed="T"/><note n="0093001" resp="Taisho" type="orig" place="foot text">宣＝直ィ【原】</note><note n="0093001" resp="CBETA" type="mod">宣【大】，直【校異-原】</note><app n="0093001"><lem wit="【大】">宣</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">直</rdg></app>說有，於凡是有，則知此有不有。此正為
+<lb n="0093b18" ed="T"/><note 
+n="0093001" resp="Taisho" type="orig" place="foot text">宣＝直ィ【原】</note><note 
+n="0093001" resp="CBETA" type="mod">宣【大】，直【校異-原】</note><app n="0093001">
+  <lem wit="【大】">宣</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">直</rdg>
+</app>說有，於凡是有，則知此有不有。此正為
 <lb n="0093b19" ed="T"/>凡夫，凡夫謂諸法實有，今說此有於凡是有。
 <lb n="0093b20" ed="T"/>若知有於凡是有，即知此有非有，斯則因有
 <lb n="0093b21" ed="T"/>悟不有。經云「知有不有」，又經云「欲令眾生深
@@ -1527,8 +1822,14 @@
 <lb n="0093c03" ed="T"/>不偏，清淨正道也。然作如此說，於諦者即是
 <lb n="0093c04" ed="T"/>教諦。何處別有教諦？只作如此目詺於諦，即
 <lb n="0093c05" ed="T"/>是教諦，即是依二諦說法。從來人聞師說於
-<lb n="0093c06" ed="T"/>諦教諦，作二諦解，誦語<note n="0093002" resp="Taisho" type="orig" place="foot text">（容）ィ＋鸚【原】</note><note n="0093002" resp="CBETA" type="mod">鸚【大】，容鸚【校異-原】</note><app n="0093002"><lem wit="【大】">鸚</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">容鸚</rdg></app>鵡喙鵄脚耳。今
-<lb n="0093c07" ed="T"/>明如向所明無別教諦，說於即教也。</p><p xml:id="pT45p0093c0715" cb:place="inline">問：若爾，
+<lb n="0093c06" ed="T"/>諦教諦，作二諦解，誦語<note 
+n="0093002" resp="Taisho" type="orig" place="foot text">（容）ィ＋鸚【原】</note><note 
+n="0093002" resp="CBETA" type="mod">鸚【大】，容鸚【校異-原】</note><app n="0093002">
+  <lem wit="【大】">鸚</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">容鸚</rdg>
+</app>鵡喙鵄脚耳。今
+<lb n="0093c07" ed="T"/>明如向所明無別教諦，說於即教也。</p>
+<p xml:id="pT45p0093c0715" cb:place="inline">問：若爾，
 <lb n="0093c08" ed="T"/>從來解那得云有於諦教諦耶？解云：於兩情
 <lb n="0093c09" ed="T"/>名二於諦；佛為眾生說此二於，即是教諦。更
 <lb n="0093c10" ed="T"/>無有二，但約義判。何者？於諦即是所、教諦即
@@ -1555,7 +1856,8 @@
 <lb n="0094a01" ed="T"/>色未曾空有，有見之人謂色有、空觀之人謂
 <lb n="0094a02" ed="T"/>色空。一色於空有兩緣成空有，故此空有竝
 <lb n="0094a03" ed="T"/>是失也。兩皆得者，只知於二，即知不二，此下
-<lb n="0094a04" ed="T"/>五句皆淨。於緣二，豈是二？</p><p xml:id="pT45p0094a0411" cb:place="inline">問：於二非是二，可
+<lb n="0094a04" ed="T"/>五句皆淨。於緣二，豈是二？</p>
+<p xml:id="pT45p0094a0411" cb:place="inline">問：於二非是二，可
 <lb n="0094a05" ed="T"/>是非二不二耶？解云：於二非是二，明非是二，
 <lb n="0094a06" ed="T"/>非謂是非二。既非二非不二，五句皆淨，斯則
 <lb n="0094a07" ed="T"/>上拂霄漢、下漏淵泉也。從來只云二於諦皆
@@ -1570,7 +1872,8 @@
 <lb n="0094a16" ed="T"/>境智也。言轉悟境者，只說於緣有，即知於有
 <lb n="0094a17" ed="T"/>不有；說於緣空，即知於空不空。識於有無不
 <lb n="0094a18" ed="T"/>有無，識教悟理。悟理即生權實二智，生二智
-<lb n="0094a19" ed="T"/>時空有之教即轉名境，故是轉悟境也。</p><p xml:id="pT45p0094a1916" cb:place="inline">問：猶
+<lb n="0094a19" ed="T"/>時空有之教即轉名境，故是轉悟境也。</p>
+<p xml:id="pT45p0094a1916" cb:place="inline">問：猶
 <lb n="0094a20" ed="T"/>有一疑妨。何者？前明二於諦一得一失，失是
 <lb n="0094a21" ed="T"/>所化、得是能化。今那得云說於空令悟不空？
 <lb n="0094a22" ed="T"/>若說於空令悟不空者，此乃所化，何謂能化
@@ -1582,7 +1885,8 @@
 <lb n="0094a28" ed="T"/>於空解。為此人故，說噵：於汝是空，諸法實非
 <lb n="0094a29" ed="T"/>空也。此約漸悟為論，前令悟有不有，次令悟
 <pb n="0094b" ed="T" xml:id="T45.1854.0094b"/>
-<lb n="0094b01" ed="T"/>空不空也。</p><p xml:id="pT45p0094b0105" cb:place="inline">問：他亦明有境諦、有教諦。彼有境
+<lb n="0094b01" ed="T"/>空不空也。</p>
+<p xml:id="pT45p0094b0105" cb:place="inline">問：他亦明有境諦、有教諦。彼有境
 <lb n="0094b02" ed="T"/>界法寶、有言教法寶，境界法寶即境諦，言教
 <lb n="0094b03" ed="T"/>法寶即教諦。汝既有教諦，他亦有教諦。汝有
 <lb n="0094b04" ed="T"/>如來誠諦之言，他可無如來誠諦之言耶？若
@@ -1592,16 +1896,33 @@
 <lb n="0094b08" ed="T"/>薩微細礙相，非二乘境界。」今亦爾，汝天然之
 <lb n="0094b09" ed="T"/>境，是今家麁失，故與彼大異也。所以《大論》云
 <lb n="0094b10" ed="T"/>「外道與佛法相去玄殊，猶若天地」，又云「天食
-<lb n="0094b11" ed="T"/>須陀比人中臭糞。又如驢牛二乳，驢乳<note n="0094001" resp="Taisho" type="orig" place="foot text">抨＋（則）ヵ【原】</note><note n="0094001" resp="CBETA" type="mod">抨【大】，抨則【考偽-原】</note><app n="0094001"><lem resp="Taisho" wit="【大】">抨</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">抨則</rdg></app>成
+<lb n="0094b11" ed="T"/>須陀比人中臭糞。又如驢牛二乳，驢乳<note 
+n="0094001" resp="Taisho" type="orig" place="foot text">抨＋（則）ヵ【原】</note><note 
+n="0094001" resp="CBETA" type="mod">抨【大】，抨則【考偽-原】</note><app n="0094001">
+  <lem resp="Taisho" wit="【大】">抨</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">抨則</rdg>
+</app>成
 <lb n="0094b12" ed="T"/>糞，牛乳抨則成蘇」。今亦爾，他得為今失也。此
-<lb n="0094b13" ed="T"/>即<note n="0094002" resp="Taisho" type="orig" place="foot text">〔是〕ィ－【原】</note><note n="0094002" resp="CBETA" type="mod">是【大】，〔－〕【校異-原】</note><app n="0094002"><lem wit="【大】">是</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>依二諦說法，二諦是境義也。</p><p xml:id="pT45p0094b1314" cb:place="inline">又問：教
-<lb n="0094b14" ed="T"/>諦為若異耶？解云：一往<note n="0094003" resp="Taisho" type="orig" place="foot text">拔＝擬ィ【原】</note><note n="0094003" resp="CBETA" type="mod">拔【大】，擬【校異-原】</note><app n="0094003"><lem wit="【大】">拔</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">擬</rdg></app>者，我有三種二
+<lb n="0094b13" ed="T"/>即<note 
+n="0094002" resp="Taisho" type="orig" place="foot text">〔是〕ィ－【原】</note><note 
+n="0094002" resp="CBETA" type="mod">是【大】，〔－〕【校異-原】</note><app n="0094002">
+  <lem wit="【大】">是</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>依二諦說法，二諦是境義也。</p>
+<p xml:id="pT45p0094b1314" cb:place="inline">又問：教
+<lb n="0094b14" ed="T"/>諦為若異耶？解云：一往<note 
+n="0094003" resp="Taisho" type="orig" place="foot text">拔＝擬ィ【原】</note><note 
+n="0094003" resp="CBETA" type="mod">拔【大】，擬【校異-原】</note><app n="0094003">
+  <lem wit="【大】">拔</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">擬</rdg>
+</app>者，我有三種二
 <lb n="0094b15" ed="T"/>諦。汝所明二諦，是我初節二諦。三假有為世
 <lb n="0094b16" ed="T"/>諦、四絕為真諦，此之二諦，是我家初節二諦
 <lb n="0094b17" ed="T"/>也。又問：汝二諦教表何物？彼云：二諦還表二
 <lb n="0094b18" ed="T"/>理。若爾，二還表二，指還指指也。又彼唯有二、無
 <lb n="0094b19" ed="T"/>不二，則唯有教無理，無理則無教。今有理即
-<lb n="0094b20" ed="T"/>有教，具足理教也。</p><p xml:id="pT45p0094b2008" cb:place="inline">前來明立名意，今次釋名。
+<lb n="0094b20" ed="T"/>有教，具足理教也。</p>
+<p xml:id="pT45p0094b2008" cb:place="inline">前來明立名意，今次釋名。
 <lb n="0094b21" ed="T"/>然雖無名而名，是故今釋名也。故肇師云：「無
 <lb n="0094b22" ed="T"/>名之道，于何不名？」師云：「於無名相中，強名相
 <lb n="0094b23" ed="T"/>說。」既無名強說名者，為令因名悟無名，說名
@@ -1621,10 +1942,12 @@
 <lb n="0094c07" ed="T"/>說名令眾生悟名無名，不住名亦不住無名。
 <lb n="0094c08" ed="T"/>舉譬如雙六打隱，打不隱即為他打。說二諦
 <lb n="0094c09" ed="T"/>名本為除病，若住名中，名復成病。今明二諦
-<lb n="0094c10" ed="T"/>如雙六打隱也。</p><p xml:id="pT45p0094c1007" cb:place="inline">問：何故恒作此釋？解云：只為
+<lb n="0094c10" ed="T"/>如雙六打隱也。</p>
+<p xml:id="pT45p0094c1007" cb:place="inline">問：何故恒作此釋？解云：只為
 <lb n="0094c11" ed="T"/>恒有此病，故恒作此說，如諸聲聞恒障菩薩
 <lb n="0094c12" ed="T"/>道故也。師何因得如此解？學龍樹、提婆兩論
-<lb n="0094c13" ed="T"/>主。兩論主何因得此解？學諸佛也。</p><p xml:id="pT45p0094c1314" cb:place="inline">問曰：經中
+<lb n="0094c13" ed="T"/>主。兩論主何因得此解？學諸佛也。</p>
+<p xml:id="pT45p0094c1314" cb:place="inline">問曰：經中
 <lb n="0094c14" ed="T"/>有立有破，何得言皆破耶？解云：經中若立若
 <lb n="0094c15" ed="T"/>破，皆為破病。何者？經中若說一色一香，皆為顯
 <lb n="0094c16" ed="T"/>道。若不顯道，可不破病。既若立若破皆為顯
@@ -1634,22 +1957,30 @@
 <lb n="0094c20" ed="T"/>既然，大師亦爾，破此新舊等病，故作如此說
 <lb n="0094c21" ed="T"/>也。然道義大意如此，必須得如此意，非為立
 <lb n="0094c22" ed="T"/>名道義，乃道義為息名也。將欲息名，故前須
-<lb n="0094c23" ed="T"/>釋名。</p><p xml:id="pT45p0094c2303" cb:place="inline">釋名凡有四句：一者一名一義、二者一名
+<lb n="0094c23" ed="T"/>釋名。</p>
+<p xml:id="pT45p0094c2303" cb:place="inline">釋名凡有四句：一者一名一義、二者一名
 <lb n="0094c24" ed="T"/>無量義、三者一義一名、四者一義無量名。名不
 <lb n="0094c25" ed="T"/>出此二種，義莫過斯之二條。言一名一義者，
-<lb n="0094c26" ed="T"/>一名即一俗名、一真名。一義者，俗<note n="0094004" resp="Taisho" type="orig" place="foot text">〔以〕ィ－【原】</note><note n="0094004" resp="CBETA" type="mod">以【大】，〔－〕【校異-原】</note><app n="0094004"><lem wit="【大】">以</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>浮虛義、
+<lb n="0094c26" ed="T"/>一名即一俗名、一真名。一義者，俗<note 
+n="0094004" resp="Taisho" type="orig" place="foot text">〔以〕ィ－【原】</note><note 
+n="0094004" resp="CBETA" type="mod">以【大】，〔－〕【校異-原】</note><app n="0094004">
+  <lem wit="【大】">以</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>浮虛義、
 <lb n="0094c27" ed="T"/>真真實義。從來得此一句。今明是四句中一
 <lb n="0094c28" ed="T"/>句也。次一名無量義者，若為一名無量義耶？
 <lb n="0094c29" ed="T"/>解言：一是無量一，一豈不是無量？此則無量
 <pb n="0095a" ed="T" xml:id="T45.1854.0095a"/>
 <lb n="0095a01" ed="T"/>一、一無量。故經云「一中解無量，無量中解一。」
-<lb n="0095a02" ed="T"/>展轉生非實智者，無所畏也。</p><p xml:id="pT45p0095a0212" cb:place="inline">問曰：若為一名
+<lb n="0095a02" ed="T"/>展轉生非實智者，無所畏也。</p>
+<p xml:id="pT45p0095a0212" cb:place="inline">問曰：若為一名
 <lb n="0095a03" ed="T"/>有無量義耶？解云：就四義解之。一隨名釋、二
 <lb n="0095a04" ed="T"/>就因緣釋、三顯道釋、四無方釋。隨名釋者，如
 <lb n="0095a05" ed="T"/>俗以浮虛為義，又俗以風俗為義。然此具出
 <lb n="0095a06" ed="T"/>內外，故律有國土毘尼，隨國土處所，風俗不
 <lb n="0095a07" ed="T"/>同也。《禮記》云「君子行禮，不求變俗。」故風俗為
-<lb n="0095a08" ed="T"/>義也。從來唯得前釋，無有後解也。</p><p xml:id="pT45p0095a0814" cb:place="inline">問：此兩釋
+<lb n="0095a08" ed="T"/>義也。從來唯得前釋，無有後解也。</p>
+<p xml:id="pT45p0095a0814" cb:place="inline">問：此兩釋
 <lb n="0095a09" ed="T"/>何異？解云：俗以浮虛為義，此即望真釋。明聖
 <lb n="0095a10" ed="T"/>人所知真實，凡夫所知浮虛，對真釋俗也。若
 <lb n="0095a11" ed="T"/>是風俗釋俗，則當俗釋俗，只處所風俗不同，
@@ -1662,11 +1993,13 @@
 <lb n="0095a18" ed="T"/>人是浮虛草木浮虛。何以故？為制戒令佛法
 <lb n="0095a19" ed="T"/>久住故。所以不得明物浮虛無所有，但明國
 <lb n="0095a20" ed="T"/>土風俗不同也。此則就經律釋異，由來亦不
-<lb n="0095a21" ed="T"/>知也。</p><p xml:id="pT45p0095a2103" cb:place="inline">次第二就因緣釋義者，明俗真義、真俗
+<lb n="0095a21" ed="T"/>知也。</p>
+<p xml:id="pT45p0095a2103" cb:place="inline">次第二就因緣釋義者，明俗真義、真俗
 <lb n="0095a22" ed="T"/>義。何者？俗非真則不俗、真非俗則不真。非真
 <lb n="0095a23" ed="T"/>則不俗，俗不礙真；非俗則不真，真不礙俗。俗
 <lb n="0095a24" ed="T"/>不礙真，俗以真為義；真不礙俗，真以俗為義
-<lb n="0095a25" ed="T"/>也。</p><p xml:id="pT45p0095a2502" cb:place="inline">問：前隨名釋有二義，一望他當自釋、二約
+<lb n="0095a25" ed="T"/>也。</p>
+<p xml:id="pT45p0095a2502" cb:place="inline">問：前隨名釋有二義，一望他當自釋、二約
 <lb n="0095a26" ed="T"/>經就律釋。今就何物義釋耶？解云：對有礙有
 <lb n="0095a27" ed="T"/>得就無得無礙釋。若言俗浮虛義、真真實義，
 <lb n="0095a28" ed="T"/>此是凡夫二乘有得解義。今明菩薩無得無
@@ -1674,13 +2007,15 @@
 <pb n="0095b" ed="T" xml:id="T45.1854.0095b"/>
 <lb n="0095b01" ed="T"/>義。他俗定俗、真定真，三假定俗不得真、四忘
 <lb n="0095b02" ed="T"/>定真不得俗，真俗有礙，聲聞解義。今明真是
-<lb n="0095b03" ed="T"/>俗義、俗是真義，真俗無礙，菩薩解義也。</p><p xml:id="pT45p0095b0316" cb:place="inline">問：何
+<lb n="0095b03" ed="T"/>俗義、俗是真義，真俗無礙，菩薩解義也。</p>
+<p xml:id="pT45p0095b0316" cb:place="inline">問：何
 <lb n="0095b04" ed="T"/>故作如此說耶？解云：對彼自性，明今因緣。因
 <lb n="0095b05" ed="T"/>緣動彼自性之執。故經云「前以定動，後以智
 <lb n="0095b06" ed="T"/>拔。」今前明因緣動彼性執，後當拔之也。但今
 <lb n="0095b07" ed="T"/>一往且明因緣動彼自性。彼明浮虛定俗義、
 <lb n="0095b08" ed="T"/>真實定真義。為是故，今動搖已，明俗是真義、
-<lb n="0095b09" ed="T"/>真是俗義也。</p><p xml:id="pT45p0095b0906" cb:place="inline">問：若為俗是真義、真是俗義？空
+<lb n="0095b09" ed="T"/>真是俗義也。</p>
+<p xml:id="pT45p0095b0906" cb:place="inline">問：若為俗是真義、真是俗義？空
 <lb n="0095b10" ed="T"/>是色義、色是空義耶？解云：《大品經》中自釋。彼
 <lb n="0095b11" ed="T"/>經云「色即空、空即色。真即俗、俗即真。」既云真
 <lb n="0095b12" ed="T"/>即俗，真豈非俗義？又《中論》云「因緣所生法，我
@@ -1698,7 +2033,8 @@
 <lb n="0095b24" ed="T"/>無法，了達非有無。以達有不有，故不有為有
 <lb n="0095b25" ed="T"/>義。達無不無，故不無為無義。亦如了達明無
 <lb n="0095b26" ed="T"/>明二不二，既達二即不二，故不二為二義。了
-<lb n="0095b27" ed="T"/>達真俗不真俗，故不真俗為真俗義也。</p><p xml:id="pT45p0095b2716" cb:place="inline">問：何
+<lb n="0095b27" ed="T"/>達真俗不真俗，故不真俗為真俗義也。</p>
+<p xml:id="pT45p0095b2716" cb:place="inline">問：何
 <lb n="0095b28" ed="T"/>故明不真俗為真俗義耶？解云：前明因緣，橫
 <lb n="0095b29" ed="T"/>義動；今真俗不真俗，竪義拔。橫義動、竪義拔，
 <pb n="0095c" ed="T" xml:id="T45.1854.0095c"/>
@@ -1708,12 +2044,14 @@
 <lb n="0095c04" ed="T"/>真俗，自性永斷。為是義故，前橫伏、今竪斷也。</p>
 <lb n="0095c05" ed="T"/><p xml:id="pT45p0095c0501">次第四節無方釋義者，明俗以一切法為義，
 <lb n="0095c06" ed="T"/>人是俗義、柱是俗義、生死是俗義、涅槃是俗
-<lb n="0095c07" ed="T"/>義。無方無礙，故一切法皆是俗義也。</p><p xml:id="pT45p0095c0715" cb:place="inline">問：何故
+<lb n="0095c07" ed="T"/>義。無方無礙，故一切法皆是俗義也。</p>
+<p xml:id="pT45p0095c0715" cb:place="inline">問：何故
 <lb n="0095c08" ed="T"/>明一切諸法皆是俗義耶？解云：從前第三義
 <lb n="0095c09" ed="T"/>生。前第三義云：俗不俗義、真不真義，真俗悟
 <lb n="0095c10" ed="T"/>不真俗，此則悟無礙道。既悟無礙道，故有無
 <lb n="0095c11" ed="T"/>礙用。以得無礙用故，所以一切法為俗義也。
-<lb n="0095c12" ed="T"/>前則是從用入道，今則從道出用也。</p><p xml:id="pT45p0095c1215" cb:place="inline">問：若為
+<lb n="0095c12" ed="T"/>前則是從用入道，今則從道出用也。</p>
+<p xml:id="pT45p0095c1215" cb:place="inline">問：若為
 <lb n="0095c13" ed="T"/>得一切法竝是俗義耶？且引例通。汝家有別
 <lb n="0095c14" ed="T"/>待、通待義。長短真俗因果待即別待；長待不
 <lb n="0095c15" ed="T"/>長、俗待不俗，此即通待義。所以俗待不俗為
@@ -1721,14 +2059,20 @@
 <lb n="0095c17" ed="T"/>也。一切法是不俗；不俗待俗，不俗既是俗
 <lb n="0095c18" ed="T"/>義，故一切即俗義也。又汎簡待義。從來云長
 <lb n="0095c19" ed="T"/>短待因果待、瓶衣二果不得待。今明瓶衣二
-<lb n="0095c20" ed="T"/>果相待也。</p><p xml:id="pT45p0095c2005" cb:place="inline">問：高下相傾、有無相生，可得待。瓶
+<lb n="0095c20" ed="T"/>果相待也。</p>
+<p xml:id="pT45p0095c2005" cb:place="inline">問：高下相傾、有無相生，可得待。瓶
 <lb n="0095c21" ed="T"/>衣二果云何待耶？反問：汝是非得待不？是瓶
 <lb n="0095c22" ed="T"/>待非瓶不？彼云：是非得待，瓶待非瓶也。若爾，
 <lb n="0095c23" ed="T"/>衣是非瓶。非瓶既待瓶、衣即待瓶也。衣既待
 <lb n="0095c24" ed="T"/>瓶，則瓶衣因緣，衣是瓶義、瓶是衣義。衣既是
 <lb n="0095c25" ed="T"/>瓶義，一切物皆是瓶義也。又明一切法是俗
 <lb n="0095c26" ed="T"/>義者，就如義顯之。色如一切法如，色如即一
-<lb n="0095c27" ed="T"/>切法如，一切法即<note n="0095001" resp="Taisho" type="orig" place="foot text">色＋（如）ヵ【原】</note><note n="0095001" resp="CBETA" type="mod">色【大】，色如【考偽-原】</note><app n="0095001"><lem resp="Taisho" wit="【大】">色</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">色如</rdg></app>。舉譬如破僧佉大有與
+<lb n="0095c27" ed="T"/>切法如，一切法即<note 
+n="0095001" resp="Taisho" type="orig" place="foot text">色＋（如）ヵ【原】</note><note 
+n="0095001" resp="CBETA" type="mod">色【大】，色如【考偽-原】</note><app n="0095001">
+  <lem resp="Taisho" wit="【大】">色</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">色如</rdg>
+</app>。舉譬如破僧佉大有與
 <lb n="0095c28" ed="T"/>瓶一義，為有瓶不異，有即瓶；有與萬法不異，
 <lb n="0095c29" ed="T"/>萬法亦即瓶。今亦爾，如與俗不異，俗即如；如
 <pb n="0096a" ed="T" xml:id="T45.1854.0096a"/>
@@ -1753,9 +2097,11 @@
 <lb n="0096a19" ed="T"/>一義一名也。一義無量名者，還以一道為一
 <lb n="0096a20" ed="T"/>義。無量名者，為顯一道立無量名，立無量名
 <lb n="0096a21" ed="T"/>為顯一道。既為一道立無量名，無量名豈不
-<lb n="0096a22" ed="T"/>顯乎一道？故言一義無量名也。</p><p xml:id="pT45p0096a2213" cb:place="inline">問：若為無量名
+<lb n="0096a22" ed="T"/>顯乎一道？故言一義無量名也。</p>
+<p xml:id="pT45p0096a2213" cb:place="inline">問：若為無量名
 <lb n="0096a23" ed="T"/>耶？解云：名無量略出四種，謂世諦、俗諦、真諦、
-<lb n="0096a24" ed="T"/>第一義諦。</p><p xml:id="pT45p0096a2405" cb:place="inline">問：唯有此四名不？解云：名無量，世
+<lb n="0096a24" ed="T"/>第一義諦。</p>
+<p xml:id="pT45p0096a2405" cb:place="inline">問：唯有此四名不？解云：名無量，世
 <lb n="0096a25" ed="T"/>諦、俗諦、有諦、凡諦、真諦、第一義諦、空諦、聖諦。故
 <lb n="0096a26" ed="T"/>《華嚴．四諦品》云「此娑婆世界，有四十億百千
 <lb n="0096a27" ed="T"/>那由他四諦名，況十方世界名號。」斯則有眾
@@ -1763,11 +2109,18 @@
 <lb n="0096a29" ed="T"/>略釋世與俗、真與第一義四名也。然此四名有
 <pb n="0096b" ed="T" xml:id="T45.1854.0096b"/>
 <lb n="0096b01" ed="T"/>離、有合。合者，合世、俗為一諦，合真、第一為一
-<lb n="0096b02" ed="T"/>諦。故經云「世俗諦故<note n="0096001" resp="Taisho" type="orig" place="foot text">說＋（有）ヵ【原】</note><note n="0096001" resp="CBETA" type="mod">說【大】，說有【考偽-原】</note><app n="0096001"><lem resp="Taisho" wit="【大】">說</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">說有</rdg></app>，第一實義故即無」
-<lb n="0096b03" ed="T"/>也。離者，則有世諦、俗諦、真諦、第一義諦。</p><p xml:id="pT45p0096b0316" cb:place="inline">問：何
+<lb n="0096b02" ed="T"/>諦。故經云「世俗諦故<note 
+n="0096001" resp="Taisho" type="orig" place="foot text">說＋（有）ヵ【原】</note><note 
+n="0096001" resp="CBETA" type="mod">說【大】，說有【考偽-原】</note><app n="0096001">
+  <lem resp="Taisho" wit="【大】">說</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">說有</rdg>
+</app>，第一實義故即無」
+<lb n="0096b03" ed="T"/>也。離者，則有世諦、俗諦、真諦、第一義諦。</p>
+<p xml:id="pT45p0096b0316" cb:place="inline">問：何
 <lb n="0096b04" ed="T"/>故或離或合耶？解云：為存略故離釋，為義同
 <lb n="0096b05" ed="T"/>故合明。世、俗名雖異，其義是同，故合名世俗
-<lb n="0096b06" ed="T"/>諦。真、第一義亦爾也。</p><p xml:id="pT45p0096b0609" cb:place="inline">問：此之四諦名，何異他？
+<lb n="0096b06" ed="T"/>諦。真、第一義亦爾也。</p>
+<p xml:id="pT45p0096b0609" cb:place="inline">問：此之四諦名，何異他？
 <lb n="0096b07" ed="T"/>解云：真、俗，當體得名；世與第一，褒貶為稱。言
 <lb n="0096b08" ed="T"/>真俗當體得名者，明俗是浮虛為義，當體浮
 <lb n="0096b09" ed="T"/>虛；真是真實為義，當體真實。故真俗當體得
@@ -1786,7 +2139,8 @@
 <lb n="0096b22" ed="T"/>真實，第一亦當體第一。若對凡非第一，褒聖
 <lb n="0096b23" ed="T"/>為第一；亦對凡非真實，褒聖是真實。若言褒
 <lb n="0096b24" ed="T"/>真為第一，亦褒第一為真，何得言真是當體，第
-<lb n="0096b25" ed="T"/>一為褒耶？</p><p xml:id="pT45p0096b2505" cb:place="inline">問：難他如此。今作若為解釋耶？今
+<lb n="0096b25" ed="T"/>一為褒耶？</p>
+<p xml:id="pT45p0096b2505" cb:place="inline">問：難他如此。今作若為解釋耶？今
 <lb n="0096b26" ed="T"/>明世與俗是橫竪之名。何者？俗名則橫，世名
 <lb n="0096b27" ed="T"/>則竪。俗橫者，俗是風俗義，處處皆有風俗之
 <lb n="0096b28" ed="T"/>法。故云「君子行禮，不求變俗」。一切國土各有
@@ -1804,7 +2158,8 @@
 <lb n="0096c10" ed="T"/>然，世亦爾。此則望聖，世與俗皆虛妄顛倒。就
 <lb n="0096c11" ed="T"/>顛倒中，自有俗有世、有橫有竪也。此有差別、
 <lb n="0096c12" ed="T"/>無差別義。以聖望之，同是顛倒，故無差別；而
-<lb n="0096c13" ed="T"/>不無世俗橫竪，故有差別也。</p><p xml:id="pT45p0096c1312" cb:place="inline">問：望聖唯無差
+<lb n="0096c13" ed="T"/>不無世俗橫竪，故有差別也。</p>
+<p xml:id="pT45p0096c1312" cb:place="inline">問：望聖唯無差
 <lb n="0096c14" ed="T"/>別，亦有差別耶？解云：就聖亦知彼差別。故《大
 <lb n="0096c15" ed="T"/>品》云「若諸法無所有者，何故有六道差別耶？
 <lb n="0096c16" ed="T"/>佛答云：於彼顛倒故，有六道差別不同。」若爾，
@@ -1815,24 +2170,34 @@
 <lb n="0096c21" ed="T"/>對虛明實、對俗明真也。第一義對凡非第一，
 <lb n="0096c22" ed="T"/>明聖所解是第一。何時褒為第一？對非第一。
 <lb n="0096c23" ed="T"/>明第一若是褒者，對非真實明真實亦應
-<lb n="0096c24" ed="T"/>是褒。反詰云云。</p><p xml:id="pT45p0096c2407" cb:place="inline">問：若爾，從來何意言真俗當
+<lb n="0096c24" ed="T"/>是褒。反詰云云。</p>
+<p xml:id="pT45p0096c2407" cb:place="inline">問：若爾，從來何意言真俗當
 <lb n="0096c25" ed="T"/>體、世第一是褒貶耶？解云：師作此釋別有意。
 <lb n="0096c26" ed="T"/>若守語不得意，還成鸚鵡喙鵄足類耳。且自
-<lb n="0096c27" ed="T"/>思之。</p><p xml:id="pT45p0096c2703" cb:place="inline">問：前明俗橫世竪。俗有二釋：浮虛義，望
+<lb n="0096c27" ed="T"/>思之。</p>
+<p xml:id="pT45p0096c2703" cb:place="inline">問：前明俗橫世竪。俗有二釋：浮虛義，望
 <lb n="0096c28" ed="T"/>真釋俗；風俗義，當體釋俗。世有代謝義、隔別
 <lb n="0096c29" ed="T"/>義，此望何義釋耶？解云：代謝隔別竝當體釋，
 <pb n="0097a" ed="T" xml:id="T45.1854.0097a"/>
-<lb n="0097a01" ed="T"/>世中自有代謝隔別也。</p><p xml:id="pT45p0097a0110" cb:place="inline">問：唯得是當體釋，亦是
+<lb n="0097a01" ed="T"/>世中自有代謝隔別也。</p>
+<p xml:id="pT45p0097a0110" cb:place="inline">問：唯得是當體釋，亦是
 <lb n="0097a02" ed="T"/>諸佛說耶？解云：亦得是佛說。但此說隨世說
-<lb n="0097a03" ed="T"/>世，與前說俗異。前說俗是浮虛義，反<note n="0097001" resp="Taisho" type="orig" place="foot text">俗＝真ヵ【原】</note><note n="0097001" resp="CBETA" type="mod">俗【大】，真【考偽-原】</note><app n="0097001"><lem resp="Taisho" wit="【大】">俗</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">真</rdg></app>說
-<lb n="0097a04" ed="T"/>俗；今說世是代謝隔別，隨世說世也。</p><p xml:id="pT45p0097a0415" cb:place="inline">問：何故
+<lb n="0097a03" ed="T"/>世，與前說俗異。前說俗是浮虛義，反<note 
+n="0097001" resp="Taisho" type="orig" place="foot text">俗＝真ヵ【原】</note><note 
+n="0097001" resp="CBETA" type="mod">俗【大】，真【考偽-原】</note><app n="0097001">
+  <lem resp="Taisho" wit="【大】">俗</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">真</rdg>
+</app>說
+<lb n="0097a04" ed="T"/>俗；今說世是代謝隔別，隨世說世也。</p>
+<p xml:id="pT45p0097a0415" cb:place="inline">問：何故
 <lb n="0097a05" ed="T"/>說此二耶？解云：眾生自謂所解為實，聖人詺
 <lb n="0097a06" ed="T"/>云：非實，乃是虛妄。復有眾生謂其所解是第
 <lb n="0097a07" ed="T"/>一無過者，聖人詺云：汝所解非第一，乃是世
 <lb n="0097a08" ed="T"/>人所解耳。為是故，佛說世說俗也。俗有浮虛、
 <lb n="0097a09" ed="T"/>風俗，世有代謝、隔別，此之四名，有廣有狹、有
 <lb n="0097a10" ed="T"/>通有別。何者？風俗與代謝則別，浮虛與隔別
-<lb n="0097a11" ed="T"/>則通。別則狹，通則廣也。</p><p xml:id="pT45p0097a1110" cb:place="inline">問：何故但解此名耶？
+<lb n="0097a11" ed="T"/>則通。別則狹，通則廣也。</p>
+<p xml:id="pT45p0097a1110" cb:place="inline">問：何故但解此名耶？
 <lb n="0097a12" ed="T"/>解云：此四名具通別廣狹。通別廣狹攝一切
 <lb n="0097a13" ed="T"/>盡，故但解此四名也。眾生國土等世間風俗，
 <lb n="0097a14" ed="T"/>但是風俗之法，唯是無常，所以為狹。若是浮
@@ -1842,15 +2207,19 @@
 <lb n="0097a18" ed="T"/>常流動法故狹，隔別則通常無常、空有，常無
 <lb n="0097a19" ed="T"/>常空有隔別也。故〈佛母品〉云「示五陰世間、十
 <lb n="0097a20" ed="T"/>八界世間、十力世間、一切種智世間。」世間即
-<lb n="0097a21" ed="T"/>隔別，故隔別廣也。</p><p xml:id="pT45p0097a2108" cb:place="inline">次釋諦義。例前亦應有四：
+<lb n="0097a21" ed="T"/>隔別，故隔別廣也。</p>
+<p xml:id="pT45p0097a2108" cb:place="inline">次釋諦義。例前亦應有四：
 <lb n="0097a22" ed="T"/>一依名、二因緣、三顯道、四無方，今就依名釋。
 <lb n="0097a23" ed="T"/>諦以審實為義，於諦於兩情審實，故名為諦
-<lb n="0097a24" ed="T"/>也。</p><p xml:id="pT45p0097a2402" cb:place="inline">問：於諦為當屬境、為當在智耶？解云：於諦
+<lb n="0097a24" ed="T"/>也。</p>
+<p xml:id="pT45p0097a2402" cb:place="inline">問：於諦為當屬境、為當在智耶？解云：於諦
 <lb n="0097a25" ed="T"/>於兩情智為名。何者？於凡所解為俗諦，於聖
 <lb n="0097a26" ed="T"/>所解為真諦。於兩情智為諦，不取空有兩境
-<lb n="0097a27" ed="T"/>為諦也。</p><p xml:id="pT45p0097a2704" cb:place="inline">問：於諦是智，教諦屬何耶？一切法不
+<lb n="0097a27" ed="T"/>為諦也。</p>
+<p xml:id="pT45p0097a2704" cb:place="inline">問：於諦是智，教諦屬何耶？一切法不
 <lb n="0097a28" ed="T"/>出境智，境智往收，為屬境、為屬智耶？解云：教
-<lb n="0097a29" ed="T"/>諦屬境。</p><p xml:id="pT45p0097a2904" cb:place="inline">問：教諦若為是境耶？從來多不解此
+<lb n="0097a29" ed="T"/>諦屬境。</p>
+<p xml:id="pT45p0097a2904" cb:place="inline">問：教諦若為是境耶？從來多不解此
 <pb n="0097b" ed="T" xml:id="T45.1854.0097b"/>
 <lb n="0097b01" ed="T"/>義，聞此亦不知是何言。今明是境者，如來如
 <lb n="0097b02" ed="T"/>行而說、如說而行。如說而行，即二智照空有
@@ -1859,24 +2228,32 @@
 <lb n="0097b05" ed="T"/>空有則名境；說空有義表一道，即名教。境即能
 <lb n="0097b06" ed="T"/>所、教即所能。教能表道，故教是所能。境是所
 <lb n="0097b07" ed="T"/>照，故境是能所。所照名境、能表為教，故教諦
-<lb n="0097b08" ed="T"/>屬境攝也。</p><p xml:id="pT45p0097b0805" cb:place="inline">問：若爾，從來那得云緣稟二諦教
+<lb n="0097b08" ed="T"/>屬境攝也。</p>
+<p xml:id="pT45p0097b0805" cb:place="inline">問：若爾，從來那得云緣稟二諦教
 <lb n="0097b09" ed="T"/>生智之時，教轉名境耶？解云：此不相關，前是
 <lb n="0097b10" ed="T"/>能化、後是所化。此凡經兩過轉，前境轉為教、
 <lb n="0097b11" ed="T"/>後教轉為境。何者？如來二智照名為境，次說
 <lb n="0097b12" ed="T"/>表一道則轉名教。所化緣稟此教，識教悟理
 <lb n="0097b13" ed="T"/>生智，教轉名境。此則教諦或名境或名教也。</p>
-<lb n="0097b14" ed="T"/><p xml:id="pT45p0097b1401">問：教諦既得是教是境，於諦亦得是教境<note n="0097002" resp="Taisho" type="orig" place="foot text">已＝以ィ【原】</note><note n="0097002" resp="CBETA" type="mod">已【大】，以【校異-原】</note><app n="0097002"><lem wit="【大】">已</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">以</rdg></app>
+<lb n="0097b14" ed="T"/><p xml:id="pT45p0097b1401">問：教諦既得是教是境，於諦亦得是教境<note 
+n="0097002" resp="Taisho" type="orig" place="foot text">已＝以ィ【原】</note><note 
+n="0097002" resp="CBETA" type="mod">已【大】，以【校異-原】</note><app n="0097002">
+  <lem wit="【大】">已</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">以</rdg>
+</app>
 <lb n="0097b15" ed="T"/>不？解云：於彼何容不得？但無表道教，無生智
 <lb n="0097b16" ed="T"/>境，於諦不轉故也。於二諦不能表十方三世
 <lb n="0097b17" ed="T"/>諸佛正道，故不得名教。復不能生法身父母，
 <lb n="0097b18" ed="T"/>故不得名境。若於彼是諦、於彼是境、於彼是
 <lb n="0097b19" ed="T"/>教、於彼是理。何者？彼亦有言說，故有教。彼亦
 <lb n="0097b20" ed="T"/>言有理，故於彼有理。此之理教，竝是謂情故
-<lb n="0097b21" ed="T"/>也。次更正於諦教諦義。</p><p xml:id="pT45p0097b2110" cb:place="inline">問：於諦是兩謂情，教
+<lb n="0097b21" ed="T"/>也。次更正於諦教諦義。</p>
+<p xml:id="pT45p0097b2110" cb:place="inline">問：於諦是兩謂情，教
 <lb n="0097b22" ed="T"/>諦得是諸佛二智不？解云：然。教諦亦名二諦、
 <lb n="0097b23" ed="T"/>亦名二境、亦名二智、亦名二身。諸佛二智為
 <lb n="0097b24" ed="T"/>教諦、眾生謂情為於諦，此則迷悟判於教。何
-<lb n="0097b25" ed="T"/>者？於諦即是迷情，教諦則是悟智也。</p><p xml:id="pT45p0097b2515" cb:place="inline">問：若為
+<lb n="0097b25" ed="T"/>者？於諦即是迷情，教諦則是悟智也。</p>
+<p xml:id="pT45p0097b2515" cb:place="inline">問：若為
 <lb n="0097b26" ed="T"/>教諦是二智耶？解云：諸佛如行而說、如說而
 <lb n="0097b27" ed="T"/>行。如行而說，說我所行，如說而行，行我所
 <lb n="0097b28" ed="T"/>說。說我所行，說名行說；行我所說，行名說
@@ -1889,8 +2266,10 @@
 <lb n="0097c05" ed="T"/>說？說只說二智，故云「欲知智在說」，故二諦即
 <lb n="0097c06" ed="T"/>是二智。但隨義不同，表理義為教、宣智義名
 <lb n="0097c07" ed="T"/>智、所照義名境。若爾，教諦之名，亦得名境、亦
-<lb n="0097c08" ed="T"/>得名智也。</p><p xml:id="pT45p0097c0805" cb:place="inline">問：於諦得如此不？解云：於諦，於智、
-<lb n="0097c09" ed="T"/>於教、於境，定性義也。</p><p xml:id="pT45p0097c0909" cb:place="inline">問：他亦明二諦是二境、
+<lb n="0097c08" ed="T"/>得名智也。</p>
+<p xml:id="pT45p0097c0805" cb:place="inline">問：於諦得如此不？解云：於諦，於智、
+<lb n="0097c09" ed="T"/>於教、於境，定性義也。</p>
+<p xml:id="pT45p0097c0909" cb:place="inline">問：他亦明二諦是二境、
 <lb n="0097c10" ed="T"/>二境是二見，今亦明二諦是二教、二教亦是
 <lb n="0097c11" ed="T"/>二見，與彼更何異耶？解云：他二諦定是二境。
 <lb n="0097c12" ed="T"/>今明二諦是教，不定是教，表理則名教、所照
@@ -1898,7 +2277,8 @@
 <lb n="0097c14" ed="T"/>即知境不定境。若如此解，即是悟理。悟時悟
 <lb n="0097c15" ed="T"/>教非教，即知理非理教、理非教理，如幻如化、
 <lb n="0097c16" ed="T"/>空谷之嚮、明鏡之像，雖如幻化而理教宛然
-<lb n="0097c17" ed="T"/>也。</p><p xml:id="pT45p0097c1702" cb:place="inline">次更正前二於諦。問：前二於諦，一往判有
+<lb n="0097c17" ed="T"/>也。</p>
+<p xml:id="pT45p0097c1702" cb:place="inline">次更正前二於諦。問：前二於諦，一往判有
 <lb n="0097c18" ed="T"/>得失、有凡聖。故論云「諸法性空，世間顛倒謂
 <lb n="0097c19" ed="T"/>有，於凡為實，名之為諦。諸賢聖真知顛倒性
 <lb n="0097c20" ed="T"/>空，於聖是實，名之為諦。」有於凡實，凡但有有
@@ -1906,7 +2286,12 @@
 <lb n="0097c22" ed="T"/>然。一往於凡聖兩實名諦，有於凡實為諦、空
 <lb n="0097c23" ed="T"/>於聖實為諦。若兩互望，二竝非諦。何者？有於
 <lb n="0097c24" ed="T"/>凡是諦，空於凡非諦。凡夫謂瓶衣等法現見
-<lb n="0097c25" ed="T"/><note n="0097003" resp="Taisho" type="orig" place="foot text">定＝是ィ【原】</note><note n="0097003" resp="CBETA" type="mod">定【大】，是【校異-原】</note><app n="0097003"><lem wit="【大】">定</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">是</rdg></app>有，故有為實，空非實；聖人瓶衣等空是
+<lb n="0097c25" ed="T"/><note 
+n="0097003" resp="Taisho" type="orig" place="foot text">定＝是ィ【原】</note><note 
+n="0097003" resp="CBETA" type="mod">定【大】，是【校異-原】</note><app n="0097003">
+  <lem wit="【大】">定</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">是</rdg>
+</app>有，故有為實，空非實；聖人瓶衣等空是
 <lb n="0097c26" ed="T"/>實，瓶衣等有非實。故一家云：凡實為聖虛、聖
 <lb n="0097c27" ed="T"/>實為凡虛，凡虛為聖實、聖虛為凡實。若爾，凡
 <lb n="0097c28" ed="T"/>聖各有一諦，凡但有有諦、聖但有空諦也。難：
@@ -1918,7 +2303,8 @@
 <lb n="0098a04" ed="T"/>人但有一智，聖人具權實二智也。若言但有
 <lb n="0098a05" ed="T"/>一智則謗聖人，信一半、不信一半。故經云「信
 <lb n="0098a06" ed="T"/>六部、不信六部，信不具足。」今若言聖有空智
-<lb n="0098a07" ed="T"/>無有智，則信不具足也。</p><p xml:id="pT45p0098a0710" cb:place="inline">問：今明聖有一諦而
+<lb n="0098a07" ed="T"/>無有智，則信不具足也。</p>
+<p xml:id="pT45p0098a0710" cb:place="inline">問：今明聖有一諦而
 <lb n="0098a08" ed="T"/>具有二智，然此解偏揭。聖人既具有二智，即
 <lb n="0098a09" ed="T"/>應有二諦。何得但有一諦有於二智耶？解云：
 <lb n="0098a10" ed="T"/>聖有二智者，聖人知諸法性空故有實智，復
@@ -1926,13 +2312,24 @@
 <lb n="0098a12" ed="T"/>實智，照顛倒浮虛名權智。諦則不爾，二諦皆
 <lb n="0098a13" ed="T"/>不倒，智則知倒知不倒也。二者知實為實智、
 <lb n="0098a14" ed="T"/>知虛為權智，知虛實故有二智。諦則不爾，二
-<lb n="0098a15" ed="T"/>皆是實。為是義故，聖人一諦而有二智也。</p><p xml:id="pT45p0098a1517" cb:place="inline">次
+<lb n="0098a15" ed="T"/>皆是實。為是義故，聖人一諦而有二智也。</p>
+<p xml:id="pT45p0098a1517" cb:place="inline">次
 <lb n="0098a16" ed="T"/>更釋二諦名。前出他釋。他云：俗諦審實浮虛、
-<lb n="0098a17" ed="T"/>真諦審實真實，以<note n="0098001" resp="Taisho" type="orig" place="foot text">審＝真ヵ【原】</note><note n="0098001" resp="CBETA" type="mod">審【大】，真【考偽-原】</note><app n="0098001"><lem resp="Taisho" wit="【大】">審</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">真</rdg></app>實浮虛，故名真俗二
+<lb n="0098a17" ed="T"/>真諦審實真實，以<note 
+n="0098001" resp="Taisho" type="orig" place="foot text">審＝真ヵ【原】</note><note 
+n="0098001" resp="CBETA" type="mod">審【大】，真【考偽-原】</note><app n="0098001">
+  <lem resp="Taisho" wit="【大】">審</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">真</rdg>
+</app>實浮虛，故名真俗二
 <lb n="0098a18" ed="T"/>諦。今難：汝真諦審實、俗諦審虛。若爾，則審虛
 <lb n="0098a19" ed="T"/>為諦，何謂審實為諦耶？彼云：俗審實是浮虛，
 <lb n="0098a20" ed="T"/>是故審實為俗諦。何者？俗三假、真四忘，俗實
-<lb n="0098a21" ed="T"/>是虛假也。今<note n="0098002" resp="Taisho" type="orig" place="foot text">家＝釋ィ【原】</note><note n="0098002" resp="CBETA" type="mod">家【大】，釋【校異-原】</note><app n="0098002"><lem wit="【大】">家</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">釋</rdg></app>者，諦以審實為義。俗於凡
+<lb n="0098a21" ed="T"/>是虛假也。今<note 
+n="0098002" resp="Taisho" type="orig" place="foot text">家＝釋ィ【原】</note><note 
+n="0098002" resp="CBETA" type="mod">家【大】，釋【校異-原】</note><app n="0098002">
+  <lem wit="【大】">家</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">釋</rdg>
+</app>者，諦以審實為義。俗於凡
 <lb n="0098a22" ed="T"/>實、真於聖實，故諦以實為義也。然此釋具出
 <lb n="0098a23" ed="T"/>經論。凡有兩論釋：一者《百論》、二者《中論》。《百論》
 <lb n="0098a24" ed="T"/>云「俗於世人為實」也。《中論》云「俗諦者，一切法
@@ -1940,7 +2337,8 @@
 <lb n="0098a26" ed="T"/>諸賢聖真知諸法空，於聖人為實，名之為
 <lb n="0098a27" ed="T"/>諦。」此則兩論皆以審實釋諦也。我明諦是
 <lb n="0098a28" ed="T"/>審實，出於論文。汝明俗諦審虛，出何處耶？
-<lb n="0098a29" ed="T"/>責之無通也。</p><p xml:id="pT45p0098a2906" cb:place="inline">問：汝難他如此。汝明二諦皆
+<lb n="0098a29" ed="T"/>責之無通也。</p>
+<p xml:id="pT45p0098a2906" cb:place="inline">問：汝難他如此。汝明二諦皆
 <pb n="0098b" ed="T" xml:id="T45.1854.0098b"/>
 <lb n="0098b01" ed="T"/>審實，若為相待耶？解云：俗諦於凡是諦、於聖
 <lb n="0098b02" ed="T"/>非諦，空於聖是諦、於凡非諦。如《中論》明諸法
@@ -1948,17 +2346,20 @@
 <lb n="0098b04" ed="T"/>空為諦。此則有於凡是諦、空於凡非諦。何者？
 <lb n="0098b05" ed="T"/>凡聞空不信，謂是虛妄非是真實；若瓶衣等
 <lb n="0098b06" ed="T"/>法，道理是有。何以故？今現見瓶衣等法是有
-<lb n="0098b07" ed="T"/>故，謂諸法道理實有也。</p><p xml:id="pT45p0098b0710" cb:place="inline">問：既道理實有，云何
+<lb n="0098b07" ed="T"/>故，謂諸法道理實有也。</p>
+<p xml:id="pT45p0098b0710" cb:place="inline">問：既道理實有，云何
 <lb n="0098b08" ed="T"/>是於諦耶？解云：於凡道理是有，故名於諦也。
 <lb n="0098b09" ed="T"/>次空於聖是諦，有於聖非諦。何者？聖人知諸
 <lb n="0098b10" ed="T"/>法虛妄非實；若諸法性空，此為真實。故論云
 <lb n="0098b11" ed="T"/>「諸賢聖真知諸法性空」，故諸法道理是空也。</p>
 <lb n="0098b12" ed="T"/><p xml:id="pT45p0098b1201">問：既道理是空，云何是於耶？解云：於聖道理
-<lb n="0098b13" ed="T"/>是空，故云於諦也。</p><p xml:id="pT45p0098b1308" cb:place="inline">問：若爾，云何得相待耶？解
+<lb n="0098b13" ed="T"/>是空，故云於諦也。</p>
+<p xml:id="pT45p0098b1308" cb:place="inline">問：若爾，云何得相待耶？解
 <lb n="0098b14" ed="T"/>云：《百論》明相待義。論文云「相待故，如大小」。
 <lb n="0098b15" ed="T"/>言相待如大小者，如一㮈望苽為小、望棗則
 <lb n="0098b16" ed="T"/>為大，㮈亦大亦小。俗亦爾，望凡為諦、望聖
-<lb n="0098b17" ed="T"/>則非諦，俗亦諦亦非諦也。</p><p xml:id="pT45p0098b1711" cb:place="inline">問：何意舉大小釋
+<lb n="0098b17" ed="T"/>則非諦，俗亦諦亦非諦也。</p>
+<p xml:id="pT45p0098b1711" cb:place="inline">問：何意舉大小釋
 <lb n="0098b18" ed="T"/>耶？解云：此引例通。前明俗亦諦亦非諦，彼
 <lb n="0098b19" ed="T"/>即云：若是則應言是、非則應言非，云何猶
 <lb n="0098b20" ed="T"/>豫，云亦是亦非耶？即為是故舉㮈釋。如一㮈
@@ -1974,7 +2375,12 @@
 <pb n="0098c" ed="T" xml:id="T45.1854.0098c"/>
 <lb n="0098c01" ed="T"/>俗。難：俗待不俗，不俗還是俗，乃俗待俗。長
 <lb n="0098c02" ed="T"/>待不長，不長還是長，則長待長也。彼又云：
-<lb n="0098c03" ed="T"/>俗待真。難：汝真諦四<note n="0098003" resp="Taisho" type="orig" place="foot text">念＝忘ィ【原】</note><note n="0098003" resp="CBETA" type="mod">念【大】，忘【校異-原】</note><app n="0098003"><lem wit="【大】">念</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">忘</rdg></app>都絕，何得俗待真
+<lb n="0098c03" ed="T"/>俗待真。難：汝真諦四<note 
+n="0098003" resp="Taisho" type="orig" place="foot text">念＝忘ィ【原】</note><note 
+n="0098003" resp="CBETA" type="mod">念【大】，忘【校異-原】</note><app n="0098003">
+  <lem wit="【大】">念</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">忘</rdg>
+</app>都絕，何得俗待真
 <lb n="0098c04" ed="T"/>耶？汝義俗有三假、真非三假。汝今既俗待
 <lb n="0098c05" ed="T"/>真，真則是相待假。何者？長待短，長是能待、
 <lb n="0098c06" ed="T"/>短是所待，能待所待皆是待。俗待真，俗是
@@ -1985,11 +2391,13 @@
 <lb n="0098c11" ed="T"/>若名是真諦，那得言真絕名？進退無通也。前
 <lb n="0098c12" ed="T"/>明諦非諦義未訖。若為未訖耶？前云俗亦諦
 <lb n="0098c13" ed="T"/>亦非諦，俗於凡是諦、於聖非諦。真亦爾，亦諦
-<lb n="0098c14" ed="T"/>亦非諦，真於聖是諦、於凡非諦。</p><p xml:id="pT45p0098c1413" cb:place="inline">問：汝解如此
+<lb n="0098c14" ed="T"/>亦非諦，真於聖是諦、於凡非諦。</p>
+<p xml:id="pT45p0098c1413" cb:place="inline">問：汝解如此
 <lb n="0098c15" ed="T"/>耳。論何時作如此說耶？解云：論所以但明俗
 <lb n="0098c16" ed="T"/>是諦非諦。此有義。何者？欲明二諦根本義。發
 <lb n="0098c17" ed="T"/>初開真俗二諦者，但俗得是亦諦亦非諦，真
-<lb n="0098c18" ed="T"/>唯得是諦、不得是非諦。</p><p xml:id="pT45p0098c1810" cb:place="inline">問：何意爾？解云：既名
+<lb n="0098c18" ed="T"/>唯得是諦、不得是非諦。</p>
+<p xml:id="pT45p0098c1810" cb:place="inline">問：何意爾？解云：既名
 <lb n="0098c19" ed="T"/>真，真即是真實為義，故真唯得是諦，不得是
 <lb n="0098c20" ed="T"/>非諦。若言俗諦即可疑。何者？俗是浮虛非實，
 <lb n="0098c21" ed="T"/>既言俗，那得為諦耶？是故釋云俗亦諦亦非
@@ -1998,7 +2406,8 @@
 <lb n="0098c24" ed="T"/>者，聖得望聖、聖得望凡，凡但望凡、凡不得望
 <lb n="0098c25" ed="T"/>聖，故真但諦不得非諦，俗亦諦亦非諦。言
 <lb n="0098c26" ed="T"/>聖得望聖、聖得望凡者，聖人了達聖境，故得
-<lb n="0098c27" ed="T"/>望聖。</p><p xml:id="pT45p0098c2703" cb:place="inline">問：何物是聖境？解云：諸法性空，聖
+<lb n="0098c27" ed="T"/>望聖。</p>
+<p xml:id="pT45p0098c2703" cb:place="inline">問：何物是聖境？解云：諸法性空，聖
 <lb n="0098c28" ed="T"/>人還了達。聖空為實，故空於聖名諦；聖人
 <lb n="0098c29" ed="T"/>復了達凡夫顛倒虛妄有非實，故有於聖非
 <pb n="0099a" ed="T" xml:id="T45.1854.0099a"/>
@@ -2010,7 +2419,8 @@
 <lb n="0099a06" ed="T"/>二者若知聖空，則便成聖，空成真諦，復不得
 <lb n="0099a07" ed="T"/>是非諦。大而為言，俗為凡知，復為聖知，故俗
 <lb n="0099a08" ed="T"/>亦諦亦非諦。真唯是聖知，凡不能知，故真唯
-<lb n="0099a09" ed="T"/>諦，不得為非諦也。</p><p xml:id="pT45p0099a0908" cb:place="inline">問：若爾，乖前言。前言俗亦
+<lb n="0099a09" ed="T"/>諦，不得為非諦也。</p>
+<p xml:id="pT45p0099a0908" cb:place="inline">問：若爾，乖前言。前言俗亦
 <lb n="0099a10" ed="T"/>諦亦非諦，於凡是諦、於聖非諦；真亦諦亦非
 <lb n="0099a11" ed="T"/>諦，於聖是諦、於凡非諦。有四句義，有於凡
 <lb n="0099a12" ed="T"/>實、空於聖實，空於凡虛、有於聖虛。凡實為聖
@@ -2025,7 +2435,8 @@
 <lb n="0099a21" ed="T"/>有，若於諸法本性空便不生信，故性空於凡
 <lb n="0099a22" ed="T"/>非諦。非是凡知性空，謂性空是虛非諦，乃是
 <lb n="0099a23" ed="T"/>聖詺道凡於性空不生信，故言非諦耳。若爾，
-<lb n="0099a24" ed="T"/>前後無相違也。</p><p xml:id="pT45p0099a2407" cb:place="inline">次更釋於名。問：因緣假有為
+<lb n="0099a24" ed="T"/>前後無相違也。</p>
+<p xml:id="pT45p0099a2407" cb:place="inline">次更釋於名。問：因緣假有為
 <lb n="0099a25" ed="T"/>教諦，謂情性有為於諦不？解云：從來解如此。
 <lb n="0099a26" ed="T"/>因緣假有是不有有，不有有悟有不有，名為
 <lb n="0099a27" ed="T"/>教諦。若是性有則有，故有名於諦。好乎唯得
@@ -2035,7 +2446,8 @@
 <lb n="0099b01" ed="T"/>法性空，世間顛倒謂有」，故諸法本無，於眾生
 <lb n="0099b02" ed="T"/>有，為於也。若言諸法無所有因緣有，因緣有
 <lb n="0099b03" ed="T"/>不有有名教諦，眾生有故有名於諦。此是後
-<lb n="0099b04" ed="T"/>時語耳。</p><p xml:id="pT45p0099b0404" cb:place="inline">次更釋於諦義。明眾生本無所有，於
+<lb n="0099b04" ed="T"/>時語耳。</p>
+<p xml:id="pT45p0099b0404" cb:place="inline">次更釋於諦義。明眾生本無所有，於
 <lb n="0099b05" ed="T"/>眾生有。故《大品》云「眾生顛倒因緣，故有六道
 <lb n="0099b06" ed="T"/>差別。」又《涅槃》云「隨其流處，有六味不同。」然此
 <lb n="0099b07" ed="T"/>語竝是釋於義。何者？六道本性清淨無所有，
@@ -2046,7 +2458,8 @@
 <lb n="0099b12" ed="T"/>令眾生悟道。何者？既云於六，即知不六也。
 <lb n="0099b13" ed="T"/>如人可怜，實不可怜而言可怜者，於此可怜。
 <lb n="0099b14" ed="T"/>既知於可怜，即悟不可怜。諸法亦爾，於有即
-<lb n="0099b15" ed="T"/>悟不有也。</p><p xml:id="pT45p0099b1505" cb:place="inline">次釋真於諦也。問：俗於諦既然，可
+<lb n="0099b15" ed="T"/>悟不有也。</p>
+<p xml:id="pT45p0099b1505" cb:place="inline">次釋真於諦也。問：俗於諦既然，可
 <lb n="0099b16" ed="T"/>得真於諦亦爾不？實無有，於凡有；實無空，於
 <lb n="0099b17" ed="T"/>聖空不耶？解云：一往發趾開真俗二於諦，不
 <lb n="0099b18" ed="T"/>得如此。何者？說於凡有，亦為化凡；說於聖空，
@@ -2081,7 +2494,8 @@
 <lb n="0099c17" ed="T"/>淨，正士非淨非不淨。亦於五百聲聞不見、於
 <lb n="0099c18" ed="T"/>諸菩薩見，正道非見不見，兩人竝非見。一往
 <lb n="0099c19" ed="T"/>聲聞修別異善根、菩薩修無得善，故聲聞不
-<lb n="0099c20" ed="T"/>見、菩薩見，望道併不見也。</p><p xml:id="pT45p0099c2011" cb:place="inline">問：諸菩薩在法界
+<lb n="0099c20" ed="T"/>見、菩薩見，望道併不見也。</p>
+<p xml:id="pT45p0099c2011" cb:place="inline">問：諸菩薩在法界
 <lb n="0099c21" ed="T"/>中，既於諸菩薩見者，如來亦在中，亦於如來
 <lb n="0099c22" ed="T"/>見不？釋云：不例。如來隨汝見，如來何曾有見
 <lb n="0099c23" ed="T"/>不見？故經云「隨順眾生故，普入諸世間。智慧
@@ -2089,7 +2503,8 @@
 <lb n="0099c25" ed="T"/>來非見不見，於汝見、於汝不見。見不見既是
 <lb n="0099c26" ed="T"/>於，即知道非見非不見。今亦爾，於二乘二、於
 <lb n="0099c27" ed="T"/>菩薩不二，二不二既是於，即知道非二非不二
-<lb n="0099c28" ed="T"/>也。如此三節，竝是於，非是正道也。</p><p xml:id="pT45p0099c2814" cb:place="inline">問：若為是
+<lb n="0099c28" ed="T"/>也。如此三節，竝是於，非是正道也。</p>
+<p xml:id="pT45p0099c2814" cb:place="inline">問：若為是
 <lb n="0099c29" ed="T"/>正道耶？解云：諸佛不能行、諸佛不能到、諸佛
 <pb n="0100a" ed="T" xml:id="T45.1854.0100a"/>
 <lb n="0100a01" ed="T"/>不能說。今作若為說耶？故經云「諸法寂滅相，
@@ -2097,7 +2512,8 @@
 <lb n="0100a03" ed="T"/>十方佛亦然。」諸大聲聞、不退菩薩皆不能了
 <lb n="0100a04" ed="T"/>也。然此始是好。情智二諦，前來三節竝是情
 <lb n="0100a05" ed="T"/>謂二諦，離前三節乃是智諦。所以《法華》明如
-<lb n="0100a06" ed="T"/>來從三昧安詳而起，歎甚深二智也。</p><p xml:id="pT45p0100a0615" cb:place="inline">次更從
+<lb n="0100a06" ed="T"/>來從三昧安詳而起，歎甚深二智也。</p>
+<p xml:id="pT45p0100a0615" cb:place="inline">次更從
 <lb n="0100a07" ed="T"/>前釋。問：前云六道無所有，於眾生有六道。諸
 <lb n="0100a08" ed="T"/>佛隨眾生現五道身，為是俗諦、為是真諦？真
 <lb n="0100a09" ed="T"/>諦則無六道，眾生無所有。有既是於諦，佛隨
@@ -2107,7 +2523,12 @@
 <lb n="0100a13" ed="T"/>既非於，應非是俗。解云：是俗，非是於。何者？以
 <lb n="0100a14" ed="T"/>虛假故是俗，非實有故非於諦。自有是俗非
 <lb n="0100a15" ed="T"/>於諦、自有是俗是於諦。顛倒六道，則是俗是
-<lb n="0100a16" ed="T"/>於諦；諸佛隨眾生，是俗非於諦也。次<note n="0100001" resp="Taisho" type="orig" place="foot text">〔時〕－ヵ【原】</note><note n="0100001" resp="CBETA" type="mod">時【大】，〔－〕【考偽-原】</note><app n="0100001"><lem resp="Taisho" wit="【大】">時</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>更
+<lb n="0100a16" ed="T"/>於諦；諸佛隨眾生，是俗非於諦也。次<note 
+n="0100001" resp="Taisho" type="orig" place="foot text">〔時〕－ヵ【原】</note><note 
+n="0100001" resp="CBETA" type="mod">時【大】，〔－〕【考偽-原】</note><app n="0100001">
+  <lem resp="Taisho" wit="【大】">時</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>更
 <lb n="0100a17" ed="T"/>簡此語。六道無所有，於眾生有六道，是俗諦。
 <lb n="0100a18" ed="T"/>諸佛隨眾生有六道。故經云「隨順眾生故，普
 <lb n="0100a19" ed="T"/>入諸世間。」既隨眾生有六道身，為是真諦、為
@@ -2128,7 +2549,8 @@
 <lb n="0100b04" ed="T"/>諦義。何者？其自有風俗、世俗之俗。此之風俗
 <lb n="0100b05" ed="T"/>及與世俗，於其竝實，故亦俗亦諦也。風俗之
 <lb n="0100b06" ed="T"/>俗則橫、世俗隔別則竪，此之橫竪皆實，故名
-<lb n="0100b07" ed="T"/>俗諦也。</p><p xml:id="pT45p0100b0704" cb:place="inline">問：若爾，從來何意云俗非諦，緣諦俗
+<lb n="0100b07" ed="T"/>俗諦也。</p>
+<p xml:id="pT45p0100b0704" cb:place="inline">問：若爾，從來何意云俗非諦，緣諦俗
 <lb n="0100b08" ed="T"/>故名俗諦耶？解云：此語有兩望。何者？俗非諦
 <lb n="0100b09" ed="T"/>則望聖，緣諦俗名諦則就緣。望聖，俗是浮虛，
 <lb n="0100b10" ed="T"/>故非諦；於緣為實，故秤諦。所以云俗非諦緣
@@ -2138,16 +2560,19 @@
 <lb n="0100b14" ed="T"/>次更簡前諸佛隨眾生有六道是俗非諦，為
 <lb n="0100b15" ed="T"/>當唯得是俗非諦，亦得是諦耶？解云：此言非
 <lb n="0100b16" ed="T"/>諦者，明隨順眾生示有六道，非是情謂實有
-<lb n="0100b17" ed="T"/>之於諦耳。</p><p xml:id="pT45p0100b1705" cb:place="inline">問：既非於諦，得是何物耶？解云：得
+<lb n="0100b17" ed="T"/>之於諦耳。</p>
+<p xml:id="pT45p0100b1705" cb:place="inline">問：既非於諦，得是何物耶？解云：得
 <lb n="0100b18" ed="T"/>是教諦。然諸佛菩薩從實方便起迹現身說
 <lb n="0100b19" ed="T"/>教，所現不出形聲，故形聲等竝是教諦。何者？
 <lb n="0100b20" ed="T"/>此兩種竝諦。當根緣不差，是故名諦。此之兩
-<lb n="0100b21" ed="T"/>種實能表道，是故名諦也。</p><p xml:id="pT45p0100b2111" cb:place="inline">問：俗諦中有四句，
+<lb n="0100b21" ed="T"/>種實能表道，是故名諦也。</p>
+<p xml:id="pT45p0100b2111" cb:place="inline">問：俗諦中有四句，
 <lb n="0100b22" ed="T"/>真諦中亦有四句不？解云：真諦但有兩句，一
 <lb n="0100b23" ed="T"/>者是真是諦、二者是真非諦。是真是諦，此可
 <lb n="0100b24" ed="T"/>知，真必是諦也。言是真非諦者，隨真說故是
 <lb n="0100b25" ed="T"/>真，非情謂之實故非諦，如前隨俗諦說非俗
-<lb n="0100b26" ed="T"/>諦，今亦爾也。</p><p xml:id="pT45p0100b2606" cb:place="inline">次更明於諦教諦合論諦義，有
+<lb n="0100b26" ed="T"/>諦，今亦爾也。</p>
+<p xml:id="pT45p0100b2606" cb:place="inline">次更明於諦教諦合論諦義，有
 <lb n="0100b27" ed="T"/>三句：一者能諦所非諦、二者所諦能非諦、三
 <lb n="0100b28" ed="T"/>者亦能亦所諦。能諦所非諦，即是於諦。所諦
 <lb n="0100b29" ed="T"/>能非諦，即教諦。亦能亦所諦，於教合論。言於
@@ -2176,27 +2601,42 @@
 <lb n="0100c22" ed="T"/>佛門。今亦爾，教能通實，故云實也。亦能亦
 <lb n="0100c23" ed="T"/>所者，即理教合說，非理則不教、不教則不理。
 <lb n="0100c24" ed="T"/>非理不教，教名理教；非教不理，理名教理。理
-<lb n="0100c25" ed="T"/>教因緣，斯二皆實，故能所皆諦也。</p><p xml:id="pT45p0100c2514" cb:place="inline">問：教諦有
+<lb n="0100c25" ed="T"/>教因緣，斯二皆實，故能所皆諦也。</p>
+<p xml:id="pT45p0100c2514" cb:place="inline">問：教諦有
 <lb n="0100c26" ed="T"/>三句，於諦亦有三句不耶？解云：於諦但有一
-<lb n="0100c27" ed="T"/>句，唯是能諦，能謂之情為諦也。</p><p xml:id="pT45p0100c2713" cb:place="inline">次更舉事顯
+<lb n="0100c27" ed="T"/>句，唯是能諦，能謂之情為諦也。</p>
+<p xml:id="pT45p0100c2713" cb:place="inline">次更舉事顯
 <lb n="0100c28" ed="T"/>此三名，自有從能不從所、從所不從能、具從
 <lb n="0100c29" ed="T"/>能所。從所不從能者，如飲食名為食。何者？口
 <pb n="0101a" ed="T" xml:id="T45.1854.0101a"/>
 <lb n="0101a01" ed="T"/>能食飲、食是所食、而飲食名食者，此即從所
 <lb n="0101a02" ed="T"/>名食也。從能不從所者，如云行路。路是所
 <lb n="0101a03" ed="T"/>行、人是能行，但從人能行為名也。具從能所
-<lb n="0101a04" ed="T"/>者，如云洗。水<note n="0101001" resp="Taisho" type="orig" place="foot text">（水）ヵ＋是【原】</note><note n="0101001" resp="CBETA" type="mod">是【大】，水是【考偽-原】</note><app n="0101001"><lem resp="Taisho" wit="【大】">是</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">水是</rdg></app>能洗、物是所洗，直云洗，通
+<lb n="0101a04" ed="T"/>者，如云洗。水<note 
+n="0101001" resp="Taisho" type="orig" place="foot text">（水）ヵ＋是【原】</note><note 
+n="0101001" resp="CBETA" type="mod">是【大】，水是【考偽-原】</note><app n="0101001">
+  <lem resp="Taisho" wit="【大】">是</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">水是</rdg>
+</app>能洗、物是所洗，直云洗，通
 <lb n="0101a05" ed="T"/>能所也。世間得名既有此三句不同，故諦得
-<lb n="0101a06" ed="T"/>名亦有三句不同。</p><p xml:id="pT45p0101a0608" cb:place="inline">次簡經中一句義。《涅槃經》
+<lb n="0101a06" ed="T"/>名亦有三句不同。</p>
+<p xml:id="pT45p0101a0608" cb:place="inline">次簡經中一句義。《涅槃經》
 <lb n="0101a07" ed="T"/>文殊問二諦義云「世諦中有第一義不？第一
-<lb n="0101a08" ed="T"/>義中有世諦不？如其有者，即是一<note n="0101002" resp="Taisho" type="orig" place="foot text">〔義〕ィ－【原】</note><note n="0101002" resp="CBETA" type="mod">義【大】，〔－〕【校異-原】</note><app n="0101002"><lem wit="【大】">義</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>諦。如
+<lb n="0101a08" ed="T"/>義中有世諦不？如其有者，即是一<note 
+n="0101002" resp="Taisho" type="orig" place="foot text">〔義〕ィ－【原】</note><note 
+n="0101002" resp="CBETA" type="mod">義【大】，〔－〕【校異-原】</note><app n="0101002">
+  <lem wit="【大】">義</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>諦。如
 <lb n="0101a09" ed="T"/>其無者，將非如來虛妄說耶？佛答云：世諦即
 <lb n="0101a10" ed="T"/>是第一義諦。有善方便，隨順眾生說有二諦。」
 <lb n="0101a11" ed="T"/>此明道理唯有一諦、無有二諦，但隨順眾生
-<lb n="0101a12" ed="T"/>故說二諦也。</p><p xml:id="pT45p0101a1206" cb:place="inline">問：若為唯有一諦耶？大師舊云：
+<lb n="0101a12" ed="T"/>故說二諦也。</p>
+<p xml:id="pT45p0101a1206" cb:place="inline">問：若為唯有一諦耶？大師舊云：
 <lb n="0101a13" ed="T"/>有四諦、二諦、一諦。言四諦者，真諦俗諦、空諦
 <lb n="0101a14" ed="T"/>有諦也。二諦者，空有二諦，還是真俗二諦。有
-<lb n="0101a15" ed="T"/>還是俗、空還是真，故言二諦也。</p><p xml:id="pT45p0101a1513" cb:place="inline">問：一諦者，若
+<lb n="0101a15" ed="T"/>還是俗、空還是真，故言二諦也。</p>
+<p xml:id="pT45p0101a1513" cb:place="inline">問：一諦者，若
 <lb n="0101a16" ed="T"/>為是一諦？為當非真非俗為一諦耶？解云：不
 <lb n="0101a17" ed="T"/>相關。今言一諦者，團圝始終只是一諦。何者？
 <lb n="0101a18" ed="T"/>望凡夫唯有俗諦。凡夫但知諸法是有，不知
@@ -2227,10 +2667,12 @@
 <lb n="0101b13" ed="T"/>故彼不得言實無二，隨順眾生故說有二也。</p>
 <lb n="0101b14" ed="T"/><p xml:id="pT45p0101b1401">問：經云「世諦即第一義，隨順眾生說有二諦」，
 <lb n="0101b15" ed="T"/>可得前兩節竝得作此說不？解云：竝得。一往
-<lb n="0101b16" ed="T"/>正對凡夫，明唯真是諦、俗非諦。</p><p xml:id="pT45p0101b1613" cb:place="inline">問：若爾，應無
+<lb n="0101b16" ed="T"/>正對凡夫，明唯真是諦、俗非諦。</p>
+<p xml:id="pT45p0101b1613" cb:place="inline">問：若爾，應無
 <lb n="0101b17" ed="T"/>二諦。解云：實唯一諦，但隨順眾生故說二諦
 <lb n="0101b18" ed="T"/>也。《百論》亦爾。俗非諦，隨俗故說有俗諦。故論
-<lb n="0101b19" ed="T"/>文云「隨俗說故無過」也。</p><p xml:id="pT45p0101b1910" cb:place="inline">第二節，明俗於凡是
+<lb n="0101b19" ed="T"/>文云「隨俗說故無過」也。</p>
+<p xml:id="pT45p0101b1910" cb:place="inline">第二節，明俗於凡是
 <lb n="0101b20" ed="T"/>諦、真於聖是諦，真俗竝非諦，非真非俗乃是
 <lb n="0101b21" ed="T"/>諦者，《仁王經》何故云三諦，有諦、無諦、中道第
 <lb n="0101b22" ed="T"/>一義諦耶？解云：實唯一諦、無有三諦，但隨順
@@ -2244,7 +2686,12 @@
 <pb n="0101c" ed="T" xml:id="T45.1854.0101c"/>
 <lb n="0101c01" ed="T"/>有非無何成？一切皆淨。師云：四諦、二諦、一諦
 <lb n="0101c02" ed="T"/>無異，只是一諦耳。然復有一種四諦、二諦、一
-<lb n="0101c03" ed="T"/>諦義。若爾，有兩<note n="0101003" resp="Taisho" type="orig" place="foot text">義＝種ィ【原】</note><note n="0101003" resp="CBETA" type="mod">義【大】，種【校異-原】</note><app n="0101003"><lem wit="【大】">義</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">種</rdg></app>四諦、二諦義。前四諦二諦
+<lb n="0101c03" ed="T"/>諦義。若爾，有兩<note 
+n="0101003" resp="Taisho" type="orig" place="foot text">義＝種ィ【原】</note><note 
+n="0101003" resp="CBETA" type="mod">義【大】，種【校異-原】</note><app n="0101003">
+  <lem wit="【大】">義</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">種</rdg>
+</app>四諦、二諦義。前四諦二諦
 <lb n="0101c04" ed="T"/>一諦，此無深淺；後四諦二諦一諦，則淺深大
 <lb n="0101c05" ed="T"/>異。言四諦者，即無量四聖諦，次卷四諦為二
 <lb n="0101c06" ed="T"/>諦，次卷二諦為一諦。真俗不俗、俗真不真，不
@@ -2252,20 +2699,32 @@
 <lb n="0101c08" ed="T"/>不真俗不二，二不二、非不二不二，二非二、非
 <lb n="0101c09" ed="T"/>二非不二，名無諦。次舒即無諦、一諦、二諦、四
 <lb n="0101c10" ed="T"/>諦，無句、一句、二句、四句、無量句。卷舒明義，故
-<lb n="0101c11" ed="T"/>此兩種異也。前<note n="0101004" resp="Taisho" type="orig" place="foot text">鹿＝庶ィ【原】</note><note n="0101004" resp="CBETA" type="mod">鹿【大】，庶【校異-原】</note><app n="0101004"><lem wit="【大】">鹿</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">庶</rdg></app>盧唯有一諦，凡夫以有為
+<lb n="0101c11" ed="T"/>此兩種異也。前<note 
+n="0101004" resp="Taisho" type="orig" place="foot text">鹿＝庶ィ【原】</note><note 
+n="0101004" resp="CBETA" type="mod">鹿【大】，庶【校異-原】</note><app n="0101004">
+  <lem wit="【大】">鹿</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">庶</rdg>
+</app>盧唯有一諦，凡夫以有為
 <lb n="0101c12" ed="T"/>實，不知性空，於凡唯俗是諦，真非諦。聖人以
 <lb n="0101c13" ed="T"/>性空為實，知俗虛妄不實，於聖唯真是諦，俗
 <lb n="0101c14" ed="T"/>非諦。菩薩即唯非真非俗是實是諦，餘則非
 <lb n="0101c15" ed="T"/>諦。於三緣有三諦，三緣中趣舉一緣唯一是
 <lb n="0101c16" ed="T"/>諦，餘悉非諦。然經論正意，明唯真是諦、俗非
 <lb n="0101c17" ed="T"/>諦。何故爾？真是實義、俗非實義，故唯真是諦，
-<lb n="0101c18" ed="T"/>俗非諦也。</p><p xml:id="pT45p0101c1805" cb:place="inline">次釋相待義。問：若爾，云何相待？解
+<lb n="0101c18" ed="T"/>俗非諦也。</p>
+<p xml:id="pT45p0101c1805" cb:place="inline">次釋相待義。問：若爾，云何相待？解
 <lb n="0101c19" ed="T"/>云：約此義是虛實待、是非待、諦非諦待，不
 <lb n="0101c20" ed="T"/>得二諦相待。何者？庶盧唯有一諦，故唯得諦
-<lb n="0101c21" ed="T"/>非諦待也。</p><p xml:id="pT45p0101c2105" cb:place="inline">問：經復有二諦，故云隨順眾生說
+<lb n="0101c21" ed="T"/>非諦待也。</p>
+<p xml:id="pT45p0101c2105" cb:place="inline">問：經復有二諦，故云隨順眾生說
 <lb n="0101c22" ed="T"/>有二諦。又世人知者名世諦，出世人知者名
 <lb n="0101c23" ed="T"/>第一義諦。既有二義，云何相待耶？然唯有一
-<lb n="0101c24" ed="T"/>諦，隨眾生故說有二諦。此一句語所<note n="0101005" resp="Taisho" type="orig" place="foot text">淨＝諍ィ【原】</note><note n="0101005" resp="CBETA" type="mod">淨【大】，諍【校異-原】</note><app n="0101005"><lem wit="【大】">淨</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">諍</rdg></app>事
+<lb n="0101c24" ed="T"/>諦，隨眾生故說有二諦。此一句語所<note 
+n="0101005" resp="Taisho" type="orig" place="foot text">淨＝諍ィ【原】</note><note 
+n="0101005" resp="CBETA" type="mod">淨【大】，諍【校異-原】</note><app n="0101005">
+  <lem wit="【大】">淨</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">諍</rdg>
+</app>事
 <lb n="0101c25" ed="T"/>大。何者？此語若成，他義則壞。非但義壞，亦不
 <lb n="0101c26" ed="T"/>得讀《涅槃經》。今時得作此釋，非但經如此，論
 <lb n="0101c27" ed="T"/>亦復然。由有論故解經，所以云經有論故義
@@ -2277,7 +2736,8 @@
 <lb n="0102a03" ed="T"/>諦皆相待。若真俗待、諦不待，真俗不自，諦應
 <lb n="0102a04" ed="T"/>是自也。今明無非因緣、無非相待。故師云：
 <lb n="0102a05" ed="T"/>我佛法中，無非因緣。若非因緣，乃是外道義
-<lb n="0102a06" ed="T"/>也。</p><p xml:id="pT45p0102a0602" cb:place="inline">問：若皆相待，師何意云真俗待諦、諦不待
+<lb n="0102a06" ed="T"/>也。</p>
+<p xml:id="pT45p0102a0602" cb:place="inline">問：若皆相待，師何意云真俗待諦、諦不待
 <lb n="0102a07" ed="T"/>耶？解云：此語有意，人不解師語耳。原相待
 <lb n="0102a08" ed="T"/>義，必須相顯相成，如長短相待，非短不長、非
 <lb n="0102a09" ed="T"/>長不短，由長顯是短、由短顯是長，名曰相待。
@@ -2314,13 +2774,15 @@
 <lb n="0102b10" ed="T"/>真俗二諦待。雖真俗二諦待，正是二諦待。正
 <lb n="0102b11" ed="T"/>是二諦待，故經論皆云：諸佛常依二諦說法。
 <lb n="0102b12" ed="T"/>二諦若不待則無二諦，無二諦佛無所依，
-<lb n="0102b13" ed="T"/>故是二諦相待也。</p><p xml:id="pT45p0102b1308" cb:place="inline">問：若爾，用真俗何為耶？解
+<lb n="0102b13" ed="T"/>故是二諦相待也。</p>
+<p xml:id="pT45p0102b1308" cb:place="inline">問：若爾，用真俗何為耶？解
 <lb n="0102b14" ed="T"/>云：真俗標別二諦，明此是真諦、此是俗諦，由
 <lb n="0102b15" ed="T"/>真諦顯彼是俗諦，猶如一赤色，雖同是赤色，
 <lb n="0102b16" ed="T"/>而色有勝劣，此是劣赤、此是勝赤，由劣赤
 <lb n="0102b17" ed="T"/>顯此是勝赤，勝劣兩赤待。二諦亦爾，俗是
 <lb n="0102b18" ed="T"/>劣諦、真是勝諦，勝劣兩諦待。凡聖、空有、真
-<lb n="0102b19" ed="T"/>俗皆例爾。</p><p xml:id="pT45p0102b1905" cb:place="inline">問：此為教諦待、為於諦待耶？解
+<lb n="0102b19" ed="T"/>俗皆例爾。</p>
+<p xml:id="pT45p0102b1905" cb:place="inline">問：此為教諦待、為於諦待耶？解
 <lb n="0102b20" ed="T"/>云：教諦待義易，於諦相待難解。為此義故，今
 <lb n="0102b21" ed="T"/>開三句釋之。一者俗於諦，唯有不待，無有待
 <lb n="0102b22" ed="T"/>義；二者真於諦，亦待亦不待；三者教諦，唯待
@@ -2329,7 +2791,12 @@
 <lb n="0102b25" ed="T"/>相待。若知真諦，即知俗虛，俗即非諦，此亦無
 <lb n="0102b26" ed="T"/>待。以其不知真，故無真諦可待；若知真，則無
 <lb n="0102b27" ed="T"/>俗諦可待。故俗於無有二諦待義也。真於諦
-<lb n="0102b28" ed="T"/>亦待亦不待者，言無待者，例如<note n="0102001" resp="Taisho" type="orig" place="foot text">〔俗〕－ヵ【原】</note><note n="0102001" resp="CBETA" type="mod">俗【大】，〔－〕【考偽-原】</note><app n="0102001"><lem resp="Taisho" wit="【大】">俗</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>真於聖實，
+<lb n="0102b28" ed="T"/>亦待亦不待者，言無待者，例如<note 
+n="0102001" resp="Taisho" type="orig" place="foot text">〔俗〕－ヵ【原】</note><note 
+n="0102001" resp="CBETA" type="mod">俗【大】，〔－〕【考偽-原】</note><app n="0102001">
+  <lem resp="Taisho" wit="【大】">俗</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>真於聖實，
 <lb n="0102b29" ed="T"/>故真是諦；聖知俗虛妄不實，俗於聖非諦。若
 <lb n="0102b30" ed="T"/>爾，唯真是諦，俗非諦。俗非諦故，不得有二諦
 <pb n="0102c" ed="T" xml:id="T45.1854.0102c"/>
@@ -2339,7 +2806,8 @@
 <lb n="0102c04" ed="T"/>無不待者，此義易知。如來因緣有無教諦，有
 <lb n="0102c05" ed="T"/>名無有、無名有無，有無皆是因緣假名義。所
 <lb n="0102c06" ed="T"/>以《華嚴》云「諦了分別諸法時，無有自性，假名
-<lb n="0102c07" ed="T"/>說故。」有無教諦皆是因緣假名義也。</p><p xml:id="pT45p0102c0715" cb:place="inline">次更正
+<lb n="0102c07" ed="T"/>說故。」有無教諦皆是因緣假名義也。</p>
+<p xml:id="pT45p0102c0715" cb:place="inline">次更正
 <lb n="0102c08" ed="T"/>前二於諦待義，明凡於諦無待義。但聖於諦
 <lb n="0102c09" ed="T"/>有待義，有兩種待：一者知俗於聖虛，即虛實
 <lb n="0102c10" ed="T"/>待；二者知俗於凡實，即兩實待、兩諦待也。凡
@@ -2366,7 +2834,8 @@
 <lb n="0103a01" ed="T"/>諦。前難若有即是一，今難無則是二。如外道
 <lb n="0103a02" ed="T"/>僧佉因中有果是一，衛世因中無果即是二。
 <lb n="0103a03" ed="T"/>今亦爾，如其有即是一諦，如其無當知是二
-<lb n="0103a04" ed="T"/>諦也。</p><p xml:id="pT45p0103a0403" cb:place="inline">問：既有二諦，若為言虛妄耶？解云：有兩
+<lb n="0103a04" ed="T"/>諦也。</p>
+<p xml:id="pT45p0103a0403" cb:place="inline">問：既有二諦，若為言虛妄耶？解云：有兩
 <lb n="0103a05" ed="T"/>義故虛妄：一者即事虛妄、二者遠望虛妄。言
 <lb n="0103a06" ed="T"/>即事虛妄者，那得有二諦，諦是實義，唯有一
 <lb n="0103a07" ed="T"/>實、唯有一諦；若有二諦，則應有二道。諸有二
@@ -2374,7 +2843,12 @@
 <lb n="0103a09" ed="T"/>非如來虛妄說耶」。言遠望者，明若第一義中
 <lb n="0103a10" ed="T"/>無有世諦，乖大乘經。佛從來於諸摩訶衍經
 <lb n="0103a11" ed="T"/>中說真即俗、俗即真。如《大品》須菩提問云：「世
-<lb n="0103a12" ed="T"/>諦、第一義諦異耶？」佛答云：「世諦<note n="0103001" resp="Taisho" type="orig" place="foot text">〔如〕－ヵ【原】</note><note n="0103001" resp="CBETA" type="mod">如【大】，〔－〕【考偽-原】</note><app n="0103001"><lem resp="Taisho" wit="【大】">如</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>即第一
+<lb n="0103a12" ed="T"/>諦、第一義諦異耶？」佛答云：「世諦<note 
+n="0103001" resp="Taisho" type="orig" place="foot text">〔如〕－ヵ【原】</note><note 
+n="0103001" resp="CBETA" type="mod">如【大】，〔－〕【考偽-原】</note><app n="0103001">
+  <lem resp="Taisho" wit="【大】">如</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>即第一
 <lb n="0103a13" ed="T"/>義諦。如是二，無二無別。」今若有二諦者，將非
 <lb n="0103a14" ed="T"/>如來虛妄說耶？進退兩關難也。「善男子！世諦
 <lb n="0103a15" ed="T"/>即第一義諦。」此佛答彼二難。答二難者，即前
@@ -2419,7 +2893,8 @@
 <lb n="0103b24" ed="T"/>一真無二真，故無世諦也。而今有二諦者，有
 <lb n="0103b25" ed="T"/>二義：一者隨順眾生故說有二諦，即教諦。二
 <lb n="0103b26" ed="T"/>者於眾生有二諦，即於諦也。然於教二諦，他
-<lb n="0103b27" ed="T"/>家所無，唯山門相承有此義也。</p><p xml:id="pT45p0103b2713" cb:place="inline">問：此經何意
+<lb n="0103b27" ed="T"/>家所無，唯山門相承有此義也。</p>
+<p xml:id="pT45p0103b2713" cb:place="inline">問：此經何意
 <lb n="0103b28" ed="T"/>明於教二諦耶？解云：為答文殊與大眾疑。謂
 <lb n="0103b29" ed="T"/>唯有一諦，正作無二諦難。為是義故，佛開
 <pb n="0103c" ed="T" xml:id="T45.1854.0103c"/>
@@ -2427,7 +2902,8 @@
 <lb n="0103c02" ed="T"/>諦。何意無二諦耶？次云「世人知者名世諦、出
 <lb n="0103c03" ed="T"/>世人知者名第一義諦」，何意無二諦？前隨眾
 <lb n="0103c04" ed="T"/>生說即二教諦、世出世人知即二於諦，為釋
-<lb n="0103c05" ed="T"/>無二諦疑，故明於教二種二諦也。</p><p xml:id="pT45p0103c0514" cb:place="inline">問：經明於
+<lb n="0103c05" ed="T"/>無二諦疑，故明於教二種二諦也。</p>
+<p xml:id="pT45p0103c0514" cb:place="inline">問：經明於
 <lb n="0103c06" ed="T"/>教二諦可如此，論何意明於教二諦耶？解云：
 <lb n="0103c07" ed="T"/>《百論》正為諸外道不識不聞如來二諦，所謂
 <lb n="0103c08" ed="T"/>迦毘羅論等，昔所不聞、昔所不識。為其不識
@@ -2501,7 +2977,8 @@
 <lb n="0104b16" ed="T"/>種二諦也。中間簡二諦義，舉譬如一人多有
 <lb n="0104b17" ed="T"/>所能，或名走者、或名苅者、或名鍛者，只是一
 <lb n="0104b18" ed="T"/>人，隨義立多名。二諦亦爾，只是一二諦，隨義
-<lb n="0104b19" ed="T"/>有多名也。</p><p xml:id="pT45p0104b1905" cb:place="inline">問：此經何故明此十種二諦耶？解
+<lb n="0104b19" ed="T"/>有多名也。</p>
+<p xml:id="pT45p0104b1905" cb:place="inline">問：此經何故明此十種二諦耶？解
 <lb n="0104b20" ed="T"/>云：為答難，故明此十種二諦。文殊與大眾疑
 <lb n="0104b21" ed="T"/>無二諦，正作無二諦難，所以如來開十種二
 <lb n="0104b22" ed="T"/>諦答也。此則為釋無二諦難，故明二諦，說二
@@ -2529,7 +3006,8 @@
 <lb n="0104c13" ed="T"/>諦相即義。一者即向所引《涅槃經》世諦即第
 <lb n="0104c14" ed="T"/>一義。二者《大品經》空即色、色即空，離空無色、
 <lb n="0104c15" ed="T"/>離色無空。三者《淨名經》色性自空，非色滅空。
-<lb n="0104c16" ed="T"/>然此三經文雖異，意同也。</p><p xml:id="pT45p0104c1611" cb:place="inline">問：此三經來意若
+<lb n="0104c16" ed="T"/>然此三經文雖異，意同也。</p>
+<p xml:id="pT45p0104c1611" cb:place="inline">問：此三經來意若
 <lb n="0104c17" ed="T"/>為異耶？解云：此三經來意是同，言不無奢切。
 <lb n="0104c18" ed="T"/>何者？《涅槃經》言奢，《大品》、《淨名經》言切。《涅槃經》
 <lb n="0104c19" ed="T"/>奢者，《涅槃》云「世諦即第一義諦」，不云第一義
@@ -2539,8 +3017,10 @@
 <lb n="0104c23" ed="T"/>義諦即世諦，通皆得。世諦既即第一義諦，第
 <lb n="0104c24" ed="T"/>一義諦豈不即世諦？但《涅槃》隻用，故世諦即
 <lb n="0104c25" ed="T"/>第一義諦也。若《大品經》則平道雙用，空即是
-<lb n="0104c26" ed="T"/>色、色即空也。</p><p xml:id="pT45p0104c2606" cb:place="inline">問：何意《涅槃》隻說、《大品》雙明耶？
-<lb n="0104c27" ed="T"/>解云：通皆例也。</p><p xml:id="pT45p0104c2707" cb:place="inline">問：經既不例，汝何得輒例耶？
+<lb n="0104c26" ed="T"/>色、色即空也。</p>
+<p xml:id="pT45p0104c2606" cb:place="inline">問：何意《涅槃》隻說、《大品》雙明耶？
+<lb n="0104c27" ed="T"/>解云：通皆例也。</p>
+<p xml:id="pT45p0104c2707" cb:place="inline">問：經既不例，汝何得輒例耶？
 <lb n="0104c28" ed="T"/>今明所以不例者，《涅槃》正釋諦義，明唯真是
 <lb n="0104c29" ed="T"/>實，故唯真是諦；俗即虛妄非實，故俗即非諦。
 <pb n="0105a" ed="T" xml:id="T45.1854.0105a"/>
@@ -2566,11 +3046,13 @@
 <lb n="0105a20" ed="T"/>二諦不異為相即也。次開善解云：假無自體，
 <lb n="0105a21" ed="T"/>生而非有，故俗即真；真無體可假，故真即俗。
 <lb n="0105a22" ed="T"/>俗即真，離無無有；真即俗，離有無無。故不二
-<lb n="0105a23" ed="T"/>而二，中道即二諦；二而不二，二諦即中道。</p><p xml:id="pT45p0105a2317" cb:place="inline">問：
+<lb n="0105a23" ed="T"/>而二，中道即二諦；二而不二，二諦即中道。</p>
+<p xml:id="pT45p0105a2317" cb:place="inline">問：
 <lb n="0105a24" ed="T"/>開善明中道，莊嚴不明中道，何意爾耶？解云：
 <lb n="0105a25" ed="T"/>莊嚴不以中道為二諦體，故不明中道。開善
 <lb n="0105a26" ed="T"/>明中道為二諦體，故彼云：二諦是不二一真
-<lb n="0105a27" ed="T"/>之極理。是故明中道也。</p><p xml:id="pT45p0105a2710" cb:place="inline">次龍光解二諦相即
+<lb n="0105a27" ed="T"/>之極理。是故明中道也。</p>
+<p xml:id="pT45p0105a2710" cb:place="inline">次龍光解二諦相即
 <lb n="0105a28" ed="T"/>義。此師是開善大學士，彼云：空色不相離，為
 <lb n="0105a29" ed="T"/>空即色、色即空。如《淨名經》云「我此土常淨」，此
 <pb n="0105b" ed="T" xml:id="T45.1854.0105b"/>
@@ -2595,7 +3077,12 @@
 <lb n="0105b19" ed="T"/>義不即真、名義出真外，出法性外，故不可也。
 <lb n="0105b20" ed="T"/>此難如《百論》難，有一瓶體，一名義異。論主難
 <lb n="0105b21" ed="T"/>云：汝瓶是有，瓶家之形對及五塵等亦是有
-<lb n="0105b22" ed="T"/>不？若使瓶家之形對五塵<note n="0105001" resp="Taisho" type="orig" place="foot text">等＋（亦）ィ【原】</note><note n="0105001" resp="CBETA" type="mod">等【大】，等亦【校異-原】</note><app n="0105001"><lem wit="【大】">等</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">等亦</rdg></app>是有者，有既常，
+<lb n="0105b22" ed="T"/>不？若使瓶家之形對五塵<note 
+n="0105001" resp="Taisho" type="orig" place="foot text">等＋（亦）ィ【原】</note><note 
+n="0105001" resp="CBETA" type="mod">等【大】，等亦【校異-原】</note><app n="0105001">
+  <lem wit="【大】">等</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">等亦</rdg>
+</app>是有者，有既常，
 <lb n="0105b23" ed="T"/>五塵等即常；五塵既無常，有亦無常。總別亦
 <lb n="0105b24" ed="T"/>爾也。若言五塵等非大有者，五塵即是空，出
 <lb n="0105b25" ed="T"/>大有外，大有攝法則不盡。今難彼俗即真義
@@ -2625,7 +3112,12 @@
 <lb n="0105c19" ed="T"/>有名空有；非異有之空，空名有空。有名空有，
 <lb n="0105c20" ed="T"/>故空有即有空；空名有空，故有空即空有也。
 <lb n="0105c21" ed="T"/>師釋相即義方言如此。今作若為解耶？亦得
-<lb n="0105c22" ed="T"/>用前難難之。汝因緣空<note n="0105002" resp="Taisho" type="orig" place="foot text">（因緣）ィ＋色【原】</note><note n="0105002" resp="CBETA" type="mod">色【大】，因緣色【校異-原】</note><app n="0105002"><lem wit="【大】">色</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">因緣色</rdg></app>即不因緣，色即空。
+<lb n="0105c22" ed="T"/>用前難難之。汝因緣空<note 
+n="0105002" resp="Taisho" type="orig" place="foot text">（因緣）ィ＋色【原】</note><note 
+n="0105002" resp="CBETA" type="mod">色【大】，因緣色【校異-原】</note><app n="0105002">
+  <lem wit="【大】">色</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">因緣色</rdg>
+</app>即不因緣，色即空。
 <lb n="0105c23" ed="T"/>色壞空壞不？又如長短因緣，有長即有短、無
 <lb n="0105c24" ed="T"/>長即無短。若爾，空色因緣，有色即有空、色
 <lb n="0105c25" ed="T"/>壞空即壞云云。然此義應須得其根本、識其
@@ -2642,7 +3134,12 @@
 <lb n="0106a06" ed="T"/>即。言二諦相即，是何物悉壇耶？四悉壇是通
 <lb n="0106a07" ed="T"/>經之要術，解四悉壇則一切經可通；若不解
 <lb n="0106a08" ed="T"/>四悉壇，一切經即不可通。大師約四悉壇明
-<lb n="0106a09" ed="T"/>四假<note n="0106001" resp="Taisho" type="orig" place="foot text">義＝異ィ【原】</note><note n="0106001" resp="CBETA" type="mod">義【大】，異【校異-原】</note><app n="0106001"><lem wit="【大】">義</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">異</rdg></app>。四假者，因緣假、對緣假、就緣假、隨
+<lb n="0106a09" ed="T"/>四假<note 
+n="0106001" resp="Taisho" type="orig" place="foot text">義＝異ィ【原】</note><note 
+n="0106001" resp="CBETA" type="mod">義【大】，異【校異-原】</note><app n="0106001">
+  <lem wit="【大】">義</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">異</rdg>
+</app>。四假者，因緣假、對緣假、就緣假、隨
 <lb n="0106a10" ed="T"/>緣假。彼尚不識四悉壇，豈解四假？以彼不識
 <lb n="0106a11" ed="T"/>四悉壇，故不解二諦相即義也。二者謂有真
 <lb n="0106a12" ed="T"/>俗色空道理。道理有色、道理有空，若無空色
@@ -2667,14 +3164,20 @@
 <lb n="0106b01" ed="T"/>此難若可通，提婆、龍樹則成漫語。此二人若
 <lb n="0106b02" ed="T"/>是漫語，佛則漫語。佛親記二論主，二論主豈
 <lb n="0106b03" ed="T"/>當漫語？既非漫語，作若為解耶？龍光難開善，
-<lb n="0106b04" ed="T"/>開善云：<note n="0106002" resp="Taisho" type="orig" place="foot text">待我＝我待ィ【原】</note><note n="0106002" resp="CBETA" type="mod">待我【大】，我待【校異-原】</note><app n="0106002"><lem wit="【大】">待我</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">我待</rdg></app>面黃只得解耳。實理如此。若
+<lb n="0106b04" ed="T"/>開善云：<note 
+n="0106002" resp="Taisho" type="orig" place="foot text">待我＝我待ィ【原】</note><note 
+n="0106002" resp="CBETA" type="mod">待我【大】，我待【校異-原】</note><app n="0106002">
+  <lem wit="【大】">待我</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">我待</rdg>
+</app>面黃只得解耳。實理如此。若
 <lb n="0106b05" ed="T"/>非三論意，終不得解。故叡師云「《中》、《百》二論文
 <lb n="0106b06" ed="T"/>未及此土，又無通鑒，誰與正之？」前匠所以輟
 <lb n="0106b07" ed="T"/>章遐慨，思請決於彌勒者，良在此也。《中》、《百》二
 <lb n="0106b08" ed="T"/>論既至赤縣，歎云「此區之赤縣，怱得移靈鷲
 <lb n="0106b09" ed="T"/>以作鎮；險陂之邊情，乃蒙流光之餘惠。而今
 <lb n="0106b10" ed="T"/>後談道之賢，始可與論實矣。」故除三論之外，
-<lb n="0106b11" ed="T"/>有所得心終不解此義也。</p><p xml:id="pT45p0106b1111" cb:place="inline">問：他解既非，今若
+<lb n="0106b11" ed="T"/>有所得心終不解此義也。</p>
+<p xml:id="pT45p0106b1111" cb:place="inline">問：他解既非，今若
 <lb n="0106b12" ed="T"/>為釋耶？師云：只洗淨如此二諦一體異體畢
 <lb n="0106b13" ed="T"/>竟無遺，即是二諦相即義。所以山中師云：「今
 <lb n="0106b14" ed="T"/>時若更有解，乃是足載耳云云。」有開善解、莊
@@ -2709,7 +3212,12 @@
 <lb n="0106c13" ed="T"/>相離。故彼云：瓶有合故，瓶不離有，而瓶與有
 <lb n="0106c14" ed="T"/>常異。龍光亦爾，雖異終不離、不離而異，與衛
 <lb n="0106c15" ed="T"/>世義一種也。義既是同，破僧佉、衛世，即是破
-<lb n="0106c16" ed="T"/>開善、龍光。又論主直破一異，<note n="0106003" resp="Taisho" type="orig" place="foot text">即＝則【甲】＊</note><note n="0106003" resp="CBETA" type="mod">即【大】＊，則【甲】＊</note><app n="0106003"><lem wit="【大】">即</lem><rdg resp="Taisho" wit="【甲】">則</rdg></app>一切一異皆
+<lb n="0106c16" ed="T"/>開善、龍光。又論主直破一異，<note 
+n="0106003" resp="Taisho" type="orig" place="foot text">即＝則【甲】＊</note><note 
+n="0106003" resp="CBETA" type="mod">即【大】＊，則【甲】＊</note><app n="0106003">
+  <lem wit="【大】">即</lem>
+  <rdg resp="Taisho" wit="【甲】">則</rdg>
+</app>一切一異皆
 <lb n="0106c17" ed="T"/>破。一異既破，則橫洗萬法、竪窮五句。以洗淨
 <lb n="0106c18" ed="T"/>如此等見，所以最後始得示如來因緣假名
 <lb n="0106c19" ed="T"/>二諦，此二諦無得無礙也。《百論》既然，《中論》亦
@@ -2729,7 +3237,8 @@
 <lb n="0107a03" ed="T"/>其相亦如是。」三相既然，二諦亦爾，如夢亦如
 <lb n="0107a04" ed="T"/>幻、如乾闥婆城。所說真俗諦，其相亦如是也。
 <lb n="0107a05" ed="T"/>此略明二諦相即之大意如此，玄悟之賓已
-<lb n="0107a06" ed="T"/>足解了。</p><p xml:id="pT45p0107a0604" cb:place="inline">次時更簡二諦相即義。然他家明二
+<lb n="0107a06" ed="T"/>足解了。</p>
+<p xml:id="pT45p0107a0604" cb:place="inline">次時更簡二諦相即義。然他家明二
 <lb n="0107a07" ed="T"/>諦是兩理兩境，今明約何物義明二諦耶？解
 <lb n="0107a08" ed="T"/>云：今明二諦有二種，一於二諦、二教二諦。
 <lb n="0107a09" ed="T"/>道理未曾二不二，於二緣故有二諦，又隨順
@@ -2748,11 +3257,13 @@
 <lb n="0107a22" ed="T"/>明色即空。前發趾開色空二，令捨色入空，便
 <lb n="0107a23" ed="T"/>言：色與空異、拆色入空，是故為說色即空，色
 <lb n="0107a24" ed="T"/>性自空非拆色空。故論云「諸賢聖真知顛倒
-<lb n="0107a25" ed="T"/>性空」，只顛倒性本空也。</p><p xml:id="pT45p0107a2510" cb:place="inline">問：色即空如此。空即
+<lb n="0107a25" ed="T"/>性空」，只顛倒性本空也。</p>
+<p xml:id="pT45p0107a2510" cb:place="inline">問：色即空如此。空即
 <lb n="0107a26" ed="T"/>色云何耶？解云：聖人知顛倒性空，則於凡夫
 <lb n="0107a27" ed="T"/>宛然常有。聖人知顛倒性空，色即空；於凡夫
 <lb n="0107a28" ed="T"/>宛然有，空即色。此即約迷悟凡聖判色即空、
-<lb n="0107a29" ed="T"/>空即色，聖悟故色即空、凡迷故空即色。</p><p xml:id="pT45p0107a2916" cb:place="inline">問：經
+<lb n="0107a29" ed="T"/>空即色，聖悟故色即空、凡迷故空即色。</p>
+<p xml:id="pT45p0107a2916" cb:place="inline">問：經
 <pb n="0107b" ed="T" xml:id="T45.1854.0107b"/>
 <lb n="0107b01" ed="T"/>中何意多前明色即空、後明空即色耶？解云：
 <lb n="0107b02" ed="T"/>如向聖人了色即空，但於凡空即色耳。何以
@@ -2766,10 +3277,16 @@
 <lb n="0107b10" ed="T"/>如是有。迷故空即色，色不動空；悟故色即空，
 <lb n="0107b11" ed="T"/>空不動色。迷故謂空為色，何曾有色可動空？
 <lb n="0107b12" ed="T"/>悟故色即空，何曾有色可異空？色空既如此，
-<lb n="0107b13" ed="T"/>論何物即與不即？四句皆<note n="0107001" resp="Taisho" type="orig" place="foot text">淨＝彈ィ【原】</note><note n="0107001" resp="CBETA" type="mod">淨【大】，彈【校異-原】</note><app n="0107001"><lem wit="【大】">淨</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">彈</rdg></app>也。如此排前
+<lb n="0107b13" ed="T"/>論何物即與不即？四句皆<note 
+n="0107001" resp="Taisho" type="orig" place="foot text">淨＝彈ィ【原】</note><note 
+n="0107001" resp="CBETA" type="mod">淨【大】，彈【校異-原】</note><app n="0107001">
+  <lem wit="【大】">淨</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">彈</rdg>
+</app>也。如此排前
 <lb n="0107b14" ed="T"/>難逈去，難不能著。他所以著難者，彼有色有
 <lb n="0107b15" ed="T"/>空，以色即空故著前難。今明色畢竟空，將何
-<lb n="0107b16" ed="T"/>物即空耶？為眾生見色故，言色即空也。</p><p xml:id="pT45p0107b1616" cb:place="inline">問：前
+<lb n="0107b16" ed="T"/>物即空耶？為眾生見色故，言色即空也。</p>
+<p xml:id="pT45p0107b1616" cb:place="inline">問：前
 <lb n="0107b17" ed="T"/>云「迷見有色、悟即色空，如空華病故見華、差
 <lb n="0107b18" ed="T"/>故華空。」此乃是夢虛空華義，何得用耶？解云：
 <lb n="0107b19" ed="T"/>為彼有，故以空華破彼有；若無彼有，豈復有
@@ -2829,16 +3346,29 @@
 <lb n="0108a13" ed="T"/>有三種：一因中有果理故非無，即無果事故
 <lb n="0108a14" ed="T"/>非有，非有非無因果中道也。二者實法滅故
 <lb n="0108a15" ed="T"/>不常，相續故不斷，不常不斷相續中道也。三
-<lb n="0108a16" ed="T"/><note n="0108001" resp="Taisho" type="orig" place="foot text">〔者〕－【甲】</note><note n="0108001" resp="CBETA" type="mod">者【大】，〔－〕【甲】</note><app n="0108001"><lem wit="【大】">者</lem><rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg></app>相待中道，後當辨之云云。真諦中道者，非
+<lb n="0108a16" ed="T"/><note 
+n="0108001" resp="Taisho" type="orig" place="foot text">〔者〕－【甲】</note><note 
+n="0108001" resp="CBETA" type="mod">者【大】，〔－〕【甲】</note><app n="0108001">
+  <lem wit="【大】">者</lem>
+  <rdg resp="Taisho" wit="【甲】"><space quantity="0"/></rdg>
+</app>相待中道，後當辨之云云。真諦中道者，非
 <lb n="0108a17" ed="T"/>有非無為真諦中道也。二諦合明中道者，非
 <lb n="0108a18" ed="T"/>真非俗為二諦合明中道。此異真諦中道，真
 <lb n="0108a19" ed="T"/>諦中非有非無，不非真非俗。二諦合明中道，
-<lb n="0108a20" ed="T"/><app type="star" corresp="#0106003"><lem wit="【大】">即</lem><rdg resp="Taisho" wit="【甲】">則</rdg></app>非真非俗也。次彼明三種中用何中道為
+<lb n="0108a20" ed="T"/><app type="star" corresp="#0106003">
+  <lem wit="【大】">即</lem>
+  <rdg resp="Taisho" wit="【甲】">則</rdg>
+</app>非真非俗也。次彼明三種中用何中道為
 <lb n="0108a21" ed="T"/>二諦體耶？解云：彼不用俗諦中道為二諦體，
 <lb n="0108a22" ed="T"/>亦不用非真非俗中道為二諦體。何者？彼無
 <lb n="0108a23" ed="T"/>別非真非俗法。莊嚴明佛果涅槃出二諦外，
 <lb n="0108a24" ed="T"/>開善明二諦攝法盡。今言非真非俗者，互望
-<lb n="0108a25" ed="T"/>為非。<note n="0108002" resp="Taisho" type="orig" place="foot text">覈＝窮ィ【原】</note><note n="0108002" resp="CBETA" type="mod">覈【大】，窮【校異-原】</note><app n="0108002"><lem wit="【大】">覈</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">窮</rdg></app>論唯是真俗，俗非真、真非俗，為非
+<lb n="0108a25" ed="T"/>為非。<note 
+n="0108002" resp="Taisho" type="orig" place="foot text">覈＝窮ィ【原】</note><note 
+n="0108002" resp="CBETA" type="mod">覈【大】，窮【校異-原】</note><app n="0108002">
+  <lem wit="【大】">覈</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">窮</rdg>
+</app>論唯是真俗，俗非真、真非俗，為非
 <lb n="0108a26" ed="T"/>真非俗。非俗只是真，非真只是俗，無別非真
 <lb n="0108a27" ed="T"/>非俗，故不用為二諦體也。言中道為體者，真
 <lb n="0108a28" ed="T"/>諦中道為體。真諦中道還是真諦，故彼序云
@@ -2854,7 +3384,12 @@
 <lb n="0108b08" ed="T"/>恐于眾人。」琳曰：「貧道昔年少時曾聞此義，玄
 <lb n="0108b09" ed="T"/>音中絕四十餘載。檀越若出此論，勝國城妻
 <lb n="0108b10" ed="T"/>子頭目布施。」於是始出此論也。次梁武大敬
-<lb n="0108b11" ed="T"/>信佛法，本學《成論》。聞法師在山，仍<note n="0108003" resp="Taisho" type="orig" place="foot text">遺＝遣？</note><note n="0108003" resp="CBETA" type="mod">遺【大】，遣【考偽-大】</note><app n="0108003"><lem resp="Taisho" wit="【大】">遺</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">遣</rdg></app>僧正
+<lb n="0108b11" ed="T"/>信佛法，本學《成論》。聞法師在山，仍<note 
+n="0108003" resp="Taisho" type="orig" place="foot text">遺＝遣？</note><note 
+n="0108003" resp="CBETA" type="mod">遺【大】，遣【考偽-大】</note><app n="0108003">
+  <lem resp="Taisho" wit="【大】">遺</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">遣</rdg>
+</app>僧正
 <lb n="0108b12" ed="T"/>智寂等十人往山學。雖得語言，不精究其意。
 <lb n="0108b13" ed="T"/>所以梁武晚義異諸法師，稱為制旨義也。開
 <lb n="0108b14" ed="T"/>善爾時雖不入山，亦聞此義，故用中道為二
@@ -2863,7 +3398,13 @@
 <lb n="0108b17" ed="T"/>為用，亦名理教、亦名中假。中假重名中假，理
 <lb n="0108b18" ed="T"/>教重為理教，亦體用重為體用，故不二為體、
 <lb n="0108b19" ed="T"/>二為用。略標章門如此。若了前二諦大意，則
-<lb n="0108b20" ed="T"/>二諦體義已<note n="0108004" resp="Taisho" type="orig" place="foot text">應＝盡ィ【原】</note><note n="0108004" resp="CBETA" type="mod">應【大】，盡【校異-原】</note><app n="0108004"><lem wit="【大】">應</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">盡</rdg></app>可見也。</p><p xml:id="pT45p0108b2010" cb:place="inline">問：今明中道為二諦
+<lb n="0108b20" ed="T"/>二諦體義已<note 
+n="0108004" resp="Taisho" type="orig" place="foot text">應＝盡ィ【原】</note><note 
+n="0108004" resp="CBETA" type="mod">應【大】，盡【校異-原】</note><app n="0108004">
+  <lem wit="【大】">應</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">盡</rdg>
+</app>可見也。</p>
+<p xml:id="pT45p0108b2010" cb:place="inline">問：今明中道為二諦
 <lb n="0108b21" ed="T"/>體，有何所以？釋何物經？解何物論？對何物病
 <lb n="0108b22" ed="T"/>耶？解云：所以明中道為二諦體者，二諦為表
 <lb n="0108b23" ed="T"/>不二之理，如指指月，意不在指，意令得月。二
@@ -2901,7 +3442,8 @@
 <lb n="0108c25" ed="T"/>解耶？《仁王經》明三諦義，彼便曲解如此等經，
 <lb n="0108c26" ed="T"/>皆是他妨礙之處。今明無礙，或時為三諦，有
 <lb n="0108c27" ed="T"/>諦、無諦、中道第一義諦；或時非真非俗為理，
-<lb n="0108c28" ed="T"/>真俗為教。理教合論，故有三諦也。</p><p xml:id="pT45p0108c2814" cb:place="inline">問：何處有
+<lb n="0108c28" ed="T"/>真俗為教。理教合論，故有三諦也。</p>
+<p xml:id="pT45p0108c2814" cb:place="inline">問：何處有
 <lb n="0108c29" ed="T"/>經文的明中道為二諦體耶？解云：《中論》偈即
 <pb n="0109a" ed="T" xml:id="T45.1854.0109a"/>
 <lb n="0109a01" ed="T"/>是。彼云「因緣所生法，我說即是空，亦是為假
@@ -2926,7 +3468,8 @@
 <lb n="0109a20" ed="T"/>《法華》云「若有若無等，依止此諸見，具足六十
 <lb n="0109a21" ed="T"/>二。」若見有見無，即具六十二見。若能捨有無
 <lb n="0109a22" ed="T"/>二見，即悟中道也。如此處經文無量，故知無
-<lb n="0109a23" ed="T"/>有二理，唯有一理也。</p><p xml:id="pT45p0109a2309" cb:place="inline">問：汝既有三諦，應有三
+<lb n="0109a23" ed="T"/>有二理，唯有一理也。</p>
+<p xml:id="pT45p0109a2309" cb:place="inline">問：汝既有三諦，應有三
 <lb n="0109a24" ed="T"/>體；我有二諦，有二體。解云：若得一家意致，不
 <lb n="0109a25" ed="T"/>應作此難。前云假有為世諦、假無為真諦。假
 <lb n="0109a26" ed="T"/>有不有有、假無不無無。不有有，有無所有；
@@ -2939,7 +3482,12 @@
 <lb n="0109b03" ed="T"/>也。次泯之。一往開理教二不二，再往皆泯。何
 <lb n="0109b04" ed="T"/>者？二不二不二二、二不二非不二、不二二非
 <lb n="0109b05" ed="T"/>二，斯即非二非不二，乃至五句皆流，一無依
-<lb n="0109b06" ed="T"/>倚畢竟清淨。理教亦<note n="0109001" resp="Taisho" type="orig" place="foot text">（宛）ィ＋然【原】</note><note n="0109001" resp="CBETA" type="mod">然【大】，宛然【校異-原】</note><app n="0109001"><lem wit="【大】">然</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">宛然</rdg></app>。故《華嚴》云「一切有
+<lb n="0109b06" ed="T"/>倚畢竟清淨。理教亦<note 
+n="0109001" resp="Taisho" type="orig" place="foot text">（宛）ィ＋然【原】</note><note 
+n="0109001" resp="CBETA" type="mod">然【大】，宛然【校異-原】</note><app n="0109001">
+  <lem wit="【大】">然</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">宛然</rdg>
+</app>。故《華嚴》云「一切有
 <lb n="0109b07" ed="T"/>無法，了達非有無，不著不二法，以無一二故。」
 <lb n="0109b08" ed="T"/>達有無二不二，既無二即無不二，故云「不著
 <lb n="0109b09" ed="T"/>不二法，以無一二故」也。然此語是兩處說，師
@@ -2960,26 +3508,45 @@
 <lb n="0109b24" ed="T"/>得真無生，故得並觀也。二者什肇等諸師，明
 <lb n="0109b25" ed="T"/>七地菩薩得並觀。故肇師云「施極於施，而未
 <lb n="0109b26" ed="T"/>甞施；戒極於戒，而未甞戒。」此即施無施並故
-<lb n="0109b27" ed="T"/>也。三者即是三大法師，於世盛行者，<note n="0109002" resp="Taisho" type="orig" place="foot text">（明）ィ＋八【原】</note><note n="0109002" resp="CBETA" type="mod">八【大】，明八【校異-原】</note><app n="0109002"><lem wit="【大】">八</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">明八</rdg></app>地並
+<lb n="0109b27" ed="T"/>也。三者即是三大法師，於世盛行者，<note 
+n="0109002" resp="Taisho" type="orig" place="foot text">（明）ィ＋八【原】</note><note 
+n="0109002" resp="CBETA" type="mod">八【大】，明八【校異-原】</note><app n="0109002">
+  <lem wit="【大】">八</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">明八</rdg>
+</app>地並
 <lb n="0109b28" ed="T"/>觀。初地至七地出入觀，八地始得並觀，八地
 <lb n="0109b29" ed="T"/>菩薩道觀雙行、真俗並照也。然此之三釋皆
 <pb n="0109c" ed="T" xml:id="T45.1854.0109c"/>
 <lb n="0109c01" ed="T"/>出經論，若偏執是則為非。第一家以初地為
 <lb n="0109c02" ed="T"/>是，餘二為非；第三家八地為是，餘二為非。
-<lb n="0109c03" ed="T"/>所以成失。今山門釋者，<note n="0109003" resp="Taisho" type="orig" place="foot text">即＝有【甲】</note><note n="0109003" resp="CBETA" type="mod">即【大】，有【甲】</note><app n="0109003"><lem wit="【大】">即</lem><rdg resp="Taisho" wit="【甲】">有</rdg></app>四節明並觀義。
+<lb n="0109c03" ed="T"/>所以成失。今山門釋者，<note 
+n="0109003" resp="Taisho" type="orig" place="foot text">即＝有【甲】</note><note 
+n="0109003" resp="CBETA" type="mod">即【大】，有【甲】</note><app n="0109003">
+  <lem wit="【大】">即</lem>
+  <rdg resp="Taisho" wit="【甲】">有</rdg>
+</app>四節明並觀義。
 <lb n="0109c04" ed="T"/>然此之四節，非但是菩薩之要行，亦是二諦
 <lb n="0109c05" ed="T"/>之大綱也。四節者，一者山中師云「從初發心
-<lb n="0109c06" ed="T"/>已來即並觀。」</p><p xml:id="pT45p0109c0606" cb:place="inline">問：若為初發心即並觀耶？解云：
+<lb n="0109c06" ed="T"/>已來即並觀。」</p>
+<p xml:id="pT45p0109c0606" cb:place="inline">問：若為初發心即並觀耶？解云：
 <lb n="0109c07" ed="T"/>初發心即學二諦。無有菩薩不學二諦者，凡
 <lb n="0109c08" ed="T"/>是菩薩即學二諦觀。為是故初發心即學二
 <lb n="0109c09" ed="T"/>諦竝觀，乃至後心亦學二諦並觀，而不無明
 <lb n="0109c10" ed="T"/>晦為異。晦故為初心、明故為後心，此明晦判
-<lb n="0109c11" ed="T"/>前後，非是並不並而判前後也。</p><p xml:id="pT45p0109c1113" cb:place="inline">問：何處作此
-<lb n="0109c12" ed="T"/>說耶？解云：《大經》云「發心畢竟二不別」。</p><p xml:id="pT45p0109c1215" cb:place="inline">問：若為
+<lb n="0109c11" ed="T"/>前後，非是並不並而判前後也。</p>
+<p xml:id="pT45p0109c1113" cb:place="inline">問：何處作此
+<lb n="0109c12" ed="T"/>說耶？解云：《大經》云「發心畢竟二不別」。</p>
+<p xml:id="pT45p0109c1215" cb:place="inline">問：若為
 <lb n="0109c13" ed="T"/>不別耶？解云：今明初心亦二諦並觀，後心
-<lb n="0109c14" ed="T"/>亦是並觀。以皆並故，所以云二心不別也。</p><p xml:id="pT45p0109c1417" cb:place="inline">問：
+<lb n="0109c14" ed="T"/>亦是並觀。以皆並故，所以云二心不別也。</p>
+<p xml:id="pT45p0109c1417" cb:place="inline">問：
 <lb n="0109c15" ed="T"/>若為初心即學並觀耶？解云：有所得、無所得，
-<lb n="0109c16" ed="T"/>聲聞行、菩薩行異。若是聲聞行，即<note n="0109004" resp="Taisho" type="orig" place="foot text">拆＝折【甲】</note><note n="0109004" resp="CBETA" type="mod">拆【大】，折【甲】</note><app n="0109004"><lem wit="【大】">拆</lem><rdg resp="Taisho" wit="【甲】">折</rdg></app>有入
+<lb n="0109c16" ed="T"/>聲聞行、菩薩行異。若是聲聞行，即<note 
+n="0109004" resp="Taisho" type="orig" place="foot text">拆＝折【甲】</note><note 
+n="0109004" resp="CBETA" type="mod">拆【大】，折【甲】</note><app n="0109004">
+  <lem wit="【大】">拆</lem>
+  <rdg resp="Taisho" wit="【甲】">折</rdg>
+</app>有入
 <lb n="0109c17" ed="T"/>空、從空出有，是生滅觀。若菩薩即異聲聞，發
 <lb n="0109c18" ed="T"/>初即作不生不滅不二之觀。對聲聞故，明是
 <lb n="0109c19" ed="T"/>菩薩者從初發心即作不生不滅無所得觀。
@@ -2987,7 +3554,8 @@
 <lb n="0109c21" ed="T"/>答云：「從初發心即學無所得。」故初發心即學
 <lb n="0109c22" ed="T"/>並觀也。此即有二意：一者釋經初後心不二；
 <lb n="0109c23" ed="T"/>二者為對聲聞，明發心即作不二之觀。為此
-<lb n="0109c24" ed="T"/>二義，故明初發心即作並觀也。</p><p xml:id="pT45p0109c2413" cb:place="inline">第二節明並
+<lb n="0109c24" ed="T"/>二義，故明初發心即作並觀也。</p>
+<p xml:id="pT45p0109c2413" cb:place="inline">第二節明並
 <lb n="0109c25" ed="T"/>觀者，明地前三十心未得並觀，初地菩薩始
 <lb n="0109c26" ed="T"/>得並觀。地前非不並，將初地格之，明地前淺
 <lb n="0109c27" ed="T"/>故云未並、初地深故並。地前是凡夫位、初地
@@ -3025,7 +3593,12 @@
 <lb n="0110a29" ed="T"/>理即乖經。故龍樹呵迦旃延子不讀不誦摩
 <pb n="0110b" ed="T" xml:id="T45.1854.0110b"/>
 <lb n="0110b01" ed="T"/>訶衍經，迦旃延子自說耳。今亦爾也。設使得
-<lb n="0110b02" ed="T"/><note n="0110001" resp="Taisho" type="orig" place="foot text">〔明〕ィ－【原】</note><note n="0110001" resp="CBETA" type="mod">明【大】，〔－〕【校異-原】</note><app n="0110001"><lem wit="【大】">明</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>並觀者，師詺為簫管並、伏鼈出鼻，並有兩
+<lb n="0110b02" ed="T"/><note 
+n="0110001" resp="Taisho" type="orig" place="foot text">〔明〕ィ－【原】</note><note 
+n="0110001" resp="CBETA" type="mod">明【大】，〔－〕【校異-原】</note><app n="0110001">
+  <lem wit="【大】">明</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>並觀者，師詺為簫管並、伏鼈出鼻，並有兩
 <lb n="0110b03" ed="T"/>境，在中而雙照為並觀。是事不然。經明照
 <lb n="0110b04" ed="T"/>有即是空、照空即是有。何時有兩境，凝然在
 <lb n="0110b05" ed="T"/>中雙照為並觀耶？又二諦一體亦不得並觀。
@@ -3050,7 +3623,8 @@
 <lb n="0110b24" ed="T"/>說。假說有，非有為有；假說無，非無為無。非有
 <lb n="0110b25" ed="T"/>為有，指無為有；非無為無，指有為無。指無為
 <lb n="0110b26" ed="T"/>有，照有即照無；指有為無，照無即照有。詺此
-<lb n="0110b27" ed="T"/>為並觀也。</p><p xml:id="pT45p0110b2705" cb:place="inline">問：他二諦一體不得並，汝今照有
+<lb n="0110b27" ed="T"/>為並觀也。</p>
+<p xml:id="pT45p0110b2705" cb:place="inline">問：他二諦一體不得並，汝今照有
 <lb n="0110b28" ed="T"/>即照無亦是一體，云何得並耶？解云：他義
 <lb n="0110b29" ed="T"/>有礙。有即空，即失有；空即有，即失空。故不得
 <pb n="0110c" ed="T" xml:id="T45.1854.0110c"/>
@@ -3060,9 +3634,15 @@
 <lb n="0110c04" ed="T"/>即二，無二異不二、無不二異二，故不壞假名
 <lb n="0110c05" ed="T"/>說諸法實相，不動等覺建立諸法。若二異不
 <lb n="0110c06" ed="T"/>二，則壞假名說實相。不壞假名說實相，故二
-<lb n="0110c07" ed="T"/>即不二，所以二不二橫竪並也。</p><p xml:id="pT45p0110c0713" cb:place="inline">問：此出何處？
+<lb n="0110c07" ed="T"/>即不二，所以二不二橫竪並也。</p>
+<p xml:id="pT45p0110c0713" cb:place="inline">問：此出何處？
 <lb n="0110c08" ed="T"/>解云：《中論》偈即是。「因緣所生法，我說即是
-<lb n="0110c09" ed="T"/>空」，<note n="0110002" resp="Taisho" type="orig" place="foot text">此＋（即）ィ【原】</note><note n="0110002" resp="CBETA" type="mod">此【大】，此即【校異-原】</note><app n="0110002"><lem wit="【大】">此</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">此即</rdg></app>是空有橫並也。「亦為是假名，亦是中道
+<lb n="0110c09" ed="T"/>空」，<note 
+n="0110002" resp="Taisho" type="orig" place="foot text">此＋（即）ィ【原】</note><note 
+n="0110002" resp="CBETA" type="mod">此【大】，此即【校異-原】</note><app n="0110002">
+  <lem wit="【大】">此</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">此即</rdg>
+</app>是空有橫並也。「亦為是假名，亦是中道
 <lb n="0110c10" ed="T"/>義」，即二不二竪並也。此之二種並，是諸佛
 <lb n="0110c11" ed="T"/>菩薩假名方便並也。第三明得失並。何者？有
 <lb n="0110c12" ed="T"/>所得斷常眾生，行有所得法；無所得諸佛菩
@@ -3087,7 +3667,8 @@
 <lb n="0111a01" ed="T"/>故云「一切世諦，若於如來是第一義諦」。此是
 <lb n="0111a02" ed="T"/>能化於。今隨此於而說，亦是能化，此即能化
 <lb n="0111a03" ed="T"/>隨所化有而說有、能化隨能化所悟空而說
-<lb n="0111a04" ed="T"/>空，故此二於諦是得失迷悟也。</p><p xml:id="pT45p0111a0413" cb:place="inline">問：用此語何
+<lb n="0111a04" ed="T"/>空，故此二於諦是得失迷悟也。</p>
+<p xml:id="pT45p0111a0413" cb:place="inline">問：用此語何
 <lb n="0111a05" ed="T"/>為？解云：欲判凡聖得失迷悟。何者？眾生迷故
 <lb n="0111a06" ed="T"/>見有、聖人悟故不見有。若爾，同夢虎，空華義，
 <lb n="0111a07" ed="T"/>迷故見有、悟故不見有也。又今悟不見眾生，
@@ -3107,10 +3688,18 @@
 <lb n="0111a21" ed="T"/>是假、四微是實，迷即見有故有、柱故柱，悟假
 <lb n="0111a22" ed="T"/>實二境，即知是假柱，不柱柱、不有有。他亦明
 <lb n="0111a23" ed="T"/>迷見有、悟知不有有。今亦爾，則與他無異也。
-<lb n="0111a24" ed="T"/>同《地論》者，彼云：只一樹，若作相心取，<note n="0111001" resp="Taisho" type="orig" place="foot text">則＝即【甲】＊</note><note n="0111001" resp="CBETA" type="mod">則【大】＊，即【甲】＊</note><app n="0111001"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】">即</rdg></app>有
+<lb n="0111a24" ed="T"/>同《地論》者，彼云：只一樹，若作相心取，<note 
+n="0111001" resp="Taisho" type="orig" place="foot text">則＝即【甲】＊</note><note 
+n="0111001" resp="CBETA" type="mod">則【大】＊，即【甲】＊</note><app n="0111001">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】">即</rdg>
+</app>有
 <lb n="0111a25" ed="T"/>漏樹；若作無相心取，則無漏法林樹。是還是
 <lb n="0111a26" ed="T"/>迷悟，迷故有相、悟故無相，迷故樹故樹、悟
-<lb n="0111a27" ed="T"/><app type="star" corresp="#0111001"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】">即</rdg></app>不樹樹也。若悟時見不有有，則同《成論》及
+<lb n="0111a27" ed="T"/><app type="star" corresp="#0111001">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】">即</rdg>
+</app>不樹樹也。若悟時見不有有，則同《成論》及
 <lb n="0111a28" ed="T"/>《地論》；若悟不見者，同夢虎、空華義，夢故有虎，
 <lb n="0111a29" ed="T"/>覺則不見有虎。諸法亦爾，迷故見有、悟故不
 <pb n="0111b" ed="T" xml:id="T45.1854.0111b"/>
@@ -3123,7 +3712,10 @@
 <lb n="0111b07" ed="T"/>《大論》。《大論》云「譬如人夢中度河，作諸<g ref="#CB05130"/>筏，運
 <lb n="0111b08" ed="T"/>手動足而去；此覺都無所有。七地菩薩亦爾，
 <lb n="0111b09" ed="T"/>生死已來至六地已還，如夢所見；七地菩薩
-<lb n="0111b10" ed="T"/>豁然而悟也。」師為此義，故云迷故有、悟<app type="star" corresp="#0111001"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】">即</rdg></app>
+<lb n="0111b10" ed="T"/>豁然而悟也。」師為此義，故云迷故有、悟<app type="star" corresp="#0111001">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】">即</rdg>
+</app>
 <lb n="0111b11" ed="T"/>不有有。作此語，正為對夢虎空華義，彼悟時
 <lb n="0111b12" ed="T"/>都無所見。今對彼故云見不有有也。第三難
 <lb n="0111b13" ed="T"/>且並。汝前云迷故有、悟故空，則迷故見、悟故
@@ -3148,7 +3740,8 @@
 <lb n="0111c02" ed="T"/>見樹有漏、無相心取則無漏法林樹。只問此
 <lb n="0111c03" ed="T"/>樹何業所起，為妄業起、為真業起？若妄業起
 <lb n="0111c04" ed="T"/>者，悟真則不見；若真業起者，何有真業起於
-<lb n="0111c05" ed="T"/>妄樹耶。故此義難解也。</p><p xml:id="pT45p0111c0510" cb:place="inline">次明二諦絕名第
+<lb n="0111c05" ed="T"/>妄樹耶。故此義難解也。</p>
+<p xml:id="pT45p0111c0510" cb:place="inline">次明二諦絕名第
 <lb n="0111c06" ed="T"/>五。然此義，三大法師無別釋。並云：世諦有名、
 <lb n="0111c07" ed="T"/>真諦絕名。世諦有名者，世諦諸法，有名有物，
 <lb n="0111c08" ed="T"/>名有召物之功、物有應名之實。如喚火名，即
@@ -3160,7 +3753,12 @@
 <lb n="0111c14" ed="T"/>有二諦也。次難彼義。汝真諦無名，借世諦名
 <lb n="0111c15" ed="T"/>詺真諦者，世諦中何處有此名？真只是真如、
 <lb n="0111c16" ed="T"/>法性，世諦中何處有此名耶？世諦中若有真
-<lb n="0111c17" ed="T"/>如、法性之名，<note n="0111002" resp="Taisho" type="orig" place="foot text">則＝時ィ【原】</note><note n="0111002" resp="CBETA" type="mod">則【大】，時【校異-原】</note><app n="0111002"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">時</rdg></app>可借此名來詺真諦。如詺
+<lb n="0111c17" ed="T"/>如、法性之名，<note 
+n="0111002" resp="Taisho" type="orig" place="foot text">則＝時ィ【原】</note><note 
+n="0111002" resp="CBETA" type="mod">則【大】，時【校異-原】</note><app n="0111002">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">時</rdg>
+</app>可借此名來詺真諦。如詺
 <lb n="0111c18" ed="T"/>苟為烏龍、白虎，世諦中有烏龍、白虎，可借此
 <lb n="0111c19" ed="T"/>名詺苟為烏龍、白虎。世諦中何處有真如、法
 <lb n="0111c20" ed="T"/>性名，而云借此名詺真諦耶？此難意出《大論》
@@ -3184,8 +3782,13 @@
 <lb n="0112a08" ed="T"/>為、三無為皆世諦故，有為無為相待也。問：有
 <lb n="0112a09" ed="T"/>為待無為，無為有體、無為有名。無為之名，為
 <lb n="0112a10" ed="T"/>是有為、為是無為耶？解云：無為之名，是無常、
-<lb n="0112a11" ed="T"/>是有為；無為常法，無名也。<note n="0112001" resp="Taisho" type="orig" place="foot text">〔難無…名也〕ィ－【原】</note><note n="0112001" resp="CBETA" type="mod">難無…名也【大】，〔－〕【校異-原】</note><app n="0112001" cb:word-count="18"><lem wit="【大】">難無為之名是
-<lb n="0112a12" ed="T"/>無常是有為無為常法無名也</lem><rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg></app>難：無為無名，
+<lb n="0112a11" ed="T"/>是有為；無為常法，無名也。<note 
+n="0112001" resp="Taisho" type="orig" place="foot text">〔難無…名也〕ィ－【原】</note><note 
+n="0112001" resp="CBETA" type="mod">難無…名也【大】，〔－〕【校異-原】</note><app n="0112001" cb:word-count="18">
+  <lem wit="【大】">難無為之名是
+<lb n="0112a12" ed="T"/>無常是有為無為常法無名也</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark"><space quantity="0"/></rdg>
+</app>難：無為無名，
 <lb n="0112a13" ed="T"/>無為既待；真諦無名，真諦亦待。真諦無名，真
 <lb n="0112a14" ed="T"/>諦不待；無為無名，無為不待。此正就俱無名
 <lb n="0112a15" ed="T"/>為難也。次明今釋二諦絕名。師從來有四句：
@@ -3196,13 +3799,22 @@
 <lb n="0112a20" ed="T"/>來所無，唯今家有也。言二諦皆絕四句、離百
 <lb n="0112a21" ed="T"/>非者，俗不定俗、俗名真俗，真不定真、真名
 <lb n="0112a22" ed="T"/>俗真，真俗假俗、俗真假真，假俗則百是不能
-<lb n="0112a23" ed="T"/>是、百非不能非，假真亦爾。何者？假俗<app type="star" corresp="#0111001"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】">即</rdg></app>是
+<lb n="0112a23" ed="T"/>是、百非不能非，假真亦爾。何者？假俗<app type="star" corresp="#0111001">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】">即</rdg>
+</app>是
 <lb n="0112a24" ed="T"/>是不能是、百是亦不是，非非不能非、百非亦
 <lb n="0112a25" ed="T"/>不非。假真即非是不能是、百是亦不是，是非
 <lb n="0112a26" ed="T"/>不能非、百非亦不非。是故皆離四句、絕百
 <lb n="0112a27" ed="T"/>非也。雖二諦皆離四句、絕百非，然二諦俱絕
 <lb n="0112a28" ed="T"/>而大異。何者？俗諦絕則絕實，真諦絕則絕
-<lb n="0112a29" ed="T"/>假。俗諦絕實者，是是<app type="star" corresp="#0111001"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】">即</rdg></app>是實是、非非<app type="star" corresp="#0111001"><lem wit="【大】">則</lem><rdg resp="Taisho" wit="【甲】">即</rdg></app>是
+<lb n="0112a29" ed="T"/>假。俗諦絕實者，是是<app type="star" corresp="#0111001">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】">即</rdg>
+</app>是實是、非非<app type="star" corresp="#0111001">
+  <lem wit="【大】">則</lem>
+  <rdg resp="Taisho" wit="【甲】">即</rdg>
+</app>是
 <pb n="0112b" ed="T" xml:id="T45.1854.0112b"/>
 <lb n="0112b01" ed="T"/>性非。以俗諦絕實，故是是不能是、百是所不
 <lb n="0112b02" ed="T"/>是，非非不能非、百非所不非也。真諦絕假者，
@@ -3211,7 +3823,8 @@
 <lb n="0112b05" ed="T"/>非、是非亦不非。是是與非是，一切不能是；非
 <lb n="0112b06" ed="T"/>非與是非，一切不能非。真諦雙絕世諦假實，
 <lb n="0112b07" ed="T"/>此即漸捨明二諦皆絕義。俗諦絕實、真諦絕
-<lb n="0112b08" ed="T"/>假實，此開八不義。至八不中，當廣解釋也。</p><p xml:id="pT45p0112b0817" cb:place="inline">第
+<lb n="0112b08" ed="T"/>假實，此開八不義。至八不中，當廣解釋也。</p>
+<p xml:id="pT45p0112b0817" cb:place="inline">第
 <lb n="0112b09" ed="T"/>二次就平道明二諦俱絕義。俗不定俗，由真
 <lb n="0112b10" ed="T"/>故俗，真不定真，由俗故真。由真故俗，俗是
 <lb n="0112b11" ed="T"/>假俗；由俗故真，真是假真。既云假俗，即四
@@ -3221,20 +3834,23 @@
 <lb n="0112b15" ed="T"/>俗。若是俗，則非假俗。既云假俗，故非俗也。
 <lb n="0112b16" ed="T"/>假俗既非俗，可是非俗不？親言假俗，那是非
 <lb n="0112b17" ed="T"/>俗？若噵假非俗，可是非俗；既云假俗，那是非
-<lb n="0112b18" ed="T"/>俗耶？</p><p xml:id="pT45p0112b1803" cb:place="inline">問：若爾，應是亦俗亦非俗。既云假俗，那
+<lb n="0112b18" ed="T"/>俗耶？</p>
+<p xml:id="pT45p0112b1803" cb:place="inline">問：若爾，應是亦俗亦非俗。既云假俗，那
 <lb n="0112b19" ed="T"/>是亦俗亦非俗？既非亦俗亦非俗，應是非俗
 <lb n="0112b20" ed="T"/>非非俗。既云假俗，那是非俗非非俗？假俗既
 <lb n="0112b21" ed="T"/>然，假真亦爾，故二諦皆離四句。既竪離四句，
 <lb n="0112b22" ed="T"/>則橫絕百非也。此則平道用，二諦無異，俗諦
 <lb n="0112b23" ed="T"/>絕俗諦四句、真諦絕真諦四句，俗諦絕俗諦
 <lb n="0112b24" ed="T"/>性實四句、真諦絕真諦性實四句，故二諦是
-<lb n="0112b25" ed="T"/>齊，平道用也。</p><p xml:id="pT45p0112b2506" cb:place="inline">第三明二諦絕者，二諦絕即絕
+<lb n="0112b25" ed="T"/>齊，平道用也。</p>
+<p xml:id="pT45p0112b2506" cb:place="inline">第三明二諦絕者，二諦絕即絕
 <lb n="0112b26" ed="T"/>二諦，明二諦是教門，為表不二之道。諸法非
 <lb n="0112b27" ed="T"/>是有、非是無。非是有，為眾生故強說有，為表
 <lb n="0112b28" ed="T"/>不有；非是無，為眾生故強說無，為表不無。此
 <lb n="0112b29" ed="T"/>即有無表不有不無，故有無絕也。正意者，不
 <pb n="0112c" ed="T" xml:id="T45.1854.0112c"/>
-<lb n="0112c01" ed="T"/>絕為表絕，故不絕即絕也。</p><p xml:id="pT45p0112c0111" cb:place="inline">第四明二諦絕者，
+<lb n="0112c01" ed="T"/>絕為表絕，故不絕即絕也。</p>
+<p xml:id="pT45p0112c0111" cb:place="inline">第四明二諦絕者，
 <lb n="0112c02" ed="T"/>只二諦即絕，與前異。前二諦望表道故二諦
 <lb n="0112c03" ed="T"/>絕，今明只二諦即絕，只言說即絕。如《淨名經》
 <lb n="0112c04" ed="T"/>天女與身子論解脫相。關中云「身子雖知解
@@ -3246,7 +3862,8 @@
 <lb n="0112c10" ed="T"/>樂，乃是大樂。大亦有二種，相待大、絕待大。此
 <lb n="0112c11" ed="T"/>是何物絕耶？解云：此是漸捨絕。前明相待
 <lb n="0112c12" ed="T"/>樂非好樂，非苦非樂樂乃是好樂，故是漸捨
-<lb n="0112c13" ed="T"/>絕也。</p><p xml:id="pT45p0112c1303" cb:place="inline">二諦俱不絕者，然絕有此四種，不絕亦
+<lb n="0112c13" ed="T"/>絕也。</p>
+<p xml:id="pT45p0112c1303" cb:place="inline">二諦俱不絕者，然絕有此四種，不絕亦
 <lb n="0112c14" ed="T"/>有四種，翻此四種即是四不絕。第一不絕者，
 <lb n="0112c15" ed="T"/>俗諦絕實是非不絕俗諦、真諦絕假不絕真
 <lb n="0112c16" ed="T"/>諦。真諦絕假生滅、不絕真不生滅，故二諦皆
@@ -3262,7 +3879,8 @@
 <lb n="0112c26" ed="T"/>若爾，遙望佛相好是世諦，近之無相好應是
 <lb n="0112c27" ed="T"/>真諦。今明只相好宛然而無所有，無所有而
 <lb n="0112c28" ed="T"/>相好宛然。諸法亦爾，只不絕而絕、絕而不絕
-<lb n="0112c29" ed="T"/>也。</p><p xml:id="pT45p0112c2902" cb:place="inline">次明二諦攝法義第六。然此義，開善、莊
+<lb n="0112c29" ed="T"/>也。</p>
+<p xml:id="pT45p0112c2902" cb:place="inline">次明二諦攝法義第六。然此義，開善、莊
 <pb n="0113a" ed="T" xml:id="T45.1854.0113a"/>
 <lb n="0113a01" ed="T"/>嚴兩家釋不同。開善云：二諦攝法盡，下至
 <lb n="0113a02" ed="T"/>生死、上極涅槃，預名相所及者，故皆世諦。只
@@ -3276,7 +3894,8 @@
 <lb n="0113a10" ed="T"/>答云：「生死如幻如夢，涅槃亦如幻如夢。設有
 <lb n="0113a11" ed="T"/>一法出涅槃者，亦說如幻如夢。」涅槃既是幻
 <lb n="0113a12" ed="T"/>夢，故涅槃虛假，以虛假故是世諦，虛假即空
-<lb n="0113a13" ed="T"/>故為真諦也。</p><p xml:id="pT45p0113a1306" cb:place="inline">問：彼何故明涅槃是世諦耶？解
+<lb n="0113a13" ed="T"/>故為真諦也。</p>
+<p xml:id="pT45p0113a1306" cb:place="inline">問：彼何故明涅槃是世諦耶？解
 <lb n="0113a14" ed="T"/>云：彼明：涅槃，三假中是相待、相續二假所攝；
 <lb n="0113a15" ed="T"/>若是生死則具三假。何者？為異具所成，故是
 <lb n="0113a16" ed="T"/>因成假。異具所成者，四微成柱、五陰成人也。
@@ -3285,14 +3904,20 @@
 <lb n="0113a19" ed="T"/>為真諦。生死為二諦攝也。涅槃為續待二假
 <lb n="0113a20" ed="T"/>攝者，佛果續金剛心，金剛心滅佛果起，續故
 <lb n="0113a21" ed="T"/>是相續假。涅槃復待生死，故涅槃是相待假。
-<lb n="0113a22" ed="T"/>佛果不為異具所成，故非因成假也。</p><p xml:id="pT45p0113a2215" cb:place="inline">問：萬德
+<lb n="0113a22" ed="T"/>佛果不為異具所成，故非因成假也。</p>
+<p xml:id="pT45p0113a2215" cb:place="inline">問：萬德
 <lb n="0113a23" ed="T"/>成涅槃，何故非因成假耶？解云：萬德無別體，
 <lb n="0113a24" ed="T"/>非別法成此人，人即是法。但義論人法，可軌
 <lb n="0113a25" ed="T"/>義為法、統御義為人，無別異法成人，故云佛
 <lb n="0113a26" ed="T"/>果不為異具所成，非因成假也。以涅槃具二
 <lb n="0113a27" ed="T"/>假故是世諦，即以此二假空為真諦，故涅槃
 <lb n="0113a28" ed="T"/>具二諦攝。彼云：大品權教、雙林實說，二諦
-<lb n="0113a29" ed="T"/>往收<note n="0113001" resp="Taisho" type="orig" place="foot text">悉＝磬【甲】</note><note n="0113001" resp="CBETA" type="mod">悉【大】，磬【甲】</note><app n="0113001"><lem wit="【大】">悉</lem><rdg resp="Taisho" wit="【甲】">磬</rdg></app>無不盡，故明二諦攝法盡也。莊嚴明
+<lb n="0113a29" ed="T"/>往收<note 
+n="0113001" resp="Taisho" type="orig" place="foot text">悉＝磬【甲】</note><note 
+n="0113001" resp="CBETA" type="mod">悉【大】，磬【甲】</note><app n="0113001">
+  <lem wit="【大】">悉</lem>
+  <rdg resp="Taisho" wit="【甲】">磬</rdg>
+</app>無不盡，故明二諦攝法盡也。莊嚴明
 <pb n="0113b" ed="T" xml:id="T45.1854.0113b"/>
 <lb n="0113b01" ed="T"/>二諦攝法不盡。二諦故，自不攝涅槃。攝生死
 <lb n="0113b02" ed="T"/>中法亦復不盡。何者？生死中有有法、有空
@@ -3304,7 +3929,8 @@
 <lb n="0113b08" ed="T"/>空是常，無有名相。名相是無常，以虛空常故
 <lb n="0113b09" ed="T"/>無名相，無名相故非相待假。故虛空非三假，
 <lb n="0113b10" ed="T"/>非三假非世諦，非三假故不可即空，故非真
-<lb n="0113b11" ed="T"/>諦。</p><p xml:id="pT45p0113b1102" cb:place="inline">問：虛空既然，數滅、非數滅云何？解云：小
+<lb n="0113b11" ed="T"/>諦。</p>
+<p xml:id="pT45p0113b1102" cb:place="inline">問：虛空既然，數滅、非數滅云何？解云：小
 <lb n="0113b12" ed="T"/>乘數滅、非數滅，還是無常，還是世諦，但昔方
 <lb n="0113b13" ed="T"/>便說為常；望今大涅槃，皆無常也。若今日數
 <lb n="0113b14" ed="T"/>滅，還是大涅槃，復不得為二諦攝；非數滅
@@ -3340,11 +3966,21 @@
 <lb n="0113c14" ed="T"/>去。經親云「大涅槃空」，何時噵空無諸相？空
 <lb n="0113c15" ed="T"/>無諸相，別復是一種語。涅槃空無十相。十相
 <lb n="0113c16" ed="T"/>者，三界、男女相及五塵相。涅槃無此十相，故
-<lb n="0113c17" ed="T"/>云涅槃空無<note n="0113002" resp="Taisho" type="orig" place="foot text">諸＋（法）ィ【原】</note><note n="0113002" resp="CBETA" type="mod">諸【大】，諸法【校異-原】</note><app n="0113002"><lem wit="【大】">諸</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">諸法</rdg></app>相。何時明涅槃空耶？莊嚴
+<lb n="0113c17" ed="T"/>云涅槃空無<note 
+n="0113002" resp="Taisho" type="orig" place="foot text">諸＋（法）ィ【原】</note><note 
+n="0113002" resp="CBETA" type="mod">諸【大】，諸法【校異-原】</note><app n="0113002">
+  <lem wit="【大】">諸</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">諸法</rdg>
+</app>相。何時明涅槃空耶？莊嚴
 <lb n="0113c18" ed="T"/>終明涅槃不可空，明涅槃非磨滅法常住妙
 <lb n="0113c19" ed="T"/>有，故非假也。然《仁王經》的有此文。《仁王》云
 <lb n="0113c20" ed="T"/>「常住薩云若覺，超出世諦第一義諦外。」此的
-<lb n="0113c21" ed="T"/>是一文，而諸法師不引為證。不引亦有<note n="0113003" resp="Taisho" type="orig" place="foot text">（其）ィ＋意【原】</note><note n="0113003" resp="CBETA" type="mod">意【大】，其意【校異-原】</note><app n="0113003"><lem wit="【大】">意</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">其意</rdg></app>，
+<lb n="0113c21" ed="T"/>是一文，而諸法師不引為證。不引亦有<note 
+n="0113003" resp="Taisho" type="orig" place="foot text">（其）ィ＋意【原】</note><note 
+n="0113003" resp="CBETA" type="mod">意【大】，其意【校異-原】</note><app n="0113003">
+  <lem wit="【大】">意</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">其意</rdg>
+</app>，
 <lb n="0113c22" ed="T"/>言此經預疑，故不足為證也。兩家互相破如
 <lb n="0113c23" ed="T"/>此。今時若為耶？解云：此兩家明涅槃未足，今
 <lb n="0113c24" ed="T"/>更將《大論》及《中論》足之。《中論》偈云「一切實非
@@ -3369,7 +4005,8 @@
 <lb n="0114a13" ed="T"/>者？兩家所計，方便中一枝義耳。得方便一
 <lb n="0114a14" ed="T"/>枝亦好，而復於一枝中各相破射、各執是非，
 <lb n="0114a15" ed="T"/>謂是道理實說。開善云：二諦道理攝法盡；莊
-<lb n="0114a16" ed="T"/>嚴云：道理不盡。為是義所以成失也。</p><p xml:id="pT45p0114a1615" cb:place="inline">問：今時
+<lb n="0114a16" ed="T"/>嚴云：道理不盡。為是義所以成失也。</p>
+<p xml:id="pT45p0114a1615" cb:place="inline">問：今時
 <lb n="0114a17" ed="T"/>所明二諦，攝法盡不盡耶？解云：大乘經具
 <lb n="0114a18" ed="T"/>有二文，此並是如來方便為緣之說，有時為
 <lb n="0114a19" ed="T"/>緣說二諦攝法盡、有時為緣說攝法不盡，具
@@ -3381,7 +4018,8 @@
 <lb n="0114a25" ed="T"/>為第一義諦；乃至二不二為世諦，非二非不
 <lb n="0114a26" ed="T"/>二為第一義諦。就此而論，則無出二諦。就
 <lb n="0114a27" ed="T"/>前節復出義，有如此經文，則作前釋；有如
-<lb n="0114a28" ed="T"/>此經文，則作後釋，無相違也。</p><p xml:id="pT45p0114a2812" cb:place="inline">次明二諦同
+<lb n="0114a28" ed="T"/>此經文，則作後釋，無相違也。</p>
+<p xml:id="pT45p0114a2812" cb:place="inline">次明二諦同
 <lb n="0114a29" ed="T"/>異義第七。然此義前諸章中已明，今更略
 <pb n="0114b" ed="T" xml:id="T45.1854.0114b"/>
 <lb n="0114b01" ed="T"/>辨。何者？第一約《涅槃》、《大品》二經明二諦同
@@ -3398,8 +4036,18 @@
 <lb n="0114b12" ed="T"/>滯有之為惑，故般若為之照。」若涅槃空為世
 <lb n="0114b13" ed="T"/>諦、有為真諦者，正對破三修斷無涅槃。小乘
 <lb n="0114b14" ed="T"/>明灰身滅智得無餘涅槃，以為妙極。故肇師
-<lb n="0114b15" ed="T"/>云「智為雜毒、形為桎梏，智以形<note n="0114001" resp="Taisho" type="orig" place="foot text">倦＝疲ィ【原】</note><note n="0114001" resp="CBETA" type="mod">惓【大】，疲【校異-原】</note><app n="0114001"><lem wit="【大】">惓</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">疲</rdg></app>、形以智
-<lb n="0114b16" ed="T"/>勞，故<note n="0114002" resp="Taisho" type="orig" place="foot text">（至人）ィ＋滅【原】</note><note n="0114002" resp="CBETA" type="mod">滅【大】，至人滅【校異-原】</note><app n="0114002"><lem wit="【大】">滅</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">至人滅</rdg></app>身以歸無、絕智以淪虛。」涅槃對此
+<lb n="0114b15" ed="T"/>云「智為雜毒、形為桎梏，智以形<note 
+n="0114001" resp="Taisho" type="orig" place="foot text">倦＝疲ィ【原】</note><note 
+n="0114001" resp="CBETA" type="mod">惓【大】，疲【校異-原】</note><app n="0114001">
+  <lem wit="【大】">惓</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">疲</rdg>
+</app>、形以智
+<lb n="0114b16" ed="T"/>勞，故<note 
+n="0114002" resp="Taisho" type="orig" place="foot text">（至人）ィ＋滅【原】</note><note 
+n="0114002" resp="CBETA" type="mod">滅【大】，至人滅【校異-原】</note><app n="0114002">
+  <lem wit="【大】">滅</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">至人滅</rdg>
+</app>身以歸無、絕智以淪虛。」涅槃對此
 <lb n="0114b17" ed="T"/>斷無之病，故明斷無乃是世諦耳。若常住涅
 <lb n="0114b18" ed="T"/>槃三點具足、四德圓滿妙有涅槃，是為第一
 <lb n="0114b19" ed="T"/>義諦。師云：若約此義而論，得作斯判；若約
@@ -3419,7 +4067,12 @@
 <lb n="0114c03" ed="T"/>化，涅槃如幻如化」。涅槃經亦如此，故文云
 <lb n="0114c04" ed="T"/>「迦毘羅城空，大般涅槃亦空。」是故空有二諦，
 <lb n="0114c05" ed="T"/>通二經也。又《大論》明四悉壇通十二部經八
-<lb n="0114c06" ed="T"/><note n="0114003" resp="Taisho" type="orig" place="foot text">萬＋（四千）ィ【原】</note><note n="0114003" resp="CBETA" type="mod">萬【大】，萬四千【校異-原】</note><app n="0114003"><lem wit="【大】">萬</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">萬四千</rdg></app>法藏。四悉壇中，前三是有、後一是無，
+<lb n="0114c06" ed="T"/><note 
+n="0114003" resp="Taisho" type="orig" place="foot text">萬＋（四千）ィ【原】</note><note 
+n="0114003" resp="CBETA" type="mod">萬【大】，萬四千【校異-原】</note><app n="0114003">
+  <lem wit="【大】">萬</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">萬四千</rdg>
+</app>法藏。四悉壇中，前三是有、後一是無，
 <lb n="0114c07" ed="T"/>故四悉壇即是二諦。四悉壇既通，二諦即通
 <lb n="0114c08" ed="T"/>也。又二諦空有二境，生權實二智，照有是權
 <lb n="0114c09" ed="T"/>智、照空是實智。然從來人，空有二智是般若
@@ -3452,7 +4105,12 @@
 <lb n="0115a06" ed="T"/>諦也。案苽二諦，假為世諦，假體即空為真
 <lb n="0115a07" ed="T"/>諦。廣如常解云云。次周顒明三宗二諦。三
 <lb n="0115a08" ed="T"/>宗者：一不空假、二空假、三假空。野城寺光
-<lb n="0115a09" ed="T"/><note n="0115001" resp="Taisho" type="orig" place="foot text">大＝太ィ【原】</note><note n="0115001" resp="CBETA" type="mod">大【大】，太【校異-原】</note><app n="0115001"><lem wit="【大】">大</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">太</rdg></app>法師用假空義；開善亦用，用中最不得
+<lb n="0115a09" ed="T"/><note 
+n="0115001" resp="Taisho" type="orig" place="foot text">大＝太ィ【原】</note><note 
+n="0115001" resp="CBETA" type="mod">大【大】，太【校異-原】</note><app n="0115001">
+  <lem wit="【大】">大</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">太</rdg>
+</app>法師用假空義；開善亦用，用中最不得
 <lb n="0115a10" ed="T"/>意者，如醜人學西施嚬，轉益醜拙。彼知美
 <lb n="0115a11" ed="T"/>嚬，不知嚬之所以美。開善用三宗不得意，猶
 <lb n="0115a12" ed="T"/>是學嚬之類也。然三宗義，不空假還是鼠婁

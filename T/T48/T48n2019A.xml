@@ -2,84 +2,89 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T48n2019A">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">真心直說</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2019A 真心直說</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2019A 真心直說</title>
-			<author>高麗 知訥撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">48</idno>.<idno type="no">2019A</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-09-14T11:10:39">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">真心直說</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2019A 真心直說</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2019A 真心直說</title>
+      <author>高麗 知訥撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">48</idno>.<idno type="no">2019A</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-09-14T11:10:39">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0999a" xml:id="T48.2019A.0999a" ed="T"/>
 <lb n="0999a01" ed="T"/>
 <lb n="0999a02" ed="T"/><cb:docNumber>No. 2019A</cb:docNumber>
-<lb n="0999a03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">真心直說序</cb:mulu><head><note n="0999001" resp="Taisho" place="foot text" type="orig">【原】增上寺報恩藏明本</note>真心直說序</head>
+<lb n="0999a03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">真心直說序</cb:mulu><head><note 
+n="0999001" resp="Taisho" place="foot text" type="orig">【原】增上寺報恩藏明本</note>真心直說序</head>
 <lb n="0999a04" ed="T"/>
 <lb n="0999a05" ed="T"/><p xml:id="pT48p0999a0501">或曰。祖師妙道可得知乎。曰古不云乎。道不
-<lb n="0999a06" ed="T"/>屬知。不屬不知。知是妄想。不知是無<note n="0999a0601" resp="CBETA" type="add" note_key="T48.0999a06.15">記【CB】，計【大】</note><app n="0999a0601"><lem wit="【CB】" resp="CBETA.maha" cb:provider="無語 (2018-09-05)">記<note type="cf1">T47n1997_p0803c25</note></lem><rdg wit="【大】">計</rdg></app>。若真
+<lb n="0999a06" ed="T"/>屬知。不屬不知。知是妄想。不知是無<note 
+n="0999a0601" resp="CBETA" type="add" note_key="T48.0999a06.15">記【CB】，計【大】</note><app n="0999a0601">
+  <lem wit="【CB】" resp="CBETA.maha" cb:provider="無語 (2018-09-05)">記<note type="cf1">T47n1997_p0803c25</note></lem>
+  <rdg wit="【大】">計</rdg>
+</app>。若真
 <lb n="0999a07" ed="T"/>達不疑之地。猶如太虛寬廓。豈可強是非耶。
 <lb n="0999a08" ed="T"/>或曰。然則諸祖出世無益群生耶。曰佛祖出
 <lb n="0999a09" ed="T"/>頭無法與人。只要眾生自見本性。華嚴云。知

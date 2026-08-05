@@ -2,84 +2,87 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1378a">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛說玄師颰陀所說神呪經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1378a 佛說玄師颰陀所說神呪經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1378a 佛說玄師颰陀所說神呪經</title>
-			<author>東晉 曇無蘭譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1378a</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:51">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛說玄師颰陀所說神呪經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1378a 佛說玄師颰陀所說神呪經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1378a 佛說玄師颰陀所說神呪經</title>
+      <author>東晉 曇無蘭譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1378a</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:51">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0901c" ed="T" xml:id="T21.1378a.0901c"/>
 <lb n="0901c01" ed="T"/>
-<lb n="0901c02" ed="T"/><cb:docNumber>No. 1378</cb:docNumber><cb:div type="jing">
-<lb n="0901c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0901001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說玄師颰陀所說神呪經</cb:jhead></cb:juan>
+<lb n="0901c02" ed="T"/><cb:docNumber>No. 1378</cb:docNumber>
+<cb:div type="jing">
+<lb n="0901c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0901001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說玄師颰陀所說神呪經</cb:jhead></cb:juan>
 <lb n="0901c04" ed="T"/>
 <lb n="0901c05" ed="T"/><byline cb:type="Translator">東晉天竺三藏竺曇無蘭譯</byline>
-<lb n="0901c06" ed="T"/><p xml:id="pT21p0901c0601">聞如是：</p><p xml:id="pT21p0901c0604" cb:place="inline">一時佛遊於羅閱祇國中鸚鵡樹間。
+<lb n="0901c06" ed="T"/><p xml:id="pT21p0901c0601">聞如是：</p>
+<p xml:id="pT21p0901c0604" cb:place="inline">一時佛遊於羅閱祇國中鸚鵡樹間。
 <lb n="0901c07" ed="T"/>是時有一異比丘，於竹園去羅閱祇國，適在
 <lb n="0901c08" ed="T"/>中間為蛇所齧，復為鬼神所著，復為賊所劫。
 <lb n="0901c09" ed="T"/>見佛爾時即往到是比丘所，時玄師颰陀隨
@@ -95,7 +98,8 @@
 <lb n="0901c19" ed="T"/><p xml:id="pT21p0901c1901">「如是呪，斷口語、斷諸迷、斷諸病痛。是諸閱
 <lb n="0901c20" ed="T"/>叉皆作是迷　須摩菟　摩呵<note place="inline">一</note>　曜沙難　摩
 <lb n="0901c21" ed="T"/>訶<note place="inline">二</note>　閱叉梵　摩曜摩訶<note place="inline">三</note>　閱叉　因呵羅
-<lb n="0901c22" ed="T"/>　其摩呵<note place="inline">四</note>　閱叉呵祇槃摩呵<note place="inline">五</note>」</p><p xml:id="pT21p0901c2213" cb:place="inline">「是諸閱叉在
+<lb n="0901c22" ed="T"/>　其摩呵<note place="inline">四</note>　閱叉呵祇槃摩呵<note place="inline">五</note>」</p>
+<p xml:id="pT21p0901c2213" cb:place="inline">「是諸閱叉在
 <lb n="0901c23" ed="T"/>鬼神中尊。我字因偷諸欲病者、害人者，我皆
 <lb n="0901c24" ed="T"/>使不知人處，障蔽汝眼令不見一切人，皆使
 <lb n="0901c25" ed="T"/>不得其便。」當爾之時便呼言：</p>

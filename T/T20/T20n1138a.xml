@@ -2,84 +2,86 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T20n1138a">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">金剛祕密善門陀羅尼呪經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1138a 金剛祕密善門陀羅尼呪經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1138a 金剛祕密善門陀羅尼呪經</title>
-			<author>失譯</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1138a</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-24T11:15:15">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">金剛祕密善門陀羅尼呪經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1138a 金剛祕密善門陀羅尼呪經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1138a 金剛祕密善門陀羅尼呪經</title>
+      <author>失譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1138a</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-24T11:15:15">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0581c12" ed="T"/>
 <lb n="0581c13" ed="T"/>
 <lb n="0581c14" ed="T"/><cb:docNumber>No. 1138 [Nos. 1137, 1139, 1140]</cb:docNumber>
-<lb n="0581c15" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0581012" resp="Taisho" type="orig" place="foot text">【原】麗本</note>金剛祕密善門陀羅尼呪經</cb:jhead></cb:juan>
+<lb n="0581c15" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0581012" resp="Taisho" type="orig" place="foot text">【原】麗本</note>金剛祕密善門陀羅尼呪經</cb:jhead></cb:juan>
 <lb n="0581c16" ed="T"/>
 <lb n="0581c17" ed="T"/><byline cb:type="Translator">失譯人名今附東晉錄</byline>
-<lb n="0581c18" ed="T"/><cb:div type="jing"><p xml:id="pT20p0581c1801">如是我聞：</p><p xml:id="pT20p0581c1805" cb:place="inline">一時佛在菩提樹下元吉道場，告
+<lb n="0581c18" ed="T"/><cb:div type="jing"><p xml:id="pT20p0581c1801">如是我聞：</p>
+<p xml:id="pT20p0581c1805" cb:place="inline">一時佛在菩提樹下元吉道場，告
 <lb n="0581c19" ed="T"/>諸比丘、大德舍利弗、大德阿難如是等諸聲
 <lb n="0581c20" ed="T"/>聞眾，及大菩薩，其名曰：金剛幢菩薩、金剛藏
 <lb n="0581c21" ed="T"/>菩薩、彌勒菩薩，如是賢劫中諸菩薩摩訶薩
@@ -122,7 +124,8 @@
 <lb n="0582a28" ed="T"/>　耶咃帝弗婆枳　多咃伽帝　阿羅呵三藐
 <lb n="0582a29" ed="T"/>菩提婆師多　阿提癡多　薩夕婆羅底爾那
 <pb n="0582b" ed="T" xml:id="T20.1138a.0582b"/>
-<lb n="0582b01" ed="T"/>脾跋咃卑多」</p><p xml:id="pT20p0582b0106" cb:place="inline">爾時佛告金剛密迹：「吾欲
+<lb n="0582b01" ed="T"/>脾跋咃卑多」</p>
+<p xml:id="pT20p0582b0106" cb:place="inline">爾時佛告金剛密迹：「吾欲
 <lb n="0582b02" ed="T"/>利益一切眾生說陀羅尼，如過去諸佛受持
 <lb n="0582b03" ed="T"/>守護，我亦護持。」爾時佛放頂上螺髮光明，現
 <lb n="0582b04" ed="T"/>大人相遍照十方，諸佛世界靡不周遍。諸佛

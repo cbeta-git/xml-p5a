@@ -2,76 +2,77 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="TX20n0013">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Collected Works of Master Taixu</title>
-			<title level="s" xml:lang="zh-Hant">太虛大師全書</title>
-			<title level="m" xml:lang="zh-Hant">太虛大師全書．第十三編　宗用論(第1卷-第22卷)</title>
-			<title>Collected Works of Master Taixu, Electronic version, No. 13 太虛大師全書．第十三編　宗用論(第1卷-第22卷)</title>
-			<title xml:lang="zh-Hant">太虛大師全書數位版, No. 13 太虛大師全書．第十三編　宗用論(第1卷-第22卷)</title>
-			<author>民國 釋太虛著</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>22卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">TX</idno>.<idno type="vol">20</idno>.<idno type="no">13</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>太虛大師全書</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
-			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【太虛】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2022-06-14">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Collected Works of Master Taixu</title>
+      <title level="s" xml:lang="zh-Hant">太虛大師全書</title>
+      <title level="m" xml:lang="zh-Hant">太虛大師全書．第十三編　宗用論(第1卷-第22卷)</title>
+      <title>Collected Works of Master Taixu, Electronic version, No. 13 太虛大師全書．第十三編　宗用論(第1卷-第22卷)</title>
+      <title xml:lang="zh-Hant">太虛大師全書數位版, No. 13 太虛大師全書．第十三編　宗用論(第1卷-第22卷)</title>
+      <author>民國 釋太虛著</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>22卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">TX</idno>.<idno type="vol">20</idno>.<idno type="no">13</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>太虛大師全書</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
+      <p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【太虛】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2022-06-14">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="TX" xml:id="TX20.0013.c001a" n="c001a"/>
-<lb ed="TX" n="c001a01"/><cb:div type="other"><cb:mulu type="其他" level="1">文化</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">佛教化的世界宗教學術觀</cb:mulu><head>佛教化的世界宗教學術觀</head>
+<lb ed="TX" n="c001a01"/><cb:div type="other"><cb:mulu type="其他" level="1">文化</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">佛教化的世界宗教學術觀</cb:mulu><head>佛教化的世界宗教學術觀</head>
 <lb ed="TX" n="c001a02"/><p xml:id="pTX20pc001a0201" cb:type="pre">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　老莊
 <lb ed="TX" n="c001a03"/>　　　　華嚴宗─┐　　　　　　　　　　　　　　　┌─佛教化之儒教宗
 <lb ed="TX" n="c001a04"/>　　　　　　　　│　　　　　　　　　　　　　　　│　　　　　　　　附此
@@ -145,8 +146,16 @@
 <lb ed="TX" n="c005a06"/>於非吾之一一色礙聚，或不能藉彼而為彼所藉，反得苦障，或渴願藉彼而無力藉彼，
 <lb ed="TX" n="c005a07"/>徒殷希望。而非吾之一一色礙聚中，則有與吾形同欲同者也。形同欲同故易得親愛，
 <lb ed="TX" n="c005a08"/>抑其天官之意物也同，故比方之疑似而通，而漸能相狎識形聲所表示別別之情欲想思
-<lb ed="TX" n="c005a09"/>；因相狎識，乃相要求，求互助以<note n="c005a0901" resp="CBETA" type="add" rend="hide">祛【CB】，袪【太虛】</note><app n="c005a0901"><lem wit="【太虛】">袪</lem><rdg resp="CBETA" type="cbetaRemark">祛</rdg></app>不能藉彼而為彼所藉之苦障，求合作以達渴願藉
-<lb ed="TX" n="c005a10"/>彼而無力藉彼之希望。以互助合作之群力故，竟得苦障<note n="c005a1001" resp="CBETA" type="add" rend="hide">祛【CB】，袪【太虛】</note><app n="c005a1001"><lem wit="【太虛】">袪</lem><rdg resp="CBETA" type="cbetaRemark">祛</rdg></app>而希望達，煩惱減而快樂增
+<lb ed="TX" n="c005a09"/>；因相狎識，乃相要求，求互助以<note 
+n="c005a0901" resp="CBETA" type="add" rend="hide">祛【CB】，袪【太虛】</note><app n="c005a0901">
+  <lem wit="【太虛】">袪</lem>
+  <rdg resp="CBETA" type="cbetaRemark">祛</rdg>
+</app>不能藉彼而為彼所藉之苦障，求合作以達渴願藉
+<lb ed="TX" n="c005a10"/>彼而無力藉彼之希望。以互助合作之群力故，竟得苦障<note 
+n="c005a1001" resp="CBETA" type="add" rend="hide">祛【CB】，袪【太虛】</note><app n="c005a1001">
+  <lem wit="【太虛】">袪</lem>
+  <rdg resp="CBETA" type="cbetaRemark">祛</rdg>
+</app>而希望達，煩惱減而快樂增
 <lb ed="TX" n="c005a11"/>，於是知群力之妙，可以無求不獲，乃汲汲以彀充其群為第一要事。然而得親愛狎識
 <lb ed="TX" n="c005a12"/>以成互助合作之群者，蓋因形欲之同，而欲之所同，則在藉物之力而濟我之私，故所
 <pb ed="TX" xml:id="TX20.0013.c006a" n="c006a"/>
@@ -276,10 +285,12 @@
 <lb ed="TX" n="c014a06"/>巧名言者歟？且學術雖不即真，而人心固好求實，彼孜孜為學術者，奚嘗一旦忘庶幾
 <lb ed="TX" n="c014a07"/>得悟真理耶？遺其所偏，擴其明見，揭其所封，存其成法，亦未始非闢裂迷網之前矛
 <lb ed="TX" n="c014a08"/>也。是故學術明居先，宗教明次之，而以人倫明殿焉。蓋兩利為利，人所共知，況有
-<lb ed="TX" n="c014a09"/>情同體，本無自他者哉！</p><byline cb:type="other">（見海刊一卷十期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c014a09"/>情同體，本無自他者哉！</p>
+<byline cb:type="other">（見海刊一卷十期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="3"/>
 <pb ed="TX" xml:id="TX20.0013.c015a" n="c015a"/>
-<lb ed="TX" n="c015a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學與科學哲學及宗教之異同</cb:mulu><head>佛學與科學哲學及宗教之異同<note n="c015001" resp="TaiXu" place="foot text" type="orig">海刊原題「在巴黎哲人廳講」，演說集作「佛學與科學及其他宗教之異同」，今改題。</note></head>
+<lb ed="TX" n="c015a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學與科學哲學及宗教之異同</cb:mulu><head>佛學與科學哲學及宗教之異同<note 
+n="c015001" resp="TaiXu" place="foot text" type="orig">海刊原題「在巴黎哲人廳講」，演說集作「佛學與科學及其他宗教之異同」，今改題。</note></head>
 <lb ed="TX" n="c015a02"/><byline cb:type="other">——十七年九月在巴黎哲人廳講——</byline>
 <lb ed="TX" n="c015a03"/><p xml:id="pTX20pc015a0301" style="margin-left:0em;text-indent:2em">我對於佛學有二十餘年的研究，知道他並不是一個民族、一個國家、或一個時代
 <lb ed="TX" n="c015a04"/>的產物，他的性質，實在是大同的世界的。現在的交通一天發達一天，已成了車同軌
@@ -367,7 +378,8 @@
 <lb ed="TX" n="c021a09"/>當然也為傳播和平而來。但佛的和平，不是茍且的、虛偽的，不是在槍彈堆積上建設
 <lb ed="TX" n="c021a10"/>和平。佛所要求的和平，是徹底的和平，是從和平的思想上建設起來。人類必須了解
 <lb ed="TX" n="c021a11"/>宇宙的真相，徹底的認清和平，而後成了吾們自己的思想、堅固的信仰，於是在佛法
-<lb ed="TX" n="c021a12"/>的試驗室中發揮光大，才能造成真正的和平，把一切相爭相奪的現象統統消滅。</p><byline cb:type="other">（周
+<lb ed="TX" n="c021a12"/>的試驗室中發揮光大，才能造成真正的和平，把一切相爭相奪的現象統統消滅。</p>
+<byline cb:type="other">（周
 <pb ed="TX" xml:id="TX20.0013.c022a" n="c022a"/>
 <lb ed="TX" n="c022a01"/>還、徐公肅記）（見海刊九卷十期）</byline></cb:div>
 <milestone unit="juan" n="4"/>
@@ -436,7 +448,11 @@
 <lb ed="TX" n="c027a12"/>爾之慧光，一諦審諦觀於佛法乎！</p>
 <pb ed="TX" xml:id="TX20.0013.c028a" n="c028a"/>
 <lb ed="TX" n="c028a01"/><p xml:id="pTX20pc028a0101" style="margin-left:0em;text-indent:2em">但今世之偏用成弊者，雖在西洋文化之惟以發揮擴充人類之動物慾為進化，而致
-<lb ed="TX" n="c028a02"/><note n="c028a0201" resp="CBETA" type="add" rend="hide" note_key="TX20.c028a02.01">汩【CB】，汨【太虛】</note><app n="c028a0201"><lem wit="【CB】" resp="CBETA.shin">汩</lem><rdg wit="【太虛】">汨</rdg></app>沒人理，沉淪獸性。然由此所獲之副產品，則科學之知識及方法也，工作之機器及
+<lb ed="TX" n="c028a02"/><note 
+n="c028a0201" resp="CBETA" type="add" rend="hide" note_key="TX20.c028a02.01">汩【CB】，汨【太虛】</note><app n="c028a0201">
+  <lem wit="【CB】" resp="CBETA.shin">汩</lem>
+  <rdg wit="【太虛】">汨</rdg>
+</app>沒人理，沉淪獸性。然由此所獲之副產品，則科學之知識及方法也，工作之機器及
 <lb ed="TX" n="c028a03"/>技能也，生活物產之豐富華美也，社會言行之平等自由也，交通之廣而速也，發見之
 <lb ed="TX" n="c028a04"/>新而奇也，在在足令人心迷目醉而不能自主！故今欲挽救其弊，雖可用儒教，而儒教
 <lb ed="TX" n="c028a05"/>之力量微小，猶杯水不能救車薪之火，拳石不能塞河漢之流也！雖可用天神教，奈彼
@@ -463,7 +479,8 @@
 <pb ed="TX" xml:id="TX20.0013.c030a" n="c030a"/>
 <lb ed="TX" n="c030a01"/>至其究竟，則世界莊嚴，生民安樂，而西洋文化之長處，乃真適其用也。今偏用西洋
 <lb ed="TX" n="c030a02"/>文化之弊既極而其勢又極張，非猛速以進善人性不足以相濟，非用佛法又不能猛速以
-<lb ed="TX" n="c030a03"/>進善人性，此所願為經世之士大其聲而告之者也！</p><byline cb:type="other">（見海刊五卷七期）</byline></cb:div>
+<lb ed="TX" n="c030a03"/>進善人性，此所願為經世之士大其聲而告之者也！</p>
+<byline cb:type="other">（見海刊五卷七期）</byline></cb:div>
 <milestone unit="juan" n="5"/>
 <pb ed="TX" xml:id="TX20.0013.c031a" n="c031a"/>
 <lb ed="TX" n="c031a01"/><cb:div type="other"><cb:mulu type="其他" level="2">東方文化正名</cb:mulu><head>東方文化正名</head>
@@ -496,7 +513,8 @@
 <lb ed="TX" n="c033a03"/>國之史學，中國之文化等等，而別無所謂國學者。然比之以史，自可有中國經濟史，
 <lb ed="TX" n="c033a04"/>中國政治史等等分別，而仍不妨有中國通史，故雖應作中國各科學之研究，亦不妨有
 <lb ed="TX" n="c033a05"/>統作中國學術或中國文化之研究者。以研究或提倡中國文化而名為中國文化，較泛稱
-<lb ed="TX" n="c033a06"/>曰東方文化為宜。故所談之學術思想以中國為限者，應正名曰中國文化也。</p><byline cb:type="other">（見海刊
+<lb ed="TX" n="c033a06"/>曰東方文化為宜。故所談之學術思想以中國為限者，應正名曰中國文化也。</p>
+<byline cb:type="other">（見海刊
 <lb ed="TX" n="c033a07"/>十一卷九期）</byline></cb:div>
 <milestone unit="juan" n="6"/>
 <pb ed="TX" xml:id="TX20.0013.c034a" n="c034a"/>
@@ -567,14 +585,22 @@
 <lb ed="TX" n="c039a02"/>現在起將來的新；那避新、趨新的，不皆是完全撲了個空麼？</p>
 <lb ed="TX" n="c039a03"/><p xml:id="pTX20pc039a0301" style="margin-left:0em;text-indent:2em">六、析舊成新　我們埋伏在無明當中的人。只能用後一念的心取前一念的心為境
 <lb ed="TX" n="c039a04"/>。可憐那所取的境，早是鴻飛冥冥，僅留著一痕一痕的舊痕而已。但是在我們沒有澈
-<lb ed="TX" n="c039a05"/>底覺悟過的人，其知識界中既除<note n="c039a0501" resp="CBETA" type="add" rend="hide">卻【CB】，郤【太虛】</note><app n="c039a0501"><lem wit="【太虛】">郤</lem><rdg resp="CBETA" type="cbetaRemark">卻</rdg></app>一閃一閃所遺留的舊痕以外，更沒有旁的，則不知
+<lb ed="TX" n="c039a05"/>底覺悟過的人，其知識界中既除<note 
+n="c039a0501" resp="CBETA" type="add" rend="hide">卻【CB】，郤【太虛】</note><app n="c039a0501">
+  <lem wit="【太虛】">郤</lem>
+  <rdg resp="CBETA" type="cbetaRemark">卻</rdg>
+</app>一閃一閃所遺留的舊痕以外，更沒有旁的，則不知
 <lb ed="TX" n="c039a06"/>不覺便貪戀分別，將那捉得的舊痕，比較著一閃一閃的先後，析為若干若干的時代，
 <lb ed="TX" n="c039a07"/>指著這一時代的遺痕謂之曰新，於是更指他那若干若干的時代謂之曰舊。新之又新，
 <lb ed="TX" n="c039a08"/>則新者亦成為舊；舊之又舊，則舊者亦成為新。但新來新去，總不過是些一痕一痕的
 <lb ed="TX" n="c039a09"/>舊痕！</p>
 <lb ed="TX" n="c039a10"/><p xml:id="pTX20pc039a1001" style="margin-left:0em;text-indent:2em">七、戀舊怯新　跟著人心一種樂平和的性，遂對於已經捕住養服的所有事件，總
 <lb ed="TX" n="c039a11"/>抱持緊緊的要他永遠不遷流了去。一面恰虛虛地怕那沒有有過的衝出來，把這已經捕
-<lb ed="TX" n="c039a12"/>住養服的衝走了，使他失<note n="c039a1201" resp="CBETA" type="add" rend="hide">卻【CB】，郤【太虛】</note><app n="c039a1201"><lem wit="【太虛】">郤</lem><rdg resp="CBETA" type="cbetaRemark">卻</rdg></app>依靠，且有不能捕住養服那新衝出來的恐怖。為此、對於
+<lb ed="TX" n="c039a12"/>住養服的衝走了，使他失<note 
+n="c039a1201" resp="CBETA" type="add" rend="hide">卻【CB】，郤【太虛】</note><app n="c039a1201">
+  <lem wit="【太虛】">郤</lem>
+  <rdg resp="CBETA" type="cbetaRemark">卻</rdg>
+</app>依靠，且有不能捕住養服那新衝出來的恐怖。為此、對於
 <pb ed="TX" xml:id="TX20.0013.c040a" n="c040a"/>
 <lb ed="TX" n="c040a01"/>那未經捕住養服的新，便想堵塞他使他永遠不會衝盪過來；把他已經捕住養服的舊，
 <lb ed="TX" n="c040a02"/>乃千重百匝的以為固守之計。殊不知他那已經捕住養服的，本是一閃一閃的謝影，那
@@ -609,7 +635,8 @@
 <lb ed="TX" n="c042a05"/><p xml:id="pTX20pc042a0501" style="margin-left:0em;text-indent:2em">或曰：你寫了一大篇，竟不曾確確切切的解決那新舊問題，但打些脫空的葛藤耳
 <lb ed="TX" n="c042a06"/>。答他道：如是如是！然而確切卻又最確切不過了。何故呢？不見道：新舊即空，空
 <lb ed="TX" n="c042a07"/>即新舊麼！不見道：一新一切新，一舊一切舊麼！不見道：光光蕩蕩，竟無一些影蹤
-<lb ed="TX" n="c042a08"/>了麼！『萬古碧潭空界月，再三撈摝始應知』！</p><byline cb:type="other">（見海刊一卷一期）</byline></cb:div>
+<lb ed="TX" n="c042a08"/>了麼！『萬古碧潭空界月，再三撈摝始應知』！</p>
+<byline cb:type="other">（見海刊一卷一期）</byline></cb:div>
 <milestone unit="juan" n="7"/>
 <pb ed="TX" xml:id="TX20.0013.c043a" n="c043a"/>
 <lb ed="TX" n="c043a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學與新思想</cb:mulu><head>佛學與新思想</head>
@@ -708,15 +735,22 @@
 <lb ed="TX" n="c050a04"/>理推之，良以人類由野獸遞變進化而成，舊時習性，未忘致然耳。語雖深刻，然亦足
 <lb ed="TX" n="c050a05"/>以表肉食之為不人道矣。總之、思想愈進步，佛法亦愈昌明，此必然之勢也。今日諸
 <lb ed="TX" n="c050a06"/>君久聽弗倦，誠為難得！願於佛法能深信勿疑，則發揚光闡，吾國前途幸甚！世界前
-<lb ed="TX" n="c050a07"/>途幸甚！</p><byline cb:type="other">（李傳書、葉玉甫合記）（見海刊十二卷九期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c050a07"/>途幸甚！</p>
+<byline cb:type="other">（李傳書、葉玉甫合記）（見海刊十二卷九期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="8"/>
 <pb ed="TX" xml:id="TX20.0013.c051a" n="c051a"/>
 <lb ed="TX" n="c051a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學在今後人世之意義</cb:mulu><head>佛學在今後人世之意義</head>
 <lb ed="TX" n="c051a02"/><byline cb:type="other">——十九年二月在廈門大學講——</byline>
-<lb ed="TX" n="c051a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc051a0301"><p xml:id="pTX20pc051a0301" style="margin-left:4em;text-indent:-2em">一　佛學的定義</p></item>
-<lb ed="TX" n="c051a04"/><item xml:id="itemTX20pc051a0401"><p xml:id="pTX20pc051a0401" style="margin-left:4em;text-indent:-2em">二　佛學對於文化之意義</p></item>
-<lb ed="TX" n="c051a05"/><item xml:id="itemTX20pc051a0501"><p xml:id="pTX20pc051a0501" style="margin-left:4em;text-indent:-2em">三　佛學對於哲學之意義</p></item>
-<lb ed="TX" n="c051a06"/><item xml:id="itemTX20pc051a0601"><p xml:id="pTX20pc051a0601" style="margin-left:4em;text-indent:-2em">四　佛學對於道德之意義</p></item></list></cb:div>
+<lb ed="TX" n="c051a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc051a0301"><p xml:id="pTX20pc051a0301" style="margin-left:4em;text-indent:-2em">一　佛學的定義</p></item>
+<lb ed="TX" n="c051a04"/>
+  <item xml:id="itemTX20pc051a0401"><p xml:id="pTX20pc051a0401" style="margin-left:4em;text-indent:-2em">二　佛學對於文化之意義</p></item>
+<lb ed="TX" n="c051a05"/>
+  <item xml:id="itemTX20pc051a0501"><p xml:id="pTX20pc051a0501" style="margin-left:4em;text-indent:-2em">三　佛學對於哲學之意義</p></item>
+<lb ed="TX" n="c051a06"/>
+  <item xml:id="itemTX20pc051a0601"><p xml:id="pTX20pc051a0601" style="margin-left:4em;text-indent:-2em">四　佛學對於道德之意義</p></item>
+</list></cb:div>
 <lb ed="TX" n="c051a07"/>
 <lb ed="TX" n="c051a08"/><cb:div type="other"><cb:mulu type="其他" level="3">一　佛學的定義</cb:mulu><head>一　佛學的定義</head>
 <lb ed="TX" n="c051a09"/><p xml:id="pTX20pc051a0901" style="margin-left:0em;text-indent:2em">要想把整個的佛學加以如實的說明，予一般人以一個完整的概念，那是須費很多
@@ -823,7 +857,11 @@
 <lb ed="TX" n="c059a04"/>種學問，分門別類的組織起來，一科一科作分析的研究，其方法愈精密，其成功亦愈
 <lb ed="TX" n="c059a05"/>足驚人，故科學所得的知識，比之以哲學來得可靠。科學老老實實的研究各種事實，
 <lb ed="TX" n="c059a06"/>這種態度非常的可以佩服！但我們知道，自然界裏無論那一種存在的或有生命的東西
-<lb ed="TX" n="c059a07"/>，牠是整個的或全個活動的東西，一施以科學的解剖分析或化驗，<note n="c059a0701" resp="CBETA" type="add" rend="hide">已【CB】，巳【太虛】</note><app n="c059a0701"><lem wit="【太虛】">巳</lem><rdg resp="CBETA" type="cbetaRemark">已</rdg></app>非原來的本身了
+<lb ed="TX" n="c059a07"/>，牠是整個的或全個活動的東西，一施以科學的解剖分析或化驗，<note 
+n="c059a0701" resp="CBETA" type="add" rend="hide">已【CB】，巳【太虛】</note><app n="c059a0701">
+  <lem wit="【太虛】">巳</lem>
+  <rdg resp="CBETA" type="cbetaRemark">已</rdg>
+</app>非原來的本身了
 <lb ed="TX" n="c059a08"/>。所以人生宇宙，果然可以分析，而事上它是整個、或是有生命的東西，故科學在這
 <lb ed="TX" n="c059a09"/>方面實在不能一手包辦，而哲學對科學所不能包辦的事情，不能不盡些義務。故哲學
 <lb ed="TX" n="c059a10"/>不僅是冥思玄想，他的職務是：通盤的徹底的、一種了解整個宇宙人生的企圖，它周
@@ -929,17 +967,25 @@
 <lb ed="TX" n="c067a06"/><p xml:id="pTX20pc067a0601" style="margin-left:0em;text-indent:2em">我覺得現代世界人類的缺點，就是乏少這以利他而自他兼利的菩薩行的人。要知
 <lb ed="TX" n="c067a07"/>道佛教中所指的菩薩，並非指泥塑木雕的偶像，是稱謂一種有改造宇宙、改善人生的
 <lb ed="TX" n="c067a08"/>偉大思想的人。我們各各都能發這樣大心，那末我們各各都是菩薩了。但附帶的有一
-<lb ed="TX" n="c067a09"/>個條件，須要把整個的佛教有全般深刻的認識和實行，方當得起這種稱謂。</p><byline cb:type="other">（芝峰
+<lb ed="TX" n="c067a09"/>個條件，須要把整個的佛教有全般深刻的認識和實行，方當得起這種稱謂。</p>
+<byline cb:type="other">（芝峰
 <lb ed="TX" n="c067a10"/>記）（見海刊十一卷四期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="9"/>
 <pb ed="TX" xml:id="TX20.0013.c068a" n="c068a"/>
 <lb ed="TX" n="c068a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛法對於現代人類的貢獻</cb:mulu><head>佛法對於現代人類的貢獻</head>
 <lb ed="TX" n="c068a02"/><byline cb:type="other">——十八年五月在杭州各界歡迎會講——</byline>
-<lb ed="TX" n="c068a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc068a0301"><p xml:id="pTX20pc068a0301" style="margin-left:4em;text-indent:-2em">一　緒言</p></item>
-<lb ed="TX" n="c068a04"/><item xml:id="itemTX20pc068a0401"><p xml:id="pTX20pc068a0401" style="margin-left:4em;text-indent:-2em">二　科學的思想上一個宇宙觀的新信仰之貢獻</p></item>
-<lb ed="TX" n="c068a05"/><item xml:id="itemTX20pc068a0501"><p xml:id="pTX20pc068a0501" style="margin-left:4em;text-indent:-2em">三　工業經濟上一個人生觀的新信仰之貢獻</p></item>
-<lb ed="TX" n="c068a06"/><item xml:id="itemTX20pc068a0601"><p xml:id="pTX20pc068a0601" style="margin-left:4em;text-indent:-2em">四　平權政治上一個公僕觀的新信仰之貢獻</p></item>
-<lb ed="TX" n="c068a07"/><item xml:id="itemTX20pc068a0701"><p xml:id="pTX20pc068a0701" style="margin-left:4em;text-indent:-2em">五　結論</p></item></list></cb:div>
+<lb ed="TX" n="c068a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc068a0301"><p xml:id="pTX20pc068a0301" style="margin-left:4em;text-indent:-2em">一　緒言</p></item>
+<lb ed="TX" n="c068a04"/>
+  <item xml:id="itemTX20pc068a0401"><p xml:id="pTX20pc068a0401" style="margin-left:4em;text-indent:-2em">二　科學的思想上一個宇宙觀的新信仰之貢獻</p></item>
+<lb ed="TX" n="c068a05"/>
+  <item xml:id="itemTX20pc068a0501"><p xml:id="pTX20pc068a0501" style="margin-left:4em;text-indent:-2em">三　工業經濟上一個人生觀的新信仰之貢獻</p></item>
+<lb ed="TX" n="c068a06"/>
+  <item xml:id="itemTX20pc068a0601"><p xml:id="pTX20pc068a0601" style="margin-left:4em;text-indent:-2em">四　平權政治上一個公僕觀的新信仰之貢獻</p></item>
+<lb ed="TX" n="c068a07"/>
+  <item xml:id="itemTX20pc068a0701"><p xml:id="pTX20pc068a0701" style="margin-left:4em;text-indent:-2em">五　結論</p></item>
+</list></cb:div>
 <lb ed="TX" n="c068a08"/>
 <lb ed="TX" n="c068a09"/><cb:div type="other"><cb:mulu type="其他" level="3">一　緒言</cb:mulu><head>一　緒言</head>
 <lb ed="TX" n="c068a10"/><p xml:id="pTX20pc068a1001" style="margin-left:0em;text-indent:2em">人類是宇宙萬有的自然界中之一部分，同時、在人為界又是社會的及政治的動物
@@ -1124,17 +1170,25 @@
 <lb ed="TX" n="c082a05"/>界人類的安樂，成為一種政治之運動。此三者，余於個人興趣之所在，欲先從整理成
 <lb ed="TX" n="c082a06"/>世界性的佛教學做起，乃發起世界佛學院。不必只是一個，各地各可設立，但須聯合
 <lb ed="TX" n="c082a07"/>各族、各語、各語、各派之佛徒，融貫各族、各語、各派之佛法，作互為師資的研習
-<lb ed="TX" n="c082a08"/>。</p><byline cb:type="other">（見海刊十卷五期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c082a08"/>。</p>
+<byline cb:type="other">（見海刊十卷五期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="10"/>
 <pb ed="TX" xml:id="TX20.0013.c083a" n="c083a"/>
 <lb ed="TX" n="c083a01"/><cb:div type="other"><cb:mulu type="其他" level="2">舊新思潮之變遷與佛學之關係</cb:mulu><head>舊新思潮之變遷與佛學之關係</head>
 <lb ed="TX" n="c083a02"/><byline cb:type="other">——二十年十一月在西安第一中學講——</byline>
-<lb ed="TX" n="c083a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc083a0301"><p xml:id="pTX20pc083a0301" style="margin-left:4em;text-indent:-2em">一　三十年前為唯物論與機械論黃金時代</p></item>
-<lb ed="TX" n="c083a04"/><item xml:id="itemTX20pc083a0401"><p xml:id="pTX20pc083a0401" style="margin-left:4em;text-indent:-2em">二　三十年來已另成一新時代</p></item>
-<lb ed="TX" n="c083a05"/><item xml:id="itemTX20pc083a0501"><p xml:id="pTX20pc083a0501" style="margin-left:4em;text-indent:-2em">三　新思潮與佛學之接近</p></item>
-<lb ed="TX" n="c083a06"/><item xml:id="itemTX20pc083a0601"><p xml:id="pTX20pc083a0601" style="margin-left:4em;text-indent:-2em">四　少年當站向新潮之最前線上</p></item></list></cb:div>
+<lb ed="TX" n="c083a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc083a0301"><p xml:id="pTX20pc083a0301" style="margin-left:4em;text-indent:-2em">一　三十年前為唯物論與機械論黃金時代</p></item>
+<lb ed="TX" n="c083a04"/>
+  <item xml:id="itemTX20pc083a0401"><p xml:id="pTX20pc083a0401" style="margin-left:4em;text-indent:-2em">二　三十年來已另成一新時代</p></item>
+<lb ed="TX" n="c083a05"/>
+  <item xml:id="itemTX20pc083a0501"><p xml:id="pTX20pc083a0501" style="margin-left:4em;text-indent:-2em">三　新思潮與佛學之接近</p></item>
+<lb ed="TX" n="c083a06"/>
+  <item xml:id="itemTX20pc083a0601"><p xml:id="pTX20pc083a0601" style="margin-left:4em;text-indent:-2em">四　少年當站向新潮之最前線上</p></item>
+</list></cb:div>
 <lb ed="TX" n="c083a07"/>
-<lb ed="TX" n="c083a08"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX20pc083a0801" style="margin-left:0em;text-indent:2em">中國近來所輸入之西洋學術，猶是彼邦十九世紀之思想，至於新興之學說，尚未
+<lb ed="TX" n="c083a08"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX20pc083a0801" style="margin-left:0em;text-indent:2em">中國近來所輸入之西洋學術，猶是彼邦十九世紀之思想，至於新興之學說，尚未
 <lb ed="TX" n="c083a09"/>有傳入。三十年前之舊思想，已為現在傑出之學者所不滿，正從事攷正其錯誤與流弊
 <lb ed="TX" n="c083a10"/>。故西洋近三十年來新學術之進步無已，大有一日千里之勢；其近來之傾向，可以說
 <lb ed="TX" n="c083a11"/>全在汰除過去十九世紀之腐朽見解，而刱造新時代之新生命。現在之中國既不能閉關
@@ -1229,13 +1283,18 @@
 <lb ed="TX" n="c090a08"/><p xml:id="pTX20pc090a0801" style="margin-left:0em;text-indent:2em">不可留戀三十年前的唯物史觀等舊思想，成為時代的落伍者！因為現代之新學說
 <lb ed="TX" n="c090a09"/>，已非三十年前之舊思潮可比，故我們當為新時代之新人物，非站在時代的前線力謀
 <lb ed="TX" n="c090a10"/>進步不可！若仍然留戀三十年前之唯物時代之中，必為新思潮時代之拋棄者。然則如
-<lb ed="TX" n="c090a11"/>何進步？在中國、可從研究佛學而步入于西洋已在蓓蕾待放的新思潮。</p><byline cb:type="other">（化城記）（
+<lb ed="TX" n="c090a11"/>何進步？在中國、可從研究佛學而步入于西洋已在蓓蕾待放的新思潮。</p>
+<byline cb:type="other">（化城記）（
 <lb ed="TX" n="c090a12"/>見海刊十三卷三期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="11"/>
 <pb ed="TX" xml:id="TX20.0013.c091a" n="c091a"/>
 <lb ed="TX" n="c091a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛教對於中國文化之影響</cb:mulu><head>佛教對於中國文化之影響</head>
 <lb ed="TX" n="c091a02"/><byline cb:type="other">——二十年十月在西安高級中學講——</byline>
-<lb ed="TX" n="c091a03"/><p xml:id="pTX20pc091a0301" style="margin-left:0em;text-indent:2em">今日蒙<note n="c091a0301" resp="CBETA" type="add" rend="hide">陝【CB】，陜【太虛】</note><app n="c091a0301"><lem wit="【太虛】">陜</lem><rdg resp="CBETA" type="cbetaRemark">陝</rdg></app>西學界開會邀為講演，誠屬難得之機緣；然余因昨日略受感冒，對於此
+<lb ed="TX" n="c091a03"/><p xml:id="pTX20pc091a0301" style="margin-left:0em;text-indent:2em">今日蒙<note 
+n="c091a0301" resp="CBETA" type="add" rend="hide">陝【CB】，陜【太虛】</note><app n="c091a0301">
+  <lem wit="【太虛】">陜</lem>
+  <rdg resp="CBETA" type="cbetaRemark">陝</rdg>
+</app>西學界開會邀為講演，誠屬難得之機緣；然余因昨日略受感冒，對於此
 <lb ed="TX" n="c091a04"/>題不能詳細發揮，故僅能就其大意約略說明之。</p>
 <lb ed="TX" n="c091a05"/><p xml:id="pTX20pc091a0501" style="margin-left:0em;text-indent:2em">若論及佛教之歷史，固發源於印度，然印度久已絕跡，早無佛教可言；而現在能
 <lb ed="TX" n="c091a06"/>代表佛教者，唯有三處而已。三處之中，二處皆在中國，即本部與西藏；另一處即錫
@@ -1417,7 +1476,8 @@
 <lb ed="TX" n="c105a01"/>想，雖欲從陸、王之理學而溝通於西洋文化，然考其思想之出發處，仍然是由於佛學
 <lb ed="TX" n="c105a02"/>。其現在對於救國，雖主張用儒教，然其內心之信仰與其生命之歸宿，似乎尚在於佛
 <lb ed="TX" n="c105a03"/>教也。</p>
-<lb ed="TX" n="c105a04"/><p xml:id="pTX20pc105a0401" style="margin-left:0em;text-indent:2em">以上之敘述，不過就其大概言之。</p><byline cb:type="other">（化城記）（見海刊十三卷一期）</byline></cb:div>
+<lb ed="TX" n="c105a04"/><p xml:id="pTX20pc105a0401" style="margin-left:0em;text-indent:2em">以上之敘述，不過就其大概言之。</p>
+<byline cb:type="other">（化城記）（見海刊十三卷一期）</byline></cb:div>
 <milestone unit="juan" n="12"/>
 <pb ed="TX" xml:id="TX20.0013.c106a" n="c106a"/>
 <lb ed="TX" n="c106a01"/><cb:div type="other"><cb:mulu type="其他" level="2">中國文化之佛教因素</cb:mulu><head>中國文化之佛教因素</head>
@@ -1440,16 +1500,25 @@
 <lb ed="TX" n="c107a09"/>理學反動更發揮至極，擴究周秦子學而進入吸收歐洲文化階段。隋唐佛學則正為印度
 <lb ed="TX" n="c107a10"/>文化輸入成果；宋明理學乃襲取經學與佛學各一分以產生。由此、可見佛教已為中國
 <lb ed="TX" n="c107a11"/>文化一重要因素。研究中國文化，若無視於佛學，或排於佛學，實為不知中國文化為
-<lb ed="TX" n="c107a12"/>何物者也！為中國人，又烏可不研究於佛學哉？</p><byline cb:type="other">（見海刊十八卷五期）</byline></cb:div>
+<lb ed="TX" n="c107a12"/>何物者也！為中國人，又烏可不研究於佛學哉？</p>
+<byline cb:type="other">（見海刊十八卷五期）</byline></cb:div>
 <milestone unit="juan" n="13"/>
 <pb ed="TX" xml:id="TX20.0013.c108a" n="c108a"/>
 <lb ed="TX" n="c108a01"/><cb:div type="other"><cb:mulu type="其他" level="2">提供談文化建設者幾條佛學</cb:mulu><head>提供談文化建設者幾條佛學</head>
-<lb ed="TX" n="c108a02"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc108a0201"><p xml:id="pTX20pc108a0201" style="margin-left:4em;text-indent:-2em">一　徹底的因果論與現實論</p></item>
-<lb ed="TX" n="c108a03"/><item xml:id="itemTX20pc108a0301"><p xml:id="pTX20pc108a0301" style="margin-left:4em;text-indent:-2em">二　徹底的平等論與差別論</p></item>
-<lb ed="TX" n="c108a04"/><item xml:id="itemTX20pc108a0401"><p xml:id="pTX20pc108a0401" style="margin-left:4em;text-indent:-2em">三　徹底的社會論與個人論</p></item>
-<lb ed="TX" n="c108a05"/><item xml:id="itemTX20pc108a0501"><p xml:id="pTX20pc108a0501" style="margin-left:4em;text-indent:-2em">四　徹底的無常論與恆如論</p></item>
-<lb ed="TX" n="c108a06"/><item xml:id="itemTX20pc108a0601"><p xml:id="pTX20pc108a0601" style="margin-left:4em;text-indent:-2em">五　新文化的建設</p></item>
-<lb ed="TX" n="c108a07"/><item xml:id="itemTX20pc108a0701"><p xml:id="pTX20pc108a0701" style="margin-left:4em;text-indent:-2em">六　文化的定義</p></item></list>
+<lb ed="TX" n="c108a02"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc108a0201"><p xml:id="pTX20pc108a0201" style="margin-left:4em;text-indent:-2em">一　徹底的因果論與現實論</p></item>
+<lb ed="TX" n="c108a03"/>
+  <item xml:id="itemTX20pc108a0301"><p xml:id="pTX20pc108a0301" style="margin-left:4em;text-indent:-2em">二　徹底的平等論與差別論</p></item>
+<lb ed="TX" n="c108a04"/>
+  <item xml:id="itemTX20pc108a0401"><p xml:id="pTX20pc108a0401" style="margin-left:4em;text-indent:-2em">三　徹底的社會論與個人論</p></item>
+<lb ed="TX" n="c108a05"/>
+  <item xml:id="itemTX20pc108a0501"><p xml:id="pTX20pc108a0501" style="margin-left:4em;text-indent:-2em">四　徹底的無常論與恆如論</p></item>
+<lb ed="TX" n="c108a06"/>
+  <item xml:id="itemTX20pc108a0601"><p xml:id="pTX20pc108a0601" style="margin-left:4em;text-indent:-2em">五　新文化的建設</p></item>
+<lb ed="TX" n="c108a07"/>
+  <item xml:id="itemTX20pc108a0701"><p xml:id="pTX20pc108a0701" style="margin-left:4em;text-indent:-2em">六　文化的定義</p></item>
+</list>
 <lb ed="TX" n="c108a08"/>
 <lb ed="TX" n="c108a09"/><p xml:id="pTX20pc108a0901" style="margin-left:0em;text-indent:2em">文化建設月刊笫四期以來，關于中國文化建設的討論，五花八門，誠可謂洋洋大
 <lb ed="TX" n="c108a10"/>觀，但察其無論檢查中國固有的歷史文化，或考究資本主義文化與社會主義文化，對
@@ -1483,7 +1552,11 @@
 <lb ed="TX" n="c110a09"/>宛然，先後宛然，勝劣宛然；則其程度之累差與形性之別異，又不可以僂指計，故又
 <lb ed="TX" n="c110a10"/>為無數之差別。由差別故，聖凡有異：聖之中，又有下乘聖、中乘聖、上乘聖中過程
 <lb ed="TX" n="c110a11"/>之菩薩與究竟之佛陀；凡之中，又有人而上之天等，與人而下之畜等。依正有異：依
-<lb ed="TX" n="c110a12"/>報中，有天界、人界、<note n="c110a1201" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="c110a1201"><lem wit="【太虛】">凈</lem><rdg resp="CBETA" type="cbetaRemark">淨</rdg></app>土、穢土等；正報中，有胎生、化生，聖身、凡身等。色心
+<lb ed="TX" n="c110a12"/>報中，有天界、人界、<note 
+n="c110a1201" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="c110a1201">
+  <lem wit="【太虛】">凈</lem>
+  <rdg resp="CBETA" type="cbetaRemark">淨</rdg>
+</app>土、穢土等；正報中，有胎生、化生，聖身、凡身等。色心
 <pb ed="TX" xml:id="TX20.0013.c111a" n="c111a"/>
 <lb ed="TX" n="c111a01"/>有異：色物中，又有內五根與外六塵等；心識中，又有八識心王與五十一心所等。假
 <lb ed="TX" n="c111a02"/>實有異：假法中，有時分、方位等；實法中，有種子、現行等。相性有異：相事中，
@@ -1491,7 +1564,11 @@
 <lb ed="TX" n="c111a04"/>具此差別諸法而最能轉動此差別諸法者。由此、依人心於平等差別諸法之覺不覺：或
 <lb ed="TX" n="c111a05"/>不覺而創造諸退化業，因而受墮畜等諸劣果集成苦世界，或覺而創造諸進化行，因而
 <lb ed="TX" n="c111a06"/>致升天與羅漢、辟支、菩薩、佛陀諸勝果集成樂世界。而人生世界之意義和價值，即
-<lb ed="TX" n="c111a07"/>在能走上進化之階程而不再退墮流落。菩薩佛及其<note n="c111a0701" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="c111a0701"><lem wit="【太虛】">凈</lem><rdg resp="CBETA" type="cbetaRemark">淨</rdg></app>妙樂土，即為人格及人世界進化
+<lb ed="TX" n="c111a07"/>在能走上進化之階程而不再退墮流落。菩薩佛及其<note 
+n="c111a0701" resp="CBETA" type="add" rend="hide">淨【CB】，凈【太虛】</note><app n="c111a0701">
+  <lem wit="【太虛】">凈</lem>
+  <rdg resp="CBETA" type="cbetaRemark">淨</rdg>
+</app>妙樂土，即為人格及人世界進化
 <lb ed="TX" n="c111a08"/>之階段與最高成果。由此、故又為人神論，心元論，或進化有階向論。</p></cb:div>
 <lb ed="TX" n="c111a09"/><cb:div type="other"><cb:mulu type="其他" level="3">三　徹底的社會論與個人論</cb:mulu><head>三　徹底的社會論與個人論</head>
 <lb ed="TX" n="c111a10"/><p xml:id="pTX20pc111a1001" style="margin-left:0em;text-indent:2em">佛陀證明一切法皆眾緣所成，任舉一事物，其直接能生起能長成的必要眾緣，雖
@@ -1581,20 +1658,31 @@
 <lb ed="TX" n="c118a03"/>學發達進步到現代的人群，佛法實為唯一的宗教，亦為綜合的圓滿的最高文化。平常
 <lb ed="TX" n="c118a04"/>的人誤解佛法為悲觀的，厭世的，殊不知佛法的否定自然，否定人間現狀，但為督促
 <lb ed="TX" n="c118a05"/>人生向上進步、而改造自然界、創造新宇宙的一種革命的策略。所以、在革命救國
-<lb ed="TX" n="c118a06"/>救世的三民主義中國文化建設中，佛法可為其最偉大的精神動力！</p><byline cb:type="other">（見海刊十六卷五
+<lb ed="TX" n="c118a06"/>救世的三民主義中國文化建設中，佛法可為其最偉大的精神動力！</p>
+<byline cb:type="other">（見海刊十六卷五
 <lb ed="TX" n="c118a07"/>期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="14"/>
 <pb ed="TX" xml:id="TX20.0013.c119a" n="c119a"/>
 <lb ed="TX" n="c119a01"/><cb:div type="other"><cb:mulu type="其他" level="2">怎樣建設現代中國的文化</cb:mulu><head>怎樣建設現代中國的文化</head>
-<lb ed="TX" n="c119a02"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc119a0201"><p xml:id="pTX20pc119a0201" style="margin-left:4em;text-indent:-2em">一　中國歷史文化的追溯</p></item>
-<lb ed="TX" n="c119a03"/><item xml:id="itemTX20pc119a0301"><p xml:id="pTX20pc119a0301" style="margin-left:4em;text-indent:-2em">二　中國固有之社會組織</p></item>
-<lb ed="TX" n="c119a04"/><item xml:id="itemTX20pc119a0401"><p xml:id="pTX20pc119a0401" style="margin-left:4em;text-indent:-2em">三　現代的世界鳥瞰</p></item>
-<lb ed="TX" n="c119a05"/><item xml:id="itemTX20pc119a0501"><p xml:id="pTX20pc119a0501" style="margin-left:4em;text-indent:-2em">四　落伍中的中國現狀</p></item>
-<lb ed="TX" n="c119a06"/><item xml:id="itemTX20pc119a0601"><p xml:id="pTX20pc119a0601" style="margin-left:4em;text-indent:-2em">五　從固有道德以建設現代中國文化</p></item>
-<lb ed="TX" n="c119a07"/><item xml:id="itemTX20pc119a0701"><p xml:id="pTX20pc119a0701" style="margin-left:4em;text-indent:-2em">六　從改進教育以建設現代中國文化</p></item>
-<lb ed="TX" n="c119a08"/><item xml:id="itemTX20pc119a0801"><p xml:id="pTX20pc119a0801" style="margin-left:4em;text-indent:-2em">七　從改進政制以建設現代中國文化</p></item></list></cb:div>
+<lb ed="TX" n="c119a02"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc119a0201"><p xml:id="pTX20pc119a0201" style="margin-left:4em;text-indent:-2em">一　中國歷史文化的追溯</p></item>
+<lb ed="TX" n="c119a03"/>
+  <item xml:id="itemTX20pc119a0301"><p xml:id="pTX20pc119a0301" style="margin-left:4em;text-indent:-2em">二　中國固有之社會組織</p></item>
+<lb ed="TX" n="c119a04"/>
+  <item xml:id="itemTX20pc119a0401"><p xml:id="pTX20pc119a0401" style="margin-left:4em;text-indent:-2em">三　現代的世界鳥瞰</p></item>
+<lb ed="TX" n="c119a05"/>
+  <item xml:id="itemTX20pc119a0501"><p xml:id="pTX20pc119a0501" style="margin-left:4em;text-indent:-2em">四　落伍中的中國現狀</p></item>
+<lb ed="TX" n="c119a06"/>
+  <item xml:id="itemTX20pc119a0601"><p xml:id="pTX20pc119a0601" style="margin-left:4em;text-indent:-2em">五　從固有道德以建設現代中國文化</p></item>
+<lb ed="TX" n="c119a07"/>
+  <item xml:id="itemTX20pc119a0701"><p xml:id="pTX20pc119a0701" style="margin-left:4em;text-indent:-2em">六　從改進教育以建設現代中國文化</p></item>
+<lb ed="TX" n="c119a08"/>
+  <item xml:id="itemTX20pc119a0801"><p xml:id="pTX20pc119a0801" style="margin-left:4em;text-indent:-2em">七　從改進政制以建設現代中國文化</p></item>
+</list></cb:div>
 <lb ed="TX" n="c119a09"/>
-<lb ed="TX" n="c119a10"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX20pc119a1001" style="margin-left:0em;text-indent:2em">文化是人類改造所依所資的自然物，以適應人生需要的方式和工具，乃豎窮語文
+<lb ed="TX" n="c119a10"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX20pc119a1001" style="margin-left:0em;text-indent:2em">文化是人類改造所依所資的自然物，以適應人生需要的方式和工具，乃豎窮語文
 <lb ed="TX" n="c119a11"/>所權、橫遍舟車所達的一切人類努力交織以成。然因受時間、空間的限制，故一時代
 <lb ed="TX" n="c119a12"/>有一時代的特徵，一方國有一方國的特徵。但云現代，則時間限於現代，而空間卻通
 <lb ed="TX" n="c119a13"/>於中外；但云中國，則空間限於中國，而時間卻通於過未。今曰現代中國，則於現代
@@ -1694,7 +1782,8 @@
 <lb ed="TX" n="c126a12"/>法西斯主義，與羅斯福的善鄰主義，導城威爾斯與斯太林會談記中所謂『大船是全人
 <pb ed="TX" xml:id="TX20.0013.c127a" n="c127a"/>
 <lb ed="TX" n="c127a01"/>類，不是階級』的世界人類主義，則漸漸可渡入東方文化的大同之世了。</p></cb:div>
-<lb ed="TX" n="c127a02"/><cb:div type="other"><cb:mulu type="其他" level="3">四　落伍中的中國現狀</cb:mulu><head>四　落伍中的中國現狀<note n="c127001" resp="TaiXu" place="foot text" type="orig">四五兩節，係「中國人用中國法之自救」彙編於此者。</note></head>
+<lb ed="TX" n="c127a02"/><cb:div type="other"><cb:mulu type="其他" level="3">四　落伍中的中國現狀</cb:mulu><head>四　落伍中的中國現狀<note 
+n="c127001" resp="TaiXu" place="foot text" type="orig">四五兩節，係「中國人用中國法之自救」彙編於此者。</note></head>
 <lb ed="TX" n="c127a03"/><p xml:id="pTX20pc127a0301" style="margin-left:0em;text-indent:2em">中國人向來自成為一天地，中國之外，則胥為蠻、夷、戎、狄。雖由佛教嘗認印
 <lb ed="TX" n="c127a04"/>度為大國，然除佛教外既鮮他種之政治、經濟等關係，亦夷之狄之而置於不見不聞耳
 <lb ed="TX" n="c127a05"/>。明季以來，乾、嘉之前，曾有布教經商之歐、美人來往，其等之蠻戎也猶昔。故中
@@ -1913,7 +2002,8 @@
 <lb ed="TX" n="c143a09"/><p xml:id="pTX20pc143a0901" style="margin-left:0em;text-indent:2em">由此、使個人成為顧全國族道義的新個人，不流為資本主義的個人，亦不淪為抹
 <lb ed="TX" n="c143a10"/>煞個人的社會主義；使國家成為顧全國際道義的新國家，不流為帝國主義的國家，并
 <lb ed="TX" n="c143a11"/>不淪為廢滅國家的世界主義。如是的新個人和新國家，便是踏入天下為公、大同之世
-<lb ed="TX" n="c143a12"/>的初步，也就是復興中國民族與造成世界和平的奠基石。</p><byline cb:type="other">（見海刊十六卷七期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c143a12"/>的初步，也就是復興中國民族與造成世界和平的奠基石。</p>
+<byline cb:type="other">（見海刊十六卷七期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="15"/>
 <pb ed="TX" xml:id="TX20.0013.c145a" n="c145a"/>
 <lb ed="TX" n="c145a01"/><cb:div type="other"><cb:mulu type="其他" level="2">中國今後之文化</cb:mulu><head>中國今後之文化</head>
@@ -1931,7 +2021,11 @@
 <lb ed="TX" n="c146a01"/><cb:div type="other"><cb:mulu type="其他" level="3">二</cb:mulu><head>二</head>
 <lb ed="TX" n="c146a02"/><p xml:id="pTX20pc146a0201" style="margin-left:0em;text-indent:2em">於此首須論及者，則應解放宋儒文化之錮蔽而不可盲從也。中國在唐天寶後已走
 <lb ed="TX" n="c146a03"/>著下坡路，唐末五代衰亂之極！宋太祖奪國寡婦孤兒手，雖以術以力次第敉平國內群
-<lb ed="TX" n="c146a04"/>雄，獲告統一，而燕雲十六洲割于契丹，阻斷東北；晉、甘、<note n="c146a0401" resp="CBETA" type="add" rend="hide">陝【CB】，陜【太虛】</note><app n="c146a0401"><lem wit="【太虛】">陜</lem><rdg resp="CBETA" type="cbetaRemark">陝</rdg></app>亦有被西夏佔據者，
+<lb ed="TX" n="c146a04"/>雄，獲告統一，而燕雲十六洲割于契丹，阻斷東北；晉、甘、<note 
+n="c146a0401" resp="CBETA" type="add" rend="hide">陝【CB】，陜【太虛】</note><app n="c146a0401">
+  <lem wit="【太虛】">陜</lem>
+  <rdg resp="CBETA" type="cbetaRemark">陝</rdg>
+</app>亦有被西夏佔據者，
 <lb ed="TX" n="c146a05"/>隔絕西北；放棄蕃、滇，西南、尤德威不及；奠都汴中，僅盡東西地利。與契丹數戰
 <lb ed="TX" n="c146a06"/>之後，且甘以上國奉之而納幣求和；西夏傲立其旁；西蕃、南滇不通聞問。開國已如
 <lb ed="TX" n="c146a07"/>此，徽、欽後更不堪言，遜漢、唐四夷賓服天下大一統之雄風遠矣！內廢徵兵，從此
@@ -1952,7 +2046,11 @@
 <lb ed="TX" n="c147a09"/>沾氣分，反為精髓。蓋康節道承陳搏，而濂溪則源出之鶴林涯禪師，其兩種太極圖固
 <lb ed="TX" n="c147a10"/>各其有所傳也。二程稟濂溪而受熏康節亦深，朱熹宗小程而參禪妙喜，其半日靜坐，
 <lb ed="TX" n="c147a11"/>半日讀書，其尋孔、顏樂處，看喜怒哀樂未發前氣象，其嚴道統，其作語錄，皆禪風
-<lb ed="TX" n="c147a12"/>也。然禪宗雖是佛法精<note n="c147a1201" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="c147a1201"><lem wit="【太虛】">釆</lem><rdg resp="CBETA" type="cbetaRemark">采</rdg></app>，實律儀戒行、經論慧解依扶而現。晚唐衰亂，禪風孤振而
+<lb ed="TX" n="c147a12"/>也。然禪宗雖是佛法精<note 
+n="c147a1201" resp="CBETA" type="add" rend="hide">采【CB】，釆【太虛】</note><app n="c147a1201">
+  <lem wit="【太虛】">釆</lem>
+  <rdg resp="CBETA" type="cbetaRemark">采</rdg>
+</app>，實律儀戒行、經論慧解依扶而現。晚唐衰亂，禪風孤振而
 <pb ed="TX" xml:id="TX20.0013.c148a" n="c148a"/>
 <lb ed="TX" n="c148a01"/>戒廢慧湮，即成宋、元來整個佛教頹敗趨勢。宋儒挹仰空腹高心之孤禪，亦淺嘗未深
 <lb ed="TX" n="c148a02"/>詣，況足言洽受隋、唐全盛佛法也哉？則抽取儒、佛、道各一小分以湊成所謂宋儒，
@@ -2063,16 +2161,23 @@
 <lb ed="TX" n="c156a03"/>於演成之民族文化，與製成之國家文化，民族國家一體之文化尤為品質淳貴。以三民
 <lb ed="TX" n="c156a04"/>主義融合中華民國版圖內各宗族文化為大中華民族文化，不失其特長，益充其精采，
 <lb ed="TX" n="c156a05"/>則原有之儒、佛、回文化與新來之耶、科、哲文化，皆應大量容攝，俾起自然擇化之
-<lb ed="TX" n="c156a06"/>功用。乃足為開建民國之文化，且可演為進大同之文化。</p><byline cb:type="other">（見三二、九、一九、大公
+<lb ed="TX" n="c156a06"/>功用。乃足為開建民國之文化，且可演為進大同之文化。</p>
+<byline cb:type="other">（見三二、九、一九、大公
 <lb ed="TX" n="c156a07"/>報星期論文）</byline></cb:div></cb:div>
 <milestone unit="juan" n="16"/>
 <pb ed="TX" xml:id="TX20.0013.c157a" n="c157a"/>
 <lb ed="TX" n="c157a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛教最要的一法與中國急需的一事</cb:mulu><head>佛教最要的一法與中國急需的一事</head>
 <lb ed="TX" n="c157a02"/><byline cb:type="other">——二十七年冬在重慶長安寺佛學社講——</byline>
-<lb ed="TX" n="c157a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc157a0301"><p xml:id="pTX20pc157a0301" style="margin-left:4em;text-indent:-2em">一　引發</p></item>
-<lb ed="TX" n="c157a04"/><item xml:id="itemTX20pc157a0401"><p xml:id="pTX20pc157a0401" style="margin-left:4em;text-indent:-2em">二　佛教最要的一法</p></item>
-<lb ed="TX" n="c157a05"/><item xml:id="itemTX20pc157a0501"><p xml:id="pTX20pc157a0501" style="margin-left:4em;text-indent:-2em">三　中國急需的一事</p></item>
-<lb ed="TX" n="c157a06"/><item xml:id="itemTX20pc157a0601"><p xml:id="pTX20pc157a0601" style="margin-left:4em;text-indent:-2em">四　結成</p></item></list></cb:div>
+<lb ed="TX" n="c157a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc157a0301"><p xml:id="pTX20pc157a0301" style="margin-left:4em;text-indent:-2em">一　引發</p></item>
+<lb ed="TX" n="c157a04"/>
+  <item xml:id="itemTX20pc157a0401"><p xml:id="pTX20pc157a0401" style="margin-left:4em;text-indent:-2em">二　佛教最要的一法</p></item>
+<lb ed="TX" n="c157a05"/>
+  <item xml:id="itemTX20pc157a0501"><p xml:id="pTX20pc157a0501" style="margin-left:4em;text-indent:-2em">三　中國急需的一事</p></item>
+<lb ed="TX" n="c157a06"/>
+  <item xml:id="itemTX20pc157a0601"><p xml:id="pTX20pc157a0601" style="margin-left:4em;text-indent:-2em">四　結成</p></item>
+</list></cb:div>
 <lb ed="TX" n="c157a07"/>
 <lb ed="TX" n="c157a08"/><cb:div type="other"><cb:mulu type="其他" level="3">一　引發</cb:mulu><head>一　引發</head>
 <lb ed="TX" n="c157a09"/><p xml:id="pTX20pc157a0901" style="margin-left:0em;text-indent:2em">今天的講題是「佛教最要的一法與中國急需的一事」。所以提出這個題目來講的
@@ -2294,17 +2399,25 @@
 <lb ed="TX" n="c174a02"/>仰別業共業的業報，尤為精神力量之主幹，由信仰業報做自力更生的哲學基礎，才能
 <lb ed="TX" n="c174a03"/>不憚改過，不憚遷善，負起抗戰建國使命。基於自作自受——別業——，共作共受
 <lb ed="TX" n="c174a04"/>——共業——的宇宙人生大法，積集無數的政治上、軍事上、經濟上、文化上勝利，
-<lb ed="TX" n="c174a05"/>纔能完成真正的最後勝利！</p><byline cb:type="other">（虞愚記）（見海刊二十卷一期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c174a05"/>纔能完成真正的最後勝利！</p>
+<byline cb:type="other">（虞愚記）（見海刊二十卷一期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="17"/>
 <pb ed="TX" xml:id="TX20.0013.c175a" n="c175a"/>
 <lb ed="TX" n="c175a01"/><cb:div type="other"><cb:mulu type="其他" level="2">發揚中國文化與佛教以救國救世界</cb:mulu><head>發揚中國文化與佛教以救國救世界</head>
 <lb ed="TX" n="c175a02"/><byline cb:type="other">——二十二年八月在廬山大林寺講——</byline>
-<lb ed="TX" n="c175a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc175a0301"><p xml:id="pTX20pc175a0301" style="margin-left:4em;text-indent:-2em">一　為民的中國文化</p></item>
-<lb ed="TX" n="c175a04"/><item xml:id="itemTX20pc175a0401"><p xml:id="pTX20pc175a0401" style="margin-left:4em;text-indent:-2em">二　為眾生的佛教</p></item>
-<lb ed="TX" n="c175a05"/><item xml:id="itemTX20pc175a0501"><p xml:id="pTX20pc175a0501" style="margin-left:4em;text-indent:-2em">三　近代歐美文明的立國做人之道</p></item>
-<lb ed="TX" n="c175a06"/><item xml:id="itemTX20pc175a0601"><p xml:id="pTX20pc175a0601" style="margin-left:4em;text-indent:-2em">四　發揚中國文化及佛教以救國救世界</p></item></list></cb:div>
+<lb ed="TX" n="c175a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc175a0301"><p xml:id="pTX20pc175a0301" style="margin-left:4em;text-indent:-2em">一　為民的中國文化</p></item>
+<lb ed="TX" n="c175a04"/>
+  <item xml:id="itemTX20pc175a0401"><p xml:id="pTX20pc175a0401" style="margin-left:4em;text-indent:-2em">二　為眾生的佛教</p></item>
+<lb ed="TX" n="c175a05"/>
+  <item xml:id="itemTX20pc175a0501"><p xml:id="pTX20pc175a0501" style="margin-left:4em;text-indent:-2em">三　近代歐美文明的立國做人之道</p></item>
+<lb ed="TX" n="c175a06"/>
+  <item xml:id="itemTX20pc175a0601"><p xml:id="pTX20pc175a0601" style="margin-left:4em;text-indent:-2em">四　發揚中國文化及佛教以救國救世界</p></item>
+</list></cb:div>
 <lb ed="TX" n="c175a07"/>
-<lb ed="TX" n="c175a08"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu><p xml:id="pTX20pc175a0801" style="margin-left:0em;text-indent:2em">這廬山大林寺有了十來年的歷史。在最初發起重建大林寺時，即預備每年暑期開
+<lb ed="TX" n="c175a08"/><cb:div type="other"><cb:mulu type="其他" level="3">前言</cb:mulu>
+<p xml:id="pTX20pc175a0801" style="margin-left:0em;text-indent:2em">這廬山大林寺有了十來年的歷史。在最初發起重建大林寺時，即預備每年暑期開
 <lb ed="TX" n="c175a09"/>演講會，為來山避暑者作佛學的研究討論。但在這中間，有四五年停止未講，至去年
 <lb ed="TX" n="c175a10"/>曾恢復開講。今年除發起講金剛經外，並發起講演會。機緣很好，來山的人特多，而
 <lb ed="TX" n="c175a11"/>講演者有戴季陶先生講過兩次，蔣雨岩先生講過一次，這次又有王揖唐先生來講演，
@@ -2477,7 +2590,8 @@
 <lb ed="TX" n="c188a07"/>得其幸福之安享。由近代所發明之科學，所造成之機器等，亦皆可為世界人類有益無
 <lb ed="TX" n="c188a08"/>損之應用。其能有力的根本的改變近代立國做人之道者，即為為民的中國文化，與為
 <lb ed="TX" n="c188a09"/>眾生的佛教。中國有為民的中國文化與為眾生的佛教，故我們應擔負這種由救世界而
-<lb ed="TX" n="c188a10"/>救中國的大責任來，以造成中國與世界的和平安樂。</p><byline cb:type="other">（葦舫記）（見海刊十四卷九期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c188a10"/>救中國的大責任來，以造成中國與世界的和平安樂。</p>
+<byline cb:type="other">（葦舫記）（見海刊十四卷九期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="18"/>
 <pb ed="TX" xml:id="TX20.0013.c189a" n="c189a"/>
 <lb ed="TX" n="c189a01"/><cb:div type="other"><cb:mulu type="其他" level="2">轉移風氣運動的原則</cb:mulu><head>轉移風氣運動的原則</head>
@@ -2515,7 +2629,12 @@
 <lb ed="TX" n="c191a08"/>之塔的偏於高雅文化，偏高雅以成少數有暇階級所玩味，既脫離群眾生活遂入於古董
 <lb ed="TX" n="c191a09"/>陳列品；反此而唯重通俗，又易流於低落粗劣。故應勿自傲高雅而灌輸雅化於通俗，
 <lb ed="TX" n="c191a10"/>尤勿輕視通俗而提煉俗化為高雅，乃可成為盡善而且盡美之最進步之文化，亦為轉栘
-<lb ed="TX" n="c191a11"/>風氣之極致。</p><byline cb:type="other">三十三、三、十五在渝寓。（見海刊二十五<note n="c191a1101" resp="CBETA" type="add" rend="hide">卷【CB】，券【太虛】</note><app n="c191a1101"><lem wit="【CB】" resp="CBETA">卷</lem><rdg wit="【太虛】">券</rdg></app>五、六合刊）</byline></cb:div>
+<lb ed="TX" n="c191a11"/>風氣之極致。</p>
+<byline cb:type="other">三十三、三、十五在渝寓。（見海刊二十五<note 
+n="c191a1101" resp="CBETA" type="add" rend="hide">卷【CB】，券【太虛】</note><app n="c191a1101">
+  <lem wit="【CB】" resp="CBETA">卷</lem>
+  <rdg wit="【太虛】">券</rdg>
+</app>五、六合刊）</byline></cb:div>
 <milestone unit="juan" n="19"/>
 <pb ed="TX" xml:id="TX20.0013.c192a" n="c192a"/>
 <lb ed="TX" n="c192a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛學與文化</cb:mulu><head>佛學與文化</head>
@@ -2661,7 +2780,8 @@
 <lb ed="TX" n="c202a12"/>生而得自己之利益。四攝即布施、利行、同事、愛語，此四種在使眾生能接近得益。
 <pb ed="TX" xml:id="TX20.0013.c203a" n="c203a"/>
 <lb ed="TX" n="c203a01"/>由大乘菩薩心而修者，其所法者上、易得其中，不惟於人生道德自能力行，且即可通
-<lb ed="TX" n="c203a02"/>無窮之進步，即大乘菩薩行也。</p><byline cb:type="other">（程心勉記）（見海潮音二十五卷五、六期）</byline></cb:div>
+<lb ed="TX" n="c203a02"/>無窮之進步，即大乘菩薩行也。</p>
+<byline cb:type="other">（程心勉記）（見海潮音二十五卷五、六期）</byline></cb:div>
 <milestone unit="juan" n="20"/>
 <pb ed="TX" xml:id="TX20.0013.c204a" n="c204a"/>
 <lb ed="TX" n="c204a01"/><cb:div type="other"><cb:mulu type="其他" level="2">中國應努力世界新文化</cb:mulu><head>中國應努力世界新文化</head>
@@ -2682,28 +2802,50 @@
 <lb ed="TX" n="c205a04"/>中國相形見絀，殊不足與抗衡。尤於佛教文化方面，毫無注意，不惟對於世界未能負
 <lb ed="TX" n="c205a05"/>起產生新文化之使命，即對於中國文化亦未克盡推行之責職。亟盼吾國文教當局，增
 <lb ed="TX" n="c205a06"/>派於中國文化集團中孔老的、印度的、亞拉伯的文化有專深研究者為副代表，充實文
-<lb ed="TX" n="c205a07"/>教代表團陣容，發揚中國之集團文化，努力於世界文化之刱造！</p><byline cb:type="other">（見文化先鋒六卷十
+<lb ed="TX" n="c205a07"/>教代表團陣容，發揚中國之集團文化，努力於世界文化之刱造！</p>
+<byline cb:type="other">（見文化先鋒六卷十
 <lb ed="TX" n="c205a08"/>五期）</byline></cb:div>
 <milestone unit="juan" n="21"/>
 <pb ed="TX" xml:id="TX20.0013.c206a" n="c206a"/>
 <lb ed="TX" n="c206a01"/><cb:div type="other"><cb:mulu type="其他" level="2">唐代禪宗與現代思潮</cb:mulu><head>唐代禪宗與現代思潮</head>
 <lb ed="TX" n="c206a02"/><byline cb:type="other">——九年夏作——</byline>
-<lb ed="TX" n="c206a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu><list rend="no-marker"><item xml:id="itemTX20pc206a0301"><p xml:id="pTX20pc206a0301" style="margin-left:4em;text-indent:-2em">一　緒論</p></item>
-<lb ed="TX" n="c206a04"/><item xml:id="itemTX20pc206a0401"><p xml:id="pTX20pc206a0401" style="margin-left:4em;text-indent:-2em">二　宗門與學術思潮</p>
-<lb ed="TX" n="c206a05"/><list rend="no-marker"><item xml:id="itemTX20pc206a0501"><p xml:id="pTX20pc206a0501" style="margin-left:4em;text-indent:-2em">甲　反信教的學術思想</p>
-<lb ed="TX" n="c206a06"/><list rend="no-marker"><item xml:id="itemTX20pc206a0601"><p xml:id="pTX20pc206a0601" style="margin-left:4em;text-indent:-2em">１　反信教的精神</p></item>
-<lb ed="TX" n="c206a07"/><item xml:id="itemTX20pc206a0701"><p xml:id="pTX20pc206a0701" style="margin-left:4em;text-indent:-2em">２　學術的精神</p></item></list></item>
-<lb ed="TX" n="c206a08"/><item xml:id="itemTX20pc206a0801"><p xml:id="pTX20pc206a0801" style="margin-left:4em;text-indent:-2em">乙　反玄學的實用精神</p></item>
-<lb ed="TX" n="c206a09"/><item xml:id="itemTX20pc206a0901"><p xml:id="pTX20pc206a0901" style="margin-left:4em;text-indent:-2em">丙　反理論的直覺精神</p></item>
-<lb ed="TX" n="c206a10"/><item xml:id="itemTX20pc206a1001"><p xml:id="pTX20pc206a1001" style="margin-left:4em;text-indent:-2em">丁　反因襲的創化精神</p></item>
-<lb ed="TX" n="c206a11"/><item xml:id="itemTX20pc206a1101"><p xml:id="pTX20pc206a1101" style="margin-left:4em;text-indent:-2em">戊　全體融美的精神</p></item>
-<lb ed="TX" n="c206a12"/><item xml:id="itemTX20pc206a1201"><p xml:id="pTX20pc206a1201" style="margin-left:4em;text-indent:-2em">己　自性尊圓的精神</p></item></list></item>
-<lb ed="TX" n="c206a13"/><item xml:id="itemTX20pc206a1301"><p xml:id="pTX20pc206a1301" style="margin-left:4em;text-indent:-2em">三　禪林與社會思潮</p>
-<lb ed="TX" n="c206a14"/><list rend="no-marker"><item xml:id="itemTX20pc206a1401"><p xml:id="pTX20pc206a1401" style="margin-left:4em;text-indent:-2em">甲　虛無主義的精神</p></item>
-<lb ed="TX" n="c206a15"/><item xml:id="itemTX20pc206a1501"><p xml:id="pTX20pc206a1501" style="margin-left:4em;text-indent:-2em">乙　無政府主義的精神</p></item>
-<lb ed="TX" n="c206a16"/><item xml:id="itemTX20pc206a1601"><p xml:id="pTX20pc206a1601" style="margin-left:4em;text-indent:-2em">丙　布爾塞維克主義的精神</p></item>
-<lb ed="TX" n="c206a17"/><item xml:id="itemTX20pc206a1701"><p xml:id="pTX20pc206a1701" style="margin-left:4em;text-indent:-2em">丁　德莫克拉西主義的精神</p></item></list></item>
-<lb ed="TX" n="c206a18"/><item xml:id="itemTX20pc206a1801"><p xml:id="pTX20pc206a1801" style="margin-left:4em;text-indent:-2em">四　結論</p></item></list></cb:div>
+<lb ed="TX" n="c206a03"/><cb:div type="other"><cb:mulu type="其他" level="3">綱要</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemTX20pc206a0301"><p xml:id="pTX20pc206a0301" style="margin-left:4em;text-indent:-2em">一　緒論</p></item>
+<lb ed="TX" n="c206a04"/>
+  <item xml:id="itemTX20pc206a0401"><p xml:id="pTX20pc206a0401" style="margin-left:4em;text-indent:-2em">二　宗門與學術思潮</p>
+<lb ed="TX" n="c206a05"/><list rend="no-marker">
+    <item xml:id="itemTX20pc206a0501"><p xml:id="pTX20pc206a0501" style="margin-left:4em;text-indent:-2em">甲　反信教的學術思想</p>
+<lb ed="TX" n="c206a06"/><list rend="no-marker">
+      <item xml:id="itemTX20pc206a0601"><p xml:id="pTX20pc206a0601" style="margin-left:4em;text-indent:-2em">１　反信教的精神</p></item>
+<lb ed="TX" n="c206a07"/>
+      <item xml:id="itemTX20pc206a0701"><p xml:id="pTX20pc206a0701" style="margin-left:4em;text-indent:-2em">２　學術的精神</p></item>
+    </list></item>
+<lb ed="TX" n="c206a08"/>
+    <item xml:id="itemTX20pc206a0801"><p xml:id="pTX20pc206a0801" style="margin-left:4em;text-indent:-2em">乙　反玄學的實用精神</p></item>
+<lb ed="TX" n="c206a09"/>
+    <item xml:id="itemTX20pc206a0901"><p xml:id="pTX20pc206a0901" style="margin-left:4em;text-indent:-2em">丙　反理論的直覺精神</p></item>
+<lb ed="TX" n="c206a10"/>
+    <item xml:id="itemTX20pc206a1001"><p xml:id="pTX20pc206a1001" style="margin-left:4em;text-indent:-2em">丁　反因襲的創化精神</p></item>
+<lb ed="TX" n="c206a11"/>
+    <item xml:id="itemTX20pc206a1101"><p xml:id="pTX20pc206a1101" style="margin-left:4em;text-indent:-2em">戊　全體融美的精神</p></item>
+<lb ed="TX" n="c206a12"/>
+    <item xml:id="itemTX20pc206a1201"><p xml:id="pTX20pc206a1201" style="margin-left:4em;text-indent:-2em">己　自性尊圓的精神</p></item>
+  </list></item>
+<lb ed="TX" n="c206a13"/>
+  <item xml:id="itemTX20pc206a1301"><p xml:id="pTX20pc206a1301" style="margin-left:4em;text-indent:-2em">三　禪林與社會思潮</p>
+<lb ed="TX" n="c206a14"/><list rend="no-marker">
+    <item xml:id="itemTX20pc206a1401"><p xml:id="pTX20pc206a1401" style="margin-left:4em;text-indent:-2em">甲　虛無主義的精神</p></item>
+<lb ed="TX" n="c206a15"/>
+    <item xml:id="itemTX20pc206a1501"><p xml:id="pTX20pc206a1501" style="margin-left:4em;text-indent:-2em">乙　無政府主義的精神</p></item>
+<lb ed="TX" n="c206a16"/>
+    <item xml:id="itemTX20pc206a1601"><p xml:id="pTX20pc206a1601" style="margin-left:4em;text-indent:-2em">丙　布爾塞維克主義的精神</p></item>
+<lb ed="TX" n="c206a17"/>
+    <item xml:id="itemTX20pc206a1701"><p xml:id="pTX20pc206a1701" style="margin-left:4em;text-indent:-2em">丁　德莫克拉西主義的精神</p></item>
+  </list></item>
+<lb ed="TX" n="c206a18"/>
+  <item xml:id="itemTX20pc206a1801"><p xml:id="pTX20pc206a1801" style="margin-left:4em;text-indent:-2em">四　結論</p></item>
+</list></cb:div>
 <lb ed="TX" n="c206a19"/>
 <lb ed="TX" n="c206a20"/><cb:div type="other"><cb:mulu type="其他" level="3">一　緒論</cb:mulu><head>一　緒論</head>
 <lb ed="TX" n="c206a21"/><p xml:id="pTX20pc206a2101" style="margin-left:0em;text-indent:2em">禪宗始於唐代，亦不終於唐代，今不曰支那禪宗而曰唐代禪宗，何耶？曰：唐之
@@ -3036,7 +3178,11 @@
 <pb ed="TX" xml:id="TX20.0013.c232a" n="c232a"/>
 <lb ed="TX" n="c232a01"/>，為眾僧滌除，故有淨頭；為眾僧給侍，故有淨人。所以修道——提清目的——
 <lb ed="TX" n="c232a02"/>之緣，十分備足，資身之具百色現成，萬事無憂，一心為道——提清主旨——。
-<lb ed="TX" n="c232a03"/>世<note n="c232a0301" resp="CBETA" type="add" rend="hide">間【CB】，閒【太虛】</note><app n="c232a0301"><lem wit="【太虛】">閒</lem><rdg resp="CBETA" type="cbetaRemark">間</rdg></app>尊貴，物外優閑，清淨無為，眾僧為最。迴念多人之力，寧不知恩報恩——
+<lb ed="TX" n="c232a03"/>世<note 
+n="c232a0301" resp="CBETA" type="add" rend="hide">間【CB】，閒【太虛】</note><app n="c232a0301">
+  <lem wit="【太虛】">閒</lem>
+  <rdg resp="CBETA" type="cbetaRemark">間</rdg>
+</app>尊貴，物外優閑，清淨無為，眾僧為最。迴念多人之力，寧不知恩報恩——
 <lb ed="TX" n="c232a04"/>所以分工互助之故——！晨參暮請，不舍寸陰，所以報長老也。尊卑有序，舉止
 <lb ed="TX" n="c232a05"/>安詳，所以報首座也。外遵法令，內守規繩，所以報監院也。六和共聚，水乳交
 <lb ed="TX" n="c232a06"/>融，所以報維那也。為成道業故——提清目的——應受此食，所以報典座也。安
@@ -3090,7 +3236,8 @@
 <lb ed="TX" n="c236a02"/>以佛化理世變之糾紛，亦冀淑彼人世，還以淨茲佛化。余既以「人工與佛學之新僧
 <lb ed="TX" n="c236a03"/>化」，追攀百丈之高風，以適應將來傾向中的社會趨勢；復有精審詳密之德莫克拉西
 <lb ed="TX" n="c236a04"/>的整理僧伽制度論，亦凡以見吾志之不在徒發理論，須見之行事耳。覽吾說者，勿徒
-<lb ed="TX" n="c236a05"/>當一篇空言讀過，則竊願焉！</p><byline cb:type="other">（見海刊一卷七期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c236a05"/>當一篇空言讀過，則竊願焉！</p>
+<byline cb:type="other">（見海刊一卷七期）</byline></cb:div></cb:div>
 <milestone unit="juan" n="22"/>
 <pb ed="TX" xml:id="TX20.0013.c237a" n="c237a"/>
 <lb ed="TX" n="c237a01"/><cb:div type="other"><cb:mulu type="其他" level="2">文化人與阿賴耶識</cb:mulu><head>文化人與阿賴耶識</head>
@@ -3166,5 +3313,6 @@
 <lb ed="TX" n="c242a07"/><p xml:id="pTX20pc242a0701" style="margin-left:0em;text-indent:2em">文化人的共性，雖然與眾無異，而各有各的特性的。能發展不共性，而能互攝世
 <lb ed="TX" n="c242a08"/>界的共性的，就是文化人。文化人的阿賴耶識的意義，也就是這樣。貴院的名目，是
 <lb ed="TX" n="c242a09"/>文化，所以可實行文化人的教育主義；要實行文化人的教育，須深刻的去研究佛學中
-<lb ed="TX" n="c242a10"/>的阿賴耶識。</p><byline cb:type="other">（斯繼唐記）（見海刊十卷十一期）</byline></cb:div></cb:div>
+<lb ed="TX" n="c242a10"/>的阿賴耶識。</p>
+<byline cb:type="other">（斯繼唐記）（見海刊十卷十一期）</byline></cb:div></cb:div>
 </body></text></TEI>

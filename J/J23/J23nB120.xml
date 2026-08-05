@@ -2,79 +2,80 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="J23nB120">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
-			<title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
-			<title level="m" xml:lang="zh-Hant">闢邪集</title>
-			<title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B120 闢邪集</title>
-			<title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B120 闢邪集</title>
-			<author>明 鍾始聲著　大朗序　文分天學初徵及天學再徵　附書柬四則　程啟用跋</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">J</idno>.<idno type="vol">23</idno>.<idno type="no">B120</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>嘉興大藏經（新文豐版）</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Mr. Wang Xin-Quan</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），王薪權大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【嘉興】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2009-03-10T16:07:46">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
+      <title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
+      <title level="m" xml:lang="zh-Hant">闢邪集</title>
+      <title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B120 闢邪集</title>
+      <title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B120 闢邪集</title>
+      <author>明 鍾始聲著　大朗序　文分天學初徵及天學再徵　附書柬四則　程啟用跋</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">J</idno>.<idno type="vol">23</idno>.<idno type="no">B120</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>嘉興大藏經（新文豐版）</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Mr. Wang Xin-Quan</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），王薪權大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【嘉興】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2009-03-10T16:07:46">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="0047a" ed="J" xml:id="J23.B120.0047a"/>
-<lb n="0047a01" ed="J"/><cb:mulu n="1" type="卷"/><cb:div type="xu"><cb:mulu level="1" type="序">序</cb:mulu><head>刻闢邪集序</head>
+<lb n="0047a01" ed="J"/><cb:mulu n="1" type="卷"/>
+<cb:div type="xu"><cb:mulu level="1" type="序">序</cb:mulu><head>刻闢邪集序</head>
 <lb n="0047a02" ed="J"/><p xml:id="pJ23p0047a0201">法無邪正，邪正在人。迦葉佛滅度後，正法像
 <lb n="0047a03" ed="J"/>法俱盡尽，而常、樂、我、淨之語變為九十五種外道。
 <lb n="0047a04" ed="J"/>釋迦出世，遂以無常、苦、無我不淨破之。情計既
@@ -85,18 +86,30 @@
 <lb n="0047a09" ed="J"/>諸釋子羣起而詬之，然適足以致其謗耳。獨
 <lb n="0047a10" ed="J"/>《聖朝佐闢》一書，頗足令邪黨結舌，惜乎流通不
 <lb n="0047a11" ed="J"/>廣。迩來利、艾實繁有徒，邪風益熾。鍾振之居士
-<lb n="0047a12" ed="J"/>于是乎懼，著《初徵》、《再徵》以致際明禪師。<note n="0047a1201" resp="CBETA" type="add">禪師【CB】，々々【補編】</note><app n="0047a1201"><lem wit="【CB】" resp="CBETA.liyi">禪師</lem><rdg wit="【補編】">々々</rdg></app>笑曰：
+<lb n="0047a12" ed="J"/>于是乎懼，著《初徵》、《再徵》以致際明禪師。<note 
+n="0047a1201" resp="CBETA" type="add">禪師【CB】，々々【補編】</note><app n="0047a1201">
+  <lem wit="【CB】" resp="CBETA.liyi">禪師</lem>
+  <rdg wit="【補編】">々々</rdg>
+</app>笑曰：
 <lb n="0047a13" ed="J"/>「釋迦如來得外道六師之毀，而教道大行。肇
 <lb n="0047a14" ed="J"/>公《物不遷論》得空印之駁，而舉世方知討究。吾
 <lb n="0047a15" ed="J"/>安知利、艾二人非不思議菩薩乘大願力特
-<lb n="0047a16" ed="J"/>來激揚佛法者耶？是故釋子不必忿<note n="0047a1601" resp="CBETA" type="add">忿【CB】，々【補編】</note><app n="0047a1601"><lem wit="【CB】" resp="CBETA.liyi">忿</lem><rdg wit="【補編】">々</rdg></app>，亦不
+<lb n="0047a16" ed="J"/>來激揚佛法者耶？是故釋子不必忿<note 
+n="0047a1601" resp="CBETA" type="add">忿【CB】，々【補編】</note><app n="0047a1601">
+  <lem wit="【CB】" resp="CBETA.liyi">忿</lem>
+  <rdg wit="【補編】">々</rdg>
+</app>，亦不
 <lb n="0047a17" ed="J"/>必辯也。唯居士主張理學，綱維世道，則其闢之
 <lb n="0047a18" ed="J"/>也甚宜。近可閑孔、孟之道，遠亦可助明佛法。」乃
 <lb n="0047a19" ed="J"/>屬夢士評付梓人，而問序於杲庵和尚。杲庵讀
 <lb n="0047a20" ed="J"/>竟，兼讀居士、禪師往來二札，為之評曰：善夫利、
 <lb n="0047a21" ed="J"/>艾二公能佯作不通之說以扣擊真乘，善夫振
 <lb n="0047a22" ed="J"/>之居士能以佛理作儒理辯，善夫際明禪師能
-<lb n="0047a23" ed="J"/>以不辨<note n="0047a2301" resp="CBETA" type="add">辨【CB】，々【補編】</note><app n="0047a2301"><lem wit="【CB】" resp="CBETA.liyi">辨</lem><rdg wit="【補編】">々</rdg></app>而寄辯於夢士之評也。利、艾不可思議，
+<lb n="0047a23" ed="J"/>以不辨<note 
+n="0047a2301" resp="CBETA" type="add">辨【CB】，々【補編】</note><app n="0047a2301">
+  <lem wit="【CB】" resp="CBETA.liyi">辨</lem>
+  <rdg wit="【補編】">々</rdg>
+</app>而寄辯於夢士之評也。利、艾不可思議，
 <lb n="0047a24" ed="J"/>振之不可思議，夢士不可思議，際明尤不可思議。
 <pb n="0047b" ed="J" xml:id="J23.B120.0047b"/>
 <lb n="0047b01" ed="J"/>不思議邪，不思議正，不思議語，不思議默。公
@@ -128,11 +141,19 @@
 <lb n="0047c02" ed="J"/><byline cb:type="author">金閶逸史鍾始聲振之甫著</byline>
 <lb n="0047c03" ed="J"/><byline cb:type="other">新安夢士程智用用九甫評</byline>
 <lb n="0047c04" ed="J"/><p xml:id="pJ23p0047c0401">鍾子讀《易》於震澤之濱，有客扣廬而問曰：「吾聞子年
-<lb n="0047c05" ed="J"/>十二、三時，便以千古學脈為<note n="0047c0501" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0047c0501"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>任，闢釋老、閑聖道，今
+<lb n="0047c05" ed="J"/>十二、三時，便以千古學脈為<note 
+n="0047c0501" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0047c0501">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>任，闢釋老、閑聖道，今
 <lb n="0047c06" ed="J"/>三十餘載矣。足不窺戶外，不與名公大人交，亦不思
 <lb n="0047c07" ed="J"/>致身以事君，將安補於世道哉？且子不聞近世有天
 <lb n="0047c08" ed="J"/>主教乎？其人從大西來，一見我中國之書悉能通達。
-<lb n="0047c09" ed="J"/><note n="0047c0901" resp="CBETA" type="add" note_key="J23.0047c09.01">彼【CB】，<unclear/>【嘉興】</note><app n="0047c0901"><lem wit="【CB】" resp="cbeta.liyi" cb:provider="cbeta.heaven (2026-07-08)">彼<note type="cf1">B23n0130_p0846b19</note><note type="cf2">B24n0134_p0140a01</note></lem><rdg wit="【嘉興】"><unclear/></rdg></app>亦闢佛而尊儒，與子意甚相符也。曷一共討究焉？」
+<lb n="0047c09" ed="J"/><note 
+n="0047c0901" resp="CBETA" type="add" note_key="J23.0047c09.01">彼【CB】，<unclear/>【嘉興】</note><app n="0047c0901">
+  <lem wit="【CB】" resp="cbeta.liyi" cb:provider="cbeta.heaven (2026-07-08)">彼<note type="cf1">B23n0130_p0846b19</note><note type="cf2">B24n0134_p0140a01</note></lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app>亦闢佛而尊儒，與子意甚相符也。曷一共討究焉？」
 <lb n="0047c10" ed="J"/>鍾子欣而作曰：「有是哉！彼既從大西來，乃不袒釋而
 <lb n="0047c11" ed="J"/>袒儒。意者吾聖道晦而復明之機乎？願聞其旨。」客迺
 <lb n="0047c12" ed="J"/>出聖像，略說一冊以示之。鍾子讀甫竟，遂詬曰：「嘻！此
@@ -144,7 +165,11 @@
 <lb n="0047c18" ed="J"/>何有愛惡？云何要人奉事、聽候使令？云何能為福罰？
 <lb n="0047c19" ed="J"/>其不通者一也。且太極只是本具陰陽之理，是故動
 <lb n="0047c20" ed="J"/>而為陽、靜而為陰。陰陽各有善惡之致，故裁成輔相
-<lb n="0047c21" ed="J"/>之任獨歸於人。孔子曰：『人能弘道。』又曰：『為仁由<note n="0047c2101" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0047c2101"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>。』子
+<lb n="0047c21" ed="J"/>之任獨歸於人。孔子曰：『人能弘道。』又曰：『為仁由<note 
+n="0047c2101" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0047c2101">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>。』子
 <lb n="0047c22" ed="J"/>思曰：『致中和，天地位焉，萬物育焉。』《易》曰：『先天而天弗
 <lb n="0047c23" ed="J"/>違。』若如彼說，則造作之權，全歸天主。天主既能造作
 <lb n="0047c24" ed="J"/>神、人，何不單造善神、善人？而又兼造惡神、惡人以貽
@@ -160,7 +185,11 @@
 <lb n="0048a09" ed="J"/>此風俗？造此魔鬼？以為三仇，而不能除耶？世間良工，
 <lb n="0048a10" ed="J"/>造器必美；或偶不美，必棄之。以至大、至尊、至靈、至聖
 <lb n="0048a11" ed="J"/>之真主，曾良工之不如？其不通者五也。孔子曰：『天何
-<lb n="0048a12" ed="J"/>言哉。』孟子曰：『天不言，以行與事示之而<note n="0048a1201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0048a1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>矣。』今言古
+<lb n="0048a12" ed="J"/>言哉。』孟子曰：『天不言，以行與事示之而<note 
+n="0048a1201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0048a1201">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>矣。』今言古
 <lb n="0048a13" ed="J"/>時天主降下十戒。則與漢宋之封禪天書何異？惑世
 <lb n="0048a14" ed="J"/>誣民，莫此為甚。其不通者六也。又天主降生為人，傳
 <lb n="0048a15" ed="J"/>受大道。未降生前居在何處？若在天堂，則是天主依
@@ -285,7 +314,15 @@
 <lb n="0049c09" ed="J"/>之不睹不聞，亦謂之獨，故曰：「戒慎乎其所不睹，恐懼
 <lb n="0049c10" ed="J"/>乎其所不聞。」君子必慎其獨，即孔子所言畏天命也。
 <lb n="0049c11" ed="J"/>亦謂之心，故曰：「學問之道無他，求其放心而已矣。」亦
-<lb n="0049c12" ed="J"/>謂之己，故曰：「君子求諸<note n="0049c1201" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0049c1201"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>。為仁由<note n="0049c1202" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0049c1202"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>而由人乎哉？」亦
+<lb n="0049c12" ed="J"/>謂之己，故曰：「君子求諸<note 
+n="0049c1201" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0049c1201">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>。為仁由<note 
+n="0049c1202" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0049c1202">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>而由人乎哉？」亦
 <lb n="0049c13" ed="J"/>謂之我，故曰：「萬物皆備於我矣。」亦謂之誠，故曰：「自誠
 <lb n="0049c14" ed="J"/>明，謂之性。」誠者天之道也。此真天地萬物本原，而實
 <lb n="0049c15" ed="J"/>無喜怒、無造作、無賞罰、無聲臭。但此天然性德之中，
@@ -321,7 +358,11 @@
 <lb n="0050a20" ed="J"/>者，名位也；不敢讓帝王者，德性也。故曰：「朝廷莫如爵，
 <lb n="0050a21" ed="J"/>輔世長民莫如德。」又曰：「當仁不讓於師。」又曰：「自天子
 <lb n="0050a22" ed="J"/>以至於庶人，壹是皆以修身為本。」故文王，人君也。而
-<lb n="0050a23" ed="J"/>純亦不<note n="0050a2301" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0050a2301"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>，可以配天；仲尼，匹夫也，而祖述憲章，不名
+<lb n="0050a23" ed="J"/>純亦不<note 
+n="0050a2301" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0050a2301">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>，可以配天；仲尼，匹夫也，而祖述憲章，不名
 <lb n="0050a24" ed="J"/>僭竊。且父之生子也，誰不欲子之克肖者？天主既為
 <pb n="0050b" ed="J" xml:id="J23.B120.0050b"/>
 <lb n="0050b01" ed="J"/>大父，實生於人，乃不欲人之肖之，何哉？</p>
@@ -368,7 +409,11 @@
 <lb n="0050c17" ed="J"/>猶之可也。天、地、日、月、鬼、神，固天主所造，以覆載炤護
 <lb n="0050c18" ed="J"/>人者，而亦禁其拜祭，不亦異乎？</p>
 <lb n="0050c19" ed="J"/><p xml:id="pJ23p0050c1901">其言曰：「人心性命，原天主所賦也。」徵曰：天命之謂性。
-<lb n="0050c20" ed="J"/>紫陽之解甚謬，吾<note n="0050c2001" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0050c2001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>釋大意於前矣。夫可賦者，必其
+<lb n="0050c20" ed="J"/>紫陽之解甚謬，吾<note 
+n="0050c2001" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0050c2001">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>釋大意於前矣。夫可賦者，必其
 <lb n="0050c21" ed="J"/>有形者也。心性有何形像而可賦乎？若無形像而仍
 <lb n="0050c22" ed="J"/>可賦，則天主靈明，亦必有賦之者矣。又可賦則可奪，
 <lb n="0050c23" ed="J"/>云何有始而無終乎？</p>
@@ -427,10 +472,18 @@
 <lb n="0051c01" ed="J"/>之始生，可乎？</p>
 <lb n="0051c02" ed="J"/><p xml:id="pJ23p0051c0201">其言曰：「天主降生之時，第以本性之原體，結合於吾
 <lb n="0051c03" ed="J"/>人之性體。譬之以梨接桃，梨藉桃以生，桃何嘗損其
-<lb n="0051c04" ed="J"/>本體？」徵曰：彼<note n="0051c0401" resp="CBETA" type="add">謂【CB】，<unclear/>【嘉興】</note><app n="0051c0401"><lem resp="CBETA.maha" wit="【CB】">謂</lem><rdg wit="【嘉興】"><unclear/></rdg></app>人之性靈皆天主造。而今以桃、梨譬
+<lb n="0051c04" ed="J"/>本體？」徵曰：彼<note 
+n="0051c0401" resp="CBETA" type="add">謂【CB】，<unclear/>【嘉興】</note><app n="0051c0401">
+  <lem resp="CBETA.maha" wit="【CB】">謂</lem>
+  <rdg wit="【嘉興】"><unclear/></rdg>
+</app>人之性靈皆天主造。而今以桃、梨譬
 <lb n="0051c05" ed="J"/>之，將謂世間之梨，皆桃所生乎？梨本桃生，何須待接？
 <lb n="0051c06" ed="J"/>待接方生，則桃本不能生梨矣。</p>
-<lb n="0051c07" ed="J"/><p xml:id="pJ23p0051c0701">其言曰：「天主未降生千百年前，<note n="0051c0701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0051c0701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>豫示必降之兆。及
+<lb n="0051c07" ed="J"/><p xml:id="pJ23p0051c0701">其言曰：「天主未降生千百年前，<note 
+n="0051c0701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0051c0701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>豫示必降之兆。及
 <lb n="0051c08" ed="J"/>其將降，又有天神來報。乃至種種奇功異瑞。其書充
 <lb n="0051c09" ed="J"/>棟，特未傳譯」等。徵曰：此與釋氏所述佛生瑞應何異
 <lb n="0051c10" ed="J"/>也？若謂釋迦為摩耶所生，不過是人。則天主為聖女
@@ -440,7 +493,15 @@
 <lb n="0051c14" ed="J"/>歷有據乎？若謂佛出西域，此間無人見聞，便稱為謬。
 <lb n="0051c15" ed="J"/>則汝出大西，此間尤無人見，不尤謬乎？佛書從天竺
 <lb n="0051c16" ed="J"/>來，汝則以為誤取。汝謂九萬里來，誰知其非說謊乎？
-<lb n="0051c17" ed="J"/>汝既孤身至此，去家<note n="0051c1701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0051c1701"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>遠，歷年<note n="0051c1702" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0051c1702"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>久，何繇與汝交者，
+<lb n="0051c17" ed="J"/>汝既孤身至此，去家<note 
+n="0051c1701" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0051c1701">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>遠，歷年<note 
+n="0051c1702" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0051c1702">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>久，何繇與汝交者，
 <lb n="0051c18" ed="J"/>猶有本國異物贈之？豈汝膂力甚大，當日所攜之物
 <lb n="0051c19" ed="J"/>如此其多耶？抑有神通，朝取而夕至耶？抑有奇術，隨
 <lb n="0051c20" ed="J"/>意能變造耶？吾亦聞汝之根底矣。生於近香山岳之
@@ -499,10 +560,18 @@
 <lb n="0052b23" ed="J"/>初生事乎？初生雖不憶，不可謂無初生。前世雖不憶，
 <lb n="0052b24" ed="J"/>又安知無前世也？</p>
 <pb n="0052c" ed="J" xml:id="J23.B120.0052c"/>
-<lb n="0052c01" ed="J"/><p xml:id="pJ23p0052c0101">其言曰：「仙、佛、菩薩，令人奉敬自<note n="0052c0101" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0052c0101"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>而抗天主之權。」徵
+<lb n="0052c01" ed="J"/><p xml:id="pJ23p0052c0101">其言曰：「仙、佛、菩薩，令人奉敬自<note 
+n="0052c0101" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0052c0101">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>而抗天主之權。」徵
 <lb n="0052c02" ed="J"/>曰：仙、佛、菩薩，雖非吾儒所宗，然必說有諸仙、諸佛、諸
 <lb n="0052c03" ed="J"/>菩薩等以為世人所敬。又說天、地、日、月、星辰、鬼、神皆
-<lb n="0052c04" ed="J"/>應奉事。則非專奉自<note n="0052c0401" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0052c0401"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">已</rdg></app>也。耶穌乃令人專奉一主，不
+<lb n="0052c04" ed="J"/>應奉事。則非專奉自<note 
+n="0052c0401" resp="CBETA" type="add">己【CB】，已【嘉興】</note><app n="0052c0401">
+  <lem resp="CBETA.maha" wit="【CB】">己</lem>
+  <rdg wit="【嘉興】">已</rdg>
+</app>也。耶穌乃令人專奉一主，不
 <lb n="0052c05" ed="J"/>得拜祭天、地、日、月等，其專利嫉妒不尤甚乎？</p>
 <lb n="0052c06" ed="J"/>
 <lb n="0052c07" ed="J"/>
@@ -542,8 +611,16 @@
 <lb n="0053a16" ed="J"/><cb:div type="w"><cb:mulu level="2" type="附文">鍾振之寄再徵柬</cb:mulu><head>鍾振之寄再徵柬</head>
 <lb n="0053a17" ed="J"/><p xml:id="pJ23p0053a1701">曩寄《天學初徵》呈政，意尊者必出手眼，共閑聖道。而
 <lb n="0053a18" ed="J"/>竟袖手旁觀，豈髫年千古之志，與世法俱棄耶？何謂
-<lb n="0053a19" ed="J"/>未敢或忘也？邇來邪說益熾，不得<note n="0053a1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0053a1901"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>再為之徵。必祈
-<lb n="0053a20" ed="J"/>為我斟酌。<note n="0053a2001" resp="CBETA" type="add">毋【CB】，母【嘉興】</note><app n="0053a2001"><lem resp="CBETA.maha" wit="【CB】">毋</lem><rdg wit="【嘉興】">母</rdg></app>曰：「爾既不歸投佛法，吾亦不預聞儒宗
+<lb n="0053a19" ed="J"/>未敢或忘也？邇來邪說益熾，不得<note 
+n="0053a1901" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0053a1901">
+  <lem resp="CBETA.maha" wit="【CB】">已</lem>
+  <rdg wit="【嘉興】">巳</rdg>
+</app>再為之徵。必祈
+<lb n="0053a20" ed="J"/>為我斟酌。<note 
+n="0053a2001" resp="CBETA" type="add">毋【CB】，母【嘉興】</note><app n="0053a2001">
+  <lem resp="CBETA.maha" wit="【CB】">毋</lem>
+  <rdg wit="【嘉興】">母</rdg>
+</app>曰：「爾既不歸投佛法，吾亦不預聞儒宗
 <lb n="0053a21" ed="J"/>也。」</p></cb:div>
 <lb n="0053a22" ed="J"/><cb:div type="w"><cb:mulu level="2" type="附文">際明禪師復柬</cb:mulu><head>際明禪師復柬</head>
 <lb n="0053a23" ed="J"/><p xml:id="pJ23p0053a2301">儒、釋二家，同而復異、異而復同，惟智人能深究之，非

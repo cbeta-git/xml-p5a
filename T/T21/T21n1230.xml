@@ -2,84 +2,86 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T21n1230">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">佛說大輪金剛總持陀羅尼經</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1230 佛說大輪金剛總持陀羅尼經</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1230 佛說大輪金剛總持陀羅尼經</title>
-			<author></author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1230</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="sa-Sidd">Sanskrit-Siddam</language>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-01-31T09:31:27">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">佛說大輪金剛總持陀羅尼經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1230 佛說大輪金剛總持陀羅尼經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1230 佛說大輪金剛總持陀羅尼經</title>
+      <author/>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">21</idno>.<idno type="no">1230</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="sa-Sidd">Sanskrit-Siddam</language>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-01-31T09:31:27">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/05)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0161b13" ed="T"/>
 <lb n="0161b14" ed="T"/>
 <lb n="0161b15" ed="T"/><cb:div type="other"><cb:docNumber>No. 1230</cb:docNumber>
-<lb n="0161b16" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note n="0161010" resp="Taisho" type="orig" place="foot text">【原】寬延二年刊豐山大學藏本</note><title>佛說大輪金剛總持陀羅尼經</title></cb:jhead></cb:juan>
+<lb n="0161b16" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"/><cb:jhead><note 
+n="0161010" resp="Taisho" type="orig" place="foot text">【原】寬延二年刊豐山大學藏本</note><title>佛說大輪金剛總持陀羅尼經</title></cb:jhead></cb:juan>
 <lb n="0161b17" ed="T"/>
-<lb n="0161b18" ed="T"/><p xml:id="pT21p0161b1801">如是我聞：</p><p xml:id="pT21p0161b1805" cb:place="inline">一時佛在王舍城耆闍崛山中，與
+<lb n="0161b18" ed="T"/><p xml:id="pT21p0161b1801">如是我聞：</p>
+<p xml:id="pT21p0161b1805" cb:place="inline">一時佛在王舍城耆闍崛山中，與
 <lb n="0161b19" ed="T"/>大比丘眾千二百五十人俱，復有菩薩摩訶
 <lb n="0161b20" ed="T"/>薩三萬六千而為上首。爾時世尊臨般涅槃
 <lb n="0161b21" ed="T"/>後，佛法欲滅時，比丘、比丘尼、優婆塞、優婆夷、
@@ -102,12 +104,18 @@
 <lb n="0161c08" ed="T"/>數。汝等金剛今於此會聞祕密之法。汝等金
 <lb n="0161c09" ed="T"/>剛聞持呪方法，速先誦大輪金剛陀羅尼神
 <lb n="0161c10" ed="T"/>呪。汝不持此法門者，一切諸呪縱令有驗，猶
-<lb n="0161c11" ed="T"/>有行偽盜法之<note n="0161011" resp="Taisho" type="orig" place="foot text">校者曰原本罪滅乃至三十三為三張，悉不乃至四天為二張，而案文義二張三張誤前後乎，故今改前後載之</note>罪。滅度之後當落地獄，受罪
+<lb n="0161c11" ed="T"/>有行偽盜法之<note 
+n="0161011" resp="Taisho" type="orig" place="foot text">校者曰原本罪滅乃至三十三為三張，悉不乃至四天為二張，而案文義二張三張誤前後乎，故今改前後載之</note>罪。滅度之後當落地獄，受罪
 <lb n="0161c12" ed="T"/>苦已當落畜生道，行偽獲罪如是。若有善男
 <lb n="0161c13" ed="T"/>子善女人及無量天仙、金剛菩薩、無量藥叉、一
 <lb n="0161c14" ed="T"/>切鬼神等，善聽，吾當為汝說灌頂神呪，誦二
 <lb n="0161c15" ed="T"/>十一遍能成一切呪法，善事速得成就。其呪
-<lb n="0161c16" ed="T"/>乃是過去十方一切諸佛<note n="0161012" resp="Taisho" type="orig" place="foot text">之＋（說）ヵ【原】</note><note n="0161012" resp="CBETA" type="mod">之【大】，之說【考偽-原】</note><app n="0161012"><lem resp="Taisho" wit="【大】">之</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">之說</rdg></app>因此陀羅尼悉
+<lb n="0161c16" ed="T"/>乃是過去十方一切諸佛<note 
+n="0161012" resp="Taisho" type="orig" place="foot text">之＋（說）ヵ【原】</note><note 
+n="0161012" resp="CBETA" type="mod">之【大】，之說【考偽-原】</note><app n="0161012">
+  <lem resp="Taisho" wit="【大】">之</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">之說</rdg>
+</app>因此陀羅尼悉
 <lb n="0161c17" ed="T"/>皆成佛，一切菩薩悉至佛道，一切金剛皆得
 <lb n="0161c18" ed="T"/>不壞之身，一切仙人悉得成就。誦此呪者能
 <lb n="0161c19" ed="T"/>成一切印法、一切壇法。當入曼荼羅大壇、不
@@ -116,7 +124,8 @@
 <lb n="0161c22" ed="T"/>難、諸魔一切人難。誦是呪七日七夜清淨燒
 <lb n="0161c23" ed="T"/>香，於尊像前誦此呪，懺悔三業，一切諸罪並
 <lb n="0161c24" ed="T"/>得消滅，一切鬼神皆悉歡喜，身上所有一切
-<lb n="0161c25" ed="T"/>諸病皆得除愈。」</p><p xml:id="pT21p0161c2507" cb:place="inline">爾時佛告執金剛神、無量天
+<lb n="0161c25" ed="T"/>諸病皆得除愈。」</p>
+<p xml:id="pT21p0161c2507" cb:place="inline">爾時佛告執金剛神、無量天
 <lb n="0161c26" ed="T"/>仙、阿難比丘：「汝等善聽，汝持金剛呪，我為汝
 <lb n="0161c27" ed="T"/>於金剛天中結壇。汝持菩薩呪，我為汝於菩
 <lb n="0161c28" ed="T"/>薩天中結壇。汝持天呪，我為汝於天中結壇。
@@ -126,7 +135,17 @@
 <lb n="0162a02" ed="T"/>持夜叉羅剎呪，我為汝於夜叉羅剎天中結
 <lb n="0162a03" ed="T"/>壇。」佛告執金剛神：「當說呪之時，山河石壁一
 <lb n="0162a04" ed="T"/>切六種震動，一切須彌山諸天鬼神皆悉不
-<lb n="0162a05" ed="T"/>安，一切龍王皆大奔走，<note n="0162001" resp="Taisho" type="orig" place="foot text">雲雨＝爾ィ【原】</note><note n="0162001" resp="CBETA" type="mod">雲雨【大】，爾【校異-原】</note><app n="0162001"><lem wit="【大】">雲雨</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">爾</rdg></app>三十<note n="0162002" resp="Taisho" type="orig" place="foot text">三＋（天）？</note><note n="0162002" resp="CBETA" type="mod">三【大】，三天【考偽-大】</note><app n="0162002"><lem resp="Taisho" wit="【大】">三</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">三天</rdg></app>悉不
+<lb n="0162a05" ed="T"/>安，一切龍王皆大奔走，<note 
+n="0162001" resp="Taisho" type="orig" place="foot text">雲雨＝爾ィ【原】</note><note 
+n="0162001" resp="CBETA" type="mod">雲雨【大】，爾【校異-原】</note><app n="0162001">
+  <lem wit="【大】">雲雨</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">爾</rdg>
+</app>三十<note 
+n="0162002" resp="Taisho" type="orig" place="foot text">三＋（天）？</note><note 
+n="0162002" resp="CBETA" type="mod">三【大】，三天【考偽-大】</note><app n="0162002">
+  <lem resp="Taisho" wit="【大】">三</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">三天</rdg>
+</app>悉不
 <lb n="0162a06" ed="T"/>安。」爾時世尊即說身呪曰：</p>
 <lb n="0162a07" ed="T"/><p xml:id="pT21p0162a0701" cb:type="dharani">「那謨娑哆梨耶<note place="inline">一</note>　地婆伽喃<note place="inline">二</note>　怛他羯哆南<note place="inline">三</note>
 <lb n="0162a08" ed="T"/>　鳴𤙖<note place="inline">二合</note><note place="inline">四</note>　毘羅時毘羅時<note place="inline">五</note>　摩訶斫迦羅<note place="inline">六</note>　薩
@@ -149,7 +168,12 @@
 <lb n="0162a25" ed="T"/>金剛陀羅尼祕密之藏：「我等金剛藏菩薩摩
 <lb n="0162a26" ed="T"/>訶薩，各將百千恒河沙等金剛，一一金剛各
 <lb n="0162a27" ed="T"/>有百萬恒河沙眷屬，一一各將百千恒河沙
-<lb n="0162a28" ed="T"/>等藏神，一一藏神又各將四天<note n="0162003" resp="Taisho" type="orig" place="foot text">〔天〕－？</note><note n="0162003" resp="CBETA" type="mod">天【大】，〔－〕【考偽-大】</note><app n="0162003"><lem resp="Taisho" wit="【大】">天</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg></app>，皆下珍
+<lb n="0162a28" ed="T"/>等藏神，一一藏神又各將四天<note 
+n="0162003" resp="Taisho" type="orig" place="foot text">〔天〕－？</note><note 
+n="0162003" resp="CBETA" type="mod">天【大】，〔－〕【考偽-大】</note><app n="0162003">
+  <lem resp="Taisho" wit="【大】">天</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>，皆下珍
 <lb n="0162a29" ed="T"/>寶及金剛山獻佛，願我等金剛藏菩薩摩訶薩
 <pb n="0162b" ed="T" xml:id="T21.1230.0162b"/>
 <lb n="0162b01" ed="T"/>悉至佛地。我等眷屬日夜歡喜，令我受持。又
@@ -159,7 +183,12 @@
 <lb n="0162b05" ed="T"/>若有善男子善女人及比丘、比丘尼、優婆塞、優
 <lb n="0162b06" ed="T"/>婆夷受持此大輪金剛陀羅尼，於尊像前澡
 <lb n="0162b07" ed="T"/>浴著新淨衣，燒香著三盤食供養，具說：『我等
-<lb n="0162b08" ed="T"/>從無始世<note n="0162004" resp="Taisho" type="orig" place="foot text">〔界〕－ヵ【原】</note><note n="0162004" resp="CBETA" type="mod">界【大】，〔－〕【考偽-原】</note><app n="0162004"><lem resp="Taisho" wit="【大】">界</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg></app>已來，流浪生死不知劫數，毀謗
+<lb n="0162b08" ed="T"/>從無始世<note 
+n="0162004" resp="Taisho" type="orig" place="foot text">〔界〕－ヵ【原】</note><note 
+n="0162004" resp="CBETA" type="mod">界【大】，〔－〕【考偽-原】</note><app n="0162004">
+  <lem resp="Taisho" wit="【大】">界</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark"><space quantity="0"/></rdg>
+</app>已來，流浪生死不知劫數，毀謗
 <lb n="0162b09" ed="T"/>聲聞人、緣覺人、辟支佛人、佛乘人，毀謗獨覺
 <lb n="0162b10" ed="T"/>人、阿羅漢、謗大乘菩薩、毀行正法人、污泥伽
 <lb n="0162b11" ed="T"/>藍、污泥寺塔、污泥經書、破戒行、殺盜婬三業
@@ -212,7 +241,12 @@
 <lb n="0162c28" ed="T"/>殊師利菩薩摩訶薩　南無觀世音菩薩摩訶
 <lb n="0162c29" ed="T"/>薩　南無大勢至菩薩摩訶薩　千手千眼觀
 <pb n="0163a" ed="T" xml:id="T21.1230.0163a"/>
-<lb n="0163a01" ed="T"/>世音<note n="0163001" resp="Taisho" type="orig" place="foot text">（菩）＋薩？</note><note n="0163001" resp="CBETA" type="mod">薩【大】，菩薩【考偽-大】</note><app n="0163001"><lem resp="Taisho" wit="【大】">薩</lem><rdg resp="Taisho" wit="【大】" type="correctionRemark">菩薩</rdg></app>摩訶薩　十一面觀世音菩薩摩訶
+<lb n="0163a01" ed="T"/>世音<note 
+n="0163001" resp="Taisho" type="orig" place="foot text">（菩）＋薩？</note><note 
+n="0163001" resp="CBETA" type="mod">薩【大】，菩薩【考偽-大】</note><app n="0163001">
+  <lem resp="Taisho" wit="【大】">薩</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">菩薩</rdg>
+</app>摩訶薩　十一面觀世音菩薩摩訶
 <lb n="0163a02" ed="T"/>薩　救脫菩薩摩訶薩　定自在王菩薩摩訶薩
 <lb n="0163a03" ed="T"/>　地藏菩薩摩訶薩　藥王菩薩摩訶薩　藥
 <lb n="0163a04" ed="T"/>上菩薩摩訶薩　彌勒菩薩摩訶薩」</p>
@@ -239,7 +273,12 @@
 <lb n="0163a25" ed="T"/>香及酥蜜等，用銅器沙羅盛酥蜜及香相和
 <lb n="0163a26" ed="T"/>一處，用一新銅匙，呪此香一百八遍。其壇安
 <lb n="0163a27" ed="T"/>五盞燈，雜綵一尺五寸。每月一日一夜誦
-<lb n="0163a28" ed="T"/>呪一百八遍，准前供養，七日二十一<note n="0163002" resp="Taisho" type="orig" place="foot text">迴＝遍【原】</note><note n="0163002" resp="CBETA" type="mod">迴【大】，遍【原】</note><app n="0163002"><lem wit="【大】">迴</lem><rdg resp="Taisho" wit="【原】">遍</rdg></app>換
+<lb n="0163a28" ed="T"/>呪一百八遍，准前供養，七日二十一<note 
+n="0163002" resp="Taisho" type="orig" place="foot text">迴＝遍【原】</note><note 
+n="0163002" resp="CBETA" type="mod">迴【大】，遍【原】</note><app n="0163002">
+  <lem wit="【大】">迴</lem>
+  <rdg resp="Taisho" wit="【原】">遍</rdg>
+</app>換
 <lb n="0163a29" ed="T"/>食。七日已來境界，亦無風雨、鬼神不現。金剛
 <pb n="0163b" ed="T" xml:id="T21.1230.0163b"/>
 <lb n="0163b01" ed="T"/>菩薩不現者，罪根深重。取前五種香和合搗，
@@ -262,7 +301,12 @@
 <lb n="0163b18" ed="T"/>為他人解說，獲福無量。此經是末法時眾生
 <lb n="0163b19" ed="T"/>福田，無量百千陀羅尼之法門得入，亦是一
 <lb n="0163b20" ed="T"/>切經藏。善男子善女人受持讀誦淨於尊像
-<lb n="0163b21" ed="T"/>前脚底臥<note n="0163003" resp="Taisho" type="orig" place="foot text">胝＝眠ヵ【原】</note><note n="0163003" resp="CBETA" type="mod">胝【大】，眠【考偽-原】</note><app n="0163003"><lem resp="Taisho" wit="【大】">胝</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">眠</rdg></app>，即見境界，一切經藏及一切藏
+<lb n="0163b21" ed="T"/>前脚底臥<note 
+n="0163003" resp="Taisho" type="orig" place="foot text">胝＝眠ヵ【原】</note><note 
+n="0163003" resp="CBETA" type="mod">胝【大】，眠【考偽-原】</note><app n="0163003">
+  <lem resp="Taisho" wit="【大】">胝</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">眠</rdg>
+</app>，即見境界，一切經藏及一切藏
 <lb n="0163b22" ed="T"/>神、金剛菩薩、師僧父母及一切尊像。此人從
 <lb n="0163b23" ed="T"/>會外來，見此相已，閉口勿向人說，若向人說，
 <lb n="0163b24" ed="T"/>戒行俱破。若善男子善女人、比丘、比丘尼、優
@@ -279,9 +323,21 @@
 <lb n="0163c05" ed="T"/>殘食，亦不得五辛酒肉家食。若善男子善女
 <lb n="0163c06" ed="T"/>人食此食者，受持讀誦戒行俱破，不名受持
 <lb n="0163c07" ed="T"/>讀誦，神力俱失，得妄語罪。」說此法時，阿難、比丘
-<lb n="0163c08" ed="T"/>比丘尼、<note n="0163c0801" resp="CBETA" type="add">［－］【CB】，[04]【大】</note><app n="0163c0801"><lem resp="CBETA.say" wit="【CB】"><space quantity="0"/></lem><rdg wit="【大】">[04]</rdg></app>四天王、天龍鬼神八部、乾闥婆、伽樓
-<lb n="0163c09" ed="T"/>羅、緊那羅、摩睺、<note n="0163c0901" resp="CBETA" type="add">［－］【CB】，[05]【大】</note><app n="0163c0901"><lem resp="CBETA.say" wit="【CB】"><space quantity="0"/></lem><rdg wit="【大】">[05]</rdg></app>優婆塞、優婆夷、五百婆羅門
-<lb n="0163c10" ed="T"/>及三十三天、梵王、帝釋、<note n="0163c1001" resp="CBETA" type="add">［－］【CB】，[06]【大】</note><app n="0163c1001"><lem resp="CBETA.say" wit="【CB】"><space quantity="0"/></lem><rdg wit="【大】">[06]</rdg></app>羅伽、人非人等及轉
+<lb n="0163c08" ed="T"/>比丘尼、<note 
+n="0163c0801" resp="CBETA" type="add">［－］【CB】，[04]【大】</note><app n="0163c0801">
+  <lem resp="CBETA.say" wit="【CB】"><space quantity="0"/></lem>
+  <rdg wit="【大】">[04]</rdg>
+</app>四天王、天龍鬼神八部、乾闥婆、伽樓
+<lb n="0163c09" ed="T"/>羅、緊那羅、摩睺、<note 
+n="0163c0901" resp="CBETA" type="add">［－］【CB】，[05]【大】</note><app n="0163c0901">
+  <lem resp="CBETA.say" wit="【CB】"><space quantity="0"/></lem>
+  <rdg wit="【大】">[05]</rdg>
+</app>優婆塞、優婆夷、五百婆羅門
+<lb n="0163c10" ed="T"/>及三十三天、梵王、帝釋、<note 
+n="0163c1001" resp="CBETA" type="add">［－］【CB】，[06]【大】</note><app n="0163c1001">
+  <lem resp="CBETA.say" wit="【CB】"><space quantity="0"/></lem>
+  <rdg wit="【大】">[06]</rdg>
+</app>羅伽、人非人等及轉
 <lb n="0163c11" ed="T"/>輪聖王，聞佛所說皆大歡喜，悉證無生法忍，
 <lb n="0163c12" ed="T"/>即得阿耨多羅三藐三菩提心，悉證佛地。</p>
 <lb n="0163c13" ed="T"/><p xml:id="pT21p0163c1301">爾時世尊說畫像法，於過去未來現在十方
@@ -297,7 +353,11 @@
 <lb n="0163c23" ed="T"/>王俱來集會，百千大雷天王俱來集會，百
 <lb n="0163c24" ed="T"/>千四大天王俱來集會，百千大雨天王俱來
 <lb n="0163c25" ed="T"/>集會，百千金翅鳥王俱來集會，百千白象
-<lb n="0163c26" ed="T"/>王俱來集會，百千日天王俱來集會，百<note n="0163c2601" resp="CBETA" type="add">千【CB】，干【大】</note><app n="0163c2601"><lem resp="CBETA" wit="【CB】">千</lem><rdg wit="【大】">干</rdg></app>
+<lb n="0163c26" ed="T"/>王俱來集會，百千日天王俱來集會，百<note 
+n="0163c2601" resp="CBETA" type="add">千【CB】，干【大】</note><app n="0163c2601">
+  <lem resp="CBETA" wit="【CB】">千</lem>
+  <rdg wit="【大】">干</rdg>
+</app>
 <lb n="0163c27" ed="T"/>月天王俱來集會，百千星宿天王俱來集會，
 <lb n="0163c28" ed="T"/>百千阿修羅王俱來集會，百千水天王俱
 <lb n="0163c29" ed="T"/>來集會，百千火天王俱來集會，百千焰摩
@@ -357,7 +417,8 @@
 <lb n="0164b23" ed="T"/>合掌供養。若善男子善女人、優婆塞、優婆夷、
 <lb n="0164b24" ed="T"/>婆羅門等，各自畫本尊，面貌喜悅，少年形狀，
 <lb n="0164b25" ed="T"/>結跏趺坐。畫像法訖。」</p>
-<lb n="0164b26" ed="T"/><p xml:id="pT21p0164b2601">爾時世尊說作一切印法。</p></cb:div><cb:div type="other"><cb:mulu n="2" level="1" type="其他">1 法身印</cb:mulu><head>法身印第一</head>
+<lb n="0164b26" ed="T"/><p xml:id="pT21p0164b2601">爾時世尊說作一切印法。</p></cb:div>
+<cb:div type="other"><cb:mulu n="2" level="1" type="其他">1 法身印</cb:mulu><head>法身印第一</head>
 <lb n="0164b27" ed="T"/><p xml:id="pT21p0164b2701">「起立，脚作丁字立，直兩手向上合掌臂，二中
 <lb n="0164b28" ed="T"/>指開，八指相合中節，屈二腕令向上，上頂上。
 <lb n="0164b29" ed="T"/>此是護身印，誦呪一百八遍。」</p></cb:div>
@@ -368,7 +429,13 @@
 <lb n="0164c04" ed="T"/><cb:div type="other"><cb:mulu n="4" level="1" type="其他">3 能消滅一切罪障印</cb:mulu><head>能消滅一切罪障印第三</head>
 <lb n="0164c05" ed="T"/><p xml:id="pT21p0164c0501">「八指無名指二小指二頭指及二中指為開，
 <lb n="0164c06" ed="T"/>左押右，合二肘，䠒跪誦呪一百八遍或一千
-<lb n="0164c07" ed="T"/>八遍。若善男子善女人、比丘、比<note n="0164001" resp="Taisho" type="orig" place="foot text">尼＝丘？</note><note n="0164001" resp="CBETA" type="mod" note_key="T21.0164c07.13">丘【CB】【考偽-大】，尼【大】</note><app n="0164001"><lem resp="CBETA.maha" wit="【CB】">丘<note type="cf1">T21n1230_p0163b16</note></lem><rdg wit="【大】">尼</rdg><rdg resp="Taisho" wit="【大】" type="correctionRemark">丘</rdg></app>尼、優婆塞、
+<lb n="0164c07" ed="T"/>八遍。若善男子善女人、比丘、比<note 
+n="0164001" resp="Taisho" type="orig" place="foot text">尼＝丘？</note><note 
+n="0164001" resp="CBETA" type="mod" note_key="T21.0164c07.13">丘【CB】【考偽-大】，尼【大】</note><app n="0164001">
+  <lem resp="CBETA.maha" wit="【CB】">丘<note type="cf1">T21n1230_p0163b16</note></lem>
+  <rdg wit="【大】">尼</rdg>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">丘</rdg>
+</app>尼、優婆塞、
 <lb n="0164c08" ed="T"/>優婆夷、婆羅門等，所有一切過去未來現在
 <lb n="0164c09" ed="T"/>一切罪障，悉皆消滅無餘。作此印時，常得一
 <lb n="0164c10" ed="T"/>切諸佛菩薩及天龍八部擁護。作此印己，行
@@ -385,7 +452,12 @@
 <lb n="0164c21" ed="T"/>手中有器杖出。右手向上，想其手中有杵，降
 <lb n="0164c22" ed="T"/>伏一切諸魔神及一切天魔。降伏盡，其人作
 <lb n="0164c23" ed="T"/>大瞋威，齒咬下唇、怒目動眉。其杵印，掌中拳
-<lb n="0164c24" ed="T"/>八指<note n="0164002" resp="Taisho" type="orig" place="foot text">監文＝堅又ヵ【原】</note><note n="0164002" resp="CBETA" type="mod">監文【大】，堅又【考偽-原】</note><app n="0164002"><lem resp="Taisho" wit="【大】">監文</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">堅又</rdg></app>，其大母指屈節捻頭指中節，於心
+<lb n="0164c24" ed="T"/>八指<note 
+n="0164002" resp="Taisho" type="orig" place="foot text">監文＝堅又ヵ【原】</note><note 
+n="0164002" resp="CBETA" type="mod">監文【大】，堅又【考偽-原】</note><app n="0164002">
+  <lem resp="Taisho" wit="【大】">監文</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">堅又</rdg>
+</app>，其大母指屈節捻頭指中節，於心
 <lb n="0164c25" ed="T"/>中想自頂上有火輪，現起忿瞋，想一切天魔、
 <lb n="0164c26" ed="T"/>一切惡鬼、蠱道魅鬼獸等類一時俱死。向上
 <lb n="0164c27" ed="T"/>看天，虛空中一切飛鳥、飛天夜叉、一切雜類
@@ -424,10 +496,20 @@
 <pb n="0165b" ed="T" xml:id="T21.1230.0165b"/>
 <lb n="0165b01" ed="T"/>河沙眷屬及無量惡鬼神兵，食噉眾生血肉
 <lb n="0165b02" ed="T"/>一切精魅蠱道，更將魔師興雲致雨，非時下
-<lb n="0165b03" ed="T"/>霜雹損一切苗稼。復將貯器<note n="0165001" resp="Taisho" type="orig" place="foot text">伏＝仗ヵ【原】＊</note><note n="0165001" resp="CBETA" type="mod">伏【大】＊，仗【考偽-原】＊</note><app n="0165001"><lem resp="Taisho" wit="【大】">伏</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">仗</rdg></app>，於天下行
+<lb n="0165b03" ed="T"/>霜雹損一切苗稼。復將貯器<note 
+n="0165001" resp="Taisho" type="orig" place="foot text">伏＝仗ヵ【原】＊</note><note 
+n="0165001" resp="CBETA" type="mod">伏【大】＊，仗【考偽-原】＊</note><app n="0165001">
+  <lem resp="Taisho" wit="【大】">伏</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">仗</rdg>
+</app>，於天下行
 <lb n="0165b04" ed="T"/>病殺害眾生，恒將為業無慈悲心。復有雜類
 <lb n="0165b05" ed="T"/>鬼神吸人精氣，無量無邊有形無形、有手無
-<lb n="0165b06" ed="T"/>手有足無足，不言而來、來而作言者，<note n="0165002" resp="Taisho" type="orig" place="foot text">與＝興ヵ【原】</note><note n="0165002" resp="CBETA" type="mod">與【大】，興【考偽-原】</note><app n="0165002"><lem resp="Taisho" wit="【大】">與</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">興</rdg></app>怒
+<lb n="0165b06" ed="T"/>手有足無足，不言而來、來而作言者，<note 
+n="0165002" resp="Taisho" type="orig" place="foot text">與＝興ヵ【原】</note><note 
+n="0165002" resp="CBETA" type="mod">與【大】，興【考偽-原】</note><app n="0165002">
+  <lem resp="Taisho" wit="【大】">與</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">興</rdg>
+</app>怒
 <lb n="0165b07" ed="T"/>目心將諸器<anchor xml:id="fxT21p0165b01"/>伏。復有鳥頭天魔、鼠頭天魔、猪
 <lb n="0165b08" ed="T"/>頭天魔、鷄頭天魔、兔頭天魔、牛頭天魔，其一
 <lb n="0165b09" ed="T"/>切天魔等，捨一切器仗弓弩鉾楯輪蓋一切
@@ -474,7 +556,8 @@
 <lb n="0165c20" ed="T"/>沐浴四十九日，及服香二十一九，兼於尊像
 <lb n="0165c21" ed="T"/>前誦此經典四十九遍，即得除差。若是疥癬
 <lb n="0165c22" ed="T"/>不問乾濕，碎雄黃一兩及酥相和，於尊像前
-<lb n="0165c23" ed="T"/>誦呪一千八遍，然後行施一切眾生。」</p><p xml:id="pT21p0165c2315" cb:place="inline">爾時世
+<lb n="0165c23" ed="T"/>誦呪一千八遍，然後行施一切眾生。」</p>
+<p xml:id="pT21p0165c2315" cb:place="inline">爾時世
 <lb n="0165c24" ed="T"/>尊說此陀羅尼經，付囑金剛藏菩薩摩訶薩
 <lb n="0165c25" ed="T"/>等及阿難比丘，天龍八部前後圍繞恭敬禮
 <lb n="0165c26" ed="T"/>拜，信受奉行。</p>
@@ -501,14 +584,23 @@
 <lb n="0166a17" ed="T"/>
 <lb n="0166a18" ed="T"/><cb:div type="other"><cb:mulu n="10" level="1" type="其他">大輪金剛稽首請偈</cb:mulu><head>大輪金剛稽首請偈</head>
 <lb n="0166a19" ed="T"/><byline cb:type="Translator">南天竺三藏金剛智譯</byline>
-<lb n="0166a20" ed="T"/><lg xml:id="lgT21p0166a2001" type="regular"><l>稽首珠髻大華齒，<caesura/>力士密跡大輪王，</l>
-<lb n="0166a21" ed="T"/><l>烏芻沙摩不動尊，<caesura/>火頭結界軍荼利。</l>
-<lb n="0166a22" ed="T"/><l>或嗔或喚作威怒，<caesura/>移山轉海須臾間，</l>
-<lb n="0166a23" ed="T"/><l>降伏羅剎眾毒心，<caesura/>聞說真言皆怖畏。</l>
-<lb n="0166a24" ed="T"/><l>摧滅十惡化含靈，<caesura/>超入如來功德海，</l>
-<lb n="0166a25" ed="T"/><l>為護弟子持誦者，<caesura/>發心讚請應聲期。</l>
-<lb n="0166a26" ed="T"/><l>願大金剛清淨眾，<caesura/>跋折羅杵自隨心，</l>
-<lb n="0166a27" ed="T"/><l>於此道場禮念處，<caesura/>周匝圍繞作結界。</l></lg>
+<lb n="0166a20" ed="T"/><lg xml:id="lgT21p0166a2001" type="regular">
+  <l>稽首珠髻大華齒，<caesura/>力士密跡大輪王，</l>
+<lb n="0166a21" ed="T"/>
+  <l>烏芻沙摩不動尊，<caesura/>火頭結界軍荼利。</l>
+<lb n="0166a22" ed="T"/>
+  <l>或嗔或喚作威怒，<caesura/>移山轉海須臾間，</l>
+<lb n="0166a23" ed="T"/>
+  <l>降伏羅剎眾毒心，<caesura/>聞說真言皆怖畏。</l>
+<lb n="0166a24" ed="T"/>
+  <l>摧滅十惡化含靈，<caesura/>超入如來功德海，</l>
+<lb n="0166a25" ed="T"/>
+  <l>為護弟子持誦者，<caesura/>發心讚請應聲期。</l>
+<lb n="0166a26" ed="T"/>
+  <l>願大金剛清淨眾，<caesura/>跋折羅杵自隨心，</l>
+<lb n="0166a27" ed="T"/>
+  <l>於此道場禮念處，<caesura/>周匝圍繞作結界。</l>
+</lg>
 <lb n="0166a28" ed="T"/><p xml:id="pT21p0166a2801">于時寬延二己巳年秋七月穀旦</p>
 <lb n="0166a29" ed="T"/><p xml:id="pT21p0166a2901">　　　　　　　　　　　<term xml:lang="sa-Sidd"><g ref="#SD-A656"/><g ref="#SD-A9BD"/><g ref="#SD-A5F1"/><g ref="#SD-A5A9"/></term>無等</p>
 <pb n="0166b" ed="T" xml:id="T21.1230.0166b"/>

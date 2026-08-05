@@ -2,82 +2,89 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T85n2739">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">金剛般若經挾註</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 2739 金剛般若經挾註</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2739 金剛般若經挾註</title>
-			<author/>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>1卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">85</idno>.<idno type="no">2739</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2001-01-31T11:46:26">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">金剛般若經挾註</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 2739 金剛般若經挾註</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2739 金剛般若經挾註</title>
+      <author/>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>1卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">85</idno>.<idno type="no">2739</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2001-01-31T11:46:26">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0132c16" ed="T"/>
-<lb n="0132c17" ed="T"/><cb:docNumber>No. 2739 [cf. No. 235]</cb:docNumber><cb:div type="other">
-<lb n="0132c18" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note n="0132002" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 2068, 首題新加</note>金剛般若經挾註</cb:jhead></cb:juan>
+<lb n="0132c17" ed="T"/><cb:docNumber>No. 2739 [cf. No. 235]</cb:docNumber>
+<cb:div type="other">
+<lb n="0132c18" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"/><cb:jhead><note 
+n="0132002" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 2068, 首題新加</note>金剛般若經挾註</cb:jhead></cb:juan>
 <lb n="0132c19" ed="T"/>
-<lb n="0132c20" ed="T"/><p xml:id="pT85p0132c2001"><note n="0132003" resp="Taisho" place="foot text" type="orig">首缺</note>見諸相非相。即見如來<note place="inline">如來法空</note><note n="0132c2001" resp="CBETA" type="add">［－］【CB】，[04]【大】</note><app n="0132c2001"><lem wit="【CB】" resp="CBETA.march"><space quantity="0"/></lem><rdg wit="【大】">[04]</rdg></app>□□□□□□
+<lb n="0132c20" ed="T"/><p xml:id="pT85p0132c2001"><note 
+n="0132003" resp="Taisho" place="foot text" type="orig">首缺</note>見諸相非相。即見如來<note place="inline">如來法空</note><note 
+n="0132c2001" resp="CBETA" type="add">［－］【CB】，[04]【大】</note><app n="0132c2001">
+  <lem wit="【CB】" resp="CBETA.march"><space quantity="0"/></lem>
+  <rdg wit="【大】">[04]</rdg>
+</app>□□□□□□
 <lb n="0132c21" ed="T"/><note place="inline">離相而見矣也</note>須菩提。白佛言世尊。□□□□□□□
 <lb n="0132c22" ed="T"/>句。生實信不<note place="inline">凡夫心。信因取相生恐聞是理無處寄。心</note>□□□□□□
 <lb n="0132c23" ed="T"/>作是說<note place="inline">般若深宗。為最上乘者。說聞□即悟不應不信故。莫作此問也</note>□□□□□
@@ -443,7 +450,9 @@
 <lb n="0137b14" ed="T"/>來。輪王既非如來。故如來不應以三十二相見</note>須菩提。白佛言世尊。如
 <lb n="0137b15" ed="T"/>我解佛所說義。不應以三十二相觀如來<note place="inline">善吉深達
 <lb n="0137b16" ed="T"/>法性故。不作凡夫解</note>爾時世尊。而說偈言<note place="inline">以偈如頌非四句義</note>。</p>
-<lb n="0137b17" ed="T"/><lg xml:id="lgT85p0137b1701"><l>若以色見我<caesura/>以音聲求我<caesura/>是人行邪道</l></lg>
+<lb n="0137b17" ed="T"/><lg xml:id="lgT85p0137b1701">
+  <l>若以色見我<caesura/>以音聲求我<caesura/>是人行邪道</l>
+</lg>
 <lb n="0137b18" ed="T"/><p xml:id="pT85p0137b1801">不能見如來<note place="inline">無色見色。不可以色見。非聲應聲。不可以聲求。將令深趣涅槃。必依聲色之外
 <lb n="0137b19" ed="T"/>故。以色聲求佛。是人甚好住烏。得見如來也</note>須菩提。汝若作是念。如來
 <lb n="0137b20" ed="T"/>不以具足相故。得阿耨多羅三藐三菩提。須
@@ -460,5 +469,6 @@
 <lb n="0137c04" ed="T"/>等世界。七寶。布施。若復有人。知一切法無我。
 <lb n="0137c05" ed="T"/>得成於忍。此菩薩。勝前菩薩所得功德<note place="inline">離居兩邊。契
 <lb n="0137c06" ed="T"/>於中道。悟無生。勝福甚多。財校量非及也。□無一我亦無。無我遣之有遣。深入菩提。故知。一切法無我</note>須
-<lb n="0137c07" ed="T"/>菩提以諸菩<note n="0137001" resp="Taisho" place="foot text" type="orig">以下闕</note>。</p></cb:div>
+<lb n="0137c07" ed="T"/>菩提以諸菩<note 
+n="0137001" resp="Taisho" place="foot text" type="orig">以下闕</note>。</p></cb:div>
 </body></text></TEI>

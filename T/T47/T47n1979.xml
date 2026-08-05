@@ -2,91 +2,102 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T47n1979">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Taishō Tripiṭaka</title>
-			<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
-			<title level="m" xml:lang="zh-Hant">轉經行道願往生淨土法事讚</title>
-			<title>Taishō Tripiṭaka, Electronic version, No. 1979 轉經行道願往生淨土法事讚</title>
-			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1979 轉經行道願往生淨土法事讚</title>
-			<author>唐 善導集記</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>2卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">T</idno>.<idno type="vol">47</idno>.<idno type="no">1979</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>大正新脩大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【大】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2000-08-10T15:07:52">
-			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">轉經行道願往生淨土法事讚</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1979 轉經行道願往生淨土法事讚</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1979 轉經行道願往生淨土法事讚</title>
+      <author>唐 善導集記</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">47</idno>.<idno type="no">1979</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，李明芳大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-08-10T15:07:52">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <lb n="0424b21" ed="T"/>
 <lb n="0424b22" ed="T"/>
 <lb n="0424b23" ed="T"/><cb:docNumber>No. 1979</cb:docNumber>
-<lb n="0424b24" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷">上</cb:mulu><cb:jhead><note n="0424012" resp="Taisho" type="orig" place="foot text">【原】德川時代刊宗教大學藏本</note>轉經行道願往生淨土法事讚卷
+<lb n="0424b24" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷">上</cb:mulu><cb:jhead><note 
+n="0424012" resp="Taisho" type="orig" place="foot text">【原】德川時代刊宗教大學藏本</note>轉經行道願往生淨土法事讚卷
 <lb n="0424b25" ed="T"/>上</cb:jhead></cb:juan>
 <lb n="0424b26" ed="T"/>
 <lb n="0424b27" ed="T"/><byline cb:type="Collector">沙門善導集記</byline>
-<lb n="0424b28" ed="T"/><cb:div type="other"><lg xml:id="lgT47p0424b2801" type="regular"><l>奉請四天王，<caesura/>直入道場中，</l>
-<lb n="0424b29" ed="T"/><l>奉請師子王，<caesura/>師子亦難逢，</l>
+<lb n="0424b28" ed="T"/><cb:div type="other"><lg xml:id="lgT47p0424b2801" type="regular">
+  <l>奉請四天王，<caesura/>直入道場中，</l>
+<lb n="0424b29" ed="T"/>
+  <l>奉請師子王，<caesura/>師子亦難逢，</l>
 <pb n="0424c" ed="T" xml:id="T47.1979.0424c"/>
-<lb n="0424c01" ed="T"/><l>奮迅身毛衣，<caesura/>眾魔退散去，</l>
-<lb n="0424c02" ed="T"/><l>回頭請法師，<caesura/>直取涅槃城。</l></lg>
+<lb n="0424c01" ed="T"/>
+  <l>奮迅身毛衣，<caesura/>眾魔退散去，</l>
+<lb n="0424c02" ed="T"/>
+  <l>回頭請法師，<caesura/>直取涅槃城。</l>
+</lg>
 <lb n="0424c03" ed="T"/><p xml:id="pT47p0424c0301">序曰：竊以娑婆廣大、火宅無邊，六道周居、重
-<lb n="0424c04" ed="T"/>昏永夜，生盲無目、慧照未<note n="0424013" resp="Taisho" type="orig" place="foot text">明＝期ィ【原】</note><note n="0424013" resp="CBETA" type="mod">明【大】，期【校異-原】</note><app n="0424013"><lem wit="【大】">明</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">期</rdg></app>，引導無方俱
+<lb n="0424c04" ed="T"/>昏永夜，生盲無目、慧照未<note 
+n="0424013" resp="Taisho" type="orig" place="foot text">明＝期ィ【原】</note><note 
+n="0424013" resp="CBETA" type="mod">明【大】，期【校異-原】</note><app n="0424013">
+  <lem wit="【大】">明</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">期</rdg>
+</app>，引導無方俱
 <lb n="0424c05" ed="T"/>摧死地、循環來去等逝水長流，託命投神誰
 <lb n="0424c06" ed="T"/>之能救？斯乃識含無際，窮塵之劫更踰，自
 <lb n="0424c07" ed="T"/>爾悠悠，遇勝緣之何日？上從海德初際如來，
@@ -113,59 +124,111 @@
 <lb n="0424c28" ed="T"/>和讚者盡立，大眾令坐。使一人先須燒香
 <lb n="0424c29" ed="T"/>散華周匝一遍竟，然後依法作聲召請云：</p>
 <pb n="0425a" ed="T" xml:id="T47.1979.0425a"/>
-<lb n="0425a01" ed="T"/><lg xml:id="lgT47p0425a0101"><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>大眾同心厭三界<note place="inline">無量樂</note>，</l>
-<lb n="0425a02" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>三塗永絕願無名<note place="inline">無量樂</note>，</l>
-<lb n="0425a03" ed="T"/><l>三界火宅難居止<note place="inline">願往生</note>，<caesura/>乘佛願力往西方<note place="inline">無量樂</note>。</l>
-<lb n="0425a04" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>念報慈恩常頂戴<note place="inline">無量樂</note>，</l>
-<lb n="0425a05" ed="T"/><l>大眾持華恭敬立<note place="inline">願往生</note>，<caesura/>先請彌陀入道場<note place="inline">無量樂</note>。</l>
-<lb n="0425a06" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>不違弘願應時迎<note place="inline">無量樂</note>，</l>
-<lb n="0425a07" ed="T"/><l>觀首勢至塵沙眾<note place="inline">願往生</note>，<caesura/>從佛乘華來入會<note place="inline">無量樂</note>。</l>
-<lb n="0425a08" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>觀音接手入華臺<note place="inline">無量樂</note>，</l>
-<lb n="0425a09" ed="T"/><l>無勝莊嚴釋迦佛<note place="inline">願往生</note>，<caesura/>受我微心入道場<note place="inline">無量樂</note>。</l>
-<lb n="0425a10" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>碎身慚謝釋迦恩<note place="inline">無量樂</note>，</l>
-<lb n="0425a11" ed="T"/><l>彼國莊嚴大海眾<note place="inline">願往生</note>，<caesura/>從佛乘華來入會<note place="inline">無量樂</note>。</l>
-<lb n="0425a12" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>助佛神化度眾生<note place="inline">無量樂</note>，</l>
-<lb n="0425a13" ed="T"/><l>十方恒沙佛舒舌<note place="inline">願往生</note>，<caesura/>證我凡夫生安樂<note place="inline">無量樂</note>。</l>
-<lb n="0425a14" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>悲心利物大悲心<note place="inline">無量樂</note>，</l>
-<lb n="0425a15" ed="T"/><l>慚愧恒沙大悲心<note place="inline">願往生</note>，<caesura/>受我微心入道場<note place="inline">無量樂</note>。</l>
-<lb n="0425a16" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>專心淨土佛前期<note place="inline">無量樂</note>，</l>
-<lb n="0425a17" ed="T"/><l>一一如來大海眾<note place="inline">願往生</note>，<caesura/>從佛乘華來入會<note place="inline">無量樂</note>。</l>
-<lb n="0425a18" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>盡是往生增上緣<note place="inline">無量樂</note>，</l>
-<lb n="0425a19" ed="T"/><l>佛使二十五菩薩<note place="inline">願往生</note>，<caesura/>一切時來常護念<note place="inline">無量樂</note>。</l>
-<lb n="0425a20" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>畢命直入涅槃城<note place="inline">無量樂</note>，</l>
-<lb n="0425a21" ed="T"/><l>佛恐眾生四魔障<note place="inline">願往生</note>，<caesura/>未至極樂墮三塗<note place="inline">無量樂</note>。</l>
-<lb n="0425a22" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>直心實行佛迎來<note place="inline">無量樂</note>，</l>
-<lb n="0425a23" ed="T"/><l>我今眾等深慚謝<note place="inline">願往生</note>，<caesura/>受我微心來入會<note place="inline">無量樂</note>。</l>
-<lb n="0425a24" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>心心專注出娑婆<note place="inline">無量樂</note>，</l>
-<lb n="0425a25" ed="T"/><l>本國彌陀諸聖眾<note place="inline">願往生</note>，<caesura/>平等俱來坐道場<note place="inline">無量樂</note>。</l>
+<lb n="0425a01" ed="T"/><lg xml:id="lgT47p0425a0101">
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>大眾同心厭三界<note place="inline">無量樂</note>，</l>
+<lb n="0425a02" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>三塗永絕願無名<note place="inline">無量樂</note>，</l>
+<lb n="0425a03" ed="T"/>
+  <l>三界火宅難居止<note place="inline">願往生</note>，<caesura/>乘佛願力往西方<note place="inline">無量樂</note>。</l>
+<lb n="0425a04" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>念報慈恩常頂戴<note place="inline">無量樂</note>，</l>
+<lb n="0425a05" ed="T"/>
+  <l>大眾持華恭敬立<note place="inline">願往生</note>，<caesura/>先請彌陀入道場<note place="inline">無量樂</note>。</l>
+<lb n="0425a06" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>不違弘願應時迎<note place="inline">無量樂</note>，</l>
+<lb n="0425a07" ed="T"/>
+  <l>觀首勢至塵沙眾<note place="inline">願往生</note>，<caesura/>從佛乘華來入會<note place="inline">無量樂</note>。</l>
+<lb n="0425a08" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>觀音接手入華臺<note place="inline">無量樂</note>，</l>
+<lb n="0425a09" ed="T"/>
+  <l>無勝莊嚴釋迦佛<note place="inline">願往生</note>，<caesura/>受我微心入道場<note place="inline">無量樂</note>。</l>
+<lb n="0425a10" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>碎身慚謝釋迦恩<note place="inline">無量樂</note>，</l>
+<lb n="0425a11" ed="T"/>
+  <l>彼國莊嚴大海眾<note place="inline">願往生</note>，<caesura/>從佛乘華來入會<note place="inline">無量樂</note>。</l>
+<lb n="0425a12" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>助佛神化度眾生<note place="inline">無量樂</note>，</l>
+<lb n="0425a13" ed="T"/>
+  <l>十方恒沙佛舒舌<note place="inline">願往生</note>，<caesura/>證我凡夫生安樂<note place="inline">無量樂</note>。</l>
+<lb n="0425a14" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>悲心利物大悲心<note place="inline">無量樂</note>，</l>
+<lb n="0425a15" ed="T"/>
+  <l>慚愧恒沙大悲心<note place="inline">願往生</note>，<caesura/>受我微心入道場<note place="inline">無量樂</note>。</l>
+<lb n="0425a16" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>專心淨土佛前期<note place="inline">無量樂</note>，</l>
+<lb n="0425a17" ed="T"/>
+  <l>一一如來大海眾<note place="inline">願往生</note>，<caesura/>從佛乘華來入會<note place="inline">無量樂</note>。</l>
+<lb n="0425a18" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>盡是往生增上緣<note place="inline">無量樂</note>，</l>
+<lb n="0425a19" ed="T"/>
+  <l>佛使二十五菩薩<note place="inline">願往生</note>，<caesura/>一切時來常護念<note place="inline">無量樂</note>。</l>
+<lb n="0425a20" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>畢命直入涅槃城<note place="inline">無量樂</note>，</l>
+<lb n="0425a21" ed="T"/>
+  <l>佛恐眾生四魔障<note place="inline">願往生</note>，<caesura/>未至極樂墮三塗<note place="inline">無量樂</note>。</l>
+<lb n="0425a22" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>直心實行佛迎來<note place="inline">無量樂</note>，</l>
+<lb n="0425a23" ed="T"/>
+  <l>我今眾等深慚謝<note place="inline">願往生</note>，<caesura/>受我微心來入會<note place="inline">無量樂</note>。</l>
+<lb n="0425a24" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>心心專注出娑婆<note place="inline">無量樂</note>，</l>
+<lb n="0425a25" ed="T"/>
+  <l>本國彌陀諸聖眾<note place="inline">願往生</note>，<caesura/>平等俱來坐道場<note place="inline">無量樂</note>。</l>
 <pb n="0425b" ed="T" xml:id="T47.1979.0425b"/>
-<lb n="0425b01" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>道場聖眾實難逢<note place="inline">無量樂</note>，</l>
-<lb n="0425b02" ed="T"/><l>眾等頂禮彌陀會<note place="inline">願往生</note>，<caesura/>普散香華同供養<note place="inline">無量樂</note>。</l>
-<lb n="0425b03" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>彌陀光攝往生人<note place="inline">無量樂</note>，</l>
-<lb n="0425b04" ed="T"/><l>對佛彌陀涅槃會<note place="inline">願往生</note>，<caesura/>各發誓願請華臺<note place="inline">無量樂</note>。</l>
-<lb n="0425b05" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>極樂莊嚴門盡開<note place="inline">無量樂</note>。</l>
-<lb n="0425b06" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>專心念佛坐華臺<note place="inline">無量樂</note>。</l>
-<lb n="0425b07" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>乘華直入不須疑<note place="inline">無量樂</note>。</l>
-<lb n="0425b08" ed="T"/><l>眾等齊心請高座<note place="inline">往生樂</note>，<caesura/>愍懟智影說尊經<note place="inline">往生樂</note>，</l>
-<lb n="0425b09" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b10" ed="T"/><l>道場時逢難叵遇<note place="inline">往生樂</note>，<caesura/>無常迅速命難停<note place="inline">往生樂</note>，</l>
-<lb n="0425b11" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b12" ed="T"/><l>眼前業道人人見<note place="inline">往生樂</note>，<caesura/>皆由三毒作因緣<note place="inline">往生樂</note>，</l>
-<lb n="0425b13" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b14" ed="T"/><l>雖得人身常闇鈍<note place="inline">往生樂</note>，<caesura/>貪瞋邪見轉專專<note place="inline">往生樂</note>，</l>
-<lb n="0425b15" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b16" ed="T"/><l>日夜惛惛不惺悟<note place="inline">往生樂</note>，<caesura/>還是流浪三塗因<note place="inline">往生樂</note>，</l>
-<lb n="0425b17" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b18" ed="T"/><l>忽爾輪回長劫苦<note place="inline">往生樂</note>，<caesura/>彌陀淨土何時聞<note place="inline">往生樂</note>，</l>
-<lb n="0425b19" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b20" ed="T"/><l>大眾同心請高座<note place="inline">往生樂</note>，<caesura/>為度群生轉法輪<note place="inline">往生樂</note>，</l>
-<lb n="0425b21" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b22" ed="T"/><l>眾等傾心樂聞法<note place="inline">往生樂</note>，<caesura/>手執香華常供養<note place="inline">往生樂</note>，</l>
-<lb n="0425b23" ed="T"/><l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
-<lb n="0425b24" ed="T"/><l>道場大眾裏，相與至心敬禮<caesura/>南無常住佛。</l>
-<lb n="0425b25" ed="T"/><l>道場大眾裏，相與至心敬禮<caesura/>南無常住法。</l>
+<lb n="0425b01" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>道場聖眾實難逢<note place="inline">無量樂</note>，</l>
+<lb n="0425b02" ed="T"/>
+  <l>眾等頂禮彌陀會<note place="inline">願往生</note>，<caesura/>普散香華同供養<note place="inline">無量樂</note>。</l>
+<lb n="0425b03" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>彌陀光攝往生人<note place="inline">無量樂</note>，</l>
+<lb n="0425b04" ed="T"/>
+  <l>對佛彌陀涅槃會<note place="inline">願往生</note>，<caesura/>各發誓願請華臺<note place="inline">無量樂</note>。</l>
+<lb n="0425b05" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>極樂莊嚴門盡開<note place="inline">無量樂</note>。</l>
+<lb n="0425b06" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>專心念佛坐華臺<note place="inline">無量樂</note>。</l>
+<lb n="0425b07" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>乘華直入不須疑<note place="inline">無量樂</note>。</l>
+<lb n="0425b08" ed="T"/>
+  <l>眾等齊心請高座<note place="inline">往生樂</note>，<caesura/>愍懟智影說尊經<note place="inline">往生樂</note>，</l>
+<lb n="0425b09" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b10" ed="T"/>
+  <l>道場時逢難叵遇<note place="inline">往生樂</note>，<caesura/>無常迅速命難停<note place="inline">往生樂</note>，</l>
+<lb n="0425b11" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b12" ed="T"/>
+  <l>眼前業道人人見<note place="inline">往生樂</note>，<caesura/>皆由三毒作因緣<note place="inline">往生樂</note>，</l>
+<lb n="0425b13" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b14" ed="T"/>
+  <l>雖得人身常闇鈍<note place="inline">往生樂</note>，<caesura/>貪瞋邪見轉專專<note place="inline">往生樂</note>，</l>
+<lb n="0425b15" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b16" ed="T"/>
+  <l>日夜惛惛不惺悟<note place="inline">往生樂</note>，<caesura/>還是流浪三塗因<note place="inline">往生樂</note>，</l>
+<lb n="0425b17" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b18" ed="T"/>
+  <l>忽爾輪回長劫苦<note place="inline">往生樂</note>，<caesura/>彌陀淨土何時聞<note place="inline">往生樂</note>，</l>
+<lb n="0425b19" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b20" ed="T"/>
+  <l>大眾同心請高座<note place="inline">往生樂</note>，<caesura/>為度群生轉法輪<note place="inline">往生樂</note>，</l>
+<lb n="0425b21" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b22" ed="T"/>
+  <l>眾等傾心樂聞法<note place="inline">往生樂</note>，<caesura/>手執香華常供養<note place="inline">往生樂</note>，</l>
+<lb n="0425b23" ed="T"/>
+  <l>難思議<note place="inline">往生樂</note>，<caesura/>雙樹林下<note place="inline">往生樂</note>，<caesura/>難思<note place="inline">往生樂</note>。</l>
+<lb n="0425b24" ed="T"/>
+  <l>道場大眾裏，相與至心敬禮<caesura/>南無常住佛。</l>
+<lb n="0425b25" ed="T"/>
+  <l>道場大眾裏，相與至心敬禮<caesura/>南無常住法。</l>
 <pb n="0425c" ed="T" xml:id="T47.1979.0425c"/>
-<lb n="0425c01" ed="T"/><l>道場大眾裏，相與至心敬禮<caesura/>南無常住僧。</l></lg>
+<lb n="0425c01" ed="T"/>
+  <l>道場大眾裏，相與至心敬禮<caesura/>南無常住僧。</l>
+</lg>
 <lb n="0425c02" ed="T"/><p xml:id="pT47p0425c0201">敬白：道場眾等各各斂心，彈指合掌叩頭歸
 <lb n="0425c03" ed="T"/>命，禮本師釋迦佛過現未來諸世尊。所以歸
 <lb n="0425c04" ed="T"/>依佛者，佛是眾生大慈悲父，亦是出世增上
@@ -177,13 +240,23 @@
 <lb n="0425c10" ed="T"/>夜叉、或捨妻子以充羅剎、或設慈悲方便化
 <lb n="0425c11" ed="T"/>作禽魚用濟蒼生免其飢難、或作金毛師子
 <lb n="0425c12" ed="T"/>以上獵師、或作白象抽牙為求菩提而奉施、
-<lb n="0425c13" ed="T"/>或觀怨家由如赤子、或<note n="0425001" resp="Taisho" type="orig" place="foot text">現＝視ヵ【原】</note><note n="0425001" resp="CBETA" type="mod">現【大】，視【考偽-原】</note><app n="0425001"><lem resp="Taisho" wit="【大】">現</lem><rdg resp="Taisho" wit="【原】" type="correctionRemark">視</rdg></app>外道比若親兒。彼
+<lb n="0425c13" ed="T"/>或觀怨家由如赤子、或<note 
+n="0425001" resp="Taisho" type="orig" place="foot text">現＝視ヵ【原】</note><note 
+n="0425001" resp="CBETA" type="mod">現【大】，視【考偽-原】</note><app n="0425001">
+  <lem resp="Taisho" wit="【大】">現</lem>
+  <rdg resp="Taisho" wit="【原】" type="correctionRemark">視</rdg>
+</app>外道比若親兒。彼
 <lb n="0425c14" ed="T"/>我無殊，聖凡何異。三祇起行，皆與無漏相應；
 <lb n="0425c15" ed="T"/>地地收功，始得果圓號佛。身則閻浮金光，色
 <lb n="0425c16" ed="T"/>喻千日競暉；相好分明，譬若眾星夜朗；跏趺
 <lb n="0425c17" ed="T"/>正坐，不背之相圓明；法界同歸，各覩如來面
 <lb n="0425c18" ed="T"/>相；身心湛寂，化用不失時機；隨類變通，報
-<lb n="0425c19" ed="T"/>體則元來不動。但<note n="0425002" resp="Taisho" type="orig" place="foot text">以＝已ィ【原】</note><note n="0425002" resp="CBETA" type="mod">以【大】，已【校異-原】</note><app n="0425002"><lem wit="【大】">以</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">已</rdg></app>如來智德嘆之難盡，道
+<lb n="0425c19" ed="T"/>體則元來不動。但<note 
+n="0425002" resp="Taisho" type="orig" place="foot text">以＝已ィ【原】</note><note 
+n="0425002" resp="CBETA" type="mod">以【大】，已【校異-原】</note><app n="0425002">
+  <lem wit="【大】">以</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">已</rdg>
+</app>如來智德嘆之難盡，道
 <lb n="0425c20" ed="T"/>場眾等各生慚謝之心，能使諸佛為我捨身
 <lb n="0425c21" ed="T"/>過於塵劫。哀哉世尊能為難事，長劫勤勤忍
 <lb n="0425c22" ed="T"/>疲勞之苦痛，雖復為生苦行，不覓小恩，望欲
@@ -228,9 +301,11 @@
 <lb n="0426b01" ed="T"/>一切世界六種震動，總攝魔界動魔宮殿，摑
 <lb n="0426b02" ed="T"/>裂邪網消滅諸見，散諸塵勞壞諸欲塹。開闡
 <lb n="0426b03" ed="T"/>法門，顯明清白光融佛法；宣流正化，常作不
-<lb n="0426b04" ed="T"/>染身口意業、常行不<note n="0426001" resp="Taisho" type="orig" place="foot text">原本註曰退下經有轉字</note>退身口意行、常行不動
+<lb n="0426b04" ed="T"/>染身口意業、常行不<note 
+n="0426001" resp="Taisho" type="orig" place="foot text">原本註曰退下經有轉字</note>退身口意行、常行不動
 <lb n="0426b05" ed="T"/>身口意業、常行讚嘆身口意業、常行清淨身
-<lb n="0426b06" ed="T"/>口意業、常行離<note n="0426002" resp="Taisho" type="orig" place="foot text">原本註曰惱上經有煩字</note>惱身口意業、常行智慧身口
+<lb n="0426b06" ed="T"/>口意業、常行離<note 
+n="0426002" resp="Taisho" type="orig" place="foot text">原本註曰惱上經有煩字</note>惱身口意業、常行智慧身口
 <lb n="0426b07" ed="T"/>意業，覺悟成就、定慧成就。此諸菩薩，常為
 <lb n="0426b08" ed="T"/>諸天龍八部、人王、梵王等守護恭敬供養，一
 <lb n="0426b09" ed="T"/>切眾生為救為歸、為明為尊、為勝為上，具無
@@ -309,17 +384,28 @@
 <lb n="0427a22" ed="T"/>功德放慈光，如此聖眾難逢遇，同時發願入
 <lb n="0427a23" ed="T"/>西方。眾等齊心皆踊躍，手執香華常供養。
 <lb n="0427a24" ed="T"/>請觀世音讚云：</p>
-<lb n="0427a25" ed="T"/><lg xml:id="lgT47p0427a2501" type="regular"><l>奉請觀世音<note place="inline">散華樂</note>，<caesura/>慈悲降道場<note place="inline">散華樂</note>，</l>
-<lb n="0427a26" ed="T"/><l>斂容空裏現<note place="inline">散華樂</note>，<caesura/>忿怒伏魔王<note place="inline">散華樂</note>，</l>
-<lb n="0427a27" ed="T"/><l>騰身振法鼓<note place="inline">散華樂</note>，<caesura/>勇猛現威光<note place="inline">散華樂</note>，</l>
-<lb n="0427a28" ed="T"/><l>手中香色乳<note place="inline">散華樂</note>，<caesura/>眉際白毫光<note place="inline">散華樂</note>，</l>
-<lb n="0427a29" ed="T"/><l>寶蓋隨身轉<note place="inline">散華樂</note>，<caesura/>蓮華逐步祥<note place="inline">散華樂</note>，</l>
+<lb n="0427a25" ed="T"/><lg xml:id="lgT47p0427a2501" type="regular">
+  <l>奉請觀世音<note place="inline">散華樂</note>，<caesura/>慈悲降道場<note place="inline">散華樂</note>，</l>
+<lb n="0427a26" ed="T"/>
+  <l>斂容空裏現<note place="inline">散華樂</note>，<caesura/>忿怒伏魔王<note place="inline">散華樂</note>，</l>
+<lb n="0427a27" ed="T"/>
+  <l>騰身振法鼓<note place="inline">散華樂</note>，<caesura/>勇猛現威光<note place="inline">散華樂</note>，</l>
+<lb n="0427a28" ed="T"/>
+  <l>手中香色乳<note place="inline">散華樂</note>，<caesura/>眉際白毫光<note place="inline">散華樂</note>，</l>
+<lb n="0427a29" ed="T"/>
+  <l>寶蓋隨身轉<note place="inline">散華樂</note>，<caesura/>蓮華逐步祥<note place="inline">散華樂</note>，</l>
 <pb n="0427b" ed="T" xml:id="T47.1979.0427b"/>
-<lb n="0427b01" ed="T"/><l>池回八味水<note place="inline">散華樂</note>，<caesura/>華分戒定香<note place="inline">散華樂</note>，</l>
-<lb n="0427b02" ed="T"/><l>飢飡九定食<note place="inline">散華樂</note>，<caesura/>渴飲四禪漿<note place="inline">散華樂</note>。</l>
-<lb n="0427b03" ed="T"/><l>西方七寶樹<note place="inline">散華樂</note>，<caesura/>聲韻合宮商<note place="inline">散華樂</note>，</l>
-<lb n="0427b04" ed="T"/><l>枝中明實相<note place="inline">散華樂</note>，<caesura/>葉外現無常<note place="inline">散華樂</note>。</l>
-<lb n="0427b05" ed="T"/><l>願捨閻浮報<note place="inline">散華樂</note>，<caesura/>發願入西方<note place="inline">散華樂</note>。</l></lg>
+<lb n="0427b01" ed="T"/>
+  <l>池回八味水<note place="inline">散華樂</note>，<caesura/>華分戒定香<note place="inline">散華樂</note>，</l>
+<lb n="0427b02" ed="T"/>
+  <l>飢飡九定食<note place="inline">散華樂</note>，<caesura/>渴飲四禪漿<note place="inline">散華樂</note>。</l>
+<lb n="0427b03" ed="T"/>
+  <l>西方七寶樹<note place="inline">散華樂</note>，<caesura/>聲韻合宮商<note place="inline">散華樂</note>，</l>
+<lb n="0427b04" ed="T"/>
+  <l>枝中明實相<note place="inline">散華樂</note>，<caesura/>葉外現無常<note place="inline">散華樂</note>。</l>
+<lb n="0427b05" ed="T"/>
+  <l>願捨閻浮報<note place="inline">散華樂</note>，<caesura/>發願入西方<note place="inline">散華樂</note>。</l>
+</lg>
 <lb n="0427b06" ed="T"/><p xml:id="pT47p0427b0601">高接下請香華云：</p>
 <lb n="0427b07" ed="T"/><p xml:id="pT47p0427b0701">重白道場眾等，各各斂心，彈指合掌叩頭標
 <lb n="0427b08" ed="T"/>心運想。</p>
@@ -366,21 +452,36 @@
 <lb n="0427c19" ed="T"/><p xml:id="pT47p0427c1901">奉請彌陀世尊入道場<note place="inline">散華樂</note>。</p>
 <lb n="0427c20" ed="T"/><p xml:id="pT47p0427c2001">奉請釋迦如來入道場<note place="inline">散華樂</note>。</p>
 <lb n="0427c21" ed="T"/><p xml:id="pT47p0427c2101">奉請十方如來入道場<note place="inline">散華樂</note>。</p>
-<lb n="0427c22" ed="T"/><lg xml:id="lgT47p0427c2201" type="regular"><l>道場莊嚴極清淨，<caesura/>天上人間無比量，</l>
-<lb n="0427c23" ed="T"/><l>過現諸佛等靈儀，<caesura/>人天龍鬼中法藏。</l>
-<lb n="0427c24" ed="T"/><l>全身碎身真舍利，<caesura/>大眾持華散其上，</l>
-<lb n="0427c25" ed="T"/><l>瞻仰尊顏繞七匝，<caesura/>梵響聲等皆供養。</l>
-<lb n="0427c26" ed="T"/><l>願我身淨如香爐，<caesura/>願我心如智慧火，</l>
-<lb n="0427c27" ed="T"/><l>念念焚燒戒定香，<caesura/>供養十方三世佛。</l>
-<lb n="0427c28" ed="T"/><l>慚愧釋迦大悲主，<caesura/>十方恒沙諸世尊，</l>
-<lb n="0427c29" ed="T"/><l>不捨慈悲巧方便，<caesura/>共讚彌陀弘誓門。</l>
+<lb n="0427c22" ed="T"/><lg xml:id="lgT47p0427c2201" type="regular">
+  <l>道場莊嚴極清淨，<caesura/>天上人間無比量，</l>
+<lb n="0427c23" ed="T"/>
+  <l>過現諸佛等靈儀，<caesura/>人天龍鬼中法藏。</l>
+<lb n="0427c24" ed="T"/>
+  <l>全身碎身真舍利，<caesura/>大眾持華散其上，</l>
+<lb n="0427c25" ed="T"/>
+  <l>瞻仰尊顏繞七匝，<caesura/>梵響聲等皆供養。</l>
+<lb n="0427c26" ed="T"/>
+  <l>願我身淨如香爐，<caesura/>願我心如智慧火，</l>
+<lb n="0427c27" ed="T"/>
+  <l>念念焚燒戒定香，<caesura/>供養十方三世佛。</l>
+<lb n="0427c28" ed="T"/>
+  <l>慚愧釋迦大悲主，<caesura/>十方恒沙諸世尊，</l>
+<lb n="0427c29" ed="T"/>
+  <l>不捨慈悲巧方便，<caesura/>共讚彌陀弘誓門。</l>
 <pb n="0428a" ed="T" xml:id="T47.1979.0428a"/>
-<lb n="0428a01" ed="T"/><l>弘誓多門四十八，<caesura/>遍標念佛最為親，</l>
-<lb n="0428a02" ed="T"/><l>人能念佛佛還念，<caesura/>專心想佛佛知人。</l>
-<lb n="0428a03" ed="T"/><l>一切回心向安樂，<caesura/>即見真金功德身，</l>
-<lb n="0428a04" ed="T"/><l>淨土莊嚴諸聖眾，<caesura/>籠籠常在行人前。</l>
-<lb n="0428a05" ed="T"/><l>行者見已心歡喜，<caesura/>終時從佛坐金蓮，</l>
-<lb n="0428a06" ed="T"/><l>一念乘華到佛會，<caesura/>即證不退入三賢。</l></lg>
+<lb n="0428a01" ed="T"/>
+  <l>弘誓多門四十八，<caesura/>遍標念佛最為親，</l>
+<lb n="0428a02" ed="T"/>
+  <l>人能念佛佛還念，<caesura/>專心想佛佛知人。</l>
+<lb n="0428a03" ed="T"/>
+  <l>一切回心向安樂，<caesura/>即見真金功德身，</l>
+<lb n="0428a04" ed="T"/>
+  <l>淨土莊嚴諸聖眾，<caesura/>籠籠常在行人前。</l>
+<lb n="0428a05" ed="T"/>
+  <l>行者見已心歡喜，<caesura/>終時從佛坐金蓮，</l>
+<lb n="0428a06" ed="T"/>
+  <l>一念乘華到佛會，<caesura/>即證不退入三賢。</l>
+</lg>
 <lb n="0428a07" ed="T"/><p xml:id="pT47p0428a0701">下接梵人聲立讚云：</p>
 <lb n="0428a08" ed="T"/><p xml:id="pT47p0428a0801">願往生願往生，道場眾等爾許多人，歷劫已
 <lb n="0428a09" ed="T"/>來巡三界，輪回六道無休止。希見道場請佛
@@ -448,7 +549,12 @@
 <lb n="0428c11" ed="T"/>十八灰河地獄，五百億刀林地獄、五百億劍
 <lb n="0428c12" ed="T"/>林地獄、五百億刺林地獄、五百億銅柱地獄、
 <lb n="0428c13" ed="T"/>五百億鐵鐖地獄、五百億鐵網地獄，十八鐵
-<lb n="0428c14" ed="T"/>窟地獄、十八鐵丸地獄、十八<note n="0428001" resp="Taisho" type="orig" place="foot text">火＝尖ィ【原】</note><note n="0428001" resp="CBETA" type="mod">火【大】，尖【校異-原】</note><app n="0428001"><lem wit="【大】">火</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">尖</rdg></app>石地獄、十
+<lb n="0428c14" ed="T"/>窟地獄、十八鐵丸地獄、十八<note 
+n="0428001" resp="Taisho" type="orig" place="foot text">火＝尖ィ【原】</note><note 
+n="0428001" resp="CBETA" type="mod">火【大】，尖【校異-原】</note><app n="0428001">
+  <lem wit="【大】">火</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">尖</rdg>
+</app>石地獄、十
 <lb n="0428c15" ed="T"/>八飲銅地獄，如是等眾多地獄。佛言：阿鼻
 <lb n="0428c16" ed="T"/>地獄，縱廣正等八萬由旬，七重鐵城，七層鐵
 <lb n="0428c17" ed="T"/>網，下十八隔周匝七重皆是刀林。七重城
@@ -466,8 +572,18 @@
 <lb n="0428c29" ed="T"/>作火刀輪如車輪許，輪輪相次在火炎間，
 <pb n="0429a" ed="T" xml:id="T47.1979.0429a"/>
 <lb n="0429a01" ed="T"/>滿阿鼻城。銅狗張口吐舌在地，舌如鐵刺。舌
-<lb n="0429a02" ed="T"/>出之時化無量舌，滿阿鼻城。七重城內有<note n="0429001" resp="Taisho" type="orig" place="foot text">四＝七ィ【原】</note><note n="0429001" resp="CBETA" type="mod">四【大】，七【校異-原】</note><app n="0429001"><lem wit="【大】">四</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">七</rdg></app>
-<lb n="0429a03" ed="T"/>鐵幢，幢頭火<note n="0429002" resp="Taisho" type="orig" place="foot text">流＝涌ィ【原】</note><note n="0429002" resp="CBETA" type="mod">流【大】，涌【校異-原】</note><app n="0429002"><lem wit="【大】">流</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">涌</rdg></app>如沸湧泉，其鐵流迸滿阿鼻
+<lb n="0429a02" ed="T"/>出之時化無量舌，滿阿鼻城。七重城內有<note 
+n="0429001" resp="Taisho" type="orig" place="foot text">四＝七ィ【原】</note><note 
+n="0429001" resp="CBETA" type="mod">四【大】，七【校異-原】</note><app n="0429001">
+  <lem wit="【大】">四</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">七</rdg>
+</app>
+<lb n="0429a03" ed="T"/>鐵幢，幢頭火<note 
+n="0429002" resp="Taisho" type="orig" place="foot text">流＝涌ィ【原】</note><note 
+n="0429002" resp="CBETA" type="mod">流【大】，涌【校異-原】</note><app n="0429002">
+  <lem wit="【大】">流</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">涌</rdg>
+</app>如沸湧泉，其鐵流迸滿阿鼻
 <lb n="0429a04" ed="T"/>城。阿鼻四門，於門閫上有八十釜，沸銅湧出，
 <lb n="0429a05" ed="T"/>從門漫流滿阿鼻城。一一隔間有八萬四千
 <lb n="0429a06" ed="T"/>鐵蟒大蛇，吐毒吐火身滿城內，其蛇哮吼如
@@ -673,7 +789,12 @@
 <lb n="0431a25" ed="T"/>到，助佛神化轉法輪。眾等回心生淨土，手
 <lb n="0431a26" ed="T"/>執香華常供養。</p>
 <lb n="0431a27" ed="T"/><p xml:id="pT47p0431a2701">高接下讚云　下接高讚云：</p>
-<lb n="0431a28" ed="T"/><p xml:id="pT47p0431a2801">願往生願往生，<note n="0431001" resp="Taisho" type="orig" place="foot text">與佛＝佛與ィ【原】</note><note n="0431001" resp="CBETA" type="mod">與佛【大】，佛與【校異-原】</note><app n="0431001"><lem wit="【大】">與佛</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">佛與</rdg></app>聲聞菩薩眾，同遊舍衛
+<lb n="0431a28" ed="T"/><p xml:id="pT47p0431a2801">願往生願往生，<note 
+n="0431001" resp="Taisho" type="orig" place="foot text">與佛＝佛與ィ【原】</note><note 
+n="0431001" resp="CBETA" type="mod">與佛【大】，佛與【校異-原】</note><app n="0431001">
+  <lem wit="【大】">與佛</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">佛與</rdg>
+</app>聲聞菩薩眾，同遊舍衛
 <lb n="0431a29" ed="T"/>住祇園，願閉三塗絕六道，開顯無生淨土門。
 <pb n="0431b" ed="T" xml:id="T47.1979.0431b"/>
 <lb n="0431b01" ed="T"/>人天大眾皆來集，瞻仰尊顏聽未聞，見佛聞
@@ -1211,39 +1332,71 @@
 <lb n="0437a22" ed="T"/>上，或三匝或七匝竟，即當佛前立。次唱後
 <lb n="0437a23" ed="T"/>讚。</p>
 <lb n="0437a24" ed="T"/><p xml:id="pT47p0437a2401">高座唱讚　下座和云：</p>
-<lb n="0437a25" ed="T"/><lg xml:id="lgT47p0437a2501" type="regular"><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>大眾人人皆合掌<note place="inline">無量樂</note>。</l>
-<lb n="0437a26" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>道場聖眾欲歸還<note place="inline">無量樂</note>，</l>
-<lb n="0437a27" ed="T"/><l>眾等傷心共傷歎<note place="inline">願往生</note>，<caesura/>唯知慚謝釋迦恩<note place="inline">無量樂</note>。</l>
-<lb n="0437a28" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>悲喜交流深自慶<note place="inline">無量樂</note>，</l>
-<lb n="0437a29" ed="T"/><l>不因釋迦佛開悟<note place="inline">願往生</note>，<caesura/>彌陀名願何時聞<note place="inline">無量樂</note>？</l>
+<lb n="0437a25" ed="T"/><lg xml:id="lgT47p0437a2501" type="regular">
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>大眾人人皆合掌<note place="inline">無量樂</note>。</l>
+<lb n="0437a26" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>道場聖眾欲歸還<note place="inline">無量樂</note>，</l>
+<lb n="0437a27" ed="T"/>
+  <l>眾等傷心共傷歎<note place="inline">願往生</note>，<caesura/>唯知慚謝釋迦恩<note place="inline">無量樂</note>。</l>
+<lb n="0437a28" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>悲喜交流深自慶<note place="inline">無量樂</note>，</l>
+<lb n="0437a29" ed="T"/>
+  <l>不因釋迦佛開悟<note place="inline">願往生</note>，<caesura/>彌陀名願何時聞<note place="inline">無量樂</note>？</l>
 <pb n="0437b" ed="T" xml:id="T47.1979.0437b"/>
-<lb n="0437b01" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>荷佛慈恩實難報<note place="inline">無量樂</note>，</l>
-<lb n="0437b02" ed="T"/><l>四十八願慇懃喚<note place="inline">願往生</note>，<caesura/>乘佛願力往西方<note place="inline">無量樂</note>。</l>
-<lb n="0437b03" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>娑婆永別更何憂<note place="inline">無量樂</note>，</l>
-<lb n="0437b04" ed="T"/><l>無問罪福時多少<note place="inline">願往生</note>，<caesura/>心心念佛莫生疑<note place="inline">無量樂</note>。</l>
-<lb n="0437b05" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>六方如來證不虛<note place="inline">無量樂</note>，</l>
-<lb n="0437b06" ed="T"/><l>三業專心無雜亂<note place="inline">願往生</note>，<caesura/>百寶蓮華應時見<note place="inline">無量樂</note>。</l>
-<lb n="0437b07" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>臨終聖眾自來迎<note place="inline">無量樂</note>，</l>
-<lb n="0437b08" ed="T"/><l>行者見佛心歡喜<note place="inline">願往生</note>，<caesura/>彌陀接手坐華臺<note place="inline">無量樂</note>。</l>
-<lb n="0437b09" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>坐已身同紫金色<note place="inline">無量樂</note>，</l>
-<lb n="0437b10" ed="T"/><l>從佛須臾至寶國<note place="inline">願往生</note>，<caesura/>直入彌陀大會中<note place="inline">無量樂</note>。</l>
-<lb n="0437b11" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>見佛莊嚴無數億<note place="inline">無量樂</note>，</l>
-<lb n="0437b12" ed="T"/><l>三明六通皆具足<note place="inline">願往生</note>，<caesura/>憶我閻浮同行人<note place="inline">無量樂</note>。</l>
-<lb n="0437b13" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>同行相親願莫退<note place="inline">無量樂</note>，</l>
-<lb n="0437b14" ed="T"/><l>七周行道散華竟<note place="inline">願往生</note>，<caesura/>供養冥空諸佛會<note place="inline">無量樂</note>。</l>
-<lb n="0437b15" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>大會頂禮別彌陀<note place="inline">無量樂</note>。</l></lg>
+<lb n="0437b01" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>荷佛慈恩實難報<note place="inline">無量樂</note>，</l>
+<lb n="0437b02" ed="T"/>
+  <l>四十八願慇懃喚<note place="inline">願往生</note>，<caesura/>乘佛願力往西方<note place="inline">無量樂</note>。</l>
+<lb n="0437b03" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>娑婆永別更何憂<note place="inline">無量樂</note>，</l>
+<lb n="0437b04" ed="T"/>
+  <l>無問罪福時多少<note place="inline">願往生</note>，<caesura/>心心念佛莫生疑<note place="inline">無量樂</note>。</l>
+<lb n="0437b05" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>六方如來證不虛<note place="inline">無量樂</note>，</l>
+<lb n="0437b06" ed="T"/>
+  <l>三業專心無雜亂<note place="inline">願往生</note>，<caesura/>百寶蓮華應時見<note place="inline">無量樂</note>。</l>
+<lb n="0437b07" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>臨終聖眾自來迎<note place="inline">無量樂</note>，</l>
+<lb n="0437b08" ed="T"/>
+  <l>行者見佛心歡喜<note place="inline">願往生</note>，<caesura/>彌陀接手坐華臺<note place="inline">無量樂</note>。</l>
+<lb n="0437b09" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>坐已身同紫金色<note place="inline">無量樂</note>，</l>
+<lb n="0437b10" ed="T"/>
+  <l>從佛須臾至寶國<note place="inline">願往生</note>，<caesura/>直入彌陀大會中<note place="inline">無量樂</note>。</l>
+<lb n="0437b11" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>見佛莊嚴無數億<note place="inline">無量樂</note>，</l>
+<lb n="0437b12" ed="T"/>
+  <l>三明六通皆具足<note place="inline">願往生</note>，<caesura/>憶我閻浮同行人<note place="inline">無量樂</note>。</l>
+<lb n="0437b13" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>同行相親願莫退<note place="inline">無量樂</note>，</l>
+<lb n="0437b14" ed="T"/>
+  <l>七周行道散華竟<note place="inline">願往生</note>，<caesura/>供養冥空諸佛會<note place="inline">無量樂</note>。</l>
+<lb n="0437b15" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>大會頂禮別彌陀<note place="inline">無量樂</note>。</l>
+</lg>
 <lb n="0437b16" ed="T"/><p xml:id="pT47p0437b1601">行道散華七周竟，次向佛前立唱讚云：</p>
-<lb n="0437b17" ed="T"/><lg xml:id="lgT47p0437b1701" type="regular"><l>慚愧彌陀諸聖眾<note place="inline">願往生</note>，<caesura/>受我施主眾生請<note place="inline">無量樂</note>。</l>
-<lb n="0437b18" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>慈悲平等度眾生<note place="inline">無量樂</note>，</l>
-<lb n="0437b19" ed="T"/><l>證明功德除罪障<note place="inline">願往生</note>，<caesura/>存亡利益難思議<note place="inline">無量樂</note>。</l>
-<lb n="0437b20" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>形枯命斷佛前期<note place="inline">無量樂</note>，</l>
-<lb n="0437b21" ed="T"/><l>供養莊嚴不如法<note place="inline">願往生</note>，<caesura/>布施眾生歡喜心<note place="inline">無量樂</note>。</l>
-<lb n="0437b22" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>見聞流淚同懺悔<note place="inline">無量樂</note>，</l>
-<lb n="0437b23" ed="T"/><l>散華行道訖<note place="inline">願往生</note>，<caesura/>諸佛隨緣還本國<note place="inline">無量樂</note>。</l>
-<lb n="0437b24" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>普散香華心送佛<note place="inline">無量樂</note>。</l>
-<lb n="0437b25" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>願佛慈心遙護念<note place="inline">無量樂</note>。</l>
+<lb n="0437b17" ed="T"/><lg xml:id="lgT47p0437b1701" type="regular">
+  <l>慚愧彌陀諸聖眾<note place="inline">願往生</note>，<caesura/>受我施主眾生請<note place="inline">無量樂</note>。</l>
+<lb n="0437b18" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>慈悲平等度眾生<note place="inline">無量樂</note>，</l>
+<lb n="0437b19" ed="T"/>
+  <l>證明功德除罪障<note place="inline">願往生</note>，<caesura/>存亡利益難思議<note place="inline">無量樂</note>。</l>
+<lb n="0437b20" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>形枯命斷佛前期<note place="inline">無量樂</note>，</l>
+<lb n="0437b21" ed="T"/>
+  <l>供養莊嚴不如法<note place="inline">願往生</note>，<caesura/>布施眾生歡喜心<note place="inline">無量樂</note>。</l>
+<lb n="0437b22" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>見聞流淚同懺悔<note place="inline">無量樂</note>，</l>
+<lb n="0437b23" ed="T"/>
+  <l>散華行道訖<note place="inline">願往生</note>，<caesura/>諸佛隨緣還本國<note place="inline">無量樂</note>。</l>
+<lb n="0437b24" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>普散香華心送佛<note place="inline">無量樂</note>。</l>
+<lb n="0437b25" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>願佛慈心遙護念<note place="inline">無量樂</note>。</l>
 <pb n="0437c" ed="T" xml:id="T47.1979.0437c"/>
-<lb n="0437c01" ed="T"/><l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>同生相勸盡須來<note place="inline">無量樂</note>。</l></lg>
+<lb n="0437c01" ed="T"/>
+  <l>般舟三昧樂<note place="inline">願往生</note>，<caesura/>同生相勸盡須來<note place="inline">無量樂</note>。</l>
+</lg>
 <lb n="0437c02" ed="T"/><p xml:id="pT47p0437c0201">次打磬子唱敬禮常住三寶。</p>
 <lb n="0437c03" ed="T"/><p xml:id="pT47p0437c0301">次唱歎佛呪願。</p>
 <lb n="0437c04" ed="T"/><p xml:id="pT47p0437c0401">歎佛竟，即依法唱七禮，敬唱隨意。</p>
@@ -1304,7 +1457,12 @@
 <lb n="0438a29" ed="T"/><p xml:id="pT47p0438a2901">普為四恩三友、帝王人王、師僧父母、善知識、
 <pb n="0438b" ed="T" xml:id="T47.1979.0438b"/>
 <lb n="0438b01" ed="T"/>法界眾生，斷除三障，同得往生阿彌陀佛國。
-<lb n="0438b02" ed="T"/>和<note n="0438001" resp="Taisho" type="orig" place="foot text">上＝南ィ【原】</note><note n="0438001" resp="CBETA" type="mod">上【大】，南【校異-原】</note><app n="0438001"><lem wit="【大】">上</lem><rdg resp="Taisho" wit="【原】" type="variantRemark">南</rdg></app>一切賢聖，迴願往生無量壽國。</p>
+<lb n="0438b02" ed="T"/>和<note 
+n="0438001" resp="Taisho" type="orig" place="foot text">上＝南ィ【原】</note><note 
+n="0438001" resp="CBETA" type="mod">上【大】，南【校異-原】</note><app n="0438001">
+  <lem wit="【大】">上</lem>
+  <rdg resp="Taisho" wit="【原】" type="variantRemark">南</rdg>
+</app>一切賢聖，迴願往生無量壽國。</p>
 <lb n="0438b03" ed="T"/><p xml:id="pT47p0438b0301">唱竟，即云隨意。</p>
 <lb n="0438b04" ed="T"/><p xml:id="pT47p0438b0401">白行者等，一切時常依此法以為恒式。應知。
 <lb n="0438b05" ed="T"/>送經致何處？送至摩尼寶殿中。送經致何處？

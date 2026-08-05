@@ -2,91 +2,115 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="C057n1163">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Zhonghua Canon (Chunghwa Book Edition)</title>
-			<title level="s" xml:lang="zh-Hant">中華大藏經（中華書局版）</title>
-			<title level="m" xml:lang="zh-Hant">一切經音義(第16卷-第25卷)</title>
-			<title>Zhonghua Canon (Chunghwa Book Edition), Electronic version, No. 1163 一切經音義(第16卷-第25卷)</title>
-			<title xml:lang="zh-Hant">中華大藏經（中華書局版）數位版, No. 1163 一切經音義(第16卷-第25卷)</title>
-			<author>唐 玄應撰</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>XML TEI P5a</edition>
-		</editionStmt>
-		<extent>10卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">C</idno>.<idno type="vol">57</idno>.<idno type="no">1163</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>中華大藏經（中華書局版）</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【中華】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2010-11-08T17:24:57">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Zhonghua Canon (Chunghwa Book Edition)</title>
+      <title level="s" xml:lang="zh-Hant">中華大藏經（中華書局版）</title>
+      <title level="m" xml:lang="zh-Hant">一切經音義(第16卷-第25卷)</title>
+      <title>Zhonghua Canon (Chunghwa Book Edition), Electronic version, No. 1163 一切經音義(第16卷-第25卷)</title>
+      <title xml:lang="zh-Hant">中華大藏經（中華書局版）數位版, No. 1163 一切經音義(第16卷-第25卷)</title>
+      <author>唐 玄應撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5a</edition>
+    </editionStmt>
+    <extent>10卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">C</idno>.<idno type="vol">57</idno>.<idno type="no">1163</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>中華大藏經（中華書局版）</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【中華】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2010-11-08T17:24:57">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text cb:behaviour="no-norm"><body>
 <milestone unit="juan" n="16"/>
 <pb ed="C" xml:id="C057.1163.0001a" n="0001a"/>
 <lb ed="C" n="0001a01"/><cb:mulu type="卷" n="16"/><cb:juan fun="open" n="16"><cb:jhead>一切經音義卷第十六<note place="inline">小乘律論</note>　　　弁</cb:jhead></cb:juan>
 <lb ed="C" n="0001a02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0001a03"/><cb:div type="other"><cb:mulu type="其他" level="1">小乘律二</cb:mulu><list rend="no-marker"><item xml:id="itemC057p0001a0301">善見律</item><item xml:id="itemC057p0001a0304">僧祇戒本</item>
-<lb ed="C" n="0001a04"/><item xml:id="itemC057p0001a0401">鼻奈耶</item><item xml:id="itemC057p0001a0404">四分戒本</item>
-<lb ed="C" n="0001a05"/><item xml:id="itemC057p0001a0501">摩德勒伽</item><item xml:id="itemC057p0001a0505">十誦戒本</item>
-<lb ed="C" n="0001a06"/><item xml:id="itemC057p0001a0601">毗𡰱母律</item><item xml:id="itemC057p0001a0605"><g ref="#CB16765"/>婆多毗尼</item>
-<lb ed="C" n="0001a07"/><item xml:id="itemC057p0001a0701"><g ref="#CB12752"/>沙塞戒本</item><item xml:id="itemC057p0001a0706">大愛道比丘𡰱經</item>
-<lb ed="C" n="0001a08"/><item xml:id="itemC057p0001a0801">比丘尼羯磨</item><item xml:id="itemC057p0001a0806">大比丘三千威儀</item>
-<lb ed="C" n="0001a09"/><item xml:id="itemC057p0001a0901">四分比丘尼羯磨</item><item xml:id="itemC057p0001a0908">優婆塞五戒相</item>
-<lb ed="C" n="0001a10"/><item xml:id="itemC057p0001a1001">僧祇比丘尼羯磨</item><item xml:id="itemC057p0001a1008">優婆塞五戒威儀</item>
-<lb ed="C" n="0001a11"/><item xml:id="itemC057p0001a1101">十誦比丘尼羯磨</item><item xml:id="itemC057p0001a1108">舍利弗問經</item>
-<lb ed="C" n="0001a12"/><item xml:id="itemC057p0001a1201">沙<g ref="#CB12752"/>威儀經</item><item xml:id="itemC057p0001a1206">戒消灾經</item>
-<lb ed="C" n="0001a13"/><item xml:id="itemC057p0001a1301">沙<g ref="#CB12752"/>尼離戒</item><item xml:id="itemC057p0001a1306">解脫戒本</item></list>
+<lb ed="C" n="0001a03"/><cb:div type="other"><cb:mulu type="其他" level="1">小乘律二</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemC057p0001a0301">善見律</item>
+  <item xml:id="itemC057p0001a0304">僧祇戒本</item>
+<lb ed="C" n="0001a04"/>
+  <item xml:id="itemC057p0001a0401">鼻奈耶</item>
+  <item xml:id="itemC057p0001a0404">四分戒本</item>
+<lb ed="C" n="0001a05"/>
+  <item xml:id="itemC057p0001a0501">摩德勒伽</item>
+  <item xml:id="itemC057p0001a0505">十誦戒本</item>
+<lb ed="C" n="0001a06"/>
+  <item xml:id="itemC057p0001a0601">毗𡰱母律</item>
+  <item xml:id="itemC057p0001a0605"><g ref="#CB16765"/>婆多毗尼</item>
+<lb ed="C" n="0001a07"/>
+  <item xml:id="itemC057p0001a0701"><g ref="#CB12752"/>沙塞戒本</item>
+  <item xml:id="itemC057p0001a0706">大愛道比丘𡰱經</item>
+<lb ed="C" n="0001a08"/>
+  <item xml:id="itemC057p0001a0801">比丘尼羯磨</item>
+  <item xml:id="itemC057p0001a0806">大比丘三千威儀</item>
+<lb ed="C" n="0001a09"/>
+  <item xml:id="itemC057p0001a0901">四分比丘尼羯磨</item>
+  <item xml:id="itemC057p0001a0908">優婆塞五戒相</item>
+<lb ed="C" n="0001a10"/>
+  <item xml:id="itemC057p0001a1001">僧祇比丘尼羯磨</item>
+  <item xml:id="itemC057p0001a1008">優婆塞五戒威儀</item>
+<lb ed="C" n="0001a11"/>
+  <item xml:id="itemC057p0001a1101">十誦比丘尼羯磨</item>
+  <item xml:id="itemC057p0001a1108">舍利弗問經</item>
+<lb ed="C" n="0001a12"/>
+  <item xml:id="itemC057p0001a1201">沙<g ref="#CB12752"/>威儀經</item>
+  <item xml:id="itemC057p0001a1206">戒消灾經</item>
+<lb ed="C" n="0001a13"/>
+  <item xml:id="itemC057p0001a1301">沙<g ref="#CB12752"/>尼離戒</item>
+  <item xml:id="itemC057p0001a1306">解脫戒本</item>
+</list>
 <lb ed="C" n="0001a14"/><cb:div type="other"><cb:mulu type="其他" level="2">善見律</cb:mulu><head>善見律</head>
 <lb ed="C" n="0001a15"/><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0001a16"/><entry><form>鹿野</form><cb:def><p xml:id="pC057p0001a1603" style="margin-left:1em" cb:place="inline">在波羅柰國昔日如来與提婆
@@ -143,7 +167,15 @@
 <lb ed="C" n="0001c20"/><entry><form>唱<g ref="#CB16765"/></form><cb:def><p xml:id="pC057p0001c2003" style="margin-left:1em" cb:place="inline">此言訛也正言娑度此譯云善哉。</p></cb:def></entry>
 <lb ed="C" n="0001c21"/><entry><form>整畟</form><cb:def><p xml:id="pC057p0001c2103" style="margin-left:1em" cb:place="inline">楚力反畟謂正方也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0001c22"/><cb:div type="other"><cb:mulu type="其他" level="3">第四卷</cb:mulu><head>第四卷</head>
-<lb ed="C" n="0001c23"/><entry><form><note n="0001c2301" resp="CBETA" type="add" note_key="C057.0001c23.01">楝【CB】，棟【中華】</note><app n="0001c2301"><lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0677b15</note></lem><rdg wit="【中華】">棟</rdg></app>木</form><cb:def><p xml:id="pC057p0001c2303" style="margin-left:1em" cb:place="inline">力見反<note n="0001c2302" resp="CBETA" type="add" note_key="C057.0001c23.06">楝【CB】，棟【中華】</note><app n="0001c2302"><lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0677b15</note></lem><rdg wit="【中華】">棟</rdg></app>木子如指白而粘可
+<lb ed="C" n="0001c23"/><entry><form><note 
+n="0001c2301" resp="CBETA" type="add" note_key="C057.0001c23.01">楝【CB】，棟【中華】</note><app n="0001c2301">
+  <lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0677b15</note></lem>
+  <rdg wit="【中華】">棟</rdg>
+</app>木</form><cb:def><p xml:id="pC057p0001c2303" style="margin-left:1em" cb:place="inline">力見反<note 
+n="0001c2302" resp="CBETA" type="add" note_key="C057.0001c23.06">楝【CB】，棟【中華】</note><app n="0001c2302">
+  <lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0677b15</note></lem>
+  <rdg wit="【中華】">棟</rdg>
+</app>木子如指白而粘可
 <pb ed="C" xml:id="C057.1163.0002a" n="0002a"/>
 <lb ed="C" n="0002a01"/>以𣴟衣也。</p></cb:def></entry>
 <lb ed="C" n="0002a02"/><entry><form>一蛤</form><cb:def><p xml:id="pC057p0002a0203" style="margin-left:1em" cb:place="inline">古合反字林燕雀所化也秦曰
@@ -274,7 +306,11 @@
 <lb ed="C" n="0003c06"/>䥫為鏃者也。</p></cb:def></entry>
 <lb ed="C" n="0003c07"/><entry><form>肪膏</form><cb:def><p xml:id="pC057p0003c0703" style="margin-left:1em" cb:place="inline">府房反說文肪𦘺也脂也三蒼
 <lb ed="C" n="0003c08"/>有角曰脂無角曰膏。</p></cb:def></entry>
-<lb ed="C" n="0003c09"/><entry><form>有㰆</form><cb:def><p xml:id="pC057p0003c0903" style="margin-left:1em" cb:place="inline">蒲𢦥反謂<note n="0003c0901" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0003c0901"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【中華】">鍜</rdg></app>家用炊火令熾者也。</p></cb:def></entry>
+<lb ed="C" n="0003c09"/><entry><form>有㰆</form><cb:def><p xml:id="pC057p0003c0903" style="margin-left:1em" cb:place="inline">蒲𢦥反謂<note 
+n="0003c0901" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0003c0901">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【中華】">鍜</rdg>
+</app>家用炊火令熾者也。</p></cb:def></entry>
 <lb ed="C" n="0003c10"/><entry><form><g ref="#CB12364"/>簇</form><cb:def><p xml:id="pC057p0003c1003" style="margin-left:1em" cb:place="inline">古胡反以尖竹頭布地也下楚
 <lb ed="C" n="0003c11"/>角反東亰賦云瑇琩不簇<g ref="#CB23022"/>綜曰
 <lb ed="C" n="0003c12"/>不又稓取之也廣蒼胡餅家用簇
@@ -584,7 +620,11 @@
 <lb ed="C" n="0008a04"/><cb:div type="other"><cb:mulu type="其他" level="2"><g ref="#CB16765"/>婆多毗尼毗婆沙</cb:mulu><head><g ref="#CB16765"/>婆多毗尼毗婆沙</head>
 <lb ed="C" n="0008a05"/><cb:div type="other"><cb:mulu type="其他" level="3">第三卷</cb:mulu><head>第三卷</head>
 <lb ed="C" n="0008a06"/><entry><form>作發</form><cb:def><p xml:id="pC057p0008a0603" style="margin-left:1em" cb:place="inline">府越反謂機發也說文射發也
-<lb ed="C" n="0008a07"/>廣雅發舉也律文作撥補<note n="0008a0701" resp="CBETA" type="add">沫【CB】，沬【中華】</note><app n="0008a0701"><lem wit="【CB】" resp="CBETA.maha">沫</lem><rdg wit="【中華】">沬</rdg></app>反撥
+<lb ed="C" n="0008a07"/>廣雅發舉也律文作撥補<note 
+n="0008a0701" resp="CBETA" type="add">沫【CB】，沬【中華】</note><app n="0008a0701">
+  <lem wit="【CB】" resp="CBETA.maha">沫</lem>
+  <rdg wit="【中華】">沬</rdg>
+</app>反撥
 <lb ed="C" n="0008a08"/>除也撥去也撥非此義。</p></cb:def></entry>
 <lb ed="C" n="0008a09"/><entry><form>飄然</form><cb:def><p xml:id="pC057p0008a0903" style="margin-left:1em" cb:place="inline">敷遙反飛揚㒵也飄猶吹也輕
 <lb ed="C" n="0008a10"/>飄也律文作驃方召反馬色也驃
@@ -636,7 +676,8 @@
 <lb ed="C" n="0008c08"/><entry><form>不<g ref="#CB05651"/></form><cb:def><p xml:id="pC057p0008c0803" style="margin-left:1em" cb:place="inline">口迹反謂<g ref="#CB05651"/>噉也。</p></cb:def></entry>
 <lb ed="C" n="0008c09"/><entry><form>嚼食</form><cb:def><p xml:id="pC057p0008c0903" style="margin-left:1em" cb:place="inline">自略反廣雅嚼茹也字書咀也
 <lb ed="C" n="0008c10"/>亦即噍嚼也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0008c11"/><cb:div type="other"><cb:mulu type="其他" level="2">大愛道比丘尼經</cb:mulu><head>大愛道比丘尼經</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0008c11"/><cb:div type="other"><cb:mulu type="其他" level="2">大愛道比丘尼經</cb:mulu><head>大愛道比丘尼經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0008c12"/><entry><form>精廬</form><cb:def><p xml:id="pC057p0008c1203" style="margin-left:1em" cb:place="inline">力居反廬舍也精廬說文人近
 <lb ed="C" n="0008c13"/>名非古典即精舍也。</p></cb:def></entry>
 <lb ed="C" n="0008c14"/><entry><form>倓然</form><cb:def><p xml:id="pC057p0008c1403" style="margin-left:1em" cb:place="inline">徒闞反蒼頡篇倓恬也說文倓
@@ -687,7 +728,11 @@
 <lb ed="C" n="0009b11"/>墜落也。</p></cb:def></entry>
 <lb ed="C" n="0009b12"/><entry><form>媟瀆</form><cb:def><p xml:id="pC057p0009b1203" style="margin-left:1em" cb:place="inline">相列反下古文䢱嬻二形今作
 <lb ed="C" n="0009b13"/>黷同徒穀反方言媟狎也謂相親
-<lb ed="C" n="0009b14"/>狎也嬻𢢔也㑥也謂相輕<note n="0009b1401" resp="CBETA" type="add" note_key="C057.0009b14.11">㑥【CB】，偒【中華】</note><app n="0009b1401"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">㑥<note type="cf1">C056n1163_p1035a16</note></lem><rdg wit="【中華】">偒</rdg></app>也。</p></cb:def></entry>
+<lb ed="C" n="0009b14"/>狎也嬻𢢔也㑥也謂相輕<note 
+n="0009b1401" resp="CBETA" type="add" note_key="C057.0009b14.11">㑥【CB】，偒【中華】</note><app n="0009b1401">
+  <lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">㑥<note type="cf1">C056n1163_p1035a16</note></lem>
+  <rdg wit="【中華】">偒</rdg>
+</app>也。</p></cb:def></entry>
 <lb ed="C" n="0009b15"/><entry><form>犇走</form><cb:def><p xml:id="pC057p0009b1503" style="margin-left:1em" cb:place="inline">古文𩦥今作奔同補門反疾走也
 <lb ed="C" n="0009b16"/>𥼶名云奔變也有急變奔赴之也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0009b17"/><cb:div type="other"><cb:mulu type="其他" level="3">卷下</cb:mulu><head>卷下</head>
@@ -732,8 +777,13 @@
 <lb ed="C" n="0010a08"/>之也。</p></cb:def></entry>
 <lb ed="C" n="0010a09"/><entry><form>剖形</form><cb:def><p xml:id="pC057p0010a0903" style="margin-left:1em" cb:place="inline">普後反剖破也說文剖判分也
 <lb ed="C" n="0010a10"/>廣雅剖析也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0010a11"/><cb:div type="other"><cb:mulu type="其他" level="2">大比丘三千威儀經</cb:mulu><head>大比丘三千威儀經</head><cb:div type="other"><cb:mulu type="其他" level="3">卷上</cb:mulu><head>卷上</head>
-<lb ed="C" n="0010a12"/><entry><form>如掐</form><cb:def><p xml:id="pC057p0010a1203" style="margin-left:1em" cb:place="inline">又作㓣同口洽反埤蒼<note n="0010a1201" resp="CBETA" type="add">掐【CB】，搯【中華】</note><app n="0010a1201"><lem wit="【CB】" resp="CBETA.maha">掐</lem><rdg wit="【中華】">搯</rdg></app>抓也
+<lb ed="C" n="0010a11"/><cb:div type="other"><cb:mulu type="其他" level="2">大比丘三千威儀經</cb:mulu><head>大比丘三千威儀經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">卷上</cb:mulu><head>卷上</head>
+<lb ed="C" n="0010a12"/><entry><form>如掐</form><cb:def><p xml:id="pC057p0010a1203" style="margin-left:1em" cb:place="inline">又作㓣同口洽反埤蒼<note 
+n="0010a1201" resp="CBETA" type="add">掐【CB】，搯【中華】</note><app n="0010a1201">
+  <lem wit="【CB】" resp="CBETA.maha">掐</lem>
+  <rdg wit="【中華】">搯</rdg>
+</app>抓也
 <lb ed="C" n="0010a13"/>謂爪傷也。</p></cb:def></entry>
 <lb ed="C" n="0010a14"/><entry><form>盪噐</form><cb:def><p xml:id="pC057p0010a1403" style="margin-left:1em" cb:place="inline">徒朗反說文盪滌也通俗文澡噐
 <lb ed="C" n="0010a15"/>謂之盪滌也。</p></cb:def></entry>
@@ -776,7 +826,11 @@
 <lb ed="C" n="0010c04"/><entry><form>衡軛</form><cb:def><p xml:id="pC057p0010c0403" style="margin-left:1em" cb:place="inline">於<g ref="#CB22754"/>反車軛也謂轅端𡑅牛領
 <lb ed="C" n="0010c05"/>者也。</p></cb:def></entry>
 <lb ed="C" n="0010c06"/><entry><form>兩舷</form><cb:def><p xml:id="pC057p0010c0603" style="margin-left:1em" cb:place="inline">胡田反舩兩緣也埤蒼舩舷也
-<lb ed="C" n="0010c07"/>亦名<note n="0010c0701" resp="CBETA" type="add" note_key="C057.0010c07.03">𦨲【CB】，<g ref="#CB22358"/>【中華】</note><app n="0010c0701"><lem wit="【CB】" resp="CBETA.maha">𦨲</lem><rdg wit="【中華】"><g ref="#CB22358"/></rdg></app>音扶嚴反。</p></cb:def></entry>
+<lb ed="C" n="0010c07"/>亦名<note 
+n="0010c0701" resp="CBETA" type="add" note_key="C057.0010c07.03">𦨲【CB】，<g ref="#CB22358"/>【中華】</note><app n="0010c0701">
+  <lem wit="【CB】" resp="CBETA.maha">𦨲</lem>
+  <rdg wit="【中華】"><g ref="#CB22358"/></rdg>
+</app>音扶嚴反。</p></cb:def></entry>
 <lb ed="C" n="0010c08"/><entry><form>椽桷</form><cb:def><p xml:id="pC057p0010c0803" style="margin-left:1em" cb:place="inline">馳宣反下古學反椽桷榱橑皆
 <lb ed="C" n="0010c09"/>一物而異名也。</p></cb:def></entry>
 <lb ed="C" n="0010c10"/><entry><form>及奧</form><cb:def><p xml:id="pC057p0010c1003" style="margin-left:1em" cb:place="inline">於報反奧室也尒雅室西南隅
@@ -940,11 +994,18 @@
 <pb ed="C" xml:id="C057.1163.0013a" n="0013a"/>
 <lb ed="C" n="0013a01"/><cb:mulu type="卷" n="17"/><cb:juan fun="open" n="17"><cb:jhead>一切經音義卷第十七<note place="inline">小乘論</note>　　　　弁</cb:jhead></cb:juan>
 <lb ed="C" n="0013a02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0013a03"/><cb:div type="other"><cb:mulu type="其他" level="1">小乘論</cb:mulu><list rend="no-marker"><item xml:id="itemC057p0013a0301">阿毗曇毗婆沙論</item>
-<lb ed="C" n="0013a04"/><item xml:id="itemC057p0013a0401">迦旃延阿毗曇論</item>
-<lb ed="C" n="0013a05"/><item xml:id="itemC057p0013a0501">舍利弗阿毗曇論</item>
-<lb ed="C" n="0013a06"/><item xml:id="itemC057p0013a0601">俱舍論</item>
-<lb ed="C" n="0013a07"/><item xml:id="itemC057p0013a0701">出曜論</item></list>
+<lb ed="C" n="0013a03"/><cb:div type="other"><cb:mulu type="其他" level="1">小乘論</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemC057p0013a0301">阿毗曇毗婆沙論</item>
+<lb ed="C" n="0013a04"/>
+  <item xml:id="itemC057p0013a0401">迦旃延阿毗曇論</item>
+<lb ed="C" n="0013a05"/>
+  <item xml:id="itemC057p0013a0501">舍利弗阿毗曇論</item>
+<lb ed="C" n="0013a06"/>
+  <item xml:id="itemC057p0013a0601">俱舍論</item>
+<lb ed="C" n="0013a07"/>
+  <item xml:id="itemC057p0013a0701">出曜論</item>
+</list>
 <lb ed="C" n="0013a08"/><cb:div type="other"><cb:mulu type="其他" level="2">阿毗曇毗婆沙論</cb:mulu><head>阿毗曇毗婆沙論</head>
 <lb ed="C" n="0013a09"/><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0013a10"/><entry><form>阿毗曇</form><cb:def><p xml:id="pC057p0013a1004" style="margin-left:1em" cb:place="inline">或言阿毗達磨或云阿鼻達
@@ -999,7 +1060,11 @@
 <lb ed="C" n="0013c12"/><entry><form>捕狙</form><cb:def><p xml:id="pC057p0013c1203" style="margin-left:1em" cb:place="inline">又作<g ref="#CB22121"/>同千絮反三蒼狙伺也
 <lb ed="C" n="0013c13"/>通俗文伏伺曰狙是也狙亦觀視
 <lb ed="C" n="0013c14"/>也謂相𠋫視也論文作<g ref="#CB07753"/>此字習
-<lb ed="C" n="0013c15"/>誤<note n="0013c1501" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0013c1501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>久人莫辯正也。</p></cb:def></entry>
+<lb ed="C" n="0013c15"/>誤<note 
+n="0013c1501" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0013c1501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>久人莫辯正也。</p></cb:def></entry>
 <lb ed="C" n="0013c16"/><entry><form>𣏚洹</form><cb:def><p xml:id="pC057p0013c1603" style="margin-left:1em" cb:place="inline">猶是𣏚陁此言訛也應云栘多
 <lb ed="C" n="0013c17"/>或言逝多此云戰勝婆𨚗此云林名
 <lb ed="C" n="0013c18"/>為勝林栘音是奚反。</p></cb:def></entry>
@@ -1087,7 +1152,11 @@
 <lb ed="C" n="0015a04"/>文作<g ref="#CB22922"/>。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0015a05"/><cb:div type="other"><cb:mulu type="其他" level="3">第十九卷</cb:mulu><head>第十九卷</head>
 <lb ed="C" n="0015a06"/><entry><form>樺皮</form><cb:def><p xml:id="pC057p0015a0603" style="margin-left:1em" cb:place="inline">胡覇反木名也皮可以飾弓者也。</p></cb:def></entry>
-<lb ed="C" n="0015a07"/><entry><form>一畦</form><cb:def><p xml:id="pC057p0015a0703" style="margin-left:1em" cb:place="inline">胡圭反蒼頡篇田五十<note n="0015a0701" resp="CBETA" type="add">畝【CB】，<unclear/>【中華】</note><app n="0015a0701"><lem wit="【CB】" resp="CBETA.maha">畝</lem><rdg wit="【中華】"><unclear/></rdg></app>曰畦
+<lb ed="C" n="0015a07"/><entry><form>一畦</form><cb:def><p xml:id="pC057p0015a0703" style="margin-left:1em" cb:place="inline">胡圭反蒼頡篇田五十<note 
+n="0015a0701" resp="CBETA" type="add">畝【CB】，<unclear/>【中華】</note><app n="0015a0701">
+  <lem wit="【CB】" resp="CBETA.maha">畝</lem>
+  <rdg wit="【中華】"><unclear/></rdg>
+</app>曰畦
 <lb ed="C" n="0015a08"/>畦埒也埒封也道徑也埒音劣。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0015a09"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十卷</cb:mulu><head>第二十卷</head>
 <lb ed="C" n="0015a10"/><entry><form>瞪𥈆</form><cb:def><p xml:id="pC057p0015a1003" style="margin-left:1em" cb:place="inline">冝作𧄼瞢徒登反下亡登反韻
@@ -1226,7 +1295,11 @@
 <lb ed="C" n="0016c23"/>非常事也。</p></cb:def></entry>
 <pb ed="C" xml:id="C057.1163.0017a" n="0017a"/>
 <lb ed="C" n="0017a01"/><entry><form>噐仗</form><cb:def><p xml:id="pC057p0017a0103" style="margin-left:1em" cb:place="inline">祛<g ref="#CB00042"/>反下治亮反漢書制噐械
-<lb ed="C" n="0017a02"/>之品應劭曰內盛曰噐外盛曰<note n="0017a0201" resp="CBETA" type="add" note_key="C057.0017a02.13">械【CB】，𢬿【中華】</note><app n="0017a0201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">械<note type="cf1">C056n1163_p0933b04</note></lem><rdg wit="【中華】">𢬿</rdg></app>
+<lb ed="C" n="0017a02"/>之品應劭曰內盛曰噐外盛曰<note 
+n="0017a0201" resp="CBETA" type="add" note_key="C057.0017a02.13">械【CB】，𢬿【中華】</note><app n="0017a0201">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">械<note type="cf1">C056n1163_p0933b04</note></lem>
+  <rdg wit="【中華】">𢬿</rdg>
+</app>
 <lb ed="C" n="0017a03"/>一曰無盛曰器仗兵器也五刃捴
 <lb ed="C" n="0017a04"/>名兵人所執持曰仗也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0017a05"/><cb:div type="other"><cb:mulu type="其他" level="3">第五十四卷</cb:mulu><head>第五十四卷</head>
@@ -1241,7 +1314,8 @@
 <lb ed="C" n="0017a14"/>筮之字從竹從巫筮者揲<g ref="#CB22610"/>取卦折
 <lb ed="C" n="0017a15"/>竹為㕛故字從竹揲音食列余列
 <lb ed="C" n="0017a16"/>二反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0017a17"/><cb:div type="other"><cb:mulu type="其他" level="2">迦旃延阿毗曇</cb:mulu><head>迦旃延阿毗曇</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0017a17"/><cb:div type="other"><cb:mulu type="其他" level="2">迦旃延阿毗曇</cb:mulu><head>迦旃延阿毗曇</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0017a18"/><entry><form>跋渠</form><cb:def><p xml:id="pC057p0017a1803" style="margin-left:1em" cb:place="inline">亦言伐伽此譯云部亦品之別
 <lb ed="C" n="0017a19"/>名也。</p></cb:def></entry>
 <lb ed="C" n="0017a20"/><entry><form>首盧</form><cb:def><p xml:id="pC057p0017a2003" style="margin-left:1em" cb:place="inline">亦名室路迦或言輸盧迦波印
@@ -1279,7 +1353,8 @@
 <lb ed="C" n="0017c04"/><entry><form><g ref="#CB21881"/>焦</form><cb:def><p xml:id="pC057p0017c0403" style="margin-left:1em" cb:place="inline">烏木反案郭𤩶注江賦云大壑
 <lb ed="C" n="0017c05"/>在東海外沷焦海所瀉源水注𠁅
 <lb ed="C" n="0017c06"/>也今取無窮極義也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0017c07"/><cb:div type="other"><cb:mulu type="其他" level="2">舍利弗阿毗曇論</cb:mulu><head>舍利弗阿毗曇論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0017c07"/><cb:div type="other"><cb:mulu type="其他" level="2">舍利弗阿毗曇論</cb:mulu><head>舍利弗阿毗曇論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0017c08"/><entry><form>殉有</form><cb:def><p xml:id="pC057p0017c0803" style="margin-left:1em" cb:place="inline">辝俊反蒼頡篇殉求也亦營也。</p></cb:def></entry>
 <lb ed="C" n="0017c09"/><entry><form>西<g ref="#CB22958"/></form><cb:def><p xml:id="pC057p0017c0903" style="margin-left:1em" cb:place="inline">之忍反淮南子曰激<g ref="#CB22958"/>之音許
 <lb ed="C" n="0017c10"/><g ref="#CB23197"/>重曰<g ref="#CB22958"/>轉也。</p></cb:def></entry>
@@ -1330,7 +1405,11 @@
 <lb ed="C" n="0018b07"/>在野曰稼。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0018b08"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十一卷</cb:mulu><head>第二十一卷</head>
 <lb ed="C" n="0018b09"/><entry><form>㰆師</form><cb:def><p xml:id="pC057p0018b0903" style="margin-left:1em" cb:place="inline">埤蒼作<g ref="#CB22864"/>又作排同蒲戒反王
-<lb ed="C" n="0018b10"/>弼注書作㰆橐㰆囊也謂<note n="0018b1001" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0018b1001"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【中華】">鍜</rdg></app>家用
+<lb ed="C" n="0018b10"/>弼注書作㰆橐㰆囊也謂<note 
+n="0018b1001" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0018b1001">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【中華】">鍜</rdg>
+</app>家用
 <lb ed="C" n="0018b11"/>炊火令熾者也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0018b12"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十二卷</cb:mulu><head>第二十二卷</head>
 <lb ed="C" n="0018b13"/><entry><form>骨皰</form><cb:def><p xml:id="pC057p0018b1303" style="margin-left:1em" cb:place="inline">又作靤同輔孝反小腫也說文
@@ -1346,7 +1425,8 @@
 <lb ed="C" n="0018b23"/>為薄者也薕古銜反葭音加菼他
 <pb ed="C" xml:id="C057.1163.0018c" n="0018c"/>
 <lb ed="C" n="0018c01"/>敢反<g ref="#CB22905"/>音五患反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0018c02"/><cb:div type="other"><cb:mulu type="其他" level="2">俱舍論</cb:mulu><head>俱舍論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0018c02"/><cb:div type="other"><cb:mulu type="其他" level="2">俱舍論</cb:mulu><head>俱舍論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0018c03"/><entry><form>俱舍</form><cb:def><p xml:id="pC057p0018c0303" style="margin-left:1em" cb:place="inline">此譯云藏則庫藏之捴名也而
 <lb ed="C" n="0018c04"/>體是蠶繭借以喻焉。</p></cb:def></entry>
 <lb ed="C" n="0018c05"/><entry><form>諸<g ref="#CB15891"/></form><cb:def><p xml:id="pC057p0018c0503" style="margin-left:1em" cb:place="inline">莫<g ref="#CB08887"/>莫定二反說文冥幽也幽
@@ -1541,7 +1621,11 @@
 <lb ed="C" n="0021b02"/><entry><form>俗話</form><cb:def><p xml:id="pC057p0021b0203" style="margin-left:1em" cb:place="inline">籀文作譮古文作<g ref="#CB08747"/>誠二形同
 <lb ed="C" n="0021b03"/>胡快反廣雅話調也謂調戲也聲
 <lb ed="C" n="0021b04"/>類話訛言也。</p></cb:def></entry></cb:div>
-<lb ed="C" n="0021b05"/><cb:div type="other"><cb:mulu type="其他" level="3">第十三卷</cb:mulu><head><note n="0021b0501" resp="CBETA" type="add">第【CB】，弟【中華】</note><app n="0021b0501"><lem wit="【CB】" resp="CBETA.maha">第</lem><rdg wit="【中華】">弟</rdg></app>十三卷</head>
+<lb ed="C" n="0021b05"/><cb:div type="other"><cb:mulu type="其他" level="3">第十三卷</cb:mulu><head><note 
+n="0021b0501" resp="CBETA" type="add">第【CB】，弟【中華】</note><app n="0021b0501">
+  <lem wit="【CB】" resp="CBETA.maha">第</lem>
+  <rdg wit="【中華】">弟</rdg>
+</app>十三卷</head>
 <lb ed="C" n="0021b06"/><entry><form>和穆</form><cb:def><p xml:id="pC057p0021b0603" style="margin-left:1em" cb:place="inline">又作睦同亡鹿亡竹二反穆和也
 <lb ed="C" n="0021b07"/>敬也。</p></cb:def></entry>
 <lb ed="C" n="0021b08"/><entry><form>薟苦</form><cb:def><p xml:id="pC057p0021b0803" style="margin-left:1em" cb:place="inline">古文薟今作<g ref="#CB22811"/>同理儉理沾二
@@ -1598,7 +1682,8 @@
 <lb ed="C" n="0022a11"/>庠張晏曰邑落名也<g ref="#CB22363"/>昭注小鄉
 <lb ed="C" n="0022a12"/>曰聚人所聚也廣雅落居也人所
 <lb ed="C" n="0022a13"/>居也漢書無燔聚落是也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0022a14"/><cb:div type="other"><cb:mulu type="其他" level="2">出曜論</cb:mulu><head>出曜論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0022a14"/><cb:div type="other"><cb:mulu type="其他" level="2">出曜論</cb:mulu><head>出曜論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0022a15"/><entry><form>羽寶</form><cb:def><p xml:id="pC057p0022a1503" style="margin-left:1em" cb:place="inline">冝作葆又作䎂同補道反謂合
 <lb ed="C" n="0022a16"/>聚五色羽名為葆。</p></cb:def></entry>
 <lb ed="C" n="0022a17"/><entry><form>𠯗嗽</form><cb:def><p xml:id="pC057p0022a1703" style="margin-left:1em" cb:place="inline">古文㗱又作唼同子盍反通俗
@@ -1620,7 +1705,11 @@
 <lb ed="C" n="0022b09"/><entry><form>以杼</form><cb:def><p xml:id="pC057p0022b0903" style="margin-left:1em" cb:place="inline">又作䇡同除呂反說文機持緯
 <lb ed="C" n="0022b10"/>者即今筬也。</p></cb:def></entry>
 <lb ed="C" n="0022b11"/><entry><form>毗婆尸</form><cb:def><p xml:id="pC057p0022b1104" style="margin-left:1em" cb:place="inline">此譯云種種見也。</p></cb:def></entry>
-<lb ed="C" n="0022b12"/><entry><form>操<note n="0022b1201" resp="CBETA" type="add">杖【CB】，扙【中華】</note><app n="0022b1201"><lem wit="【CB】" resp="CBETA.maha">杖</lem><rdg wit="【中華】">扙</rdg></app></form><cb:def><p xml:id="pC057p0022b1203" style="margin-left:1em" cb:place="inline"><g ref="#CB04974"/>勞反說文操把持也操執也。</p></cb:def></entry>
+<lb ed="C" n="0022b12"/><entry><form>操<note 
+n="0022b1201" resp="CBETA" type="add">杖【CB】，扙【中華】</note><app n="0022b1201">
+  <lem wit="【CB】" resp="CBETA.maha">杖</lem>
+  <rdg wit="【中華】">扙</rdg>
+</app></form><cb:def><p xml:id="pC057p0022b1203" style="margin-left:1em" cb:place="inline"><g ref="#CB04974"/>勞反說文操把持也操執也。</p></cb:def></entry>
 <lb ed="C" n="0022b13"/><entry><form><g ref="#CB22879"/>在</form><cb:def><p xml:id="pC057p0022b1303" style="margin-left:1em" cb:place="inline">側立反<g ref="#CB22879"/>𣫍也聚也說文<g ref="#CB22879"/>藏
 <lb ed="C" n="0022b14"/>兵噐也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0022b15"/><cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
@@ -1663,7 +1752,11 @@
 <lb ed="C" n="0023a04"/>牝牡所以封固閞令不可開也論
 <lb ed="C" n="0023a05"/>文作母非躰也。</p></cb:def></entry>
 <lb ed="C" n="0023a06"/><entry><form>姧宄</form><cb:def><p xml:id="pC057p0023a0603" style="margin-left:1em" cb:place="inline">古文𡧫𠬚二形同居美反廣雅
-<lb ed="C" n="0023a07"/>宄盜也左傳在內曰姧在外<note n="0023a0701" resp="CBETA" type="add">曰【CB】，日【中華】</note><app n="0023a0701"><lem wit="【CB】" resp="CBETA.maha">曰</lem><rdg wit="【中華】">日</rdg></app>宄
+<lb ed="C" n="0023a07"/>宄盜也左傳在內曰姧在外<note 
+n="0023a0701" resp="CBETA" type="add">曰【CB】，日【中華】</note><app n="0023a0701">
+  <lem wit="【CB】" resp="CBETA.maha">曰</lem>
+  <rdg wit="【中華】">日</rdg>
+</app>宄
 <lb ed="C" n="0023a08"/>一云乱在內曰宄國語竊寶為宄
 <lb ed="C" n="0023a09"/>因宄之財為姧也。</p></cb:def></entry>
 <lb ed="C" n="0023a10"/><entry><form>湔浣</form><cb:def><p xml:id="pC057p0023a1003" style="margin-left:1em" cb:place="inline">子田反下古文澣同胡滿反湔
@@ -1865,22 +1958,39 @@
 <pb ed="C" xml:id="C057.1163.0026a" n="0026a"/>
 <lb ed="C" n="0026a01"/><cb:mulu type="卷" n="18"/><cb:juan fun="open" n="18"><cb:jhead>一切經音義卷第十八　　　　弁</cb:jhead></cb:juan>
 <lb ed="C" n="0026a02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0026a03"/><list rend="no-marker"><item xml:id="itemC057p0026a0301">成實論</item>
-<lb ed="C" n="0026a04"/><item xml:id="itemC057p0026a0401">鞞婆沙阿毗曇論</item>
-<lb ed="C" n="0026a05"/><item xml:id="itemC057p0026a0501">解脫道論</item>
-<lb ed="C" n="0026a06"/><item xml:id="itemC057p0026a0601">雜阿毗曇心論</item>
-<lb ed="C" n="0026a07"/><item xml:id="itemC057p0026a0701">立世阿毗曇論</item>
-<lb ed="C" n="0026a08"/><item xml:id="itemC057p0026a0801">尊婆湏蜜所集論</item>
-<lb ed="C" n="0026a09"/><item xml:id="itemC057p0026a0901">法勝阿毗曇論</item>
-<lb ed="C" n="0026a10"/><item xml:id="itemC057p0026a1001">四諦論</item>
-<lb ed="C" n="0026a11"/><item xml:id="itemC057p0026a1101">阿毗曇心論</item>
-<lb ed="C" n="0026a12"/><item xml:id="itemC057p0026a1201">分別功德論</item>
-<lb ed="C" n="0026a13"/><item xml:id="itemC057p0026a1301">阿毗曇甘露味論</item>
-<lb ed="C" n="0026a14"/><item xml:id="itemC057p0026a1401">辟支佛因緣論</item>
-<lb ed="C" n="0026a15"/><item xml:id="itemC057p0026a1501">三法度論</item>
-<lb ed="C" n="0026a16"/><item xml:id="itemC057p0026a1601">十八部論</item>
-<lb ed="C" n="0026a17"/><item xml:id="itemC057p0026a1701">明了論</item>
-<lb ed="C" n="0026a18"/><item xml:id="itemC057p0026a1801">隨相論</item></list>
+<lb ed="C" n="0026a03"/><list rend="no-marker">
+  <item xml:id="itemC057p0026a0301">成實論</item>
+<lb ed="C" n="0026a04"/>
+  <item xml:id="itemC057p0026a0401">鞞婆沙阿毗曇論</item>
+<lb ed="C" n="0026a05"/>
+  <item xml:id="itemC057p0026a0501">解脫道論</item>
+<lb ed="C" n="0026a06"/>
+  <item xml:id="itemC057p0026a0601">雜阿毗曇心論</item>
+<lb ed="C" n="0026a07"/>
+  <item xml:id="itemC057p0026a0701">立世阿毗曇論</item>
+<lb ed="C" n="0026a08"/>
+  <item xml:id="itemC057p0026a0801">尊婆湏蜜所集論</item>
+<lb ed="C" n="0026a09"/>
+  <item xml:id="itemC057p0026a0901">法勝阿毗曇論</item>
+<lb ed="C" n="0026a10"/>
+  <item xml:id="itemC057p0026a1001">四諦論</item>
+<lb ed="C" n="0026a11"/>
+  <item xml:id="itemC057p0026a1101">阿毗曇心論</item>
+<lb ed="C" n="0026a12"/>
+  <item xml:id="itemC057p0026a1201">分別功德論</item>
+<lb ed="C" n="0026a13"/>
+  <item xml:id="itemC057p0026a1301">阿毗曇甘露味論</item>
+<lb ed="C" n="0026a14"/>
+  <item xml:id="itemC057p0026a1401">辟支佛因緣論</item>
+<lb ed="C" n="0026a15"/>
+  <item xml:id="itemC057p0026a1501">三法度論</item>
+<lb ed="C" n="0026a16"/>
+  <item xml:id="itemC057p0026a1601">十八部論</item>
+<lb ed="C" n="0026a17"/>
+  <item xml:id="itemC057p0026a1701">明了論</item>
+<lb ed="C" n="0026a18"/>
+  <item xml:id="itemC057p0026a1801">隨相論</item>
+</list>
 <lb ed="C" n="0026a19"/><cb:div type="other"><cb:mulu type="其他" level="2">成實論</cb:mulu><head>成實論</head>
 <lb ed="C" n="0026a20"/><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0026a21"/><entry><form>𣂪斧</form><cb:def><p xml:id="pC057p0026a2103" style="margin-left:1em" cb:place="inline">古文作<g ref="#CB22637"/>同竹角反說文𣂪斫
@@ -1915,7 +2025,11 @@
 <lb ed="C" n="0026c03"/>觸也亦嫽敞也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0026c04"/><cb:div type="other"><cb:mulu type="其他" level="3">第六卷</cb:mulu><head>第六卷</head>
 <lb ed="C" n="0026c05"/><entry><form>桎梏</form><cb:def><p xml:id="pC057p0026c0503" style="margin-left:1em" cb:place="inline">之逸反下古祿反在手曰桎在
-<lb ed="C" n="0026c06"/>足曰梏謂<note n="0026c0601" resp="CBETA" type="add">杻【CB】，扭【中華】</note><app n="0026c0601"><lem wit="【CB】" resp="CBETA.maha">杻</lem><rdg wit="【中華】">扭</rdg></app>械也。</p></cb:def></entry>
+<lb ed="C" n="0026c06"/>足曰梏謂<note 
+n="0026c0601" resp="CBETA" type="add">杻【CB】，扭【中華】</note><app n="0026c0601">
+  <lem wit="【CB】" resp="CBETA.maha">杻</lem>
+  <rdg wit="【中華】">扭</rdg>
+</app>械也。</p></cb:def></entry>
 <lb ed="C" n="0026c07"/><entry><form>如睫</form><cb:def><p xml:id="pC057p0026c0703" style="margin-left:1em" cb:place="inline">說文作䀹𥼶名作<g ref="#CB22402"/>同子葉反
 <lb ed="C" n="0026c08"/>目旁毛也山東田里閒音子及反
 <lb ed="C" n="0026c09"/>論文作𣰍𣯮二形非也。</p></cb:def></entry></cb:div>
@@ -1983,7 +2097,8 @@
 <lb ed="C" n="0027b23"/><entry><form><g ref="#CB10261"/>出</form><cb:def><p xml:id="pC057p0027b2303" style="margin-left:1em" cb:place="inline">又作嗀同口角反吴會閒音<g ref="#CB09314"/>
 <pb ed="C" xml:id="C057.1163.0027c" n="0027c"/>
 <lb ed="C" n="0027c01"/>𡖉外堅也尚在𡖉中謂之<g ref="#CB09714"/>。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0027c02"/><cb:div type="other"><cb:mulu type="其他" level="2">鞞婆沙阿毗曇論</cb:mulu><head>鞞婆沙阿毗曇論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0027c02"/><cb:div type="other"><cb:mulu type="其他" level="2">鞞婆沙阿毗曇論</cb:mulu><head>鞞婆沙阿毗曇論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0027c03"/><entry><form>𧿡芩</form><cb:def><p xml:id="pC057p0027c0303" style="margin-left:1em" cb:place="inline">渠今反人名也。</p></cb:def></entry>
 <lb ed="C" n="0027c04"/><entry><form>傅采</form><cb:def><p xml:id="pC057p0027c0403" style="margin-left:1em" cb:place="inline">方務反傅謂塗附也傅藥傅粉
 <lb ed="C" n="0027c05"/>皆作此論文作拊麩主反拊拍也
@@ -2057,7 +2172,8 @@
 <lb ed="C" n="0028c01"/><entry><form>蜀虫</form><cb:def><p xml:id="pC057p0028c0103" style="margin-left:1em" cb:place="inline">時燭反詩云<g ref="#CB08054"/><g ref="#CB08054"/>者蜀傳曰蜀
 <lb ed="C" n="0028c02"/>桒虫也大如指似蠶尒雅蚅一名
 <lb ed="C" n="0028c03"/>烏蠋是也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0028c04"/><cb:div type="other"><cb:mulu type="其他" level="2">解脫道論</cb:mulu><head>解脫道論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0028c04"/><cb:div type="other"><cb:mulu type="其他" level="2">解脫道論</cb:mulu><head>解脫道論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0028c05"/><entry><form>叨佷</form><cb:def><p xml:id="pC057p0028c0503" style="margin-left:1em" cb:place="inline">他勞反下胡<g ref="#CB22709"/>反叨貪也方言
 <lb ed="C" n="0028c06"/>叨殘也埤蒼叨食也說文此俗饕
 <lb ed="C" n="0028c07"/>字也。</p></cb:def></entry>
@@ -2114,7 +2230,8 @@
 <lb ed="C" n="0029b10"/>蒼夾輔也說文夾持也夾至也。</p></cb:def></entry>
 <lb ed="C" n="0029b11"/><entry><form>如荻</form><cb:def><p xml:id="pC057p0029b1103" style="margin-left:1em" cb:place="inline">又作藡同徒歷反即薕荻也堪
 <lb ed="C" n="0029b12"/>為簿者也薕音古銜反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0029b13"/><cb:div type="other"><cb:mulu type="其他" level="2">雜阿毗曇心論</cb:mulu><head>雜阿毗曇心論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0029b13"/><cb:div type="other"><cb:mulu type="其他" level="2">雜阿毗曇心論</cb:mulu><head>雜阿毗曇心論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0029b14"/><entry><form>牟尼</form><cb:def><p xml:id="pC057p0029b1403" style="margin-left:1em" cb:place="inline">經中或作文尼舊譯言仁應云
 <lb ed="C" n="0029b15"/>茂泥此云仙仙通內外謂久在山林
 <lb ed="C" n="0029b16"/>修心學道者也。</p></cb:def></entry>
@@ -2349,7 +2466,11 @@
 <lb ed="C" n="0032c05"/>或作居隣皆梵言訛也此譯云本
 <lb ed="C" n="0032c06"/>際第一解法者也經中尊者了本
 <lb ed="C" n="0032c07"/>際是也普曜經云俱隣者解本際
-<lb ed="C" n="0032c08"/>也阿若者言<note n="0032c0801" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0032c0801"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>知正言解了拘隣
+<lb ed="C" n="0032c08"/>也阿若者言<note 
+n="0032c0801" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0032c0801">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>知正言解了拘隣
 <lb ed="C" n="0032c09"/>亦姓也此乃憍陳如訛也中本起
 <lb ed="C" n="0032c10"/>經云初五人者一名拘隣二名頗
 <lb ed="C" n="0032c11"/>陛三名拔提四名十力迦葉五名
@@ -2358,7 +2479,11 @@
 <lb ed="C" n="0032c14"/>三蒼洋大水也尒雅洋溢也溢眾
 <lb ed="C" n="0032c15"/>多也取其義也。</p></cb:def></entry>
 <lb ed="C" n="0032c16"/><entry><form>如拒</form><cb:def><p xml:id="pC057p0032c1603" style="margin-left:1em" cb:place="inline">其呂反此外道瓶圓如瓠無足
-<lb ed="C" n="0032c17"/>以三<note n="0032c1701" resp="CBETA" type="add">杖【CB】，扙【中華】</note><app n="0032c1701"><lem wit="【CB】" resp="CBETA.maha">杖</lem><rdg wit="【中華】">扙</rdg></app>交之舉於瓶也諸經中或
+<lb ed="C" n="0032c17"/>以三<note 
+n="0032c1701" resp="CBETA" type="add">杖【CB】，扙【中華】</note><app n="0032c1701">
+  <lem wit="【CB】" resp="CBETA.maha">杖</lem>
+  <rdg wit="【中華】">扙</rdg>
+</app>交之舉於瓶也諸經中或
 <lb ed="C" n="0032c18"/>作三奇立拒或言三叉立拒皆是也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0032c19"/><cb:div type="other"><cb:mulu type="其他" level="3">第十一卷</cb:mulu><head>第十一卷</head>
 <lb ed="C" n="0032c20"/><entry><form>飢饉</form><cb:def><p xml:id="pC057p0032c2003" style="margin-left:1em" cb:place="inline">古文作𩚮同几治反下奇鎮反
@@ -2380,7 +2505,8 @@
 <lb ed="C" n="0033a12"/>撰亦述也。</p></cb:def></entry>
 <lb ed="C" n="0033a13"/><entry><form>申述</form><cb:def><p xml:id="pC057p0033a1303" style="margin-left:1em" cb:place="inline">示聿反述謂訓其義理也尒雅
 <lb ed="C" n="0033a14"/>述偱也循行也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0033a15"/><cb:div type="other"><cb:mulu type="其他" level="2">立世阿毗曇論</cb:mulu><head>立世阿毗曇論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0033a15"/><cb:div type="other"><cb:mulu type="其他" level="2">立世阿毗曇論</cb:mulu><head>立世阿毗曇論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0033a16"/><entry><form>毗舍佉</form><cb:def><p xml:id="pC057p0033a1604" style="margin-left:1em" cb:place="inline">或云鼻奢佉此譯云別枝即
 <lb ed="C" n="0033a17"/>是氐宿以生曰所值宿為名也案
 <lb ed="C" n="0033a18"/>西國多以此為名。</p></cb:def></entry>
@@ -2530,7 +2656,11 @@
 <lb ed="C" n="0035a18"/>也字從犬。</p></cb:def></entry>
 <lb ed="C" n="0035a19"/><entry><form>四<g ref="#CB12588"/></form><cb:def><p xml:id="pC057p0035a1903" style="margin-left:1em" cb:place="inline">力增反說文<g ref="#CB12588"/>柧也柧音孤通
 <lb ed="C" n="0035a20"/>俗文亦四方為<g ref="#CB12588"/>八<g ref="#CB12588"/>為<g ref="#CB22495"/>。</p></cb:def></entry>
-<lb ed="C" n="0035a21"/><entry><form>萪䕨</form><cb:def><p xml:id="pC057p0035a2103" style="margin-left:1em" cb:place="inline">苦和反南海志云萪<note n="0035a2101" resp="CBETA" type="add" note_key="C057.0035a21.11">藤【CB】【宮-CB】，虅【中華】</note><app n="0035a2101"><lem wit="【CB】【宮-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">藤<note type="cf1">《福州藏》（日本宮內庁書陵部藏大藏經第4924帖第19圖第16行）</note></lem><rdg wit="【中華】">虅</rdg></app>名。</p></cb:def></entry>
+<lb ed="C" n="0035a21"/><entry><form>萪䕨</form><cb:def><p xml:id="pC057p0035a2103" style="margin-left:1em" cb:place="inline">苦和反南海志云萪<note 
+n="0035a2101" resp="CBETA" type="add" note_key="C057.0035a21.11">藤【CB】【宮-CB】，虅【中華】</note><app n="0035a2101">
+  <lem wit="【CB】【宮-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">藤<note type="cf1">《福州藏》（日本宮內庁書陵部藏大藏經第4924帖第19圖第16行）</note></lem>
+  <rdg wit="【中華】">虅</rdg>
+</app>名。</p></cb:def></entry>
 <lb ed="C" n="0035a22"/><entry><form>陵鯉</form><cb:def><p xml:id="pC057p0035a2203" style="margin-left:1em" cb:place="inline">閭蒸反<g ref="#CB23006"/>鯉魚名也有足出南
 <lb ed="C" n="0035a23"/>方陸居也。</p></cb:def></entry>
 <pb ed="C" xml:id="C057.1163.0035b" n="0035b"/>
@@ -2609,7 +2739,8 @@
 <lb ed="C" n="0036b01"/>渡河也說文涉渡水也玉篇皮水反。</p></cb:def></entry>
 <lb ed="C" n="0036b02"/><entry><form>則凹</form><cb:def><p xml:id="pC057p0036b0203" style="margin-left:1em" cb:place="inline">蒼頡篇作䆘同烏狹反字苑凹
 <lb ed="C" n="0036b03"/>陷也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0036b04"/><cb:div type="other"><cb:mulu type="其他" level="2">尊婆湏蜜所集論</cb:mulu><head>尊婆湏蜜所集論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0036b04"/><cb:div type="other"><cb:mulu type="其他" level="2">尊婆湏蜜所集論</cb:mulu><head>尊婆湏蜜所集論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0036b05"/><entry><form>摩渝</form><cb:def><p xml:id="pC057p0036b0503" style="margin-left:1em" cb:place="inline">以朱反人名也依字渝變也。</p></cb:def></entry>
 <lb ed="C" n="0036b06"/><entry><form>瞠尒</form><cb:def><p xml:id="pC057p0036b0603" style="margin-left:1em" cb:place="inline">𠡠行反蒼頡篇瞠直視也。</p></cb:def></entry>
 <lb ed="C" n="0036b07"/><entry><form>懿乎</form><cb:def><p xml:id="pC057p0036b0703" style="margin-left:1em" cb:place="inline">於<g ref="#CB22621"/>反尒雅懿美也字從壹恣
@@ -2676,7 +2807,8 @@
 <lb ed="C" n="0037a20"/><cb:div type="other"><cb:mulu type="其他" level="3">第七卷</cb:mulu><head>第七卷</head>
 <lb ed="C" n="0037a21"/><entry><form>躇步</form><cb:def><p xml:id="pC057p0037a2103" style="margin-left:1em" cb:place="inline">直於反躊躇躑躅也亦猶豫也
 <lb ed="C" n="0037a22"/>躊音直流反躅音馳錄反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0037a23"/><cb:div type="other"><cb:mulu type="其他" level="2">法勝阿毗曇論</cb:mulu><head>法勝阿毗曇論</head><cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
+<lb ed="C" n="0037a23"/><cb:div type="other"><cb:mulu type="其他" level="2">法勝阿毗曇論</cb:mulu><head>法勝阿毗曇論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
 <pb ed="C" xml:id="C057.1163.0037b" n="0037b"/>
 <lb ed="C" n="0037b01"/><entry><form>辮<g ref="#CB23150"/></form><cb:def><p xml:id="pC057p0037b0103" style="margin-left:1em" cb:place="inline">三蒼亦編字同蒲典反說文辮
 <lb ed="C" n="0037b02"/>交織也。</p></cb:def></entry>
@@ -2692,7 +2824,8 @@
 <lb ed="C" n="0037b12"/><entry><form>眼眵</form><cb:def><p xml:id="pC057p0037b1203" style="margin-left:1em" cb:place="inline">充支反說文<g ref="#CB22506"/>兜眵也今江南
 <lb ed="C" n="0037b13"/>呼眵為眵兜也<g ref="#CB22506"/>音莫結反論文
 <lb ed="C" n="0037b14"/>作𥄏非也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0037b15"/><cb:div type="other"><cb:mulu type="其他" level="2">四諦論</cb:mulu><head>四諦論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0037b15"/><cb:div type="other"><cb:mulu type="其他" level="2">四諦論</cb:mulu><head>四諦論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0037b16"/><entry><form>泅水</form><cb:def><p xml:id="pC057p0037b1603" style="margin-left:1em" cb:place="inline">古文作汓同似由反說文泅謂
 <lb ed="C" n="0037b17"/>水上浮也今江南謂柏浮為泅。</p></cb:def></entry>
 <lb ed="C" n="0037b18"/><entry><form>氣瘶</form><cb:def><p xml:id="pC057p0037b1803" style="margin-left:1em" cb:place="inline">蘇豆反說文癩氣逆也蒼頡篇
@@ -2710,7 +2843,8 @@
 <lb ed="C" n="0037c06"/><entry><form>馭車</form><cb:def><p xml:id="pC057p0037c0603" style="margin-left:1em" cb:place="inline">今作御同魚據反駕馭也謂指
 <lb ed="C" n="0037c07"/>麾使馬也凡言馭者所以驅之也
 <lb ed="C" n="0037c08"/>內之於善也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0037c09"/><cb:div type="other"><cb:mulu type="其他" level="2">阿毗曇心論</cb:mulu><head>阿毗曇心論</head><cb:div type="other"><cb:mulu type="其他" level="3">第四卷</cb:mulu><head>第四卷</head>
+<lb ed="C" n="0037c09"/><cb:div type="other"><cb:mulu type="其他" level="2">阿毗曇心論</cb:mulu><head>阿毗曇心論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第四卷</cb:mulu><head>第四卷</head>
 <lb ed="C" n="0037c10"/><entry><form>兜率哆</form><cb:def><p xml:id="pC057p0037c1004" style="margin-left:1em" cb:place="inline">殆我反經中或作兜駃多或
 <lb ed="C" n="0037c11"/>言兜率陁皆訛也正言覩史多此
 <lb ed="C" n="0037c12"/>云知足天又云妙足也。</p></cb:def></entry>
@@ -2718,7 +2852,8 @@
 <lb ed="C" n="0037c14"/>天在梵前行恒思梵天利益因以
 <lb ed="C" n="0037c15"/>名也舊言梵先行天亦言梵輔天
 <lb ed="C" n="0037c16"/>也先行輔梵王也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0037c17"/><cb:div type="other"><cb:mulu type="其他" level="2">分別功德論</cb:mulu><head>分別功德論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0037c17"/><cb:div type="other"><cb:mulu type="其他" level="2">分別功德論</cb:mulu><head>分別功德論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0037c18"/><entry><form>比較</form><cb:def><p xml:id="pC057p0037c1803" style="margin-left:1em" cb:place="inline">古文攉同古學反較量也較明
 <lb ed="C" n="0037c19"/>也攉猶粗略。</p></cb:def></entry>
 <lb ed="C" n="0037c20"/><entry><form>晧大</form><cb:def><p xml:id="pC057p0037c2003" style="margin-left:1em" cb:place="inline">三蒼古文顥同胡老反晧亦廣
@@ -2741,7 +2876,11 @@
 <lb ed="C" n="0038a13"/><entry><form>訾哉</form><cb:def><p xml:id="pC057p0038a1303" style="margin-left:1em" cb:place="inline">又𤺒同紫斯反訾量也說文訾
 <lb ed="C" n="0038a14"/>思也。</p></cb:def></entry>
 <lb ed="C" n="0038a15"/><entry><form>𥹁哉</form><cb:def><p xml:id="pC057p0038a1503" style="margin-left:1em" cb:place="inline">字冝作𦥬糓二形同予各反說
-<lb ed="C" n="0038a16"/>文䊪一斛<note n="0038a1601" resp="CBETA" type="add" note_key="C057.0038a16.05">舂【CB】，春【中華】</note><app n="0038a1601"><lem wit="【CB】" resp="CBETA.maha" cb:provider="iamone (2019-07-06)">舂<note type="cf1">T54n2128_p0783c17</note></lem><rdg wit="【中華】">春</rdg></app>取九斗曰<g ref="#CB22761"/>三蒼注
+<lb ed="C" n="0038a16"/>文䊪一斛<note 
+n="0038a1601" resp="CBETA" type="add" note_key="C057.0038a16.05">舂【CB】，春【中華】</note><app n="0038a1601">
+  <lem wit="【CB】" resp="CBETA.maha" cb:provider="iamone (2019-07-06)">舂<note type="cf1">T54n2128_p0783c17</note></lem>
+  <rdg wit="【中華】">春</rdg>
+</app>取九斗曰<g ref="#CB22761"/>三蒼注
 <lb ed="C" n="0038a17"/>云<g ref="#CB22761"/>精米也今江南謂<g ref="#CB22268"/>米為<g ref="#CB22761"/>
 <lb ed="C" n="0038a18"/>䊪音頼論文作𥹁非躰也。</p></cb:def></entry>
 <lb ed="C" n="0038a19"/><entry><form>汪水</form><cb:def><p xml:id="pC057p0038a1903" style="margin-left:1em" cb:place="inline">烏黃反通俗文亭水曰汪汪池
@@ -2781,7 +2920,8 @@
 <lb ed="C" n="0038c05"/>衍水流長也。</p></cb:def></entry>
 <lb ed="C" n="0038c06"/><entry><form>銓量</form><cb:def><p xml:id="pC057p0038c0603" style="margin-left:1em" cb:place="inline">且泉反漢書應劭曰銓㩲衡也
 <lb ed="C" n="0038c07"/>量斗斛也韋昭曰銓稱錘也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0038c08"/><cb:div type="other"><cb:mulu type="其他" level="2">甘露味阿毗曇論</cb:mulu><head>甘露味阿毗曇論</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0038c08"/><cb:div type="other"><cb:mulu type="其他" level="2">甘露味阿毗曇論</cb:mulu><head>甘露味阿毗曇論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0038c09"/><entry><form>魯𩿊</form><cb:def><p xml:id="pC057p0038c0903" style="margin-left:1em" cb:place="inline">此古歡字音呼官反此應作臈
 <lb ed="C" n="0038c10"/>羅盍反。</p></cb:def></entry>
 <lb ed="C" n="0038c11"/><entry><form>心<g ref="#CB04223"/></form><cb:def><p xml:id="pC057p0038c1103" style="margin-left:1em" cb:place="inline">口𠋫反尚書<g ref="#CB04223"/>賊姦宄范甯集
@@ -2789,7 +2929,8 @@
 <lb ed="C" n="0038c13"/>文<g ref="#CB04223"/>暴也廣雅<g ref="#CB04223"/>抄也字從完從
 <lb ed="C" n="0038c14"/>支剽音匹妙反。</p></cb:def></entry>
 <lb ed="C" n="0038c15"/><entry><form>忮<g ref="#CB22513"/></form><cb:def><p xml:id="pC057p0038c1503" style="margin-left:1em" cb:place="inline">支豉紀致二反依字忮𡧱也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0038c16"/><cb:div type="other"><cb:mulu type="其他" level="2">辟支佛因緣論</cb:mulu><head>辟支佛因緣論</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0038c16"/><cb:div type="other"><cb:mulu type="其他" level="2">辟支佛因緣論</cb:mulu><head>辟支佛因緣論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0038c17"/><entry><form>一襲</form><cb:def><p xml:id="pC057p0038c1703" style="margin-left:1em" cb:place="inline">辝立反史記賜衣一襲音義曰
 <lb ed="C" n="0038c18"/>衣禪複具為一襲禪音丹。</p></cb:def></entry>
 <lb ed="C" n="0038c19"/><entry><form>不恤</form><cb:def><p xml:id="pC057p0038c1903" style="margin-left:1em" cb:place="inline">又作䘏同湏律反尒雅恤憂也
@@ -2825,7 +2966,8 @@
 <lb ed="C" n="0039b01"/><entry><form>律車</form><cb:def><p xml:id="pC057p0039b0103" style="margin-left:1em" cb:place="inline">或作離車子或作栗唱或作離
 <lb ed="C" n="0039b02"/>昌皆梵言訛也正言栗呫婆此云
 <lb ed="C" n="0039b03"/>仙族王種呫音昌業反也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0039b04"/><cb:div type="other"><cb:mulu type="其他" level="2">三法度論</cb:mulu><head>三法度論</head><cb:div type="other"><cb:mulu type="其他" level="3">下卷</cb:mulu><head>下卷</head>
+<lb ed="C" n="0039b04"/><cb:div type="other"><cb:mulu type="其他" level="2">三法度論</cb:mulu><head>三法度論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">下卷</cb:mulu><head>下卷</head>
 <lb ed="C" n="0039b05"/><entry><form>剉持</form><cb:def><p xml:id="pC057p0039b0503" style="margin-left:1em" cb:place="inline">且臥反說文剉折傷也案剉猶
 <lb ed="C" n="0039b06"/>斫也。</p></cb:def></entry>
 <lb ed="C" n="0039b07"/><entry><form>㖑喚</form><cb:def><p xml:id="pC057p0039b0703" style="margin-left:1em" cb:place="inline">呼戒反韻集作㖑㖑訶也蒼頡
@@ -2862,8 +3004,12 @@
 <pb ed="C" xml:id="C057.1163.0040a" n="0040a"/>
 <lb ed="C" n="0040a01"/><cb:mulu type="卷" n="19"/><cb:juan fun="open" n="19"><cb:jhead>一切經音義卷第十九<note place="inline">賢聖集傳</note>　　　弁</cb:jhead></cb:juan>
 <lb ed="C" n="0040a02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0040a03"/><cb:div type="other"><cb:mulu type="其他" level="1">賢聖集傳</cb:mulu><list rend="no-marker"><item xml:id="itemC057p0040a0301">佛本行集經</item>
-<lb ed="C" n="0040a04"/><item xml:id="itemC057p0040a0401">撰集百緣經</item></list>
+<lb ed="C" n="0040a03"/><cb:div type="other"><cb:mulu type="其他" level="1">賢聖集傳</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemC057p0040a0301">佛本行集經</item>
+<lb ed="C" n="0040a04"/>
+  <item xml:id="itemC057p0040a0401">撰集百緣經</item>
+</list>
 <lb ed="C" n="0040a05"/><cb:div type="other"><cb:mulu type="其他" level="2">佛本行集經</cb:mulu><head>佛本行集經</head>
 <lb ed="C" n="0040a06"/><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0040a07"/><entry><form>迦蘭陁鳥</form><cb:def><p xml:id="pC057p0040a0705" style="margin-left:1em" cb:place="inline">或言柯蘭陁或作迦蘭䭾
@@ -3651,34 +3797,62 @@
 <pb ed="C" xml:id="C057.1163.0051a" n="0051a"/>
 <lb ed="C" n="0051a01"/><cb:mulu type="卷" n="20"/><cb:juan fun="open" n="20"><cb:jhead>一切經音義卷第二十<note place="inline">賢聖集傳</note>　　　弁</cb:jhead></cb:juan>
 <lb ed="C" n="0051a02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0051a03"/><list rend="no-marker"><item xml:id="itemC057p0051a0301">陁羅尼雜集經</item>
-<lb ed="C" n="0051a04"/><item xml:id="itemC057p0051a0401">六度集經</item>
-<lb ed="C" n="0051a05"/><item xml:id="itemC057p0051a0501">佛本行讚經</item>
-<lb ed="C" n="0051a06"/><item xml:id="itemC057p0051a0601">付法藏經</item>
-<lb ed="C" n="0051a07"/><item xml:id="itemC057p0051a0701">佛所行讚</item>
-<lb ed="C" n="0051a08"/><item xml:id="itemC057p0051a0801">治禪病秘要經</item>
-<lb ed="C" n="0051a09"/><item xml:id="itemC057p0051a0901">禪秘要經</item>
-<lb ed="C" n="0051a10"/><item xml:id="itemC057p0051a1001">禪法要經</item>
-<lb ed="C" n="0051a11"/><item xml:id="itemC057p0051a1101">治禪病秘要法</item>
-<lb ed="C" n="0051a12"/><item xml:id="itemC057p0051a1201">百喻集</item>
-<lb ed="C" n="0051a13"/><item xml:id="itemC057p0051a1301">菩<g ref="#CB16765"/>本緣集</item>
-<lb ed="C" n="0051a14"/><item xml:id="itemC057p0051a1401">四阿含暮鈔</item>
-<lb ed="C" n="0051a15"/><item xml:id="itemC057p0051a1501">法句經</item>
-<lb ed="C" n="0051a16"/><item xml:id="itemC057p0051a1601">舊雜譬喻經</item>
-<lb ed="C" n="0051a17"/><item xml:id="itemC057p0051a1701">雜譬喻經</item>
-<lb ed="C" n="0051a18"/><item xml:id="itemC057p0051a1801">孛經鈔</item>
-<lb ed="C" n="0051a19"/><item xml:id="itemC057p0051a1901">思惟略要經</item>
-<lb ed="C" n="0051a20"/><item xml:id="itemC057p0051a2001">佛醫經</item>
-<lb ed="C" n="0051a21"/><item xml:id="itemC057p0051a2101">分別業報略集</item>
-<lb ed="C" n="0051a22"/><item xml:id="itemC057p0051a2201">龍樹為禪陁迦王說法要偈</item>
+<lb ed="C" n="0051a03"/><list rend="no-marker">
+  <item xml:id="itemC057p0051a0301">陁羅尼雜集經</item>
+<lb ed="C" n="0051a04"/>
+  <item xml:id="itemC057p0051a0401">六度集經</item>
+<lb ed="C" n="0051a05"/>
+  <item xml:id="itemC057p0051a0501">佛本行讚經</item>
+<lb ed="C" n="0051a06"/>
+  <item xml:id="itemC057p0051a0601">付法藏經</item>
+<lb ed="C" n="0051a07"/>
+  <item xml:id="itemC057p0051a0701">佛所行讚</item>
+<lb ed="C" n="0051a08"/>
+  <item xml:id="itemC057p0051a0801">治禪病秘要經</item>
+<lb ed="C" n="0051a09"/>
+  <item xml:id="itemC057p0051a0901">禪秘要經</item>
+<lb ed="C" n="0051a10"/>
+  <item xml:id="itemC057p0051a1001">禪法要經</item>
+<lb ed="C" n="0051a11"/>
+  <item xml:id="itemC057p0051a1101">治禪病秘要法</item>
+<lb ed="C" n="0051a12"/>
+  <item xml:id="itemC057p0051a1201">百喻集</item>
+<lb ed="C" n="0051a13"/>
+  <item xml:id="itemC057p0051a1301">菩<g ref="#CB16765"/>本緣集</item>
+<lb ed="C" n="0051a14"/>
+  <item xml:id="itemC057p0051a1401">四阿含暮鈔</item>
+<lb ed="C" n="0051a15"/>
+  <item xml:id="itemC057p0051a1501">法句經</item>
+<lb ed="C" n="0051a16"/>
+  <item xml:id="itemC057p0051a1601">舊雜譬喻經</item>
+<lb ed="C" n="0051a17"/>
+  <item xml:id="itemC057p0051a1701">雜譬喻經</item>
+<lb ed="C" n="0051a18"/>
+  <item xml:id="itemC057p0051a1801">孛經鈔</item>
+<lb ed="C" n="0051a19"/>
+  <item xml:id="itemC057p0051a1901">思惟略要經</item>
+<lb ed="C" n="0051a20"/>
+  <item xml:id="itemC057p0051a2001">佛醫經</item>
+<lb ed="C" n="0051a21"/>
+  <item xml:id="itemC057p0051a2101">分別業報略集</item>
+<lb ed="C" n="0051a22"/>
+  <item xml:id="itemC057p0051a2201">龍樹為禪陁迦王說法要偈</item>
 <pb ed="C" xml:id="C057.1163.0051b" n="0051b"/>
-<lb ed="C" n="0051b01"/><item xml:id="itemC057p0051b0101">無明羅剎經</item>
-<lb ed="C" n="0051b02"/><item xml:id="itemC057p0051b0201">四十二章經</item>
-<lb ed="C" n="0051b03"/><item xml:id="itemC057p0051b0301"><g ref="#CB02082"/>頭盧為優陁延王說法經</item>
-<lb ed="C" n="0051b04"/><item xml:id="itemC057p0051b0401"><g ref="#CB02082"/>頭盧為王說法經</item>
-<lb ed="C" n="0051b05"/><item xml:id="itemC057p0051b0501">阿育王太子法益壞目因緣經</item>
-<lb ed="C" n="0051b06"/><item xml:id="itemC057p0051b0601">馬鳴菩<g ref="#CB16765"/>傳</item>
-<lb ed="C" n="0051b07"/><item xml:id="itemC057p0051b0701">婆藪<g ref="#CB01197"/>豆傳</item></list>
+<lb ed="C" n="0051b01"/>
+  <item xml:id="itemC057p0051b0101">無明羅剎經</item>
+<lb ed="C" n="0051b02"/>
+  <item xml:id="itemC057p0051b0201">四十二章經</item>
+<lb ed="C" n="0051b03"/>
+  <item xml:id="itemC057p0051b0301"><g ref="#CB02082"/>頭盧為優陁延王說法經</item>
+<lb ed="C" n="0051b04"/>
+  <item xml:id="itemC057p0051b0401"><g ref="#CB02082"/>頭盧為王說法經</item>
+<lb ed="C" n="0051b05"/>
+  <item xml:id="itemC057p0051b0501">阿育王太子法益壞目因緣經</item>
+<lb ed="C" n="0051b06"/>
+  <item xml:id="itemC057p0051b0601">馬鳴菩<g ref="#CB16765"/>傳</item>
+<lb ed="C" n="0051b07"/>
+  <item xml:id="itemC057p0051b0701">婆藪<g ref="#CB01197"/>豆傳</item>
+</list>
 <lb ed="C" n="0051b08"/><cb:div type="other"><cb:mulu type="其他" level="2">陁羅尼雜集經</cb:mulu><head>陁羅尼雜集經</head>
 <lb ed="C" n="0051b09"/><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0051b10"/><entry><form><g ref="#CB17632"/>烝</form><cb:def><p xml:id="pC057p0051b1003" style="margin-left:1em" cb:place="inline">於物反尒雅<g ref="#CB17632"/>氣李巡曰<g ref="#CB17632"/>盛
@@ -3892,7 +4066,8 @@
 <lb ed="C" n="0054b02"/><entry><form><g ref="#CB13378"/>之</form><cb:def><p xml:id="pC057p0054b0203" style="margin-left:1em" cb:place="inline">常<g ref="#CB09125"/>反通俗文畫圓曰䂓䂓摸
 <lb ed="C" n="0054b03"/>曰<g ref="#CB13378"/>經文作專一之專非也。</p></cb:def></entry>
 <lb ed="C" n="0054b04"/><entry><form>𣏚利</form><cb:def><p xml:id="pC057p0054b0403" style="margin-left:1em" cb:place="inline">之是反。</p></cb:def></entry><entry cb:place="inline"><form>呡利𠲎啹</form></entry><entry cb:place="inline"><form>婆𢪔</form><cb:def><p xml:id="pC057p0054b0412" style="margin-left:1em" cb:place="inline">丁礼反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0054b05"/><cb:div type="other"><cb:mulu type="其他" level="2">六度集</cb:mulu><head>六度集</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0054b05"/><cb:div type="other"><cb:mulu type="其他" level="2">六度集</cb:mulu><head>六度集</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0054b06"/><entry><form>瘡瘳</form><cb:def><p xml:id="pC057p0054b0603" style="margin-left:1em" cb:place="inline">𠡠流反尚書王翌曰乃瘳瘳猶
 <lb ed="C" n="0054b07"/>差也俞也。</p></cb:def></entry>
 <lb ed="C" n="0054b08"/><entry><form>貧寠</form><cb:def><p xml:id="pC057p0054b0803" style="margin-left:1em" cb:place="inline">瞿矩反无礼也字書窶空也三
@@ -4027,7 +4202,11 @@
 <lb ed="C" n="0056a17"/>經文作錞市均反于錞樂噐也錞
 <lb ed="C" n="0056a18"/>非此用柲音府俻反㦸柄也。</p></cb:def></entry>
 <lb ed="C" n="0056a19"/><entry><form>蝘蜓</form><cb:def><p xml:id="pC057p0056a1903" style="margin-left:1em" cb:place="inline">烏典反下徒典反說文守宮在
-<lb ed="C" n="0056a20"/>壁曰蝘<g ref="#CB23168"/>在草曰<note n="0056a2001" resp="CBETA" type="add" note_key="C057.0056a20.08">蜥【CB】，唽【中華】</note><app n="0056a2001"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">蜥<note type="cf1">T54n2129_p0936b18</note><note type="cf2">X33n0631_p0557a24</note></lem><rdg wit="【中華】">唽</rdg></app>蜴經文作<g ref="#CB22886"/>
+<lb ed="C" n="0056a20"/>壁曰蝘<g ref="#CB23168"/>在草曰<note 
+n="0056a2001" resp="CBETA" type="add" note_key="C057.0056a20.08">蜥【CB】，唽【中華】</note><app n="0056a2001">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">蜥<note type="cf1">T54n2129_p0936b18</note><note type="cf2">X33n0631_p0557a24</note></lem>
+  <rdg wit="【中華】">唽</rdg>
+</app>蜴經文作<g ref="#CB22886"/>
 <lb ed="C" n="0056a21"/><g ref="#CB05661"/>非體也。</p></cb:def></entry>
 <lb ed="C" n="0056a22"/><entry><form>訛病</form><cb:def><p xml:id="pC057p0056a2203" style="margin-left:1em" cb:place="inline">又作譌吪二形同五和反訛偽
 <lb ed="C" n="0056a23"/>也謂作偽也。</p></cb:def></entry>
@@ -4057,7 +4236,11 @@
 <lb ed="C" n="0056b23"/>旐周禮龜<g ref="#CB17583"/>為旐縣鄙建旐鄭玄
 <pb ed="C" xml:id="C057.1163.0056c" n="0056c"/>
 <lb ed="C" n="0056c01"/>曰象其扞難避𡧱也。</p></cb:def></entry>
-<lb ed="C" n="0056c02"/><entry><form>徼循</form><cb:def><p xml:id="pC057p0056c0203" style="margin-left:1em" cb:place="inline">又作<note n="0056c0201" resp="CBETA" type="add">邀【CB】，<unclear/>【中華】</note><app n="0056c0201"><lem wit="【CB】" resp="CBETA.maha">邀</lem><rdg wit="【中華】"><unclear/></rdg></app>同古堯古吊二反下又
+<lb ed="C" n="0056c02"/><entry><form>徼循</form><cb:def><p xml:id="pC057p0056c0203" style="margin-left:1em" cb:place="inline">又作<note 
+n="0056c0201" resp="CBETA" type="add">邀【CB】，<unclear/>【中華】</note><app n="0056c0201">
+  <lem wit="【CB】" resp="CBETA.maha">邀</lem>
+  <rdg wit="【中華】"><unclear/></rdg>
+</app>同古堯古吊二反下又
 <lb ed="C" n="0056c03"/>作巡同似遵反徼遮也偱行也漢書
 <lb ed="C" n="0056c04"/>音義曰所謂遊徼偱以備盜賊也。</p></cb:def></entry>
 <lb ed="C" n="0056c05"/><entry><form>木梗</form><cb:def><p xml:id="pC057p0056c0503" style="margin-left:1em" cb:place="inline">加杏反㽵子土梗耳司馬<g ref="#CB23230"/>曰
@@ -4080,7 +4263,8 @@
 <lb ed="C" n="0056c22"/>恨也。</p></cb:def></entry>
 <lb ed="C" n="0056c23"/><entry><form><g ref="#CB02474"/>痛</form><cb:def><p xml:id="pC057p0056c2303" style="margin-left:1em" cb:place="inline">烏玄反謂手足<g ref="#CB02474"/>疼也。</p></cb:def></entry></cb:div></cb:div>
 <pb ed="C" xml:id="C057.1163.0057a" n="0057a"/>
-<lb ed="C" n="0057a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛本行讚經</cb:mulu><head>佛本行讚經</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0057a01"/><cb:div type="other"><cb:mulu type="其他" level="2">佛本行讚經</cb:mulu><head>佛本行讚經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0057a02"/><entry><form>孤麑</form><cb:def><p xml:id="pC057p0057a0203" style="margin-left:1em" cb:place="inline">又作麛同莫鷄反尒雅鹿其子麛。</p></cb:def></entry>
 <lb ed="C" n="0057a03"/><entry><form>法渟</form><cb:def><p xml:id="pC057p0057a0303" style="margin-left:1em" cb:place="inline">狄經反埤蒼水止曰渟字書
 <lb ed="C" n="0057a04"/>水滯也。</p></cb:def></entry>
@@ -4144,7 +4328,8 @@
 <lb ed="C" n="0057c14"/><entry><form>不訾</form><cb:def><p xml:id="pC057p0057c1403" style="margin-left:1em" cb:place="inline">又作𤺒同子移反訾量也思也
 <lb ed="C" n="0057c15"/>稱意也。</p></cb:def></entry>
 <lb ed="C" n="0057c16"/><entry><form>戲吮</form><cb:def><p xml:id="pC057p0057c1603" style="margin-left:1em" cb:place="inline">似兖反說文吮嗽也嗽音所角反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0057c17"/><cb:div type="other"><cb:mulu type="其他" level="2">付法藏傳</cb:mulu><head>付法藏傳</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0057c17"/><cb:div type="other"><cb:mulu type="其他" level="2">付法藏傳</cb:mulu><head>付法藏傳</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0057c18"/><entry><form>即晞</form><cb:def><p xml:id="pC057p0057c1803" style="margin-left:1em" cb:place="inline">虛衣反說文曰乾曰唏乾也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0057c19"/><cb:div type="other"><cb:mulu type="其他" level="3">第四卷</cb:mulu><head>第四卷</head>
 <lb ed="C" n="0057c20"/><entry><form>窘急</form><cb:def><p xml:id="pC057p0057c2003" style="margin-left:1em" cb:place="inline">奇殞反說文窘迫也詩傳曰窘
@@ -4160,7 +4345,8 @@
 <lb ed="C" n="0058a06"/>也精也亦齊同曰<g ref="#CB22847"/>。</p></cb:def></entry>
 <lb ed="C" n="0058a07"/><entry><form><g ref="#CB07710"/>惙</form><cb:def><p xml:id="pC057p0058a0703" style="margin-left:1em" cb:place="inline">知劣反聲類短氣㒵也惙惙亦
 <lb ed="C" n="0058a08"/>憂也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0058a09"/><cb:div type="other"><cb:mulu type="其他" level="2">佛所行讚</cb:mulu><head>佛所行讚</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0058a09"/><cb:div type="other"><cb:mulu type="其他" level="2">佛所行讚</cb:mulu><head>佛所行讚</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0058a10"/><entry><form>眙属</form><cb:def><p xml:id="pC057p0058a1003" style="margin-left:1em" cb:place="inline">治媵反通俗文直視曰眙經文
 <lb ed="C" n="0058a11"/>作瞪直耕反二形通用媵音以證反。</p></cb:def></entry>
 <lb ed="C" n="0058a12"/><entry><form>細縵</form><cb:def><p xml:id="pC057p0058a1203" style="margin-left:1em" cb:place="inline">字體作鞔莫槃反鞔覆也經文
@@ -4219,7 +4405,8 @@
 <lb ed="C" n="0058c17"/>望崦嵫而勿迫王逸曰山名下有
 <lb ed="C" n="0058c18"/>豪水水中虞<g ref="#CB30751"/>曰所入也。</p></cb:def></entry>
 <lb ed="C" n="0058c19"/><entry><form>迄于</form><cb:def><p xml:id="pC057p0058c1903" style="margin-left:1em" cb:place="inline">虛乞反尒雅迄至也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0058c20"/><cb:div type="other"><cb:mulu type="其他" level="2">治禪病秘要經</cb:mulu><head>治禪病秘要經</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0058c20"/><cb:div type="other"><cb:mulu type="其他" level="2">治禪病秘要經</cb:mulu><head>治禪病秘要經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0058c21"/><entry><form>樹揩</form><cb:def><p xml:id="pC057p0058c2103" style="margin-left:1em" cb:place="inline">口揩反。</p></cb:def></entry>
 <lb ed="C" n="0058c22"/><entry><form><g ref="#CB21992"/>綣</form><cb:def><p xml:id="pC057p0058c2203" style="margin-left:1em" cb:place="inline">於遠反下祛阮反<g ref="#CB21992"/>綣猶繾綣
 <lb ed="C" n="0058c23"/>也繾綣謂不相離也。</p></cb:def></entry>
@@ -4241,20 +4428,26 @@
 <lb ed="C" n="0059a15"/>𠯗入口也㽵子作噆蚊䖟噆膚是也。</p></cb:def></entry>
 <lb ed="C" n="0059a16"/><entry><form><g ref="#CB25466"/>然</form><cb:def><p xml:id="pC057p0059a1603" style="margin-left:1em" cb:place="inline">一宏反說文下深大也廣雅<g ref="#CB25466"/>
 <lb ed="C" n="0059a17"/><g ref="#CB25466"/>深也。</p></cb:def></entry>
-<lb ed="C" n="0059a18"/><entry><form>㰆囊</form><cb:def><p xml:id="pC057p0059a1803" style="margin-left:1em" cb:place="inline">又作排<g ref="#CB22865"/>二形同蒲戒反謂<note n="0059a1801" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0059a1801"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【中華】">鍜</rdg></app>
+<lb ed="C" n="0059a18"/><entry><form>㰆囊</form><cb:def><p xml:id="pC057p0059a1803" style="margin-left:1em" cb:place="inline">又作排<g ref="#CB22865"/>二形同蒲戒反謂<note 
+n="0059a1801" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0059a1801">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【中華】">鍜</rdg>
+</app>
 <lb ed="C" n="0059a19"/>家用炊火者也。</p></cb:def></entry>
 <lb ed="C" n="0059a20"/><entry><form><g ref="#CB22567"/>骨</form><cb:def><p xml:id="pC057p0059a2003" style="margin-left:1em" cb:place="inline">又作頏同下堂反蒼頡篇亢咽
 <lb ed="C" n="0059a21"/>也說文人頸也。</p></cb:def></entry>
 <lb ed="C" n="0059a22"/><entry><form>兜婆</form><cb:def><p xml:id="pC057p0059a2203" style="margin-left:1em" cb:place="inline">或言偷婆或云塔婆正言窣覩
 <lb ed="C" n="0059a23"/>波此言廟也。</p></cb:def></entry></cb:div></cb:div>
 <pb ed="C" xml:id="C057.1163.0059b" n="0059b"/>
-<lb ed="C" n="0059b01"/><cb:div type="other"><cb:mulu type="其他" level="2">禪秘要法</cb:mulu><head>禪秘要法</head><cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
+<lb ed="C" n="0059b01"/><cb:div type="other"><cb:mulu type="其他" level="2">禪秘要法</cb:mulu><head>禪秘要法</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
 <lb ed="C" n="0059b02"/><entry><form>肺腴</form><cb:def><p xml:id="pC057p0059b0203" style="margin-left:1em" cb:place="inline">又作胇同敷穢反說文肺火藏
 <lb ed="C" n="0059b03"/>也下𢈔俱反說文腹下𦘺也腴腹
 <lb ed="C" n="0059b04"/>也經文作愈<g ref="#CB22273"/>二形非體也。</p></cb:def></entry>
 <lb ed="C" n="0059b05"/><entry><form>蛕虫</form><cb:def><p xml:id="pC057p0059b0503" style="margin-left:1em" cb:place="inline">又作蛔同胡魁反蒼頡訓詁云
 <lb ed="C" n="0059b06"/>蛕腹中虫也經文作蚘非也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0059b07"/><cb:div type="other"><cb:mulu type="其他" level="2">禪法要解</cb:mulu><head>禪法要解</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0059b07"/><cb:div type="other"><cb:mulu type="其他" level="2">禪法要解</cb:mulu><head>禪法要解</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0059b08"/><entry><form>肪𦙽</form><cb:def><p xml:id="pC057p0059b0803" style="margin-left:1em" cb:place="inline">府房反下桒安反說文肪𦘺也
 <lb ed="C" n="0059b09"/>廣雅脂肪也。</p></cb:def></entry>
 <lb ed="C" n="0059b10"/><entry><form>歧路</form><cb:def><p xml:id="pC057p0059b1003" style="margin-left:1em" cb:place="inline">又作𨙸<g ref="#CB22405"/>二形同巨<g ref="#CB22919"/>反謂道
@@ -4272,12 +4465,14 @@
 <lb ed="C" n="0059b22"/><entry><form>𠁅痺</form><cb:def><p xml:id="pC057p0059b2203" style="margin-left:1em" cb:place="inline">畢利反說文足氣不至也經文作
 <lb ed="C" n="0059b23"/>肶字<g ref="#CB10191"/>䐊同音鼻尸反肶非此用。</p></cb:def></entry></cb:div>
 <pb ed="C" xml:id="C057.1163.0059c" n="0059c"/>
-<lb ed="C" n="0059c01"/><cb:div type="other"><cb:mulu type="其他" level="2">百喻集</cb:mulu><head>百喻集</head><cb:div type="other"><cb:mulu type="其他" level="3">第四卷</cb:mulu><head>第四卷</head>
+<lb ed="C" n="0059c01"/><cb:div type="other"><cb:mulu type="其他" level="2">百喻集</cb:mulu><head>百喻集</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第四卷</cb:mulu><head>第四卷</head>
 <lb ed="C" n="0059c02"/><entry><form>唵米</form><cb:def><p xml:id="pC057p0059c0203" style="margin-left:1em" cb:place="inline">烏感反字林唵啗也謂向口唵
 <lb ed="C" n="0059c03"/>也啗音徒敢反。</p></cb:def></entry>
 <lb ed="C" n="0059c04"/><entry><form><g ref="#CB22384"/><g ref="#CB23116"/></form><cb:def><p xml:id="pC057p0059c0403" style="margin-left:1em" cb:place="inline">蒼頡篇作<g ref="#CB23192"/>同蘇南反毛垂㒵
 <lb ed="C" n="0059c05"/>也通俗文毛長曰毿毿也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0059c06"/><cb:div type="other"><cb:mulu type="其他" level="2">菩<g ref="#CB16765"/>本緣集</cb:mulu><head>菩<g ref="#CB16765"/>本緣集</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0059c06"/><cb:div type="other"><cb:mulu type="其他" level="2">菩<g ref="#CB16765"/>本緣集</cb:mulu><head>菩<g ref="#CB16765"/>本緣集</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0059c07"/><entry><form>薨殞</form><cb:def><p xml:id="pC057p0059c0703" style="margin-left:1em" cb:place="inline">呼<g ref="#CB10485"/>反廣雅薨亡也尒雅薨死
 <lb ed="C" n="0059c08"/>也諸侯死曰薨。</p></cb:def></entry>
 <lb ed="C" n="0059c09"/><entry><form><g ref="#CB22730"/>禦</form><cb:def><p xml:id="pC057p0059c0903" style="margin-left:1em" cb:place="inline">魚呂反禦當也詩傳曰武臣折
@@ -4303,7 +4498,8 @@
 <lb ed="C" n="0060a05"/>意不舒泄不平也。</p></cb:def></entry>
 <lb ed="C" n="0060a06"/><entry><form>坑窖</form><cb:def><p xml:id="pC057p0060a0603" style="margin-left:1em" cb:place="inline">古効反說文地藏也䆤地為窖
 <lb ed="C" n="0060a07"/>藏五糓也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0060a08"/><cb:div type="other"><cb:mulu type="其他" level="2">四阿含暮抄</cb:mulu><head>四阿含暮抄</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0060a08"/><cb:div type="other"><cb:mulu type="其他" level="2">四阿含暮抄</cb:mulu><head>四阿含暮抄</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0060a09"/><entry><form>婆𠿚</form><cb:def><p xml:id="pC057p0060a0903" style="margin-left:1em" cb:place="inline">丈甲反梵言安陁羅婆波此云
 <lb ed="C" n="0060a10"/>五條。</p></cb:def></entry>
 <lb ed="C" n="0060a11"/><entry><form><g ref="#CB22456"/>昧</form><cb:def><p xml:id="pC057p0060a1103" style="margin-left:1em" cb:place="inline">上青𡏞反葛也。</p></cb:def></entry>
@@ -4315,7 +4511,8 @@
 <lb ed="C" n="0060a17"/><entry><form>嘬羅</form><cb:def><p xml:id="pC057p0060a1703" style="margin-left:1em" cb:place="inline">楚快反梵言阿婆嘬羅遮此云
 <lb ed="C" n="0060a18"/>光音天。</p></cb:def></entry>
 <lb ed="C" n="0060a19"/><entry><form>揥跋</form><cb:def><p xml:id="pC057p0060a1903" style="margin-left:1em" cb:place="inline">他細反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0060a20"/><cb:div type="other"><cb:mulu type="其他" level="2">法句經</cb:mulu><head>法句經</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0060a20"/><cb:div type="other"><cb:mulu type="其他" level="2">法句經</cb:mulu><head>法句經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0060a21"/><entry><form>挻埴</form><cb:def><p xml:id="pC057p0060a2103" style="margin-left:1em" cb:place="inline">尸延反下時力反案挻柔也和
 <lb ed="C" n="0060a22"/>也擊也埴土也。</p></cb:def></entry>
 <lb ed="C" n="0060a23"/><entry><form>滎水</form><cb:def><p xml:id="pC057p0060a2303" style="margin-left:1em" cb:place="inline">烏熒反小水也亦流也經文作
@@ -4346,7 +4543,8 @@
 <pb ed="C" xml:id="C057.1163.0060c" n="0060c"/>
 <lb ed="C" n="0060c01"/><entry><form>門閾</form><cb:def><p xml:id="pC057p0060c0103" style="margin-left:1em" cb:place="inline">古文𨵨同吁域反尒雅柣謂之
 <lb ed="C" n="0060c02"/>閾郭𤩶曰即門限也柣音田結反。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0060c03"/><cb:div type="other"><cb:mulu type="其他" level="2">舊雜譬喻經</cb:mulu><head>舊雜譬喻經</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0060c03"/><cb:div type="other"><cb:mulu type="其他" level="2">舊雜譬喻經</cb:mulu><head>舊雜譬喻經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0060c04"/><entry><form>輱軻</form><cb:def><p xml:id="pC057p0060c0403" style="margin-left:1em" cb:place="inline"><g ref="#CB22919"/>作埳同口感口佐反埳軻不遇也。</p></cb:def></entry>
 <lb ed="C" n="0060c05"/><entry><form>一鄹</form><cb:def><p xml:id="pC057p0060c0503" style="margin-left:1em" cb:place="inline">古文𨞮𨛿二形今作聚同扌句
 <lb ed="C" n="0060c06"/>反廣雅聚居也謂人所聚居也經
@@ -4428,7 +4626,11 @@
 <lb ed="C" n="0061c10"/>迕逆不遇也。</p></cb:def></entry>
 <lb ed="C" n="0061c11"/><entry><form>蛆蟻</form><cb:def><p xml:id="pC057p0061c1103" style="margin-left:1em" cb:place="inline">子餘反蝍蛆吴公也一名蛆渠。</p></cb:def></entry>
 <lb ed="C" n="0061c12"/><entry><form>愚戅</form><cb:def><p xml:id="pC057p0061c1203" style="margin-left:1em" cb:place="inline">都絳反說文愚癡也戅愚也。</p></cb:def></entry>
-<lb ed="C" n="0061c13"/><entry><form>聾聵</form><cb:def><p xml:id="pC057p0061c1303" style="margin-left:1em" cb:place="inline">古文聵<note n="0061c1301" resp="CBETA" type="add" note_key="C057.0061c13.06">䫭【CB】，類【中華】</note><app n="0061c1301"><lem wit="【CB】" resp="CBETA.maha" cb:provider="iamone (2019-01-16)">䫭<note type="cf1">K43n1498_p0572b09</note><note type="cf2">《慧琳音義》</note></lem><rdg wit="【中華】">類</rdg></app>二形今<g ref="#CB23231"/>又作<g ref="#CB13270"/>同
+<lb ed="C" n="0061c13"/><entry><form>聾聵</form><cb:def><p xml:id="pC057p0061c1303" style="margin-left:1em" cb:place="inline">古文聵<note 
+n="0061c1301" resp="CBETA" type="add" note_key="C057.0061c13.06">䫭【CB】，類【中華】</note><app n="0061c1301">
+  <lem wit="【CB】" resp="CBETA.maha" cb:provider="iamone (2019-01-16)">䫭<note type="cf1">K43n1498_p0572b09</note><note type="cf2">《慧琳音義》</note></lem>
+  <rdg wit="【中華】">類</rdg>
+</app>二形今<g ref="#CB23231"/>又作<g ref="#CB13270"/>同
 <lb ed="C" n="0061c14"/>牛快反生聾曰聵一云聾无識曰聵。</p></cb:def></entry>
 <lb ed="C" n="0061c15"/><entry><form>宮㓝</form><cb:def><p xml:id="pC057p0061c1503" style="margin-left:1em" cb:place="inline">居雄反<g ref="#CB21945"/>㓝次死也男女不以
 <lb ed="C" n="0061c16"/>義交者其㓝宮男子割勢婦人幽
@@ -4454,7 +4656,8 @@
 <lb ed="C" n="0062a12"/>也說文謂養野鳥獸使服謂之馴。</p></cb:def></entry>
 <lb ed="C" n="0062a13"/><entry><form>瘤癭</form><cb:def><p xml:id="pC057p0062a1303" style="margin-left:1em" cb:place="inline">力周反說文瘤腫也腫結不潰
 <lb ed="C" n="0062a14"/>散者為瘤聲類瘤瘜肉也。</p></cb:def></entry></cb:div>
-<lb ed="C" n="0062a15"/><cb:div type="other"><cb:mulu type="其他" level="2">无明羅剎經</cb:mulu><head>无明羅剎經</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0062a15"/><cb:div type="other"><cb:mulu type="其他" level="2">无明羅剎經</cb:mulu><head>无明羅剎經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0062a16"/><entry><form>喊㖑</form><cb:def><p xml:id="pC057p0062a1603" style="margin-left:1em" cb:place="inline">呼㩜反下呼戒反方言减聲也
 <lb ed="C" n="0062a17"/>㖑呵也謂恚聲也又作闞呼噉反。</p></cb:def></entry>
 <lb ed="C" n="0062a18"/><entry><form>皴剝</form><cb:def><p xml:id="pC057p0062a1803" style="margin-left:1em" cb:place="inline">且旬反埤蒼皮皴散也又樹皮
@@ -4527,20 +4730,36 @@
 <pb ed="C" xml:id="C057.1163.0064a" n="0064a"/>
 <lb ed="C" n="0064a01"/><cb:mulu type="卷" n="21"/><cb:juan fun="open" n="21"><cb:jhead>一切經音義卷第二十一<note place="inline">大乘經</note>　　　轉</cb:jhead></cb:juan>
 <lb ed="C" n="0064a02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0064a03"/><cb:div type="other"><cb:mulu type="其他" level="1">大唐新譯　大乘經</cb:mulu><list rend="no-marker"><item xml:id="itemC057p0064a0301">大菩<g ref="#CB16765"/>藏經</item>
-<lb ed="C" n="0064a04"/><item xml:id="itemC057p0064a0401">大方等十輪經</item>
-<lb ed="C" n="0064a05"/><item xml:id="itemC057p0064a0501">說無垢稱經</item>
-<lb ed="C" n="0064a06"/><item xml:id="itemC057p0064a0601">解深密經</item>
-<lb ed="C" n="0064a07"/><item xml:id="itemC057p0064a0701">分別緣起經</item>
-<lb ed="C" n="0064a08"/><item xml:id="itemC057p0064a0801">能断金剛般若經</item>
-<lb ed="C" n="0064a09"/><item xml:id="itemC057p0064a0901">菩<g ref="#CB16765"/>戒本</item>
-<lb ed="C" n="0064a10"/><item xml:id="itemC057p0064a1001">稱讚淨土經</item>
-<lb ed="C" n="0064a11"/><item xml:id="itemC057p0064a1101">佛地經</item>
-<lb ed="C" n="0064a12"/><item xml:id="itemC057p0064a1201">勝軍王經</item>
-<lb ed="C" n="0064a13"/><item xml:id="itemC057p0064a1301">記法住經</item>
-<lb ed="C" n="0064a14"/><item xml:id="itemC057p0064a1401">六門陁羅尼經</item>
-<lb ed="C" n="0064a15"/><item xml:id="itemC057p0064a1501">般若心經</item></list>
-<lb ed="C" n="0064a16"/><cb:div type="other"><cb:mulu type="其他" level="2">大菩<g ref="#CB16765"/>藏經</cb:mulu><head>大菩<g ref="#CB16765"/>藏經</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0064a03"/><cb:div type="other"><cb:mulu type="其他" level="1">大唐新譯　大乘經</cb:mulu>
+<list rend="no-marker">
+  <item xml:id="itemC057p0064a0301">大菩<g ref="#CB16765"/>藏經</item>
+<lb ed="C" n="0064a04"/>
+  <item xml:id="itemC057p0064a0401">大方等十輪經</item>
+<lb ed="C" n="0064a05"/>
+  <item xml:id="itemC057p0064a0501">說無垢稱經</item>
+<lb ed="C" n="0064a06"/>
+  <item xml:id="itemC057p0064a0601">解深密經</item>
+<lb ed="C" n="0064a07"/>
+  <item xml:id="itemC057p0064a0701">分別緣起經</item>
+<lb ed="C" n="0064a08"/>
+  <item xml:id="itemC057p0064a0801">能断金剛般若經</item>
+<lb ed="C" n="0064a09"/>
+  <item xml:id="itemC057p0064a0901">菩<g ref="#CB16765"/>戒本</item>
+<lb ed="C" n="0064a10"/>
+  <item xml:id="itemC057p0064a1001">稱讚淨土經</item>
+<lb ed="C" n="0064a11"/>
+  <item xml:id="itemC057p0064a1101">佛地經</item>
+<lb ed="C" n="0064a12"/>
+  <item xml:id="itemC057p0064a1201">勝軍王經</item>
+<lb ed="C" n="0064a13"/>
+  <item xml:id="itemC057p0064a1301">記法住經</item>
+<lb ed="C" n="0064a14"/>
+  <item xml:id="itemC057p0064a1401">六門陁羅尼經</item>
+<lb ed="C" n="0064a15"/>
+  <item xml:id="itemC057p0064a1501">般若心經</item>
+</list>
+<lb ed="C" n="0064a16"/><cb:div type="other"><cb:mulu type="其他" level="2">大菩<g ref="#CB16765"/>藏經</cb:mulu><head>大菩<g ref="#CB16765"/>藏經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0064a17"/><entry><form>薄伽梵</form><cb:def><p xml:id="pC057p0064a1704" style="margin-left:1em" cb:place="inline"><g ref="#CB07065"/>劒反言以義捴眾德至尚
 <lb ed="C" n="0064a18"/>之名也餘則不尒故諸經首皆置
 <lb ed="C" n="0064a19"/>此名舊言婆伽婆訛也。</p></cb:def></entry>
@@ -4829,7 +5048,11 @@
 <lb ed="C" n="0068a15"/>聲類云眠內不覺妄言也。</p></cb:def></entry>
 <lb ed="C" n="0068a16"/><entry><form>愚戇</form><cb:def><p xml:id="pC057p0068a1603" style="margin-left:1em" cb:place="inline">都絳反說文戇亦愚<g ref="#CB23028"/>也无知
 <lb ed="C" n="0068a17"/>專愚曰戇也。</p></cb:def></entry></cb:div>
-<lb ed="C" n="0068a18"/><cb:div type="other"><cb:mulu type="其他" level="3">第九卷</cb:mulu><head><note n="0068a1801" resp="CBETA" type="add">第【CB】，弟【中華】</note><app n="0068a1801"><lem wit="【CB】" resp="CBETA.maha">第</lem><rdg wit="【中華】">弟</rdg></app>九卷</head>
+<lb ed="C" n="0068a18"/><cb:div type="other"><cb:mulu type="其他" level="3">第九卷</cb:mulu><head><note 
+n="0068a1801" resp="CBETA" type="add">第【CB】，弟【中華】</note><app n="0068a1801">
+  <lem wit="【CB】" resp="CBETA.maha">第</lem>
+  <rdg wit="【中華】">弟</rdg>
+</app>九卷</head>
 <lb ed="C" n="0068a19"/><entry><form>逆𣄆</form><cb:def><p xml:id="pC057p0068a1903" style="margin-left:1em" cb:place="inline">力舉反左傳保於逆𣄆杜預曰
 <lb ed="C" n="0068a20"/>逆𣄆客舍也。</p></cb:def></entry>
 <lb ed="C" n="0068a21"/><entry><form>中<g ref="#CB22732"/></form><cb:def><p xml:id="pC057p0068a2103" style="margin-left:1em" cb:place="inline">又作<g ref="#CB00794"/>同於<g ref="#CB09510"/>反說文<g ref="#CB00794"/>屈也
@@ -4993,7 +5216,8 @@
 <lb ed="C" n="0070b11"/>進一止因以為名也。</p></cb:def></entry>
 <lb ed="C" n="0070b12"/><entry><form>駃都</form><cb:def><p xml:id="pC057p0070b1203" style="margin-left:1em" cb:place="inline">徒餓反謂堅實也則如来體骨
 <lb ed="C" n="0070b13"/>舍利之異名耳。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0070b14"/><cb:div type="other"><cb:mulu type="其他" level="2">大乘十輪經</cb:mulu><head>大乘十輪經</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0070b14"/><cb:div type="other"><cb:mulu type="其他" level="2">大乘十輪經</cb:mulu><head>大乘十輪經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0070b15"/><entry><form>佉羅帝耶山</form><cb:def><p xml:id="pC057p0070b1506" style="margin-left:1em" cb:place="inline">或言佉羅提耶山或云
 <lb ed="C" n="0070b16"/>佉羅帝山皆一也此云騾林山。</p></cb:def></entry>
 <lb ed="C" n="0070b17"/><entry><form>牟尼仙</form><cb:def><p xml:id="pC057p0070b1704" style="margin-left:1em" cb:place="inline">莫侯反舊言文尼又作茂泥
@@ -5026,7 +5250,11 @@
 <lb ed="C" n="0070c20"/>羅亦作閻羅皆一也此云雙世竊
 <lb ed="C" n="0070c21"/>謂苦樂並受号之為雙也。</p></cb:def></entry>
 <lb ed="C" n="0070c22"/><entry><form>讖蒲</form><cb:def><p xml:id="pC057p0070c2203" style="margin-left:1em" cb:place="inline"><note place="inline">初蔭反</note>。</p></cb:def></entry><entry cb:place="inline"><form>羯洛</form><cb:def><p xml:id="pC057p0070c2208" style="margin-left:1em" cb:place="inline"><note place="inline">轉舌聲</note>。</p></cb:def></entry><entry cb:place="inline"><form>伐折</form><cb:def><p xml:id="pC057p0070c2213" style="margin-left:1em" cb:place="inline"><note place="inline">脂列反</note>。</p></cb:def></entry><entry cb:place="inline"><form>萏摩</form><cb:def><p xml:id="pC057p0070c2218" style="margin-left:1em" cb:place="inline"><note place="inline">徒戍反</note>。</p></cb:def></entry>
-<lb ed="C" n="0070c23"/><entry><form>帝昵</form><cb:def><p xml:id="pC057p0070c2303" style="margin-left:1em" cb:place="inline"><note place="inline">借音尼吉反</note>。</p></cb:def></entry><entry cb:place="inline"><form>𢰔婆</form><cb:def><p xml:id="pC057p0070c2310" style="margin-left:1em" cb:place="inline"><note place="inline">初治反</note>。</p></cb:def></entry><entry cb:place="inline"><form>鄔波</form><cb:def><p xml:id="pC057p0070c2315" style="margin-left:1em" cb:place="inline"><note place="inline">烏古反</note>。</p></cb:def></entry><entry cb:place="inline"><form><note n="0070c2301" resp="CBETA" type="add" note_key="C057.0070c23.18">睒【CB】【麗-CB】，𦖠【中華】</note><app n="0070c2301"><lem wit="【CB】【麗-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">睒<note type="cf1">K32n1063_p0282b23</note></lem><rdg wit="【中華】">𦖠</rdg></app>摩</form>
+<lb ed="C" n="0070c23"/><entry><form>帝昵</form><cb:def><p xml:id="pC057p0070c2303" style="margin-left:1em" cb:place="inline"><note place="inline">借音尼吉反</note>。</p></cb:def></entry><entry cb:place="inline"><form>𢰔婆</form><cb:def><p xml:id="pC057p0070c2310" style="margin-left:1em" cb:place="inline"><note place="inline">初治反</note>。</p></cb:def></entry><entry cb:place="inline"><form>鄔波</form><cb:def><p xml:id="pC057p0070c2315" style="margin-left:1em" cb:place="inline"><note place="inline">烏古反</note>。</p></cb:def></entry><entry cb:place="inline"><form><note 
+n="0070c2301" resp="CBETA" type="add" note_key="C057.0070c23.18">睒【CB】【麗-CB】，𦖠【中華】</note><app n="0070c2301">
+  <lem wit="【CB】【麗-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">睒<note type="cf1">K32n1063_p0282b23</note></lem>
+  <rdg wit="【中華】">𦖠</rdg>
+</app>摩</form>
 <pb ed="C" xml:id="C057.1163.0071a" n="0071a"/>
 <lb ed="C" n="0071a01"/><cb:def><p xml:id="pC057p0071a0101" style="margin-left:1em"><note place="inline">式舟反</note>。</p></cb:def></entry><entry cb:place="inline"><form>野娜</form><cb:def><p xml:id="pC057p0071a0106" style="margin-left:1em" cb:place="inline"><note place="inline">奴可反</note>。</p></cb:def></entry><entry cb:place="inline"><form>剌惹</form><cb:def><p xml:id="pC057p0071a0111" style="margin-left:1em" cb:place="inline"><note place="inline">勒葛反下而者反</note>。</p></cb:def></entry><entry cb:place="inline"><form>萏䛧</form><cb:def><p xml:id="pC057p0071a0120" style="margin-left:1em" cb:place="inline"><note place="inline">莫計反</note>。</p></cb:def></entry><entry cb:place="inline"><form>𣢁
 <lb ed="C" n="0071a02"/><g ref="#CB00747"/></form><cb:def><p xml:id="pC057p0071a0202" style="margin-left:1em" cb:place="inline"><note place="inline">借音虛履反</note>。</p></cb:def></entry><entry cb:place="inline"><form>弭<g ref="#CB00747"/></form><cb:def><p xml:id="pC057p0071a0209" style="margin-left:1em" cb:place="inline"><note place="inline"><g ref="#CB12752"/>尒反</note>。</p></cb:def></entry><entry cb:place="inline"><form>黳羯</form><cb:def><p xml:id="pC057p0071a0214" style="margin-left:1em" cb:place="inline"><note place="inline">為奚反</note>。</p></cb:def></entry><entry cb:place="inline"><form>齲盧</form><cb:def><p xml:id="pC057p0071a0219" style="margin-left:1em" cb:place="inline"><note place="inline">監禹反</note>。</p></cb:def></entry>
@@ -5224,7 +5452,8 @@
 <lb ed="C" n="0073c02"/><cb:div type="other"><cb:mulu type="其他" level="3">第五卷</cb:mulu><head>第五卷</head>
 <lb ed="C" n="0073c03"/><entry><form>誕生</form><cb:def><p xml:id="pC057p0073c0303" style="margin-left:1em" cb:place="inline">達坦反詩云誕<g ref="#CB12752"/>厥月傳曰誕
 <lb ed="C" n="0073c04"/>大也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0073c05"/><cb:div type="other"><cb:mulu type="其他" level="2">分別緣起經</cb:mulu><head>分別緣起經</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0073c05"/><cb:div type="other"><cb:mulu type="其他" level="2">分別緣起經</cb:mulu><head>分別緣起經</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0073c06"/><entry><form>僂曲</form><cb:def><p xml:id="pC057p0073c0603" style="margin-left:1em" cb:place="inline">力矩反廣雅僂曲也言脊不申
 <lb ed="C" n="0073c07"/>傴僂也。</p></cb:def></entry></cb:div></cb:div>
 <lb ed="C" n="0073c08"/><cb:div type="other"><cb:mulu type="其他" level="2">能断金剛般若經</cb:mulu><head>能断金剛般若經</head>
@@ -5319,7 +5548,9 @@
 <pb ed="C" xml:id="C057.1163.0075a" n="0075a"/>
 <lb ed="C" n="0075a01"/><cb:mulu type="卷" n="22"/><cb:juan fun="open" n="22"><cb:jhead>一切經音義卷第二十二<note place="inline">大乘論</note>　　　轉</cb:jhead></cb:juan>
 <lb ed="C" n="0075a02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0075a03"/><cb:div type="other"><cb:mulu type="其他" level="1">大唐新譯　大乘論</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">瑜伽師地論</cb:mulu><head>瑜伽師地論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷<note place="inline">大唐新譯</note></head>
+<lb ed="C" n="0075a03"/><cb:div type="other"><cb:mulu type="其他" level="1">大唐新譯　大乘論</cb:mulu>
+<cb:div type="other"><cb:mulu type="其他" level="2">瑜伽師地論</cb:mulu><head>瑜伽師地論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷<note place="inline">大唐新譯</note></head>
 <lb ed="C" n="0075a04"/><entry><form>瑜伽</form><cb:def><p xml:id="pC057p0075a0403" style="margin-left:1em" cb:place="inline">羊朱反此譯云相應謂一切乘
 <lb ed="C" n="0075a05"/>境行果等所有諸法皆名相應境
 <lb ed="C" n="0075a06"/>謂一切所緣境此境與心相應故
@@ -5331,7 +5562,11 @@
 <lb ed="C" n="0075a12"/>習行如是瑜伽隨分滿足展轉調
 <lb ed="C" n="0075a13"/>化諸眾生故名瑜伽師謂教人以
 <lb ed="C" n="0075a14"/>道者之稱也舊經中言觀行人者
-<lb ed="C" n="0075a15"/>是也地謂境界所依所依或<note n="0075a1501" resp="CBETA" type="add">所【CB】，<unclear/>【中華】</note><app n="0075a1501"><lem wit="【CB】" resp="CBETA.maha">所</lem><rdg wit="【中華】"><unclear/></rdg></app>攝
+<lb ed="C" n="0075a15"/>是也地謂境界所依所依或<note 
+n="0075a1501" resp="CBETA" type="add">所【CB】，<unclear/>【中華】</note><app n="0075a1501">
+  <lem wit="【CB】" resp="CBETA.maha">所</lem>
+  <rdg wit="【中華】"><unclear/></rdg>
+</app>攝
 <lb ed="C" n="0075a16"/>義是瑜伽師所行境界故名為地
 <lb ed="C" n="0075a17"/>即十七地也。</p></cb:def></entry>
 <lb ed="C" n="0075a18"/><entry><form>嗢拕</form><cb:def><p xml:id="pC057p0075a1803" style="margin-left:1em" cb:place="inline">烏骨反下徒我反舊言欝陁𨚗
@@ -5574,7 +5809,11 @@
 <lb ed="C" n="0078b16"/><entry><form>皱襵</form><cb:def><p xml:id="pC057p0078b1603" style="margin-left:1em" cb:place="inline">側𣪋反下之涉反又音輙今襵
 <lb ed="C" n="0078b17"/>疊物及裙襵皆作此。</p></cb:def></entry>
 <lb ed="C" n="0078b18"/><entry><form>䥫鉆</form><cb:def><p xml:id="pC057p0078b1803" style="margin-left:1em" cb:place="inline">奇廉反鉆謂鑷取物也通俗文
-<lb ed="C" n="0078b19"/><note n="0078b1901" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0078b1901"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【中華】">鍜</rdg></app>具曰鉆鉆持也或作鉗束人頸
+<lb ed="C" n="0078b19"/><note 
+n="0078b1901" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0078b1901">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【中華】">鍜</rdg>
+</app>具曰鉆鉆持也或作鉗束人頸
 <lb ed="C" n="0078b20"/>䥫也非今所用也。</p></cb:def></entry>
 <lb ed="C" n="0078b21"/><entry><form>洋銅</form><cb:def><p xml:id="pC057p0078b2103" style="margin-left:1em" cb:place="inline">以<g ref="#CB23077"/>反謂<g ref="#CB02598"/>之消爤洋洋然也
 <lb ed="C" n="0078b22"/>三蒼洋洋太水也。</p></cb:def></entry>
@@ -5713,8 +5952,16 @@
 <lb ed="C" n="0080b11"/>睇<g ref="#CB17829"/>文云顧視曰睇。</p></cb:def></entry>
 <lb ed="C" n="0080b12"/><entry><form>啞啞</form><cb:def><p xml:id="pC057p0080b1203" style="margin-left:1em" cb:place="inline">乙白反字林笑聲也易云笑語
 <lb ed="C" n="0080b13"/>啞啞是。</p></cb:def></entry><entry cb:place="inline"><form>噐仗</form><cb:def><p xml:id="pC057p0080b1306" style="margin-left:1em" cb:place="inline">祛兾反下治亮反漢
-<lb ed="C" n="0080b14"/>書制噐<note n="0080b1401" resp="CBETA" type="add" note_key="C057.0080b14.04">械【CB】，𢬿【中華】</note><app n="0080b1401"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">械<note type="cf1">C056n1163_p0933b04</note></lem><rdg wit="【中華】">𢬿</rdg></app>之品應劭曰內盛曰噐
-<lb ed="C" n="0080b15"/>外盛曰<note n="0080b1501" resp="CBETA" type="add" note_key="C057.0080b15.04">械【CB】，𢬿【中華】</note><app n="0080b1501"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">械<note type="cf1">C056n1163_p0933b04</note></lem><rdg wit="【中華】">𢬿</rdg></app>一曰無盛曰噐仗兵噐
+<lb ed="C" n="0080b14"/>書制噐<note 
+n="0080b1401" resp="CBETA" type="add" note_key="C057.0080b14.04">械【CB】，𢬿【中華】</note><app n="0080b1401">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">械<note type="cf1">C056n1163_p0933b04</note></lem>
+  <rdg wit="【中華】">𢬿</rdg>
+</app>之品應劭曰內盛曰噐
+<lb ed="C" n="0080b15"/>外盛曰<note 
+n="0080b1501" resp="CBETA" type="add" note_key="C057.0080b15.04">械【CB】，𢬿【中華】</note><app n="0080b1501">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">械<note type="cf1">C056n1163_p0933b04</note></lem>
+  <rdg wit="【中華】">𢬿</rdg>
+</app>一曰無盛曰噐仗兵噐
 <lb ed="C" n="0080b16"/>也五刃捴名兵人所執持曰仗。</p></cb:def></entry>
 <lb ed="C" n="0080b17"/><entry><form>憒𡗚</form><cb:def><p xml:id="pC057p0080b1703" style="margin-left:1em" cb:place="inline">公對反下女孝反說文憒乱也
 <lb ed="C" n="0080b18"/>韻集𡗚猥也猥眾也𡗚從市從人
@@ -5887,7 +6134,11 @@
 <lb ed="C" n="0082c17"/>梨也。</p></cb:def></entry>
 <lb ed="C" n="0082c18"/><entry><form>談話</form><cb:def><p xml:id="pC057p0082c1803" style="margin-left:1em" cb:place="inline">古文<g ref="#CB08747"/>譮䛋三形同胡快反合
 <lb ed="C" n="0082c19"/>會善言也。</p></cb:def></entry>
-<lb ed="C" n="0082c20"/><entry><form>躁動</form><cb:def><p xml:id="pC057p0082c2003" style="margin-left:1em" cb:place="inline">又作趮同<note n="0082c2001" resp="CBETA" type="add">祖到【CB】，<unclear/><unclear/>【中華】</note><app n="0082c2001"><lem wit="【CB】" resp="CBETA.maha">祖到</lem><rdg wit="【中華】"><unclear/><unclear/></rdg></app>反躁謂擾動不
+<lb ed="C" n="0082c20"/><entry><form>躁動</form><cb:def><p xml:id="pC057p0082c2003" style="margin-left:1em" cb:place="inline">又作趮同<note 
+n="0082c2001" resp="CBETA" type="add">祖到【CB】，<unclear/><unclear/>【中華】</note><app n="0082c2001">
+  <lem wit="【CB】" resp="CBETA.maha">祖到</lem>
+  <rdg wit="【中華】"><unclear/><unclear/></rdg>
+</app>反躁謂擾動不
 <lb ed="C" n="0082c21"/>安靜也。</p></cb:def></entry>
 <lb ed="C" n="0082c22"/><entry><form>溉灌</form><cb:def><p xml:id="pC057p0082c2203" style="margin-left:1em" cb:place="inline">歌賚反說文溉灌也灌注也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0082c23"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十一卷</cb:mulu><head>第二十一卷</head>
@@ -5910,7 +6161,11 @@
 <lb ed="C" n="0083a16"/><entry><form>欝丞</form><cb:def><p xml:id="pC057p0083a1603" style="margin-left:1em" cb:place="inline">於物反下之媵之叔二反尓疋
 <lb ed="C" n="0083a17"/>欝盛氣也說文丞火氣上行也謂
 <lb ed="C" n="0083a18"/>熱氣丞出上<g ref="#CB09864"/>也。</p></cb:def></entry>
-<lb ed="C" n="0083a19"/><entry><form>飃<note n="0083a1901" resp="CBETA" type="add">颺【CB】，𩗺【中華】</note><app n="0083a1901"><lem wit="【CB】" resp="CBETA.maha">颺</lem><rdg wit="【中華】">𩗺</rdg></app></form><cb:def><p xml:id="pC057p0083a1903" style="margin-left:1em" cb:place="inline">余尚余章二反謂風所飛揚也。</p></cb:def></entry>
+<lb ed="C" n="0083a19"/><entry><form>飃<note 
+n="0083a1901" resp="CBETA" type="add">颺【CB】，𩗺【中華】</note><app n="0083a1901">
+  <lem wit="【CB】" resp="CBETA.maha">颺</lem>
+  <rdg wit="【中華】">𩗺</rdg>
+</app></form><cb:def><p xml:id="pC057p0083a1903" style="margin-left:1em" cb:place="inline">余尚余章二反謂風所飛揚也。</p></cb:def></entry>
 <lb ed="C" n="0083a20"/><entry><form>芬馥</form><cb:def><p xml:id="pC057p0083a2003" style="margin-left:1em" cb:place="inline">敷雲反下扶福反芬香和調也
 <lb ed="C" n="0083a21"/>馥香氣也。</p></cb:def></entry>
 <lb ed="C" n="0083a22"/><entry><form><g ref="#CB22732"/>逝</form><cb:def><p xml:id="pC057p0083a2203" style="margin-left:1em" cb:place="inline">又作夭同於矯反說文<g ref="#CB22732"/>屈也
@@ -6000,9 +6255,17 @@
 <lb ed="C" n="0084b10"/>染變故云可染也。</p></cb:def></entry>
 <lb ed="C" n="0084b11"/><entry><form>持毳</form><cb:def><p xml:id="pC057p0084b1103" style="margin-left:1em" cb:place="inline">充苪反字林細羊毛也狩細毛
 <lb ed="C" n="0084b12"/>亦曰毳也。</p></cb:def></entry>
-<lb ed="C" n="0084b13"/><entry><form><note n="0084b1301" resp="CBETA" type="add" note_key="C057.0084b13.01">坰【CB】【宮-CB】，垧【中華】</note><app n="0084b1301"><lem wit="【CB】【宮-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">坰<note type="cf1">《福州藏》（日本宮內庁書陵部藏大藏經第4938帖第19圖第3行）</note></lem><rdg wit="【中華】">垧</rdg></app>野</form><cb:def><p xml:id="pC057p0084b1303" style="margin-left:1em" cb:place="inline">公營反尓疋邑外謂之郊郊外
+<lb ed="C" n="0084b13"/><entry><form><note 
+n="0084b1301" resp="CBETA" type="add" note_key="C057.0084b13.01">坰【CB】【宮-CB】，垧【中華】</note><app n="0084b1301">
+  <lem wit="【CB】【宮-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">坰<note type="cf1">《福州藏》（日本宮內庁書陵部藏大藏經第4938帖第19圖第3行）</note></lem>
+  <rdg wit="【中華】">垧</rdg>
+</app>野</form><cb:def><p xml:id="pC057p0084b1303" style="margin-left:1em" cb:place="inline">公營反尓疋邑外謂之郊郊外
 <lb ed="C" n="0084b14"/>謂之牧牧外謂之林皆各七里林
-<lb ed="C" n="0084b15"/>外謂之<note n="0084b1501" resp="CBETA" type="add" note_key="C057.0084b15.04">坰坰【CB】【宮-CB】，垧垧【中華】</note><app n="0084b1501"><lem wit="【CB】【宮-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">坰坰<note type="cf1">《福州藏》（日本宮內庁書陵部藏大藏經第4938帖第19圖第4行）</note></lem><rdg wit="【中華】">垧垧</rdg></app>无里數設百里之國
+<lb ed="C" n="0084b15"/>外謂之<note 
+n="0084b1501" resp="CBETA" type="add" note_key="C057.0084b15.04">坰坰【CB】【宮-CB】，垧垧【中華】</note><app n="0084b1501">
+  <lem wit="【CB】【宮-CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">坰坰<note type="cf1">《福州藏》（日本宮內庁書陵部藏大藏經第4938帖第19圖第4行）</note></lem>
+  <rdg wit="【中華】">垧垧</rdg>
+</app>无里數設百里之國
 <lb ed="C" n="0084b16"/>邑五者之界也。</p></cb:def></entry>
 <lb ed="C" n="0084b17"/><entry><form>若擘</form><cb:def><p xml:id="pC057p0084b1703" style="margin-left:1em" cb:place="inline">補革反擘裂也廣疋擘分也。</p></cb:def></entry>
 <lb ed="C" n="0084b18"/><entry><form>婬佚</form><cb:def><p xml:id="pC057p0084b1803" style="margin-left:1em" cb:place="inline">三蒼亦作逸字同與一反蒼頡篇
@@ -6087,7 +6350,11 @@
 <lb ed="C" n="0085c01"/><entry><form>刖足</form><cb:def><p xml:id="pC057p0085c0103" style="margin-left:1em" cb:place="inline">古文跀𨀄二形同魚厥五刮二
 <lb ed="C" n="0085c02"/>反刖断足也。</p></cb:def></entry>
 <lb ed="C" n="0085c03"/><entry><form>劓鼻</form><cb:def><p xml:id="pC057p0085c0303" style="margin-left:1em" cb:place="inline">古文㓷同魚噐反字林劓割鼻也。</p></cb:def></entry>
-<lb ed="C" n="0085c04"/><entry><form>㰆袋</form><cb:def><p xml:id="pC057p0085c0403" style="margin-left:1em" cb:place="inline">埤蒼作<g ref="#CB22865"/>又作排同蒲戒反<note n="0085c0401" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0085c0401"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【中華】">鍜</rdg></app>
+<lb ed="C" n="0085c04"/><entry><form>㰆袋</form><cb:def><p xml:id="pC057p0085c0403" style="margin-left:1em" cb:place="inline">埤蒼作<g ref="#CB22865"/>又作排同蒲戒反<note 
+n="0085c0401" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0085c0401">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【中華】">鍜</rdg>
+</app>
 <lb ed="C" n="0085c05"/>家用炊火令熾者也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0085c06"/><cb:div type="other"><cb:mulu type="其他" level="3">第三十三卷</cb:mulu><head>第三十三卷</head>
 <lb ed="C" n="0085c07"/><entry><form>垣城</form><cb:def><p xml:id="pC057p0085c0703" style="margin-left:1em" cb:place="inline">于煩反四周牆也𥼶名云垣援也
@@ -6110,7 +6377,15 @@
 <pb ed="C" xml:id="C057.1163.0086a" n="0086a"/>
 <lb ed="C" n="0086a01"/><entry><form>霡霂</form><cb:def><p xml:id="pC057p0086a0103" style="margin-left:1em" cb:place="inline">音脉木尓疋小雨謂之霡霂今
 <lb ed="C" n="0086a02"/>流汗似之也。</p></cb:def></entry>
-<lb ed="C" n="0086a03"/><entry><form><note n="0086a0301" resp="CBETA" type="add">圮【CB】，圯【中華】</note><app n="0086a0301"><lem wit="【CB】" resp="CBETA.maha">圮</lem><rdg wit="【中華】">圯</rdg></app><g ref="#CB01513"/></form><cb:def><p xml:id="pC057p0086a0303" style="margin-left:1em" cb:place="inline">父羙反下耻格反<note n="0086a0302" resp="CBETA" type="add">圮【CB】，圯【中華】</note><app n="0086a0302"><lem wit="【CB】" resp="CBETA.maha">圮</lem><rdg wit="【中華】">圯</rdg></app>毀覆也<g ref="#CB01513"/>分裂也。</p></cb:def></entry>
+<lb ed="C" n="0086a03"/><entry><form><note 
+n="0086a0301" resp="CBETA" type="add">圮【CB】，圯【中華】</note><app n="0086a0301">
+  <lem wit="【CB】" resp="CBETA.maha">圮</lem>
+  <rdg wit="【中華】">圯</rdg>
+</app><g ref="#CB01513"/></form><cb:def><p xml:id="pC057p0086a0303" style="margin-left:1em" cb:place="inline">父羙反下耻格反<note 
+n="0086a0302" resp="CBETA" type="add">圮【CB】，圯【中華】</note><app n="0086a0302">
+  <lem wit="【CB】" resp="CBETA.maha">圮</lem>
+  <rdg wit="【中華】">圯</rdg>
+</app>毀覆也<g ref="#CB01513"/>分裂也。</p></cb:def></entry>
 <lb ed="C" n="0086a04"/><entry><form>蓊欝</form><cb:def><p xml:id="pC057p0086a0403" style="margin-left:1em" cb:place="inline">烏孔反下於屈反蓊盛㒵也欝
 <lb ed="C" n="0086a05"/>樹木藂生也。</p></cb:def></entry>
 <lb ed="C" n="0086a06"/><entry><form>巉巖</form><cb:def><p xml:id="pC057p0086a0603" style="margin-left:1em" cb:place="inline">仕咸反廣疋巉巖高也。</p></cb:def></entry>
@@ -6523,7 +6798,11 @@
 <lb ed="C" n="0091c05"/><entry><form>菅茅</form><cb:def><p xml:id="pC057p0091c0503" style="margin-left:1em" cb:place="inline">古顏反尓疋菅茅属也。</p></cb:def></entry>
 <lb ed="C" n="0091c06"/><entry><form>如鴆</form><cb:def><p xml:id="pC057p0091c0603" style="margin-left:1em" cb:place="inline">除禁反郭璞曰大如鵰紫綠色
 <lb ed="C" n="0091c07"/>長頸赤喙食虵也。</p></cb:def></entry>
-<lb ed="C" n="0091c08"/><entry><form>孓然</form><cb:def><p xml:id="pC057p0091c0803" style="margin-left:1em" cb:place="inline">居列反案孑猶單<note n="0091c0801" resp="CBETA" type="add">己【CB】，已【中華】</note><app n="0091c0801"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【中華】">已</rdg></app>孤獨也說
+<lb ed="C" n="0091c08"/><entry><form>孓然</form><cb:def><p xml:id="pC057p0091c0803" style="margin-left:1em" cb:place="inline">居列反案孑猶單<note 
+n="0091c0801" resp="CBETA" type="add">己【CB】，已【中華】</note><app n="0091c0801">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【中華】">已</rdg>
+</app>孤獨也說
 <lb ed="C" n="0091c09"/>文孓无右臂曰孓。</p></cb:def></entry>
 <lb ed="C" n="0091c10"/><entry><form>㳂流</form><cb:def><p xml:id="pC057p0091c1003" style="margin-left:1em" cb:place="inline">翼泉反字林從水而下曰㳂順
 <lb ed="C" n="0091c11"/>流也㳂亦緣也。</p></cb:def></entry>
@@ -6591,17 +6870,29 @@
 <pb ed="C" xml:id="C057.1163.0093b" n="0093b"/>
 <lb ed="C" n="0093b01"/><cb:mulu type="卷" n="23"/><cb:juan fun="open" n="23"><cb:jhead>一切經音義卷第二十三　　　轉</cb:jhead></cb:juan>
 <lb ed="C" n="0093b02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0093b03"/><list rend="no-marker"><item xml:id="itemC057p0093b0301">顯揚聖教論</item>
-<lb ed="C" n="0093b04"/><item xml:id="itemC057p0093b0401">對法論</item>
-<lb ed="C" n="0093b05"/><item xml:id="itemC057p0093b0501">攝大乘論</item>
-<lb ed="C" n="0093b06"/><item xml:id="itemC057p0093b0601">廣百論</item>
-<lb ed="C" n="0093b07"/><item xml:id="itemC057p0093b0701">佛地經論</item>
-<lb ed="C" n="0093b08"/><item xml:id="itemC057p0093b0801">掌<g ref="#CB13251"/>論</item>
-<lb ed="C" n="0093b09"/><item xml:id="itemC057p0093b0901">王法正理論</item>
-<lb ed="C" n="0093b10"/><item xml:id="itemC057p0093b1001">大乘成業論</item>
-<lb ed="C" n="0093b11"/><item xml:id="itemC057p0093b1101">正理門論</item>
-<lb ed="C" n="0093b12"/><item xml:id="itemC057p0093b1201">大乘五蘊論</item></list>
-<lb ed="C" n="0093b13"/><cb:div type="other"><cb:mulu type="其他" level="2">顯揚聖教論</cb:mulu><head>顯揚聖教論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0093b03"/><list rend="no-marker">
+  <item xml:id="itemC057p0093b0301">顯揚聖教論</item>
+<lb ed="C" n="0093b04"/>
+  <item xml:id="itemC057p0093b0401">對法論</item>
+<lb ed="C" n="0093b05"/>
+  <item xml:id="itemC057p0093b0501">攝大乘論</item>
+<lb ed="C" n="0093b06"/>
+  <item xml:id="itemC057p0093b0601">廣百論</item>
+<lb ed="C" n="0093b07"/>
+  <item xml:id="itemC057p0093b0701">佛地經論</item>
+<lb ed="C" n="0093b08"/>
+  <item xml:id="itemC057p0093b0801">掌<g ref="#CB13251"/>論</item>
+<lb ed="C" n="0093b09"/>
+  <item xml:id="itemC057p0093b0901">王法正理論</item>
+<lb ed="C" n="0093b10"/>
+  <item xml:id="itemC057p0093b1001">大乘成業論</item>
+<lb ed="C" n="0093b11"/>
+  <item xml:id="itemC057p0093b1101">正理門論</item>
+<lb ed="C" n="0093b12"/>
+  <item xml:id="itemC057p0093b1201">大乘五蘊論</item>
+</list>
+<lb ed="C" n="0093b13"/><cb:div type="other"><cb:mulu type="其他" level="2">顯揚聖教論</cb:mulu><head>顯揚聖教論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0093b14"/><entry><form>稽首</form><cb:def><p xml:id="pC057p0093b1403" style="margin-left:1em" cb:place="inline">古文<g ref="#CB22769"/>同苦礼反說文稽下首
 <lb ed="C" n="0093b15"/>也白虎通曰所以稽首何稽至也
 <lb ed="C" n="0093b16"/>首頭也言頭至地也周礼太柷辯
@@ -6880,10 +7171,15 @@
 <lb ed="C" n="0097b02"/><entry><form>艱難</form><cb:def><p xml:id="pC057p0097b0203" style="margin-left:1em" cb:place="inline">古閑反說文土難治也。</p></cb:def></entry>
 <lb ed="C" n="0097b03"/><entry><form>剖析</form><cb:def><p xml:id="pC057p0097b0303" style="margin-left:1em" cb:place="inline">普厚反剖猶破也中分為剖下
 <lb ed="C" n="0097b04"/>思狄反析分也。</p></cb:def></entry>
-<lb ed="C" n="0097b05"/><entry><form>波羅闍<note n="0097b0501" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0097b0501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>迦</form><cb:def><p xml:id="pC057p0097b0506" style="margin-left:1em" cb:place="inline">此云他勝謂破戒煩𢙉為
+<lb ed="C" n="0097b05"/><entry><form>波羅闍<note 
+n="0097b0501" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0097b0501">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>迦</form><cb:def><p xml:id="pC057p0097b0506" style="margin-left:1em" cb:place="inline">此云他勝謂破戒煩𢙉為
 <lb ed="C" n="0097b06"/>他勝於善法也舊云波羅夷義言
 <lb ed="C" n="0097b07"/>无餘若犯此戒永棄清眾故曰无餘。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0097b08"/><cb:div type="other"><cb:mulu type="其他" level="2">對法論</cb:mulu><head>對法論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0097b08"/><cb:div type="other"><cb:mulu type="其他" level="2">對法論</cb:mulu><head>對法論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0097b09"/><entry><form>爰發</form><cb:def><p xml:id="pC057p0097b0903" style="margin-left:1em" cb:place="inline">禹元反爰引也尒疋爰曰於于
 <lb ed="C" n="0097b10"/>皆語辞也韓詩爰發蹤之㒵也。</p></cb:def></entry>
 <lb ed="C" n="0097b11"/><entry><form>㕘綜</form><cb:def><p xml:id="pC057p0097b1103" style="margin-left:1em" cb:place="inline"><g ref="#CB04974"/>南反下祖送反謂㕘<g ref="#CB07554"/>其文
@@ -6978,7 +7274,11 @@
 <lb ed="C" n="0098c04"/><entry><form>財貨</form><cb:def><p xml:id="pC057p0098c0403" style="margin-left:1em" cb:place="inline">徂灾反所寶曰財金玉曰貨財
 <lb ed="C" n="0098c05"/>謂資生也亦財穀也。</p></cb:def></entry>
 <lb ed="C" n="0098c06"/><entry><form>大材</form><cb:def><p xml:id="pC057p0098c0603" style="margin-left:1em" cb:place="inline">在哉反材用也亦質性也凢木
-<lb ed="C" n="0098c07"/><note n="0098c0701" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0098c0701"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>斬伐可施工匠者曰材。</p></cb:def></entry>
+<lb ed="C" n="0098c07"/><note 
+n="0098c0701" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0098c0701">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>斬伐可施工匠者曰材。</p></cb:def></entry>
 <lb ed="C" n="0098c08"/><entry><form>又荷</form><cb:def><p xml:id="pC057p0098c0803" style="margin-left:1em" cb:place="inline">古文柯同胡歌胡可二反說文
 <lb ed="C" n="0098c09"/>柯揭擔也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0098c10"/><cb:div type="other"><cb:mulu type="其他" level="3">第五卷</cb:mulu><head>第五卷</head>
@@ -7146,7 +7446,8 @@
 <lb ed="C" n="0101a04"/><entry><form>闡陁論</form><cb:def><p xml:id="pC057p0101a0404" style="margin-left:1em" cb:place="inline">六論中第五名闡陁論𥼶作
 <lb ed="C" n="0101a05"/>首盧伽伽法謂佛弟子五通仙人
 <lb ed="C" n="0101a06"/>等說偈名首盧伽也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0101a07"/><cb:div type="other"><cb:mulu type="其他" level="2">攝大乘論</cb:mulu><head>攝大乘論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷<note place="inline">无性菩<g ref="#CB16765"/>𥼶</note></head>
+<lb ed="C" n="0101a07"/><cb:div type="other"><cb:mulu type="其他" level="2">攝大乘論</cb:mulu><head>攝大乘論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷<note place="inline">无性菩<g ref="#CB16765"/>𥼶</note></head>
 <lb ed="C" n="0101a08"/><entry><form>幖𢡠</form><cb:def><p xml:id="pC057p0101a0803" style="margin-left:1em" cb:place="inline">比遙反下尺志反舊音識与知
 <lb ed="C" n="0101a09"/>識同幖頭上幟也所以相別也通
 <lb ed="C" n="0101a10"/>俗文<g ref="#CB22713"/>号曰幖私記曰幟微音吁
@@ -7234,7 +7535,11 @@
 <lb ed="C" n="0102a20"/><entry><form>未嘗</form><cb:def><p xml:id="pC057p0102a2003" style="margin-left:1em" cb:place="inline">視羊反未嘗未曾也廣雅嘗暫
 <lb ed="C" n="0102a21"/>也試也。</p></cb:def></entry>
 <lb ed="C" n="0102a22"/><entry><form>率尒</form><cb:def><p xml:id="pC057p0102a2203" style="margin-left:1em" cb:place="inline">䟽律反尒疋率偱自也謂先以
-<lb ed="C" n="0102a23"/><note n="0102a2301" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0102a2301"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【中華】">巳</rdg></app>意而言也論語子路率尒而對
+<lb ed="C" n="0102a23"/><note 
+n="0102a2301" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0102a2301">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>意而言也論語子路率尒而對
 <pb ed="C" xml:id="C057.1163.0102b" n="0102b"/>
 <lb ed="C" n="0102b01"/>何晏曰先三人而對是也。</p></cb:def></entry>
 <lb ed="C" n="0102b02"/><entry><form>巨勝</form><cb:def><p xml:id="pC057p0102b0203" style="margin-left:1em" cb:place="inline">其吕反巨大也本草云胡麻粒
@@ -7243,7 +7548,11 @@
 <lb ed="C" n="0102b05"/>𢇁成文曰纈今謂西國有淡澀汁
 <lb ed="C" n="0102b06"/>點之成纈如此方蠟點纈也。</p></cb:def></entry>
 <lb ed="C" n="0102b07"/><entry><form><g ref="#CB09137"/>埵緣</form><cb:def><p xml:id="pC057p0102b0704" style="margin-left:1em" cb:place="inline">都果反此云已竟義如言澡
-<lb ed="C" n="0102b08"/>浴已飯食度山<note n="0102b0801" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0102b0801"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>度河也。</p></cb:def></entry>
+<lb ed="C" n="0102b08"/>浴已飯食度山<note 
+n="0102b0801" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0102b0801">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>度河也。</p></cb:def></entry>
 <lb ed="C" n="0102b09"/><entry><form>和糅</form><cb:def><p xml:id="pC057p0102b0903" style="margin-left:1em" cb:place="inline">古文𩚒粈二形同女救反廣雅
 <lb ed="C" n="0102b10"/>糅雜也今謂異色物相集曰糅。</p></cb:def></entry>
 <lb ed="C" n="0102b11"/><entry><form>彎弓</form><cb:def><p xml:id="pC057p0102b1103" style="margin-left:1em" cb:place="inline">烏環反開弓也小尒疋彎控引
@@ -7411,7 +7720,8 @@
 <lb ed="C" n="0104c05"/><entry><form>阿僧伽</form><cb:def><p xml:id="pC057p0104c0504" style="margin-left:1em" cb:place="inline">阿此云无僧伽此云著短聲
 <lb ed="C" n="0104c06"/>呼之若長聲呼之即云眾舊云僧
 <lb ed="C" n="0104c07"/>佉訛也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0104c08"/><cb:div type="other"><cb:mulu type="其他" level="2">廣百論</cb:mulu><head>廣百論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0104c08"/><cb:div type="other"><cb:mulu type="其他" level="2">廣百論</cb:mulu><head>廣百論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0104c09"/><entry><form><g ref="#CB21885"/>法</form><cb:def><p xml:id="pC057p0104c0903" style="margin-left:1em" cb:place="inline">似遵反尒疋<g ref="#CB21885"/>目也<g ref="#CB21885"/>行也亦
 <lb ed="C" n="0104c10"/>遍也巡歷也。</p></cb:def></entry>
 <lb ed="C" n="0104c11"/><entry><form>詎有</form><cb:def><p xml:id="pC057p0104c1103" style="margin-left:1em" cb:place="inline">渠據反詎何也未也謂未知辝也。</p></cb:def></entry>
@@ -7556,7 +7866,8 @@
 <lb ed="C" n="0106c06"/>澆也漬也。</p></cb:def></entry>
 <lb ed="C" n="0106c07"/><entry><form>殉命</form><cb:def><p xml:id="pC057p0106c0703" style="margin-left:1em" cb:place="inline">辝俊反漢書<g ref="#CB07330"/>瓚曰亡身從物
 <lb ed="C" n="0106c08"/>曰殉殉亦盡也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0106c09"/><cb:div type="other"><cb:mulu type="其他" level="2">佛地經論</cb:mulu><head>佛地經論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0106c09"/><cb:div type="other"><cb:mulu type="其他" level="2">佛地經論</cb:mulu><head>佛地經論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0106c10"/><entry><form>刧比拏王</form><cb:def><p xml:id="pC057p0106c1005" style="margin-left:1em" cb:place="inline">女家反南<g ref="#CB09529"/><g ref="#CB16765"/>羅國王名
 <lb ed="C" n="0106c11"/>也因緣廣如經說。</p></cb:def></entry>
 <lb ed="C" n="0106c12"/><entry><form>封主</form><cb:def><p xml:id="pC057p0106c1203" style="margin-left:1em" cb:place="inline">府用府逄二反字林封爵諸侯
@@ -7565,7 +7876,11 @@
 <lb ed="C" n="0106c15"/>五百里諸侯之地方四百里等也
 <lb ed="C" n="0106c16"/>起土為界曰封。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0106c17"/><cb:div type="other"><cb:mulu type="其他" level="3">第三卷</cb:mulu><head>第三卷</head>
-<lb ed="C" n="0106c18"/><entry><form>如鉆</form><cb:def><p xml:id="pC057p0106c1803" style="margin-left:1em" cb:place="inline">奇廉反通俗文<note n="0106c1801" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0106c1801"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【中華】">鍜</rdg></app>具曰鉆蒼頡
+<lb ed="C" n="0106c18"/><entry><form>如鉆</form><cb:def><p xml:id="pC057p0106c1803" style="margin-left:1em" cb:place="inline">奇廉反通俗文<note 
+n="0106c1801" resp="CBETA" type="add">鍛【CB】，鍜【中華】</note><app n="0106c1801">
+  <lem wit="【CB】" resp="CBETA.maha">鍛</lem>
+  <rdg wit="【中華】">鍜</rdg>
+</app>具曰鉆蒼頡
 <lb ed="C" n="0106c19"/>篇鉆持也。</p></cb:def></entry>
 <lb ed="C" n="0106c20"/><entry><form>補特伽羅</form><cb:def><p xml:id="pC057p0106c2005" style="margin-left:1em" cb:place="inline">此云數取趣謂數數徃来
 <lb ed="C" n="0106c21"/>諸趣也。</p></cb:def></entry></cb:div>
@@ -7588,7 +7903,8 @@
 <lb ed="C" n="0107a14"/><entry><form>底沙佛</form><cb:def><p xml:id="pC057p0107a1404" style="margin-left:1em" cb:place="inline">舊經中作弗沙佛同一也。</p></cb:def></entry>
 <lb ed="C" n="0107a15"/><entry><form>蘇達𨚗等</form><cb:def><p xml:id="pC057p0107a1505" style="margin-left:1em" cb:place="inline">亦作蘇陁沙拏此云善与
 <lb ed="C" n="0107a16"/>亦言好施舊云湏達拏訛也。</p></cb:def></entry></cb:div></cb:div>
-<lb ed="C" n="0107a17"/><cb:div type="other"><cb:mulu type="其他" level="2">掌<g ref="#CB13251"/>論</cb:mulu><head>掌<g ref="#CB13251"/>論</head><cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
+<lb ed="C" n="0107a17"/><cb:div type="other"><cb:mulu type="其他" level="2">掌<g ref="#CB13251"/>論</cb:mulu><head>掌<g ref="#CB13251"/>論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">上卷</cb:mulu><head>上卷</head>
 <lb ed="C" n="0107a18"/><entry><form>樊籠</form><cb:def><p xml:id="pC057p0107a1803" style="margin-left:1em" cb:place="inline">扶袁反案樊即籠也㽵子擇雉
 <lb ed="C" n="0107a19"/>不祈畜於樊中是也。</p></cb:def></entry>
 <lb ed="C" n="0107a20"/><entry><form>安膳𨚗藥</form><cb:def><p xml:id="pC057p0107a2005" style="margin-left:1em" cb:place="inline">舊作安禪𨚗此云眼藥。</p></cb:def></entry>
@@ -7656,7 +7972,15 @@
 <lb ed="C" n="0108a10"/><entry><form>躊躇</form><cb:def><p xml:id="pC057p0108a1003" style="margin-left:1em" cb:place="inline">腸留反下腸誅反廣雅躊躇猶
 <lb ed="C" n="0108a11"/>豫也亦躑躅也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0108a12"/><cb:div type="other"><cb:mulu type="其他" level="2">大乘五蘊論</cb:mulu><head>大乘五蘊論</head>
-<lb ed="C" n="0108a13"/><entry><form>尤<note n="0108a1301" resp="CBETA" type="add" note_key="C057.0108a13.02">䖧【CB】，蛆【中華】</note><app n="0108a1301"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">䖧</lem><rdg wit="【中華】">蛆</rdg></app></form><cb:def><p xml:id="pC057p0108a1303" style="margin-left:1em" cb:place="inline">有憂反下知列反尤亦怨也<note n="0108a1302" resp="CBETA" type="add" note_key="C057.0108a13.14">䖧【CB】，蛆【中華】</note><app n="0108a1302"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">䖧</lem><rdg wit="【中華】">蛆</rdg></app>
+<lb ed="C" n="0108a13"/><entry><form>尤<note 
+n="0108a1301" resp="CBETA" type="add" note_key="C057.0108a13.02">䖧【CB】，蛆【中華】</note><app n="0108a1301">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">䖧</lem>
+  <rdg wit="【中華】">蛆</rdg>
+</app></form><cb:def><p xml:id="pC057p0108a1303" style="margin-left:1em" cb:place="inline">有憂反下知列反尤亦怨也<note 
+n="0108a1302" resp="CBETA" type="add" note_key="C057.0108a13.14">䖧【CB】，蛆【中華】</note><app n="0108a1302">
+  <lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">䖧</lem>
+  <rdg wit="【中華】">蛆</rdg>
+</app>
 <lb ed="C" n="0108a14"/>痛也虫行毒也。</p></cb:def></entry>
 <lb ed="C" n="0108a15"/><entry><form>倨傲</form><cb:def><p xml:id="pC057p0108a1503" style="margin-left:1em" cb:place="inline">居預反下五到反說文倨不遜
 <lb ed="C" n="0108a16"/>也傲不恭敬也廣雅倨傲㑥𢢔也。</p></cb:def></entry>
@@ -7669,7 +7993,9 @@
 <pb ed="C" xml:id="C057.1163.0110b" n="0110b"/>
 <lb ed="C" n="0110b01"/><cb:mulu type="卷" n="24"/><cb:juan fun="open" n="24"><cb:jhead>一切經音義卷第二十四　　　轉</cb:jhead></cb:juan>
 <lb ed="C" n="0110b02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0110b03"/><cb:div type="other"><cb:mulu type="其他" level="1">大唐新譯　小乘論</cb:mulu></cb:div><cb:div type="other"><cb:mulu type="其他" level="2">阿毗達磨俱舍論</cb:mulu><head>阿毗達磨俱舍論</head><cb:div><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷<note place="inline">大唐新譯</note></head>
+<lb ed="C" n="0110b03"/><cb:div type="other"><cb:mulu type="其他" level="1">大唐新譯　小乘論</cb:mulu></cb:div>
+<cb:div type="other"><cb:mulu type="其他" level="2">阿毗達磨俱舍論</cb:mulu><head>阿毗達磨俱舍論</head>
+<cb:div><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷<note place="inline">大唐新譯</note></head>
 <lb ed="C" n="0110b04"/><entry><form>俱舍</form><cb:def><p xml:id="pC057p0110b0403" style="margin-left:1em" cb:place="inline">此翻云藏則倉庫繭韒之捴名
 <lb ed="C" n="0110b05"/>也舍含藏義一故以名焉繭音公
 <lb ed="C" n="0110b06"/><g ref="#CB21867"/>反韒音私妙反刀室也藏有多
@@ -7755,7 +8081,11 @@
 <lb ed="C" n="0111b15"/>氷以何為化但石之類耳。</p></cb:def></entry>
 <lb ed="C" n="0111b16"/><entry><form>摣掣</form><cb:def><p xml:id="pC057p0111b1603" style="margin-left:1em" cb:place="inline">又作抯同側加反下又作挈同
 <lb ed="C" n="0111b17"/>充世反𥼶名摣叉也謂五指俱徃
-<lb ed="C" n="0111b18"/>叉取也掣制也制頓之使順<note n="0111b1801" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0111b1801"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【中華】">巳</rdg></app>也
+<lb ed="C" n="0111b18"/>叉取也掣制也制頓之使順<note 
+n="0111b1801" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0111b1801">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>也
 <lb ed="C" n="0111b19"/>掣亦牽也。</p></cb:def></entry>
 <lb ed="C" n="0111b20"/><entry><form><g ref="#CB01475"/>石</form><cb:def><p xml:id="pC057p0111b2003" style="margin-left:1em" cb:place="inline">徂茲反埤蒼<g ref="#CB01475"/>石也謂吸䥫石也。</p></cb:def></entry>
 <lb ed="C" n="0111b21"/><entry><form>拊手</form><cb:def><p xml:id="pC057p0111b2103" style="margin-left:1em" cb:place="inline">芳主反拊猶拍也廣疋拊擊也
@@ -7810,8 +8140,20 @@
 <lb ed="C" n="0112a22"/><entry><form>未嘗</form><cb:def><p xml:id="pC057p0112a2203" style="margin-left:1em" cb:place="inline">視羊反廣疋嘗試也暫也先也
 <lb ed="C" n="0112a23"/>未嘗亦未曾也。</p></cb:def></entry>
 <pb ed="C" xml:id="C057.1163.0112b" n="0112b"/>
-<lb ed="C" n="0112b01"/><entry><form><note n="0112b0101" resp="CBETA" type="add" note_key="C057.0112b01.01">諂【CB】，謟【中華】</note><app n="0112b0101"><lem wit="【CB】" resp="CBETA.liyi">諂<note type="cf1">T29n1558_p0020a16</note></lem><rdg wit="【中華】">謟</rdg></app>誑</form><cb:def><p xml:id="pC057p0112b0103" style="margin-left:1em" cb:place="inline">丑舟反希其意道其言謂之<note n="0112b0102" resp="CBETA" type="add" note_key="C057.0112b01.14">諂【CB】，謟【中華】</note><app n="0112b0102"><lem wit="【CB】" resp="CBETA.liyi">諂<note type="cf1">T29n1558_p0020a16</note></lem><rdg wit="【中華】">謟</rdg></app>
-<lb ed="C" n="0112b02"/>謂傾身以有下也<note n="0112b0201" resp="CBETA" type="add" note_key="C057.0112b02.08">諂【CB】，謟【中華】</note><app n="0112b0201"><lem wit="【CB】" resp="CBETA.liyi">諂<note type="cf1">T29n1558_p0020a16</note></lem><rdg wit="【中華】">謟</rdg></app>亦倿也誑惑
+<lb ed="C" n="0112b01"/><entry><form><note 
+n="0112b0101" resp="CBETA" type="add" note_key="C057.0112b01.01">諂【CB】，謟【中華】</note><app n="0112b0101">
+  <lem wit="【CB】" resp="CBETA.liyi">諂<note type="cf1">T29n1558_p0020a16</note></lem>
+  <rdg wit="【中華】">謟</rdg>
+</app>誑</form><cb:def><p xml:id="pC057p0112b0103" style="margin-left:1em" cb:place="inline">丑舟反希其意道其言謂之<note 
+n="0112b0102" resp="CBETA" type="add" note_key="C057.0112b01.14">諂【CB】，謟【中華】</note><app n="0112b0102">
+  <lem wit="【CB】" resp="CBETA.liyi">諂<note type="cf1">T29n1558_p0020a16</note></lem>
+  <rdg wit="【中華】">謟</rdg>
+</app>
+<lb ed="C" n="0112b02"/>謂傾身以有下也<note 
+n="0112b0201" resp="CBETA" type="add" note_key="C057.0112b02.08">諂【CB】，謟【中華】</note><app n="0112b0201">
+  <lem wit="【CB】" resp="CBETA.liyi">諂<note type="cf1">T29n1558_p0020a16</note></lem>
+  <rdg wit="【中華】">謟</rdg>
+</app>亦倿也誑惑
 <lb ed="C" n="0112b03"/>也欺也。</p></cb:def></entry>
 <lb ed="C" n="0112b04"/><entry><form><g ref="#CB09510"/>亂</form><cb:def><p xml:id="pC057p0112b0403" style="margin-left:1em" cb:place="inline">居<g ref="#CB00794"/>反謂假詐誑惑也說文槗
 <lb ed="C" n="0112b05"/>擅也擅稱上命曰槗字體從手今
@@ -7989,7 +8331,11 @@
 <lb ed="C" n="0114c09"/><cb:div type="other"><cb:mulu type="其他" level="3">第十卷</cb:mulu><head>第十卷</head>
 <lb ed="C" n="0114c10"/><entry><form>龍鎮</form><cb:def><p xml:id="pC057p0114c1003" style="margin-left:1em" cb:place="inline">知陣反又音<g ref="#CB13251"/>說文鎮壓也亦
 <lb ed="C" n="0114c11"/>安也廣疋鎮重也。</p></cb:def></entry>
-<lb ed="C" n="0114c12"/><entry><form>部多</form><cb:def><p xml:id="pC057p0114c1203" style="margin-left:1em" cb:place="inline"><note n="0114c1201" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0114c1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>生義含多解故仍置本名。</p></cb:def></entry>
+<lb ed="C" n="0114c12"/><entry><form>部多</form><cb:def><p xml:id="pC057p0114c1203" style="margin-left:1em" cb:place="inline"><note 
+n="0114c1201" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0114c1201">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>生義含多解故仍置本名。</p></cb:def></entry>
 <lb ed="C" n="0114c13"/><entry><form>飢<g ref="#CB14005"/></form><cb:def><p xml:id="pC057p0114c1303" style="margin-left:1em" cb:place="inline">古文作𩚮又作饑同几治反尓
 <lb ed="C" n="0114c14"/>疋穀不熟為飢<g ref="#CB12864"/>不熟為饉案凢
 <lb ed="C" n="0114c15"/>草木可食者通名<g ref="#CB12864"/>菜。</p></cb:def></entry>
@@ -8176,19 +8522,31 @@
 <lb ed="C" n="0117b04"/><entry><form>欝馥</form><cb:def><p xml:id="pC057p0117b0403" style="margin-left:1em" cb:place="inline">於勿反下扶楅反尓疋欝氣也
 <lb ed="C" n="0117b05"/>欝然香氣盛出也。</p></cb:def></entry>
 <lb ed="C" n="0117b06"/><entry><form>猖狂</form><cb:def><p xml:id="pC057p0117b0603" style="margin-left:1em" cb:place="inline">齒楊反謂變易情性也亦狂騃
-<lb ed="C" n="0117b07"/>也㽵子猖狂<note n="0117b0701" resp="CBETA" type="add" note_key="C057.0117b07.06">妄【CB】，妾【中華】</note><app n="0117b0701"><lem wit="【CB】" resp="CBETA.ting">妄<note type="cf1">K43n1498_p0349b08</note></lem><rdg wit="【中華】">妾</rdg></app>行也。</p></cb:def></entry>
+<lb ed="C" n="0117b07"/>也㽵子猖狂<note 
+n="0117b0701" resp="CBETA" type="add" note_key="C057.0117b07.06">妄【CB】，妾【中華】</note><app n="0117b0701">
+  <lem wit="【CB】" resp="CBETA.ting">妄<note type="cf1">K43n1498_p0349b08</note></lem>
+  <rdg wit="【中華】">妾</rdg>
+</app>行也。</p></cb:def></entry>
 <lb ed="C" n="0117b08"/><entry><form>銓量</form><cb:def><p xml:id="pC057p0117b0803" style="margin-left:1em" cb:place="inline">又作硂同七泉反廣疋稱謂之
 <lb ed="C" n="0117b09"/>銓言知輕重也漢書應劭曰銓稱
 <lb ed="C" n="0117b10"/>衡也量斗斛也。</p></cb:def></entry>
 <lb ed="C" n="0117b11"/><entry><form>貧遺</form><cb:def><p xml:id="pC057p0117b1103" style="margin-left:1em" cb:place="inline">渠愧反无財曰貧乏財曰遺遺
 <lb ed="C" n="0117b12"/>亦竭也。</p></cb:def></entry>
-<lb ed="C" n="0117b13"/><entry><form>輟其</form><cb:def><p xml:id="pC057p0117b1303" style="margin-left:1em" cb:place="inline">丁劣反輟止也尓疋輟<note n="0117b1301" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0117b1301"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>也。</p></cb:def></entry>
+<lb ed="C" n="0117b13"/><entry><form>輟其</form><cb:def><p xml:id="pC057p0117b1303" style="margin-left:1em" cb:place="inline">丁劣反輟止也尓疋輟<note 
+n="0117b1301" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0117b1301">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>也。</p></cb:def></entry>
 <lb ed="C" n="0117b14"/><entry><form>訶梨怛雞</form><cb:def><p xml:id="pC057p0117b1405" style="margin-left:1em" cb:place="inline">舊言呵𥟦勒翻為天主持
 <lb ed="C" n="0117b15"/>来此果堪為藥分功用極多如此
 <lb ed="C" n="0117b16"/>土人㕘石斛等也。</p></cb:def></entry>
 <lb ed="C" n="0117b17"/><entry><form>殷淨</form><cb:def><p xml:id="pC057p0117b1703" style="margin-left:1em" cb:place="inline">於斤反詩云殷其盈矣傳曰殷
 <lb ed="C" n="0117b18"/>眾也殷大也。</p></cb:def></entry>
-<lb ed="C" n="0117b19"/><entry><form>霖<g ref="#CB21945"/></form><cb:def><p xml:id="pC057p0117b1903" style="margin-left:1em" cb:place="inline">力金反左傳雨自三日<note n="0117b1901" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0117b1901"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【中華】">巳</rdg></app>上為
+<lb ed="C" n="0117b19"/><entry><form>霖<g ref="#CB21945"/></form><cb:def><p xml:id="pC057p0117b1903" style="margin-left:1em" cb:place="inline">力金反左傳雨自三日<note 
+n="0117b1901" resp="CBETA" type="add">已【CB】，巳【中華】</note><app n="0117b1901">
+  <lem wit="【CB】" resp="CBETA.maha">已</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>上為
 <lb ed="C" n="0117b20"/>霖尓疋久雨謂之<g ref="#CB21945"/><g ref="#CB21945"/>謂之霖。</p></cb:def></entry>
 <lb ed="C" n="0117b21"/><entry><form>瞖目</form><cb:def><p xml:id="pC057p0117b2103" style="margin-left:1em" cb:place="inline">一計反韻集云目障病也說文
 <lb ed="C" n="0117b22"/>作翳目病生翳也。</p></cb:def></entry></cb:div>
@@ -8345,8 +8703,16 @@
 <lb ed="C" n="0119c05"/>燡音亦。</p></cb:def></entry>
 <lb ed="C" n="0119c06"/><entry><form>末度迦果</form><cb:def><p xml:id="pC057p0119c0605" style="margin-left:1em" cb:place="inline">謨鉢反舊云摩頭此言美
 <lb ed="C" n="0119c07"/>果也。</p></cb:def></entry>
-<lb ed="C" n="0119c08"/><entry><form>賃婆果</form><cb:def><p xml:id="pC057p0119c0804" style="margin-left:1em" cb:place="inline">女<g ref="#CB11803"/>反形如此大苦<note n="0119c0801" resp="CBETA" type="add" note_key="C057.0119c08.12">楝【CB】，棟【中華】</note><app n="0119c0801"><lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0479a07</note></lem><rdg wit="【中華】">棟</rdg></app>樹也
-<lb ed="C" n="0119c09"/><note n="0119c0901" resp="CBETA" type="add" note_key="C057.0119c09.01">楝【CB】，棟【中華】</note><app n="0119c0901"><lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0479a07</note></lem><rdg wit="【中華】">棟</rdg></app>音力見反。</p></cb:def></entry>
+<lb ed="C" n="0119c08"/><entry><form>賃婆果</form><cb:def><p xml:id="pC057p0119c0804" style="margin-left:1em" cb:place="inline">女<g ref="#CB11803"/>反形如此大苦<note 
+n="0119c0801" resp="CBETA" type="add" note_key="C057.0119c08.12">楝【CB】，棟【中華】</note><app n="0119c0801">
+  <lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0479a07</note></lem>
+  <rdg wit="【中華】">棟</rdg>
+</app>樹也
+<lb ed="C" n="0119c09"/><note 
+n="0119c0901" resp="CBETA" type="add" note_key="C057.0119c09.01">楝【CB】，棟【中華】</note><app n="0119c0901">
+  <lem wit="【CB】" resp="CBETA.maha">楝<note type="cf1">T54n2128_p0479a07</note></lem>
+  <rdg wit="【中華】">棟</rdg>
+</app>音力見反。</p></cb:def></entry>
 <lb ed="C" n="0119c10"/><entry><form>䭾都</form><cb:def><p xml:id="pC057p0119c1003" style="margin-left:1em" cb:place="inline">徒餓反謂堅實也此亦如来體
 <lb ed="C" n="0119c11"/>骨舍利之異名耳。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0119c12"/><cb:div type="other"><cb:mulu type="其他" level="3">第十九卷</cb:mulu><head>第十九卷</head>
@@ -8501,7 +8867,8 @@
 <pb ed="C" xml:id="C057.1163.0124b" n="0124b"/>
 <lb ed="C" n="0124b01"/><cb:mulu type="卷" n="25"/><cb:juan fun="open" n="25"><cb:jhead>一切經音義卷第二十五<note place="inline">小乘</note>　　　　轉</cb:jhead></cb:juan>
 <lb ed="C" n="0124b02"/><byline cb:type="author">翻經沙門玄應撰</byline>
-<lb ed="C" n="0124b03"/><cb:div type="other"><cb:mulu type="其他" level="2">阿毗達磨順正理論</cb:mulu><head>阿毗達磨順正理論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
+<lb ed="C" n="0124b03"/><cb:div type="other"><cb:mulu type="其他" level="2">阿毗達磨順正理論</cb:mulu><head>阿毗達磨順正理論</head>
+<cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
 <lb ed="C" n="0124b04"/><entry><form>嘉瑞</form><cb:def><p xml:id="pC057p0124b0403" style="margin-left:1em" cb:place="inline">賈遐反下時惴反邇雅云嘉善
 <lb ed="C" n="0124b05"/>也美也蒼頡篇瑞應也信也言有
 <lb ed="C" n="0124b06"/>善美之德即應之以信瑞也。</p></cb:def></entry>
@@ -8531,7 +8898,11 @@
 <lb ed="C" n="0124c07"/><cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
 <lb ed="C" n="0124c08"/><entry><form>苕然</form><cb:def><p xml:id="pC057p0124c0803" style="margin-left:1em" cb:place="inline">徒彫反苕遰也遠也遰音徒計反。</p></cb:def></entry>
 <lb ed="C" n="0124c09"/><entry><form>瞿波洛迦</form><cb:def><p xml:id="pC057p0124c0905" style="margin-left:1em" cb:place="inline">此云牧牛經也。</p></cb:def></entry>
-<lb ed="C" n="0124c10"/><entry><form><note n="0124c1001" resp="CBETA" type="add">窣【CB】，𡨧【中華】</note><app n="0124c1001"><lem wit="【CB】" resp="CBETA.maha">窣</lem><rdg wit="【中華】">𡨧</rdg></app>堵波</form><cb:def><p xml:id="pC057p0124c1004" style="margin-left:1em" cb:place="inline">蘇沒反下都古反此云廟或
+<lb ed="C" n="0124c10"/><entry><form><note 
+n="0124c1001" resp="CBETA" type="add">窣【CB】，𡨧【中華】</note><app n="0124c1001">
+  <lem wit="【CB】" resp="CBETA.maha">窣</lem>
+  <rdg wit="【中華】">𡨧</rdg>
+</app>堵波</form><cb:def><p xml:id="pC057p0124c1004" style="margin-left:1em" cb:place="inline">蘇沒反下都古反此云廟或
 <lb ed="C" n="0124c11"/>云墳或言聚相謂累石等高以為
 <lb ed="C" n="0124c12"/>相也舊言藪斗波或云偷婆又言
 <lb ed="C" n="0124c13"/>塔婆皆方夏輕重耳。</p></cb:def></entry></cb:div>
@@ -8555,7 +8926,11 @@
 <lb ed="C" n="0125a07"/><entry><form>頑嚚</form><cb:def><p xml:id="pC057p0125a0703" style="margin-left:1em" cb:place="inline">五鱞反魚巾反廣疋頑<g ref="#CB23028"/>也蒼
 <lb ed="C" n="0125a08"/>頡篇嚚𢙣也左傳心不惻德義之
 <lb ed="C" n="0125a09"/>經為頑口不道忠信之言曰嚚。</p></cb:def></entry>
-<lb ed="C" n="0125a10"/><entry><form>逞<note n="0125a1001" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0125a1001"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【中華】">巳</rdg></app></form><cb:def><p xml:id="pC057p0125a1003" style="margin-left:1em" cb:place="inline">丑井反說文逞通也小尓疋逞
+<lb ed="C" n="0125a10"/><entry><form>逞<note 
+n="0125a1001" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0125a1001">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app></form><cb:def><p xml:id="pC057p0125a1003" style="margin-left:1em" cb:place="inline">丑井反說文逞通也小尓疋逞
 <lb ed="C" n="0125a11"/>快也方言自開而東曰逞江淮陳
 <lb ed="C" n="0125a12"/>楚之閒曰好也。</p></cb:def></entry>
 <lb ed="C" n="0125a13"/><entry><form>聡叡</form><cb:def><p xml:id="pC057p0125a1303" style="margin-left:1em" cb:place="inline">以芮反聡聽<g ref="#CB13287"/>也叡智識也又
@@ -8754,7 +9129,11 @@
 <lb ed="C" n="0127c14"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十六卷</cb:mulu><head>第二十六卷</head>
 <lb ed="C" n="0127c15"/><entry><form>苟欲</form><cb:def><p xml:id="pC057p0127c1503" style="margin-left:1em" cb:place="inline">公厚反廣雅苟且也亦誠也。</p></cb:def></entry>
 <lb ed="C" n="0127c16"/><entry><form>言詞</form><cb:def><p xml:id="pC057p0127c1603" style="margin-left:1em" cb:place="inline">魚鞬反下似資反直言曰言言
-<lb ed="C" n="0127c17"/><note n="0127c1701" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0127c1701"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【中華】">巳</rdg></app>事也荅述為語為人說也礼記
+<lb ed="C" n="0127c17"/><note 
+n="0127c1701" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0127c1701">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>事也荅述為語為人說也礼記
 <lb ed="C" n="0127c18"/>三年之喪言而不語是也言亦云
 <lb ed="C" n="0127c19"/>也發端也說文詞者意內而言外
 <lb ed="C" n="0127c20"/>也亦審言語也。</p></cb:def></entry></cb:div>
@@ -8786,7 +9165,11 @@
 <lb ed="C" n="0128a22"/><entry><form>齊心</form><cb:def><p xml:id="pC057p0128a2203" style="margin-left:1em" cb:place="inline">昨迷反說文毗齊人齊也字從
 <lb ed="C" n="0128a23"/>肉毗音蒲迷反。</p></cb:def></entry>
 <pb ed="C" xml:id="C057.1163.0128b" n="0128b"/>
-<lb ed="C" n="0128b01"/><entry><form>譏<note n="0128b0101" resp="CBETA" type="add">刺【CB】，剌【中華】</note><app n="0128b0101"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【中華】">剌</rdg></app></form><cb:def><p xml:id="pC057p0128b0103" style="margin-left:1em" cb:place="inline">居衣反下又作諫同且漬反廣
+<lb ed="C" n="0128b01"/><entry><form>譏<note 
+n="0128b0101" resp="CBETA" type="add">刺【CB】，剌【中華】</note><app n="0128b0101">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【中華】">剌</rdg>
+</app></form><cb:def><p xml:id="pC057p0128b0103" style="margin-left:1em" cb:place="inline">居衣反下又作諫同且漬反廣
 <lb ed="C" n="0128b02"/>雅譏㓨也說文譏誹也。</p></cb:def></entry>
 <lb ed="C" n="0128b03"/><entry><form>數瞚</form><cb:def><p xml:id="pC057p0128b0303" style="margin-left:1em" cb:place="inline">又作瞬同尸閏反說文瞚目開
 <lb ed="C" n="0128b04"/>閇數搖也。</p></cb:def></entry></cb:div>
@@ -8875,8 +9258,16 @@
 <lb ed="C" n="0129b15"/>而且甜堪入藥分。</p></cb:def></entry>
 <lb ed="C" n="0129b16"/><entry><form>主宰</form><cb:def><p xml:id="pC057p0129b1603" style="margin-left:1em" cb:place="inline">祖待反礼記宰夫為獻主謂主
 <lb ed="C" n="0129b17"/>膳食之官也。</p></cb:def></entry>
-<lb ed="C" n="0129b18"/><entry><form>擅立</form><cb:def><p xml:id="pC057p0129b1803" style="margin-left:1em" cb:place="inline">市戰反廣雅擅專也專<note n="0129b1801" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0129b1801"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【中華】">巳</rdg></app>自為也。</p></cb:def></entry>
-<lb ed="C" n="0129b19"/><entry><form>專<note n="0129b1901" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0129b1901"><lem wit="【CB】" resp="CBETA.maha">己</lem><rdg wit="【中華】">巳</rdg></app></form><cb:def><p xml:id="pC057p0129b1903" style="margin-left:1em" cb:place="inline">之緣反專猶自是也專壹也任也。</p></cb:def></entry></cb:div>
+<lb ed="C" n="0129b18"/><entry><form>擅立</form><cb:def><p xml:id="pC057p0129b1803" style="margin-left:1em" cb:place="inline">市戰反廣雅擅專也專<note 
+n="0129b1801" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0129b1801">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app>自為也。</p></cb:def></entry>
+<lb ed="C" n="0129b19"/><entry><form>專<note 
+n="0129b1901" resp="CBETA" type="add">己【CB】，巳【中華】</note><app n="0129b1901">
+  <lem wit="【CB】" resp="CBETA.maha">己</lem>
+  <rdg wit="【中華】">巳</rdg>
+</app></form><cb:def><p xml:id="pC057p0129b1903" style="margin-left:1em" cb:place="inline">之緣反專猶自是也專壹也任也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0129b20"/><cb:div type="other"><cb:mulu type="其他" level="3">第三十四卷</cb:mulu><head>第三十四卷</head>
 <lb ed="C" n="0129b21"/><entry><form>屋宇</form><cb:def><p xml:id="pC057p0129b2103" style="margin-left:1em" cb:place="inline">古文㝢籀文𢉠同于甫反說文
 <lb ed="C" n="0129b22"/>宇屋邊檐也𥼶云宇羽也如鳥羽
@@ -9098,7 +9489,11 @@
 <lb ed="C" n="0132b22"/>非也。</p></cb:def></entry>
 <lb ed="C" n="0132b23"/><entry><form>傅藥</form><cb:def><p xml:id="pC057p0132b2303" style="margin-left:1em" cb:place="inline">方務反附也謂塗附也方言凢
 <pb ed="C" xml:id="C057.1163.0132c" n="0132c"/>
-<lb ed="C" n="0132c01"/>欲藥傅藥而毒<note n="0132c0101" resp="CBETA" type="add">刺【CB】，剌【中華】</note><app n="0132c0101"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【中華】">剌</rdg></app>是也。</p></cb:def></entry>
+<lb ed="C" n="0132c01"/>欲藥傅藥而毒<note 
+n="0132c0101" resp="CBETA" type="add">刺【CB】，剌【中華】</note><app n="0132c0101">
+  <lem wit="【CB】" resp="CBETA.maha">刺</lem>
+  <rdg wit="【中華】">剌</rdg>
+</app>是也。</p></cb:def></entry>
 <lb ed="C" n="0132c02"/><entry><form>萌牙</form><cb:def><p xml:id="pC057p0132c0203" style="margin-left:1em" cb:place="inline">古文氓同麦𥝷反廣雅萌始也
 <lb ed="C" n="0132c03"/>萌亦𡨋昧㒵也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0132c04"/><cb:div type="other"><cb:mulu type="其他" level="3">第七十卷</cb:mulu><head>第七十卷</head>
@@ -9148,5 +9543,9 @@
 <pb ed="C" xml:id="C057.1163.0133b" n="0133b"/>
 <lb ed="C" n="0133b01"/>云雨止曰晴晴亦精明也。</p></cb:def></entry></cb:div></cb:div></cb:div>
 <lb ed="C" n="0133b02"/>
-<lb ed="C" n="0133b03"/><cb:juan fun="close" n="25"><cb:jhead><note n="0133b0301" resp="CBETA" type="add">一【CB】，［－］【中華】</note><app n="0133b0301"><lem wit="【CB】" resp="CBETA.maha">一</lem><rdg wit="【中華】"><space quantity="0"/></rdg></app>切經音義卷第二十五</cb:jhead></cb:juan>
+<lb ed="C" n="0133b03"/><cb:juan fun="close" n="25"><cb:jhead><note 
+n="0133b0301" resp="CBETA" type="add">一【CB】，［－］【中華】</note><app n="0133b0301">
+  <lem wit="【CB】" resp="CBETA.maha">一</lem>
+  <rdg wit="【中華】"><space quantity="0"/></rdg>
+</app>切經音義卷第二十五</cb:jhead></cb:juan>
 </body></text></TEI>
