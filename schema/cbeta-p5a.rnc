@@ -6303,16 +6303,21 @@ tei_tt =
   
   ## Container element for parallel <t> elements
   element ns1:tt {
-    tei_macro.phraseSeq,
-    tei_t*,
-    
-    attribute type { text }?,
-    attribute word-count { text }?,
-    attribute from { text }?,
-    attribute to { text }?,
-    attribute rend { text }?,
-    attribute place { text }?,
+    ((tei_t | tei_lb | tei_pb)* | (tei_ttr | tei_lb | tei_pb)*),
+
+    attribute type { "app" | "tr" | "single-line" }?,
+
+    ## 字數
+    attribute word-count { xsd:nonNegativeInteger }?,
+    attribute place { "inline" }?,
     attribute n { text }?,
+    empty
+  }
+tei_ttr =
+
+  ## <tt> 中的一列 (row), 包含逐字對照的 <t>
+  element ns1:ttr {
+    mixed { (tei_t | tei_note | tei_app)* },
     empty
   }
 tei_t =
